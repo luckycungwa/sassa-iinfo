@@ -1,0 +1,6 @@
+{
+  "name": "SASSA Resource Platform",
+  "description": "South Africa's most trusted public social assistance knowledge base and interactive resource directory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
