@@ -1,0 +1,47 @@
+{
+  "id": "appeal-documents",
+  "slug": "/appeals/appeal-documents",
+  "classification": "appeal-guide",
+  "title": "Required Documents for SASSA Grant Appeal",
+  "description": "Complete checklist of documents you need to submit a successful SASSA grant appeal, including certification requirements and where to upload them.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Required Documents for SASSA Grant Appeal — Complete Checklist",
+    "metaDescription": "Complete document checklist for SASSA grant appeals: certified ID, 3 months bank statements, unemployment affidavit, UIF and NSFAS letters. What you need and how to submit.",
+    "keywords": ["SASSA appeal documents", "SASSA appeal checklist", "SASSA appeal requirements", "documents for ITSAA appeal", "SASSA appeal certification"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Required Documents for SASSA Grant Appeal" },
+    { "id": "intro", "type": "paragraph", "text": "Submitting the correct documents with your appeal is critical. Missing or incorrect documents are the most common reason for appeal delays or dismissals." },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "How to Prepare Your Documents" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Gather all documents", "description": "Gather all required documents before starting your appeal submission." },
+      { "title": "Get them certified", "description": "Ensure all documents are certified (stamped by SAPS or a commissioner of oaths)." },
+      { "title": "Upload clear copies", "description": "Upload clear scanned copies or photos of each document on the ITSAA portal." },
+      { "title": "Keep originals safe", "description": "Keep original copies in a safe place — you may need them for a follow-up office visit." }
+    ] },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Document Checklist" },
+    { "id": "checklist", "type": "document-checklist", "documents": [
+      { "label": "Certified copy of your 13-digit South African ID (front and back)", "required": true },
+      { "label": "Latest 3 months bank statements showing all deposits and withdrawals", "required": true },
+      { "label": "Unemployment affidavit sworn at a SAPS station", "required": true },
+      { "label": "UIF de-registration letter (UI-19 form) if applicable", "required": false },
+      { "label": "NSFAS cancellation or completion letter if applicable", "required": false },
+      { "label": "Medical report (for disability grant appeals only)", "required": false },
+      { "label": "Proof of address (utility bill or tribal authority letter)", "required": false }
+    ] },
+    { "id": "callout", "type": "callout", "intent": "info", "title": "Important Notes", "text": "Submit documents within 90 days of the decline letter. Certification must be dated within the last 6 months. Documents not certified or with expired certification will not be accepted." },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I upload documents after submitting my appeal?", "answer": "Yes. The ITSAA portal allows you to upload additional documents after submission. Look for the 'Upload Documents' option on your appeal dashboard." },
+      { "question": "Do I need a lawyer to prepare appeal documents?", "answer": "No. SASSA appeals are designed to be submitted without legal representation. The forms are straightforward and designed for self-representation." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Appeal Timeline", "slug": "/appeals/appeal-timeline" },
+    { "title": "Common Reasons for Decline", "slug": "/appeals/appeal-reasons" }
+  ]
+}

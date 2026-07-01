@@ -1,0 +1,38 @@
+{
+  "id": "eligibility-no-bank-account",
+  "slug": "/eligibility/i-have-no-bank-account",
+  "classification": "eligibility-guide",
+  "title": "SASSA Grants Without a Bank Account: Cash Collection Guide",
+  "description": "Complete guide on how to receive your SASSA grant if you do not have a personal bank account. Cash Send, retail collection, mobile pay points, and the SASSA card explained.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Grants Without a Bank Account — Cash Collection Guide",
+    "metaDescription": "Complete guide to receiving SASSA grants without a bank account. Learn about Cash Send retail collection, mobile pay points, and the SASSA card. No bank account needed.",
+    "keywords": ["SASSA without bank account", "SASSA cash collection", "SASSA no account", "SASSA Cash Send", "SASSA retail collection"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants Without a Bank Account: Cash Collection Guide" },
+    { "id": "intro", "type": "paragraph", "text": "Not having a bank account does not disqualify you from receiving SASSA grants. SASSA offers multiple cash collection methods including retail payouts and mobile pay points for unbanked beneficiaries." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "What You Need" },
+    { "id": "checklist", "type": "list", "ordered": false, "items": ["You do NOT need a bank account to receive a SASSA grant", "You need a valid South African ID or smart ID card", "You need a working cellphone number to receive SMS cash vouchers"] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Get Paid" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Apply for your grant", "description": "Apply for your grant online via the SRD portal or at a SASSA local office." },
+      { "title": "Select Cash Send", "description": "Select 'Cash Send' or 'Retail Collection' as your payment method during application." },
+      { "title": "Wait for SMS voucher", "description": "Once approved, wait for an SMS voucher from SASSA with a unique collection code." },
+      { "title": "Collect your cash", "description": "Take your ID and the SMS to any participating retailer (Pick n Pay, Boxer, Shoprite, Checkers, Usave) to collect your cash." }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How do I change from bank transfer to cash collection?", "answer": "Log into the SRD portal, go to 'Payment Method', and switch from 'Bank Transfer' to 'Cash Send'. Changes take effect from the next month." },
+      { "question": "Can someone else collect my grant using my SMS voucher?", "answer": "No. The retailer will verify your ID before releasing funds. Only the registered beneficiary can collect." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" },
+    { "title": "SASSA Card Explained", "slug": "/banking/sassa-card-explained" },
+    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" }
+  ]
+}

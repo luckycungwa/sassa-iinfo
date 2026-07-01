@@ -13,8 +13,8 @@ export default function PaymentCentre() {
     {
       grant: "Older Persons Grant (Pension)",
       dates: { july: "3 July 2026", august: "4 August 2026" },
-      color: "bg-emerald-50 border-emerald-200 text-emerald-800",
-      accent: "bg-emerald-800"
+      color: "bg-accent-light border-emerald-200 text-accent-dark",
+      accent: "bg-accent"
     },
     {
       grant: "Disability Grant",
@@ -62,7 +62,7 @@ export default function PaymentCentre() {
   return (
     <div className="space-y-8">
       {/* Hero Header */}
-      <div className="bg-gradient-to-r from-emerald-900 to-emerald-950 rounded-2xl p-6 md:p-8 text-white relative overflow-hidden shadow-lg border border-emerald-800/50">
+      <div className="bg-accent-dark rounded-xl p-6 md:p-8 text-white relative overflow-hidden border border-emerald-800/50">
         <div className="absolute right-0 top-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
         <div className="relative z-10 space-y-4 max-w-2xl">
           <span className="bg-amber-400 text-emerald-950 font-semibold px-3 py-1 rounded-full text-xs font-mono tracking-wide uppercase">
@@ -77,13 +77,13 @@ export default function PaymentCentre() {
           <div className="flex flex-wrap gap-3 pt-2">
             <button
               onClick={handlePrint}
-              className="flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-emerald-950 font-bold px-4 py-2.5 rounded-xl transition text-xs md:text-sm shadow-md"
+              className="flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-emerald-950 font-bold px-4 py-2.5 rounded-xl transition text-xs md:text-sm"
             >
               <Printer className="w-4 h-4" /> Printable Version
             </button>
             <button
               onClick={handleDownload}
-              className="flex items-center gap-2 bg-emerald-800 hover:bg-emerald-700 text-white font-medium px-4 py-2.5 rounded-xl transition text-xs md:text-sm border border-emerald-700"
+              className="flex items-center gap-2 bg-accent hover:bg-emerald-700 text-white font-medium px-4 py-2.5 rounded-xl transition text-xs md:text-sm border border-emerald-700"
             >
               {downloading ? (
                 <>
@@ -102,22 +102,22 @@ export default function PaymentCentre() {
       {/* Main Dates Layout Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* July 2026 */}
-        <div className="bg-white rounded-2xl border border-slate-100 p-6 shadow-sm space-y-6">
-          <div className="flex items-center justify-between border-b border-slate-100 pb-4">
+        <div className="bg-surface rounded-xl border border-border p-6 space-y-6">
+          <div className="flex items-center justify-between border-b border-border pb-4">
             <div className="flex items-center gap-2">
-              <div className="p-2 bg-emerald-50 text-emerald-800 rounded-xl">
+              <div className="p-2 bg-accent-light text-accent-dark rounded-xl">
                 <CalendarIcon className="w-5 h-5" />
               </div>
               <h2 className="font-bold text-lg text-slate-800">Current Month: July 2026</h2>
             </div>
-            <span className="text-xs font-mono text-slate-400">Next Payout Cycle</span>
+            <span className="text-xs font-mono text-muted">Next Payout Cycle</span>
           </div>
 
           <div className="space-y-4">
             {payDates.map((p, idx) => (
               <div
                 key={idx}
-                className={`p-4 rounded-xl border ${p.color} transition hover:shadow-sm flex items-start gap-3`}
+                className={`p-4 rounded-xl border ${p.color} transition flex items-start gap-3`}
               >
                 <div className={`w-2.5 h-10 rounded-full ${p.accent} mt-0.5`}></div>
                 <div className="flex-1">
@@ -130,22 +130,22 @@ export default function PaymentCentre() {
         </div>
 
         {/* August 2026 */}
-        <div className="bg-white rounded-2xl border border-slate-100 p-6 shadow-sm space-y-6">
-          <div className="flex items-center justify-between border-b border-slate-100 pb-4">
+        <div className="bg-surface rounded-xl border border-border p-6 space-y-6">
+          <div className="flex items-center justify-between border-b border-border pb-4">
             <div className="flex items-center gap-2">
               <div className="p-2 bg-amber-50 text-amber-600 rounded-xl">
                 <CalendarIcon className="w-5 h-5" />
               </div>
               <h2 className="font-bold text-lg text-slate-800">Next Month: August 2026</h2>
             </div>
-            <span className="text-xs font-mono text-slate-400">Provisional Dates</span>
+            <span className="text-xs font-mono text-muted">Provisional Dates</span>
           </div>
 
           <div className="space-y-4">
             {payDates.map((p, idx) => (
               <div
                 key={idx}
-                className={`p-4 rounded-xl border ${p.color} transition hover:shadow-sm flex items-start gap-3`}
+                className={`p-4 rounded-xl border ${p.color} transition flex items-start gap-3`}
               >
                 <div className={`w-2.5 h-10 rounded-full ${p.accent} mt-0.5`}></div>
                 <div className="flex-1">
@@ -170,18 +170,18 @@ export default function PaymentCentre() {
       </div>
 
       {/* Historical Archives */}
-      <div className="bg-white rounded-2xl border border-slate-100 p-6 shadow-sm space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-100 pb-4 gap-2">
+      <div className="bg-surface rounded-xl border border-border p-6 space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-border pb-4 gap-2">
           <div>
             <h2 className="font-bold text-base text-slate-800">Payment Date Archives</h2>
-            <p className="text-slate-500 text-xs">Verify historical payment release cycles for reference.</p>
+            <p className="text-muted text-xs">Verify historical payment release cycles for reference.</p>
           </div>
           <div className="flex gap-2">
             <button
               onClick={() => setSelectedYear("2026")}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
                 selectedYear === "2026"
-                  ? "bg-emerald-800 text-white"
+                  ? "bg-accent text-white"
                   : "bg-slate-100 text-slate-600 hover:bg-slate-200"
               }`}
             >
@@ -191,7 +191,7 @@ export default function PaymentCentre() {
               onClick={() => setSelectedYear("2025")}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
                 selectedYear === "2025"
-                  ? "bg-emerald-800 text-white"
+                  ? "bg-accent text-white"
                   : "bg-slate-100 text-slate-600 hover:bg-slate-200"
               }`}
             >
@@ -203,7 +203,7 @@ export default function PaymentCentre() {
         {selectedYear === "2026" ? (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs md:text-sm text-slate-700">
-              <thead className="bg-slate-50 text-slate-600 font-bold font-mono">
+              <thead className="bg-canvas text-slate-600 font-bold font-mono">
                 <tr>
                   <th className="p-3">Month (2026)</th>
                   <th className="p-3">Older Persons</th>
@@ -247,7 +247,7 @@ export default function PaymentCentre() {
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs md:text-sm text-slate-700">
-              <thead className="bg-slate-50 text-slate-600 font-bold font-mono">
+              <thead className="bg-canvas text-slate-600 font-bold font-mono">
                 <tr>
                   <th className="p-3">Month (2025)</th>
                   <th className="p-3">Older Persons</th>

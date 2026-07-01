@@ -1,0 +1,37 @@
+{
+  "id": "guide-means-test",
+  "slug": "/guides/understanding-means-test",
+  "classification": "how-to-guide",
+  "title": "Understanding the SASSA Means Test",
+  "description": "How the SASSA means test works, income thresholds for single and married applicants, asset limits, and how your grant eligibility is calculated.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Understanding the SASSA Means Test — Income Thresholds & Asset Limits",
+    "metaDescription": "Complete guide to the SASSA means test: income thresholds (R96,240 single, R192,480 married), asset limits (R1.37M single), and what counts as income for grant eligibility.",
+    "keywords": ["SASSA means test", "SASSA income threshold", "SASSA asset limit", "SASSA means test explained", "SASSA financial eligibility"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Understanding the SASSA Means Test" },
+    { "id": "intro", "type": "paragraph", "text": "The means test is a financial assessment SASSA uses to determine if your income and assets fall below the legal threshold for grant eligibility. It ensures grants go to those who need them most." },
+    { "id": "income-single-h", "type": "heading", "level": 3, "text": "Income Thresholds (Single)" },
+    { "id": "income-single", "type": "paragraph", "text": "For most grants: single applicants must have annual income below R96,240. For the SRD R370 grant: bank inflows must be below R624 per month." },
+    { "id": "income-married-h", "type": "heading", "level": 3, "text": "Income Thresholds (Married)" },
+    { "id": "income-married", "type": "paragraph", "text": "For married applicants: combined annual income must be below R192,480 (or R127,200 for Child Support Grant)." },
+    { "id": "assets-h", "type": "heading", "level": 3, "text": "Asset Limits" },
+    { "id": "assets", "type": "paragraph", "text": "Single applicant assets must be below R1,372,800. Married couple combined assets must be below R2,745,600. Assets include property (excluding primary residence), investments, savings, and vehicles." },
+    { "id": "income-types-h", "type": "heading", "level": 3, "text": "What Counts as Income?" },
+    { "id": "income-types", "type": "list", "ordered": false, "items": ["Salary and wages", "Pension payments", "Rental income", "Farm income", "Regular gifts or remittances", "UIF payments", "NSFAS allowances", "Interest from investments"] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Does SASSA check my bank account?", "answer": "Yes. SASSA has an automated system that reviews bank account deposits to verify income levels. This is how they detect 'Alternative Income Source'." },
+      { "question": "What happens if my income changes during the grant period?", "answer": "You must report any change in income to SASSA immediately. Your grant amount may be adjusted or cancelled if your income exceeds the threshold." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" },
+    { "title": "Common Decline Reasons", "slug": "/appeals/appeal-reasons" },
+    { "title": "Appeal After Income Source", "slug": "/appeals/appeal-after-income-source" }
+  ]
+}

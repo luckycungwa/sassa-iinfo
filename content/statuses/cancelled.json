@@ -1,0 +1,31 @@
+{
+  "id": "status-cancelled",
+  "slug": "/status/cancelled",
+  "classification": "status-meaning",
+  "title": "Cancelled — What It Means & How to Reinstate Your SASSA Grant",
+  "description": "Your SASSA grant shows 'Cancelled' — here is what this status means, common reasons for cancellation, and how to apply for reinstatement.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Cancelled — SASSA Grant Status Meaning & Reinstatement Guide",
+    "metaDescription": "Your SASSA grant shows 'Cancelled'? Learn why grants get cancelled, how to check if it was an error, and the steps to reinstate your cancelled SASSA grant.",
+    "keywords": ["SASSA cancelled", "SASSA grant cancelled", "SASSA cancelled meaning", "reinstate SASSA grant", "SASSA cancelled reinstatement"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Cancelled — What It Means" },
+    { "id": "intro", "type": "paragraph", "text": "The 'Cancelled' status means your SASSA grant is no longer active. This is a permanent status change, not a temporary hold. Understanding why your grant was cancelled is the first step toward getting it reinstated if you still qualify." },
+    { "id": "ref-block", "type": "status-reference", "statusName": "Cancelled", "explanation": "Your grant has been permanently stopped or archived in the SASSA system. Unlike 'Declined', which applies to a single month, 'Cancelled' means your entire grant registration has been deactivated.", "whyItHappens": ["You voluntarily cancelled your grant (e.g., you found employment)", "For child support: the child turned 18 and the grant automatically terminated", "You did not collect your grant payments for 3 consecutive months", "SASSA detected you qualify for a different grant type", "SASSA identified non-compliance with grant conditions", "Your grant was transferred to a different grant type"], "howLongItLasts": "Permanent until you file a formal reinstatement or submit a new application. A cancelled grant does not automatically reactivate.", "whatYouShouldDo": ["If this was a mistake: visit your nearest SASSA office to request reinstatement", "If you voluntarily cancelled: no action needed, but you can reapply if circumstances change", "If the child turned 18: the child support grant automatically ends, but the child can apply for other grants in their own name if eligible", "If you did not collect payments: explain your reason at a SASSA office and request reinstatement"], "relatedStatuses": [{ "name": "Declined", "slug": "declined" }, { "name": "Alternative Income Source", "slug": "alternative-income-source" }] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I reinstate a cancelled SASSA grant?", "answer": "Yes. Visit your nearest SASSA office with your ID and explain why your grant was cancelled. You will need to provide current financial documents to prove ongoing eligibility." },
+      { "question": "How long does reinstatement take?", "answer": "Reinstatement processing times vary. In most cases, it takes 2 to 4 weeks for a reinstatement to be processed and payments to resume." },
+      { "question": "My child's grant was cancelled when they turned 18. Can they still get paid?", "answer": "No. The Child Support Grant automatically terminates at age 18. However, if the child is still in secondary school, the grant may be extended to age 21 with a social worker's recommendation." },
+      { "question": "Can I apply for a new grant if mine was cancelled?", "answer": "Yes. You can submit a completely new application at any time if you meet the eligibility criteria." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Reinstate a Cancelled Grant", "slug": "/guides/how-to-reinstate-cancelled-grant" },
+    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" }
+  ]
+}

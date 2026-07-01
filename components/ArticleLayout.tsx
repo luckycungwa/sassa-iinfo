@@ -43,18 +43,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
             const fontStyle = {
               fontFamily: DESIGN_TOKENS.typography.families.primary,
             };
-            if (hLevel === 1) {
-              return (
-                <h1
-                  key={block.id}
-                  id={block.id}
-                  style={fontStyle}
-                  className="text-2xl md:text-3xl font-black text-slate-900 tracking-tight mt-6 mb-3 border-b border-slate-100 pb-2"
-                >
-                  {block.text}
-                </h1>
-              );
-            } else if (hLevel === 3) {
+            if (hLevel === 3) {
               return (
                 <h3
                   key={block.id}

@@ -29,8 +29,8 @@ export default function GrantLibrary() {
               }}
               className={`w-full text-left p-4 rounded-xl border transition flex items-center justify-between ${
                 selectedGrant.id === g.id
-                  ? "bg-emerald-800 border-emerald-950 text-white shadow-md font-semibold"
-                  : "bg-white border-slate-100 hover:border-slate-200 text-slate-700 hover:bg-slate-50"
+                  ? "bg-accent border-emerald-950 text-white font-semibold"
+                  : "bg-surface border-border hover:border-accent/40 text-slate-700 hover:bg-canvas"
               }`}
             >
               <div>
@@ -44,14 +44,14 @@ export default function GrantLibrary() {
       </div>
 
       {/* Grant Details Content Pane */}
-      <div className="lg:col-span-8 bg-white border border-slate-100 rounded-2xl p-6 md:p-8 shadow-sm space-y-6">
+      <div className="lg:col-span-8 bg-surface border border-border rounded-xl p-6 md:p-8 space-y-6">
         {/* Header Block */}
-        <div className="border-b border-slate-100 pb-6 space-y-3">
+        <div className="border-b border-border pb-6 space-y-3">
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <h1 className="text-2xl font-extrabold text-slate-900 tracking-tight">
+            <h1 className="text-2xl font-extrabold text-ink tracking-tight">
               {selectedGrant.title}
             </h1>
-            <div className="bg-emerald-50 text-emerald-800 border border-emerald-100 font-mono font-bold px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-sm">
+            <div className="bg-accent-light text-accent-dark border border-emerald-100 font-mono font-bold px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-sm">
               <Landmark className="w-4 h-4" />
               <span>{selectedGrant.amount} / month</span>
             </div>
@@ -66,7 +66,7 @@ export default function GrantLibrary() {
           {/* Eligibility */}
           <div className="space-y-3">
             <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-emerald-800" />
+              <CheckCircle className="w-4 h-4 text-accent-dark" />
               Eligibility Criteria
             </h3>
             <ul className="space-y-2 text-xs md:text-sm text-slate-600">
@@ -97,7 +97,7 @@ export default function GrantLibrary() {
         </div>
 
         {/* Application Process */}
-        <div className="bg-slate-50 rounded-xl p-5 border border-slate-100 space-y-3">
+        <div className="bg-canvas rounded-xl p-5 border border-border space-y-3">
           <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
             <BookOpen className="w-4 h-4 text-slate-800" />
             How To Apply
@@ -124,7 +124,7 @@ export default function GrantLibrary() {
         {selectedGrant.faqs && selectedGrant.faqs.length > 0 && (
           <div className="space-y-3">
             <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
-              <HelpCircle className="w-4 h-4 text-emerald-800" />
+              <HelpCircle className="w-4 h-4 text-accent-dark" />
               Frequently Asked Questions
             </h3>
             <div className="space-y-2 divide-y divide-slate-100">
@@ -132,7 +132,7 @@ export default function GrantLibrary() {
                 <div key={idx} className="pt-2.5 first:pt-0">
                   <button
                     onClick={() => toggleFaq(idx)}
-                    className="w-full text-left font-semibold text-sm text-slate-800 hover:text-emerald-800 flex justify-between items-center py-1.5"
+                    className="w-full text-left font-semibold text-sm text-slate-800 hover:text-accent-dark flex justify-between items-center py-1.5"
                   >
                     <span>{faq.question}</span>
                     {expandedFaq === idx ? (

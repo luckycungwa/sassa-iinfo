@@ -1,0 +1,32 @@
+{
+  "id": "appeal-outcomes",
+  "slug": "/appeals/appeal-outcomes",
+  "classification": "appeal-guide",
+  "title": "SASSA Appeal Outcomes: What Happens After You Appeal?",
+  "description": "Complete guide to possible SASSA appeal outcomes — Upheld, Dismissed, Partially Upheld, or Referred Back — and what each outcome means for your grant payments.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Appeal Outcomes — Upheld, Dismissed, or Partially Upheld?",
+    "metaDescription": "What happens after you appeal a SASSA grant decline? Learn about the four possible appeal outcomes: Upheld, Dismissed, Partially Upheld, and Referred Back. Includes backpay timeline.",
+    "keywords": ["SASSA appeal outcome", "SASSA appeal upheld", "SASSA appeal dismissed", "SASSA backpay after appeal", "SASSA appeal ruling"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Appeal Outcomes: What Happens After You Appeal?" },
+    { "id": "intro", "type": "paragraph", "text": "After ITSAA reviews your appeal, you will receive one of several possible outcomes. Understanding each outcome helps you plan your next steps." },
+    { "id": "outcomes-h", "type": "heading", "level": 3, "text": "Possible Outcomes" },
+    { "id": "outcomes", "type": "list", "ordered": false, "items": ["Upheld (Successful): The decline is overturned. SASSA must pay all backdated amounts within 14 business days.", "Dismissed (Unsuccessful): The decline stands. You may reapply fresh if your circumstances change.", "Partially Upheld: Some months are approved, others remain declined (common for SRD appeals).", "Referred Back: The tribunal sends the case back to SASSA for re-evaluation with instructions."] },
+    { "id": "callout", "type": "callout", "intent": "info", "title": "Timeline for Outcome", "text": "Rulings are typically issued 60-90 days after submission. Notifications are sent via SMS within 5 business days of the ruling." },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I appeal again if my first appeal was dismissed?", "answer": "No, you cannot appeal the tribunal's decision. However, you can submit a fresh grant application if your financial situation has changed." },
+      { "question": "How long after a successful appeal do I get paid?", "answer": "SASSA has 14 business days to process the payment after receiving the tribunal's ruling. Backpay includes all months from the original decline date." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Appeal Timeline", "slug": "/appeals/appeal-timeline" },
+    { "title": "Appeal After Decline", "slug": "/appeals/appeal-after-decline" }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "appeal-for-srd",
+  "slug": "/appeals/appeal-for-srd",
+  "classification": "appeal-guide",
+  "title": "How to Appeal an SRD R370 Grant Decline — SRD-Specific Guide",
+  "description": "SRD R370 grant appeal guide specific to the SRD application system. How to appeal monthly declines, navigate the srd.dsd.gov.za portal, and get backpaid for approved months.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "How to Appeal an SRD R370 Grant Decline — SRD-Specific Appeal Guide",
+    "metaDescription": "SRD R370 grant appeal guide: how to appeal monthly SRD declines on the srd.dsd.gov.za portal, why each separate month needs its own appeal, and how backpay works for approved months.",
+    "keywords": ["SRD appeal", "SRD R370 appeal", "appeal SRD grant", "srd.dsd.gov.za appeal", "SRD monthly appeal", "SRD backpay appeal"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "How to Appeal an SRD R370 Grant Decline" },
+    { "id": "intro", "type": "paragraph", "text": "The SRD R370 grant operates differently from other SASSA grants. Because eligibility is reassessed every month, you may find that one month is approved and the next is declined. This guide covers the specific process for appealing SRD grant declines." },
+    { "id": "why-h", "type": "heading", "level": 3, "text": "Why SRD Appeals Are Different" },
+    { "id": "why-text", "type": "list", "ordered": false, "items": ["Each month is assessed independently based on that month's bank statements and database checks", "You must appeal EACH declined month separately — one appeal does not cover all months", "The appeal portal for SRD is srd.dsd.gov.za (separate from other SASSA appeals)", "Backpay is calculated per approved month, not as a lump sum" ] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step SRD Appeal Process" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Log into the SRD appeal portal", "description": "Go to srd.dsd.gov.za. Enter your ID number and the phone number used during your original SRD application." },
+      { "title": "Request and enter OTP", "description": "An OTP will be sent to your phone. Enter it to verify your identity." },
+      { "title": "Select the declined month", "description": "You will see a list of all months you applied for. Select the specific month(s) showing 'Declined'." },
+      { "title": "Choose your appeal reason", "description": "Select the reason that matches your situation from the dropdown menu." },
+      { "title": "Upload supporting evidence", "description": "Upload documents that support your appeal (bank statements, affidavit, UIF/NSFAS letters)." },
+      { "title": "Submit and save reference", "description": "Submit the appeal. Save the Appeal Reference Number — you will need it to track progress." }
+    ] },
+    { "id": "callout", "type": "callout", "intent": "warning", "title": "Important: Appeal Every Month", "text": "If you have multiple declined months, you must submit a separate appeal for each month. A single appeal only covers one month." },
+    { "id": "backpay-h", "type": "heading", "level": 3, "text": "Backpay After Successful Appeal" },
+    { "id": "backpay", "type": "paragraph", "text": "If your appeal is upheld, you will receive backpay for that specific month at the rate of R370. Payments are processed within 14 business days of the tribunal ruling. Each approved month is paid separately." },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Do I need to appeal every month the SRD grant is declined?", "answer": "Yes. Because SASSA reassesses eligibility monthly, each declined month needs its own appeal. There is no way to appeal all months at once." },
+      { "question": "Can I appeal if I already received payment for some months but not others?", "answer": "Yes. You can appeal the specific months that were declined even if other months were approved." },
+      { "question": "How long does an SRD appeal take?", "answer": "The standard ITSAA timeline applies: 60-90 days from submission to ruling." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
+    { "title": "SRD Status Check Guide", "href": "/grants/srd-r370-grant/status-check" },
+    { "title": "Appeal After Income Source", "slug": "/appeals/appeal-after-income-source" }
+  ]
+}

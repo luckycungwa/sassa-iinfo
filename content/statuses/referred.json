@@ -1,0 +1,31 @@
+{
+  "id": "status-referred",
+  "slug": "/status/referred",
+  "classification": "status-meaning",
+  "title": "Referred — What It Means & How to Resolve a SASSA Fraud Flag",
+  "description": "Your SASSA status shows 'Referred' — here is what it means, why your application was flagged, and how to clear your name with SASSA.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Referred — SASSA Status Meaning & Fraud Flag Resolution Guide",
+    "metaDescription": "SASSA status shows 'Referred'? Learn what this fraud flag means, why applications get referred for investigation, and step-by-step instructions to clear your name and get your grant.",
+    "keywords": ["SASSA referred", "SASSA referred meaning", "SASSA fraud flag", "SASSA referred status", "SASSA investigation"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Referred — What It Means" },
+    { "id": "intro", "type": "paragraph", "text": "The 'Referred' status is a serious flag. It means SASSA's fraud detection system identified something unusual about your application and has sent it for manual investigation. This is an administrative hold, not a criminal accusation, but it must be resolved before your grant can proceed." },
+    { "id": "ref-block", "type": "status-reference", "statusName": "Referred", "explanation": "SASSA's automated fraud detection system flagged your application for suspicious activity. Your file has been 'referred' to a human investigator for manual review.", "whyItHappens": ["Your ID number was used in multiple applications", "Your phone number is registered under a different name", "Your bank account is linked to multiple SASSA applicants", "Suspicious activity was detected on your account (multiple logins, unusual pattern)", "Your application matches a known fraud pattern in SASSA's system"], "howLongItLasts": "This is a serious block that can remain active for weeks or months until the fraud investigation is completed. The timeline depends on the complexity of your case." , "whatYouShouldDo": ["Contact the SASSA Fraud Hotline on 0800 60 10 11 to understand why you were flagged", "Prepare to visit your nearest SASSA office with certified copies of your ID, proof of address, and recent bank statements", "Bring any documents that prove your identity and that you are the legitimate applicant", "Cooperate fully with the investigation — providing false information will make the situation worse"], "relatedStatuses": [{ "name": "Self Exclusion", "slug": "self-exclusion" }, { "name": "Declined", "slug": "declined" }] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Does 'Referred' mean I will be arrested?", "answer": "No. It is a precautionary administrative lock to prevent unauthorized grant payouts. Once you verify your identity in person, the lock is typically lifted." },
+      { "question": "How long does the 'Referred' investigation take?", "answer": "It varies. Simple cases may be resolved in 2 to 4 weeks, while complex investigations can take several months." },
+      { "question": "Can I appeal a 'Referred' status?", "answer": "This is not an appeal situation. You need to resolve the fraud flag by providing verification documents to SASSA. Contact the Fraud Hotline for specific guidance." },
+      { "question": "What if someone else used my ID to apply for a grant?", "answer": "Inform SASSA immediately. You will need to file an affidavit at a police station and provide it to SASSA to clear your name." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Contact SASSA", "slug": "/guides/how-to-contact-sassa" },
+    { "title": "Self Exclusion Status", "slug": "/status/self-exclusion" }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "grant-older-person",
+  "slug": "/grants/older-person-grant",
+  "classification": "grant-detail",
+  "title": "Older Person Grant (State Pension)",
+  "description": "The SASSA Older Person Grant provides a monthly income to South Africans aged 60 and older who meet the means test requirements.",
+  "lastUpdated": "2026-06-30",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Older Person Grant (State Pension) — SASSA 2026",
+    "metaDescription": "Complete guide to the SASSA Older Person Grant: R2,180 per month, eligibility criteria, required documents, application steps, and appeal process for seniors aged 60+.",
+    "keywords": ["older person grant", "state pension South Africa", "SASSA pension", "old age grant"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Older Person Grant" }
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Older Person Grant (State Pension)" },
+    { "id": "summary", "type": "grant-summary", "amount": "R2,180", "frequency": "Monthly (plus R20 extra for ages 75+)", "targetGroup": "South African citizens or permanent residents aged 60 and older." },
+    { "id": "intro", "type": "paragraph", "text": "The SASSA Older Person Grant (often referred to as the state pension) is designed to provide financial security to South African seniors who no longer work and do not have sufficient retirement assets." },
+    { "id": "eligibility-h", "type": "heading", "level": 3, "text": "Eligibility Criteria" },
+    { "id": "eligibility-list", "type": "list", "ordered": false, "items": [
+      "Must be a South African citizen, permanent resident, or refugee.",
+      "Must be 60 years or older.",
+      "Must not live in a state-funded institution (e.g., state old age home).",
+      "Must not receive another social grant for yourself.",
+      "Means Test (Single): Annual income must be below R96,240; assets must be below R1,372,800.",
+      "Means Test (Married): Combined annual income must be below R192,480; combined assets must be below R2,745,600."
+    ]},
+    { "id": "docs-h", "type": "heading", "level": 3, "text": "Required Documents" },
+    { "id": "docs-list", "type": "document-checklist", "documents": [
+      { "label": "Original 13-digit barcoded Smart Card ID or green ID book", "required": true },
+      { "label": "Proof of marital status (marriage certificate, divorce order, or death certificate)", "required": true },
+      { "label": "Proof of residence (utility bill or letter from local chief)", "required": true },
+      { "label": "Proof of income and assets (last 3 months bank statements, pension slips)", "required": true },
+      { "label": "If unemployed, an affidavit confirming unemployment", "required": true }
+    ]},
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "How to Apply" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Visit your nearest SASSA office", "description": "Take all original documents and photocopies to your nearest SASSA local office." },
+      { "title": "Complete the application form", "description": "Fill out the application form in the presence of a SASSA officer." },
+      { "title": "Attend the interview", "description": "An interview will be conducted, fingerprints taken, and a receipt issued." },
+      { "title": "Wait for processing", "description": "Applications take up to 3 months to process, with payments backdated to the application date." }
+    ]},
+    { "id": "appeal-h", "type": "heading", "level": 3, "text": "Appeal Information" },
+    { "id": "appeal-callout", "type": "callout", "intent": "info", "title": "90-Day Appeal Window", "text": "If your Older Person Grant is declined, you have 90 days from receiving the notification to appeal to the Ministry of Social Development." },
+    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I get the pension if I am still working?", "answer": "Yes, provided your total earnings from your employment fall below the means test threshold (under R96,240 per year for a single person)." },
+      { "question": "Does the pension increase automatically every year?", "answer": "Yes, the Minister of Finance typically announces annual grant adjustments during the budget speech in February, effective from April and October." },
+      { "question": "What happens if I move to another province?", "answer": "Your grant transfers with you. Visit your new local SASSA office to update your address and payment collection point." }
+    ]}
+  ],
+  "relatedPages": [
+    { "title": "Grant Library", "slug": "/grants" },
+    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
+    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" }
+  ]
+}

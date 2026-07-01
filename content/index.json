@@ -1,0 +1,41 @@
+{
+  "id": "home",
+  "slug": "/",
+  "classification": "home-page",
+  "title": "SASSA Grant Guide — Official Resource Hub",
+  "description": "Your complete guide to South African social grants. Check eligibility, find payment dates, apply, and appeal SASSA decisions.",
+  "lastUpdated": "2026-06-30",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "credentials": "Verified SASSA information providers",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Grant Guide — Official Resource Hub 2026",
+    "metaDescription": "Complete guide to every SASSA social grant in South Africa: eligibility, amounts, payment dates, application steps, and appeal procedures. Updated for 2026.",
+    "keywords": ["SASSA", "social grants", "South Africa", "grant application", "payment dates"],
+    "schemaMarkup": {
+      "@type": "WebSite",
+      "name": "SASSA Grant Guide",
+      "url": "https://sassaiinfo.co.za",
+      "description": "Complete resource for South African social grant beneficiaries"
+    }
+  },
+  "contentBlocks": [
+    { "id": "hero-1", "type": "heading", "level": 2, "text": "Your Guide to SASSA Social Grants" },
+    { "id": "hero-2", "type": "paragraph", "text": "Find everything you need to know about South African social grants — from eligibility and application to payment dates and appeals." },
+    { "id": "quick-links", "type": "link-grid", "links": [
+      { "title": "Check Grant Status", "href": "/status", "description": "Track your application" },
+      { "title": "Payment Dates", "href": "/payment-dates", "description": "When to expect your grant" },
+      { "title": "Browse Grants", "href": "/grants", "description": "All available social grants" },
+      { "title": "Appeal a Decision", "href": "/appeals", "description": "Challenge a declined application" }
+    ]}
+  ],
+  "relatedPages": [
+    { "title": "Grant Library", "slug": "/grants" },
+    { "title": "Payment Dates", "slug": "/payment-dates" }
+  ]
+}

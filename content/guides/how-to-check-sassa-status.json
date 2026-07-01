@@ -1,0 +1,33 @@
+{
+  "id": "guide-check-sassa-status",
+  "slug": "/guides/how-to-check-sassa-status",
+  "classification": "how-to-guide",
+  "title": "How to Check Your SASSA Grant Status",
+  "description": "Multiple ways to check your SASSA grant application or payment status online, via WhatsApp, USSD code, or at a SASSA office.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "How to Check Your SASSA Grant Status — Online, WhatsApp & USSD",
+    "metaDescription": "Multiple ways to check your SASSA grant status: online at srd.sassa.gov.za, via WhatsApp (082 046 8553), USSD code *134*7737#, or at your nearest SASSA office.",
+    "keywords": ["check SASSA status", "SASSA status check", "SASSA WhatsApp line", "SASSA USSD code", "SASSA application status"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "How to Check Your SASSA Grant Status" },
+    { "id": "intro", "type": "paragraph", "text": "You can check your SASSA grant application or payment status using any of these methods." },
+    { "id": "online-h", "type": "heading", "level": 3, "text": "Method 1: Online Portal (Recommended)" },
+    { "id": "online-text", "type": "paragraph", "text": "Visit srd.sassa.gov.za. Enter your ID number and the phone number used during application. You will receive an OTP via SMS to access your status dashboard." },
+    { "id": "whatsapp-h", "type": "heading", "level": 3, "text": "Method 2: SASSA WhatsApp Line" },
+    { "id": "whatsapp-text", "type": "paragraph", "text": "Save 082 046 8553 to your phone. Send 'SASSA' to start. Follow the prompts to check your balance, payment date, or application status. Free on most networks." },
+    { "id": "ussd-h", "type": "heading", "level": 3, "text": "Method 3: USSD Code" },
+    { "id": "ussd-text", "type": "paragraph", "text": "Dial *134*7737# on your mobile phone. Follow the menu to check your grant status. Standard network rates apply." },
+    { "id": "office-h", "type": "heading", "level": 3, "text": "Method 4: Visit a SASSA Office" },
+    { "id": "office-text", "type": "paragraph", "text": "Bring your ID to any SASSA local office. A clerk can look up your status and provide a printout if needed." }
+  ],
+  "relatedPages": [
+    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" },
+    { "title": "How to Register on SRD Portal", "slug": "/banking/how-to-register-for-srd-portal" },
+    { "title": "Status Meanings Guide", "slug": "/status/pending" }
+  ]
+}

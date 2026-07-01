@@ -1,0 +1,39 @@
+{
+  "id": "eligibility-foster-parent",
+  "slug": "/eligibility/i-am-a-foster-parent",
+  "classification": "eligibility-guide",
+  "title": "Can Foster Parents Get SASSA Grants? Foster Child Grant Guide",
+  "description": "Complete guide for foster parents applying for the SASSA Foster Child Grant. Learn about the R1,180 monthly grant, court orders, application process, and eligibility requirements.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Foster Parent SASSA Guide — Foster Child Grant Eligibility & Application",
+    "metaDescription": "Complete guide for foster parents applying for the SASSA Foster Child Grant (R1,180/month). Learn about court orders, eligibility, application process, and required documents.",
+    "keywords": ["SASSA foster child grant", "foster parent SASSA grant", "SASSA foster care grant", "foster child grant amount", "foster parent financial help South Africa"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Can Foster Parents Get SASSA Grants?" },
+    { "id": "intro", "type": "paragraph", "text": "Foster parents in South Africa can apply for the Foster Child Grant, which is R1,180 per month per child. This grant is specifically for children placed in foster care through the children's court." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be a registered foster parent with a valid court order", "The child must be placed in your care by the children's court", "The child must remain in your care while receiving the grant", "Must be a South African citizen or permanent resident"], "restrictions": ["The Foster Child Grant is paid until the child turns 18 (or 21 if still studying)", "Foster parents can receive other grants for themselves simultaneously"], "recommendedGrants": [{ "name": "Foster Child Grant", "slug": "foster-care-grant", "amount": "R1,180 / month" }, { "name": "Child Support Grant (for biological children)", "slug": "child-support-grant", "amount": "R530 / month" }] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Obtain a court order", "description": "Get a children's court order placing the child in your foster care." },
+      { "title": "Visit your SASSA office", "description": "Visit your nearest SASSA office with the court order, your ID, and the child's documents." },
+      { "title": "Complete the application", "description": "Complete the Foster Child Grant application form at the SASSA office." },
+      { "title": "Receive payment", "description": "Once approved, payments begin from the date of the court order." }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I get the Foster Child Grant if I am a relative caring for a child?", "answer": "Yes, if you are a relative and have a formal foster care court order placing the child in your care, you qualify." },
+      { "question": "Does the Foster Child Grant stop if the child turns 18?", "answer": "The grant continues until the child turns 18. If the child is still in secondary or tertiary education, the grant can continue until age 21." },
+      { "question": "Can I receive both the Foster Child Grant and Child Support Grant?", "answer": "Yes. The Foster Child Grant is for the foster child in your care. You can separately apply for the Child Support Grant for your biological children." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Foster Child Grant", "slug": "/grants/foster-care-grant" },
+    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
+    { "title": "SASSA for Unemployed Parents", "slug": "/eligibility/i-am-unemployed" }
+  ]
+}

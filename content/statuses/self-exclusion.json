@@ -1,0 +1,30 @@
+{
+  "id": "status-self-exclusion",
+  "slug": "/status/self-exclusion",
+  "classification": "status-meaning",
+  "title": "Self Exclusion — What It Means & How to Fix Your Application Declaration",
+  "description": "Your SASSA status shows 'Self Exclusion' — here is what this means, why your application declaration triggered it, and how to correct it.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Self Exclusion — SASSA Status Meaning & Declaration Correction Guide",
+    "metaDescription": "SASSA status shows 'Self Exclusion'? Learn what this means, how your application answers triggered it, and how to correct your declaration or appeal the decision.",
+    "keywords": ["SASSA self exclusion", "SASSA self exclusion meaning", "SASSA declared other support", "SASSA declaration error"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Self Exclusion — What It Means" },
+    { "id": "intro", "type": "paragraph", "text": "The 'Self Exclusion' status means that based on the answers you provided in your application declaration, SASSA determined you have another source of support and therefore do not qualify for the grant. This is different from other decline reasons because it is based on information you provided yourself." },
+    { "id": "ref-block", "type": "status-reference", "statusName": "Self Exclusion", "explanation": "Your application answers indicated that you have alternative means of survival. This could be because you answered 'Yes' to questions about receiving other support or because you indicated you live in a state-funded institution.", "whyItHappens": ["You marked that you receive other financial support or funding", "You indicated that you live in a state-funded institution (old age home, shelter, prison)", "You declared that you have income from another source", "You answered the declaration questions differently than expected"], "howLongItLasts": "Active until you either correct your application declaration or file an appeal explaining your actual situation." , "whatYouShouldDo": ["Log into the SRD portal and review your declaration answers", "If you made a mistake: update your responses and re-submit your application", "If your answers were correct but you still need support: file an appeal explaining your actual living situation", "If you live in a state institution: confirm with the institution whether you qualify for a personal grant"], "relatedStatuses": [{ "name": "Referred", "slug": "referred" }, { "name": "Declined", "slug": "declined" }] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "What is a 'state institution' for SASSA purposes?", "answer": "A government-funded facility where your lodging and meals are fully covered by tax funds. Examples include state hospitals, prisons, and state-funded old age homes." },
+      { "question": "I made a mistake on my declaration. Can I fix it?", "answer": "Yes. Log into the SRD portal, navigate to your application, and update your declaration responses. Corrections take effect from the following month." },
+      { "question": "Can I appeal a self exclusion?", "answer": "Yes. File an appeal explaining why you need the grant despite your declaration answers. Provide supporting evidence." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Referred Status", "slug": "/status/referred" }
+  ]
+}

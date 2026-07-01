@@ -1,0 +1,57 @@
+{
+  "id": "banking-cash-send",
+  "slug": "/banking/cash-send-guide",
+  "classification": "banking-guide",
+  "title": "SASSA Cash Send Guide — How to Collect Your Grant Without a Bank Account",
+  "description": "Complete guide to SASSA Cash Send: how it works, which retailers accept it, step-by-step collection instructions, SMS voucher troubleshooting, and how to switch from bank transfer.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Cash Send Guide — Collect Grant Without Bank Account at Pick n Pay, Shoprite, Boxer",
+    "metaDescription": "Complete guide to SASSA Cash Send: collect your grant in cash at Pick n Pay, Shoprite, Boxer, Checkers, or Usave. No bank account needed. Step-by-step instructions, SMS voucher tips, and troubleshooting.",
+    "keywords": ["SASSA cash send", "SASSA cash collection", "collect SASSA grant without bank account", "SASSA Pick n Pay", "SASSA Shoprite", "SASSA Boxer", "SASSA cash voucher"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Cash Send Guide — Collect Your Grant in Cash" },
+    { "id": "intro", "type": "paragraph", "text": "Cash Send is SASSA's cash collection service for beneficiaries who do not have a bank account or prefer to collect their grant in cash. Instead of depositing money into a bank account, SASSA sends you an SMS voucher that you take to any participating retailer to receive your cash." },
+    { "id": "how-it-works-h", "type": "heading", "level": 3, "text": "How Cash Send Works" },
+    { "id": "how-it-works-steps", "type": "steps", "steps": [
+      { "title": "Your grant is approved", "description": "SASSA approves your grant for the month. Your status shows 'Approved' on the portal." },
+      { "title": "Payment is processed", "description": "Between the 25th and 30th, SASSA processes the payment and sends the funds to the Cash Send system." },
+      { "title": "You receive an SMS voucher", "description": "An SMS is sent to your phone with a unique collection voucher code. This SMS is your ticket to collect cash." },
+      { "title": "Visit any participating retailer", "description": "Take your phone (showing the SMS) and your original ID to any participating store." },
+      { "title": "Collect your cash", "description": "The cashier verifies your ID and voucher code, then hands you your grant in cash." }
+    ] },
+    { "id": "retailers-h", "type": "heading", "level": 3, "text": "Participating Retailers" },
+    { "id": "retailers-text", "type": "paragraph", "text": "You can collect your SASSA Cash Send at any branch of these retailers nationwide:" },
+    { "id": "retailers-list", "type": "list", "ordered": false, "items": ["Pick n Pay — all branches", "Shoprite — all branches", "Boxer — all branches", "Checkers — all branches", "Usave — all branches"] },
+    { "id": "retailers-callout", "type": "callout", "intent": "info", "title": "No Purchase Necessary", "text": "You do not need to buy anything to collect your grant. The cashier will hand you your money without requiring a purchase." },
+    { "id": "switch-h", "type": "heading", "level": 3, "text": "How to Switch from Bank Transfer to Cash Send" },
+    { "id": "switch-text", "type": "paragraph", "text": "If you are currently receiving your grant via bank transfer but want to switch to Cash Send:" },
+    { "id": "switch-steps", "type": "steps", "steps": [
+      { "title": "Log into the SRD portal", "description": "Go to srd.sassa.gov.za and log in with your ID and phone number." },
+      { "title": "Go to Payment Method", "description": "Navigate to the payment method section on your dashboard." },
+      { "title": "Select Cash Send", "description": "Choose Cash Send as your payment method." },
+      { "title": "Confirm the change", "description": "The change takes effect from the following month. Do not switch mid-month if you have a pending payment." }
+    ] },
+    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How long does it take to receive the Cash Send SMS?", "answer": "The SMS voucher is typically sent within 24 to 48 hours after SASSA processes the payment (between the 25th and 30th)." },
+      { "question": "What if I lose the SMS or delete it by accident?", "answer": "Contact SASSA to request a resend. You can also visit a SASSA office with your ID to get a replacement voucher code." },
+      { "question": "Does the SMS voucher expire?", "answer": "Yes. The voucher expires within 7 to 10 days. Collect your grant as soon as you receive the SMS." },
+      { "question": "Can someone else collect my grant using my SMS?", "answer": "No. The retailer will verify your ID before releasing funds. Only the registered beneficiary can collect." },
+      { "question": "What if I do not receive the SMS at all?", "answer": "First check that your phone has network coverage and enough storage. If you still do not receive it, check your status on the portal — your payment method may still be set to bank transfer." }
+    ] },
+    { "id": "related-links", "type": "link-grid", "links": [
+      { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All SASSA payment methods explained" },
+      { "title": "Payment Not Reflecting", "href": "/banking/payment-not-reflecting", "description": "What to do if your payment does not arrive" },
+      { "title": "How to Update Bank Details", "href": "/banking/update-bank-details", "description": "Switch between payment methods" }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" },
+    { "title": "Payment Not Reflecting", "slug": "/banking/payment-not-reflecting" }
+  ]
+}

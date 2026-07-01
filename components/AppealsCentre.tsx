@@ -10,7 +10,7 @@ export default function AppealsCentre() {
   return (
     <div className="space-y-6">
       {/* Header Info Banner */}
-      <div className="bg-amber-50 border border-amber-100 rounded-2xl p-5 flex flex-col md:flex-row gap-4 items-start shadow-sm">
+      <div className="bg-amber-50 border border-amber-100 rounded-xl p-5 flex flex-col md:flex-row gap-4 items-start">
         <div className="p-3 bg-amber-100 rounded-xl text-amber-800">
           <Scale className="w-6 h-6" />
         </div>
@@ -42,12 +42,12 @@ export default function AppealsCentre() {
               onClick={() => setActiveGuide(g)}
               className={`w-full text-left p-4 rounded-xl border transition flex flex-col gap-1 ${
                 activeGuide.id === g.id
-                  ? "bg-emerald-800 border-emerald-950 text-white shadow-md font-semibold"
-                  : "bg-white border-slate-100 hover:border-slate-200 text-slate-700 hover:bg-slate-50"
+                  ? "bg-accent border-emerald-950 text-white font-semibold"
+                  : "bg-surface border-border hover:border-accent/40 text-slate-700 hover:bg-canvas"
               }`}
             >
               <h3 className="text-sm font-bold leading-tight">{g.title}</h3>
-              <p className={`text-xs ${activeGuide.id === g.id ? "text-emerald-100" : "text-slate-500"}`}>
+              <p className={`text-xs ${activeGuide.id === g.id ? "text-emerald-100" : "text-muted"}`}>
                 {g.shortDescription}
               </p>
             </button>
@@ -55,9 +55,9 @@ export default function AppealsCentre() {
         </div>
 
         {/* Content Pane */}
-        <div className="lg:col-span-8 bg-white border border-slate-100 rounded-2xl p-6 md:p-8 shadow-sm space-y-6">
+        <div className="lg:col-span-8 bg-surface border border-border rounded-xl p-6 md:p-8 space-y-6">
           {/* Header */}
-          <div className="border-b border-slate-100 pb-5 space-y-2">
+          <div className="border-b border-border pb-5 space-y-2">
             <h1 className="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight">
               {activeGuide.title}
             </h1>
@@ -68,14 +68,14 @@ export default function AppealsCentre() {
 
           {/* Steps */}
           <div className="space-y-3">
-            <h3 className="font-bold text-sm text-slate-900 flex items-center gap-1.5">
-              <CheckCircle className="w-4 h-4 text-emerald-800" />
+            <h3 className="font-bold text-sm text-ink flex items-center gap-1.5">
+              <CheckCircle className="w-4 h-4 text-accent-dark" />
               Step-by-Step Appeal Process
             </h3>
             <div className="space-y-3">
               {activeGuide.steps.map((step, idx) => (
                 <div key={idx} className="flex gap-3">
-                  <span className="w-6 h-6 rounded-full bg-emerald-50 border border-emerald-100 text-emerald-800 text-xs font-mono font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span className="w-6 h-6 rounded-full bg-accent-light border border-emerald-100 text-accent-dark text-xs font-mono font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
                     {idx + 1}
                   </span>
                   <p className="text-slate-600 text-xs md:text-sm leading-relaxed flex-1 pt-0.5">
@@ -89,8 +89,8 @@ export default function AppealsCentre() {
           {/* Timeline and Documents Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
             {/* Timeline */}
-            <div className="bg-slate-50 rounded-xl p-5 border border-slate-100 space-y-2">
-              <h3 className="font-bold text-sm text-slate-900 flex items-center gap-1.5">
+            <div className="bg-canvas rounded-xl p-5 border border-border space-y-2">
+              <h3 className="font-bold text-sm text-ink flex items-center gap-1.5">
                 <AlertCircle className="w-4 h-4 text-amber-500" />
                 Appeal Timeline & Deadlines
               </h3>
@@ -100,9 +100,9 @@ export default function AppealsCentre() {
             </div>
 
             {/* Supporting Documents */}
-            <div className="bg-slate-50 rounded-xl p-5 border border-slate-100 space-y-2">
-              <h3 className="font-bold text-sm text-slate-900 flex items-center gap-1.5">
-                <FileText className="w-4 h-4 text-emerald-800" />
+            <div className="bg-canvas rounded-xl p-5 border border-border space-y-2">
+              <h3 className="font-bold text-sm text-ink flex items-center gap-1.5">
+                <FileText className="w-4 h-4 text-accent-dark" />
                 Supporting Documents Needed
               </h3>
               <ul className="space-y-1 text-xs md:text-sm text-slate-600 pl-4 list-disc">
@@ -116,7 +116,7 @@ export default function AppealsCentre() {
           {/* Common Reasons and Outcomes */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <h4 className="font-bold text-xs font-mono text-slate-400 tracking-wider uppercase flex items-center gap-1">
+              <h4 className="font-bold text-xs font-mono text-muted tracking-wider uppercase flex items-center gap-1">
                 <ShieldAlert className="w-3.5 h-3.5" /> Common Reasons
               </h4>
               <ul className="space-y-1 text-xs md:text-sm text-slate-600">
@@ -129,7 +129,7 @@ export default function AppealsCentre() {
               </ul>
             </div>
             <div className="space-y-2">
-              <h4 className="font-bold text-xs font-mono text-slate-400 tracking-wider uppercase flex items-center gap-1">
+              <h4 className="font-bold text-xs font-mono text-muted tracking-wider uppercase flex items-center gap-1">
                 <Landmark className="w-3.5 h-3.5" /> Expected Outcomes
               </h4>
               <ul className="space-y-1 text-xs md:text-sm text-slate-600">

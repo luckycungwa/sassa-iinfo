@@ -1,0 +1,37 @@
+{
+  "id": "eligibility-over-60",
+  "slug": "/eligibility/i-am-over-60",
+  "classification": "eligibility-guide",
+  "title": "SASSA Older Person Grant Eligibility Guide",
+  "description": "Detailed breakdown of qualifying for South Africa's Older Person grant (state pension). Age requirements, income thresholds, application process, and what to do when you turn 60.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Older Person Grant Eligibility Guide — Turn 60 Pension Guide",
+    "metaDescription": "Complete guide to SASSA Older Person Grant (state pension) eligibility for those aged 60 and over. Includes income thresholds, application steps, and transitioning from SRD.",
+    "keywords": ["SASSA older person grant", "SASSA pension eligibility", "SASSA age 60 grant", "South African state pension", "SASSA grant over 60"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Older Person Grant Eligibility Guide" },
+    { "id": "intro", "type": "paragraph", "text": "When you reach the age of 60, you transition from unemployment support (SRD) to the state pension. Here is how to apply and qualify." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be 60 years or older", "Must be a South African citizen or permanent resident", "Annual income must be below R96,240 (Single) or R192,480 (Married)"], "restrictions": ["You cannot receive the SRD R370 grant once you turn 60; you must migrate to the Older Person Grant"], "recommendedGrants": [{ "name": "Older Person Grant (Pension)", "slug": "older-person-grant", "amount": "R2,180 / month" }, { "name": "Grant-in-Aid (if you require 24/7 care)", "slug": "grant-in-aid", "amount": "R530 / month" }] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Gather your documents", "description": "Gather your green ID book/smart card and proof of marital status." },
+      { "title": "Visit SASSA office", "description": "Visit your local SASSA office to fill in the Older Person application forms." },
+      { "title": "Complete verification", "description": "SASSA will take fingerprints and verify assets." }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "When does the pension increase to R2,200?", "answer": "Beneficiaries aged 75 and older receive an extra R20 per month, bringing their total pension to R2,200." },
+      { "question": "Can I receive the SRD R370 grant after I turn 60?", "answer": "No. Once you turn 60, you must transition to the Older Person Grant. You cannot receive both." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
+    { "title": "Grant-in-Aid Guide", "slug": "/grants/grant-in-aid" },
+    { "title": "SASSA Disability Grant for Over-60s", "slug": "/eligibility/i-am-disabled" }
+  ]
+}

@@ -39,6 +39,7 @@ const COMPLIANT_PAGE_TEMPLATE: BasePage = {
   description: "A comprehensive guide on what the 'Pending' status means, why it occurs, and the direct administrative steps to take to resolve delays.",
   lastUpdated: "2026-06-29",
   version: "1.2.0",
+  status: "published",
   author: {
     name: "Dr. Sibongile Ndlovu",
     role: "Social Assistance Paralegal",

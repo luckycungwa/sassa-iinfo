@@ -1,0 +1,39 @@
+{
+  "id": "banking-bank-verification",
+  "slug": "/banking/bank-verification-process",
+  "classification": "banking-guide",
+  "title": "SASSA Bank Verification Process Explained — How SASSA Checks Your Account",
+  "description": "How SASSA verifies your bank account: the automated verification process, what banks are supported, why verification fails, and how to resolve verification issues.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Bank Verification Process Explained — How SASSA Checks Your Bank Account",
+    "metaDescription": "Learn how SASSA verifies your bank account: the automated system checks your ID against bank records, supported banks, common failure reasons, and how to resolve verification issues fast.",
+    "keywords": ["SASSA bank verification process", "SASSA verify bank account", "SASSA bank check", "SASSA account verification", "why SASSA bank verification fails"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Bank Verification Process Explained" },
+    { "id": "intro", "type": "paragraph", "text": "SASSA uses an automated bank verification system to ensure your grant is paid into the correct account. The system checks that the ID number and name on your bank account match your SASSA application exactly. This prevents fraud and ensures payments reach the right person." },
+    { "id": "how-it-works-h", "type": "heading", "level": 3, "text": "How Verification Works" },
+    { "id": "how-it-works-text", "type": "paragraph", "text": "SASSA's automated system communicates electronically with South Africa's major banks. When you submit your bank details, the system sends a verification request to your bank asking them to confirm that the ID number and account holder name you provided match their records." },
+    { "id": "supported-banks-h", "type": "heading", "level": 3, "text": "Supported Banks" },
+    { "id": "supported-banks", "type": "list", "ordered": false, "items": ["Standard Bank", "First National Bank (FNB)", "Absa", "Nedbank", "Capitec", "TymeBank", "Bank Zero", "African Bank", "Postbank"] },
+    { "id": "failure-h", "type": "heading", "level": 3, "text": "Why Verification Fails" },
+    { "id": "failure-list", "type": "list", "ordered": false, "items": ["Name mismatch: the name on your bank account differs from your ID (e.g., 'Bob' vs 'Robert')", "ID number mismatch: your ID is not correctly linked to your bank account", "Account dormant or frozen: the account has not been used for an extended period", "Account type not supported: some accounts (bond, credit card) cannot receive EFT", "Account closed: the account is no longer active", "Branch code incorrect: the code does not match the account"] },
+    { "id": "resolve-h", "type": "heading", "level": 3, "text": "How to Resolve Verification Issues" },
+    { "id": "resolve-steps", "type": "steps", "steps": [
+      { "title": "Check your details on the portal", "description": "Log into srd.sassa.gov.za and verify your account number, branch code, and account type." },
+      { "title": "Visit your bank", "description": "Ask your bank to confirm your ID is correctly linked to your account. Request a stamped confirmation." },
+      { "title": "Fix name mismatches", "description": "If your bank uses a different name format, ask them to update it to match your ID." },
+      { "title": "Switch to Cash Send temporarily", "description": "If you need your grant urgently, switch to Cash Send while resolving the bank issue." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Bank Verification Pending Status", "slug": "/status/bank-verification" },
+    { "title": "How to Update Bank Details", "slug": "/banking/update-bank-details" },
+    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" },
+    { "title": "Payment Not Reflecting", "slug": "/banking/payment-not-reflecting" }
+  ]
+}

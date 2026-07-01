@@ -1,0 +1,38 @@
+{
+  "id": "eligibility-receive-uif",
+  "slug": "/eligibility/i-receive-uif",
+  "classification": "eligibility-guide",
+  "title": "Can I Get a SASSA Grant if I Receive UIF?",
+  "description": "Understand how UIF payments affect your SASSA grant eligibility, SRD R370 qualification, and what to do if SASSA says you are UIF registered but you no longer receive UIF.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Can I Get a SASSA Grant if I Receive UIF? Eligibility Rules",
+    "metaDescription": "Guide to SASSA grant eligibility while receiving UIF payments. Learn how UIF affects your means test, what the R624 threshold means, and how to appeal if SASSA incorrectly flags you as UIF registered.",
+    "keywords": ["SASSA and UIF", "SASSA grant while on UIF", "SASSA UIF threshold", "SASSA and unemployment insurance", "UIF SASSA eligibility"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Can I Get a SASSA Grant if I Receive UIF?" },
+    { "id": "intro", "type": "paragraph", "text": "Many South Africans transition between UIF and SASSA grants. If you currently receive Unemployment Insurance Fund (UIF) payments, your SASSA eligibility depends on the amount and duration of your UIF payouts." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Points" },
+    { "id": "checklist", "type": "list", "ordered": false, "items": ["UIF payments are considered income by SASSA's means test", "If your UIF payout exceeds R624 per month, you will not qualify for SRD R370", "If your UIF has ended, you can reapply for SASSA grants immediately"] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Follow" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Check your UIF amount", "description": "Check your UIF monthly payout amount on the UIF portal." },
+      { "title": "Apply if below threshold", "description": "If UIF payouts are below the means test threshold, submit your SASSA application with your UIF letter." },
+      { "title": "Get UI-19 if UIF ended", "description": "If UIF has ended, request a UI-19 termination letter from the Department of Labour and attach it to your SASSA application." }
+    ] },
+    { "id": "callout", "type": "callout", "intent": "warning", "title": "Important", "text": "Active UIF payments above R624/month disqualify you from SRD R370. You cannot receive both UIF and a full social grant simultaneously if the UIF exceeds the threshold." },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "SASSA declined me saying I have UIF, but I no longer receive it. What do I do?", "answer": "This is a common database error. Get a UI-19 termination letter from the Department of Labour and appeal the decision on the ITSAA portal." },
+      { "question": "Can I get backpay if my UIF stopped months ago?", "answer": "Yes. Once you provide proof your UIF has ended, your grant can be backdated to the month after your last UIF payout." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Appeal After UIF Decline", "slug": "/appeals/appeal-after-uif" },
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
+    { "title": "Unemployed Guide", "slug": "/eligibility/i-am-unemployed" }
+  ]
+}

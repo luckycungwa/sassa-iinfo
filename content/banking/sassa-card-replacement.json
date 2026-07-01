@@ -1,0 +1,41 @@
+{
+  "id": "banking-card-replacement",
+  "slug": "/banking/sassa-card-replacement",
+  "classification": "banking-guide",
+  "title": "SASSA Card Replacement — How to Replace a Lost, Stolen, or Damaged Card",
+  "description": "Step-by-step guide to replacing a lost, stolen, or damaged SASSA card: what to do immediately, where to go for a replacement, required documents, costs, and processing time.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Card Replacement — Lost, Stolen, or Damaged Card Guide",
+    "metaDescription": "Lost or damaged your SASSA card? Step-by-step guide to getting a replacement: where to go, what documents to bring, how long it takes, and how to access your grant while waiting.",
+    "keywords": ["SASSA card replacement", "lost SASSA card", "SASSA card stolen", "SASSA card damaged", "replace SASSA card", "SASSA card reissue"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Card Replacement Guide" },
+    { "id": "intro", "type": "paragraph", "text": "Losing your SASSA card or having it stolen can be stressful, but getting a replacement is straightforward. Here is exactly what to do, where to go, and what documents you need." },
+    { "id": "lost-stolen-h", "type": "heading", "level": 3, "text": "If Your Card Is Lost or Stolen" },
+    { "id": "lost-steps", "type": "steps", "steps": [
+      { "title": "Report it to the police (if stolen)", "description": "If your card was stolen, file a police report at your nearest SAPS station. You will need the case number for your replacement application." },
+      { "title": "Visit your nearest SASSA office", "description": "Go to your nearest SASSA local office with your ID document. If your ID was also stolen, get an affidavit from SAPS." },
+      { "title": "Complete the replacement form", "description": "A SASSA officer will assist you with the card replacement application form. Declare that your card was lost or stolen." },
+      { "title": "Receive your new card", "description": "The replacement card is typically issued within 2 to 4 weeks. You will be notified when it is ready for collection." }
+    ] },
+    { "id": "damaged-h", "type": "heading", "level": 3, "text": "If Your Card Is Damaged" },
+    { "id": "damaged-text", "type": "paragraph", "text": "If your SASSA card is damaged (cracked, worn out, or the chip no longer works), visit your nearest SASSA office with your ID and the damaged card. Replacement is usually faster than for lost cards, often processed within 1 to 2 weeks." },
+    { "id": "while-waiting-h", "type": "heading", "level": 3, "text": "How to Access Your Grant While Waiting" },
+    { "id": "while-waiting", "type": "paragraph", "text": "While waiting for your replacement card, you can still access your grant. Switch your payment method to Cash Send through the SRD portal. You will receive an SMS voucher that you can use to collect your grant at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave in cash." },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How much does a SASSA card replacement cost?", "answer": "The first replacement is free. Subsequent replacements may incur a small admin fee at SASSA's discretion." },
+      { "question": "Can I still get my grant without a card?", "answer": "Yes. Switch to Cash Send or bank transfer while waiting for your replacement card." },
+      { "question": "How long does a replacement card take?", "answer": "Lost/stolen cards: 2 to 4 weeks. Damaged cards: 1 to 2 weeks." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "SASSA Card Explained", "slug": "/banking/sassa-card-explained" },
+    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" },
+    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" }
+  ]
+}

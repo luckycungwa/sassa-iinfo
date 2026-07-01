@@ -1,0 +1,31 @@
+{
+  "id": "status-pending-30-days",
+  "slug": "/status/pending-30-days",
+  "classification": "status-meaning",
+  "title": "Pending for 30+ Days — What It Means & What to Do",
+  "description": "Your SASSA grant has been pending for more than 30 days — here is why it is taking so long and what steps you can take to get a resolution.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Pending for 30+ Days — SASSA Status Meaning & Resolution Steps",
+    "metaDescription": "Your SASSA grant has been pending for over 30 days? Learn why applications get stuck, how to check for outstanding actions, and when to escalate to a SASSA office.",
+    "keywords": ["SASSA pending 30 days", "SASSA pending long time", "SASSA stuck on pending", "why is my SASSA still pending"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Pending for 30+ Days — What It Means" },
+    { "id": "intro", "type": "paragraph", "text": "If your SASSA grant status has been 'Pending' for more than 30 days, it indicates a delay in the verification process. While the standard processing time is 7 to 14 business days for SRD and up to 3 months for other grants, extended pending periods can signal a bottleneck that needs your attention." },
+    { "id": "ref-block", "type": "status-reference", "statusName": "Pending for 30+ Days", "explanation": "Your application has been in the verification queue longer than expected. This typically means automated checks could not be completed and your file requires manual review by a SASSA officer.", "whyItHappens": ["High volume of applications causing processing backlog", "Delays in receiving database confirmation from UIF or Home Affairs", "Mismatched contact or bank details requiring manual verification", "Your application was flagged for additional document verification"], "howLongItLasts": "Variable. It remains pending until a SASSA officer manually reviews your file or the system completes the pending checks. If unresolved after 45 days, escalate." , "whatYouShouldDo": ["Log into the SRD portal to check for outstanding document requests", "Verify your bank details are correct and your account is active", "If 45 days pass without progress, contact the SASSA toll-free helpline at 0800 60 10 11", "Visit your nearest SASSA office if the helpline cannot resolve the issue"], "relatedStatuses": [{ "name": "Pending", "slug": "pending" }, { "name": "Bank Verification", "slug": "bank-verification" }] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Will I get backpay if my application is pending for months?", "answer": "Yes. Once approved, SASSA backdates payment to the month you first applied. You will receive a lump sum for all months that were pending." },
+      { "question": "Can I speed up a pending application?", "answer": "No, but you can ensure no action is needed from your side by logging into the portal and checking for outstanding requests." },
+      { "question": "Should I submit a new application while the old one is pending?", "answer": "No. Submitting a duplicate application will cause further delays and may result in a 'Duplicate Application' decline." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Pending Status", "slug": "/status/pending" },
+    { "title": "Bank Verification", "slug": "/status/bank-verification" },
+    { "title": "How to Check Status", "slug": "/guides/how-to-check-sassa-status" }
+  ]
+}

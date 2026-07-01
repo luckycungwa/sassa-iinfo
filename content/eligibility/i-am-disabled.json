@@ -1,0 +1,37 @@
+{
+  "id": "eligibility-disabled",
+  "slug": "/eligibility/i-am-disabled",
+  "classification": "eligibility-guide",
+  "title": "Disability Grant Eligibility and Medical Vetting Guide",
+  "description": "Complete guide for disabled South Africans seeking financial assistance through the SASSA Disability Grant. Medical evaluation, application steps, and required documents.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Disability Grant Eligibility — Medical Vetting & Application Guide",
+    "metaDescription": "Complete guide to SASSA Disability Grant eligibility. Learn about the medical evaluation process, required documents, age requirements, and how to apply for permanent or temporary disability grants.",
+    "keywords": ["SASSA disability grant", "disability grant eligibility", "SASSA medical evaluation", "SASSA disability application", "temporary disability grant SASSA"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Disability Grant Eligibility and Medical Vetting Guide" },
+    { "id": "intro", "type": "paragraph", "text": "Individuals who cannot work due to a physical or mental condition can qualify for SASSA's Disability Grant. Vetting requires official medical clearance." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be aged 18 to 59", "Must possess a medical report completed by a SASSA-commissioned medical officer", "Must have a disability that prevents employment for longer than 6 months"], "restrictions": ["Your grant can be temporarily reviewed if your health condition improves"], "recommendedGrants": [{ "name": "Disability Grant", "slug": "disability-grant", "amount": "R2,180 / month" }, { "name": "Grant-in-Aid (if you require a full-time caregiver)", "slug": "grant-in-aid", "amount": "R530 / month" }] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Book medical evaluation", "description": "Book a medical evaluation at your local clinic or through the SASSA portal." },
+      { "title": "Get evaluated", "description": "Get evaluated by the designated SASSA medical officer." },
+      { "title": "Complete your application", "description": "Take the signed medical report and ID to the SASSA office to complete your application." }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I receive a disability grant if I get a private pension?", "answer": "Only if the private pension income falls below the strict means test threshold of R96,240 per year." },
+      { "question": "Can I get a temporary disability grant?", "answer": "Yes. If your disability is expected to last between 6 and 12 months, you may qualify for a temporary disability grant. A medical reassessment is required at the end of the period." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
+    { "title": "Grant-in-Aid Guide", "slug": "/grants/grant-in-aid" },
+    { "title": "SASSA for Over-60s", "slug": "/eligibility/i-am-over-60" }
+  ]
+}

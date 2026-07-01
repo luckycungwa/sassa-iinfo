@@ -1,0 +1,36 @@
+{
+  "id": "eligibility-receive-pension",
+  "slug": "/eligibility/i-receive-pension",
+  "classification": "eligibility-guide",
+  "title": "Can I Get a SASSA Grant if I Already Receive a Pension?",
+  "description": "Understand how private or government pensions affect SASSA grant eligibility. Learn about the means test, income thresholds, and how to qualify for additional grants while receiving a pension.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Can I Get a SASSA Grant if I Already Receive a Pension?",
+    "metaDescription": "Guide to SASSA grant eligibility for pension recipients in South Africa. Learn how the means test applies, income thresholds for additional grants, and what grants you can still qualify for.",
+    "keywords": ["SASSA and pension", "SASSA grant with pension", "government pension SASSA", "private pension SASSA eligibility", "SASSA means test pension"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Can I Get a SASSA Grant if I Already Receive a Pension?" },
+    { "id": "intro", "type": "paragraph", "text": "Receiving a private or government pension does not necessarily disqualify you from SASSA grants. Your eligibility depends on the amount of your pension and the type of grant you are applying for." },
+    { "id": "gov-pension-h", "type": "heading", "level": 3, "text": "Government Pension (GEPF)" },
+    { "id": "gov-pension", "type": "paragraph", "text": "If you receive a government pension from the Government Employees Pension Fund (GEPF), you may still qualify for the SRD R370 grant if your pension amount is below R624 per month. Most GEPF pensions exceed this threshold." },
+    { "id": "private-pension-h", "type": "heading", "level": 3, "text": "Private Pension" },
+    { "id": "private-pension", "type": "paragraph", "text": "Private pension income is treated the same as any other income in SASSA's means test. If your private pension (monthly) is below R624, you may still qualify for SRD R370. For the Older Person Grant, your annual private pension must be below R96,240." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Points" },
+    { "id": "checklist", "type": "list", "ordered": false, "items": ["Pension income is treated like any other income in the means test", "If your monthly pension is below R624, you may qualify for SRD R370", "If your annual pension exceeds R96,240, you will not qualify for the Older Person Grant", "Receiving a pension does not affect Child Support Grant eligibility"] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "I receive a small private pension of R2,000 per month. Can I get SRD R370?", "answer": "No. The means test threshold for SRD R370 is R624 per month. A pension of R2,000 exceeds this threshold." },
+      { "question": "Can I receive the Older Person Grant if I have a private pension?", "answer": "Yes, if your annual private pension is below R96,240 (single) or R192,480 (married)." },
+      { "question": "Does a pension affect the Child Support Grant?", "answer": "The Child Support Grant has a more generous means test. You may still qualify even with a moderate pension income." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
+    { "title": "SASSA for Over-60s", "slug": "/eligibility/i-am-over-60" },
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" }
+  ]
+}

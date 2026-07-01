@@ -1,0 +1,60 @@
+{
+  "id": "status-approved",
+  "slug": "/status/approved",
+  "classification": "status-meaning",
+  "title": "Approved — What It Means & What Happens After SASSA Approval",
+  "description": "Your SASSA grant is approved! Here is what 'Approved' status means, when you will get paid, and what to do while waiting for your payment.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Approved — SASSA Grant Status Meaning & Payment Timeline",
+    "metaDescription": "Your SASSA status shows 'Approved'! Learn what this means, when to expect your payment, how long funds take to reflect in your bank account, and what to do if payment is delayed.",
+    "keywords": ["SASSA approved", "SASSA grant approved", "SRD approved meaning", "SASSA approved status", "when will SASSA pay me"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Approved — What It Means for Your SASSA Grant" },
+    { "id": "intro", "type": "paragraph", "text": "An 'Approved' status is exactly what you have been waiting for. It means SASSA has completed its verification checks, confirmed that you meet the eligibility criteria for the month, and allocated funds for your payment. This is the final clearance before your money is sent to your bank or collection point." },
+    { "id": "ref-block", "type": "status-reference", "statusName": "Approved", "explanation": "Your application passed all verification checks: identity matched Home Affairs records, bank details were successfully verified, means test showed no disqualifying income, and no fraud flags were raised. SASSA has now included you in the payment batch for the current month.", "whyItHappens": ["All eligibility criteria have been satisfied", "Bank verification completed successfully", "Identity verification passed against Home Affairs database", "Means test confirmed your income is within the threshold", "No UIF, NSFAS, or other funding sources were detected"], "howLongItLasts": "The 'Approved' status lasts until the payment is processed and transferred to your bank or collection agent. Once paid, the status updates to 'Payment Processing' or 'Paid'. Every new month is evaluated separately — approval one month does not guarantee approval the next.", "whatYouShouldDo": ["Check for a pay date alongside your approved status", "If receiving bank transfer: expect funds in 1 to 3 business days after the pay date", "If receiving Cash Send: wait for the SMS voucher before visiting a retailer", "Do not close or change your bank account until after the payment arrives", "Continue checking your status at the start of each new month for re-evaluation"], "relatedStatuses": [{ "name": "Payment Processing", "slug": "payment-processing" }, { "name": "Application Complete", "slug": "application-complete" }] },
+    { "id": "payment-timing-h", "type": "heading", "level": 3, "text": "When Will You Get Paid?" },
+    { "id": "payment-timing", "type": "paragraph", "text": "After your status shows 'Approved', a pay date typically appears within 2 to 5 business days. The pay date depends on your grant type:" },
+    { "id": "payment-table", "type": "table", "headers": ["Grant Type", "Payment Window", "Method"], "rows": [
+      ["SRD R370 Grant", "25th to 30th of each month", "Bank EFT or Cash Send"],
+      ["Older Person Grant", "1st to 5th of each month", "Bank EFT or Retail collection"],
+      ["Disability Grant", "1st to 5th of each month", "Bank EFT or Retail collection"],
+      ["Child Support Grant", "1st to 5th of each month", "Bank EFT or Retail collection"],
+      ["Foster Care Grant", "1st to 5th of each month", "Bank EFT or Retail collection"]
+    ] },
+    { "id": "bank-credit-h", "type": "heading", "level": 3, "text": "How Long Does It Take to Reflect in Your Bank Account?" },
+    { "id": "bank-credit", "type": "paragraph", "text": "Once SASSA processes the payment, the time it takes for funds to appear in your account depends on your bank:" },
+    { "id": "bank-table", "type": "table", "headers": ["Bank", "Typical Credit Time"], "rows": [
+      ["Capitec", "Same day (within 2-4 hours of SASSA release)"],
+      ["FNB", "Same day or next business day"],
+      ["Standard Bank", "1 to 2 business days"],
+      ["Absa", "1 to 2 business days"],
+      ["Nedbank", "1 to 2 business days"],
+      ["TymeBank", "Same day"],
+      ["Bank Zero", "Same day"],
+      ["Postbank", "Same day or next business day"]
+    ] },
+    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "My status says 'Approved' but there is no pay date. What does this mean?", "answer": "This is common. It means you are approved for the month, but the national treasury has not yet finalized the payment batch file. A pay date will typically appear within 2 to 5 business days." },
+      { "question": "Can an 'Approved' status change back to 'Pending' or 'Declined'?", "answer": "Yes. Every month is evaluated as a separate cycle. If your financial situation changes mid-month (e.g., you receive a bank deposit), the next month may show a different status." },
+      { "question": "I am approved but the money is not in my account. What should I do?", "answer": "Wait 1 to 3 business days after the pay date. If it still does not appear, check that your bank details are correct and that the account is active. If the issue continues, contact SASSA." },
+      { "question": "Do I need to reapply every month if I was approved?", "answer": "No. Once you are approved, your grant is automatically evaluated each month. You only need to reapply if your grant was cancelled or you need to switch grant types." },
+      { "question": "Can I change my payment method after approval?", "answer": "Yes. Log into the SRD portal and go to 'Payment Method' to switch between bank transfer and Cash Send. Changes take effect from the next month." }
+    ] },
+    { "id": "related-links", "type": "link-grid", "links": [
+      { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All the ways to receive your grant payment" },
+      { "title": "How to Update Bank Details", "href": "/banking/update-bank-details", "description": "Change your bank account for grant payments" },
+      { "title": "SASSA Payment Dates", "href": "/payment-dates", "description": "View the full payment schedule for all grants" }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Payment Processing", "slug": "/status/payment-processing" },
+    { "title": "Application Complete", "slug": "/status/application-complete" },
+    { "title": "SASSA Payment Dates", "slug": "/payment-dates" }
+  ]
+}

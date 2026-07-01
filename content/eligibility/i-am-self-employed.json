@@ -1,0 +1,36 @@
+{
+  "id": "eligibility-self-employed",
+  "slug": "/eligibility/i-am-self-employed",
+  "classification": "eligibility-guide",
+  "title": "SASSA Grants for Self-Employed and Informal Workers",
+  "description": "Learn how self-employment and informal income affects SASSA grant eligibility. How the means test works for small business owners, freelancers, and gig economy workers.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Grants for Self-Employed & Informal Workers — Eligibility Guide",
+    "metaDescription": "Guide to SASSA grant eligibility for self-employed South Africans, freelancers, small business owners, and informal workers. How the means test applies to irregular income.",
+    "keywords": ["SASSA self-employed", "SASSA informal worker", "SASSA freelancer grant", "SASSA small business owner", "SASSA means test irregular income"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants for Self-Employed and Informal Workers" },
+    { "id": "intro", "type": "paragraph", "text": "Self-employed individuals, freelancers, and informal workers can qualify for SASSA grants if their monthly income falls below the means test threshold. However, proving your income can be more complex." },
+    { "id": "how-h", "type": "heading", "level": 3, "text": "How the Means Test Applies" },
+    { "id": "how", "type": "paragraph", "text": "For SRD R370, your average monthly income from self-employment must be below R624. SASSA will review your bank statement deposits to determine your income level. Irregular deposits are treated as income." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Considerations" },
+    { "id": "checklist", "type": "list", "ordered": false, "items": ["All deposits into your bank account are considered income, including business payments", "You must provide 3 months of bank statements showing your income pattern", "Business expenses are not deducted from the means test calculation", "If your monthly average exceeds R624, you will not qualify for SRD R370"] },
+    { "id": "tips-h", "type": "heading", "level": 3, "text": "Tips for Self-Employed Applicants" },
+    { "id": "tips", "type": "list", "ordered": false, "items": ["Use a separate business account to keep personal and business income separate", "Keep records of irregular income patterns to explain to SASSA if needed", "If your income varies month to month, appeal any declined months where your income was below the threshold"] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "I run a small spaza shop. Can I get the SRD R370 grant?", "answer": "If your average monthly profit (not turnover) is below R624, you may qualify. However, SASSA looks at deposits into your account, not profit." },
+      { "question": "I do freelance work and earn irregular income. How does SASSA calculate it?", "answer": "SASSA averages your deposits over 3 months. If your average is below R624 in a given month, you should qualify for that month." },
+      { "question": "Can self-employed people apply for other SASSA grants?", "answer": "Yes. The Child Support Grant and Foster Child Grant are not means-tested as strictly. You may qualify for those while running a small business." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
+    { "title": "Unemployed Guide", "slug": "/eligibility/i-am-unemployed" },
+    { "title": "Appeal After Income Source", "slug": "/appeals/appeal-after-income-source" }
+  ]
+}

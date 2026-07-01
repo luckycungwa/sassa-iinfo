@@ -1,0 +1,40 @@
+{
+  "id": "appeal-after-income-source",
+  "slug": "/appeals/appeal-after-income-source",
+  "classification": "appeal-guide",
+  "title": "Appealing a Decline Due to Alternative Income Source Detection",
+  "description": "What to do when SASSA declines your grant saying you have an alternative income source but the deposits in your account are not actual income. Sworn affidavit and appeal strategy.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Appealing SASSA Decline Due to Alternative Income Source Detection",
+    "metaDescription": "Guide to appealing a SASSA SRD decline for 'Alternative Income Source Detected'. Learn how to prepare a sworn affidavit explaining deposits and submit it with your ITSAA appeal.",
+    "keywords": ["SASSA alternative income appeal", "SASSA deposits detected", "SASSA sworn affidavit", "SASSA bank deposit appeal", "SASSA gift money appeal"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Appealing a Decline Due to Alternative Income Source Detection" },
+    { "id": "intro", "type": "paragraph", "text": "One of the most common SRD decline reasons is 'Alternative Income Source Detected'. This happens when SASSA's automated bank audit finds deposits in your account. If these deposits are not actual income, you need a specific appeal strategy." },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Appeal" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Review your bank statements", "description": "Review your bank statements for the months in question and identify all deposits." },
+      { "title": "Explain each deposit", "description": "For each deposit, prepare an explanation (gift from family, loan repayment, savings transfer)." },
+      { "title": "Write a sworn affidavit", "description": "Write a sworn affidavit at your nearest SAPS station explaining the nature of each deposit." },
+      { "title": "Submit your appeal", "description": "Submit your appeal on the ITSAA portal and upload the affidavit and bank statements." },
+      { "title": "Select the right option", "description": "Tick the option that says 'Deposits are not income — they are gifts/loans/savings'." }
+    ] },
+    { "id": "callout", "type": "callout", "intent": "info", "title": "Timeline", "text": "File within 90 days. Each month is treated separately — you must appeal each declined month individually." },
+    { "id": "documents-h", "type": "heading", "level": 3, "text": "Documents You Need" },
+    { "id": "documents", "type": "list", "ordered": false, "items": ["Bank statements showing the deposits that triggered the decline", "Sworn affidavit explaining each deposit (commissioned by SAPS)", "Proof of your current unemployment status (if applicable)", "Supporting letters from family members if deposits were gifts"] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "My friend sent me R500 as a birthday gift. Will SASSA count this as income?", "answer": "Yes, any deposit into your account can trigger the 'Alternative Income Source' flag. You can appeal by providing a sworn statement from your friend confirming it was a gift." },
+      { "question": "How much money in deposits can trigger this status?", "answer": "Any single deposit over R624 (the SRD threshold) can trigger the flag. Multiple smaller deposits totalling over R624 can also trigger it." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Common Reasons for Decline", "slug": "/appeals/appeal-reasons" },
+    { "title": "Appeal After Decline", "slug": "/appeals/appeal-after-decline" }
+  ]
+}

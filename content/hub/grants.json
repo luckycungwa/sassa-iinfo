@@ -1,0 +1,35 @@
+{
+  "id": "hub-grants",
+  "slug": "/grants",
+  "classification": "hub-index",
+  "title": "Grant Library — All SASSA Social Grants",
+  "description": "Browse every SASSA social grant available in South Africa. Compare amounts, eligibility, and application requirements.",
+  "lastUpdated": "2026-06-30",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "credentials": "Verified SASSA information providers",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "All SASSA Social Grants — Complete Grant Library 2026",
+    "metaDescription": "Browse all 8 SASSA social grants: Older Person, Child Support, Disability, Foster Care, Care Dependency, War Veterans, Grant-in-Aid, and SRD R370. Compare amounts, eligibility, and how to apply.",
+    "keywords": ["SASSA grants", "social grants South Africa", "grant amounts", "SASSA grant list"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "All SASSA Social Grants" },
+    { "id": "intro", "type": "paragraph", "text": "SASSA administers eight social grants to support South African citizens, permanent residents, and refugees. Each grant has its own eligibility criteria, means test, and application process." }
+  ],
+  "relatedPages": [
+    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
+    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
+    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
+    { "title": "Foster Care Grant", "slug": "/grants/foster-care-grant" },
+    { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" },
+    { "title": "War Veterans Grant", "slug": "/grants/war-veterans-grant" },
+    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
+    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" }
+  ]
+}

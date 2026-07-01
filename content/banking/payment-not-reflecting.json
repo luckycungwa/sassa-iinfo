@@ -1,0 +1,66 @@
+{
+  "id": "banking-payment-not-reflecting",
+  "slug": "/banking/payment-not-reflecting",
+  "classification": "banking-guide",
+  "title": "SASSA Payment Not Reflecting — What to Do When Your Grant Does Not Arrive",
+  "description": "Your SASSA grant was approved but the money is not in your account. Here are the most common reasons, troubleshooting steps, and how to escalate if your payment still does not arrive.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Payment Not Reflecting — Troubleshooting Guide for Missing Grant Payments",
+    "metaDescription": "Your SASSA grant was approved but the money is not in your account? Learn why payments delay, how long to wait, how to check your status, and what to do if the payment never arrives.",
+    "keywords": ["SASSA payment not reflecting", "SASSA payment not in account", "SASSA approved but no payment", "SRD approved no money", "SASSA payment delay"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Payment Not Reflecting — Troubleshooting Guide" },
+    { "id": "intro", "type": "paragraph", "text": "It is frustrating when your SASSA grant is approved but the money does not appear in your account. Before you panic, work through this troubleshooting guide. In most cases, the payment is simply delayed by standard banking processes and will arrive within a few days." },
+    { "id": "step1-h", "type": "heading", "level": 3, "text": "Step 1: Check Your Current Status" },
+    { "id": "step1-text", "type": "paragraph", "text": "The first thing to do is check your grant status on the official SASSA portal. Your status will tell you exactly where your payment is in the process:" },
+    { "id": "status-table", "type": "table", "headers": ["Status", "What It Means", "What to Do"], "rows": [
+      ["Approved", "You qualify but payment has not been sent yet", "Wait. Pay date should appear within 2-5 days."],
+      ["Payment Processing", "Funds are being transferred", "Wait 1-3 business days for your bank to credit the funds."],
+      ["Pending", "Your application is still being reviewed", "No payment will be made until this changes."],
+      ["Declined", "You did not qualify for this month", "Check the reason and appeal if needed."],
+      ["Bank Verification", "Your bank details are being checked", "Ensure your account is active and in your name."]
+    ] },
+    { "id": "step2-h", "type": "heading", "level": 3, "text": "Step 2: Wait for Standard Processing Times" },
+    { "id": "step2-text", "type": "paragraph", "text": "Payments are not instant. Different banks process SASSA deposits at different speeds:" },
+    { "id": "bank-table", "type": "table", "headers": ["Bank", "Typical Time to Reflect"], "rows": [
+      ["Capitec", "Same day (2-4 hours after SASSA release)"],
+      ["FNB", "Same day to 1 business day"],
+      ["Standard Bank", "1 to 2 business days"],
+      ["Absa", "1 to 2 business days"],
+      ["Nedbank", "1 to 2 business days"],
+      ["TymeBank", "Same day"],
+      ["Postbank", "Same day to 1 business day"],
+      ["Cash Send (retail)", "24-48 hours for SMS voucher"]
+    ] },
+    { "id": "step3-h", "type": "heading", "level": 3, "text": "Step 3: Check Your Bank Details Are Correct" },
+    { "id": "step3-text", "type": "paragraph", "text": "Incorrect bank details are the most common reason for missing payments. Log into the SRD portal and verify:" },
+    { "id": "step3-list", "type": "list", "ordered": false, "items": ["Account number is correct (no missing or extra digits)", "Branch code matches your bank and branch", "Account type is correct (Savings, Cheque, or Transmission)", "The account is registered in YOUR name exactly as on your ID", "The account is active and not frozen or dormant"] },
+    { "id": "step4-h", "type": "heading", "level": 3, "text": "Step 4: Check for Account-Specific Issues" },
+    { "id": "step4-list", "type": "list", "ordered": false, "items": ["Your account may have a daily or monthly deposit limit — check with your bank", "Your account may have been flagged for unusual activity", "If you recently changed your phone number, you may have missed the Cash Send SMS", "If you switched from Cash Send to bank, the change may take effect next month, not this month"] },
+    { "id": "callout-important", "type": "callout", "intent": "warning", "title": "Do Not Change Your Bank Details While Waiting", "text": "If you change your bank account while a payment is processing, it can delay or redirect the payment. Wait until the current month's payment reflects before making any changes." },
+    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How long should I wait before contacting SASSA about a missing payment?", "answer": "Wait 5 business days after the official payment date. If the money has still not arrived after 5 business days, contact SASSA." },
+      { "question": "My status says 'Approved' but there is no pay date. Why?", "answer": "The pay date typically appears 2-5 days after approval. If it has been more than a week without a pay date, contact SASSA." },
+      { "question": "I received an SMS saying my payment was sent but the money is not in my account. What do I do?", "answer": "For bank transfers: the SMS means SASSA sent the payment, but your bank may take 1-2 days to process it. For Cash Send: the SMS is your voucher — take it to a retailer to collect cash." },
+      { "question": "Can SASSA reverse a payment if the account details were wrong?", "answer": "If the payment was sent to an incorrect account, SASSA can initiate a reversal. This process takes 2-4 weeks. Contact SASSA immediately." },
+      { "question": "My payment was successful last month but not this month. Why?", "answer": "Every month is evaluated separately. Your eligibility may have changed. Check your status on the portal to see if you were approved for this month." }
+    ] },
+    { "id": "related-links", "type": "link-grid", "links": [
+      { "title": "How to Update Bank Details", "href": "/banking/update-bank-details", "description": "Step-by-step guide to changing your bank account" },
+      { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All the ways to receive your grant payment" },
+      { "title": "Bank Verification Process", "href": "/banking/bank-verification-process", "description": "How SASSA verifies your bank account" },
+      { "title": "Cash Send Collection Guide", "href": "/banking/cash-send-guide", "description": "How to collect your grant without a bank account" }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Update Bank Details", "slug": "/banking/update-bank-details" },
+    { "title": "Payment Processing Status", "slug": "/status/payment-processing" },
+    { "title": "Approved Status", "slug": "/status/approved" }
+  ]
+}

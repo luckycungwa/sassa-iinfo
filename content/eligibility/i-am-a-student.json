@@ -1,0 +1,36 @@
+{
+  "id": "eligibility-student",
+  "slug": "/eligibility/i-am-a-student",
+  "classification": "eligibility-guide",
+  "title": "Can Students Get SASSA Grants?",
+  "description": "Find out if tertiary or secondary school students are eligible for SASSA social grants. Rules for NSFAS recipients, TVET college students, and part-time learners.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Can Students Get SASSA Grants? Student Eligibility Guide",
+    "metaDescription": "Complete guide to SASSA grant eligibility for students. Learn if tertiary and secondary students qualify, how NSFAS affects eligibility, and what to do after your studies end.",
+    "keywords": ["SASSA for students", "student SASSA grant", "SASSA NSFAS rules", "SASSA tertiary student", "SASSA TVET college"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Can Students Get SASSA Grants?" },
+    { "id": "intro", "type": "paragraph", "text": "Students in South Africa often struggle with living costs. However, social grant eligibility for students depends strictly on whether you receive other state funding." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be enrolled in a school or tertiary institution", "Must not receive NSFAS or other government bursaries", "Must meet the basic age and income requirements"], "restrictions": ["Active NSFAS recipients are completely excluded from receiving the SRD R370 grant"], "recommendedGrants": [{ "name": "Social Relief of Distress (SRD R370)", "slug": "srd-r370-grant", "amount": "R370 / month" }, { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R530 / month" }] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Get proof of non-funding", "description": "Ensure you have a letter or document proving you do not receive NSFAS funding." },
+      { "title": "Apply for your grant", "description": "Apply online or at a SASSA branch with your academic proof and ID." }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I get a grant if I am studying at a TVET college?", "answer": "Yes, provided you do NOT receive any NSFAS allowance, transport bursary, or accommodation funding." },
+      { "question": "I finished my studies but SASSA says I am still NSFAS funded. What do I do?", "answer": "Upload your graduation certificate or academic transcript along with a NSFAS completion letter to trigger the database update." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "SASSA for NSFAS-Funded Students", "slug": "/eligibility/i-receive-nsfas" },
+    { "title": "Appeal After NSFAS Decline", "slug": "/appeals/appeal-after-nsfas" },
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" }
+  ]
+}

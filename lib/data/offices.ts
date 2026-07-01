@@ -121,5 +121,77 @@ export const offices: SASSAOffice[] = [
     directions: "Located in the heart of Govan Mbeki Avenue, near Russell Road.",
     nearbyLandmarks: "Gqeberha City Hall, Russell Road College",
     accessibilityNotes: "Ground level access, wide doorways, priority queue for senior citizens."
+  },
+  {
+    id: "mp-nelspruit",
+    name: "Mbombela (Nelspruit) Local Office",
+    province: "mpumalanga",
+    city: "mbombela",
+    address: "17 Government Boulevard, Riverside Park, Mbombela, 1200",
+    phone: "013 754 3900",
+    operatingHours: "Monday to Friday, 07:30 - 16:00",
+    servicesOffered: [
+      "All grant applications",
+      "SRD R370 enquiries",
+      "Foster Care grant certifications",
+      "Change of banking details"
+    ],
+    directions: "Located within the Riverside Park government complex off Government Boulevard.",
+    nearbyLandmarks: "Riverside Mall, Mbombela Stadium",
+    accessibilityNotes: "Wheelchair ramps at entrance, accessible parking bays, ground floor service counters."
+  },
+  {
+    id: "fs-bloemfontein",
+    name: "Bloemfontein Local Office",
+    province: "free-state",
+    city: "bloemfontein",
+    address: "95 St Andrew Street, Bloemfontein, 9301",
+    phone: "051 412 0300",
+    operatingHours: "Monday to Friday, 07:30 - 16:00",
+    servicesOffered: [
+      "State Pension applications",
+      "Disability Grant medical bookings",
+      "Child Support Grant registrations",
+      "Appeal submissions"
+    ],
+    directions: "Situated on St Andrew Street between Charles and Aliwal Street, opposite the Free State High Court.",
+    nearbyLandmarks: "Free State High Court, Hoffman Square",
+    accessibilityNotes: "Ground floor access, priority queue for pensioners, braille signage available."
+  },
+  {
+    id: "nw-mahikeng",
+    name: "Mahikeng Local Office",
+    province: "north-west",
+    city: "mahikeng",
+    address: "Mega City Complex, Carrington Street, Mahikeng, 2745",
+    phone: "018 397 2600",
+    operatingHours: "Monday to Friday, 07:30 - 16:00",
+    servicesOffered: [
+      "All grant registrations",
+      "Means test audits",
+      "Social relief vouchers",
+      "Card replacements"
+    ],
+    directions: "Enter the Mega City Complex from Carrington Street, proceed to the second floor north wing.",
+    nearbyLandmarks: "Mega City Shopping Centre, Mahikeng Station",
+    accessibilityNotes: "Lift access to second floor, wheelchair friendly counters, dedicated senior queue."
+  },
+  {
+    id: "nc-kimberley",
+    name: "Kimberley Local Office",
+    province: "northern-cape",
+    city: "kimberley",
+    address: "Old SAR Building, Market Square, Kimberley, 8300",
+    phone: "053 802 7300",
+    operatingHours: "Monday to Friday, 07:30 - 16:00",
+    servicesOffered: [
+      "Older Person Grant applications",
+      "Disability assessments",
+      "SRD R370 status checks",
+      "Foster Care certifications"
+    ],
+    directions: "Located on Market Square in the historic Old SAR Building, opposite the Kimberley City Hall.",
+    nearbyLandmarks: "Kimberley City Hall, Honoured Dead Memorial",
+    accessibilityNotes: "Ground level access, wide corridors, sign language interpreter available by appointment."
   }
 ];

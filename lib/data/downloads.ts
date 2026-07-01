@@ -72,5 +72,88 @@ export const downloadableForms: DownloadableForm[] = [
     ],
     approxSize: "580 KB (PDF)",
     pdfPlaceholderContent: "ITSAA_SRD_R370_APPEAL_FORM_TEMPLATE.pdf"
+  },
+  {
+    id: "unemployment-affidavit",
+    slug: "unemployment-affidavit-template",
+    title: "SASSA Unemployment Affidavit Template",
+    shortDescription: "Standard sworn affidavit template for declaring unemployment status to SASSA.",
+    purpose: "This affidavit is required when applying for SASSA grants or appealing a decline. It serves as a sworn declaration under oath that you have no income or employment.",
+    howToFill: [
+      "Complete your personal details: full name, ID number, and residential address.",
+      "State clearly that you are currently unemployed and receive no income.",
+      "Sign the affidavit in the presence of a SAPS officer or commissioner of oaths.",
+      "Do NOT sign before arriving at the police station — it must be sworn in front of the officer."
+    ],
+    documentChecklist: [
+      "Blank affidavit form (download below).",
+      "Your green ID book or smart ID card.",
+      "Pen (black ink only for signatures)."
+    ],
+    approxSize: "120 KB (PDF)",
+    pdfPlaceholderContent: "SASSA_UNEMPLOYMENT_AFFIDAVIT_TEMPLATE.pdf"
+  },
+  {
+    id: "consent-form",
+    slug: "sassa-consent-form",
+    title: "SASSA Consent and Declaration Form",
+    shortDescription: "General consent form authorising SASSA to verify your personal, financial, and medical information.",
+    purpose: "This form grants SASSA permission to access third-party databases (Home Affairs, SARS, banks, medical boards) to verify the information provided in your grant application.",
+    howToFill: [
+      "Read each consent clause carefully before signing.",
+      "Tick the boxes for the specific databases you authorise SASSA to check.",
+      "Provide your full ID number, full names, and contact number.",
+      "Sign and date in the presence of a SASSA official at the branch."
+    ],
+    documentChecklist: [
+      "Original ID document.",
+      "Application reference number (if reapplying).",
+      "Proof of residence."
+    ],
+    approxSize: "340 KB (PDF)",
+    pdfPlaceholderContent: "SASSA_CONSENT_DECLARATION_FORM_V2026.pdf"
+  },
+  {
+    id: "grant-checklist",
+    slug: "sassa-grant-application-checklist",
+    title: "SASSA Grant Application Document Checklist",
+    shortDescription: "Complete checklist of documents required when applying for any SASSA social grant.",
+    purpose: "Use this checklist to ensure you have all required documents before visiting a SASSA office. Missing documents is the most common reason for application delays.",
+    howToFill: [
+      "Print the checklist and tick each item as you gather the document.",
+      "Use the 'Notes' column to track which documents still need certification.",
+      "Bring this checklist with you to your SASSA office appointment."
+    ],
+    documentChecklist: [
+      "Original 13-digit green ID book or smart ID card.",
+      "Certified copy of ID (must be stamped within last 6 months).",
+      "Proof of residence (utility bill, tribal authority letter, or rental agreement).",
+      "3 months bank statements (certified by the bank).",
+      "Marital status documents (marriage certificate, divorce decree, death certificate of spouse).",
+      "Medical report (for Disability Grant only — completed by a SASSA medical officer).",
+      "Proof of any other income or benefits (UIF letter, pension slip, NSFAS letter).",
+      "Children's birth certificates (for Child Support Grant applications).",
+      "Court order (for Foster Care Grant applications).",
+      "Completed application form (available at SASSA offices)."
+    ],
+    approxSize: "80 KB (PDF)",
+    pdfPlaceholderContent: "SASSA_GRANT_CHECKLIST_V2026.pdf"
+  },
+  {
+    id: "government-notice",
+    slug: "sassa-government-notice-template",
+    title: "SASSA Government Gazette Notice Reference Guide",
+    shortDescription: "Reference guide to official SASSA-related Government Gazette notices and proclamations.",
+    purpose: "This reference document lists the key Government Gazette notices that govern SASSA grant amounts, means test thresholds, and payment regulations.",
+    howToFill: [
+      "Locate the relevant Gazette number for your grant type using the table below.",
+      "Visit the South African Government website to download the full Gazette notice.",
+      "Use the Gazette reference number in any formal correspondence with SASSA."
+    ],
+    documentChecklist: [
+      "No documents required — this is a reference guide only."
+    ],
+    approxSize: "210 KB (PDF)",
+    pdfPlaceholderContent: "SASSA_GAZETTE_REFERENCE_GUIDE_V2026.pdf"
   }
 ];

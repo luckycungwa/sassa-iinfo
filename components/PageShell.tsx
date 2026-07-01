@@ -108,11 +108,9 @@ export default function PageShell({ page, children, onNavigateToRelated }: PageS
                 Explore verified supplementary guides and official procedures related to this grant.
               </p>
               <div className="space-y-2.5">
-                {relatedPages.map((slug) => {
-                  const label = slug
-                    .replace(/^\//, "")
-                    .replace(/-/g, " ")
-                    .replace(/\//g, " › ");
+                {relatedPages.map((page) => {
+                  const slug = page.slug;
+                  const label = page.title;
                   return (
                     <button
                       key={slug}

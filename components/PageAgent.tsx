@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Send, Sparkles, Loader2, RefreshCw, X, MessageSquare, AlertCircle } from "lucide-react";
+import { Send, Sparkles, Loader2, RefreshCw, X, AlertCircle } from "lucide-react";
 
 interface Message {
   role: "user" | "assistant";
@@ -99,9 +99,9 @@ Ask me anything about this page, such as:
   ];
 
   return (
-    <div className="flex flex-col h-full bg-white border-l border-slate-200 shadow-xl overflow-hidden rounded-r-xl">
+    <div className="flex flex-col h-full bg-surface border-l border-slate-200  overflow-hidden rounded-r-xl">
       {/* Header */}
-      <div className="p-4 bg-emerald-900 text-white flex items-center justify-between">
+      <div className="p-4 bg-accent-dark text-white flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="p-1.5 bg-amber-400 text-emerald-950 rounded-lg">
             <Sparkles className="w-5 h-5 animate-pulse" />
@@ -116,7 +116,7 @@ Ask me anything about this page, such as:
         {onClose && (
           <button
             onClick={onClose}
-            className="p-1 hover:bg-emerald-800 rounded-lg transition"
+            className="p-1 hover:bg-accent rounded-lg transition"
             title="Close Assistant"
           >
             <X className="w-5 h-5" />
@@ -125,17 +125,17 @@ Ask me anything about this page, such as:
       </div>
 
       {/* Messages */}
-      <div className="flex-1 p-4 overflow-y-auto space-y-4 bg-slate-50 scrollbar-thin">
+      <div className="flex-1 p-4 overflow-y-auto space-y-4 bg-canvas scrollbar-thin">
         {messages.map((msg, idx) => (
           <div
             key={idx}
             className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
           >
             <div
-              className={`max-w-[85%] rounded-2xl p-3.5 shadow-sm text-sm leading-relaxed ${
+              className={`max-w-[85%] rounded-xl p-3.5  text-sm leading-relaxed ${
                 msg.role === "user"
-                  ? "bg-emerald-800 text-white rounded-tr-none"
-                  : "bg-white text-slate-800 border border-slate-100 rounded-tl-none"
+                  ? "bg-accent text-white rounded-tr-none"
+                  : "bg-surface text-slate-800 border border-border rounded-tl-none"
               }`}
             >
               {/* Content rendering with support for basic markdown bolding & bullets */}
@@ -167,8 +167,8 @@ Ask me anything about this page, such as:
 
               {/* Citations / Sources */}
               {msg.sources && msg.sources.length > 0 && (
-                <div className="mt-3 pt-2.5 border-t border-slate-100 text-xs">
-                  <p className="font-semibold text-slate-500 mb-1 font-mono">Sources:</p>
+                <div className="mt-3 pt-2.5 border-t border-border text-xs">
+                  <p className="font-semibold text-muted mb-1 font-mono">Sources:</p>
                   <div className="flex flex-wrap gap-1.5">
                     {msg.sources.map((src, sIdx) => (
                       <a
@@ -176,7 +176,7 @@ Ask me anything about this page, such as:
                         href={src.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-emerald-700 hover:underline bg-emerald-50/50 border border-emerald-100 px-2 py-0.5 rounded text-[11px]"
+                        className="text-accent-dark hover:underline bg-accent-light/50 border border-emerald-100 px-2 py-0.5 rounded text-[11px]"
                       >
                         {src.title}
                       </a>
@@ -190,8 +190,8 @@ Ask me anything about this page, such as:
 
         {loading && (
           <div className="flex justify-start">
-            <div className="bg-white border border-slate-100 rounded-2xl rounded-tl-none p-4 shadow-sm flex items-center gap-2 text-slate-500 text-sm">
-              <Loader2 className="w-4 h-4 animate-spin text-emerald-800" />
+            <div className="bg-surface border border-border rounded-xl rounded-tl-none p-4  flex items-center gap-2 text-muted text-sm">
+              <Loader2 className="w-4 h-4 animate-spin text-accent-dark" />
               <span>PageAgent is searching and thinking...</span>
             </div>
           </div>
@@ -222,7 +222,7 @@ Ask me anything about this page, such as:
             key={qIdx}
             onClick={() => handleSend(q)}
             disabled={loading}
-            className="text-xs bg-white hover:bg-emerald-50 border border-slate-200 hover:border-emerald-200 px-2.5 py-1.5 rounded-full transition text-slate-600 hover:text-emerald-800 font-medium"
+            className="text-xs bg-surface hover:bg-accent-light border border-slate-200 hover:border-emerald-200 px-2.5 py-1.5 rounded-full transition text-slate-600 hover:text-accent-dark font-medium"
           >
             {q}
           </button>
@@ -230,7 +230,7 @@ Ask me anything about this page, such as:
       </div>
 
       {/* Input */}
-      <div className="p-3 bg-white border-t border-slate-200 flex gap-2">
+      <div className="p-3 bg-surface border-t border-slate-200 flex gap-2">
         <input
           type="text"
           value={input}
@@ -238,12 +238,12 @@ Ask me anything about this page, such as:
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
           placeholder="Ask SASSA PageAgent..."
           disabled={loading}
-          className="flex-1 bg-slate-50 hover:bg-slate-100/50 focus:bg-white border border-slate-200 rounded-xl px-3.5 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-800 transition placeholder:text-slate-400"
+          className="flex-1 bg-canvas hover:bg-slate-100/50 focus:bg-surface border border-slate-200 rounded-xl px-3.5 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-800 transition placeholder:text-muted"
         />
         <button
           onClick={() => handleSend()}
           disabled={loading || !input.trim()}
-          className="bg-emerald-800 hover:bg-emerald-950 text-white p-2.5 rounded-xl transition disabled:opacity-50 disabled:hover:bg-emerald-800"
+          className="bg-accent hover:bg-accent-dark text-white p-2.5 rounded-xl transition disabled:opacity-50 disabled:hover:bg-accent"
         >
           <Send className="w-5 h-5" />
         </button>

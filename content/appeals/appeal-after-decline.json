@@ -1,0 +1,41 @@
+{
+  "id": "appeal-after-decline",
+  "slug": "/appeals/appeal-after-decline",
+  "classification": "appeal-guide",
+  "title": "How to Appeal a SASSA Grant After Initial Decline",
+  "description": "Step-by-step guide to appealing a SASSA grant after receiving an initial decline. Covers every step from receiving your decline notification to receiving the tribunal ruling.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "How to Appeal a SASSA Grant After Initial Decline — Full Guide",
+    "metaDescription": "Step-by-step guide to appealing a SASSA grant after initial decline. Learn how to gather evidence, submit through the ITSAA portal, track your appeal, and what to expect after the ruling.",
+    "keywords": ["appeal SASSA after decline", "SASSA grant declined now what", "SASSA appeal process after rejection", "SASSA appeal after initial decline"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "How to Appeal a SASSA Grant After Initial Decline" },
+    { "id": "intro", "type": "paragraph", "text": "A declined grant application is not the end of the road. You have 90 days to file an appeal with the Independent Tribunal for Social Assistance Appeals (ITSAA). This guide covers every step from receiving your decline notification to receiving the tribunal ruling." },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Process" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Read your decline notification", "description": "Read your SASSA decline notification carefully to understand the specific reason." },
+      { "title": "Gather your evidence", "description": "Gather evidence that directly refutes the decline reason (UIF letter, bank statements, NSFAS letter)." },
+      { "title": "Visit the appeal portal", "description": "Visit the ITSAA appeal portal at srd.dsd.gov.za (for SRD) or your local SASSA office (for other grants)." },
+      { "title": "Verify your identity", "description": "Enter your ID number and phone number to verify your identity via OTP." },
+      { "title": "Select months and upload evidence", "description": "Select the month(s) you are appealing and provide your supporting evidence." },
+      { "title": "Save your reference number", "description": "Submit and save your Appeal Reference Number for tracking." },
+      { "title": "Monitor for updates", "description": "Monitor the portal for updates and wait for the tribunal ruling." }
+    ] },
+    { "id": "callout", "type": "callout", "intent": "warning", "title": "90-Day Deadline", "text": "You have 90 days from the date of the decline notification to file your appeal. The tribunal has 60-90 days to issue a ruling." },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "What if it has been more than 90 days since my decline?", "answer": "Unfortunately, appeals cannot be accepted after 90 days. You must submit a completely new grant application." },
+      { "question": "Can I appeal in person at a SASSA office?", "answer": "Yes. For non-SRD grants, you can visit your nearest SASSA office with your documents and request a manual appeal submission." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Appeal After UIF Decline", "slug": "/appeals/appeal-after-uif" },
+    { "title": "Appeal After Income Source", "slug": "/appeals/appeal-after-income-source" },
+    { "title": "Appeal Outcomes", "slug": "/appeals/appeal-outcomes" }
+  ]
+}

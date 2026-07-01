@@ -1,0 +1,40 @@
+{
+  "id": "appeal-timeline",
+  "slug": "/appeals/appeal-timeline",
+  "classification": "appeal-guide",
+  "title": "SASSA Appeal Timeline: How Long Does an Appeal Take?",
+  "description": "Complete breakdown of the SASSA appeal process timeline, from submission to tribunal ruling. What to expect at each stage and how to track your appeal.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Appeal Timeline — How Long Does an Appeal Take? (60-90 Days)",
+    "metaDescription": "Complete guide to the SASSA appeal timeline: acknowledgment within 5-10 days, tribunal review takes 60-90 days, and backpay is issued within 14 business days after approval.",
+    "keywords": ["SASSA appeal timeline", "how long SASSA appeal takes", "ITSAA processing time", "SASSA appeal waiting time", "appeal backpay time"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Appeal Timeline: How Long Does an Appeal Take?" },
+    { "id": "intro", "type": "paragraph", "text": "Understanding the appeal timeline helps you plan and avoid unnecessary follow-ups. The Independent Tribunal for Social Assistance Appeals (ITSAA) has specific timeframes for each stage of the process." },
+    { "id": "stage1-h", "type": "heading", "level": 3, "text": "Stage 1: Submission & Acknowledgment (Days 1-10)" },
+    { "id": "stage1", "type": "paragraph", "text": "After you submit your appeal on the ITSAA portal, you will receive an acknowledgment SMS or email within 5-10 business days confirming receipt." },
+    { "id": "stage2-h", "type": "heading", "level": 3, "text": "Stage 2: Tribunal Review (Weeks 2-6)" },
+    { "id": "stage2", "type": "paragraph", "text": "The tribunal reviews your case and may request additional documentation if needed. This stage takes 2-4 weeks." },
+    { "id": "stage3-h", "type": "heading", "level": 3, "text": "Stage 3: Final Ruling (Days 60-90)" },
+    { "id": "stage3", "type": "paragraph", "text": "A final ruling is issued within 60-90 days from the date of submission. Complex cases involving fraud flags or medical evidence may take up to 120 days." },
+    { "id": "callout", "type": "callout", "intent": "warning", "title": "Full Timeline", "text": "The full appeal process takes 60 to 90 days from submission to final ruling. Complex cases involving fraud flags or medical evidence may take up to 120 days." },
+    { "id": "documents-h", "type": "heading", "level": 3, "text": "What You Need" },
+    { "id": "documents", "type": "list", "ordered": false, "items": ["Appeal reference number for tracking purposes", "Copy of the original decline notification from SASSA", "Any supporting evidence uploaded with your appeal"] },
+    { "id": "outcomes-h", "type": "heading", "level": 3, "text": "Possible Outcomes" },
+    { "id": "outcomes", "type": "list", "ordered": false, "items": ["Ruling in your favour within 60-90 days — backdated payments issued within 2 weeks", "Ruling against you — you may reapply for the grant fresh if your circumstances change"] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I speed up the appeal process?", "answer": "No, but submitting complete documentation upfront avoids delays from follow-up requests. Calling the tribunal will not accelerate the review." },
+      { "question": "Do I get paid during the appeal process?", "answer": "No. Payments only resume if and when your appeal is approved, at which point you receive backpay to the original decline date." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Appeal Outcomes", "slug": "/appeals/appeal-outcomes" },
+    { "title": "Required Documents", "slug": "/appeals/appeal-documents" }
+  ]
+}

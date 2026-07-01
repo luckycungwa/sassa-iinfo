@@ -1,0 +1,47 @@
+{
+  "id": "appeal-reasons",
+  "slug": "/appeals/appeal-reasons",
+  "classification": "appeal-guide",
+  "title": "Common Reasons for SASSA Grant Decline & How to Appeal Them",
+  "description": "Every official SASSA decline reason explained with the exact appeal strategy for each, including UIF, NSFAS, bank verification, means test, and identity verification failures.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Common SASSA Grant Decline Reasons & How to Appeal Each One",
+    "metaDescription": "Complete guide to all SASSA grant decline reasons: UIF Registered, NSFAS Funded, Alternative Income, Means Test Failed, Identity Verification Failed, and more. Appeal strategy for each.",
+    "keywords": ["SASSA decline reasons", "why SASSA grant declined", "SASSA UIF declined", "SASSA alternative income declined", "SASSA means test failed"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Common Reasons for SASSA Grant Decline & How to Appeal Them" },
+    { "id": "intro", "type": "paragraph", "text": "SASSA declines grants for specific coded reasons. Knowing exactly why you were declined helps you file a targeted appeal with the right evidence." },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Appeal Process Overview" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Check your decline notification", "description": "Check your decline notification for the specific reason code or description." },
+      { "title": "Select your reason", "description": "Select the matching reason from the ITSAA appeal dropdown menu." },
+      { "title": "Upload evidence", "description": "Upload evidence that directly addresses the decline reason." },
+      { "title": "Wait for ruling", "description": "Wait for the tribunal to review your appeal against the evidence." }
+    ] },
+    { "id": "reasons-h", "type": "heading", "level": 3, "text": "Common Decline Reasons & Solutions" },
+    { "id": "reasons-table", "type": "table", "headers": ["Decline Reason", "What It Means", "How to Appeal"], "rows": [
+      ["UIF Registered", "Your ID is linked to a UIF record", "Submit a UI-19 termination letter from Department of Labour"],
+      ["NSFAS Funded", "Your ID is in the NSFAS database", "Submit a NSFAS cancellation letter"],
+      ["Alternative Income Source", "Bank deposits detected", "Submit bank statements showing no income + sworn affidavit"],
+      ["Means Test Failed", "Income or assets exceed threshold", "Submit updated financial records showing lower income"],
+      ["Identity Verification Failed", "ID mismatch with Home Affairs", "Visit Home Affairs to correct your details"],
+      ["Bank Verification Failed", "Bank details mismatch", "Ensure the account is in your name and active"],
+      ["Self Exclusion", "You declared other support", "File an appeal explaining your actual situation"]
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I appeal if I do not know the reason for decline?", "answer": "Yes. Select 'Other' as the reason and explain your situation. The tribunal will investigate the underlying cause." },
+      { "question": "What if I have multiple decline reasons?", "answer": "Address each reason in your appeal with separate evidence for each. Upload multiple documents labeled clearly." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Appeal After UIF Decline", "slug": "/appeals/appeal-after-uif" },
+    { "title": "Appeal After NSFAS Decline", "slug": "/appeals/appeal-after-nsfas" },
+    { "title": "Appeal After Income Source", "slug": "/appeals/appeal-after-income-source" }
+  ]
+}

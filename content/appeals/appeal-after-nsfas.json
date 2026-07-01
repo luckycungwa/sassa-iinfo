@@ -1,0 +1,38 @@
+{
+  "id": "appeal-after-nsfas",
+  "slug": "/appeals/appeal-after-nsfas",
+  "classification": "appeal-guide",
+  "title": "Appealing a Decline Due to NSFAS Funding",
+  "description": "Guide to appealing a SASSA grant decline caused by NSFAS database records. How to get a NSFAS cancellation or completion letter and submit your appeal.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Appealing SASSA Decline Due to NSFAS Funding — Complete Guide",
+    "metaDescription": "Guide to appealing a SASSA grant decline if you are flagged as NSFAS funded. Learn how to request a NSFAS cancellation letter and submit it with your ITSAA appeal.",
+    "keywords": ["SASSA NSFAS appeal", "NSFAS registered SASSA decline", "NSFAS cancellation letter", "SASSA student decline", "appeal NSFAS funding"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Appealing a Decline Due to NSFAS Funding" },
+    { "id": "intro", "type": "paragraph", "text": "Students who previously received National Student Financial Aid Scheme (NSFAS) funding are often declined for SASSA grants. If your studies are finished or you no longer receive NSFAS, you need to appeal this decision." },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Appeal" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Request NSFAS letter", "description": "Request a NSFAS Cancellation Letter or Completion Letter from NSFAS via the myNSFAS portal." },
+      { "title": "Log into the appeal portal", "description": "Visit the ITSAA appeal portal at srd.dsd.gov.za." },
+      { "title": "Submit your appeal", "description": "State that you are no longer an active student and receive no educational allowances. Upload your NSFAS letter as proof." }
+    ] },
+    { "id": "callout", "type": "callout", "intent": "info", "title": "Timeline", "text": "Must be filed within 90 days. NSFAS letters can be requested via the myNSFAS portal." },
+    { "id": "documents-h", "type": "heading", "level": 3, "text": "Required Documents" },
+    { "id": "documents", "type": "list", "ordered": false, "items": ["NSFAS Cancellation or Completion certificate", "Academic transcript showing completion", "Unemployment affidavit"] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can active students get SASSA grants?", "answer": "No, active tertiary students receiving NSFAS are not eligible for social grants as their living costs are already subsidised by the state." },
+      { "question": "How do I get a NSFAS cancellation letter?", "answer": "Log into your myNSFAS account and request a 'Proof of Non-Funding' or 'Cancellation Letter' from the documents section." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Appeal After UIF Decline", "slug": "/appeals/appeal-after-uif" },
+    { "title": "Common Reasons for Decline", "slug": "/appeals/appeal-reasons" }
+  ]
+}

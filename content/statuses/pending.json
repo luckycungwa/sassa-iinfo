@@ -1,0 +1,25 @@
+{
+  "id": "status-pending",
+  "slug": "/status/pending",
+  "classification": "status-meaning",
+  "title": "Pending — What Does Pending Mean on SASSA Status Check?",
+  "description": "Your SASSA grant status shows 'Pending' — here's what it means, how long it lasts, and what you should do next.",
+  "lastUpdated": "2026-06-30",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Pending: What It Means for Your SASSA Grant Status",
+    "metaDescription": "SASSA status showing 'Pending'? Learn what this means, how long it takes to process, and what steps you should take while waiting for your grant decision.",
+    "keywords": ["SASSA pending", "grant pending status", "SASSA application pending"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "Pending — What Does It Mean?" },
+    { "id": "intro", "type": "paragraph", "text": "When your SASSA grant status shows 'Pending', it means your application has been received and is being reviewed by SASSA officials. This is a normal part of the application process." },
+    { "id": "ref-block", "type": "status-reference", "statusName": "Pending", "explanation": "Your application is in the review queue. SASSA is verifying your personal details, means test information, and supporting documents against their records.", "whyItHappens": ["SASSA receives thousands of applications daily", "Additional verification may be needed for certain documents", "Means test calculations take time to process", "Manual review may be triggered for complex cases"], "howLongItLasts": "Typically 4–8 weeks from the date of application submission. SRD R370 applications may resolve faster (1–2 weeks).", "whatYouShouldDo": ["Continue checking your status online", "Make sure your contact details are up to date", "Respond promptly to any SASSA requests for additional information", "Do not submit a duplicate application — this will cause delays"], "relatedStatuses": [{ "name": "Processing", "slug": "processing" }, { "name": "Approved", "slug": "approved" }] }
+  ],
+  "relatedPages": [
+    { "title": "Processing", "slug": "/status/processing" },
+    { "title": "Approved", "slug": "/status/approved" }
+  ]
+}

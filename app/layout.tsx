@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Inter, JetBrains_Mono } from 'next/font/google';
-import './globals.css'; // Global styles
+import { Outfit, JetBrains_Mono } from 'next/font/google';
+import './globals.css';
 
-const inter = Inter({
+const outfit = Outfit({
   subsets: ['latin'],
-  variable: '--font-sans',
+  variable: '--font-display',
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -13,14 +13,14 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'SASSA Resource Platform | South Africa’s Trusted Public Assistance Knowledge Base',
+  title: 'SASSA Resource Platform | South Africa\'s Trusted Public Assistance Knowledge Base',
   description: 'The complete, high-performance reference hub for SASSA social grants, status meaning lookups, payment calendars, appeal trackers, eligibility checkers, and interactive calculators.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
-      <body className="font-sans antialiased bg-slate-50 text-slate-900" suppressHydrationWarning>
+    <html lang="en" className={`${outfit.variable} ${jetbrainsMono.variable}`}>
+      <body className="font-display antialiased bg-canvas text-ink" suppressHydrationWarning>
         {children}
       </body>
     </html>

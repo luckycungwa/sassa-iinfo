@@ -143,7 +143,7 @@ export default function InteractiveTools() {
   return (
     <div className="space-y-6">
       {/* Horizontal Nav Bar */}
-      <div className="flex gap-2 pb-2 border-b border-slate-100 overflow-x-auto scrollbar-none whitespace-nowrap">
+      <div className="flex gap-2 pb-2 border-b border-border overflow-x-auto scrollbar-none whitespace-nowrap">
         {[
           { id: "eligibility-checker", label: "Eligibility Checker", icon: Sliders },
           { id: "payment-lookup", label: "Pay Day Lookup", icon: Calendar },
@@ -161,8 +161,8 @@ export default function InteractiveTools() {
               onClick={() => setActiveTool(tool.id as ToolType)}
               className={`flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs font-bold transition ${
                 activeTool === tool.id
-                  ? "bg-emerald-800 text-white shadow-sm"
-                  : "bg-white text-slate-600 hover:bg-slate-50 border border-slate-100"
+                  ? "bg-accent text-white"
+                  : "bg-surface text-slate-600 hover:bg-canvas border border-border"
               }`}
             >
               <Icon className="w-4 h-4" />
@@ -173,13 +173,13 @@ export default function InteractiveTools() {
       </div>
 
       {/* Main Container */}
-      <div className="bg-white border border-slate-100 rounded-2xl p-6 md:p-8 shadow-sm">
+      <div className="bg-surface border border-border rounded-xl p-6 md:p-8">
         {/* TOOL 1: Eligibility Checker */}
         {activeTool === "eligibility-checker" && (
           <div className="space-y-6">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg font-extrabold text-slate-900 tracking-tight">Interactive Grant Eligibility Checker</h2>
-              <p className="text-slate-500 text-xs">Verify your life parameters to find matches.</p>
+            <div className="border-b border-border pb-4">
+              <h2 className="text-lg font-extrabold text-ink tracking-tight">Interactive Grant Eligibility Checker</h2>
+              <p className="text-muted text-xs">Verify your life parameters to find matches.</p>
             </div>
 
             {quizStep === 0 && (
@@ -192,12 +192,12 @@ export default function InteractiveTools() {
                     max="120"
                     value={quizAnswers.age}
                     onChange={(e) => setQuizAnswers({ ...quizAnswers, age: parseInt(e.target.value) || 0 })}
-                    className="w-full max-w-xs border border-slate-200 rounded-xl px-4 py-3 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-emerald-800 transition"
+                    className="w-full max-w-xs border border-slate-200 rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none focus:ring-2 focus:ring-emerald-800 transition"
                   />
                 </div>
                 <button
                   onClick={() => setQuizStep(1)}
-                  className="bg-emerald-800 hover:bg-emerald-950 text-white font-bold px-5 py-3 rounded-xl transition text-sm flex items-center gap-1.5"
+                  className="bg-accent hover:bg-accent-dark text-white font-bold px-5 py-3 rounded-xl transition text-sm flex items-center gap-1.5"
                 >
                   Continue <ArrowRight className="w-4 h-4" />
                 </button>
@@ -212,7 +212,7 @@ export default function InteractiveTools() {
                     <button
                       onClick={() => setQuizAnswers({ ...quizAnswers, isUnemployed: true })}
                       className={`px-6 py-3 rounded-xl font-bold border transition text-sm ${
-                        quizAnswers.isUnemployed ? "bg-emerald-50 border-emerald-500 text-emerald-800" : "bg-white border-slate-200"
+                        quizAnswers.isUnemployed ? "bg-accent-light border-emerald-500 text-accent-dark" : "bg-surface border-slate-200"
                       }`}
                     >
                       Yes, completely unemployed
@@ -220,7 +220,7 @@ export default function InteractiveTools() {
                     <button
                       onClick={() => setQuizAnswers({ ...quizAnswers, isUnemployed: false })}
                       className={`px-6 py-3 rounded-xl font-bold border transition text-sm ${
-                        !quizAnswers.isUnemployed ? "bg-emerald-50 border-emerald-500 text-emerald-800" : "bg-white border-slate-200"
+                        !quizAnswers.isUnemployed ? "bg-accent-light border-emerald-500 text-accent-dark" : "bg-surface border-slate-200"
                       }`}
                     >
                       No, I have formal earnings
@@ -230,19 +230,19 @@ export default function InteractiveTools() {
 
                 {!quizAnswers.isUnemployed && (
                   <div className="space-y-2 animate-fadeIn">
-                    <label className="block text-xs font-bold text-slate-500">What is your monthly personal income (ZAR)?</label>
+                    <label className="block text-xs font-bold text-muted">What is your monthly personal income (ZAR)?</label>
                     <input
                       type="number"
                       value={quizAnswers.monthlyIncome}
                       onChange={(e) => setQuizAnswers({ ...quizAnswers, monthlyIncome: parseInt(e.target.value) || 0 })}
-                      className="w-full max-w-xs border border-slate-200 rounded-xl px-4 py-3 bg-slate-50 focus:bg-white focus:outline-none"
+                      className="w-full max-w-xs border border-slate-200 rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none"
                     />
                   </div>
                 )}
 
                 <div className="flex gap-2">
                   <button onClick={() => setQuizStep(0)} className="border border-slate-200 px-4 py-3 rounded-xl text-sm font-bold">Back</button>
-                  <button onClick={() => setQuizStep(2)} className="bg-emerald-800 hover:bg-emerald-950 text-white font-bold px-5 py-3 rounded-xl text-sm flex items-center gap-1.5">Continue <ArrowRight className="w-4 h-4" /></button>
+                  <button onClick={() => setQuizStep(2)} className="bg-accent hover:bg-accent-dark text-white font-bold px-5 py-3 rounded-xl text-sm flex items-center gap-1.5">Continue <ArrowRight className="w-4 h-4" /></button>
                 </div>
               </div>
             )}
@@ -255,7 +255,7 @@ export default function InteractiveTools() {
                     <button
                       onClick={() => setQuizAnswers({ ...quizAnswers, hasDisability: true })}
                       className={`px-6 py-3 rounded-xl font-bold border transition text-sm ${
-                        quizAnswers.hasDisability ? "bg-emerald-50 border-emerald-500 text-emerald-800" : "bg-white border-slate-200"
+                        quizAnswers.hasDisability ? "bg-accent-light border-emerald-500 text-accent-dark" : "bg-surface border-slate-200"
                       }`}
                     >
                       Yes
@@ -263,7 +263,7 @@ export default function InteractiveTools() {
                     <button
                       onClick={() => setQuizAnswers({ ...quizAnswers, hasDisability: false })}
                       className={`px-6 py-3 rounded-xl font-bold border transition text-sm ${
-                        !quizAnswers.hasDisability ? "bg-emerald-50 border-emerald-500 text-emerald-800" : "bg-white border-slate-200"
+                        !quizAnswers.hasDisability ? "bg-accent-light border-emerald-500 text-accent-dark" : "bg-surface border-slate-200"
                       }`}
                     >
                       No
@@ -272,7 +272,7 @@ export default function InteractiveTools() {
                 </div>
                 <div className="flex gap-2">
                   <button onClick={() => setQuizStep(1)} className="border border-slate-200 px-4 py-3 rounded-xl text-sm font-bold">Back</button>
-                  <button onClick={() => setQuizStep(3)} className="bg-emerald-800 hover:bg-emerald-950 text-white font-bold px-5 py-3 rounded-xl text-sm flex items-center gap-1.5">Continue <ArrowRight className="w-4 h-4" /></button>
+                  <button onClick={() => setQuizStep(3)} className="bg-accent hover:bg-accent-dark text-white font-bold px-5 py-3 rounded-xl text-sm flex items-center gap-1.5">Continue <ArrowRight className="w-4 h-4" /></button>
                 </div>
               </div>
             )}
@@ -287,60 +287,60 @@ export default function InteractiveTools() {
                     max="10"
                     value={quizAnswers.childrenCount}
                     onChange={(e) => setQuizAnswers({ ...quizAnswers, childrenCount: parseInt(e.target.value) || 0 })}
-                    className="w-full max-w-xs border border-slate-200 rounded-xl px-4 py-3 bg-slate-50 focus:bg-white focus:outline-none"
+                    className="w-full max-w-xs border border-slate-200 rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none"
                   />
                 </div>
                 <div className="flex gap-2">
                   <button onClick={() => setQuizStep(2)} className="border border-slate-200 px-4 py-3 rounded-xl text-sm font-bold">Back</button>
-                  <button onClick={() => setQuizStep(4)} className="bg-emerald-800 hover:bg-emerald-950 text-white font-bold px-5 py-3 rounded-xl text-sm flex items-center gap-1.5 font-mono">Calculate Results</button>
+                  <button onClick={() => setQuizStep(4)} className="bg-accent hover:bg-accent-dark text-white font-bold px-5 py-3 rounded-xl text-sm flex items-center gap-1.5 font-mono">Calculate Results</button>
                 </div>
               </div>
             )}
 
             {quizStep === 4 && (
               <div className="space-y-5 py-2">
-                <div className="p-4 bg-emerald-50 border border-emerald-100 rounded-xl">
+                <div className="p-4 bg-accent-light border border-emerald-100 rounded-xl">
                   <h3 className="font-bold text-emerald-950 text-base">Vetting Result:</h3>
-                  <p className="text-xs text-emerald-800 mt-0.5">Based on your input, here are your potential SASSA qualifiers:</p>
+                  <p className="text-xs text-accent-dark mt-0.5">Based on your input, here are your potential SASSA qualifiers:</p>
 
                   <div className="mt-4 space-y-3">
                     {quizAnswers.age >= 60 && (
-                      <div className="p-3 bg-white border border-emerald-100 rounded-xl flex justify-between items-center shadow-xs">
+                      <div className="p-3 bg-surface border border-emerald-100 rounded-xl flex justify-between items-center ">
                         <div>
                           <p className="font-extrabold text-sm text-slate-800">Older Person Grant (State Pension)</p>
-                          <p className="text-[11px] text-slate-500">Qualifies based on age (60+)</p>
+                          <p className="text-[11px] text-muted">Qualifies based on age (60+)</p>
                         </div>
-                        <span className="text-xs font-extrabold text-emerald-800 bg-emerald-50 px-2 py-1 rounded">R2,180/mo</span>
+                        <span className="text-xs font-extrabold text-accent-dark bg-accent-light px-2 py-1 rounded">R2,180/mo</span>
                       </div>
                     )}
 
                     {quizAnswers.hasDisability && quizAnswers.age >= 18 && quizAnswers.age < 60 && (
-                      <div className="p-3 bg-white border border-emerald-100 rounded-xl flex justify-between items-center shadow-xs">
+                      <div className="p-3 bg-surface border border-emerald-100 rounded-xl flex justify-between items-center ">
                         <div>
                           <p className="font-extrabold text-sm text-slate-800">Disability Grant</p>
-                          <p className="text-[11px] text-slate-500">Requires clinical evaluation vetting</p>
+                          <p className="text-[11px] text-muted">Requires clinical evaluation vetting</p>
                         </div>
-                        <span className="text-xs font-extrabold text-emerald-800 bg-emerald-50 px-2 py-1 rounded">R2,180/mo</span>
+                        <span className="text-xs font-extrabold text-accent-dark bg-accent-light px-2 py-1 rounded">R2,180/mo</span>
                       </div>
                     )}
 
                     {quizAnswers.childrenCount > 0 && (
-                      <div className="p-3 bg-white border border-emerald-100 rounded-xl flex justify-between items-center shadow-xs">
+                      <div className="p-3 bg-surface border border-emerald-100 rounded-xl flex justify-between items-center ">
                         <div>
                           <p className="font-extrabold text-sm text-slate-800">Child Support Grant</p>
-                          <p className="text-[11px] text-slate-500">Claimable for {quizAnswers.childrenCount} children</p>
+                          <p className="text-[11px] text-muted">Claimable for {quizAnswers.childrenCount} children</p>
                         </div>
-                        <span className="text-xs font-extrabold text-emerald-800 bg-emerald-50 px-2 py-1 rounded">R530/mo each</span>
+                        <span className="text-xs font-extrabold text-accent-dark bg-accent-light px-2 py-1 rounded">R530/mo each</span>
                       </div>
                     )}
 
                     {quizAnswers.isUnemployed && quizAnswers.age >= 18 && quizAnswers.age < 60 && !quizAnswers.hasDisability && (
-                      <div className="p-3 bg-white border border-emerald-100 rounded-xl flex justify-between items-center shadow-xs">
+                      <div className="p-3 bg-surface border border-emerald-100 rounded-xl flex justify-between items-center ">
                         <div>
                           <p className="font-extrabold text-sm text-slate-800">Social Relief of Distress (SRD) Grant</p>
-                          <p className="text-[11px] text-slate-500">Unemployed age 18-59</p>
+                          <p className="text-[11px] text-muted">Unemployed age 18-59</p>
                         </div>
-                        <span className="text-xs font-extrabold text-emerald-800 bg-emerald-50 px-2 py-1 rounded">R370/mo</span>
+                        <span className="text-xs font-extrabold text-accent-dark bg-accent-light px-2 py-1 rounded">R370/mo</span>
                       </div>
                     )}
 
@@ -366,18 +366,18 @@ export default function InteractiveTools() {
         {/* TOOL 2: Payment Lookup */}
         {activeTool === "payment-lookup" && (
           <div className="space-y-6">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg font-extrabold text-slate-900 tracking-tight">Payment Date Lookup</h2>
-              <p className="text-slate-500 text-xs">Instantly look up when a specific grant will clear.</p>
+            <div className="border-b border-border pb-4">
+              <h2 className="text-lg font-extrabold text-ink tracking-tight">Payment Date Lookup</h2>
+              <p className="text-muted text-xs">Instantly look up when a specific grant will clear.</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-2">
-                <label className="block text-xs font-bold text-slate-500">Select Grant Type</label>
+                <label className="block text-xs font-bold text-muted">Select Grant Type</label>
                 <select
                   value={selectedGrant}
                   onChange={(e) => setSelectedGrant(e.target.value)}
-                  className="w-full border border-slate-200 rounded-xl px-3 py-2.5 bg-slate-50"
+                  className="w-full border border-slate-200 rounded-xl px-3 py-2.5 bg-canvas"
                 >
                   <option value="older-person">Older Persons Pension</option>
                   <option value="disability">Disability Grant</option>
@@ -387,11 +387,11 @@ export default function InteractiveTools() {
               </div>
 
               <div className="space-y-2">
-                <label className="block text-xs font-bold text-slate-500">Select Month</label>
+                <label className="block text-xs font-bold text-muted">Select Month</label>
                 <select
                   value={selectedMonth}
                   onChange={(e) => setSelectedMonth(e.target.value)}
-                  className="w-full border border-slate-200 rounded-xl px-3 py-2.5 bg-slate-50"
+                  className="w-full border border-slate-200 rounded-xl px-3 py-2.5 bg-canvas"
                 >
                   <option value="july-2026">July 2026</option>
                   <option value="august-2026">August 2026</option>
@@ -399,8 +399,8 @@ export default function InteractiveTools() {
               </div>
             </div>
 
-            <div className="p-5 bg-emerald-50 border border-emerald-100 rounded-2xl text-center">
-              <p className="text-xs text-emerald-800 font-mono uppercase tracking-wider">Scheduled Payment Date</p>
+            <div className="p-5 bg-accent-light border border-emerald-100 rounded-xl text-center">
+              <p className="text-xs text-accent-dark font-mono uppercase tracking-wider">Scheduled Payment Date</p>
               <h3 className="text-2xl font-extrabold text-emerald-950 mt-1">
                 {selectedGrant === "older-person" && selectedMonth === "july-2026" && "3 July 2026"}
                 {selectedGrant === "older-person" && selectedMonth === "august-2026" && "4 August 2026"}
@@ -411,7 +411,7 @@ export default function InteractiveTools() {
                 {selectedGrant === "srd" && selectedMonth === "july-2026" && "25 - 30 July 2026"}
                 {selectedGrant === "srd" && selectedMonth === "august-2026" && "25 - 31 August 2026"}
               </h3>
-              <p className="text-slate-500 text-xs mt-2">
+              <p className="text-muted text-xs mt-2">
                 Funds are released electronically on this date. Retailer cash collection is available immediately.
               </p>
             </div>
@@ -421,23 +421,23 @@ export default function InteractiveTools() {
         {/* TOOL 3: Age Eligibility */}
         {activeTool === "age-calculator" && (
           <div className="space-y-5">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg font-extrabold text-slate-900 tracking-tight">Age Eligibility Vetting</h2>
-              <p className="text-slate-500 text-xs">Verify what grants match based strictly on birth year limits.</p>
+            <div className="border-b border-border pb-4">
+              <h2 className="text-lg font-extrabold text-ink tracking-tight">Age Eligibility Vetting</h2>
+              <p className="text-muted text-xs">Verify what grants match based strictly on birth year limits.</p>
             </div>
 
             <div className="space-y-2">
-              <label className="block text-xs font-bold text-slate-500">Enter Your Date of Birth</label>
+              <label className="block text-xs font-bold text-muted">Enter Your Date of Birth</label>
               <div className="flex gap-2">
                 <input
                   type="date"
                   value={dob}
                   onChange={(e) => setDob(e.target.value)}
-                  className="border border-slate-200 rounded-xl px-4 py-2.5 bg-slate-50 text-sm focus:outline-none"
+                  className="border border-slate-200 rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none"
                 />
                 <button
                   onClick={handleCalculateAge}
-                  className="bg-emerald-800 hover:bg-emerald-950 text-white font-bold px-4 py-2.5 rounded-xl text-xs transition"
+                  className="bg-accent hover:bg-accent-dark text-white font-bold px-4 py-2.5 rounded-xl text-xs transition"
                 >
                   Verify Age limits
                 </button>
@@ -445,23 +445,23 @@ export default function InteractiveTools() {
             </div>
 
             {ageResult && (
-              <div className="p-4 bg-slate-50 rounded-xl border border-slate-100 space-y-3 animate-fadeIn">
+              <div className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
                 <p className="text-sm font-bold text-slate-800">
-                  Calculated Age: <span className="text-emerald-800">{ageResult.age} years old</span>
+                  Calculated Age: <span className="text-accent-dark">{ageResult.age} years old</span>
                 </p>
 
                 {ageResult.qualifiedGrants.length > 0 ? (
                   <div className="space-y-2">
-                    <p className="text-xs text-slate-500 font-bold uppercase tracking-wider">Matching Age Portals:</p>
+                    <p className="text-xs text-muted font-bold uppercase tracking-wider">Matching Age Portals:</p>
                     {ageResult.qualifiedGrants.map((g: any, idx: number) => (
-                      <div key={idx} className="p-3 bg-white rounded-xl border border-slate-100 text-xs shadow-xs">
+                      <div key={idx} className="p-3 bg-surface rounded-xl border border-border text-xs ">
                         <p className="font-bold text-slate-800">{g.name}</p>
-                        <p className="text-slate-500 mt-0.5">{g.desc}</p>
+                        <p className="text-muted mt-0.5">{g.desc}</p>
                       </div>
                     ))}
                   </div>
                 ) : (
-                  <p className="text-xs text-slate-500">No explicit age limits matched.</p>
+                  <p className="text-xs text-muted">No explicit age limits matched.</p>
                 )}
               </div>
             )}
@@ -471,23 +471,23 @@ export default function InteractiveTools() {
         {/* TOOL 4: Child Support Expiry */}
         {activeTool === "child-support-calculator" && (
           <div className="space-y-5">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg font-extrabold text-slate-900 tracking-tight">Child Support Expiry Calculator</h2>
-              <p className="text-slate-500 text-xs">Calculate exactly how many pay cycles remain before a child turns 18.</p>
+            <div className="border-b border-border pb-4">
+              <h2 className="text-lg font-extrabold text-ink tracking-tight">Child Support Expiry Calculator</h2>
+              <p className="text-muted text-xs">Calculate exactly how many pay cycles remain before a child turns 18.</p>
             </div>
 
             <div className="space-y-2">
-              <label className="block text-xs font-bold text-slate-500">Enter Child&apos;s Date of Birth</label>
+              <label className="block text-xs font-bold text-muted">Enter Child&apos;s Date of Birth</label>
               <div className="flex gap-2">
                 <input
                   type="date"
                   value={childDob}
                   onChange={(e) => setChildDob(e.target.value)}
-                  className="border border-slate-200 rounded-xl px-4 py-2.5 bg-slate-50 text-sm focus:outline-none"
+                  className="border border-slate-200 rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none"
                 />
                 <button
                   onClick={handleCalculateChildSupport}
-                  className="bg-emerald-800 hover:bg-emerald-950 text-white font-bold px-4 py-2.5 rounded-xl text-xs transition"
+                  className="bg-accent hover:bg-accent-dark text-white font-bold px-4 py-2.5 rounded-xl text-xs transition"
                 >
                   Calculate Expiry
                 </button>
@@ -495,7 +495,7 @@ export default function InteractiveTools() {
             </div>
 
             {childResult && (
-              <div className="p-4 bg-slate-50 rounded-xl border border-slate-100 space-y-3 animate-fadeIn">
+              <div className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
                 {childResult.expired ? (
                   <div className="text-xs text-red-800 bg-red-50 border border-red-100 p-3 rounded-xl flex items-start gap-2">
                     <AlertTriangle className="w-4 h-4 flex-shrink-0 mt-0.5" />
@@ -506,14 +506,14 @@ export default function InteractiveTools() {
                 ) : (
                   <div className="space-y-2">
                     <p className="text-xs font-bold text-slate-700">
-                      Current Child Age: <span className="text-emerald-800">{childResult.age} years old</span>
+                      Current Child Age: <span className="text-accent-dark">{childResult.age} years old</span>
                     </p>
-                    <div className="p-4 bg-emerald-50 border border-emerald-100 rounded-xl text-center">
-                      <p className="text-[10px] text-emerald-800 font-mono uppercase">Payout cycles remaining</p>
+                    <div className="p-4 bg-accent-light border border-emerald-100 rounded-xl text-center">
+                      <p className="text-[10px] text-accent-dark font-mono uppercase">Payout cycles remaining</p>
                       <p className="text-2xl font-extrabold text-emerald-950 mt-1">
                         {childResult.yearsLeft} years, {childResult.monthsLeft} months
                       </p>
-                      <p className="text-[11px] text-slate-500 mt-1">
+                      <p className="text-[11px] text-muted mt-1">
                         Expected Expiry: {childResult.expiryDateString} (Turns 18)
                       </p>
                     </div>
@@ -527,23 +527,23 @@ export default function InteractiveTools() {
         {/* TOOL 5: Appeal Deadline */}
         {activeTool === "appeal-deadline" && (
           <div className="space-y-5">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg font-extrabold text-slate-900 tracking-tight">ITSAA Appeal Deadline Calculator</h2>
-              <p className="text-slate-500 text-xs">Verify how many days remain of the strict 90-day tribunal limit.</p>
+            <div className="border-b border-border pb-4">
+              <h2 className="text-lg font-extrabold text-ink tracking-tight">ITSAA Appeal Deadline Calculator</h2>
+              <p className="text-muted text-xs">Verify how many days remain of the strict 90-day tribunal limit.</p>
             </div>
 
             <div className="space-y-2">
-              <label className="block text-xs font-bold text-slate-500">Date You Received SASSA Decline Notification</label>
+              <label className="block text-xs font-bold text-muted">Date You Received SASSA Decline Notification</label>
               <div className="flex gap-2">
                 <input
                   type="date"
                   value={declineDate}
                   onChange={(e) => setDeclineDate(e.target.value)}
-                  className="border border-slate-200 rounded-xl px-4 py-2.5 bg-slate-50 text-sm focus:outline-none"
+                  className="border border-slate-200 rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none"
                 />
                 <button
                   onClick={handleCalculateAppeal}
-                  className="bg-emerald-800 hover:bg-emerald-950 text-white font-bold px-4 py-2.5 rounded-xl text-xs transition"
+                  className="bg-accent hover:bg-accent-dark text-white font-bold px-4 py-2.5 rounded-xl text-xs transition"
                 >
                   Check Deadline
                 </button>
@@ -551,15 +551,15 @@ export default function InteractiveTools() {
             </div>
 
             {appealResult && (
-              <div className="p-4 bg-slate-50 rounded-xl border border-slate-100 space-y-3 animate-fadeIn">
+              <div className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
                 <div className="grid grid-cols-2 gap-3 text-center">
-                  <div className="bg-white p-3 border border-slate-100 rounded-lg">
-                    <p className="text-[10px] text-slate-400 font-mono uppercase">Days Elapsed</p>
+                  <div className="bg-surface p-3 border border-border rounded-lg">
+                    <p className="text-[10px] text-muted font-mono uppercase">Days Elapsed</p>
                     <p className="text-lg font-bold text-slate-700">{appealResult.daysElapsed} days</p>
                   </div>
 
-                  <div className="bg-white p-3 border border-slate-100 rounded-lg">
-                    <p className="text-[10px] text-slate-400 font-mono uppercase">Days Remaining</p>
+                  <div className="bg-surface p-3 border border-border rounded-lg">
+                    <p className="text-[10px] text-muted font-mono uppercase">Days Remaining</p>
                     <p className="text-lg font-bold text-slate-700">{Math.max(0, appealResult.daysRemaining)} days</p>
                   </div>
                 </div>
@@ -583,7 +583,7 @@ export default function InteractiveTools() {
                 )}
 
                 {appealResult.level === "safe" && (
-                  <div className="p-3 bg-emerald-50 border border-emerald-100 rounded-xl text-emerald-800 text-xs">
+                  <div className="p-3 bg-accent-light border border-emerald-100 rounded-xl text-accent-dark text-xs">
                     You are well within the safe window to lodge your appeal.
                   </div>
                 )}
@@ -595,9 +595,9 @@ export default function InteractiveTools() {
         {/* TOOL 6: Amount Estimator */}
         {activeTool === "amount-estimator" && (
           <div className="space-y-5">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg font-extrabold text-slate-900 tracking-tight">Household Grant Amount Estimator</h2>
-              <p className="text-slate-500 text-xs">Estimate the total monthly payout for all social grants in your home.</p>
+            <div className="border-b border-border pb-4">
+              <h2 className="text-lg font-extrabold text-ink tracking-tight">Household Grant Amount Estimator</h2>
+              <p className="text-muted text-xs">Estimate the total monthly payout for all social grants in your home.</p>
             </div>
 
             <div className="space-y-4">
@@ -608,7 +608,7 @@ export default function InteractiveTools() {
                 { id: "foster-care", label: "Foster Care Grant (R1,180)", rate: 1180 },
                 { id: "srd-grant", label: "SRD R370 Grant (R370)", rate: 370 }
               ].map((item) => (
-                <div key={item.id} className="flex items-center justify-between p-3.5 bg-slate-50 border border-slate-100 rounded-xl">
+                <div key={item.id} className="flex items-center justify-between p-3.5 bg-canvas border border-border rounded-xl">
                   <span className="text-xs md:text-sm font-bold text-slate-700">{item.label}</span>
                   <div className="flex items-center gap-2">
                     <button
@@ -616,7 +616,7 @@ export default function InteractiveTools() {
                         ...estimatorCounts,
                         [item.id]: Math.max(0, estimatorCounts[item.id] - 1)
                       })}
-                      className="w-8 h-8 rounded-lg bg-white border border-slate-200 font-bold hover:bg-slate-100 transition text-sm flex items-center justify-center"
+                      className="w-8 h-8 rounded-lg bg-surface border border-slate-200 font-bold hover:bg-slate-100 transition text-sm flex items-center justify-center"
                     >
                       -
                     </button>
@@ -626,7 +626,7 @@ export default function InteractiveTools() {
                         ...estimatorCounts,
                         [item.id]: estimatorCounts[item.id] + 1
                       })}
-                      className="w-8 h-8 rounded-lg bg-white border border-slate-200 font-bold hover:bg-slate-100 transition text-sm flex items-center justify-center"
+                      className="w-8 h-8 rounded-lg bg-surface border border-slate-200 font-bold hover:bg-slate-100 transition text-sm flex items-center justify-center"
                     >
                       +
                     </button>
@@ -635,7 +635,7 @@ export default function InteractiveTools() {
               ))}
             </div>
 
-            <div className="p-5 bg-emerald-900 text-white rounded-2xl text-center">
+            <div className="p-5 bg-accent-dark text-white rounded-xl text-center">
               <p className="text-xs text-emerald-300 font-mono uppercase">Estimated Total Monthly Payout</p>
               <h3 className="text-3xl font-extrabold text-amber-400 mt-1">
                 R
@@ -657,17 +657,17 @@ export default function InteractiveTools() {
         {/* TOOL 7: Checklist Generator */}
         {activeTool === "checklist-generator" && (
           <div className="space-y-5">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg font-extrabold text-slate-900 tracking-tight">Document Checklist Generator</h2>
-              <p className="text-slate-500 text-xs">Generate a personalized checklist of documents to bring to your SASSA interview.</p>
+            <div className="border-b border-border pb-4">
+              <h2 className="text-lg font-extrabold text-ink tracking-tight">Document Checklist Generator</h2>
+              <p className="text-muted text-xs">Generate a personalized checklist of documents to bring to your SASSA interview.</p>
             </div>
 
             <div className="space-y-2">
-              <label className="block text-xs font-bold text-slate-500">Select Grant Type</label>
+              <label className="block text-xs font-bold text-muted">Select Grant Type</label>
               <select
                 value={checklistGrant}
                 onChange={(e) => setChecklistGrant(e.target.value)}
-                className="w-full border border-slate-200 rounded-xl px-3 py-2.5 bg-slate-50 text-sm focus:outline-none"
+                className="w-full border border-slate-200 rounded-xl px-3 py-2.5 bg-canvas text-sm focus:outline-none"
               >
                 <option value="older-person">Older Person Grant (Pension)</option>
                 <option value="child-support">Child Support Grant</option>
@@ -675,9 +675,9 @@ export default function InteractiveTools() {
               </select>
             </div>
 
-            <div className="p-5 bg-slate-50 border border-slate-100 rounded-xl space-y-3">
-              <p className="font-bold text-xs font-mono uppercase tracking-wider text-slate-400 flex items-center gap-1">
-                <CheckSquare className="w-4 h-4 text-emerald-800" /> Required Vetting Documents:
+            <div className="p-5 bg-canvas border border-border rounded-xl space-y-3">
+              <p className="font-bold text-xs font-mono uppercase tracking-wider text-muted flex items-center gap-1">
+                <CheckSquare className="w-4 h-4 text-accent-dark" /> Required Vetting Documents:
               </p>
 
               <div className="space-y-2">
@@ -747,14 +747,14 @@ export default function InteractiveTools() {
         {/* TOOL 8: Grant Comparison Tool */}
         {activeTool === "grant-comparison" && (
           <div className="space-y-5">
-            <div className="border-b border-slate-100 pb-4">
-              <h2 className="text-lg font-extrabold text-slate-900 tracking-tight">Grant Comparison Matrix</h2>
-              <p className="text-slate-500 text-xs">Compare all official grants side-by-side.</p>
+            <div className="border-b border-border pb-4">
+              <h2 className="text-lg font-extrabold text-ink tracking-tight">Grant Comparison Matrix</h2>
+              <p className="text-muted text-xs">Compare all official grants side-by-side.</p>
             </div>
 
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs text-slate-700 min-w-[500px]">
-                <thead className="bg-slate-50 text-slate-600 font-bold font-mono">
+                <thead className="bg-canvas text-slate-600 font-bold font-mono">
                   <tr>
                     <th className="p-3">Grant Type</th>
                     <th className="p-3">Amount</th>
@@ -765,31 +765,31 @@ export default function InteractiveTools() {
                 <tbody className="divide-y divide-slate-100">
                   <tr>
                     <td className="p-3 font-semibold">Older Person</td>
-                    <td className="p-3 font-mono font-bold text-emerald-800">R2,180</td>
+                    <td className="p-3 font-mono font-bold text-accent-dark">R2,180</td>
                     <td className="p-3">60+ years</td>
                     <td className="p-3">Under R96,240/yr (Single)</td>
                   </tr>
                   <tr>
                     <td className="p-3 font-semibold">Disability Grant</td>
-                    <td className="p-3 font-mono font-bold text-emerald-800">R2,180</td>
+                    <td className="p-3 font-mono font-bold text-accent-dark">R2,180</td>
                     <td className="p-3">18-59 years</td>
                     <td className="p-3">Under R96,240/yr (Single)</td>
                   </tr>
                   <tr>
                     <td className="p-3 font-semibold">Child Support</td>
-                    <td className="p-3 font-mono font-bold text-emerald-800">R530</td>
+                    <td className="p-3 font-mono font-bold text-accent-dark">R530</td>
                     <td className="p-3">0-17 years</td>
                     <td className="p-3">Under R63,600/yr (Single)</td>
                   </tr>
                   <tr>
                     <td className="p-3 font-semibold">Foster Care</td>
-                    <td className="p-3 font-mono font-bold text-emerald-800">R1,180</td>
+                    <td className="p-3 font-mono font-bold text-accent-dark">R1,180</td>
                     <td className="p-3">0-17 years</td>
                     <td className="p-3">No limits (Court Vetted)</td>
                   </tr>
                   <tr>
                     <td className="p-3 font-semibold">SRD Grant</td>
-                    <td className="p-3 font-mono font-bold text-emerald-800">R370</td>
+                    <td className="p-3 font-mono font-bold text-accent-dark">R370</td>
                     <td className="p-3">18-59 years</td>
                     <td className="p-3">Under R624 monthly deposit</td>
                   </tr>

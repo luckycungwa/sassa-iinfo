@@ -1,0 +1,37 @@
+{
+  "id": "eligibility-unemployed",
+  "slug": "/eligibility/i-am-unemployed",
+  "classification": "eligibility-guide",
+  "title": "SASSA Options for Unemployed South Africans",
+  "description": "If you are unemployed and have no income, find out which SASSA grants you can apply for. SRD R370 grant eligibility, how to apply, and restrictions for unemployed individuals.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Grants for Unemployed South Africans — SRD R370 & More",
+    "metaDescription": "Complete guide to SASSA grants for unemployed South Africans. Learn about SRD R370 eligibility, how to apply without a job, and what documents you need.",
+    "keywords": ["SASSA unemployed", "SASSA grant no job", "SRD R370 unemployed", "SASSA for job seekers", "SASSA no income grant"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Options for Unemployed South Africans" },
+    { "id": "intro", "type": "paragraph", "text": "Unemployment affects millions of South Africans. SASSA provides several social grants designed to assist individuals and families with no regular income." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be a South African citizen or permanent resident", "Must be unemployed (zero monthly salary)", "Must have bank statements showing no recurring deposits", "Must have a valid South African ID number"], "restrictions": ["You cannot receive this grant if you are receiving UIF, NSFAS, or any other social grant"], "recommendedGrants": [{ "name": "Social Relief of Distress (SRD R370)", "slug": "srd-r370-grant", "amount": "R370 / month" }, { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R530 / month" }] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Register on the SASSA portal", "description": "Register an account on the official SASSA portal." },
+      { "title": "Submit your application", "description": "Submit an application for the SRD R370 grant." },
+      { "title": "Wait for verification", "description": "Wait for bank verification and monthly review cycles." }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I get a grant if I do casual work?", "answer": "Only if your casual work earnings fall below the monthly means test threshold (under R624/month for SRD)." },
+      { "question": "Can I receive SRD R370 if I am actively looking for work?", "answer": "Yes, being unemployed and actively seeking work does not disqualify you. The SRD R370 is designed for unemployed individuals." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
+    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
+    { "title": "Can I Get SASSA if I Receive UIF?", "slug": "/eligibility/i-receive-uif" }
+  ]
+}

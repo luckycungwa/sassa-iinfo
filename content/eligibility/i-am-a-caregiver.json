@@ -1,0 +1,37 @@
+{
+  "id": "eligibility-caregiver",
+  "slug": "/eligibility/i-am-a-caregiver",
+  "classification": "eligibility-guide",
+  "title": "SASSA Grants for Caregivers — Grant-in-Aid, Child Support & More",
+  "description": "Complete guide for caregivers in South Africa. Learn about the Grant-in-Aid, Child Support Grant, and other SASSA grants available to those caring for children, the elderly, or disabled family members.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Grants for Caregivers — Grant-in-Aid, Child Support & More",
+    "metaDescription": "Complete guide to SASSA grants for caregivers in South Africa. Learn about Grant-in-Aid (R530/month), Child Support Grant (R530/month), and other grants for those caring for family members.",
+    "keywords": ["SASSA caregiver grant", "SASSA grant-in-aid", "SASSA caring for elderly", "SASSA caring for disabled", "SASSA caregiver financial help"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants for Caregivers" },
+    { "id": "intro", "type": "paragraph", "text": "If you are caring for a family member — whether a child, elderly parent, or disabled relative — you may qualify for several SASSA grants depending on your circumstances." },
+    { "id": "grant-aid-h", "type": "heading", "level": 3, "text": "Grant-in-Aid (Caregiver Support)" },
+    { "id": "grant-aid", "type": "paragraph", "text": "The Grant-in-Aid is an additional R530 per month paid on top of an existing grant (Older Person Grant or Disability Grant). It is for beneficiaries who require full-time care from another person. The caregiver does not receive this grant — it is paid to the person receiving care." },
+    { "id": "child-support-h", "type": "heading", "level": 3, "text": "Child Support Grant for Caregivers" },
+    { "id": "child-support", "type": "paragraph", "text": "If you are the primary caregiver of a child under 18, you can apply for the Child Support Grant of R530 per month per child. This grant has a less strict means test than the SRD grant." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist for Caregivers" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be a South African citizen or permanent resident", "Must be the primary caregiver of the person needing care", "Must have a valid South African ID", "For Grant-in-Aid: the person you care for must already receive a SASSA grant"], "restrictions": ["Grant-in-Aid is paid to the grant recipient, not the caregiver directly", "Child Support Grant is means-tested for the caregiver"], "recommendedGrants": [{ "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R530 / month per child" }, { "name": "Grant-in-Aid", "slug": "grant-in-aid", "amount": "R530 / month" }] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "Can I get paid as a caregiver for looking after my elderly parent?", "answer": "Not directly. Your parent may qualify for the Grant-in-Aid on top of their Older Person Grant, but it is paid to them. You cannot claim a salary for being a family caregiver." },
+      { "question": "Can I receive the Child Support Grant if I am not the biological parent?", "answer": "Yes. If you are the primary caregiver of the child and have a valid ID, you can apply for the Child Support Grant on behalf of the child." },
+      { "question": "Can I receive both Grant-in-Aid and Child Support Grant?", "answer": "Yes, if you meet the criteria for both. One grant would be for a child in your care, and Grant-in-Aid would be for an older person or disabled person you care for." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
+    { "title": "Grant-in-Aid Guide", "slug": "/grants/grant-in-aid" },
+    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
+    { "title": "Disability Grant", "slug": "/grants/disability-grant" }
+  ]
+}

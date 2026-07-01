@@ -136,5 +136,111 @@ export const eligibilityGuides: EligibilityGuide[] = [
         answer: "Only if the private pension income falls below the strict means test threshold of R96,240 per year."
       }
     ]
+  },
+  {
+    id: "receive-uif",
+    slug: "i-receive-uif",
+    scenario: "Receiving UIF",
+    title: "Can I Get a SASSA Grant if I Receive UIF?",
+    shortDescription: "Understand how UIF payments affect your SASSA grant eligibility and what to do if you are declined.",
+    introduction: "Many South Africans transition between UIF and SASSA grants. If you currently receive Unemployment Insurance Fund (UIF) payments, your SASSA eligibility depends on the amount and duration of your UIF payouts.",
+    checklist: [
+      "UIF payments are considered income by SASSA's means test.",
+      "If your UIF payout exceeds R624 per month, you will not qualify for SRD R370.",
+      "If your UIF has ended, you can reapply for SASSA grants immediately."
+    ],
+    recommendedGrants: [
+      { name: "Social Relief of Distress (SRD R370)", slug: "srd-r370-grant", amount: "R370 / month" },
+      { name: "Child Support Grant", slug: "child-support-grant", amount: "R530 / month" }
+    ],
+    stepsToQualify: [
+      "Check your UIF monthly payout amount on the UIF portal.",
+      "If UIF payouts are below the means test threshold, submit your SASSA application with your UIF letter.",
+      "If UIF has ended, request a UI-19 termination letter from the Department of Labour and attach it to your SASSA application."
+    ],
+    restrictions: [
+      "Active UIF payments above R624/month disqualify you from SRD R370.",
+      "You cannot receive both UIF and a full social grant simultaneously if the UIF exceeds the threshold."
+    ],
+    faqs: [
+      {
+        question: "SASSA declined me saying I have UIF, but I no longer receive it. What do I do?",
+        answer: "This is a common database error. Get a UI-19 termination letter from the Department of Labour and appeal the decision on the ITSAA portal."
+      },
+      {
+        question: "Can I get backpay if my UIF stopped months ago?",
+        answer: "Yes. Once you provide proof your UIF has ended, your grant can be backdated to the month after your last UIF payout."
+      }
+    ]
+  },
+  {
+    id: "receive-nsfas",
+    slug: "i-receive-nsfas",
+    scenario: "Receiving NSFAS",
+    title: "SASSA Grant Eligibility for NSFAS-Funded Students",
+    shortDescription: "Find out if you qualify for SASSA grants while receiving NSFAS funding or after your studies end.",
+    introduction: "NSFAS-funded students are generally not eligible for SRD R370 or other social grants, because NSFAS already covers living allowances. However, if your NSFAS funding has been cancelled or completed, you may qualify.",
+    checklist: [
+      "Active NSFAS recipients are excluded from all SASSA grants.",
+      "If your NSFAS was cancelled, you need a cancellation letter from NSFAS.",
+      "If you completed your studies, you need a completion certificate from your institution."
+    ],
+    recommendedGrants: [
+      { name: "Social Relief of Distress (SRD R370) - Only after NSFAS ends", slug: "srd-r370-grant", amount: "R370 / month" }
+    ],
+    stepsToQualify: [
+      "Request a NSFAS cancellation or completion letter via the myNSFAS portal.",
+      "Wait for confirmation that your name has been removed from the active bursary registry.",
+      "Submit your SASSA application with the NSFAS letter attached as proof."
+    ],
+    restrictions: [
+      "You cannot receive NSFAS and a SASSA grant in the same month."
+    ],
+    faqs: [
+      {
+        question: "I finished my degree but SASSA says I am still funded by NSFAS. Why?",
+        answer: "NSFAS databases are not always updated immediately. Upload your graduation certificate or academic transcript along with a NSFAS completion letter to trigger the update."
+      },
+      {
+        question: "Can I get a SASSA grant during my NSFAS-funded vacation?",
+        answer: "No. If you are registered as an active NSFAS student, you are excluded from SASSA grants for the full academic year, including vacation months."
+      }
+    ]
+  },
+  {
+    id: "no-bank-account",
+    slug: "i-have-no-bank-account",
+    scenario: "No Bank Account",
+    title: "SASSA Grants Without a Bank Account: Cash Collection Guide",
+    shortDescription: "Complete guide on how to receive your SASSA grant if you do not have a personal bank account.",
+    introduction: "Not having a bank account does not disqualify you from receiving SASSA grants. SASSA offers multiple cash collection methods including retail payouts and mobile pay points for unbanked beneficiaries.",
+    checklist: [
+      "You do NOT need a bank account to receive a SASSA grant.",
+      "You need a valid South African ID or smart ID card.",
+      "You need a working cellphone number to receive SMS cash vouchers."
+    ],
+    recommendedGrants: [
+      { name: "Social Relief of Distress (SRD R370)", slug: "srd-r370-grant", amount: "R370 / month" }
+    ],
+    stepsToQualify: [
+      "Apply for your grant online via the SRD portal or at a SASSA local office.",
+      "Select 'Cash Send' or 'Retail Collection' as your payment method during application.",
+      "Once approved, wait for an SMS voucher from SASSA with a unique collection code.",
+      "Take your ID and the SMS to any participating retailer (Pick n Pay, Boxer, Shoprite, Checkers, Usave) to collect your cash."
+    ],
+    restrictions: [
+      "Cash Send limits apply — you may not be able to collect more than one month's grant at a time.",
+      "The SMS voucher expires within 7-10 days."
+    ],
+    faqs: [
+      {
+        question: "How do I change from bank transfer to cash collection?",
+        answer: "Log into the SRD portal, go to 'Payment Method', and switch from 'Bank Transfer' to 'Cash Send'. Changes take effect from the next month."
+      },
+      {
+        question: "Can someone else collect my grant using my SMS voucher?",
+        answer: "No. The retailer will verify your ID before releasing funds. Only the registered beneficiary can collect."
+      }
+    ]
   }
 ];

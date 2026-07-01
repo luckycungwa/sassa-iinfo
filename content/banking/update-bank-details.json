@@ -1,0 +1,42 @@
+{
+  "id": "banking-update-bank-details",
+  "slug": "/banking/update-bank-details",
+  "classification": "banking-guide",
+  "title": "How to Update Your SASSA Bank Details — Change Account for Grant Payments",
+  "description": "Step-by-step guide to changing your bank account for SASSA grant payments: online via the SRD portal or in person at a SASSA office. Requirements, processing time, and important warnings.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "How to Update SASSA Bank Details — Change Account for Grant Payments",
+    "metaDescription": "Step-by-step guide to updating your SASSA bank details: change your bank account online via the SRD portal or in person at a SASSA office. Requirements, processing time, and important warnings.",
+    "keywords": ["update SASSA bank details", "change SASSA bank account", "SASSA change payment method", "SASSA update account number", "SASSA bank change form"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "How to Update Your SASSA Bank Details" },
+    { "id": "intro", "type": "paragraph", "text": "If you need to change the bank account where your SASSA grant is paid, you can do it online through the SRD portal or in person at a SASSA office. The new account must be registered in your own name." },
+    { "id": "online-h", "type": "heading", "level": 3, "text": "Method 1: Update Online (Recommended)" },
+    { "id": "online-steps", "type": "steps", "steps": [
+      { "title": "Log into the SRD portal", "description": "Go to srd.sassa.gov.za. Enter your ID number and phone number. Verify with the OTP sent to your phone." },
+      { "title": "Navigate to 'Update Bank Details'", "description": "Find the bank details section on your dashboard." },
+      { "title": "Enter your new bank account information", "description": "Provide your new bank name, account number, branch code, and account type (Savings, Cheque, or Transmission)." },
+      { "title": "Confirm the details", "description": "Double-check every digit of the account number and branch code. A single wrong digit will delay your payment." },
+      { "title": "Submit and wait for verification", "description": "SASSA will verify the new account with your bank. This takes 5 to 10 business days." }
+    ] },
+    { "id": "office-h", "type": "heading", "level": 3, "text": "Method 2: Update at a SASSA Office" },
+    { "id": "office-text", "type": "paragraph", "text": "If you cannot access the online portal, visit your nearest SASSA office with your ID and a bank statement or letter from your bank confirming the new account. Complete the SASSA Consent Form for Bank Payment and a SASSA officer will process the change." },
+    { "id": "important-callout", "type": "callout", "intent": "warning", "title": "Important Rules", "text": "The bank account must be in your own name. SASSA will not pay grants into third-party accounts. Bank verification takes 5-10 business days. Do not close your old account until the first payment arrives in the new account." },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How long does it take for bank details to update?", "answer": "Bank verification takes 5 to 10 business days. Once verified, the new account is used for the next month's payment." },
+      { "question": "Can I update my bank details if I lost access to my phone number?", "answer": "No. You must visit a SASSA office with your ID to update your phone number first, then use the online portal." },
+      { "question": "Will changing my bank details affect my current month's payment?", "answer": "If you change your details after the 20th of the month, the change will apply from the following month. Do not change details while a payment is processing." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" },
+    { "title": "Bank Verification Process", "slug": "/banking/bank-verification-process" },
+    { "title": "Payment Not Reflecting", "slug": "/banking/payment-not-reflecting" },
+    { "title": "How to Register on SRD Portal", "slug": "/banking/how-to-register-for-srd-portal" }
+  ]
+}

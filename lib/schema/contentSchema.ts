@@ -1,8 +1,12 @@
 /**
- * Foundational Content Schema System for SASSA Resource Platform
- * Governs the structured representation of all 5,000+ static-first resource pages.
- * Fully typed, extensible, and optimized for search performance and YMYL (Your Money Your Life) guidelines.
+ * Foundational Content Schema — Base Layer for all 5,000+ pages
+ *
+ * Every page on the platform produces a `BasePage` object. There is no other
+ * page-level type. Domain-specific data lives in structured `ContentBlock`
+ * variants or the `seo.schemaMarkup` bag.
  */
+
+// ─── Page Classification ─────────────────────────────────────────────────────
 
 export type PageClassification =
   | "payment-date"
@@ -11,44 +15,49 @@ export type PageClassification =
   | "appeal-guide"
   | "office-location"
   | "province-hub"
-  | "general-resource";
+  | "eligibility-guide"
+  | "downloadable-form"
+  | "how-to-guide"
+  | "banking-guide"
+  | "news-article"
+  | "faq-page"
+  | "tool-page"
+  | "home-page"
+  | "hub-index";
+
+export type ContentStatus = "draft" | "published" | "archived";
+
+// ─── Author (E-E-A-T) ────────────────────────────────────────────────────────
 
 export interface Author {
   name: string;
   role: string;
-  credentials?: string; // Critical for E-E-A-T (e.g. "BA Social Work, Ex-SASSA Consultant")
+  credentials?: string;
   verified: boolean;
 }
 
+// ─── SEO Metadata ─────────────────────────────────────────────────────────────
+
 export interface SEOMetadata {
-  metaTitle: string; // Dynamic page title tag override (max 60 chars)
-  metaDescription: string; // Custom organic snippet (120-160 chars)
+  metaTitle: string;
+  metaDescription: string;
   keywords: string[];
   canonicalUrl?: string;
-  schemaMarkup?: Record<string, any>; // For FAQPage, BreadcrumbList, LocalBusiness, or SocialGrant schemas
+  schemaMarkup?: Record<string, unknown>;
 }
 
-// Discriminated Union of all possible structured content blocks
-export type ContentBlock =
-  | HeadingBlock
-  | ParagraphBlock
-  | ListBlock
-  | TableBlock
-  | CalloutBlock
-  | StepsBlock
-  | FAQBlock
-  | PaymentDatesBlock
-  | OfficeDetailsBlock
-  | CustomBlock;
+// ─── Base Block (all content blocks extend this) ──────────────────────────────
 
 export interface BaseBlock {
-  id: string; // Unique within the page to facilitate targeted anchor links
+  id: string;
   type: string;
 }
 
+// ─── Semantic Content Blocks ──────────────────────────────────────────────────
+
 export interface HeadingBlock extends BaseBlock {
   type: "heading";
-  level: 1 | 2 | 3 | 4;
+  level: 2 | 3 | 4;
   text: string;
 }
 
@@ -60,7 +69,7 @@ export interface ParagraphBlock extends BaseBlock {
 export interface ListBlock extends BaseBlock {
   type: "list";
   ordered: boolean;
-  items: string[]; // Supports standard text or inline markdown strings
+  items: string[];
 }
 
 export interface TableBlock extends BaseBlock {
@@ -72,166 +81,267 @@ export interface TableBlock extends BaseBlock {
 
 export interface CalloutBlock extends BaseBlock {
   type: "callout";
-  intent: "info" | "warning" | "success" | "danger"; // State authority palettes only
+  intent: "info" | "warning" | "success" | "danger";
   title?: string;
   text: string;
 }
 
 export interface StepsBlock extends BaseBlock {
   type: "steps";
-  steps: {
-    title: string;
-    description: string;
-  }[];
+  steps: { title: string; description: string }[];
 }
 
 export interface FAQBlock extends BaseBlock {
   type: "faq";
-  faqs: {
-    question: string;
-    answer: string;
-  }[];
+  faqs: { question: string; answer: string }[];
+}
+
+export interface ImageBlock extends BaseBlock {
+  type: "image";
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
+export interface DividerBlock extends BaseBlock {
+  type: "divider";
+}
+
+export interface QuoteBlock extends BaseBlock {
+  type: "quote";
+  text: string;
+  attribution?: string;
+}
+
+export interface CodeBlock extends BaseBlock {
+  type: "code";
+  language: string;
+  code: string;
+}
+
+export interface LinkGridBlock extends BaseBlock {
+  type: "link-grid";
+  links: { title: string; href: string; description?: string }[];
+}
+
+// ─── Domain-Specific Content Blocks ───────────────────────────────────────────
+
+export interface GrantSummaryBlock extends BaseBlock {
+  type: "grant-summary";
+  amount: string;
+  frequency: string;
+  targetGroup: string;
 }
 
 export interface PaymentDatesBlock extends BaseBlock {
   type: "payment-dates";
   month: string;
-  payouts: {
-    category: string; // e.g. "Older Persons Grant", "Disability Grant", "Children's Grants"
-    date: string; // e.g. "2026-07-03"
-    amount: string; // e.g. "R2,180"
-  }[];
+  payouts: { category: string; date: string; amount: string }[];
 }
 
 export interface OfficeDetailsBlock extends BaseBlock {
   type: "office-details";
   branchName: string;
   province: string;
+  city: string;
   address: string;
-  coordinates?: {
-    lat: number;
-    lng: number;
-  };
+  coordinates?: { lat: number; lng: number };
   contactNumber: string;
   operatingHours: string;
-  accessibilityNotes: string; // e.g. "Wheelchair ramp, ground floor access"
+  servicesOffered: string[];
+  accessibilityNotes: string;
 }
 
-/**
- * CustomBlock provides future-proof extensibility.
- * If a new block type is introduced tomorrow, old renderers will ignore it 
- * or fallback gracefully, without breaking the typing of existing compilation runs.
- */
+export interface StatusReferenceBlock extends BaseBlock {
+  type: "status-reference";
+  statusName: string;
+  explanation: string;
+  whyItHappens: string[];
+  howLongItLasts: string;
+  whatYouShouldDo: string[];
+  relatedStatuses: { name: string; slug: string }[];
+}
+
+export interface DocumentChecklistBlock extends BaseBlock {
+  type: "document-checklist";
+  documents: { label: string; required: boolean; notes?: string }[];
+}
+
+export interface EligibilityChecklistBlock extends BaseBlock {
+  type: "eligibility-checklist";
+  checklist: string[];
+  restrictions: string[];
+  recommendedGrants: { name: string; slug: string; amount: string }[];
+}
+
+export interface AppealProcedureBlock extends BaseBlock {
+  type: "appeal-procedure";
+  steps: string[];
+  timeline: string;
+  documents: string[];
+  commonReasons: string[];
+  outcomes: string[];
+}
+
+export interface ProvinceOverviewBlock extends BaseBlock {
+  type: "province-overview";
+  capital: string;
+  regionalOfficeAddress: string;
+  regionalOfficePhone: string;
+  collectionInfo: string;
+}
+
+export interface DownloadBlock extends BaseBlock {
+  type: "download";
+  title: string;
+  purpose: string;
+  howToFill: string[];
+  approxSize: string;
+}
+
+export interface NewsMetaBlock extends BaseBlock {
+  type: "news-meta";
+  date: string;
+  tags: string[];
+}
+
+// ─── Custom Block (future-extensibility safety valve) ─────────────────────────
+
 export interface CustomBlock extends BaseBlock {
   type: "custom";
   customType: string;
-  payload: Record<string, any>;
+  payload: Record<string, unknown>;
 }
 
-// The core Page representation that sits beneath all UI views
+// ─── Content Block Union ──────────────────────────────────────────────────────
+
+export type ContentBlock =
+  | HeadingBlock
+  | ParagraphBlock
+  | ListBlock
+  | TableBlock
+  | CalloutBlock
+  | StepsBlock
+  | FAQBlock
+  | ImageBlock
+  | DividerBlock
+  | QuoteBlock
+  | CodeBlock
+  | LinkGridBlock
+  | GrantSummaryBlock
+  | PaymentDatesBlock
+  | OfficeDetailsBlock
+  | StatusReferenceBlock
+  | DocumentChecklistBlock
+  | EligibilityChecklistBlock
+  | AppealProcedureBlock
+  | ProvinceOverviewBlock
+  | DownloadBlock
+  | NewsMetaBlock
+  | CustomBlock;
+
+// ─── BasePage — The Single Page Type ──────────────────────────────────────────
+
 export interface BasePage {
-  id: string; // Unique identifier (e.g. "older-person-grant-rules")
-  slug: string; // Root-relative path (must be lowercase, leading slash, e.g. "/grants/older-person")
+  id: string;
+  slug: string;
   classification: PageClassification;
-  title: string; // Primary human H1 title
-  description: string; // Lead paragraph description
-  lastUpdated: string; // ISO Date "YYYY-MM-DD"
-  version: string; // Semantic versioning "1.x.y" for page content
-  author: Author; // Verified author for YMYL compliance
+  title: string;
+  description: string;
+  lastUpdated: string;
+  version: string;
+  status: ContentStatus;
+  author: Author;
   seo: SEOMetadata;
   contentBlocks: ContentBlock[];
-  relatedPages?: string[]; // Slugs of related pages for automated lateral internal linking
+  relatedPages?: { title: string; slug: string }[];
 }
 
-/**
- * Strategy for Content Versioning & Integrity Validation
- */
+// ─── Validation ───────────────────────────────────────────────────────────────
+
 export interface SchemaValidationResult {
   isValid: boolean;
   errors: string[];
   warnings: string[];
 }
 
-export function validateBasePage(page: any): SchemaValidationResult {
+const VALID_CLASSIFICATIONS: PageClassification[] = [
+  "payment-date", "grant-detail", "status-meaning", "appeal-guide",
+  "office-location", "province-hub", "eligibility-guide", "downloadable-form",
+  "how-to-guide", "banking-guide", "news-article", "faq-page",
+  "tool-page", "home-page", "hub-index",
+];
+
+export function validateBasePage(page: unknown): SchemaValidationResult {
   const errors: string[] = [];
   const warnings: string[] = [];
 
-  // Required root properties
-  const requiredFields = ["id", "slug", "classification", "title", "description", "lastUpdated", "version", "author", "seo", "contentBlocks"];
-  for (const field of requiredFields) {
-    if (!page[field]) {
-      errors.push(`Validation Failure: Missing root property "${field}"`);
+  if (!page || typeof page !== "object") {
+    return { isValid: false, errors: ["Root must be a non-null object"], warnings: [] };
+  }
+
+  const p = page as Record<string, unknown>;
+
+  // Required root fields
+  const required = ["id", "slug", "classification", "title", "description", "lastUpdated", "version", "status", "author", "seo", "contentBlocks"];
+  for (const field of required) {
+    if (p[field] === undefined || p[field] === null) {
+      errors.push(`Missing required root property "${field}"`);
     }
+  }
+
+  // Classification
+  if (p.classification && !VALID_CLASSIFICATIONS.includes(p.classification as PageClassification)) {
+    errors.push(`Invalid classification "${String(p.classification)}". Must be one of: ${VALID_CLASSIFICATIONS.join(", ")}`);
   }
 
   // Slug rules
-  if (page.slug) {
-    if (typeof page.slug !== "string") {
-      errors.push(`Validation Failure: "slug" must be a string`);
-    } else {
-      if (!page.slug.startsWith("/")) {
-        errors.push(`Slug Mismatch: "${page.slug}" must start with a leading slash ("/")`);
-      }
-      if (/[A-Z]/.test(page.slug)) {
-        errors.push(`SEO Alert: Slug "${page.slug}" contains uppercase letters. All slugs must be entirely lowercase`);
-      }
-      if (/\s/.test(page.slug)) {
-        errors.push(`SEO Alert: Slug "${page.slug}" contains spaces. Use hyphens (-) instead`);
-      }
+  if (typeof p.slug === "string") {
+    if (!p.slug.startsWith("/")) errors.push(`Slug "${p.slug}" must start with "/"`);
+    if (/[A-Z]/.test(p.slug as string)) errors.push(`Slug "${p.slug}" contains uppercase letters`);
+    if (/\s/.test(p.slug as string)) errors.push(`Slug "${p.slug}" contains spaces`);
+  }
+
+  // Version (strict semver)
+  if (typeof p.version === "string" && !/^\d+\.\d+\.\d+$/.test(p.version)) {
+    errors.push(`Version "${p.version}" is not valid semver (e.g. "1.2.0")`);
+  }
+
+  // Status
+  if (p.status && !["draft", "published", "archived"].includes(p.status as string)) {
+    errors.push(`Status must be "draft", "published", or "archived"`);
+  }
+
+  // Author
+  if (p.author && typeof p.author === "object") {
+    const a = p.author as Record<string, unknown>;
+    if (!a.name) errors.push(`Author "name" is required`);
+    if (!a.credentials) warnings.push(`Author "${String(a.name ?? "unknown")}" has no credentials — recommended for YMYL`);
+    if (a.verified !== true) warnings.push(`Author "${String(a.name ?? "unknown")}" is not verified`);
+  }
+
+  // SEO
+  if (p.seo && typeof p.seo === "object") {
+    const s = p.seo as Record<string, unknown>;
+    if (!s.metaTitle) errors.push(`SEO "metaTitle" is required`);
+    else if (String(s.metaTitle).length > 60) warnings.push(`SEO "metaTitle" exceeds 60 chars (${String(s.metaTitle).length})`);
+    if (!s.metaDescription) errors.push(`SEO "metaDescription" is required`);
+    else {
+      const len = String(s.metaDescription).length;
+      if (len < 120 || len > 160) warnings.push(`SEO "metaDescription" (${len} chars) outside optimal 120-160 range`);
     }
   }
 
-  // Versioning validation
-  if (page.version) {
-    const semverRegex = /^\d+\.\d+\.\d+$/;
-    if (!semverRegex.test(page.version)) {
-      errors.push(`Version Mismatch: Content version "${page.version}" is not a valid semver string (e.g. "1.2.0")`);
-    }
-  }
-
-  // YMYL Author checks
-  if (page.author) {
-    if (!page.author.name) {
-      errors.push(`E-E-A-T Mismatch: Author name is required`);
-    }
-    if (!page.author.credentials) {
-      warnings.push(`E-E-A-T Advisory: No credentials provided for author "${page.author.name}". Highly recommended for YMYL authority`);
-    }
-    if (page.author.verified !== true) {
-      warnings.push(`E-E-A-T Advisory: Author is not verified`);
-    }
-  }
-
-  // SEO Metadata constraints
-  if (page.seo) {
-    if (!page.seo.metaTitle) {
-      errors.push(`SEO Mismatch: "metaTitle" is required`);
-    } else if (page.seo.metaTitle.length > 60) {
-      warnings.push(`SEO Advisory: "metaTitle" exceeds optimal length of 60 characters (${page.seo.metaTitle.length} chars)`);
-    }
-
-    if (!page.seo.metaDescription) {
-      errors.push(`SEO Mismatch: "metaDescription" is required`);
-    } else if (page.seo.metaDescription.length < 120 || page.seo.metaDescription.length > 160) {
-      warnings.push(`SEO Advisory: "metaDescription" (${page.seo.metaDescription.length} chars) is outside optimal 120-160 range`);
-    }
-  }
-
-  // Content Block checks
-  if (Array.isArray(page.contentBlocks)) {
-    if (page.contentBlocks.length === 0) {
-      warnings.push(`Content Advisory: "contentBlocks" array is empty. The page contains no body content`);
-    }
-    page.contentBlocks.forEach((block: any, idx: number) => {
-      if (!block.id) {
-        errors.push(`Block [Index ${idx}]: Missing block "id"`);
-      }
-      if (!block.type) {
-        errors.push(`Block [Index ${idx}]: Missing block "type"`);
-      }
+  // Content blocks
+  if (Array.isArray(p.contentBlocks)) {
+    if (p.contentBlocks.length === 0) warnings.push(`"contentBlocks" array is empty`);
+    p.contentBlocks.forEach((block: unknown, idx: number) => {
+      const b = block as Record<string, unknown>;
+      if (!b.id) errors.push(`Block [${idx}] missing "id"`);
+      if (!b.type) errors.push(`Block [${idx}] missing "type"`);
     });
-  } else if (page.contentBlocks !== undefined) {
-    errors.push(`Validation Failure: "contentBlocks" must be an array`);
+  } else if (p.contentBlocks !== undefined) {
+    errors.push(`"contentBlocks" must be an array`);
   }
 
   return {

@@ -1,0 +1,37 @@
+{
+  "id": "eligibility-receive-nsfas",
+  "slug": "/eligibility/i-receive-nsfas",
+  "classification": "eligibility-guide",
+  "title": "SASSA Grant Eligibility for NSFAS-Funded Students",
+  "description": "Find out if you qualify for SASSA grants while receiving NSFAS funding or after your studies end. Rules, exceptions, and what documentation you need to prove non-funding.",
+  "lastUpdated": "2026-07-01",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Grant Eligibility for NSFAS-Funded Students — Complete Guide",
+    "metaDescription": "Can NSFAS-funded students get SASSA grants? Complete guide to eligibility rules, exclusions, what to do after your studies end, and how to get a NSFAS cancellation letter.",
+    "keywords": ["SASSA NSFAS eligibility", "NSFAS student SASSA grant", "SASSA after NSFAS", "NSFAS funding and SASSA", "can NSFAS students get SASSA"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grant Eligibility for NSFAS-Funded Students" },
+    { "id": "intro", "type": "paragraph", "text": "NSFAS-funded students are generally not eligible for SRD R370 or other social grants, because NSFAS already covers living allowances. However, if your NSFAS funding has been cancelled or completed, you may qualify." },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Points" },
+    { "id": "checklist", "type": "list", "ordered": false, "items": ["Active NSFAS recipients are excluded from all SASSA grants", "If your NSFAS was cancelled, you need a cancellation letter from NSFAS", "If you completed your studies, you need a completion certificate from your institution"] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Request NSFAS letter", "description": "Request a NSFAS cancellation or completion letter via the myNSFAS portal." },
+      { "title": "Confirm registry update", "description": "Wait for confirmation that your name has been removed from the active bursary registry." },
+      { "title": "Apply for SASSA", "description": "Submit your SASSA application with the NSFAS letter attached as proof." }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "I finished my degree but SASSA says I am still funded by NSFAS. Why?", "answer": "NSFAS databases are not always updated immediately. Upload your graduation certificate or academic transcript along with a NSFAS completion letter to trigger the update." },
+      { "question": "Can I get a SASSA grant during my NSFAS-funded vacation?", "answer": "No. If you are registered as an active NSFAS student, you are excluded from SASSA grants for the full academic year, including vacation months." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "Appeal After NSFAS Decline", "slug": "/appeals/appeal-after-nsfas" },
+    { "title": "Can Students Get SASSA?", "slug": "/eligibility/i-am-a-student" },
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" }
+  ]
+}
