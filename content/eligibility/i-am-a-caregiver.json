@@ -16,6 +16,8 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants for Caregivers" },
     { "id": "intro", "type": "paragraph", "text": "If you are caring for a family member — whether a child, elderly parent, or disabled relative — you may qualify for several SASSA grants depending on your circumstances." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for anyone caring for a child, elderly person, or disabled family member who wants to understand what financial support is available." },
+    { "id": "why", "type": "paragraph", "text": "Caring for a vulnerable family member is a significant responsibility. SASSA provides Grant-in-Aid and the Child Support Grant to help caregivers meet the needs of those they care for." },
     { "id": "grant-aid-h", "type": "heading", "level": 3, "text": "Grant-in-Aid (Caregiver Support)" },
     { "id": "grant-aid", "type": "paragraph", "text": "The Grant-in-Aid is an additional R530 per month paid on top of an existing grant (Older Person Grant or Disability Grant). It is for beneficiaries who require full-time care from another person. The caregiver does not receive this grant — it is paid to the person receiving care." },
     { "id": "child-support-h", "type": "heading", "level": 3, "text": "Child Support Grant for Caregivers" },

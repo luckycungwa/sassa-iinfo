@@ -18,8 +18,29 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "SASSA Resource Platform",
+    url: process.env.APP_URL || "https://sassa-resource.vercel.app",
+    description: "An independent educational resource centre for South African social grant information.",
+    inLanguage: "en-ZA",
+    isAccessibleForFree: true,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${process.env.APP_URL || "https://sassa-resource.vercel.app"}?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
-    <html lang="en" className={`${outfit.variable} ${jetbrainsMono.variable}`}>
+    <html lang="en-ZA" className={`${outfit.variable} ${jetbrainsMono.variable}`}>
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      </head>
       <body className="font-display antialiased bg-canvas text-ink" suppressHydrationWarning>
         {children}
       </body>

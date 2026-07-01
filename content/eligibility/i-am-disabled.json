@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Disability Grant Eligibility and Medical Vetting Guide" },
     { "id": "intro", "type": "paragraph", "text": "Individuals who cannot work due to a physical or mental condition can qualify for SASSA's Disability Grant. Vetting requires official medical clearance." },
+    { "id": "why", "type": "paragraph", "text": "The Disability Grant exists to support South Africans who cannot work due to physical or mental conditions. It provides financial stability for those whose disabilities prevent employment for more than 6 months." },
     { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
     { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be aged 18 to 59", "Must possess a medical report completed by a SASSA-commissioned medical officer", "Must have a disability that prevents employment for longer than 6 months"], "restrictions": ["Your grant can be temporarily reviewed if your health condition improves"], "recommendedGrants": [{ "name": "Disability Grant", "slug": "disability-grant", "amount": "R2,180 / month" }, { "name": "Grant-in-Aid (if you require a full-time caregiver)", "slug": "grant-in-aid", "amount": "R530 / month" }] },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },

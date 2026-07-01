@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Can Students Get SASSA Grants?" },
     { "id": "intro", "type": "paragraph", "text": "Students in South Africa often struggle with living costs. However, social grant eligibility for students depends strictly on whether you receive other state funding." },
+    { "id": "why", "type": "paragraph", "text": "The social grant system aims to support vulnerable individuals. While students receiving NSFAS are excluded because their living costs are already covered, students without other funding may qualify for temporary assistance." },
     { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
     { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be enrolled in a school or tertiary institution", "Must not receive NSFAS or other government bursaries", "Must meet the basic age and income requirements"], "restrictions": ["Active NSFAS recipients are completely excluded from receiving the SRD R370 grant"], "recommendedGrants": [{ "name": "Social Relief of Distress (SRD R370)", "slug": "srd-r370-grant", "amount": "R370 / month" }, { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R530 / month" }] },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },

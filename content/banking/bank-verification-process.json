@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Bank Verification Process Explained" },
     { "id": "intro", "type": "paragraph", "text": "SASSA uses an automated bank verification system to ensure your grant is paid into the correct account. The system checks that the ID number and name on your bank account match your SASSA application exactly. This prevents fraud and ensures payments reach the right person." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants and beneficiaries whose bank account details are being checked by SASSA's automated verification system." },
     { "id": "how-it-works-h", "type": "heading", "level": 3, "text": "How Verification Works" },
     { "id": "how-it-works-text", "type": "paragraph", "text": "SASSA's automated system communicates electronically with South Africa's major banks. When you submit your bank details, the system sends a verification request to your bank asking them to confirm that the ID number and account holder name you provided match their records." },
     { "id": "supported-banks-h", "type": "heading", "level": 3, "text": "Supported Banks" },

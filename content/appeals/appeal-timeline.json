@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Appeal Timeline: How Long Does an Appeal Take?" },
     { "id": "intro", "type": "paragraph", "text": "Understanding the appeal timeline helps you plan and avoid unnecessary follow-ups. The Independent Tribunal for Social Assistance Appeals (ITSAA) has specific timeframes for each stage of the process." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for anyone who has submitted an appeal with ITSAA and wants to understand how long each stage of the process takes." },
     { "id": "stage1-h", "type": "heading", "level": 3, "text": "Stage 1: Submission & Acknowledgment (Days 1-10)" },
     { "id": "stage1", "type": "paragraph", "text": "After you submit your appeal on the ITSAA portal, you will receive an acknowledgment SMS or email within 5-10 business days confirming receipt." },
     { "id": "stage2-h", "type": "heading", "level": 3, "text": "Stage 2: Tribunal Review (Weeks 2-6)" },

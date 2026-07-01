@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grant Eligibility for NSFAS-Funded Students" },
     { "id": "intro", "type": "paragraph", "text": "NSFAS-funded students are generally not eligible for SRD R370 or other social grants, because NSFAS already covers living allowances. However, if your NSFAS funding has been cancelled or completed, you may qualify." },
+    { "id": "why", "type": "paragraph", "text": "SASSA and NSFAS serve different purposes. NSFAS covers education costs, while SASSA grants address basic living expenses. The two cannot overlap, but former NSFAS recipients may qualify for SASSA after their studies." },
     { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Points" },
     { "id": "checklist", "type": "list", "ordered": false, "items": ["Active NSFAS recipients are excluded from all SASSA grants", "If your NSFAS was cancelled, you need a cancellation letter from NSFAS", "If you completed your studies, you need a completion certificate from your institution"] },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },

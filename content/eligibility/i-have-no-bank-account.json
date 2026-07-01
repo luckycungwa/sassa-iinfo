@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants Without a Bank Account: Cash Collection Guide" },
     { "id": "intro", "type": "paragraph", "text": "Not having a bank account does not disqualify you from receiving SASSA grants. SASSA offers multiple cash collection methods including retail payouts and mobile pay points for unbanked beneficiaries." },
+    { "id": "why", "type": "paragraph", "text": "Not having a bank account should not prevent anyone from accessing social assistance. SASSA provides cash collection methods precisely to ensure unbanked beneficiaries can still receive their grants." },
     { "id": "checklist-h", "type": "heading", "level": 3, "text": "What You Need" },
     { "id": "checklist", "type": "list", "ordered": false, "items": ["You do NOT need a bank account to receive a SASSA grant", "You need a valid South African ID or smart ID card", "You need a working cellphone number to receive SMS cash vouchers"] },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Get Paid" },

@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Card Explained" },
     { "id": "intro", "type": "paragraph", "text": "The SASSA card (also known as the SASSA gold card) is a payment card that some beneficiaries use to access their social grant. It works like a debit card and allows you to withdraw your grant at specific retailers and ATMs without needing a personal bank account." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries who want to understand how the SASSA payment card works and whether it is the right option for them." },
     { "id": "what-is-it-h", "type": "heading", "level": 3, "text": "What Is the SASSA Card?" },
     { "id": "what-is-it", "type": "paragraph", "text": "The SASSA card is a Mastercard-branded payment card issued through the South African Post Office (SAPO) in partnership with SASSA. Your grant is loaded onto the card each month, and you can use it to withdraw cash or make purchases at any merchant that accepts Mastercard." },
     { "id": "features-h", "type": "heading", "level": 3, "text": "Key Features" },

@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Required Documents Checklist" },
     { "id": "intro", "type": "paragraph", "text": "Having the correct documents ready before you apply for a SASSA grant will save you time and prevent delays. Below is the complete checklist of documents you may need." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for anyone preparing to apply for a SASSA grant who wants to make sure they have all the required documents ready before visiting a SASSA office." },
     { "id": "checklist", "type": "document-checklist", "documents": [
       { "label": "Original 13-digit barcoded Smart Card ID or green ID book", "required": true },
       { "label": "Proof of Residence — utility bill in your name (last 3 months)", "required": true, "notes": "Or letter from traditional leader or ward councillor" },

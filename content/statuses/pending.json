@@ -16,10 +16,19 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Pending — What Does It Mean?" },
     { "id": "intro", "type": "paragraph", "text": "When your SASSA grant status shows 'Pending', it means your application has been received and is being reviewed by SASSA officials. This is a normal part of the application process." },
-    { "id": "ref-block", "type": "status-reference", "statusName": "Pending", "explanation": "Your application is in the review queue. SASSA is verifying your personal details, means test information, and supporting documents against their records.", "whyItHappens": ["SASSA receives thousands of applications daily", "Additional verification may be needed for certain documents", "Means test calculations take time to process", "Manual review may be triggered for complex cases"], "howLongItLasts": "Typically 4–8 weeks from the date of application submission. SRD R370 applications may resolve faster (1–2 weeks).", "whatYouShouldDo": ["Continue checking your status online", "Make sure your contact details are up to date", "Respond promptly to any SASSA requests for additional information", "Do not submit a duplicate application — this will cause delays"], "relatedStatuses": [{ "name": "Processing", "slug": "processing" }, { "name": "Approved", "slug": "approved" }] }
+    { "id": "ref-block", "type": "status-reference", "statusName": "Pending", "explanation": "Your application is in the review queue. SASSA is verifying your personal details, means test information, and supporting documents against their records.", "whyItHappens": ["SASSA receives thousands of applications daily", "Additional verification may be needed for certain documents", "Means test calculations take time to process", "Manual review may be triggered for complex cases"], "howLongItLasts": "Typically 4–8 weeks from the date of application submission. SRD R370 applications may resolve faster (1–2 weeks).", "whatYouShouldDo": ["Continue checking your status online", "Make sure your contact details are up to date", "Respond promptly to any SASSA requests for additional information", "Do not submit a duplicate application — this will cause delays"], "relatedStatuses": [{ "name": "Processing", "slug": "processing" }, { "name": "Approved", "slug": "approved" }] },
+    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
+    { "id": "mistakes", "type": "list", "ordered": false, "items": ["Submitting a duplicate application thinking it will speed up the process — this actually resets your queue position", "Not checking the correct status portal — use srd.sassa.gov.za for SRD grants", "Ignoring SASSA requests for additional documents — always respond within the given timeframe", "Changing bank details while your application is pending — this can trigger new verification delays"] },
+    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How long does the 'Pending' status last?", "answer": "For most grants, pending lasts 4–8 weeks. SRD R370 applications typically resolve within 1–2 weeks. If it has been longer than 8 weeks, contact SASSA." },
+      { "question": "Does 'Pending' mean my application was successful?", "answer": "No. Pending only means your application has been received and is being reviewed. The status will change to Approved, Declined, or another status once the review is complete." },
+      { "question": "Can I speed up the pending process?", "answer": "No, but you can avoid delays by ensuring all your documents are submitted correctly and responding quickly to any SASSA requests for additional information." }
+    ] }
   ],
   "relatedPages": [
     { "title": "Processing", "slug": "/status/processing" },
-    { "title": "Approved", "slug": "/status/approved" }
+    { "title": "Approved", "slug": "/status/approved" },
+    { "title": "Pending 30+ Days", "slug": "/status/pending-30-days" }
   ]
 }

@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Payment Not Reflecting — Troubleshooting Guide" },
     { "id": "intro", "type": "paragraph", "text": "It is frustrating when your SASSA grant is approved but the money does not appear in your account. Before you panic, work through this troubleshooting guide. In most cases, the payment is simply delayed by standard banking processes and will arrive within a few days." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries whose grant payment has not appeared in their account on the expected pay date." },
     { "id": "step1-h", "type": "heading", "level": 3, "text": "Step 1: Check Your Current Status" },
     { "id": "step1-text", "type": "paragraph", "text": "The first thing to do is check your grant status on the official SASSA portal. Your status will tell you exactly where your payment is in the process:" },
     { "id": "status-table", "type": "table", "headers": ["Status", "What It Means", "What to Do"], "rows": [

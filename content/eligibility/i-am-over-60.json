@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Older Person Grant Eligibility Guide" },
     { "id": "intro", "type": "paragraph", "text": "When you reach the age of 60, you transition from unemployment support (SRD) to the state pension. Here is how to apply and qualify." },
+    { "id": "why", "type": "paragraph", "text": "The Older Person Grant fulfils the constitutional right to social security for elderly South Africans. It provides a monthly income for those aged 60 and above who meet the means test requirements." },
     { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
     { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be 60 years or older", "Must be a South African citizen or permanent resident", "Annual income must be below R96,240 (Single) or R192,480 (Married)"], "restrictions": ["You cannot receive the SRD R370 grant once you turn 60; you must migrate to the Older Person Grant"], "recommendedGrants": [{ "name": "Older Person Grant (Pension)", "slug": "older-person-grant", "amount": "R2,180 / month" }, { "name": "Grant-in-Aid (if you require 24/7 care)", "slug": "grant-in-aid", "amount": "R530 / month" }] },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },

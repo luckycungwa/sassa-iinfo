@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Check Your SASSA Appeal Status" },
     { "id": "intro", "type": "paragraph", "text": "After submitting your appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA), you can track its progress online. You will need your ID number, phone number, and Appeal Reference Number." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for anyone who has submitted a SASSA grant appeal and wants to track its progress through the ITSAA system." },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "How to Check Online" },
     { "id": "steps", "type": "steps", "steps": [
       { "title": "Go to the appeal portal", "description": "Visit srd.dsd.gov.za (for SRD appeals) or the ITSAA tracking portal." },

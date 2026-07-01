@@ -17,7 +17,7 @@ const baseUrl = process.env.APP_URL || "https://sassa-resource.vercel.app";
 const staticRoutes = [
   "", "/payment-dates", "/grants", "/status", "/appeals", "/eligibility",
   "/tools", "/offices", "/downloads", "/provinces", "/guides", "/banking",
-  "/faq", "/news",
+  "/faq", "/news", "/about", "/contact", "/privacy", "/terms", "/disclaimer",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

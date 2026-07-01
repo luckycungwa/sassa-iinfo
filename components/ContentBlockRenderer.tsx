@@ -191,6 +191,45 @@ export function ContentBlockRenderer({ blocks }: { blocks: ContentBlock[] }) {
       {blocks.map((block, i) => (
         <Block key={block.id || i} block={block} />
       ))}
+      <OfficialAssistance />
+    </div>
+  );
+}
+
+function OfficialAssistance() {
+  return (
+    <div className="mt-10 bg-blue-50 border border-blue-200 rounded-xl p-5 text-sm">
+      <p className="font-bold text-blue-900 mb-2">Need Official Assistance?</p>
+      <p className="text-blue-800 leading-relaxed mb-3">
+        This is an independent informational resource. For official services — checking your grant status,
+        updating your details, or submitting an appeal — please use the official SASSA portals directly:
+      </p>
+      <div className="flex flex-wrap gap-3">
+        <a
+          href="https://srd.sassa.gov.za"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 px-3 py-2 bg-blue-600 text-white rounded-lg text-xs font-bold hover:bg-blue-700 transition"
+        >
+          SRD Portal &rarr;
+        </a>
+        <a
+          href="https://srd.dsd.gov.za"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 px-3 py-2 bg-white text-blue-700 border border-blue-200 rounded-lg text-xs font-bold hover:bg-blue-50 transition"
+        >
+          Appeal Portal &rarr;
+        </a>
+        <a
+          href="https://www.gov.za"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 px-3 py-2 bg-white text-blue-700 border border-blue-200 rounded-lg text-xs font-bold hover:bg-blue-50 transition"
+        >
+          gov.za &rarr;
+        </a>
+      </div>
     </div>
   );
 }

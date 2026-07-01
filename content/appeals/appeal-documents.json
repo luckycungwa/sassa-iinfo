@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Required Documents for SASSA Grant Appeal" },
     { "id": "intro", "type": "paragraph", "text": "Submitting the correct documents with your appeal is critical. Missing or incorrect documents are the most common reason for appeal delays or dismissals." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for anyone preparing to submit a SASSA grant appeal and needs to know exactly which documents to gather." },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "How to Prepare Your Documents" },
     { "id": "steps", "type": "steps", "steps": [
       { "title": "Gather all documents", "description": "Gather all required documents before starting your appeal submission." },

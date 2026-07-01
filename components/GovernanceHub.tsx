@@ -204,7 +204,7 @@ export default function GovernanceHub() {
         </div>
 
         {/* Primary Sub Navigation Tabs */}
-        <div className="flex flex-wrap gap-1 bg-slate-50 p-1 rounded-xl border border-slate-100 mt-6 max-w-xl">
+        <div className="flex flex-wrap gap-1 bg-surface p-1 rounded-sassa border border-border mt-6 max-w-xl">
           {[
             { id: "schema", label: "Content Schema & Validator", icon: FileCode },
             { id: "tokens", label: "Design Token Scale", icon: Sliders },
@@ -216,10 +216,10 @@ export default function GovernanceHub() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-bold transition ${
+                className={`flex items-center gap-2 px-3 py-2 rounded-md text-xs font-bold transition ${
                   activeTab === tab.id
-                    ? "bg-emerald-800 text-white shadow-xs"
-                    : "text-slate-500 hover:text-slate-900 hover:bg-slate-100"
+                    ? "bg-midnight text-surface shadow-md"
+                    : "text-slate-500 hover:text-midnight hover:bg-canvas"
                 }`}
               >
                 <Icon className="w-3.5 h-3.5" />

@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Common Reasons for SASSA Grant Decline & How to Appeal Them" },
     { "id": "intro", "type": "paragraph", "text": "SASSA declines grants for specific coded reasons. Knowing exactly why you were declined helps you file a targeted appeal with the right evidence." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants who want to understand why their grant was declined and what kind of evidence they need to submit for a successful appeal." },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Appeal Process Overview" },
     { "id": "steps", "type": "steps", "steps": [
       { "title": "Check your decline notification", "description": "Check your decline notification for the specific reason code or description." },

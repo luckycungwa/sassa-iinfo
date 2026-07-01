@@ -197,7 +197,7 @@ export default function InteractiveTools() {
                 </div>
                 <button
                   onClick={() => setQuizStep(1)}
-                  className="bg-accent hover:bg-accent-dark text-white font-bold px-5 py-3 rounded-xl transition text-sm flex items-center gap-1.5"
+                  className="bg-gold hover:bg-gold-dark text-midnight font-bold px-5 py-3 rounded-sassa transition text-sm flex items-center gap-1.5"
                 >
                   Continue <ArrowRight className="w-4 h-4" />
                 </button>
@@ -209,22 +209,23 @@ export default function InteractiveTools() {
                 <div className="space-y-3">
                   <label className="block text-sm font-bold text-slate-800">2. Are you currently unemployed with zero formal income?</label>
                   <div className="flex gap-3">
-                    <button
-                      onClick={() => setQuizAnswers({ ...quizAnswers, isUnemployed: true })}
-                      className={`px-6 py-3 rounded-xl font-bold border transition text-sm ${
-                        quizAnswers.isUnemployed ? "bg-accent-light border-emerald-500 text-accent-dark" : "bg-surface border-slate-200"
-                      }`}
-                    >
-                      Yes, completely unemployed
-                    </button>
-                    <button
-                      onClick={() => setQuizAnswers({ ...quizAnswers, isUnemployed: false })}
-                      className={`px-6 py-3 rounded-xl font-bold border transition text-sm ${
-                        !quizAnswers.isUnemployed ? "bg-accent-light border-emerald-500 text-accent-dark" : "bg-surface border-slate-200"
-                      }`}
-                    >
-                      No, I have formal earnings
-                    </button>
+                  <button
+                    onClick={() => setQuizAnswers({ ...quizAnswers, isUnemployed: true })}
+                    className={`px-6 py-3 rounded-sassa font-bold border transition text-sm ${
+                      quizAnswers.isUnemployed ? "bg-gold/20 border-gold text-midnight" : "bg-surface border-border"
+                    }`}
+                  >
+                    Yes, completely unemployed
+                  </button>
+                  <button
+                    onClick={() => setQuizAnswers({ ...quizAnswers, isUnemployed: false })}
+                    className={`px-6 py-3 rounded-sassa font-bold border transition text-sm ${
+                      !quizAnswers.isUnemployed ? "bg-gold/20 border-gold text-midnight" : "bg-surface border-border"
+                    }`}
+                  >
+                    No, I have formal earnings
+                  </button>
+
                   </div>
                 </div>
 

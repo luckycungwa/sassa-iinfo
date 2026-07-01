@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Options for Unemployed South Africans" },
     { "id": "intro", "type": "paragraph", "text": "Unemployment affects millions of South Africans. SASSA provides several social grants designed to assist individuals and families with no regular income." },
+    { "id": "why", "type": "paragraph", "text": "Social grants exist to fulfil the constitutional right to social assistance for South Africans who cannot support themselves. If you are unemployed with no income, these grants provide a vital safety net." },
     { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
     { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be a South African citizen or permanent resident", "Must be unemployed (zero monthly salary)", "Must have bank statements showing no recurring deposits", "Must have a valid South African ID number"], "restrictions": ["You cannot receive this grant if you are receiving UIF, NSFAS, or any other social grant"], "recommendedGrants": [{ "name": "Social Relief of Distress (SRD R370)", "slug": "srd-r370-grant", "amount": "R370 / month" }, { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R530 / month" }] },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },

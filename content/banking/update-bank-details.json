@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Update Your SASSA Bank Details" },
     { "id": "intro", "type": "paragraph", "text": "If you need to change the bank account where your SASSA grant is paid, you can do it online through the SRD portal or in person at a SASSA office. The new account must be registered in your own name." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries who need to change the bank account where their grant is deposited." },
     { "id": "online-h", "type": "heading", "level": 3, "text": "Method 1: Update Online (Recommended)" },
     { "id": "online-steps", "type": "steps", "steps": [
       { "title": "Log into the SRD portal", "description": "Go to srd.sassa.gov.za. Enter your ID number and phone number. Verify with the OTP sent to your phone." },

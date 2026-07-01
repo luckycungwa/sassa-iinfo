@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Apply for a SASSA Grant" },
     { "id": "intro", "type": "paragraph", "text": "Applying for a SASSA social grant is a straightforward process. Whether you apply online or in person, following these steps will help ensure your application is processed smoothly." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for anyone who wants to apply for a SASSA social grant and needs a clear, step-by-step walkthrough of the application process." },
     { "id": "steps", "type": "steps", "steps": [
       { "title": "Determine Your Eligibility", "description": "Check the specific grant requirements on our Grant Library. Each grant has age limits, income thresholds (means test), and documentation needs." },
       { "title": "Gather Your Documents", "description": "Required documents typically include: original ID/smart card, proof of residence, 3 months bank statements, and income affidavits." },

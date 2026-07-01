@@ -42,12 +42,12 @@ export default function AppealsCentre() {
               onClick={() => setActiveGuide(g)}
               className={`w-full text-left p-4 rounded-xl border transition flex flex-col gap-1 ${
                 activeGuide.id === g.id
-                  ? "bg-accent border-emerald-950 text-white font-semibold"
+                  ? "bg-accent border-accent-dark text-white font-semibold"
                   : "bg-surface border-border hover:border-accent/40 text-slate-700 hover:bg-canvas"
               }`}
             >
               <h3 className="text-sm font-bold leading-tight">{g.title}</h3>
-              <p className={`text-xs ${activeGuide.id === g.id ? "text-emerald-100" : "text-muted"}`}>
+              <p className={`text-xs ${activeGuide.id === g.id ? "text-accent-light" : "text-muted"}`}>
                 {g.shortDescription}
               </p>
             </button>
@@ -75,7 +75,7 @@ export default function AppealsCentre() {
             <div className="space-y-3">
               {activeGuide.steps.map((step, idx) => (
                 <div key={idx} className="flex gap-3">
-                  <span className="w-6 h-6 rounded-full bg-accent-light border border-emerald-100 text-accent-dark text-xs font-mono font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <span className="w-6 h-6 rounded-full bg-accent-light border border-accent-light text-accent-dark text-xs font-mono font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
                     {idx + 1}
                   </span>
                   <p className="text-slate-600 text-xs md:text-sm leading-relaxed flex-1 pt-0.5">
@@ -135,7 +135,7 @@ export default function AppealsCentre() {
               <ul className="space-y-1 text-xs md:text-sm text-slate-600">
                 {activeGuide.outcomes.map((outcome, idx) => (
                   <li key={idx} className="flex items-center gap-1.5">
-                    <span className="w-1 h-1 bg-emerald-500 rounded-full"></span>
+                    <span className="w-1 h-1 bg-accent rounded-full"></span>
                     <span>{outcome}</span>
                   </li>
                 ))}

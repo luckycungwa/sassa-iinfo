@@ -16,6 +16,8 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants for Self-Employed and Informal Workers" },
     { "id": "intro", "type": "paragraph", "text": "Self-employed individuals, freelancers, and informal workers can qualify for SASSA grants if their monthly income falls below the means test threshold. However, proving your income can be more complex." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for self-employed South Africans, freelancers, small business owners, and informal workers who want to know if they qualify for social grants." },
+    { "id": "why", "type": "paragraph", "text": "Self-employed and informal workers contribute to the economy but often have irregular income. The means test accounts for this by averaging income over multiple months to determine eligibility." },
     { "id": "how-h", "type": "heading", "level": 3, "text": "How the Means Test Applies" },
     { "id": "how", "type": "paragraph", "text": "For SRD R370, your average monthly income from self-employment must be below R624. SASSA will review your bank statement deposits to determine your income level. Irregular deposits are treated as income." },
     { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Considerations" },

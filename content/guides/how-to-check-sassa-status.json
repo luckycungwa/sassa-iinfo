@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Check Your SASSA Grant Status" },
     { "id": "intro", "type": "paragraph", "text": "You can check your SASSA grant application or payment status using any of these methods." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA grant applicants and beneficiaries who want to check their application or payment status using online, WhatsApp, USSD, or in-person methods." },
     { "id": "online-h", "type": "heading", "level": 3, "text": "Method 1: Online Portal (Recommended)" },
     { "id": "online-text", "type": "paragraph", "text": "Visit srd.sassa.gov.za. Enter your ID number and the phone number used during application. You will receive an OTP via SMS to access your status dashboard." },
     { "id": "whatsapp-h", "type": "heading", "level": 3, "text": "Method 2: SASSA WhatsApp Line" },

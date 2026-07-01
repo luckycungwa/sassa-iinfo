@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Appeal Outcomes: What Happens After You Appeal?" },
     { "id": "intro", "type": "paragraph", "text": "After ITSAA reviews your appeal, you will receive one of several possible outcomes. Understanding each outcome helps you plan your next steps." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for anyone who has submitted a SASSA grant appeal and wants to understand what the possible rulings mean." },
     { "id": "outcomes-h", "type": "heading", "level": 3, "text": "Possible Outcomes" },
     { "id": "outcomes", "type": "list", "ordered": false, "items": ["Upheld (Successful): The decline is overturned. SASSA must pay all backdated amounts within 14 business days.", "Dismissed (Unsuccessful): The decline stands. You may reapply fresh if your circumstances change.", "Partially Upheld: Some months are approved, others remain declined (common for SRD appeals).", "Referred Back: The tribunal sends the case back to SASSA for re-evaluation with instructions."] },
     { "id": "callout", "type": "callout", "intent": "info", "title": "Timeline for Outcome", "text": "Rulings are typically issued 60-90 days after submission. Notifications are sent via SMS within 5 business days of the ruling." },

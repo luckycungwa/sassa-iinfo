@@ -16,6 +16,8 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Can Foster Parents Get SASSA Grants?" },
     { "id": "intro", "type": "paragraph", "text": "Foster parents in South Africa can apply for the Foster Child Grant, which is R1,180 per month per child. This grant is specifically for children placed in foster care through the children's court." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for foster parents or relatives caring for children placed in their care through the children's court." },
+    { "id": "why", "type": "paragraph", "text": "The Foster Child Grant exists to support foster parents who provide care for children placed in their custody by the children's court. It helps cover the costs of raising a foster child." },
     { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
     { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be a registered foster parent with a valid court order", "The child must be placed in your care by the children's court", "The child must remain in your care while receiving the grant", "Must be a South African citizen or permanent resident"], "restrictions": ["The Foster Child Grant is paid until the child turns 18 (or 21 if still studying)", "Foster parents can receive other grants for themselves simultaneously"], "recommendedGrants": [{ "name": "Foster Child Grant", "slug": "foster-care-grant", "amount": "R1,180 / month" }, { "name": "Child Support Grant (for biological children)", "slug": "child-support-grant", "amount": "R530 / month" }] },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },

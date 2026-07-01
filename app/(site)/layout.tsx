@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   Calendar, BookOpen, Search, Scale, Sliders, Sparkles, MapPin, FileText,
-  Compass, Briefcase, HelpCircle, Newspaper, Menu, X, ChevronRight, ShieldCheck,
+  Compass, Briefcase, HelpCircle, Newspaper, Menu, X, ChevronRight, ShieldCheck, AlertTriangle,
 } from "lucide-react";
 import PageAgent from "../../components/PageAgent";
 import SearchDialog from "../../components/SearchDialog";
@@ -78,6 +78,15 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <div className="min-h-screen flex flex-col bg-canvas text-ink">
+      <div className="bg-yellow-50 border-b border-yellow-200 print:hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center gap-2">
+          <AlertTriangle className="w-3.5 h-3.5 text-yellow-700 flex-shrink-0" />
+          <p className="text-[11px] text-yellow-800 font-medium">
+            Independent informational resource &mdash; not affiliated with SASSA or the South African government.
+            <a href="/disclaimer" className="underline font-bold ml-1 hover:text-yellow-900">Learn more</a>
+          </p>
+        </div>
+      </div>
       <header className="bg-surface border-b border-border sticky top-0 z-30 print:hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
@@ -231,25 +240,31 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
           <div className="space-y-4">
             <h4 className="text-white font-bold text-sm tracking-wide">SASSA Resource Platform</h4>
             <p className="text-xs leading-relaxed">
-              This platform serves as a complete static public assistance reference directory and knowledge base. All guidelines, payment dates, status codes, and calculations are compiled directly from verified social assistance frameworks in South Africa.
+              An independent educational resource centre for South African social grant information. We are not affiliated with SASSA or any government entity.
             </p>
           </div>
           <div className="space-y-3">
-            <h4 className="text-white font-bold text-xs font-mono uppercase tracking-wider">Independent Disclaimers</h4>
+            <h4 className="text-white font-bold text-xs font-mono uppercase tracking-wider">Legal</h4>
+            <nav className="space-y-2">
+              <a href="/about" className="block text-xs hover:text-white transition">About Us</a>
+              <a href="/contact" className="block text-xs hover:text-white transition">Contact</a>
+              <a href="/privacy" className="block text-xs hover:text-white transition">Privacy Policy</a>
+              <a href="/terms" className="block text-xs hover:text-white transition">Terms of Service</a>
+              <a href="/disclaimer" className="block text-xs hover:text-white transition">Disclaimer</a>
+            </nav>
+          </div>
+          <div className="space-y-3">
+            <h4 className="text-white font-bold text-xs font-mono uppercase tracking-wider">Official Services</h4>
             <p className="text-xs leading-relaxed">
-              This platform is an independent reference platform. We are not affiliated with SASSA, the Department of Social Development, or the South African Government. Always cross-verify critical administrative actions with official Government gazettes.
+              For grant applications, status checks, and appeals, visit the official SASSA portal directly:
             </p>
-          </div>
-          <div className="space-y-3">
-            <h4 className="text-white font-bold text-xs font-mono uppercase tracking-wider">Quality Guarantees</h4>
-            <div className="flex items-start gap-2 text-xs">
-              <ShieldCheck className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-              <p>Adheres strictly to search guidelines, ensuring helpful content and maximum accessibility standards without trackers, advertisements, or cookies.</p>
-            </div>
+            <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="block text-xs text-accent hover:underline">
+              srd.sassa.gov.za &rarr;
+            </a>
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 mt-8 border-t border-border text-center text-[10px] font-mono">
-          <p>&copy; 2026 SASSA Resource Platform. South Africa&rsquo;s Trusted Public Assistance Hub.</p>
+          <p>&copy; 2026 SASSA Resource Platform. An independent informational resource.</p>
         </div>
       </footer>
     </div>

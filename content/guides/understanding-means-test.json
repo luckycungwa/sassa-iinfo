@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Understanding the SASSA Means Test" },
     { "id": "intro", "type": "paragraph", "text": "The means test is a financial assessment SASSA uses to determine if your income and assets fall below the legal threshold for grant eligibility. It ensures grants go to those who need them most." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA grant applicants who want to understand how the means test works, what income and assets are counted, and whether they are likely to qualify." },
     { "id": "income-single-h", "type": "heading", "level": 3, "text": "Income Thresholds (Single)" },
     { "id": "income-single", "type": "paragraph", "text": "For most grants: single applicants must have annual income below R96,240. For the SRD R370 grant: bank inflows must be below R624 per month." },
     { "id": "income-married-h", "type": "heading", "level": 3, "text": "Income Thresholds (Married)" },

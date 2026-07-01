@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Cash Send Guide — Collect Your Grant in Cash" },
     { "id": "intro", "type": "paragraph", "text": "Cash Send is SASSA's cash collection service for beneficiaries who do not have a bank account or prefer to collect their grant in cash. Instead of depositing money into a bank account, SASSA sends you an SMS voucher that you take to any participating retailer to receive your cash." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries who do not have a bank account and prefer to collect their grant in cash at participating retailers." },
     { "id": "how-it-works-h", "type": "heading", "level": 3, "text": "How Cash Send Works" },
     { "id": "how-it-works-steps", "type": "steps", "steps": [
       { "title": "Your grant is approved", "description": "SASSA approves your grant for the month. Your status shows 'Approved' on the portal." },

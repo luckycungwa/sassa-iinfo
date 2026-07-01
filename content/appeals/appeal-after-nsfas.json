@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Appealing a Decline Due to NSFAS Funding" },
     { "id": "intro", "type": "paragraph", "text": "Students who previously received National Student Financial Aid Scheme (NSFAS) funding are often declined for SASSA grants. If your studies are finished or you no longer receive NSFAS, you need to appeal this decision." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for students or former students who were declined for a SASSA grant because their ID number appears in the NSFAS database." },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Appeal" },
     { "id": "steps", "type": "steps", "steps": [
       { "title": "Request NSFAS letter", "description": "Request a NSFAS Cancellation Letter or Completion Letter from NSFAS via the myNSFAS portal." },

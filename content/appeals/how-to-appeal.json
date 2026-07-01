@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Appeal a Declined SASSA Grant Application" },
     { "id": "intro", "type": "paragraph", "text": "If your social grant application was declined, you have the legal right to challenge the decision. Appeals are not handled by SASSA itself, but rather by an independent tribunal (ITSAA) to ensure fairness." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA grant applicants whose applications have been declined and who want to challenge the decision through the Independent Tribunal for Social Assistance Appeals (ITSAA)." },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Appeal Process" },
     { "id": "steps", "type": "steps", "steps": [
       { "title": "Get your decline notification", "description": "Obtain your official rejection notification from SASSA detailing the decline code." },

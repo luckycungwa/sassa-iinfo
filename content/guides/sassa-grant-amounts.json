@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grant Amounts 2026" },
     { "id": "intro", "type": "paragraph", "text": "Below is the complete list of SASSA social grant amounts for 2026. Amounts are reviewed annually and may increase with the national budget." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for anyone who wants to see a complete overview of all current SASSA grant amounts in one place." },
     { "id": "amounts-table", "type": "table", "headers": ["Grant Type", "Monthly Amount", "Frequency"], "rows": [
       ["Social Relief of Distress (SRD R370)", "R370", "Monthly"],
       ["Older Person Grant (60-74 years)", "R2,180", "Monthly"],

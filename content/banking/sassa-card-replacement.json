@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Card Replacement Guide" },
     { "id": "intro", "type": "paragraph", "text": "Losing your SASSA card or having it stolen can be stressful, but getting a replacement is straightforward. Here is exactly what to do, where to go, and what documents you need." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries who need to replace a lost, stolen, or damaged SASSA payment card." },
     { "id": "lost-stolen-h", "type": "heading", "level": 3, "text": "If Your Card Is Lost or Stolen" },
     { "id": "lost-steps", "type": "steps", "steps": [
       { "title": "Report it to the police (if stolen)", "description": "If your card was stolen, file a police report at your nearest SAPS station. You will need the case number for your replacement application." },

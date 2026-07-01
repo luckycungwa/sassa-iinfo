@@ -16,6 +16,7 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Appeal a SASSA Grant After Initial Decline" },
     { "id": "intro", "type": "paragraph", "text": "A declined grant application is not the end of the road. You have 90 days to file an appeal with the Independent Tribunal for Social Assistance Appeals (ITSAA). This guide covers every step from receiving your decline notification to receiving the tribunal ruling." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants who received a decline notification and need step-by-step instructions on how to file an appeal." },
     { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Process" },
     { "id": "steps", "type": "steps", "steps": [
       { "title": "Read your decline notification", "description": "Read your SASSA decline notification carefully to understand the specific reason." },

@@ -16,6 +16,8 @@
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "Can I Get a SASSA Grant if I Already Receive a Pension?" },
     { "id": "intro", "type": "paragraph", "text": "Receiving a private or government pension does not necessarily disqualify you from SASSA grants. Your eligibility depends on the amount of your pension and the type of grant you are applying for." },
+    { "id": "who", "type": "paragraph", "text": "This guide is for individuals who receive a private or government pension and want to know if they can also qualify for SASSA grants." },
+    { "id": "why", "type": "paragraph", "text": "Pension income, whether from government or private sources, is treated as income by the means test. However, receiving a pension does not automatically disqualify you from every SASSA grant — eligibility depends on your total income." },
     { "id": "gov-pension-h", "type": "heading", "level": 3, "text": "Government Pension (GEPF)" },
     { "id": "gov-pension", "type": "paragraph", "text": "If you receive a government pension from the Government Employees Pension Fund (GEPF), you may still qualify for the SRD R370 grant if your pension amount is below R624 per month. Most GEPF pensions exceed this threshold." },
     { "id": "private-pension-h", "type": "heading", "level": 3, "text": "Private Pension" },

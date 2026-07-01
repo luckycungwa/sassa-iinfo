@@ -3,26 +3,26 @@
 @theme {
   --color-canvas: #fafafa;
   --color-surface: #ffffff;
-  --color-ink: #18181b;
-  --color-muted: #71717a;
-  --color-border: rgba(228, 228, 231, 0.6);
-  --color-accent: #059669;
-  --color-accent-light: #ecfdf5;
-  --color-accent-dark: #065f46;
-  --color-status-approved: #16a34a;
-  --color-status-pending: #d97706;
-  --color-status-declined: #dc2626;
-  --font-display: "Outfit", sans-serif;
+  --color-gold: #FFB800;
+  --color-gold-dark: #cc9300;
+  --color-midnight: #1a1a1a;
+  --color-ink: #1e293b;
+  --color-muted: #64748b;
+  --color-border: rgba(228, 228, 231, 0.8);
+  
+  --radius-md: 8px; /* Round Eight */
+
+  --font-display: "Hanken Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 }
 
 * {
-  border-color: rgba(228, 228, 231, 0.6);
+  border-color: var(--color-border);
 }
 
 ::selection {
-  background-color: #059669;
-  color: #ffffff;
+  background-color: var(--color-gold);
+  color: var(--color-midnight);
 }
 
 @keyframes fade-in {
