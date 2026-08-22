@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
+import { canonicalUrl } from "@/lib/canonical";
 import { downloadableForms } from "../../../../lib/data/downloads";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema } from "../../../../lib/json-ld";
@@ -23,12 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/downloads/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription };
+    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/downloads/${slug}`) } };
   }
 
   const form = downloadableForms.find((d) => d.slug === slug);
   if (!form) return {};
-  return { title: `${form.title} | SASSA Form Download & Guide`, description: form.shortDescription };
+  return { title: `${form.title} | SASSA Form Download & Guide`, description: form.shortDescription, alternates: { canonical: canonicalUrl(`/downloads/${slug}`) } };
 }
 
 export default async function DownloadDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -43,7 +44,7 @@ export default async function DownloadDetailPage({ params }: { params: Promise<{
           { name: "Download Centre", url: "/downloads" },
           { name: content.title, url: content.slug },
         ])) }} />
-        <ContentBlockRenderer blocks={content.contentBlocks} />
+        <ContentBlockRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
   }
@@ -60,7 +61,7 @@ export default async function DownloadDetailPage({ params }: { params: Promise<{
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <div className="space-y-6 max-w-3xl">
+      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex items-start gap-4">
           <div className="w-12 h-12 rounded-xl bg-accent-light text-accent-dark border border-border flex items-center justify-center flex-shrink-0">
             <FileText className="w-6 h-6" />
@@ -100,12 +101,12 @@ export default async function DownloadDetailPage({ params }: { params: Promise<{
           </ul>
         </div>
 
-        <div className="flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl p-4">
+        <div className="flex items-center justify-between bg-surface border border-surface-container rounded-xl p-4">
           <div>
             <p className="text-xs font-bold text-muted font-mono uppercase tracking-wider">File Size</p>
             <p className="text-sm font-bold text-ink mt-0.5">{form.approxSize}</p>
           </div>
-          <div className="text-xs text-muted font-mono">{form.pdfPlaceholderContent}</div>
+          <div className="text-xs text-muted font-mono text-right leading-relaxed">{form.pdfPlaceholderContent}</div>
         </div>
       </div>
     </>

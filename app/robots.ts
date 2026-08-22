@@ -1,8 +1,16 @@
 import type { MetadataRoute } from "next";
 
+const baseUrl = process.env.APP_URL || "https://sassaiinfo.co.za";
+
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: { userAgent: "*", allow: "/" },
-    sitemap: `${process.env.APP_URL || "https://sassa-resource.vercel.app"}/sitemap.xml`,
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/api/", "/404", "/500"],
+      },
+    ],
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }

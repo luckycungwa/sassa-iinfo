@@ -1,0 +1,190 @@
+{
+  "id": "grant-disability-medical-assessment",
+  "slug": "/grants/disability-grant/medical-assessment",
+  "classification": "grant-detail",
+  "title": "Disability Grant — Medical Assessment Walkthrough",
+  "description": "Step-by-step guide to the SASSA Disability Grant medical exam: Form A, what your doctor must fill in, District Surgeon checks, conditions that qualify, supporting documents, and appeal steps.",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Disability Grant Medical Exam — SASSA Doctor Assessment Guide",
+    "metaDescription": "Guide to the SASSA Disability Grant medical exam: Form A, what your doctor must fill in, District Surgeon checks, conditions that qualify, supporting documents, and appeal steps.",
+    "keywords": ["disability grant medical assessment", "SASSA medical report form", "district surgeon", "disability grant appeal", "Form A SASSA", "SASSA doctor exam"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Disability Grant — Medical Assessment" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Disability Grant — Medical Assessment Walkthrough",
+      "description": "Step-by-step guide to the SASSA Disability Grant medical exam: Form A, what your doctor must fill in, District Surgeon checks, conditions that qualify, supporting documents, and appeal steps.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-07-27"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The medical assessment is the make-or-break step for your Disability Grant. This page is a focused deep-dive into everything you need to know about the exam — from getting the right form to what happens at the District Surgeon appointment. If you are preparing for your assessment or wondering why your application was rejected, start here."
+    },
+    {
+      "id": "form-a-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Getting the Medical Report Form (Form A)"
+    },
+    {
+      "id": "form-a",
+      "type": "paragraph",
+      "text": "The SASSA medical report form — Form A — is the official document your doctor must use to describe your condition. A letter on a prescription pad will be rejected. You can collect Form A for free from any SASSA office. Some clinics and government hospitals also keep copies. If you cannot get out, ask a family member to fetch one on your behalf, or check the SASSA website for a downloadable version. Print two copies: one for your doctor and one as a backup."
+    },
+    {
+      "id": "doctor-role-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Your Doctor Needs to Fill In"
+    },
+    {
+      "id": "doctor-role",
+      "type": "paragraph",
+      "text": "Your treating doctor — whether a GP, specialist, or clinic nurse — must complete Part A (patient details and diagnosis) and Part B (clinical findings) of Form A. They need to describe your diagnosis clearly, list all test results (X-rays, blood work, scans), explain your treatment history, and most importantly, describe how the disability affects your daily life. Vague phrases like \"patient is unwell\" or \"cannot work\" are not enough. The doctor must explain exactly what you cannot do — walk, stand, see, concentrate, lift, or care for yourself. The more specific the report, the better your chance of passing the District Surgeon's review."
+    },
+    {
+      "id": "full-process-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Get Form A from SASSA",
+          "description": "Collect the official medical report form from any SASSA office or download it from their website. Do not use a plain letter."
+        },
+        {
+          "title": "Visit your doctor to complete the form",
+          "description": "Your GP, specialist, or clinic must fill in Part A and Part B. Bring any test results, scans, and hospital records so they can write a detailed report."
+        },
+        {
+          "title": "Submit your application at SASSA",
+          "description": "Take the completed Form A, your ID, proof of residence, and proof of income to your nearest SASSA office. They will log your application and schedule a District Surgeon appointment."
+        },
+        {
+          "title": "Attend the District Surgeon exam",
+          "description": "The SASSA doctor will review your form, examine you, and decide if your disability meets the criteria. Bring X-rays, blood test results, and any specialist letters to support your case."
+        },
+        {
+          "title": "Receive the decision",
+          "description": "SASSA will notify you of the outcome. If approved, your grant is backdated to your application date. If rejected, you have 90 days to appeal."
+        }
+      ]
+    },
+    {
+      "id": "district-surgeon-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What the District Surgeon Checks"
+    },
+    {
+      "id": "district-surgeon",
+      "type": "paragraph",
+      "text": "The District Surgeon (or a government-contracted doctor) works for SASSA, not for you. Their job is to verify whether your disability is severe enough to meet the legal definition. They will ask about your medical history, daily activities, and how your condition affects your ability to work. They may test your range of motion, strength, vision, or mental state depending on your condition. They also check whether you are receiving proper treatment and whether the condition has improved since your doctor's report was written. Be honest — attempting to exaggerate symptoms is noticed and can count against you."
+    },
+    {
+      "id": "qualifying-table",
+      "type": "table",
+      "headers": ["Condition", "Likely Outcome", "Reasoning"],
+      "rows": [
+        ["Total or partial blindness", "Typically qualifies", "Permanent visual impairment that prevents most forms of employment is clearly disabling."],
+        ["Loss of both hands or both feet", "Typically qualifies", "Severe physical impairment that makes self-support nearly impossible."],
+        ["End-stage kidney disease on dialysis", "Typically qualifies", "Requires regular medical treatment and prevents sustained employment."],
+        ["Severe psychiatric disorder (e.g., schizophrenia, severe depression)", "Often qualifies", "Must be well-documented by a psychiatrist with evidence of ongoing treatment and functional impairment."],
+        ["Advanced HIV with AIDS-defining illnesses", "Often qualifies", "Must show that the condition has caused permanent damage or recurrent illness despite treatment."],
+        ["Back pain without nerve damage", "Often rejected", "SASSA considers this common and not disabling enough unless proven with MRI evidence of nerve compression."],
+        ["Well-controlled hypertension or diabetes", "Usually rejected", "If your condition is managed with medication and does not prevent you from working, you will not qualify."],
+        ["Mild asthma or allergies", "Usually rejected", "Does not typically prevent employment unless severe and documented with lung function tests."],
+        ["Temporary injury (fracture, sprain)", "Rejected for permanent grant", "May qualify for the Temporary Disability Grant if recovery is expected within 6–12 months."]
+      ],
+      "caption": "No condition is automatically approved or rejected. SASSA assesses each person individually based on how the disability affects their ability to earn a living."
+    },
+    {
+      "id": "documents-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Supporting Documents to Bring to the Assessment"
+    },
+    {
+      "id": "documents-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Completed Form A signed by your treating doctor",
+        "X-rays, MRI or CT scan reports relevant to your condition",
+        "Blood test results and laboratory reports",
+        "Specialist letters or referral notes with detailed diagnosis",
+        "Hospital discharge summaries if you were recently admitted",
+        "Your medication list and dosage information",
+        "Proof of any surgeries or procedures related to your disability",
+        "Your ID document and the SASSA application receipt"
+      ]
+    },
+    {
+      "id": "vague-report-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "What If Your Doctor's Report Is Too Vague?",
+      "text": "The most common reason for rejection is a vague medical report. If your doctor wrote something short like 'patient is sick and cannot work', the District Surgeon will likely turn you down. Go back to your doctor and ask them to rewrite the report with specific details: exact diagnosis, test results, how the condition limits daily activities, and why you cannot earn a living. A detailed specialist letter attached to Form A makes a huge difference."
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "90-Day Appeal Window If the Doctor Rejects You",
+      "text": "If the medical assessment finds that you do not qualify, SASSA will send you a rejection letter. You have 90 days from the date on that letter to appeal. Write to the Minister of Social Development at the address on the letter. Attach a copy of the rejection letter, your ID, and any new medical evidence — especially a more detailed report from your specialist. Many rejections are overturned on appeal when the applicant provides clearer documentation."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions About the Medical Exam"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What does the SASSA doctor actually check during the medical assessment?",
+          "answer": "The doctor reviews your Form A, asks about your medical history and daily life, and performs a physical or mental examination relevant to your condition. They check whether your disability matches the legal definition — meaning it must be permanent or long-term (over 6 months) and severe enough to stop you from earning a living."
+        },
+        {
+          "question": "Can I bring a family member or friend with me to the appointment?",
+          "answer": "Yes. You are allowed to bring someone to support you, especially if your disability makes it difficult to communicate or move around. Let the SASSA staff know when you arrive that you have someone with you."
+        },
+        {
+          "question": "Will I need to undress for the examination?",
+          "answer": "You may be asked to remove outer clothing if the doctor needs to examine a specific body part — for example, to check a back injury, limb function, or skin condition. You will not be asked to undress completely. If you are uncomfortable, you can ask for a chaperone to be present."
+        },
+        {
+          "question": "What if I cannot travel to the District Surgeon because of my disability?",
+          "answer": "Tell SASSA when you apply. In some cases, the District Surgeon can arrange a home visit or you may be assessed at a closer clinic. You will need a letter from your doctor explaining why you cannot travel. This is not guaranteed but is worth requesting."
+        },
+        {
+          "question": "How long does the medical exam take and will I get the result on the day?",
+          "answer": "The exam itself usually takes 15 to 30 minutes. The doctor does not give you the result on the spot — they send their report to SASSA for processing. You will receive a written decision by post or SMS, typically within a few weeks."
+        },
+        {
+          "question": "What if I don't have a regular doctor to fill in Form A? Can I go to a clinic?",
+          "answer": "Yes. You can go to your nearest government clinic or community health centre. The nurse or doctor there can complete the form based on your medical records. Public hospitals also have doctors who can fill it in, though you may need to wait longer for an appointment."
+        },
+        {
+          "question": "The District Surgeon said my condition is not severe enough — can I try again later?",
+          "answer": "Yes, but you must appeal within 90 days. If your condition gets worse, you can also submit a new application with updated medical evidence. Do not simply reapply with the same information — get new tests, specialist reports, or hospital records that show how your condition has progressed."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
+    { "title": "Temporary Disability Grant", "slug": "/grants/disability-grant" },
+    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
+    { "title": "Grant Library", "slug": "/grants" }
+  ]
+}

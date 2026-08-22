@@ -14,6 +14,15 @@
     "keywords": ["SASSA decline reasons", "why SASSA grant declined", "SASSA UIF declined", "SASSA alternative income declined", "SASSA means test failed"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Common Reasons for SASSA Grant Decline & How to Appeal Them",
+      "description": "SASSA declines grants for specific coded reasons. Knowing exactly why you were declined helps you file a targeted appeal with the right evidence. This guide covers every decline reason and the exact appeal strategy for each.",
+      "readingTime": "5 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Submit an Appeal", "href": "https://srd.dsd.gov.za" },
+      "secondaryCta": { "text": "View Required Documents", "href": "/appeals/appeal-documents" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Common Reasons for SASSA Grant Decline & How to Appeal Them" },
     { "id": "intro", "type": "paragraph", "text": "SASSA declines grants for specific coded reasons. Knowing exactly why you were declined helps you file a targeted appeal with the right evidence." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants who want to understand why their grant was declined and what kind of evidence they need to submit for a successful appeal." },

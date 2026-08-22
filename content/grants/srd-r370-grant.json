@@ -6,6 +6,7 @@
   "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.",
   "lastUpdated": "2026-07-01",
   "version": "2.0.0",
+  "readingTime": "10 min read",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
@@ -14,13 +15,13 @@
     "keywords": ["SRD R370 grant", "SASSA SRD grant", "R350 grant", "SASSA R370", "social relief of distress", "SASSA COVID grant", "SRD application", "SASSA grant for unemployed"]
   },
   "contentBlocks": [
-    { "id": "h1", "type": "heading", "level": 2, "text": "Social Relief of Distress (SRD R370) Grant" },
+    { "id": "hero", "type": "hero", "title": "Social Relief of Distress (SRD R370) Grant", "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.", "readingTime": "10 min read", "lastUpdated": "2026-07-01", "cta": { "label": "Check Your Status", "href": "/grants/srd-r370-grant/status-check" }, "secondaryCta": { "label": "How to Apply", "href": "/grants/srd-r370-grant" } },
     { "id": "summary", "type": "grant-summary", "amount": "R370", "frequency": "Monthly", "targetGroup": "Unemployed South Africans aged 18 to 59 with no income or financial support." },
     { "id": "intro", "type": "paragraph", "text": "The Social Relief of Distress (SRD) Grant, popularly known as the R370 grant (increased from R350 in 2025), is South Africa's largest social assistance programme by beneficiary numbers. It provides a monthly payment to unemployed adults who have no other source of income or government support. The grant has been extended to at least March 2027." },
     { "id": "quick-links-h", "type": "heading", "level": 3, "text": "Quick Actions" },
     { "id": "quick-links", "type": "link-grid", "links": [
       { "title": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check", "description": "Check your application and payment status online" },
-      { "title": "Apply for SRD Grant", "href": "/guides/how-to-apply-for-srd", "description": "Step-by-step application guide" },
+      { "title": "Apply for SRD Grant", "href": "/grants/srd-r370-grant", "description": "Step-by-step application guide" },
       { "title": "SRD Payment Methods", "href": "/grants/srd-r370-grant/payment-methods", "description": "How you receive your R370 payment" },
       { "title": "SRD Monthly Review", "href": "/grants/srd-r370-grant/monthly-review", "description": "Understanding the monthly eligibility check" },
       { "title": "Appeal a Declined SRD", "href": "/appeals/appeal-after-decline", "description": "How to appeal if your SRD is declined" }
@@ -120,7 +121,7 @@
       { "title": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check", "description": "Full guide to checking your SRD grant status" },
       { "title": "SRD Payment Methods", "href": "/grants/srd-r370-grant/payment-methods", "description": "How you receive your R370 payment" },
       { "title": "SRD Monthly Review Explained", "href": "/grants/srd-r370-grant/monthly-review", "description": "Understanding monthly eligibility reassessments" },
-      { "title": "How to Apply for SRD", "href": "/guides/how-to-apply-for-srd", "description": "Step-by-step application guide" },
+      { "title": "How to Apply for SRD", "href": "/grants/srd-r370-grant", "description": "Step-by-step application guide" },
       { "title": "Appeal a Declined SRD Grant", "href": "/appeals/appeal-after-decline", "description": "How to appeal if your SRD is declined" },
       { "title": "Alternative Income Source Status", "href": "/status/alternative-income-source", "description": "What this status means and how to fix it" }
     ] }
@@ -129,6 +130,6 @@
     { "title": "Grant Library", "slug": "/grants" },
     { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
     { "title": "Disability Grant", "slug": "/grants/disability-grant" },
-    { "title": "SRD vs Other Grants", "slug": "/grants/srd-vs-other-grants" }
+    { "title": "SRD vs Other Grants", "slug": "/grants" }
   ]
 }

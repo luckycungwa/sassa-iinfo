@@ -1,0 +1,190 @@
+{
+  "id": "grant-war-veterans",
+  "slug": "/grants/war-veterans-grant",
+  "classification": "grant-detail",
+  "title": "War Veterans Grant — Complete Guide 2026",
+  "description": "Complete guide to the SASSA War Veterans Grant: R2,420 per month for veterans of WWI, WWII, and the Korean War. Eligibility, documents, application process, and how it differs from military pensions.",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Founder, 44tagstudios", "verified": true },
+  "seo": {
+    "metaTitle": "War Veterans Grant 2026: Amount, Eligibility & How to Apply",
+    "metaDescription": "Complete guide to the SASSA War Veterans Grant: R2,420 per month for veterans of WWI, WWII, and the Korean War. Eligibility criteria, required documents, and how to apply.",
+    "keywords": ["war veterans grant", "SASSA war veterans", "military veteran grant South Africa", "SASSA veteran pension", "Korean War veteran grant SA"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "War Veterans Grant" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "War Veterans Grant",
+      "description": "Complete guide to the SASSA War Veterans Grant: R2,420 per month for veterans who served in World War I, World War II, or the Korean War. Eligibility criteria, required documents, application process, and how this grant differs from modern military pensions.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-07-27",
+      "cta": { "label": "Grant Library", "href": "/grants" },
+      "secondaryCta": { "label": "Older Person Grant", "href": "/grants/older-person-grant" }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R2,420",
+      "frequency": "Monthly (R20 more than Older Person Grant)",
+      "targetGroup": "South African veterans of World War I, World War II, or the Korean War who are 60+ or disabled."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The SASSA War Veterans Grant is a specialized social grant for aging military veterans who fought in historical wars. It pays R2,420 per month — R20 more than the standard Older Person Grant as a recognition of military service. This is a separate benefit from military pensions paid by the Department of Military Veterans (DMV)."
+    },
+    {
+      "id": "who-qualifies-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Who Qualifies for the War Veterans Grant"
+    },
+    {
+      "id": "who-qualifies-intro",
+      "type": "paragraph",
+      "text": "The War Veterans Grant has specific eligibility criteria that differ from other SASSA grants. The key requirement is proof of military service in one of the qualifying wars."
+    },
+    {
+      "id": "eligibility",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "South African citizen or permanent resident",
+        "Must have served in WWI, WWII, or the Korean War",
+        "Must be 60 years or older, or have a disability",
+        "Means Test (Single): Annual income below R96,240; assets below R1,372,800",
+        "Means Test (Married): Combined income below R192,480; assets below R2,745,600",
+        "Must not be living in a state-funded institution"
+      ],
+      "restrictions": [
+        "Post-1994 veterans do not qualify — they should apply through the Department of Military Veterans",
+        "You cannot receive both War Veterans Grant and Older Person Grant for yourself",
+        "The grant is not available to surviving spouses — it is for the veteran only"
+      ],
+      "recommendedGrants": [
+        { "name": "Older Person Grant", "slug": "/grants/older-person-grant", "amount": "R2,400" }
+      ]
+    },
+    {
+      "id": "modern-veterans-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Important Note for Modern-Era Veterans"
+    },
+    {
+      "id": "modern-veterans-text",
+      "type": "callout",
+      "intent": "info",
+      "title": "This Grant Is Not for Post-1994 Veterans",
+      "text": "The War Veterans Grant is legislated only for veterans of WWI, WWII, and the Korean War. If you served in the South African National Defence Force (SANDF) after 1994, or in peacekeeping missions, you do not qualify for this grant. Instead, contact the Department of Military Veterans (DMV) for military pension benefits."
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "Your original 13-digit ID or smart ID card", "required": true },
+        { "label": "Certificate of military service or military record book", "required": true, "notes": "This is the most important document. Contact the SANDF archives or the DMV if you need a replacement." },
+        { "label": "Proof of income and assets", "required": true, "notes": "Last 3 months bank statements, pension slips, and proof of any other income." },
+        { "label": "Marriage certificate (if married)", "required": false },
+        { "label": "Proof of residence", "required": true }
+      ]
+    },
+    {
+      "id": "apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply"
+    },
+    {
+      "id": "apply-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Gather your military records", "description": "Find your certificate of military service, discharge certificate, or military record book. If lost, contact the SANDF Records Department or the DMV." },
+        { "title": "Visit your nearest SASSA office", "description": "Go to a SASSA local office with all your documents. Inform the officer you want to apply for the War Veterans Grant." },
+        { "title": "Complete the application form", "description": "A SASSA officer will help you fill in the application. Your fingerprints will be taken." },
+        { "title": "Wait for processing", "description": "Applications take up to 3 months to process. SASSA may verify your military service with the Department of Defence." }
+      ]
+    },
+    {
+      "id": "war-vs-older-h",
+      "type": "heading",
+      "level": 3,
+      "text": "War Veterans Grant vs Older Person Grant"
+    },
+    {
+      "id": "war-vs-older-table",
+      "type": "table",
+      "headers": ["Feature", "War Veterans Grant", "Older Person Grant"],
+      "rows": [
+        ["Monthly amount (2026)", "R2,420", "R2,400 (R2,420 for 75+)"],
+        ["Age requirement", "60+ or disabled (any age)", "60+"],
+        ["Military service", "Required", "Not required"],
+        ["Assets test", "Same as Older Person", "Same"],
+        ["Extra for 75+", "No extra", "R20 extra at 75+"]
+      ],
+      "caption": "The War Veterans Grant pays R20 more per month but requires proof of qualifying military service."
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Appeals Are Fast-Tracked for Veterans",
+      "text": "If your War Veterans Grant is declined, appeals are fast-tracked through the Department of Military Veterans and the Ministry of Social Development. You have 90 days from the decline notification to appeal. Contact a DMV officer for assistance with your appeal."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Are modern SANDF veterans eligible for this grant?",
+          "answer": "No. This specific grant is legislated only for veterans of WWI, WWII, and the Korean War. Post-1994 veterans should contact the Department of Military Veterans (DMV) for military pension benefits."
+        },
+        {
+          "question": "Can I receive the War Veterans Grant and a military pension at the same time?",
+          "answer": "Yes. The War Veterans Grant is a social grant from SASSA and is separate from any military pension you receive through the DMV. You can receive both."
+        },
+        {
+          "question": "What if I lost my military service records?",
+          "answer": "Contact the SANDF Archives at the Department of Defence, or the DMV head office. They can issue a replacement certificate of service. This may take several weeks, so start early."
+        },
+        {
+          "question": "Does the grant increase when I turn 75 like the Older Person Grant?",
+          "answer": "No. The War Veterans Grant amount is R2,420 per month regardless of age. The extra R20 for 75+ only applies to the Older Person Grant."
+        },
+        {
+          "question": "Can my spouse receive the grant after I pass away?",
+          "answer": "No. The grant is for the veteran only and does not transfer to a surviving spouse. Your spouse may qualify for the Older Person Grant in their own right."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        { "title": "Older Person Grant", "href": "/grants/older-person-grant", "description": "State pension for seniors 60+" },
+        { "title": "Grant-in-Aid", "href": "/grants/grant-in-aid", "description": "Extra grant for those needing full-time care" },
+        { "title": "Department of Military Veterans", "href": "https://www.dmv.gov.za", "description": "Official DMV website (external)" }
+      ]
+    }
+  ],
+  "relatedPages": [
+    { "title": "Grant Library", "slug": "/grants" },
+    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
+    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" }
+  ]
+}

@@ -14,6 +14,15 @@
     "keywords": ["SASSA pending 30 days", "SASSA pending long time", "SASSA stuck on pending", "why is my SASSA still pending"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Pending for 30+ Days — What to Do",
+      "description": "Your SASSA grant has been pending for more than 30 days — this is longer than usual. Find out why your application may be stuck, what you can do to speed things up, and when to escalate to a SASSA office.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Check Your Status", "href": "/status/pending-30-days" },
+      "secondaryCta": { "text": "Contact SASSA", "href": "/contact" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Pending for 30+ Days — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "If your SASSA grant status has been 'Pending' for more than 30 days, it indicates a delay in the verification process. While the standard processing time is 7 to 14 business days for SRD and up to 3 months for other grants, extended pending periods can signal a bottleneck that needs your attention." },
     { "id": "who", "type": "paragraph", "text": "This status affects SASSA grant applicants whose applications have been in the review process for more than 30 days without a final decision." },

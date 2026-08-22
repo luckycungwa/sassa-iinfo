@@ -1,1 +1,39 @@
-{"id":"hub-payment-dates","slug":"/payment-dates","classification":"hub-index","title":"SASSA Grant Payment Dates 2026","description":"Complete schedule of SASSA grant payment dates for all grant types.","lastUpdated":"2026-06-30","version":"1.0.0","status":"published","author":{"name":"Grant Guide Editorial Team","role":"Content Editor","verified":true},"seo":{"metaTitle":"SASSA Payment Dates 2026 — Full Schedule","metaDescription":"View SASSA payment dates for all grant types: Older Person, Disability, Child Support, SRD R370, and more. Monthly schedule by grant category.","keywords":["SASSA payment dates","grant payment dates","SASSA pay dates 2026"]},"contentBlocks":[{"id":"h1","type":"heading","level":2,"text":"SASSA Payment Dates"},{"id":"intro","type":"paragraph","text":"SASSA pays grants on specific days each month. Check the schedule below to know exactly when your payment will be available."}]}
+{
+  "id": "hub-payment-dates",
+  "slug": "/payment-dates",
+  "classification": "hub-index",
+  "title": "SASSA Grant Payment Dates 2026",
+  "description": "Complete schedule of SASSA grant payment dates for all grant types including Older Person, Disability, Child Support, Foster Care, and SRD R370 grants.",
+  "lastUpdated": "2026-07-29",
+  "version": "2.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates 2026 — Full Schedule",
+    "metaDescription": "View SASSA payment dates for all grant types: Older Person, Disability, Child Support, SRD R370, and more. Monthly schedule by grant category for 2026.",
+    "keywords": ["SASSA payment dates", "grant payment dates", "SASSA pay dates 2026", "SASSA payout schedule", "when does SASSA pay"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Payment Dates" },
+    { "id": "intro", "type": "paragraph", "text": "SASSA pays grants on specific days each month, staggered by grant type. Permanent grants (Older Person, Disability, Children's) are paid in the first week. The SRD R370 grant is paid in batches from the 25th to the 30th. Click any month for the full schedule." },
+    { "id": "quick-nav", "type": "link-grid", "links": [
+      { "title": "June 2026 (Current Month)", "href": "/payment-dates/2026-june", "description": "Current month's payment schedule" },
+      { "title": "July 2026", "href": "/payment-dates/2026-july", "description": "Next month's payment dates" },
+      { "title": "December 2026", "href": "/payment-dates/2026-december", "description": "Holiday season payment schedule" },
+      { "title": "All 2026 Dates", "href": "/payment-dates", "description": "Complete 2026 calendar" }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "When are SASSA grants paid each month?", "answer": "Payment dates are staggered by grant type. Older Persons grants are paid first (2nd-5th), followed by Disability grants (3rd-6th), then Children's grants (4th-7th). SRD R370 is paid between the 25th and 30th." },
+      { "question": "Do I need to withdraw on the first day?", "answer": "No. Your grant remains available in your account. You can withdraw any time after the pay date. Avoiding peak queues by collecting a few days later is recommended." },
+      { "question": "How long does bank transfer take?", "answer": "Bank transfers typically reflect 1-3 business days after the official pay date. Plan accordingly." },
+      { "question": "What if I lose the cash send SMS?", "answer": "Contact SASSA at 0800 60 10 11 to request a resend. You can also visit a SASSA office with your ID for a replacement voucher." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "June 2026", "slug": "/payment-dates/2026-june" },
+    { "title": "July 2026", "slug": "/payment-dates/2026-july" },
+    { "title": "Banking & Payment Methods", "slug": "/banking" },
+    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" },
+    { "title": "Grant Library", "slug": "/grants" }
+  ]
+}

@@ -10,21 +10,21 @@ export default function AppealsCentre() {
   return (
     <div className="space-y-6">
       {/* Header Info Banner */}
-      <div className="bg-amber-50 border border-amber-100 rounded-xl p-5 flex flex-col md:flex-row gap-4 items-start">
-        <div className="p-3 bg-amber-100 rounded-xl text-amber-800">
+      <div className="bg-amber/10 border border-amber/30 rounded-xl p-5 flex flex-col md:flex-row gap-4 items-start">
+        <div className="p-3 bg-amber/20 rounded-xl text-amber-dark">
           <Scale className="w-6 h-6" />
         </div>
         <div className="space-y-1 flex-1">
-          <h3 className="font-extrabold text-sm text-amber-950">Independent Social Assistance Tribunal (ITSAA)</h3>
-          <p className="text-xs md:text-sm text-amber-900 leading-relaxed">
-            Please note that social grant appeals are handled completely independently from SASSA by the **Ministry of Social Development’s Independent Tribunal**. This ensures that your financial case is reviewed impartially. Appeals must be submitted within 90 days of receiving your decline notification.
+          <h3 className="font-extrabold text-sm text-ink">Independent Social Assistance Tribunal (ITSAA)</h3>
+          <p className="text-xs md:text-sm text-muted leading-relaxed">
+            Please note that social grant appeals are handled completely independently from SASSA by the **Ministry of Social Development&rsquo;s Independent Tribunal**. This ensures that your financial case is reviewed impartially. Appeals must be submitted within 90 days of receiving your decline notification.
           </p>
           <div className="pt-1.5">
             <a
               href="https://srd.dsd.gov.za"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-amber-950 hover:underline font-bold text-xs flex items-center gap-1"
+              className="text-ink hover:underline font-bold text-xs flex items-center gap-1"
             >
               Go to Official Appeal Portal <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
@@ -42,12 +42,12 @@ export default function AppealsCentre() {
               onClick={() => setActiveGuide(g)}
               className={`w-full text-left p-4 rounded-xl border transition flex flex-col gap-1 ${
                 activeGuide.id === g.id
-                  ? "bg-accent border-accent-dark text-white font-semibold"
-                  : "bg-surface border-border hover:border-accent/40 text-slate-700 hover:bg-canvas"
+                  ? "bg-accent border-accent-dark text-black font-semibold"
+                  : "bg-surface border-border hover:border-accent/40 text-ink hover:bg-canvas"
               }`}
             >
               <h3 className="text-sm font-bold leading-tight">{g.title}</h3>
-              <p className={`text-xs ${activeGuide.id === g.id ? "text-accent-light" : "text-muted"}`}>
+              <p className={`text-xs ${activeGuide.id === g.id ? "text-black/70" : "text-muted"}`}>
                 {g.shortDescription}
               </p>
             </button>
@@ -58,10 +58,10 @@ export default function AppealsCentre() {
         <div className="lg:col-span-8 bg-surface border border-border rounded-xl p-6 md:p-8 space-y-6">
           {/* Header */}
           <div className="border-b border-border pb-5 space-y-2">
-            <h1 className="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight">
+            <h1 className="text-xl md:text-2xl font-extrabold text-ink tracking-tight">
               {activeGuide.title}
             </h1>
-            <p className="text-slate-600 text-sm leading-relaxed">
+            <p className="text-muted text-sm leading-relaxed">
               {activeGuide.introduction}
             </p>
           </div>
@@ -78,7 +78,7 @@ export default function AppealsCentre() {
                   <span className="w-6 h-6 rounded-full bg-accent-light border border-accent-light text-accent-dark text-xs font-mono font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
                     {idx + 1}
                   </span>
-                  <p className="text-slate-600 text-xs md:text-sm leading-relaxed flex-1 pt-0.5">
+                  <p className="text-muted text-xs md:text-sm leading-relaxed flex-1 pt-0.5">
                     {step}
                   </p>
                 </div>
@@ -91,10 +91,10 @@ export default function AppealsCentre() {
             {/* Timeline */}
             <div className="bg-canvas rounded-xl p-5 border border-border space-y-2">
               <h3 className="font-bold text-sm text-ink flex items-center gap-1.5">
-                <AlertCircle className="w-4 h-4 text-amber-500" />
+                <AlertCircle className="w-4 h-4 text-accent-dark" />
                 Appeal Timeline & Deadlines
               </h3>
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
+              <p className="text-xs md:text-sm text-muted leading-relaxed">
                 {activeGuide.timeline}
               </p>
             </div>
@@ -105,7 +105,7 @@ export default function AppealsCentre() {
                 <FileText className="w-4 h-4 text-accent-dark" />
                 Supporting Documents Needed
               </h3>
-              <ul className="space-y-1 text-xs md:text-sm text-slate-600 pl-4 list-disc">
+              <ul className="space-y-1 text-xs md:text-sm text-muted pl-4 list-disc">
                 {activeGuide.documents.map((doc, idx) => (
                   <li key={idx} className="pl-0.5">{doc}</li>
                 ))}
@@ -119,10 +119,10 @@ export default function AppealsCentre() {
               <h4 className="font-bold text-xs font-mono text-muted tracking-wider uppercase flex items-center gap-1">
                 <ShieldAlert className="w-3.5 h-3.5" /> Common Reasons
               </h4>
-              <ul className="space-y-1 text-xs md:text-sm text-slate-600">
+              <ul className="space-y-1 text-xs md:text-sm text-muted">
                 {activeGuide.commonReasons.map((reason, idx) => (
                   <li key={idx} className="flex items-center gap-1.5">
-                    <span className="w-1 h-1 bg-red-500 rounded-full"></span>
+                    <span className="w-1 h-1 bg-trading-down rounded-full"></span>
                     <span>{reason}</span>
                   </li>
                 ))}
@@ -132,7 +132,7 @@ export default function AppealsCentre() {
               <h4 className="font-bold text-xs font-mono text-muted tracking-wider uppercase flex items-center gap-1">
                 <Landmark className="w-3.5 h-3.5" /> Expected Outcomes
               </h4>
-              <ul className="space-y-1 text-xs md:text-sm text-slate-600">
+              <ul className="space-y-1 text-xs md:text-sm text-muted">
                 {activeGuide.outcomes.map((outcome, idx) => (
                   <li key={idx} className="flex items-center gap-1.5">
                     <span className="w-1 h-1 bg-accent rounded-full"></span>

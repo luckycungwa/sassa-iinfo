@@ -14,6 +14,15 @@
     "keywords": ["SASSA declined", "SASSA grant declined", "SASSA declined meaning", "SRD declined", "why is my SASSA declined", "SASSA declined appeal"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Declined — Your Guide to Appealing",
+      "description": "Your SASSA grant has been declined — you have the right to appeal. Discover the most common reasons for declines, your 90-day appeal window, and a step-by-step guide to filing a successful appeal with the Independent Tribunal.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Appeal a Decline", "href": "/appeals/how-to-appeal" },
+      "secondaryCta": { "text": "Check Your Status", "href": "/status/declined" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Declined — What It Means for Your SASSA Grant" },
     { "id": "intro", "type": "paragraph", "text": "Seeing 'Declined' on your SASSA status check can be frustrating, but it is not the end of the road. A declined status means SASSA's automated systems determined that you do not meet the eligibility criteria for the month being evaluated. Every month is assessed separately, and you have the legal right to appeal each declined month." },
     { "id": "who", "type": "paragraph", "text": "This status affects applicants whose SASSA grant applications did not meet the approval criteria after review." },

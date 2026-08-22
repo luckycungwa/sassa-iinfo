@@ -4,34 +4,96 @@
   "classification": "eligibility-guide",
   "title": "Can Students Get SASSA Grants?",
   "description": "Find out if tertiary or secondary school students are eligible for SASSA social grants. Rules for NSFAS recipients, TVET college students, and part-time learners.",
-  "lastUpdated": "2026-07-01",
-  "version": "1.0.0",
+  "lastUpdated": "2026-07-29",
+  "version": "2.0.0",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
     "metaTitle": "Can Students Get SASSA Grants? Student Eligibility Guide",
-    "metaDescription": "Complete guide to SASSA grant eligibility for students. Learn if tertiary and secondary students qualify, how NSFAS affects eligibility, and what to do after your studies end.",
-    "keywords": ["SASSA for students", "student SASSA grant", "SASSA NSFAS rules", "SASSA tertiary student", "SASSA TVET college"]
+    "metaDescription": "Complete guide to SASSA grant eligibility for students. Learn if tertiary and secondary students qualify, how NSFAS affects eligibility, what to do if you are declined for being a student, and how to apply after your studies end.",
+    "keywords": ["SASSA for students", "student SASSA grant", "SASSA NSFAS rules", "SASSA tertiary student", "SASSA TVET college", "can students get SRD"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Can Students Get SASSA Grants?",
+      "description": "Students in South Africa may qualify for SASSA grants under certain conditions. Learn how NSFAS funding affects eligibility, what grants are available to students, and how to apply if you're not receiving other state funding.",
+      "readingTime": "8 min read",
+      "lastUpdated": "July 2026",
+      "cta": { "label": "NSFAS-Funded? Learn More", "href": "/eligibility/i-receive-nsfas" },
+      "secondaryCta": { "label": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Can Students Get SASSA Grants?" },
-    { "id": "intro", "type": "paragraph", "text": "Students in South Africa often struggle with living costs. However, social grant eligibility for students depends strictly on whether you receive other state funding." },
-    { "id": "why", "type": "paragraph", "text": "The social grant system aims to support vulnerable individuals. While students receiving NSFAS are excluded because their living costs are already covered, students without other funding may qualify for temporary assistance." },
-    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
-    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be enrolled in a school or tertiary institution", "Must not receive NSFAS or other government bursaries", "Must meet the basic age and income requirements"], "restrictions": ["Active NSFAS recipients are completely excluded from receiving the SRD R370 grant"], "recommendedGrants": [{ "name": "Social Relief of Distress (SRD R370)", "slug": "srd-r370-grant", "amount": "R370 / month" }, { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R530 / month" }] },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Get proof of non-funding", "description": "Ensure you have a letter or document proving you do not receive NSFAS funding." },
-      { "title": "Apply for your grant", "description": "Apply online or at a SASSA branch with your academic proof and ID." }
+    { "id": "intro", "type": "paragraph", "text": "Students in South Africa often struggle with living costs. However, social grant eligibility for students depends strictly on whether you receive other state funding. The short answer: if you do not receive NSFAS or any other government bursary, you may qualify for certain SASSA grants." },
+    { "id": "why", "type": "paragraph", "text": "The social grant system aims to support vulnerable individuals. While students receiving NSFAS are excluded because their living costs are already covered, students without other funding may qualify for temporary assistance. The key distinction is between NSFAS-funded students (excluded) and students who are self-funded or relying on family support (may qualify)." },
+    { "id": "scenario-h", "type": "heading", "level": 3, "text": "Real-Life Scenario" },
+    { "id": "scenario", "type": "paragraph", "text": "Lindiwe is a 22-year-old final-year student at the University of the Witwatersrand. She does not receive NSFAS because her family's income was just above the threshold. She works part-time as a tutor earning R500 per month. Lindiwe qualifies for the SRD R370 grant because she has no NSFAS funding and her monthly income is below R624. After graduating, she will need to continue checking her eligibility monthly. This guide explains what students like Lindiwe need to know." },
+    { "id": "grants-h", "type": "heading", "level": 3, "text": "Which Grants Students Can Apply For" },
+    { "id": "grants-table", "type": "table", "headers": ["Grant Type", "Student Eligible?", "NSFAS Impact", "Notes"], "rows": [
+      ["SRD R370", "Yes (if no NSFAS)", "NSFAS recipients excluded", "Must have income below R624/month."],
+      ["Child Support Grant", "Yes (if caregiver)", "Not affected", "For students who are also primary caregivers of children under 18."],
+      ["Older Person Grant", "N/A", "N/A", "Only for those aged 60+."],
+      ["Disability Grant", "Yes", "NSFAS does not affect it", "If you have a disability preventing work."]
     ] },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": [
+      "Must be enrolled in a school or tertiary institution",
+      "Must not receive NSFAS or other government bursaries",
+      "Must meet the basic age and income requirements",
+      "Monthly income (from any source) must be below R624 for SRD",
+      "Must be a South African citizen or permanent resident"
+    ], "restrictions": [
+      "Active NSFAS recipients are completely excluded from receiving the SRD R370 grant",
+      "If you receive NSFAS for the academic year, you are excluded for the full year including vacation months",
+      "Even if your NSFAS allowance is delayed, you are still considered NSFAS-funded for the year"
+    ], "recommendedGrants": [
+      { "name": "Social Relief of Distress (SRD R370)", "slug": "srd-r370-grant", "amount": "R370 / month" },
+      { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R580 / month per child" }
+    ] },
+    { "id": "docs-h", "type": "heading", "level": 3, "text": "Required Documents" },
+    { "id": "docs", "type": "document-checklist", "documents": [
+      { "label": "Valid South African ID", "required": true },
+      { "label": "Proof of enrollment or acceptance letter from your institution", "required": false },
+      { "label": "Letter confirming you do NOT receive NSFAS funding (if applicable)", "required": false },
+      { "label": "Last 3 months bank statements showing income", "required": false }
+    ] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Process" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Confirm your NSFAS status", "description": "Check your NSFAS status on the myNSFAS portal. If you are funded, you cannot proceed with SASSA until your funding ends." },
+      { "title": "Get proof of non-funding", "description": "If you do not receive NSFAS, request a letter or print your myNSFAS dashboard showing no active bursary." },
+      { "title": "Apply for the SRD R370", "description": "Go to srd.sassa.gov.za and complete the online application with your ID and bank details." },
+      { "title": "Check your status monthly", "description": "Your eligibility is evaluated each month. Even if your NSFAS status does not change, ensure no deposits exceed R624." }
+    ] },
+    { "id": "callout", "type": "callout", "intent": "warning", "title": "Important for TVET and University Students", "text": "If you receive any NSFAS allowance (transport, accommodation, or living), you are excluded from SRD R370 for the entire academic year. This includes vacation months. You can reapply only after your NSFAS funding has been formally cancelled or completed." },
+    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
+    { "id": "mistakes", "type": "list", "ordered": false, "items": [
+      "Applying for SASSA while actively receiving NSFAS — your application will be declined and may trigger a fraud flag",
+      "Assuming vacation months count as 'not funded' — if you are registered for the year, you are excluded year-round",
+      "Not getting a NSFAS cancellation letter after studies — SASSA's database may still show you as NSFAS-funded",
+      "Applying for both NSFAS and SRD R370 simultaneously — you cannot receive both"
+    ] },
+    { "id": "decline-h", "type": "heading", "level": 3, "text": "What to Do If Declined for Being a Student" },
+    { "id": "decline", "type": "paragraph", "text": "If SASSA declines you claiming you are 'NSFAS Funded' but you are not receiving any funding, you need to get a NSFAS cancellation or completion letter. Visit the myNSFAS portal to request this letter. Then file an appeal on the ITSAA appeal portal with the letter attached. Visit our appeal after NSFAS guide for detailed instructions." },
     { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Can I get a grant if I am studying at a TVET college?", "answer": "Yes, provided you do NOT receive any NSFAS allowance, transport bursary, or accommodation funding." },
-      { "question": "I finished my studies but SASSA says I am still NSFAS funded. What do I do?", "answer": "Upload your graduation certificate or academic transcript along with a NSFAS completion letter to trigger the database update." }
+      { "question": "Can I get a grant if I am studying at a TVET college?", "answer": "Yes, provided you do NOT receive any NSFAS allowance, transport bursary, or accommodation funding. Self-funded TVET students may qualify for SRD R370." },
+      { "question": "I finished my studies but SASSA says I am still NSFAS funded. What do I do?", "answer": "This is a common database error. Upload your graduation certificate or academic transcript along with a NSFAS completion letter to trigger the database update. Then appeal the decline." },
+      { "question": "Can I get a SASSA grant during my NSFAS-funded vacation?", "answer": "No. If you are registered as an active NSFAS student, you are excluded from SASSA grants for the full academic year, including vacation months." },
+      { "question": "Can high school students get the SRD R370 grant?", "answer": "Yes, if you are 18 or older and enrolled in secondary school without NSFAS funding. You must meet all other SRD eligibility criteria." },
+      { "question": "Does a student loan from a bank affect my SASSA eligibility?", "answer": "No. Only government funding (NSFAS) and other state bursaries affect your eligibility. Private student loans are treated as any other deposit." },
+      { "question": "Can I get backpay if I applied while NSFAS-funded but my funding ended mid-year?", "answer": "Yes. Once your NSFAS cancellation is processed, you can apply from the month after your funding ended. Backpay applies from your SASSA application date, not the NSFAS end date." }
+    ] },
+    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
+    { "id": "related", "type": "link-grid", "links": [
+      { "title": "SASSA for NSFAS-Funded Students", "href": "/eligibility/i-receive-nsfas", "description": "Full guide for NSFAS recipients" },
+      { "title": "Appeal After NSFAS Decline", "href": "/appeals/appeal-after-nsfas", "description": "How to appeal a NSFAS-related decline" },
+      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full details on the R370 grant" },
+      { "title": "SASSA for Unemployed", "href": "/eligibility/i-am-unemployed", "description": "Options after graduation" }
     ] }
   ],
   "relatedPages": [
     { "title": "SASSA for NSFAS-Funded Students", "slug": "/eligibility/i-receive-nsfas" },
     { "title": "Appeal After NSFAS Decline", "slug": "/appeals/appeal-after-nsfas" },
-    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" }
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
+    { "title": "SASSA for Unemployed", "slug": "/eligibility/i-am-unemployed" }
   ]
 }

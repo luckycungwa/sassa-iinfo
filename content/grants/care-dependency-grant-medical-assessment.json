@@ -1,0 +1,215 @@
+{
+  "id": "grant-care-dependency-medical-assessment",
+  "slug": "/grants/care-dependency-grant/medical-assessment",
+  "classification": "grant-detail",
+  "title": "Care Dependency Grant — Medical Assessment Guide for Parents",
+  "description": "Complete guide to the SASSA Care Dependency Grant medical assessment: what the doctor checks, how to prepare a daily care log, age-specific considerations, and what documents to bring.",
+  "lastUpdated": "2026-07-26",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Medical Assessment Guide — Care Dependency Grant SASSA",
+    "metaDescription": "Complete guide to the SASSA Care Dependency Grant medical assessment for parents. What the doctor checks, how to prepare a care log, age-specific tips, and documents to bring.",
+    "keywords": ["care dependency grant medical assessment", "SASSA medical assessment child", "care dependency grant doctor report", "SASSA care log", "disability assessment child South Africa"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Care Dependency Grant Medical Assessment" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Care Dependency Grant — Medical Assessment Guide for Parents",
+      "description": "Complete guide to the SASSA Care Dependency Grant medical assessment: what the doctor checks, how to prepare a daily care log, age-specific considerations, and what documents to bring for your child.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-07-26",
+      "cta": { "label": "Download Care Log Template", "href": "/resources/care-log-template" },
+      "secondaryCta": { "label": "Back to Main Guide", "href": "/grants/care-dependency-grant" }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R2,400 per month",
+      "frequency": "Monthly (paid to the caregiver of the child)",
+      "targetGroup": "Primary caregivers of children with severe disabilities who require 24-hour full-time care at home."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The medical assessment is the most important step in your Care Dependency Grant application. Everything hinges on it — the SASSA-appointed doctor's report is what determines whether your child qualifies for the R2,400 monthly grant. But here is the thing most parents do not realise: the doctor has very limited time with your child, often just 15 to 20 minutes. In that short window, they need to understand the full scope of your child's disability and daily care needs. This guide walks you through exactly what to expect, how to prepare, and what you can do to give your application the best chance of success."
+    },
+    {
+      "id": "referral-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "From Referral to Appointment: What to Expect"
+    },
+    {
+      "id": "referral-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Get the referral form from SASSA", "description": "When you submit your initial application at the SASSA office, the officer will give you a medical assessment form (the SASSA medical report form) to take to an approved doctor. Keep this form safe — without it, you cannot proceed." },
+        { "title": "Find a SASSA-commissioned medical officer", "description": "SASSA will give you a list of approved doctors or tell you which public hospital to visit. You cannot use your family doctor — the assessment must be done by a SASSA-appointed medical officer. In some areas, you may need to wait for an appointment date to be scheduled." },
+        { "title": "Prepare your documentation pack", "description": "This is where most parents fall short. Gather every piece of evidence that shows your child's condition and care needs: medical records, hospital discharge summaries, therapy reports, school reports, and — most importantly — your daily care log. Start the care log at least two weeks before the appointment." },
+        { "title": "Attend the assessment with your child", "description": "Bring your child and all your prepared documents to the appointment. The doctor will examine your child, review the medical reports, ask you questions about daily care, and assess the severity of the disability. Be honest and thorough in your answers." },
+        { "title": "Doctor submits the report to SASSA", "description": "After the assessment, the doctor completes the SASSA medical report form and submits it directly to SASSA. You do not take the report back yourself. The report must explicitly state that the child requires 24-hour full-time care at home." }
+      ]
+    },
+    {
+      "id": "doctor-checks-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "What the SASSA Doctor Will Check"
+    },
+    {
+      "id": "doctor-checks-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Severity of the disability: The doctor assesses whether the condition is severe enough to permanently or long-term limit the child's ability to function independently. A diagnosis alone is not enough — the severity must be clearly documented and observable.",
+        "Need for 24-hour full-time care: This is the single most important factor. The doctor evaluates whether your child requires constant supervision and assistance throughout the day and night. Can the child be left alone safely for even a few minutes? If the answer is no, that is what the doctor needs to confirm.",
+        "Mobility and physical functioning: Can the child walk, crawl, or move independently? Does the child need a wheelchair, walker, or other assistive device? Is the child bedridden or confined to a limited space? The doctor will observe and test basic motor functions.",
+        "Feeding and nutrition: Does the child need help with eating? Is there a risk of choking? Does the child use a feeding tube? The doctor will ask about mealtime routines, dietary restrictions, and how much assistance is needed.",
+        "Toileting and personal hygiene: Can the child use the toilet independently? Does the child wear nappies or need catheter care? How much help is needed with bathing, brushing teeth, and dressing? These daily care tasks are central to the 24-hour care requirement.",
+        "Communication and behaviour: Can the child express basic needs — hunger, pain, fear, discomfort? Is the child nonverbal? Does the child display aggressive or self-harming behaviour? The doctor needs to understand how your child communicates and whether they can alert someone when something is wrong.",
+        "Medical complexity and safety awareness: Does the child have seizures, require daily medication, or need specialised medical equipment? Does the child understand danger — for example, wandering into the road or touching hot surfaces? The doctor assesses the level of supervision required to keep the child safe."
+      ]
+    },
+    {
+      "id": "care-log-callout",
+      "type": "callout",
+      "intent": "tip",
+      "title": "How to Prepare a Daily Care Log — The One Thing Most Parents Miss",
+      "text": "A daily care log is the strongest piece of evidence you can bring to the medical assessment. It turns abstract descriptions into hard proof. Start at least 14 days before the appointment and record every care task in real time. Use a simple table with columns for time, activity, duration, and assistance level. Here is a sample from a typical day: 07:00 — Wake up, nappy change, morning medication (15 min, full assistance). 07:30 — Breakfast preparation and feeding (30 min, risk of choking, full assistance). 09:00 — Bathing and dressing (25 min, child resists, full physical assistance). 10:00 — Physiotherapy exercises at home (20 min, needs prompting and physical support). 12:00 — Lunch, same as breakfast routine (30 min). 14:00 — School-type activities at home (45 min, needs one-on-one supervision). 17:00 — Bathing and evening care (25 min). 18:00 — Dinner and medication (30 min). 20:00 — Bedtime routine, night-time medication (20 min). 23:00 — Night check, repositioning (10 min). 02:00 — Night feed and nappy change (20 min). The overnight entries are especially important — they prove care is truly 24 hours."
+    },
+    {
+      "id": "age-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Age-Specific Considerations for the Medical Assessment"
+    },
+    {
+      "id": "age-table",
+      "type": "table",
+      "caption": "How the assessment approach changes as your child grows",
+      "headers": ["Age Range", "Assessment Focus", "What the Doctor Looks For"],
+      "rows": [
+        ["1 to 3 years", "Developmental milestones and early intervention", "The doctor compares your child against standard developmental milestones for this age: sitting, crawling, walking, speaking, and social interaction. They look for significant delays in multiple areas and whether the child needs full assistance with basic tasks like feeding and mobility. At this age, the doctor also checks whether the condition is likely to improve or is permanent."],
+        ["4 to 12 years", "School functioning and social participation", "The focus shifts to how the child functions outside the home. The doctor will want to see school reports, therapy progress notes, and any assessments from teachers or therapists. Key questions: Can the child participate in a regular classroom? Do they need a special school? Can they interact with other children? Can they be left alone at school or during play? The doctor also looks at independence in self-care tasks — dressing, toileting, eating — compared to peers of the same age."],
+        ["13 to 17 years", "Transition to adulthood and independence", "The doctor evaluates whether the care needs have changed as the child has grown older. A child who needed full care at age 5 may have developed some independence by age 14 — or the gap between the child and their peers may have widened. The doctor also considers puberty-related care needs, emotional and behavioural challenges, and whether the child can be left unsupervised. Crucially, for older teenagers, the doctor assesses whether the disability will persist into adulthood, since the Care Dependency Grant stops at 18 and the child will need to transition to the Disability Grant."]
+      ]
+    },
+    {
+      "id": "conditions-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Conditions That Commonly Qualify"
+    },
+    {
+      "id": "conditions-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cerebral palsy (moderate to severe forms) — especially when mobility, feeding, and communication are significantly affected and the child requires full-time physical assistance and supervision.",
+        "Severe autism spectrum disorder — particularly when the child is nonverbal, displays self-harming or aggressive behaviour, has no danger awareness, and cannot be left unsupervised for any period.",
+        "Down syndrome with significant intellectual disability — when the child has substantial delays in multiple areas and requires full assistance with daily activities beyond what is typical for their age.",
+        "Profound intellectual disability — where the child has minimal to no functional communication, requires full assistance with all activities of daily living, and needs constant supervision.",
+        "Severe epilepsy (multiple daily seizures) — when seizures are frequent, uncontrolled by medication, and pose a constant risk of injury or aspiration, requiring someone trained to respond at all times.",
+        "Muscular dystrophy (advanced stages) — when the child has lost mobility, requires a wheelchair, needs full assistance with transfers and positioning, and may need respiratory support or suctioning.",
+        "Rett syndrome and other genetic disorders — conditions that cause progressive loss of function, severe developmental delays, and complex medical needs requiring round-the-clock care.",
+        "Acquired brain injury or severe hydrocephalus — where the child has significant physical and cognitive impairments resulting from injury, infection, or a neurological condition, requiring full-time care and supervision."
+      ]
+    },
+    {
+      "id": "doctor-report-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "What the Doctor's Report Must State Explicitly"
+    },
+    {
+      "id": "doctor-report-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The exact medical diagnosis and the nature of the disability — this must be clearly documented, including any test results, scans, or specialist reports that support the diagnosis.",
+        "That the child requires 24-hour full-time care at home — these exact words matter. The report must state unequivocally that the child cannot be left alone safely at any time and needs constant supervision or assistance.",
+        "A detailed description of the specific care needs — what assistance is required for feeding, mobility, toileting, bathing, dressing, communication, and medication. General statements are not enough; the doctor needs to be specific about the level of help required.",
+        "The expected duration of the condition — whether the disability is permanent, long-term (more than 12 months), or likely to improve. For the Care Dependency Grant, the condition should be chronic and unlikely to resolve within a short period.",
+        "Why the child cannot attend a regular school or participate in normal activities — if applicable, the report should explain the limitations in the child's ability to function in a typical educational or social setting.",
+        "Whether the child needs assistive devices or specialised medical equipment — wheelchairs, feeding tubes, oxygen concentrators, communication devices, or any other equipment that the child relies on for daily functioning."
+      ]
+    },
+    {
+      "id": "documents-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "What to Bring to the Medical Assessment Appointment"
+    },
+    {
+      "id": "documents-checklist",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "The SASSA medical assessment referral form (from the SASSA office)", "required": true, "notes": "Without this form, the doctor cannot complete the assessment. Make sure you have it before the appointment." },
+        { "label": "Your child's complete medical records and hospital discharge summaries", "required": true, "notes": "Bring everything — clinic cards, hospital admission summaries, specialist reports, and any diagnostic test results (blood tests, X-rays, MRI or CT scans, genetic tests)." },
+        { "label": "Your daily care log (at least 14 days)", "required": false, "notes": "This is your most powerful evidence. A handwritten or printed log showing every care task, time, and duration. If you have not started one, start today — even a few days of records are better than nothing." },
+        { "label": "School reports and teacher assessments", "required": false, "notes": "If your child attends any form of schooling — mainstream, special needs, or early intervention — bring reports that describe their functioning, behaviour, and level of independence in the classroom." },
+        { "label": "Therapy reports (occupational, speech, physiotherapy)", "required": false, "notes": "Reports from therapists who work with your child are extremely valuable. They provide an independent professional opinion that supports your case. Ask your therapist for a brief report summarising your child's needs and progress." },
+        { "label": "Your child's birth certificate or ID", "required": true, "notes": "The doctor needs to verify the child's identity and age against the referral form." },
+        { "label": "Your own ID document", "required": true, "notes": "As the caregiver, you need to identify yourself at the appointment." },
+        { "label": "Any assistive devices or equipment your child uses", "required": false, "notes": "Bring the wheelchair, walking frame, communication board, feeding tube supplies, or any other device your child relies on. The doctor needs to see these to understand the level of care required." }
+      ]
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How long does the medical assessment take?",
+          "answer": "The actual consultation with the SASSA doctor usually takes between 15 and 30 minutes. That is not a lot of time for the doctor to assess your child's condition and care needs. This is exactly why preparation is so important — your daily care log and supporting documents help the doctor see the full picture in a short appointment. Plan to be at the facility for 1 to 2 hours total, including waiting time."
+        },
+        {
+          "question": "Can both parents attend the assessment?",
+          "answer": "Yes, both parents or any other primary caregiver can attend. In fact, it is a good idea to bring another adult who shares the caregiving duties. They can provide additional information about the child's needs and help demonstrate the level of care required. If you are the sole caregiver, consider asking a social worker or therapist who knows your child to attend as well."
+        },
+        {
+          "question": "What if my child is nonverbal or has difficulty communicating?",
+          "answer": "This is very common in Care Dependency Grant assessments, and the doctors are experienced with it. You will need to speak on behalf of your child — describe how you know when your child is hungry, in pain, scared, or uncomfortable. Point to specific cues: sounds, facial expressions, body movements, or changes in breathing. Bring videos on your phone if you can — a 30-second clip of your child having a seizure, refusing food, or becoming distressed can be more powerful than a written description."
+        },
+        {
+          "question": "What if we disagree with the doctor's assessment or the grant is declined?",
+          "answer": "You have 90 days from receiving the rejection letter to appeal. Do not give up — many grants are initially declined because the doctor's report was too vague or did not use the exact language SASSA needs (e.g., \"requires 24-hour full-time care\"). For your appeal, submit a detailed daily care log, updated medical reports from your child's specialists, and a written statement explaining why you believe the decision was wrong. You can get help from a social worker or at your nearest SASSA office."
+        },
+        {
+          "question": "Can we get a second medical opinion?",
+          "answer": "SASSA does not have a formal second-opinion process, but you can and should request a reassessment if you believe the first doctor did not properly evaluate your child. Write to the SASSA office explaining your concerns and request a new assessment with a different medical officer. Alternatively, you can submit additional medical evidence from your child's own specialists (paediatrician, neurologist, or therapist) with a formal appeal. A strong letter from a specialist who has treated your child for years can carry significant weight."
+        },
+        {
+          "question": "My child was diagnosed privately. Do I still need the SASSA medical assessment?",
+          "answer": "Yes. Even if your child has been diagnosed by a paediatrician, neurologist, or other specialist, you must still attend the SASSA medical assessment. The SASSA doctor is not there to confirm the diagnosis — they are there to assess whether the disability is severe enough to require 24-hour full-time care. That said, bring all your private specialist reports to the assessment. The more professional documentation you have, the easier it is for the SASSA doctor to make an informed decision."
+        },
+        {
+          "question": "What happens at the assessment if my child is having a bad day?",
+          "answer": "This actually works in your favour. If your child is distressed, uncooperative, having seizures, or showing difficult behaviour during the assessment, it gives the doctor a real-time demonstration of the care challenges you face daily. Do not apologise or try to calm your child down excessively — let the doctor see what a typical difficult moment looks like. A child who is calm and well-behaved during a 15-minute appointment may accidentally give the impression that their care needs are less severe than they really are."
+        }
+      ]
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "90-Day Appeal Window — and How to Win an Appeal",
+      "text": "If your grant is declined because of the medical assessment, you have 90 days to appeal. Most successful appeals come from parents who submitted a detailed daily care log and supporting letters from therapists or specialists. Remember: SASSA is looking for proof that your child cannot be left alone safely at any time. If the first doctor did not see that, give the appeal panel the evidence they need."
+    }
+  ],
+  "relatedPages": [
+    { "title": "Care Dependency Grant — Complete Guide", "slug": "/grants/care-dependency-grant" },
+    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
+    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" }
+  ]
+}

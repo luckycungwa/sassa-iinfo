@@ -14,6 +14,15 @@
     "keywords": ["SRD monthly review", "SRD review process", "SASSA SRD monthly check", "SRD eligibility reassessment", "why is my SRD reviewed every month"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SRD R370 Monthly Review — How Your Eligibility Is Checked Every Month",
+      "description": "The SRD R370 grant is re-evaluated every single month — approval this month does not guarantee payment next month. Understand how SASSA's automated review works, what databases it checks against, and what triggers a decline so you can maintain your grant month after month.",
+      "readingTime": "10 min read",
+      "lastUpdated": "July 2026",
+      "cta": { "text": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check" },
+      "secondaryCta": { "text": "Appeal a Decline", "href": "/status/declined" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SRD R370 Monthly Review — How It Works" },
     { "id": "intro", "type": "paragraph", "text": "Unlike other SASSA grants that remain approved for extended periods, the SRD R370 grant is evaluated EVERY month. This means your eligibility is reassessed from scratch each month. Understanding how this monthly review works is the key to maintaining your grant and avoiding unexpected declines." },
     { "id": "callout-important", "type": "callout", "intent": "warning", "title": "Your Status Can Change Monthly", "text": "Being approved this month does NOT guarantee approval next month. Every month is a fresh assessment. Your status can change based on bank activity, database updates, or changes in your personal circumstances." },

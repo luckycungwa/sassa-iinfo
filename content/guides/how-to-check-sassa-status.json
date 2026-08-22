@@ -14,6 +14,15 @@
     "keywords": ["check SASSA status", "SASSA status check", "SASSA WhatsApp line", "SASSA USSD code", "SASSA application status"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "How to Check Your SASSA Grant Status",
+      "description": "There are multiple ways to check your SASSA grant status — online via the SRD portal, through the WhatsApp line, by USSD code, or in person at a SASSA office. Find the method that works best for you.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "label": "Register on SRD Portal", "href": "/banking/how-to-register-for-srd-portal" },
+      "secondaryCta": { "label": "How to Apply for a Grant", "href": "/guides/how-to-apply-sassa-grant" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Check Your SASSA Grant Status" },
     { "id": "intro", "type": "paragraph", "text": "You can check your SASSA grant application or payment status using any of these methods." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA grant applicants and beneficiaries who want to check their application or payment status using online, WhatsApp, USSD, or in-person methods." },

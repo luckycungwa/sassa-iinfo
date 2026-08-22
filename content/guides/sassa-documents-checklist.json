@@ -14,6 +14,15 @@
     "keywords": ["SASSA documents needed", "SASSA application checklist", "SASSA required documents", "SASSA ID requirements", "SASSA bank statements"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Required Documents Checklist",
+      "description": "Having the right documents ready speeds up your SASSA grant application. Use our complete checklist to make sure you have everything you need — from your ID to bank statements and medical reports.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "label": "Start Your Application", "href": "/guides/how-to-apply-sassa-grant" },
+      "secondaryCta": { "label": "Understanding the Means Test", "href": "/guides/understanding-means-test" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Required Documents Checklist" },
     { "id": "intro", "type": "paragraph", "text": "Having the correct documents ready before you apply for a SASSA grant will save you time and prevent delays. Below is the complete checklist of documents you may need." },
     { "id": "who", "type": "paragraph", "text": "This guide is for anyone preparing to apply for a SASSA grant who wants to make sure they have all the required documents ready before visiting a SASSA office." },

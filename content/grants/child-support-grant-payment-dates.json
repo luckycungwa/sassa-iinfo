@@ -1,0 +1,146 @@
+{
+  "id": "grant-child-support-payment-dates",
+  "slug": "/grants/child-support-grant/payment-dates",
+  "classification": "grant-detail",
+  "title": "Child Support Grant — Payment Dates & Schedule 2026",
+  "description": "SASSA Child Support Grant payment dates for July–December 2026. See when R580 is paid, how bank vs cash send affects timing, and what to do if a payment is late.",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "readingTime": "4 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "CSG Payment Dates 2026 — Child Support Grant Schedule",
+    "metaDescription": "SASSA Child Support Grant payment dates for July-December 2026. See when R580 is paid, how bank vs cash send affects timing, and what to do if a payment is late.",
+    "keywords": ["CSG payment dates", "child support grant payment schedule", "SASSA payment dates 2026", "CSG R580 payment", "child grant when is it paid"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Child Support Grant Payment Dates" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Child Support Grant — Payment Dates & Schedule 2026",
+      "description": "Everything you need to know about when SASSA pays the Child Support Grant, how payment method affects timing, and what to do when money does not arrive on time.",
+      "readingTime": "4 min read",
+      "lastUpdated": "2026-07-27"
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R580 per month per child",
+      "frequency": "Monthly (Top-Up for orphans: R830 per month)",
+      "targetGroup": "Primary caregivers of children under 18 who qualify for the Child Support Grant."
+    },
+    {
+      "id": "how-cycle-works-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "How the CSG Payment Cycle Works"
+    },
+    {
+      "id": "cycle-explanation",
+      "type": "paragraph",
+      "text": "SASSA pays the Child Support Grant every month, usually during the first week. The exact date depends on your grant type — SASSA staggers payments so that not every grant is paid on the same day. CSG payments typically start on the first working day of the month and continue over the next few days. If the first of the month falls on a weekend or public holiday, payments shift to the next working day."
+    },
+    {
+      "id": "payment-dates-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Payment Dates for the Rest of 2026"
+    },
+    {
+      "id": "payment-dates-2026-table",
+      "type": "table",
+      "headers": ["Month", "Payment Date", "Day of Week"],
+      "rows": [
+        ["July 2026", "1 July 2026", "Wednesday"],
+        ["August 2026", "3 August 2026", "Monday"],
+        ["September 2026", "1 September 2026", "Tuesday"],
+        ["October 2026", "1 October 2026", "Thursday"],
+        ["November 2026", "2 November 2026", "Monday"],
+        ["December 2026", "1 December 2026", "Tuesday"]
+      ],
+      "caption": "SASSA Child Support Grant payment dates for the remainder of 2026"
+    },
+    {
+      "id": "public-holiday-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Dates may shift on public holidays",
+      "text": "If the scheduled date falls on a public holiday, SASSA moves the payment to the nearest working day. This table already accounts for that. Bookmark this page or check the SASSA social media channels for any last-minute changes."
+    },
+    {
+      "id": "payment-method-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "How Payment Method Affects Timing"
+    },
+    {
+      "id": "payment-method-timing-table",
+      "type": "table",
+      "headers": ["Payment Method", "When Money Is Available", "Notes"],
+      "rows": [
+        ["Bank transfer (EFT)", "Same day by midday", "Funds usually reflect immediately in most bank accounts. Check your banking app or ATM balance."],
+        ["Cash Send (Pick n Pay / Boxer)", "Next working day", "You will receive an SMS with a reference number. Take your ID and the SMS to the till. Do not lose the SMS."],
+        ["SASSA Gold Card (ATM)", "Same day from 06:00", "Avoid peak hours early in the month — ATMs run out of cash and queues get long."],
+        ["Retail paypoint", "Payment date + 1–2 days", "Paypoints are busiest during the first week. If you can, collect later in the month to skip the rush."]
+      ],
+      "caption": "How your choice of payment method affects when you receive your CSG money"
+    },
+    {
+      "id": "missing-payment-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "What to Do If Your Payment Does Not Arrive"
+    },
+    {
+      "id": "missing-payment-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Payment not arrived? Try these steps first",
+      "text": "Before heading to a SASSA office, check your bank app or SMS inbox. Payments sometimes land later in the day. If it is still missing after 24 hours, call SASSA on 0800 60 10 11 or visit your nearest office with your ID and payment reference number. Do not pay anyone to help you chase a missing payment — SASSA's services are free."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What date each month is the Child Support Grant paid?",
+          "answer": "CSG is paid during the first few working days of each month, usually starting on the 1st or 2nd. SASSA publishes a schedule per grant type at the start of each year. Check the table above for the exact remaining dates for 2026."
+        },
+        {
+          "question": "Can I get backpay if my payment was late or missed?",
+          "answer": "If SASSA missed a payment due to an administrative error, they will catch it up in the next cycle. If you received a payment date and the money simply did not reflect, contact SASSA and they will investigate. Keep your payment reference number safe."
+        },
+        {
+          "question": "What should I do if I miss my payment date entirely?",
+          "answer": "Your money does not disappear. If you miss your date, the payment stays available. Go to your nearest SASSA office or retail paypoint with your ID and ask them to release it. If you use bank transfer, the money will usually still arrive within a day or two."
+        },
+        {
+          "question": "Does the CSG get paid on public holidays?",
+          "answer": "No. If the scheduled payment date falls on a public holiday, SASSA moves it to the nearest working day before or after the holiday. The table above already accounts for this."
+        },
+        {
+          "question": "Can someone else collect my payment for me?",
+          "answer": "Yes, but they need a signed letter from you and a copy of your ID. Some paypoints also require the collector to bring their own ID. If you plan to send someone regularly, ask your SASSA office to register them as an authorised collector."
+        }
+      ]
+    },
+    {
+      "id": "back-to-guide",
+      "type": "paragraph",
+      "text": "For the full guide on eligibility, required documents, and how to apply, visit the main <a href=\"/grants/child-support-grant\">Child Support Grant guide</a>."
+    }
+  ],
+  "relatedPages": [
+    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
+    { "title": "Grant Library", "slug": "/grants" },
+    { "title": "Foster Care Grant", "slug": "/grants/foster-care-grant" }
+  ]
+}

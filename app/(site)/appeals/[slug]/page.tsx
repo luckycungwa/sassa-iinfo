@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
+import { canonicalUrl } from "@/lib/canonical";
 import { appeals } from "../../../../lib/data/appeals";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
-import { breadcrumbSchema } from "../../../../lib/json-ld";
+import { faqSchema, breadcrumbSchema } from "../../../../lib/json-ld";
+import type { FAQBlock } from "../../../../lib/schema/contentSchema";
 
 export function generateStaticParams() {
   const allPages = loadAllContent();
@@ -22,12 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/appeals/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription };
+    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/appeals/${slug}`) } };
   }
 
   const appeal = appeals.find((a) => a.slug === slug);
   if (!appeal) return {};
-  return { title: `${appeal.title} | SASSA Appeals Guide`, description: appeal.shortDescription };
+  return { title: `${appeal.title} | SASSA Appeals Guide`, description: appeal.shortDescription, alternates: { canonical: canonicalUrl(`/appeals/${slug}`) } };
 }
 
 export default async function AppealDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -35,14 +37,16 @@ export default async function AppealDetailPage({ params }: { params: Promise<{ s
 
   const content = getPageBySlug(`/appeals/${slug}`);
   if (content) {
+    const faqBlock = content.contentBlocks.find((b): b is FAQBlock => b.type === "faq");
     return (
       <>
+        {faqBlock && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(faqBlock.faqs)) }} />}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
           { name: "Home", url: "/" },
           { name: "Appeals Centre", url: "/appeals" },
           { name: content.title, url: content.slug },
         ])) }} />
-        <ContentBlockRenderer blocks={content.contentBlocks} />
+        <ContentBlockRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
   }
@@ -50,14 +54,17 @@ export default async function AppealDetailPage({ params }: { params: Promise<{ s
   const appeal = appeals.find((a) => a.slug === slug);
   if (!appeal) notFound();
 
+  const faqJsonLd = faqSchema(appeal.faqs);
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
         { name: "Home", url: "/" },
         { name: "Appeals Centre", url: "/appeals" },
         { name: appeal.title, url: `/appeals/${appeal.slug}` },
       ])) }} />
-      <div className="space-y-6 max-w-3xl">
+      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{appeal.title}</h1>
           <p className="text-sm text-muted mt-1">{appeal.shortDescription}</p>

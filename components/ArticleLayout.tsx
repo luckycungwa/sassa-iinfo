@@ -18,6 +18,7 @@ import {
   Sparkles,
   CalendarDays
 } from "lucide-react";
+import GrantCalculator from "./tools/GrantCalculator";
 
 interface ArticleLayoutProps {
   blocks: ContentBlock[];
@@ -49,9 +50,9 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                   key={block.id}
                   id={block.id}
                   style={fontStyle}
-                  className="text-sm font-bold text-slate-800 tracking-tight mt-4 mb-2 flex items-center gap-1.5"
+                  className="text-sm font-bold text-ink tracking-tight mt-4 mb-2 flex items-center gap-1.5"
                 >
-                  <span className="w-1.5 h-3 bg-emerald-800 rounded-xs inline-block"></span>
+                  <span className="w-1.5 h-3 bg-accent-dark rounded-xs inline-block"></span>
                   {block.text}
                 </h3>
               );
@@ -61,7 +62,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                   key={block.id}
                   id={block.id}
                   style={fontStyle}
-                  className="text-xs font-bold text-slate-600 tracking-tight mt-3 mb-1.5 uppercase font-mono"
+                  className="text-xs font-bold text-muted tracking-tight mt-3 mb-1.5 uppercase font-mono"
                 >
                   {block.text}
                 </h4>
@@ -73,7 +74,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                   key={block.id}
                   id={block.id}
                   style={fontStyle}
-                  className="text-base font-black text-slate-900 tracking-tight mt-5 mb-3.5 border-l-2 border-emerald-800 pl-3"
+                  className="text-base font-black text-ink tracking-tight mt-5 mb-3.5 border-l-2 border-accent-dark pl-3"
                 >
                   {block.text}
                 </h2>
@@ -86,7 +87,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
               <p
                 key={block.id}
                 id={block.id}
-                className="text-xs text-slate-600 leading-relaxed font-sans"
+                className="text-sm text-body leading-relaxed font-sans"
               >
                 {block.text}
               </p>
@@ -98,7 +99,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
               <ol
                 key={block.id}
                 id={block.id}
-                className="list-decimal pl-5 space-y-2 text-xs text-slate-600 leading-normal"
+                className="list-decimal pl-5 space-y-2 text-sm text-body leading-relaxed"
               >
                 {block.items.map((item, idx) => (
                   <li key={idx} className="pl-1">
@@ -110,11 +111,11 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
               <ul
                 key={block.id}
                 id={block.id}
-                className="space-y-2 text-xs text-slate-600 leading-normal"
+                className="space-y-2 text-sm text-body leading-relaxed"
               >
                 {block.items.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 bg-emerald-800 rounded-full mt-1.5 flex-shrink-0"></span>
+                    <span className="w-1.5 h-1.5 bg-accent-dark rounded-full mt-1.5 flex-shrink-0"></span>
                     <span>{item}</span>
                   </li>
                 ))}
@@ -127,11 +128,11 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
               <div
                 key={block.id}
                 id={block.id}
-                className="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-none my-4"
+                className="border border-surface-container rounded-xl overflow-hidden bg-surface shadow-none my-4"
               >
                 <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs border-collapse">
-                    <thead className="bg-slate-50 border-b border-slate-200 font-mono text-[11px] text-slate-500">
+                  <table className="w-full text-left text-sm border-collapse">
+                    <thead className="bg-surface-dim border-b border-surface-container font-mono text-xs text-muted">
                       <tr>
                         {block.headers.map((header, idx) => (
                           <th key={idx} className="p-3 font-bold uppercase tracking-wider">
@@ -140,11 +141,11 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                         ))}
                       </tr>
                     </thead>
-                    <tbody className="divide-y divide-slate-100">
+                    <tbody className="divide-y divide-border">
                       {block.rows.map((row, rowIdx) => (
-                        <tr key={rowIdx} className="hover:bg-slate-50/50 transition">
+                        <tr key={rowIdx} className="hover:bg-surface/50 transition">
                           {row.map((cell, cellIdx) => (
-                            <td key={cellIdx} className="p-3 text-slate-700 font-sans font-medium">
+                            <td key={cellIdx} className="p-3 text-ink font-sans font-medium">
                               {cell}
                             </td>
                           ))}
@@ -154,7 +155,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                   </table>
                 </div>
                 {block.caption && (
-                  <div className="bg-slate-50/70 border-t border-slate-100 p-2.5 text-center text-[10px] text-slate-400 font-mono">
+                  <div className="bg-surface border-t border-border p-2.5 text-center text-xs text-muted font-mono">
                     {block.caption}
                   </div>
                 )}
@@ -163,22 +164,22 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
           }
 
           case "callout": {
-            let calloutStyle = "bg-slate-50 border-slate-200 text-slate-900";
+            let calloutStyle = "bg-surface border-surface-container text-ink";
             let Icon = Info;
-            let iconColor = "text-slate-600";
+            let iconColor = "text-muted";
 
             if (block.intent === "warning") {
-              calloutStyle = "bg-amber-50/50 border-amber-200 text-amber-950";
+              calloutStyle = "bg-trading-down/10 border-trading-down/30 text-ink";
               Icon = AlertTriangle;
-              iconColor = "text-amber-800";
+              iconColor = "text-trading-down";
             } else if (block.intent === "success") {
-              calloutStyle = "bg-emerald-50/50 border-emerald-200 text-emerald-950";
+              calloutStyle = "bg-gold/10 border-gold/30 text-ink";
               Icon = CheckCircle2;
-              iconColor = "text-emerald-800";
+              iconColor = "text-gold";
             } else if (block.intent === "danger") {
-              calloutStyle = "bg-red-50/50 border-red-200 text-red-950";
+              calloutStyle = "bg-trading-down/10 border-trading-down/30 text-ink";
               Icon = XOctagon;
-              iconColor = "text-red-800";
+              iconColor = "text-trading-down";
             }
 
             return (
@@ -187,7 +188,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                 id={block.id}
                 className={`p-4 border rounded-xl flex items-start gap-3 my-3 shadow-none ${calloutStyle}`}
               >
-                <div className={`p-1.5 rounded-lg bg-white border border-transparent flex-shrink-0 ${iconColor}`}>
+                <div className={`p-1.5 rounded-lg bg-surface border border-border flex-shrink-0 ${iconColor}`}>
                   <Icon className="w-4 h-4" />
                 </div>
                 <div className="space-y-1">
@@ -196,7 +197,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                       {block.title}
                     </h4>
                   )}
-                  <p className="text-xs leading-normal font-sans">
+                  <p className="text-sm text-body leading-relaxed font-sans">
                     {block.text}
                   </p>
                 </div>
@@ -210,16 +211,16 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                 {block.steps.map((step, idx) => (
                   <div
                     key={idx}
-                    className="flex items-start gap-4 p-4 border border-slate-100 bg-white rounded-xl shadow-none"
+                    className="flex items-start gap-4 p-4 border border-border bg-surface rounded-xl shadow-none"
                   >
-                    <div className="w-7 h-7 rounded-full bg-emerald-800 text-white font-mono font-black text-xs flex items-center justify-center flex-shrink-0">
+                    <div className="w-7 h-7 rounded-full bg-gold text-accent-foreground font-mono font-black text-xs flex items-center justify-center flex-shrink-0">
                       {idx + 1}
                     </div>
                     <div className="space-y-1">
-                      <h4 className="text-xs font-black text-slate-900">
+                      <h4 className="text-xs font-black text-ink">
                         {step.title}
                       </h4>
-                      <p className="text-xs text-slate-500 leading-normal">
+                      <p className="text-sm text-body leading-relaxed">
                         {step.description}
                       </p>
                     </div>
@@ -238,24 +239,24 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                   return (
                     <div
                       key={idx}
-                      className="border border-slate-150 rounded-xl bg-white overflow-hidden shadow-none transition"
+                      className="border border-border rounded-xl bg-surface overflow-hidden shadow-none transition"
                     >
                       <button
                         onClick={() => toggleFaq(uniqueFaqId)}
-                        className="w-full text-left p-3.5 flex items-center justify-between gap-3 bg-slate-50/40 hover:bg-slate-50 transition"
+                        className="w-full text-left p-3.5 flex items-center justify-between gap-3 bg-surface hover:bg-surface-dim transition"
                       >
-                        <span className="text-xs font-extrabold text-slate-800 leading-tight">
+                        <span className="text-xs font-extrabold text-ink leading-tight">
                           {faq.question}
                         </span>
                         {isOpen ? (
-                          <ChevronUp className="w-4 h-4 text-slate-400 flex-shrink-0" />
+                          <ChevronUp className="w-4 h-4 text-muted flex-shrink-0" />
                         ) : (
-                          <ChevronDown className="w-4 h-4 text-slate-400 flex-shrink-0" />
+                          <ChevronDown className="w-4 h-4 text-muted flex-shrink-0" />
                         )}
                       </button>
                       {isOpen && (
-                        <div className="p-4 border-t border-slate-100 bg-white">
-                          <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                        <div className="p-4 border-t border-border bg-surface">
+                          <p className="text-sm text-body leading-relaxed font-sans">
                             {faq.answer}
                           </p>
                         </div>
@@ -272,15 +273,15 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
               <div
                 key={block.id}
                 id={block.id}
-                className="bg-white border border-slate-150 p-5 rounded-2xl space-y-4 my-4 shadow-none"
+                className="bg-surface border border-border p-5 rounded-xl space-y-4 my-4 shadow-none"
               >
-                <div className="flex items-center gap-2 pb-2.5 border-b border-slate-100">
-                  <CalendarDays className="w-4.5 h-4.5 text-emerald-800" />
+                <div className="flex items-center gap-2 pb-2.5 border-b border-border">
+                  <CalendarDays className="w-4.5 h-4.5 text-gold" />
                   <div>
-                    <h4 className="text-xs font-black text-slate-900 leading-none">
+                    <h4 className="text-xs font-black text-ink leading-none">
                       National SASSA Payout Schedules
                     </h4>
-                    <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider block mt-0.5">
+                    <span className="text-xs font-mono text-muted uppercase tracking-wider block mt-0.5">
                       Cycle Month: {block.month}
                     </span>
                   </div>
@@ -290,24 +291,24 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                   {block.payouts.map((pay, idx) => (
                     <div
                       key={idx}
-                      className="p-3 border border-slate-100 bg-slate-50/50 rounded-xl flex flex-col justify-between gap-2.5"
+                      className="p-3 border border-border bg-surface-dim/30 rounded-xl flex flex-col justify-between gap-2.5"
                     >
                       <div>
-                        <span className="text-[9px] font-mono font-bold text-slate-400 uppercase block leading-none">
+                        <span className="text-xs font-mono font-bold text-muted uppercase block leading-none">
                           Category
                         </span>
-                        <span className="text-[11px] font-extrabold text-slate-800 tracking-tight block mt-1 leading-tight">
+                        <span className="text-xs font-extrabold text-ink tracking-tight block mt-1 leading-tight">
                           {pay.category}
                         </span>
                       </div>
-                      <div className="border-t border-slate-100 pt-2 flex items-center justify-between text-xs">
+                      <div className="border-t border-border pt-2 flex items-center justify-between text-xs">
                         <div className="text-left">
-                          <span className="text-[8px] font-mono text-slate-400 block leading-none">Date</span>
-                          <span className="font-mono font-bold text-emerald-950 mt-0.5 block">{pay.date}</span>
+                          <span className="text-xs font-mono text-muted block leading-none">Date</span>
+                          <span className="font-mono font-bold text-ink mt-0.5 block">{pay.date}</span>
                         </div>
                         <div className="text-right">
-                          <span className="text-[8px] font-mono text-slate-400 block leading-none">Est Payout</span>
-                          <span className="font-mono font-black text-emerald-800 mt-0.5 block">{pay.amount}</span>
+                          <span className="text-xs font-mono text-muted block leading-none">Est Payout</span>
+                          <span className="font-mono font-black text-gold mt-0.5 block">{pay.amount}</span>
                         </div>
                       </div>
                     </div>
@@ -322,50 +323,50 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
               <div
                 key={block.id}
                 id={block.id}
-                className="bg-white border border-slate-200 p-5 rounded-2xl space-y-4 my-4 shadow-none grid grid-cols-1 md:grid-cols-2 gap-4"
+                className="bg-surface border border-border p-5 rounded-xl space-y-4 my-4 shadow-none grid grid-cols-1 md:grid-cols-2 gap-4"
               >
                 <div className="space-y-3">
                   <div>
-                    <span className="text-[9px] font-mono font-bold text-emerald-800 uppercase tracking-widest block">
+                    <span className="text-xs font-mono font-bold text-gold uppercase tracking-widest block">
                       Local SASSA Branch
                     </span>
-                    <h4 className="text-xs font-black text-slate-900 mt-0.5">{block.branchName}</h4>
-                    <span className="text-[10px] text-slate-400 font-mono mt-0.5 block">{block.province} Province</span>
+                    <h4 className="text-xs font-black text-ink mt-0.5">{block.branchName}</h4>
+                    <span className="text-xs text-muted font-mono mt-0.5 block">{block.province} Province</span>
                   </div>
 
                   <div className="space-y-2 text-xs">
                     <div className="flex items-start gap-2">
-                      <MapPin className="w-4 h-4 text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-slate-600 leading-normal">{block.address}</span>
+                      <MapPin className="w-4 h-4 text-muted mt-0.5 flex-shrink-0" />
+                      <span className="text-muted leading-normal">{block.address}</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Phone className="w-4 h-4 text-slate-400 flex-shrink-0" />
-                      <span className="text-slate-600 font-mono">{block.contactNumber}</span>
+                      <Phone className="w-4 h-4 text-muted flex-shrink-0" />
+                      <span className="text-muted font-mono">{block.contactNumber}</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Clock className="w-4 h-4 text-slate-400 flex-shrink-0" />
-                      <span className="text-slate-600 font-mono">{block.operatingHours}</span>
+                      <Clock className="w-4 h-4 text-muted flex-shrink-0" />
+                      <span className="text-muted font-mono">{block.operatingHours}</span>
                     </div>
                   </div>
                 </div>
 
-                <div className="bg-slate-50 border border-slate-100 p-4 rounded-xl flex flex-col justify-between">
+                <div className="bg-surface-dim/30 border border-border p-4 rounded-xl flex flex-col justify-between">
                   <div>
-                    <div className="flex items-center gap-1.5 text-slate-700">
-                      <Accessibility className="w-4 h-4 text-emerald-800" />
-                      <span className="text-[10px] font-bold font-mono uppercase tracking-wide">
+                    <div className="flex items-center gap-1.5 text-ink">
+                      <Accessibility className="w-4 h-4 text-gold" />
+                      <span className="text-xs font-bold font-mono uppercase tracking-wide">
                         Accessibility Vetting
                       </span>
                     </div>
-                    <p className="text-xs text-slate-500 mt-2 leading-relaxed">
+                    <p className="text-xs text-muted mt-2 leading-relaxed">
                       {block.accessibilityNotes}
                     </p>
                   </div>
 
                   {block.coordinates && (
-                    <div className="pt-2 border-t border-slate-200/55 mt-2 flex items-center justify-between text-[10px] font-mono text-slate-400">
+                    <div className="pt-2 border-t border-border mt-2 flex items-center justify-between text-xs font-mono text-muted">
                       <span>Coordinates:</span>
-                      <span className="text-slate-600">
+                      <span className="text-muted">
                         {block.coordinates.lat.toFixed(4)}, {block.coordinates.lng.toFixed(4)}
                       </span>
                     </div>
@@ -376,22 +377,29 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
           }
 
           case "custom": {
+            if (block.customType === "grant-calculator") {
+              return (
+                <div key={block.id} id={block.id} className="my-6">
+                  <GrantCalculator />
+                </div>
+              );
+            }
             return (
               <div
                 key={block.id}
                 id={block.id}
-                className="bg-emerald-50/20 border border-dashed border-emerald-200 p-4 rounded-xl my-4 text-center"
+                className="bg-gold/5 border border-dashed border-gold/30 p-4 rounded-xl my-4 text-center"
               >
-                <div className="flex items-center justify-center gap-2 text-emerald-800">
+                <div className="flex items-center justify-center gap-2 text-gold">
                   <Sparkles className="w-4.5 h-4.5" />
                   <span className="text-xs font-bold font-mono uppercase">
                     Extension: {block.customType}
                   </span>
                 </div>
-                <p className="text-[11px] text-slate-500 mt-1 leading-normal font-sans">
-                  The base UI engine successfully validated this custom slot. Pre-statically compiled dynamic renderers will hook in here for client-specific components.
+                <p className="text-xs text-muted mt-1 leading-normal font-sans">
+                  Interactive tool ready for this slot.
                 </p>
-                <div className="mt-2 text-left bg-slate-950 p-2.5 rounded-lg text-[10px] font-mono text-slate-400 overflow-x-auto max-h-24">
+                <div className="mt-2 text-left bg-midnight p-2.5 rounded-lg text-xs font-mono text-muted overflow-x-auto max-h-24">
                   {JSON.stringify(block.payload, null, 2)}
                 </div>
               </div>
@@ -400,8 +408,8 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
 
           default: {
             return (
-              <div key={(block as any).id} className="p-3 bg-red-50 text-red-800 text-xs border border-red-200 rounded-lg">
-                Unknown content block type detected. Fails strict design constitution compilation checks.
+              <div key={(block as any).id} className="p-3 bg-red-900/20 text-red-400 text-xs border border-red-700/40 rounded-lg">
+                Unknown content block type.
               </div>
             );
           }

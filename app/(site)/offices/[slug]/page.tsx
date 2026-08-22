@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
+import { canonicalUrl } from "@/lib/canonical";
 import { offices } from "../../../../lib/data/offices";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema } from "../../../../lib/json-ld";
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/offices/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription };
+    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/offices/${slug}`) } };
   }
 
   const office = offices.find((o) => o.id === slug);
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${office.name} | SASSA Office in ${office.city}, ${office.province}`,
     description: `${office.name} in ${office.city}, ${office.province}. Address: ${office.address}. Phone: ${office.phone}. Hours: ${office.operatingHours}. Services: ${office.servicesOffered.join(", ")}.`,
+    alternates: { canonical: canonicalUrl(`/offices/${slug}`) },
   };
 }
 
@@ -46,7 +48,7 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ s
           { name: "Office Finder", url: "/offices" },
           { name: content.title, url: content.slug },
         ])) }} />
-        <ContentBlockRenderer blocks={content.contentBlocks} />
+        <ContentBlockRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
   }
@@ -63,7 +65,7 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ s
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <div className="space-y-6 max-w-3xl">
+      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{office.name}</h1>
           <p className="text-sm text-muted mt-1 capitalize">{office.city}, {office.province}</p>
@@ -122,6 +124,13 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ s
             <span className="font-bold">Nearby: </span>{office.nearbyLandmarks}
           </p>
         </div>
+
+        {office.localTip && (
+          <div className="bg-gold/5 border border-gold/20 rounded-xl p-5">
+            <h2 className="text-xs font-extrabold text-gold font-mono uppercase tracking-wider mb-2">Local Tip</h2>
+            <p className="text-sm text-muted leading-relaxed">{office.localTip}</p>
+          </div>
+        )}
       </div>
     </>
   );

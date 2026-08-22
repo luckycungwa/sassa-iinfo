@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { faqCategories } from "../../../lib/data/faq";
 import { faqSchema, breadcrumbSchema } from "../../../lib/json-ld";
+import { canonicalUrl } from "@/lib/canonical";
 
 export const metadata: Metadata = {
-  title: "SASSA FAQ | Frequently Asked Questions About Social Grants",
-  description: "Answers to the most common SASSA questions: grant applications, payment dates, status meanings, appeals, eligibility, and contact information.",
+  title: "SASSA FAQ — Answers to Common Grant Questions",
+  description: "Get answers to the most frequently asked SASSA questions: application status, payment dates, eligibility, appeals, banking, and more.",
+  alternates: { canonical: canonicalUrl("/faq") },
 };
 
 export default function FAQPage() {
@@ -25,13 +28,26 @@ export default function FAQPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <div className="space-y-8">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">Frequently Asked Questions</h1>
           <p className="text-sm text-muted mt-1">Common questions about SASSA grants, payments, statuses, and appeals.</p>
         </div>
+
+        <div className="flex flex-wrap gap-2">
+          {faqCategories.map((c) => (
+            <Link
+              key={c.id}
+              href={`#${c.id}`}
+              className="text-xs font-bold px-4 py-2 rounded-full bg-surface border border-border text-ink hover:bg-accent-light hover:border-accent transition"
+            >
+              {c.title}
+            </Link>
+          ))}
+        </div>
+
         {faqCategories.map((category) => (
-          <div key={category.id}>
+          <div key={category.id} id={category.id}>
             <h2 className="text-lg font-extrabold text-ink mb-3">{category.title}</h2>
             <div className="space-y-3">
               {category.questions.map((faq, i) => (
@@ -42,7 +58,7 @@ export default function FAQPage() {
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                     </span>
                   </summary>
-                  <p className="text-sm text-slate-600 leading-relaxed p-4 pt-3">{faq.answer}</p>
+                  <p className="text-sm text-muted leading-relaxed p-4 pt-3">{faq.answer}</p>
                 </details>
               ))}
             </div>

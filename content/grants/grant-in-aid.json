@@ -1,0 +1,199 @@
+{
+  "id": "grant-grant-in-aid",
+  "slug": "/grants/grant-in-aid",
+  "classification": "grant-detail",
+  "title": "Grant-in-Aid — Complete Guide 2026",
+  "description": "Complete guide to the SASSA Grant-in-Aid: R580 monthly top-up for grant recipients who need full-time care from another person. Eligibility, medical assessment, and how to apply.",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "readingTime": "7 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Founder, 44tagstudios", "verified": true },
+  "seo": {
+    "metaTitle": "Grant-in-Aid 2026: Amount, Eligibility & How to Apply",
+    "metaDescription": "Complete guide to the SASSA Grant-in-Aid: R580 monthly top-up for Older Person, Disability, or War Veterans Grant recipients who need full-time care. Eligibility, medical assessment, and application steps.",
+    "keywords": ["grant-in-aid", "SASSA grant-in-aid", "SASSA top-up grant", "full-time care grant", "SASSA caregiver grant"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Grant-in-Aid" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Grant-in-Aid",
+      "description": "Complete guide to the SASSA Grant-in-Aid: R580 per month paid on top of your existing grant if you need full-time care from another person. Eligibility criteria, medical assessment process, how to apply, and common mistakes that cause declines.",
+      "readingTime": "7 min read",
+      "lastUpdated": "2026-07-27",
+      "cta": { "label": "Older Person Grant Guide", "href": "/grants/older-person-grant" },
+      "secondaryCta": { "label": "Disability Grant Guide", "href": "/grants/disability-grant" }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R580",
+      "frequency": "Monthly (Top-up on existing grant)",
+      "targetGroup": "Existing recipients of the Older Person, Disability, or War Veterans Grant who need 24-hour physical care from another person."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Grant-in-Aid is an additional monthly payment of R580 for people who already receive a SASSA social grant but cannot look after themselves due to severe physical or mental frailty. It is designed to help cover the cost of hiring a caregiver or supporting a family member who provides full-time care. You can receive Grant-in-Aid on top of your existing Older Person Grant, Disability Grant, or War Veterans Grant."
+    },
+    {
+      "id": "how-it-works-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How Grant-in-Aid Works"
+    },
+    {
+      "id": "how-it-works",
+      "type": "paragraph",
+      "text": "Unlike other SASSA grants, Grant-in-Aid is not a standalone grant. It is a supplementary payment that must be added to an existing primary grant. This means you must already qualify for and receive one of the three eligible primary grants before you can apply for Grant-in-Aid. The total monthly amount would be your primary grant (e.g., R2,400 for Older Person Grant) plus R580 Grant-in-Aid = R2,980 per month."
+    },
+    {
+      "id": "eligibility-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Eligibility Criteria"
+    },
+    {
+      "id": "eligibility",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "You must already receive the Older Person Grant, Disability Grant, or War Veterans Grant",
+        "You must be unable to look after yourself due to severe physical or mental frailty",
+        "A medical report must certify that you require 24-hour, full-time care from another person",
+        "You must not be living in a state-funded welfare institution"
+      ],
+      "restrictions": [
+        "You cannot get Grant-in-Aid with the Child Support Grant or Foster Care Grant",
+        "The grant stops if you are admitted to a state-funded institution for long-term care",
+        "Both you and your caregiver must provide details on the application"
+      ],
+      "recommendedGrants": [
+        { "name": "Older Person Grant", "slug": "/grants/older-person-grant", "amount": "R2,400" },
+        { "name": "Disability Grant", "slug": "/grants/disability-grant", "amount": "R2,400" }
+      ]
+    },
+    {
+      "id": "medical-requirement-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Medical Assessment — The Critical Step"
+    },
+    {
+      "id": "medical-intro",
+      "type": "paragraph",
+      "text": "The medical assessment is where most Grant-in-Aid applications succeed or fail. The doctor must explicitly confirm that you need 24-hour physical assistance from another person. This means help with basic daily activities like bathing, dressing, eating, using the toilet, and moving around."
+    },
+    {
+      "id": "medical-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Most Common Rejection Reason",
+      "text": "Grant-in-Aid applications are often rejected because the doctor's report says the applicant needs 'some assistance' or 'regular care' but does not explicitly state '24-hour full-time care' is required. Make sure your doctor uses the exact language: 'The patient requires 24-hour full-time physical care from another person.'"
+    },
+    {
+      "id": "medical-what-doc-checks",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Can you bathe, dress, and feed yourself without help?",
+        "Can you get out of bed, walk, and use the toilet independently?",
+        "Do you have a condition that requires someone to be with you at all times?",
+        "Do you have dementia, severe arthritis, paralysis, or a condition that limits mobility?",
+        "Is there a family member or caregiver available to provide the care?"
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "Your original 13-digit ID or smart ID card", "required": true },
+        { "label": "Medical assessment report from a doctor", "required": true, "notes": "Must state you need 24-hour full-time care. Use the official SASSA form." },
+        { "label": "Your primary grant details (reference number or latest payment slip)", "required": true },
+        { "label": "Details of your caregiver (name, ID number, relationship to you)", "required": true },
+        { "label": "Proof of residence", "required": true }
+      ]
+    },
+    {
+      "id": "apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply"
+    },
+    {
+      "id": "apply-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Visit your doctor", "description": "Ask your doctor to complete the SASSA medical report form. Ensure they explicitly state you need 24-hour full-time care. The form is available at any SASSA office." },
+        { "title": "Gather your documents", "description": "Collect your ID, primary grant details, the medical report, caregiver details, and proof of residence." },
+        { "title": "Visit your SASSA office", "description": "Go to the SASSA office where your primary grant is registered. Submit all documents to the grants officer." },
+        { "title": "Complete the application", "description": "Fill in the Grant-in-Aid application form. The officer will capture your details and those of your caregiver." },
+        { "title": "Wait for processing", "description": "If your primary grant is active and the medical report is clear, processing is usually faster than new grant applications — typically 4-6 weeks." }
+      ]
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "If Your Grant-in-Aid Is Declined",
+      "text": "If your primary grant is active but Grant-in-Aid is denied, check that the doctor ticked the correct box indicating 24-hour assistance is needed. Get a more detailed report from your doctor that explicitly describes your daily care needs. You have 90 days to appeal."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I get Grant-in-Aid if my family member cares for me for free?",
+          "answer": "Yes. Grant-in-Aid is not a salary for your caregiver — it is a contribution towards your care costs. Whether your family cares for you for free or you pay someone, you can still qualify."
+        },
+        {
+          "question": "Can I receive Grant-in-Aid with the Child Support Grant?",
+          "answer": "No. Grant-in-Aid can only be added to the Older Person, Disability, or War Veterans Grant. Child Support Grant recipients do not qualify."
+        },
+        {
+          "question": "Do I need to prove I pay my caregiver?",
+          "answer": "No. You do not need receipts or proof of payment. You only need to provide your caregiver's name, ID number, and relationship to you."
+        },
+        {
+          "question": "How much will I receive in total with Grant-in-Aid?",
+          "answer": "If you receive the Older Person Grant (R2,400) plus Grant-in-Aid (R580), your total is R2,980 per month. If you receive Disability Grant (R2,400) plus Grant-in-Aid, your total is also R2,980."
+        },
+        {
+          "question": "What happens if my caregiver moves away or stops caring for me?",
+          "answer": "Inform SASSA and provide details of your new caregiver. The grant continues as long as you still need care. You may need a new medical report if the change is permanent."
+        },
+        {
+          "question": "Do I need to reapply for Grant-in-Aid when my primary grant is reviewed?",
+          "answer": "No. Grant-in-Aid continues as long as your primary grant is active. However, if your medical condition improves and you no longer need 24-hour care, SASSA may cancel the Grant-in-Aid after a review."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        { "title": "Older Person Grant", "href": "/grants/older-person-grant", "description": "State pension for seniors 60+" },
+        { "title": "Disability Grant", "href": "/grants/disability-grant", "description": "Grant for persons unable to work" },
+        { "title": "Care Dependency Grant", "href": "/grants/care-dependency-grant", "description": "For caregivers of disabled children" },
+        { "title": "Appeal a Decline", "href": "/appeals/how-to-appeal", "description": "Challenge a declined application" }
+      ]
+    }
+  ],
+  "relatedPages": [
+    { "title": "Grant Library", "slug": "/grants" },
+    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
+    { "title": "Disability Grant", "slug": "/grants/disability-grant" }
+  ]
+}

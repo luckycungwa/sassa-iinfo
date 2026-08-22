@@ -31,7 +31,7 @@ export const downloadableForms: DownloadableForm[] = [
       "Marital status certificates (if married/divorced/widowed)."
     ],
     approxSize: "1.2 MB (PDF)",
-    pdfPlaceholderContent: "SASSA_SOCIAL_GRANT_APPLICATION_FORM_V2026.pdf"
+    pdfPlaceholderContent: "Available at any SASSA office — no download link provided"
   },
   {
     id: "bank-change-form",
@@ -51,7 +51,7 @@ export const downloadableForms: DownloadableForm[] = [
       "SASSA card or reference receipt."
     ],
     approxSize: "450 KB (PDF)",
-    pdfPlaceholderContent: "SASSA_BANK_PAYMENT_CONSENT_FORM_V2026.pdf"
+    pdfPlaceholderContent: "Available at any SASSA office"
   },
   {
     id: "srd-appeal-form",
@@ -71,7 +71,7 @@ export const downloadableForms: DownloadableForm[] = [
       "Unemployment affidavit stamped by SAPS."
     ],
     approxSize: "580 KB (PDF)",
-    pdfPlaceholderContent: "ITSAA_SRD_R370_APPEAL_FORM_TEMPLATE.pdf"
+    pdfPlaceholderContent: "Available via DSD Appeals portal or SASSA office"
   },
   {
     id: "unemployment-affidavit",
@@ -91,7 +91,7 @@ export const downloadableForms: DownloadableForm[] = [
       "Pen (black ink only for signatures)."
     ],
     approxSize: "120 KB (PDF)",
-    pdfPlaceholderContent: "SASSA_UNEMPLOYMENT_AFFIDAVIT_TEMPLATE.pdf"
+    pdfPlaceholderContent: "Available at any SAPS station or SASSA office"
   },
   {
     id: "consent-form",
@@ -111,7 +111,7 @@ export const downloadableForms: DownloadableForm[] = [
       "Proof of residence."
     ],
     approxSize: "340 KB (PDF)",
-    pdfPlaceholderContent: "SASSA_CONSENT_DECLARATION_FORM_V2026.pdf"
+    pdfPlaceholderContent: "Available at any SASSA office"
   },
   {
     id: "grant-checklist",
@@ -137,7 +137,7 @@ export const downloadableForms: DownloadableForm[] = [
       "Completed application form (available at SASSA offices)."
     ],
     approxSize: "80 KB (PDF)",
-    pdfPlaceholderContent: "SASSA_GRANT_CHECKLIST_V2026.pdf"
+    pdfPlaceholderContent: "Print from this page — each item listed above"
   },
   {
     id: "government-notice",
@@ -154,6 +154,6 @@ export const downloadableForms: DownloadableForm[] = [
       "No documents required — this is a reference guide only."
     ],
     approxSize: "210 KB (PDF)",
-    pdfPlaceholderContent: "SASSA_GAZETTE_REFERENCE_GUIDE_V2026.pdf"
+    pdfPlaceholderContent: "Available at https://www.gov.za/documents/gazettes"
   }
 ];

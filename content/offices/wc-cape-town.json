@@ -1,0 +1,135 @@
+{
+  "id": "office-wc-cape-town",
+  "slug": "/offices/wc-cape-town",
+  "classification": "office-location",
+  "title": "SASSA Cape Town Office",
+  "description": "SASSA Cape Town office in the Western Cape, located at 9 Dorp Street, Cape Town CBD. Full grant services including applications, card services, payments, and beneficiary support.",
+  "lastUpdated": "2026-07-26",
+  "version": "1.0.0",
+  "readingTime": "5 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Cape Town Office: Dorp Street, Services & Directions",
+    "metaDescription": "SASSA Cape Town office at 9 Dorp Street, Cape Town CBD. Phone: 021 456 7890. Full list of services: grant applications, card replacements, payments, and beneficiary enquiries. Hours and directions included.",
+    "keywords": ["SASSA Cape Town office", "SASSA Dorp Street", "SASSA Western Cape office", "Cape Town SASSA branch", "SASSA Cape Town grants"],
+    "schemaMarkup": { "@type": "GovernmentOffice", "name": "SASSA Cape Town Office" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Cape Town Office",
+      "description": "Full-service SASSA office in central Cape Town offering grant applications, card replacements, payment enquiries, and social work referrals. Located at 9 Dorp Street, Cape Town CBD.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-07-26",
+      "cta": { "label": "Find Other Offices", "href": "/offices" },
+      "secondaryCta": { "label": "Western Cape Province Hub", "href": "/provinces/western-cape" }
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "The SASSA Cape Town office serves beneficiaries across the Cape Town metro and surrounding areas. Situated at 9 Dorp Street in the Cape Town CBD, this office provides comprehensive grant administration services. The office is well-served by public transport and is accessible to beneficiaries from Khayelitsha, Mitchells Plain, Gugulethu, and the Cape Flats."
+    },
+    {
+      "id": "office-details",
+      "type": "office-details",
+      "address": "9 Dorp Street, Cape Town CBD, 8001",
+      "phone": "021 456 7890",
+      "operatingHours": "Monday to Friday: 07:30 – 15:30, Saturday: 08:00 – 12:00, Sunday & Public Holidays: Closed",
+      "accessibilityNotes": "Wheelchair accessible entrance. Priority queue for elderly and disabled beneficiaries. Assistance available for beneficiaries with visual impairments. Service in English, Afrikaans, and isiXhosa available.",
+      "nearbyLandmarks": "Located near the Cape Town Magistrate's Court, a 3-minute walk from St George's Cathedral, and a 10-minute walk from Cape Town Station."
+    },
+    {
+      "id": "services-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Services Offered"
+    },
+    {
+      "id": "services-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Grant applications for all social grant types",
+        "SASSA gold card issuance and replacements",
+        "Grant payment status enquiries",
+        "Change of collection point and banking details",
+        "SRD R370 application assistance",
+        "Grant fraud reporting and investigation support",
+        "Social work services and crisis counselling referrals",
+        "Appeal lodgement and tracking"
+      ]
+    },
+    {
+      "id": "directions-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Directions and Transport Links"
+    },
+    {
+      "id": "directions-paragraph",
+      "type": "paragraph",
+      "text": "The Cape Town office is centrally located and accessible via multiple transport modes. If driving, take the M3 from the N2 and exit at Cape Town CBD. Paid parking is available at the Dock Road parking garage (5-minute walk) and the Golden Acre parking complex."
+    },
+    {
+      "id": "directions-transport",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Train: Cape Town Station is a 10-minute walk via Adderley Street.",
+        "MyCiTi Bus: The Civic Centre station stop is a 5-minute walk from the office.",
+        "Golden Arrow Bus: Buses stop at the Cape Town Station terminus.",
+        "Taxi: Drop-offs on Darling Street and Adderley Street.",
+        "Walking: From Cape Town Station, head south on Adderley Street, turn right onto Dorp Street. The office is on your left."
+      ]
+    },
+    {
+      "id": "multilingual-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Language Services Available",
+      "text": "The Cape Town office offers services in English, Afrikaans, and isiXhosa. If you speak a different language, bring a family member or friend who can assist with translation. SASSA is working on expanding language services to include more of the 11 official languages."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I live in Khayelitsha. Do I have to come to the CBD office or is there a closer branch?",
+          "answer": "There is a SASSA satellite office at the Thusong Service Centre in Khayelitsha that handles many services. However, for card replacements, grant applications, and appeals, you may still need to visit the Cape Town CBD office. Check with the Khayelitsha office first to avoid unnecessary travel."
+        },
+        {
+          "question": "Can I change my payment method from Post Office to retail at this office?",
+          "answer": "Yes. Visit the enquiries counter and request a change of payment method. You can switch between SAPO (Post Office), retail partners (Shoprite, Checkers, Pick n Pay, Boxer, USave), and direct bank deposit. The change takes effect from the next payment cycle."
+        },
+        {
+          "question": "What documents do I need for a grant application at this office?",
+          "answer": "Bring your original 13-digit ID document (Smart ID card or green ID book), proof of residence (not older than 3 months), proof of income or an affidavit if unemployed, and any grant-specific documents (such as a child's birth certificate or medical report). Make photocopies of everything before you arrive."
+        },
+        {
+          "question": "Is there parking available at the office?",
+          "answer": "There is no dedicated SASSA parking. The nearest paid parking is at the Dock Road parking garage (Strand Street) and the Golden Acre parking complex. Street parking along Dorp Street and Buitenkant Street is limited and fills up early. Arrive by public transport if possible."
+        }
+      ]
+    },
+    {
+      "id": "queue-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Peak Times — Arrive Early or Go Mid-Week",
+      "text": "The Cape Town office is busiest on Mondays, Fridays, and the first week of the month. For a faster experience, visit between 10:00 and 13:00 on a Tuesday or Wednesday. The office also opens on Saturday mornings for limited services, which can be a good alternative if you cannot visit during the week."
+    }
+  ],
+  "relatedPages": [
+    { "title": "Office Finder", "slug": "/offices" },
+    { "title": "Western Cape Province Hub", "slug": "/provinces/western-cape" },
+    { "title": "All SASSA Offices in Western Cape", "slug": "/provinces/western-cape" }
+  ]
+}

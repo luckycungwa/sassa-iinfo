@@ -14,6 +14,7 @@ export interface PaymentMonth {
     srd: string;
   };
   notes?: string;
+  description?: string;
 }
 
 export const paymentMonths: PaymentMonth[] = [
@@ -32,6 +33,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "6 Jan 2026",
       srd: "23-30 Jan 2026",
     },
+    notes: "New year schedule — first SRD batch of 2026 starts 23 Jan. Allow 1-3 days for bank transfers.",
+    description: "January 2026 opens the new grant year. Permanent grants follow the standard first-week schedule. SRD R370 payments begin from the 23rd, with most beneficiaries receiving their batch payment by the 30th. Plan your January collection for the second week to avoid post-holiday queues at pay points.",
   },
   {
     id: "2026-02",
@@ -48,6 +51,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "5 Feb 2026",
       srd: "25-28 Feb 2026",
     },
+    notes: "Short month — compressed SRD window. Watch for the budget speech announcing grant increases.",
+    description: "February is a short month, so SRD payments are compressed into the 25th-28th window. The annual budget speech typically occurs this month, where new grant amounts for the coming fiscal year are announced. Check the news section for budget updates affecting grant increases.",
   },
   {
     id: "2026-03",
@@ -64,6 +69,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "5 Mar 2026",
       srd: "25-31 Mar 2026",
     },
+    notes: "Last month of fiscal year — new grant amounts take effect from April. SRD reviews active.",
+    description: "March 2026 is the last month of the current fiscal year. New grant amounts announced in the February budget typically take effect from April. SRD R370 beneficiaries should expect the standard March batch window. This is also a key month for grant review cycles.",
   },
   {
     id: "2026-04",
@@ -80,6 +87,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "6 Apr 2026",
       srd: "24-30 Apr 2026",
     },
+    notes: "New fiscal year — updated grant amounts apply. Database re-verifications may cause status changes.",
+    description: "April marks the start of the new fiscal year. Updated grant amounts from the budget speech apply from this month. SRD R370 beneficiaries who rely on recurring monthly approval should check their status early, as the new fiscal year can trigger database re-verifications.",
   },
   {
     id: "2026-05",
@@ -96,6 +105,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "6 May 2026",
       srd: "25-30 May 2026",
     },
+    notes: "Standard schedule — check that April grant increases are reflected correctly.",
+    description: "May follows the standard payment pattern with no public holidays affecting the schedule. The first week is reserved for permanent grants, with SRD batch payments in the last week. This is a good month to check if your grant increase from April has been applied correctly.",
   },
   {
     id: "2026-06",
@@ -104,7 +115,7 @@ export const paymentMonths: PaymentMonth[] = [
     month: 6,
     monthLabel: "June",
     label: "June 2026",
-    isCurrent: true,
+    isCurrent: false,
     isFuture: false,
     dates: {
       olderPersons: "3 Jun 2026",
@@ -112,6 +123,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "5 Jun 2026",
       srd: "25-30 Jun 2026",
     },
+    notes: "Youth Day (16 June) did not affect pay dates. Standard schedule applies.",
+    description: "Youth Day (16 June) was a public holiday but did not affect the standard payment schedule. SRD beneficiaries checked their status mid-month for the June approval result, with payments starting from the 25th.",
   },
   {
     id: "2026-07",
@@ -120,7 +133,7 @@ export const paymentMonths: PaymentMonth[] = [
     month: 7,
     monthLabel: "July",
     label: "July 2026",
-    isCurrent: false,
+    isCurrent: true,
     isFuture: false,
     dates: {
       olderPersons: "3 Jul 2026",
@@ -128,6 +141,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "5 Jul 2026",
       srd: "25-30 Jul 2026",
     },
+    notes: "Current month — Q2 SRD review cycle active. 350,000 grants under review as of 21 July.",
+    description: "July 2026 is the current month. The Q2 review cycle for SRD grants begins this month, which can result in more applications showing 'Under Review' status in the first two weeks. The 350,000-grant review announcement was made on 21 July. Check your SRD status regularly if you notice a change.",
   },
   {
     id: "2026-08",
@@ -144,7 +159,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "6 Aug 2026",
       srd: "25-31 Aug 2026",
     },
-    notes: "Provisional dates — confirm with SASSA",
+    notes: "Fourth day added 7 Aug 2026 for grant reviews. Confirmed by SASSA 29 July 2026.",
+    description: "SASSA confirmed August 2026 payment dates on 29 July 2026. A notable change: a fourth payment day on 7 August has been added for beneficiaries flagged for grant reviews or eLife certification verification. Beneficiaries who are not flagged receive payments on their standard dates (4-6 August). Women's Day (9 August) is a public holiday but does not shift payment dates.",
   },
   {
     id: "2026-09",
@@ -162,6 +178,7 @@ export const paymentMonths: PaymentMonth[] = [
       srd: "24-30 Sep 2026",
     },
     notes: "Provisional dates — confirm with SASSA",
+    description: "Heritage Day (24 September) may affect SRD payment processing if it falls on a weekday. SASSA typically adjusts the batch window around public holidays. Provisional dates shown — confirm with SASSA.",
   },
   {
     id: "2026-10",
@@ -179,6 +196,7 @@ export const paymentMonths: PaymentMonth[] = [
       srd: "26-31 Oct 2026",
     },
     notes: "Provisional dates — confirm with SASSA",
+    description: "October marks the second half of the fiscal year. Permanent grant payments shift by one day due to the month start. SRD batch payments run from the 26th. This is typically when the Medium-Term Budget Policy Statement is released.",
   },
   {
     id: "2026-11",
@@ -196,6 +214,7 @@ export const paymentMonths: PaymentMonth[] = [
       srd: "25-30 Nov 2026",
     },
     notes: "Provisional dates — confirm with SASSA",
+    description: "November follows the standard schedule with no public holidays. SRD batch payments align with the last week. Beneficiaries should prepare for the December holiday period when pay points are busier and banks have limited processing.",
   },
   {
     id: "2026-12",
@@ -213,5 +232,6 @@ export const paymentMonths: PaymentMonth[] = [
       srd: "23-31 Dec 2026",
     },
     notes: "Provisional dates — confirm with SASSA. Expect early payout before Christmas.",
+    description: "December is the holiday season. Permanent grants are paid early in the month as usual. SRD payments start from 23 December to ensure beneficiaries have funds before Christmas. Expect longer queues at retail pay points. Bank transfers may take longer to process due to the holiday period. Plan your December collection early.",
   },
 ];

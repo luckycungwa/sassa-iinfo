@@ -14,6 +14,15 @@
     "keywords": ["SASSA identity verification", "SASSA identity verification failed", "SASSA facial verification", "SASSA ID verification", "SASSA Home Affairs mismatch"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Identity Verification Failed — How to Fix It",
+      "description": "Your SASSA status shows 'Identity Verification Failed or Pending' — your grant is on hold until your identity is confirmed. Learn how to complete facial verification, what to do if Home Affairs records don't match, and how to resolve this quickly.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Complete Verification", "href": "/status/identity-verification" },
+      "secondaryCta": { "text": "Contact SASSA", "href": "/contact" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Identity Verification Failed/Pending — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Identity Verification Failed' or 'Identity Verification Pending' status means SASSA could not confirm your identity through the Department of Home Affairs database or through facial recognition. This is a critical block — your grant cannot proceed until your identity is successfully verified." },
     { "id": "who", "type": "paragraph", "text": "This status affects applicants whose identity information is being cross-checked with the Department of Home Affairs database." },

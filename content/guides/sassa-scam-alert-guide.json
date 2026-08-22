@@ -1,0 +1,246 @@
+{
+  "id": "guide-scam-alert",
+  "slug": "/guides/sassa-scam-alert-guide",
+  "classification": "how-to-guide",
+  "title": "SASSA Scam Alert & Fraud Prevention Guide 2026",
+  "description": "Learn how to spot and avoid SASSA grant scams. Fake SMS messages, phishing websites, fraudulent agents, and impersonation calls — with real examples and what to do if you've been scammed.",
+  "lastUpdated": "2026-07-26",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Scam Alert — Fraud Prevention Guide 2026",
+    "metaDescription": "Complete SASSA scam alert guide: fake SMS examples, phishing websites, fraudulent agents, and how to report scams. Protect your grant from fraudsters.",
+    "keywords": ["SASSA scam", "SASSA fraud", "SASSA phishing", "SASSA SMS scam", "SASSA grant scam", "fake SASSA website", "SASSA fraud prevention"],
+    "schemaMarkup": { "@type": "Article", "name": "SASSA Scam Alert Guide" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Scam Alert & Fraud Prevention Guide",
+      "description": "Learn how to spot and avoid SASSA grant scams. Fake SMS messages, phishing websites, fraudulent agents, and impersonation calls — with real examples and what to do if you have been scammed.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-07-26",
+      "cta": { "label": "Report a Scam", "href": "https://www.sassa.gov.za" },
+      "secondaryCta": { "label": "Official SASSA Contacts", "href": "#official-contacts" }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Fraudsters are getting clever. Every month, thousands of SASSA beneficiaries receive fake SMS messages, phishing emails, and phone calls from people pretending to be SASSA officials. These scammers want your ID number, bank details, or cash — and they will use any trick to get them. This guide shows you exactly what these scams look like, how to avoid them, and what to do if you have already been targeted."
+    },
+    {
+      "id": "common-scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Common SASSA Scams in South Africa"
+    },
+    {
+      "id": "scam-type-table",
+      "type": "table",
+      "headers": ["Scam Type", "How It Works", "Red Flags", "What to Do"],
+      "rows": [
+        [
+          "Fake SMS Messages",
+          "You receive a text saying your grant has been stopped, or that you qualify for a new payment. A link asks you to click and enter personal details.",
+          "The sender is not 'SASSA' — it is a random number or misspelled name like 'SAS5A'. The message contains spelling errors. It asks you to click a link and enter your ID or bank PIN.",
+          "Delete the message immediately. Do not click any links. Report the number to SASSA on 0800 60 10 11."
+        ],
+        [
+          "Phishing Websites",
+          "Scammers create fake websites that look like the real SASSA portal. They trick you into entering your ID number, password, and bank details.",
+          "The web address is not sassa.gov.za — look for extra words like 'sassa-grant-apply.co.za'. The padlock icon is missing or the certificate is invalid. The site asks for your bank PIN or OTP.",
+          "Close the site. Only use sassa.gov.za or the official SASSA app. Report the fake site to SASSA."
+        ],
+        [
+          "WhatsApp Scams",
+          "You receive a WhatsApp message from someone claiming to be a SASSA agent offering to register you for SRD grants or speed up your application.",
+          "The number is not a verified SASSA WhatsApp account. They ask for a 'registration fee'. They request your ID number and bank PIN via WhatsApp.",
+          "Block and report the number on WhatsApp. SASSA does not process applications via WhatsApp."
+        ],
+        [
+          "Phone Call Impersonation",
+          "A caller claims to be from SASSA head office. They say your grant is suspended and they need to 'verify' your details to reinstate it.",
+          "The caller cannot provide a SASSA employee number. They pressure you to act immediately. They ask for your bank PIN, OTP, or online banking password.",
+          "Hang up immediately. Call SASSA toll-free on 0800 60 10 11 to verify if there is really a problem with your grant."
+        ],
+        [
+          "Door-to-Door Fraudsters",
+          "Someone visits your home claiming to be a SASSA official offering to help with grant applications, renewals, or payment collection.",
+          "They do not have a SASSA ID badge or letter of authorisation. They ask for cash payment for their 'services'. They want to take your ID book or SASSA card.",
+          "Do not let them inside. Close the door and call the police or SASSA. Real SASSA officials do not visit homes to collect money or documents."
+        ],
+        [
+          "Fake SASSA Card Replacements",
+          "Fraudsters tell you your SASSA gold card has expired and needs replacing. They offer to replace it for a fee or ask for your PIN to 'activate' the new card.",
+          "SASSA gold cards do not expire on a fixed date — check the date on the card. They ask for your PIN (SASSA never asks for your PIN). They charge a fee for replacement.",
+          "Go directly to a SASSA office or an approved Post Office to check your card status. Do not hand your card to anyone."
+        ],
+        [
+          "Grant Registration Fee Scams",
+          "Someone says you must pay a fee to register for the SRD grant or to receive a back payment. They may claim the fee is for admin costs or a processing fee.",
+          "Any request for payment to access a grant is a scam. SASSA does not charge fees for applications. The scammer may provide fake receipts or reference numbers.",
+          "Do not pay. Report the person to SASSA and SAPS. All SASSA grants are free to apply for."
+        ]
+      ]
+    },
+    {
+      "id": "official-comm-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Recognise Official SASSA Communications"
+    },
+    {
+      "id": "never-pay-warning",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA Never Asks for Fees or PINs",
+      "text": "Remember this: SASSA will never ask you to pay any fee for a grant application, renewal, or payment. SASSA will never ask for your bank PIN, online banking password, or OTP. If someone asks for any of these, they are a scammer. End the conversation immediately and report them."
+    },
+    {
+      "id": "official-comm-text",
+      "type": "paragraph",
+      "text": "Official SASSA communications come from verified channels. SMS messages from SASSA use shortcodes, not random cellphone numbers. Letters are delivered by post or handed to you in person at a SASSA office. SASSA does not request personal information by SMS or WhatsApp. If you are unsure whether a message is genuine, call SASSA toll-free on 0800 60 10 11 and ask."
+    },
+    {
+      "id": "why-scammers-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Why Scammers Target Grant Beneficiaries"
+    },
+    {
+      "id": "why-scammers-text",
+      "type": "paragraph",
+      "text": "Grant beneficiaries are often targeted because scammers know that many recipients rely on their grants to survive. They exploit urgency and fear — sending messages that your grant has been stopped or that a special payment is waiting for you. Many victims are elderly or not familiar with online security. Scammers count on this. Knowing their tactics is your best defence."
+    },
+    {
+      "id": "if-scammed-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to Do If You Have Been Scammed"
+    },
+    {
+      "id": "recovery-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Stop all contact with the scammer",
+          "description": "Do not reply to messages, answer calls, or send more money. Block the number and save any evidence."
+        },
+        {
+          "title": "Contact your bank immediately",
+          "description": "If you shared bank details or made a payment, call your bank's fraud department. Ask them to freeze your account and reverse any unauthorised transactions."
+        },
+        {
+          "title": "Report to SASSA",
+          "description": "Call SASSA toll-free on 0800 60 10 11 to report the scam. Give them the scammer's phone number, website address, or any other details you have."
+        },
+        {
+          "title": "Open a case at your nearest police station",
+          "description": "Go to SAPS and open a case of fraud. Take along any SMS messages, WhatsApp chats, screenshots, or receipts you have. Ask for a case number."
+        },
+        {
+          "title": "Report to the South African Fraud Prevention Service",
+          "description": "You can also report the scam to SAFPS on their website or by calling 011 867 2233. This helps protect others from the same scammer."
+        },
+        {
+          "title": "Change your passwords and PINs",
+          "description": "If you shared your SASSA password, bank PIN, or any online account details, change them immediately. Also change your SIM card PIN and online banking password."
+        },
+        {
+          "title": "Monitor your accounts",
+          "description": "Keep a close eye on your bank statements and SASSA payment history for the next few months. Report any suspicious activity straight away."
+        }
+      ]
+    },
+    {
+      "id": "contact-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Official SASSA Contact Information"
+    },
+    {
+      "id": "official-contacts",
+      "type": "callout",
+      "intent": "info",
+      "title": "Official SASSA Contact Details",
+      "text": "Toll-Free Number: 0800 60 10 11\nOfficial Website: www.sassa.gov.za\nSASSA Head Office: 101 Hamilton Street, Arcadia, Pretoria\n\nIf you are unsure about any communication claiming to be from SASSA, call 0800 60 10 11 to verify before taking any action."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Does SASSA ever ask for my bank PIN?",
+          "answer": "No. Never. SASSA will never request your bank PIN, online banking password, or any OTP. Anyone who asks for these is a scammer. Only your bank should ever ask for your PIN — and even then, only in a secure environment."
+        },
+        {
+          "question": "Is the SRD application fee really free?",
+          "answer": "Yes, the SRD grant application is completely free. No registration fee, no processing fee, no admin fee — nothing. If anyone asks you to pay to apply for SRD or any SASSA grant, they are scamming you."
+        },
+        {
+          "question": "Someone came to my door saying they are from SASSA. What should I do?",
+          "answer": "Do not let them inside. Ask for their SASSA employee ID card. Real SASSA officials carry official identification and do not demand cash or documents at your home. If you are uncertain, close the door and call 0800 60 10 11 to verify."
+        },
+        {
+          "question": "I got an SMS saying my grant has been stopped. How can I check if it is real?",
+          "answer": "Do not click any links in the message. Check your grant status on the official SASSA website at sassa.gov.za, or call SASSA toll-free on 0800 60 10 11. SMS messages with threats to stop your grant are almost always scams."
+        },
+        {
+          "question": "Can SASSA call me and ask for my ID number?",
+          "answer": "Only if you initiated the call. SASSA may ask for your ID number to verify your identity when you call them. But if someone calls you unexpectedly and asks for your ID number or any personal details, be very suspicious."
+        },
+        {
+          "question": "I paid someone to register for SRD. Was that a scam?",
+          "answer": "Yes. The SRD registration is free on the official SASSA website. Anyone who charged you a fee to register has scammed you. Report them to SASSA and open a fraud case at your nearest police station."
+        },
+        {
+          "question": "What should I do if I already gave my details to a scammer?",
+          "answer": "Act fast. Contact your bank to secure your accounts. Report to SASSA on 0800 60 10 11. Open a fraud case at SAPS. Change all your passwords and PINs. The sooner you act, the better your chances of limiting the damage."
+        }
+      ]
+    },
+    {
+      "id": "tips-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Quick Prevention Tips"
+    },
+    {
+      "id": "prevention-tips",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Never share your bank PIN, OTP, or online banking password with anyone — not even someone claiming to be from SASSA.",
+        "Only use the official SASSA website (sassa.gov.za) or the SASSA app for grant applications and status checks.",
+        "Save the SASSA toll-free number (0800 60 10 11) in your phone so you always have it handy.",
+        "If an offer sounds too good to be true, it is a scam. There are no secret grants or special payments.",
+        "Talk to elderly family members and neighbours about common scams. Scammers often target people who are not comfortable with technology.",
+        "Never let anyone take your SASSA gold card or ID book. If you need assistance, go to a SASSA office yourself."
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "final-note",
+      "type": "paragraph",
+      "text": "Share this guide with your family, friends, and community. The more people know about these scams, the harder it is for fraudsters to succeed. If you suspect a scam, report it. Together we can help protect South Africa's most vulnerable grant beneficiaries."
+    }
+  ],
+  "relatedPages": [
+    { "title": "How to Check Your Status", "slug": "/guides/how-to-check-sassa-status" },
+    { "title": "How to Update Bank Details", "slug": "/banking/update-bank-details" },
+    { "title": "Payment Methods", "slug": "/banking/payment-methods" },
+    { "title": "How to Apply for SRD Grant", "slug": "/grants/srd-r370-grant" }
+  ]
+}

@@ -14,6 +14,15 @@
     "keywords": ["SASSA appeal timeline", "how long SASSA appeal takes", "ITSAA processing time", "SASSA appeal waiting time", "appeal backpay time"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Appeal Timeline: How Long Does an Appeal Take?",
+      "description": "Understanding the SASSA appeal timeline helps you plan ahead and avoid unnecessary follow-ups. The Independent Tribunal for Social Assistance Appeals (ITSAA) follows specific timeframes from submission to final ruling, typically taking 60 to 90 days.",
+      "readingTime": "8 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Submit Your Appeal", "href": "https://srd.dsd.gov.za" },
+      "secondaryCta": { "text": "Learn How to Appeal", "href": "/appeals/how-to-appeal" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Appeal Timeline: How Long Does an Appeal Take?" },
     { "id": "intro", "type": "paragraph", "text": "Understanding the appeal timeline helps you plan and avoid unnecessary follow-ups. The Independent Tribunal for Social Assistance Appeals (ITSAA) has specific timeframes for each stage of the process." },
     { "id": "who", "type": "paragraph", "text": "This guide is for anyone who has submitted an appeal with ITSAA and wants to understand how long each stage of the process takes." },

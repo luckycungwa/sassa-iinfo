@@ -1,0 +1,66 @@
+{
+  "id": "srd-extended-2027",
+  "slug": "/news/srd-r370-grant-extended-to-march-2027",
+  "classification": "news-article",
+  "title": "SRD R370 Grant Extended to March 2027",
+  "description": "Government confirms the Social Relief of Distress grant at R370 per month will continue until at least March 2027.",
+  "lastUpdated": "2026-07-29",
+  "version": "1.0.0",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official SASSA publications", "verified": true },
+  "seo": {
+    "metaTitle": "SRD R370 Grant Extended to March 2027 — What You Need to Know",
+    "metaDescription": "Government confirms the SRD R370 grant extension until March 2027. No reapplication needed, monthly evaluations continue. Full details for beneficiaries.",
+    "keywords": ["SRD R370 extension", "SRD extended 2027", "social relief of distress", "SASSA grant extension", "R370 grant"]
+  },
+  "contentBlocks": [
+    { "id": "hero-1", "type": "hero", "title": "SRD R370 Grant Extended to March 2027", "description": "The South African government has confirmed that the Social Relief of Distress (SRD) grant of R370 per month will continue until at least March 2027. Here is everything you need to know as a beneficiary.", "readingTime": "6 min read", "lastUpdated": "2026-07-29" },
+    { "id": "h1", "type": "heading", "level": 2, "text": "Extension Confirmed for Millions of Beneficiaries" },
+    { "id": "p1", "type": "paragraph", "text": "The South African government has officially confirmed that the SRD R370 grant will be extended through to March 2027. This extension ensures continued support for millions of unemployed South Africans who depend on the grant as their primary source of income." },
+    { "id": "p2", "type": "paragraph", "text": "The announcement was made following Cabinet approval of the 2026 Medium-Term Budget Policy Statement. The SRD grant, which was first introduced in May 2020 as a temporary COVID-19 relief measure, has been repeatedly extended as unemployment levels remain high. According to Statistics South Africa, the unemployment rate stands at 32.1% as of mid-2026." },
+    { "id": "h2", "type": "heading", "level": 3, "text": "Key Points of the Extension" },
+    { "id": "list1", "type": "list", "ordered": false, "items": [
+      "The grant remains at R370 per month — there is no increase for the 2026/27 period",
+      "Eligibility criteria remain unchanged from the previous cycle",
+      "Existing beneficiaries do NOT need to reapply — your application continues automatically",
+      "Monthly bank verification and means-test evaluation will continue as normal",
+      "The appeals process remains active for any months where your application is declined",
+      "The extension runs from now until 31 March 2027, with further extensions possible"
+    ] },
+    { "id": "callout1", "type": "callout", "intent": "info", "title": "No Reapplication Needed", "text": "If you are already an approved SRD beneficiary, you do not need to submit a new application. Your existing application will continue to be evaluated each month. Simply check your status on the SRD portal after the 15th of each month." },
+    { "id": "h3", "type": "heading", "level": 3, "text": "What Has Changed?" },
+    { "id": "p3", "type": "paragraph", "text": "Very little has changed from the previous extension period. The grant amount stays at R370 per month, which has been the standard amount since May 2023. The eligibility criteria remain the same: you must be a South African citizen or permanent resident, unemployed or earning below the means-test threshold, and not receiving any other social grant or UIF payments." },
+    { "id": "p4", "type": "paragraph", "text": "One notable continuity is the mandatory eLife certification (biometric face-scan verification) introduced in 2025. All beneficiaries must complete this annual verification to avoid suspension. If you have not yet done your eLife certification, you should complete it as soon as possible." },
+    { "id": "h4", "type": "heading", "level": 3, "text": "Monthly Evaluation: How It Works" },
+    { "id": "p5", "type": "paragraph", "text": "Each month, SASSA evaluates your application independently. Being approved in one month does not guarantee approval the next month. Here is what happens behind the scenes each month:" },
+    { "id": "steps1", "type": "steps", "steps": [
+      { "title": "Bank verification (1st-10th of the month)", "description": "SASSA checks your bank account using the automated verification system. They look at all deposits to determine if your income exceeds the means-test threshold of R624 per month." },
+      { "title": "Means-test assessment (10th-15th)", "description": "Your financial information is compared against the threshold. If your total income is below R624 per month, you pass the means test." },
+      { "title": "Identity and fraud checks (15th-20th)", "description": "SASSA cross-checks your ID against Home Affairs records, UIF databases, NSFAS records, and other government systems." },
+      { "title": "Status update (after the 20th)", "description": "Your status for the following month's payment is updated on the SRD portal. You can check by logging in at srd.sassa.gov.za." },
+      { "title": "Payment processing (23rd-31st)", "description": "If approved, your payment is processed. SRD payments are typically made between the 23rd and the last day of the month." }
+    ] },
+    { "id": "h5", "type": "heading", "level": 3, "text": "What About the Proposed Basic Income Grant?" },
+    { "id": "p6", "type": "paragraph", "text": "There has been ongoing discussion about replacing the SRD grant with a permanent Basic Income Grant (BIG). The Social Development Department has submitted a feasibility study to Cabinet, but no decision has been made. The current extension to March 2027 gives government time to finalise the BIG proposal. However, beneficiaries should not expect any changes before the 2027 budget is tabled." },
+    { "id": "faq1", "type": "faq", "faqs": [
+      { "question": "Do I need to reapply for the extension?", "answer": "No. If you are already an approved beneficiary, your application continues automatically. You do not need to submit any new forms or visit a SASSA office." },
+      { "question": "Will the grant amount increase before March 2027?", "answer": "There are no announced increases. The R370 amount is set for the duration of this extension. Any changes would be announced in the annual budget." },
+      { "question": "What happens after March 2027?", "answer": "The government has not confirmed what happens after March 2027. The extension could be renewed, replaced by a Basic Income Grant, or ended. Beneficiaries will be informed well in advance of any changes." },
+      { "question": "Can new applicants still apply for the SRD R370?", "answer": "Yes. The grant remains open to new applicants. If you meet the eligibility criteria, you can apply at any time through the SRD portal at srd.sassa.gov.za." },
+      { "question": "Will my monthly evaluations change?", "answer": "No. Monthly evaluations will continue exactly as before. Your income, bank account, and eligibility will be checked every month. Ensure your bank details are up to date." }
+    ] },
+    { "id": "div1", "type": "divider" },
+    { "id": "link1", "type": "link-grid", "links": [
+      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full eligibility and application details" },
+      { "title": "eLife Certification Guide", "href": "/news/elife-certification-guide-srd", "description": "Complete mandatory biometric verification" },
+      { "title": "Check Your SRD Status", "href": "https://srd.sassa.gov.za", "description": "Official SASSA SRD portal" },
+      { "title": "SRD Monthly Review Explained", "href": "/grants/srd-r370-grant-monthly-review", "description": "How monthly evaluations work" }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
+    { "title": "eLife Certification Guide", "slug": "/news/elife-certification-guide-srd" },
+    { "title": "SRD Monthly Review", "slug": "/grants/srd-r370-grant-monthly-review" },
+    { "title": "Grant Review Crackdown", "slug": "/news/sassa-grant-review-crackdown-2026" }
+  ]
+}

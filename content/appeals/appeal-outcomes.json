@@ -14,6 +14,15 @@
     "keywords": ["SASSA appeal outcome", "SASSA appeal upheld", "SASSA appeal dismissed", "SASSA backpay after appeal", "SASSA appeal ruling"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Appeal Outcomes: What Happens After You Appeal?",
+      "description": "After ITSAA reviews your appeal, you will receive one of four possible outcomes. Understanding each outcome helps you plan your next steps, whether your appeal is upheld, dismissed, partially upheld, or referred back to SASSA.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Track Your Appeal Status", "href": "/appeals/appeal-status-check" },
+      "secondaryCta": { "text": "Learn How to Appeal", "href": "/appeals/how-to-appeal" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Appeal Outcomes: What Happens After You Appeal?" },
     { "id": "intro", "type": "paragraph", "text": "After ITSAA reviews your appeal, you will receive one of several possible outcomes. Understanding each outcome helps you plan your next steps." },
     { "id": "who", "type": "paragraph", "text": "This guide is for anyone who has submitted a SASSA grant appeal and wants to understand what the possible rulings mean." },

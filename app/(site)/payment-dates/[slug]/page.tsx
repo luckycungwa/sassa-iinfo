@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
+import { canonicalUrl } from "@/lib/canonical";
 import { paymentMonths } from "../../../../lib/data/paymentDates";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema } from "../../../../lib/json-ld";
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/payment-dates/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription };
+    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/payment-dates/${slug}`) } };
   }
 
   const month = paymentMonths.find((m) => m.slug === slug);
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `SASSA Payment Dates ${month.label} | Social Grant Payout Schedule`,
     description: `SASSA payment dates for ${month.label}. Older Persons: ${month.dates.olderPersons}, Disability: ${month.dates.disability}, Children: ${month.dates.children}, SRD R370: ${month.dates.srd}.`,
+    alternates: { canonical: canonicalUrl(`/payment-dates/${slug}`) },
   };
 }
 
@@ -46,7 +48,7 @@ export default async function PaymentMonthPage({ params }: { params: Promise<{ s
           { name: "Payment Dates", url: "/payment-dates" },
           { name: content.title, url: content.slug },
         ])) }} />
-        <ContentBlockRenderer blocks={content.contentBlocks} />
+        <ContentBlockRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
   }
@@ -65,16 +67,22 @@ export default async function PaymentMonthPage({ params }: { params: Promise<{ s
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <div className="space-y-6 max-w-3xl">
+      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex items-start gap-4">
           <div>
             <h1 className="text-2xl font-black text-ink tracking-tight">SASSA Payment Dates — {month.label}</h1>
             <p className="text-sm text-muted mt-1">
               Complete schedule of social grant payout dates for {month.label}.
-              {month.notes && <span className="block mt-1 text-xs font-medium text-amber-700">{month.notes}</span>}
+              {month.notes && <span className="block mt-1 text-xs font-medium text-gold-dark">{month.notes}</span>}
             </p>
           </div>
         </div>
+
+        {month.description && (
+          <div className="bg-surface border border-border rounded-xl p-5">
+            <p className="text-sm text-muted leading-relaxed">{month.description}</p>
+          </div>
+        )}
 
         <div className="overflow-hidden border border-border rounded-xl">
           <table className="w-full text-sm">
@@ -105,15 +113,12 @@ export default async function PaymentMonthPage({ params }: { params: Promise<{ s
           </table>
         </div>
 
-        <div className="bg-accent-light border border-border rounded-xl p-5">
-          <h2 className="text-sm font-extrabold text-accent-dark mb-2">Important Notes</h2>
-          <ul className="space-y-1.5 text-sm text-accent-dark leading-relaxed">
-            <li>Payment dates apply nationally across all nine provinces.</li>
-            <li>Funds remain in your account indefinitely once released — avoid peak queues by collecting a few days after your pay date.</li>
-            <li>Bank transfers typically reflect 1-3 business days after the official pay date.</li>
-            <li>Cash Send recipients receive an SMS voucher — take it with your ID to any Pick n Pay, Shoprite, Boxer, Checkers, or Usave.</li>
-          </ul>
-        </div>
+        {month.notes && (
+          <div className="bg-accent-light border border-border rounded-xl p-5">
+            <h2 className="text-sm font-extrabold text-accent-dark mb-2">What to Know for {month.monthLabel}</h2>
+            <p className="text-sm text-accent-dark leading-relaxed">{month.notes}</p>
+          </div>
+        )}
 
         <div className="bg-surface border border-border rounded-xl p-5">
           <h2 className="text-sm font-extrabold text-ink mb-3">Other Months</h2>
@@ -124,7 +129,7 @@ export default async function PaymentMonthPage({ params }: { params: Promise<{ s
                 href={`/payment-dates/${m.slug}`}
                 className={`text-xs font-bold px-3 py-2 rounded-lg border transition ${
                   m.slug === month.slug
-                    ? "bg-accent text-white border-accent"
+                    ? "bg-accent text-black border-accent"
                     : "bg-canvas text-muted border-border hover:bg-surface hover:text-ink"
                 }`}
               >

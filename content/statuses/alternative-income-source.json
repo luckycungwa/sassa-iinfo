@@ -14,6 +14,15 @@
     "keywords": ["SASSA alternative income source", "alternative income source detected", "SASSA declined income", "SRD income source", "R370 alternative income"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Alternative Income Source Detected — What to Do Next",
+      "description": "Did SASSA flag your grant with 'Alternative Income Source Detected'? Learn what triggered this status, how bank deposits affect your application, and step-by-step instructions to appeal the decision and secure your SRD grant.",
+      "readingTime": "5 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Appeal Your Decline", "href": "/appeals/appeal-after-income-source" },
+      "secondaryCta": { "text": "Check Your Status", "href": "/status/alternative-income-source" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Alternative Income Source Detected — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Alternative Income Source Detected' status is one of the most common reasons for SRD R370 grant declines. It means SASSA's automated monthly audit found evidence in their database that you have another source of financial support. This does not always mean you actually have income — system errors and misinterpreted bank transactions are very common." },
     { "id": "who", "type": "paragraph", "text": "This status affects SRD R370 applicants whose bank account deposits triggered SASSA's income detection threshold." },

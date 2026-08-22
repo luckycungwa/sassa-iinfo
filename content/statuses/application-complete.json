@@ -14,6 +14,15 @@
     "keywords": ["SASSA application complete", "SASSA complete meaning", "SASSA application complete status", "what does application complete mean SASSA"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Application Complete — Your Next Steps",
+      "description": "Your SASSA application shows 'Application Complete' — all your details are verified and you're in the monthly evaluation cycle. Find out what happens next, when to expect your status update, and how to prepare for payment.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Check Your Status", "href": "/status/application-complete" },
+      "secondaryCta": { "text": "View Payment Dates", "href": "/payment-dates" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Application Complete — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Application Complete' status is a positive sign. It means SASSA has received all your information, verified your details, and your profile is fully set up in the system. You are now in the monthly evaluation cycle where your eligibility is assessed each month." },
     { "id": "who", "type": "paragraph", "text": "This status affects applicants who have submitted all required documentation and SASSA is preparing a final decision." },

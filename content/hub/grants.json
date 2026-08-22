@@ -3,26 +3,38 @@
   "slug": "/grants",
   "classification": "hub-index",
   "title": "Grant Library — All SASSA Social Grants",
-  "description": "Browse every SASSA social grant available in South Africa. Compare amounts, eligibility, and application requirements.",
-  "lastUpdated": "2026-06-30",
-  "version": "1.0.0",
+  "description": "Browse every SASSA social grant available in South Africa. Compare amounts, eligibility, and application requirements. Find the right grant for your situation with our eligibility checker and quick navigation.",
+  "lastUpdated": "2026-07-29",
+  "version": "2.0.0",
   "status": "published",
-  "author": {
-    "name": "Grant Guide Editorial Team",
-    "role": "Content Editor",
-    "credentials": "Verified SASSA information providers",
-    "verified": true
-  },
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "credentials": "Verified against official SASSA publications", "verified": true },
   "seo": {
     "metaTitle": "All SASSA Social Grants — Complete Grant Library 2026",
     "metaDescription": "Browse all 8 SASSA social grants: Older Person, Child Support, Disability, Foster Care, Care Dependency, War Veterans, Grant-in-Aid, and SRD R370. Compare amounts, eligibility, and how to apply.",
-    "keywords": ["SASSA grants", "social grants South Africa", "grant amounts", "SASSA grant list"]
+    "keywords": ["SASSA grants", "social grants South Africa", "grant amounts", "SASSA grant list", "SASSA grant types"]
   },
   "contentBlocks": [
     { "id": "h1", "type": "heading", "level": 2, "text": "All SASSA Social Grants" },
-    { "id": "intro", "type": "paragraph", "text": "SASSA administers eight social grants to support South African citizens, permanent residents, and refugees. Each grant has its own eligibility criteria, means test, and application process." }
+    { "id": "intro", "type": "paragraph", "text": "SASSA administers eight social grants to support South African citizens, permanent residents, and refugees. Each grant has its own eligibility criteria, means test, and application process. Use this hub to compare grants, check amounts, and find the right grant for your situation." },
+    { "id": "quick-nav", "type": "link-grid", "links": [
+      { "title": "SRD R370 Grant", "href": "/grants/srd-r370-grant", "description": "R370/month for unemployed adults 18-59" },
+      { "title": "Older Person Grant", "href": "/grants/older-person-grant", "description": "R2,400/month for seniors 60+" },
+      { "title": "Disability Grant", "href": "/grants/disability-grant", "description": "R2,400/month for disabled adults" },
+      { "title": "Child Support Grant", "href": "/grants/child-support-grant", "description": "R580/month per child" },
+      { "title": "Foster Care Grant", "href": "/grants/foster-care-grant", "description": "R1,295/month per foster child" },
+      { "title": "Care Dependency Grant", "href": "/grants/care-dependency-grant", "description": "R2,400/month for disabled children" },
+      { "title": "War Veterans Grant", "href": "/grants/war-veterans-grant", "description": "R2,420/month for military veterans" },
+      { "title": "Grant-in-Aid", "href": "/grants/grant-in-aid", "description": "R580/month top-up for full-time care" }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How do I know which grant I qualify for?", "answer": "Use our Eligibility Checker tool to find grants matching your situation. Each grant's detail page also lists specific eligibility criteria including age, income, and personal circumstances." },
+      { "question": "Can I receive more than one grant?", "answer": "Generally you can only receive one social grant at a time. However, Grant-in-Aid can be added to the Older Person, Disability, or War Veterans Grant if you require full-time care." },
+      { "question": "How long does grant processing take?", "answer": "Standard grants take up to 3 months to process. The SRD R370 grant is reviewed monthly. All payments are backdated to the application date if approved." },
+      { "question": "What if my grant application is declined?", "answer": "You have 90 days to appeal through the Independent Tribunal for Social Assistance Appeals (ITSAA). Visit our Appeals Centre for step-by-step guidance." }
+    ] }
   ],
   "relatedPages": [
+    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
     { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
     { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
     { "title": "Disability Grant", "slug": "/grants/disability-grant" },
@@ -30,6 +42,7 @@
     { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" },
     { "title": "War Veterans Grant", "slug": "/grants/war-veterans-grant" },
     { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" }
+    { "title": "Eligibility Centre", "slug": "/eligibility" },
+    { "title": "Payment Dates", "slug": "/payment-dates" }
   ]
 }

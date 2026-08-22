@@ -14,6 +14,15 @@
     "keywords": ["SASSA someone else bank account", "SASSA third party account", "SASSA family member account", "SASSA relative bank account", "can I use my husband's bank account for SASSA"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Can I Use Someone Else's Bank Account for SASSA? Rules Explained",
+      "description": "SASSA strictly prohibits third-party bank accounts for grant payments. Learn why this rule exists, what happens if you try using someone else's account, and discover legal alternatives like Cash Send to receive your grant.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "label": "Explore Legal Alternatives", "href": "/banking/cash-send-guide" },
+      "secondaryCta": { "label": "Bank Verification Process", "href": "/banking/bank-verification-process" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Can I Use Someone Else's Bank Account for SASSA?" },
     { "id": "intro", "type": "paragraph", "text": "The short answer is NO. SASSA has strict rules that your grant must be paid into a bank account registered in your own name. Using a family member's, friend's, or anyone else's bank account is not allowed and will result in your payment being rejected or delayed." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants who are wondering whether they can receive their grant into a family member's or friend's bank account." },

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { canonicalUrl } from "@/lib/canonical";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
 import { grants } from "../../../../lib/data/grants";
 import { grantToBasePage } from "../../../../lib/data/adapters/grants-adapter";
-import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
+import { EditorialRenderer } from "../../../../components/ContentBlockRenderer";
 import { faqSchema, breadcrumbSchema } from "../../../../lib/json-ld";
 import type { FAQBlock } from "../../../../lib/schema/contentSchema";
 
@@ -15,32 +16,31 @@ export function generateStaticParams() {
   }));
   const existingSlugs = new Set(grantPages.map((p) => p.slug));
   const tsSlugs = grants
-    .filter((g) => !existingSlugs.has(`/grants/${g.slug}`))
+    .filter((g) => !existingSlugs.has("/grants/" + g.slug))
     .map((g) => ({ slug: [g.slug] }));
   return [...tsSlugs, ...jsonSlugs];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string[] }> }): Promise<Metadata> {
   const { slug } = await params;
-  const slugPath = `/grants/${slug.join("/")}`;
-
+  const slugPath = "/grants/" + slug.join("/");
   const content = getPageBySlug(slugPath);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription };
+    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/grants/${slug.join("/")}`) } };
   }
-
   const grantSlug = slug[0];
   const grant = grants.find((g) => g.slug === grantSlug);
   if (!grant) return {};
   return {
-    title: `${grant.title} | SASSA Grant Guide ${grant.amount}`,
-    description: `${grant.title} — ${grant.amount} ${grant.frequency}. Eligibility criteria, required documents, how to apply, and FAQs. ${grant.targetGroup}`,
+    title: grant.title + " | SASSA Grant Guide " + grant.amount,
+    description: grant.title + " -- " + grant.amount + " " + grant.frequency + ". Eligibility criteria, required documents, how to apply, and FAQs. " + grant.targetGroup,
+    alternates: { canonical: canonicalUrl(`/grants/${grantSlug}`) },
   };
 }
 
 export default async function GrantDetailPage({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
-  const slugPath = `/grants/${slug.join("/")}`;
+  const slugPath = "/grants/" + slug.join("/");
 
   const content = getPageBySlug(slugPath);
   if (content) {
@@ -53,7 +53,7 @@ export default async function GrantDetailPage({ params }: { params: Promise<{ sl
           { name: "Grant Library", url: "/grants" },
           { name: content.title, url: content.slug },
         ])) }} />
-        <ContentBlockRenderer blocks={content.contentBlocks} />
+        <EditorialRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
   }
@@ -70,9 +70,9 @@ export default async function GrantDetailPage({ params }: { params: Promise<{ sl
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
         { name: "Home", url: "/" },
         { name: "Grant Library", url: "/grants" },
-        { name: grant.title, url: `/grants/${grant.slug}` },
+        { name: grant.title, url: "/grants/" + grant.slug },
       ])) }} />
-      <ContentBlockRenderer blocks={basePage.contentBlocks} />
+      <EditorialRenderer page={basePage} blocks={basePage.contentBlocks} />
     </>
   );
 }

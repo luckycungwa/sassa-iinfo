@@ -1,0 +1,231 @@
+{
+  "id": "grant-disability",
+  "slug": "/grants/disability-grant",
+  "classification": "grant-detail",
+  "title": "Disability Grant — Complete Guide 2026",
+  "description": "Complete guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment walkthrough, required documents, application steps, and appeal process.",
+  "lastUpdated": "2026-07-26",
+  "version": "1.0.0",
+  "readingTime": "7 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Disability Grant — SASSA 2026 Amount, Eligibility & Guide",
+    "metaDescription": "Guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment, required documents, and appeal process.",
+    "keywords": ["SASSA disability grant", "disability grant South Africa", "SASSA disability grant amount", "disability grant application", "SASSA medical assessment"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Disability Grant" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Disability Grant — Complete Guide 2026",
+      "description": "Complete guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment walkthrough, required documents, application steps, and appeal process.",
+      "readingTime": "7 min read",
+      "lastUpdated": "2026-07-26",
+      "cta": { "label": "Check Eligibility", "href": "/eligibility/i-am-disabled" },
+      "secondaryCta": { "label": "How to Apply", "href": "/guides/how-to-apply-sassa-grant" }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R2,400",
+      "frequency": "Monthly",
+      "targetGroup": "South African citizens, permanent residents, or refugees aged 18 to 59 with a permanent or long-term disability that prevents them from earning a living."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The SASSA Disability Grant provides a monthly income for people whose disability stops them from working or supporting themselves. It is not the same as a temporary illness or injury benefit. SASSA needs proof that your disability is permanent or severe enough to keep you from earning an income."
+    },
+    {
+      "id": "eligibility-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Eligibility Criteria"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "South African citizen, permanent resident, or refugee between 18 and 59 years old",
+        "Medical assessment confirming a permanent or severe disability lasting longer than 6 months",
+        "Disability prevents you from earning a living or supporting yourself",
+        "Means Test (Single): Annual income under R96,240 and assets under R1,372,800",
+        "Means Test (Married): Combined income under R192,480 and combined assets under R2,745,600",
+        "Not already receiving another social grant for yourself"
+      ],
+      "restrictions": [
+        "You do not qualify if you live in a state-funded institution",
+        "Temporary disabilities under 6 months should apply for the Temporary Disability Grant instead"
+      ],
+      "recommendedGrants": [
+        { "name": "Grant-in-Aid", "slug": "/grants/grant-in-aid", "amount": "R580" },
+        { "name": "Care Dependency Grant", "slug": "/grants/care-dependency-grant", "amount": "R2,400" }
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs-list",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "Original 13-digit barcoded Smart Card ID or green ID book", "required": true },
+        { "label": "Medical/assessment report completed by a licensed medical practitioner", "required": true, "notes": "This is the most important document. It must be on the official SASSA medical report form (available at SASSA offices or from your doctor)." },
+        { "label": "Proof of marital status (marriage certificate, divorce order, or death certificate)", "required": true },
+        { "label": "Proof of residence (utility bill or sworn affidavit)", "required": true },
+        { "label": "Proof of income and assets (last 3 months bank statements, payslips, or affidavit if unemployed)", "required": true },
+        { "label": "Proof of any disability benefits or medical insurance payouts", "required": false, "notes": "If applicable, declare these to avoid penalties." }
+      ]
+    },
+    {
+      "id": "medical-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Medical Assessment Walkthrough"
+    },
+    {
+      "id": "medical-intro",
+      "type": "paragraph",
+      "text": "The medical assessment is the make-or-break step for your disability grant. This is where the SASSA doctor (called the District Surgeon or a contracted government doctor) examines you and decides whether your disability is severe enough. Unlike a visit to your own GP, this assessment follows a strict checklist and the doctor's findings must match specific criteria."
+    },
+    {
+      "id": "medical-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Get the medical report form",
+          "description": "Collect the official SASSA medical report form (Form A) from any SASSA office or download it online. Do not use a plain doctor's letter — it will be rejected."
+        },
+        {
+          "title": "Visit your own doctor first",
+          "description": "Your treating doctor (GP, specialist, or clinic) must complete Part A and Part B of the form. They need to describe your diagnosis, treatment history, test results, and how the disability affects your daily function. Be specific — vague descriptions get rejected."
+        },
+        {
+          "title": "Submit your application with the form",
+          "description": "Take the completed form and your other documents to the SASSA office. They will schedule you for an appointment with the District Surgeon."
+        },
+        {
+          "title": "Attend the SASSA medical assessment",
+          "description": "The District Surgeon will review your doctor's report, examine you, ask about your daily life, and decide if you meet the disability criteria. Bring any supporting test results (X-rays, blood tests, specialist letters)."
+        },
+        {
+          "title": "Wait for the decision",
+          "description": "SASSA will process the outcome. If approved, the grant is backdated to your application date. If rejected, you have 90 days to appeal."
+        }
+      ]
+    },
+    {
+      "id": "medical-what-they-check",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Permanent physical impairment: loss of limbs, paralysis, severe arthritis, blindness, advanced heart or lung disease.",
+        "Mental or neurological disability: severe depression, schizophrenia, epilepsy, dementia, intellectual disability.",
+        "Ability to perform daily activities: walking, bathing, dressing, preparing food, and working. The doctor will assess if your disability stops you from earning a living.",
+        "Duration of the condition: must be permanent or expected to last more than 6 months. Temporary conditions are referred to the Temporary Disability Grant.",
+        "Treatment progress: the doctor will check whether you are receiving appropriate treatment and whether the condition has improved or worsened."
+      ]
+    },
+    {
+      "id": "medical-qualifying",
+      "type": "callout",
+      "intent": "info",
+      "title": "What Typically Qualifies vs. What Gets Rejected",
+      "text": "Conditions that often qualify: complete or partial blindness, loss of both hands or feet, severe heart failure, end-stage kidney disease, advanced HIV with AIDS-defining illnesses, and severe psychiatric disorders. Conditions that often get rejected: back pain without nerve damage, well-controlled hypertension, mild asthma, diabetes without complications, or temporary injuries from accidents. The key is whether the disability stops you from working — not just whether you have a diagnosis."
+    },
+    {
+      "id": "temp-vs-permanent-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Temporary vs Permanent Disability Grant"
+    },
+    {
+      "id": "temp-vs-permanent-table",
+      "type": "table",
+      "headers": ["Feature", "Temporary Disability Grant", "Permanent Disability Grant"],
+      "rows": [
+        ["Duration limit", "Issued for up to 6 months", "Indefinite"],
+        ["Medical reviews", "Must be re-assessed every 6 months", "Periodic reviews, usually every 2–5 years"],
+        ["Amount", "R2,400 per month", "R2,400 per month"],
+        ["Who qualifies", "Disability expected to last 6–12 months", "Permanent disability with no expected recovery"],
+        ["Application process", "Same form, shorter review period", "Same form, longer assessment process"]
+      ],
+      "caption": "Both grants pay the same monthly amount. The main difference is how often you need to be re-assessed."
+    },
+    {
+      "id": "apply-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Apply"
+    },
+    {
+      "id": "apply-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Collect all documents", "description": "Gather your ID, proof of residence, proof of income/assets, and the SASSA medical report form completed by your doctor." },
+        { "title": "Visit your nearest SASSA office", "description": "Take the originals plus photocopies to your local SASSA office. Tell the officer you want to apply for the Disability Grant." },
+        { "title": "Fill in the application form", "description": "Complete the main application form at the office in the presence of a SASSA officer. They will also take your fingerprints." },
+        { "title": "Attend the medical assessment", "description": "SASSA will give you a date to see the District Surgeon for the medical examination." },
+        { "title": "Wait for the outcome", "description": "SASSA aims to process applications within 90 days. Payments are backdated to your application date if approved." }
+      ]
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "90 Days to Appeal",
+      "text": "If SASSA rejects your disability grant, you have 90 days from the date on the rejection letter to appeal. Write to the Minister of Social Development at the address on your rejection letter. Include a copy of the rejection letter, your ID, and any new medical evidence. Getting a more detailed report from your specialist often helps overturn a rejection."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What happens if the SASSA doctor turns me down?",
+          "answer": "You can appeal within 90 days. Get a more detailed medical report from your specialist and submit it with your appeal letter. Many rejections happen because the medical form was too vague — a clearer diagnosis and test results can make a big difference."
+        },
+        {
+          "question": "Can I work part-time while getting a disability grant?",
+          "answer": "The grant is meant for people who cannot work enough to support themselves. If you earn anything, it must fall below the means test threshold (R96,240 per year for a single person). Any extra income must be declared to SASSA."
+        },
+        {
+          "question": "What conditions automatically qualify for the disability grant?",
+          "answer": "No condition automatically qualifies. SASSA assesses each person individually. However, total blindness, loss of both limbs, advanced terminal illness, and severe psychiatric disorders are very likely to qualify if properly documented."
+        },
+        {
+          "question": "Do I need a new medical assessment every year?",
+          "answer": "It depends. If you have a permanent disability grant, reviews happen every 2 to 5 years. If you have a temporary disability grant, you are assessed every 6 months to see if the condition has improved."
+        },
+        {
+          "question": "Can I apply if I have HIV or diabetes?",
+          "answer": "HIV or diabetes alone does not qualify. You need to show that the condition has caused permanent damage — for example, AIDS-defining illnesses, HIV-related dementia, or diabetic complications like amputations or kidney failure."
+        },
+        {
+          "question": "How long does the disability grant application take?",
+          "answer": "From submission to decision, expect 60 to 90 days. The medical assessment appointment usually takes 2 to 4 weeks to schedule. If approved, your first payment includes backpay from the date you applied."
+        },
+        {
+          "question": "What is the difference between Disability Grant and Grant-in-Aid?",
+          "answer": "The Disability Grant is for people who cannot work because of their disability. Grant-in-Aid is an extra R580 paid on top of an existing grant if you need full-time care from someone else. You can receive both if you qualify."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    { "title": "Grant Library", "slug": "/grants" },
+    { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" },
+    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
+    { "title": "Disability Grant FAQ", "slug": "/faq" }
+  ]
+}

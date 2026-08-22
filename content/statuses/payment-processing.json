@@ -14,6 +14,15 @@
     "keywords": ["SASSA payment processing", "SASSA processing meaning", "SRD payment processing", "SASSA payment not reflecting", "how long does SASSA payment take"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Payment Processing — When Your Money Arrives",
+      "description": "Your SASSA status shows 'Payment Processing' — your grant money is on its way! Learn how long different payment methods take, what to do if processing takes longer than expected, and how to access your funds.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Track Your Payment", "href": "/status/payment-processing" },
+      "secondaryCta": { "text": "View Payment Methods", "href": "/banking/payment-methods" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Payment Processing — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Payment Processing' status is the best status to see — it means SASSA has instructed the bank or payment merchant to release your grant money. Your funds are in transit and should reach you shortly. This is the final stage before money arrives in your account or collection point." },
     { "id": "who", "type": "paragraph", "text": "This status affects approved beneficiaries whose grant payment is being processed for release." },

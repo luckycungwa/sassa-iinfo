@@ -16,7 +16,7 @@ export const statuses: StatusMeaning[] = [
     id: "pending",
     slug: "pending",
     statusName: "Pending",
-    shortDescription: "SASSA has received your application but has not finalized the evaluation.",
+    shortDescription: "SASSA is still evaluating your grant application — no action needed while verification is in progress.",
     explanation: "The 'Pending' status is the initial stage of any SASSA application or monthly review. It signifies that your application is in the verification pipeline where details are cross-referenced with government databases like Home Affairs, SARS, and UIF.",
     whyItHappens: [
       "You have just submitted a new application.",
@@ -47,7 +47,7 @@ export const statuses: StatusMeaning[] = [
     id: "pending-30-days",
     slug: "pending-30-days",
     statusName: "Pending for 30+ Days",
-    shortDescription: "Your application has been stuck in the verification phase for more than a month.",
+    shortDescription: "Your SASSA application has been pending verification for over 30 days — contact SASSA if it exceeds 45 days.",
     explanation: "If your status remains 'Pending' for over 30 days, it indicates a backlog in verification or a bottleneck with third-party databases (like the Department of Labour or Home Affairs).",
     whyItHappens: [
       "Unusually high volume of applicant reviews.",
@@ -75,7 +75,7 @@ export const statuses: StatusMeaning[] = [
     id: "approved",
     slug: "approved",
     statusName: "Approved",
-    shortDescription: "Congratulations! Your grant application has been successful and is scheduled for payout.",
+    shortDescription: "Your SASSA grant has been approved and funds are scheduled for payout on the assigned pay date.",
     explanation: "An 'Approved' status means SASSA has completed all safety and means tests, confirmed you qualify, and allocated funds for your payment.",
     whyItHappens: [
       "You met all eligibility and means test requirements.",
@@ -103,10 +103,43 @@ export const statuses: StatusMeaning[] = [
     ]
   },
   {
+    id: "declined",
+    slug: "declined",
+    statusName: "Declined",
+    shortDescription: "Your SASSA grant application was declined — you have 90 days to file an appeal with the Independent Tribunal.",
+    explanation: "The 'Declined' status means SASSA has evaluated your application and determined that you do not currently qualify for the grant. This is not necessarily permanent — you have the right to appeal the decision to the Independent Tribunal within 90 days of receiving the decline notice.",
+    whyItHappens: [
+      "Your declared income or assets exceed the means test threshold.",
+      "SASSA detected an alternative income source (UIF, NSFAS, employment).",
+      "Your identity or bank verification failed.",
+      "You did not submit required documents within the specified timeframe."
+    ],
+    howLongItLasts: "The decline applies to the current application cycle. You can re-apply or file an appeal within 90 days to reverse the decision.",
+    whatYouShouldDo: [
+      "Log into the SASSA DSD Appeals portal and file your appeal within 90 days.",
+      "Check the specific reason for the decline listed in your application status.",
+      "Gather supporting documents (bank statements, affidavit, proof of unemployment) to attach to your appeal."
+    ],
+    faqs: [
+      {
+        question: "Can I re-apply if my grant was declined?",
+        answer: "Yes. You can submit a new application and SASSA will evaluate it from scratch based on your current financial situation."
+      },
+      {
+        question: "How long does an appeal take?",
+        answer: "The Independent Tribunal aims to process appeals within 60 to 90 days. You will receive an SMS notification with the outcome."
+      }
+    ],
+    relatedStatuses: [
+      { name: "Alternative Income Source", slug: "alternative-income-source" },
+      { name: "Means Test Failed", slug: "means-test-failed" }
+    ]
+  },
+  {
     id: "cancelled",
     slug: "cancelled",
     statusName: "Cancelled",
-    shortDescription: "Your grant has been stopped or archived.",
+    shortDescription: "Your SASSA grant has been cancelled or stopped — visit a SASSA office to request reinstatement if needed.",
     explanation: "The 'Cancelled' status indicates that your grant is no longer active. This occurs either because you voluntarily cancelled it, you reached the age limit, or SASSA detected major non-compliance.",
     whyItHappens: [
       "You requested to cancel your grant (e.g., you found a new job).",
@@ -134,7 +167,7 @@ export const statuses: StatusMeaning[] = [
     id: "bank-verification",
     slug: "bank-verification",
     statusName: "Bank Verification Pending",
-    shortDescription: "SASSA is waiting for your bank to confirm that the account belongs to you.",
+    shortDescription: "SASSA is verifying your bank account details with your bank to confirm ownership and active status.",
     explanation: "SASSA uses an automated verification system with South Africa's major commercial banks to ensure that grants are only paid into bank accounts matching the ID number of the approved beneficiary.",
     whyItHappens: [
       "You recently submitted or updated your bank details (account number, bank name).",
@@ -160,7 +193,7 @@ export const statuses: StatusMeaning[] = [
     id: "identity-verification",
     slug: "identity-verification",
     statusName: "Identity Verification Failed / Pending",
-    shortDescription: "SASSA was unable to verify your ID details with the Department of Home Affairs.",
+    shortDescription: "SASSA could not verify your ID with Home Affairs records — complete facial verification or update your details.",
     explanation: "This status indicates a critical error where the personal details (Name, Surname, ID Number) you provided do not match the official records at the Department of Home Affairs, or your facial verification has failed.",
     whyItHappens: [
       "Typographical error in spelling your name or entering the 13-digit ID.",
@@ -187,7 +220,7 @@ export const statuses: StatusMeaning[] = [
     id: "alternative-income-source",
     slug: "alternative-income-source",
     statusName: "Alternative Income Source Detected",
-    shortDescription: "SASSA declined your grant because they found proof of other income.",
+    shortDescription: "SASSA detected other income or funding in your bank account — file an appeal if this is incorrect.",
     explanation: "Social grants are safety nets strictly for those with little to no financial support. If SASSA's monthly audit scans detect that you have received income, wages, interest, or funding elsewhere, your application is automatically declined.",
     whyItHappens: [
       "You have an active job or are registered for PAYE tax.",
@@ -215,7 +248,7 @@ export const statuses: StatusMeaning[] = [
     id: "means-test-failed",
     slug: "means-test-failed",
     statusName: "Means Test Failed",
-    shortDescription: "Your declared income or assets exceed the maximum limit allowed.",
+    shortDescription: "SASSA determined your income or assets exceed the legal grant threshold — check the limits or file an appeal.",
     explanation: "To qualify for most SASSA grants, applicants must undergo a financial 'means test'. This status indicates that your assets or household income exceed the legal threshold for the grant you applied for.",
     whyItHappens: [
       "Your annual income is higher than the single or married limit.",
@@ -240,7 +273,7 @@ export const statuses: StatusMeaning[] = [
     id: "referred",
     slug: "referred",
     statusName: "Referred",
-    shortDescription: "Your application has been flagged for suspected fraudulent activity or audit.",
+    shortDescription: "Your SASSA application was flagged for suspected fraud — contact the SASSA Fraud Hotline to resolve this.",
     explanation: "A 'Referred' status is a safety check. It means that SASSA's fraud detection system flagged your profile. This usually happens if your details are associated with multiple numbers, suspicious bank activity, or are identical to another applicant's profile.",
     whyItHappens: [
       "Your ID was used in multiple different applications.",
@@ -266,7 +299,7 @@ export const statuses: StatusMeaning[] = [
     id: "self-exclusion",
     slug: "self-exclusion",
     statusName: "Self Exclusion",
-    shortDescription: "You have indicated in your application that you have another support source.",
+    shortDescription: "Your application shows you declared another income source — file an appeal if this was a mistake.",
     explanation: "This status occurs if you answered 'Yes' to certain questions in the application declaration, indicating that you have other means of survival, or if you are currently residing in a state-sponsored shelter, prison, or old-age home.",
     whyItHappens: [
       "You marked that you receive alternative funding.",
@@ -291,7 +324,7 @@ export const statuses: StatusMeaning[] = [
     id: "application-complete",
     slug: "application-complete",
     statusName: "Application Complete",
-    shortDescription: "Your application and verification are complete, and you are waiting for monthly scheduling.",
+    shortDescription: "Your SASSA profile is fully verified and placed in the monthly approval cycle.",
     explanation: "This is a very positive status. It means SASSA has all your details, bank verification has passed, and your profile is fully complete. You are now placed in the monthly approval cycle.",
     whyItHappens: [
       "Your initial application and documents have been approved.",
@@ -315,7 +348,7 @@ export const statuses: StatusMeaning[] = [
     id: "payment-processing",
     slug: "payment-processing",
     statusName: "Payment Processing",
-    shortDescription: "SASSA is currently transferring your funds to your bank or cash outlet.",
+    shortDescription: "SASSA is processing your grant payment — funds should reach your account within 24 to 48 hours.",
     explanation: "This is the final state of the payment cycle. It means SASSA has instructed the bank or payment merchant to release your funds.",
     whyItHappens: [
       "Your grant was approved and the pay date has arrived or is imminent.",

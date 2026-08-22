@@ -10,24 +10,33 @@
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
     "metaTitle": "SASSA Grant Amounts 2026 — Complete List of All Grant Values",
-    "metaDescription": "Complete list of all SASSA social grant amounts for 2026: SRD R370, Older Person Grant R2,180, Disability Grant R2,180, Child Support Grant R530, Foster Child Grant R1,180, and more.",
+    "metaDescription": "Complete list of all SASSA social grant amounts for 2026: SRD R370, Older Person Grant R2,400, Disability Grant R2,400, Child Support Grant R580, Foster Child Grant R1,295, and more.",
     "keywords": ["SASSA grant amounts 2026", "SASSA grant values", "SASSA how much per month", "SASSA grant list", "SASSA social grant amounts"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Grant Amounts 2026 — Complete List of All Grant Values",
+      "description": "See the complete list of SASSA social grant amounts for 2026 — from the SRD R370 to the Older Person Grant of R2,400 and the War Veterans Grant of R2,420. All amounts in one place for easy reference.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "label": "Payment Dates 2026", "href": "/payment-dates" },
+      "secondaryCta": { "label": "How to Apply", "href": "/guides/how-to-apply-sassa-grant" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grant Amounts 2026" },
     { "id": "intro", "type": "paragraph", "text": "Below is the complete list of SASSA social grant amounts for 2026. Amounts are reviewed annually and may increase with the national budget." },
     { "id": "who", "type": "paragraph", "text": "This guide is for anyone who wants to see a complete overview of all current SASSA grant amounts in one place." },
     { "id": "amounts-table", "type": "table", "headers": ["Grant Type", "Monthly Amount", "Frequency"], "rows": [
       ["Social Relief of Distress (SRD R370)", "R370", "Monthly"],
-      ["Older Person Grant (60-74 years)", "R2,180", "Monthly"],
-      ["Older Person Grant (75+ years)", "R2,200", "Monthly"],
-      ["Disability Grant", "R2,180", "Monthly"],
-      ["War Veterans Grant", "R2,200", "Monthly"],
-      ["Foster Child Grant", "R1,180", "Monthly"],
-      ["Care Dependency Grant", "R2,180", "Monthly"],
-      ["Child Support Grant", "R530", "Monthly"],
-      ["Child Support Grant (orphan)", "R530", "Monthly"],
-      ["Grant-in-Aid", "R530", "Monthly"]
+      ["Older Person Grant (60-74 years)", "R2,400", "Monthly"],
+      ["Older Person Grant (75+ years)", "R2,420", "Monthly"],
+      ["Disability Grant", "R2,400", "Monthly"],
+      ["War Veterans Grant", "R2,420", "Monthly"],
+      ["Foster Child Grant", "R1,295", "Monthly"],
+      ["Care Dependency Grant", "R2,400", "Monthly"],
+      ["Child Support Grant", "R580", "Monthly"],
+      ["Child Support Grant (orphan)", "R580", "Monthly"],
+      ["Grant-in-Aid", "R580", "Monthly"]
     ] },
     { "id": "note", "type": "paragraph", "text": "Grant amounts are subject to change based on the national budget announcement. The amounts listed above are current as of July 2026." }
   ],

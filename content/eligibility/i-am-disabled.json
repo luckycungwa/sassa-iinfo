@@ -4,35 +4,101 @@
   "classification": "eligibility-guide",
   "title": "Disability Grant Eligibility and Medical Vetting Guide",
   "description": "Complete guide for disabled South Africans seeking financial assistance through the SASSA Disability Grant. Medical evaluation, application steps, and required documents.",
-  "lastUpdated": "2026-07-01",
-  "version": "1.0.0",
+  "lastUpdated": "2026-07-29",
+  "version": "2.0.0",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
     "metaTitle": "SASSA Disability Grant Eligibility — Medical Vetting & Application Guide",
     "metaDescription": "Complete guide to SASSA Disability Grant eligibility. Learn about the medical evaluation process, required documents, age requirements, and how to apply for permanent or temporary disability grants.",
-    "keywords": ["SASSA disability grant", "disability grant eligibility", "SASSA medical evaluation", "SASSA disability application", "temporary disability grant SASSA"]
+    "keywords": ["SASSA disability grant", "disability grant eligibility", "SASSA medical evaluation", "SASSA disability application", "temporary disability grant SASSA", "permanent disability grant"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Disability Grant Eligibility and Medical Vetting Guide",
+      "description": "If you cannot work due to a physical or mental condition, you may qualify for the SASSA Disability Grant. Learn about the medical evaluation process, eligibility requirements, and how to apply.",
+      "readingTime": "8 min read",
+      "lastUpdated": "July 2026",
+      "cta": { "label": "Disability Grant Guide", "href": "/grants/disability-grant" },
+      "secondaryCta": { "label": "Grant-in-Aid Guide", "href": "/grants/grant-in-aid" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Disability Grant Eligibility and Medical Vetting Guide" },
-    { "id": "intro", "type": "paragraph", "text": "Individuals who cannot work due to a physical or mental condition can qualify for SASSA's Disability Grant. Vetting requires official medical clearance." },
-    { "id": "why", "type": "paragraph", "text": "The Disability Grant exists to support South Africans who cannot work due to physical or mental conditions. It provides financial stability for those whose disabilities prevent employment for more than 6 months." },
-    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
-    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be aged 18 to 59", "Must possess a medical report completed by a SASSA-commissioned medical officer", "Must have a disability that prevents employment for longer than 6 months"], "restrictions": ["Your grant can be temporarily reviewed if your health condition improves"], "recommendedGrants": [{ "name": "Disability Grant", "slug": "disability-grant", "amount": "R2,180 / month" }, { "name": "Grant-in-Aid (if you require a full-time caregiver)", "slug": "grant-in-aid", "amount": "R530 / month" }] },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Book medical evaluation", "description": "Book a medical evaluation at your local clinic or through the SASSA portal." },
-      { "title": "Get evaluated", "description": "Get evaluated by the designated SASSA medical officer." },
-      { "title": "Complete your application", "description": "Take the signed medical report and ID to the SASSA office to complete your application." }
+    { "id": "intro", "type": "paragraph", "text": "Individuals who cannot work due to a physical or mental condition can qualify for SASSA's Disability Grant of R2,400 per month. Unlike the SRD R370, the Disability Grant is a permanent grant designed for long-term support. The application process requires official medical clearance from a SASSA-approved medical officer." },
+    { "id": "why", "type": "paragraph", "text": "The Disability Grant exists to support South Africans who cannot work due to physical or mental conditions. It provides financial stability for those whose disabilities prevent employment for more than 6 months. The grant is available as either a temporary grant (6-12 months with reassessment) or a permanent grant (with periodic reviews)." },
+    { "id": "scenario-h", "type": "heading", "level": 3, "text": "Real-Life Scenario" },
+    { "id": "scenario", "type": "paragraph", "text": "David is a 45-year-old former construction worker from Gqeberha. After a workplace accident in 2024, he sustained a spinal injury that left him unable to perform physical labour. His doctor confirmed his disability will prevent employment for more than 6 months. David applied for the SASSA Disability Grant and was approved after completing a medical evaluation. He also explored the Grant-in-Aid as he requires assistance from a family caregiver. This guide covers David's journey and what you need to do in a similar situation." },
+    { "id": "grants-h", "type": "heading", "level": 3, "text": "Which Grants You Can Apply For" },
+    { "id": "grants-table", "type": "table", "headers": ["Grant Type", "Amount", "Duration", "Requirements"], "rows": [
+      ["Disability Grant (Temporary)", "R2,400/month", "6-12 months", "Disability expected to improve. Requires reassessment at end of period."],
+      ["Disability Grant (Permanent)", "R2,400/month", "Ongoing (periodic reviews)", "Permanent disability. Reviewed every 1-5 years depending on condition."],
+      ["Grant-in-Aid", "R580/month top-up", "As long as primary grant is active", "Requires medical proof of need for full-time 24-hour care."]
     ] },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": [
+      "Must be a South African citizen, permanent resident, or refugee",
+      "Must be aged 18 to 59 years",
+      "Must submit a medical assessment report from a SASSA-approved doctor (less than 3 months old)",
+      "The disability must prevent you from working",
+      "Means Test (Single): Annual income under R96,240; assets under R1,372,800",
+      "Means Test (Married): Combined income under R192,480; assets under R2,745,600"
+    ], "restrictions": [
+      "Your grant can be temporarily reviewed if your health condition improves",
+      "You cannot receive UIF while on the Disability Grant",
+      "If you turn 60, you may transition to the Older Person Grant"
+    ], "recommendedGrants": [
+      { "name": "Disability Grant", "slug": "disability-grant", "amount": "R2,400 / month" },
+      { "name": "Grant-in-Aid (if you require a full-time caregiver)", "slug": "grant-in-aid", "amount": "R580 / month" }
+    ] },
+    { "id": "docs-h", "type": "heading", "level": 3, "text": "Required Documents" },
+    { "id": "docs", "type": "document-checklist", "documents": [
+      { "label": "Applicant's original ID (green book or smart card)", "required": true },
+      { "label": "Medical assessment report completed by a SASSA-commissioned medical practitioner (less than 3 months old)", "required": true },
+      { "label": "Proof of income and assets or affidavit of unemployment", "required": true },
+      { "label": "Proof of residence (utility bill or tribal authority letter)", "required": true },
+      { "label": "Last 3 months bank statements", "required": true }
+    ] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Application Process" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Get a medical referral", "description": "Visit your clinic or doctor to get a referral for a SASSA medical assessment. Your doctor must confirm your disability prevents employment for 6+ months." },
+      { "title": "Book the SASSA medical exam", "description": "Book a medical evaluation through the SASSA portal or at your local SASSA office. You will be assigned a SASSA-commissioned medical officer." },
+      { "title": "Attend the medical assessment", "description": "Attend the examination with the SASSA medical officer. They will assess your condition and complete the official medical report." },
+      { "title": "Submit your application", "description": "Take the completed medical report, your ID, and supporting documents to your nearest SASSA office to complete the formal application." },
+      { "title": "Wait for processing", "description": "Applications take up to 3 months to process. If approved, payments are backdated to your application date." }
+    ] },
+    { "id": "timeline-h", "type": "heading", "level": 3, "text": "Timeline" },
+    { "id": "timeline", "type": "callout", "intent": "info", "title": "Processing Timeline", "text": "Medical assessment booking: 1-2 weeks. Application processing: up to 3 months. If approved, backpay from application date. Reassessment for temporary grants: every 6-12 months." },
+    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
+    { "id": "mistakes", "type": "list", "ordered": false, "items": [
+      "Using a private doctor's report instead of a SASSA-commissioned medical officer — only SASSA-approved doctors count",
+      "Submitting a medical report older than 3 months — it will be rejected",
+      "Not attending the scheduled medical exam — you must rebook and restart the process",
+      "Failing to declare all income sources — SASSA cross-checks with banks and SARS"
+    ] },
+    { "id": "decline-h", "type": "heading", "level": 3, "text": "What to Do If Your Application Is Declined" },
+    { "id": "decline", "type": "paragraph", "text": "If your Disability Grant is declined due to 'medical criteria not met', you must file an appeal with the Minister of Social Development within 90 days. Make sure to attach any supplementary medical records, specialist reports, or hospital discharge summaries that support your case. Visit our appeals centre for detailed guidance." },
     { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Can I receive a disability grant if I get a private pension?", "answer": "Only if the private pension income falls below the strict means test threshold of R96,240 per year." },
-      { "question": "Can I get a temporary disability grant?", "answer": "Yes. If your disability is expected to last between 6 and 12 months, you may qualify for a temporary disability grant. A medical reassessment is required at the end of the period." }
+      { "question": "What is the difference between a temporary and permanent disability grant?", "answer": "A temporary disability grant is approved for 6 to 12 months when your condition is expected to improve. A permanent grant is for conditions unlikely to change but is still reviewed periodically (every 1-5 years)." },
+      { "question": "Can I receive a disability grant if I get a private pension?", "answer": "Only if the private pension income falls below the strict means test threshold of R96,240 per year for a single person." },
+      { "question": "Can I work while receiving the Disability Grant?", "answer": "No. The Disability Grant is for individuals who cannot work due to disability. If you start working, you must report this to SASSA as it may affect your eligibility." },
+      { "question": "Does the Disability Grant turn into the Older Person Grant at 60?", "answer": "Yes, once you turn 60 you will transition from the Disability Grant to the Older Person Grant. The amount is similar, but you must complete a new application." },
+      { "question": "Can I get both the Disability Grant and Grant-in-Aid?", "answer": "Yes. Grant-in-Aid is an additional R580/month on top of your Disability Grant if you require full-time 24-hour care from another person." },
+      { "question": "What medical conditions qualify for the Disability Grant?", "answer": "Any physical or mental condition that prevents you from working for longer than 6 months may qualify. This includes but is not limited to: spinal injuries, severe arthritis, HIV/AIDS complications, mental health conditions, vision/hearing loss, and chronic illnesses." }
+    ] },
+    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
+    { "id": "related", "type": "link-grid", "links": [
+      { "title": "Disability Grant Guide", "href": "/grants/disability-grant", "description": "Full details on the Disability Grant" },
+      { "title": "Grant-in-Aid Guide", "href": "/grants/grant-in-aid", "description": "Additional support for full-time care" },
+      { "title": "Care Dependency Grant Guide", "href": "/grants/care-dependency-grant", "description": "For children with severe disabilities" },
+      { "title": "How to Appeal a Decline", "href": "/appeals/how-to-appeal", "description": "Step-by-step appeal process" },
+      { "title": "SASSA for Over-60s", "href": "/eligibility/i-am-over-60", "description": "Transitioning from Disability to Older Person Grant" }
     ] }
   ],
   "relatedPages": [
     { "title": "Disability Grant", "slug": "/grants/disability-grant" },
     { "title": "Grant-in-Aid Guide", "slug": "/grants/grant-in-aid" },
+    { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" },
+    { "title": "How to Appeal a Decline", "slug": "/appeals/how-to-appeal" },
     { "title": "SASSA for Over-60s", "slug": "/eligibility/i-am-over-60" }
   ]
 }

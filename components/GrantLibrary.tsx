@@ -16,7 +16,7 @@ export default function GrantLibrary() {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
       {/* Grant Sidebar Selector */}
       <div className="lg:col-span-4 space-y-3">
-        <h2 className="font-bold text-base text-slate-800 px-1 font-mono tracking-wide uppercase">
+        <h2 className="font-bold text-base text-ink px-1 font-mono tracking-wide uppercase">
           Social Grants
         </h2>
         <div className="space-y-2">
@@ -29,8 +29,8 @@ export default function GrantLibrary() {
               }}
               className={`w-full text-left p-4 rounded-xl border transition flex items-center justify-between ${
                 selectedGrant.id === g.id
-                  ? "bg-accent border-emerald-950 text-white font-semibold"
-                  : "bg-surface border-border hover:border-accent/40 text-slate-700 hover:bg-canvas"
+                  ? "bg-accent border-ink text-black font-semibold"
+                  : "bg-surface border-border hover:border-accent/40 text-ink hover:bg-canvas"
               }`}
             >
               <div>
@@ -51,12 +51,12 @@ export default function GrantLibrary() {
             <h1 className="text-2xl font-extrabold text-ink tracking-tight">
               {selectedGrant.title}
             </h1>
-            <div className="bg-accent-light text-accent-dark border border-emerald-100 font-mono font-bold px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-sm">
+            <div className="bg-accent-light text-accent-dark border border-accent-light/40 font-mono font-bold px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-sm">
               <Landmark className="w-4 h-4" />
               <span>{selectedGrant.amount} / month</span>
             </div>
           </div>
-          <p className="text-slate-600 text-sm md:text-base leading-relaxed">
+          <p className="text-muted text-sm md:text-base leading-relaxed">
             {selectedGrant.overview}
           </p>
         </div>
@@ -65,14 +65,14 @@ export default function GrantLibrary() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Eligibility */}
           <div className="space-y-3">
-            <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
+            <h3 className="font-bold text-sm text-ink flex items-center gap-2">
               <CheckCircle className="w-4 h-4 text-accent-dark" />
               Eligibility Criteria
             </h3>
-            <ul className="space-y-2 text-xs md:text-sm text-slate-600">
+            <ul className="space-y-2 text-xs md:text-sm text-muted">
               {selectedGrant.eligibilityCriteria.map((c, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 mt-2 flex-shrink-0"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent-dark mt-2 flex-shrink-0"></span>
                   <span>{c}</span>
                 </li>
               ))}
@@ -81,14 +81,14 @@ export default function GrantLibrary() {
 
           {/* Required Documents */}
           <div className="space-y-3">
-            <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
-              <FileText className="w-4 h-4 text-amber-500" />
+            <h3 className="font-bold text-sm text-ink flex items-center gap-2">
+              <FileText className="w-4 h-4 text-accent-dark" />
               Documents Required
             </h3>
-            <ul className="space-y-2 text-xs md:text-sm text-slate-600">
+            <ul className="space-y-2 text-xs md:text-sm text-muted">
               {selectedGrant.documentsRequired.map((d, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400 mt-2 flex-shrink-0"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent-dark mt-2 flex-shrink-0"></span>
                   <span>{d}</span>
                 </li>
               ))}
@@ -98,11 +98,11 @@ export default function GrantLibrary() {
 
         {/* Application Process */}
         <div className="bg-canvas rounded-xl p-5 border border-border space-y-3">
-          <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
-            <BookOpen className="w-4 h-4 text-slate-800" />
+          <h3 className="font-bold text-sm text-ink flex items-center gap-2">
+            <BookOpen className="w-4 h-4 text-ink" />
             How To Apply
           </h3>
-          <ol className="space-y-2 text-xs md:text-sm text-slate-600 list-decimal pl-4">
+          <ol className="space-y-2 text-xs md:text-sm text-muted list-decimal pl-4">
             {selectedGrant.howToApply.map((step, idx) => (
               <li key={idx} className="pl-1">
                 <span>{step}</span>
@@ -112,8 +112,8 @@ export default function GrantLibrary() {
         </div>
 
         {/* Appeal Notes */}
-        <div className="bg-amber-50/50 border border-amber-100 p-4 rounded-xl flex items-start gap-2 text-xs text-amber-800 leading-relaxed">
-          <Bookmark className="w-4 h-4 text-amber-600 mt-0.5 flex-shrink-0" />
+        <div className="bg-amber/10 border border-amber/30 p-4 rounded-xl flex items-start gap-2 text-xs text-ink leading-relaxed">
+          <Bookmark className="w-4 h-4 text-amber mt-0.5 flex-shrink-0" />
           <div>
             <p className="font-bold">Important Appeal Guideline:</p>
             <p className="mt-0.5">{selectedGrant.appealNotes}</p>
@@ -123,16 +123,16 @@ export default function GrantLibrary() {
         {/* FAQs Section */}
         {selectedGrant.faqs && selectedGrant.faqs.length > 0 && (
           <div className="space-y-3">
-            <h3 className="font-bold text-sm text-slate-800 flex items-center gap-2">
+            <h3 className="font-bold text-sm text-ink flex items-center gap-2">
               <HelpCircle className="w-4 h-4 text-accent-dark" />
               Frequently Asked Questions
             </h3>
-            <div className="space-y-2 divide-y divide-slate-100">
+            <div className="space-y-2 divide-y divide-surface-dim">
               {selectedGrant.faqs.map((faq, idx) => (
                 <div key={idx} className="pt-2.5 first:pt-0">
                   <button
                     onClick={() => toggleFaq(idx)}
-                    className="w-full text-left font-semibold text-sm text-slate-800 hover:text-accent-dark flex justify-between items-center py-1.5"
+                    className="w-full text-left font-semibold text-sm text-ink hover:text-accent-dark flex justify-between items-center py-1.5"
                   >
                     <span>{faq.question}</span>
                     {expandedFaq === idx ? (
@@ -142,7 +142,7 @@ export default function GrantLibrary() {
                     )}
                   </button>
                   {expandedFaq === idx && (
-                    <div className="text-xs md:text-sm text-slate-600 mt-1 pl-1 leading-relaxed">
+                    <div className="text-xs md:text-sm text-muted mt-1 pl-1 leading-relaxed">
                       {faq.answer}
                     </div>
                   )}

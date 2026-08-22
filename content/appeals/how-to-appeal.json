@@ -14,6 +14,15 @@
     "keywords": ["SASSA appeal process", "how to appeal SASSA", "ITSAA appeal", "SASSA grant declined", "appeal SASSA decision"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "How to Appeal a Declined SASSA Grant",
+      "description": "If your SASSA grant application was declined, you have the right to challenge the decision through the Independent Tribunal for Social Assistance Appeals (ITSAA). This comprehensive guide walks you through every step of the appeal process, from submitting your appeal to tracking its progress.",
+      "readingTime": "10 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Submit an Appeal", "href": "https://srd.dsd.gov.za" },
+      "secondaryCta": { "text": "View Appeal Timeline", "href": "/appeals/appeal-timeline" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Appeal a Declined SASSA Grant Application" },
     { "id": "intro", "type": "paragraph", "text": "If your social grant application was declined, you have the legal right to challenge the decision. Appeals are not handled by SASSA itself, but rather by an independent tribunal (ITSAA) to ensure fairness." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA grant applicants whose applications have been declined and who want to challenge the decision through the Independent Tribunal for Social Assistance Appeals (ITSAA)." },

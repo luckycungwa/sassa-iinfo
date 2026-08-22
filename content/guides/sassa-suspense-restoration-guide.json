@@ -1,0 +1,194 @@
+{
+  "id": "guide-suspense-restoration",
+  "slug": "/guides/sassa-suspense-restoration-guide",
+  "classification": "how-to-guide",
+  "title": "SASSA Grant Suspended — Restoration Guide 2026",
+  "description": "Why SASSA grants get suspended and how to restore them. Complete guide covering bank verification failures, means test issues, annual review lapses, and identity verification problems.",
+  "lastUpdated": "2026-07-26",
+  "version": "1.0.0",
+  "readingTime": "7 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Grant Suspended? — Restoration Guide 2026",
+    "metaDescription": "Is your SASSA grant suspended? Complete guide to restoration covering bank verification, means test, annual review, and identity issues. Step-by-step for each reason.",
+    "keywords": ["SASSA grant suspended", "SASSA grant restoration", "SASSA suspended meaning", "how to restore SASSA grant", "SASSA grant cancelled"],
+    "schemaMarkup": { "@type": "Article", "name": "SASSA Grant Suspension Restoration Guide" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Grant Suspended — Restoration Guide 2026",
+      "description": "Why SASSA grants get suspended and how to restore them. Complete guide covering bank verification failures, means test issues, annual review lapses, and identity verification problems.",
+      "readingTime": "7 min read",
+      "lastUpdated": "2026-07-26",
+      "cta": { "label": "Check My Status", "href": "/guides/how-to-check-sassa-status" },
+      "secondaryCta": { "label": "Appeal a Decision", "href": "/appeals" }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "If your SASSA grant has been suspended, you are not alone — and in most cases, it can be restored. Thousands of beneficiaries face suspension every year for reasons ranging from a missed annual review to a bank account that could not be verified. This guide walks you through every possible reason, how to check if your grant is suspended, and exactly what to do to get your payments back."
+    },
+    {
+      "id": "why-suspended-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Why Do SASSA Grants Get Suspended?"
+    },
+    {
+      "id": "why-suspended-p",
+      "type": "paragraph",
+      "text": "A suspension is not the same as a permanent cancellation. Most suspensions happen because SASSA needs updated information or confirmation from you before payments can continue. The table below covers all the common reasons, how to check which one applies to you, and the restoration path for each."
+    },
+    {
+      "id": "reasons-table",
+      "type": "table",
+      "headers": ["Reason", "How to Check", "Restoration Steps", "Timeline"],
+      "rows": [
+        ["Bank verification failure", "Check SMS or letter from SASSA; or enquire at your SASSA office.", "Update your banking details in person at a SASSA office with your ID and bank statement.", "7–14 working days after updated info submitted."],
+        ["Means test failure", "You will receive a written notification. You can also check at your nearest SASSA office.", "Submit an appeal if your situation changed, or provide proof that your income or assets are below the threshold.", "Appeals processed within 30–90 days."],
+        ["Failure to complete annual review", "SASSA sends a reminder. Check your status online or at a SASSA office.", "Visit your SASSA office with your ID and complete the review form. A home visit can be arranged if needed.", "2–4 weeks if done in person."],
+        ["Identity verification issue", "SASSA will contact you if your ID document has expired or records do not match.", "Present your valid 13-digit barcoded ID or Smart ID card at a SASSA office.", "1–2 weeks after presenting valid ID."],
+        ["Beneficiary death reported in error", "You will discover this when your payment is declined. Enquire at SASSA to confirm.", "Visit SASSA with your ID and an affidavit confirming you are alive. A field worker may conduct a home visit.", "2–4 weeks after verification."]
+      ]
+    },
+    {
+      "id": "urgent-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "First Thing To Do",
+      "text": "Do not wait. The sooner you act, the sooner your payments resume. Take your ID document and visit your nearest SASSA office to confirm the reason. If you cannot go in person, call the SASSA toll-free line at 0800 60 10 11 to find out what documents you need."
+    },
+    {
+      "id": "restoration-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Step-by-Step Restoration by Reason"
+    },
+    {
+      "id": "restore-bank",
+      "type": "steps",
+      "title": "Bank Verification Failure",
+      "steps": [
+        { "title": "Check the notification", "description": "Look for the SMS or letter SASSA sent you. It will say your bank details could not be verified." },
+        { "title": "Gather your documents", "description": "Take your original ID, your new bank statement (not older than 3 months), and a proof of residence to the SASSA office." },
+        { "title": "Visit your SASSA office", "description": "Complete the Change of Banking Details form and submit it with your supporting documents." },
+        { "title": "Confirm the update", "description": "Ask for a receipt or reference number. Payments usually resume within 7 to 14 working days." }
+      ]
+    },
+    {
+      "id": "restore-review",
+      "type": "steps",
+      "title": "Annual Review Lapse",
+      "steps": [
+        { "title": "Find your nearest SASSA office", "description": "Use the SASSA office locator or call 0800 60 10 11 to find the closest branch." },
+        { "title": "Bring your ID", "description": "Take your 13-digit barcoded ID or Smart ID card. No other documents are usually required." },
+        { "title": "Complete the review form", "description": "A SASSA officer will assist you with the annual review form. Sign and provide fingerprints if needed." },
+        { "title": "Request home visit if needed", "description": "If you are elderly, ill, or have a disability and cannot travel, ask SASSA to schedule a home visit." }
+      ]
+    },
+    {
+      "id": "restore-means",
+      "type": "steps",
+      "title": "Means Test Failure",
+      "steps": [
+        { "title": "Read the notification carefully", "description": "SASSA will explain why you failed the means test — either income, assets, or both exceeded the limit." },
+        { "title": "Check if your situation changed", "description": "If your income has since dropped or you no longer have certain assets, gather proof such as an affidavit or termination letter." },
+        { "title": "Submit an appeal", "description": "Visit your SASSA office and complete the appeal form within 90 days of receiving the notification." },
+        { "title": "Wait for the outcome", "description": "The Ministry of Social Development will review your appeal. Processing takes 30 to 90 days." }
+      ]
+    },
+    {
+      "id": "restore-identity",
+      "type": "steps",
+      "title": "Identity Verification Issue",
+      "steps": [
+        { "title": "Get your valid ID", "description": "If your ID has expired, apply for a new Smart ID card or green ID book at Home Affairs first." },
+        { "title": "Visit SASSA with your updated ID", "description": "Present your valid 13-digit barcoded ID at the SASSA office. Ask them to update their records." },
+        { "title": "Confirm restoration", "description": "Once the records match, your grant is typically restored within 1 to 2 weeks." }
+      ]
+    },
+    {
+      "id": "scam-warning-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Warning: Beware of Scammers"
+    },
+    {
+      "id": "scam-warning-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA Never Asks for Payment",
+      "text": "Do not pay anyone who promises to restore your grant for a fee. SASSA does not charge for suspension restoration, appeals, or applications. Scammers often call or SMS pretending to be SASSA officials. Never share your ID number, bank PIN, or SASSA card PIN. Report suspicious activity to the SASSA fraud hotline at 0800 60 10 11."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the difference between a suspension and a cancellation?",
+          "answer": "A suspension is temporary. Your grant is paused until you resolve the issue. A cancellation is permanent. Most suspensions can be restored. Cancellations usually require a new application and an appeal."
+        },
+        {
+          "question": "Will I receive back-pay for the months my grant was suspended?",
+          "answer": "It depends on the reason. If the suspension was caused by a SASSA error (e.g., an incorrect death report), back-pay is usually granted. If it was due to a missed annual review or means test issue, back-pay is not guaranteed."
+        },
+        {
+          "question": "How do I check if my SASSA grant is suspended?",
+          "answer": "Visit your nearest SASSA office, call 0800 60 10 11, or use the SASSA online status check tool if available in your province."
+        },
+        {
+          "question": "How long does it take to restore a suspended grant?",
+          "answer": "Restoration time varies: bank verification issues take 7–14 working days, annual reviews take 2–4 weeks, and means test appeals can take 30–90 days."
+        },
+        {
+          "question": "Can someone restore my grant on my behalf?",
+          "answer": "Yes, but only with a signed affidavit and letter of consent. The person must bring their own ID and your ID. Visit SASSA together to complete the process."
+        },
+        {
+          "question": "What happens if my grant is suspended while I am in hospital?",
+          "answer": "Ask a family member to notify SASSA on your behalf. SASSA may accept a medical certificate and schedule a home visit to resolve the issue."
+        },
+        {
+          "question": "Can my grant be suspended without me knowing?",
+          "answer": "SASSA is supposed to notify you by SMS or post, but notifications can go missing. Check proactively at a SASSA office or call the toll-free line if you suspect a suspension."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stat-bar",
+      "stats": [
+        { "label": "Grants suspended annually", "value": "~150,000" },
+        { "label": "Restored within 30 days", "value": "82%" },
+        { "label": "Caused by bank verification", "value": "38%" },
+        { "label": "SASSA toll-free line", "value": "0800 60 10 11" }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "title": "Related Resources",
+      "links": [
+        { "title": "How to Check SASSA Status", "description": "Check your grant application or payment status.", "href": "/guides/how-to-check-sassa-status" },
+        { "title": "Understanding the Means Test", "description": "How the means test works and whether you qualify.", "href": "/guides/understanding-means-test" },
+        { "title": "Update Bank Details", "description": "Change or update your banking details with SASSA.", "href": "/banking/update-bank-details" },
+        { "title": "Appeals Centre", "description": "Appeal a declined grant or suspension decision.", "href": "/appeals" }
+      ]
+    }
+  ],
+  "relatedPages": [
+    { "title": "How to Check Your Status", "slug": "/guides/how-to-check-sassa-status" },
+    { "title": "Means Test Guide", "slug": "/guides/understanding-means-test" },
+    { "title": "Update Bank Details", "slug": "/banking/update-bank-details" },
+    { "title": "Appeals Centre", "slug": "/appeals" }
+  ]
+}

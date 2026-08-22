@@ -14,6 +14,15 @@
     "keywords": ["SASSA bank verification process", "SASSA verify bank account", "SASSA bank check", "SASSA account verification", "why SASSA bank verification fails"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Bank Verification Process Explained — How SASSA Checks Your Account",
+      "description": "SASSA uses an automated system to verify your bank account before releasing grant payments. Understand how the verification works, why it might fail, and how to resolve issues to get your grant paid on time.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "label": "Fix Verification Issues", "href": "/banking/update-bank-details" },
+      "secondaryCta": { "label": "Payment Not Reflecting?", "href": "/banking/payment-not-reflecting" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Bank Verification Process Explained" },
     { "id": "intro", "type": "paragraph", "text": "SASSA uses an automated bank verification system to ensure your grant is paid into the correct account. The system checks that the ID number and name on your bank account match your SASSA application exactly. This prevents fraud and ensures payments reach the right person." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants and beneficiaries whose bank account details are being checked by SASSA's automated verification system." },

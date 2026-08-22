@@ -14,6 +14,15 @@
     "keywords": ["change SASSA payment method", "SASSA switch to cash send", "SASSA change from bank to cash", "SASSA payment method change online", "SASSA switch payment method"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "How to Change Your SASSA Payment Method",
+      "description": "You can switch between bank transfer, Cash Send, and the SASSA card at any time. Follow our step-by-step guide to change your payment method online and understand when the change takes effect.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "label": "Compare Payment Methods", "href": "/banking/payment-methods" },
+      "secondaryCta": { "label": "Update Bank Details", "href": "/banking/update-bank-details" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Change Your SASSA Payment Method" },
     { "id": "intro", "type": "paragraph", "text": "You can change how you receive your SASSA grant at any time. Whether you want to switch from bank transfer to Cash Send, or update your bank account details, the process is simple." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries who want to switch between bank transfer, Cash Send retail collection, or the SASSA card payment methods." },

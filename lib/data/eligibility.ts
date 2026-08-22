@@ -28,7 +28,7 @@ export const eligibilityGuides: EligibilityGuide[] = [
     ],
     recommendedGrants: [
       { name: "Social Relief of Distress (SRD R370)", slug: "srd-r370-grant", amount: "R370 / month" },
-      { name: "Child Support Grant (if you have children)", slug: "child-support-grant", amount: "R530 / month" }
+      { name: "Child Support Grant (if you have children)", slug: "child-support-grant", amount: "R580 / month" }
     ],
     stepsToQualify: [
       "Register an account on the official SASSA portal.",
@@ -59,7 +59,7 @@ export const eligibilityGuides: EligibilityGuide[] = [
     ],
     recommendedGrants: [
       { name: "Social Relief of Distress (SRD R370) - If not funded by NSFAS", slug: "srd-r370-grant", amount: "R370 / month" },
-      { name: "Child Support Grant (if caregiver is low-income)", slug: "child-support-grant", amount: "R530 / month" }
+      { name: "Child Support Grant (if caregiver is low-income)", slug: "child-support-grant", amount: "R580 / month" }
     ],
     stepsToQualify: [
       "Ensure you have a letter or document proving you do not receive NSFAS funding.",
@@ -88,8 +88,8 @@ export const eligibilityGuides: EligibilityGuide[] = [
       "Annual income must be below R96,240 (Single) or R192,480 (Married)."
     ],
     recommendedGrants: [
-      { name: "Older Person Grant (Pension)", slug: "older-person-grant", amount: "R2,180 / month" },
-      { name: "Grant-in-Aid (if you require 24/7 care)", slug: "grant-in-aid", amount: "R530 / month" }
+      { name: "Older Person Grant (Pension)", slug: "older-person-grant", amount: "R2,400 / month" },
+      { name: "Grant-in-Aid (if you require 24/7 care)", slug: "grant-in-aid", amount: "R580 / month" }
     ],
     stepsToQualify: [
       "Gather your green ID book/smart card and proof of marital status.",
@@ -101,8 +101,8 @@ export const eligibilityGuides: EligibilityGuide[] = [
     ],
     faqs: [
       {
-        question: "When does the payout increase to R2,200?",
-        answer: "Beneficiaries aged 75 and older receive an extra R20 per month, bringing their total pension to R2,200."
+        question: "When does the payout increase to R2,420?",
+        answer: "Beneficiaries aged 75 and older receive an extra R20 per month, bringing their total pension to R2,420."
       }
     ]
   },
@@ -119,8 +119,8 @@ export const eligibilityGuides: EligibilityGuide[] = [
       "Must have a disability that prevents employment for longer than 6 months."
     ],
     recommendedGrants: [
-      { name: "Disability Grant", slug: "disability-grant", amount: "R2,180 / month" },
-      { name: "Grant-in-Aid (if you require a full-time caregiver)", slug: "grant-in-aid", amount: "R530 / month" }
+      { name: "Disability Grant", slug: "disability-grant", amount: "R2,400 / month" },
+      { name: "Grant-in-Aid (if you require a full-time caregiver)", slug: "grant-in-aid", amount: "R580 / month" }
     ],
     stepsToQualify: [
       "Book a medical evaluation at your local clinic or through the SASSA portal.",
@@ -151,7 +151,7 @@ export const eligibilityGuides: EligibilityGuide[] = [
     ],
     recommendedGrants: [
       { name: "Social Relief of Distress (SRD R370)", slug: "srd-r370-grant", amount: "R370 / month" },
-      { name: "Child Support Grant", slug: "child-support-grant", amount: "R530 / month" }
+      { name: "Child Support Grant", slug: "child-support-grant", amount: "R580 / month" }
     ],
     stepsToQualify: [
       "Check your UIF monthly payout amount on the UIF portal.",

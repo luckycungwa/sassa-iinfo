@@ -14,6 +14,15 @@
     "keywords": ["SASSA UIF appeal", "UIF registered SASSA decline", "UI-19 form", "SASSA UIF database error", "appeal SASSA UIF"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Appealing a Decline Due to UIF Registration",
+      "description": "SASSA often declines grants when your ID is linked to a UIF record, even if you are no longer receiving payments. This guide explains how to get a UI-19 termination letter from the Department of Labour and submit a successful appeal.",
+      "readingTime": "5 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Appeal Your UIF Decline", "href": "https://srd.dsd.gov.za" },
+      "secondaryCta": { "text": "How to Appeal Guide", "href": "/appeals/how-to-appeal" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Appealing a Decline Due to UIF Registration" },
     { "id": "intro", "type": "paragraph", "text": "A very common reason for grant rejection is 'UIF Registered'. This happens because SASSA's database checks find your ID registered on the Department of Labour's UIF database, even if you are no longer receiving payments." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants who received a decline status because their ID number is linked to a UIF record, even if they are no longer receiving UIF payments." },

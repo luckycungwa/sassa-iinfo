@@ -1,0 +1,148 @@
+{
+  "id": "payment-date-2026-july",
+  "slug": "/payment-dates/2026-july",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates — July 2026",
+  "description": "Complete schedule of SASSA social grant payout dates for July 2026. Older Persons: 3 July, Disability: 4 July, Children: 7 July, SRD R370: 14 July.",
+  "lastUpdated": "2026-07-28",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates July 2026: Full Payout Schedule Released",
+    "metaDescription": "SASSA payment dates for July 2026 confirmed: Older Persons Grant 3 July, Disability Grant 4 July, Children's Grants 7 July, SRD R370 on 14 July. Includes Q2 review cycle information and collection tips.",
+    "keywords": ["SASSA payment dates July 2026", "July SASSA payout schedule", "SASSA grant payment dates July", "SASSA July collection dates", "social grant payments July 2026"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Payment Dates July 2026" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Payment Dates — July 2026",
+      "description": "Complete schedule of social grant payout dates for July 2026. Older Persons: 3 July, Disability: 4 July, Children: 7 July, SRD R370: 14 July. Know your date and avoid the queues.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-07-28",
+      "cta": { "label": "View All Payment Dates", "href": "/payment-dates" },
+      "secondaryCta": { "label": "Check January Dates", "href": "/payment-dates/2026-january" }
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "SASSA has confirmed the payment schedule for July 2026. Grant beneficiaries should note that payments begin on the first banking day of the month and follow the standard staggered schedule. If you collect at a SAPO (Post Office) or Cash Paymaster point, arrive early and bring your original ID document."
+    },
+    {
+      "id": "dates-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "July 2026 Payment Schedule"
+    },
+    {
+      "id": "dates-table",
+      "type": "table",
+      "headers": ["Grant Type", "Payment Date", "Day of Week"],
+      "rows": [
+        ["Older Persons Grant (Pension)", "3 July 2026", "Friday"],
+        ["Disability Grant", "4 July 2026", "Saturday (paid Friday at some sites)"],
+        ["Children's Grants (CSG, Foster, CDG)", "7 July 2026", "Tuesday"],
+        ["Social Relief of Distress (SRD R370)", "14 July 2026", "Tuesday"]
+      ],
+      "caption": "Full SASSA payout schedule for July 2026"
+    },
+    {
+      "id": "q2-cycle-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Q2 Review Cycle for SRD Grants"
+    },
+    {
+      "id": "q2-cycle-paragraph",
+      "type": "paragraph",
+      "text": "July marks the second quarter review cycle for the SRD R370 grant. All SRD applicants must ensure their banking details and contact information are up to date on the SASSA SRD website. If your application status shows 'pending' or 'review,' log in to check whether any additional documents are required."
+    },
+    {
+      "id": "q2-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Update Your Banking Details Now",
+      "text": "SASSA conducts quarterly reviews of SRD beneficiaries. If your banking details have changed since you last applied, update them immediately on the SRD portal. Payments may be delayed if SASSA cannot verify your account."
+    },
+    {
+      "id": "collection-tips-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Tips for Collecting Your Grant in July"
+    },
+    {
+      "id": "collection-tips",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Wait at least 48 hours after the payment date before visiting collection points to allow systems to process.",
+        "Avoid the first three days of the payment cycle — queues are longest then.",
+        "Use your SASSA gold card at any Shoprite, Checkers, Pick n Pay, Boxer, or USave till point for free withdrawals.",
+        "SAPO (Post Office) branches may have different operating hours during July — check your local branch beforehand.",
+        "If you lost your card, request a replacement at your nearest SASSA office immediately."
+      ]
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What if my payment date falls on a weekend?",
+          "answer": "When a payment date falls on a Saturday or Sunday, SASSA typically processes payments on the preceding Friday. Some collection points may also operate on Saturday. Check with your local pay point for exact availability."
+        },
+        {
+          "question": "Can I collect my grant at any retailer or only the one I registered with?",
+          "answer": "You can collect at any participating retailer — Shoprite, Checkers, Pick n Pay, Boxer, or USave — regardless of where you registered. You do not need to stick to one store. Simply swipe your SASSA gold card and choose the withdrawal option."
+        },
+        {
+          "question": "Why does my SRD say 'pending' even though July payment dates are published?",
+          "answer": "SRD applications are reviewed monthly. If your status shows 'pending' in July, it means SASSA is still verifying your details for this month's payment cycle. Log into the SRD portal to check if any documents are outstanding. Payments for approved applicants will be processed on 14 July."
+        },
+        {
+          "question": "I receive the Older Persons Grant. Do I need to reapply every year?",
+          "answer": "No. The Older Persons Grant is a permanent grant. You do not need to reapply. However, SASSA may conduct periodic reviews, so ensure your contact details are up to date at your local office."
+        },
+        {
+          "question": "What should I do if I did not receive my payment on the scheduled date?",
+          "answer": "Wait 48 hours and check your balance again. If the money is still not showing, contact the SASSA toll-free helpline on 0800 60 10 11 or visit your nearest SASSA office. Do not pay anyone to 'resolve' a missing payment."
+        }
+      ]
+    },
+    {
+      "id": "post-office-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Post Office Collections Continue",
+      "text": "SASSA continues to use SAPO (South African Post Office) as a payment channel alongside retail partners. If you collect at a Post Office, verify your branch's operating hours as some branches may have adjusted schedules. Note that not all Post Office branches process SASSA payments — confirm before travelling."
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "other-months",
+      "type": "link-grid",
+      "title": "Other Payment Months",
+      "links": [
+        { "label": "June 2026", "href": "/payment-dates/2026-june" },
+        { "label": "August 2026", "href": "/payment-dates/2026-august" },
+        { "label": "September 2026", "href": "/payment-dates/2026-september" },
+        { "label": "October 2026", "href": "/payment-dates/2026-october" }
+      ]
+    }
+  ],
+  "relatedPages": [
+    { "title": "All Payment Dates", "slug": "/payment-dates" },
+    { "title": "SASSA Grant Overview", "slug": "/grants" },
+    { "title": "SRD R370 Grant", "slug": "/grants/srd-grant" }
+  ]
+}

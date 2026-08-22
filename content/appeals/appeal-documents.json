@@ -14,6 +14,15 @@
     "keywords": ["SASSA appeal documents", "SASSA appeal checklist", "SASSA appeal requirements", "documents for ITSAA appeal", "SASSA appeal certification"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Required Documents for SASSA Grant Appeal",
+      "description": "Submitting the correct documents with your appeal is critical. Missing or incorrect documents are the most common reason for appeal delays or dismissals. This complete checklist covers everything you need for a successful SASSA grant appeal.",
+      "readingTime": "7 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Start Your Appeal", "href": "https://srd.dsd.gov.za" },
+      "secondaryCta": { "text": "View Common Decline Reasons", "href": "/appeals/appeal-reasons" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Required Documents for SASSA Grant Appeal" },
     { "id": "intro", "type": "paragraph", "text": "Submitting the correct documents with your appeal is critical. Missing or incorrect documents are the most common reason for appeal delays or dismissals." },
     { "id": "who", "type": "paragraph", "text": "This guide is for anyone preparing to submit a SASSA grant appeal and needs to know exactly which documents to gather." },

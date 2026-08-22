@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
+import { canonicalUrl } from "@/lib/canonical";
 import { provinces } from "../../../../lib/data/provinces";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema } from "../../../../lib/json-ld";
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/provinces/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription };
+    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/provinces/${slug}`) } };
   }
 
   const province = provinces.find((p) => p.slug === slug);
@@ -30,6 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `SASSA ${province.name} | Regional Office & Grant Information`,
     description: `Complete SASSA guide for ${province.name}. Regional office at ${province.regionalOfficeAddress}. Phone: ${province.regionalOfficePhone}. Collection info and FAQs.`,
+    alternates: { canonical: canonicalUrl(`/provinces/${slug}`) },
   };
 }
 
@@ -45,7 +47,7 @@ export default async function ProvinceDetailPage({ params }: { params: Promise<{
           { name: "Province Hubs", url: "/provinces" },
           { name: content.title, url: content.slug },
         ])) }} />
-        <ContentBlockRenderer blocks={content.contentBlocks} />
+        <ContentBlockRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
   }
@@ -62,7 +64,7 @@ export default async function ProvinceDetailPage({ params }: { params: Promise<{
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <div className="space-y-6 max-w-3xl">
+      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{province.name}</h1>
           <p className="text-sm text-muted mt-1">Capital: {province.capital}</p>

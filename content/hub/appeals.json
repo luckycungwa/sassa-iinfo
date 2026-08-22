@@ -1,1 +1,43 @@
-{"id":"hub-appeals","slug":"/appeals","classification":"hub-index","title":"SASSA Appeal Guide","description":"Step-by-step guide to appealing a declined SASSA grant decision.","lastUpdated":"2026-06-30","version":"1.0.0","status":"published","author":{"name":"Grant Guide Editorial Team","role":"Content Editor","verified":true},"seo":{"metaTitle":"SASSA Appeal Guide — How to Appeal a Declined Grant","metaDescription":"Complete guide to SASSA grant appeals: timeline, required documents, how to submit, and what outcomes to expect. 90-day appeal window.","keywords":["SASSA appeal","appeal grant","declined SASSA"]},"contentBlocks":[{"id":"h1","type":"heading","level":2,"text":"SASSA Appeal Guide"},{"id":"intro","type":"paragraph","text":"If SASSA declines your grant application, you have the right to appeal. The appeal must be submitted within 90 days of receiving the decline notification."}]}
+{
+  "id": "hub-appeals",
+  "slug": "/appeals",
+  "classification": "hub-index",
+  "title": "SASSA Appeals Centre — How to Appeal a Declined Grant",
+  "description": "Step-by-step guide to appealing a declined SASSA grant decision through the Independent Tribunal for Social Assistance Appeals (ITSAA). 90-day appeal window, required documents, and timelines.",
+  "lastUpdated": "2026-07-29",
+  "version": "2.0.0",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Appeal Guide — How to Appeal a Declined Grant",
+    "metaDescription": "Complete guide to SASSA grant appeals: timeline, required documents, how to submit, and what outcomes to expect. 90-day appeal window. ITSAA appeal process explained.",
+    "keywords": ["SASSA appeal", "appeal grant", "declined SASSA", "ITSAA appeal", "SASSA appeal process"]
+  },
+  "contentBlocks": [
+    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Appeals Centre" },
+    { "id": "intro", "type": "paragraph", "text": "If SASSA declines your grant application, you have the right to appeal. The appeal is handled by the Independent Tribunal for Social Assistance Appeals (ITSAA), not SASSA itself. You must submit your appeal within 90 days of receiving the decline notification." },
+    { "id": "quick-nav", "type": "link-grid", "links": [
+      { "title": "How to Appeal", "href": "/appeals/how-to-appeal", "description": "Step-by-step appeal guide" },
+      { "title": "Appeal Timeline", "href": "/appeals/appeal-timeline", "description": "How long appeals take" },
+      { "title": "Appeal Documents", "href": "/appeals/appeal-documents", "description": "Required documents checklist" },
+      { "title": "Appeal Reasons", "href": "/appeals/appeal-reasons", "description": "Common decline reasons explained" },
+      { "title": "Appeal Outcomes", "href": "/appeals/appeal-outcomes", "description": "Possible tribunal rulings" }
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How long do I have to appeal?", "answer": "You have 90 days from the date of receiving the decline notification. Appeals submitted after 90 days will be rejected." },
+      { "question": "How long does the appeal process take?", "answer": "The tribunal takes 60-90 days to issue a final ruling. You will be notified via SMS and the online portal." },
+      { "question": "Do I need to appeal every month for SRD?", "answer": "Yes. Because SASSA checks eligibility monthly, you must appeal for each individual month that shows a 'Declined' status." },
+      { "question": "Do I need a lawyer?", "answer": "No. The appeal process is designed for self-representation. The forms are straightforward and no legal representation is required." }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
+    { "title": "Appeal Timeline", "slug": "/appeals/appeal-timeline" },
+    { "title": "Appeal Documents", "slug": "/appeals/appeal-documents" },
+    { "title": "Appeal Reasons", "slug": "/appeals/appeal-reasons" },
+    { "title": "Appeal After UIF Decline", "slug": "/appeals/appeal-after-uif" },
+    { "title": "Appeal After NSFAS Decline", "slug": "/appeals/appeal-after-nsfas" },
+    { "title": "Appeal After Income Source", "slug": "/appeals/appeal-after-income-source" },
+    { "title": "Status Meanings", "slug": "/status" }
+  ]
+}

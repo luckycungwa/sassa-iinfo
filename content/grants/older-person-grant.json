@@ -6,17 +6,18 @@
   "description": "The SASSA Older Person Grant provides a monthly income to South Africans aged 60 and older who meet the means test requirements.",
   "lastUpdated": "2026-06-30",
   "version": "1.0.0",
+  "readingTime": "5 min read",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
     "metaTitle": "Older Person Grant (State Pension) — SASSA 2026",
-    "metaDescription": "Complete guide to the SASSA Older Person Grant: R2,180 per month, eligibility criteria, required documents, application steps, and appeal process for seniors aged 60+.",
+    "metaDescription": "Complete guide to the SASSA Older Person Grant: R2,400 per month, eligibility criteria, required documents, application steps, and appeal process for seniors aged 60+.",
     "keywords": ["older person grant", "state pension South Africa", "SASSA pension", "old age grant"],
     "schemaMarkup": { "@type": "GovernmentService", "name": "Older Person Grant" }
   },
   "contentBlocks": [
-    { "id": "h1", "type": "heading", "level": 2, "text": "Older Person Grant (State Pension)" },
-    { "id": "summary", "type": "grant-summary", "amount": "R2,180", "frequency": "Monthly (plus R20 extra for ages 75+)", "targetGroup": "South African citizens or permanent residents aged 60 and older." },
+    { "id": "hero", "type": "hero", "title": "Older Person Grant (State Pension)", "description": "Complete guide to the SASSA Older Person Grant: R2,400 per month, eligibility criteria, required documents, application steps, and appeal process for seniors aged 60+.", "readingTime": "5 min read", "lastUpdated": "2026-06-30", "cta": { "label": "Check Eligibility", "href": "/eligibility/i-am-over-60" }, "secondaryCta": { "label": "How to Apply", "href": "/guides/how-to-apply-sassa-grant" } },
+    { "id": "summary", "type": "grant-summary", "amount": "R2,400", "frequency": "Monthly (plus R20 extra for ages 75+)", "targetGroup": "South African citizens or permanent residents aged 60 and older." },
     { "id": "intro", "type": "paragraph", "text": "The SASSA Older Person Grant (often referred to as the state pension) is designed to provide financial security to South African seniors who no longer work and do not have sufficient retirement assets." },
     { "id": "eligibility-h", "type": "heading", "level": 3, "text": "Eligibility Criteria" },
     { "id": "eligibility-list", "type": "list", "ordered": false, "items": [

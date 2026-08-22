@@ -1,13 +1,3 @@
-/**
- * Foundational Content Schema — Base Layer for all 5,000+ pages
- *
- * Every page on the platform produces a `BasePage` object. There is no other
- * page-level type. Domain-specific data lives in structured `ContentBlock`
- * variants or the `seo.schemaMarkup` bag.
- */
-
-// ─── Page Classification ─────────────────────────────────────────────────────
-
 export type PageClassification =
   | "payment-date"
   | "grant-detail"
@@ -27,16 +17,12 @@ export type PageClassification =
 
 export type ContentStatus = "draft" | "published" | "archived";
 
-// ─── Author (E-E-A-T) ────────────────────────────────────────────────────────
-
 export interface Author {
   name: string;
   role: string;
   credentials?: string;
   verified: boolean;
 }
-
-// ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export interface SEOMetadata {
   metaTitle: string;
@@ -46,14 +32,22 @@ export interface SEOMetadata {
   schemaMarkup?: Record<string, unknown>;
 }
 
-// ─── Base Block (all content blocks extend this) ──────────────────────────────
-
 export interface BaseBlock {
   id: string;
   type: string;
 }
 
-// ─── Semantic Content Blocks ──────────────────────────────────────────────────
+export interface HeroBlock extends BaseBlock {
+  type: "hero";
+  image?: string;
+  imageAlt?: string;
+  title: string;
+  description: string;
+  readingTime: string;
+  lastUpdated: string;
+  cta?: { label: string; href: string };
+  secondaryCta?: { label: string; href: string };
+}
 
 export interface HeadingBlock extends BaseBlock {
   type: "heading";
@@ -61,9 +55,15 @@ export interface HeadingBlock extends BaseBlock {
   text: string;
 }
 
+export interface InlineLink {
+  text: string;
+  href: string;
+}
+
 export interface ParagraphBlock extends BaseBlock {
   type: "paragraph";
   text: string;
+  links?: InlineLink[];
 }
 
 export interface ListBlock extends BaseBlock {
@@ -124,7 +124,35 @@ export interface LinkGridBlock extends BaseBlock {
   links: { title: string; href: string; description?: string }[];
 }
 
-// ─── Domain-Specific Content Blocks ───────────────────────────────────────────
+export interface SourcesBlock extends BaseBlock {
+  type: "sources";
+  note?: string;
+  sources: { label: string; url: string; accessed?: string }[];
+}
+
+export interface StatBarBlock extends BaseBlock {
+  type: "stat-bar";
+  stats: { label: string; value: string; description?: string }[];
+}
+
+export interface ProcessDiagramBlock extends BaseBlock {
+  type: "process-diagram";
+  steps: { label: string; description: string }[];
+}
+
+export interface ComparisonTableBlock extends BaseBlock {
+  type: "comparison-table";
+  headers: string[];
+  rows: string[][];
+  caption?: string;
+}
+
+export interface InfoCardBlock extends BaseBlock {
+  type: "info-card";
+  icon?: string;
+  title: string;
+  text: string;
+}
 
 export interface GrantSummaryBlock extends BaseBlock {
   type: "grant-summary";
@@ -205,17 +233,14 @@ export interface NewsMetaBlock extends BaseBlock {
   tags: string[];
 }
 
-// ─── Custom Block (future-extensibility safety valve) ─────────────────────────
-
 export interface CustomBlock extends BaseBlock {
   type: "custom";
   customType: string;
   payload: Record<string, unknown>;
 }
 
-// ─── Content Block Union ──────────────────────────────────────────────────────
-
 export type ContentBlock =
+  | HeroBlock
   | HeadingBlock
   | ParagraphBlock
   | ListBlock
@@ -228,6 +253,11 @@ export type ContentBlock =
   | QuoteBlock
   | CodeBlock
   | LinkGridBlock
+  | SourcesBlock
+  | StatBarBlock
+  | ProcessDiagramBlock
+  | ComparisonTableBlock
+  | InfoCardBlock
   | GrantSummaryBlock
   | PaymentDatesBlock
   | OfficeDetailsBlock
@@ -240,8 +270,6 @@ export type ContentBlock =
   | NewsMetaBlock
   | CustomBlock;
 
-// ─── BasePage — The Single Page Type ──────────────────────────────────────────
-
 export interface BasePage {
   id: string;
   slug: string;
@@ -249,6 +277,7 @@ export interface BasePage {
   title: string;
   description: string;
   lastUpdated: string;
+  readingTime?: string;
   version: string;
   status: ContentStatus;
   author: Author;
@@ -256,8 +285,6 @@ export interface BasePage {
   contentBlocks: ContentBlock[];
   relatedPages?: { title: string; slug: string }[];
 }
-
-// ─── Validation ───────────────────────────────────────────────────────────────
 
 export interface SchemaValidationResult {
   isValid: boolean;
@@ -282,7 +309,6 @@ export function validateBasePage(page: unknown): SchemaValidationResult {
 
   const p = page as Record<string, unknown>;
 
-  // Required root fields
   const required = ["id", "slug", "classification", "title", "description", "lastUpdated", "version", "status", "author", "seo", "contentBlocks"];
   for (const field of required) {
     if (p[field] === undefined || p[field] === null) {
@@ -290,37 +316,31 @@ export function validateBasePage(page: unknown): SchemaValidationResult {
     }
   }
 
-  // Classification
   if (p.classification && !VALID_CLASSIFICATIONS.includes(p.classification as PageClassification)) {
     errors.push(`Invalid classification "${String(p.classification)}". Must be one of: ${VALID_CLASSIFICATIONS.join(", ")}`);
   }
 
-  // Slug rules
   if (typeof p.slug === "string") {
     if (!p.slug.startsWith("/")) errors.push(`Slug "${p.slug}" must start with "/"`);
     if (/[A-Z]/.test(p.slug as string)) errors.push(`Slug "${p.slug}" contains uppercase letters`);
     if (/\s/.test(p.slug as string)) errors.push(`Slug "${p.slug}" contains spaces`);
   }
 
-  // Version (strict semver)
   if (typeof p.version === "string" && !/^\d+\.\d+\.\d+$/.test(p.version)) {
     errors.push(`Version "${p.version}" is not valid semver (e.g. "1.2.0")`);
   }
 
-  // Status
   if (p.status && !["draft", "published", "archived"].includes(p.status as string)) {
     errors.push(`Status must be "draft", "published", or "archived"`);
   }
 
-  // Author
   if (p.author && typeof p.author === "object") {
     const a = p.author as Record<string, unknown>;
     if (!a.name) errors.push(`Author "name" is required`);
-    if (!a.credentials) warnings.push(`Author "${String(a.name ?? "unknown")}" has no credentials — recommended for YMYL`);
+    if (!a.credentials) warnings.push(`Author "${String(a.name ?? "unknown")}" has no credentials`);
     if (a.verified !== true) warnings.push(`Author "${String(a.name ?? "unknown")}" is not verified`);
   }
 
-  // SEO
   if (p.seo && typeof p.seo === "object") {
     const s = p.seo as Record<string, unknown>;
     if (!s.metaTitle) errors.push(`SEO "metaTitle" is required`);
@@ -332,7 +352,6 @@ export function validateBasePage(page: unknown): SchemaValidationResult {
     }
   }
 
-  // Content blocks
   if (Array.isArray(p.contentBlocks)) {
     if (p.contentBlocks.length === 0) warnings.push(`"contentBlocks" array is empty`);
     p.contentBlocks.forEach((block: unknown, idx: number) => {

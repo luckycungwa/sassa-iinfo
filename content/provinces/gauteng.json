@@ -1,0 +1,141 @@
+{
+  "id": "province-gauteng",
+  "slug": "/provinces/gauteng",
+  "classification": "province-hub",
+  "title": "SASSA Gauteng Province — Offices, Grants & Information",
+  "description": "Complete guide to SASSA services in Gauteng Province. Regional office in Johannesburg, list of SASSA offices across the province, grant collection information, and frequently asked questions.",
+  "lastUpdated": "2026-07-28",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Gauteng Province: Offices, Grants & Payment Collection Guide 2026",
+    "metaDescription": "Complete SASSA guide for Gauteng Province. Regional office at 78 Marshall Street, Johannesburg. List of SASSA offices in Pretoria, Soweto, Tembisa, and more. Grant collection info, province statistics, and FAQs.",
+    "keywords": ["SASSA Gauteng", "Gauteng SASSA offices", "SASSA Johannesburg office", "SASSA Pretoria office", "SASSA Gauteng grants", "SASSA Soweto"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Gauteng Province" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Gauteng Province",
+      "description": "Complete information hub for SASSA services in Gauteng Province. Regional office details, local SASSA offices, grant collection information, and province-specific FAQs.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-07-28",
+      "cta": { "label": "Find an Office", "href": "/offices" },
+      "secondaryCta": { "label": "View All Provinces", "href": "/provinces" }
+    },
+    {
+      "id": "province-overview",
+      "type": "province-overview",
+      "capital": "Johannesburg (Economic Hub), Pretoria (Administrative Capital)",
+      "regionalOfficeAddress": "78 Marshall Street, Johannesburg CBD, 2001",
+      "regionalOfficePhone": "011 123 4567",
+      "collectionInfo": "Gauteng beneficiaries can collect grants at any SASSA office, SAPO branch, or participating retailer (Shoprite, Checkers, Pick n Pay, Boxer, USave) across the province. Most collection points are well-distributed, but queues in inner-city offices can be long during the first week of the month.",
+      "beneficiaryCount": "Approximately 2.8 million grant beneficiaries",
+      "grantTypes": ["Child Support Grant", "Older Persons Grant", "Disability Grant", "Foster Care Grant", "Care Dependency Grant", "SRD R370 Grant", "War Veterans Grant"]
+    },
+    {
+      "id": "stat-bar",
+      "type": "stat-bar",
+      "stats": [
+        { "label": "Grant Beneficiaries", "value": "2.8 Million" },
+        { "label": "SASSA Offices", "value": "24" },
+        { "label": "Collection Points", "value": "450+" },
+        { "label": "Population Served", "value": "15+ Million" }
+      ]
+    },
+    {
+      "id": "offices-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Offices in Gauteng"
+    },
+    {
+      "id": "offices-paragraph",
+      "type": "paragraph",
+      "text": "Gauteng has the highest concentration of SASSA offices in South Africa, with 24 full-service offices and numerous satellite offices at Thusong Service Centres. Below are some of the key offices serving communities across the province."
+    },
+    {
+      "id": "offices-grid",
+      "type": "link-grid",
+      "title": "Key Offices in Gauteng",
+      "links": [
+        { "label": "Pretoria Central — 250 Hall Street", "href": "/offices/gp-pretoria-central" },
+        { "label": "Johannesburg Regional — 78 Marshall Street", "href": "/offices/gp-johannesburg" },
+        { "label": "Soweto — Orlando West", "href": "/offices/gp-soweto" },
+        { "label": "Tembisa — Thusong Centre", "href": "/offices/gp-tembisa" },
+        { "label": "Vereeniging — CBD", "href": "/offices/gp-vereeniging" },
+        { "label": "Mabopane — Block D", "href": "/offices/gp-mabopane" }
+      ]
+    },
+    {
+      "id": "collection-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant Collection in Gauteng"
+    },
+    {
+      "id": "collection-paragraph",
+      "type": "paragraph",
+      "text": "Gauteng offers multiple grant collection channels. Beneficiaries should use their SASSA gold card at any participating retailer for free withdrawals. The Post Office (SAPO) network remains active across the province. In 2026, SASSA has expanded retail partnerships to include more spaza shops and community-based pay points in townships to reduce travel distances."
+    },
+    {
+      "id": "collection-tips",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Inner-city offices (Johannesburg, Pretoria Central) are busiest — use township offices instead if possible.",
+        "Retailer collections via SASSA gold card are free — do not pay withdrawal fees.",
+        "Change your collection point at any SASSA office if your current one is inconvenient.",
+        "SRD R370 beneficiaries in Gauteng receive payments via bank transfer, eWallet, or CashSend."
+      ]
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I live in Soweto. Which SASSA office should I use?",
+          "answer": "The Soweto SASSA office is located in Orlando West and serves most of Soweto. If you live in areas closer to the N1, the Diepkloof satellite office may be more convenient. For card replacements, use the full-service office in Orlando West."
+        },
+        {
+          "question": "How do I change my collection point from Johannesburg to Pretoria?",
+          "answer": "Visit any SASSA office in Gauteng and request a change of collection point. Provide your ID and your new address. The change takes effect from the next payment cycle. You can also change from Post Office to retail or bank deposit at the same time."
+        },
+        {
+          "question": "Are there SASSA services at Thusong Centres in Gauteng?",
+          "answer": "Yes. Thusong Service Centres in Tembisa, Katlehong, Soshanguve, and other townships offer limited SASSA services such as enquiries, form collection, and status checks. For full services (applications, card replacements), visit a full-service SASSA office."
+        },
+        {
+          "question": "I am a foreign national living in Gauteng. Can I apply for a grant?",
+          "answer": "Permanent residents and refugees living in Gauteng can apply for social grants. You must provide your permanent residence permit or refugee status document along with your ID. Asylum seekers with section 22 permits are not eligible for most grants except the SRD R370 in certain cases."
+        },
+        {
+          "question": "What is the best time to visit SASSA offices in Gauteng to avoid queues?",
+          "answer": "The second half of the month (after the 15th) is generally quieter across all Gauteng offices. Mid-week visits between 10:00 and 14:00 on Tuesdays and Wednesdays also tend to have shorter wait times. Avoid the first week of the month and the last two days of the month."
+        }
+      ]
+    },
+    {
+      "id": "transport-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Transport Support for Beneficiaries",
+      "text": "Some municipalities in Gauteng offer subsidised transport for elderly and disabled grant beneficiaries on payment days. Check with your local ward councillor or Thusong Centre for transport assistance programmes in your area."
+    }
+  ],
+  "relatedPages": [
+    { "title": "All Provinces", "slug": "/provinces" },
+    { "title": "SASSA Pretoria Central Office", "slug": "/offices/gp-pretoria-central" },
+    { "title": "SASSA Payment Dates", "slug": "/payment-dates" },
+    { "title": "Grants Overview", "slug": "/grants" }
+  ]
+}

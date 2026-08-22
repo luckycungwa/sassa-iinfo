@@ -1,0 +1,55 @@
+{
+  "id": "guide-grant-calculator",
+  "slug": "/guides/sassa-grant-amounts-calculator",
+  "classification": "how-to-guide",
+  "title": "SASSA Grant Calculator — Estimate Your Monthly Grant Total 2026",
+  "description": "Use our interactive SASSA grant calculator to estimate how much you could receive each month from social grants. Based on your age, dependants, disability, and other factors.",
+  "lastUpdated": "2026-07-26",
+  "version": "1.0.0",
+  "readingTime": "2 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Grant Calculator 2026 — Estimate Your Monthly Total",
+    "metaDescription": "Free SASSA grant calculator: estimate your monthly social grant total based on age, children, disability, and other factors using official 2026 amounts. Interactive tool, instant results.",
+    "keywords": ["SASSA grant calculator", "SASSA grant estimator", "how much SASSA grant", "SASSA grant total", "SASSA grant 2026"],
+    "schemaMarkup": { "@type": "Article", "name": "SASSA Grant Calculator" }
+  },
+  "contentBlocks": [
+    { "id": "hero", "type": "hero", "title": "SASSA Grant Calculator 2026", "description": "Estimate how much you could receive in SASSA grants each month. Enter your details below for an instant estimate based on the official 2026 grant amounts announced in the February national budget.", "readingTime": "2 min read", "lastUpdated": "2026-07-26" },
+    { "id": "intro", "type": "paragraph", "text": "Use the calculator below to estimate your total monthly SASSA grant income. This tool uses the official 2026 grant amounts from the February 2026 Budget Review and is updated for the latest increases." },
+    { "id": "tool-area", "type": "paragraph", "text": "Select your age range, whether you have a disability, how many children you care for, your foster parent status, and whether you have a full-time caregiver. The calculator will show which grants you may qualify for and your estimated monthly total. For a more detailed estimate, use the Household Estimator tool in our Tools section." },
+    { "id": "calculator-embed", "type": "custom", "customType": "grant-calculator", "payload": {} },
+    { "id": "calculator-note", "type": "callout", "intent": "info", "title": "This is an estimate", "text": "This calculator provides estimates only. Actual grant eligibility depends on the SASSA means test, which considers your exact income and assets. Use this as a planning tool, not a guarantee of approval. Always apply through official SASSA channels for confirmation." },
+    { "id": "amounts-h", "type": "heading", "level": 3, "text": "2026 Grant Amounts Used in This Calculator" },
+    { "id": "amounts-table", "type": "table", "headers": ["Grant Type", "Monthly Amount"], "rows": [
+      ["SRD R370 Grant", "R370"],
+      ["Child Support Grant (per child)", "R580"],
+      ["Child Support Top-Up (orphan, per child)", "R830"],
+      ["Older Person Grant (60-74)", "R2,400"],
+      ["Older Person Grant (75+)", "R2,420"],
+      ["Disability Grant", "R2,400"],
+      ["Foster Care Grant (per child)", "R1,295"],
+      ["Care Dependency Grant", "R2,400"],
+      ["War Veterans Grant", "R2,420"],
+      ["Grant-in-Aid (top-up)", "R580"]
+    ] },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "How accurate is this calculator?", "answer": "It uses the official 2026 grant amounts from the national budget. However, your actual eligibility depends on the means test, which assesses your income and assets. Always apply directly through SASSA for confirmation." },
+      { "question": "Does the calculator consider the means test?", "answer": "No. This calculator shows which grants you MAY qualify for based on age, dependants, and disability status. The SASSA means test makes the final determination based on your income and assets." },
+      { "question": "Can I get more than one grant at the same time?", "answer": "Generally, you can only receive one primary social grant. However, Grant-in-Aid (R580) can be added to the Older Person, Disability, or War Veterans Grant if you need full-time care." },
+      { "question": "What if I earn some money — do I still qualify?", "answer": "It depends on how much you earn. Each grant has a means test threshold. For example, the SRD grant requires bank inflows under R624 per month. The Older Person Grant allows single applicants to earn up to R96,240 per year. See our Means Test Guide for details." }
+    ] },
+    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
+    { "id": "related-links", "type": "link-grid", "links": [
+      { "title": "SASSA Grant Amounts 2026", "href": "/guides/sassa-grant-amounts", "description": "Complete list of all grant amounts" },
+      { "title": "Understanding the Means Test", "href": "/guides/understanding-means-test", "description": "How SASSA determines financial eligibility" },
+      { "title": "How to Apply for a Grant", "href": "/guides/how-to-apply-sassa-grant", "description": "Step-by-step application guide" }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "All Grant Types", "slug": "/grants" },
+    { "title": "Grant Amounts 2026", "slug": "/guides/sassa-grant-amounts" },
+    { "title": "Interactive Tools", "slug": "/tools" }
+  ]
+}

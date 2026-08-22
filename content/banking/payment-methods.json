@@ -4,8 +4,9 @@
   "classification": "banking-guide",
   "title": "SASSA Payment Methods — Bank Transfer, Cash Send, Post Office, and Mobile Pay Points",
   "description": "Complete guide to all SASSA payment methods: bank EFT, Cash Send retail collection, Post Office collection, and mobile pay points for rural areas. How each method works and how to choose.",
+  "readingTime": "5 min read",
   "lastUpdated": "2026-07-01",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
@@ -14,24 +15,205 @@
     "keywords": ["SASSA payment methods", "SASSA how to get paid", "SASSA bank transfer", "SASSA cash collection", "SASSA Post Office", "SASSA mobile pay points"]
   },
   "contentBlocks": [
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Payment Methods" },
-    { "id": "intro", "type": "paragraph", "text": "SASSA offers several ways to receive your social grant. You can choose the method that works best for your situation. You do not need a bank account to receive your grant." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for all SASSA beneficiaries who want to understand the different ways they can receive their grant payments — whether through bank transfer, Cash Send retail collection, Post Office, or mobile pay points." },
-    { "id": "bank-eft-h", "type": "heading", "level": 3, "text": "Bank Transfer (EFT)" },
-    { "id": "bank-eft-text", "type": "paragraph", "text": "SASSA deposits your grant directly into your personal South African bank account. Processing takes 1-3 business days after the official pay date. Your bank account must be registered in your own name and match your ID number exactly." },
-    { "id": "cash-send-h", "type": "heading", "level": 3, "text": "Cash Send (Retail Collection)" },
-    { "id": "cash-send-text", "type": "paragraph", "text": "If you do not have a bank account, SASSA sends a cash voucher via SMS. Take the SMS and your ID to any participating retailer (Pick n Pay, Boxer, Shoprite, Checkers, Usave) to collect your grant in cash." },
-    { "id": "post-office-h", "type": "heading", "level": 3, "text": "Post Office Collection" },
-    { "id": "post-office-text", "type": "paragraph", "text": "Some beneficiaries collect their grants at designated South African Post Office branches. This option is being phased out in favour of bank transfers and retail collection." },
-    { "id": "mobile-h", "type": "heading", "level": 3, "text": "Mobile Pay Points" },
-    { "id": "mobile-text", "type": "paragraph", "text": "In remote rural areas, SASSA operates mobile pay points on scheduled dates. Check your local SASSA office or province hub for the monthly schedule." },
-    { "id": "switch-h", "type": "heading", "level": 3, "text": "How to Switch Payment Methods" },
-    { "id": "switch-text", "type": "paragraph", "text": "Log into the SRD portal at srd.sassa.gov.za, go to 'Payment Method', and select your preferred option. Changes take effect from the following month." }
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Payment Methods — How You Get Paid",
+      "description": "Four ways to receive your grant. No bank account? No problem. Compare bank EFT, Cash Send retail collection, Post Office, and mobile pay points side by side.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-07-01",
+      "cta": { "label": "Switch Your Method", "href": "/banking/update-bank-details" },
+      "secondaryCta": { "label": "Compare at a Glance", "href": "#comparison" }
+    },
+    {
+      "id": "comparison",
+      "type": "comparison-table",
+      "title": "Payment Methods at a Glance",
+      "headers": ["Method", "Speed", "Requires Bank Account?", "Best For"],
+      "rows": [
+        ["Bank Transfer (EFT)", "1-3 business days", "Yes", "Beneficiaries with a bank account"],
+        ["Cash Send", "Same day SMS", "No", "Beneficiaries without a bank account"],
+        ["Post Office", "On pay day", "No", "Beneficiaries near a Post Office branch"],
+        ["Mobile Pay Point", "Scheduled dates", "No", "Rural beneficiaries with limited access"]
+      ]
+    },
+    {
+      "id": "overview-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Payment Methods Explained in Detail"
+    },
+    {
+      "id": "bank-eft-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Bank Transfer (EFT) \u2014 Fast and Direct"
+    },
+    {
+      "id": "bank-eft-text",
+      "type": "paragraph",
+      "text": "SASSA deposits your grant directly into your personal South African bank account via Electronic Funds Transfer (EFT). This is the fastest and most convenient method for beneficiaries who have a bank account."
+    },
+    {
+      "id": "bank-eft-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Bank Account Requirements",
+      "text": "Your bank account must be in your name and match your ID number exactly. SASSA sends a small test deposit (under R10) to verify ownership before activating EFT payments. Joint accounts or accounts in another person's name will be rejected."
+    },
+    {
+      "id": "bank-eft-details",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Processing time: 1-3 business days after the official pay date",
+        "Supported banks: All major South African banks (Capitec, Standard Bank, FNB, Absa, Nedbank, and others)",
+        "Fees: No fees charged by SASSA. Your bank may charge a small deposit fee (usually under R5)",
+        "Security: Payments are processed through the secure national payment system (NPS)",
+        "Reliability: Most reliable method with the fewest delays or failures"
+      ]
+    },
+    {
+      "id": "cash-send-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Cash Send (Retail Collection) \u2014 No Bank Account Needed"
+    },
+    {
+      "id": "cash-send-text",
+      "type": "paragraph",
+      "text": "Cash Send is SASSA's cash collection method for beneficiaries without a bank account. You receive an SMS voucher with a unique PIN, which you take to any participating retailer to collect your grant in cash."
+    },
+    {
+      "id": "cash-send-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Participating Retailers",
+      "text": "You can collect Cash Send at: Pick n Pay, Shoprite, Checkers, Boxer, Usave, and Spar. Cash Send is free \u2014 no collection fees are charged by SASSA or the retailers."
+    },
+    {
+      "id": "cash-send-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Receive your SMS voucher", "description": "After your grant is approved, SASSA sends an SMS with a voucher code and PIN to your registered phone number." },
+        { "title": "Go to a participating retailer", "description": "Visit any Pick n Pay, Shoprite, Checkers, Boxer, Usave, or Spar till point." },
+        { "title": "Provide your ID and SMS details", "description": "Tell the cashier you are collecting a SASSA Cash Send. Provide your ID book or smart ID card." },
+        { "title": "Receive your cash", "description": "The cashier processes the voucher and hands you your grant in cash. Keep the SMS until you have received the money." }
+      ]
+    },
+    {
+      "id": "post-office-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Post Office Collection \u2014 Being Phased Out"
+    },
+    {
+      "id": "post-office-text",
+      "type": "paragraph",
+      "text": "Some beneficiaries still collect their grants at designated South African Post Office (SAPO) branches. However, SASSA is gradually phasing out Post Office collections in favour of bank EFT transfers and Cash Send retail collection."
+    },
+    {
+      "id": "post-office-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Important: Switch Before It Closes",
+      "text": "Many Post Office branches have reduced services or closed permanently. If you currently collect at a Post Office, switch to bank EFT or Cash Send now to avoid disruption. Visit your nearest SASSA office or call 0800 60 10 11 to change your method."
+    },
+    {
+      "id": "mobile-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Mobile Pay Points \u2014 For Rural Communities"
+    },
+    {
+      "id": "mobile-text",
+      "type": "paragraph",
+      "text": "In remote rural areas where there are no banks or retailers nearby, SASSA operates mobile pay points. These are temporary payment stations set up on scheduled dates each month. Your SASSA office will tell you the date and location for your nearest mobile pay point."
+    },
+    {
+      "id": "mobile-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Find Your Mobile Pay Point Schedule",
+      "text": "Contact your local SASSA office or check your province hub page for the monthly mobile pay point schedule in your area. Schedules may change, so confirm before travelling."
+    },
+    {
+      "id": "switch-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Switch Your Payment Method"
+    },
+    {
+      "id": "switch-intro",
+      "type": "paragraph",
+      "text": "You can switch between payment methods at any time. The process depends on whether you are an SRD grant beneficiary or a mainstream grant beneficiary."
+    },
+    {
+      "id": "switch-srd-h",
+      "type": "heading",
+      "level": 3,
+      "text": "For SRD R370 Grant Beneficiaries"
+    },
+    {
+      "id": "switch-srd-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Log into the SRD Portal", "description": "Go to srd.sassa.gov.za and enter your ID number and the phone number you used during application." },
+        { "title": "Request and enter OTP", "description": "An OTP will be sent to your phone. Enter it to access your profile." },
+        { "title": "Go to Payment Method", "description": "Navigate to the 'Payment Method' section in your profile dashboard." },
+        { "title": "Select your preferred method", "description": "Choose between bank transfer (EFT) or Cash Send (retail collection)." },
+        { "title": "Confirm and save", "description": "Review your selection and confirm. The change will apply from the next payment cycle." }
+      ]
+    },
+    {
+      "id": "switch-other-h",
+      "type": "heading",
+      "level": 3,
+      "text": "For Mainstream Grant Beneficiaries"
+    },
+    {
+      "id": "switch-other-text",
+      "type": "paragraph",
+      "text": "If you receive a mainstream grant (Older Person Grant, Disability Grant, Child Support Grant, etc.), visit your nearest SASSA office to change your payment method. Bring your ID book and proof of your new bank account (if switching to EFT). The change takes effect from the next payment cycle."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I use someone else's bank account to receive my grant?",
+          "answer": "No. The bank account must be registered in your name as it appears on your ID. SASSA cross-checks the account holder's name and ID number against their database. Using another person's account will cause payment delays or failures. If you do not have your own bank account, use Cash Send instead."
+        },
+        {
+          "question": "How long does it take for a new payment method to take effect?",
+          "answer": "Changes to your payment method typically take effect from the next payment cycle. If you switch mid-month, your current month's payment will still go to your old method. The new method applies from the following month."
+        },
+        {
+          "question": "What if I don't receive my Cash Send SMS?",
+          "answer": "If you do not receive the SMS within 3 business days of the pay date, check that your phone number is correct on the SRD portal or at your SASSA office. You can also request the SMS to be resent. If the issue persists, visit your SASSA office to investigate."
+        },
+        {
+          "question": "Are there any fees for Cash Send collections?",
+          "answer": "No. SASSA does not charge any fees for Cash Send, and participating retailers (Pick n Pay, Shoprite, Checkers, Boxer, Usave, Spar) do not charge collection fees. You receive the full grant amount."
+        },
+        {
+          "question": "Can I receive my grant if I live in a rural area without banks?",
+          "answer": "Yes. SASSA operates mobile pay points in rural areas on scheduled dates. You can also use Cash Send at participating retailers if there is one within reach. Check with your local SASSA office for the mobile pay point schedule in your area."
+        }
+      ]
+    }
   ],
   "relatedPages": [
     { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" },
     { "title": "How to Update Bank Details", "slug": "/banking/update-bank-details" },
     { "title": "SASSA Card Explained", "slug": "/banking/sassa-card-explained" },
-    { "title": "Payment Not Reflecting", "slug": "/banking/payment-not-reflecting" }
+    { "title": "Payment Not Reflecting", "slug": "/banking/payment-not-reflecting" },
+    { "title": "Bank Verification Process", "slug": "/banking/bank-verification-process" },
+    { "title": "SASSA Payment Dates", "slug": "/payment-dates" }
   ]
 }

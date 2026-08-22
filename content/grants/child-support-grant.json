@@ -1,0 +1,199 @@
+{
+  "id": "grant-child-support",
+  "slug": "/grants/child-support-grant",
+  "classification": "grant-detail",
+  "title": "Child Support Grant",
+  "description": "The SASSA Child Support Grant provides R580 per month per child to caregivers who meet the means test requirements.",
+  "lastUpdated": "2026-07-26",
+  "version": "1.0.0",
+  "readingTime": "7 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Child Support Grant 2026: Amount, Eligibility & How to Apply",
+    "metaDescription": "Complete guide to the SASSA Child Support Grant: R580 per child, means test limits, what counts as income, required documents, application steps, and appeals.",
+    "keywords": ["child support grant", "SASSA child grant", "child grant South Africa", "means test income", "CSG application"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Child Support Grant" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Child Support Grant",
+      "description": "Complete guide to the SASSA Child Support Grant: R580 per child, means test limits, what counts as income, required documents, application steps, and appeals.",
+      "readingTime": "7 min read",
+      "lastUpdated": "2026-07-26",
+      "cta": { "label": "Check Eligibility", "href": "/eligibility" },
+      "secondaryCta": { "label": "How to Apply", "href": "/guides/how-to-apply-sassa-grant" }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R580 per month per child",
+      "frequency": "Monthly (Top-Up for orphans: R830 per month)",
+      "targetGroup": "Primary caregivers of children under 18 who meet the means test requirements."
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "The SASSA Child Support Grant is the most widely accessed social grant in South Africa. It provides a monthly payment to help caregivers cover the costs of raising a child. If you are the primary caregiver of a child under 18 and your income falls below the means test threshold, you likely qualify."
+    },
+    {
+      "id": "child-topup-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Child Support Grant Top-Up for Orphans"
+    },
+    {
+      "id": "child-topup-paragraph",
+      "type": "paragraph",
+      "text": "If the child has lost both parents, or if both parents are in prison, in a mental health institution, or cannot be traced, you may qualify for the Child Support Grant Top-Up. This pays an additional R250 per month on top of the standard R580, bringing the total to R830 per month."
+    },
+    {
+      "id": "eligibility-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Eligibility Criteria"
+    },
+    {
+      "id": "eligibility",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "You must be the child's primary caregiver (biological parent, grandparent, relative, or any person caring for the child).",
+        "The child must be under 18 years old.",
+        "You must be a South African citizen, permanent resident, or refugee.",
+        "You must meet the means test: single caregivers earning R63,600 or less per year, or married couples earning R127,200 or less combined.",
+        "The child must live with you in South Africa.",
+        "You must not be paid a salary to care for the child (e.g., foster parent allowance is separate)."
+      ],
+      "restrictions": [
+        "You cannot receive the grant for more than six children at a time.",
+        "The child cannot be cared for in a state-funded institution for more than six months.",
+        "You cannot be receiving another grant for the same child.",
+        "The child must not be married or living independently."
+      ],
+      "recommendedGrants": [
+        { "name": "Foster Child Grant", "slug": "/grants/foster-care-grant", "amount": "R1,295" },
+        { "name": "Care Dependency Grant", "slug": "/grants/care-dependency-grant", "amount": "R2,400" }
+      ]
+    },
+    {
+      "id": "means-test-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "What Counts as Income for the Means Test?"
+    },
+    {
+      "id": "means-test-intro",
+      "type": "paragraph",
+      "text": "One of the most confusing parts of the Child Support Grant application is the means test. Many caregivers are unsure whether informal income needs to be declared. The short answer: yes, most income counts. SASSA wants to know about every source of money coming into your household, even if it is irregular or paid in cash. Below is a breakdown of what is included and what is not."
+    },
+    {
+      "id": "means-test-table",
+      "type": "table",
+      "headers": ["Type of Income", "Counts?", "Practical Example"],
+      "rows": [
+        ["Formal salary or wages", "Yes", "A part-time or full-time job with a regular payslip."],
+        ["Piece jobs and casual work", "Yes", "Gardening, domestic work, day labour, or any ad-hoc work paid in cash."],
+        ["Tips and gratuities", "Yes", "Tips from waiting tables, car washing, car guarding, or delivery work."],
+        ["Maintenance from the other parent", "Yes", "Court-ordered child maintenance or an agreed monthly amount."],
+        ["Regular help from family", "Yes", "Monthly cash gifts from a parent, sibling, or relative to help with bills."],
+        ["Small business or spaza shop income", "Yes", "Profit from selling goods, running a township business, or hawking."],
+        ["Another SASSA grant in your name", "No", "Your own Older Person Grant, Disability Grant, or other SASSA grant."],
+        ["One-off lump sums", "No", "A once-off UIF payout, a bonus, or an inheritance received a single time."]
+      ],
+      "caption": "How different types of income affect the means test"
+    },
+    {
+      "id": "means-test-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Declare everything",
+      "text": "SASSA can request bank statements and may visit your home to verify your financial situation. If you are caught hiding income, your grant can be stopped and you may be asked to repay money you received. It is always better to declare all income, even if it is irregular or paid in cash."
+    },
+    {
+      "id": "docs-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "Your original 13-digit barcoded Smart ID card or green ID book", "required": true, "notes": "Temporary IDs are not accepted." },
+        { "label": "The child's birth certificate (original)", "required": true, "notes": "If the child has no birth certificate, bring a sworn affidavit and proof of application from Home Affairs." },
+        { "label": "Proof of income (payslips, bank statements, or an affidavit if unemployed)", "required": true, "notes": "Last 3 months of statements if you have a bank account." },
+        { "label": "Proof of residence (utility bill, rental agreement, or letter from ward councillor)", "required": true, "notes": "Must show your current physical address." },
+        { "label": "Proof of marital status (marriage certificate, divorce order, or death certificate of spouse)", "required": false, "notes": "Only needed if you are married or were previously married." },
+        { "label": "School report or clinic card for the child", "required": false, "notes": "Helpful to confirm the child's age and that they attend school or clinic visits." }
+      ]
+    },
+    {
+      "id": "steps-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Gather your documents", "description": "Collect all original documents listed above and make photocopies. SASSA will not accept expired IDs or unsigned affidavits." },
+        { "title": "Visit your nearest SASSA office", "description": "Go to the SASSA office that serves your area. You can find your closest office on the SASSA website or by asking at your nearest Thusong Service Centre." },
+        { "title": "Complete the application form", "description": "A SASSA officer will assist you in filling out the application form. You will need to provide details about your household income, the child, and the child's other parent if known." },
+        { "title": "Provide fingerprints and take a photo", "description": "SASSA will take your fingerprints and a photograph as part of the application process. The child may also need to be present." },
+        { "title": "Wait for the outcome", "description": "SASSA has up to 3 months to process your application. Payments are backdated to the date you applied, so keep your receipt safe." }
+      ]
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "My ex-partner and I both applied for the grant for our child. What happens?",
+          "answer": "SASSA will only pay one grant per child. If two people apply for the same child, SASSA will investigate to determine who the primary caregiver is. The grant goes to the person who provides the most care for the child."
+        },
+        {
+          "question": "I do piece jobs and earn cash in hand. Do I need to declare that?",
+          "answer": "Yes. All income counts towards the means test, including cash payments, tips, and irregular work. SASSA's definition of income is broad. If you do not declare cash income and SASSA finds out, your grant can be cancelled and you may have to repay the money."
+        },
+        {
+          "question": "Can I apply if I am not the biological parent?",
+          "answer": "Yes. The grant is for the primary caregiver, not just the biological parent. Grandparents, aunts, uncles, older siblings, and even non-relatives can apply if they are the ones looking after the child."
+        },
+        {
+          "question": "What happens if my child stops attending school?",
+          "answer": "SASSA requires children receiving the grant to attend school regularly (or clinic visits for younger children). If your child stops attending school without a valid reason, SASSA may suspend the grant. Keep a school attendance letter or clinic card handy."
+        },
+        {
+          "question": "Can I receive the grant for more than six children?",
+          "answer": "No. The limit is six children per caregiver. If you are caring for more than six children (for example, orphaned relatives), ask at your SASSA office about the Foster Care Grant or other options."
+        },
+        {
+          "question": "I lost my SASSA card. How do I access my payments?",
+          "answer": "Go to your nearest SASSA office with your ID document and apply for a replacement card. There is a small replacement fee. While waiting, you can request an alternative payment method at the office. Do not pay anyone to 'rush' the replacement — it is a free SASSA service."
+        }
+      ]
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "90-Day Appeal Window",
+      "text": "If your Child Support Grant application is declined, you have 90 days from the date you received the rejection letter to appeal. Write to the Minister of Social Development explaining why you disagree with the decision. Include any new evidence such as updated income records or missing documents. You can get help with your appeal at your nearest SASSA office or from a social worker."
+    }
+  ],
+  "relatedPages": [
+    { "title": "Grant Library", "slug": "/grants" },
+    { "title": "Foster Care Grant", "slug": "/grants/foster-care-grant" },
+    { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" },
+    { "title": "Child Support Grant FAQ", "slug": "/faq" }
+  ]
+}

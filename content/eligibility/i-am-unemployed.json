@@ -4,35 +4,103 @@
   "classification": "eligibility-guide",
   "title": "SASSA Options for Unemployed South Africans",
   "description": "If you are unemployed and have no income, find out which SASSA grants you can apply for. SRD R370 grant eligibility, how to apply, and restrictions for unemployed individuals.",
-  "lastUpdated": "2026-07-01",
-  "version": "1.0.0",
+  "lastUpdated": "2026-07-29",
+  "version": "2.0.0",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
     "metaTitle": "SASSA Grants for Unemployed South Africans — SRD R370 & More",
-    "metaDescription": "Complete guide to SASSA grants for unemployed South Africans. Learn about SRD R370 eligibility, how to apply without a job, and what documents you need.",
-    "keywords": ["SASSA unemployed", "SASSA grant no job", "SRD R370 unemployed", "SASSA for job seekers", "SASSA no income grant"]
+    "metaDescription": "Complete guide to SASSA grants for unemployed South Africans. Learn about SRD R370 eligibility, how to apply without a job, what documents you need, and what to do if you're declined.",
+    "keywords": ["SASSA unemployed", "SASSA grant no job", "SRD R370 unemployed", "SASSA for job seekers", "SASSA no income grant", "unemployed SASSA 2026"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Options for Unemployed South Africans",
+      "description": "If you're unemployed with no income, SASSA provides several social grants to help. Find out which grants you qualify for, how to apply for the SRD R370, and what documents you'll need.",
+      "readingTime": "8 min read",
+      "lastUpdated": "July 2026",
+      "cta": { "label": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant" },
+      "secondaryCta": { "label": "Receiving UIF?", "href": "/eligibility/i-receive-uif" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Options for Unemployed South Africans" },
-    { "id": "intro", "type": "paragraph", "text": "Unemployment affects millions of South Africans. SASSA provides several social grants designed to assist individuals and families with no regular income." },
-    { "id": "why", "type": "paragraph", "text": "Social grants exist to fulfil the constitutional right to social assistance for South Africans who cannot support themselves. If you are unemployed with no income, these grants provide a vital safety net." },
-    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
-    { "id": "checklist", "type": "eligibility-checklist", "checklist": ["Must be a South African citizen or permanent resident", "Must be unemployed (zero monthly salary)", "Must have bank statements showing no recurring deposits", "Must have a valid South African ID number"], "restrictions": ["You cannot receive this grant if you are receiving UIF, NSFAS, or any other social grant"], "recommendedGrants": [{ "name": "Social Relief of Distress (SRD R370)", "slug": "srd-r370-grant", "amount": "R370 / month" }, { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R530 / month" }] },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Qualify" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Register on the SASSA portal", "description": "Register an account on the official SASSA portal." },
-      { "title": "Submit your application", "description": "Submit an application for the SRD R370 grant." },
-      { "title": "Wait for verification", "description": "Wait for bank verification and monthly review cycles." }
+    { "id": "intro", "type": "paragraph", "text": "Unemployment affects millions of South Africans. SASSA provides several social grants designed to assist individuals and families with no regular income. The most common grant for unemployed people is the SRD R370, but depending on your age and family situation, you may qualify for other grants too." },
+    { "id": "why", "type": "paragraph", "text": "Social grants exist to fulfil the constitutional right to social assistance for South Africans who cannot support themselves. If you are unemployed with no income, these grants provide a vital safety net while you look for work or await other support. The SRD R370 grant was specifically created to assist working-age adults who have no other source of income." },
+    { "id": "scenario-h", "type": "heading", "level": 3, "text": "Real-Life Scenario" },
+    { "id": "scenario", "type": "paragraph", "text": "Thandi is a 34-year-old mother of two from Soweto. She lost her retail job in December 2025 and has been unable to find new employment. She has no income and relies on family for support. Thandi qualifies for the SRD R370 grant because she is unemployed, has no monthly income, and is not receiving UIF or NSFAS. She also applied for the Child Support Grant for her two children. This guide explains exactly what Thandi — and anyone in a similar situation — needs to do." },
+    { "id": "grants-h", "type": "heading", "level": 3, "text": "Which Grants You Can Apply For" },
+    { "id": "grants-table", "type": "table", "headers": ["Grant Type", "Amount", "Age Requirement", "Notes"], "rows": [
+      ["SRD R370", "R370/month", "18-59", "For unemployed adults with no other income. Apply online."],
+      ["Child Support Grant", "R580/month per child", "Any age (for the child under 18)", "For primary caregivers of children. Means-tested."],
+      ["Grant-in-Aid", "R580/month top-up", "Any age", "Only if you already receive another grant and need full-time care."]
     ] },
+    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist" },
+    { "id": "checklist", "type": "eligibility-checklist", "checklist": [
+      "Must be a South African citizen or permanent resident",
+      "Must be unemployed (zero monthly salary from formal employment)",
+      "Must have bank statements showing no recurring deposits exceeding R624/month",
+      "Must have a valid South African ID number",
+      "Must be between 18 and 59 years old",
+      "Must not be receiving UIF, NSFAS, or any other social grant"
+    ], "restrictions": [
+      "You cannot receive this grant if you are receiving UIF, NSFAS, or any other social grant",
+      "If you turn 60, you must transition from SRD to the Older Person Grant",
+      "Any bank deposit over R624 in a month can trigger a decline"
+    ], "recommendedGrants": [
+      { "name": "Social Relief of Distress (SRD R370)", "slug": "srd-r370-grant", "amount": "R370 / month" },
+      { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R580 / month per child" }
+    ] },
+    { "id": "docs-h", "type": "heading", "level": 3, "text": "Required Documents" },
+    { "id": "docs", "type": "document-checklist", "documents": [
+      { "label": "Valid South African ID number (13 digits)", "required": true },
+      { "label": "Active South African cellphone number registered in your name", "required": true },
+      { "label": "Bank account details (for direct payment) or preference for Cash Send", "required": true },
+      { "label": "Proof of unemployment (affidavit sworn at SAPS if applying for non-SRD grants)", "required": false },
+      { "label": "Last 3 months bank statements showing no income deposits", "required": false }
+    ] },
+    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Application Process" },
+    { "id": "steps", "type": "steps", "steps": [
+      { "title": "Check your eligibility", "description": "Confirm you meet all the criteria above. If you receive any income over R624/month, UIF, or NSFAS, you will not qualify for SRD R370." },
+      { "title": "Apply online", "description": "Go to srd.sassa.gov.za on your phone or computer. Enter your ID number, cellphone number, and banking details." },
+      { "title": "Verify your identity", "description": "You may be asked to complete facial verification via a secure link sent to your phone. Follow the on-screen prompts." },
+      { "title": "Wait for processing", "description": "Applications typically process within 7-14 business days. Check your status weekly on the same portal." },
+      { "title": "Check your status monthly", "description": "SRD grants are evaluated every month. Even if approved one month, you may be declined the next if your situation changes." }
+    ] },
+    { "id": "timeline-h", "type": "heading", "level": 3, "text": "Timeline" },
+    { "id": "timeline", "type": "callout", "intent": "info", "title": "Processing Timeline", "text": "Initial application: 7-14 business days. Monthly approval: first week of each month. Payment: between the 25th and 30th of each month for SRD. Backpay is automatic if your application is approved." },
+    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
+    { "id": "mistakes", "type": "list", "ordered": false, "items": [
+      "Applying for multiple grants simultaneously — you can only receive one social grant at a time (excluding Grant-in-Aid)",
+      "Not checking your status regularly — a decline notice requires action within 90 days",
+      "Using someone else's bank account — SASSA bank verification will fail if the account name doesn't match your ID",
+      "Receiving deposits from friends or family — any deposit over R624 can trigger an 'Alternative Income Source' decline",
+      "Ignoring SASSA requests for additional information — always respond within the given timeframe"
+    ] },
+    { "id": "decline-h", "type": "heading", "level": 3, "text": "What to Do If Your Application Is Declined" },
+    { "id": "decline", "type": "paragraph", "text": "If your SASSA grant application is declined, you have 90 days from the date of the decline notification to file an appeal with the Independent Tribunal for Social Assistance Appeals (ITSAA). The most common decline reasons for unemployed applicants are 'Alternative Income Source', 'UIF Registered', and 'Means Test Failed'. Visit our appeals centre for step-by-step guidance on filing your appeal." },
     { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Can I get a grant if I do casual work?", "answer": "Only if your casual work earnings fall below the monthly means test threshold (under R624/month for SRD)." },
-      { "question": "Can I receive SRD R370 if I am actively looking for work?", "answer": "Yes, being unemployed and actively seeking work does not disqualify you. The SRD R370 is designed for unemployed individuals." }
+      { "question": "Can I get a grant if I do casual work?", "answer": "Only if your casual work earnings fall below the monthly means test threshold (under R624/month for SRD R370). Any deposit over R624 from casual work will be treated as income and may disqualify you." },
+      { "question": "Can I receive SRD R370 if I am actively looking for work?", "answer": "Yes, being unemployed and actively seeking work does not disqualify you. The SRD R370 is designed for unemployed individuals regardless of whether you are job-hunting." },
+      { "question": "How long can I receive the SRD R370 grant?", "answer": "The SRD grant is currently extended until March 2027. It is evaluated month-to-month, so you must re-qualify each month based on your current financial situation." },
+      { "question": "What if I get a job while receiving the grant?", "answer": "You must notify SASSA of any change in your circumstances. If you start earning over R624/month, you will no longer qualify and may be required to repay any grants received after your income changed." },
+      { "question": "Can I get backpay if my application takes months to process?", "answer": "Yes. Once approved, SASSA backdates payment to the month you first applied, meaning you will receive a lump sum for all months your application was pending." },
+      { "question": "Can unemployed people apply for grants other than SRD?", "answer": "Yes. If you have children, you can apply for the Child Support Grant (R580/month per child). If you are over 60, you can apply for the Older Person Grant (R2,400/month)." },
+      { "question": "Do I need to appeal every month if I am declined?", "answer": "Yes. Because SASSA checks eligibility monthly, you must appeal for each individual month that shows a 'Declined' status on your profile." }
+    ] },
+    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
+    { "id": "related", "type": "link-grid", "links": [
+      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full details on the R370 grant for unemployed adults" },
+      { "title": "Can I Get SASSA if I Receive UIF?", "href": "/eligibility/i-receive-uif", "description": "How UIF affects your eligibility" },
+      { "title": "What Does Pending Mean?", "href": "/status/pending", "description": "Understanding your application status" },
+      { "title": "How to Appeal a Decline", "href": "/appeals/how-to-appeal", "description": "Step-by-step appeal process" },
+      { "title": "SASSA Grants Without a Bank Account", "href": "/eligibility/i-have-no-bank-account", "description": "Cash collection options for unbanked beneficiaries" }
     ] }
   ],
   "relatedPages": [
     { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
     { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
-    { "title": "Can I Get SASSA if I Receive UIF?", "slug": "/eligibility/i-receive-uif" }
+    { "title": "Can I Get SASSA if I Receive UIF?", "slug": "/eligibility/i-receive-uif" },
+    { "title": "What Does Pending Mean?", "slug": "/status/pending" },
+    { "title": "How to Appeal a Decline", "slug": "/appeals/how-to-appeal" }
   ]
 }

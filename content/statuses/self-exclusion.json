@@ -14,6 +14,15 @@
     "keywords": ["SASSA self exclusion", "SASSA self exclusion meaning", "SASSA declared other support", "SASSA declaration error"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Self Exclusion — How to Fix Your Declaration",
+      "description": "Your SASSA status shows 'Self Exclusion' — based on your application answers, SASSA determined you have other support. Learn why this happens, how to correct your declaration, and how to appeal if you still need the grant.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Fix Your Declaration", "href": "/status/self-exclusion" },
+      "secondaryCta": { "text": "Appeal a Decline", "href": "/appeals/how-to-appeal" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Self Exclusion — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Self Exclusion' status means that based on the answers you provided in your application declaration, SASSA determined you have another source of support and therefore do not qualify for the grant. This is different from other decline reasons because it is based on information you provided yourself." },
     { "id": "who", "type": "paragraph", "text": "This status affects applicants who indicated on their application that they receive financial support from another source." },

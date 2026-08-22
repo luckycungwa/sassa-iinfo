@@ -14,6 +14,15 @@
     "keywords": ["SASSA referred", "SASSA referred meaning", "SASSA fraud flag", "SASSA referred status", "SASSA investigation"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Referred — How to Resolve a Fraud Flag",
+      "description": "Your SASSA status shows 'Referred' — your application has been flagged for investigation. Understand why applications are referred, what this means for your grant, and the exact steps to clear your name and get your application moving again.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Contact SASSA", "href": "/contact" },
+      "secondaryCta": { "text": "Check Your Status", "href": "/status/referred" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Referred — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Referred' status is a serious flag. It means SASSA's fraud detection system identified something unusual about your application and has sent it for manual investigation. This is an administrative hold, not a criminal accusation, but it must be resolved before your grant can proceed." },
     { "id": "who", "type": "paragraph", "text": "This status affects applicants whose grant applications have been flagged for additional manual review by a senior SASSA officer." },
@@ -27,7 +36,7 @@
     ] }
   ],
   "relatedPages": [
-    { "title": "How to Contact SASSA", "slug": "/guides/how-to-contact-sassa" },
+    { "title": "How to Contact SASSA", "slug": "/contact" },
     { "title": "Self Exclusion Status", "slug": "/status/self-exclusion" }
   ]
 }

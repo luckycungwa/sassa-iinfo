@@ -1,0 +1,123 @@
+{
+  "id": "download-sassa-application-form",
+  "slug": "/downloads/sassa-application-form",
+  "classification": "downloadable-form",
+  "title": "SASSA Grant Application Form — Form 001",
+  "description": "The official SASSA grant application form (Form 001) for all social grants including Child Support, Older Persons, Disability, Foster Care, and Care Dependency grants.",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "readingTime": "5 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Grant Application Form 001: Download & Complete Guide",
+    "metaDescription": "Download the official SASSA grant application form (Form 001). Step-by-step guide to completing your application for Child Support, Older Persons, Disability, and other social grants.",
+    "keywords": ["SASSA application form", "SASSA form 001 download", "grant application form South Africa", "SASSA form PDF", "how to apply for SASSA grant"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Grant Application Form 001" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Grant Application Form — Form 001",
+      "description": "Download the official SASSA grant application form (Form 001) and complete our step-by-step guide to submitting your application correctly the first time.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-07-27",
+      "cta": { "label": "View Filling Guide", "href": "#how-to-fill" },
+      "secondaryCta": { "label": "View All Forms", "href": "/downloads" }
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "The SASSA Form 001 is the standard application form used for all social grant applications in South Africa. Whether you are applying for the Child Support Grant, Older Persons Grant, Disability Grant, Foster Care Grant, or Care Dependency Grant, you will need to complete this form. The form is available at any SASSA office or you can download it below."
+    },
+    {
+      "id": "what-you-need-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Documents You Need Before You Start"
+    },
+    {
+      "id": "document-checklist",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "Your original 13-digit barcoded Smart ID card or green ID book", "required": true, "notes": "Must be original — certified copies are not accepted at the office." },
+        { "label": "Proof of residence (not older than 3 months)", "required": true, "notes": "Utility bill, rental agreement, or letter from ward councillor." },
+        { "label": "Proof of income or affidavit if unemployed", "required": true, "notes": "Payslips, bank statements, or a sworn affidavit stating you have no income." },
+        { "label": "The beneficiary's birth certificate (for child grants)", "required": false, "notes": "Only needed if applying for a Child Support, Foster Care, or Care Dependency Grant." },
+        { "label": "Medical report (for Disability or Care Dependency Grant)", "required": false, "notes": "A medical report completed by a registered doctor, not older than 3 months." },
+        { "label": "Proof of marital status if applicable", "required": false, "notes": "Marriage certificate, divorce decree, or death certificate of spouse." }
+      ]
+    },
+    {
+      "id": "steps-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Complete the Form"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Download and print the form", "description": "Click the download button above to save the PDF. Print it on A4 paper. SASSA also provides free forms at their offices if you prefer to collect one in person." },
+        { "title": "Complete Section A — Personal Details", "description": "Fill in your full name, ID number, date of birth, and contact information. Use your name exactly as it appears on your ID document. Any mismatch may delay your application." },
+        { "title": "Complete Section B — Income and Means Test", "description": "Declare all sources of income, including salary, piece jobs, maintenance, and financial help from family. Even if you are unemployed, you must complete this section. Attach supporting documents." },
+        { "title": "Complete Section C — Beneficiary Details", "description": "If applying for a grant on behalf of a child or dependent, provide their full details, birth certificate number, and relationship to you." },
+        { "title": "Sign and date the declaration", "description": "Read the declaration carefully. By signing, you confirm that all information is true. False declarations may result in grant cancellation and legal action." },
+        { "title": "Submit at your nearest SASSA office", "description": "Take the completed form and all original documents to your nearest SASSA office. You will be fingerprinted and photographed. Keep the receipt as proof of application." }
+      ]
+    },
+    {
+      "id": "submission-tips-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "No Fee Required",
+      "text": "SASSA does not charge any fee for processing grant applications. If anyone asks you to pay for the form or for assistance with the application, report them to the SASSA fraud hotline on 0800 60 10 11."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I submit the form online or must I visit an office?",
+          "answer": "The SRD R370 grant can be applied for online at srd.sassa.gov.za, but all other social grants require you to submit the physical Form 001 in person at a SASSA office. You must bring your original documents and be fingerprinted."
+        },
+        {
+          "question": "How long does it take for SASSA to process the form?",
+          "answer": "SASSA has up to 90 days to process your application. In practice, straightforward applications are often processed within 30 to 60 days. Your grant is backdated to the date you applied, so keep your application receipt safe."
+        },
+        {
+          "question": "Can someone else submit the form on my behalf?",
+          "answer": "No. You must apply in person because SASSA needs your fingerprints and photograph. The only exception is if you have a medical condition that prevents you from travelling — in that case, a SASSA official can visit you at home."
+        },
+        {
+          "question": "What if I make a mistake on the form?",
+          "answer": "Do not use correction fluid or cross out errors. If you make a mistake, ask the SASSA officer for a new form. They will assist you in completing it correctly. Errors can cause delays or rejection of your application."
+        },
+        {
+          "question": "Do I need to submit a separate form for each grant?",
+          "answer": "One Form 001 covers all social grants. You indicate which grant you are applying for on the form. If you are applying for more than one grant (for example, Child Support for multiple children), you list all beneficiaries on the same form."
+        }
+      ]
+    },
+    {
+      "id": "download-block",
+      "type": "download",
+      "title": "SASSA Form 001 - Grant Application Form",
+      "fileSize": "1.2 MB",
+      "fileFormat": "PDF",
+      "text": "This form is available at any SASSA office. Ask the reception desk for Form 001 — the Social Grant Application Form. SASSA staff will help you fill it in."
+    }
+  ],
+  "relatedPages": [
+    { "title": "Download Centre", "slug": "/downloads" },
+    { "title": "Child Support Grant Guide", "slug": "/grants/child-support-grant" },
+    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" }
+  ]
+}

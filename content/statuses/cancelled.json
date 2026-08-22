@@ -14,6 +14,15 @@
     "keywords": ["SASSA cancelled", "SASSA grant cancelled", "SASSA cancelled meaning", "reinstate SASSA grant", "SASSA cancelled reinstatement"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Cancelled — How to Reinstate Your Grant",
+      "description": "Your SASSA grant shows 'Cancelled' — don't panic. Learn why grants are cancelled, how to check if it was an error, and the steps to file for reinstatement or submit a new application.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Reinstate Your Grant", "href": "/appeals/how-to-appeal" },
+      "secondaryCta": { "text": "Contact SASSA", "href": "/contact" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Cancelled — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Cancelled' status means your SASSA grant is no longer active. This is a permanent status change, not a temporary hold. Understanding why your grant was cancelled is the first step toward getting it reinstated if you still qualify." },
     { "id": "who", "type": "paragraph", "text": "This status affects SASSA grant beneficiaries whose grants have been stopped or terminated by SASSA." },
@@ -27,7 +36,7 @@
     ] }
   ],
   "relatedPages": [
-    { "title": "How to Reinstate a Cancelled Grant", "slug": "/guides/how-to-reinstate-cancelled-grant" },
+    { "title": "How to Reinstate a Cancelled Grant", "slug": "/appeals/how-to-appeal" },
     { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" }
   ]
 }

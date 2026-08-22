@@ -14,6 +14,15 @@
     "keywords": ["SASSA alternative income appeal", "SASSA deposits detected", "SASSA sworn affidavit", "SASSA bank deposit appeal", "SASSA gift money appeal"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Appealing a Decline Due to Alternative Income Source Detection",
+      "description": "SASSA's automated bank audit can flag deposits in your account as alternative income. If those deposits are gifts, loans, or savings transfers, this guide shows you how to prepare a sworn affidavit and submit a successful appeal.",
+      "readingTime": "5 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Appeal Your Income Source Decline", "href": "https://srd.dsd.gov.za" },
+      "secondaryCta": { "text": "View Common Decline Reasons", "href": "/appeals/appeal-reasons" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Appealing a Decline Due to Alternative Income Source Detection" },
     { "id": "intro", "type": "paragraph", "text": "One of the most common SRD decline reasons is 'Alternative Income Source Detected'. This happens when SASSA's automated bank audit finds deposits in your account. If these deposits are not actual income, you need a specific appeal strategy." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SRD R370 grant applicants whose status shows 'Alternative Income Source Detected' because of bank account deposits." },

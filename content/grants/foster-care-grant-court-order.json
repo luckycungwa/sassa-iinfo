@@ -1,0 +1,191 @@
+{
+  "id": "grant-foster-care-court-order",
+  "slug": "/grants/foster-care-grant/court-order-guide",
+  "classification": "grant-detail",
+  "title": "Foster Care Grant — Court Order Process Guide",
+  "description": "The Children's Court order is the single most important document for the Foster Care Grant. This guide walks through the legal process step by step.",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "readingTime": "5 min read",
+  "status": "published",
+  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "seo": {
+    "metaTitle": "Foster Care Grant Court Order Guide — SASSA 2026",
+    "metaDescription": "Step-by-step guide to getting a Children's Court order for the SASSA Foster Care Grant. Covers the social worker process, required documents, court timeline, and renewal of foster care orders.",
+    "keywords": ["children's court order foster care", "foster care grant court process", "social worker assessment foster care", "foster care order renewal", "SASSA foster care grant requirements"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Foster Care Grant Court Order Guide" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Foster Care Grant — Court Order Process Guide",
+      "description": "The Children's Court order is the single most important document for the Foster Care Grant. This guide walks through the legal process step by step.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-07-27",
+      "cta": { "label": "Back to Main Guide", "href": "/grants/foster-care-grant" },
+      "secondaryCta": { "label": "Find a Social Worker", "href": "/offices" }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R1,295",
+      "frequency": "Monthly per foster child",
+      "targetGroup": "Foster parents who have a valid Children's Court order placing a child in their care. No income means test applies."
+    },
+    {
+      "id": "intro-court-first",
+      "type": "paragraph",
+      "text": "Before SASSA pays a single cent, the Children's Court must issue a formal order placing the child in your foster care. This is not a formality — it is a legal requirement under the Children's Act 38 of 2005. SASSA cannot process your grant application without a valid court order, no matter how urgently the child needs care."
+    },
+    {
+      "id": "foster-vs-kinship-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Foster Care vs Kinship Care: Know the Difference"
+    },
+    {
+      "id": "foster-vs-kinship-text",
+      "type": "paragraph",
+      "text": "Many people use these terms interchangeably, but they are legally distinct. Foster care means a child is placed with you by the Children's Court because they cannot live with their biological parents — it does not require a blood relationship. Kinship care is when a relative (grandparent, aunt, uncle, or adult sibling) takes in a child, and the child may qualify for the Child Support Grant rather than the Foster Care Grant. The main difference is the court order: foster care always requires one, kinship care usually does not. If you are a relative caring for a child, speak to a social worker who can assess which grant category applies to your situation."
+    },
+    {
+      "id": "social-worker-role-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Role of the Social Worker"
+    },
+    {
+      "id": "social-worker-role-text",
+      "type": "paragraph",
+      "text": "The social worker is the gatekeeper of the foster care process. You cannot go directly to the Children's Court — a designated social worker from the Department of Social Development (DSD) or a registered child protection organisation must assess your case first. Their assessment forms the basis of the court's decision."
+    },
+    {
+      "id": "social-worker-tasks",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Conducting a home visit to assess your living conditions, safety, and stability.",
+        "Interviewing the child, biological parents (if available), and other household members.",
+        "Compiling a detailed social worker report with a recommendation for or against foster care placement.",
+        "Submitting the report to the Children's Court and, if needed, testifying at the hearing.",
+        "Providing post-placement support and initiating the renewal process when the order approaches expiry."
+      ]
+    },
+    {
+      "id": "court-process-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Step-by-Step: The Children's Court Process"
+    },
+    {
+      "id": "court-process-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Referral to a social worker", "description": "Visit your nearest DSD office or registered child protection organisation. Explain that you want to foster a child. A social worker will be assigned to open a file and begin the investigation." },
+        { "title": "Social worker assessment", "description": "The social worker schedules a home visit, interviews everyone involved, and gathers documents. This stage typically takes 2–4 weeks depending on the social worker's caseload." },
+        { "title": "Social worker report", "description": "The social worker compiles a formal report with a recommendation for the court. You have the right to review this report before it goes to the magistrate." },
+        { "title": "Court date scheduled", "description": "The Children's Court clerk sets a hearing date. You, the child (if old enough), the biological parents, and the social worker must all be notified of the date." },
+        { "title": "Children's Court hearing", "description": "The magistrate reviews the report, hears from the social worker and relevant parties, and questions anyone needed. If satisfied that foster care is in the child's best interests, an order is issued." },
+        { "title": "Order issued and certified", "description": "The court issues a formal foster care order. You receive a certified copy — this is the document you take to SASSA to apply for the grant." }
+      ]
+    },
+    {
+      "id": "court-docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Documents Needed for the Court Application"
+    },
+    {
+      "id": "court-docs-list",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "Your original 13-digit barcoded Smart Card ID or green ID book", "required": true },
+        { "label": "The child's birth certificate or ID document", "required": true },
+        { "label": "The child's passport or study permit (if the child is not a South African citizen)", "required": false },
+        { "label": "Proof of residence (utility bill, rental agreement, or letter from ward councillor)", "required": true },
+        { "label": "Biological parents' ID documents or death certificates (if deceased)", "required": true },
+        { "label": "Marriage certificate or divorce order (if applicable to your situation)", "required": false },
+        { "label": "Medical or psychological reports (if relevant to the child's needs)", "required": false },
+        { "label": "Affidavit explaining why the child cannot live with biological parents (if parents are unavailable)", "required": false }
+      ]
+    },
+    {
+      "id": "key-people-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Who's Who in the Children's Court"
+    },
+    {
+      "id": "key-people-table",
+      "type": "table",
+      "headers": ["Person", "Role in the Process"],
+      "rows": [
+        ["Social Worker (DSD)", "Conducts the home visit, interviews everyone, writes the assessment report, submits it to court, and recommends whether foster placement is suitable."],
+        ["Children's Court Clerk", "Manages the court file, schedules the hearing, issues notices to all parties, and ensures documents are filed before the magistrate reviews the case."],
+        ["Magistrate / Commissioner of Child Welfare", "Presides over the hearing, reviews evidence and the social worker report, questions parties, and decides whether to issue or deny the foster care order."],
+        ["SASSA Officer", "Processes the grant once you have a valid court order — not involved in the court process itself, but the final link between the order and the monthly payment."]
+      ],
+      "caption": "Everyone involved in getting a Children's Court order for foster care"
+    },
+    {
+      "id": "no-order-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "You Already Have the Child but No Court Order?",
+      "text": "If the child is already living with you and you do not have a court order, you are not yet a legal foster parent in the eyes of SASSA. You cannot apply for the grant until the court order is issued. Contact a social worker immediately to start the process. In the meantime, you may qualify for the Child Support Grant as a temporary measure — ask the social worker about this option."
+    },
+    {
+      "id": "extension-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Extension When the Child Turns 18",
+      "text": "The Foster Care Grant automatically ends when the child turns 18 unless they are still in school or enrolled at a tertiary institution. If the child is studying, the grant continues until age 21. You must submit a school attendance letter or proof of enrolment to SASSA each year. The Children's Court order also needs to be reviewed and extended — your social worker should initiate this before the order and the grant expire."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How much does it cost to get a Children's Court order?",
+          "answer": "There is no filing fee for a foster care application at the Children's Court. The social worker assessment through DSD is free. If you use a private social worker or attorney, their fees apply, but the court process itself has no cost."
+        },
+        {
+          "question": "How long does the Children's Court process take?",
+          "answer": "The full process — from the first social worker visit to receiving the court order — typically takes 4 to 8 weeks. It can take longer if the court has a heavy caseload, if biological parents cannot be located, or if the case is contested. Start as early as possible."
+        },
+        {
+          "question": "What if I am a relative caring for a child — foster care or kinship care?",
+          "answer": "If you are a grandparent, aunt, uncle, or adult sibling caring for a child, you may qualify for the Child Support Grant under kinship care, which does not require a court order. However, if the child is orphaned, abandoned, or at risk, the social worker may recommend foster care instead. Let the social worker assess your situation to determine the right pathway."
+        },
+        {
+          "question": "Can I foster a child without a court order?",
+          "answer": "No. Foster care is a legal arrangement that only a magistrate can authorise. Without a court order, you are not a legal foster parent, and SASSA cannot process the grant. If a child is in your care without an order, contact DSD immediately to regularise the placement."
+        },
+        {
+          "question": "What happens if the Children's Court order expires?",
+          "answer": "Foster care orders are typically valid for two years. If the order expires without renewal, SASSA suspends the grant immediately. A new court order is needed to restart payments, and payments are not backdated to cover the gap. Your social worker should contact you before the expiry date to initiate the review process."
+        },
+        {
+          "question": "Do I need a lawyer for the Children's Court hearing?",
+          "answer": "No, you do not need a lawyer. The social worker presents the assessment report to the court, and most foster care placements are uncontested. However, if the biological parents oppose the placement or if the case is complex, the magistrate may recommend that you seek legal representation."
+        },
+        {
+          "question": "What if the child's parents object to the foster care placement?",
+          "answer": "If the biological parents oppose the placement, the case becomes a contested matter. The court will give all parties an opportunity to present their side. The social worker will include both perspectives in the report. The magistrate's decision is based solely on the best interests of the child. Contested cases take longer and may require additional hearings."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    { "title": "Foster Care Grant — Main Guide", "slug": "/grants/foster-care-grant" },
+    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
+    { "title": "Grant Library", "slug": "/grants" }
+  ]
+}

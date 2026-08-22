@@ -1,0 +1,130 @@
+{
+  "id": "download-srd-appeal-form",
+  "slug": "/downloads/srd-appeal-form",
+  "classification": "downloadable-form",
+  "title": "SRD Appeal Form — DSD Appeal Form",
+  "description": "The official DSD appeal form for the SASSA SRD R370 grant. Download and complete this form if your SRD application was declined or your payment was stopped.",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "readingTime": "5 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SRD Appeal Form 2026: Download DSD Appeal Form for SASSA R370 Grant",
+    "metaDescription": "Download the official DSD appeal form for the SASSA SRD R370 grant. Step-by-step appeal instructions, required documents checklist, and FAQs. Free to download and submit.",
+    "keywords": ["SRD appeal form", "SASSA R370 appeal", "DSD appeal form download", "SRD grant appeal process", "how to appeal SASSA SRD decision"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "SRD Appeal Form - DSD Appeal" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SRD Appeal Form — DSD Appeal Form",
+      "description": "Download the official Department of Social Development (DSD) appeal form for the SASSA SRD R370 grant. Complete instructions for submitting your appeal and getting your payments reinstated.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-07-27",
+      "cta": { "label": "View Filling Guide", "href": "#how-to-fill" },
+      "secondaryCta": { "label": "View All Forms", "href": "/downloads" }
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "If your SRD R370 grant application was declined or your payments were stopped, you have the right to appeal. The Department of Social Development (DSD) appeal form is the official channel for challenging SASSA's decision. You have 90 days from the date of the rejection letter to submit your appeal. Complete the form below and submit it to the DSD for review."
+    },
+    {
+      "id": "instructions-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Complete and Submit the Appeal Form"
+    },
+    {
+      "id": "instructions",
+      "type": "steps",
+      "steps": [
+        { "title": "Download the DSD Appeal Form", "description": "Click the download button above to save the PDF. Print it out or fill it digitally using a PDF editor." },
+        { "title": "Fill in your personal details", "description": "Provide your full name, ID number, SASSA reference number (from your rejection letter), phone number, and email address. Ensure all details match your original application." },
+        { "title": "State your reason for appeal", "description": "In the section provided, explain clearly why you believe SASSA's decision was incorrect. Common reasons include: your income is below the threshold, SASSA used incorrect bank details, or your application was declined due to a technical error." },
+        { "title": "Attach supporting documents", "description": "Include any evidence that supports your appeal. This may include bank statements showing low income, an affidavit explaining your situation, proof of residence, or a corrected application form." },
+        { "title": "Submit the form to DSD", "description": "Submit the completed form and supporting documents via email to appeal@dsd.gov.za, or deliver it in person to any DSD office. You can also submit at your nearest SASSA office, which will forward it to DSD." },
+        { "title": "Wait for the outcome", "description": "DSD has 60 to 90 days to process your appeal. You will receive a response by SMS or post. If your appeal is successful, any backdated payments will be deposited into your bank account." }
+      ]
+    },
+    {
+      "id": "required-docs-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Required Documents Checklist"
+    },
+    {
+      "id": "required-docs",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "Completed and signed DSD appeal form", "required": true, "notes": "Both pages must be signed. Unsigned forms will not be processed." },
+        { "label": "Copy of your ID document (Smart ID or green ID book)", "required": true, "notes": "Certified copy not older than 3 months." },
+        { "label": "Copy of the SASSA rejection letter", "required": true, "notes": "The letter includes your reference number and the reason for decline." },
+        { "label": "Proof of income or affidavit if unemployed", "required": true, "notes": "Bank statements from the last 3 months or a sworn affidavit confirming no income." },
+        { "label": "Supporting evidence for your appeal reason", "required": false, "notes": "For example, corrected bank statement, updated proof of residence, or a letter from your ward councillor." },
+        { "label": "Proof of banking details", "required": false, "notes": "A recent bank statement or letter from your bank confirming your account details." }
+      ]
+    },
+    {
+      "id": "deadline-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "90-Day Appeal Window",
+      "text": "You have 90 calendar days from the date on your SASSA rejection letter to submit your appeal. Appeals submitted after 90 days will not be considered. If you miss the deadline, you must reapply for the SRD grant from scratch."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I submit my SRD appeal online without downloading the form?",
+          "answer": "Yes. You can appeal directly on the SASSA SRD website (srd.sassa.gov.za) by clicking the 'Appeal' button next to your application status. This is the fastest method and does not require you to download or print any form. The DSD appeal form is for those who prefer a paper-based submission or need to submit additional documents."
+        },
+        {
+          "question": "How long does the appeal process take?",
+          "answer": "DSD aims to process appeals within 60 to 90 days. You will receive an SMS notification when a decision has been made. If you have not heard back after 90 days, contact the DSD appeal helpline on 0800 60 10 11."
+        },
+        {
+          "question": "If my appeal is successful, will I receive backdated payments?",
+          "answer": "Yes. If DSD finds in your favour, you will receive all payments dating back to the date your original application should have been approved. Backdated amounts are paid as a lump sum into your bank account."
+        },
+        {
+          "question": "Can I appeal more than once for the same application?",
+          "answer": "You can only appeal once per application period. If your first appeal is unsuccessful, you may reapply for the SRD grant in a subsequent month. A new application starts the process fresh."
+        },
+        {
+          "question": "What are the most common reasons for successful appeals?",
+          "answer": "The most common successful appeal reasons are: SASSA incorrectly found that you had other income when you did not; your bank details were wrong on the application; or SASSA's system incorrectly flagged your ID as belonging to someone else receiving a grant. Provide clear evidence for any of these scenarios."
+        }
+      ]
+    },
+    {
+      "id": "submit-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Free Service — No Payment Required",
+      "text": "The appeal process is completely free. Do not pay anyone who offers to submit your appeal or 'guarantee' a successful outcome. SASSA and DSD do not charge for appeals. Report any fraud to the SASSA helpline on 0800 60 10 11."
+    },
+    {
+      "id": "download-block",
+      "type": "download",
+      "title": "DSD Appeal Form - SRD R370 Grant",
+      "fileSize": "890 KB",
+      "fileFormat": "PDF",
+      "text": "The DSD Appeal Form is available at your nearest SASSA office or can be obtained from the DSD Appeals portal at https://dsdappeals.sassa.gov.za."
+    }
+  ],
+  "relatedPages": [
+    { "title": "Download Centre", "slug": "/downloads" },
+    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-grant" },
+    { "title": "SRD Appeal Process Guide", "slug": "/guides/srd-appeal-process" }
+  ]
+}

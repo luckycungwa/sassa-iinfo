@@ -24,8 +24,8 @@ export default function ProvinceHubs() {
             }}
             className={`w-full text-left p-4 rounded-xl border transition flex items-center justify-between ${
               selectedProvince.id === p.id
-                ? "bg-accent border-emerald-950 text-white font-semibold"
-                : "bg-surface border-border hover:border-accent/40 text-slate-700 hover:bg-canvas"
+                ? "bg-accent border-ink text-black font-semibold"
+                : "bg-surface border-border hover:border-accent/40 text-ink hover:bg-canvas"
             }`}
           >
             <div>
@@ -49,14 +49,14 @@ export default function ProvinceHubs() {
 
         {/* Regional Office Info */}
         <div className="p-5 bg-canvas border border-border rounded-xl space-y-4">
-          <h3 className="font-bold text-sm text-slate-800 flex items-center gap-1.5">
+          <h3 className="font-bold text-sm text-ink flex items-center gap-1.5">
             <MapPin className="w-4.5 h-4.5 text-accent-dark" /> Provincial Head Office
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm text-slate-600">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm text-muted">
             <div className="space-y-1">
               <p className="font-bold text-muted uppercase font-mono text-[10px]">Physical Address</p>
-              <p className="leading-relaxed font-semibold text-slate-700">{selectedProvince.regionalOfficeAddress}</p>
+              <p className="leading-relaxed font-semibold text-ink">{selectedProvince.regionalOfficeAddress}</p>
             </div>
             <div className="space-y-1">
               <p className="font-bold text-muted uppercase font-mono text-[10px]">Phone Contact</p>
@@ -68,7 +68,7 @@ export default function ProvinceHubs() {
         {/* Collection Info */}
         <div className="space-y-2">
           <h3 className="font-bold text-xs font-mono text-muted tracking-wider uppercase">Local Collection Information</h3>
-          <p className="text-slate-600 text-sm leading-relaxed">
+          <p className="text-muted text-sm leading-relaxed">
             {selectedProvince.collectionInfo}
           </p>
         </div>
@@ -76,15 +76,15 @@ export default function ProvinceHubs() {
         {/* Provincial FAQs */}
         {selectedProvince.faqs && selectedProvince.faqs.length > 0 && (
           <div className="space-y-3 pt-4 border-t border-border">
-            <h3 className="font-bold text-sm text-slate-800 flex items-center gap-1.5">
+            <h3 className="font-bold text-sm text-ink flex items-center gap-1.5">
               <HelpCircle className="w-4 h-4 text-accent-dark" /> Provincial Frequently Asked Questions
             </h3>
-            <div className="space-y-2 divide-y divide-slate-100">
+            <div className="space-y-2 divide-y divide-surface-dim">
               {selectedProvince.faqs.map((faq, idx) => (
                 <div key={idx} className="pt-2.5 first:pt-0">
                   <button
                     onClick={() => setExpandedFaq(expandedFaq === idx ? null : idx)}
-                    className="w-full text-left font-semibold text-sm text-slate-800 hover:text-accent-dark flex justify-between items-center py-1.5"
+                    className="w-full text-left font-semibold text-sm text-ink hover:text-accent-dark flex justify-between items-center py-1.5"
                   >
                     <span>{faq.question}</span>
                     {expandedFaq === idx ? (
@@ -94,7 +94,7 @@ export default function ProvinceHubs() {
                     )}
                   </button>
                   {expandedFaq === idx && (
-                    <div className="text-xs md:text-sm text-slate-600 mt-1 pl-1 leading-relaxed">
+                    <div className="text-xs md:text-sm text-muted mt-1 pl-1 leading-relaxed">
                       {faq.answer}
                     </div>
                   )}

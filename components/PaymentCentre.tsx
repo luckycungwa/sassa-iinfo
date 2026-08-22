@@ -13,26 +13,26 @@ export default function PaymentCentre() {
     {
       grant: "Older Persons Grant (Pension)",
       dates: { july: "3 July 2026", august: "4 August 2026" },
-      color: "bg-accent-light border-emerald-200 text-accent-dark",
+      color: "bg-accent-light border-accent-light text-accent-dark",
       accent: "bg-accent"
     },
     {
       grant: "Disability Grant",
       dates: { july: "4 July 2026", august: "5 August 2026" },
-      color: "bg-blue-50 border-blue-200 text-blue-800",
-      accent: "bg-blue-800"
+      color: "bg-info/10 border-info/30 text-ink",
+      accent: "bg-info"
     },
     {
       grant: "Children's Grants (Child Support, Foster Care, Care Dependency)",
       dates: { july: "5 July 2026", august: "6 August 2026" },
-      color: "bg-amber-50 border-amber-200 text-amber-800",
-      accent: "bg-amber-500"
+      color: "bg-amber/10 border-amber/30 text-ink",
+      accent: "bg-amber"
     },
     {
       grant: "Social Relief of Distress (SRD R370) Grant",
       dates: { july: "25 - 30 July 2026", august: "25 - 31 August 2026" },
-      color: "bg-purple-50 border-purple-200 text-purple-800",
-      accent: "bg-purple-800"
+      color: "bg-accent-turquoise/10 border-accent-turquoise/30 text-ink",
+      accent: "bg-accent-turquoise"
     }
   ];
 
@@ -62,28 +62,28 @@ export default function PaymentCentre() {
   return (
     <div className="space-y-8">
       {/* Hero Header */}
-      <div className="bg-accent-dark rounded-xl p-6 md:p-8 text-white relative overflow-hidden border border-emerald-800/50">
-        <div className="absolute right-0 top-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
+      <div className="bg-midnight rounded-xl p-6 md:p-8 text-ink relative overflow-hidden border border-outline">
+        <div className="absolute right-0 top-0 w-64 h-64 bg-accent-light/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
         <div className="relative z-10 space-y-4 max-w-2xl">
-          <span className="bg-amber-400 text-emerald-950 font-semibold px-3 py-1 rounded-full text-xs font-mono tracking-wide uppercase">
+          <span className="bg-accent-light text-accent-dark font-semibold px-3 py-1 rounded-full text-xs font-mono tracking-wide uppercase">
             Updated for July 2026
           </span>
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
+          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-surface">
             SASSA Payment Centre & Schedules
           </h1>
-          <p className="text-emerald-100 text-sm md:text-base leading-relaxed">
+          <p className="text-ink/70 text-sm md:text-base leading-relaxed">
             South Africa’s most trusted source for verified SASSA payment dates. View upcoming payment schedules, download calendar guides, and access previous cycles.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
             <button
               onClick={handlePrint}
-              className="flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-emerald-950 font-bold px-4 py-2.5 rounded-xl transition text-xs md:text-sm"
+              className="flex items-center gap-2 bg-accent-light hover:bg-gold text-accent-dark font-bold px-4 py-2.5 rounded-xl transition text-xs md:text-sm"
             >
               <Printer className="w-4 h-4" /> Printable Version
             </button>
             <button
               onClick={handleDownload}
-              className="flex items-center gap-2 bg-accent hover:bg-emerald-700 text-white font-medium px-4 py-2.5 rounded-xl transition text-xs md:text-sm border border-emerald-700"
+              className="flex items-center gap-2 bg-accent hover:bg-accent-dark text-black font-bold px-4 py-2.5 rounded-xl transition text-xs md:text-sm border border-accent-dark"
             >
               {downloading ? (
                 <>
@@ -108,7 +108,7 @@ export default function PaymentCentre() {
               <div className="p-2 bg-accent-light text-accent-dark rounded-xl">
                 <CalendarIcon className="w-5 h-5" />
               </div>
-              <h2 className="font-bold text-lg text-slate-800">Current Month: July 2026</h2>
+              <h2 className="font-bold text-lg text-ink">Current Month: July 2026</h2>
             </div>
             <span className="text-xs font-mono text-muted">Next Payout Cycle</span>
           </div>
@@ -121,7 +121,7 @@ export default function PaymentCentre() {
               >
                 <div className={`w-2.5 h-10 rounded-full ${p.accent} mt-0.5`}></div>
                 <div className="flex-1">
-                  <h3 className="font-bold text-sm text-slate-800 leading-tight">{p.grant}</h3>
+                  <h3 className="font-bold text-sm text-ink leading-tight">{p.grant}</h3>
                   <p className="text-lg font-extrabold mt-1 tracking-tight">{p.dates.july}</p>
                 </div>
               </div>
@@ -133,10 +133,10 @@ export default function PaymentCentre() {
         <div className="bg-surface rounded-xl border border-border p-6 space-y-6">
           <div className="flex items-center justify-between border-b border-border pb-4">
             <div className="flex items-center gap-2">
-              <div className="p-2 bg-amber-50 text-amber-600 rounded-xl">
+              <div className="p-2 bg-amber/15 text-amber-dark rounded-xl">
                 <CalendarIcon className="w-5 h-5" />
               </div>
-              <h2 className="font-bold text-lg text-slate-800">Next Month: August 2026</h2>
+              <h2 className="font-bold text-lg text-ink">Next Month: August 2026</h2>
             </div>
             <span className="text-xs font-mono text-muted">Provisional Dates</span>
           </div>
@@ -149,7 +149,7 @@ export default function PaymentCentre() {
               >
                 <div className={`w-2.5 h-10 rounded-full ${p.accent} mt-0.5`}></div>
                 <div className="flex-1">
-                  <h3 className="font-bold text-sm text-slate-800 leading-tight">{p.grant}</h3>
+                  <h3 className="font-bold text-sm text-ink leading-tight">{p.grant}</h3>
                   <p className="text-lg font-extrabold mt-1 tracking-tight">{p.dates.august}</p>
                 </div>
               </div>
@@ -159,8 +159,8 @@ export default function PaymentCentre() {
       </div>
 
       {/* Helpful Guidelines */}
-      <div className="bg-amber-50 border border-amber-100 p-4 rounded-xl flex gap-3 text-xs md:text-sm text-amber-900 leading-relaxed">
-        <Info className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+      <div className="bg-amber/10 border border-amber/30 p-4 rounded-xl flex gap-3 text-xs md:text-sm text-ink leading-relaxed">
+        <Info className="w-5 h-5 text-accent-dark flex-shrink-0 mt-0.5" />
         <div className="space-y-1">
           <p className="font-bold">Collection Information:</p>
           <p>
@@ -173,7 +173,7 @@ export default function PaymentCentre() {
       <div className="bg-surface rounded-xl border border-border p-6 space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-border pb-4 gap-2">
           <div>
-            <h2 className="font-bold text-base text-slate-800">Payment Date Archives</h2>
+            <h2 className="font-bold text-base text-ink">Payment Date Archives</h2>
             <p className="text-muted text-xs">Verify historical payment release cycles for reference.</p>
           </div>
           <div className="flex gap-2">
@@ -181,8 +181,8 @@ export default function PaymentCentre() {
               onClick={() => setSelectedYear("2026")}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
                 selectedYear === "2026"
-                  ? "bg-accent text-white"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                  ? "bg-accent text-black"
+                  : "bg-surface-dim text-muted hover:bg-surface-container"
               }`}
             >
               2026 Cycle
@@ -191,8 +191,8 @@ export default function PaymentCentre() {
               onClick={() => setSelectedYear("2025")}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
                 selectedYear === "2025"
-                  ? "bg-accent text-white"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                  ? "bg-accent text-black"
+                  : "bg-surface-dim text-muted hover:bg-surface-container"
               }`}
             >
               2025 Cycle
@@ -202,8 +202,8 @@ export default function PaymentCentre() {
 
         {selectedYear === "2026" ? (
           <div className="overflow-x-auto">
-            <table className="w-full text-left text-xs md:text-sm text-slate-700">
-              <thead className="bg-canvas text-slate-600 font-bold font-mono">
+            <table className="w-full text-left text-xs md:text-sm text-ink">
+              <thead className="bg-canvas text-muted font-bold font-mono">
                 <tr>
                   <th className="p-3">Month (2026)</th>
                   <th className="p-3">Older Persons</th>
@@ -212,7 +212,7 @@ export default function PaymentCentre() {
                   <th className="p-3">SRD R370</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-100">
+              <tbody className="divide-y divide-surface-dim">
                 <tr>
                   <td className="p-3 font-semibold">June 2026</td>
                   <td className="p-3">3 Jun</td>
@@ -246,8 +246,8 @@ export default function PaymentCentre() {
           </div>
         ) : (
           <div className="overflow-x-auto">
-            <table className="w-full text-left text-xs md:text-sm text-slate-700">
-              <thead className="bg-canvas text-slate-600 font-bold font-mono">
+            <table className="w-full text-left text-xs md:text-sm text-ink">
+              <thead className="bg-canvas text-muted font-bold font-mono">
                 <tr>
                   <th className="p-3">Month (2025)</th>
                   <th className="p-3">Older Persons</th>
@@ -256,7 +256,7 @@ export default function PaymentCentre() {
                   <th className="p-3">SRD R370</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-100">
+              <tbody className="divide-y divide-surface-dim">
                 {archivedDates["2025"].map((row, idx) => (
                   <tr key={idx}>
                     <td className="p-3 font-semibold">{row.month}</td>

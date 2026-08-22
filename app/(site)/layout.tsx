@@ -3,31 +3,12 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {
-  Calendar, BookOpen, Search, Scale, Sliders, Sparkles, MapPin, FileText,
-  Compass, Briefcase, HelpCircle, Newspaper, Menu, X, ChevronRight, ShieldCheck, AlertTriangle,
-} from "lucide-react";
+import { Sparkles } from "lucide-react";
 import PageAgent from "../../components/PageAgent";
-import SearchDialog from "../../components/SearchDialog";
-
-const navItems = [
-  { href: "/payment-dates", label: "Payment Dates", icon: Calendar, desc: "Payout Schedules" },
-  { href: "/grants", label: "Grant Library", icon: BookOpen, desc: "Official Social Grants" },
-  { href: "/status", label: "Status Meanings", icon: Search, desc: "Application Status Codes" },
-  { href: "/appeals", label: "Appeals Centre", icon: Scale, desc: "ITSAA Appeal Process" },
-  { href: "/eligibility", label: "Eligibility Centre", icon: Sliders, desc: "Browse by Situation" },
-  { href: "/tools", label: "Interactive Tools", icon: Sparkles, desc: "Calculators & Checkers" },
-  { href: "/offices", label: "Office Finder", icon: MapPin, desc: "Provincial Branches" },
-  { href: "/downloads", label: "Download Centre", icon: FileText, desc: "Official Forms" },
-  { href: "/provinces", label: "Province Hubs", icon: Compass, desc: "Regional Guides" },
-  { href: "/guides", label: "Guides", icon: BookOpen, desc: "How-To Resources" },
-  { href: "/banking", label: "Banking", icon: Briefcase, desc: "Payment Methods" },
-  { href: "/faq", label: "FAQ", icon: HelpCircle, desc: "Common Questions" },
-  { href: "/news", label: "News", icon: Newspaper, desc: "Official Announcements" },
-];
+import TopNavbar from "../../components/TopNavbar";
 
 const pageContextMap: Record<string, string> = {
-  "/": "You are on the SASSA Resource Platform home page. Browse grants, status meanings, payment dates, office locations, appeal guides, eligibility checkers, and more.",
+  "/": "You are on the SASSA Grant Guide home page. Browse grants, status meanings, payment dates, office locations, appeal guides, eligibility checkers, and more.",
   "/payment-dates": "You are viewing the SASSA Payment Calendar page. Monthly payout schedules for all grant types including Older Persons, Disability, Children, and SRD R370.",
   "/grants": "You are viewing the Grant Library. Detailed guides for 8 social grants including Older Person, Child Support, Disability, Foster Care, Care Dependency, War Veterans, Grant-in-Aid, and SRD R370.",
   "/status": "You are viewing the Status Meaning Centre. Detailed explanations for SRD and social grant application statuses including Pending, Approved, Cancelled, Bank Verification, Alternative Income Source, and more.",
@@ -55,216 +36,126 @@ function getPageContext(pathname: string): string {
 }
 
 function getPageTitle(pathname: string): string {
-  const match = navItems.find((item) => pathname.startsWith(item.href) && (pathname === item.href || pathname.startsWith(item.href + "/")));
-  if (match) {
-    const rest = pathname.slice(match.href.length).replace(/^\/+/g, "");
-    if (rest) return `${match.label} — ${rest.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}`;
-    return match.label;
+  const segments = pathname.split("/").filter(Boolean);
+  if (segments.length === 0) return "Home";
+  const label = segments[0].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  if (segments.length >= 2) {
+    const sub = segments.slice(1).join(" ").replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    return `${label} — ${sub}`;
   }
-  return "Home";
+  return label;
 }
 
 export default function SiteLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [isAssistantOpen, setIsAssistantOpen] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => setMounted(true));
+    return () => cancelAnimationFrame(raf);
+  }, []);
 
   if (!mounted) {
-    return <div className="min-h-screen bg-canvas">{children}</div>;
+    return <div className="min-h-screen bg-background">{children}</div>;
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-canvas text-ink">
-      <div className="bg-yellow-50 border-b border-yellow-200 print:hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-center gap-2">
-          <AlertTriangle className="w-3.5 h-3.5 text-yellow-700 flex-shrink-0" />
-          <p className="text-[11px] text-yellow-800 font-medium">
-            Independent informational resource &mdash; not affiliated with SASSA or the South African government.
-            <a href="/disclaimer" className="underline font-bold ml-1 hover:text-yellow-900">Learn more</a>
-          </p>
-        </div>
-      </div>
-      <header className="bg-surface border-b border-border sticky top-0 z-30 print:hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="w-9 h-9 rounded-lg bg-accent flex items-center justify-center text-white font-bold text-sm tracking-tight">
-              ZA
-            </div>
-            <div>
-              <p className="font-bold text-sm tracking-tight text-ink flex items-center gap-1.5">
-                SASSA Resource Platform
-                <span className="bg-accent-light text-accent-dark border border-border text-[10px] px-2 py-0.5 rounded-full font-bold font-mono">
-                  Public Base
-                </span>
-              </p>
-              <p className="text-[10px] text-muted font-mono">
-                South Africa&rsquo;s Trusted Assistance Guide
-              </p>
-            </div>
-          </Link>
+    <div className="relative min-h-screen flex flex-col bg-background text-foreground overflow-hidden">
+      <a href="#article-body-column" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-violet focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:text-sm">
+        Skip to content
+      </a>
+      <TopNavbar
+        isAssistantOpen={isAssistantOpen}
+        onToggleAssistant={() => setIsAssistantOpen(!isAssistantOpen)}
+      />
 
-          <div className="flex items-center gap-2">
-            <SearchDialog />
-            <button
-              onClick={() => setIsAssistantOpen(!isAssistantOpen)}
-              className={`hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition ${
-                isAssistantOpen
-                  ? "bg-accent-light text-accent-dark border border-border"
-                  : "bg-accent text-white hover:bg-accent-dark"
-              }`}
-            >
-              <Sparkles className="w-4 h-4 animate-pulse-subtle" />
-              <span>PageAgent AI</span>
-            </button>
-
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 hover:bg-canvas border border-border rounded-lg transition md:hidden"
-            >
-              {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </button>
-          </div>
-        </div>
-      </header>
-
-      <div className="flex-1 flex max-w-7xl mx-auto w-full p-4 sm:p-6 lg:p-8 gap-6 min-h-[calc(100vh-4rem-6rem)]">
-        <aside className="hidden md:block w-64 space-y-3 flex-shrink-0 print:hidden">
-          <p className="text-[10px] font-bold text-muted font-mono tracking-wider uppercase px-2">
-            Resource Directory
-          </p>
-          <nav className="space-y-1">
-            {navItems.map((item) => {
-              const Icon = item.icon;
-              const isActive = pathname === item.href || pathname.startsWith(item.href + "/");
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={`w-full flex items-center justify-between p-3 rounded-lg transition group text-left ${
-                    isActive
-                      ? "bg-accent text-white"
-                      : "bg-surface hover:bg-canvas border border-border text-muted hover:text-ink"
-                  }`}
-                >
-                  <div className="flex items-center gap-3 min-w-0">
-                    <Icon className={`w-4 h-4 flex-shrink-0 ${isActive ? "text-white" : "text-muted group-hover:text-accent"}`} />
-                    <div>
-                      <h4 className="text-xs font-bold tracking-tight leading-none">{item.label}</h4>
-                      <p className={`text-[10px] mt-0.5 font-mono ${isActive ? "text-white/70" : "text-muted"}`}>
-                        {item.desc}
-                      </p>
-                    </div>
-                  </div>
-                  <ChevronRight className={`w-3.5 h-3.5 flex-shrink-0 transition ${isActive ? "text-white/70" : "opacity-0 group-hover:opacity-100 text-muted"}`} />
-                </Link>
-              );
-            })}
-          </nav>
-        </aside>
-
+      <div className="flex-1 flex">
         <main className="flex-1 min-w-0 print:p-0">
           {children}
         </main>
-
-        {isAssistantOpen && (
-          <aside className="hidden lg:block w-80 flex-shrink-0 h-[calc(100vh-10rem)] sticky top-24 print:hidden">
-            <PageAgent
-              pageContext={getPageContext(pathname)}
-              titleContext={getPageTitle(pathname)}
-              onClose={() => setIsAssistantOpen(false)}
-            />
-          </aside>
-        )}
       </div>
 
-      {isMobileMenuOpen && (
-        <div className="fixed inset-0 bg-ink/40 z-40 md:hidden flex justify-end">
-          <div className="w-72 bg-surface h-full p-6 flex flex-col justify-between animate-slide-in">
-            <div className="space-y-6">
-              <div className="flex items-center justify-between border-b border-border pb-4">
-                <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 rounded bg-accent flex items-center justify-center text-white font-bold text-[10px]">ZA</div>
-                  <span className="font-bold text-xs text-ink">Directories</span>
-                </div>
-                <button onClick={() => setIsMobileMenuOpen(false)} className="p-1 hover:bg-canvas border border-border rounded-lg transition">
-                  <X className="w-5 h-5" />
-                </button>
-              </div>
-
-              <nav className="space-y-1.5">
-                {navItems.map((item) => {
-                  const Icon = item.icon;
-                  const isActive = pathname === item.href || pathname.startsWith(item.href + "/");
-                  return (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className={`w-full flex items-center gap-3 p-3 rounded-lg transition ${
-                        isActive ? "bg-accent text-white font-bold" : "bg-canvas text-muted hover:bg-border"
-                      }`}
-                    >
-                      <Icon className="w-4 h-4" />
-                      <span className="text-xs">{item.label}</span>
-                    </Link>
-                  );
-                })}
-              </nav>
-            </div>
-
-            <button
-              onClick={() => { setIsAssistantOpen(true); setIsMobileMenuOpen(false); }}
-              className="w-full bg-accent hover:bg-accent-dark text-white font-bold p-3 rounded-lg transition flex items-center justify-center gap-2 text-xs"
-            >
-              <Sparkles className="w-4 h-4" />
-              <span>Launch PageAgent AI</span>
-            </button>
-          </div>
-        </div>
+      {isAssistantOpen && (
+        <PageAgent
+          pageContext={getPageContext(pathname)}
+          titleContext={getPageTitle(pathname)}
+          onClose={() => setIsAssistantOpen(false)}
+        />
       )}
 
       {!isAssistantOpen && (
         <button
           onClick={() => setIsAssistantOpen(true)}
-          className="fixed bottom-6 right-6 p-4 bg-accent hover:bg-accent-dark text-white rounded-xl transition print:hidden flex items-center justify-center"
+          className="fixed bottom-6 right-6 p-4 bg-amber text-accent-foreground rounded-xl transition print:hidden flex items-center justify-center shadow-lg hover:bg-amber-dark"
         >
           <Sparkles className="w-6 h-6" />
         </button>
       )}
 
-      <footer className="bg-ink text-muted py-10 border-t border-border mt-12 print:hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="space-y-4">
-            <h4 className="text-white font-bold text-sm tracking-wide">SASSA Resource Platform</h4>
-            <p className="text-xs leading-relaxed">
-              An independent educational resource centre for South African social grant information. We are not affiliated with SASSA or any government entity.
-            </p>
+      <footer className="border-t border-border mt-16 print:hidden bg-paper">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div className="space-y-3">
+              <div className="w-8 h-8 rounded-[2px] bg-yellow flex items-center justify-center text-accent-foreground font-black text-xs mb-1">ZA</div>
+              <p className="text-sm leading-relaxed text-carbon">
+                Independent SASSA grant guide. Not affiliated with SASSA or any government entity.
+              </p>
+              <p className="text-xs text-muted-foreground">Last verified: July 2026</p>
+            </div>
+              <div className="space-y-3">
+                <p className="text-xs font-bold text-carbon uppercase tracking-wider">Grants</p>
+                <nav className="space-y-1.5">
+                  <Link href="/grants" className="block text-sm text-muted-foreground hover:text-violet transition">All Grants</Link>
+                  <Link href="/grants/srd-r370-grant" className="block text-sm text-muted-foreground hover:text-violet transition">SRD R370 Grant</Link>
+                  <Link href="/grants/older-person-grant" className="block text-sm text-muted-foreground hover:text-violet transition">Older Person Grant</Link>
+                  <Link href="/grants/child-support-grant" className="block text-sm text-muted-foreground hover:text-violet transition">Child Support Grant</Link>
+                  <Link href="/grants/disability-grant" className="block text-sm text-muted-foreground hover:text-violet transition">Disability Grant</Link>
+                  <Link href="/grants/foster-care-grant" className="block text-sm text-muted-foreground hover:text-violet transition">Foster Care Grant</Link>
+                  <Link href="/eligibility" className="block text-sm text-muted-foreground hover:text-violet transition">Eligibility Checker</Link>
+                </nav>
+              </div>
+              <div className="space-y-3">
+                <p className="text-xs font-bold text-carbon uppercase tracking-wider">Status & Appeals</p>
+                <nav className="space-y-1.5">
+                  <Link href="/status" className="block text-sm text-muted-foreground hover:text-violet transition">Status Meanings</Link>
+                  <Link href="/status/pending" className="block text-sm text-muted-foreground hover:text-violet transition">Pending Status</Link>
+                  <Link href="/status/approved" className="block text-sm text-muted-foreground hover:text-violet transition">Approved Status</Link>
+                  <Link href="/status/declined" className="block text-sm text-muted-foreground hover:text-violet transition">Declined Status</Link>
+                  <Link href="/appeals" className="block text-sm text-muted-foreground hover:text-violet transition">Appeals Centre</Link>
+                  <Link href="/appeals/how-to-appeal" className="block text-sm text-muted-foreground hover:text-violet transition">How to Appeal</Link>
+                  <Link href="/appeals/appeal-timeline" className="block text-sm text-muted-foreground hover:text-violet transition">Appeal Timeline</Link>
+                </nav>
+              </div>
+              <div className="space-y-3">
+                <p className="text-xs font-bold text-carbon uppercase tracking-wider">Resources</p>
+                <nav className="space-y-1.5">
+                  <Link href="/payment-dates" className="block text-sm text-muted-foreground hover:text-violet transition">Payment Dates 2026</Link>
+                  <Link href="/guides" className="block text-sm text-muted-foreground hover:text-violet transition">How-To Guides</Link>
+                  <Link href="/banking" className="block text-sm text-muted-foreground hover:text-violet transition">Banking Details</Link>
+                  <Link href="/faq" className="block text-sm text-muted-foreground hover:text-violet transition">FAQ</Link>
+                  <Link href="/tools" className="block text-sm text-muted-foreground hover:text-violet transition">Interactive Tools</Link>
+                  <Link href="/downloads" className="block text-sm text-muted-foreground hover:text-violet transition">Download Forms</Link>
+                  <Link href="/offices" className="block text-sm text-muted-foreground hover:text-violet transition">Office Finder</Link>
+                  <Link href="/news" className="block text-sm text-muted-foreground hover:text-violet transition">News & Updates</Link>
+                </nav>
+              </div>
+              <div className="space-y-3">
+                <p className="text-xs font-bold text-carbon uppercase tracking-wider">Company</p>
+                <nav className="space-y-1.5">
+                  <Link href="/about" className="block text-sm text-muted-foreground hover:text-violet transition">About</Link>
+                  <Link href="/contact" className="block text-sm text-muted-foreground hover:text-violet transition">Contact</Link>
+                  <Link href="/editorial-policy" className="block text-sm text-muted-foreground hover:text-violet transition">Editorial Policy</Link>
+                  <Link href="/provinces" className="block text-sm text-muted-foreground hover:text-violet transition">Province Hubs</Link>
+                  <Link href="/privacy" className="block text-sm text-muted-foreground hover:text-violet transition">Privacy Policy</Link>
+                  <Link href="/terms" className="block text-sm text-muted-foreground hover:text-violet transition">Terms of Service</Link>
+                  <Link href="/disclaimer" className="block text-sm text-muted-foreground hover:text-violet transition">Disclaimer</Link>
+                </nav>
+              </div>
           </div>
-          <div className="space-y-3">
-            <h4 className="text-white font-bold text-xs font-mono uppercase tracking-wider">Legal</h4>
-            <nav className="space-y-2">
-              <a href="/about" className="block text-xs hover:text-white transition">About Us</a>
-              <a href="/contact" className="block text-xs hover:text-white transition">Contact</a>
-              <a href="/privacy" className="block text-xs hover:text-white transition">Privacy Policy</a>
-              <a href="/terms" className="block text-xs hover:text-white transition">Terms of Service</a>
-              <a href="/disclaimer" className="block text-xs hover:text-white transition">Disclaimer</a>
-            </nav>
+          <div className="border-t border-border mt-10 pt-6 text-center">
+            <p className="text-xs text-muted-foreground">&copy; 2026 SASSA Grant Guide. Built by Lucky Cungwa / 44tagstudios.</p>
           </div>
-          <div className="space-y-3">
-            <h4 className="text-white font-bold text-xs font-mono uppercase tracking-wider">Official Services</h4>
-            <p className="text-xs leading-relaxed">
-              For grant applications, status checks, and appeals, visit the official SASSA portal directly:
-            </p>
-            <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="block text-xs text-accent hover:underline">
-              srd.sassa.gov.za &rarr;
-            </a>
-          </div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 mt-8 border-t border-border text-center text-[10px] font-mono">
-          <p>&copy; 2026 SASSA Resource Platform. An independent informational resource.</p>
         </div>
       </footer>
     </div>

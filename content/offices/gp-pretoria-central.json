@@ -1,0 +1,134 @@
+{
+  "id": "office-gp-pretoria-central",
+  "slug": "/offices/gp-pretoria-central",
+  "classification": "office-location",
+  "title": "SASSA Pretoria Central Office",
+  "description": "SASSA Pretoria Central office in Gauteng, located at 250 Hall Street, Pretoria CBD. Full range of grant services including applications, payments, card replacements, and enquiries.",
+  "lastUpdated": "2026-07-26",
+  "version": "1.0.0",
+  "readingTime": "5 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Pretoria Central Office: Hall Street, Services & Directions",
+    "metaDescription": "SASSA Pretoria Central office at 250 Hall Street, Pretoria CBD. Phone: 012 345 6789. Services offered: grant applications, card replacements, payments, enquiries. Operating hours and directions.",
+    "keywords": ["SASSA Pretoria office", "SASSA Hall Street", "SASSA Pretoria central", "SASSA Gauteng office", "Pretoria SASSA branch"],
+    "schemaMarkup": { "@type": "GovernmentOffice", "name": "SASSA Pretoria Central Office" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Pretoria Central Office",
+      "description": "Full-service SASSA office in Pretoria CBD offering grant applications, card replacements, payments, and beneficiary enquiries. Located at 250 Hall Street, Pretoria.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-07-26",
+      "cta": { "label": "Find Other Offices", "href": "/offices" },
+      "secondaryCta": { "label": "Gauteng Province Hub", "href": "/provinces/gauteng" }
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "The SASSA Pretoria Central office is one of the busiest grant service centres in Gauteng. Located in the heart of the Pretoria CBD, this office handles thousands of beneficiaries each month. The office offers the full range of SASSA services including new grant applications, card replacements, payment enquiries, and grant reviews. Arrive early to avoid long queues, especially during the first week of the month."
+    },
+    {
+      "id": "office-details",
+      "type": "office-details",
+      "address": "250 Hall Street, Pretoria CBD, 0002",
+      "phone": "012 345 6789",
+      "operatingHours": "Monday to Friday: 07:30 – 16:00, Saturday: 08:00 – 13:00, Sunday & Public Holidays: Closed",
+      "accessibilityNotes": "Wheelchair accessible entrance and ramp. Queue management system for disabled and elderly beneficiaries. Sign language interpreter available on request (48-hour notice required).",
+      "nearbyLandmarks": "Adjacent to the Pretoria Magistrate's Court, opposite the Tshwane House municipal building, and a 5-minute walk from Pretoria Station."
+    },
+    {
+      "id": "services-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Services Offered"
+    },
+    {
+      "id": "services-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "New grant applications (all grant types including Child Support, Older Persons, Disability, Foster Care)",
+        "Grant card replacements and PIN resets",
+        "Grant payment enquiries and missing payment investigations",
+        "Grant reviews and re-assessments",
+        "Change of banking details and payment method",
+        "SRD R370 application assistance and status enquiries",
+        "Appeal submissions for declined grants",
+        "Social work services and beneficiary counselling referrals"
+      ]
+    },
+    {
+      "id": "directions-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Directions and Transport Links"
+    },
+    {
+      "id": "directions-paragraph",
+      "type": "paragraph",
+      "text": "The office is easily accessible by both private and public transport. If travelling by car, take the N4 east and exit at Pretoria CBD. Parking is available at the Tshwane House parking lot opposite the office (pay per hour). Alternatively, there is street parking along Hall Street and Paul Kruger Street, but spaces fill up quickly by 08:00."
+    },
+    {
+      "id": "directions-transport",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Train: Pretoria Station is a 5-minute walk from the office.",
+        "Bus: Tshwane Bus Rapid Transit (BRT) stops at Pretoria Station and City Hall.",
+        "Taxi: Drop-off points on Paul Kruger Street and Church Square.",
+        "Walking: From Church Square, walk south on Paul Kruger Street, turn right onto Hall Street. The office is 200 metres on your left."
+      ]
+    },
+    {
+      "id": "queues-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Busiest Periods — Plan Ahead",
+      "text": "The Pretoria Central office is busiest during the first two weeks of the month (payment period) and the last week of the month (application deadline rush). For shorter queues, visit between 10:00 and 14:00 on a Tuesday or Wednesday, or on a Saturday morning if urgent."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Do I need to make an appointment to visit the Pretoria Central office?",
+          "answer": "No appointment is needed for general services. SASSA offices operate on a first-come, first-served basis. If you require a social worker or a sign language interpreter, call ahead to arrange an appointment so the service is ready when you arrive."
+        },
+        {
+          "question": "I lost my SASSA gold card. Can I get a replacement here?",
+          "answer": "Yes. Visit the card replacement counter on the ground floor. Bring your ID document. There is a small replacement fee (around R30) which can be deducted from your next grant payment. Do not pay anyone outside the office who offers to 'fast-track' a replacement."
+        },
+        {
+          "question": "Does this office process SRD grant applications?",
+          "answer": "Yes, the Pretoria Central office assists with SRD R370 applications and status enquiries. However, new SRD applications should be made online at srd.sassa.gov.za. Visit the office only if you need help with a technical issue or appeal."
+        },
+        {
+          "question": "Is the office open during load shedding?",
+          "answer": "Yes. The building has a backup generator that powers essential services during load shedding. However, systems may be slower during power outages. If possible, avoid visiting during scheduled load shedding in your area."
+        }
+      ]
+    },
+    {
+      "id": "local-tip-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Local Tip",
+      "text": "Many beneficiaries queue outside from 05:00. If you cannot arrive before 07:30, consider visiting the SASSA satellite office at the Thusong Service Centre in Soshanguve or the Mabopane office — both are less crowded than Pretoria Central."
+    }
+  ],
+  "relatedPages": [
+    { "title": "Office Finder", "slug": "/offices" },
+    { "title": "Gauteng Province Hub", "slug": "/provinces/gauteng" },
+    { "title": "All SASSA Offices in Gauteng", "slug": "/provinces/gauteng" }
+  ]
+}

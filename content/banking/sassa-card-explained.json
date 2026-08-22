@@ -14,6 +14,15 @@
     "keywords": ["SASSA card", "SASSA payment card", "SASSA card replacement", "SASSA card vs bank account", "SASSA gold card"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Card Explained — How It Works, Benefits, and Alternatives",
+      "description": "The SASSA gold card is a payment option for beneficiaries without a bank account. Learn how it works, where to use it for free withdrawals, and how it compares to bank transfer and Cash Send.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "label": "Card Replacement Guide", "href": "/banking/sassa-card-replacement" },
+      "secondaryCta": { "label": "All Payment Methods", "href": "/banking/payment-methods" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Card Explained" },
     { "id": "intro", "type": "paragraph", "text": "The SASSA card (also known as the SASSA gold card) is a payment card that some beneficiaries use to access their social grant. It works like a debit card and allows you to withdraw your grant at specific retailers and ATMs without needing a personal bank account." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries who want to understand how the SASSA payment card works and whether it is the right option for them." },

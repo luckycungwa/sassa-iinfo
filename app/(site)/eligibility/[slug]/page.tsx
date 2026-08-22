@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
+import { canonicalUrl } from "@/lib/canonical";
 import { eligibilityGuides } from "../../../../lib/data/eligibility";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { faqSchema, breadcrumbSchema } from "../../../../lib/json-ld";
+import type { FAQBlock } from "../../../../lib/schema/contentSchema";
 
 export function generateStaticParams() {
   const allPages = loadAllContent();
@@ -23,12 +25,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/eligibility/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription };
+    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/eligibility/${slug}`) } };
   }
 
   const guide = eligibilityGuides.find((e) => e.slug === slug);
   if (!guide) return {};
-  return { title: `${guide.title} | SASSA Eligibility Guide`, description: guide.shortDescription };
+  return { title: `${guide.title} | SASSA Eligibility Guide`, description: guide.shortDescription, alternates: { canonical: canonicalUrl(`/eligibility/${slug}`) } };
 }
 
 export default async function EligibilityDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -36,14 +38,16 @@ export default async function EligibilityDetailPage({ params }: { params: Promis
 
   const content = getPageBySlug(`/eligibility/${slug}`);
   if (content) {
+    const faqBlock = content.contentBlocks.find((b): b is FAQBlock => b.type === "faq");
     return (
       <>
+        {faqBlock && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(faqBlock.faqs)) }} />}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
           { name: "Home", url: "/" },
           { name: "Eligibility Centre", url: "/eligibility" },
           { name: content.title, url: content.slug },
         ])) }} />
-        <ContentBlockRenderer blocks={content.contentBlocks} />
+        <ContentBlockRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
   }
@@ -62,7 +66,7 @@ export default async function EligibilityDetailPage({ params }: { params: Promis
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <div className="space-y-6 max-w-3xl">
+      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{guide.title}</h1>
           <p className="text-sm text-muted mt-1">{guide.shortDescription}</p>
@@ -91,7 +95,7 @@ export default async function EligibilityDetailPage({ params }: { params: Promis
               <Link
                 key={i}
                 href={`/grants/${rg.slug}`}
-                className="flex items-center justify-between bg-accent-light border border-border rounded-lg p-3 hover:bg-emerald-100 transition"
+                className="flex items-center justify-between bg-accent-light border border-border rounded-lg p-3 hover:bg-accent-light/40 transition"
               >
                 <span className="text-sm font-bold text-accent-dark">{rg.name}</span>
                 <span className="text-xs font-mono font-bold text-accent-dark">{rg.amount}</span>

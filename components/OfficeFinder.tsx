@@ -28,7 +28,7 @@ export default function OfficeFinder() {
             placeholder="Search by city or office name..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-800 text-sm transition"
+            className="w-full pl-10 pr-4 py-2.5 border border-surface-container rounded-xl focus:outline-none focus:ring-2 focus:ring-accent-dark text-sm transition"
           />
         </div>
 
@@ -37,7 +37,7 @@ export default function OfficeFinder() {
           <select
             value={selectedProvince}
             onChange={(e) => setSelectedProvince(e.target.value)}
-            className="w-full md:w-auto border border-slate-200 rounded-xl px-3 py-2 bg-canvas text-xs font-semibold"
+            className="w-full md:w-auto border border-surface-container rounded-xl px-3 py-2 bg-canvas text-xs font-semibold"
           >
             <option value="all">All Provinces</option>
             <option value="gauteng">Gauteng</option>
@@ -59,24 +59,24 @@ export default function OfficeFinder() {
             >
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                  <span className="bg-accent-light text-accent-dark border border-emerald-100 text-[10px] font-mono font-bold px-2 py-0.5 rounded uppercase">
+                  <span className="bg-accent-light text-accent-dark border border-accent-light/40 text-xs font-mono font-bold px-2 py-0.5 rounded uppercase">
                     {off.province}
                   </span>
-                  <span className="text-[10px] font-mono text-muted uppercase">{off.city}</span>
+                  <span className="text-xs font-mono text-muted uppercase">{off.city}</span>
                 </div>
 
                 <h3 className="font-extrabold text-sm text-ink leading-tight">
                   {off.name}
                 </h3>
 
-                <div className="space-y-2 text-xs text-slate-600">
+                <div className="space-y-2 text-xs text-muted">
                   <div className="flex items-start gap-2">
                     <MapPin className="w-4 h-4 text-accent-dark mt-0.5 flex-shrink-0" />
                     <span>{off.address}</span>
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <Phone className="w-4 h-4 text-amber-500 flex-shrink-0" />
+                    <Phone className="w-4 h-4 text-accent-dark flex-shrink-0" />
                     <span>{off.phone}</span>
                   </div>
 
@@ -88,15 +88,15 @@ export default function OfficeFinder() {
               </div>
 
               {/* Extra Details */}
-              <div className="pt-3.5 border-t border-slate-50 space-y-3">
+              <div className="pt-3.5 border-t border-surface space-y-3">
                 {/* Services */}
                 <div className="space-y-1">
-                  <p className="text-[10px] text-muted font-mono uppercase tracking-wider">Services:</p>
+                  <p className="text-xs text-muted font-mono uppercase tracking-wider">Services:</p>
                   <div className="flex flex-wrap gap-1">
                     {off.servicesOffered.map((s, sIdx) => (
                       <span
                         key={sIdx}
-                        className="text-[10px] bg-canvas border border-border text-slate-600 px-1.5 py-0.5 rounded"
+                        className="text-xs bg-canvas border border-border text-muted px-1.5 py-0.5 rounded"
                       >
                         {s}
                       </span>
@@ -105,7 +105,7 @@ export default function OfficeFinder() {
                 </div>
 
                 {/* Landmarks & Accessibility */}
-                <div className="grid grid-cols-2 gap-2 pt-1 text-[10px] text-muted">
+                <div className="grid grid-cols-2 gap-2 pt-1 text-xs text-muted">
                   <div className="space-y-0.5">
                     <p className="font-bold text-muted uppercase font-mono">Landmark</p>
                     <p className="truncate" title={off.nearbyLandmarks}>{off.nearbyLandmarks}</p>
@@ -124,7 +124,7 @@ export default function OfficeFinder() {
         </div>
       ) : (
         <div className="p-12 text-center text-muted bg-surface border border-border rounded-xl">
-          <MapPin className="w-8 h-8 text-slate-300 mx-auto mb-2" />
+          <MapPin className="w-8 h-8 text-outline-variant mx-auto mb-2" />
           <p className="font-bold text-sm">No SASSA offices found</p>
           <p className="text-xs mt-0.5">Adjust your filters or try another keywords.</p>
         </div>

@@ -14,6 +14,15 @@
     "keywords": ["update SASSA bank details", "change SASSA bank account", "SASSA change payment method", "SASSA update account number", "SASSA bank change form"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "How to Update Your SASSA Bank Details — Change Account for Grant Payments",
+      "description": "Need to change the bank account where your SASSA grant is deposited? Learn how to update your details online via the SRD portal or in person at a SASSA office, and what to expect during bank verification.",
+      "readingTime": "4 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "label": "Go to SRD Portal", "href": "/banking/how-to-register-for-srd-portal" },
+      "secondaryCta": { "label": "Bank Verification Process", "href": "/banking/bank-verification-process" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Update Your SASSA Bank Details" },
     { "id": "intro", "type": "paragraph", "text": "If you need to change the bank account where your SASSA grant is paid, you can do it online through the SRD portal or in person at a SASSA office. The new account must be registered in your own name." },
     { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries who need to change the bank account where their grant is deposited." },

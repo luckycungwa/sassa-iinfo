@@ -3,41 +3,29 @@
   "slug": "/grants/srd-r370-grant/status-check",
   "classification": "how-to-guide",
   "title": "How to Check Your SRD R370 Grant Status — Complete Guide",
-  "description": "Complete guide to checking your SRD R370 grant status: online portal, WhatsApp, USSD, and in-person methods with step-by-step instructions for each.",
+  "description": "SRD R370 grant status meanings explained: what each SASSA status means for your SRD grant, monthly re-evaluation, and what to do when your status changes.",
   "lastUpdated": "2026-07-01",
   "version": "1.0.0",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
-    "metaTitle": "How to Check SRD R370 Grant Status — 4 Methods (Online, WhatsApp, USSD, Office)",
-    "metaDescription": "Check your SASSA SRD R370 grant status using any of 4 methods: online portal at srd.sassa.gov.za, WhatsApp 082 046 8553, USSD *134*7737#, or in person at a SASSA office. Step-by-step instructions.",
-    "keywords": ["check SRD status", "SRD status check", "srd.sassa.gov.za", "SASSA SRD status", "how to check SRD grant status", "SRD application status"]
+    "metaTitle": "SRD R370 Grant Status Meanings — Approved, Pending, Declined & More",
+    "metaDescription": "SRD R370 grant status meanings explained. What Approved, Pending, Declined, and other statuses mean for your monthly SRD grant, plus guidance on next steps.",
+    "keywords": ["SRD status meanings", "SRD grant status", "SASSA SRD approved", "SRD pending meaning", "SRD declined explained", "SRD R370 status"]
   },
   "contentBlocks": [
-    { "id": "h1", "type": "heading", "level": 2, "text": "How to Check Your SRD R370 Grant Status" },
-    { "id": "intro", "type": "paragraph", "text": "Checking your SRD R370 grant status is essential every month. Because the SRD grant is re-evaluated monthly, your status can change from one month to the next. There are four ways to check your status — use whichever is most convenient for you." },
-    { "id": "method1-h", "type": "heading", "level": 3, "text": "Method 1: Online Portal (srd.sassa.gov.za) — Recommended" },
-    { "id": "method1-intro", "type": "paragraph", "text": "The online portal is the most reliable method. It shows your detailed status, pay dates, and any outstanding actions." },
-    { "id": "method1-steps", "type": "steps", "steps": [
-      { "title": "Visit srd.sassa.gov.za", "description": "Open the website on your phone, tablet, or computer. The site works on all devices and networks." },
-      { "title": "Enter your ID number", "description": "Type your 13-digit South African ID number in the field provided." },
-      { "title": "Enter your phone number", "description": "Enter the mobile phone number you used when you applied for the grant." },
-      { "title": "Request and enter OTP", "description": "Click 'Send OTP'. You will receive a one-time PIN via SMS. Enter it on the website." },
-      { "title": "View your status dashboard", "description": "Your dashboard shows your current status (Pending, Approved, Declined, etc.), payment dates, and a history of previous months." }
-    ] },
-    { "id": "method2-h", "type": "heading", "level": 3, "text": "Method 2: SASSA WhatsApp Line" },
-    { "id": "method2-text", "type": "paragraph", "text": "The SASSA WhatsApp service is free on most networks and works on any smartphone with WhatsApp installed." },
-    { "id": "method2-steps", "type": "steps", "steps": [
-      { "title": "Save the SASSA WhatsApp number", "description": "Save 082 046 8553 to your phone contacts." },
-      { "title": "Send a message", "description": "Open WhatsApp and send 'SASSA' to 082 046 8553." },
-      { "title": "Follow the menu prompts", "description": "The automated system will guide you through options. Select 'Check Status' and enter your ID number when prompted." },
-      { "title": "Receive your status", "description": "The system will reply with your current grant status and any available payment information." }
-    ] },
-    { "id": "method3-h", "type": "heading", "level": 3, "text": "Method 3: USSD Code" },
-    { "id": "method3-text", "type": "paragraph", "text": "USSD works on any phone, including basic feature phones. Standard network rates apply." },
-    { "id": "method3-detail", "type": "list", "ordered": false, "items": ["Dial *134*7737# from your mobile phone", "Follow the on-screen menu to check your grant status", "You will need your ID number ready", "The result displays on your phone screen within seconds"] },
-    { "id": "method4-h", "type": "heading", "level": 3, "text": "Method 4: Visit a SASSA Office" },
-    { "id": "method4-text", "type": "paragraph", "text": "If you do not have access to a phone or the internet, visit your nearest SASSA local office. Bring your ID document. A SASSA officer can look up your status and provide a printed confirmation if needed." },
+    {
+      "id": "hero", "type": "hero",
+      "title": "SRD R370 Grant Status — What Each Status Means",
+      "description": "Your SRD R370 grant status changes every month because SASSA re-evaluates eligibility monthly. Learn what each status means for your grant and what to do next.",
+      "readingTime": "3 min read",
+      "lastUpdated": "July 2026",
+      "cta": { "text": "Check Your Status Now", "href": "https://srd.sassa.gov.za" },
+      "secondaryCta": { "text": "How to Check Any SASSA Status", "href": "/guides/how-to-check-sassa-status" }
+    },
+    { "id": "h1", "type": "heading", "level": 2, "text": "SRD R370 Grant Status Meanings" },
+    { "id": "intro", "type": "paragraph", "text": "The SRD R370 grant is re-evaluated every month, meaning your status can change from one month to the next. Understanding what each status means helps you know what to expect and what action to take." },
+    { "id": "callout", "type": "callout", "intent": "info", "title": "Looking for general status check instructions?", "text": "This guide is specifically for SRD R370 beneficiaries. For other grant types (Older Person, Disability, Child Support, etc.), see our general guide to checking your SASSA status." },
     { "id": "status-meanings-h", "type": "heading", "level": 3, "text": "What Your Status Means" },
     { "id": "status-table", "type": "table", "headers": ["Status", "Meaning", "Action Required"], "rows": [
       ["Pending", "Application is being verified", "No action needed. Check again in 7-14 days."],
@@ -59,15 +47,15 @@
       { "question": "Can I check my status without a phone?", "answer": "Yes. Visit your nearest SASSA office with your ID. A SASSA officer can look up your status and provide a printout." }
     ] },
     { "id": "related-links", "type": "link-grid", "links": [
+      { "title": "How to Check Any SASSA Grant Status", "href": "/guides/how-to-check-sassa-status", "description": "General guide covering all grant types — online, WhatsApp, USSD, and office methods" },
       { "title": "SRD R370 Grant — Complete Guide", "href": "/grants/srd-r370-grant", "description": "Full guide to the SRD grant" },
-      { "title": "SRD Payment Methods", "href": "/grants/srd-r370-grant/payment-methods", "description": "How you receive your R370 payment" },
       { "title": "SRD Monthly Review Explained", "href": "/grants/srd-r370-grant/monthly-review", "description": "Understanding monthly eligibility checks" },
       { "title": "Declined Status — What to Do", "href": "/status/declined", "description": "What to do if your grant is declined" }
     ] }
   ],
   "relatedPages": [
+    { "title": "How to Check SASSA Grant Status", "slug": "/guides/how-to-check-sassa-status" },
     { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
-    { "title": "SRD Payment Methods", "slug": "/grants/srd-r370-grant/payment-methods" },
     { "title": "SRD Monthly Review", "slug": "/grants/srd-r370-grant/monthly-review" }
   ]
 }

@@ -1,0 +1,231 @@
+{
+  "id": "grant-care-dependency",
+  "slug": "/grants/care-dependency-grant",
+  "classification": "grant-detail",
+  "title": "Care Dependency Grant — Complete Guide 2026",
+  "description": "Complete guide to the SASSA Care Dependency Grant: R2,400 per month for caregivers of children with severe disabilities, medical assessment process, required documents, and application steps.",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "readingTime": "9 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Founder, 44tagstudios", "verified": true },
+  "seo": {
+    "metaTitle": "Care Dependency Grant 2026: Amount, Eligibility & How to Apply",
+    "metaDescription": "Complete guide to the SASSA Care Dependency Grant: R2,400 per month for severely disabled children aged 1-18, medical assessment process, required documents, and step-by-step application guide.",
+    "keywords": ["care dependency grant", "SASSA care dependency", "disabled child grant South Africa", "SASSA disability child", "care dependency grant medical assessment"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "Care Dependency Grant" }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Care Dependency Grant",
+      "description": "Complete guide to the SASSA Care Dependency Grant: R2,400 per month for caregivers of children with severe disabilities who need full-time care at home. Medical assessment process, required documents, application steps, and what happens when the child turns 18.",
+      "readingTime": "9 min read",
+      "lastUpdated": "2026-07-27",
+      "cta": { "label": "Check Eligibility", "href": "/eligibility/i-am-a-caregiver" },
+      "secondaryCta": { "label": "Disability Grant Guide", "href": "/grants/disability-grant" }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R2,400",
+      "frequency": "Monthly",
+      "targetGroup": "Parents or primary caregivers of children aged 1 to 18 with severe, permanent physical or mental disabilities requiring full-time home care."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The SASSA Care Dependency Grant provides financial support to parents and caregivers who look after a child with a severe disability at home. It is designed to help cover the additional costs of caring for a child who needs constant supervision and care. The grant pays the same amount as the adult Disability Grant and is not subject to the standard means test limits that apply to other grants."
+    },
+    {
+      "id": "what-qualifies-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What Qualifies as a Severe Disability"
+    },
+    {
+      "id": "what-qualifies-intro",
+      "type": "paragraph",
+      "text": "The key requirement is that the child's disability must be severe and permanent enough to require full-time care at home. This is determined by a SASSA medical assessment. Below is a guide to what typically qualifies and what does not."
+    },
+    {
+      "id": "qualifying-table",
+      "type": "table",
+      "headers": ["Condition Type", "Examples That Often Qualify", "Examples That Often Do Not"],
+      "rows": [
+        ["Physical disabilities", "Cerebral palsy (severe), spina bifida, muscular dystrophy, loss of limbs", "Mild physical delays, treatable clubfoot, temporary injuries"],
+        ["Intellectual disabilities", "Severe intellectual disability, Down syndrome with complications, global developmental delay", "Mild learning difficulties, ADHD without complications"],
+        ["Neurological conditions", "Epilepsy with frequent seizures, severe brain damage, hydrocephalus", "Well-controlled epilepsy, mild concussions"],
+        ["Sensory disabilities", "Complete blindness, profound deafness", "Correctable vision or hearing impairments"],
+        ["Chronic illness", "Advanced HIV with AIDS-defining illnesses, severe heart disease, end-stage kidney disease", "Well-managed asthma, controlled diabetes, mild hypertension"]
+      ],
+      "caption": "SASSA assesses each child individually. A diagnosis alone is not enough — the disability must prevent the child from functioning independently and require full-time care."
+    },
+    {
+      "id": "callout-medical",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Medical Assessment Is the Key Step",
+      "text": "The Care Dependency Grant requires a medical assessment report from a SASSA-approved doctor. Your child's regular doctor can complete the initial form, but a SASSA district surgeon will also examine the child. The report must clearly state that the child needs permanent, full-time care at home. Vague descriptions get rejected."
+    },
+    {
+      "id": "eligibility-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Eligibility Criteria"
+    },
+    {
+      "id": "eligibility",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "You and the child must live in South Africa",
+        "The child must be between 1 and 18 years old",
+        "A SASSA medical officer must confirm the child has a severe, permanent disability requiring full-time home care",
+        "The child must not be cared for in a state-funded institution for more than 6 months",
+        "Means Test: combined annual household income below R249,600 (single) or R499,200 (married)",
+        "You must be the child's parent or primary caregiver"
+      ],
+      "restrictions": [
+        "The grant stops when the child turns 18 — they can then apply for the adult Disability Grant",
+        "Temporary disabilities or conditions expected to improve within 6 months do not qualify",
+        "The child cannot receive both Care Dependency Grant and Child Support Grant simultaneously"
+      ],
+      "recommendedGrants": [
+        { "name": "Disability Grant (Adult)", "slug": "/grants/disability-grant", "amount": "R2,400" },
+        { "name": "Grant-in-Aid", "slug": "/grants/grant-in-aid", "amount": "R580" }
+      ]
+    },
+    {
+      "id": "medical-assessment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Medical Assessment Walkthrough"
+    },
+    {
+      "id": "medical-intro",
+      "type": "paragraph",
+      "text": "The medical assessment is the most important step. Unlike the adult Disability Grant where the applicant visits the doctor, for the Care Dependency Grant the child must be brought to the assessment. Here is exactly what to expect."
+    },
+    {
+      "id": "medical-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Get the medical report form", "description": "Collect the official SASSA medical report form from any SASSA office, clinic, or hospital. Do not use a plain doctor's letter." },
+        { "title": "Visit your child's doctor or clinic", "description": "The doctor completes Part A and B of the form. They must include the diagnosis, test results, treatment history, and specifically state why the child needs full-time care." },
+        { "title": "Submit to SASSA with application", "description": "Take the completed form, your ID, and the child's birth certificate to SASSA. They will schedule a district surgeon appointment." },
+        { "title": "Attend the SASSA medical assessment", "description": "Bring the child and all medical records to the district surgeon appointment. The doctor will examine the child, review the history, and make a determination." },
+        { "title": "Wait for the outcome", "description": "SASSA processes the application within 60-90 days. If approved, payments are backdated to the application date." }
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        { "label": "Your original 13-digit ID or smart ID card", "required": true },
+        { "label": "The child's birth certificate (original)", "required": true },
+        { "label": "SASSA medical assessment report completed by a doctor", "required": true, "notes": "Use the official SASSA form, not a plain doctor's letter." },
+        { "label": "Proof of income or unemployment affidavit", "required": true, "notes": "Last 3 months bank statements if employed, or sworn affidavit if unemployed." },
+        { "label": "Proof of residence (utility bill or tribal authority letter)", "required": true },
+        { "label": "School attendance letter or clinic card", "required": false, "notes": "Helps confirm the child's age and daily care needs." },
+        { "label": "Specialist reports or hospital discharge summaries", "required": false, "notes": "Strongly recommended: these strengthen the medical assessment." }
+      ]
+    },
+    {
+      "id": "apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply"
+    },
+    {
+      "id": "apply-steps",
+      "type": "steps",
+      "steps": [
+        { "title": "Obtain a referral", "description": "Visit your local clinic or social worker to get a referral for a SASSA medical assessment." },
+        { "title": "Complete the medical assessment", "description": "Take your child to the SASSA medical doctor for the evaluation. Bring all medical records, test results, and a daily care log." },
+        { "title": "Visit your SASSA office", "description": "Once the medical assessment is done, go to SASSA with your ID, the child's birth certificate, and proof of income." },
+        { "title": "Fill in the application form", "description": "Complete the grant application form with the help of a SASSA officer. Your fingerprints and the child's photo may be taken." },
+        { "title": "Wait for processing", "description": "SASSA aims to process within 90 days. Keep your receipt with the application reference number." }
+      ]
+    },
+    {
+      "id": "turning-18-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Happens When the Child Turns 18"
+    },
+    {
+      "id": "turning-18-text",
+      "type": "paragraph",
+      "text": "The Care Dependency Grant stops automatically when the child turns 18. However, the child can apply for the adult Disability Grant in their own name. Start this process before the child's 18th birthday to avoid a gap in support. The medical assessment from the Care Dependency Grant can often be used as supporting evidence for the adult Disability Grant application."
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "90-Day Appeal Window",
+      "text": "If your Care Dependency Grant is declined, you have 90 days to appeal. A detailed care log showing the child's daily needs — feeding, bathing, medication, supervision — along with a letter from a specialist can significantly strengthen your appeal. Contact a social worker at your nearest DSD office for help preparing the appeal."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I get the Care Dependency Grant if my child has autism?",
+          "answer": "Yes, if the autism is severe enough to require full-time care. Children with non-verbal autism, severe sensory processing issues, or self-harming behaviours often qualify. The key is documenting that the child cannot be left unsupervised and needs constant care."
+        },
+        {
+          "question": "Can I receive both Care Dependency Grant and Child Support Grant?",
+          "answer": "No. You can only receive one grant per child. The Care Dependency Grant pays significantly more (R2,400 vs R580), so it is the better option if your child qualifies."
+        },
+        {
+          "question": "Does the grant continue if the child is in hospital for a long period?",
+          "answer": "If the child is in a state-funded hospital or institution for more than 6 consecutive months, the grant may be suspended. Notify SASSA if your child needs extended hospital care."
+        },
+        {
+          "question": "Can I apply if I am not the biological parent?",
+          "answer": "Yes. Grandparents, aunts, uncles, or any person acting as the child's primary caregiver can apply. You will need proof that the child lives with you and that you are responsible for their care."
+        },
+        {
+          "question": "Does the Care Dependency Grant affect my other SASSA grants?",
+          "answer": "You can receive the Care Dependency Grant for your child while also receiving another grant for yourself (e.g., Older Person Grant or Disability Grant). They are separate."
+        },
+        {
+          "question": "My child has Down syndrome. Will they qualify automatically?",
+          "answer": "Not automatically. Down syndrome alone does not guarantee approval. The child must also need full-time care. Many children with Down syndrome are independent enough that they do not qualify. The medical assessment determines this."
+        },
+        {
+          "question": "How often does the medical assessment need to be repeated?",
+          "answer": "For permanent disabilities, the assessment is done once. However, SASSA may request a review every 2-5 years to confirm the child still needs full-time care."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        { "title": "Disability Grant Guide", "href": "/grants/disability-grant", "description": "Adult disability grant — eligibility and process" },
+        { "title": "Grant-in-Aid", "href": "/grants/grant-in-aid", "description": "Extra grant for those who need full-time care" },
+        { "title": "Child Support Grant", "href": "/grants/child-support-grant", "description": "Alternative for children without disabilities" },
+        { "title": "Appeal a Decline", "href": "/appeals/how-to-appeal", "description": "Challenge a declined application" }
+      ]
+    }
+  ],
+  "relatedPages": [
+    { "title": "Grant Library", "slug": "/grants" },
+    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
+    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
+    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" }
+  ]
+}

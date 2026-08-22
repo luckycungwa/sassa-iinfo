@@ -14,6 +14,15 @@
     "keywords": ["SASSA pending", "grant pending status", "SASSA application pending"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Pending — What It Means for Your Grant",
+      "description": "Your SASSA status shows 'Pending' — your application has been received and is under review. Learn what the pending process involves, typical timeframes, and what you should and shouldn't do while waiting for a decision.",
+      "readingTime": "3 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Check Your Status", "href": "/status/pending" },
+      "secondaryCta": { "text": "View Pending Guide", "href": "/status/pending-30-days" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Pending — What Does It Mean?" },
     { "id": "intro", "type": "paragraph", "text": "When your SASSA grant status shows 'Pending', it means your application has been received and is being reviewed by SASSA officials. This is a normal part of the application process." },
     { "id": "ref-block", "type": "status-reference", "statusName": "Pending", "explanation": "Your application is in the review queue. SASSA is verifying your personal details, means test information, and supporting documents against their records.", "whyItHappens": ["SASSA receives thousands of applications daily", "Additional verification may be needed for certain documents", "Means test calculations take time to process", "Manual review may be triggered for complex cases"], "howLongItLasts": "Typically 4–8 weeks from the date of application submission. SRD R370 applications may resolve faster (1–2 weeks).", "whatYouShouldDo": ["Continue checking your status online", "Make sure your contact details are up to date", "Respond promptly to any SASSA requests for additional information", "Do not submit a duplicate application — this will cause delays"], "relatedStatuses": [{ "name": "Processing", "slug": "processing" }, { "name": "Approved", "slug": "approved" }] },
@@ -27,7 +36,7 @@
     ] }
   ],
   "relatedPages": [
-    { "title": "Processing", "slug": "/status/processing" },
+    { "title": "Processing", "slug": "/status/payment-processing" },
     { "title": "Approved", "slug": "/status/approved" },
     { "title": "Pending 30+ Days", "slug": "/status/pending-30-days" }
   ]

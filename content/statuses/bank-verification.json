@@ -14,6 +14,15 @@
     "keywords": ["SASSA bank verification", "bank verification pending", "SASSA bank verification failed", "SASSA bank details", "SRD bank verification"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "Bank Verification Pending — How to Resolve It",
+      "description": "Your SASSA status shows 'Bank Verification Pending' — your grant payment cannot proceed until this is resolved. Learn why bank verification happens, common failure reasons, and exactly what steps to take to get your payment released.",
+      "readingTime": "5 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Fix Bank Details", "href": "/banking/update-bank-details" },
+      "secondaryCta": { "text": "Check Your Status", "href": "/status/bank-verification" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "Bank Verification Pending — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Bank Verification Pending' status means SASSA is in the process of confirming that the bank account you provided belongs to you. This is a standard security step that prevents grant payments from being sent to incorrect or fraudulent accounts. Your grant cannot be paid until this verification is complete." },
     { "id": "who", "type": "paragraph", "text": "This status affects applicants whose bank account details are being verified by SASSA against their banking institution's records." },
@@ -42,7 +51,7 @@
     { "id": "related-links", "type": "link-grid", "links": [
       { "title": "How to Update Your SASSA Bank Details", "href": "/banking/update-bank-details", "description": "Step-by-step guide to changing your bank account" },
       { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All the ways to receive your grant payment" },
-      { "title": "Cash Send Collection Guide", "href": "/guides/how-to-collect-cash-send", "description": "How to collect your grant without a bank account" }
+      { "title": "Cash Send Collection Guide", "href": "/banking", "description": "How to collect your grant without a bank account" }
     ] }
   ],
   "relatedPages": [

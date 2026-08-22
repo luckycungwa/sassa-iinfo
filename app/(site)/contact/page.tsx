@@ -1,70 +1,100 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, ExternalLink } from "lucide-react";
+import Link from "next/link";
+import { Mail, ExternalLink, MapPin } from "lucide-react";
+import { canonicalUrl } from "@/lib/canonical";
+import { contactPageSchema, webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
-  title: "Contact Us | SASSA Resource Platform",
-  description: "Contact the SASSA Resource Platform team. For official SASSA services, visit srd.sassa.gov.za or your nearest SASSA office.",
+  title: "Contact Us | SASSA Grant Guide",
+  description: "Contact the SASSA Grant Guide team. For official SASSA services, visit srd.sassa.gov.za or your nearest SASSA office.",
+  alternates: { canonical: canonicalUrl("/contact") },
+  openGraph: {
+    title: "Contact Us | SASSA Grant Guide",
+    description: "Contact the SASSA Grant Guide team. For official SASSA services, visit srd.sassa.gov.za.",
+  },
 };
 
 export default function ContactPage() {
+  const pageSchema = webpageSchema("Contact Us | SASSA Grant Guide", "Contact the SASSA Grant Guide team. Official SASSA services at srd.sassa.gov.za.", "/contact");
+  const contactSchema = contactPageSchema();
+  const breadcrumb = breadcrumbSchema([{ name: "Home", url: "/" }, { name: "Contact", url: "/contact" }]);
+
   return (
-    <div className="max-w-3xl space-y-8">
-      <div className="flex items-start gap-4">
-        <div className="w-12 h-12 rounded-xl bg-accent-light border border-border flex items-center justify-center flex-shrink-0">
-          <Mail className="w-6 h-6 text-accent-dark" />
+    <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <section className="bg-yellow py-20 md:py-24">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-xs font-bold text-carbon/50 uppercase tracking-widest mb-3">contact</p>
+          <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
+            Get in touch
+          </h1>
+          <p className="text-[21px] text-carbon/70 mt-4 max-w-xl leading-relaxed">
+            Questions about the site, corrections, or content suggestions &mdash; reach out below.
+          </p>
         </div>
-        <div>
-          <h1 className="text-2xl font-black text-ink tracking-tight">Contact Us</h1>
-          <p className="text-sm text-muted mt-1">Get in touch with the SASSA Resource Platform team</p>
-        </div>
-      </div>
+      </section>
 
-      <div className="bg-surface border border-border rounded-xl p-6 space-y-4">
-        <h2 className="text-sm font-extrabold text-ink">About This Contact Page</h2>
-        <p className="text-sm text-muted leading-relaxed">
-          This contact page is for inquiries about the SASSA Resource Platform website itself — content suggestions, corrections, technical issues, or general questions about our resource.
-        </p>
-        <p className="text-sm text-muted leading-relaxed">
-          For official SASSA services — checking your grant status, applying for grants, updating personal details, or lodging appeals — please use the official SASSA channels listed below.
-        </p>
-      </div>
-
-      <div className="bg-surface border border-border rounded-xl p-6 space-y-4">
-        <h2 className="text-sm font-extrabold text-ink">Official SASSA Services</h2>
-        <div className="space-y-3">
-          <div className="flex items-start gap-3 bg-canvas border border-border rounded-lg p-4">
-            <ExternalLink className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
+      <section className="bg-paper py-16 md:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
-              <p className="text-sm font-bold text-ink">SRD Grant Portal</p>
-              <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="text-xs text-accent hover:underline">srd.sassa.gov.za</a>
+              <h2 className="text-[29px] font-black text-carbon leading-[1.1] tracking-[-0.007em]">Website inquiries</h2>
+              <p className="text-base text-carbon/70 leading-relaxed mt-4">
+                This contact page is for inquiries about the SASSA Grant Guide website itself &mdash; content suggestions,
+                corrections, technical issues, or general questions about our resource.
+              </p>
+              <p className="text-base text-carbon/70 leading-relaxed mt-3">
+                For official SASSA services &mdash; checking your grant status, applying for grants, updating personal
+                details, or lodging appeals &mdash; please use the official SASSA channels listed on this page.
+              </p>
+              <div className="bg-fog rounded-[2.85px] p-5 mt-6">
+                <p className="text-sm text-carbon/70 italic">
+                  <strong>Note:</strong> We cannot process or assist with individual grant applications, status checks,
+                  or appeals. Those must be handled through official SASSA channels.
+                </p>
+              </div>
+            </div>
+            <div className="space-y-6">
+              <h2 className="text-[21px] font-black text-carbon tracking-[-0.007em]">Official SASSA services</h2>
+              <div className="space-y-2">
+                <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 bg-fog rounded-[2.85px] p-4 hover:bg-yellow/30 transition group">
+                  <ExternalLink className="w-5 h-5 text-violet shrink-0" />
+                  <div>
+                    <p className="text-sm font-bold text-carbon">SRD Grant Portal</p>
+                    <p className="text-xs text-ash">srd.sassa.gov.za</p>
+                  </div>
+                </a>
+                <a href="https://srd.dsd.gov.za" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 bg-fog rounded-[2.85px] p-4 hover:bg-yellow/30 transition group">
+                  <ExternalLink className="w-5 h-5 text-violet shrink-0" />
+                  <div>
+                    <p className="text-sm font-bold text-carbon">Appeal Portal</p>
+                    <p className="text-xs text-ash">srd.dsd.gov.za</p>
+                  </div>
+                </a>
+                <Link href="/offices" className="flex items-center gap-4 bg-fog rounded-[2.85px] p-4 hover:bg-yellow/30 transition group">
+                  <MapPin className="w-5 h-5 text-violet shrink-0" />
+                  <div>
+                    <p className="text-sm font-bold text-carbon">SASSA Office Finder</p>
+                    <p className="text-xs text-ash">Find your nearest SASSA office</p>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="flex items-start gap-3 bg-canvas border border-border rounded-lg p-4">
-            <ExternalLink className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-            <div>
-              <p className="text-sm font-bold text-ink">Appeal Portal</p>
-              <a href="https://srd.dsd.gov.za" target="_blank" rel="noopener noreferrer" className="text-xs text-accent hover:underline">srd.dsd.gov.za</a>
-            </div>
-          </div>
-          <div className="flex items-start gap-3 bg-canvas border border-border rounded-lg p-4">
-            <MapPin className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-            <div>
-              <p className="text-sm font-bold text-ink">SASSA Head Office</p>
-              <p className="text-xs text-muted">Find your nearest SASSA office via our <a href="/offices" className="text-accent hover:underline">Office Finder</a></p>
-            </div>
-          </div>
         </div>
-      </div>
+      </section>
 
-      <div className="bg-surface border border-border rounded-xl p-6 space-y-4">
-        <h2 className="text-sm font-extrabold text-ink">Website Inquiries</h2>
-        <p className="text-sm text-muted leading-relaxed">
-          For feedback, corrections, or content suggestions regarding this resource platform, please reach out to us.
-        </p>
-        <p className="text-sm text-muted italic">
-          Note: We cannot process or assist with individual grant applications, status checks, or appeals. Those must be handled through official SASSA channels.
-        </p>
-      </div>
+      <section className="bg-slate text-white py-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
+            <Link href="/" className="text-yellow font-bold hover:underline">Return to homepage</Link>
+            <span className="text-white/40 mx-3">|</span>
+            <Link href="/about" className="text-yellow font-bold hover:underline">About this guide</Link>
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

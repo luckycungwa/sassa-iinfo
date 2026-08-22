@@ -14,6 +14,15 @@
     "keywords": ["SRD appeal", "SRD R370 appeal", "appeal SRD grant", "srd.dsd.gov.za appeal", "SRD monthly appeal", "SRD backpay appeal"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "How to Appeal an SRD R370 Grant Decline",
+      "description": "The SRD R370 grant eligibility is reassessed every month, so you may need to appeal multiple declines. This SRD-specific guide covers how to appeal monthly declines on the srd.dsd.gov.za portal and get backpaid for approved months.",
+      "readingTime": "8 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Appeal Your SRD Decline", "href": "https://srd.dsd.gov.za" },
+      "secondaryCta": { "text": "Learn How to Appeal", "href": "/appeals/how-to-appeal" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "How to Appeal an SRD R370 Grant Decline" },
     { "id": "intro", "type": "paragraph", "text": "The SRD R370 grant operates differently from other SASSA grants. Because eligibility is reassessed every month, you may find that one month is approved and the next is declined. This guide covers the specific process for appealing SRD grant declines." },
     { "id": "who", "type": "paragraph", "text": "This guide is specifically for SRD R370 grant applicants who need to appeal monthly declines through the srd.dsd.gov.za portal." },

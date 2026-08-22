@@ -14,6 +14,15 @@
     "keywords": ["SASSA appeal FAQ", "SASSA appeal questions", "SASSA appeal help", "SASSA appeal how long", "SASSA appeal success rate"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SASSA Grant Appeal FAQs — Your Questions Answered",
+      "description": "Find answers to the most common questions about the SASSA grant appeal process. Learn about the 90-day deadline, required documents, timelines, multiple-month appeals, and what to do if your appeal is dismissed.",
+      "readingTime": "2 min read",
+      "lastUpdated": "June 2026",
+      "cta": { "text": "Submit an Appeal", "href": "https://srd.dsd.gov.za" },
+      "secondaryCta": { "text": "How to Appeal Guide", "href": "/appeals/how-to-appeal" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grant Appeal FAQs" },
     { "id": "intro", "type": "paragraph", "text": "Find answers to the most common questions about the SASSA grant appeal process. If you do not see your question here, refer to our detailed appeal guides." },
     { "id": "faq", "type": "faq", "faqs": [

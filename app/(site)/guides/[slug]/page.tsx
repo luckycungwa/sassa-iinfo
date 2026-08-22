@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
+import { canonicalUrl } from "@/lib/canonical";
 import { guides } from "../../../../lib/data/guides";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
-import { breadcrumbSchema } from "../../../../lib/json-ld";
+import { breadcrumbSchema, howToSchema } from "../../../../lib/json-ld";
 
 export function generateStaticParams() {
   const allPages = loadAllContent();
@@ -22,12 +23,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/guides/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription };
+    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/guides/${slug}`) } };
   }
 
   const guide = guides.find((g) => g.slug === slug);
   if (!guide) return {};
-  return { title: `${guide.title} | SASSA Guide`, description: guide.description };
+  return { title: `${guide.title} | SASSA Step-by-Step Guide`, description: guide.description, alternates: { canonical: canonicalUrl(`/guides/${slug}`) } };
 }
 
 export default async function GuideDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -42,7 +43,7 @@ export default async function GuideDetailPage({ params }: { params: Promise<{ sl
           { name: "Guides", url: "/guides" },
           { name: content.title, url: content.slug },
         ])) }} />
-        <ContentBlockRenderer blocks={content.contentBlocks} />
+        <ContentBlockRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
   }
@@ -50,23 +51,27 @@ export default async function GuideDetailPage({ params }: { params: Promise<{ sl
   const guide = guides.find((g) => g.slug === slug);
   if (!guide) notFound();
 
+  const howTo = howToSchema(guide.steps);
+  const breadcrumb = breadcrumbSchema([
+    { name: "Home", url: "/" },
+    { name: "Guides", url: "/guides" },
+    { name: guide.title, url: `/guides/${guide.slug}` },
+  ]);
+
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
-        { name: "Home", url: "/" },
-        { name: "Guides", url: "/guides" },
-        { name: guide.title, url: `/guides/${guide.slug}` },
-      ])) }} />
-      <div className="space-y-6">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howTo) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{guide.title}</h1>
           <p className="text-sm text-muted mt-1">{guide.description}</p>
         </div>
-        <div className="space-y-6">
+      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {guide.steps.map((step, i) => (
             <div key={i} className="bg-surface border border-border rounded-xl p-5">
               <div className="flex items-center gap-3 mb-2">
-                <span className="w-7 h-7 rounded-lg bg-emerald-800 text-white text-xs font-black flex items-center justify-center flex-shrink-0">
+                <span className="w-7 h-7 rounded-lg bg-accent-dark text-black text-xs font-black flex items-center justify-center flex-shrink-0">
                   {i + 1}
                 </span>
                 <h2 className="text-sm font-extrabold text-ink">{step.title}</h2>

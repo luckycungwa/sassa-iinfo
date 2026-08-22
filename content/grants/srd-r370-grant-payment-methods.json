@@ -14,6 +14,15 @@
     "keywords": ["SRD payment methods", "SRD R370 payment", "SRD cash send", "SRD bank transfer", "how to collect SRD grant", "SRD payment not reflecting"]
   },
   "contentBlocks": [
+    {
+      "id": "hero", "type": "hero",
+      "title": "SRD R370 Grant Payment Methods — Bank Transfer vs Cash Send",
+      "description": "Learn how the SRD R370 grant pays out each month. Choose between direct bank EFT transfer to your personal account or Cash Send retail collection at Shoprite, Pick n Pay, Boxer, Checkers, and Usave — no bank account needed for cash collection. Our guide covers switching methods, processing timelines, and what to do if your payment is delayed.",
+      "readingTime": "8 min read",
+      "lastUpdated": "July 2026",
+      "cta": { "text": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check" },
+      "secondaryCta": { "text": "Update Bank Details", "href": "/banking/update-bank-details" }
+    },
     { "id": "h1", "type": "heading", "level": 2, "text": "SRD R370 Grant Payment Methods" },
     { "id": "intro", "type": "paragraph", "text": "The SRD R370 grant can be paid through two methods: direct bank transfer (EFT) to your personal bank account, or Cash Send (retail collection) where you collect cash at a store. You do not need a bank account to receive the grant — Cash Send works with just your ID and a cellphone." },
     { "id": "method1-h", "type": "heading", "level": 3, "text": "Method 1: Bank EFT (Direct Deposit)" },
