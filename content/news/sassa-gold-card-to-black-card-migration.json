@@ -144,7 +144,7 @@
         },
         {
           "title": "Change Banking Details",
-          "href": "/banking/change-srd-banking-details",
+          "href": "/banking/update-bank-details",
           "description": "Switch SRD payments to your own bank"
         },
         {

@@ -138,9 +138,9 @@ export default function PaymentDatesPage() {
       <section className="bg-slate text-white py-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
-            <Link href="/grants" className="text-yellow font-bold hover:underline">Browse all SASSA grants</Link>
+            <Link href="/grants" className="text-accent-dark font-bold hover:underline">Browse all SASSA grants</Link>
             <span className="text-muted mx-3">|</span>
-            <Link href="/status" className="text-yellow font-bold hover:underline">Check your SASSA status</Link>
+            <Link href="/status" className="text-accent-dark font-bold hover:underline">Check your SASSA status</Link>
           </p>
         </div>
       </section>

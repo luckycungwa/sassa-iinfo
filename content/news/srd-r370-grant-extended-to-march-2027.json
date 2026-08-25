@@ -190,7 +190,7 @@
         },
         {
           "title": "SRD Monthly Review Explained",
-          "href": "/grants/srd-r370-grant-monthly-review",
+          "href": "/grants/srd-r370-grant/monthly-review",
           "description": "How monthly evaluations work"
         }
       ]
@@ -207,7 +207,7 @@
     },
     {
       "title": "SRD Monthly Review",
-      "slug": "/grants/srd-r370-grant-monthly-review"
+      "slug": "/grants/srd-r370-grant/monthly-review"
     },
     {
       "title": "Grant Review Crackdown",

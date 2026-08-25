@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "SASSA Office Finder | Local Branch Locations & Contact Details",
   description: "Find your nearest SASSA local office. Addresses, phone numbers, operating hours, services offered, and accessibility information for all 9 provincial branches.",
   alternates: { canonical: canonicalUrl("/offices") },
+  robots: { index: false, follow: true },
   openGraph: {
     title: "SASSA Office Finder | Local Branch Locations & Contact Details",
     description: "Find your nearest SASSA local office with addresses, phone numbers, and operating hours.",

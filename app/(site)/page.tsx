@@ -279,7 +279,7 @@ export default function HomePage() {
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
             <strong>Independent resource.</strong> Not affiliated with SASSA or the South African government.
             For official applications and status checks,&nbsp;
-            <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="text-yellow font-bold hover:underline">srd.sassa.gov.za</a>
+            <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="text-accent-dark font-bold hover:underline">srd.sassa.gov.za</a>
             &nbsp;or call 0800 60 10 11.
           </p>
         </div>
