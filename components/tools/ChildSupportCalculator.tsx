@@ -34,16 +34,16 @@ export default function ChildSupportCalculator() {
       </div>
 
       <div className="space-y-2">
-        <label className="block text-xs font-bold text-muted-foreground">Enter Child&apos;s Date of Birth</label>
+        <label htmlFor="child-dob" className="block text-xs font-bold text-muted-foreground">Enter Child&apos;s Date of Birth</label>
         <div className="flex gap-2">
-          <input type="date" value={childDob} onChange={(e) => setChildDob(e.target.value)}
+          <input id="child-dob" type="date" value={childDob} onChange={(e) => setChildDob(e.target.value)}
             className="border border-surface-container rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none" />
           <button onClick={handleCalculateChildSupport} className="bg-gold hover:bg-gold-dark text-black font-bold px-4 py-2.5 rounded-xl text-xs transition">Calculate Expiry</button>
         </div>
       </div>
 
       {childResult && (
-        <div className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
+        <div role="status" aria-live="polite" className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
           {childResult.expired ? (
             <div className="text-xs text-trading-down bg-trading-down/10 border border-trading-down/30 p-3 rounded-xl flex items-start gap-2">
               <AlertTriangle className="w-4 h-4 flex-shrink-0 mt-0.5" />

@@ -8,128 +8,524 @@
   "version": "2.0.0",
   "readingTime": "10 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SRD R370 Grant — SASSA Social Relief of Distress Complete Guide 2026",
     "metaDescription": "Complete guide to the SASSA SRD R370 Grant: eligibility criteria, how to apply online or via WhatsApp, payment dates, status check, appeal process, and answers to every common question.",
-    "keywords": ["SRD R370 grant", "SASSA SRD grant", "R350 grant", "SASSA R370", "social relief of distress", "SASSA COVID grant", "SRD application", "SASSA grant for unemployed"]
+    "keywords": [
+      "SRD R370 grant",
+      "SASSA SRD grant",
+      "R350 grant",
+      "SASSA R370",
+      "social relief of distress",
+      "SASSA COVID grant",
+      "SRD application",
+      "SASSA grant for unemployed"
+    ]
   },
   "contentBlocks": [
-    { "id": "hero", "type": "hero", "title": "Social Relief of Distress (SRD R370) Grant", "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.", "readingTime": "10 min read", "lastUpdated": "2026-07-01", "cta": { "label": "Check Your Status", "href": "/grants/srd-r370-grant/status-check" }, "secondaryCta": { "label": "How to Apply", "href": "/grants/srd-r370-grant" } },
-    { "id": "summary", "type": "grant-summary", "amount": "R370", "frequency": "Monthly", "targetGroup": "Unemployed South Africans aged 18 to 59 with no income or financial support." },
-    { "id": "intro", "type": "paragraph", "text": "The Social Relief of Distress (SRD) Grant, popularly known as the R370 grant (increased from R350 in 2025), is South Africa's largest social assistance programme by beneficiary numbers. It provides a monthly payment to unemployed adults who have no other source of income or government support. The grant has been extended to at least March 2027." },
-    { "id": "quick-links-h", "type": "heading", "level": 3, "text": "Quick Actions" },
-    { "id": "quick-links", "type": "link-grid", "links": [
-      { "title": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check", "description": "Check your application and payment status online" },
-      { "title": "Apply for SRD Grant", "href": "/grants/srd-r370-grant", "description": "Step-by-step application guide" },
-      { "title": "SRD Payment Methods", "href": "/grants/srd-r370-grant/payment-methods", "description": "How you receive your R370 payment" },
-      { "title": "SRD Monthly Review", "href": "/grants/srd-r370-grant/monthly-review", "description": "Understanding the monthly eligibility check" },
-      { "title": "Appeal a Declined SRD", "href": "/appeals/appeal-after-decline", "description": "How to appeal if your SRD is declined" }
-    ] },
-    { "id": "eligibility-h", "type": "heading", "level": 3, "text": "Eligibility Criteria" },
-    { "id": "eligibility-intro", "type": "paragraph", "text": "To qualify for the SRD R370 grant, you must meet ALL of the following criteria:" },
-    { "id": "eligibility-list", "type": "list", "ordered": false, "items": [
-      "South African citizen, permanent resident, refugee, asylum seeker, or special permit holder",
-      "Aged 18 to 59 years",
-      "Unemployed and not receiving any income",
-      "Not receiving any other social grant from SASSA",
-      "Not receiving UIF (Unemployment Insurance Fund) payments",
-      "Not receiving NSFAS (National Student Financial Aid Scheme) funding",
-      "Not registered for PAYE tax",
-      "No monthly bank deposits exceeding R624",
-      "Not living in a state-funded institution"
-    ] },
-    { "id": "amount-info-h", "type": "heading", "level": 3, "text": "Grant Amount & Payment Schedule" },
-    { "id": "amount-info", "type": "paragraph", "text": "The SRD grant is R370 per month. Payments are made between the 25th and the last day of each month. Unlike other SASSA grants, the SRD grant does not have a fixed single pay date — payments are rolled out progressively from the 25th onward. Some beneficiaries may receive payment earlier or later within this window depending on their bank or collection method." },
-    { "id": "amount-table", "type": "table", "headers": ["Detail", "Information"], "rows": [
-      ["Monthly Amount", "R370"],
-      ["Payment Window", "25th to last day of each month"],
-      ["Payment Method", "Bank EFT or Cash Send (retail collection)"],
-      ["Grant Type", "Social Relief of Distress (SRD)"],
-      ["Extension", "Funded until at least March 2027"]
-    ] },
-    { "id": "how-to-apply-h", "type": "heading", "level": 3, "text": "How to Apply for the SRD R370 Grant" },
-    { "id": "apply-intro", "type": "paragraph", "text": "The SRD grant application is fully online — you do not need to visit a SASSA office to apply. There are two ways to apply:" },
-    { "id": "apply-methods-h", "type": "heading", "level": 4, "text": "Method 1: Online Portal (srd.sassa.gov.za)" },
-    { "id": "apply-online-steps", "type": "steps", "steps": [
-      { "title": "Visit the SRD website", "description": "Go to srd.sassa.gov.za on your phone, tablet, or computer." },
-      { "title": "Enter your ID number", "description": "Type in your 13-digit South African ID number. Asylum seekers and special permit holders should use their permit numbers." },
-      { "title": "Enter your phone number", "description": "Provide the mobile phone number registered in your name. SASSA will send an OTP to this number." },
-      { "title": "Read and accept the declaration", "description": "Read through the terms and conditions carefully. Tick the boxes to confirm you meet the eligibility criteria." },
-      { "title": "Submit your application", "description": "Click submit. You will receive a confirmation SMS with your application reference number." }
-    ] },
-    { "id": "apply-whatsapp-h", "type": "heading", "level": 4, "text": "Method 2: WhatsApp" },
-    { "id": "whatsapp-text", "type": "paragraph", "text": "You can also apply via the SASSA WhatsApp line. Save 082 046 8553 to your phone contacts, send 'SASSA' to start the conversation, and follow the menu prompts to submit a new application. The WhatsApp service is free on most South African networks." },
-    { "id": "after-applying-h", "type": "heading", "level": 3, "text": "What Happens After You Apply" },
-    { "id": "after-applying", "type": "steps", "steps": [
-      { "title": "Application received", "description": "SASSA confirms receipt via SMS. Your application enters the verification process." },
-      { "title": "Verification in progress", "description": "SASSA checks your ID against Home Affairs, SARS, UIF, and NSFAS databases. Your bank account details are verified." },
-      { "title": "Monthly evaluation", "description": "After initial approval, your eligibility is reassessed every month through automated bank and database checks." },
-      { "title": "Payment", "description": "If approved for the month, payment is made between the 25th and 30th via bank EFT or Cash Send." }
-    ] },
-    { "id": "monthly-review-h", "type": "heading", "level": 3, "text": "Monthly Review Process — Important" },
-    { "id": "monthly-callout", "type": "callout", "intent": "warning", "title": "Your Status Changes Every Month", "text": "Unlike other SASSA grants, the SRD grant is NOT permanently approved. Every month, SASSA re-evaluates your eligibility by checking your bank account and government databases. Your status can change from 'Approved' to 'Declined' from one month to the next based on your financial activity. Always check your status each month." },
-    { "id": "documents-h", "type": "heading", "level": 3, "text": "Documents Required" },
-    { "id": "documents", "type": "document-checklist", "documents": [
-      { "label": "Valid South African ID number (13 digits)", "required": true },
-      { "label": "Mobile phone number registered in your name", "required": true },
-      { "label": "Bank account details (for direct payment) or preference for Cash Send", "required": true },
-      { "label": "Asylum seeker or special permit number (if applicable)", "required": false }
-    ] },
-    { "id": "status-check-h", "type": "heading", "level": 3, "text": "How to Check Your SRD Status" },
-    { "id": "status-check", "type": "paragraph", "text": "You can check your SRD grant status through multiple channels. The most common method is the online portal at srd.sassa.gov.za — enter your ID number and the phone number used during application, verify with an OTP, and your status dashboard appears. You can also check via WhatsApp (082 046 8553), USSD (*134*7737#), or by visiting a SASSA office. For a complete guide, see our dedicated status check page." },
-    { "id": "common-statuses-h", "type": "heading", "level": 3, "text": "Common SRD Statuses Explained" },
-    { "id": "common-statuses", "type": "table", "headers": ["Status", "Meaning", "What to Do"], "rows": [
-      ["Pending", "Application is in the verification queue", "Wait 7-14 business days. No action needed." ],
-      ["Approved", "You qualify for payment this month", "Wait for payment between the 25th-30th." ],
-      ["Payment Processing", "Funds are being transferred", "Funds reflect in 1-3 business days." ],
-      ["Declined", "You did not qualify this month", "Check the reason code and appeal within 90 days." ],
-      ["Alternative Income Source", "Bank deposits exceeded threshold", "Appeal with sworn affidavit explaining deposits." ],
-      ["Bank Verification Pending", "Bank account being verified", "Ensure account is active and in your name." ],
-      ["Identity Verification Failed", "ID mismatch with Home Affairs", "Complete facial verification or visit Home Affairs." ],
-      ["Referred", "Flagged for fraud investigation", "Contact SASSA Fraud Hotline to resolve." ],
-      ["Cancelled", "Grant permanently stopped", "Visit SASSA office to request reinstatement." ],
-      ["Application Complete", "Profile fully set up", "Wait for monthly evaluation. No action needed." ]
-    ] },
-    { "id": "appeal-h", "type": "heading", "level": 3, "text": "How to Appeal a Declined SRD Grant" },
-    { "id": "appeal-text", "type": "paragraph", "text": "If your SRD grant is declined for any month, you have the right to appeal. Appeals are handled by the Independent Tribunal for Social Assistance Appeals (ITSAA), not by SASSA itself. You have 90 days from the date of decline to submit your appeal. Because each month is evaluated separately, you must appeal each declined month individually." },
-    { "id": "appeal-steps", "type": "steps", "steps": [
-      { "title": "Visit the DSD Appeal website", "description": "Go to srd.dsd.gov.za on your phone or computer." },
-      { "title": "Enter your ID and phone number", "description": "Provide your ID number and the phone number used in your application. Verify with the OTP sent to your phone." },
-      { "title": "Select the month(s) to appeal", "description": "Choose each month that shows 'Declined'. You can appeal multiple months in one session." },
-      { "title": "Choose your reason for appeal", "description": "Select the reason from the dropdown menu that matches your situation (e.g., 'Unemployed', 'No income', 'UIF mistake')." },
-      { "title": "Upload supporting documents", "description": "Attach your sworn affidavit, bank statements, UIF termination letter, or NSFAS cancellation letter as evidence." },
-      { "title": "Submit and save your reference number", "description": "After submission, save your Appeal Reference Number. You will need it for follow-ups." }
-    ] },
-    { "id": "payment-methods-h", "type": "heading", "level": 3, "text": "Payment Methods" },
-    { "id": "payment-text", "type": "paragraph", "text": "You can receive your SRD grant through two methods: direct bank transfer (EFT) to your personal bank account, or Cash Send (retail collection) at participating stores. You can switch between methods at any time through the SRD portal. Changes take effect from the following month." },
-    { "id": "payment-callout", "type": "callout", "intent": "info", "title": "No Bank Account Needed", "text": "You do not need a bank account to receive the SRD grant. Select 'Cash Send' as your payment method and collect your grant at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave store using the SMS voucher sent to your phone." },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "How long does the SRD grant last?", "answer": "The SRD grant has been extended to at least March 2027. It is reviewed annually by the government and may be extended further." },
-      { "question": "Why does my SRD status say 'Alternative Income Source'?", "answer": "This means SASSA found a bank deposit or registration in your name that suggests you have other income. Even a gift from family can trigger this. Appeal with a sworn affidavit explaining each deposit." },
-      { "question": "Can I get the SRD grant if I am working part-time?", "answer": "Only if your monthly earnings are below R624. If your bank account shows deposits exceeding R624 in any month, you will be declined for that month." },
-      { "question": "Do I need to reapply every month?", "answer": "No. Once your application is approved, SASSA automatically evaluates you each month. You do not need to reapply unless your grant was cancelled." },
-      { "question": "Can I get both SRD and another SASSA grant?", "answer": "No. You can only receive one social grant at a time. If you qualify for an Older Person, Disability, or Child Support Grant, you must choose one." },
-      { "question": "What if I turn 60 while receiving SRD?", "answer": "The SRD grant is for ages 18 to 59. Once you turn 60, you must apply for the Older Person Grant instead. Visit your nearest SASSA office to transition." },
-      { "question": "How do I change my payment method from bank to Cash Send?", "answer": "Log into the SRD portal at srd.sassa.gov.za, go to 'Payment Method', and switch from 'Bank Transfer' to 'Cash Send'. Changes apply from the next month." },
-      { "question": "Can I update my phone number for SRD?", "answer": "Yes. Log into the SRD portal and navigate to 'Update Personal Details'. You will need access to your old number for verification, or visit a SASSA office if you no longer have access." },
-      { "question": "What happens if my SRD status says 'Referred'?", "answer": "This means your application was flagged for fraud investigation. Contact the SASSA Fraud Hotline at 0800 60 10 11 and prepare to visit a SASSA office with your ID to resolve it." },
-      { "question": "Is the SRD grant taxable?", "answer": "No. SASSA social grants are exempt from income tax. You do not need to declare them on your tax return." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check", "description": "Full guide to checking your SRD grant status" },
-      { "title": "SRD Payment Methods", "href": "/grants/srd-r370-grant/payment-methods", "description": "How you receive your R370 payment" },
-      { "title": "SRD Monthly Review Explained", "href": "/grants/srd-r370-grant/monthly-review", "description": "Understanding monthly eligibility reassessments" },
-      { "title": "How to Apply for SRD", "href": "/grants/srd-r370-grant", "description": "Step-by-step application guide" },
-      { "title": "Appeal a Declined SRD Grant", "href": "/appeals/appeal-after-decline", "description": "How to appeal if your SRD is declined" },
-      { "title": "Alternative Income Source Status", "href": "/status/alternative-income-source", "description": "What this status means and how to fix it" }
-    ] }
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Social Relief of Distress (SRD R370) Grant",
+      "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.",
+      "readingTime": "10 min read",
+      "lastUpdated": "2026-07-01",
+      "cta": {
+        "label": "Check Your Status",
+        "href": "/grants/srd-r370-grant/status-check"
+      },
+      "secondaryCta": {
+        "label": "How to Apply",
+        "href": "/grants/srd-r370-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R370",
+      "frequency": "Monthly",
+      "targetGroup": "Unemployed South Africans aged 18 to 59 with no income or financial support."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The Social Relief of Distress (SRD) Grant, popularly known as the R370 grant (increased from R350 in 2025), is South Africa's largest social assistance programme by beneficiary numbers. It provides a monthly payment to unemployed adults who have no other source of income or government support. The grant has been extended to at least March 2027."
+    },
+    {
+      "id": "quick-links-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Quick Actions"
+    },
+    {
+      "id": "quick-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Check Your SRD Status",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "Check your application and payment status online"
+        },
+        {
+          "title": "Apply for SRD Grant",
+          "href": "/grants/srd-r370-grant",
+          "description": "Step-by-step application guide"
+        },
+        {
+          "title": "SRD Payment Methods",
+          "href": "/grants/srd-r370-grant/payment-methods",
+          "description": "How you receive your R370 payment"
+        },
+        {
+          "title": "SRD Monthly Review",
+          "href": "/grants/srd-r370-grant/monthly-review",
+          "description": "Understanding the monthly eligibility check"
+        },
+        {
+          "title": "Appeal a Declined SRD",
+          "href": "/appeals/appeal-after-decline",
+          "description": "How to appeal if your SRD is declined"
+        }
+      ]
+    },
+    {
+      "id": "eligibility-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Eligibility Criteria"
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "text": "To qualify for the SRD R370 grant, you must meet ALL of the following criteria:"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "South African citizen, permanent resident, refugee, asylum seeker, or special permit holder",
+        "Aged 18 to 59 years",
+        "Unemployed and not receiving any income",
+        "Not receiving any other social grant from SASSA",
+        "Not receiving UIF (Unemployment Insurance Fund) payments",
+        "Not receiving NSFAS (National Student Financial Aid Scheme) funding",
+        "Not registered for PAYE tax",
+        "No monthly bank deposits exceeding R624",
+        "Not living in a state-funded institution"
+      ]
+    },
+    {
+      "id": "amount-info-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Grant Amount & Payment Schedule"
+    },
+    {
+      "id": "amount-info",
+      "type": "paragraph",
+      "text": "The SRD grant is R370 per month. Payments are made between the 25th and the last day of each month. Unlike other SASSA grants, the SRD grant does not have a fixed single pay date — payments are rolled out progressively from the 25th onward. Some beneficiaries may receive payment earlier or later within this window depending on their bank or collection method."
+    },
+    {
+      "id": "amount-table",
+      "type": "table",
+      "headers": [
+        "Detail",
+        "Information"
+      ],
+      "rows": [
+        [
+          "Monthly Amount",
+          "R370"
+        ],
+        [
+          "Payment Window",
+          "25th to last day of each month"
+        ],
+        [
+          "Payment Method",
+          "Bank EFT or Cash Send (retail collection)"
+        ],
+        [
+          "Grant Type",
+          "Social Relief of Distress (SRD)"
+        ],
+        [
+          "Extension",
+          "Funded until at least March 2027"
+        ]
+      ]
+    },
+    {
+      "id": "how-to-apply-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Apply for the SRD R370 Grant"
+    },
+    {
+      "id": "apply-intro",
+      "type": "paragraph",
+      "text": "The SRD grant application is fully online — you do not need to visit a SASSA office to apply. There are two ways to apply:"
+    },
+    {
+      "id": "apply-methods-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Method 1: Online Portal (srd.sassa.gov.za)"
+    },
+    {
+      "id": "apply-online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Visit the SRD website",
+          "description": "Go to srd.sassa.gov.za on your phone, tablet, or computer."
+        },
+        {
+          "title": "Enter your ID number",
+          "description": "Type in your 13-digit South African ID number. Asylum seekers and special permit holders should use their permit numbers."
+        },
+        {
+          "title": "Enter your phone number",
+          "description": "Provide the mobile phone number registered in your name. SASSA will send an OTP to this number."
+        },
+        {
+          "title": "Read and accept the declaration",
+          "description": "Read through the terms and conditions carefully. Tick the boxes to confirm you meet the eligibility criteria."
+        },
+        {
+          "title": "Submit your application",
+          "description": "Click submit. You will receive a confirmation SMS with your application reference number."
+        }
+      ]
+    },
+    {
+      "id": "apply-whatsapp-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Method 2: WhatsApp"
+    },
+    {
+      "id": "whatsapp-text",
+      "type": "paragraph",
+      "text": "You can also apply via the SASSA WhatsApp line. Save 082 046 8553 to your phone contacts, send 'SASSA' to start the conversation, and follow the menu prompts to submit a new application. The WhatsApp service is free on most South African networks."
+    },
+    {
+      "id": "after-applying-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Happens After You Apply"
+    },
+    {
+      "id": "after-applying",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Application received",
+          "description": "SASSA confirms receipt via SMS. Your application enters the verification process."
+        },
+        {
+          "title": "Verification in progress",
+          "description": "SASSA checks your ID against Home Affairs, SARS, UIF, and NSFAS databases. Your bank account details are verified."
+        },
+        {
+          "title": "Monthly evaluation",
+          "description": "After initial approval, your eligibility is reassessed every month through automated bank and database checks."
+        },
+        {
+          "title": "Payment",
+          "description": "If approved for the month, payment is made between the 25th and 30th via bank EFT or Cash Send."
+        }
+      ]
+    },
+    {
+      "id": "monthly-review-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Monthly Review Process — Important"
+    },
+    {
+      "id": "monthly-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Your Status Changes Every Month",
+      "text": "Unlike other SASSA grants, the SRD grant is NOT permanently approved. Every month, SASSA re-evaluates your eligibility by checking your bank account and government databases. Your status can change from 'Approved' to 'Declined' from one month to the next based on your financial activity. Always check your status each month."
+    },
+    {
+      "id": "documents-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Documents Required"
+    },
+    {
+      "id": "documents",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Valid South African ID number (13 digits)",
+          "required": true
+        },
+        {
+          "label": "Mobile phone number registered in your name",
+          "required": true
+        },
+        {
+          "label": "Bank account details (for direct payment) or preference for Cash Send",
+          "required": true
+        },
+        {
+          "label": "Asylum seeker or special permit number (if applicable)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "status-check-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Check Your SRD Status"
+    },
+    {
+      "id": "status-check",
+      "type": "paragraph",
+      "text": "You can check your SRD grant status through multiple channels. The most common method is the online portal at srd.sassa.gov.za — enter your ID number and the phone number used during application, verify with an OTP, and your status dashboard appears. You can also check via WhatsApp (082 046 8553), USSD (*134*7737#), or by visiting a SASSA office. For a complete guide, see our dedicated status check page."
+    },
+    {
+      "id": "common-statuses-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common SRD Statuses Explained"
+    },
+    {
+      "id": "common-statuses",
+      "type": "table",
+      "headers": [
+        "Status",
+        "Meaning",
+        "What to Do"
+      ],
+      "rows": [
+        [
+          "Pending",
+          "Application is in the verification queue",
+          "Wait 7-14 business days. No action needed."
+        ],
+        [
+          "Approved",
+          "You qualify for payment this month",
+          "Wait for payment between the 25th-30th."
+        ],
+        [
+          "Payment Processing",
+          "Funds are being transferred",
+          "Funds reflect in 1-3 business days."
+        ],
+        [
+          "Declined",
+          "You did not qualify this month",
+          "Check the reason code and appeal within 90 days."
+        ],
+        [
+          "Alternative Income Source",
+          "Bank deposits exceeded threshold",
+          "Appeal with sworn affidavit explaining deposits."
+        ],
+        [
+          "Bank Verification Pending",
+          "Bank account being verified",
+          "Ensure account is active and in your name."
+        ],
+        [
+          "Identity Verification Failed",
+          "ID mismatch with Home Affairs",
+          "Complete facial verification or visit Home Affairs."
+        ],
+        [
+          "Referred",
+          "Flagged for fraud investigation",
+          "Contact SASSA Fraud Hotline to resolve."
+        ],
+        [
+          "Cancelled",
+          "Grant permanently stopped",
+          "Visit SASSA office to request reinstatement."
+        ],
+        [
+          "Application Complete",
+          "Profile fully set up",
+          "Wait for monthly evaluation. No action needed."
+        ]
+      ]
+    },
+    {
+      "id": "appeal-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Appeal a Declined SRD Grant"
+    },
+    {
+      "id": "appeal-text",
+      "type": "paragraph",
+      "text": "If your SRD grant is declined for any month, you have the right to appeal. Appeals are handled by the Independent Tribunal for Social Assistance Appeals (ITSAA), not by SASSA itself. You have 90 days from the date of decline to submit your appeal. Because each month is evaluated separately, you must appeal each declined month individually."
+    },
+    {
+      "id": "appeal-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Visit the DSD Appeal website",
+          "description": "Go to srd.dsd.gov.za on your phone or computer."
+        },
+        {
+          "title": "Enter your ID and phone number",
+          "description": "Provide your ID number and the phone number used in your application. Verify with the OTP sent to your phone."
+        },
+        {
+          "title": "Select the month(s) to appeal",
+          "description": "Choose each month that shows 'Declined'. You can appeal multiple months in one session."
+        },
+        {
+          "title": "Choose your reason for appeal",
+          "description": "Select the reason from the dropdown menu that matches your situation (e.g., 'Unemployed', 'No income', 'UIF mistake')."
+        },
+        {
+          "title": "Upload supporting documents",
+          "description": "Attach your sworn affidavit, bank statements, UIF termination letter, or NSFAS cancellation letter as evidence."
+        },
+        {
+          "title": "Submit and save your reference number",
+          "description": "After submission, save your Appeal Reference Number. You will need it for follow-ups."
+        }
+      ]
+    },
+    {
+      "id": "payment-methods-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Payment Methods"
+    },
+    {
+      "id": "payment-text",
+      "type": "paragraph",
+      "text": "You can receive your SRD grant through two methods: direct bank transfer (EFT) to your personal bank account, or Cash Send (retail collection) at participating stores. You can switch between methods at any time through the SRD portal. Changes take effect from the following month."
+    },
+    {
+      "id": "payment-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "No Bank Account Needed",
+      "text": "You do not need a bank account to receive the SRD grant. Select 'Cash Send' as your payment method and collect your grant at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave store using the SMS voucher sent to your phone."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How long does the SRD grant last?",
+          "answer": "The SRD grant has been extended to at least March 2027. It is reviewed annually by the government and may be extended further."
+        },
+        {
+          "question": "Why does my SRD status say 'Alternative Income Source'?",
+          "answer": "This means SASSA found a bank deposit or registration in your name that suggests you have other income. Even a gift from family can trigger this. Appeal with a sworn affidavit explaining each deposit."
+        },
+        {
+          "question": "Can I get the SRD grant if I am working part-time?",
+          "answer": "Only if your monthly earnings are below R624. If your bank account shows deposits exceeding R624 in any month, you will be declined for that month."
+        },
+        {
+          "question": "Do I need to reapply every month?",
+          "answer": "No. Once your application is approved, SASSA automatically evaluates you each month. You do not need to reapply unless your grant was cancelled."
+        },
+        {
+          "question": "Can I get both SRD and another SASSA grant?",
+          "answer": "No. You can only receive one social grant at a time. If you qualify for an Older Person, Disability, or Child Support Grant, you must choose one."
+        },
+        {
+          "question": "What if I turn 60 while receiving SRD?",
+          "answer": "The SRD grant is for ages 18 to 59. Once you turn 60, you must apply for the Older Person Grant instead. Visit your nearest SASSA office to transition."
+        },
+        {
+          "question": "How do I change my payment method from bank to Cash Send?",
+          "answer": "Log into the SRD portal at srd.sassa.gov.za, go to 'Payment Method', and switch from 'Bank Transfer' to 'Cash Send'. Changes apply from the next month."
+        },
+        {
+          "question": "Can I update my phone number for SRD?",
+          "answer": "Yes. Log into the SRD portal and navigate to 'Update Personal Details'. You will need access to your old number for verification, or visit a SASSA office if you no longer have access."
+        },
+        {
+          "question": "What happens if my SRD status says 'Referred'?",
+          "answer": "This means your application was flagged for fraud investigation. Contact the SASSA Fraud Hotline at 0800 60 10 11 and prepare to visit a SASSA office with your ID to resolve it."
+        },
+        {
+          "question": "Is the SRD grant taxable?",
+          "answer": "No. SASSA social grants are exempt from income tax. You do not need to declare them on your tax return."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Check Your SRD Status",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "Full guide to checking your SRD grant status"
+        },
+        {
+          "title": "SRD Payment Methods",
+          "href": "/grants/srd-r370-grant/payment-methods",
+          "description": "How you receive your R370 payment"
+        },
+        {
+          "title": "SRD Monthly Review Explained",
+          "href": "/grants/srd-r370-grant/monthly-review",
+          "description": "Understanding monthly eligibility reassessments"
+        },
+        {
+          "title": "How to Apply for SRD",
+          "href": "/grants/srd-r370-grant",
+          "description": "Step-by-step application guide"
+        },
+        {
+          "title": "Appeal a Declined SRD Grant",
+          "href": "/appeals/appeal-after-decline",
+          "description": "How to appeal if your SRD is declined"
+        },
+        {
+          "title": "Alternative Income Source Status",
+          "href": "/status/alternative-income-source",
+          "description": "What this status means and how to fix it"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
-    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
-    { "title": "SRD vs Other Grants", "slug": "/grants" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Older Person Grant",
+      "slug": "/grants/older-person-grant"
+    },
+    {
+      "title": "Disability Grant",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "SRD vs Other Grants",
+      "slug": "/grants"
+    }
   ]
 }

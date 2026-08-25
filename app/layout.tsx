@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Manrope, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import { cn } from "@/lib/utils";
 import ThemeProvider from "@/components/ThemeProvider";
+import ToastProvider from "@/components/ToastProvider";
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -16,7 +18,8 @@ const jetbrains = JetBrains_Mono({
   display: 'swap',
 });
 
-const siteUrl = process.env.APP_URL || "https://sassaiinfo.co.za";
+const siteUrl = process.env.APP_URL || "https://sassagrantguide.co.za";
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
   title: {
@@ -50,7 +53,7 @@ export const metadata: Metadata = {
     description: 'Clear, practical guide to every SASSA social grant: eligibility, payment dates, application steps, and appeals.',
     url: siteUrl,
     images: [{
-      url: `${siteUrl}/og-image.png`,
+      url: '/og-image.png',
       width: 1200,
       height: 630,
       alt: 'SASSA Grant Guide — Independent South African Social Grant Resource',
@@ -60,14 +63,19 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'SASSA Grant Guide — Independent South African Social Grant Resource',
     description: 'Clear, practical guide to every SASSA social grant: eligibility, payment dates, application steps, and appeals.',
-    images: [`${siteUrl}/og-image.png`],
+    images: ['/og-image.png'],
   },
   icons: {
-    icon: '/favicon.svg',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/apple-icon.png',
   },
-  other: {
-    'google-site-verification': process.env.GOOGLE_SITE_VERIFICATION || '',
-  },
+  manifest: '/manifest.webmanifest',
+  ...(process.env.GOOGLE_SITE_VERIFICATION
+    ? { other: { 'google-site-verification': process.env.GOOGLE_SITE_VERIFICATION } }
+    : {}),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -82,12 +90,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         description: "Independent guide to SASSA social grants. Not affiliated with SASSA or any government department.",
         inLanguage: "en-ZA",
         isAccessibleForFree: true,
+        publisher: { "@id": `${siteUrl}/#organization` },
         potentialAction: [
           {
             "@type": "SearchAction",
             target: {
               "@type": "EntryPoint",
-              urlTemplate: `${siteUrl}/?q={search_term_string}`,
+              urlTemplate: `${siteUrl}/search?q={search_term_string}`,
             },
             "query-input": "required name=search_term_string",
           },
@@ -116,15 +125,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-ZA" className={cn(manrope.variable, jetbrains.variable)} suppressHydrationWarning>
       <head>
-        <script dangerouslySetInnerHTML={{ __html: `(function(){try{var t=localStorage.getItem("sassa-theme");if(t==="dark"){document.documentElement.classList.add("dark")}}catch(e){}})()` }} />
+        <script dangerouslySetInnerHTML={{ __html: `(function(){try{var t=localStorage.getItem("sassa-theme");var d=t==="dark"||(!t&&window.matchMedia("(prefers-color-scheme: dark)").matches);if(d){document.documentElement.classList.add("dark")}var m=document.getElementById("theme-color-meta");if(m){m.setAttribute("content",d?"#131316":"#fafafa")}}catch(e){}})()` }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <meta name="theme-color" content="#fafafa" id="theme-color-meta" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className="font-display antialiased" suppressHydrationWarning>
         <ThemeProvider>{children}</ThemeProvider>
+        <ToastProvider />
+        {gaId && (
+          <>
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
+            <Script id="ga-init" strategy="afterInteractive">
+              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${gaId}',{anonymize_ip:true});`}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

@@ -1,0 +1,152 @@
+{
+  "id": "payment-dates-2026-march",
+  "slug": "/payment-dates/2026-march",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates March 2026",
+  "description": "Confirmed SASSA payment dates for March 2026: Older Persons 3 March, Disability 4 March, Children's grants 5 March, SRD R370 from 25 March.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates March 2026 (Old Age, Disability, Child & SRD)",
+    "metaDescription": "SASSA payment dates for March 2026: Older Persons Tue 3 Mar, Disability Wed 4 Mar, Children's grants Thu 5 Mar, SRD R370 from Wed 25 Mar. Last month at old rates.",
+    "keywords": [
+      "sassa payment dates march 2026",
+      "old age grant march 2026",
+      "srd payment dates march 2026"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Payment Dates March 2026",
+      "description": "The final month of the 2025/26 fiscal year pays at existing rates. From April, the budget increases announced in February start showing in your account.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026"
+    },
+    {
+      "id": "intro-h",
+      "type": "heading",
+      "level": 2,
+      "text": "March 2026 payment schedule at a glance"
+    },
+    {
+      "id": "date-table",
+      "type": "table",
+      "caption": "Confirmed SASSA payment dates for March 2026",
+      "rows": [
+        [
+          "Older Persons Grant (60-74)",
+          "Tuesday 3 March 2026"
+        ],
+        [
+          "Older Persons Grant (75+)",
+          "Tuesday 3 March 2026"
+        ],
+        [
+          "Disability Grant",
+          "Wednesday 4 March 2026"
+        ],
+        [
+          "Children's Grants (Child Support, Foster Care, Care Dependency)",
+          "Thursday 5 March 2026"
+        ],
+        [
+          "SRD R370 Grant",
+          "From Wednesday 25 March 2026 (batches until 31 March)"
+        ]
+      ],
+      "headers": [
+        "Grant type",
+        "Payment date"
+      ]
+    },
+    {
+      "id": "what-know-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to know about March payments"
+    },
+    {
+      "id": "know-p1",
+      "type": "paragraph",
+      "text": "March closes the fiscal year, so it is the last month paid at the previous year's rates. If you want to predict your April amount, check our grant amounts page for the figures announced in the February budget — they apply automatically from April without any action on your part."
+    },
+    {
+      "id": "know-p2",
+      "type": "paragraph",
+      "text": "March is also a heavy month for review activity. SASSA uses the change of financial year to run database re-verifications, which is why some beneficiaries see status changes or requests to confirm details in March and early April. Responding quickly to a review SMS keeps payments uninterrupted."
+    },
+    {
+      "id": "srd-p",
+      "type": "paragraph",
+      "text": "SRD R370 payments run from 25 March with batches continuing to month end. Human Rights Day (Saturday 21 March) falls on a weekend and did not affect any pay date."
+    },
+    {
+      "id": "review-callout",
+      "type": "callout",
+      "variant": "warning",
+      "title": "Review notices require action",
+      "text": "If you receive an SMS or letter saying your grant is under review, do not ignore it. Reviews that lapse because the beneficiary never responded are suspended until the review is completed. Visit your office with your documents promptly."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What are the SASSA payment dates for March 2026?",
+          "answer": "Older Persons grants were paid on Tuesday 3 March 2026, Disability grants on Wednesday 4 March, Children's grants on Thursday 5 March, and SRD R370 payments ran from 25 to 31 March."
+        },
+        {
+          "question": "When do the new grant amounts start?",
+          "answer": "New amounts take effect from April 2026. March is paid entirely at the old rates; no top-up is owed for March."
+        },
+        {
+          "question": "Did Human Rights Day shift any March payment?",
+          "answer": "No. Human Rights Day fell on Saturday 21 March 2026, outside the payment days, so nothing moved."
+        },
+        {
+          "question": "Why did my SRD payment come later than my friend's?",
+          "answer": "SRD batches release over several days within the monthly window. Your date depends on when your individual approval was processed, not on where you live."
+        },
+        {
+          "question": "My grant was flagged for review in March. What should I do?",
+          "answer": "Visit your nearest SASSA office with your ID and any documents mentioned in the notice. Completing the review keeps future payments running; ignoring it can lead to suspension."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official payment calendar announcements",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Dates reflect the published March 2026 schedule. Review-cycle details were accurate at publication."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "February 2026 Payment Dates",
+      "slug": "/payment-dates/2026-february"
+    },
+    {
+      "title": "April 2026 Payment Dates & New Amounts",
+      "slug": "/payment-dates/2026-april"
+    }
+  ]
+}

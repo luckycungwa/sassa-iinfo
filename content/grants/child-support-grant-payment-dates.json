@@ -135,7 +135,14 @@
     {
       "id": "back-to-guide",
       "type": "paragraph",
-      "text": "For the full guide on eligibility, required documents, and how to apply, visit the main <a href=\"/grants/child-support-grant\">Child Support Grant guide</a>."
+      "text": "For the full guide on eligibility, required documents, and how to apply, visit the main Child Support Grant guide."
+    },
+    {
+      "id": "guide-cta",
+      "type": "link-grid",
+      "links": [
+        { "label": "Open the Child Support Grant guide", "href": "/grants/child-support-grant" }
+      ]
     }
   ],
   "relatedPages": [

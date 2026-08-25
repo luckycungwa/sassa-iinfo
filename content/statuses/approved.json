@@ -4,22 +4,22 @@
   "classification": "status-meaning",
   "title": "Approved — What It Means & What Happens After SASSA Approval",
   "description": "Your SASSA grant is approved! Here is what 'Approved' status means, when you will get paid, and what to do while waiting for your payment.",
-  "lastUpdated": "2026-07-01",
-  "version": "1.0.0",
+  "lastUpdated": "2026-08-23",
+  "version": "1.1.0",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
-    "metaTitle": "Approved — SASSA Grant Status Meaning & Payment Timeline",
-    "metaDescription": "Your SASSA status shows 'Approved'! Learn what this means, when to expect your payment, how long funds take to reflect in your bank account, and what to do if payment is delayed.",
-    "keywords": ["SASSA approved", "SASSA grant approved", "SRD approved meaning", "SASSA approved status", "when will SASSA pay me"]
+    "metaTitle": "SASSA Status Approved — What It Means & When You'll Be Paid",
+    "metaDescription": "Your SASSA status shows 'Approved'? Learn what approval means, why no pay date may be showing yet, when money arrives, and what to do if no SMS or payment comes.",
+    "keywords": ["SASSA approved status", "approved without pay date", "SASSA approved but no money", "SRD approved meaning", "no pay day SASSA", "when will SASSA pay me"]
   },
   "contentBlocks": [
     {
       "id": "hero", "type": "hero",
       "title": "Approved — When Will You Be Paid?",
       "description": "Your SASSA grant has been approved! Understand what 'Approved' status means, when your payment will arrive, how long it takes to reflect in your bank account, and what to do if your payment is delayed.",
-      "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "readingTime": "7 min read",
+      "lastUpdated": "August 2026",
       "cta": { "text": "Track Your Payment", "href": "/status/payment-processing" },
       "secondaryCta": { "text": "View Payment Dates", "href": "/payment-dates" }
     },
@@ -29,13 +29,13 @@
     { "id": "callout", "type": "callout", "intent": "success", "title": "Your Grant Is Approved", "text": "Payments are processed according to the official SASSA payment schedule. Funds typically reflect 1-3 business days after the pay date." },
     { "id": "ref-block", "type": "status-reference", "statusName": "Approved", "explanation": "Your application passed all verification checks: identity matched Home Affairs records, bank details were successfully verified, means test showed no disqualifying income, and no fraud flags were raised. SASSA has now included you in the payment batch for the current month.", "whyItHappens": ["All eligibility criteria have been satisfied", "Bank verification completed successfully", "Identity verification passed against Home Affairs database", "Means test confirmed your income is within the threshold", "No UIF, NSFAS, or other funding sources were detected"], "howLongItLasts": "The 'Approved' status lasts until the payment is processed and transferred to your bank or collection agent. Once paid, the status updates to 'Payment Processing' or 'Paid'. Every new month is evaluated separately — approval one month does not guarantee approval the next.", "whatYouShouldDo": ["Check for a pay date alongside your approved status", "If receiving bank transfer: expect funds in 1 to 3 business days after the pay date", "If receiving Cash Send: wait for the SMS voucher before visiting a retailer", "Do not close or change your bank account until after the payment arrives", "Continue checking your status at the start of each new month for re-evaluation"], "relatedStatuses": [{ "name": "Payment Processing", "slug": "payment-processing" }, { "name": "Application Complete", "slug": "application-complete" }] },
     { "id": "payment-timing-h", "type": "heading", "level": 3, "text": "When Will You Get Paid?" },
-    { "id": "payment-timing", "type": "paragraph", "text": "After your status shows 'Approved', a pay date typically appears within 2 to 5 business days. The pay date depends on your grant type:" },
+    { "id": "payment-timing", "type": "paragraph", "text": "After your status shows 'Approved', a pay date is usually added within a few business days. Exact dates differ by grant type:" },
     { "id": "payment-table", "type": "table", "headers": ["Grant Type", "Payment Window", "Method"], "rows": [
-      ["SRD R370 Grant", "25th to 30th of each month", "Bank EFT or Cash Send"],
-      ["Older Person Grant", "1st to 5th of each month", "Bank EFT or Retail collection"],
-      ["Disability Grant", "1st to 5th of each month", "Bank EFT or Retail collection"],
-      ["Child Support Grant", "1st to 5th of each month", "Bank EFT or Retail collection"],
-      ["Foster Care Grant", "1st to 5th of each month", "Bank EFT or Retail collection"]
+      ["SRD R370 Grant", "Monthly window starting around the 25th", "Bank EFT or Cash Send"],
+      ["Older Person Grant", "First week of each month", "Bank EFT or Retail collection"],
+      ["Disability Grant", "First week of each month", "Bank EFT or Retail collection"],
+      ["Child Support Grant", "First week of each month, after older persons and disability grants", "Bank EFT or Retail collection"],
+      ["Foster Care Grant", "First week of each month, after older persons and disability grants", "Bank EFT or Retail collection"]
     ] },
     { "id": "bank-credit-h", "type": "heading", "level": 3, "text": "How Long Does It Take to Reflect in Your Bank Account?" },
     { "id": "bank-credit", "type": "paragraph", "text": "Once SASSA processes the payment, the time it takes for funds to appear in your account depends on your bank:" },
@@ -49,22 +49,32 @@
       ["Bank Zero", "Same day"],
       ["Postbank", "Same day or next business day"]
     ] },
+    { "id": "nopayday-h", "type": "heading", "level": 2, "text": "Approved Without a Pay Date — What It Means and What to Do" },
+    { "id": "nopayday-answer", "type": "paragraph", "text": "If your status shows 'Approved' but no pay date appears next to it, your application is approved for this month, but a pay day has not been shown yet. This happens regularly and does not mean your approval has been withdrawn. In most cases the pay date is added as the next payment run approaches." },
+    { "id": "nopayday-callout", "type": "callout", "intent": "info", "title": "Approved but no pay date showing?", "text": "Your application is approved, but a pay day has not been displayed yet. Nothing is required from you while you wait — keep checking your status every few days rather than reapplying." },
+    { "id": "nopayday-diff", "type": "paragraph", "text": "This is different from 'Pending', which means SASSA is still assessing your eligibility for this month. It is also different from a payment that has gone missing: if a pay date was shown and that date has passed with no money in your account, follow our payment not reflecting guide instead." },
+    { "id": "nopayday-not-h", "type": "heading", "level": 3, "text": "What NOT to Do While Waiting" },
+    { "id": "nopayday-not", "type": "list", "ordered": false, "items": ["Do not submit a new application — it will not make a pay date appear sooner and can complicate your existing record", "Do not pay anyone who claims they can release your payment or force a pay date to show — this is a common scam", "Do not repeatedly change your banking details while waiting — each change restarts verification and can push your payment into the next cycle", "Do not rely only on SMS notifications — check your status directly on the official portal"] },
+    { "id": "nosms-h", "type": "heading", "level": 3, "text": "No SMS Yet? Why That May Be Normal" },
+    { "id": "nosms", "type": "paragraph", "text": "Approval notifications are sent by SMS where SASSA has a working cellphone number on file, but messages can arrive late or not at all — especially if your number changed since you applied. The status portal is the reliable source of truth: if it shows 'Approved', treat your grant as approved whether or not an SMS arrived. If your number has changed or been lost, update it using our SRD phone number guide so future notifications reach you." },
     { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
     { "id": "faq", "type": "faq", "faqs": [
-      { "question": "My status says 'Approved' but there is no pay date. What does this mean?", "answer": "This is common. It means you are approved for the month, but the national treasury has not yet finalized the payment batch file. A pay date will typically appear within 2 to 5 business days." },
+      { "question": "My status says 'Approved' but there is no pay date. What does this mean?", "answer": "Your application is approved, but a pay day has not been shown yet. This happens regularly and nothing is required from your side. A pay date is usually added within a few business days as the next payment run approaches — keep checking your status rather than reapplying." },
       { "question": "Can an 'Approved' status change back to 'Pending' or 'Declined'?", "answer": "Yes. Every month is evaluated as a separate cycle. If your financial situation changes mid-month (e.g., you receive a bank deposit), the next month may show a different status." },
       { "question": "I am approved but the money is not in my account. What should I do?", "answer": "Wait 1 to 3 business days after the pay date. If it still does not appear, check that your bank details are correct and that the account is active. If the issue continues, contact SASSA." },
       { "question": "Do I need to reapply every month if I was approved?", "answer": "No. Once you are approved, your grant is automatically evaluated each month. You only need to reapply if your grant was cancelled or you need to switch grant types." },
       { "question": "Can I change my payment method after approval?", "answer": "Yes. Log into the SRD portal and go to 'Payment Method' to switch between bank transfer and Cash Send. Changes take effect from the next month." }
     ] },
     { "id": "related-links", "type": "link-grid", "links": [
+      { "title": "Payment Not Reflecting?", "href": "/banking/payment-not-reflecting", "description": "Escalation steps when your pay day has passed with no money" },
       { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All the ways to receive your grant payment" },
       { "title": "How to Update Bank Details", "href": "/banking/update-bank-details", "description": "Change your bank account for grant payments" },
-      { "title": "SASSA Payment Dates", "href": "/payment-dates", "description": "View the full payment schedule for all grants" }
+      { "title": "August 2026 Payment Dates", "href": "/payment-dates/2026-august", "description": "Exact pay dates and SRD window this month" }
     ] }
   ],
   "relatedPages": [
     { "title": "Payment Processing", "slug": "/status/payment-processing" },
+    { "title": "Payment Not Reflecting Guide", "slug": "/banking/payment-not-reflecting" },
     { "title": "Application Complete", "slug": "/status/application-complete" },
     { "title": "SASSA Payment Dates", "slug": "/payment-dates" }
   ]

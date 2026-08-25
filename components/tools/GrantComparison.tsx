@@ -10,10 +10,10 @@ export default function GrantComparison() {
         <table className="w-full text-left text-xs text-ink">
           <thead className="bg-canvas text-muted-foreground font-bold font-mono">
             <tr>
-              <th className="p-3">Grant Type</th>
-              <th className="p-3">Amount</th>
-              <th className="p-3">Target Age</th>
-              <th className="p-3">Means Test Limit</th>
+              <th scope="col" className="p-3">Grant Type</th>
+              <th scope="col" className="p-3">Amount</th>
+              <th scope="col" className="p-3">Target Age</th>
+              <th scope="col" className="p-3">Means Test Limit</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-surface-dim">

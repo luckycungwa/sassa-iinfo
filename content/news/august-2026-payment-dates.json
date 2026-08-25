@@ -7,83 +7,269 @@
   "lastUpdated": "2026-07-29",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official SASSA publications", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "August 2026 SASSA Payment Dates — Fourth Day Added for Grant Reviews",
     "metaDescription": "SASSA confirms August 2026 payment dates. Fourth day on 7 August added for grant reviews and eLife certification. Older Persons 4 Aug, Disability 5 Aug, Children's 6 Aug, SRD 25-31 Aug.",
-    "keywords": ["August 2026 payment dates", "SASSA payment schedule August", "grant review day", "fourth payment day", "eLife certification August"]
+    "keywords": [
+      "August 2026 payment dates",
+      "SASSA payment schedule August",
+      "grant review day",
+      "fourth payment day",
+      "eLife certification August"
+    ]
   },
   "contentBlocks": [
-    { "id": "hero-1", "type": "hero", "title": "August 2026 Payment Dates Confirmed — Fourth Day Added for Grant Reviews", "description": "SASSA has confirmed the payment schedule for August 2026. For the first time, a fourth payment day on 7 August has been added for beneficiaries flagged for grant reviews or requiring eLife certification verification.", "readingTime": "7 min read", "lastUpdated": "2026-07-29" },
-    { "id": "h1", "type": "heading", "level": 2, "text": "August 2026 Payment Dates at a Glance" },
-    { "id": "p1", "type": "paragraph", "text": "SASSA has confirmed the payment schedule for August 2026. This month introduces a notable change: a fourth payment day — 7 August — has been added specifically for beneficiaries who are flagged for grant reviews or who need to complete eLife certification verification." },
-    { "id": "list1", "type": "list", "ordered": false, "items": [
-      "Older Persons Grant: 4 August 2026 (Tuesday)",
-      "Disability Grant: 5 August 2026 (Wednesday)",
-      "Children's Grants: 6 August 2026 (Thursday)",
-      "Review and eLife Verification Day: 7 August 2026 (Friday) — NEW",
-      "SRD R370 Grant: 25-31 August 2026"
-    ] },
-    { "id": "callout1", "type": "callout", "intent": "info", "title": "What Is the Fourth Day (7 August)?", "text": "SASSA has set aside 7 August as a dedicated day for grant review processing. If you received a notification about a grant review or have incomplete eLife certification, this day is for resolving those matters at your pay point. Beneficiaries who are not flagged will still receive their payments on the standard dates (4-6 August)." },
-    { "id": "h2", "type": "heading", "level": 3, "text": "Why Was a Fourth Day Added?" },
-    { "id": "p2", "type": "paragraph", "text": "The introduction of a fourth payment day follows the announcement by Social Development Minister Dina Pule on 21 July 2026 that more than 350,000 grants will be reviewed in the 2026/27 financial year. The additional day is designed to prevent long queues at pay points and give beneficiaries flagged for reviews a dedicated window to sort out their documentation without delaying other grant recipients." },
-    { "id": "p3", "type": "paragraph", "text": "According to SASSA, approximately 68,000 SRD beneficiaries were suspended in May 2026 for failing to complete eLife certification, and many permanent grant beneficiaries have outstanding review requirements. The fourth day aims to process these cases efficiently." },
-    { "id": "h3", "type": "heading", "level": 3, "text": "Do You Need to Collect on the 4th or the 7th?" },
-    { "id": "p4", "type": "paragraph", "text": "This depends on whether you have been flagged for a grant review or eLife certification. Here is how to determine your collection date:" },
-    { "id": "list2", "type": "list", "ordered": false, "items": [
-      "If you received a letter or SMS from SASSA about a grant review, check the notification carefully. The date is specified in your notification.",
-      "If you did not receive any notification about a review or eLife certification, collect on your standard date: 4 August for Older Persons, 5 August for Disability, 6 August for Children's Grants.",
-      "If you are unsure, check your status on the SRD portal or call SASSA on 0800 60 10 11.",
-      "SRD R370 beneficiaries are not affected by this change — SRD payments run from 25-31 August as usual."
-    ] },
-    { "id": "h4", "type": "heading", "level": 3, "text": "What to Bring on Review Day (7 August)" },
-    { "id": "list3", "type": "list", "ordered": false, "items": [
-      "Your original South African ID document (certified copies may not be accepted at some pay points)",
-      "The notification letter or SMS from SASSA (if you received one)",
-      "Latest 3 months bank statements if the review is about financial eligibility",
-      "Medical report if the review is for a Disability Grant",
-      "Proof of address (utility bill or affidavit)",
-      "Any other documents requested in your specific review notification"
-    ] },
-    { "id": "h5", "type": "heading", "level": 3, "text": "Step-by-Step: What to Do If You Are Flagged for Review" },
-    { "id": "steps1", "type": "steps", "steps": [
-      { "title": "Read your notification carefully", "description": "Your SASSA letter or SMS will explain why you have been flagged and what documents are needed. Follow the instructions exactly." },
-      { "title": "Gather all required documents", "description": "Collect the documents listed in your notification. Missing documents will delay the process. Make copies of everything for your records." },
-      { "title": "Visit your pay point on 7 August (or earlier)", "description": "Go to the SASSA office or pay point specified in your notification. The dedicated review desks will be open from 8 AM to 4 PM." },
-      { "title": "Submit your documents and complete verification", "description": "A SASSA officer will review your documents and may take your photo or fingerprints for verification. The process typically takes 15-30 minutes." },
-      { "title": "Receive confirmation and await the outcome", "description": "You will receive a confirmation slip. SASSA will notify you of the outcome within 14 days. If approved, your grant continues. If not, you will receive reasons and appeal instructions." }
-    ] },
-    { "id": "callout2", "type": "callout", "intent": "warning", "title": "Don't Ignore the Review Request", "text": "If you are flagged for a review and do not respond within 30 days, your grant will be suspended without further notice. Suspended beneficiaries must reapply from scratch. Visit your SASSA office as soon as possible." },
-    { "id": "h6", "type": "heading", "level": 3, "text": "SRD R370 Payments in August" },
-    { "id": "p5", "type": "paragraph", "text": "SRD R370 payments for August will run from 25 to 31 August 2026. The SRD schedule is not affected by the new fourth payment day, which applies only to permanent grant beneficiaries flagged for reviews. SRD beneficiaries should check their status on the SRD portal after 15 August." },
-    { "id": "p6", "type": "paragraph", "text": "Note that August marks the start of the third quarter evaluation cycle. Some SRD beneficiaries may experience slight delays if their quarterly review coincides with the broader grant review drive. If your status shows 'Pending' for an extended period, it may be due to additional verification requirements." },
-    { "id": "h7", "type": "heading", "level": 3, "text": "Bank Transfer Processing Times" },
-    { "id": "p7", "type": "paragraph", "text": "Regardless of your payment date, bank transfers may take 1-3 business days to reflect in your account after the official pay date. For example, if your grant is paid on 4 August (Tuesday), the money could arrive between 4 and 7 August depending on your bank. SASSA advises beneficiaries not to panic if the payment is not immediately visible." },
-    { "id": "list4", "type": "list", "ordered": false, "items": [
-      "Standard bank transfers: 1-2 business days (FNB, Standard Bank, Nedbank, Absa, Capitec)",
-      "Cash Send: Usually available within 2 hours of payment processing",
-      "SASSA SAPO card: Available on the payment date at Post Office branches",
-      "Weekend payments: If your pay date falls on a weekend, bank processing moves to the next business day"
-    ] },
-    { "id": "faq1", "type": "faq", "faqs": [
-      { "question": "I did not receive any notification about a review. Can I still collect on 7 August?", "answer": "No. The fourth day is for beneficiaries who have been specifically flagged and notified by SASSA. If you did not receive a notification, collect on your standard date (4, 5, or 6 August depending on your grant type)." },
-      { "question": "What if I cannot visit the pay point on 7 August?", "answer": "You can visit your SASSA office on any business day before or after the 7th. However, the review desks on 7 August are specifically set up to handle these cases efficiently. Visiting on another day may mean longer wait times." },
-      { "question": "Does the fourth day apply to SRD R370 beneficiaries?", "answer": "No. The fourth day is for permanent grant beneficiaries flagged for reviews. SRD R370 payments will follow the normal schedule from 25-31 August 2026." },
-      { "question": "What happens if my grant is suspended after the review?", "answer": "If your grant is suspended, you will receive written reasons. You can appeal the decision within 90 days through the ITSAA appeal portal. However, completing the review successfully is the best way to avoid suspension." },
-      { "question": "How will I know the outcome of my review?", "answer": "SASSA will send you an SMS and a formal letter within 14 days of your review appointment. You can also check your status on the SRD portal if you are an SRD beneficiary, or visit your SASSA office for permanent grants." }
-    ] },
-    { "id": "div1", "type": "divider" },
-    { "id": "link1", "type": "link-grid", "links": [
-      { "title": "Grant Review Crackdown 2026", "href": "/news/sassa-grant-review-crackdown-2026", "description": "350,000 grants under review" },
-      { "title": "eLife Certification Guide", "href": "/news/elife-certification-guide-srd", "description": "Complete biometric verification step-by-step" },
-      { "title": "Check Your SRD Status", "href": "https://srd.sassa.gov.za", "description": "Official SASSA SRD portal" },
-      { "title": "SASSA Offices", "href": "/offices", "description": "Find your nearest SASSA office" }
-    ] }
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "title": "August 2026 Payment Dates Confirmed — Fourth Day Added for Grant Reviews",
+      "description": "SASSA has confirmed the payment schedule for August 2026. For the first time, a fourth payment day on 7 August has been added for beneficiaries flagged for grant reviews or requiring eLife certification verification.",
+      "readingTime": "7 min read",
+      "lastUpdated": "2026-07-29"
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "August 2026 Payment Dates at a Glance"
+    },
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "text": "SASSA has confirmed the payment schedule for August 2026. This month introduces a notable change: a fourth payment day — 7 August — has been added specifically for beneficiaries who are flagged for grant reviews or who need to complete eLife certification verification."
+    },
+    {
+      "id": "list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Older Persons Grant: 4 August 2026 (Tuesday)",
+        "Disability Grant: 5 August 2026 (Wednesday)",
+        "Children's Grants: 6 August 2026 (Thursday)",
+        "Review and eLife Verification Day: 7 August 2026 (Friday) — NEW",
+        "SRD R370 Grant: 25-31 August 2026"
+      ]
+    },
+    {
+      "id": "callout1",
+      "type": "callout",
+      "intent": "info",
+      "title": "What Is the Fourth Day (7 August)?",
+      "text": "SASSA has set aside 7 August as a dedicated day for grant review processing. If you received a notification about a grant review or have incomplete eLife certification, this day is for resolving those matters at your pay point. Beneficiaries who are not flagged will still receive their payments on the standard dates (4-6 August)."
+    },
+    {
+      "id": "h2",
+      "type": "heading",
+      "level": 3,
+      "text": "Why Was a Fourth Day Added?"
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "text": "The introduction of a fourth payment day follows the announcement by Social Development Minister Dina Pule on 21 July 2026 that more than 350,000 grants will be reviewed in the 2026/27 financial year. The additional day is designed to prevent long queues at pay points and give beneficiaries flagged for reviews a dedicated window to sort out their documentation without delaying other grant recipients."
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "text": "According to SASSA, approximately 68,000 SRD beneficiaries were suspended in May 2026 for failing to complete eLife certification, and many permanent grant beneficiaries have outstanding review requirements. The fourth day aims to process these cases efficiently."
+    },
+    {
+      "id": "h3",
+      "type": "heading",
+      "level": 3,
+      "text": "Do You Need to Collect on the 4th or the 7th?"
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "text": "This depends on whether you have been flagged for a grant review or eLife certification. Here is how to determine your collection date:"
+    },
+    {
+      "id": "list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "If you received a letter or SMS from SASSA about a grant review, check the notification carefully. The date is specified in your notification.",
+        "If you did not receive any notification about a review or eLife certification, collect on your standard date: 4 August for Older Persons, 5 August for Disability, 6 August for Children's Grants.",
+        "If you are unsure, check your status on the SRD portal or call SASSA on 0800 60 10 11.",
+        "SRD R370 beneficiaries are not affected by this change — SRD payments run from 25-31 August as usual."
+      ]
+    },
+    {
+      "id": "h4",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Bring on Review Day (7 August)"
+    },
+    {
+      "id": "list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Your original South African ID document (certified copies may not be accepted at some pay points)",
+        "The notification letter or SMS from SASSA (if you received one)",
+        "Latest 3 months bank statements if the review is about financial eligibility",
+        "Medical report if the review is for a Disability Grant",
+        "Proof of address (utility bill or affidavit)",
+        "Any other documents requested in your specific review notification"
+      ]
+    },
+    {
+      "id": "h5",
+      "type": "heading",
+      "level": 3,
+      "text": "Step-by-Step: What to Do If You Are Flagged for Review"
+    },
+    {
+      "id": "steps1",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Read your notification carefully",
+          "description": "Your SASSA letter or SMS will explain why you have been flagged and what documents are needed. Follow the instructions exactly."
+        },
+        {
+          "title": "Gather all required documents",
+          "description": "Collect the documents listed in your notification. Missing documents will delay the process. Make copies of everything for your records."
+        },
+        {
+          "title": "Visit your pay point on 7 August (or earlier)",
+          "description": "Go to the SASSA office or pay point specified in your notification. The dedicated review desks will be open from 8 AM to 4 PM."
+        },
+        {
+          "title": "Submit your documents and complete verification",
+          "description": "A SASSA officer will review your documents and may take your photo or fingerprints for verification. The process typically takes 15-30 minutes."
+        },
+        {
+          "title": "Receive confirmation and await the outcome",
+          "description": "You will receive a confirmation slip. SASSA will notify you of the outcome within 14 days. If approved, your grant continues. If not, you will receive reasons and appeal instructions."
+        }
+      ]
+    },
+    {
+      "id": "callout2",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Don't Ignore the Review Request",
+      "text": "If you are flagged for a review and do not respond within 30 days, your grant will be suspended without further notice. Suspended beneficiaries must reapply from scratch. Visit your SASSA office as soon as possible."
+    },
+    {
+      "id": "h6",
+      "type": "heading",
+      "level": 3,
+      "text": "SRD R370 Payments in August"
+    },
+    {
+      "id": "p5",
+      "type": "paragraph",
+      "text": "SRD R370 payments for August will run from 25 to 31 August 2026. The SRD schedule is not affected by the new fourth payment day, which applies only to permanent grant beneficiaries flagged for reviews. SRD beneficiaries should check their status on the SRD portal after 15 August."
+    },
+    {
+      "id": "p6",
+      "type": "paragraph",
+      "text": "Note that August marks the start of the third quarter evaluation cycle. Some SRD beneficiaries may experience slight delays if their quarterly review coincides with the broader grant review drive. If your status shows 'Pending' for an extended period, it may be due to additional verification requirements."
+    },
+    {
+      "id": "h7",
+      "type": "heading",
+      "level": 3,
+      "text": "Bank Transfer Processing Times"
+    },
+    {
+      "id": "p7",
+      "type": "paragraph",
+      "text": "Regardless of your payment date, bank transfers may take 1-3 business days to reflect in your account after the official pay date. For example, if your grant is paid on 4 August (Tuesday), the money could arrive between 4 and 7 August depending on your bank. SASSA advises beneficiaries not to panic if the payment is not immediately visible."
+    },
+    {
+      "id": "list4",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Standard bank transfers: 1-2 business days (FNB, Standard Bank, Nedbank, Absa, Capitec)",
+        "Cash Send: Usually available within 2 hours of payment processing",
+        "SASSA SAPO card: Available on the payment date at Post Office branches",
+        "Weekend payments: If your pay date falls on a weekend, bank processing moves to the next business day"
+      ]
+    },
+    {
+      "id": "faq1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I did not receive any notification about a review. Can I still collect on 7 August?",
+          "answer": "No. The fourth day is for beneficiaries who have been specifically flagged and notified by SASSA. If you did not receive a notification, collect on your standard date (4, 5, or 6 August depending on your grant type)."
+        },
+        {
+          "question": "What if I cannot visit the pay point on 7 August?",
+          "answer": "You can visit your SASSA office on any business day before or after the 7th. However, the review desks on 7 August are specifically set up to handle these cases efficiently. Visiting on another day may mean longer wait times."
+        },
+        {
+          "question": "Does the fourth day apply to SRD R370 beneficiaries?",
+          "answer": "No. The fourth day is for permanent grant beneficiaries flagged for reviews. SRD R370 payments will follow the normal schedule from 25-31 August 2026."
+        },
+        {
+          "question": "What happens if my grant is suspended after the review?",
+          "answer": "If your grant is suspended, you will receive written reasons. You can appeal the decision within 90 days through the ITSAA appeal portal. However, completing the review successfully is the best way to avoid suspension."
+        },
+        {
+          "question": "How will I know the outcome of my review?",
+          "answer": "SASSA will send you an SMS and a formal letter within 14 days of your review appointment. You can also check your status on the SRD portal if you are an SRD beneficiary, or visit your SASSA office for permanent grants."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Grant Review Crackdown 2026",
+          "href": "/news/sassa-grant-review-crackdown-2026",
+          "description": "350,000 grants under review"
+        },
+        {
+          "title": "eLife Certification Guide",
+          "href": "/news/elife-certification-guide-srd",
+          "description": "Complete biometric verification step-by-step"
+        },
+        {
+          "title": "Check Your SRD Status",
+          "href": "https://srd.sassa.gov.za",
+          "description": "Official SASSA SRD portal"
+        },
+        {
+          "title": "SASSA Offices",
+          "href": "/offices",
+          "description": "Find your nearest SASSA office"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Grant Review Crackdown 2026", "slug": "/news/sassa-grant-review-crackdown-2026" },
-    { "title": "eLife Certification Guide", "slug": "/news/elife-certification-guide-srd" },
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
-    { "title": "SASSA Offices", "slug": "/offices" }
+    {
+      "title": "Grant Review Crackdown 2026",
+      "slug": "/news/sassa-grant-review-crackdown-2026"
+    },
+    {
+      "title": "eLife Certification Guide",
+      "slug": "/news/elife-certification-guide-srd"
+    },
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "SASSA Offices",
+      "slug": "/offices"
+    }
   ]
 }

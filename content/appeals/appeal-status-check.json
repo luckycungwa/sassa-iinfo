@@ -7,47 +7,151 @@
   "lastUpdated": "2026-07-01",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "How to Check Your SASSA Appeal Status — Track ITSAA Appeal Online",
     "metaDescription": "Step-by-step guide to checking your SASSA appeal status. Track your ITSAA appeal online using your reference number, ID, and phone number at srd.dsd.gov.za.",
-    "keywords": ["check SASSA appeal status", "SASSA appeal tracking", "ITSAA appeal check", "SASSA appeal reference number", "SASSA appeal progress"]
+    "keywords": [
+      "check SASSA appeal status",
+      "SASSA appeal tracking",
+      "ITSAA appeal check",
+      "SASSA appeal reference number",
+      "SASSA appeal progress"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "How to Check Your SASSA Appeal Status",
       "description": "Track your SASSA appeal progress online using your ID number, phone number, and Appeal Reference Number. This guide shows you exactly how to check your ITSAA appeal status and understand what each status means.",
       "readingTime": "5 min read",
       "lastUpdated": "June 2026",
-      "cta": { "text": "Check Your Appeal Status", "href": "https://srd.dsd.gov.za" },
-      "secondaryCta": { "text": "How to Appeal", "href": "/appeals/how-to-appeal" }
+      "cta": {
+        "text": "Check Your Appeal Status",
+        "href": "https://srd.dsd.gov.za"
+      },
+      "secondaryCta": {
+        "text": "How to Appeal",
+        "href": "/appeals/how-to-appeal"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "How to Check Your SASSA Appeal Status" },
-    { "id": "intro", "type": "paragraph", "text": "After submitting your appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA), you can track its progress online. You will need your ID number, phone number, and Appeal Reference Number." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for anyone who has submitted a SASSA grant appeal and wants to track its progress through the ITSAA system." },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "How to Check Online" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Go to the appeal portal", "description": "Visit srd.dsd.gov.za (for SRD appeals) or the ITSAA tracking portal." },
-      { "title": "Enter your ID number", "description": "Type your 13-digit South African ID number." },
-      { "title": "Enter your phone number", "description": "Enter the phone number you used when filing the appeal." },
-      { "title": "Enter your Appeal Reference Number", "description": "Type the reference number you received after submitting your appeal." },
-      { "title": "Click 'Check Status'", "description": "Your appeal status will be displayed on the screen." }
-    ] },
-    { "id": "statuses-h", "type": "heading", "level": 3, "text": "What the Statuses Mean" },
-    { "id": "statuses", "type": "list", "ordered": false, "items": ["Received: Your appeal has been submitted and is waiting to be assigned to a tribunal member", "Under Review: A tribunal member is examining your case and evidence", "Pending Documents: The tribunal has requested additional documents from you", "Ruling Issued: A final decision has been made — check for the outcome", "Closed: The appeal process is complete"] },
-    { "id": "sms-h", "type": "heading", "level": 3, "text": "SMS Notifications" },
-    { "id": "sms", "type": "paragraph", "text": "ITSAA sends SMS notifications at key milestones: when your appeal is received, when additional documents are requested, and when a ruling is issued. Keep your phone number updated to receive these notifications." },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "I lost my Appeal Reference Number. Can I still check my status?", "answer": "Yes. Contact ITSAA directly or visit your nearest SASSA office with your ID to retrieve your reference number." },
-      { "question": "How often should I check my appeal status?", "answer": "Checking once every 2-3 weeks is sufficient. The tribunal takes 60-90 days, so frequent checking will not speed up the process." },
-      { "question": "What if my status has not changed in over 90 days?", "answer": "Contact ITSAA directly or visit your nearest SASSA office to follow up. There may be a backlog or a documentation issue." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Check Your SASSA Appeal Status"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "After submitting your appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA), you can track its progress online. You will need your ID number, phone number, and Appeal Reference Number."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This guide is for anyone who has submitted a SASSA grant appeal and wants to track its progress through the ITSAA system."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Check Online"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Go to the appeal portal",
+          "description": "Visit srd.dsd.gov.za (for SRD appeals) or the ITSAA tracking portal."
+        },
+        {
+          "title": "Enter your ID number",
+          "description": "Type your 13-digit South African ID number."
+        },
+        {
+          "title": "Enter your phone number",
+          "description": "Enter the phone number you used when filing the appeal."
+        },
+        {
+          "title": "Enter your Appeal Reference Number",
+          "description": "Type the reference number you received after submitting your appeal."
+        },
+        {
+          "title": "Click 'Check Status'",
+          "description": "Your appeal status will be displayed on the screen."
+        }
+      ]
+    },
+    {
+      "id": "statuses-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What the Statuses Mean"
+    },
+    {
+      "id": "statuses",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Received: Your appeal has been submitted and is waiting to be assigned to a tribunal member",
+        "Under Review: A tribunal member is examining your case and evidence",
+        "Pending Documents: The tribunal has requested additional documents from you",
+        "Ruling Issued: A final decision has been made — check for the outcome",
+        "Closed: The appeal process is complete"
+      ]
+    },
+    {
+      "id": "sms-h",
+      "type": "heading",
+      "level": 3,
+      "text": "SMS Notifications"
+    },
+    {
+      "id": "sms",
+      "type": "paragraph",
+      "text": "ITSAA sends SMS notifications at key milestones: when your appeal is received, when additional documents are requested, and when a ruling is issued. Keep your phone number updated to receive these notifications."
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I lost my Appeal Reference Number. Can I still check my status?",
+          "answer": "Yes. Contact ITSAA directly or visit your nearest SASSA office with your ID to retrieve your reference number."
+        },
+        {
+          "question": "How often should I check my appeal status?",
+          "answer": "Checking once every 2-3 weeks is sufficient. The tribunal takes 60-90 days, so frequent checking will not speed up the process."
+        },
+        {
+          "question": "What if my status has not changed in over 90 days?",
+          "answer": "Contact ITSAA directly or visit your nearest SASSA office to follow up. There may be a backlog or a documentation issue."
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
-    { "title": "Appeal Timeline", "slug": "/appeals/appeal-timeline" },
-    { "title": "Appeal Outcomes", "slug": "/appeals/appeal-outcomes" },
-    { "title": "Appeal for SRD", "slug": "/appeals/appeal-for-srd" }
+    {
+      "title": "How to Appeal",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Appeal Timeline",
+      "slug": "/appeals/appeal-timeline"
+    },
+    {
+      "title": "Appeal Outcomes",
+      "slug": "/appeals/appeal-outcomes"
+    },
+    {
+      "title": "Appeal for SRD",
+      "slug": "/appeals/appeal-for-srd"
+    }
   ]
 }

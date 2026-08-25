@@ -3,7 +3,6 @@ import { grants } from "../lib/data/grants";
 import { statuses } from "../lib/data/statuses";
 import { appeals } from "../lib/data/appeals";
 import { eligibilityGuides } from "../lib/data/eligibility";
-import { offices } from "../lib/data/offices";
 import { downloadableForms } from "../lib/data/downloads";
 import { provinces } from "../lib/data/provinces";
 import { guides } from "../lib/data/guides";
@@ -39,14 +38,20 @@ const staticRoutes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const allContent = loadAllContent();
+  const latestContentDate = allContent.reduce(
+    (max, p) => (p.lastUpdated > max ? p.lastUpdated : max),
+    "2026-08-23"
+  );
+
   const routes = staticRoutes.map((r) => ({
     url: `${baseUrl}${r.path}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: r.changefreq,
     priority: r.priority,
   }));
 
-  const jsonPages = loadAllContent()
+  const jsonPages = allContent
     .filter((p) => p.status === "published")
     .map((p) => ({
       url: `${baseUrl}${p.slug}`,
@@ -57,63 +62,56 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const grantRoutes = grants.map((g) => ({
     url: `${baseUrl}/grants/${g.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
   const statusRoutes = statuses.map((s) => ({
     url: `${baseUrl}/status/${s.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
   const appealRoutes = appeals.map((a) => ({
     url: `${baseUrl}/appeals/${a.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
   const eligibilityRoutes = eligibilityGuides.map((e) => ({
     url: `${baseUrl}/eligibility/${e.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
-  const officeRoutes = offices.map((o) => ({
-    url: `${baseUrl}/offices/${o.id}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
   const downloadRoutes = downloadableForms.map((d) => ({
     url: `${baseUrl}/downloads/${d.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.5,
   }));
 
   const provinceRoutes = provinces.map((p) => ({
     url: `${baseUrl}/provinces/${p.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
   const guideRoutes = guides.map((g) => ({
     url: `${baseUrl}/guides/${g.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
   const bankingRoutes = bankingGuides.map((b) => ({
     url: `${baseUrl}/banking/${b.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
@@ -127,7 +125,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const paymentDateRoutes = paymentMonths.map((m) => ({
     url: `${baseUrl}/payment-dates/${m.slug}`,
-    lastModified: new Date(),
+    lastModified: new Date(latestContentDate),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
@@ -139,7 +137,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...statusRoutes,
     ...appealRoutes,
     ...eligibilityRoutes,
-    ...officeRoutes,
     ...downloadRoutes,
     ...provinceRoutes,
     ...guideRoutes,

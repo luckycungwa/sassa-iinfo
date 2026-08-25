@@ -3,46 +3,428 @@
   "slug": "/guides/how-to-apply-sassa-grant",
   "classification": "how-to-guide",
   "title": "How to Apply for a SASSA Grant",
-  "description": "A complete walkthrough for applying to any SASSA social grant, online or in person. Step-by-step guide from eligibility check to payment receipt.",
-  "lastUpdated": "2026-07-01",
-  "version": "1.0.0",
+  "description": "Complete walkthrough for applying for any SASSA social grant in 2026: which grant fits your situation, every document you need, where to apply, what happens during the means test, and how long approval takes.",
+  "lastUpdated": "2026-08-23",
+  "version": "2.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications and the Social Assistance Act",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "How to Apply for a SASSA Grant — Step-by-Step Guide 2026",
-    "metaDescription": "Complete walkthrough for applying to any SASSA social grant. Learn how to determine eligibility, gather documents, submit your application, and track your status online or in person.",
-    "keywords": ["apply SASSA grant", "SASSA grant application", "how to apply for SASSA", "SASSA application process", "SASSA grant steps"]
+    "metaDescription": "Learn how to apply for a SASSA grant in 2026: choose the right grant, gather every document, pass the means test, submit at an office or online, and track your application to approval.",
+    "keywords": [
+      "apply SASSA grant",
+      "SASSA grant application",
+      "how to apply for SASSA",
+      "SASSA application process",
+      "SASSA grant steps"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "How to Apply for a SASSA Grant",
-      "description": "Applying for a SASSA social grant is straightforward when you know the steps. From checking eligibility to gathering documents and submitting your application, this guide walks you through everything.",
-      "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "label": "Documents Checklist", "href": "/guides/sassa-documents-checklist" },
-      "secondaryCta": { "label": "Check Your Status", "href": "/guides/how-to-check-sassa-status" }
+      "description": "Applying for a SASSA social grant is free, and most rejections happen because of missing documents or choosing the wrong grant — not because you don't qualify. This guide walks you through choosing the right grant, gathering every document, submitting your application, and tracking it to payment.",
+      "readingTime": "9 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Documents Checklist",
+        "href": "/guides/sassa-documents-checklist"
+      },
+      "secondaryCta": {
+        "label": "Check Your Status",
+        "href": "/guides/how-to-check-sassa-status"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "How to Apply for a SASSA Grant" },
-    { "id": "intro", "type": "paragraph", "text": "Applying for a SASSA social grant is a straightforward process. Whether you apply online or in person, following these steps will help ensure your application is processed smoothly." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for anyone who wants to apply for a SASSA social grant and needs a clear, step-by-step walkthrough of the application process." },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Determine Your Eligibility", "description": "Check the specific grant requirements on our Grant Library. Each grant has age limits, income thresholds (means test), and documentation needs." },
-      { "title": "Gather Your Documents", "description": "Required documents typically include: original ID/smart card, proof of residence, 3 months bank statements, and income affidavits." },
-      { "title": "Visit Your Nearest SASSA Office", "description": "Find your nearest office using our Office Finder. Bring all original documents plus photocopies. Arrive early as queues can be long." },
-      { "title": "Complete the Application Form", "description": "A SASSA officer will assist you in filling out the official application form. Do not sign until instructed. Your fingerprints will be taken." },
-      { "title": "Receive Your Receipt", "description": "After submission, you will receive a dated receipt with an application reference number. Keep this safe — you will need it for follow-ups." },
-      { "title": "Wait for Processing", "description": "Applications take up to 3 months to process. Check your status online or via the SASSA portal. If approved, payments are backdated to the application date." }
-    ] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Can I apply online for a SASSA grant?", "answer": "Yes, the SRD R370 grant can be applied for online at srd.sassa.gov.za. Other grants require an in-person visit to a SASSA office." },
-      { "question": "How long does it take for a SASSA application to be approved?", "answer": "Applications typically take up to 3 months to process. Some grants like SRD R370 may be processed faster." },
-      { "question": "Can I apply for multiple SASSA grants at once?", "answer": "Yes, if you meet the eligibility criteria for multiple grants, you can submit separate applications for each." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply for a SASSA Grant"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Every year millions of South Africans apply for social grants, and a large share of applications are delayed or declined for avoidable reasons: the wrong grant was chosen, a document was missing, or the means test revealed undeclared income. This guide covers the full process for permanent grants such as the Older Persons, Disability, and Child Support grants, plus the online process for the SRD R370 grant."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This guide is for anyone applying for the first time, reapplying after a life change, or helping a family member through the process. If your application has already been declined, read our appeal guide instead."
+    },
+    {
+      "id": "choose-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Step 0: Choose the Right Grant"
+    },
+    {
+      "id": "choose-p1",
+      "type": "paragraph",
+      "text": "Before collecting documents, confirm which grant actually matches your situation. Applying for the wrong grant wastes weeks — the application will be assessed against that grant's criteria and declined if they don't fit. Use this overview of the main grants and their current amounts:"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "Grant",
+        "Monthly Amount",
+        "Who It Is For"
+      ],
+      "rows": [
+        [
+          "Older Persons Grant",
+          "R2,400 (R2,420 for 75+)",
+          "South Africans aged 60 and above who pass the means test"
+        ],
+        [
+          "Disability Grant",
+          "R2,400",
+          "People aged 18-59 with a physical or mental disability confirmed by a state medical assessment"
+        ],
+        [
+          "Child Support Grant",
+          "R580",
+          "Primary caregivers of children under 18 who pass the means test"
+        ],
+        [
+          "Foster Care Grant",
+          "R1,295",
+          "Court-appointed foster parents of placed children"
+        ],
+        [
+          "Care Dependency Grant",
+          "R2,400",
+          "Caregivers of children with severe disabilities requiring full-time care"
+        ],
+        [
+          "War Veterans Grant",
+          "R2,420",
+          "Former soldiers of the Second World War or Korean War aged 60+"
+        ],
+        [
+          "Grant-in-Aid",
+          "R580",
+          "Grant recipients who need full-time attendant care"
+        ],
+        [
+          "SRD R370 Grant",
+          "R370",
+          "Unemployed adults aged 18-60 with no other income or support (applied online)"
+        ]
+      ],
+      "caption": "Main SASSA grants and current monthly amounts"
+    },
+    {
+      "id": "choose-p2",
+      "type": "paragraph",
+      "text": "Each grant page in our Grant Library explains its exact eligibility rules. Two quick examples: you cannot receive an Older Persons Grant while earning above the income threshold, and you cannot receive the SRD R370 if you receive UIF, NSFAS funding, or any other social grant. When two grants seem possible — for example a grandmother caring for grandchildren might qualify for both Child Support (as caregiver) and Older Persons — you may apply for each separately if you meet their criteria."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Application Process, Step by Step"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Check your eligibility in detail",
+          "description": "Read the specific requirements for your grant — age limits, income thresholds, residency rules, and medical criteria. Our Grant Library and eligibility pages cover each one."
+        },
+        {
+          "title": "Gather all original documents",
+          "description": "Collect the originals plus photocopies of everything listed in the checklist below. Missing documents are the number-one cause of repeat visits and delays."
+        },
+        {
+          "title": "Visit your nearest SASSA office",
+          "description": "Permanent grant applications must be made in person. Arrive early — queues form before opening time. No appointment is needed, but some offices run booking systems for Disability assessments."
+        },
+        {
+          "title": "Complete the application with an officer",
+          "description": "A SASSA officer fills in the official form with you. Do not sign until you have checked that everything is correct. Your fingerprints will be taken as part of identity verification."
+        },
+        {
+          "title": "Undergo screening (grant-specific)",
+          "description": "Disability and Care Dependency applications require a state medical assessment. The officer will book your appointment or refer you to a district surgeon. Marriage, divorce, and income checks are run against departmental databases."
+        },
+        {
+          "title": "Receive your dated receipt",
+          "description": "You will get a receipt with a reference number. Photograph it and keep the paper copy safe — you need this number for status checks and follow-ups."
+        },
+        {
+          "title": "Track your application",
+          "description": "Check progress via the WhatsApp line (082 046 8553), the helpline (0800 60 10 11), or your local office using your reference number. Processing takes up to three months."
+        },
+        {
+          "title": "Receive the decision and first payment",
+          "description": "If approved, payments are backdated to your application date. If declined, you will receive written reasons and can appeal within 90 days."
+        }
+      ]
+    },
+    {
+      "id": "where-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Where You Can Apply"
+    },
+    {
+      "id": "where-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "SASSA local offices: all permanent grants (Older Persons, Disability, Child Support, Foster Care, Care Dependency). This is the only channel for these grants.",
+        "Online at srd.sassa.gov.za: the SRD R370 grant only. The whole application takes about 10 minutes and requires only your ID number, contact details, and banking information.",
+        "WhatsApp 082 046 8553: SRD R370 applications and status queries.",
+        "Home visits: if you are bedridden or too ill to travel, ask a family member to arrange a home visit through your local office."
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Documents You Will Need"
+    },
+    {
+      "id": "docs-checklist",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Your original 13-digit barcoded South African ID or smart card",
+          "required": true,
+          "notes": "Temporary IDs are accepted while waiting for the official document"
+        },
+        {
+          "label": "Proof of residence (utility bill, affidavit, or council letter)",
+          "required": true,
+          "notes": "If you live in an informal settlement, a confirmation letter from your ward councillor works"
+        },
+        {
+          "label": "Latest 3 months bank statements",
+          "required": true,
+          "notes": "Required if you have a bank account; shows the means test assessor your real financial position"
+        },
+        {
+          "label": "Marriage certificate (if married) or divorce order",
+          "required": true,
+          "notes": "Spousal income counts toward your means test"
+        },
+        {
+          "label": "Payslips or employer letter (if employed)",
+          "required": true
+        },
+        {
+          "label": "UI-19 form from the Department of Labour (if previously employed)",
+          "required": false,
+          "notes": "Confirms your UIF status"
+        },
+        {
+          "label": "Birth certificates of children (Child Support, Care Dependency applications)",
+          "required": true
+        },
+        {
+          "label": "School attendance proof (children 7-18 on Child Support Grant)",
+          "required": false,
+          "notes": "Needed later; the child's caregiver must confirm school enrolment annually"
+        },
+        {
+          "label": "Medical report / referral notes (Disability, Care Dependency)",
+          "required": true,
+          "notes": "The state assessment is arranged by SASSA, but bring any existing medical evidence"
+        },
+        {
+          "label": "Court order placing the child in your care (Foster Care)",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "means-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding the Means Test"
+    },
+    {
+      "id": "means-p1",
+      "type": "paragraph",
+      "text": "Most permanent grants are subject to a means test — an assessment of your income and assets to confirm you genuinely need support. Your own income and, if you are married, your spouse's income count together. Assets such as property are also considered. The thresholds change annually; our understanding-the-means-test guide breaks down the current numbers with worked examples."
+    },
+    {
+      "id": "means-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Declare Everything",
+      "text": "Do not hide income or bank accounts. SASSA verifies declarations against bank and employment databases, and undeclared income discovered later leads to suspension and demands to repay. Declaring income honestly may still leave you eligible."
+    },
+    {
+      "id": "after-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens After You Submit"
+    },
+    {
+      "id": "timeline-table",
+      "type": "table",
+      "headers": [
+        "Stage",
+        "Typical Time",
+        "What Happens"
+      ],
+      "rows": [
+        [
+          "Submission",
+          "Day 0",
+          "Form completed, biometrics captured, receipt issued with reference number"
+        ],
+        [
+          "Verification",
+          "2-8 weeks",
+          "Identity, marital status, income, and database checks are completed"
+        ],
+        [
+          "Medical assessment (if applicable)",
+          "2-6 weeks",
+          "Appointment with a state doctor; results feed into the decision"
+        ],
+        [
+          "Decision",
+          "Up to 3 months",
+          "Application approved or declined with written reasons"
+        ],
+        [
+          "First payment",
+          "Next pay cycle",
+          "Approved grants are backdated to the application date"
+        ]
+      ],
+      "caption": "Typical processing journey for a permanent grant application"
+    },
+    {
+      "id": "after-p1",
+      "type": "paragraph",
+      "text": "You do not pay anything at any stage. If anyone asks for money to speed up an application — including so-called agents outside SASSA offices — report them to the fraud hotline on 0800 601 011."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I apply online for a SASSA grant?",
+          "answer": "Only the SRD R370 grant accepts fully online applications, at srd.sassa.gov.za. All permanent grants require an in-person office visit because biometrics and original documents must be verified."
+        },
+        {
+          "question": "How much does it cost to apply?",
+          "answer": "Nothing. Every SASSA service is free. Report anyone demanding payment for applications, fast-tracking, or forms to the fraud line on 0800 601 011."
+        },
+        {
+          "question": "How long does approval take?",
+          "answer": "Up to three months by law. Simple applications are often decided faster; those needing medical assessments take longer. Payments are backdated to your application date regardless of how long processing took."
+        },
+        {
+          "question": "Can I apply for multiple grants at once?",
+          "answer": "Yes, if you genuinely meet each grant's separate criteria — for example an Older Persons Grant and a Child Support Grant as caregiver. You cannot receive overlapping personal grants like Disability and Older Persons simultaneously."
+        },
+        {
+          "question": "What if I don't have an ID document?",
+          "answer": "Apply for a temporary ID at Home Affairs first — SASSA accepts temporary IDs for applications. Home visits for immobile applicants can be arranged through your local office."
+        },
+        {
+          "question": "My application was declined. What now?",
+          "answer": "Read the decline reason on your notification letter, then lodge an appeal within 90 days. Many declines are reversed when the right supporting documents are submitted."
+        },
+        {
+          "question": "Can someone apply on my behalf?",
+          "answer": "Yes. A person you authorise (proxy) can apply for certain grants on your behalf with a letter of authority and both parties' IDs. For the SRD grant, applications must be done under your own ID and phone number."
+        },
+        {
+          "question": "When do I need to reapply or renew?",
+          "answer": "Permanent grants continue without renewal but undergo periodic reviews. Foster Care Grants expire with each court order and must be renewed before expiry. The SRD grant is reassessed every month automatically."
+        }
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "Process verified against official sources.",
+      "sources": [
+        {
+          "label": "SASSA official website",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SASSA SRD portal",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "Social Assistance Act 13 of 2004",
+          "url": "https://www.gov.za/documents/social-assistance-act"
+        }
+      ]
+    },
+    {
+      "id": "related-grid",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Documents Checklist",
+          "href": "/guides/sassa-documents-checklist",
+          "description": "Everything to bring, per grant type"
+        },
+        {
+          "title": "Understanding the Means Test",
+          "href": "/guides/understanding-means-test",
+          "description": "Thresholds explained with examples"
+        },
+        {
+          "title": "How to Check Your Status",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "All tracking channels"
+        },
+        {
+          "title": "How to Appeal a Decline",
+          "href": "/appeals/how-to-appeal",
+          "description": "ITSAA appeals step by step"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SASSA Documents Checklist", "slug": "/guides/sassa-documents-checklist" },
-    { "title": "Understanding the Means Test", "slug": "/guides/understanding-means-test" },
-    { "title": "How to Check Your Status", "slug": "/guides/how-to-check-sassa-status" }
+    {
+      "title": "SASSA Documents Checklist",
+      "slug": "/guides/sassa-documents-checklist"
+    },
+    {
+      "title": "Understanding the Means Test",
+      "slug": "/guides/understanding-means-test"
+    },
+    {
+      "title": "How to Check Your Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "How to Appeal a Declined Grant",
+      "slug": "/appeals/how-to-appeal"
+    }
   ]
 }

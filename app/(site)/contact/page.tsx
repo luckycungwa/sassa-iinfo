@@ -26,11 +26,11 @@ export default function ContactPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-carbon/50 uppercase tracking-widest mb-3">contact</p>
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">contact</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
             Get in touch
           </h1>
-          <p className="text-[21px] text-carbon/70 mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
             Questions about the site, corrections, or content suggestions &mdash; reach out below.
           </p>
         </div>
@@ -41,16 +41,16 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
               <h2 className="text-[29px] font-black text-carbon leading-[1.1] tracking-[-0.007em]">Website inquiries</h2>
-              <p className="text-base text-carbon/70 leading-relaxed mt-4">
+              <p className="text-base text-body leading-relaxed mt-4">
                 This contact page is for inquiries about the SASSA Grant Guide website itself &mdash; content suggestions,
                 corrections, technical issues, or general questions about our resource.
               </p>
-              <p className="text-base text-carbon/70 leading-relaxed mt-3">
+              <p className="text-base text-body leading-relaxed mt-3">
                 For official SASSA services &mdash; checking your grant status, applying for grants, updating personal
                 details, or lodging appeals &mdash; please use the official SASSA channels listed on this page.
               </p>
               <div className="bg-fog rounded-[2.85px] p-5 mt-6">
-                <p className="text-sm text-carbon/70 italic">
+                <p className="text-sm text-body italic">
                   <strong>Note:</strong> We cannot process or assist with individual grant applications, status checks,
                   or appeals. Those must be handled through official SASSA channels.
                 </p>
@@ -90,7 +90,7 @@ export default function ContactPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
             <Link href="/" className="text-yellow font-bold hover:underline">Return to homepage</Link>
-            <span className="text-white/40 mx-3">|</span>
+            <span className="text-muted mx-3">|</span>
             <Link href="/about" className="text-yellow font-bold hover:underline">About this guide</Link>
           </p>
         </div>

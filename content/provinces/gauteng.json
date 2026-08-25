@@ -63,11 +63,11 @@
       "title": "Key Offices in Gauteng",
       "links": [
         { "label": "Pretoria Central — 250 Hall Street", "href": "/offices/gp-pretoria-central" },
-        { "label": "Johannesburg Regional — 78 Marshall Street", "href": "/offices/gp-johannesburg" },
-        { "label": "Soweto — Orlando West", "href": "/offices/gp-soweto" },
+        { "label": "Johannesburg CBD — 78 Marshall Street", "href": "/offices/gp-johannesburg-cbd" },
+        { "label": "Soweto — Maponya Mall", "href": "/offices/gp-soweto-maponya" },
         { "label": "Tembisa — Thusong Centre", "href": "/offices/gp-tembisa" },
-        { "label": "Vereeniging — CBD", "href": "/offices/gp-vereeniging" },
-        { "label": "Mabopane — Block D", "href": "/offices/gp-mabopane" }
+        { "label": "Sebokeng — Vaal Region", "href": "/offices/gp-sebokeng" },
+        { "label": "Alexandra — Greater Johannesburg", "href": "/offices/gp-alexandra" }
       ]
     },
     {

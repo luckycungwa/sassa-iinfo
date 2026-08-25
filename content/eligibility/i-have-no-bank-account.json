@@ -4,92 +4,307 @@
   "classification": "eligibility-guide",
   "title": "SASSA Grants Without a Bank Account: Cash Collection Guide",
   "description": "Complete guide on how to receive your SASSA grant if you do not have a personal bank account. Cash Send, retail collection, mobile pay points, and the SASSA card explained.",
-  "lastUpdated": "2026-07-29",
-  "version": "2.0.0",
+  "lastUpdated": "2026-08-25",
+  "version": "2.1.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Grants Without a Bank Account — Cash Collection Guide",
     "metaDescription": "Complete guide to receiving SASSA grants without a bank account. Learn about Cash Send retail collection, mobile pay points, and the SASSA card. No bank account needed for any SASSA grant.",
-    "keywords": ["SASSA without bank account", "SASSA cash collection", "SASSA no account", "SASSA Cash Send", "SASSA retail collection", "SASSA unbanked"]
+    "keywords": [
+      "SASSA without bank account",
+      "SASSA cash collection",
+      "SASSA no account",
+      "SASSA Cash Send",
+      "SASSA retail collection",
+      "SASSA unbanked"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Grants Without a Bank Account: Cash Collection Guide",
       "description": "Not having a bank account won't stop you from receiving SASSA grants. Learn about Cash Send retail collection, mobile pay points, and the SASSA card — all designed for unbanked beneficiaries.",
       "readingTime": "8 min read",
-      "lastUpdated": "July 2026",
-      "cta": { "label": "Cash Send Guide", "href": "/banking/cash-send-guide" },
-      "secondaryCta": { "label": "Compare Payment Methods", "href": "/banking/payment-methods" }
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Cash Send Guide",
+        "href": "/banking/cash-send-guide"
+      },
+      "secondaryCta": {
+        "label": "Compare Payment Methods",
+        "href": "/banking/payment-methods"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants Without a Bank Account: Cash Collection Guide" },
-    { "id": "intro", "type": "paragraph", "text": "Not having a bank account does not disqualify you from receiving SASSA grants. SASSA offers multiple cash collection methods including retail payouts, mobile pay points, and the SASSA card for unbanked beneficiaries. In fact, millions of South Africans receive their grants in cash every month without any bank account." },
-    { "id": "why", "type": "paragraph", "text": "Not having a bank account should not prevent anyone from accessing social assistance. SASSA provides cash collection methods precisely to ensure unbanked beneficiaries can still receive their grants. The Cash Send system allows you to collect your grant at any major retailer using only your ID and an SMS voucher." },
-    { "id": "scenario-h", "type": "heading", "level": 3, "text": "Real-Life Scenario" },
-    { "id": "scenario", "type": "paragraph", "text": "Precious is a 25-year-old from rural Eastern Cape. She does not have a bank account and relies on cash for all her transactions. She applied for the SRD R370 grant and selected 'Cash Send' as her payment method. When her grant is approved, she receives an SMS with a unique voucher code. She takes her ID and the SMS to her nearest Shoprite, where the cashier verifies her identity and hands her the cash. This guide explains exactly how unbanked beneficiaries like Precious can access their grants." },
-    { "id": "grants-h", "type": "heading", "level": 3, "text": "Payment Methods Available Without a Bank Account" },
-    { "id": "grants-table", "type": "table", "headers": ["Payment Method", "How It Works", "Where to Collect", "Limitations"], "rows": [
-      ["Cash Send", "SMS voucher sent to your phone with a unique collection code. Show your ID + SMS at any participating retailer.", "Pick n Pay, Shoprite, Checkers, Boxer, Usave, Spar", "SMS voucher expires after 7-10 days. Single collection per month."],
-      ["Retail Collection", "Your grant is loaded onto the retailer's system. Visit any participating store with your ID.", "Pick n Pay, Shoprite, Boxer, Checkers, Usave", "Must visit in person. No one else can collect on your behalf."],
-      ["Mobile Pay Points", "SASSA sets up temporary collection points in rural areas on specific dates.", "Various rural locations", "Limited dates and locations. Check with your local SASSA office for the schedule."],
-      ["SASSA Card", "A dedicated SASSA card loaded with your grant. Use at ATMs and retailers.", "Any ATM or retailer accepting SASSA cards", "Must apply for the card and activate it. Can be replaced if lost."]
-    ] },
-    { "id": "checklist-h", "type": "heading", "level": 3, "text": "What You Need" },
-    { "id": "checklist", "type": "list", "ordered": false, "items": [
-      "You do NOT need a bank account to receive any SASSA grant",
-      "You need a valid South African ID or smart ID card",
-      "You need a working cellphone number to receive SMS cash vouchers",
-      "You must collect your grant in person — no one else can collect on your behalf",
-      "The SMS voucher is valid for 7-10 days — collect before it expires"
-    ] },
-    { "id": "docs-h", "type": "heading", "level": 3, "text": "What to Bring When Collecting" },
-    { "id": "docs", "type": "document-checklist", "documents": [
-      { "label": "Your original South African ID (green ID book or smart card)", "required": true },
-      { "label": "Your phone showing the SASSA SMS voucher (for Cash Send)", "required": true },
-      { "label": "Your SASSA card (if using the card system)", "required": false },
-      { "label": "A pen to sign the collection register", "required": false }
-    ] },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Process" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Apply for your grant", "description": "Apply for your grant online via the SRD portal (srd.sassa.gov.za) or at a SASSA local office. Apply for the SRD online or visit an office for other grants." },
-      { "title": "Select 'Cash Send' as payment method", "description": "During the application, choose 'Cash Send' or 'Retail Collection' as your payment method instead of 'Bank Transfer'." },
-      { "title": "Wait for approval and SMS", "description": "Once your grant is approved for the month, SASSA will send an SMS to your phone with a unique collection code or voucher." },
-      { "title": "Visit a participating retailer", "description": "Take your ID and phone with the SMS to any participating retailer: Pick n Pay, Shoprite, Checkers, Boxer, Usave, or Spar." },
-      { "title": "Collect your cash", "description": "Present your ID and SMS at the till point or collection counter. The retailer will verify your identity and hand you the cash." }
-    ] },
-    { "id": "callout", "type": "callout", "intent": "warning", "title": "Important", "text": "Your SMS voucher expires within 7-10 days. If you do not collect your cash within this period, the voucher expires and you must contact SASSA to request a new one. Grants remain available in the system — they do not expire — but the collection window does." },
-    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
-    { "id": "mistakes", "type": "list", "ordered": false, "items": [
-      "Losing the SMS voucher — keep your SMS safe until you collect. If lost, contact SASSA to request a resend",
-      "Waiting too long to collect — the 7-10 day window can pass quickly. Collect as soon as you receive the SMS",
-      "Sending someone else to collect on your behalf — retailers verify your ID before releasing funds. Only you can collect",
-      "Switching to bank transfer then regretting it — you can switch back to Cash Send in the next month's application",
-      "Not having a registered SIM card — the SMS voucher is sent to your registered number. Ensure the SIM is in your name"
-    ] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "How do I change from bank transfer to cash collection?", "answer": "Log into the SRD portal (srd.sassa.gov.za), go to 'Payment Method', and switch from 'Bank Transfer' to 'Cash Send'. Changes take effect from the next month's payment cycle." },
-      { "question": "Can someone else collect my grant using my SMS voucher?", "answer": "No. The retailer will verify your ID before releasing funds. Only the registered beneficiary can collect in person. In exceptional circumstances, a formal power of attorney may be arranged through a SASSA office." },
-      { "question": "What if I lose my phone with the SMS?", "answer": "Contact SASSA toll-free at 0800 60 10 11 to request a resend of the SMS voucher. You may need to visit a SASSA office with your ID to get a replacement." },
-      { "question": "Can I collect at any retailer, or only specific ones?", "answer": "Only participating retailers: Pick n Pay, Shoprite, Checkers, Boxer, Usave, and Spar. Not all retail stores accept SASSA cash collections." },
-      { "question": "What if I live far from a participating retailer?", "answer": "SASSA also offers mobile pay points that visit rural areas on specific dates. Check with your local SASSA office for the schedule in your area." },
-      { "question": "Can I switch back and forth between cash and bank transfer?", "answer": "Yes. You can change your payment method month to month. Changes made before the 20th of the month typically apply to the next month's payment." },
-      { "question": "Do I need a smartphone to use Cash Send?", "answer": "No. Any phone capable of receiving SMS messages works. You do not need internet access or a smartphone." }
-    ] },
-    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
-    { "id": "related", "type": "link-grid", "links": [
-      { "title": "Cash Send Guide", "href": "/banking/cash-send-guide", "description": "Detailed Cash Send instructions" },
-      { "title": "Compare Payment Methods", "href": "/banking/payment-methods", "description": "All ways to receive your grant" },
-      { "title": "SASSA Card Explained", "href": "/banking/sassa-card-explained", "description": "How the SASSA card works" },
-      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full details on the R370 grant" },
-      { "title": "SASSA Office Finder", "href": "/offices", "description": "Find your nearest SASSA office" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Grants Without a Bank Account: Cash Collection Guide"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Not having a bank account does not disqualify you from receiving SASSA grants. SASSA offers multiple cash collection methods including retail payouts, mobile pay points, and the SASSA card for unbanked beneficiaries. In fact, millions of South Africans receive their grants in cash every month without any bank account."
+    },
+    {
+      "id": "why",
+      "type": "paragraph",
+      "text": "Not having a bank account should not prevent anyone from accessing social assistance. SASSA provides cash collection methods precisely to ensure unbanked beneficiaries can still receive their grants. The Cash Send system allows you to collect your grant at any major retailer using only your ID and an SMS voucher."
+    },
+    {
+      "id": "scenario-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Real-Life Scenario"
+    },
+    {
+      "id": "scenario",
+      "type": "paragraph",
+      "text": "Precious is a 25-year-old from rural Eastern Cape. She does not have a bank account and relies on cash for all her transactions. She applied for the SRD R370 grant and selected 'Cash Send' as her payment method. When her grant is approved, she receives an SMS with a unique voucher code. She takes her ID and the SMS to her nearest Shoprite, where the cashier verifies her identity and hands her the cash. This guide explains exactly how unbanked beneficiaries like Precious can access their grants."
+    },
+    {
+      "id": "grants-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Payment Methods Available Without a Bank Account"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "Payment Method",
+        "How It Works",
+        "Where to Collect",
+        "Limitations"
+      ],
+      "rows": [
+        [
+          "Cash Send",
+          "SMS voucher sent to your phone with a unique collection code. Show your ID + SMS at any participating retailer.",
+          "Pick n Pay, Shoprite, Checkers, Boxer, Usave, Spar",
+          "SMS voucher expires after 7-10 days. Single collection per month."
+        ],
+        [
+          "Retail Collection",
+          "Your grant is loaded onto the retailer's system. Visit any participating store with your ID.",
+          "Pick n Pay, Shoprite, Boxer, Checkers, Usave",
+          "Must visit in person. No one else can collect on your behalf."
+        ],
+        [
+          "Mobile Pay Points",
+          "SASSA sets up temporary collection points in rural areas on specific dates.",
+          "Various rural locations",
+          "Limited dates and locations. Check with your local SASSA office for the schedule."
+        ],
+        [
+          "SASSA Card",
+          "A dedicated SASSA card loaded with your grant. Use at ATMs and retailers.",
+          "Any ATM or retailer accepting SASSA cards",
+          "Must apply for the card and activate it. Can be replaced if lost."
+        ]
+      ]
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What You Need"
+    },
+    {
+      "id": "checklist",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "You do NOT need a bank account to receive any SASSA grant",
+        "You need a valid South African ID or smart ID card",
+        "You need a working cellphone number to receive SMS cash vouchers",
+        "You must collect your grant in person — no one else can collect on your behalf",
+        "The SMS voucher is valid for 7-10 days — collect before it expires"
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Bring When Collecting"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Your original South African ID (green ID book or smart card)",
+          "required": true
+        },
+        {
+          "label": "Your phone showing the SASSA SMS voucher (for Cash Send)",
+          "required": true
+        },
+        {
+          "label": "Your SASSA card (if using the card system)",
+          "required": false
+        },
+        {
+          "label": "A pen to sign the collection register",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Step-by-Step Process"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Apply for your grant",
+          "description": "Apply for your grant online via the SRD portal (srd.sassa.gov.za) or at a SASSA local office. Apply for the SRD online or visit an office for other grants."
+        },
+        {
+          "title": "Select 'Cash Send' as payment method",
+          "description": "During the application, choose 'Cash Send' or 'Retail Collection' as your payment method instead of 'Bank Transfer'."
+        },
+        {
+          "title": "Wait for approval and SMS",
+          "description": "Once your grant is approved for the month, SASSA will send an SMS to your phone with a unique collection code or voucher."
+        },
+        {
+          "title": "Visit a participating retailer",
+          "description": "Take your ID and phone with the SMS to any participating retailer: Pick n Pay, Shoprite, Checkers, Boxer, Usave, or Spar."
+        },
+        {
+          "title": "Collect your cash",
+          "description": "Present your ID and SMS at the till point or collection counter. The retailer will verify your identity and hand you the cash."
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Important",
+      "text": "Your SMS voucher expires within 7-10 days. If you do not collect your cash within this period, the voucher expires and you must contact SASSA to request a new one. Grants remain available in the system — they do not expire — but the collection window does."
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Mistakes to Avoid"
+    },
+    {
+      "id": "mistakes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Losing the SMS voucher — keep your SMS safe until you collect. If lost, contact SASSA to request a resend",
+        "Waiting too long to collect — the 7-10 day window can pass quickly. Collect as soon as you receive the SMS",
+        "Sending someone else to collect on your behalf — retailers verify your ID before releasing funds. Only you can collect",
+        "Switching to bank transfer then regretting it — you can switch back to Cash Send in the next month's application",
+        "Not having a registered SIM card — the SMS voucher is sent to your registered number. Ensure the SIM is in your name"
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How do I change from bank transfer to cash collection?",
+          "answer": "Log into the SRD portal (srd.sassa.gov.za), go to 'Payment Method', and switch from 'Bank Transfer' to 'Cash Send'. Changes take effect from the next month's payment cycle."
+        },
+        {
+          "question": "Can someone else collect my grant using my SMS voucher?",
+          "answer": "No. The retailer will verify your ID before releasing funds. Only the registered beneficiary can collect in person. In exceptional circumstances, a formal power of attorney may be arranged through a SASSA office."
+        },
+        {
+          "question": "What if I lose my phone with the SMS?",
+          "answer": "Contact SASSA toll-free at 0800 60 10 11 to request a resend of the SMS voucher. You may need to visit a SASSA office with your ID to get a replacement."
+        },
+        {
+          "question": "Can I collect at any retailer, or only specific ones?",
+          "answer": "Only participating retailers: Pick n Pay, Shoprite, Checkers, Boxer, Usave, and Spar. Not all retail stores accept SASSA cash collections."
+        },
+        {
+          "question": "What if I live far from a participating retailer?",
+          "answer": "SASSA also offers mobile pay points that visit rural areas on specific dates. Check with your local SASSA office for the schedule in your area."
+        },
+        {
+          "question": "Can I switch back and forth between cash and bank transfer?",
+          "answer": "Yes. You can change your payment method month to month. Changes made before the 20th of the month typically apply to the next month's payment."
+        },
+        {
+          "question": "Do I need a smartphone to use Cash Send?",
+          "answer": "No. Any phone capable of receiving SMS messages works. You do not need internet access or a smartphone."
+        }
+      ]
+    },
+    {
+      "id": "related-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Related Guides"
+    },
+    {
+      "id": "related",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Cash Send Guide",
+          "href": "/banking/cash-send-guide",
+          "description": "Detailed Cash Send instructions"
+        },
+        {
+          "title": "Compare Payment Methods",
+          "href": "/banking/payment-methods",
+          "description": "All ways to receive your grant"
+        },
+        {
+          "title": "SASSA Card Explained",
+          "href": "/banking/sassa-card-explained",
+          "description": "How the SASSA card works"
+        },
+        {
+          "title": "SRD R370 Grant Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full details on the R370 grant"
+        },
+        {
+          "title": "SASSA Office Finder",
+          "href": "/offices",
+          "description": "Find your nearest SASSA office"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" },
-    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" },
-    { "title": "SASSA Card Explained", "slug": "/banking/sassa-card-explained" },
-    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
-    { "title": "SASSA Office Finder", "slug": "/offices" }
+    {
+      "title": "Cash Send Guide",
+      "slug": "/banking/cash-send-guide"
+    },
+    {
+      "title": "SASSA Payment Methods",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "SASSA Card Explained",
+      "slug": "/banking/sassa-card-explained"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "SASSA Office Finder",
+      "slug": "/offices"
+    }
   ]
 }

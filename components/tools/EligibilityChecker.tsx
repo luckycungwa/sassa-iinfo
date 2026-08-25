@@ -24,8 +24,8 @@ export default function EligibilityChecker() {
       {quizStep === 0 && (
         <div className="space-y-5 py-2">
           <div className="space-y-2">
-            <label className="block text-sm font-bold text-ink">1. What is your current age?</label>
-            <input type="number" min="1" max="120" value={quizAnswers.age}
+            <label htmlFor="ec-age" className="block text-sm font-bold text-ink">1. What is your current age?</label>
+            <input id="ec-age" type="number" min="1" max="120" value={quizAnswers.age}
               onChange={(e) => setQuizAnswers({ ...quizAnswers, age: parseInt(e.target.value) || 0 })}
               className="w-full max-w-xs border border-surface-container rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none focus:ring-2 focus:ring-accent-dark transition" />
           </div>
@@ -52,8 +52,8 @@ export default function EligibilityChecker() {
           </div>
           {!quizAnswers.isUnemployed && (
             <div className="space-y-2 animate-fadeIn">
-              <label className="block text-xs font-bold text-muted-foreground">What is your monthly personal income (ZAR)?</label>
-              <input type="number" value={quizAnswers.monthlyIncome}
+              <label htmlFor="ec-income" className="block text-xs font-bold text-muted-foreground">What is your monthly personal income (ZAR)?</label>
+              <input id="ec-income" type="number" value={quizAnswers.monthlyIncome}
                 onChange={(e) => setQuizAnswers({ ...quizAnswers, monthlyIncome: parseInt(e.target.value) || 0 })}
                 className="w-full max-w-xs border border-surface-container rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none" />
             </div>
@@ -86,8 +86,8 @@ export default function EligibilityChecker() {
       {quizStep === 3 && (
         <div className="space-y-5 py-2">
           <div className="space-y-2">
-            <label className="block text-sm font-bold text-ink">4. How many dependent children (under 18) do you actively care for?</label>
-            <input type="number" min="0" max="10" value={quizAnswers.childrenCount}
+            <label htmlFor="ec-children" className="block text-sm font-bold text-ink">4. How many dependent children (under 18) do you actively care for?</label>
+            <input id="ec-children" type="number" min="0" max="10" value={quizAnswers.childrenCount}
               onChange={(e) => setQuizAnswers({ ...quizAnswers, childrenCount: parseInt(e.target.value) || 0 })}
               className="w-full max-w-xs border border-surface-container rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none" />
           </div>
@@ -100,7 +100,7 @@ export default function EligibilityChecker() {
 
       {quizStep === 4 && (
         <div className="space-y-5 py-2">
-          <div className="p-4 bg-accent-light border border-accent-light/40 rounded-xl">
+          <div role="status" aria-live="polite" className="p-4 bg-accent-light border border-accent-light/40 rounded-xl">
             <h3 className="font-bold text-ink text-base">Vetting Result:</h3>
             <p className="text-xs text-accent-dark mt-0.5">Based on your input, here are your potential SASSA qualifiers:</p>
             <div className="mt-4 space-y-3">

@@ -1,0 +1,188 @@
+{
+  "id": "guide-cancel-srd-application",
+  "slug": "/guides/cancel-srd-application",
+  "classification": "how-to-guide",
+  "title": "How to Cancel Your SRD R370 Application",
+  "description": "Step-by-step instructions for cancelling your SRD R370 grant application on srd.sassa.gov.za or by phone, what happens to money already received, and how cancellation differs from declining a payment.",
+  "lastUpdated": "2026-08-23",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "How to Cancel Your SRD R370 Application (2026 Guide)",
+    "metaDescription": "Cancel your SRD R370 grant application: official portal steps, WhatsApp and call-centre options, whether you must repay past payments, and how to reverse a cancellation.",
+    "keywords": [
+      "cancel srd application",
+      "cancel srd r370 grant",
+      "decline srd payment",
+      "sassa cancellation"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "How to Cancel Your SRD R370 Application",
+      "description": "Found employment? Receiving UIF or NSFAS income that makes you ineligible? Cancelling your SRD application is free, takes minutes, and protects you from having to repay money later.",
+      "readingTime": "6 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "SRD Eligibility Rules",
+        "href": "/eligibility/srd-r370-eligibility"
+      },
+      "secondaryCta": {
+        "label": "Check Your Status",
+        "href": "/guides/how-to-check-sassa-status"
+      }
+    },
+    {
+      "id": "when-h",
+      "type": "heading",
+      "level": 2,
+      "text": "When should you cancel?"
+    },
+    {
+      "id": "when-p1",
+      "type": "paragraph",
+      "text": "The SRD R370 grant is only for people with no other income support. If you start working, begin receiving UIF, get registered for NSFAS funding, or take up any monthly income above the threshold, you no longer qualify for new months — even if earlier months were legitimately paid."
+    },
+    {
+      "id": "when-p2",
+      "type": "paragraph",
+      "text": "Cancelling proactively matters because SASSA's monthly bank-data checks eventually catch undeclared income. When they do, you may be required to repay amounts received while ineligible. Voluntary cancellation stops that risk at the source."
+    },
+    {
+      "id": "methods-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Three ways to cancel"
+    },
+    {
+      "id": "portal-steps",
+      "type": "steps",
+      "title": "Method 1: Official website (recommended)",
+      "steps": [
+        {
+          "title": "Go to srd.sassa.gov.za",
+          "description": "Type the address directly into your browser; do not follow links from SMSes or social media."
+        },
+        {
+          "title": "Scroll to the cancellation option",
+          "description": "Select 'Cancel my application' under the SRD R370 services."
+        },
+        {
+          "title": "Enter your ID number and registered cellphone",
+          "description": "You will receive an OTP on your registered number to confirm it is really you."
+        },
+        {
+          "title": "Enter the OTP and submit",
+          "description": "Cancellation applies from the following month. Keep the confirmation reference number."
+        }
+      ]
+    },
+    {
+      "id": "alt-methods-p",
+      "type": "paragraph",
+      "text": "Method 2: WhatsApp 082 046 8553 — say 'Cancel' and follow the menu prompts with your ID number. Method 3: Call centre 0800 60 10 11 — staff can process cancellations after telephonic identity verification."
+    },
+    {
+      "id": "money-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Do you have to repay money already received?"
+    },
+    {
+      "id": "money-p1",
+      "type": "paragraph",
+      "text": "No — not automatically. Payments made in months when you genuinely met the criteria remain yours. Repayment questions arise only if SASSA later proves you were ineligible during months you accepted money, which is exactly why cancelling as soon as your circumstances change is the safest route."
+    },
+    {
+      "id": "money-p2",
+      "type": "paragraph",
+      "text": "If you have already been paid for a month you now know was ineligible, you can arrange repayment voluntarily by contacting the call centre before any audit flags you. Voluntary arrangements are handled more simply than enforced recoveries."
+    },
+    {
+      "id": "decline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Cancelling vs declining one month's payment"
+    },
+    {
+      "id": "decline-p",
+      "type": "paragraph",
+      "text": "These are different actions. Declining tells SASSA not to pay you for a single month (useful if you briefly received income for part of the period but expect to need the grant again). Cancelling ends the application entirely. If you decline repeatedly, consider full cancellation instead."
+    },
+    {
+      "id": "reverse-callout",
+      "type": "callout",
+      "variant": "info",
+      "title": "Changed your mind?",
+      "text": "A cancelled SRD application does not bar you forever. If your circumstances worsen again, simply lodge a fresh application through the portal. New means tests apply from scratch."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "How do I cancel my SRD R370 application?",
+          "answer": "Go to srd.sassa.gov.za, choose 'Cancel my application', verify with the OTP sent to your registered number, and keep the confirmation reference. WhatsApp (082 046 8553) and the call centre (0800 60 10 11) also process cancellations."
+        },
+        {
+          "question": "Does cancelling affect money I already received?",
+          "answer": "No. Legitimate past payments stay yours. Only amounts received in months where you did not meet eligibility rules can become repayment issues."
+        },
+        {
+          "question": "Can I cancel just one month instead of everything?",
+          "answer": "Yes — use the decline option on the portal for a specific month rather than full cancellation. Declining skips that month's payment while keeping the application alive."
+        },
+        {
+          "question": "How long does cancellation take to process?",
+          "answer": "It applies from the next payment cycle, typically within days of submission. You stop receiving approval SMSes once processing completes."
+        },
+        {
+          "question": "My employer reports my income to SASSA. Should I still cancel?",
+          "answer": "Yes — proactive cancellation avoids the audit trail of collected-but-ineligible months. The system cross-checks payroll and UIF data every cycle regardless."
+        },
+        {
+          "question": "Can someone else cancel my application for me?",
+          "answer": "Only you should cancel via channels requiring your identity verification (OTP or ID-based menus). If someone offers to 'cancel for a fee', it is a scam — all official cancellation routes are free."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SRD R370 official portal — cancellation service",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA toll-free helpline 0800 60 10 11",
+          "url": "tel:0800601011"
+        }
+      ],
+      "note": "Verified against official SASSA channels in August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Reconfirm Your SRD Grant",
+      "slug": "/guides/reconfirm-srd-grant"
+    },
+    {
+      "title": "Change Your SRD Phone Number",
+      "slug": "/guides/change-srd-phone-number"
+    },
+    {
+      "title": "SRD Appeal After Decline",
+      "slug": "/appeals/how-to-appeal"
+    }
+  ]
+}

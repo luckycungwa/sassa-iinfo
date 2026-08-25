@@ -1,0 +1,147 @@
+{
+  "id": "payment-dates-2026-may",
+  "slug": "/payment-dates/2026-may",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates May 2026",
+  "description": "Confirmed SASSA payment dates for May 2026: Older Persons 4 May, Disability 5 May, Children's grants 6 May, SRD R370 from 25 May. No holidays affect the schedule.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates May 2026 (Old Age, Disability, Child & SRD)",
+    "metaDescription": "SASSA payment dates for May 2026: Older Persons Mon 4 May, Disability Tue 5 May, Children's grants Wed 6 May, SRD R370 from Sun 25 May. A clean month with no holiday shifts.",
+    "keywords": [
+      "sassa payment dates may 2026",
+      "old age grant may 2026",
+      "srd payment dates may 2026"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Payment Dates May 2026",
+      "description": "May is a clean month: no public holidays touch the pay schedule, permanent grants run the standard first-week pattern, and SRD batches start from 25 May.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026"
+    },
+    {
+      "id": "intro-h",
+      "type": "heading",
+      "level": 2,
+      "text": "May 2026 payment schedule at a glance"
+    },
+    {
+      "id": "date-table",
+      "type": "table",
+      "caption": "Confirmed SASSA payment dates for May 2026",
+      "rows": [
+        [
+          "Older Persons Grant (60-74)",
+          "Monday 4 May 2026"
+        ],
+        [
+          "Older Persons Grant (75+)",
+          "Monday 4 May 2026"
+        ],
+        [
+          "Disability Grant",
+          "Tuesday 5 May 2026"
+        ],
+        [
+          "Children's Grants (Child Support, Foster Care, Care Dependency)",
+          "Wednesday 6 May 2026"
+        ],
+        [
+          "SRD R370 Grant",
+          "From Monday 25 May 2026 (batches until 30 May)"
+        ]
+      ],
+      "headers": [
+        "Grant type",
+        "Payment date"
+      ]
+    },
+    {
+      "id": "what-know-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to know about May payments"
+    },
+    {
+      "id": "know-p1",
+      "type": "paragraph",
+      "text": "With no public holidays in the month, May pays exactly on pattern. It is also the ideal month for a mid-year check-up: confirm that April's increased amount is still correct, verify your cellphone number is current so review SMSes reach you, and make sure your eLife or income verification details are up to date if you receive the SRD R370."
+    },
+    {
+      "id": "know-p2",
+      "type": "paragraph",
+      "text": "Workers' Day fell on Friday 1 May, before the first pay date of the month, so collections started on Monday 4 May as scheduled. Beneficiaries who collect at retail tills reported normal queues throughout the week."
+    },
+    {
+      "id": "checkup-callout",
+      "type": "callout",
+      "variant": "info",
+      "title": "Five-minute mid-year check",
+      "text": "1) Compare your May amount with the published rate for your grant. 2) Dial the SASSA WhatsApp line to confirm your registered number. 3) If you changed banks recently, confirm the switch completed — partial switches can split a payment."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What are the SASSA payment dates for May 2026?",
+          "answer": "Older Persons grants were paid on Monday 4 May 2026, Disability grants on Tuesday 5 May, Children's grants on Wednesday 6 May, and SRD R370 payments ran from 25 to 30 May."
+        },
+        {
+          "question": "Did Workers' Day (1 May) delay payments?",
+          "answer": "No. The holiday fell on Friday 1 May before any grant was due, so the schedule ran unchanged from Monday 4 May."
+        },
+        {
+          "question": "Is May paid at the new increased rates?",
+          "answer": "Yes. The increases that took effect in April continue in May. If your May payment is still at last year's rate, contact SASSA — two consecutive short payments mean a system problem worth reporting."
+        },
+        {
+          "question": "When does SRD pay in May 2026?",
+          "answer": "SRD batches started from Monday 25 May and continued through 30 May. Your individual date comes via SMS once your monthly approval processes."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official payment calendar announcements",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "Postbank collection notices",
+          "url": "https://www.postbank.co.za"
+        }
+      ],
+      "note": "Dates reflect the published May 2026 schedule."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "April 2026 Payment Dates & New Amounts",
+      "slug": "/payment-dates/2026-april"
+    },
+    {
+      "title": "June 2026 Payment Dates",
+      "slug": "/payment-dates/2026-june"
+    }
+  ]
+}

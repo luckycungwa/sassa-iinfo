@@ -1,0 +1,59 @@
+{
+  "id": "payment-date-2026-november",
+  "slug": "/payment-dates/2026-november",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates — November 2026",
+  "description": "Provisional SASSA payment dates for November 2026. Older Persons: 3 November, Disability: 4 November, Children: 5 November, review cycle day: 7 November, SRD R370: 25-30 November. Dates follow the standard pattern until SASSA confirms.",
+  "lastUpdated": "2026-08-21",
+  "version": "1.0.0",
+  "readingTime": "5 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official SASSA publications", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates November 2026: Provisional Schedule",
+    "metaDescription": "SASSA payment dates for November 2026 (provisional): Older Persons 3 Nov, Disability 4 Nov, Children 5 Nov, SRD R370 25-30 Nov. Updated as soon as SASSA confirms the schedule.",
+    "keywords": ["SASSA payment dates November 2026", "November SASSA payout", "SASSA grant dates November", "SRD payment date November 2026"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Payment Dates November 2026" }
+  },
+  "contentBlocks": [
+    { "id": "hero", "type": "hero", "title": "SASSA Payment Dates — November 2026", "description": "Expected payout schedule for November 2026. Older Persons: 3 Nov, Disability: 4 Nov, Children: 5 Nov, SRD R370: 25-30 Nov. Provisional dates based on the standard monthly pattern.", "readingTime": "5 min read", "lastUpdated": "2026-08-21", "cta": { "label": "View All Payment Dates", "href": "/payment-dates" }, "secondaryCta": { "label": "October 2026 Schedule", "href": "/payment-dates/2026-october" } },
+    { "id": "provisional-callout", "type": "callout", "intent": "info", "title": "These Dates Are Provisional", "text": "SASSA usually confirms each month's schedule two to four weeks in advance. The dates below follow the standard payment pattern and will be updated on this page the moment SASSA publishes the confirmed November schedule." },
+    { "id": "intro", "type": "paragraph", "text": "November 2026 has no public holidays and follows the standard payment pattern. Because 1 November falls on a Sunday, payments start on Tuesday 3 November with the Older Persons grant, followed by Disability grants on Wednesday 4 November and Children's grants on Thursday 5 November. November is also the month to prepare for December: pay points are significantly busier in December, and planning your year-end budget early helps you avoid long queues." },
+    { "id": "dates-heading", "type": "heading", "level": 2, "text": "November 2026 Expected Schedule" },
+    { "id": "dates-table", "type": "table", "headers": ["Grant Type", "Expected Date", "Day of Week"], "rows": [
+      ["Older Persons Grant (Pension)", "3 November 2026", "Tuesday"],
+      ["Disability Grant", "4 November 2026", "Wednesday"],
+      ["Children's Grants (CSG, Foster, CDG)", "5 November 2026", "Thursday"],
+      ["Review Cycle (Reviews & Backlogs)", "7 November 2026", "Saturday"],
+      ["Social Relief of Distress (SRD R370)", "25-30 November 2026", "Month-end window"]
+    ], "caption": "Expected SASSA payout schedule for November 2026 — subject to confirmation" },
+    { "id": "review-note-callout", "type": "callout", "intent": "warning", "title": "Review Day Falls on a Weekend in November", "text": "The 7 November review cycle date falls on a Saturday. If SASSA keeps the 7th fixed, weekend processing may move review-cycle payments to the next business day, Monday 9 November. Beneficiaries flagged for reviews should wait for an SMS or letter confirming their exact date." },
+    { "id": "december-heading", "type": "heading", "level": 2, "text": "Preparing for December" },
+    { "id": "december-list", "type": "list", "ordered": false, "items": [
+      "Budget your November grant to last longer if you rely on December early payouts for holiday expenses.",
+      "Check that your bank details or card are active before December — fixing problems takes longer during the holidays.",
+      "Expect retail pay points such as supermarkets to have much shorter queues mid-month than on payment days."
+    ] },
+    { "id": "faq-heading", "type": "heading", "level": 2, "text": "Frequently Asked Questions" },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "When will the November 2026 dates be confirmed?", "answer": "Based on recent months, SASSA typically publishes the confirmed schedule two to four weeks before the payment dates. This page will be updated immediately after confirmation." },
+      { "question": "What happens if the 7 November review day falls on a Saturday?", "answer": "If SASSA keeps the review window on the calendar 7th, payments are likely processed on the next business day. Wait for your notification SMS, which will state the exact date for review-cycle beneficiaries." },
+      { "question": "Is there any public holiday affecting November payments?", "answer": "No. November 2026 has no national public holidays, so the expected schedule follows the clean standard pattern." },
+      { "question": "Will December payments come earlier than usual again?", "answer": "In recent years SASSA has paid SRD grants from around 23 December so beneficiaries have funds before Christmas. The confirmed December 2026 schedule will be published closer to the time." }
+    ] },
+    { "id": "divider", "type": "divider" },
+    { "id": "sources", "type": "sources", "note": "Pattern-based provisional dates; verify against official publications when confirmed.", "sources": [
+      { "label": "SASSA official website", "url": "https://sassa.gov.za" },
+      { "label": "SASSA SRD portal", "url": "https://srd.sassa.gov.za" }
+    ] },
+    { "id": "other-months", "type": "link-grid", "title": "Other Payment Months", "links": [
+      { "label": "October 2026", "href": "/payment-dates/2026-october" },
+      { "label": "December 2026", "href": "/payment-dates/2026-december" }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "All Payment Dates", "slug": "/payment-dates" },
+    { "title": "October 2026 Payment Dates", "slug": "/payment-dates/2026-october" },
+    { "title": "Banking & Payment Methods", "slug": "/banking" }
+  ]
+}

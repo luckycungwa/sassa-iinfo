@@ -8,12 +8,25 @@
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Payment Dates August 2026: New 4th Day Cycle & Full Payout Schedule",
     "metaDescription": "SASSA payment dates for August 2026 confirmed with the new 4th day (7 August) for grant reviews. Older Persons 4 Aug, Disability 5 Aug, Children 6 Aug, SRD 7 Aug. Full schedule, FAQ, and collection tips.",
-    "keywords": ["SASSA payment dates August 2026", "August SASSA payout", "new 4th day cycle SASSA", "SASSA grant review August", "SRD payment date August 2026"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Payment Dates August 2026" }
+    "keywords": [
+      "SASSA payment dates August 2026",
+      "August SASSA payout",
+      "new 4th day cycle SASSA",
+      "SASSA grant review August",
+      "SRD payment date August 2026"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SASSA Payment Dates August 2026"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +36,14 @@
       "description": "Full payout schedule for August 2026 including the new 4th day cycle. Older Persons: 4 Aug, Disability: 5 Aug, Children: 6 Aug, review day: 7 Aug, SRD R370: 25-31 Aug. Plan your collection with our detailed guide.",
       "readingTime": "6 min read",
       "lastUpdated": "2026-07-29",
-      "cta": { "label": "View All Payment Dates", "href": "/payment-dates" },
-      "secondaryCta": { "label": "July 2026 Schedule", "href": "/payment-dates/2026-july" }
+      "cta": {
+        "label": "View All Payment Dates",
+        "href": "/payment-dates"
+      },
+      "secondaryCta": {
+        "label": "July 2026 Schedule",
+        "href": "/payment-dates/2026-july"
+      }
     },
     {
       "id": "intro-paragraph",
@@ -58,13 +77,37 @@
     {
       "id": "dates-table",
       "type": "table",
-      "headers": ["Grant Type", "Payment Date", "Day of Week"],
+      "headers": [
+        "Grant Type",
+        "Payment Date",
+        "Day of Week"
+      ],
       "rows": [
-        ["Older Persons Grant (Pension)", "4 August 2026", "Tuesday"],
-        ["Disability Grant", "5 August 2026", "Wednesday"],
-        ["Children's Grants (CSG, Foster, CDG)", "6 August 2026", "Thursday"],
-        ["New 4th-Day Cycle (Reviews & Backlogs)", "7 August 2026", "Friday"],
-        ["Social Relief of Distress (SRD R370)", "25-31 August 2026", "Month-end window"]
+        [
+          "Older Persons Grant (Pension)",
+          "4 August 2026",
+          "Tuesday"
+        ],
+        [
+          "Disability Grant",
+          "5 August 2026",
+          "Wednesday"
+        ],
+        [
+          "Children's Grants (CSG, Foster, CDG)",
+          "6 August 2026",
+          "Thursday"
+        ],
+        [
+          "New 4th-Day Cycle (Reviews & Backlogs)",
+          "7 August 2026",
+          "Friday"
+        ],
+        [
+          "Social Relief of Distress (SRD R370)",
+          "25-31 August 2026",
+          "Month-end window"
+        ]
       ],
       "caption": "Full SASSA payout schedule for August 2026 featuring the new 4th-day cycle"
     },
@@ -78,10 +121,22 @@
       "id": "review-process",
       "type": "steps",
       "steps": [
-        { "title": "You receive a review notice", "description": "SASSA sends a letter or SMS to inform you that your grant is due for review. This typically happens once a year for permanent grants." },
-        { "title": "Visit your SASSA office with documents", "description": "Take your ID, proof of residence, and any income-related documents to your nearest SASSA office. The officer will update your information." },
-        { "title": "SASSA processes the review", "description": "Your file is updated and reviewed internally. If everything is in order, your grant continues uninterrupted. If changes are needed, you will be notified." },
-        { "title": "Payment on the new 4th-day cycle", "description": "If your review is approved after the standard payment dates have passed, you will receive your backdated payment on the 4th day (7th of the month)." }
+        {
+          "title": "You receive a review notice",
+          "description": "SASSA sends a letter or SMS to inform you that your grant is due for review. This typically happens once a year for permanent grants."
+        },
+        {
+          "title": "Visit your SASSA office with documents",
+          "description": "Take your ID, proof of residence, and any income-related documents to your nearest SASSA office. The officer will update your information."
+        },
+        {
+          "title": "SASSA processes the review",
+          "description": "Your file is updated and reviewed internally. If everything is in order, your grant continues uninterrupted. If changes are needed, you will be notified."
+        },
+        {
+          "title": "Payment on the new 4th-day cycle",
+          "description": "If your review is approved after the standard payment dates have passed, you will receive your backdated payment on the 4th day (7th of the month)."
+        }
       ]
     },
     {
@@ -121,7 +176,7 @@
       "type": "callout",
       "intent": "warning",
       "title": "Avoid Scams During Review Season",
-      "answer": "Fraudsters often target beneficiaries during review periods. SASSA will never ask for your PIN, password, or bank account details over the phone. Do not pay anyone who promises to 'fast-track' your review. All SASSA services are free."
+      "text": "Fraudsters often target beneficiaries during review periods. SASSA will never ask for your PIN, password, or bank account details over the phone. Do not pay anyone who promises to 'fast-track' your review. All SASSA services are free."
     },
     {
       "id": "divider",
@@ -132,16 +187,37 @@
       "type": "link-grid",
       "title": "Other Payment Months",
       "links": [
-        { "label": "July 2026", "href": "/payment-dates/2026-july" },
-        { "label": "September 2026", "href": "/payment-dates/2026-september" },
-        { "label": "October 2026", "href": "/payment-dates/2026-october" },
-        { "label": "November 2026", "href": "/payment-dates/2026-november" }
+        {
+          "label": "July 2026",
+          "href": "/payment-dates/2026-july"
+        },
+        {
+          "label": "September 2026",
+          "href": "/payment-dates/2026-september"
+        },
+        {
+          "label": "October 2026",
+          "href": "/payment-dates/2026-october"
+        },
+        {
+          "label": "November 2026",
+          "href": "/payment-dates/2026-november"
+        }
       ]
     }
   ],
   "relatedPages": [
-    { "title": "All Payment Dates", "slug": "/payment-dates" },
-    { "title": "SASSA Grant Reviews Guide", "slug": "/guides/grant-review-process" },
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-grant" }
+    {
+      "title": "All Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "How to Check Your SASSA Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    }
   ]
 }

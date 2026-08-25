@@ -8,12 +8,27 @@
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Scam Alert — Fraud Prevention Guide 2026",
     "metaDescription": "Complete SASSA scam alert guide: fake SMS examples, phishing websites, fraudulent agents, and how to report scams. Protect your grant from fraudsters.",
-    "keywords": ["SASSA scam", "SASSA fraud", "SASSA phishing", "SASSA SMS scam", "SASSA grant scam", "fake SASSA website", "SASSA fraud prevention"],
-    "schemaMarkup": { "@type": "Article", "name": "SASSA Scam Alert Guide" }
+    "keywords": [
+      "SASSA scam",
+      "SASSA fraud",
+      "SASSA phishing",
+      "SASSA SMS scam",
+      "SASSA grant scam",
+      "fake SASSA website",
+      "SASSA fraud prevention"
+    ],
+    "schemaMarkup": {
+      "@type": "Article",
+      "name": "SASSA Scam Alert Guide"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +38,14 @@
       "description": "Learn how to spot and avoid SASSA grant scams. Fake SMS messages, phishing websites, fraudulent agents, and impersonation calls — with real examples and what to do if you have been scammed.",
       "readingTime": "6 min read",
       "lastUpdated": "2026-07-26",
-      "cta": { "label": "Report a Scam", "href": "https://www.sassa.gov.za" },
-      "secondaryCta": { "label": "Official SASSA Contacts", "href": "#official-contacts" }
+      "cta": {
+        "label": "Report a Scam",
+        "href": "https://www.sassa.gov.za"
+      },
+      "secondaryCta": {
+        "label": "Official SASSA Contacts",
+        "href": "#official-contacts"
+      }
     },
     {
       "id": "intro",
@@ -40,7 +61,12 @@
     {
       "id": "scam-type-table",
       "type": "table",
-      "headers": ["Scam Type", "How It Works", "Red Flags", "What to Do"],
+      "headers": [
+        "Scam Type",
+        "How It Works",
+        "Red Flags",
+        "What to Do"
+      ],
       "rows": [
         [
           "Fake SMS Messages",
@@ -238,9 +264,21 @@
     }
   ],
   "relatedPages": [
-    { "title": "How to Check Your Status", "slug": "/guides/how-to-check-sassa-status" },
-    { "title": "How to Update Bank Details", "slug": "/banking/update-bank-details" },
-    { "title": "Payment Methods", "slug": "/banking/payment-methods" },
-    { "title": "How to Apply for SRD Grant", "slug": "/grants/srd-r370-grant" }
+    {
+      "title": "How to Check Your Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "How to Update Bank Details",
+      "slug": "/banking/update-bank-details"
+    },
+    {
+      "title": "Payment Methods",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "How to Apply for SRD Grant",
+      "slug": "/grants/srd-r370-grant"
+    }
   ]
 }

@@ -28,16 +28,16 @@ export default function AppealDeadline() {
       </div>
 
       <div className="space-y-2">
-        <label className="block text-xs font-bold text-muted-foreground">Date You Received SASSA Decline Notification</label>
+        <label htmlFor="appeal-decline-date" className="block text-xs font-bold text-muted-foreground">Date You Received SASSA Decline Notification</label>
         <div className="flex gap-2">
-          <input type="date" value={declineDate} onChange={(e) => setDeclineDate(e.target.value)}
+          <input id="appeal-decline-date" type="date" value={declineDate} onChange={(e) => setDeclineDate(e.target.value)}
             className="border border-surface-container rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none" />
           <button onClick={handleCalculateAppeal} className="bg-gold hover:bg-gold-dark text-black font-bold px-4 py-2.5 rounded-xl text-xs transition">Check Deadline</button>
         </div>
       </div>
 
       {appealResult && (
-        <div className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
+        <div role="status" aria-live="polite" className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
           <div className="grid grid-cols-2 gap-3 text-center">
             <div className="bg-surface p-3 border border-border rounded-lg">
               <p className="text-xs text-muted-foreground font-mono uppercase">Days Elapsed</p>

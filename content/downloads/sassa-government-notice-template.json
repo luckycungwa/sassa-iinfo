@@ -1,0 +1,146 @@
+{
+  "id": "download-government-notice-guide",
+  "slug": "/downloads/sassa-government-notice-template",
+  "classification": "downloadable-form",
+  "title": "SASSA Government Gazette Notice Reference Guide",
+  "description": "Reference guide to the official Government Gazette notices that govern SASSA grant amounts, means test thresholds and payment regulations — and how to find them on gov.za.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Government Gazette Notices: Reference Guide & Where to Find Them",
+    "metaDescription": "How to locate official Government Gazette notices governing SASSA grants: what they contain, why the numbers matter in appeals, and where to download originals free.",
+    "keywords": [
+      "sassa government gazette",
+      "social assistance gazette notice",
+      "sassa regulation notice",
+      "grant amounts gazette"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Government Gazette Notice Reference Guide",
+      "description": "Grant amounts, means tests and payment rules all trace back to numbered Gazette notices. Here is how to find, read and cite them.",
+      "readingTime": "4 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "View All Forms",
+        "href": "/downloads"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Every official change to social grants — annual increases, revised means test thresholds, new regulations — takes legal effect through a Government Gazette notice. This reference guide explains what those notices are, which ones matter for beneficiaries, and how to use their reference numbers in formal correspondence or appeals."
+    },
+    {
+      "id": "what-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Which Gazette notices matter to beneficiaries"
+    },
+    {
+      "id": "notice-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Annual grant amount notices — published each year after the budget, setting every grant's rand value from April.",
+        "Means test threshold notices — defining the income and asset limits that determine eligibility.",
+        "Social Assistance Act regulations — the standing rules for applications, reviews, suspensions and appeals.",
+        "SRD directive notices — the special conditions under which the R370 grant operates each extension period."
+      ]
+    },
+    {
+      "id": "find-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to find a Gazette notice"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "title": "#how-to-fill",
+      "steps": [
+        {
+          "title": "Identify the notice you need",
+          "description": "Match your purpose: current amounts, means thresholds, appeal rules, or SRD directives."
+        },
+        {
+          "title": "Search the government documents portal",
+          "description": "The national Gazette archive at gov.za hosts every notice as a free PDF download."
+        },
+        {
+          "title": "Cite the number in correspondence",
+          "description": "When writing to SASSA or the appeals tribunal, quoting the relevant Gazette number anchors your case to the exact rule in force."
+        }
+      ]
+    },
+    {
+      "id": "use-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Why citing Gazettes wins appeals",
+      "text": "Appeals are decided against written law. A submission quoting the Gazette notice that sets the means test — with its numbers — is harder to dismiss than one arguing in general terms. Our appeal guide shows where each citation fits."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Where can I download official Gazette notices?",
+          "answer": "Free from the South African government's documents portal at gov.za. SASSA offices also keep copies of grant-related notices on request."
+        },
+        {
+          "question": "Do I need a Gazette notice to apply for a grant?",
+          "answer": "No. Applications run on standard forms. Gazette notices matter mainly for verifying entitlement details, understanding rules, or strengthening appeals."
+        },
+        {
+          "question": "How do I know which Gazette applies to my situation?",
+          "answer": "Start with the annual amounts notice for your grant type, then the means test notice if eligibility is disputed. SASSA officials can tell you which notice governs your specific query."
+        },
+        {
+          "question": "Are Gazette notices available in other languages?",
+          "answer": "Gazettes publish in English (and Afrikaans for some). Office staff can explain contents in your language when it matters for your case."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "South African Government Gazette archive",
+          "url": "https://www.gov.za/documents/gazettes"
+        },
+        {
+          "label": "Social Assistance Act regulations",
+          "url": "https://www.gov.za/documents/social-assistance-act"
+        }
+      ],
+      "note": "Guide verified August 2026; notice numbering changes annually."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "How to Appeal a Declined Grant",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Current Grant Amounts",
+      "slug": "/grants"
+    },
+    {
+      "title": "SRD Eligibility Rules",
+      "slug": "/eligibility/srd-r370-eligibility"
+    }
+  ]
+}

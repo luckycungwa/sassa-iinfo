@@ -4,7 +4,8 @@ import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
 import { canonicalUrl } from "@/lib/canonical";
 import { provinces } from "../../../../lib/data/provinces";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
-import { breadcrumbSchema } from "../../../../lib/json-ld";
+import { breadcrumbSchema, faqSchema } from "../../../../lib/json-ld";
+import type { FAQBlock } from "../../../../lib/schema/contentSchema";
 
 export function generateStaticParams() {
   const allPages = loadAllContent();
@@ -40,8 +41,13 @@ export default async function ProvinceDetailPage({ params }: { params: Promise<{
 
   const content = getPageBySlug(`/provinces/${slug}`);
   if (content) {
+    const faqBlock = content.contentBlocks.find((b): b is FAQBlock => b.type === "faq");
+    const faqJsonLd = faqBlock ? faqSchema(faqBlock.faqs) : null;
     return (
       <>
+        {faqJsonLd && (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+        )}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
           { name: "Home", url: "/" },
           { name: "Province Hubs", url: "/provinces" },

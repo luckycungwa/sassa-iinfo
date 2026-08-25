@@ -8,12 +8,26 @@
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Disability Grant Medical Exam — SASSA Doctor Assessment Guide",
     "metaDescription": "Guide to the SASSA Disability Grant medical exam: Form A, what your doctor must fill in, District Surgeon checks, conditions that qualify, supporting documents, and appeal steps.",
-    "keywords": ["disability grant medical assessment", "SASSA medical report form", "district surgeon", "disability grant appeal", "Form A SASSA", "SASSA doctor exam"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Disability Grant — Medical Assessment" }
+    "keywords": [
+      "disability grant medical assessment",
+      "SASSA medical report form",
+      "district surgeon",
+      "disability grant appeal",
+      "Form A SASSA",
+      "SASSA doctor exam"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Disability Grant — Medical Assessment"
+    }
   },
   "contentBlocks": [
     {
@@ -91,17 +105,57 @@
     {
       "id": "qualifying-table",
       "type": "table",
-      "headers": ["Condition", "Likely Outcome", "Reasoning"],
+      "headers": [
+        "Condition",
+        "Likely Outcome",
+        "Reasoning"
+      ],
       "rows": [
-        ["Total or partial blindness", "Typically qualifies", "Permanent visual impairment that prevents most forms of employment is clearly disabling."],
-        ["Loss of both hands or both feet", "Typically qualifies", "Severe physical impairment that makes self-support nearly impossible."],
-        ["End-stage kidney disease on dialysis", "Typically qualifies", "Requires regular medical treatment and prevents sustained employment."],
-        ["Severe psychiatric disorder (e.g., schizophrenia, severe depression)", "Often qualifies", "Must be well-documented by a psychiatrist with evidence of ongoing treatment and functional impairment."],
-        ["Advanced HIV with AIDS-defining illnesses", "Often qualifies", "Must show that the condition has caused permanent damage or recurrent illness despite treatment."],
-        ["Back pain without nerve damage", "Often rejected", "SASSA considers this common and not disabling enough unless proven with MRI evidence of nerve compression."],
-        ["Well-controlled hypertension or diabetes", "Usually rejected", "If your condition is managed with medication and does not prevent you from working, you will not qualify."],
-        ["Mild asthma or allergies", "Usually rejected", "Does not typically prevent employment unless severe and documented with lung function tests."],
-        ["Temporary injury (fracture, sprain)", "Rejected for permanent grant", "May qualify for the Temporary Disability Grant if recovery is expected within 6–12 months."]
+        [
+          "Total or partial blindness",
+          "Typically qualifies",
+          "Permanent visual impairment that prevents most forms of employment is clearly disabling."
+        ],
+        [
+          "Loss of both hands or both feet",
+          "Typically qualifies",
+          "Severe physical impairment that makes self-support nearly impossible."
+        ],
+        [
+          "End-stage kidney disease on dialysis",
+          "Typically qualifies",
+          "Requires regular medical treatment and prevents sustained employment."
+        ],
+        [
+          "Severe psychiatric disorder (e.g., schizophrenia, severe depression)",
+          "Often qualifies",
+          "Must be well-documented by a psychiatrist with evidence of ongoing treatment and functional impairment."
+        ],
+        [
+          "Advanced HIV with AIDS-defining illnesses",
+          "Often qualifies",
+          "Must show that the condition has caused permanent damage or recurrent illness despite treatment."
+        ],
+        [
+          "Back pain without nerve damage",
+          "Often rejected",
+          "SASSA considers this common and not disabling enough unless proven with MRI evidence of nerve compression."
+        ],
+        [
+          "Well-controlled hypertension or diabetes",
+          "Usually rejected",
+          "If your condition is managed with medication and does not prevent you from working, you will not qualify."
+        ],
+        [
+          "Mild asthma or allergies",
+          "Usually rejected",
+          "Does not typically prevent employment unless severe and documented with lung function tests."
+        ],
+        [
+          "Temporary injury (fracture, sprain)",
+          "Rejected for permanent grant",
+          "May qualify for the Temporary Disability Grant if recovery is expected within 6–12 months."
+        ]
       ],
       "caption": "No condition is automatically approved or rejected. SASSA assesses each person individually based on how the disability affects their ability to earn a living."
     },
@@ -182,9 +236,21 @@
     }
   ],
   "relatedPages": [
-    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
-    { "title": "Temporary Disability Grant", "slug": "/grants/disability-grant" },
-    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
-    { "title": "Grant Library", "slug": "/grants" }
+    {
+      "title": "Disability Grant",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "Temporary Disability Grant",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "Grant-in-Aid",
+      "slug": "/grants/grant-in-aid"
+    },
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    }
   ]
 }

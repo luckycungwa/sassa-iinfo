@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Sparkles } from "lucide-react";
@@ -49,19 +49,9 @@ function getPageTitle(pathname: string): string {
 export default function SiteLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [isAssistantOpen, setIsAssistantOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    const raf = requestAnimationFrame(() => setMounted(true));
-    return () => cancelAnimationFrame(raf);
-  }, []);
-
-  if (!mounted) {
-    return <div className="min-h-screen bg-background">{children}</div>;
-  }
 
   return (
-    <div className="relative min-h-screen flex flex-col bg-background text-foreground overflow-hidden">
+    <div className="relative min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden">
       <a href="#article-body-column" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-violet focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:text-sm">
         Skip to content
       </a>
@@ -87,6 +77,8 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
       {!isAssistantOpen && (
         <button
           onClick={() => setIsAssistantOpen(true)}
+          aria-label="Open AI assistant"
+          aria-expanded={isAssistantOpen}
           className="fixed bottom-6 right-6 p-4 bg-amber text-accent-foreground rounded-xl transition print:hidden flex items-center justify-center shadow-lg hover:bg-amber-dark"
         >
           <Sparkles className="w-6 h-6" />
@@ -101,7 +93,7 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
               <p className="text-sm leading-relaxed text-carbon">
                 Independent SASSA grant guide. Not affiliated with SASSA or any government entity.
               </p>
-              <p className="text-xs text-muted-foreground">Last verified: July 2026</p>
+              <p className="text-xs text-muted-foreground">Last verified: {new Date().toLocaleString('default', { month: 'long' })} {new Date().getFullYear()}</p>
             </div>
               <div className="space-y-3">
                 <p className="text-xs font-bold text-carbon uppercase tracking-wider">Grants</p>
@@ -154,7 +146,7 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
               </div>
           </div>
           <div className="border-t border-border mt-10 pt-6 text-center">
-            <p className="text-xs text-muted-foreground">&copy; 2026 SASSA Grant Guide. Built by Lucky Cungwa / 44tagstudios.</p>
+            <p className="text-xs text-muted-foreground">&copy; {new Date().getFullYear()} SASSA Grant Guide. Built by Lucky Cungwa / 44tagstudios.</p>
           </div>
         </div>
       </footer>

@@ -13,7 +13,7 @@ export default function DisclaimerPage() {
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-8">
       <div className="flex items-start gap-4">
         <div className="w-12 h-12 rounded-xl bg-gold/10 border border-gold/20 flex items-center justify-center flex-shrink-0">
-          <AlertTriangle className="w-6 h-6 text-gold" />
+          <AlertTriangle className="w-6 h-6 text-accent-dark" />
         </div>
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">Disclaimer</h1>
@@ -22,8 +22,8 @@ export default function DisclaimerPage() {
       </div>
 
       <div className="bg-gold/10 border border-gold/20 rounded-xl p-6">
-        <h2 className="text-sm font-extrabold text-gold mb-3">Important Notice</h2>
-        <p className="text-sm text-gold leading-relaxed font-bold">
+        <h2 className="text-sm font-extrabold text-accent-dark mb-3">Important Notice</h2>
+        <p className="text-sm text-accent-dark leading-relaxed font-bold">
           This is an independent informational resource. We are not affiliated with, endorsed by, or connected to the South African Social Security Agency (SASSA) or the South African government. The official government website can be found at gov.za.
         </p>
       </div>

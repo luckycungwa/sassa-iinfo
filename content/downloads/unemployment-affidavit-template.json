@@ -1,0 +1,174 @@
+{
+  "id": "download-unemployment-affidavit",
+  "slug": "/downloads/unemployment-affidavit-template",
+  "classification": "downloadable-form",
+  "title": "SASSA Unemployment Affidavit Template — Sworn Declaration of No Income",
+  "description": "The standard sworn affidavit template declaring unemployment, required for SASSA grant applications and appeals. Includes how to sign it correctly at a SAPS station.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Unemployment Affidavit Template: How to Complete & Swear It",
+    "metaDescription": "Download the unemployment affidavit template for SASSA applications and appeals. Step-by-step completion guide, SAPS signing rules, and the one mistake that invalidates it.",
+    "keywords": [
+      "sassa unemployment affidavit",
+      "affidavit template sassa",
+      "sworn statement unemployment",
+      "srd appeal affidavit"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Unemployment Affidavit Template",
+      "description": "The sworn declaration that you have no income or employment — required for many grant applications and almost every appeal against an income-related decline.",
+      "readingTime": "4 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "View Filling Guide",
+        "href": "#how-to-fill"
+      },
+      "secondaryCta": {
+        "label": "View All Forms",
+        "href": "/downloads"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "This affidavit is a formal, sworn statement — made under oath — that you are currently unemployed and receive no income. SASSA requires it when your application needs proof of financial status and you have no employer documents to provide, and the independent tribunal expects it with most appeals against 'income identified' or means-test declines."
+    },
+    {
+      "id": "fill-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to complete the affidavit"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "title": "#how-to-fill",
+      "steps": [
+        {
+          "title": "Complete your personal details",
+          "description": "Full name (exactly as on your ID), ID number, and residential address."
+        },
+        {
+          "title": "State your unemployment clearly",
+          "description": "Declare in plain language that you are currently unemployed and receive no income from any source, including piece jobs, maintenance, or family support above the threshold."
+        },
+        {
+          "title": "Take it to a SAPS station unsigned",
+          "description": "You must sign in the physical presence of a SAPS officer or commissioner of oaths. Signing at home invalidates the document."
+        },
+        {
+          "title": "Sign and let the officer stamp it",
+          "description": "The officer witnesses your signature and applies the official stamp. This makes the affidavit legally valid."
+        }
+      ]
+    },
+    {
+      "id": "checklist-block",
+      "type": "document-checklist",
+      "title": "What to take to the police station",
+      "documents": [
+        {
+          "label": "Blank affidavit form (printed)",
+          "required": true
+        },
+        {
+          "label": "Your green ID book or smart ID card",
+          "required": true
+        },
+        {
+          "label": "Black ink pen",
+          "required": false,
+          "notes": "Signatures must be in black ink."
+        }
+      ]
+    },
+    {
+      "id": "signing-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Do not sign before you arrive",
+      "text": "The single most common mistake: signing the affidavit at home. An officer cannot witness a signature already on paper, and SASSA will reject the document. Carry it blank and sign only in front of the officer."
+    },
+    {
+      "id": "use-h",
+      "type": "heading",
+      "level": 2,
+      "text": "When you will be asked for this affidavit"
+    },
+    {
+      "id": "use-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "New grant applications where you declare no income.",
+        "SRD R370 appeals against 'Alternative Income Source' or 'Means Test Failed' declines.",
+        "Grant reviews where your income declaration must be reconfirmed under oath.",
+        "Any formal correspondence where SASSA requests proof of financial status."
+      ]
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Where do I get the affidavit form?",
+          "answer": "Free at any SAPS station or SASSA office — both stock the standard template. Never pay anyone for this form."
+        },
+        {
+          "question": "Does the affidavit expire?",
+          "answer": "SASSA generally treats affidavits as current for about three months. For appeals, swear a fresh one close to your lodgement date."
+        },
+        {
+          "question": "Can I swear the affidavit somewhere other than a police station?",
+          "answer": "Yes — any commissioner of oaths can witness it, including certain bank officials, attorneys and post office personnel. SAPS stations remain the most reliable free option."
+        },
+        {
+          "question": "I do piece jobs occasionally. Can I still swear I'm unemployed?",
+          "answer": "Be precise: declare that you have no permanent employment and state your occasional earnings honestly. A knowingly false sworn statement is a criminal offence and can trigger grant cancellation and repayment demands."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SAPS commissioning of oaths requirements",
+          "url": "https://www.saps.gov.za"
+        },
+        {
+          "label": "SASSA application documentation rules",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Requirements verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "How to Appeal a Declined Grant",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "SRD Appeal Form Guide",
+      "slug": "/downloads/srd-appeal-form"
+    },
+    {
+      "title": "Application Document Checklist",
+      "slug": "/downloads/sassa-grant-application-checklist"
+    }
+  ]
+}

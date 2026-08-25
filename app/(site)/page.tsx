@@ -1,9 +1,11 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema } from "@/lib/json-ld";
 import { ArrowRight, Shield, MapPin, Calculator, FileText, BookOpen, Clock } from "lucide-react";
+import { newsArticles } from "@/lib/data/news";
+import { loadAllContent } from "@/lib/content-loader";
 
 const grants = [
   { name: "SRD R370", amount: "R370", href: "/grants/srd-r370-grant", desc: "Social Relief of Distress for unemployed adults 18-59" },
@@ -17,11 +19,11 @@ const grants = [
 ];
 
 export const metadata: Metadata = {
-  title: 'SASSA Status Check & Grant Guide 2026 — Independent South African Resource',
+  title: 'SASSA Status Check & Grant Guide 2026 â€” Independent South African Resource',
   description: 'Complete guide to SASSA grants: check your SRD status, payment dates, appeal process, and eligibility. Step-by-step guides for all 8 social grants including SRD R370, Older Person, Child Support, and Disability grants.',
   alternates: { canonical: canonicalUrl("/") },
   openGraph: {
-    title: 'SASSA Status Check & Grant Guide 2026 — Independent South African Resource',
+    title: 'SASSA Status Check & Grant Guide 2026 â€” Independent South African Resource',
     description: 'Complete guide to SASSA grants: check your SRD status, payment dates, appeal process, and eligibility.',
   },
 };
@@ -33,6 +35,21 @@ export default function HomePage() {
     "/"
   );
 
+  const jsonArticles = loadAllContent().filter((p) => p.classification === "news-article");
+  const jsonSlugs = new Set(jsonArticles.map((a) => a.slug));
+  const tsArticles = newsArticles.filter((a) => !jsonSlugs.has("/news/" + a.slug));
+  const latestNews = [
+    ...jsonArticles.map((a) => ({ href: a.slug, title: a.title, date: a.lastUpdated })),
+    ...tsArticles.map((a) => ({ href: "/news/" + a.slug, title: a.title, date: a.date })),
+  ]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 4);
+
+  const formatShortDate = (dateStr: string) => {
+    try { return new Date(dateStr).toLocaleDateString("en-ZA", { day: "numeric", month: "short", year: "numeric" }); }
+    catch { return dateStr; }
+  };
+
   return (
     <div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
@@ -41,11 +58,11 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
             <div className="flex-1 text-center md:text-left">
-              <p className="text-xs font-bold text-white/60 uppercase tracking-widest mb-4">sassa grant guide</p>
+              <p className="text-xs font-bold text-muted uppercase tracking-widest mb-4">sassa grant guide</p>
               <h1 className="text-[40px] md:text-[57px] lg:text-[68px] font-black leading-[1.15] text-white tracking-[-0.007em]">
                 Every grant,<br />made clear
               </h1>
-              <p className="text-[21px] md:text-[24px] text-white/80 leading-relaxed mt-6 max-w-lg">
+              <p className="text-[21px] md:text-[24px] text-body leading-relaxed mt-6 max-w-lg">
                 Every grant amount, payment date, and appeal deadline - checked against official sources and written in plain language.
               </p>
               <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
@@ -77,7 +94,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-carbon text-white py-6">
+      <section className="bg-midnight text-white py-6">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div className="flex items-start gap-3">
             <span className="bg-red-600 text-white text-[11px] font-black uppercase tracking-widest px-2 py-1 rounded shrink-0 mt-0.5">
@@ -87,14 +104,14 @@ export default function HomePage() {
               <p className="text-[17px] font-bold leading-snug">
                 Swap your SASSA Gold Card for the new Postbank Black Card before it stops working.
               </p>
-              <p className="text-sm text-white/70 mt-1">
-                Free swap — just bring your ID to any Postbank service point or participating retailer.
+              <p className="text-sm text-muted mt-1">
+                Free swap â€” just bring your ID to any Postbank service point or participating retailer.
               </p>
             </div>
           </div>
           <Link
             href="/banking/black-card-swap"
-            className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-yellow text-carbon rounded-[22px] text-sm font-bold hover:opacity-90 transition shrink-0"
+            className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-sm font-bold hover:opacity-90 transition shrink-0"
           >
             How to swap your card <ArrowRight className="w-3.5 h-3.5" />
           </Link>
@@ -106,10 +123,10 @@ export default function HomePage() {
           <h2 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
             SASSA social grants
           </h2>
-          <p className="text-[21px] text-carbon/70 mt-4 max-w-lg mx-auto">
+          <p className="text-[21px] text-body mt-4 max-w-lg mx-auto">
             Eight grants supporting millions of South Africans. Everything you need to know.
           </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm text-carbon/60 font-mono">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm text-muted font-mono">
             <span>18M+ recipients</span>
             <span className="w-1 h-1 rounded-full bg-carbon/20" />
             <span>8 grant types</span>
@@ -161,42 +178,42 @@ export default function HomePage() {
               <Shield className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Check your SASSA status</p>
-                <p className="text-sm text-carbon/60 mt-1 leading-snug">Understand every SRD and grant status from Pending to Approved, Declined, and everything between.</p>
+                <p className="text-sm text-muted mt-1 leading-snug">Understand every SRD and grant status from Pending to Approved, Declined, and everything between.</p>
               </div>
             </Link>
             <Link href="/payment-dates" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
               <Clock className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA payment dates 2026</p>
-                <p className="text-sm text-carbon/60 mt-1 leading-snug">Monthly schedules for every grant, including SRD batch windows and permanent grant paydays.</p>
+                <p className="text-sm text-muted mt-1 leading-snug">Monthly schedules for every grant, including SRD batch windows and permanent grant paydays.</p>
               </div>
             </Link>
             <Link href="/appeals" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
               <FileText className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Appeal a declined SASSA grant</p>
-                <p className="text-sm text-carbon/60 mt-1 leading-snug">Step-by-step guide to challenging a declined grant through ITSAA within 90 days.</p>
+                <p className="text-sm text-muted mt-1 leading-snug">Step-by-step guide to challenging a declined grant through ITSAA within 90 days.</p>
               </div>
             </Link>
             <Link href="/tools" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
               <Calculator className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA interactive tools</p>
-                <p className="text-sm text-carbon/60 mt-1 leading-snug">Eligibility checker, grant calculator, payment lookup, and appeal deadline timer.</p>
+                <p className="text-sm text-muted mt-1 leading-snug">Eligibility checker, grant calculator, payment lookup, and appeal deadline timer.</p>
               </div>
             </Link>
             <Link href="/offices" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
               <MapPin className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Find a SASSA office</p>
-                <p className="text-sm text-carbon/60 mt-1 leading-snug">Provincial SASSA offices with addresses, contact numbers, and operating hours.</p>
+                <p className="text-sm text-muted mt-1 leading-snug">Provincial SASSA offices with addresses, contact numbers, and operating hours.</p>
               </div>
             </Link>
             <Link href="/guides" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
               <BookOpen className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA step-by-step guides</p>
-                <p className="text-sm text-carbon/60 mt-1 leading-snug">How to apply, change payment method, check status, and more.</p>
+                <p className="text-sm text-muted mt-1 leading-snug">How to apply, change payment method, check status, and more.</p>
               </div>
             </Link>
           </div>
@@ -209,7 +226,7 @@ export default function HomePage() {
             <div>
               <p className="text-sm font-bold text-violet uppercase tracking-widest mb-3">How it works</p>
               <h2 className="text-[29px] md:text-[34px] font-black text-carbon leading-[1.1] tracking-[-0.007em]">South Africa&apos;s social grant system</h2>
-              <div className="space-y-3 text-base text-carbon/70 leading-relaxed mt-6">
+              <div className="space-y-3 text-base text-body leading-relaxed mt-6">
                 <p>
                   SASSA administers eight grant types, from the Older Person Grant for seniors to the Child Support
                   Grant for caregivers and the SRD R370 for unemployed adults. Each has its own eligibility criteria
@@ -226,7 +243,7 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-[url('/srd-bg.avif')] bg-cover bg-center opacity-[0.06]" />
                 <div className="relative">
                   <p className="text-sm font-bold text-violet uppercase tracking-widest mb-2">Why I built this</p>
-                  <p className="text-base text-carbon/80 leading-relaxed">
+                  <p className="text-base text-body leading-relaxed">
                     I&apos;m Lucky Cungwa, a South African developer. I created this site because the official
                     information is hard to navigate and the appeals process is barely documented.
                   </p>
@@ -247,18 +264,12 @@ export default function HomePage() {
             <Link href="/news" className="text-sm text-violet hover:underline font-bold">View all</Link>
           </div>
           <div className="space-y-2">
-            <Link href="/news/srd-r370-grant-extended-to-march-2027" className="flex items-baseline gap-4 group py-3">
-              <span className="text-sm text-ash shrink-0 w-28">15 Jun 2026</span>
-              <span className="text-base text-carbon group-hover:text-violet transition font-medium">SRD R370 extended to March 2027</span>
-            </Link>
-            <Link href="/news/social-grant-increases-2026" className="flex items-baseline gap-4 group py-3">
-              <span className="text-sm text-ash shrink-0 w-28">20 Feb 2026</span>
-              <span className="text-base text-carbon group-hover:text-violet transition font-medium">2026 grant increases confirmed</span>
-            </Link>
-            <Link href="/news/sassa-scam-warning-july-2026" className="flex items-baseline gap-4 group py-3">
-              <span className="text-sm text-ash shrink-0 w-28">15 Jul 2026</span>
-              <span className="text-base text-carbon group-hover:text-violet transition font-medium">SASSA scam warning - fake SMS targeting beneficiaries</span>
-            </Link>
+            {latestNews.map((article) => (
+              <Link key={article.href} href={article.href} className="flex items-baseline gap-4 group py-3">
+                <span className="text-sm text-ash shrink-0 w-28">{formatShortDate(article.date)}</span>
+                <span className="text-base text-carbon group-hover:text-violet transition font-medium">{article.title}</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

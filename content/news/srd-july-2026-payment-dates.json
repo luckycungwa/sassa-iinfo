@@ -7,71 +7,240 @@
   "lastUpdated": "2026-07-29",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official SASSA publications", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SRD R370 July 2026 Payment Dates — Batch Schedule Confirmed",
     "metaDescription": "SASSA confirms SRD R370 July 2026 payments from 23-24 July. Older Persons 3 July, Disability 4 July, Children's Grants 5 July. Full schedule inside.",
-    "keywords": ["SRD July 2026 payment dates", "SASSA July payment schedule", "SRD R370 July", "grant payment dates", "July 2026 SASSA"]
+    "keywords": [
+      "SRD July 2026 payment dates",
+      "SASSA July payment schedule",
+      "SRD R370 July",
+      "grant payment dates",
+      "July 2026 SASSA"
+    ]
   },
   "contentBlocks": [
-    { "id": "hero-1", "type": "hero", "title": "SRD R370 July 2026 Payments: Batch Schedule Confirmed", "description": "SASSA has confirmed the payment schedule for July 2026. SRD R370 payments will be processed from 23 to 24 July, slightly earlier than usual because the 25th falls on a Saturday.", "readingTime": "6 min read", "lastUpdated": "2026-07-29" },
-    { "id": "h1", "type": "heading", "level": 2, "text": "July 2026 Payment Dates at a Glance" },
-    { "id": "p1", "type": "paragraph", "text": "SASSA has confirmed the payment schedule for July 2026. The SRD R370 grant payments will be processed from 23 to 24 July 2026. This is earlier than the usual 25th start because the 25th falls on a Saturday this month." },
-    { "id": "list1", "type": "list", "ordered": false, "items": [
-      "Older Persons Grant: 3 July 2026 (Thursday)",
-      "Disability Grant: 4 July 2026 (Friday)",
-      "Children's Grants (Child Support, Foster Care, Care Dependency): 5 July 2026 (Saturday — early processing on Friday 4 July for bank transfers)",
-      "SRD R370 Grant: 23-24 July 2026 (Wednesday-Thursday)"
-    ] },
-    { "id": "callout1", "type": "callout", "intent": "info", "title": "Saturday 5 July — What It Means for Payment Collection", "text": "Children's Grants fall on a Saturday this month. If you collect from a pay point (SASSA office, SAPO, or merchant), you can collect on Friday 4 July instead. Bank transfer beneficiaries will receive their payment on Friday 4 July as banks process on business days only." },
-    { "id": "h2", "type": "heading", "level": 3, "text": "Understanding the SRD Payment Schedule" },
-    { "id": "p2", "type": "paragraph", "text": "The SRD R370 grant is paid on a different schedule from permanent grants. While Older Person, Disability, and Children's Grants are paid in the first week of each month, SRD payments are processed in batches from the 23rd onwards. This staggered approach helps SASSA manage the high volume of SRD applications — over 10 million applicants registered as of July 2026." },
-    { "id": "p3", "type": "paragraph", "text": "SASSA processes SRD payments over 1 to 3 days depending on the month. Your payment date depends on the first letter of your surname, though SASSA does not publish the exact surname-to-batch mapping to prevent fraud. Beneficiaries are advised to check their status from the 20th of the month and expect payment within the 23-31 window." },
-    { "id": "h3", "type": "heading", "level": 3, "text": "How to Check Your July Payment Status" },
-    { "id": "steps1", "type": "steps", "steps": [
-      { "title": "Log into the SRD portal after 15 July", "description": "Visit srd.sassa.gov.za and enter your ID number and registered phone number. Your July status will be available after the 15th." },
-      { "title": "Check for 'Approved' status", "description": "If your status shows 'Approved', your payment will be processed in the 23-24 July batch. If it shows 'Pending', wait until after the 20th before following up." },
-      { "title": "Select your payment method", "description": "Ensure your payment method is set correctly — bank transfer, Cash Send, or SASSA card. You can change it on the portal." },
-      { "title": "Wait for the payment notification", "description": "SASSA sends an SMS when your payment is processed. Payment may take 1-3 business days to reflect in your bank account." }
-    ] },
-    { "id": "h4", "type": "heading", "level": 3, "text": "Why Do SRD Payments Start on the 23rd?" },
-    { "id": "p4", "type": "paragraph", "text": "The SRD payment cycle is designed to give SASSA time to complete the monthly evaluation for all applicants. The evaluation process runs from the 1st to approximately the 20th of each month. Once evaluations are finalised, payments begin on the 23rd. This is different from permanent grants, which are assessed annually and paid on fixed dates." },
-    { "id": "p5", "type": "paragraph", "text": "For July 2026, the evaluation window coincided with the end of the second quarter, which occasionally causes minor delays due to higher application volumes. If your status stays on 'Pending' past the 20th, it may be because your application is in the queue for manual review." },
-    { "id": "h5", "type": "heading", "level": 3, "text": "What to Do If Your Payment Is Delayed" },
-    { "id": "list2", "type": "list", "ordered": true, "items": [
-      "Wait 1-3 business days after the payment date — bank processing can cause delays",
-      "Check your status on the SRD portal to confirm you were approved for July",
-      "Verify that your payment method and bank details are correct on the portal",
-      "If you use Cash Send, check that your phone number is correct and has network coverage",
-      "If your status says 'Approved' but payment has not arrived after 3 business days, call SASSA on 0800 60 10 11"
-    ] },
-    { "id": "callout2", "type": "callout", "intent": "warning", "title": "Remember: Each Month Is Evaluated Separately", "text": "Being approved for June does not guarantee approval for July. Your income, bank account, and eligibility are checked every month. Always check your July status on the portal, even if you received the June payment." },
-    { "id": "h6", "type": "heading", "level": 3, "text": "Payment Method Options for July" },
-    { "id": "p6", "type": "paragraph", "text": "You can receive your SRD payment through one of three methods. Choose the one that works best for you:" },
-    { "id": "list3", "type": "list", "ordered": false, "items": [
-      "Bank transfer (direct deposit into your South African bank account — fastest option, reflects within 1-2 business days)",
-      "Cash Send (receive via cellphone at any major retailer — no bank account needed, available at Shoprite, Pick n Pay, Boxer, and USave)",
-      "SASSA SAPO card (collect at your nearest SASSA office or Post Office — must be registered for this method)"
-    ] },
-    { "id": "faq1", "type": "faq", "faqs": [
-      { "question": "Why are SRD payments on 23-24 July instead of the usual 25th?", "answer": "The 25th of July falls on a Saturday this month. SASSA processes payments on business days, so the SRD payment batch has been moved to Wednesday 24th and Thursday 25th. This is standard practice when payment dates fall on weekends or public holidays." },
-      { "question": "When will the August 2026 SRD payments start?", "answer": "August 2026 SRD payments are scheduled to run from 25-31 August. SASSA will confirm the exact dates closer to the time." },
-      { "question": "My status still says 'Pending' and it is after 20 July. What should I do?", "answer": "If your status is still 'Pending' after 20 July, it may mean your application is under manual review. Wait until the 23rd before calling SASSA. If no update by then, call 0800 60 10 11." },
-      { "question": "Can I change my payment method for the July payment?", "answer": "Yes, but changes made after the 15th of the month may not take effect until the next payment cycle. Change your method early in the month to ensure it applies to the current month's payment." },
-      { "question": "I was approved but the money is not in my account. What is wrong?", "answer": "Bank transfers can take 1-3 business days to reflect. If it has been more than 3 business days since the payment date and your status shows 'Approved', call SASSA on 0800 60 10 11 to check for processing issues." }
-    ] },
-    { "id": "div1", "type": "divider" },
-    { "id": "link1", "type": "link-grid", "links": [
-      { "title": "Check Your SRD Status", "href": "https://srd.sassa.gov.za", "description": "Official SASSA SRD portal" },
-      { "title": "Payment Methods Guide", "href": "/banking/payment-methods", "description": "Compare bank transfer, Cash Send, and SAPO card" },
-      { "title": "Cash Send Guide", "href": "/banking/cash-send-guide", "description": "How to receive SRD without a bank account" },
-      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full eligibility and application information" }
-    ] }
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "title": "SRD R370 July 2026 Payments: Batch Schedule Confirmed",
+      "description": "SASSA has confirmed the payment schedule for July 2026. SRD R370 payments will be processed from 23 to 24 July, slightly earlier than usual because the 25th falls on a Saturday.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-07-29"
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "July 2026 Payment Dates at a Glance"
+    },
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "text": "SASSA has confirmed the payment schedule for July 2026. The SRD R370 grant payments will be processed from 23 to 24 July 2026. This is earlier than the usual 25th start because the 25th falls on a Saturday this month."
+    },
+    {
+      "id": "list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Older Persons Grant: 3 July 2026 (Thursday)",
+        "Disability Grant: 4 July 2026 (Friday)",
+        "Children's Grants (Child Support, Foster Care, Care Dependency): 6 July 2026 (Monday — moved from Sunday 5 July)",
+        "SRD R370 Grant: 23-24 July 2026 (Wednesday-Thursday)"
+      ]
+    },
+    {
+      "id": "callout1",
+      "type": "callout",
+      "intent": "info",
+      "title": "Weekend Shift — What It Means for Payment Collection",
+      "text": "Children's Grants would normally follow two days after Older Persons, but 5 July 2026 falls on a Sunday. Payments therefore move to Monday 6 July. Bank transfer beneficiaries receive their money on the Monday as banks process business days only."
+    },
+    {
+      "id": "h2",
+      "type": "heading",
+      "level": 3,
+      "text": "Understanding the SRD Payment Schedule"
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "text": "The SRD R370 grant is paid on a different schedule from permanent grants. While Older Person, Disability, and Children's Grants are paid in the first week of each month, SRD payments are processed in batches from the 23rd onwards. This staggered approach helps SASSA manage the high volume of SRD applications — over 10 million applicants registered as of July 2026."
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "text": "SASSA processes SRD payments over 1 to 3 days depending on the month. Your payment date depends on the first letter of your surname, though SASSA does not publish the exact surname-to-batch mapping to prevent fraud. Beneficiaries are advised to check their status from the 20th of the month and expect payment within the 23-31 window."
+    },
+    {
+      "id": "h3",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Check Your July Payment Status"
+    },
+    {
+      "id": "steps1",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Log into the SRD portal after 15 July",
+          "description": "Visit srd.sassa.gov.za and enter your ID number and registered phone number. Your July status will be available after the 15th."
+        },
+        {
+          "title": "Check for 'Approved' status",
+          "description": "If your status shows 'Approved', your payment will be processed in the 23-24 July batch. If it shows 'Pending', wait until after the 20th before following up."
+        },
+        {
+          "title": "Select your payment method",
+          "description": "Ensure your payment method is set correctly — bank transfer, Cash Send, or SASSA card. You can change it on the portal."
+        },
+        {
+          "title": "Wait for the payment notification",
+          "description": "SASSA sends an SMS when your payment is processed. Payment may take 1-3 business days to reflect in your bank account."
+        }
+      ]
+    },
+    {
+      "id": "h4",
+      "type": "heading",
+      "level": 3,
+      "text": "Why Do SRD Payments Start on the 23rd?"
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "text": "The SRD payment cycle is designed to give SASSA time to complete the monthly evaluation for all applicants. The evaluation process runs from the 1st to approximately the 20th of each month. Once evaluations are finalised, payments begin on the 23rd. This is different from permanent grants, which are assessed annually and paid on fixed dates."
+    },
+    {
+      "id": "p5",
+      "type": "paragraph",
+      "text": "For July 2026, the evaluation window coincided with the end of the second quarter, which occasionally causes minor delays due to higher application volumes. If your status stays on 'Pending' past the 20th, it may be because your application is in the queue for manual review."
+    },
+    {
+      "id": "h5",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Do If Your Payment Is Delayed"
+    },
+    {
+      "id": "list2",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Wait 1-3 business days after the payment date — bank processing can cause delays",
+        "Check your status on the SRD portal to confirm you were approved for July",
+        "Verify that your payment method and bank details are correct on the portal",
+        "If you use Cash Send, check that your phone number is correct and has network coverage",
+        "If your status says 'Approved' but payment has not arrived after 3 business days, call SASSA on 0800 60 10 11"
+      ]
+    },
+    {
+      "id": "callout2",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Remember: Each Month Is Evaluated Separately",
+      "text": "Being approved for June does not guarantee approval for July. Your income, bank account, and eligibility are checked every month. Always check your July status on the portal, even if you received the June payment."
+    },
+    {
+      "id": "h6",
+      "type": "heading",
+      "level": 3,
+      "text": "Payment Method Options for July"
+    },
+    {
+      "id": "p6",
+      "type": "paragraph",
+      "text": "You can receive your SRD payment through one of three methods. Choose the one that works best for you:"
+    },
+    {
+      "id": "list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bank transfer (direct deposit into your South African bank account — fastest option, reflects within 1-2 business days)",
+        "Cash Send (receive via cellphone at any major retailer — no bank account needed, available at Shoprite, Pick n Pay, Boxer, and USave)",
+        "SASSA SAPO card (collect at your nearest SASSA office or Post Office — must be registered for this method)"
+      ]
+    },
+    {
+      "id": "faq1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Why are SRD payments on 23-24 July instead of the usual 25th?",
+          "answer": "The 25th of July falls on a Saturday this month. SASSA processes payments on business days, so the SRD payment batch has been moved to Thursday 23rd and Friday 24th. This is standard practice when payment dates fall on weekends or public holidays."
+        },
+        {
+          "question": "When will the August 2026 SRD payments start?",
+          "answer": "August 2026 SRD payments are scheduled to run from 25-31 August. SASSA will confirm the exact dates closer to the time."
+        },
+        {
+          "question": "My status still says 'Pending' and it is after 20 July. What should I do?",
+          "answer": "If your status is still 'Pending' after 20 July, it may mean your application is under manual review. Wait until the 23rd before calling SASSA. If no update by then, call 0800 60 10 11."
+        },
+        {
+          "question": "Can I change my payment method for the July payment?",
+          "answer": "Yes, but changes made after the 15th of the month may not take effect until the next payment cycle. Change your method early in the month to ensure it applies to the current month's payment."
+        },
+        {
+          "question": "I was approved but the money is not in my account. What is wrong?",
+          "answer": "Bank transfers can take 1-3 business days to reflect. If it has been more than 3 business days since the payment date and your status shows 'Approved', call SASSA on 0800 60 10 11 to check for processing issues."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Check Your SRD Status",
+          "href": "https://srd.sassa.gov.za",
+          "description": "Official SASSA SRD portal"
+        },
+        {
+          "title": "Payment Methods Guide",
+          "href": "/banking/payment-methods",
+          "description": "Compare bank transfer, Cash Send, and SAPO card"
+        },
+        {
+          "title": "Cash Send Guide",
+          "href": "/banking/cash-send-guide",
+          "description": "How to receive SRD without a bank account"
+        },
+        {
+          "title": "SRD R370 Grant Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full eligibility and application information"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
-    { "title": "Payment Methods", "slug": "/banking/payment-methods" },
-    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" },
-    { "title": "Payment Not Reflecting", "slug": "/banking/payment-not-reflecting" }
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "Payment Methods",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Cash Send Guide",
+      "slug": "/banking/cash-send-guide"
+    },
+    {
+      "title": "Payment Not Reflecting",
+      "slug": "/banking/payment-not-reflecting"
+    }
   ]
 }

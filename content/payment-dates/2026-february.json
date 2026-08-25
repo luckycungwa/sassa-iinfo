@@ -1,0 +1,152 @@
+{
+  "id": "payment-dates-2026-february",
+  "slug": "/payment-dates/2026-february",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates February 2026",
+  "description": "Confirmed SASSA payment dates for February 2026: Older Persons 3 February, Disability 4 February, Children's grants 5 February, SRD R370 from 25 February.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates February 2026 (Old Age, Disability, Child & SRD)",
+    "metaDescription": "SASSA payment dates for February 2026: Older Persons Tue 3 Feb, Disability Wed 4 Feb, Children's grants Thu 5 Feb, compressed SRD window from 25 Feb.",
+    "keywords": [
+      "sassa payment dates february 2026",
+      "old age grant february 2026",
+      "srd payment dates february 2026"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Payment Dates February 2026",
+      "description": "Permanent grants follow the usual pattern in the first week. The short month compresses the SRD R370 window into 25-28 February — check your SMS early.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026"
+    },
+    {
+      "id": "intro-h",
+      "type": "heading",
+      "level": 2,
+      "text": "February 2026 payment schedule at a glance"
+    },
+    {
+      "id": "date-table",
+      "type": "table",
+      "caption": "Confirmed SASSA payment dates for February 2026",
+      "rows": [
+        [
+          "Older Persons Grant (60-74)",
+          "Tuesday 3 February 2026"
+        ],
+        [
+          "Older Persons Grant (75+)",
+          "Tuesday 3 February 2026"
+        ],
+        [
+          "Disability Grant",
+          "Wednesday 4 February 2026"
+        ],
+        [
+          "Children's Grants (Child Support, Foster Care, Care Dependency)",
+          "Thursday 5 February 2026"
+        ],
+        [
+          "SRD R370 Grant",
+          "From Wednesday 25 February 2026 (batches until 28 February)"
+        ]
+      ],
+      "headers": [
+        "Grant type",
+        "Payment date"
+      ]
+    },
+    {
+      "id": "what-know-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to know about February payments"
+    },
+    {
+      "id": "know-p1",
+      "type": "paragraph",
+      "text": "February is the shortest month, which squeezes the SRD R370 batch window into just four days (25-28 February). If you receive SRD, watch for your approval SMS from around the 20th so you know which day your batch lands. There is no room for delays to stretch into March."
+    },
+    {
+      "id": "budget-p",
+      "type": "paragraph",
+      "text": "February is also budget month. The Minister of Finance announces whether grant amounts will increase in the annual budget speech, usually in mid-to-late February. Important: any announced increases do not change your February or March payments — new amounts only take effect from April, the start of the new fiscal year."
+    },
+    {
+      "id": "know-p2",
+      "type": "paragraph",
+      "text": "For permanent grants, the first week runs exactly as normal. No public holidays fall in February, so there is no risk of a shifted pay date this month."
+    },
+    {
+      "id": "budget-callout",
+      "type": "callout",
+      "variant": "info",
+      "title": "Budget speech rumours",
+      "text": "Every February, fake posts claim huge grant increases ('SRD to R700!'). Treat any figure as rumour until it appears on an official government channel. We publish confirmed amounts as soon as the budget is delivered."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What are the SASSA payment dates for February 2026?",
+          "answer": "Older Persons grants were paid on Tuesday 3 February 2026, Disability grants on Wednesday 4 February, Children's grants on Thursday 5 February, and SRD R370 payments ran from 25 to 28 February."
+        },
+        {
+          "question": "Why is the SRD window shorter in February?",
+          "answer": "February has fewer days than other months, so SASSA compresses the SRD batch schedule into 25-28 February instead of the usual five-to-seven-day spread."
+        },
+        {
+          "question": "Does the budget speech change my February payment?",
+          "answer": "No. Grant increases announced in the February budget speech only take effect from April 2026, when the new fiscal year begins. February and March are paid at existing rates."
+        },
+        {
+          "question": "Are there public holidays that affect February pay dates?",
+          "answer": "No. February has no South African public holidays, so all permanent grant dates run on their normal days."
+        },
+        {
+          "question": "My SRD status says approved but I have not been paid yet in late February.",
+          "answer": "Approved means your monthly eligibility passed; payment batches then release over several days. With the compressed February window, some approvals pay right at the end of the month. If nothing arrives by 3 March, contact SASSA on 0800 60 10 11."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official payment calendar announcements",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Dates reflect the published February 2026 schedule. Budget details were accurate at publication; see our news section for confirmed amounts."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "January 2026 Payment Dates",
+      "slug": "/payment-dates/2026-january"
+    },
+    {
+      "title": "March 2026 Payment Dates",
+      "slug": "/payment-dates/2026-march"
+    }
+  ]
+}

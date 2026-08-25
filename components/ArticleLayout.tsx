@@ -175,7 +175,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
             } else if (block.intent === "success") {
               calloutStyle = "bg-gold/10 border-gold/30 text-ink";
               Icon = CheckCircle2;
-              iconColor = "text-gold";
+              iconColor = "text-accent-dark";
             } else if (block.intent === "danger") {
               calloutStyle = "bg-trading-down/10 border-trading-down/30 text-ink";
               Icon = XOctagon;
@@ -276,7 +276,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                 className="bg-surface border border-border p-5 rounded-xl space-y-4 my-4 shadow-none"
               >
                 <div className="flex items-center gap-2 pb-2.5 border-b border-border">
-                  <CalendarDays className="w-4.5 h-4.5 text-gold" />
+                  <CalendarDays className="w-4.5 h-4.5 text-accent-dark" />
                   <div>
                     <h4 className="text-xs font-black text-ink leading-none">
                       National SASSA Payout Schedules
@@ -308,7 +308,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                         </div>
                         <div className="text-right">
                           <span className="text-xs font-mono text-muted block leading-none">Est Payout</span>
-                          <span className="font-mono font-black text-gold mt-0.5 block">{pay.amount}</span>
+                          <span className="font-mono font-black text-accent-dark mt-0.5 block">{pay.amount}</span>
                         </div>
                       </div>
                     </div>
@@ -327,7 +327,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
               >
                 <div className="space-y-3">
                   <div>
-                    <span className="text-xs font-mono font-bold text-gold uppercase tracking-widest block">
+                    <span className="text-xs font-mono font-bold text-accent-dark uppercase tracking-widest block">
                       Local SASSA Branch
                     </span>
                     <h4 className="text-xs font-black text-ink mt-0.5">{block.branchName}</h4>
@@ -353,7 +353,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                 <div className="bg-surface-dim/30 border border-border p-4 rounded-xl flex flex-col justify-between">
                   <div>
                     <div className="flex items-center gap-1.5 text-ink">
-                      <Accessibility className="w-4 h-4 text-gold" />
+                      <Accessibility className="w-4 h-4 text-accent-dark" />
                       <span className="text-xs font-bold font-mono uppercase tracking-wide">
                         Accessibility Vetting
                       </span>
@@ -390,7 +390,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                 id={block.id}
                 className="bg-gold/5 border border-dashed border-gold/30 p-4 rounded-xl my-4 text-center"
               >
-                <div className="flex items-center justify-center gap-2 text-gold">
+                <div className="flex items-center justify-center gap-2 text-accent-dark">
                   <Sparkles className="w-4.5 h-4.5" />
                   <span className="text-xs font-bold font-mono uppercase">
                     Extension: {block.customType}

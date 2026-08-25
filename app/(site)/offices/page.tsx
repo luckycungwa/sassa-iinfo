@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { MapPin, Phone, Clock, Building, ArrowRight } from "lucide-react";
 import { offices } from "../../../lib/data/offices";
@@ -34,11 +34,11 @@ export default function OfficesHubPage() {
       {faq && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />}
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-carbon/50 uppercase tracking-widest mb-3">office finder</p>
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">office finder</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
             Find your nearest SASSA office
           </h1>
-          <p className="text-[21px] text-carbon/70 mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
             Locate SASSA local offices across all 9 provinces with addresses, phone numbers, and operating hours.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
@@ -129,7 +129,7 @@ export default function OfficesHubPage() {
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className="text-sm text-carbon/70 leading-relaxed">{faq.a}</p>
+                  <p className="text-sm text-body leading-relaxed">{faq.a}</p>
                 </div>
               </details>
             ))}
@@ -142,10 +142,10 @@ export default function OfficesHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Can&apos;t find your local office?</p>
-              <p className="text-sm text-white/60">Visit the province hubs for regional information</p>
+              <p className="text-sm text-muted">Visit the province hubs for regional information</p>
             </div>
             <div className="flex gap-2">
-              <Link href="/provinces" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-yellow text-carbon rounded-[22px] text-xs font-bold hover:opacity-90 transition">
+              <Link href="/provinces" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">
                 Province Hubs <ArrowRight className="w-3 h-3" />
               </Link>
               <Link href="/contact" className="inline-flex items-center gap-1.5 px-5 py-2.5 border-2 border-white/30 text-white rounded-[22px] text-xs font-bold hover:bg-white/10 transition">

@@ -1,0 +1,282 @@
+{
+  "id": "guide-sassa-reference-number",
+  "slug": "/guides/sassa-reference-number",
+  "classification": "how-to-guide",
+  "title": "SASSA Reference Number: Where to Find It and How to Use It",
+  "description": "Your SASSA reference number identifies your grant application, appeal, or payment record. Learn where to find it for SRD and permanent grants, how to use it, and how to recover it if you lose it.",
+  "lastUpdated": "2026-08-23",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Reference Number: Where to Find It & How to Use It (2026)",
+    "metaDescription": "Find your SASSA reference number for grants, SRD R370 applications and appeals: on your application receipt, the srd.sassa.gov.za portal, SMS confirmations, or at a SASSA office.",
+    "keywords": [
+      "sassa reference number",
+      "srd reference number",
+      "sassa application number",
+      "find sassa reference",
+      "lost sassa reference number"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Reference Number: Where to Find It and How to Use It",
+      "description": "A reference number is the key to every SASSA interaction — status checks, appeals, payment queries and office visits. Here is exactly where yours lives and what to do if you have lost it.",
+      "readingTime": "7 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Check Your Grant Status",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "label": "How to Appeal a Decline",
+        "href": "/appeals/how-to-appeal"
+      }
+    },
+    {
+      "id": "h-what",
+      "type": "heading",
+      "level": 2,
+      "text": "What is a SASSA reference number?"
+    },
+    {
+      "id": "what-p1",
+      "type": "paragraph",
+      "text": "A SASSA reference number is a unique code assigned to your grant application, appeal submission, or payment record. It links all of your paperwork to you in the SASSA system, so that any official who assists you can pull up your exact file without confusion."
+    },
+    {
+      "id": "what-p2",
+      "type": "paragraph",
+      "text": "Different processes produce different numbers, and they are not interchangeable:"
+    },
+    {
+      "id": "number-types",
+      "type": "table",
+      "caption": "Types of SASSA reference numbers",
+      "rows": [
+        [
+          "Application reference number",
+          "Issued when you submit a grant application",
+          "Tracking a new grant application"
+        ],
+        [
+          "SRD grant ID / reference",
+          "Created when you apply for the SRD R370 grant",
+          "Monthly status checks and reconfirmations"
+        ],
+        [
+          "Appeal reference number",
+          "Issued by ITSAA when you lodge an appeal",
+          "Tracking an appeal ruling"
+        ],
+        [
+          "Reapplication confirmation",
+          "Shown after reapplying or reinstating a lapsed grant",
+          "Following up on reinstatement"
+        ]
+      ],
+      "headers": [
+        "Number type",
+        "Where it comes from",
+        "What it is used for"
+      ]
+    },
+    {
+      "id": "h-where",
+      "type": "heading",
+      "level": 2,
+      "text": "Where to find your reference number"
+    },
+    {
+      "id": "where-p1",
+      "type": "paragraph",
+      "text": "Depending on how you applied, your reference number appears in one or more of these places:"
+    },
+    {
+      "id": "where-steps",
+      "type": "steps",
+      "title": "Five places your reference number lives",
+      "steps": [
+        {
+          "title": "Your application receipt",
+          "description": "When you submit a grant application at a SASSA office, the clerk prints a dated receipt. Your application reference number is printed near the top. Photograph this receipt — it is the single easiest proof of your number."
+        },
+        {
+          "title": "The SRD website dashboard",
+          "description": "For the SRD R370 grant, log in at srd.sassa.gov.za with your ID number and registered cellphone. Your reference number is displayed on your status dashboard, together with your current monthly outcome."
+        },
+        {
+          "title": "SMS confirmations",
+          "description": "SASSA sends an SMS containing your reference number when you apply or when an appeal is lodged. Do not delete these messages — search your inbox for 'SASSA' if you cannot find your number."
+        },
+        {
+          "title": "The WhatsApp line",
+          "description": "Send 'Status' to 082 046 8553 on the saved SASSA WhatsApp contact. Once you verify with your ID number, the reply includes your reference details."
+        },
+        {
+          "title": "Any SASSA local office",
+          "description": "Take your green barcoded ID or smart ID card to any office. A clerk can look up your file using your ID number and reprint your reference details. This works even if you applied years ago."
+        }
+      ]
+    },
+    {
+      "id": "channel-callout",
+      "type": "callout",
+      "variant": "info",
+      "title": "Never share your reference number with strangers",
+      "text": "Your reference number alone cannot move money, but scammers use it to sound convincing. SASSA officials will never phone you to ask for it, and no legitimate service charges a fee to 'find' your reference number."
+    },
+    {
+      "id": "h-use",
+      "type": "heading",
+      "level": 2,
+      "text": "How to use your reference number"
+    },
+    {
+      "id": "use-p1",
+      "type": "paragraph",
+      "text": "Have your reference number ready whenever you deal with SASSA. It speeds up every interaction:"
+    },
+    {
+      "id": "use-list",
+      "type": "list",
+      "style": "unordered",
+      "items": [
+        "Status checks online, on WhatsApp, or by phone — quoting your number pulls up the correct record immediately.",
+        "Appeal tracking on the ITSAA portal, where your appeal reference shows each month's ruling.",
+        "Helpline calls to 0800 60 10 11 — agents ask for it before discussing your file.",
+        "Office visits — carrying your number avoids long manual lookups during busy periods.",
+        "Payment queries where money left your account but never arrived, or was deducted incorrectly."
+      ]
+    },
+    {
+      "id": "h-lost",
+      "type": "heading",
+      "level": 2,
+      "text": "Lost your reference number? Here is the recovery path"
+    },
+    {
+      "id": "lost-p1",
+      "type": "paragraph",
+      "text": "Losing your reference number is common and fully recoverable. Work through these options in order — most people stop at the first or second:"
+    },
+    {
+      "id": "recovery-steps",
+      "type": "steps",
+      "title": "Reference number recovery",
+      "steps": [
+        {
+          "title": "Search your SMS inbox",
+          "description": "Search for messages from SASSA or containing 'reference'. Application and appeal confirmations both arrive by SMS."
+        },
+        {
+          "title": "Log into the SRD portal",
+          "description": "At srd.sassa.gov.za, sign in with your ID number and cellphone. Your SRD grant reference appears on your dashboard without needing anything else."
+        },
+        {
+          "title": "Use the WhatsApp line",
+          "description": "Message 082 046 8553 and follow the prompts. After verifying your ID, the system resends your reference details."
+        },
+        {
+          "title": "Visit a SASSA office with your ID",
+          "description": "Your reference number is linked to your ID number in the SASSA database, so any office can retrieve it. Go early in the morning to avoid queues."
+        },
+        {
+          "title": "Call the helpline",
+          "description": "Phone 0800 60 10 11. After identity verification questions, the agent can read out your reference number."
+        }
+      ]
+    },
+    {
+      "id": "h-srd-vs-permanent",
+      "type": "heading",
+      "level": 3,
+      "text": "SRD versus permanent grants: one difference that matters"
+    },
+    {
+      "id": "srd-p",
+      "type": "paragraph",
+      "text": "Permanent grant applications (Older Persons, Disability, Child Support and others) use a single application reference number from submission through approval. The SRD R370 grant instead assesses your eligibility separately each month under one grant ID — so when you check an SRD status, you are really checking twelve monthly decisions attached to one reference. If you appeal a declined SRD month, each appeal gets its own appeal reference number from ITSAA on top of your SRD grant ID."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Is my SASSA reference number the same as my ID number?",
+          "answer": "No. Your ID number identifies you; the reference number identifies a specific application, appeal, or grant record. SASSA links them internally, which is why an office can recover your reference from your ID."
+        },
+        {
+          "question": "Can I check my SASSA status without a reference number?",
+          "answer": "Yes for the SRD R370 grant — the srd.sassa.gov.za portal and WhatsApp line only need your ID number and registered cellphone. For permanent grant applications, offices and the helpline can also locate your file using your ID number."
+        },
+        {
+          "question": "Why does my appeal have a different reference number?",
+          "answer": "Appeals are handled by the Independent Tribunal for Social Assistance Appeals (ITSAA), which issues its own appeal reference number separate from SASSA's records. You need the appeal number to track rulings on the ITSAA portal."
+        },
+        {
+          "question": "How long does it take to get an SMS with my reference number?",
+          "answer": "Application and appeal confirmation SMSes usually arrive within minutes to a few hours. Network delays happen — wait 48 hours before assuming the message failed, then use the recovery steps above."
+        },
+        {
+          "question": "Can someone else collect my reference number for me?",
+          "answer": "Only if they are an authorised representative with a signed letter from you plus copies of both ID documents. Otherwise, the reference number is provided directly to you via your registered phone or in person with your ID."
+        },
+        {
+          "question": "Does a new application get a new reference number?",
+          "answer": "Yes. Each new application — including a reapplication after a lapse or a fresh application after a final decline — generates its own reference number. Keep old receipts until the new application is approved."
+        },
+        {
+          "question": "I applied at a mobile unit and got no receipt. What now?",
+          "answer": "Mobile units must still register your application in the system. Visit any fixed SASSA office with your ID and ask them to print your application details; the reference number will be on the printout."
+        },
+        {
+          "question": "Is it safe to give my reference number on the SASSA WhatsApp line?",
+          "answer": "Yes — 082 046 8553 is the official SASSA channel. The line asks for your ID and registered cellphone to verify you; it will never ask for your PIN, password or banking credentials."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official website — Contact & helpline information",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SRD R370 official portal — status dashboard",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA WhatsApp line 082 046 8553 — official self-service channel",
+          "url": "https://wa.me/27820468553"
+        }
+      ],
+      "note": "Details verified against official SASSA channels in August 2026. Processes may change; confirm critical steps on sassa.gov.za or by calling 0800 60 10 11."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "How to Check Your SASSA Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "How to Appeal a Declined Grant",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Change Your SRD Phone Number",
+      "slug": "/guides/change-srd-phone-number"
+    }
+  ]
+}

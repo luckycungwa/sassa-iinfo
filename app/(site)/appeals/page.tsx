@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Scale, Clock, FileText, CheckCircle2, AlertTriangle } from "lucide-react";
 import { appeals } from "../../../lib/data/appeals";
@@ -28,11 +28,11 @@ export default function AppealsHubPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-carbon/50 uppercase tracking-widest mb-3">appeals centre</p>
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">appeals centre</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
             How to appeal a declined SASSA grant
           </h1>
-          <p className="text-[21px] text-carbon/70 mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
             If SASSA declined your application, you have 90 days to appeal through the Independent Tribunal for Social Assistance Appeals (ITSAA).
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
@@ -205,11 +205,11 @@ export default function AppealsHubPage() {
               <AlertTriangle className="w-6 h-6 text-yellow shrink-0" />
               <div>
                 <p className="text-[19px] font-bold text-white">Need to submit an appeal right now?</p>
-                <p className="text-sm text-white/60">Visit the official SRD appeal portal</p>
+                <p className="text-sm text-muted">Visit the official SRD appeal portal</p>
               </div>
             </div>
             <div className="flex gap-2">
-              <a href="https://srd.dsd.gov.za" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-yellow text-carbon rounded-[22px] text-xs font-bold hover:opacity-90 transition">
+              <a href="https://srd.dsd.gov.za" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">
                 SRD Appeal Portal <ArrowRight className="w-3 h-3" />
               </a>
               <Link href="/status" className="inline-flex items-center gap-1.5 px-5 py-2.5 border-2 border-white/30 text-white rounded-[22px] text-xs font-bold hover:bg-white/10 transition">

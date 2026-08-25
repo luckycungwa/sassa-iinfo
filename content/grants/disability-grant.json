@@ -8,12 +8,25 @@
   "version": "1.0.0",
   "readingTime": "7 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Disability Grant — SASSA 2026 Amount, Eligibility & Guide",
     "metaDescription": "Guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment, required documents, and appeal process.",
-    "keywords": ["SASSA disability grant", "disability grant South Africa", "SASSA disability grant amount", "disability grant application", "SASSA medical assessment"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Disability Grant" }
+    "keywords": [
+      "SASSA disability grant",
+      "disability grant South Africa",
+      "SASSA disability grant amount",
+      "disability grant application",
+      "SASSA medical assessment"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Disability Grant"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +36,14 @@
       "description": "Complete guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment walkthrough, required documents, application steps, and appeal process.",
       "readingTime": "7 min read",
       "lastUpdated": "2026-07-26",
-      "cta": { "label": "Check Eligibility", "href": "/eligibility/i-am-disabled" },
-      "secondaryCta": { "label": "How to Apply", "href": "/guides/how-to-apply-sassa-grant" }
+      "cta": {
+        "label": "Check Eligibility",
+        "href": "/eligibility/i-am-disabled"
+      },
+      "secondaryCta": {
+        "label": "How to Apply",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
     },
     {
       "id": "summary",
@@ -60,8 +79,16 @@
         "Temporary disabilities under 6 months should apply for the Temporary Disability Grant instead"
       ],
       "recommendedGrants": [
-        { "name": "Grant-in-Aid", "slug": "/grants/grant-in-aid", "amount": "R580" },
-        { "name": "Care Dependency Grant", "slug": "/grants/care-dependency-grant", "amount": "R2,400" }
+        {
+          "name": "Grant-in-Aid",
+          "slug": "/grants/grant-in-aid",
+          "amount": "R580"
+        },
+        {
+          "name": "Care Dependency Grant",
+          "slug": "/grants/care-dependency-grant",
+          "amount": "R2,400"
+        }
       ]
     },
     {
@@ -74,12 +101,32 @@
       "id": "docs-list",
       "type": "document-checklist",
       "documents": [
-        { "label": "Original 13-digit barcoded Smart Card ID or green ID book", "required": true },
-        { "label": "Medical/assessment report completed by a licensed medical practitioner", "required": true, "notes": "This is the most important document. It must be on the official SASSA medical report form (available at SASSA offices or from your doctor)." },
-        { "label": "Proof of marital status (marriage certificate, divorce order, or death certificate)", "required": true },
-        { "label": "Proof of residence (utility bill or sworn affidavit)", "required": true },
-        { "label": "Proof of income and assets (last 3 months bank statements, payslips, or affidavit if unemployed)", "required": true },
-        { "label": "Proof of any disability benefits or medical insurance payouts", "required": false, "notes": "If applicable, declare these to avoid penalties." }
+        {
+          "label": "Original 13-digit barcoded Smart Card ID or green ID book",
+          "required": true
+        },
+        {
+          "label": "Medical/assessment report completed by a licensed medical practitioner",
+          "required": true,
+          "notes": "This is the most important document. It must be on the official SASSA medical report form (available at SASSA offices or from your doctor)."
+        },
+        {
+          "label": "Proof of marital status (marriage certificate, divorce order, or death certificate)",
+          "required": true
+        },
+        {
+          "label": "Proof of residence (utility bill or sworn affidavit)",
+          "required": true
+        },
+        {
+          "label": "Proof of income and assets (last 3 months bank statements, payslips, or affidavit if unemployed)",
+          "required": true
+        },
+        {
+          "label": "Proof of any disability benefits or medical insurance payouts",
+          "required": false,
+          "notes": "If applicable, declare these to avoid penalties."
+        }
       ]
     },
     {
@@ -147,13 +194,37 @@
     {
       "id": "temp-vs-permanent-table",
       "type": "table",
-      "headers": ["Feature", "Temporary Disability Grant", "Permanent Disability Grant"],
+      "headers": [
+        "Feature",
+        "Temporary Disability Grant",
+        "Permanent Disability Grant"
+      ],
       "rows": [
-        ["Duration limit", "Issued for up to 6 months", "Indefinite"],
-        ["Medical reviews", "Must be re-assessed every 6 months", "Periodic reviews, usually every 2–5 years"],
-        ["Amount", "R2,400 per month", "R2,400 per month"],
-        ["Who qualifies", "Disability expected to last 6–12 months", "Permanent disability with no expected recovery"],
-        ["Application process", "Same form, shorter review period", "Same form, longer assessment process"]
+        [
+          "Duration limit",
+          "Issued for up to 6 months",
+          "Indefinite"
+        ],
+        [
+          "Medical reviews",
+          "Must be re-assessed every 6 months",
+          "Periodic reviews, usually every 2–5 years"
+        ],
+        [
+          "Amount",
+          "R2,400 per month",
+          "R2,400 per month"
+        ],
+        [
+          "Who qualifies",
+          "Disability expected to last 6–12 months",
+          "Permanent disability with no expected recovery"
+        ],
+        [
+          "Application process",
+          "Same form, shorter review period",
+          "Same form, longer assessment process"
+        ]
       ],
       "caption": "Both grants pay the same monthly amount. The main difference is how often you need to be re-assessed."
     },
@@ -167,11 +238,26 @@
       "id": "apply-steps",
       "type": "steps",
       "steps": [
-        { "title": "Collect all documents", "description": "Gather your ID, proof of residence, proof of income/assets, and the SASSA medical report form completed by your doctor." },
-        { "title": "Visit your nearest SASSA office", "description": "Take the originals plus photocopies to your local SASSA office. Tell the officer you want to apply for the Disability Grant." },
-        { "title": "Fill in the application form", "description": "Complete the main application form at the office in the presence of a SASSA officer. They will also take your fingerprints." },
-        { "title": "Attend the medical assessment", "description": "SASSA will give you a date to see the District Surgeon for the medical examination." },
-        { "title": "Wait for the outcome", "description": "SASSA aims to process applications within 90 days. Payments are backdated to your application date if approved." }
+        {
+          "title": "Collect all documents",
+          "description": "Gather your ID, proof of residence, proof of income/assets, and the SASSA medical report form completed by your doctor."
+        },
+        {
+          "title": "Visit your nearest SASSA office",
+          "description": "Take the originals plus photocopies to your local SASSA office. Tell the officer you want to apply for the Disability Grant."
+        },
+        {
+          "title": "Fill in the application form",
+          "description": "Complete the main application form at the office in the presence of a SASSA officer. They will also take your fingerprints."
+        },
+        {
+          "title": "Attend the medical assessment",
+          "description": "SASSA will give you a date to see the District Surgeon for the medical examination."
+        },
+        {
+          "title": "Wait for the outcome",
+          "description": "SASSA aims to process applications within 90 days. Payments are backdated to your application date if approved."
+        }
       ]
     },
     {
@@ -223,9 +309,21 @@
     }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" },
-    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
-    { "title": "Disability Grant FAQ", "slug": "/faq" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Care Dependency Grant",
+      "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Grant-in-Aid",
+      "slug": "/grants/grant-in-aid"
+    },
+    {
+      "title": "Disability Grant FAQ",
+      "slug": "/faq"
+    }
   ]
 }

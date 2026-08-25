@@ -8,82 +8,329 @@
   "version": "1.0.0",
   "readingTime": "8 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Child Support Grant Means Test — Guide for Caregivers 2026",
     "metaDescription": "Complete guide to the SASSA Child Support Grant means test: caregiver income thresholds (R63,600/yr single), what counts as income, informal work rules, and how income changes affect your grant.",
-    "keywords": ["child support grant means test", "CSG income threshold", "SASSA caregiver income", "CSG application", "child grant South Africa", "SASSA means test"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Child Support Grant Means Test" }
+    "keywords": [
+      "child support grant means test",
+      "CSG income threshold",
+      "SASSA caregiver income",
+      "CSG application",
+      "child grant South Africa",
+      "SASSA means test"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Child Support Grant Means Test"
+    }
   },
   "contentBlocks": [
-    { "id": "hero", "type": "hero", "title": "Child Support Grant — Means Test Guide for Caregivers", "description": "Everything you need to know about the income test for the SASSA Child Support Grant. Understand what counts as income, how thresholds work, and what to do if your income changes.", "readingTime": "8 min read", "lastUpdated": "2026-07-27", "cta": { "label": "Check Your Eligibility", "href": "/eligibility" }, "secondaryCta": { "label": "Apply Now", "href": "/grants/child-support-grant" } },
-    { "id": "summary", "type": "grant-summary", "amount": "R580", "frequency": "Monthly per child (R830 for orphans in CSG Top-Up)", "targetGroup": "Primary caregivers of children under 18 who meet the means test requirements." },
-    { "id": "intro", "type": "paragraph", "text": "The Child Support Grant (CSG) means test is a financial assessment SASSA uses to determine whether a caregiver qualifies for the grant. Unlike some other grants, the CSG means test looks at the caregiver's income — not the child's. Many applicants are confused about what counts as income, especially when it comes to informal work, help from family, or stokvel payouts. This guide breaks it all down clearly." },
-    { "id": "general-guide-callout", "type": "callout", "intent": "info", "title": "How the general means test works", "text": "This guide covers CSG-specific means test rules. For a full explanation of how the SASSA means test works across all grant types — including the sliding scale, asset valuation, and bank verification — see our comprehensive guide to understanding the means test." },
-    { "id": "thresholds-h", "type": "heading", "level": 3, "text": "Income Thresholds for the Child Support Grant" },
-    { "id": "thresholds-table", "type": "table", "caption": "CSG Means Test Income Thresholds (2026)", "headers": ["Caregiver Status", "Annual Income Threshold", "Monthly Equivalent"], "rows": [
-      ["Single caregiver (unmarried, divorced, widowed)", "R63,600 per year", "R5,300 per month"],
-      ["Married caregiver (spouse's income included)", "R127,200 per year (combined)", "R10,600 per month (combined)"]
-    ]},
-    { "id": "informal-income-h", "type": "heading", "level": 3, "text": "How Informal Income Is Assessed" },
-    { "id": "informal-income-p", "type": "paragraph", "text": "SASSA understands that many caregivers work informally or receive irregular help. Piece jobs, occasional cash work, help from family members, and stokvel payouts all count toward the means test — but they are assessed on what you actually receive, not what you could earn. SASSA will ask you to declare these amounts honestly. If you get R300 from a piece job this week and R200 from a family member next week, you add it up over the year. The key is that irregular income is averaged out over 12 months, so a single good month will not necessarily push you over the threshold." },
-    { "id": "counts-h", "type": "heading", "level": 3, "text": "What Counts as Income for the Means Test" },
-    { "id": "counts-table", "type": "table", "caption": "Income Types That Count Toward the Means Test", "headers": ["Income Type", "Examples", "Notes"], "rows": [
-      ["Salary / wages", "Full-time or part-time employment income", "Before any deductions (gross pay)"],
-      ["Commission / bonuses", "Sales commission, performance bonuses", "Include regular and once-off payments"],
-      ["Tips / gratuities", "Tips from waitressing, car guarding, delivery work", "Estimate honestly based on typical week"],
-      ["Rental income", "Money from tenants or lodgers", "After deducting municipal costs if you pay them"],
-      ["UIF / unemployment benefits", "UIF payments while unemployed", "Temporary — still counts while received"],
-      ["Maintenance received", "Child maintenance from the other parent", "Include all court-ordered or informal maintenance"],
-      ["Spaza shop / informal business profit", "Profit from selling goods, food, or services", "Profit (revenue minus costs), not turnover"],
-      ["Piece jobs / casual work", "Day labour, domestic work, gardening", "Add up what you actually earn, estimate yearly"],
-      ["Help from family", "Regular financial help from parents, siblings, partner", "Include if it is regular and predictable"],
-      ["Stokvel payouts", "Annual or monthly stokvel or savings club payouts", "Divide annual payout by 12 for monthly figure"]
-    ]},
-    { "id": "not-counts-h", "type": "heading", "level": 3, "text": "What Does NOT Count as Income" },
-    { "id": "not-counts-list", "type": "list", "ordered": false, "items": [
-      "The Child Support Grant itself — the grant you receive is not counted as income",
-      "Foster Care Grant received for a child in your care",
-      "Disability Grant that belongs to the grant recipient (not the caregiver)",
-      "Care Dependency Grant received for a child with disabilities",
-      "Grant-in-Aid received by an older person in your household",
-      "SARS tax credits or rebates"
-    ]},
-    { "id": "docs-h", "type": "heading", "level": 3, "text": "Documents Needed to Prove Your Income" },
-    { "id": "docs", "type": "document-checklist", "documents": [
-      { "label": "Payslips for the last 3 months (if employed)", "required": true },
-      { "label": "Bank statements for the last 3 months (all accounts)", "required": true },
-      { "label": "Affidavit declaring any informal or irregular income", "required": true },
-      { "label": "Proof of any maintenance received (bank deposits, court order)", "required": false },
-      { "label": "UIF payment letter or statement (if receiving UIF)", "required": false },
-      { "label": "Spouse's proof of income if married (payslips, bank statements)", "required": true },
-      { "label": "Marriage certificate or proof of marital status", "required": true },
-      { "label": "Affidavit if unemployed confirming no income", "required": true }
-    ]},
-    { "id": "exceed-callout", "type": "callout", "intent": "warning", "title": "What If Your Income Exceeds the Threshold?", "text": "If your income goes above the means test threshold, SASSA may reduce your grant amount or cancel it entirely. However, you do not lose the grant immediately — SASSA will notify you and give you a chance to respond. If your income later drops below the threshold, you can reapply. The key is to always declare your income honestly — if SASSA finds you have hidden income, you could be asked to repay grants you received unfairly." },
-    { "id": "changes-h", "type": "heading", "level": 3, "text": "What to Do If Your Income Changes" },
-    { "id": "changes-steps", "type": "steps", "steps": [
-      { "title": "Report the change to SASSA immediately", "description": "Visit your nearest SASSA office and inform them that your income has changed — either increased or decreased." },
-      { "title": "Bring supporting documents", "description": "Take proof of your new income (new payslips, retrenchment letter, affidavit, etc.) to support your declaration." },
-      { "title": "Complete a review form", "description": "SASSA may ask you to fill out a review or reassessment form so they can recalculate your eligibility." },
-      { "title": "Wait for the reassessment", "description": "SASSA will process the change and notify you in writing whether your grant amount has changed or if you still qualify." },
-      { "title": "Appeal if needed", "description": "If your grant is reduced or cancelled and you disagree with the decision, you have 90 days to appeal." }
-    ]},
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "What if I am unemployed but my spouse works?", "answer": "If you are married, SASSA considers the combined income of both spouses. Even if you personally earn nothing, your spouse's income is included in the means test. The combined threshold is R127,200 per year. If your spouse earns above this, you may not qualify for the grant unless your household income falls within the threshold." },
-      { "question": "What if I receive maintenance for the child — does that count as income?", "answer": "Yes. Maintenance received from the other parent counts as income for the means test. This includes both court-ordered maintenance and informal agreements. If the maintenance is paid into your bank account, SASSA will see it on your statements, so always declare it honestly." },
-      { "question": "Can grandparents apply for the CSG without their own income being tested?", "answer": "Grandparents who are primary caregivers can apply for the CSG on behalf of the child. Your income is tested just like any other caregiver. However, if you already receive an Older Person Grant, that grant itself is not counted — but any other income you have (pension from work, rental income, etc.) is still assessed." },
-      { "question": "What if I work part-time or only during certain months?", "answer": "Part-time income still counts, but SASSA will average it over 12 months. For example, if you earn R10,000 over 3 months of seasonal work, that works out to about R833 per month averaged across the year. This averaging can help you stay within the threshold even if you have busy periods." },
-      { "question": "How does SASSA verify the income I declare?", "answer": "SASSA cross-checks your declared income against bank statements, payslips, and other documents you submit. They may also verify with your employer, check UIF records, or request additional proof. If SASSA suspects under-declaration, they can investigate and request further documentation. Always declare honestly — the consequences of hiding income include repayment demands and possible legal action." },
-      { "question": "Do I have to reapply if my income goes up and then down again?", "answer": "You do not need to submit a new application — a review of your existing grant should be sufficient. Visit your SASSA office, explain that your income has decreased, and provide proof. SASSA will reassess your grant. If your grant was cancelled due to high income, you will need to reapply from scratch." },
-      { "question": "What types of informal income do I need to declare?", "answer": "Any money you receive regularly or irregularly must be declared. This includes piece jobs (odd jobs like gardening, cleaning, or labour), money from family members who help you out, stokvel or savings club payouts, selling goods like clothes or food, and any tips or gratuities. If you are unsure whether something counts, declare it anyway — it is better to be safe than to be accused of hiding income." }
-    ]}
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Child Support Grant — Means Test Guide for Caregivers",
+      "description": "Everything you need to know about the income test for the SASSA Child Support Grant. Understand what counts as income, how thresholds work, and what to do if your income changes.",
+      "readingTime": "8 min read",
+      "lastUpdated": "2026-07-27",
+      "cta": {
+        "label": "Check Your Eligibility",
+        "href": "/eligibility"
+      },
+      "secondaryCta": {
+        "label": "Apply Now",
+        "href": "/grants/child-support-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R580",
+      "frequency": "Monthly per child (R830 for orphans in CSG Top-Up)",
+      "targetGroup": "Primary caregivers of children under 18 who meet the means test requirements."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The Child Support Grant (CSG) means test is a financial assessment SASSA uses to determine whether a caregiver qualifies for the grant. Unlike some other grants, the CSG means test looks at the caregiver's income — not the child's. Many applicants are confused about what counts as income, especially when it comes to informal work, help from family, or stokvel payouts. This guide breaks it all down clearly."
+    },
+    {
+      "id": "general-guide-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "How the general means test works",
+      "text": "This guide covers CSG-specific means test rules. For a full explanation of how the SASSA means test works across all grant types — including the sliding scale, asset valuation, and bank verification — see our comprehensive guide to understanding the means test."
+    },
+    {
+      "id": "thresholds-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Income Thresholds for the Child Support Grant"
+    },
+    {
+      "id": "thresholds-table",
+      "type": "table",
+      "caption": "CSG Means Test Income Thresholds (2026)",
+      "headers": [
+        "Caregiver Status",
+        "Annual Income Threshold",
+        "Monthly Equivalent"
+      ],
+      "rows": [
+        [
+          "Single caregiver (unmarried, divorced, widowed)",
+          "R63,600 per year",
+          "R5,300 per month"
+        ],
+        [
+          "Married caregiver (spouse's income included)",
+          "R127,200 per year (combined)",
+          "R10,600 per month (combined)"
+        ]
+      ]
+    },
+    {
+      "id": "informal-income-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How Informal Income Is Assessed"
+    },
+    {
+      "id": "informal-income-p",
+      "type": "paragraph",
+      "text": "SASSA understands that many caregivers work informally or receive irregular help. Piece jobs, occasional cash work, help from family members, and stokvel payouts all count toward the means test — but they are assessed on what you actually receive, not what you could earn. SASSA will ask you to declare these amounts honestly. If you get R300 from a piece job this week and R200 from a family member next week, you add it up over the year. The key is that irregular income is averaged out over 12 months, so a single good month will not necessarily push you over the threshold."
+    },
+    {
+      "id": "counts-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Counts as Income for the Means Test"
+    },
+    {
+      "id": "counts-table",
+      "type": "table",
+      "caption": "Income Types That Count Toward the Means Test",
+      "headers": [
+        "Income Type",
+        "Examples",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Salary / wages",
+          "Full-time or part-time employment income",
+          "Before any deductions (gross pay)"
+        ],
+        [
+          "Commission / bonuses",
+          "Sales commission, performance bonuses",
+          "Include regular and once-off payments"
+        ],
+        [
+          "Tips / gratuities",
+          "Tips from waitressing, car guarding, delivery work",
+          "Estimate honestly based on typical week"
+        ],
+        [
+          "Rental income",
+          "Money from tenants or lodgers",
+          "After deducting municipal costs if you pay them"
+        ],
+        [
+          "UIF / unemployment benefits",
+          "UIF payments while unemployed",
+          "Temporary — still counts while received"
+        ],
+        [
+          "Maintenance received",
+          "Child maintenance from the other parent",
+          "Include all court-ordered or informal maintenance"
+        ],
+        [
+          "Spaza shop / informal business profit",
+          "Profit from selling goods, food, or services",
+          "Profit (revenue minus costs), not turnover"
+        ],
+        [
+          "Piece jobs / casual work",
+          "Day labour, domestic work, gardening",
+          "Add up what you actually earn, estimate yearly"
+        ],
+        [
+          "Help from family",
+          "Regular financial help from parents, siblings, partner",
+          "Include if it is regular and predictable"
+        ],
+        [
+          "Stokvel payouts",
+          "Annual or monthly stokvel or savings club payouts",
+          "Divide annual payout by 12 for monthly figure"
+        ]
+      ]
+    },
+    {
+      "id": "not-counts-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Does NOT Count as Income"
+    },
+    {
+      "id": "not-counts-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The Child Support Grant itself — the grant you receive is not counted as income",
+        "Foster Care Grant received for a child in your care",
+        "Disability Grant that belongs to the grant recipient (not the caregiver)",
+        "Care Dependency Grant received for a child with disabilities",
+        "Grant-in-Aid received by an older person in your household",
+        "SARS tax credits or rebates"
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Documents Needed to Prove Your Income"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Payslips for the last 3 months (if employed)",
+          "required": true
+        },
+        {
+          "label": "Bank statements for the last 3 months (all accounts)",
+          "required": true
+        },
+        {
+          "label": "Affidavit declaring any informal or irregular income",
+          "required": true
+        },
+        {
+          "label": "Proof of any maintenance received (bank deposits, court order)",
+          "required": false
+        },
+        {
+          "label": "UIF payment letter or statement (if receiving UIF)",
+          "required": false
+        },
+        {
+          "label": "Spouse's proof of income if married (payslips, bank statements)",
+          "required": true
+        },
+        {
+          "label": "Marriage certificate or proof of marital status",
+          "required": true
+        },
+        {
+          "label": "Affidavit if unemployed confirming no income",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "exceed-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "What If Your Income Exceeds the Threshold?",
+      "text": "If your income goes above the means test threshold, SASSA may reduce your grant amount or cancel it entirely. However, you do not lose the grant immediately — SASSA will notify you and give you a chance to respond. If your income later drops below the threshold, you can reapply. The key is to always declare your income honestly — if SASSA finds you have hidden income, you could be asked to repay grants you received unfairly."
+    },
+    {
+      "id": "changes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Do If Your Income Changes"
+    },
+    {
+      "id": "changes-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Report the change to SASSA immediately",
+          "description": "Visit your nearest SASSA office and inform them that your income has changed — either increased or decreased."
+        },
+        {
+          "title": "Bring supporting documents",
+          "description": "Take proof of your new income (new payslips, retrenchment letter, affidavit, etc.) to support your declaration."
+        },
+        {
+          "title": "Complete a review form",
+          "description": "SASSA may ask you to fill out a review or reassessment form so they can recalculate your eligibility."
+        },
+        {
+          "title": "Wait for the reassessment",
+          "description": "SASSA will process the change and notify you in writing whether your grant amount has changed or if you still qualify."
+        },
+        {
+          "title": "Appeal if needed",
+          "description": "If your grant is reduced or cancelled and you disagree with the decision, you have 90 days to appeal."
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What if I am unemployed but my spouse works?",
+          "answer": "If you are married, SASSA considers the combined income of both spouses. Even if you personally earn nothing, your spouse's income is included in the means test. The combined threshold is R127,200 per year. If your spouse earns above this, you may not qualify for the grant unless your household income falls within the threshold."
+        },
+        {
+          "question": "What if I receive maintenance for the child — does that count as income?",
+          "answer": "Yes. Maintenance received from the other parent counts as income for the means test. This includes both court-ordered maintenance and informal agreements. If the maintenance is paid into your bank account, SASSA will see it on your statements, so always declare it honestly."
+        },
+        {
+          "question": "Can grandparents apply for the CSG without their own income being tested?",
+          "answer": "Grandparents who are primary caregivers can apply for the CSG on behalf of the child. Your income is tested just like any other caregiver. However, if you already receive an Older Person Grant, that grant itself is not counted — but any other income you have (pension from work, rental income, etc.) is still assessed."
+        },
+        {
+          "question": "What if I work part-time or only during certain months?",
+          "answer": "Part-time income still counts, but SASSA will average it over 12 months. For example, if you earn R10,000 over 3 months of seasonal work, that works out to about R833 per month averaged across the year. This averaging can help you stay within the threshold even if you have busy periods."
+        },
+        {
+          "question": "How does SASSA verify the income I declare?",
+          "answer": "SASSA cross-checks your declared income against bank statements, payslips, and other documents you submit. They may also verify with your employer, check UIF records, or request additional proof. If SASSA suspects under-declaration, they can investigate and request further documentation. Always declare honestly — the consequences of hiding income include repayment demands and possible legal action."
+        },
+        {
+          "question": "Do I have to reapply if my income goes up and then down again?",
+          "answer": "You do not need to submit a new application — a review of your existing grant should be sufficient. Visit your SASSA office, explain that your income has decreased, and provide proof. SASSA will reassess your grant. If your grant was cancelled due to high income, you will need to reapply from scratch."
+        },
+        {
+          "question": "What types of informal income do I need to declare?",
+          "answer": "Any money you receive regularly or irregularly must be declared. This includes piece jobs (odd jobs like gardening, cleaning, or labour), money from family members who help you out, stokvel or savings club payouts, selling goods like clothes or food, and any tips or gratuities. If you are unsure whether something counts, declare it anyway — it is better to be safe than to be accused of hiding income."
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
-    { "title": "Foster Care Grant", "slug": "/grants/foster-care-grant" },
-    { "title": "How to Apply for the CSG", "slug": "/grants/child-support-grant" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "Foster Care Grant",
+      "slug": "/grants/foster-care-grant"
+    },
+    {
+      "title": "How to Apply for the CSG",
+      "slug": "/grants/child-support-grant"
+    }
   ]
 }

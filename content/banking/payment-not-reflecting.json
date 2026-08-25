@@ -7,122 +7,492 @@
   "lastUpdated": "2026-07-27",
   "version": "2.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Payment Not Reflecting — Escalation Guide for Missing Grant Payments",
     "metaDescription": "Escalation guide for SASSA payments not reflecting. Decision trees, provincial office contacts, phone scripts, and what to do after 30 days without payment.",
-    "keywords": ["SASSA payment not reflecting", "SASSA payment not in account", "SASSA approved but no payment", "SRD approved no money", "SASSA payment delay", "SASSA escalation", "SASSA provincial office contacts", "SASSA 30 days no payment"]
+    "keywords": [
+      "SASSA payment not reflecting",
+      "SASSA payment not in account",
+      "SASSA approved but no payment",
+      "SRD approved no money",
+      "SASSA payment delay",
+      "SASSA escalation",
+      "SASSA provincial office contacts",
+      "SASSA 30 days no payment"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Payment Not Reflecting — Complete Escalation Guide",
       "description": "Your SASSA grant was approved but the money hasn't appeared in your account. This guide walks you through every troubleshooting step, the decision tree for your specific situation, provincial escalation contacts, and exactly what to say when you call SASSA.",
       "readingTime": "8 min read",
       "lastUpdated": "July 2026",
-      "cta": { "label": "Check Your Status", "href": "/guides/how-to-check-sassa-status" },
-      "secondaryCta": { "label": "Update Bank Details", "href": "/banking/update-bank-details" }
+      "cta": {
+        "label": "Check Your Status",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "label": "Update Bank Details",
+        "href": "/banking/update-bank-details"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Payment Not Reflecting — Troubleshooting & Escalation Guide" },
-    { "id": "callout-first", "type": "callout", "intent": "info", "title": "First Thing to Do: Don't Panic — Check Your Status", "text": "Before you do anything else, go to srd.sassa.gov.za (or the SASSA website for other grants) and check your current status. Most delays are simply due to bank processing times and resolve within 1-3 business days. If your status says 'Approved' or 'Payment Processing', the money is coming — it just has not landed in your account yet. Panicking and changing your bank details while a payment is being processed will only delay things further." },
-    { "id": "step1-h", "type": "heading", "level": 3, "text": "Step 1: Check Your Current Grant Status" },
-    { "id": "step1-text", "type": "paragraph", "text": "Log into the SASSA portal and check exactly where your payment is in the pipeline. Your status tells you whether SASSA has released the funds or whether there is a problem that needs your attention:" },
-    { "id": "status-table", "type": "table", "headers": ["Status", "What It Means", "What to Do"], "rows": [
-      ["Approved", "You qualify but payment has not been sent yet", "Wait. Pay date should appear within 2-5 days."],
-      ["Payment Processing", "Funds are being transferred", "Wait 1-3 business days for your bank to credit the funds."],
-      ["Pending", "Your application is still being reviewed", "No payment will be made until this changes."],
-      ["Declined", "You did not qualify for this month", "Check the reason and appeal if needed."],
-      ["Bank Verification", "Your bank details are being checked", "Ensure your account is active and in your name."]
-    ] },
-    { "id": "step2-h", "type": "heading", "level": 3, "text": "Step 2: Understand Bank Processing Times" },
-    { "id": "step2-text", "type": "paragraph", "text": "SASSA releases payments in batches over several days. Even after SASSA sends the money, your bank needs time to process the EFT deposit. Here is how long each bank typically takes:" },
-    { "id": "bank-table", "type": "table", "headers": ["Bank", "Typical Time to Reflect"], "rows": [
-      ["Capitec", "Same day (2-4 hours after SASSA release)"],
-      ["FNB", "Same day to 1 business day"],
-      ["Standard Bank", "1 to 2 business days"],
-      ["Absa", "1 to 2 business days"],
-      ["Nedbank", "1 to 2 business days"],
-      ["TymeBank", "Same day"],
-      ["Postbank", "Same day to 1 business day"],
-      ["Cash Send (retail)", "24-48 hours for SMS voucher"]
-    ] },
-    { "id": "scenario1-h", "type": "heading", "level": 4, "text": "Scenario A: Status Says 'Approved' But No Payment Arrived" },
-    { "id": "scenario1-steps", "type": "steps", "steps": [
-      { "title": "Confirm your pay date", "description": "Log into the portal and look for a specific pay date. If none appears, you may have been approved for a future cycle, not the current month. The pay date typically appears 2-5 days after approval." },
-      { "title": "Check your payment method on the portal", "description": "Go to the 'Payment Method' section. If it says 'Cash Send', check your SMS inbox for the voucher. If it says 'Bank', verify the account number displayed is correct." },
-      { "title": "Wait 5 business days from the official pay date", "description": "Count 5 business days from the official pay date (not from the date you checked your status). Settlement batch processing by both SASSA and your bank can cause delays." },
-      { "title": "Contact your bank first", "description": "Call your bank and ask: 'Was an EFT deposit from SASSA received, rejected, or held for verification?' Some banks flag SASSA deposits as suspicious and hold them." },
-      { "title": "Escalate to SASSA if still missing", "description": "After 5 business days with no payment, call 0800 60 10 11. Have your ID number, grant type, and status details ready." }
-    ] },
-    { "id": "scenario2-h", "type": "heading", "level": 4, "text": "Scenario B: Status Shows 'Bank Verification'" },
-    { "id": "scenario2-steps", "type": "steps", "steps": [
-      { "title": "Check your account number on the portal", "description": "Log into srd.sassa.gov.za and confirm the account number, branch code, and account type are 100% correct. One wrong digit will block your payment." },
-      { "title": "Verify with your bank", "description": "Visit your bank or call them. Ask: 'Is my ID number correctly linked to this account? Is the account active and accepting EFT deposits?' Request a stamped confirmation letter if possible." },
-      { "title": "Fix name mismatches", "description": "If your bank account uses a short name or a different spelling (e.g. 'T Mokoena' instead of 'Thabo Mokoena'), ask the bank to update it to match your ID. Name mismatches are the #1 cause of bank verification failure." },
-      { "title": "Switch to Cash Send as a backup", "description": "If you need your grant immediately while resolving bank issues, switch your payment method to Cash Send on the SRD portal. You can switch back to bank transfer once verification is resolved." }
-    ] },
-    { "id": "scenario3-h", "type": "heading", "level": 4, "text": "Scenario C: Status Says 'Declined' Without a Clear Reason" },
-    { "id": "scenario3-steps", "type": "steps", "steps": [
-      { "title": "Check the decline reason on the portal", "description": "Log into srd.sassa.gov.za. The decline reason will be shown. Common reasons include 'Alternative Income Source', 'Means Test Failed', 'Identity Verification Failed', 'UIF Registered', or 'NSFAS Registered'." },
-      { "title": "Submit an appeal online", "description": "Go to srd.dsd.gov.za. Enter your ID and phone number, verify with the OTP, select the declined month(s), choose your appeal reason, and upload supporting documents. You have 90 days from the decline notification to appeal." },
-      { "title": "Prepare a sworn affidavit if needed", "description": "If the decline is due to deposits in your bank account, visit your nearest SAPS station and prepare a sworn affidavit explaining each deposit that is not actual income (gifts, transfers between accounts, loan repayments)." },
-      { "title": "Visit your nearest SASSA office", "description": "If the online portal does not show a reason, go to your nearest SASSA office with your ID. Ask them to print your assessment report so you can see exactly why you were declined and what evidence you need to appeal." }
-    ] },
-    { "id": "scenario4-h", "type": "heading", "level": 4, "text": "Scenario D: Paid the Wrong Amount or You Were Overpaid" },
-    { "id": "scenario4-steps", "type": "steps", "steps": [
-      { "title": "Verify the correct grant amount", "description": "Check the official SASSA grant amounts: SRD R370 is R370/month, Older Person Grant is R2,190-R2,210/month, Child Support Grant is R530/month, Disability Grant is R2,190/month, Foster Care Grant is R1,190/month. Confirm what you should be receiving." },
-      { "title": "If you were underpaid", "description": "Call 0800 60 10 11 and request a payment adjustment. Have your ID, grant type, and the amount you received ready. SASSA may issue a supplemental payment in your next cycle." },
-      { "title": "If you were overpaid or received double payment", "description": "Do not spend the extra money. Contact SASSA immediately at 0800 60 10 11 and report the overpayment. SASSA will reverse the duplicate transaction. Spending money that was not meant for you can result in grant suspension or legal recovery action." },
-      { "title": "Keep a written record of everything", "description": "Write down the date you called, the agent's name, and any case reference number. This protects you if there is a dispute later or if the issue is not resolved in one call." }
-    ] },
-    { "id": "escalation-h", "type": "heading", "level": 3, "text": "Provincial Escalation Contacts" },
-    { "id": "escalation-intro", "type": "paragraph", "text": "If the national toll-free line cannot resolve your issue, escalate to your province's SASSA regional office. These offices handle payment investigations and can intervene directly at the local level." },
-    { "id": "escalation-table", "type": "table", "headers": ["Province", "Regional Office", "Phone Number", "Physical Address"], "rows": [
-      ["Eastern Cape", "East London", "043 707 6300", "BKB Building, Cnr Fitzpatrick & Merino Road, Quigney, East London, 5200"],
-      ["Free State", "Bloemfontein", "051 410 8339", "Cnr St. Andrew Street & Aliwal Street, Bloemfontein, 9300"],
-      ["Gauteng", "Johannesburg", "011 241 8320", "222 Smit Street, Braamfontein, Johannesburg, 2000"],
-      ["KwaZulu-Natal", "Pietermaritzburg", "033 846 3324", "1 Bank Street, Pietermaritzburg, 3201"],
-      ["Limpopo", "Polokwane", "015 291 7509", "43 Landros Mare Street, Polokwane, 0699"],
-      ["Mpumalanga", "Nelspruit", "013 754 9446", "18 Ferreira Street, Nelspruit, 1200"],
-      ["North West", "Mahikeng", "018 388 4006", "SASSA House, Cnr Sekame & Dr James Moroka, Mega City, Mahikeng, 2735"],
-      ["Northern Cape", "Kimberley", "053 802 4919", "Permanent 'Perm' Building, 33 Du Toitspan Road, Kimberley, 8300"],
-      ["Western Cape", "Cape Town", "021 469 0235", "Golden Acre, 9 Adderley Street, Cape Town, 8001"]
-    ] },
-    { "id": "escalation-timeline-h", "type": "heading", "level": 3, "text": "When to Escalate — The Right Timing" },
-    { "id": "escalation-timeline", "type": "paragraph", "text": "Escalating at the right time saves you frustration. Here is the correct escalation path: After 5 business days from the official pay date with no payment in your account, call the SASSA toll-free number (0800 60 10 11). If the toll-free line does not resolve it within 2 more business days, contact your provincial regional office directly. After 30 days of no payment with no resolution from either channel, escalate to the SASSA Head Office at 012 400 2322 or email GrantEnquiries@sassa.gov.za with your full timeline and case reference numbers. After 60 days with no resolution, contact the Presidential Hotline on 17737 — this is a dedicated service delivery complaint hotline that applies pressure on government departments." },
-    { "id": "phone-script-h", "type": "heading", "level": 3, "text": "What to Say When You Call SASSA" },
-    { "id": "phone-script-list", "type": "list", "ordered": true, "items": [
-      "Have your 13-digit South African ID number ready before you dial. The agent will ask for this first. If you do not have it ready, the call will be wasted.",
-      "State your grant type clearly: 'SRD R370 grant', 'Old Age Pension', 'Child Support Grant', or whichever grant you receive. Different grants have different payment schedules and departments.",
-      "Tell the agent your current portal status: 'My status on the SASSA portal shows [Approved / Payment Processing / Declined] but I have not received the money in my account.'",
-      "Provide the expected payment date: 'My payment was supposed to arrive on [specific date].' If you do not know the date, say 'My status says approved but there is no pay date visible.'",
-      "Mention what you have already done to resolve it: 'I have checked my bank details on the portal, waited 5 business days, and contacted my bank to confirm no deposit was received.' This shows you have followed the process.",
-      "Ask for a case reference number: 'Can you please give me a reference number for this query?' Write it down immediately. Without a reference number, there is no record of your call.",
-      "Note the agent's full name and the date and time of your call. If you need to call back, you can reference the case number and agent name to avoid repeating your story."
-    ] },
-    { "id": "callout-0800", "type": "callout", "intent": "info", "title": "SASSA Official Contact Centre: 0800 60 10 11", "text": "The SASSA toll-free number is 0800 60 10 11. It is free to call from any phone in South Africa, including cellphones. Lines are open Monday to Friday, 8:00 to 16:00. Best times to call: early morning (8:00-9:00) or mid-afternoon (14:00-15:30). Avoid Mondays, Fridays, and the first week of the month when the lines are busiest. If you cannot get through, try WhatsApp at 082 046 8553 (24/7 automated) or email GrantEnquiries@sassa.gov.za (response within 2-5 business days)." },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "My status has been 'Payment Processing' for two weeks. What is going on?", "answer": "Payment Processing should normally update within 1-3 business days. If it has been stuck for two weeks, the payment may have failed or bounced back. Call SASSA at 0800 60 10 11 and ask them to check whether the EFT was returned. You may need to verify your bank details or switch to Cash Send if your bank account has an issue." },
-      { "question": "I switched banks and now my payment is missing. What happened?", "answer": "When you change bank accounts, SASSA must complete a new bank verification that takes 5-10 business days. If you changed your details after the 20th of the month, the change may not take effect until the following month. Your current month's payment may have been sent to your old account. Check your old account or call SASSA to confirm where the payment was directed." },
-      { "question": "They paid me less than the usual amount. What should I do?", "answer": "First check the official grant amount for your specific grant type — amounts change with annual adjustments. If you were genuinely underpaid, call 0800 60 10 11 and request a payment adjustment. SASSA may issue a supplemental payment in the next cycle. Keep records of what you received and what you were supposed to receive." },
-      { "question": "I got paid twice — what do I do? Will SASSA take the money back?", "answer": "Do not spend the duplicate payment. Contact SASSA immediately at 0800 60 10 11 and report the overpayment. SASSA will reverse the duplicate transaction. If you have already spent the money, contact them anyway — they will arrange a repayment plan. Ignoring an overpayment can result in your grant being suspended or legal recovery action." },
-      { "question": "It has been three months and I still have not received payment. What are my options?", "answer": "Three months is far too long. Call 0800 60 10 11 immediately. If the toll-free line does not help, escalate to your provincial regional office using the table above. If still unresolved, email GrantEnquiries@sassa.gov.za with your ID number, grant type, and a detailed timeline of events. As a final step, call the Presidential Hotline on 17737 — this government service delivery hotline puts pressure on SASSA to act." },
-      { "question": "SASSA says I have 'alternative income' but I do not have a job. How do I prove this?", "answer": "This status is triggered when your bank account receives deposits totalling more than R624 in a calendar month — even gifts from family, loan repayments, or money you transferred between your own accounts. You must appeal by going to srd.dsd.gov.za and submitting a sworn affidavit from your nearest SAPS station explaining each deposit. Include supporting letters from anyone who sent you money confirming it was a gift, not income." },
-      { "question": "I received a payment meant for someone else. What should I do?", "answer": "Do not withdraw or spend the money. Inform SASSA immediately by calling 0800 60 10 11. They will investigate and reverse the incorrect payment. If you spend money that was deposited into your account by mistake, SASSA can take legal steps to recover it and you may be disqualified from receiving grants in future." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "How to Update Bank Details", "href": "/banking/update-bank-details", "description": "Step-by-step guide to changing your bank account" },
-      { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All the ways to receive your grant payment" },
-      { "title": "Bank Verification Process", "href": "/banking/bank-verification-process", "description": "How SASSA verifies your bank account" },
-      { "title": "Cash Send Collection Guide", "href": "/banking/cash-send-guide", "description": "How to collect your grant without a bank account" },
-      { "title": "How to Appeal a Declined Grant", "href": "/appeals/how-to-appeal", "description": "Complete guide to the ITSAA appeal process" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Payment Not Reflecting — Troubleshooting & Escalation Guide"
+    },
+    {
+      "id": "callout-first",
+      "type": "callout",
+      "intent": "info",
+      "title": "First Thing to Do: Don't Panic — Check Your Status",
+      "text": "Before you do anything else, go to srd.sassa.gov.za (or the SASSA website for other grants) and check your current status. Most delays are simply due to bank processing times and resolve within 1-3 business days. If your status says 'Approved' or 'Payment Processing', the money is coming — it just has not landed in your account yet. Panicking and changing your bank details while a payment is being processed will only delay things further."
+    },
+    {
+      "id": "payday-today-h",
+      "type": "heading",
+      "level": 2,
+      "text": "It's Pay Day Today and My Money Isn't Here"
+    },
+    {
+      "id": "payday-today",
+      "type": "paragraph",
+      "text": "If today is your pay day and nothing has arrived yet, work through this before anything else. Bank transfers do not all land at the same moment — different banks credit incoming SASSA payments at different speeds, and a payment released later in the day can reflect the next business morning. If you collect via Cash Send, your money is only ready once the SMS voucher arrives on your phone; retailers cannot pay you without it. And if you receive the SRD R370 grant, remember that it is paid across a window of several days each month rather than to everyone on one single date, so being paid later in that window is normal."
+    },
+    {
+      "id": "payday-today-check",
+      "type": "callout",
+      "intent": "info",
+      "title": "Quick check",
+      "text": "Open your status portal now. As long as it shows 'Approved' or 'Payment Processing', your payment for this cycle has not failed — it simply has not reached you yet. Only when your pay date has passed with no money and no processing movement should you treat this as a real problem and follow the escalation steps below."
+    },
+    {
+      "id": "step1-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Step 1: Check Your Current Grant Status"
+    },
+    {
+      "id": "step1-text",
+      "type": "paragraph",
+      "text": "Log into the SASSA portal and check exactly where your payment is in the pipeline. Your status tells you whether SASSA has released the funds or whether there is a problem that needs your attention:"
+    },
+    {
+      "id": "status-table",
+      "type": "table",
+      "headers": [
+        "Status",
+        "What It Means",
+        "What to Do"
+      ],
+      "rows": [
+        [
+          "Approved",
+          "You qualify but payment has not been sent yet",
+          "Wait. Pay date should appear within 2-5 days."
+        ],
+        [
+          "Payment Processing",
+          "Funds are being transferred",
+          "Wait 1-3 business days for your bank to credit the funds."
+        ],
+        [
+          "Pending",
+          "Your application is still being reviewed",
+          "No payment will be made until this changes."
+        ],
+        [
+          "Declined",
+          "You did not qualify for this month",
+          "Check the reason and appeal if needed."
+        ],
+        [
+          "Bank Verification",
+          "Your bank details are being checked",
+          "Ensure your account is active and in your name."
+        ]
+      ]
+    },
+    {
+      "id": "step2-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Step 2: Understand Bank Processing Times"
+    },
+    {
+      "id": "step2-text",
+      "type": "paragraph",
+      "text": "SASSA releases payments in batches over several days. Even after SASSA sends the money, your bank needs time to process the EFT deposit. Here is how long each bank typically takes:"
+    },
+    {
+      "id": "bank-table",
+      "type": "table",
+      "headers": [
+        "Bank",
+        "Typical Time to Reflect"
+      ],
+      "rows": [
+        [
+          "Capitec",
+          "Same day (2-4 hours after SASSA release)"
+        ],
+        [
+          "FNB",
+          "Same day to 1 business day"
+        ],
+        [
+          "Standard Bank",
+          "1 to 2 business days"
+        ],
+        [
+          "Absa",
+          "1 to 2 business days"
+        ],
+        [
+          "Nedbank",
+          "1 to 2 business days"
+        ],
+        [
+          "TymeBank",
+          "Same day"
+        ],
+        [
+          "Postbank",
+          "Same day to 1 business day"
+        ],
+        [
+          "Cash Send (retail)",
+          "24-48 hours for SMS voucher"
+        ]
+      ]
+    },
+    {
+      "id": "scenario1-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Scenario A: Status Says 'Approved' But No Payment Arrived"
+    },
+    {
+      "id": "scenario1-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Confirm your pay date",
+          "description": "Log into the portal and look for a specific pay date. If none appears, you may have been approved for a future cycle, not the current month. The pay date typically appears 2-5 days after approval."
+        },
+        {
+          "title": "Check your payment method on the portal",
+          "description": "Go to the 'Payment Method' section. If it says 'Cash Send', check your SMS inbox for the voucher. If it says 'Bank', verify the account number displayed is correct."
+        },
+        {
+          "title": "Wait 5 business days from the official pay date",
+          "description": "Count 5 business days from the official pay date (not from the date you checked your status). Settlement batch processing by both SASSA and your bank can cause delays."
+        },
+        {
+          "title": "Contact your bank first",
+          "description": "Call your bank and ask: 'Was an EFT deposit from SASSA received, rejected, or held for verification?' Some banks flag SASSA deposits as suspicious and hold them."
+        },
+        {
+          "title": "Escalate to SASSA if still missing",
+          "description": "After 5 business days with no payment, call 0800 60 10 11. Have your ID number, grant type, and status details ready."
+        }
+      ]
+    },
+    {
+      "id": "scenario2-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Scenario B: Status Shows 'Bank Verification'"
+    },
+    {
+      "id": "scenario2-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Check your account number on the portal",
+          "description": "Log into srd.sassa.gov.za and confirm the account number, branch code, and account type are 100% correct. One wrong digit will block your payment."
+        },
+        {
+          "title": "Verify with your bank",
+          "description": "Visit your bank or call them. Ask: 'Is my ID number correctly linked to this account? Is the account active and accepting EFT deposits?' Request a stamped confirmation letter if possible."
+        },
+        {
+          "title": "Fix name mismatches",
+          "description": "If your bank account uses a short name or a different spelling (e.g. 'T Mokoena' instead of 'Thabo Mokoena'), ask the bank to update it to match your ID. Name mismatches are the #1 cause of bank verification failure."
+        },
+        {
+          "title": "Switch to Cash Send as a backup",
+          "description": "If you need your grant immediately while resolving bank issues, switch your payment method to Cash Send on the SRD portal. You can switch back to bank transfer once verification is resolved."
+        }
+      ]
+    },
+    {
+      "id": "scenario3-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Scenario C: Status Says 'Declined' Without a Clear Reason"
+    },
+    {
+      "id": "scenario3-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Check the decline reason on the portal",
+          "description": "Log into srd.sassa.gov.za. The decline reason will be shown. Common reasons include 'Alternative Income Source', 'Means Test Failed', 'Identity Verification Failed', 'UIF Registered', or 'NSFAS Registered'."
+        },
+        {
+          "title": "Submit an appeal online",
+          "description": "Go to srd.dsd.gov.za. Enter your ID and phone number, verify with the OTP, select the declined month(s), choose your appeal reason, and upload supporting documents. You have 90 days from the decline notification to appeal."
+        },
+        {
+          "title": "Prepare a sworn affidavit if needed",
+          "description": "If the decline is due to deposits in your bank account, visit your nearest SAPS station and prepare a sworn affidavit explaining each deposit that is not actual income (gifts, transfers between accounts, loan repayments)."
+        },
+        {
+          "title": "Visit your nearest SASSA office",
+          "description": "If the online portal does not show a reason, go to your nearest SASSA office with your ID. Ask them to print your assessment report so you can see exactly why you were declined and what evidence you need to appeal."
+        }
+      ]
+    },
+    {
+      "id": "scenario4-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Scenario D: Paid the Wrong Amount or You Were Overpaid"
+    },
+    {
+      "id": "scenario4-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Verify the correct grant amount",
+          "description": "Check the official SASSA grant amounts: SRD R370 is R370/month, Older Person Grant is R2,190-R2,210/month, Child Support Grant is R530/month, Disability Grant is R2,190/month, Foster Care Grant is R1,190/month. Confirm what you should be receiving."
+        },
+        {
+          "title": "If you were underpaid",
+          "description": "Call 0800 60 10 11 and request a payment adjustment. Have your ID, grant type, and the amount you received ready. SASSA may issue a supplemental payment in your next cycle."
+        },
+        {
+          "title": "If you were overpaid or received double payment",
+          "description": "Do not spend the extra money. Contact SASSA immediately at 0800 60 10 11 and report the overpayment. SASSA will reverse the duplicate transaction. Spending money that was not meant for you can result in grant suspension or legal recovery action."
+        },
+        {
+          "title": "Keep a written record of everything",
+          "description": "Write down the date you called, the agent's name, and any case reference number. This protects you if there is a dispute later or if the issue is not resolved in one call."
+        }
+      ]
+    },
+    {
+      "id": "escalation-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Provincial Escalation Contacts"
+    },
+    {
+      "id": "escalation-intro",
+      "type": "paragraph",
+      "text": "If the national toll-free line cannot resolve your issue, escalate to your province's SASSA regional office. These offices handle payment investigations and can intervene directly at the local level."
+    },
+    {
+      "id": "escalation-table",
+      "type": "table",
+      "headers": [
+        "Province",
+        "Regional Office",
+        "Phone Number",
+        "Physical Address"
+      ],
+      "rows": [
+        [
+          "Eastern Cape",
+          "East London",
+          "043 707 6300",
+          "BKB Building, Cnr Fitzpatrick & Merino Road, Quigney, East London, 5200"
+        ],
+        [
+          "Free State",
+          "Bloemfontein",
+          "051 410 8339",
+          "Cnr St. Andrew Street & Aliwal Street, Bloemfontein, 9300"
+        ],
+        [
+          "Gauteng",
+          "Johannesburg",
+          "011 241 8320",
+          "222 Smit Street, Braamfontein, Johannesburg, 2000"
+        ],
+        [
+          "KwaZulu-Natal",
+          "Pietermaritzburg",
+          "033 846 3324",
+          "1 Bank Street, Pietermaritzburg, 3201"
+        ],
+        [
+          "Limpopo",
+          "Polokwane",
+          "015 291 7509",
+          "43 Landros Mare Street, Polokwane, 0699"
+        ],
+        [
+          "Mpumalanga",
+          "Nelspruit",
+          "013 754 9446",
+          "18 Ferreira Street, Nelspruit, 1200"
+        ],
+        [
+          "North West",
+          "Mahikeng",
+          "018 388 4006",
+          "SASSA House, Cnr Sekame & Dr James Moroka, Mega City, Mahikeng, 2735"
+        ],
+        [
+          "Northern Cape",
+          "Kimberley",
+          "053 802 4919",
+          "Permanent 'Perm' Building, 33 Du Toitspan Road, Kimberley, 8300"
+        ],
+        [
+          "Western Cape",
+          "Cape Town",
+          "021 469 0235",
+          "Golden Acre, 9 Adderley Street, Cape Town, 8001"
+        ]
+      ]
+    },
+    {
+      "id": "escalation-timeline-h",
+      "type": "heading",
+      "level": 3,
+      "text": "When to Escalate — The Right Timing"
+    },
+    {
+      "id": "escalation-timeline",
+      "type": "paragraph",
+      "text": "Escalating at the right time saves you frustration. Here is the correct escalation path: After 5 business days from the official pay date with no payment in your account, call the SASSA toll-free number (0800 60 10 11). If the toll-free line does not resolve it within 2 more business days, contact your provincial regional office directly. After 30 days of no payment with no resolution from either channel, escalate to the SASSA Head Office at 012 400 2322 or email GrantEnquiries@sassa.gov.za with your full timeline and case reference numbers. After 60 days with no resolution, contact the Presidential Hotline on 17737 — this is a dedicated service delivery complaint hotline that applies pressure on government departments."
+    },
+    {
+      "id": "phone-script-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Say When You Call SASSA"
+    },
+    {
+      "id": "phone-script-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Have your 13-digit South African ID number ready before you dial. The agent will ask for this first. If you do not have it ready, the call will be wasted.",
+        "State your grant type clearly: 'SRD R370 grant', 'Old Age Pension', 'Child Support Grant', or whichever grant you receive. Different grants have different payment schedules and departments.",
+        "Tell the agent your current portal status: 'My status on the SASSA portal shows [Approved / Payment Processing / Declined] but I have not received the money in my account.'",
+        "Provide the expected payment date: 'My payment was supposed to arrive on [specific date].' If you do not know the date, say 'My status says approved but there is no pay date visible.'",
+        "Mention what you have already done to resolve it: 'I have checked my bank details on the portal, waited 5 business days, and contacted my bank to confirm no deposit was received.' This shows you have followed the process.",
+        "Ask for a case reference number: 'Can you please give me a reference number for this query?' Write it down immediately. Without a reference number, there is no record of your call.",
+        "Note the agent's full name and the date and time of your call. If you need to call back, you can reference the case number and agent name to avoid repeating your story."
+      ]
+    },
+    {
+      "id": "callout-0800",
+      "type": "callout",
+      "intent": "info",
+      "title": "SASSA Official Contact Centre: 0800 60 10 11",
+      "text": "The SASSA toll-free number is 0800 60 10 11. It is free to call from any phone in South Africa, including cellphones. Lines are open Monday to Friday, 8:00 to 16:00. Best times to call: early morning (8:00-9:00) or mid-afternoon (14:00-15:30). Avoid Mondays, Fridays, and the first week of the month when the lines are busiest. If you cannot get through, try WhatsApp at 082 046 8553 (24/7 automated) or email GrantEnquiries@sassa.gov.za (response within 2-5 business days)."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "My status has been 'Payment Processing' for two weeks. What is going on?",
+          "answer": "Payment Processing should normally update within 1-3 business days. If it has been stuck for two weeks, the payment may have failed or bounced back. Call SASSA at 0800 60 10 11 and ask them to check whether the EFT was returned. You may need to verify your bank details or switch to Cash Send if your bank account has an issue."
+        },
+        {
+          "question": "I switched banks and now my payment is missing. What happened?",
+          "answer": "When you change bank accounts, SASSA must complete a new bank verification that takes 5-10 business days. If you changed your details after the 20th of the month, the change may not take effect until the following month. Your current month's payment may have been sent to your old account. Check your old account or call SASSA to confirm where the payment was directed."
+        },
+        {
+          "question": "They paid me less than the usual amount. What should I do?",
+          "answer": "First check the official grant amount for your specific grant type — amounts change with annual adjustments. If you were genuinely underpaid, call 0800 60 10 11 and request a payment adjustment. SASSA may issue a supplemental payment in the next cycle. Keep records of what you received and what you were supposed to receive."
+        },
+        {
+          "question": "I got paid twice — what do I do? Will SASSA take the money back?",
+          "answer": "Do not spend the duplicate payment. Contact SASSA immediately at 0800 60 10 11 and report the overpayment. SASSA will reverse the duplicate transaction. If you have already spent the money, contact them anyway — they will arrange a repayment plan. Ignoring an overpayment can result in your grant being suspended or legal recovery action."
+        },
+        {
+          "question": "It has been three months and I still have not received payment. What are my options?",
+          "answer": "Three months is far too long. Call 0800 60 10 11 immediately. If the toll-free line does not help, escalate to your provincial regional office using the table above. If still unresolved, email GrantEnquiries@sassa.gov.za with your ID number, grant type, and a detailed timeline of events. As a final step, call the Presidential Hotline on 17737 — this government service delivery hotline puts pressure on SASSA to act."
+        },
+        {
+          "question": "SASSA says I have 'alternative income' but I do not have a job. How do I prove this?",
+          "answer": "This status is triggered when your bank account receives deposits totalling more than R624 in a calendar month — even gifts from family, loan repayments, or money you transferred between your own accounts. You must appeal by going to srd.dsd.gov.za and submitting a sworn affidavit from your nearest SAPS station explaining each deposit. Include supporting letters from anyone who sent you money confirming it was a gift, not income."
+        },
+        {
+          "question": "I received a payment meant for someone else. What should I do?",
+          "answer": "Do not withdraw or spend the money. Inform SASSA immediately by calling 0800 60 10 11. They will investigate and reverse the incorrect payment. If you spend money that was deposited into your account by mistake, SASSA can take legal steps to recover it and you may be disqualified from receiving grants in future."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How to Update Bank Details",
+          "href": "/banking/update-bank-details",
+          "description": "Step-by-step guide to changing your bank account"
+        },
+        {
+          "title": "SASSA Payment Methods",
+          "href": "/banking/payment-methods",
+          "description": "All the ways to receive your grant payment"
+        },
+        {
+          "title": "Bank Verification Process",
+          "href": "/banking/bank-verification-process",
+          "description": "How SASSA verifies your bank account"
+        },
+        {
+          "title": "Cash Send Collection Guide",
+          "href": "/banking/cash-send-guide",
+          "description": "How to collect your grant without a bank account"
+        },
+        {
+          "title": "How to Appeal a Declined Grant",
+          "href": "/appeals/how-to-appeal",
+          "description": "Complete guide to the ITSAA appeal process"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Update Bank Details", "slug": "/banking/update-bank-details" },
-    { "title": "Payment Processing Status", "slug": "/status/payment-processing" },
-    { "title": "Approved Status", "slug": "/status/approved" },
-    { "title": "Bank Verification Status", "slug": "/status/bank-verification" }
+    {
+      "title": "Update Bank Details",
+      "slug": "/banking/update-bank-details"
+    },
+    {
+      "title": "Payment Processing Status",
+      "slug": "/status/payment-processing"
+    },
+    {
+      "title": "Approved Status",
+      "slug": "/status/approved"
+    },
+    {
+      "title": "Bank Verification Status",
+      "slug": "/status/bank-verification"
+    }
   ]
 }

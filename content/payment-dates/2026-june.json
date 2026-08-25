@@ -1,0 +1,141 @@
+{
+  "id": "payment-dates-2026-june",
+  "slug": "/payment-dates/2026-june",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates June 2026",
+  "description": "Confirmed SASSA payment dates for June 2026: Older Persons 3 June, Disability 4 June, Children's grants 5 June, SRD R370 from 25 June. Youth Day did not shift any date.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates June 2026 (Old Age, Disability, Child & SRD)",
+    "metaDescription": "SASSA payment dates for June 2026: Older Persons Wed 3 Jun, Disability Thu 4 Jun, Children's grants Fri 5 Jun, SRD R370 from Thu 25 Jun. Youth Day caused no shifts.",
+    "keywords": [
+      "sassa payment dates june 2026",
+      "old age grant june 2026",
+      "srd payment dates june 2026"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Payment Dates June 2026",
+      "description": "June ran on the standard schedule: permanent grants in the first week, Youth Day (16 June) caused no changes, and SRD R370 batches started from Thursday 25 June.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026"
+    },
+    {
+      "id": "intro-h",
+      "type": "heading",
+      "level": 2,
+      "text": "June 2026 payment schedule at a glance"
+    },
+    {
+      "id": "date-table",
+      "type": "table",
+      "caption": "Confirmed SASSA payment dates for June 2026",
+      "rows": [
+        [
+          "Older Persons Grant (60-74)",
+          "Wednesday 3 June 2026"
+        ],
+        [
+          "Older Persons Grant (75+)",
+          "Wednesday 3 June 2026"
+        ],
+        [
+          "Disability Grant",
+          "Thursday 4 June 2026"
+        ],
+        [
+          "Children's Grants (Child Support, Foster Care, Care Dependency)",
+          "Friday 5 June 2026"
+        ],
+        [
+          "SRD R370 Grant",
+          "From Thursday 25 June 2026 (batches until 30 June)"
+        ]
+      ],
+      "headers": [
+        "Grant type",
+        "Payment date"
+      ]
+    },
+    {
+      "id": "what-know-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to know about June payments"
+    },
+    {
+      "id": "know-p1",
+      "type": "paragraph",
+      "text": "Youth Day fell on Tuesday 16 June, comfortably between the permanent-grant window and the SRD batches, so no pay date moved. Collections in the first week proceeded normally at cards, banks and retail tills."
+    },
+    {
+      "id": "know-p2",
+      "type": "paragraph",
+      "text": "June also marked the mid-year point for SRD income re-verifications. Beneficiaries whose UIF or income data triggered flags saw 'referred' or 'under review' statuses during the month; resolving these before the July review cycle kept payments uninterrupted."
+    },
+    {
+      "id": "winter-p",
+      "type": "paragraph",
+      "text": "Practical winter tip: cold mornings make long queues harder for older beneficiaries. If your grant lands early in the month, consider collecting from the second or third day after payday — balances do not disappear by waiting."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What are the SASSA payment dates for June 2026?",
+          "answer": "Older Persons grants were paid on Wednesday 3 June 2026, Disability grants on Thursday 4 June, Children's grants on Friday 5 June, and SRD R370 payments ran from 25 to 30 June."
+        },
+        {
+          "question": "Did Youth Day affect June payments?",
+          "answer": "No. Youth Day fell on Tuesday 16 June 2026, which was neither a permanent-grant pay date nor a disruption to the SRD batch schedule."
+        },
+        {
+          "question": "My SRD status changed to referred in June. What does that mean?",
+          "answer": "'Referred' means SASSA's system flagged your file for extra verification — often income data. Follow the instructions in your SMS or visit an office; unresolved referrals eventually lead to declines."
+        },
+        {
+          "question": "Is there enough time to collect my June money before month-end?",
+          "answer": "Yes. Grant money remains available indefinitely — collecting days or even weeks after the official date has no effect on the amount."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official payment calendar announcements",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Dates reflect the published June 2026 schedule."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "May 2026 Payment Dates",
+      "slug": "/payment-dates/2026-may"
+    },
+    {
+      "title": "July 2026 Payment Dates",
+      "slug": "/payment-dates/2026-july"
+    }
+  ]
+}

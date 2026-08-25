@@ -46,7 +46,7 @@ export default function EditorialPolicyPage() {
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-8">
       <div className="flex items-start gap-4">
         <div className="w-12 h-12 rounded-xl bg-gold/10 border border-gold/20 flex items-center justify-center flex-shrink-0">
-          <FileText className="w-6 h-6 text-gold" />
+          <FileText className="w-6 h-6 text-accent-dark" />
         </div>
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">Editorial Policy</h1>
@@ -71,7 +71,7 @@ export default function EditorialPolicyPage() {
           return (
             <div key={p.title} className="bg-surface border border-border rounded-xl p-5 space-y-2">
               <div className="flex items-center gap-2">
-                <Icon className="w-4 h-4 text-gold" />
+                <Icon className="w-4 h-4 text-accent-dark" />
                 <h2 className="text-sm font-bold text-ink">{p.title}</h2>
               </div>
               <p className="text-sm text-muted leading-relaxed">{p.desc}</p>
@@ -81,12 +81,12 @@ export default function EditorialPolicyPage() {
       </div>
 
       <div className="bg-gold/10 border border-gold/20 rounded-xl p-5">
-        <h2 className="text-sm font-bold text-gold mb-2">Correction History</h2>
+        <h2 className="text-sm font-bold text-accent-dark mb-2">Correction History</h2>
         <p className="text-sm text-muted leading-relaxed mb-3">
           Substantive corrections to published content are logged below. Minor clarifications and formatting changes are not listed.
         </p>
         <div className="space-y-2 text-xs text-muted font-mono">
-          <p><span className="text-gold">2026-07-01:</span> Initial publication of editorial policy.</p>
+          <p><span className="text-accent-dark">2026-07-01:</span> Initial publication of editorial policy.</p>
         </div>
       </div>
     </div>

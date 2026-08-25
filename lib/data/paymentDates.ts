@@ -133,7 +133,7 @@ export const paymentMonths: PaymentMonth[] = [
     month: 7,
     monthLabel: "July",
     label: "July 2026",
-    isCurrent: true,
+    isCurrent: false,
     isFuture: false,
     dates: {
       olderPersons: "3 Jul 2026",
@@ -141,8 +141,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "5 Jul 2026",
       srd: "25-30 Jul 2026",
     },
-    notes: "Current month — Q2 SRD review cycle active. 350,000 grants under review as of 21 July.",
-    description: "July 2026 is the current month. The Q2 review cycle for SRD grants begins this month, which can result in more applications showing 'Under Review' status in the first two weeks. The 350,000-grant review announcement was made on 21 July. Check your SRD status regularly if you notice a change.",
+    notes: "Q2 SRD review cycle active. 350,000 grants under review as of 21 July.",
+    description: "The Q2 review cycle for SRD grants began in July, which resulted in more applications showing 'Under Review' status in the first two weeks. The 350,000-grant review announcement was made on 21 July by Social Development Minister Dina Pule.",
   },
   {
     id: "2026-08",
@@ -151,8 +151,8 @@ export const paymentMonths: PaymentMonth[] = [
     month: 8,
     monthLabel: "August",
     label: "August 2026",
-    isCurrent: false,
-    isFuture: true,
+    isCurrent: true,
+    isFuture: false,
     dates: {
       olderPersons: "4 Aug 2026",
       disability: "5 Aug 2026",
@@ -177,8 +177,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "4 Sep 2026",
       srd: "24-30 Sep 2026",
     },
-    notes: "Provisional dates — confirm with SASSA",
-    description: "Heritage Day (24 September) may affect SRD payment processing if it falls on a weekday. SASSA typically adjusts the batch window around public holidays. Provisional dates shown — confirm with SASSA.",
+    notes: "Confirmed by SASSA 21 August 2026. Review cycle day: Monday 7 Sep. Heritage Day (24 Sep) falls on the first day of the SRD window.",
+    description: "SASSA confirmed September 2026 payment dates on 21 August 2026. Permanent grants are paid 2-4 September, the review-cycle window continues on Monday 7 September for review outcomes and backlog payments, and SRD R370 payments run from 24 to 30 September. Heritage Day (Thursday 24 September) falls on the first day of the SRD window — bank transfers processed that day typically reflect from Friday 25 September.",
   },
   {
     id: "2026-10",

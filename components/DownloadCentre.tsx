@@ -38,7 +38,7 @@ export default function DownloadCentre() {
               }`}
             >
               <h3 className="text-sm font-bold leading-tight">{form.title}</h3>
-              <p className={`text-xs font-mono ${selectedForm.id === form.id ? "text-black/70" : "text-accent-dark"}`}>
+              <p className={`text-xs font-mono ${selectedForm.id === form.id ? "text-ink" : "text-accent-dark"}`}>
                 {form.approxSize}
               </p>
             </button>

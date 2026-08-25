@@ -73,7 +73,7 @@ function ThemeToggle() {
     <button
       onClick={toggleTheme}
       aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-      className="p-2 rounded-xl text-ash hover:text-carbon hover:bg-fog/60 transition"
+      className="p-2 rounded-xl text-ash hover:text-ink hover:bg-fog/60 transition"
     >
       {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
     </button>
@@ -93,6 +93,44 @@ export default function TopNavbar({
   const [mobileExpanded, setMobileExpanded] = useState<string[]>([]);
   const dropdownRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
+  const mobilePanelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!isMobileMenuOpen) return;
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+    const panel = mobilePanelRef.current;
+    if (panel) {
+      panel.querySelector<HTMLElement>("button, a[href]")?.focus();
+    }
+    document.body.style.overflow = "hidden";
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setIsMobileMenuOpen(false);
+        return;
+      }
+      if (e.key !== "Tab" || !panel) return;
+      const focusables = Array.from(
+        panel.querySelectorAll<HTMLElement>('button:not([disabled]), a[href]')
+      );
+      if (focusables.length === 0) return;
+      const first = focusables[0];
+      const last = focusables[focusables.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "";
+      previouslyFocused?.focus();
+    };
+  }, [isMobileMenuOpen]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -174,10 +212,12 @@ export default function TopNavbar({
                 >
                   <button
                     onClick={() => setOpenDropdown(isOpen ? null : group.label)}
+                    aria-expanded={isOpen}
+                    aria-haspopup="true"
                     className={`flex items-center gap-1 px-3 py-2 rounded-[6px] text-xs font-bold transition ${
                       isOpen
                         ? "text-violet"
-                        : "text-ash hover:text-carbon hover:bg-fog/50"
+                        : "text-ash hover:text-ink hover:bg-fog/50"
                     }`}
                   >
                     <span>{group.label}</span>
@@ -200,7 +240,7 @@ export default function TopNavbar({
                             className={`flex items-center justify-between p-3 rounded-[6px] transition group ${
                               isItemActive
                                 ? "bg-yellow/10 text-violet"
-                                : "text-ash hover:bg-fog/50 hover:text-carbon"
+                                : "text-ash hover:bg-fog/50 hover:text-ink"
                             }`}
                           >
                             <div>
@@ -232,8 +272,12 @@ export default function TopNavbar({
               Browse Grants <ArrowRight className="w-3 h-3" />
             </Link>
             <button
+              ref={hamburgerRef}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden p-2 text-ash hover:text-carbon hover:bg-fog/60 rounded-[6px] transition"
+              aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-nav-menu"
+              className="lg:hidden p-2 text-ash hover:text-ink hover:bg-fog/60 rounded-[6px] transition"
             >
               {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
@@ -242,13 +286,18 @@ export default function TopNavbar({
       </header>
 
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 bg-carbon/60 z-40 lg:hidden flex justify-end">
-          <div className="w-full max-w-xs bg-paper h-full p-6 flex flex-col animate-slide-in">
+        <div className="fixed inset-0 bg-carbon/60 z-40 lg:hidden flex justify-end" role="dialog" aria-modal="true" aria-label="Site navigation">
+          <div
+            ref={mobilePanelRef}
+            id="mobile-nav-menu"
+            className="w-full max-w-xs bg-paper h-full p-6 flex flex-col animate-slide-in"
+          >
             <div className="flex items-center justify-between border-b border-border pb-4 mb-4">
               <span className="font-bold text-sm text-carbon">Navigation</span>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="p-1 text-ash hover:text-carbon rounded-[6px] transition"
+                aria-label="Close navigation menu"
+                className="p-1 text-ash hover:text-ink rounded-[6px] transition"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -263,8 +312,9 @@ export default function TopNavbar({
                   <div key={group.label}>
                     <button
                       onClick={() => toggleMobileSection(group.label)}
+                      aria-expanded={isExpanded}
                       className={`w-full flex items-center justify-between p-3 rounded-[6px] text-xs font-bold transition ${
-                        hasActive ? "text-violet" : "text-ash hover:text-carbon hover:bg-fog/50"
+                        hasActive ? "text-violet" : "text-ash hover:text-ink hover:bg-fog/50"
                       }`}
                     >
                       <span>{group.label}</span>
@@ -285,7 +335,7 @@ export default function TopNavbar({
                               className={`block p-3 rounded-[6px] transition text-xs ${
                                 isItemActive
                                   ? "bg-yellow/10 text-violet font-bold"
-                                  : "text-ash hover:bg-fog/50 hover:text-carbon"
+                                  : "text-ash hover:bg-fog/50 hover:text-ink"
                               }`}
                             >
                               <p className="font-bold">{item.label}</p>

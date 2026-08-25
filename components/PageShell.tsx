@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { ShieldCheck, Calendar, UserCheck, ArrowRight, BookOpen } from "lucide-react";
 import Link from "next/link";
@@ -24,7 +24,7 @@ export default function PageShell({ page, children }: PageShellProps) {
     <article className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 md:py-8 space-y-8 bg-canvas" id={"page-shell-" + page.id}>
       {/* Breadcrumbs */}
       <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-muted font-mono">
-        <Link href="/" className="hover:text-gold transition">Home</Link>
+        <Link href="/" className="hover:text-violet transition">Home</Link>
         <span className="text-border">/</span>
         <span className="capitalize text-muted">
           {classification.replace(/-/g, " ")}
@@ -44,7 +44,7 @@ export default function PageShell({ page, children }: PageShellProps) {
           <div>
             <div className="flex items-center gap-1.5">
               <span className="text-sm font-bold text-ink">{author.name}</span>
-              {author.verified && <UserCheck className="w-3.5 h-3.5 text-gold" />}
+              {author.verified && <UserCheck className="w-3.5 h-3.5 text-accent-dark" />}
             </div>
             <p className="text-xs text-muted font-mono">
               {author.role}{author.credentials ? " \u2022 " + author.credentials : ""}
@@ -73,7 +73,7 @@ export default function PageShell({ page, children }: PageShellProps) {
           {relatedPages && relatedPages.length > 0 ? (
             <div className="bg-surface border border-border rounded-xl p-5 space-y-4">
               <div className="flex items-center gap-2 pb-3 border-b border-border">
-                <BookOpen className="w-4 h-4 text-gold" />
+                <BookOpen className="w-4 h-4 text-accent-dark" />
                 <h3 className="text-xs font-bold text-ink uppercase tracking-wider font-mono">
                   Related Resources
                 </h3>
@@ -87,8 +87,8 @@ export default function PageShell({ page, children }: PageShellProps) {
                     href={url}
                     className="flex items-center justify-between p-3 rounded-lg border border-border hover:border-gold/30 bg-surface-dim/20 hover:bg-surface-dim transition group"
                   >
-                    <span className="text-xs font-bold text-ink group-hover:text-gold transition">{rp.title}</span>
-                    <ArrowRight className="w-3.5 h-3.5 text-muted group-hover:text-gold transition flex-shrink-0 ml-2" />
+                    <span className="text-xs font-bold text-ink group-hover:text-violet transition">{rp.title}</span>
+                    <ArrowRight className="w-3.5 h-3.5 text-muted group-hover:text-violet transition flex-shrink-0 ml-2" />
                   </Link>
                   );
                 })}
@@ -96,7 +96,7 @@ export default function PageShell({ page, children }: PageShellProps) {
             </div>
           ) : (
             <div className="bg-surface-dim/20 border border-dashed border-border rounded-xl p-5 space-y-3 text-center">
-              <ShieldCheck className="w-6 h-6 text-gold mx-auto" />
+              <ShieldCheck className="w-6 h-6 text-accent-dark mx-auto" />
               <h3 className="text-xs font-bold text-ink">Official Resource Platform</h3>
               <p className="text-xs text-muted leading-normal">
                 Independent educational resource for South African social grant information.

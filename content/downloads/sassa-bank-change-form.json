@@ -1,0 +1,168 @@
+{
+  "id": "download-bank-change-form",
+  "slug": "/downloads/sassa-bank-change-form",
+  "classification": "downloadable-form",
+  "title": "SASSA Consent Form for Bank Payment — Direct Deposit Authorisation",
+  "description": "The consent form required to submit, update, or change your bank details so your social grant pays directly into your commercial bank account instead of cash points.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Consent Form for Bank Payment: Complete & Submit Guide",
+    "metaDescription": "Switch your grant to direct bank deposit: how to complete the SASSA bank payment consent form, the mandatory bank stamp step, required documents, and submission process.",
+    "keywords": [
+      "sassa bank change form",
+      "sassa consent form bank payment",
+      "change sassa payment to bank",
+      "sassa direct deposit form"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Consent Form for Bank Payment",
+      "description": "Authorise SASSA to pay your monthly grant straight into your commercial bank account — no queues, no collection trips, money available from pay day.",
+      "readingTime": "4 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "View Filling Guide",
+        "href": "#how-to-fill"
+      },
+      "secondaryCta": {
+        "label": "View All Forms",
+        "href": "/downloads"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "This consent form gives SASSA permission to deposit your monthly social grant directly into your commercial bank account rather than paying it out at cash points or retailers. It is the correct form whether you are setting up bank payment for the first time, changing to a different bank, or updating account details after switching accounts."
+    },
+    {
+      "id": "why-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Why switch to direct bank payment?"
+    },
+    {
+      "id": "why-p",
+      "type": "paragraph",
+      "text": "Bank deposits arrive without travelling to a pay point, eliminate queue time entirely, and work especially well for beneficiaries far from retailers — rural Limpopo and Northern Cape beneficiaries benefit most. Money reflects within days of each official payment date."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to complete the form"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "title": "#how-to-fill",
+      "steps": [
+        {
+          "title": "Enter your grant and ID numbers",
+          "description": "Fill in your active social grant number and your 13-digit ID number exactly as they appear on your documents."
+        },
+        {
+          "title": "Complete the banking section",
+          "description": "Provide your bank's name, account number, branch code, and account type (Savings or Cheque). Double-check each digit — a wrong account number sends your money nowhere."
+        },
+        {
+          "title": "Sign the consent declaration",
+          "description": "Your signature authorises SASSA to verify your details directly with the bank."
+        },
+        {
+          "title": "Get the form stamped at your bank",
+          "description": "This step is mandatory: take the completed form to your bank so a teller can officially stamp it, confirming the account exists and belongs to you."
+        },
+        {
+          "title": "Submit at a SASSA office",
+          "description": "Hand in the stamped form with your documents. Changes apply from the next payment cycle."
+        }
+      ]
+    },
+    {
+      "id": "checklist-block",
+      "type": "document-checklist",
+      "title": "Bring these when you submit",
+      "documents": [
+        {
+          "label": "Original ID card or green ID book",
+          "required": true
+        },
+        {
+          "label": "Official bank statement showing the account owner's name and details (stamped by the bank)",
+          "required": true,
+          "notes": "The stamp validates that the account is active and yours."
+        },
+        {
+          "label": "SASSA card or application reference receipt",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "stamp-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "No stamp, no switch",
+      "text": "Unstamped forms are the most common reason bank changes fail. Visit your bank branch for the teller stamp before going to SASSA — one extra trip saves weeks of delay."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Where do I get the bank payment consent form?",
+          "answer": "Free at any SASSA office. Avoid third parties charging for forms — all SASSA forms are free."
+        },
+        {
+          "question": "How long does a bank detail change take?",
+          "answer": "It applies from your next payment cycle, typically within a month of submitting the stamped form."
+        },
+        {
+          "question": "Can I use someone else's bank account?",
+          "answer": "The account must be in your name. SASSA verifies ownership with the bank, and third-party accounts are rejected — see our guide on using someone else's account for the limited exceptions."
+        },
+        {
+          "question": "Does this form also apply to the SRD R370?",
+          "answer": "SRD bank changes run through the online portal instead of this paper form. Use srd.sassa.gov.za for SRD payments; this form covers permanent grants."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA banking verification requirements",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Form requirements verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Update Your Bank Details",
+      "slug": "/banking/update-bank-details"
+    },
+    {
+      "title": "Bank Verification Process",
+      "slug": "/banking/bank-verification-process"
+    },
+    {
+      "title": "Payment Methods Compared",
+      "slug": "/banking/payment-methods"
+    }
+  ]
+}

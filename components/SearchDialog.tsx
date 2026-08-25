@@ -3,12 +3,13 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Search, X, ChevronRight } from "lucide-react";
-import { search, type SearchResult } from "../lib/search";
+import type { SearchResult } from "../lib/search";
 
 export default function SearchDialog() {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<SearchResult[]>([]);
+  const [fetched, setFetched] = useState<{ q: string; hits: SearchResult[] }>({ q: "", hits: [] });
+  const results = query.length >= 2 && fetched.q === query ? fetched.hits : [];
   const inputRef = useRef<HTMLInputElement>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
 
@@ -29,21 +30,29 @@ export default function SearchDialog() {
   }, [isOpen]);
 
   useEffect(() => {
+    if (query.length < 2) return;
+    let cancelled = false;
     const timer = setTimeout(() => {
-      setResults(query.length < 2 ? [] : search(query));
-    }, query.length < 2 ? 0 : 150);
-    return () => clearTimeout(timer);
+      import("../lib/search").then(({ search }) => {
+        if (!cancelled) setFetched({ q: query, hits: search(query) });
+      });
+    }, 150);
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+    };
   }, [query]);
 
   return (
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className="hidden md:flex items-center gap-2 px-3 py-2.5 rounded-xl text-xs font-bold bg-canvas text-muted hover:bg-surface-container border border-surface-container transition"
+        aria-label="Search grants, statuses, offices"
+        className="flex items-center gap-2 px-3 py-2.5 rounded-xl text-xs font-bold bg-canvas text-muted hover:bg-surface-container border border-surface-container transition"
       >
         <Search className="w-3.5 h-3.5" />
-        <span>Search</span>
-        <kbd className="text-xs font-mono bg-surface border border-surface-container px-1.5 py-0.5 rounded ml-2">Ctrl+K</kbd>
+        <span className="hidden md:inline">Search</span>
+        <kbd className="hidden md:inline text-xs font-mono bg-surface border border-surface-container px-1.5 py-0.5 rounded ml-2">Ctrl+K</kbd>
       </button>
 
       {isOpen && (
@@ -58,9 +67,13 @@ export default function SearchDialog() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search grants, statuses, offices..."
+                aria-label="Search grants, statuses, offices"
+                role="combobox"
+                aria-expanded={results.length > 0}
+                aria-controls="search-results-list"
                 className="flex-1 py-3 text-sm text-ink placeholder:text-muted bg-transparent outline-none"
               />
-              <button onClick={() => setIsOpen(false)} className="p-1 hover:bg-canvas rounded-lg transition">
+              <button onClick={() => setIsOpen(false)} aria-label="Close search" className="p-1 hover:bg-canvas rounded-lg transition">
                 <X className="w-4 h-4 text-muted" />
               </button>
             </div>

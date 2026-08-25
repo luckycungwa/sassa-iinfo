@@ -8,22 +8,42 @@
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Founder, 44tagstudios", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Founder, 44tagstudios",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "War Veterans Grant 2026: Amount, Eligibility & How to Apply",
     "metaDescription": "Complete guide to the SASSA War Veterans Grant: R2,420 per month for veterans of WWI, WWII, and the Korean War. Eligibility criteria, required documents, and how to apply.",
-    "keywords": ["war veterans grant", "SASSA war veterans", "military veteran grant South Africa", "SASSA veteran pension", "Korean War veteran grant SA"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "War Veterans Grant" }
+    "keywords": [
+      "war veterans grant",
+      "SASSA war veterans",
+      "military veteran grant South Africa",
+      "SASSA veteran pension",
+      "Korean War veteran grant SA"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "War Veterans Grant"
+    }
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "War Veterans Grant",
       "description": "Complete guide to the SASSA War Veterans Grant: R2,420 per month for veterans who served in World War I, World War II, or the Korean War. Eligibility criteria, required documents, application process, and how this grant differs from modern military pensions.",
       "readingTime": "6 min read",
       "lastUpdated": "2026-07-27",
-      "cta": { "label": "Grant Library", "href": "/grants" },
-      "secondaryCta": { "label": "Older Person Grant", "href": "/grants/older-person-grant" }
+      "cta": {
+        "label": "Grant Library",
+        "href": "/grants"
+      },
+      "secondaryCta": {
+        "label": "Older Person Grant",
+        "href": "/grants/older-person-grant"
+      }
     },
     {
       "id": "summary",
@@ -65,7 +85,11 @@
         "The grant is not available to surviving spouses — it is for the veteran only"
       ],
       "recommendedGrants": [
-        { "name": "Older Person Grant", "slug": "/grants/older-person-grant", "amount": "R2,400" }
+        {
+          "name": "Older Person Grant",
+          "slug": "/grants/older-person-grant",
+          "amount": "R2,400"
+        }
       ]
     },
     {
@@ -91,11 +115,28 @@
       "id": "docs",
       "type": "document-checklist",
       "documents": [
-        { "label": "Your original 13-digit ID or smart ID card", "required": true },
-        { "label": "Certificate of military service or military record book", "required": true, "notes": "This is the most important document. Contact the SANDF archives or the DMV if you need a replacement." },
-        { "label": "Proof of income and assets", "required": true, "notes": "Last 3 months bank statements, pension slips, and proof of any other income." },
-        { "label": "Marriage certificate (if married)", "required": false },
-        { "label": "Proof of residence", "required": true }
+        {
+          "label": "Your original 13-digit ID or smart ID card",
+          "required": true
+        },
+        {
+          "label": "Certificate of military service or military record book",
+          "required": true,
+          "notes": "This is the most important document. Contact the SANDF archives or the DMV if you need a replacement."
+        },
+        {
+          "label": "Proof of income and assets",
+          "required": true,
+          "notes": "Last 3 months bank statements, pension slips, and proof of any other income."
+        },
+        {
+          "label": "Marriage certificate (if married)",
+          "required": false
+        },
+        {
+          "label": "Proof of residence",
+          "required": true
+        }
       ]
     },
     {
@@ -108,10 +149,22 @@
       "id": "apply-steps",
       "type": "steps",
       "steps": [
-        { "title": "Gather your military records", "description": "Find your certificate of military service, discharge certificate, or military record book. If lost, contact the SANDF Records Department or the DMV." },
-        { "title": "Visit your nearest SASSA office", "description": "Go to a SASSA local office with all your documents. Inform the officer you want to apply for the War Veterans Grant." },
-        { "title": "Complete the application form", "description": "A SASSA officer will help you fill in the application. Your fingerprints will be taken." },
-        { "title": "Wait for processing", "description": "Applications take up to 3 months to process. SASSA may verify your military service with the Department of Defence." }
+        {
+          "title": "Gather your military records",
+          "description": "Find your certificate of military service, discharge certificate, or military record book. If lost, contact the SANDF Records Department or the DMV."
+        },
+        {
+          "title": "Visit your nearest SASSA office",
+          "description": "Go to a SASSA local office with all your documents. Inform the officer you want to apply for the War Veterans Grant."
+        },
+        {
+          "title": "Complete the application form",
+          "description": "A SASSA officer will help you fill in the application. Your fingerprints will be taken."
+        },
+        {
+          "title": "Wait for processing",
+          "description": "Applications take up to 3 months to process. SASSA may verify your military service with the Department of Defence."
+        }
       ]
     },
     {
@@ -123,13 +176,37 @@
     {
       "id": "war-vs-older-table",
       "type": "table",
-      "headers": ["Feature", "War Veterans Grant", "Older Person Grant"],
+      "headers": [
+        "Feature",
+        "War Veterans Grant",
+        "Older Person Grant"
+      ],
       "rows": [
-        ["Monthly amount (2026)", "R2,420", "R2,400 (R2,420 for 75+)"],
-        ["Age requirement", "60+ or disabled (any age)", "60+"],
-        ["Military service", "Required", "Not required"],
-        ["Assets test", "Same as Older Person", "Same"],
-        ["Extra for 75+", "No extra", "R20 extra at 75+"]
+        [
+          "Monthly amount (2026)",
+          "R2,420",
+          "R2,400 (R2,420 for 75+)"
+        ],
+        [
+          "Age requirement",
+          "60+ or disabled (any age)",
+          "60+"
+        ],
+        [
+          "Military service",
+          "Required",
+          "Not required"
+        ],
+        [
+          "Assets test",
+          "Same as Older Person",
+          "Same"
+        ],
+        [
+          "Extra for 75+",
+          "No extra",
+          "R20 extra at 75+"
+        ]
       ],
       "caption": "The War Veterans Grant pays R20 more per month but requires proof of qualifying military service."
     },
@@ -176,15 +253,36 @@
       "id": "related-links",
       "type": "link-grid",
       "links": [
-        { "title": "Older Person Grant", "href": "/grants/older-person-grant", "description": "State pension for seniors 60+" },
-        { "title": "Grant-in-Aid", "href": "/grants/grant-in-aid", "description": "Extra grant for those needing full-time care" },
-        { "title": "Department of Military Veterans", "href": "https://www.dmv.gov.za", "description": "Official DMV website (external)" }
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant",
+          "description": "State pension for seniors 60+"
+        },
+        {
+          "title": "Grant-in-Aid",
+          "href": "/grants/grant-in-aid",
+          "description": "Extra grant for those needing full-time care"
+        },
+        {
+          "title": "Department of Military Veterans",
+          "href": "https://www.dmv.gov.za",
+          "description": "Official DMV website (external)"
+        }
       ]
     }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
-    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Older Person Grant",
+      "slug": "/grants/older-person-grant"
+    },
+    {
+      "title": "Grant-in-Aid",
+      "slug": "/grants/grant-in-aid"
+    }
   ]
 }

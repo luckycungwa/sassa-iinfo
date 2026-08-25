@@ -8,12 +8,25 @@
   "version": "1.0.0",
   "readingTime": "5 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Foster Care Grant Court Order Guide — SASSA 2026",
     "metaDescription": "Step-by-step guide to getting a Children's Court order for the SASSA Foster Care Grant. Covers the social worker process, required documents, court timeline, and renewal of foster care orders.",
-    "keywords": ["children's court order foster care", "foster care grant court process", "social worker assessment foster care", "foster care order renewal", "SASSA foster care grant requirements"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Foster Care Grant Court Order Guide" }
+    "keywords": [
+      "children's court order foster care",
+      "foster care grant court process",
+      "social worker assessment foster care",
+      "foster care order renewal",
+      "SASSA foster care grant requirements"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Foster Care Grant Court Order Guide"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +36,14 @@
       "description": "The Children's Court order is the single most important document for the Foster Care Grant. This guide walks through the legal process step by step.",
       "readingTime": "5 min read",
       "lastUpdated": "2026-07-27",
-      "cta": { "label": "Back to Main Guide", "href": "/grants/foster-care-grant" },
-      "secondaryCta": { "label": "Find a Social Worker", "href": "/offices" }
+      "cta": {
+        "label": "Back to Main Guide",
+        "href": "/grants/foster-care-grant"
+      },
+      "secondaryCta": {
+        "label": "Find a Social Worker",
+        "href": "/offices"
+      }
     },
     {
       "id": "summary",
@@ -82,12 +101,30 @@
       "id": "court-process-steps",
       "type": "steps",
       "steps": [
-        { "title": "Referral to a social worker", "description": "Visit your nearest DSD office or registered child protection organisation. Explain that you want to foster a child. A social worker will be assigned to open a file and begin the investigation." },
-        { "title": "Social worker assessment", "description": "The social worker schedules a home visit, interviews everyone involved, and gathers documents. This stage typically takes 2–4 weeks depending on the social worker's caseload." },
-        { "title": "Social worker report", "description": "The social worker compiles a formal report with a recommendation for the court. You have the right to review this report before it goes to the magistrate." },
-        { "title": "Court date scheduled", "description": "The Children's Court clerk sets a hearing date. You, the child (if old enough), the biological parents, and the social worker must all be notified of the date." },
-        { "title": "Children's Court hearing", "description": "The magistrate reviews the report, hears from the social worker and relevant parties, and questions anyone needed. If satisfied that foster care is in the child's best interests, an order is issued." },
-        { "title": "Order issued and certified", "description": "The court issues a formal foster care order. You receive a certified copy — this is the document you take to SASSA to apply for the grant." }
+        {
+          "title": "Referral to a social worker",
+          "description": "Visit your nearest DSD office or registered child protection organisation. Explain that you want to foster a child. A social worker will be assigned to open a file and begin the investigation."
+        },
+        {
+          "title": "Social worker assessment",
+          "description": "The social worker schedules a home visit, interviews everyone involved, and gathers documents. This stage typically takes 2–4 weeks depending on the social worker's caseload."
+        },
+        {
+          "title": "Social worker report",
+          "description": "The social worker compiles a formal report with a recommendation for the court. You have the right to review this report before it goes to the magistrate."
+        },
+        {
+          "title": "Court date scheduled",
+          "description": "The Children's Court clerk sets a hearing date. You, the child (if old enough), the biological parents, and the social worker must all be notified of the date."
+        },
+        {
+          "title": "Children's Court hearing",
+          "description": "The magistrate reviews the report, hears from the social worker and relevant parties, and questions anyone needed. If satisfied that foster care is in the child's best interests, an order is issued."
+        },
+        {
+          "title": "Order issued and certified",
+          "description": "The court issues a formal foster care order. You receive a certified copy — this is the document you take to SASSA to apply for the grant."
+        }
       ]
     },
     {
@@ -100,14 +137,38 @@
       "id": "court-docs-list",
       "type": "document-checklist",
       "documents": [
-        { "label": "Your original 13-digit barcoded Smart Card ID or green ID book", "required": true },
-        { "label": "The child's birth certificate or ID document", "required": true },
-        { "label": "The child's passport or study permit (if the child is not a South African citizen)", "required": false },
-        { "label": "Proof of residence (utility bill, rental agreement, or letter from ward councillor)", "required": true },
-        { "label": "Biological parents' ID documents or death certificates (if deceased)", "required": true },
-        { "label": "Marriage certificate or divorce order (if applicable to your situation)", "required": false },
-        { "label": "Medical or psychological reports (if relevant to the child's needs)", "required": false },
-        { "label": "Affidavit explaining why the child cannot live with biological parents (if parents are unavailable)", "required": false }
+        {
+          "label": "Your original 13-digit barcoded Smart Card ID or green ID book",
+          "required": true
+        },
+        {
+          "label": "The child's birth certificate or ID document",
+          "required": true
+        },
+        {
+          "label": "The child's passport or study permit (if the child is not a South African citizen)",
+          "required": false
+        },
+        {
+          "label": "Proof of residence (utility bill, rental agreement, or letter from ward councillor)",
+          "required": true
+        },
+        {
+          "label": "Biological parents' ID documents or death certificates (if deceased)",
+          "required": true
+        },
+        {
+          "label": "Marriage certificate or divorce order (if applicable to your situation)",
+          "required": false
+        },
+        {
+          "label": "Medical or psychological reports (if relevant to the child's needs)",
+          "required": false
+        },
+        {
+          "label": "Affidavit explaining why the child cannot live with biological parents (if parents are unavailable)",
+          "required": false
+        }
       ]
     },
     {
@@ -119,12 +180,27 @@
     {
       "id": "key-people-table",
       "type": "table",
-      "headers": ["Person", "Role in the Process"],
+      "headers": [
+        "Person",
+        "Role in the Process"
+      ],
       "rows": [
-        ["Social Worker (DSD)", "Conducts the home visit, interviews everyone, writes the assessment report, submits it to court, and recommends whether foster placement is suitable."],
-        ["Children's Court Clerk", "Manages the court file, schedules the hearing, issues notices to all parties, and ensures documents are filed before the magistrate reviews the case."],
-        ["Magistrate / Commissioner of Child Welfare", "Presides over the hearing, reviews evidence and the social worker report, questions parties, and decides whether to issue or deny the foster care order."],
-        ["SASSA Officer", "Processes the grant once you have a valid court order — not involved in the court process itself, but the final link between the order and the monthly payment."]
+        [
+          "Social Worker (DSD)",
+          "Conducts the home visit, interviews everyone, writes the assessment report, submits it to court, and recommends whether foster placement is suitable."
+        ],
+        [
+          "Children's Court Clerk",
+          "Manages the court file, schedules the hearing, issues notices to all parties, and ensures documents are filed before the magistrate reviews the case."
+        ],
+        [
+          "Magistrate / Commissioner of Child Welfare",
+          "Presides over the hearing, reviews evidence and the social worker report, questions parties, and decides whether to issue or deny the foster care order."
+        ],
+        [
+          "SASSA Officer",
+          "Processes the grant once you have a valid court order — not involved in the court process itself, but the final link between the order and the monthly payment."
+        ]
       ],
       "caption": "Everyone involved in getting a Children's Court order for foster care"
     },
@@ -184,8 +260,17 @@
     }
   ],
   "relatedPages": [
-    { "title": "Foster Care Grant — Main Guide", "slug": "/grants/foster-care-grant" },
-    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
-    { "title": "Grant Library", "slug": "/grants" }
+    {
+      "title": "Foster Care Grant — Main Guide",
+      "slug": "/grants/foster-care-grant"
+    },
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    }
   ]
 }

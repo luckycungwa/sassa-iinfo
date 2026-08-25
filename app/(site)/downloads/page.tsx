@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, FileText, FileCheck, Download } from "lucide-react";
 import { downloadableForms } from "../../../lib/data/downloads";
@@ -32,11 +32,11 @@ export default function DownloadsHubPage() {
       {faq && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />}
       <section className="bg-slate text-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-white/60 uppercase tracking-widest mb-3">download centre</p>
+          <p className="text-xs font-bold text-muted uppercase tracking-widest mb-3">download centre</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-white leading-[1.15] tracking-[-0.007em]">
             SASSA forms & documents
           </h1>
-          <p className="text-[21px] text-white/80 mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
             Download official SASSA forms with step-by-step filling guides and document checklists.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
@@ -119,7 +119,7 @@ export default function DownloadsHubPage() {
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className="text-sm text-carbon/70 leading-relaxed">{faq.a}</p>
+                  <p className="text-sm text-body leading-relaxed">{faq.a}</p>
                 </div>
               </details>
             ))}
@@ -132,10 +132,10 @@ export default function DownloadsHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Not sure which form you need?</p>
-              <p className="text-sm text-white/60">Browse grants or check your eligibility first</p>
+              <p className="text-sm text-muted">Browse grants or check your eligibility first</p>
             </div>
             <div className="flex gap-2">
-              <Link href="/grants" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-yellow text-carbon rounded-[22px] text-xs font-bold hover:opacity-90 transition">
+              <Link href="/grants" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">
                 View Grants <ArrowRight className="w-3 h-3" />
               </Link>
               <Link href="/guides" className="inline-flex items-center gap-1.5 px-5 py-2.5 border-2 border-white/30 text-white rounded-[22px] text-xs font-bold hover:bg-white/10 transition">

@@ -1,0 +1,192 @@
+{
+  "id": "guide-reconfirm-srd-grant",
+  "slug": "/guides/reconfirm-srd-grant",
+  "classification": "how-to-guide",
+  "title": "How to Reconfirm Your SRD R370 Grant",
+  "description": "Why SASSA asks SRD beneficiaries to reconfirm their applications, the exact reconfirmation steps on srd.sassa.gov.za and WhatsApp, deadlines to avoid missing a payment cycle, and what happens if you skip it.",
+  "lastUpdated": "2026-08-23",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "How to Reconfirm Your SRD R370 Grant (2026 Step-by-Step)",
+    "metaDescription": "Reconfirm your SRD R370 application: when SASSA requires it, portal and WhatsApp steps, monthly deadlines, and consequences of skipping reconfirmation.",
+    "keywords": [
+      "reconfirm srd grant",
+      "srd r370 reconfirm",
+      "sassa confirm application",
+      "srd monthly confirmation"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "How to Reconfirm Your SRD R370 Grant",
+      "description": "SASSA periodically asks beneficiaries to confirm their details are still correct before the next payment cycle. Miss the request and your payment can pause — here is how to reconfirm in minutes.",
+      "readingTime": "6 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Check Your Status",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "label": "SRD Portal Login Steps",
+        "href": "/banking/how-to-register-for-srd-portal"
+      }
+    },
+    {
+      "id": "why-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What reconfirmation is (and why you get asked)"
+    },
+    {
+      "id": "why-p1",
+      "type": "paragraph",
+      "text": "Reconfirmation is SASSA asking you to verify that your personal details, contact number and eligibility circumstances have not changed since your last approval. It is triggered by periodic database sweeps — most often after policy updates or when your file has been inactive for a set period."
+    },
+    {
+      "id": "why-p2",
+      "type": "paragraph",
+      "text": "The request arrives by SMS from SASSA's official lines. Because scammers copy this format, always act through the official website rather than links inside messages."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to reconfirm step by step"
+    },
+    {
+      "id": "portal-steps",
+      "type": "steps",
+      "title": "Reconfirm on the official website",
+      "steps": [
+        {
+          "title": "Open srd.sassa.gov.za",
+          "description": "Use your own device or a trusted one. The site works on any phone browser."
+        },
+        {
+          "title": "Select 'Confirm your application' / reconfirmation option",
+          "description": "It appears on the home page services list whenever a confirmation cycle is active."
+        },
+        {
+          "title": "Enter your ID number and cellphone number",
+          "description": "These must match what SASSA has on file — see our change-number guide if yours differ."
+        },
+        {
+          "title": "Review each declaration",
+          "description": "Confirm you still meet the income criteria, are not receiving UIF/NSFAS income, and that your details are unchanged."
+        },
+        {
+          "title": "Submit and save the reference number",
+          "description": "You receive a confirmation SMS once processed — usually within days."
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-p",
+      "type": "paragraph",
+      "text": "Prefer WhatsApp? Message 082 046 8553 and say 'Reconfirm'. The menu walks through the same declarations using your ID number. The call centre (0800 60 10 11) can also assist if you cannot access data."
+    },
+    {
+      "id": "timing-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Deadlines: don't lose a month"
+    },
+    {
+      "id": "timing-p",
+      "type": "paragraph",
+      "text": "Reconfirmation windows close before the next monthly approval run. If your SMS gives a deadline — typically around the middle of the month — complete reconfirmation at least several days before it. Applications that miss the window are not paid for that cycle; completing it late restores future months but rarely revives the missed one."
+    },
+    {
+      "id": "skip-callout",
+      "type": "callout",
+      "variant": "warning",
+      "title": "What happens if you skip reconfirmation",
+      "text": "Your status moves to 'lapsed' or 'incomplete', payments pause, and you may need to lodge a fresh application instead of simply confirming. A few minutes of reconfirmation protects a month of income."
+    },
+    {
+      "id": "trouble-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If reconfirmation fails or won't accept your details"
+    },
+    {
+      "id": "trouble-p1",
+      "type": "paragraph",
+      "text": "The most common causes are a changed cellphone number, an ID typo, or a file already flagged for review. Fix your contact details first, then retry after 24 hours. Persistent failures mean something on your file needs human attention — visit any SASSA office with your green ID book or smart card."
+    },
+    {
+      "id": "trouble-p2",
+      "type": "paragraph",
+      "text": "Never pay a third party to 'fix' a lapsed file. All recovery routes run through free official channels, and agents at offices handle lapsed files routinely."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How do I reconfirm my SRD grant?",
+          "answer": "Go to srd.sassa.gov.za, choose the reconfirmation option, enter your ID and registered cellphone, review the eligibility declarations, and submit. You can also use WhatsApp 082 046 8553 or call 0800 60 10 11."
+        },
+        {
+          "question": "Why does SASSA ask me to reconfirm every so often?",
+          "answer": "Periodic sweeps confirm your circumstances have not changed and your contact details still work. It is how the grant stays accurate without annual office visits for everyone."
+        },
+        {
+          "question": "I missed the reconfirmation deadline. Can I still get that month?",
+          "answer": "Usually no — missed cycles are rarely back-paid. Complete reconfirmation immediately anyway so future months resume, and appeal only if your SMS history shows the reminder never reached you."
+        },
+        {
+          "question": "Is reconfirmation the same as appealing a declined month?",
+          "answer": "No. Reconfirmation keeps an approved application alive. Appeals challenge specific declined months through the independent tribunal — a separate process with its own deadlines."
+        },
+        {
+          "question": "My status says 'lapsed'. Is reconfirmation enough to fix it?",
+          "answer": "If the lapse was recent and caused by a skipped confirmation, reconfirming usually restores the file. Long-lapsed files sometimes require a new application — check your status page for which applies."
+        },
+        {
+          "question": "Does reconfirmation cost anything?",
+          "answer": "No. Any person or website charging for reconfirmation is committing fraud. Use only srd.sassa.gov.za, the WhatsApp line, the call centre, or physical offices."
+        }
+      ],
+      "title": "Frequently asked questions"
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SRD R370 official portal — confirmation service",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA WhatsApp self-service 082 046 8553",
+          "url": "https://wa.me/27820468553"
+        }
+      ],
+      "note": "Verified against official SASSA channels in August 2026. Reconfirmation cycles and deadlines follow current SASSA practice."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Change Your SRD Phone Number",
+      "slug": "/guides/change-srd-phone-number"
+    },
+    {
+      "title": "Cancel Your SRD Application",
+      "slug": "/guides/cancel-srd-application"
+    },
+    {
+      "title": "SRD Appeal After Decline",
+      "slug": "/appeals/how-to-appeal"
+    }
+  ]
+}

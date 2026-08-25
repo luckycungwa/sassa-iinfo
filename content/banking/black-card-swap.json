@@ -7,52 +7,103 @@
   "lastUpdated": "2026-08-04",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official Postbank and SASSA communications", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official Postbank and SASSA communications",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Black Card Swap — Gold Card Deadline 31 August 2026",
     "metaDescription": "Swap your SASSA Gold Card for the Postbank Black Card before 31 August 2026 or your card stops working. Free swap at major retailers, just bring your ID. Dial *120*355# for your nearest collection point.",
-    "keywords": ["SASSA black card", "Postbank black card", "gold card deadline", "SASSA gold card swap", "black card 31 August 2026", "SASSA card replacement 2026", "Postbank card collection point"]
+    "keywords": [
+      "SASSA black card",
+      "Postbank black card",
+      "gold card deadline",
+      "SASSA gold card swap",
+      "black card 31 August 2026",
+      "SASSA card replacement 2026",
+      "Postbank card collection point"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Swap Your SASSA Gold Card — Deadline 31 August 2026",
       "description": "Postbank is replacing every SASSA Gold Card with the new Black Card. The final deadline is 31 August 2026 and it will NOT be extended. Around 280,000 beneficiaries still had not switched as of early August 2026. The swap is free, takes minutes, and needs only your South African ID.",
       "readingTime": "5 min read",
       "lastUpdated": "4 August 2026",
-      "cta": { "label": "How to Swap — Step by Step", "href": "#how-to-swap" },
-      "secondaryCta": { "label": "Full Black Card Guide", "href": "/banking/sassa-black-card-guide" }
+      "cta": {
+        "label": "How to Swap — Step by Step",
+        "href": "#how-to-swap"
+      },
+      "secondaryCta": {
+        "label": "Card Replacement Guide",
+        "href": "/banking/sassa-card-replacement"
+      }
     },
     {
-      "id": "warning-callout", "type": "callout", "intent": "danger",
+      "id": "warning-callout",
+      "type": "callout",
+      "intent": "danger",
       "title": "Do Not Wait Until the Last Minute",
       "text": "Postbank has confirmed the 31 August 2026 deadline will not be extended. After this date, Gold Cards stop working and you will not be able to access your grant money until you collect a Black Card. Queues get longer every week closer to the deadline — swap as soon as possible."
     },
     {
-      "id": "h1", "type": "heading", "level": 2, "text": "Why You Must Swap Your Gold Card" },
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Why You Must Swap Your Gold Card"
+    },
     {
-      "id": "why-swap", "type": "paragraph",
+      "id": "why-swap",
+      "type": "paragraph",
       "text": "Postbank is phasing out the old SASSA Gold Card and replacing it with the new Postbank Black Card as part of a national modernisation of the social grant payment system. The Black Card works at more ATMs, supports contactless payments, and has improved security features. After 31 August 2026 the old Gold Cards will be deactivated."
     },
     {
-      "id": "how-to-swap", "type": "steps",
+      "id": "how-to-swap",
+      "type": "steps",
       "steps": [
-        { "title": "Gather your ID", "description": "Take your valid South African ID book or smart ID card. A temporary ID is also accepted. You do NOT need your old Gold Card to get the new one." },
-        { "title": "Find your nearest collection point", "description": "Dial *120*355# on your mobile phone to find the nearest collection site, or call Postbank on 0800 53 54 55. You can collect in any province, even if your grant was approved elsewhere." },
-        { "title": "Visit a Postbank service point or participating retailer", "description": "Cards are available at Postbank service points inside selected Shoprite, Checkers, Usave, Pick n Pay, Boxer and Spar stores nationwide." },
-        { "title": "Collect your Black Card", "description": "The swap is completely free and takes a few minutes. No forms are required and no activation is needed — the card works immediately when issued." },
-        { "title": "Check your balance transferred", "description": "Any balance on your old Gold Card transfers automatically to the new Black Card. Do not throw away the old card until you have confirmed your balance moved across." }
+        {
+          "title": "Gather your ID",
+          "description": "Take your valid South African ID book or smart ID card. A temporary ID is also accepted. You do NOT need your old Gold Card to get the new one."
+        },
+        {
+          "title": "Find your nearest collection point",
+          "description": "Dial *120*355# on your mobile phone to find the nearest collection site, or call Postbank on 0800 53 54 55. You can collect in any province, even if your grant was approved elsewhere."
+        },
+        {
+          "title": "Visit a Postbank service point or participating retailer",
+          "description": "Cards are available at Postbank service points inside selected Shoprite, Checkers, Usave, Pick n Pay, Boxer and Spar stores nationwide."
+        },
+        {
+          "title": "Collect your Black Card",
+          "description": "The swap is completely free and takes a few minutes. No forms are required and no activation is needed — the card works immediately when issued."
+        },
+        {
+          "title": "Check your balance transferred",
+          "description": "Any balance on your old Gold Card transfers automatically to the new Black Card. Do not throw away the old card until you have confirmed your balance moved across."
+        }
       ]
     },
     {
-      "id": "free-callout", "type": "callout", "intent": "success",
+      "id": "free-callout",
+      "type": "callout",
+      "intent": "success",
       "title": "The Swap Is Free",
       "text": "SASSA and Postbank never charge for the Black Card swap. If anyone asks you to pay a fee, complete a form, or provide your PIN or OTP to receive the card, you are dealing with a scammer. A genuine Black Card has 'Postbank' printed on the front."
     },
     {
-      "id": "where-h", "type": "heading", "level": 3, "text": "Where You Can Collect Your Black Card" },
+      "id": "where-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Where You Can Collect Your Black Card"
+    },
     {
-      "id": "where-list", "type": "list", "ordered": false,
+      "id": "where-list",
+      "type": "list",
+      "ordered": false,
       "items": [
         "Postbank service points inside selected Shoprite stores",
         "Postbank service points inside selected Checkers and Usave stores",
@@ -62,18 +113,27 @@
       ]
     },
     {
-      "id": "ussd-callout", "type": "callout", "intent": "info",
+      "id": "ussd-callout",
+      "type": "callout",
+      "intent": "info",
       "title": "Find Your Nearest Collection Point",
       "text": "Dial *120*355# from any mobile phone to locate the nearest Postbank card collection site. The service works on all major South African networks. You can also call Postbank on 0800 53 54 55."
     },
     {
-      "id": "scam-h", "type": "heading", "level": 3, "text": "Black Card Scam Warning" },
+      "id": "scam-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Black Card Scam Warning"
+    },
     {
-      "id": "scam-paragraph", "type": "paragraph",
+      "id": "scam-paragraph",
+      "type": "paragraph",
       "text": "Scammers are targeting beneficiaries during the card migration. Remember: a genuine Black Card always has 'Postbank' printed on the front. If a card does not say Postbank, it is a fake. SASSA and Postbank will never ask for your PIN, OTP, or banking password, and no one may charge you to swap your card."
     },
     {
-      "id": "scam-list", "type": "list", "ordered": false,
+      "id": "scam-list",
+      "type": "list",
+      "ordered": false,
       "items": [
         "If it is not written 'Postbank' on the front, it is a scam",
         "No forms are required — if you are asked to sign anything, the card is not genuine",
@@ -83,29 +143,101 @@
       ]
     },
     {
-      "id": "faq-h", "type": "heading", "level": 2, "text": "Frequently Asked Questions" },
+      "id": "usage-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Using your Black Card day to day"
+    },
     {
-      "id": "faq", "type": "faq", "faqs": [
-        { "question": "What happens if I do not swap my Gold Card by 31 August 2026?", "answer": "Your Gold Card will stop working after 31 August 2026 and you will not be able to access your grant money until you collect a Black Card. Your grant itself is not affected — the money stays in your Postbank account — but you will have no way to withdraw it until you swap." },
-        { "question": "Does the Black Card swap cost anything?", "answer": "No. The replacement is completely free of charge. No forms, no fees, no activation required. If anyone asks you to pay for the card, it is a scam." },
-        { "question": "Do I need to bring my old Gold Card to swap it?", "answer": "No. You only need your valid South African ID or temporary ID. Any balance on your old Gold Card transfers automatically to the new Black Card." },
-        { "question": "Can I collect my Black Card in a different province from where my grant was approved?", "answer": "Yes. Cards can be collected from any Postbank service point or participating retailer in any province, regardless of where your grant was originally approved." },
-        { "question": "What if my Gold Card is lost or stolen before I swap?", "answer": "Report it to Postbank on 0800 53 54 55 to block the card, then visit any Postbank service point with your ID to collect a Black Card. Your grant payments continue as normal while you sort out the replacement." },
-        { "question": "How do I find my nearest Black Card collection point?", "answer": "Dial *120*355# on your mobile phone to find the nearest collection site, or call Postbank on 0800 53 54 55. Cards are available at Postbank service points inside selected Shoprite, Checkers, Usave, Pick n Pay, Boxer and Spar stores." }
+      "id": "usage-paragraph",
+      "type": "paragraph",
+      "text": "The Black Card works at any ATM or till point that accepts Mastercard, and you can withdraw cash for free at participating retailers (Shoprite, Checkers, Pick n Pay, Boxer, Usave) and Postbank ATMs. There are no monthly account fees, and the card supports contactless payments at retailers that accept cards."
+    },
+    {
+      "id": "lost-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Lost or stolen card?",
+      "text": "Report it immediately to Postbank on 0800 53 54 55 so the card is blocked. Then visit any Postbank service point with your ID for a replacement. Your grant payments continue as normal — the money stays in your Postbank account while you wait."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What happens if I do not swap my Gold Card by 31 August 2026?",
+          "answer": "Your Gold Card will stop working after 31 August 2026 and you will not be able to access your grant money until you collect a Black Card. Your grant itself is not affected — the money stays in your Postbank account — but you will have no way to withdraw it until you swap."
+        },
+        {
+          "question": "Does the Black Card swap cost anything?",
+          "answer": "No. The replacement is completely free of charge. No forms, no fees, no activation required. If anyone asks you to pay for the card, it is a scam."
+        },
+        {
+          "question": "Do I need to bring my old Gold Card to swap it?",
+          "answer": "No. You only need your valid South African ID or temporary ID. Any balance on your old Gold Card transfers automatically to the new Black Card."
+        },
+        {
+          "question": "Can I collect my Black Card in a different province from where my grant was approved?",
+          "answer": "Yes. Cards can be collected from any Postbank service point or participating retailer in any province, regardless of where your grant was originally approved."
+        },
+        {
+          "question": "What if my Gold Card is lost or stolen before I swap?",
+          "answer": "Report it to Postbank on 0800 53 54 55 to block the card, then visit any Postbank service point with your ID to collect a Black Card. Your grant payments continue as normal while you sort out the replacement."
+        },
+        {
+          "question": "How do I find my nearest Black Card collection point?",
+          "answer": "Dial *120*355# on your mobile phone to find the nearest collection site, or call Postbank on 0800 53 54 55. Cards are available at Postbank service points inside selected Shoprite, Checkers, Usave, Pick n Pay, Boxer and Spar stores."
+        }
       ]
     },
-    { "id": "div1", "type": "divider" },
-    { "id": "link1", "type": "link-grid", "links": [
-      { "title": "Full Black Card Guide", "href": "/banking/sassa-black-card-guide", "description": "Usage, ATMs, lost or stolen cards" },
-      { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All the ways to collect your grant" },
-      { "title": "Card Replacement Guide", "href": "/banking/sassa-card-replacement", "description": "Lost, stolen, or damaged cards" },
-      { "title": "Latest SASSA News", "href": "/news", "description": "Payment dates and policy updates" }
-    ] }
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Payment Methods",
+          "href": "/banking/payment-methods",
+          "description": "All the ways to collect your grant"
+        },
+        {
+          "title": "Card Replacement Guide",
+          "href": "/banking/sassa-card-replacement",
+          "description": "Lost, stolen, or damaged cards"
+        },
+        {
+          "title": "Latest SASSA News",
+          "href": "/news",
+          "description": "Payment dates and policy updates"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SASSA Black Card (Postbank Card) Guide", "slug": "/banking/sassa-black-card-guide" },
-    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" },
-    { "title": "Latest SASSA News", "slug": "/news" },
-    { "title": "SASSA Offices", "slug": "/offices" }
+    {
+      "title": "SASSA Payment Methods",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Card Replacement Guide",
+      "slug": "/banking/sassa-card-replacement"
+    },
+    {
+      "title": "Gold Card Migration News",
+      "slug": "/news/sassa-gold-card-to-black-card-migration"
+    },
+    {
+      "title": "SASSA Offices",
+      "slug": "/offices"
+    }
   ]
 }

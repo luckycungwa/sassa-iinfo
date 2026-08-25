@@ -1,0 +1,188 @@
+{
+  "id": "sassa-gold-card-migration",
+  "slug": "/news/sassa-gold-card-to-black-card-migration",
+  "classification": "news-article",
+  "title": "SASSA Gold Card to Black Card Migration: What Beneficiaries Need to Know",
+  "description": "SASSA is migrating beneficiaries from the Gold Card to the Black Card (Postbank card). Find out if you need to switch, how to do it, and what happens if you delay.",
+  "lastUpdated": "2026-08-23",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official Postbank notices",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Gold Card to Black Card Migration — Switch Guide 2026",
+    "metaDescription": "Gold Cards are being phased out for the Postbank Black Card. Who must switch, the free swap steps, deadlines, and how payments continue during migration.",
+    "keywords": [
+      "sassa gold card black card",
+      "postbank black card migration",
+      "sassa card swap",
+      "gold card phase out"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "title": "SASSA Gold Card to Black Card Migration",
+      "description": "The Gold Card era is ending. SASSA and Postbank are moving all grant beneficiaries onto the Black Card — here is who is affected, how the free swap works, and what happens to your money during the change.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-08-23"
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Why the Gold Card is being replaced"
+    },
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "text": "Postbank is modernising the social grant payment system, and the Gold Card platform is being phased out as part of that process. The Black Card (the SASSA SAPO/Postbank card) offers stronger security against card fraud, no monthly card fees, and wider acceptance at retail pay points nationwide."
+    },
+    {
+      "id": "h2",
+      "type": "heading",
+      "level": 2,
+      "text": "Do you need to switch?"
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "text": "If you currently collect your grant on a Gold Card, then yes — eventually every beneficiary moves to the Black Card. SASSA notifies affected beneficiaries by SMS and office notices in waves rather than all at once. If you have not been contacted yet, you can switch proactively instead of waiting for your wave."
+    },
+    {
+      "id": "switch-steps",
+      "type": "steps",
+      "title": "How to switch to the Black Card",
+      "steps": [
+        {
+          "title": "Visit a SASSA office or participating Post Office branch",
+          "description": "Both issue Black Cards. Offices are busier early in the month — mid-month visits are faster."
+        },
+        {
+          "title": "Bring your original ID",
+          "description": "Green barcoded ID book or smart card. Certified copies are not enough for card issuance."
+        },
+        {
+          "title": "Request the SASSA Black Card and complete the consent form",
+          "description": "The consent form redirects your grant payments into the new card account."
+        },
+        {
+          "title": "Receive your card — it is free",
+          "description": "There is no charge for the card or the migration itself. The new card is active immediately."
+        }
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "heading",
+      "level": 3,
+      "text": "What happens to your money during the switch"
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "text": "Payments redirect to the Black Card from your next payment cycle after the swap. Any balance still on your old Gold Card does not vanish — it transfers across, and you can also withdraw remaining funds from the Gold Card until the balance reaches zero during the transition period."
+    },
+    {
+      "id": "h4",
+      "type": "heading",
+      "level": 2,
+      "text": "What happens if you don't switch?"
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "text": "The Gold Card system will eventually be switched off. Beneficiaries who stay on it face growing disruption: some retailers already decline Gold Cards, and once the platform closes, un-swapped cards cannot receive payments at all — grants would be held until you collect a Black Card. Switching now avoids all of this."
+    },
+    {
+      "id": "scam-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Card scams peak during migrations",
+      "text": "No one legitimate will ever ask you to 'verify' your card by phone or SMS, share your PIN, or pay a fee for the Black Card. The swap happens in person with your ID only."
+    },
+    {
+      "id": "faq1",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Is the Black Card compulsory?",
+          "answer": "Yes for grant collection — the Gold Card platform is being retired entirely. There is no opt-out, but beneficiaries can alternatively switch to direct bank deposit if they prefer their own bank account."
+        },
+        {
+          "question": "How much does the Black Card cost?",
+          "answer": "Nothing. The card and the migration are free. Report anyone charging a 'migration fee' to the SASSA fraud line."
+        },
+        {
+          "question": "Will my grant date change when I switch?",
+          "answer": "No. Payment dates stay exactly the same; only the card receiving the money changes, starting from your next cycle after the swap."
+        },
+        {
+          "question": "What about money left on my Gold Card?",
+          "answer": "Balances carry over to the Black Card, and you can draw down remaining Gold Card funds during the transition window."
+        },
+        {
+          "question": "I lost my Gold Card. Can I get a Black Card directly?",
+          "answer": "Yes — visit an office or Post Office with your ID and request the Black Card as your replacement. Your grant redirects there from the next cycle."
+        }
+      ]
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Payment Methods Compared",
+          "href": "/banking/payment-methods",
+          "description": "Black Card vs bank transfer vs Cash Send"
+        },
+        {
+          "title": "Change Banking Details",
+          "href": "/banking/change-srd-banking-details",
+          "description": "Switch SRD payments to your own bank"
+        },
+        {
+          "title": "Find Your Nearest Office",
+          "href": "/offices",
+          "description": "SASSA office locations and hours"
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official announcements on card migration",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "Postbank beneficiary notices",
+          "url": "https://www.postbank.co.za"
+        }
+      ],
+      "note": "Migration status verified August 2026. Wave scheduling varies by province."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Payment Methods Guide",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    }
+  ]
+}

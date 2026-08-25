@@ -8,12 +8,25 @@
   "version": "1.0.0",
   "readingTime": "7 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Grant Suspended? — Restoration Guide 2026",
     "metaDescription": "Is your SASSA grant suspended? Complete guide to restoration covering bank verification, means test, annual review, and identity issues. Step-by-step for each reason.",
-    "keywords": ["SASSA grant suspended", "SASSA grant restoration", "SASSA suspended meaning", "how to restore SASSA grant", "SASSA grant cancelled"],
-    "schemaMarkup": { "@type": "Article", "name": "SASSA Grant Suspension Restoration Guide" }
+    "keywords": [
+      "SASSA grant suspended",
+      "SASSA grant restoration",
+      "SASSA suspended meaning",
+      "how to restore SASSA grant",
+      "SASSA grant cancelled"
+    ],
+    "schemaMarkup": {
+      "@type": "Article",
+      "name": "SASSA Grant Suspension Restoration Guide"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +36,14 @@
       "description": "Why SASSA grants get suspended and how to restore them. Complete guide covering bank verification failures, means test issues, annual review lapses, and identity verification problems.",
       "readingTime": "7 min read",
       "lastUpdated": "2026-07-26",
-      "cta": { "label": "Check My Status", "href": "/guides/how-to-check-sassa-status" },
-      "secondaryCta": { "label": "Appeal a Decision", "href": "/appeals" }
+      "cta": {
+        "label": "Check My Status",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "label": "Appeal a Decision",
+        "href": "/appeals"
+      }
     },
     {
       "id": "intro",
@@ -45,13 +64,43 @@
     {
       "id": "reasons-table",
       "type": "table",
-      "headers": ["Reason", "How to Check", "Restoration Steps", "Timeline"],
+      "headers": [
+        "Reason",
+        "How to Check",
+        "Restoration Steps",
+        "Timeline"
+      ],
       "rows": [
-        ["Bank verification failure", "Check SMS or letter from SASSA; or enquire at your SASSA office.", "Update your banking details in person at a SASSA office with your ID and bank statement.", "7–14 working days after updated info submitted."],
-        ["Means test failure", "You will receive a written notification. You can also check at your nearest SASSA office.", "Submit an appeal if your situation changed, or provide proof that your income or assets are below the threshold.", "Appeals processed within 30–90 days."],
-        ["Failure to complete annual review", "SASSA sends a reminder. Check your status online or at a SASSA office.", "Visit your SASSA office with your ID and complete the review form. A home visit can be arranged if needed.", "2–4 weeks if done in person."],
-        ["Identity verification issue", "SASSA will contact you if your ID document has expired or records do not match.", "Present your valid 13-digit barcoded ID or Smart ID card at a SASSA office.", "1–2 weeks after presenting valid ID."],
-        ["Beneficiary death reported in error", "You will discover this when your payment is declined. Enquire at SASSA to confirm.", "Visit SASSA with your ID and an affidavit confirming you are alive. A field worker may conduct a home visit.", "2–4 weeks after verification."]
+        [
+          "Bank verification failure",
+          "Check SMS or letter from SASSA; or enquire at your SASSA office.",
+          "Update your banking details in person at a SASSA office with your ID and bank statement.",
+          "7–14 working days after updated info submitted."
+        ],
+        [
+          "Means test failure",
+          "You will receive a written notification. You can also check at your nearest SASSA office.",
+          "Submit an appeal if your situation changed, or provide proof that your income or assets are below the threshold.",
+          "Appeals processed within 30–90 days."
+        ],
+        [
+          "Failure to complete annual review",
+          "SASSA sends a reminder. Check your status online or at a SASSA office.",
+          "Visit your SASSA office with your ID and complete the review form. A home visit can be arranged if needed.",
+          "2–4 weeks if done in person."
+        ],
+        [
+          "Identity verification issue",
+          "SASSA will contact you if your ID document has expired or records do not match.",
+          "Present your valid 13-digit barcoded ID or Smart ID card at a SASSA office.",
+          "1–2 weeks after presenting valid ID."
+        ],
+        [
+          "Beneficiary death reported in error",
+          "You will discover this when your payment is declined. Enquire at SASSA to confirm.",
+          "Visit SASSA with your ID and an affidavit confirming you are alive. A field worker may conduct a home visit.",
+          "2–4 weeks after verification."
+        ]
       ]
     },
     {
@@ -72,10 +121,22 @@
       "type": "steps",
       "title": "Bank Verification Failure",
       "steps": [
-        { "title": "Check the notification", "description": "Look for the SMS or letter SASSA sent you. It will say your bank details could not be verified." },
-        { "title": "Gather your documents", "description": "Take your original ID, your new bank statement (not older than 3 months), and a proof of residence to the SASSA office." },
-        { "title": "Visit your SASSA office", "description": "Complete the Change of Banking Details form and submit it with your supporting documents." },
-        { "title": "Confirm the update", "description": "Ask for a receipt or reference number. Payments usually resume within 7 to 14 working days." }
+        {
+          "title": "Check the notification",
+          "description": "Look for the SMS or letter SASSA sent you. It will say your bank details could not be verified."
+        },
+        {
+          "title": "Gather your documents",
+          "description": "Take your original ID, your new bank statement (not older than 3 months), and a proof of residence to the SASSA office."
+        },
+        {
+          "title": "Visit your SASSA office",
+          "description": "Complete the Change of Banking Details form and submit it with your supporting documents."
+        },
+        {
+          "title": "Confirm the update",
+          "description": "Ask for a receipt or reference number. Payments usually resume within 7 to 14 working days."
+        }
       ]
     },
     {
@@ -83,10 +144,22 @@
       "type": "steps",
       "title": "Annual Review Lapse",
       "steps": [
-        { "title": "Find your nearest SASSA office", "description": "Use the SASSA office locator or call 0800 60 10 11 to find the closest branch." },
-        { "title": "Bring your ID", "description": "Take your 13-digit barcoded ID or Smart ID card. No other documents are usually required." },
-        { "title": "Complete the review form", "description": "A SASSA officer will assist you with the annual review form. Sign and provide fingerprints if needed." },
-        { "title": "Request home visit if needed", "description": "If you are elderly, ill, or have a disability and cannot travel, ask SASSA to schedule a home visit." }
+        {
+          "title": "Find your nearest SASSA office",
+          "description": "Use the SASSA office locator or call 0800 60 10 11 to find the closest branch."
+        },
+        {
+          "title": "Bring your ID",
+          "description": "Take your 13-digit barcoded ID or Smart ID card. No other documents are usually required."
+        },
+        {
+          "title": "Complete the review form",
+          "description": "A SASSA officer will assist you with the annual review form. Sign and provide fingerprints if needed."
+        },
+        {
+          "title": "Request home visit if needed",
+          "description": "If you are elderly, ill, or have a disability and cannot travel, ask SASSA to schedule a home visit."
+        }
       ]
     },
     {
@@ -94,10 +167,22 @@
       "type": "steps",
       "title": "Means Test Failure",
       "steps": [
-        { "title": "Read the notification carefully", "description": "SASSA will explain why you failed the means test — either income, assets, or both exceeded the limit." },
-        { "title": "Check if your situation changed", "description": "If your income has since dropped or you no longer have certain assets, gather proof such as an affidavit or termination letter." },
-        { "title": "Submit an appeal", "description": "Visit your SASSA office and complete the appeal form within 90 days of receiving the notification." },
-        { "title": "Wait for the outcome", "description": "The Ministry of Social Development will review your appeal. Processing takes 30 to 90 days." }
+        {
+          "title": "Read the notification carefully",
+          "description": "SASSA will explain why you failed the means test — either income, assets, or both exceeded the limit."
+        },
+        {
+          "title": "Check if your situation changed",
+          "description": "If your income has since dropped or you no longer have certain assets, gather proof such as an affidavit or termination letter."
+        },
+        {
+          "title": "Submit an appeal",
+          "description": "Visit your SASSA office and complete the appeal form within 90 days of receiving the notification."
+        },
+        {
+          "title": "Wait for the outcome",
+          "description": "The Ministry of Social Development will review your appeal. Processing takes 30 to 90 days."
+        }
       ]
     },
     {
@@ -105,9 +190,18 @@
       "type": "steps",
       "title": "Identity Verification Issue",
       "steps": [
-        { "title": "Get your valid ID", "description": "If your ID has expired, apply for a new Smart ID card or green ID book at Home Affairs first." },
-        { "title": "Visit SASSA with your updated ID", "description": "Present your valid 13-digit barcoded ID at the SASSA office. Ask them to update their records." },
-        { "title": "Confirm restoration", "description": "Once the records match, your grant is typically restored within 1 to 2 weeks." }
+        {
+          "title": "Get your valid ID",
+          "description": "If your ID has expired, apply for a new Smart ID card or green ID book at Home Affairs first."
+        },
+        {
+          "title": "Visit SASSA with your updated ID",
+          "description": "Present your valid 13-digit barcoded ID at the SASSA office. Ask them to update their records."
+        },
+        {
+          "title": "Confirm restoration",
+          "description": "Once the records match, your grant is typically restored within 1 to 2 weeks."
+        }
       ]
     },
     {
@@ -167,10 +261,22 @@
       "id": "stats",
       "type": "stat-bar",
       "stats": [
-        { "label": "Grants suspended annually", "value": "~150,000" },
-        { "label": "Restored within 30 days", "value": "82%" },
-        { "label": "Caused by bank verification", "value": "38%" },
-        { "label": "SASSA toll-free line", "value": "0800 60 10 11" }
+        {
+          "label": "Grants suspended annually",
+          "value": "~150,000"
+        },
+        {
+          "label": "Restored within 30 days",
+          "value": "82%"
+        },
+        {
+          "label": "Caused by bank verification",
+          "value": "38%"
+        },
+        {
+          "label": "SASSA toll-free line",
+          "value": "0800 60 10 11"
+        }
       ]
     },
     {
@@ -178,17 +284,45 @@
       "type": "link-grid",
       "title": "Related Resources",
       "links": [
-        { "title": "How to Check SASSA Status", "description": "Check your grant application or payment status.", "href": "/guides/how-to-check-sassa-status" },
-        { "title": "Understanding the Means Test", "description": "How the means test works and whether you qualify.", "href": "/guides/understanding-means-test" },
-        { "title": "Update Bank Details", "description": "Change or update your banking details with SASSA.", "href": "/banking/update-bank-details" },
-        { "title": "Appeals Centre", "description": "Appeal a declined grant or suspension decision.", "href": "/appeals" }
+        {
+          "title": "How to Check SASSA Status",
+          "description": "Check your grant application or payment status.",
+          "href": "/guides/how-to-check-sassa-status"
+        },
+        {
+          "title": "Understanding the Means Test",
+          "description": "How the means test works and whether you qualify.",
+          "href": "/guides/understanding-means-test"
+        },
+        {
+          "title": "Update Bank Details",
+          "description": "Change or update your banking details with SASSA.",
+          "href": "/banking/update-bank-details"
+        },
+        {
+          "title": "Appeals Centre",
+          "description": "Appeal a declined grant or suspension decision.",
+          "href": "/appeals"
+        }
       ]
     }
   ],
   "relatedPages": [
-    { "title": "How to Check Your Status", "slug": "/guides/how-to-check-sassa-status" },
-    { "title": "Means Test Guide", "slug": "/guides/understanding-means-test" },
-    { "title": "Update Bank Details", "slug": "/banking/update-bank-details" },
-    { "title": "Appeals Centre", "slug": "/appeals" }
+    {
+      "title": "How to Check Your Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "Means Test Guide",
+      "slug": "/guides/understanding-means-test"
+    },
+    {
+      "title": "Update Bank Details",
+      "slug": "/banking/update-bank-details"
+    },
+    {
+      "title": "Appeals Centre",
+      "slug": "/appeals"
+    }
   ]
 }

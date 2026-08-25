@@ -7,49 +7,172 @@
   "lastUpdated": "2026-07-01",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "How to Register on the SRD Portal — SASSA Online Account Guide",
     "metaDescription": "Step-by-step guide to registering on the SASSA SRD portal (srd.sassa.gov.za): create your account, log in with ID and OTP, check your grant status, update bank details, and manage your application.",
-    "keywords": ["register SRD portal", "srd.sassa.gov.za register", "SASSA online account", "SRD portal login", "create SRD account", "SASSA portal registration"]
+    "keywords": [
+      "register SRD portal",
+      "srd.sassa.gov.za register",
+      "SASSA online account",
+      "SRD portal login",
+      "create SRD account",
+      "SASSA portal registration"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "How to Register on the SRD Portal — Create Your SASSA Online Account",
       "description": "The SRD portal at srd.sassa.gov.za is your online hub for managing your R370 grant. Learn how to register, log in with your ID and OTP, check your status, and update your payment details.",
       "readingTime": "4 min read",
       "lastUpdated": "June 2026",
-      "cta": { "label": "Go to SRD Portal", "href": "https://srd.sassa.gov.za" },
-      "secondaryCta": { "label": "Check Your Status", "href": "/guides/how-to-check-sassa-status" }
+      "cta": {
+        "label": "Go to SRD Portal",
+        "href": "https://srd.sassa.gov.za"
+      },
+      "secondaryCta": {
+        "label": "Check Your Status",
+        "href": "/guides/how-to-check-sassa-status"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "How to Register on the SRD Portal" },
-    { "id": "intro", "type": "paragraph", "text": "The SRD portal at srd.sassa.gov.za is your online hub for everything related to the SRD R370 grant. You can check your status, update your bank details, change your payment method, and view your payment history. Here is how to register and use the portal." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for SRD R370 grant applicants who need to create an account on the srd.sassa.gov.za portal to check their status and manage their grant." },
-    { "id": "register-h", "type": "heading", "level": 3, "text": "How to Register for the First Time" },
-    { "id": "register-text", "type": "paragraph", "text": "Registration on the SRD portal is simple. You do not need to create a username or password — the system uses your ID number and a one-time PIN (OTP) sent to your phone." },
-    { "id": "register-steps", "type": "steps", "steps": [
-      { "title": "Go to srd.sassa.gov.za", "description": "Open the website on your phone, tablet, or computer. The site works on all devices." },
-      { "title": "Enter your ID number", "description": "Type your 13-digit South African ID number in the field provided." },
-      { "title": "Enter your phone number", "description": "Enter the mobile phone number you used when you applied for the grant." },
-      { "title": "Click 'Send OTP'", "description": "An SMS with a one-time PIN will be sent to your phone. This may take a few seconds." },
-      { "title": "Enter the OTP", "description": "Type the OTP from your SMS into the portal. You are now logged in." },
-      { "title": "Explore your dashboard", "description": "Your dashboard shows your current status, payment history, and options to update your details." }
-    ] },
-    { "id": "features-h", "type": "heading", "level": 3, "text": "What You Can Do on the SRD Portal" },
-    { "id": "features-list", "type": "list", "ordered": false, "items": ["Check your current grant status (Pending, Approved, Declined, etc.)", "View your payment history for previous months", "Update your bank account details", "Switch between bank transfer and Cash Send payment methods", "Update your phone number or personal details", "View your application reference number", "Check if any action is needed on your application"] },
-    { "id": "troubleshooting-h", "type": "heading", "level": 3, "text": "Troubleshooting Portal Access" },
-    { "id": "troubleshooting-list", "type": "list", "ordered": false, "items": ["If you do not receive the OTP: check your network signal, ensure your phone has SMS storage space, and try again after 10 minutes", "If you changed your phone number: you cannot log in with the new number. Visit a SASSA office to update your registered phone number", "If the portal shows 'No Application Found': your ID may not be registered in the SRD system, or there may be a system error. Try again later or contact SASSA", "If the portal is down: try during off-peak hours (early morning or late evening). The portal experiences high traffic during month-end"] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Do I need an email address to register?", "answer": "No. The SRD portal uses your ID number and phone number for access. No email or password is required." },
-      { "question": "Can I log in from any phone?", "answer": "Yes, as long as you have the phone number registered with your SASSA application to receive the OTP." },
-      { "question": "What if I no longer have access to my registered phone number?", "answer": "You must visit your nearest SASSA office with your ID to update your registered phone number." },
-      { "question": "Is the SRD portal free to use?", "answer": "Yes. The portal itself is free. Standard data charges apply for using the internet on your phone." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Register on the SRD Portal"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The SRD portal at srd.sassa.gov.za is your online hub for everything related to the SRD R370 grant. You can check your status, update your bank details, change your payment method, and view your payment history. Here is how to register and use the portal."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This guide is for SRD R370 grant applicants who need to create an account on the srd.sassa.gov.za portal to check their status and manage their grant."
+    },
+    {
+      "id": "register-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Register for the First Time"
+    },
+    {
+      "id": "register-text",
+      "type": "paragraph",
+      "text": "Registration on the SRD portal is simple. You do not need to create a username or password — the system uses your ID number and a one-time PIN (OTP) sent to your phone."
+    },
+    {
+      "id": "register-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Go to srd.sassa.gov.za",
+          "description": "Open the website on your phone, tablet, or computer. The site works on all devices."
+        },
+        {
+          "title": "Enter your ID number",
+          "description": "Type your 13-digit South African ID number in the field provided."
+        },
+        {
+          "title": "Enter your phone number",
+          "description": "Enter the mobile phone number you used when you applied for the grant."
+        },
+        {
+          "title": "Click 'Send OTP'",
+          "description": "An SMS with a one-time PIN will be sent to your phone. This may take a few seconds."
+        },
+        {
+          "title": "Enter the OTP",
+          "description": "Type the OTP from your SMS into the portal. You are now logged in."
+        },
+        {
+          "title": "Explore your dashboard",
+          "description": "Your dashboard shows your current status, payment history, and options to update your details."
+        }
+      ]
+    },
+    {
+      "id": "features-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What You Can Do on the SRD Portal"
+    },
+    {
+      "id": "features-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Check your current grant status (Pending, Approved, Declined, etc.)",
+        "View your payment history for previous months",
+        "Update your bank account details",
+        "Switch between bank transfer and Cash Send payment methods",
+        "Update your phone number or personal details",
+        "View your application reference number",
+        "Check if any action is needed on your application"
+      ]
+    },
+    {
+      "id": "troubleshooting-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Troubleshooting Portal Access"
+    },
+    {
+      "id": "troubleshooting-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "If you do not receive the OTP: check your network signal, ensure your phone has SMS storage space, and try again after 10 minutes",
+        "If you changed your phone number: you cannot log in with the new number. Visit a SASSA office to update your registered phone number",
+        "If the portal shows 'No Application Found': your ID may not be registered in the SRD system, or there may be a system error. Try again later or contact SASSA",
+        "If the portal is down: try during off-peak hours (early morning or late evening). The portal experiences high traffic during month-end"
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Do I need an email address to register?",
+          "answer": "No. The SRD portal uses your ID number and phone number for access. No email or password is required."
+        },
+        {
+          "question": "Can I log in from any phone?",
+          "answer": "Yes, as long as you have the phone number registered with your SASSA application to receive the OTP."
+        },
+        {
+          "question": "What if I no longer have access to my registered phone number?",
+          "answer": "You must visit your nearest SASSA office with your ID to update your registered phone number."
+        },
+        {
+          "question": "Is the SRD portal free to use?",
+          "answer": "Yes. The portal itself is free. Standard data charges apply for using the internet on your phone."
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check", "description": "How to check your SRD grant status" },
-    { "title": "How to Update Bank Details", "href": "/banking/update-bank-details", "description": "Change your bank account for grant payments" },
-    { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Complete guide to the SRD grant" }
+    {
+      "title": "Check Your SRD Status",
+      "href": "/grants/srd-r370-grant/status-check",
+      "description": "How to check your SRD grant status"
+    },
+    {
+      "title": "How to Update Bank Details",
+      "href": "/banking/update-bank-details",
+      "description": "Change your bank account for grant payments"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "href": "/grants/srd-r370-grant",
+      "description": "Complete guide to the SRD grant"
+    }
   ]
 }

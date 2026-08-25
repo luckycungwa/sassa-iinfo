@@ -8,22 +8,42 @@
   "version": "1.0.0",
   "readingTime": "9 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Founder, 44tagstudios", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Founder, 44tagstudios",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Care Dependency Grant 2026: Amount, Eligibility & How to Apply",
     "metaDescription": "Complete guide to the SASSA Care Dependency Grant: R2,400 per month for severely disabled children aged 1-18, medical assessment process, required documents, and step-by-step application guide.",
-    "keywords": ["care dependency grant", "SASSA care dependency", "disabled child grant South Africa", "SASSA disability child", "care dependency grant medical assessment"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Care Dependency Grant" }
+    "keywords": [
+      "care dependency grant",
+      "SASSA care dependency",
+      "disabled child grant South Africa",
+      "SASSA disability child",
+      "care dependency grant medical assessment"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Care Dependency Grant"
+    }
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Care Dependency Grant",
       "description": "Complete guide to the SASSA Care Dependency Grant: R2,400 per month for caregivers of children with severe disabilities who need full-time care at home. Medical assessment process, required documents, application steps, and what happens when the child turns 18.",
       "readingTime": "9 min read",
       "lastUpdated": "2026-07-27",
-      "cta": { "label": "Check Eligibility", "href": "/eligibility/i-am-a-caregiver" },
-      "secondaryCta": { "label": "Disability Grant Guide", "href": "/grants/disability-grant" }
+      "cta": {
+        "label": "Check Eligibility",
+        "href": "/eligibility/i-am-a-caregiver"
+      },
+      "secondaryCta": {
+        "label": "Disability Grant Guide",
+        "href": "/grants/disability-grant"
+      }
     },
     {
       "id": "summary",
@@ -51,13 +71,37 @@
     {
       "id": "qualifying-table",
       "type": "table",
-      "headers": ["Condition Type", "Examples That Often Qualify", "Examples That Often Do Not"],
+      "headers": [
+        "Condition Type",
+        "Examples That Often Qualify",
+        "Examples That Often Do Not"
+      ],
       "rows": [
-        ["Physical disabilities", "Cerebral palsy (severe), spina bifida, muscular dystrophy, loss of limbs", "Mild physical delays, treatable clubfoot, temporary injuries"],
-        ["Intellectual disabilities", "Severe intellectual disability, Down syndrome with complications, global developmental delay", "Mild learning difficulties, ADHD without complications"],
-        ["Neurological conditions", "Epilepsy with frequent seizures, severe brain damage, hydrocephalus", "Well-controlled epilepsy, mild concussions"],
-        ["Sensory disabilities", "Complete blindness, profound deafness", "Correctable vision or hearing impairments"],
-        ["Chronic illness", "Advanced HIV with AIDS-defining illnesses, severe heart disease, end-stage kidney disease", "Well-managed asthma, controlled diabetes, mild hypertension"]
+        [
+          "Physical disabilities",
+          "Cerebral palsy (severe), spina bifida, muscular dystrophy, loss of limbs",
+          "Mild physical delays, treatable clubfoot, temporary injuries"
+        ],
+        [
+          "Intellectual disabilities",
+          "Severe intellectual disability, Down syndrome with complications, global developmental delay",
+          "Mild learning difficulties, ADHD without complications"
+        ],
+        [
+          "Neurological conditions",
+          "Epilepsy with frequent seizures, severe brain damage, hydrocephalus",
+          "Well-controlled epilepsy, mild concussions"
+        ],
+        [
+          "Sensory disabilities",
+          "Complete blindness, profound deafness",
+          "Correctable vision or hearing impairments"
+        ],
+        [
+          "Chronic illness",
+          "Advanced HIV with AIDS-defining illnesses, severe heart disease, end-stage kidney disease",
+          "Well-managed asthma, controlled diabetes, mild hypertension"
+        ]
       ],
       "caption": "SASSA assesses each child individually. A diagnosis alone is not enough — the disability must prevent the child from functioning independently and require full-time care."
     },
@@ -91,8 +135,16 @@
         "The child cannot receive both Care Dependency Grant and Child Support Grant simultaneously"
       ],
       "recommendedGrants": [
-        { "name": "Disability Grant (Adult)", "slug": "/grants/disability-grant", "amount": "R2,400" },
-        { "name": "Grant-in-Aid", "slug": "/grants/grant-in-aid", "amount": "R580" }
+        {
+          "name": "Disability Grant (Adult)",
+          "slug": "/grants/disability-grant",
+          "amount": "R2,400"
+        },
+        {
+          "name": "Grant-in-Aid",
+          "slug": "/grants/grant-in-aid",
+          "amount": "R580"
+        }
       ]
     },
     {
@@ -110,11 +162,26 @@
       "id": "medical-steps",
       "type": "steps",
       "steps": [
-        { "title": "Get the medical report form", "description": "Collect the official SASSA medical report form from any SASSA office, clinic, or hospital. Do not use a plain doctor's letter." },
-        { "title": "Visit your child's doctor or clinic", "description": "The doctor completes Part A and B of the form. They must include the diagnosis, test results, treatment history, and specifically state why the child needs full-time care." },
-        { "title": "Submit to SASSA with application", "description": "Take the completed form, your ID, and the child's birth certificate to SASSA. They will schedule a district surgeon appointment." },
-        { "title": "Attend the SASSA medical assessment", "description": "Bring the child and all medical records to the district surgeon appointment. The doctor will examine the child, review the history, and make a determination." },
-        { "title": "Wait for the outcome", "description": "SASSA processes the application within 60-90 days. If approved, payments are backdated to the application date." }
+        {
+          "title": "Get the medical report form",
+          "description": "Collect the official SASSA medical report form from any SASSA office, clinic, or hospital. Do not use a plain doctor's letter."
+        },
+        {
+          "title": "Visit your child's doctor or clinic",
+          "description": "The doctor completes Part A and B of the form. They must include the diagnosis, test results, treatment history, and specifically state why the child needs full-time care."
+        },
+        {
+          "title": "Submit to SASSA with application",
+          "description": "Take the completed form, your ID, and the child's birth certificate to SASSA. They will schedule a district surgeon appointment."
+        },
+        {
+          "title": "Attend the SASSA medical assessment",
+          "description": "Bring the child and all medical records to the district surgeon appointment. The doctor will examine the child, review the history, and make a determination."
+        },
+        {
+          "title": "Wait for the outcome",
+          "description": "SASSA processes the application within 60-90 days. If approved, payments are backdated to the application date."
+        }
       ]
     },
     {
@@ -127,13 +194,38 @@
       "id": "docs",
       "type": "document-checklist",
       "documents": [
-        { "label": "Your original 13-digit ID or smart ID card", "required": true },
-        { "label": "The child's birth certificate (original)", "required": true },
-        { "label": "SASSA medical assessment report completed by a doctor", "required": true, "notes": "Use the official SASSA form, not a plain doctor's letter." },
-        { "label": "Proof of income or unemployment affidavit", "required": true, "notes": "Last 3 months bank statements if employed, or sworn affidavit if unemployed." },
-        { "label": "Proof of residence (utility bill or tribal authority letter)", "required": true },
-        { "label": "School attendance letter or clinic card", "required": false, "notes": "Helps confirm the child's age and daily care needs." },
-        { "label": "Specialist reports or hospital discharge summaries", "required": false, "notes": "Strongly recommended: these strengthen the medical assessment." }
+        {
+          "label": "Your original 13-digit ID or smart ID card",
+          "required": true
+        },
+        {
+          "label": "The child's birth certificate (original)",
+          "required": true
+        },
+        {
+          "label": "SASSA medical assessment report completed by a doctor",
+          "required": true,
+          "notes": "Use the official SASSA form, not a plain doctor's letter."
+        },
+        {
+          "label": "Proof of income or unemployment affidavit",
+          "required": true,
+          "notes": "Last 3 months bank statements if employed, or sworn affidavit if unemployed."
+        },
+        {
+          "label": "Proof of residence (utility bill or tribal authority letter)",
+          "required": true
+        },
+        {
+          "label": "School attendance letter or clinic card",
+          "required": false,
+          "notes": "Helps confirm the child's age and daily care needs."
+        },
+        {
+          "label": "Specialist reports or hospital discharge summaries",
+          "required": false,
+          "notes": "Strongly recommended: these strengthen the medical assessment."
+        }
       ]
     },
     {
@@ -146,11 +238,26 @@
       "id": "apply-steps",
       "type": "steps",
       "steps": [
-        { "title": "Obtain a referral", "description": "Visit your local clinic or social worker to get a referral for a SASSA medical assessment." },
-        { "title": "Complete the medical assessment", "description": "Take your child to the SASSA medical doctor for the evaluation. Bring all medical records, test results, and a daily care log." },
-        { "title": "Visit your SASSA office", "description": "Once the medical assessment is done, go to SASSA with your ID, the child's birth certificate, and proof of income." },
-        { "title": "Fill in the application form", "description": "Complete the grant application form with the help of a SASSA officer. Your fingerprints and the child's photo may be taken." },
-        { "title": "Wait for processing", "description": "SASSA aims to process within 90 days. Keep your receipt with the application reference number." }
+        {
+          "title": "Obtain a referral",
+          "description": "Visit your local clinic or social worker to get a referral for a SASSA medical assessment."
+        },
+        {
+          "title": "Complete the medical assessment",
+          "description": "Take your child to the SASSA medical doctor for the evaluation. Bring all medical records, test results, and a daily care log."
+        },
+        {
+          "title": "Visit your SASSA office",
+          "description": "Once the medical assessment is done, go to SASSA with your ID, the child's birth certificate, and proof of income."
+        },
+        {
+          "title": "Fill in the application form",
+          "description": "Complete the grant application form with the help of a SASSA officer. Your fingerprints and the child's photo may be taken."
+        },
+        {
+          "title": "Wait for processing",
+          "description": "SASSA aims to process within 90 days. Keep your receipt with the application reference number."
+        }
       ]
     },
     {
@@ -215,17 +322,45 @@
       "id": "related-links",
       "type": "link-grid",
       "links": [
-        { "title": "Disability Grant Guide", "href": "/grants/disability-grant", "description": "Adult disability grant — eligibility and process" },
-        { "title": "Grant-in-Aid", "href": "/grants/grant-in-aid", "description": "Extra grant for those who need full-time care" },
-        { "title": "Child Support Grant", "href": "/grants/child-support-grant", "description": "Alternative for children without disabilities" },
-        { "title": "Appeal a Decline", "href": "/appeals/how-to-appeal", "description": "Challenge a declined application" }
+        {
+          "title": "Disability Grant Guide",
+          "href": "/grants/disability-grant",
+          "description": "Adult disability grant — eligibility and process"
+        },
+        {
+          "title": "Grant-in-Aid",
+          "href": "/grants/grant-in-aid",
+          "description": "Extra grant for those who need full-time care"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant",
+          "description": "Alternative for children without disabilities"
+        },
+        {
+          "title": "Appeal a Decline",
+          "href": "/appeals/how-to-appeal",
+          "description": "Challenge a declined application"
+        }
       ]
     }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
-    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
-    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Disability Grant",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "Grant-in-Aid",
+      "slug": "/grants/grant-in-aid"
+    },
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    }
   ]
 }

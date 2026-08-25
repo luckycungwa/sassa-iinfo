@@ -4,90 +4,299 @@
   "classification": "eligibility-guide",
   "title": "Can I Get a SASSA Grant if I Receive UIF?",
   "description": "Understand how UIF payments affect your SASSA grant eligibility, SRD R370 qualification, and what to do if SASSA says you are UIF registered but you no longer receive UIF.",
-  "lastUpdated": "2026-07-29",
-  "version": "2.0.0",
+  "lastUpdated": "2026-08-25",
+  "version": "2.1.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Can I Get a SASSA Grant if I Receive UIF? Eligibility Rules",
     "metaDescription": "Guide to SASSA grant eligibility while receiving UIF payments. Learn how UIF affects your means test, what the R624 threshold means, and how to appeal if SASSA incorrectly flags you as UIF registered.",
-    "keywords": ["SASSA and UIF", "SASSA grant while on UIF", "SASSA UIF threshold", "SASSA and unemployment insurance", "UIF SASSA eligibility", "SASSA UIF database error"]
+    "keywords": [
+      "SASSA and UIF",
+      "SASSA grant while on UIF",
+      "SASSA UIF threshold",
+      "SASSA and unemployment insurance",
+      "UIF SASSA eligibility",
+      "SASSA UIF database error"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Can I Get a SASSA Grant if I Receive UIF?",
       "description": "Receiving UIF payments doesn't automatically disqualify you from SASSA grants — but the amount matters. Learn how UIF affects your means test, what the R624 threshold means, and how to appeal if you're incorrectly flagged.",
       "readingTime": "8 min read",
-      "lastUpdated": "July 2026",
-      "cta": { "label": "Appeal a UIF Decline", "href": "/appeals/appeal-after-uif" },
-      "secondaryCta": { "label": "Guide for Unemployed", "href": "/eligibility/i-am-unemployed" }
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Appeal a UIF Decline",
+        "href": "/appeals/appeal-after-uif"
+      },
+      "secondaryCta": {
+        "label": "Guide for Unemployed",
+        "href": "/eligibility/i-am-unemployed"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Can I Get a SASSA Grant if I Receive UIF?" },
-    { "id": "intro", "type": "paragraph", "text": "Many South Africans transition between UIF and SASSA grants. If you currently receive Unemployment Insurance Fund (UIF) payments, your SASSA eligibility depends on the amount and duration of your UIF payouts. Understanding how the means test treats UIF income is critical to knowing whether you qualify." },
-    { "id": "why", "type": "paragraph", "text": "SASSA grants are designed to support those with little or no income. UIF payments are treated as income in the means test, but this does not permanently disqualify you — eligibility depends on your UIF amount and duration. The key threshold is R624 per month: if your UIF payout exceeds this, you will not qualify for the SRD R370 grant for that month." },
-    { "id": "scenario-h", "type": "heading", "level": 3, "text": "Real-Life Scenario" },
-    { "id": "scenario", "type": "paragraph", "text": "Bongani is a 29-year-old from Durban who was retrenched from his factory job in March 2026. He receives UIF payments of R1,800 per month. Because this exceeds the R624 threshold, Bongani does not qualify for the SRD R370 grant while his UIF is active. However, his UIF will end after 6 months. Once it stops, Bongani can apply for SRD R370 immediately. He must obtain a UI-19 termination letter to prove his UIF has ended. This guide explains what Bongani — and anyone in a similar situation — should do." },
-    { "id": "grants-h", "type": "heading", "level": 3, "text": "When You Can and Cannot Qualify" },
-    { "id": "grants-table", "type": "table", "headers": ["Situation", "Can You Get SRD R370?", "What to Do"], "rows": [
-      ["UIF payment below R624/month", "Yes", "Apply for SRD R370 and declare your UIF income in the application."],
-      ["UIF payment above R624/month", "No", "Wait until UIF ends, then apply with a UI-19 termination letter."],
-      ["UIF just ended", "Yes (from next month)", "Get a UI-19 letter from the Department of Labour. Apply immediately."],
-      ["SASSA says you have UIF but you don't", "Yes (appeal required)", "This is a database error. Appeal with a UI-19 termination letter."]
-    ] },
-    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Points to Understand" },
-    { "id": "checklist", "type": "list", "ordered": false, "items": [
-      "UIF payments are considered income by SASSA's means test",
-      "If your UIF payout exceeds R624 per month, you will not qualify for SRD R370",
-      "If your UIF has ended, you can reapply for SASSA grants immediately — no waiting period",
-      "SASSA's database may show you as 'UIF Registered' even after your UIF has stopped",
-      "A UI-19 termination letter is the official proof that your UIF has ended"
-    ] },
-    { "id": "docs-h", "type": "heading", "level": 3, "text": "Required Documents" },
-    { "id": "docs", "type": "document-checklist", "documents": [
-      { "label": "Valid South African ID", "required": true },
-      { "label": "UI-19 form or official UIF status confirmation letter from the Department of Labour", "required": true },
-      { "label": "Latest 3 months bank statements showing all deposits", "required": true },
-      { "label": "Unemployment affidavit sworn at a SAPS station", "required": false }
-    ] },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Process" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Check your UIF amount", "description": "Log into the UIF portal at www.labour.gov.za or use the UIF app to check your monthly payout amount." },
-      { "title": "Compare with the R624 threshold", "description": "If your monthly UIF is below R624, you can apply for SRD R370 while receiving UIF. If above R624, you must wait until UIF ends." },
-      { "title": "If UIF has ended, get proof", "description": "Visit your nearest Department of Labour office and request a UI-19 termination letter. This confirms your UIF payments have stopped." },
-      { "title": "Apply for SRD R370", "description": "Apply online at srd.sassa.gov.za with your ID and bank details. Attach the UI-19 letter if prompted." },
-      { "title": "If incorrectly flagged, appeal", "description": "If SASSA declines you saying you have UIF but you don't, file an appeal on the ITSAA portal and upload your UI-19 letter." }
-    ] },
-    { "id": "callout", "type": "callout", "intent": "warning", "title": "Important", "text": "Active UIF payments above R624/month disqualify you from SRD R370. You cannot receive both UIF and a full social grant simultaneously if the UIF exceeds the threshold. However, UIF and the Child Support Grant can be received together." },
-    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
-    { "id": "mistakes", "type": "list", "ordered": false, "items": [
-      "Assuming you cannot apply for SASSA just because you have UIF — check your UIF amount first",
-      "Not getting a UI-19 letter when your UIF ends — SASSA's database may still show you as UIF-registered",
-      "Applying for SRD R370 while UIF is above R624/month — your application will be automatically declined",
-      "Not appealing a 'UIF Registered' decline — this is a very common database error that can be fixed"
-    ] },
-    { "id": "decline-h", "type": "heading", "level": 3, "text": "What to Do If SASSA Says You Have UIF but You Don't" },
-    { "id": "decline", "type": "paragraph", "text": "This is one of the most common SASSA database errors. If SASSA declines you claiming you are 'UIF Registered' but you are no longer receiving UIF, visit your nearest Department of Labour office and request a UI-19 termination letter. Then file an appeal on the ITSAA appeal portal and upload the letter. Visit our appeal after UIF decline guide for detailed instructions." },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "SASSA declined me saying I have UIF, but I no longer receive it. What do I do?", "answer": "This is a common database error. Get a UI-19 termination letter from the Department of Labour and appeal the decision on the ITSAA appeal portal. The appeal typically takes 60-90 days to process." },
-      { "question": "Can I get backpay if my UIF stopped months ago?", "answer": "Yes. Once you provide proof your UIF has ended, your grant can be backdated to the month after your last UIF payout." },
-      { "question": "Can I receive the Child Support Grant while on UIF?", "answer": "Yes. The Child Support Grant has a more generous means test and is not affected by UIF payments as strictly as the SRD R370." },
-      { "question": "How do I get a UI-19 termination letter?", "answer": "Visit your nearest Department of Labour office with your ID. Ask for a UI-19 form or a UIF Status Letter confirming your employment has terminated and you are no longer receiving UIF payouts." },
-      { "question": "How long does the Department of Labour take to process a UI-19?", "answer": "It typically takes 5-10 business days for the Department of Labour to print and certify your UI-19 status letter." },
-      { "question": "My employer never submitted my termination to UIF. What now?", "answer": "If your former employer failed to submit your UI-19 termination form, the Department of Labour can investigate. Request a formal status letter that reflects your actual employment history." }
-    ] },
-    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
-    { "id": "related", "type": "link-grid", "links": [
-      { "title": "Appeal After UIF Decline", "href": "/appeals/appeal-after-uif", "description": "Detailed guide to appealing a UIF-related decline" },
-      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full details on the R370 grant" },
-      { "title": "SASSA for Unemployed", "href": "/eligibility/i-am-unemployed", "description": "Options if you have no income" },
-      { "title": "Appeal Timeline", "href": "/appeals/appeal-timeline", "description": "How long appeals take" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Can I Get a SASSA Grant if I Receive UIF?"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Many South Africans transition between UIF and SASSA grants. If you currently receive Unemployment Insurance Fund (UIF) payments, your SASSA eligibility depends on the amount and duration of your UIF payouts. Understanding how the means test treats UIF income is critical to knowing whether you qualify."
+    },
+    {
+      "id": "why",
+      "type": "paragraph",
+      "text": "SASSA grants are designed to support those with little or no income. UIF payments are treated as income in the means test, but this does not permanently disqualify you — eligibility depends on your UIF amount and duration. The key threshold is R624 per month: if your UIF payout exceeds this, you will not qualify for the SRD R370 grant for that month."
+    },
+    {
+      "id": "scenario-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Real-Life Scenario"
+    },
+    {
+      "id": "scenario",
+      "type": "paragraph",
+      "text": "Bongani is a 29-year-old from Durban who was retrenched from his factory job in March 2026. He receives UIF payments of R1,800 per month. Because this exceeds the R624 threshold, Bongani does not qualify for the SRD R370 grant while his UIF is active. However, his UIF will end after 6 months. Once it stops, Bongani can apply for SRD R370 immediately. He must obtain a UI-19 termination letter to prove his UIF has ended. This guide explains what Bongani — and anyone in a similar situation — should do."
+    },
+    {
+      "id": "grants-h",
+      "type": "heading",
+      "level": 3,
+      "text": "When You Can and Cannot Qualify"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "Situation",
+        "Can You Get SRD R370?",
+        "What to Do"
+      ],
+      "rows": [
+        [
+          "UIF payment below R624/month",
+          "Yes",
+          "Apply for SRD R370 and declare your UIF income in the application."
+        ],
+        [
+          "UIF payment above R624/month",
+          "No",
+          "Wait until UIF ends, then apply with a UI-19 termination letter."
+        ],
+        [
+          "UIF just ended",
+          "Yes (from next month)",
+          "Get a UI-19 letter from the Department of Labour. Apply immediately."
+        ],
+        [
+          "SASSA says you have UIF but you don't",
+          "Yes (appeal required)",
+          "This is a database error. Appeal with a UI-19 termination letter."
+        ]
+      ]
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Key Points to Understand"
+    },
+    {
+      "id": "checklist",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "UIF payments are considered income by SASSA's means test",
+        "If your UIF payout exceeds R624 per month, you will not qualify for SRD R370",
+        "If your UIF has ended, you can reapply for SASSA grants immediately — no waiting period",
+        "SASSA's database may show you as 'UIF Registered' even after your UIF has stopped",
+        "A UI-19 termination letter is the official proof that your UIF has ended"
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Valid South African ID",
+          "required": true
+        },
+        {
+          "label": "UI-19 form or official UIF status confirmation letter from the Department of Labour",
+          "required": true
+        },
+        {
+          "label": "Latest 3 months bank statements showing all deposits",
+          "required": true
+        },
+        {
+          "label": "Unemployment affidavit sworn at a SAPS station",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Step-by-Step Process"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Check your UIF amount",
+          "description": "Log into the UIF portal at www.labour.gov.za or use the UIF app to check your monthly payout amount."
+        },
+        {
+          "title": "Compare with the R624 threshold",
+          "description": "If your monthly UIF is below R624, you can apply for SRD R370 while receiving UIF. If above R624, you must wait until UIF ends."
+        },
+        {
+          "title": "If UIF has ended, get proof",
+          "description": "Visit your nearest Department of Labour office and request a UI-19 termination letter. This confirms your UIF payments have stopped."
+        },
+        {
+          "title": "Apply for SRD R370",
+          "description": "Apply online at srd.sassa.gov.za with your ID and bank details. Attach the UI-19 letter if prompted."
+        },
+        {
+          "title": "If incorrectly flagged, appeal",
+          "description": "If SASSA declines you saying you have UIF but you don't, file an appeal on the ITSAA portal and upload your UI-19 letter."
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Important",
+      "text": "Active UIF payments above R624/month disqualify you from SRD R370. You cannot receive both UIF and a full social grant simultaneously if the UIF exceeds the threshold. However, UIF and the Child Support Grant can be received together."
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Mistakes to Avoid"
+    },
+    {
+      "id": "mistakes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Assuming you cannot apply for SASSA just because you have UIF — check your UIF amount first",
+        "Not getting a UI-19 letter when your UIF ends — SASSA's database may still show you as UIF-registered",
+        "Applying for SRD R370 while UIF is above R624/month — your application will be automatically declined",
+        "Not appealing a 'UIF Registered' decline — this is a very common database error that can be fixed"
+      ]
+    },
+    {
+      "id": "decline-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Do If SASSA Says You Have UIF but You Don't"
+    },
+    {
+      "id": "decline",
+      "type": "paragraph",
+      "text": "This is one of the most common SASSA database errors. If SASSA declines you claiming you are 'UIF Registered' but you are no longer receiving UIF, visit your nearest Department of Labour office and request a UI-19 termination letter. Then file an appeal on the ITSAA appeal portal and upload the letter. Visit our appeal after UIF decline guide for detailed instructions."
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "SASSA declined me saying I have UIF, but I no longer receive it. What do I do?",
+          "answer": "This is a common database error. Get a UI-19 termination letter from the Department of Labour and appeal the decision on the ITSAA appeal portal. The appeal typically takes 60-90 days to process."
+        },
+        {
+          "question": "Can I get backpay if my UIF stopped months ago?",
+          "answer": "Yes. Once you provide proof your UIF has ended, your grant can be backdated to the month after your last UIF payout."
+        },
+        {
+          "question": "Can I receive the Child Support Grant while on UIF?",
+          "answer": "Yes. The Child Support Grant has a more generous means test and is not affected by UIF payments as strictly as the SRD R370."
+        },
+        {
+          "question": "How do I get a UI-19 termination letter?",
+          "answer": "Visit your nearest Department of Labour office with your ID. Ask for a UI-19 form or a UIF Status Letter confirming your employment has terminated and you are no longer receiving UIF payouts."
+        },
+        {
+          "question": "How long does the Department of Labour take to process a UI-19?",
+          "answer": "It typically takes 5-10 business days for the Department of Labour to print and certify your UI-19 status letter."
+        },
+        {
+          "question": "My employer never submitted my termination to UIF. What now?",
+          "answer": "If your former employer failed to submit your UI-19 termination form, the Department of Labour can investigate. Request a formal status letter that reflects your actual employment history."
+        }
+      ]
+    },
+    {
+      "id": "related-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Related Guides"
+    },
+    {
+      "id": "related",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Appeal After UIF Decline",
+          "href": "/appeals/appeal-after-uif",
+          "description": "Detailed guide to appealing a UIF-related decline"
+        },
+        {
+          "title": "SRD R370 Grant Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full details on the R370 grant"
+        },
+        {
+          "title": "SASSA for Unemployed",
+          "href": "/eligibility/i-am-unemployed",
+          "description": "Options if you have no income"
+        },
+        {
+          "title": "Appeal Timeline",
+          "href": "/appeals/appeal-timeline",
+          "description": "How long appeals take"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Appeal After UIF Decline", "slug": "/appeals/appeal-after-uif" },
-    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
-    { "title": "SASSA for Unemployed", "slug": "/eligibility/i-am-unemployed" },
-    { "title": "Appeal Timeline", "slug": "/appeals/appeal-timeline" }
+    {
+      "title": "Appeal After UIF Decline",
+      "slug": "/appeals/appeal-after-uif"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "SASSA for Unemployed",
+      "slug": "/eligibility/i-am-unemployed"
+    },
+    {
+      "title": "Appeal Timeline",
+      "slug": "/appeals/appeal-timeline"
+    }
   ]
 }

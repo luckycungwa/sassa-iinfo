@@ -1,4 +1,4 @@
-import type { ContentBlock, BasePage, PageClassification } from "../lib/schema/contentSchema";
+﻿import type { ContentBlock, BasePage, PageClassification } from "../lib/schema/contentSchema";
 import PageShell from "./PageShell";
 import TableOfContents from "./TableOfContents";
 import HeroSection from "./HeroSection";
@@ -33,7 +33,7 @@ function renderParagraphText(text: string, links?: { text: string; href: string 
   if (lastIndex < text.length) parts.push({ text: text.slice(lastIndex) });
   return parts.map((part, i) =>
     part.href ? (
-      <a key={i} href={part.href} className="text-gold hover:text-gold-dark underline underline-offset-2 transition font-medium">
+      <a key={i} href={part.href} className="text-accent-dark hover:text-violet underline underline-offset-2 transition font-medium">
         {part.text}
       </a>
     ) : (
@@ -74,7 +74,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
           {block.items.map((item, i) => (
             <li key={i} className="flex items-start gap-2 text-sm text-muted">
               {!block.ordered && <span className="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 flex-shrink-0" />}
-              {block.ordered && <span className="font-bold text-gold flex-shrink-0">{i + 1}.</span>}
+              {block.ordered && <span className="font-bold text-accent-dark flex-shrink-0">{i + 1}.</span>}
               {item}
             </li>
           ))}
@@ -163,7 +163,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
           {block.links.map((link, i) => (
             <a key={i} href={link.href} className="block border border-border rounded-xl p-4 hover:border-gold/50 hover:bg-surface-dim/30 transition-colors group">
-              <p className="text-sm font-bold text-gold group-hover:text-gold-dark transition">{link.title}</p>
+              <p className="text-sm font-bold text-accent-dark group-hover:text-violet transition">{link.title}</p>
               {link.description && <p className="text-xs text-muted mt-1">{link.description}</p>}
             </a>
           ))}
@@ -177,7 +177,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
           <ul className="space-y-1.5">
             {block.sources.map((s, i) => (
               <li key={i} className="text-xs text-muted">
-                <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-dark hover:underline break-all">
+                <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-accent-dark hover:text-violet hover:underline break-all">
                   {s.label}
                 </a>
                 {s.accessed && <span className="ml-1">(accessed {s.accessed})</span>}
@@ -191,7 +191,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
           {block.stats.map((stat, i) => (
             <div key={i} className="bg-surface border border-border rounded-xl p-5 text-center">
-              <p className="text-2xl font-black text-gold">{stat.value}</p>
+              <p className="text-2xl font-black text-accent-dark">{stat.value}</p>
               <p className="text-xs font-bold text-ink mt-1">{stat.label}</p>
               {stat.description && <p className="text-xs text-muted mt-0.5">{stat.description}</p>}
             </div>
@@ -256,7 +256,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
             <p className="text-xs text-muted">{block.targetGroup}</p>
           </div>
           <div className="text-right flex-shrink-0">
-            <p className="text-2xl font-black text-gold">{block.amount}</p>
+            <p className="text-2xl font-black text-accent-dark">{block.amount}</p>
             <p className="text-xs font-mono text-muted">{block.frequency}</p>
           </div>
         </div>
@@ -279,7 +279,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
           <p className="text-sm text-muted leading-relaxed">{block.explanation}</p>
           <div>
             <p className="text-sm font-bold text-ink mb-1">Why it happens:</p>
-            <ul className="space-y-1">{block.whyItHappens.map((w, i) => <li key={i} className="text-sm text-muted flex gap-1"><span className="text-gold">{'\u2022'}</span>{w}</li>)}</ul>
+            <ul className="space-y-1">{block.whyItHappens.map((w, i) => <li key={i} className="text-sm text-muted flex gap-1"><span className="text-accent-dark">{'\u2022'}</span>{w}</li>)}</ul>
           </div>
           <div>
             <p className="text-sm font-bold text-ink mb-1">How long it lasts:</p>
@@ -287,7 +287,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
           </div>
           <div>
             <p className="text-sm font-bold text-ink mb-1">What to do:</p>
-            <ul className="space-y-1">{block.whatYouShouldDo.map((w, i) => <li key={i} className="text-sm text-muted flex gap-1"><span className="text-gold">{'\u2022'}</span>{w}</li>)}</ul>
+            <ul className="space-y-1">{block.whatYouShouldDo.map((w, i) => <li key={i} className="text-sm text-muted flex gap-1"><span className="text-accent-dark">{'\u2022'}</span>{w}</li>)}</ul>
           </div>
         </div>
       );

@@ -13,9 +13,9 @@ export default function EligibilityCentre({ onNavigateToTools }: { onNavigateToT
       {/* Sidebar Selector */}
       <div className="lg:col-span-4 space-y-4">
           <div className="bg-accent-dark text-black rounded-xl p-5 border border-accent-dark space-y-3">
-           <Sliders className="w-6 h-6 text-black/70" />
+           <Sliders className="w-6 h-6 text-ink" />
           <h3 className="font-extrabold text-sm tracking-wide">Dynamic Eligibility Vetting</h3>
-          <p className="text-xs text-black/70 leading-relaxed">
+          <p className="text-xs text-ink leading-relaxed">
             Unsure if you qualify for any grant? Try our interactive diagnostic tool to check all parameters in 60 seconds.
           </p>
           <button

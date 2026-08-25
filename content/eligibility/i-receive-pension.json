@@ -4,92 +4,307 @@
   "classification": "eligibility-guide",
   "title": "Can I Get a SASSA Grant if I Already Receive a Pension?",
   "description": "Understand how private or government pensions affect SASSA grant eligibility. Learn about the means test, income thresholds, and how to qualify for additional grants while receiving a pension.",
-  "lastUpdated": "2026-07-29",
-  "version": "2.0.0",
+  "lastUpdated": "2026-08-25",
+  "version": "2.1.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Can I Get a SASSA Grant if I Already Receive a Pension?",
     "metaDescription": "Guide to SASSA grant eligibility for pension recipients in South Africa. Learn how the means test applies, income thresholds for additional grants, and what grants you can still qualify for.",
-    "keywords": ["SASSA and pension", "SASSA grant with pension", "government pension SASSA", "private pension SASSA eligibility", "SASSA means test pension", "GEPF SASSA grant"]
+    "keywords": [
+      "SASSA and pension",
+      "SASSA grant with pension",
+      "government pension SASSA",
+      "private pension SASSA eligibility",
+      "SASSA means test pension",
+      "GEPF SASSA grant"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Can I Get a SASSA Grant if I Already Receive a Pension?",
       "description": "Receiving a private or government pension does not necessarily disqualify you from SASSA grants. Learn how the means test applies to pension income and which grants you may still qualify for.",
       "readingTime": "8 min read",
-      "lastUpdated": "July 2026",
-      "cta": { "label": "Older Person Grant Guide", "href": "/grants/older-person-grant" },
-      "secondaryCta": { "label": "Over-60 Eligibility", "href": "/eligibility/i-am-over-60" }
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Older Person Grant Guide",
+        "href": "/grants/older-person-grant"
+      },
+      "secondaryCta": {
+        "label": "Over-60 Eligibility",
+        "href": "/eligibility/i-am-over-60"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Can I Get a SASSA Grant if I Already Receive a Pension?" },
-    { "id": "intro", "type": "paragraph", "text": "Receiving a private or government pension does not necessarily disqualify you from SASSA grants. Your eligibility depends on the amount of your pension and the type of grant you are applying for. Many pensioners mistakenly believe they cannot receive any SASSA grant, when in fact they may qualify for the Older Person Grant or other support." },
-    { "id": "why", "type": "paragraph", "text": "Pension income, whether from government (GEPF) or private sources, is treated as income by the means test. However, receiving a pension does not automatically disqualify you from every SASSA grant — eligibility depends on your total income. The key is understanding the income thresholds for each grant type and comparing them to your pension amount." },
-    { "id": "scenario-h", "type": "heading", "level": 3, "text": "Real-Life Scenario" },
-    { "id": "scenario", "type": "paragraph", "text": "Elizabeth is a 68-year-old retired nurse from Cape Town. She receives a GEPF government pension of R5,000 per month (R60,000 per year). Her annual income of R60,000 is below the R96,240 single threshold for the Older Person Grant. Elizabeth qualifies for the R2,400 per month Older Person Grant in addition to her GEPF pension. She also explored the Grant-in-Aid because her husband requires full-time care after a stroke. This guide explains how pensioners like Elizabeth can access additional SASSA support." },
-    { "id": "grants-h", "type": "heading", "level": 3, "text": "Which Grants Pensioners Can Apply For" },
-    { "id": "grants-table", "type": "table", "headers": ["Grant Type", "Eligible with Pension?", "Income Threshold", "Notes"], "rows": [
-      ["Older Person Grant", "Yes (if pension below threshold)", "R96,240/yr (single), R192,480/yr (married)", "Your pension counts as income. Compare annual pension to threshold."],
-      ["SRD R370", "Yes (if pension below R624/month)", "R624/month", "Only for ages 18-59. Most pensioners are over 60 and should apply for the Older Person Grant instead."],
-      ["Grant-in-Aid", "Yes (if you already receive a primary grant)", "No additional means test", "Top-up of R580/month if you need 24-hour care."],
-      ["Child Support Grant", "Yes (if caring for children)", "R63,600/yr (single caregiver)", "Pension income may still be below this threshold."]
-    ] },
-    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Points" },
-    { "id": "checklist", "type": "list", "ordered": false, "items": [
-      "Pension income is treated like any other income in the means test",
-      "If your annual pension is below R96,240 (single), you may still qualify for the Older Person Grant",
-      "If your monthly pension is below R624, you may qualify for SRD R370 (if under 60)",
-      "If your annual pension exceeds R96,240, you will not qualify for the Older Person Grant",
-      "Receiving a pension does not affect eligibility for the Foster Child Grant (no means test)",
-      "The Child Support Grant has a more generous means test — pension income may still qualify"
-    ] },
-    { "id": "docs-h", "type": "heading", "level": 3, "text": "Required Documents" },
-    { "id": "docs", "type": "document-checklist", "documents": [
-      { "label": "Valid South African ID", "required": true },
-      { "label": "Pension statement showing your monthly/annual pension amount", "required": true },
-      { "label": "Proof of residence", "required": true },
-      { "label": "Last 3 months bank statements", "required": true },
-      { "label": "Proof of marital status (if applying as married)", "required": false }
-    ] },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Process" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Calculate your annual pension income", "description": "Add up your total annual pension from all sources (GEPF, private pension, annuities). Include any other income like rental income or investments." },
-      { "title": "Compare with the threshold", "description": "If your annual income is below R96,240 (single) or R192,480 (married), you likely qualify for the Older Person Grant." },
-      { "title": "Visit your SASSA office", "description": "Take your ID, pension statements, and proof of residence to your nearest SASSA office." },
-      { "title": "Complete the application", "description": "Fill in the Older Person Grant application form. Declare all your pension income accurately — SASSA will verify with your pension provider." },
-      { "title": "Apply for Grant-in-Aid if needed", "description": "If you or your spouse needs 24-hour care, ask about the Grant-in-Aid application during your visit." }
-    ] },
-    { "id": "callout", "type": "callout", "intent": "info", "title": "Pension Income and the Means Test", "text": "The means test includes income from all sources: government pensions (GEPF), private pensions, retirement annuities, rental income, and investment returns. Assets like property (excluding your primary home), shares, and cash savings are also assessed. The threshold for single applicants is R96,240 annual income and R1,372,800 in assets." },
-    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
-    { "id": "mistakes", "type": "list", "ordered": false, "items": [
-      "Assuming any pension disqualifies you — compare your pension amount to the threshold, don't assume",
-      "Not declaring all pension income — SASSA cross-checks with pension providers and SARS",
-      "Forgetting to include your spouse's income if married — the married threshold is higher but requires both incomes",
-      "Not applying for Grant-in-Aid if you need care — many pensioners qualify but don't know about it"
-    ] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "I receive a small private pension of R2,000 per month. Can I get SRD R370?", "answer": "If you are under 60, your monthly pension of R2,000 exceeds the R624 SRD threshold, so you would not qualify for SRD R370. However, if you are 60 or older, you should apply for the Older Person Grant (R2,400/month) which has a much higher threshold." },
-      { "question": "Can I receive the Older Person Grant if I have a private pension?", "answer": "Yes, if your annual private pension is below R96,240 (single) or R192,480 (married). Many pensioners receive both their private pension and the Older Person Grant." },
-      { "question": "Does a pension affect the Child Support Grant?", "answer": "The Child Support Grant has a more generous means test (R63,600/year for single caregivers). If your pension is below this, you may still qualify. Many pensioners caring for grandchildren can access this grant." },
-      { "question": "What is the GEPF pension threshold for SASSA?", "answer": "GEPF pensions vary widely. If your annual GEPF payout is below R96,240, you may still qualify for the Older Person Grant. Most GEPF pensions exceed this, but smaller pensions (e.g., from shorter service periods) may qualify." },
-      { "question": "I receive both a GEPF pension and a private annuity. How is this calculated?", "answer": "Both are added together and treated as your total annual income. If the combined amount is below R96,240 (single), you qualify for the Older Person Grant." },
-      { "question": "Can I get the Grant-in-Aid on top of my pension if I need care?", "answer": "Yes, but only if you are already receiving the Older Person Grant or Disability Grant. Grant-in-Aid cannot be added to a private pension alone." }
-    ] },
-    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
-    { "id": "related", "type": "link-grid", "links": [
-      { "title": "Older Person Grant Guide", "href": "/grants/older-person-grant", "description": "Full details on the state pension" },
-      { "title": "SASSA for Over-60s", "href": "/eligibility/i-am-over-60", "description": "Eligibility guide for seniors" },
-      { "title": "Grant-in-Aid Guide", "href": "/grants/grant-in-aid", "description": "Additional support for full-time care" },
-      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "For those under 60" },
-      { "title": "How to Appeal a Decline", "href": "/appeals/how-to-appeal", "description": "Step-by-step appeal process" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Can I Get a SASSA Grant if I Already Receive a Pension?"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Receiving a private or government pension does not necessarily disqualify you from SASSA grants. Your eligibility depends on the amount of your pension and the type of grant you are applying for. Many pensioners mistakenly believe they cannot receive any SASSA grant, when in fact they may qualify for the Older Person Grant or other support."
+    },
+    {
+      "id": "why",
+      "type": "paragraph",
+      "text": "Pension income, whether from government (GEPF) or private sources, is treated as income by the means test. However, receiving a pension does not automatically disqualify you from every SASSA grant — eligibility depends on your total income. The key is understanding the income thresholds for each grant type and comparing them to your pension amount."
+    },
+    {
+      "id": "scenario-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Real-Life Scenario"
+    },
+    {
+      "id": "scenario",
+      "type": "paragraph",
+      "text": "Elizabeth is a 68-year-old retired nurse from Cape Town. She receives a GEPF government pension of R5,000 per month (R60,000 per year). Her annual income of R60,000 is below the R96,240 single threshold for the Older Person Grant. Elizabeth qualifies for the R2,400 per month Older Person Grant in addition to her GEPF pension. She also explored the Grant-in-Aid because her husband requires full-time care after a stroke. This guide explains how pensioners like Elizabeth can access additional SASSA support."
+    },
+    {
+      "id": "grants-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Which Grants Pensioners Can Apply For"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "Grant Type",
+        "Eligible with Pension?",
+        "Income Threshold",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Older Person Grant",
+          "Yes (if pension below threshold)",
+          "R96,240/yr (single), R192,480/yr (married)",
+          "Your pension counts as income. Compare annual pension to threshold."
+        ],
+        [
+          "SRD R370",
+          "Yes (if pension below R624/month)",
+          "R624/month",
+          "Only for ages 18-59. Most pensioners are over 60 and should apply for the Older Person Grant instead."
+        ],
+        [
+          "Grant-in-Aid",
+          "Yes (if you already receive a primary grant)",
+          "No additional means test",
+          "Top-up of R580/month if you need 24-hour care."
+        ],
+        [
+          "Child Support Grant",
+          "Yes (if caring for children)",
+          "R63,600/yr (single caregiver)",
+          "Pension income may still be below this threshold."
+        ]
+      ]
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Key Points"
+    },
+    {
+      "id": "checklist",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Pension income is treated like any other income in the means test",
+        "If your annual pension is below R96,240 (single), you may still qualify for the Older Person Grant",
+        "If your monthly pension is below R624, you may qualify for SRD R370 (if under 60)",
+        "If your annual pension exceeds R96,240, you will not qualify for the Older Person Grant",
+        "Receiving a pension does not affect eligibility for the Foster Child Grant (no means test)",
+        "The Child Support Grant has a more generous means test — pension income may still qualify"
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Valid South African ID",
+          "required": true
+        },
+        {
+          "label": "Pension statement showing your monthly/annual pension amount",
+          "required": true
+        },
+        {
+          "label": "Proof of residence",
+          "required": true
+        },
+        {
+          "label": "Last 3 months bank statements",
+          "required": true
+        },
+        {
+          "label": "Proof of marital status (if applying as married)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Step-by-Step Process"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Calculate your annual pension income",
+          "description": "Add up your total annual pension from all sources (GEPF, private pension, annuities). Include any other income like rental income or investments."
+        },
+        {
+          "title": "Compare with the threshold",
+          "description": "If your annual income is below R96,240 (single) or R192,480 (married), you likely qualify for the Older Person Grant."
+        },
+        {
+          "title": "Visit your SASSA office",
+          "description": "Take your ID, pension statements, and proof of residence to your nearest SASSA office."
+        },
+        {
+          "title": "Complete the application",
+          "description": "Fill in the Older Person Grant application form. Declare all your pension income accurately — SASSA will verify with your pension provider."
+        },
+        {
+          "title": "Apply for Grant-in-Aid if needed",
+          "description": "If you or your spouse needs 24-hour care, ask about the Grant-in-Aid application during your visit."
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Pension Income and the Means Test",
+      "text": "The means test includes income from all sources: government pensions (GEPF), private pensions, retirement annuities, rental income, and investment returns. Assets like property (excluding your primary home), shares, and cash savings are also assessed. The threshold for single applicants is R96,240 annual income and R1,372,800 in assets."
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Mistakes to Avoid"
+    },
+    {
+      "id": "mistakes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Assuming any pension disqualifies you — compare your pension amount to the threshold, don't assume",
+        "Not declaring all pension income — SASSA cross-checks with pension providers and SARS",
+        "Forgetting to include your spouse's income if married — the married threshold is higher but requires both incomes",
+        "Not applying for Grant-in-Aid if you need care — many pensioners qualify but don't know about it"
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I receive a small private pension of R2,000 per month. Can I get SRD R370?",
+          "answer": "If you are under 60, your monthly pension of R2,000 exceeds the R624 SRD threshold, so you would not qualify for SRD R370. However, if you are 60 or older, you should apply for the Older Person Grant (R2,400/month) which has a much higher threshold."
+        },
+        {
+          "question": "Can I receive the Older Person Grant if I have a private pension?",
+          "answer": "Yes, if your annual private pension is below R96,240 (single) or R192,480 (married). Many pensioners receive both their private pension and the Older Person Grant."
+        },
+        {
+          "question": "Does a pension affect the Child Support Grant?",
+          "answer": "The Child Support Grant has a more generous means test (R63,600/year for single caregivers). If your pension is below this, you may still qualify. Many pensioners caring for grandchildren can access this grant."
+        },
+        {
+          "question": "What is the GEPF pension threshold for SASSA?",
+          "answer": "GEPF pensions vary widely. If your annual GEPF payout is below R96,240, you may still qualify for the Older Person Grant. Most GEPF pensions exceed this, but smaller pensions (e.g., from shorter service periods) may qualify."
+        },
+        {
+          "question": "I receive both a GEPF pension and a private annuity. How is this calculated?",
+          "answer": "Both are added together and treated as your total annual income. If the combined amount is below R96,240 (single), you qualify for the Older Person Grant."
+        },
+        {
+          "question": "Can I get the Grant-in-Aid on top of my pension if I need care?",
+          "answer": "Yes, but only if you are already receiving the Older Person Grant or Disability Grant. Grant-in-Aid cannot be added to a private pension alone."
+        }
+      ]
+    },
+    {
+      "id": "related-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Related Guides"
+    },
+    {
+      "id": "related",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Older Person Grant Guide",
+          "href": "/grants/older-person-grant",
+          "description": "Full details on the state pension"
+        },
+        {
+          "title": "SASSA for Over-60s",
+          "href": "/eligibility/i-am-over-60",
+          "description": "Eligibility guide for seniors"
+        },
+        {
+          "title": "Grant-in-Aid Guide",
+          "href": "/grants/grant-in-aid",
+          "description": "Additional support for full-time care"
+        },
+        {
+          "title": "SRD R370 Grant Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "For those under 60"
+        },
+        {
+          "title": "How to Appeal a Decline",
+          "href": "/appeals/how-to-appeal",
+          "description": "Step-by-step appeal process"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
-    { "title": "SASSA for Over-60s", "slug": "/eligibility/i-am-over-60" },
-    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" },
-    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
-    { "title": "How to Appeal a Decline", "slug": "/appeals/how-to-appeal" }
+    {
+      "title": "Older Person Grant",
+      "slug": "/grants/older-person-grant"
+    },
+    {
+      "title": "SASSA for Over-60s",
+      "slug": "/eligibility/i-am-over-60"
+    },
+    {
+      "title": "Grant-in-Aid",
+      "slug": "/grants/grant-in-aid"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "How to Appeal a Decline",
+      "slug": "/appeals/how-to-appeal"
+    }
   ]
 }

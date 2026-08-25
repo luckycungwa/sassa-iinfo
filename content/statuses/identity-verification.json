@@ -7,52 +7,193 @@
   "lastUpdated": "2026-07-01",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Identity Verification Failed — SASSA Status Meaning & Fix",
     "metaDescription": "SASSA identity verification failed? Learn why your ID details did not match Home Affairs records, how to complete facial verification, and step-by-step instructions to resolve identity issues.",
-    "keywords": ["SASSA identity verification", "SASSA identity verification failed", "SASSA facial verification", "SASSA ID verification", "SASSA Home Affairs mismatch"]
+    "keywords": [
+      "SASSA identity verification",
+      "SASSA identity verification failed",
+      "SASSA facial verification",
+      "SASSA ID verification",
+      "SASSA Home Affairs mismatch"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Identity Verification Failed — How to Fix It",
       "description": "Your SASSA status shows 'Identity Verification Failed or Pending' — your grant is on hold until your identity is confirmed. Learn how to complete facial verification, what to do if Home Affairs records don't match, and how to resolve this quickly.",
       "readingTime": "4 min read",
       "lastUpdated": "June 2026",
-      "cta": { "text": "Complete Verification", "href": "/status/identity-verification" },
-      "secondaryCta": { "text": "Contact SASSA", "href": "/contact" }
+      "cta": {
+        "text": "Complete Verification",
+        "href": "/status/identity-verification"
+      },
+      "secondaryCta": {
+        "text": "Contact SASSA",
+        "href": "/contact"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Identity Verification Failed/Pending — What It Means" },
-    { "id": "intro", "type": "paragraph", "text": "The 'Identity Verification Failed' or 'Identity Verification Pending' status means SASSA could not confirm your identity through the Department of Home Affairs database or through facial recognition. This is a critical block — your grant cannot proceed until your identity is successfully verified." },
-    { "id": "who", "type": "paragraph", "text": "This status affects applicants whose identity information is being cross-checked with the Department of Home Affairs database." },
-    { "id": "ref-block", "type": "status-reference", "statusName": "Identity Verification Failed / Pending", "explanation": "SASSA cross-checks every applicant's ID number, full name, and surname against the Department of Home Affairs' National Population Register. For SRD grants, an additional facial biometric verification step is required to prevent identity fraud.", "whyItHappens": ["Your ID number does not match the name on your application (typo or data entry error)", "Your ID document was reported as lost, stolen, or flagged as belonging to a deceased person", "Your facial verification selfie did not match the photo on Home Affairs' database", "Your biometric data was not captured clearly (poor lighting, glasses,遮挡)", "Home Affairs records for your ID are outdated or contain errors"], "howLongItLasts": "The block remains until you either complete facial verification or visit a SASSA office with your physical ID document. Resolving it typically takes 1 to 7 days after taking action.", "whatYouShouldDo": ["Log into the SRD portal and check if facial verification is required", "If prompted: click the secure biometric link sent to your phone and complete the selfie scan in good lighting", "Ensure your face is clearly visible, remove sunglasses and masks, and follow the on-screen instructions", "If facial verification fails repeatedly: visit your nearest SASSA office with your original ID document", "If the issue is at Home Affairs: visit your nearest Home Affairs office to correct your ID details"], "relatedStatuses": [{ "name": "Bank Verification", "slug": "bank-verification" }, { "name": "Declined", "slug": "declined" }] },
-    { "id": "facial-verification-h", "type": "heading", "level": 3, "text": "How to Complete Facial Verification" },
-    { "id": "facial-steps", "type": "steps", "steps": [
-      { "title": "Wait for the SMS link", "description": "SASSA will send an SMS with a link starting with 'srd.sassa.gov.za'. The link is only valid for a limited time." },
-      { "title": "Open on a smartphone", "description": "Open the link on a smartphone with a working camera. The facial verification process is not supported on desktop computers." },
-      { "title": "Grant camera permissions", "description": "When prompted, allow the website to access your camera. Position your face in the centre of the frame." },
-      { "title": "Follow the on-screen prompts", "description": "You may be asked to blink, turn your head, or smile. Ensure good lighting and remove sunglasses, hats, or face coverings." },
-      { "title": "Wait for confirmation", "description": "If successful, you will see a confirmation message. Your status should update within 24 to 48 hours." }
-    ] },
-    { "id": "home-affairs-issues-h", "type": "heading", "level": 3, "text": "When the Issue Is with Home Affairs" },
-    { "id": "home-affairs-text", "type": "paragraph", "text": "If your ID details do not match Home Affairs records, facial verification alone will not fix the problem. You need to visit a Department of Home Affairs office to correct your details. Common issues include: your ID was flagged as lost or stolen, your surname changed but was not updated, or there is a data entry error in the Home Affairs system." },
-    { "id": "home-affairs-callout", "type": "callout", "intent": "warning", "title": "Do Not Ignore This", "text": "If your ID is flagged as lost, stolen, or deceased, this can affect more than just your SASSA grant — it can prevent you from accessing banking, employment, and other government services. Visit Home Affairs as soon as possible." },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "How do I do facial verification for SASSA?", "answer": "SASSA will send an SMS with a link starting with 'srd.sassa.gov.za'. Open the link on a smartphone, grant camera permissions, and follow the on-screen prompts to scan your face." },
-      { "question": "I do not have a smartphone. How can I verify my identity?", "answer": "Visit your nearest SASSA office with your original green ID book or smart ID card. A SASSA officer can verify your identity in person." },
-      { "question": "Why does my ID say 'deceased' when I am alive?", "answer": "This is a known Home Affairs database error. Visit a Home Affairs office with your ID document to request a correction. Get a written confirmation once it is fixed." },
-      { "question": "Can someone else complete facial verification for me?", "answer": "No. Facial verification uses biometric matching against your Home Affairs photo. Only the registered applicant can complete this step." },
-      { "question": "I completed facial verification but my status has not changed. What now?", "answer": "It can take 24 to 48 hours for the verification to reflect in the SASSA system. If it has been more than 3 days, contact SASSA." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "Bank Verification Pending", "href": "/status/bank-verification", "description": "What to do if your bank details cannot be verified" },
-      { "title": "How to Check Your SASSA Status", "href": "/guides/how-to-check-sassa-status", "description": "Multiple ways to check your grant status" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Identity Verification Failed/Pending — What It Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The 'Identity Verification Failed' or 'Identity Verification Pending' status means SASSA could not confirm your identity through the Department of Home Affairs database or through facial recognition. This is a critical block — your grant cannot proceed until your identity is successfully verified."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This status affects applicants whose identity information is being cross-checked with the Department of Home Affairs database."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Identity Verification Failed / Pending",
+      "explanation": "SASSA cross-checks every applicant's ID number, full name, and surname against the Department of Home Affairs' National Population Register. For SRD grants, an additional facial biometric verification step is required to prevent identity fraud.",
+      "whyItHappens": [
+        "Your ID number does not match the name on your application (typo or data entry error)",
+        "Your ID document was reported as lost, stolen, or flagged as belonging to a deceased person",
+        "Your facial verification selfie did not match the photo on Home Affairs' database",
+        "Your biometric data was not captured clearly (poor lighting, glasses,遮挡)",
+        "Home Affairs records for your ID are outdated or contain errors"
+      ],
+      "howLongItLasts": "The block remains until you either complete facial verification or visit a SASSA office with your physical ID document. Resolving it typically takes 1 to 7 days after taking action.",
+      "whatYouShouldDo": [
+        "Log into the SRD portal and check if facial verification is required",
+        "If prompted: click the secure biometric link sent to your phone and complete the selfie scan in good lighting",
+        "Ensure your face is clearly visible, remove sunglasses and masks, and follow the on-screen instructions",
+        "If facial verification fails repeatedly: visit your nearest SASSA office with your original ID document",
+        "If the issue is at Home Affairs: visit your nearest Home Affairs office to correct your ID details"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Bank Verification",
+          "slug": "bank-verification"
+        },
+        {
+          "name": "Declined",
+          "slug": "declined"
+        }
+      ]
+    },
+    {
+      "id": "facial-verification-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Complete Facial Verification"
+    },
+    {
+      "id": "facial-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Wait for the SMS link",
+          "description": "SASSA will send an SMS with a link starting with 'srd.sassa.gov.za'. The link is only valid for a limited time."
+        },
+        {
+          "title": "Open on a smartphone",
+          "description": "Open the link on a smartphone with a working camera. The facial verification process is not supported on desktop computers."
+        },
+        {
+          "title": "Grant camera permissions",
+          "description": "When prompted, allow the website to access your camera. Position your face in the centre of the frame."
+        },
+        {
+          "title": "Follow the on-screen prompts",
+          "description": "You may be asked to blink, turn your head, or smile. Ensure good lighting and remove sunglasses, hats, or face coverings."
+        },
+        {
+          "title": "Wait for confirmation",
+          "description": "If successful, you will see a confirmation message. Your status should update within 24 to 48 hours."
+        }
+      ]
+    },
+    {
+      "id": "home-affairs-issues-h",
+      "type": "heading",
+      "level": 3,
+      "text": "When the Issue Is with Home Affairs"
+    },
+    {
+      "id": "home-affairs-text",
+      "type": "paragraph",
+      "text": "If your ID details do not match Home Affairs records, facial verification alone will not fix the problem. You need to visit a Department of Home Affairs office to correct your details. Common issues include: your ID was flagged as lost or stolen, your surname changed but was not updated, or there is a data entry error in the Home Affairs system."
+    },
+    {
+      "id": "home-affairs-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Do Not Ignore This",
+      "text": "If your ID is flagged as lost, stolen, or deceased, this can affect more than just your SASSA grant — it can prevent you from accessing banking, employment, and other government services. Visit Home Affairs as soon as possible."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How do I do facial verification for SASSA?",
+          "answer": "SASSA will send an SMS with a link starting with 'srd.sassa.gov.za'. Open the link on a smartphone, grant camera permissions, and follow the on-screen prompts to scan your face."
+        },
+        {
+          "question": "I do not have a smartphone. How can I verify my identity?",
+          "answer": "Visit your nearest SASSA office with your original green ID book or smart ID card. A SASSA officer can verify your identity in person."
+        },
+        {
+          "question": "Why does my ID say 'deceased' when I am alive?",
+          "answer": "This is a known Home Affairs database error. Visit a Home Affairs office with your ID document to request a correction. Get a written confirmation once it is fixed."
+        },
+        {
+          "question": "Can someone else complete facial verification for me?",
+          "answer": "No. Facial verification uses biometric matching against your Home Affairs photo. Only the registered applicant can complete this step."
+        },
+        {
+          "question": "I completed facial verification but my status has not changed. What now?",
+          "answer": "It can take 24 to 48 hours for the verification to reflect in the SASSA system. If it has been more than 3 days, contact SASSA."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Bank Verification Pending",
+          "href": "/status/bank-verification",
+          "description": "What to do if your bank details cannot be verified"
+        },
+        {
+          "title": "How to Check Your SASSA Status",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "Multiple ways to check your grant status"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Bank Verification", "slug": "/status/bank-verification" },
-    { "title": "How to Check Status", "slug": "/guides/how-to-check-sassa-status" }
+    {
+      "title": "Bank Verification",
+      "slug": "/status/bank-verification"
+    },
+    {
+      "title": "How to Check Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    }
   ]
 }

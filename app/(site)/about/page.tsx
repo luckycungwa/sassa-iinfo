@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { canonicalUrl } from "@/lib/canonical";
@@ -35,11 +35,11 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-carbon/50 uppercase tracking-widest mb-3">about</p>
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">about</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
             About this guide
           </h1>
-          <p className="text-[21px] text-carbon/70 mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
             Independent SASSA grant information resource built by Lucky Cungwa.
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
               <h2 className="text-[29px] font-black text-carbon leading-[1.1] tracking-[-0.007em]">Why I built this</h2>
-              <div className="space-y-3 text-base text-carbon/70 leading-relaxed mt-6">
+              <div className="space-y-3 text-base text-body leading-relaxed mt-6">
                 <p>
                   I created this resource to help South Africans navigate the SASSA social grant system with clear,
                   accurate, and genuinely useful information. After seeing how confusing and fragmented official
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 {standards.map((s) => (
                   <div key={s.title} className="bg-fog rounded-[2.85px] p-4">
                     <p className="text-base font-black text-carbon">{s.title}</p>
-                    <p className="text-sm text-carbon/70 mt-1">{s.desc}</p>
+                    <p className="text-sm text-body mt-1">{s.desc}</p>
                   </div>
                 ))}
               </div>
@@ -103,9 +103,9 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Found an error or outdated info?</p>
-              <p className="text-sm text-white/60">Help us keep this resource accurate</p>
+              <p className="text-sm text-muted">Help us keep this resource accurate</p>
             </div>
-            <Link href="/contact" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-yellow text-carbon rounded-[22px] text-xs font-bold hover:opacity-90 transition">
+            <Link href="/contact" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">
               Contact Us <ArrowRight className="w-3 h-3" />
             </Link>
           </div>

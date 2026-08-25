@@ -8,12 +8,25 @@
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Medical Assessment Guide — Care Dependency Grant SASSA",
     "metaDescription": "Complete guide to the SASSA Care Dependency Grant medical assessment for parents. What the doctor checks, how to prepare a care log, age-specific tips, and documents to bring.",
-    "keywords": ["care dependency grant medical assessment", "SASSA medical assessment child", "care dependency grant doctor report", "SASSA care log", "disability assessment child South Africa"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Care Dependency Grant Medical Assessment" }
+    "keywords": [
+      "care dependency grant medical assessment",
+      "SASSA medical assessment child",
+      "care dependency grant doctor report",
+      "SASSA care log",
+      "disability assessment child South Africa"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Care Dependency Grant Medical Assessment"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +36,14 @@
       "description": "Complete guide to the SASSA Care Dependency Grant medical assessment: what the doctor checks, how to prepare a daily care log, age-specific considerations, and what documents to bring for your child.",
       "readingTime": "6 min read",
       "lastUpdated": "2026-07-26",
-      "cta": { "label": "Download Care Log Template", "href": "/resources/care-log-template" },
-      "secondaryCta": { "label": "Back to Main Guide", "href": "/grants/care-dependency-grant" }
+      "cta": {
+        "label": "Browse Download Centre",
+        "href": "/downloads"
+      },
+      "secondaryCta": {
+        "label": "Back to Main Guide",
+        "href": "/grants/care-dependency-grant"
+      }
     },
     {
       "id": "summary",
@@ -48,11 +67,26 @@
       "id": "referral-steps",
       "type": "steps",
       "steps": [
-        { "title": "Get the referral form from SASSA", "description": "When you submit your initial application at the SASSA office, the officer will give you a medical assessment form (the SASSA medical report form) to take to an approved doctor. Keep this form safe — without it, you cannot proceed." },
-        { "title": "Find a SASSA-commissioned medical officer", "description": "SASSA will give you a list of approved doctors or tell you which public hospital to visit. You cannot use your family doctor — the assessment must be done by a SASSA-appointed medical officer. In some areas, you may need to wait for an appointment date to be scheduled." },
-        { "title": "Prepare your documentation pack", "description": "This is where most parents fall short. Gather every piece of evidence that shows your child's condition and care needs: medical records, hospital discharge summaries, therapy reports, school reports, and — most importantly — your daily care log. Start the care log at least two weeks before the appointment." },
-        { "title": "Attend the assessment with your child", "description": "Bring your child and all your prepared documents to the appointment. The doctor will examine your child, review the medical reports, ask you questions about daily care, and assess the severity of the disability. Be honest and thorough in your answers." },
-        { "title": "Doctor submits the report to SASSA", "description": "After the assessment, the doctor completes the SASSA medical report form and submits it directly to SASSA. You do not take the report back yourself. The report must explicitly state that the child requires 24-hour full-time care at home." }
+        {
+          "title": "Get the referral form from SASSA",
+          "description": "When you submit your initial application at the SASSA office, the officer will give you a medical assessment form (the SASSA medical report form) to take to an approved doctor. Keep this form safe — without it, you cannot proceed."
+        },
+        {
+          "title": "Find a SASSA-commissioned medical officer",
+          "description": "SASSA will give you a list of approved doctors or tell you which public hospital to visit. You cannot use your family doctor — the assessment must be done by a SASSA-appointed medical officer. In some areas, you may need to wait for an appointment date to be scheduled."
+        },
+        {
+          "title": "Prepare your documentation pack",
+          "description": "This is where most parents fall short. Gather every piece of evidence that shows your child's condition and care needs: medical records, hospital discharge summaries, therapy reports, school reports, and — most importantly — your daily care log. Start the care log at least two weeks before the appointment."
+        },
+        {
+          "title": "Attend the assessment with your child",
+          "description": "Bring your child and all your prepared documents to the appointment. The doctor will examine your child, review the medical reports, ask you questions about daily care, and assess the severity of the disability. Be honest and thorough in your answers."
+        },
+        {
+          "title": "Doctor submits the report to SASSA",
+          "description": "After the assessment, the doctor completes the SASSA medical report form and submits it directly to SASSA. You do not take the report back yourself. The report must explicitly state that the child requires 24-hour full-time care at home."
+        }
       ]
     },
     {
@@ -92,11 +126,27 @@
       "id": "age-table",
       "type": "table",
       "caption": "How the assessment approach changes as your child grows",
-      "headers": ["Age Range", "Assessment Focus", "What the Doctor Looks For"],
+      "headers": [
+        "Age Range",
+        "Assessment Focus",
+        "What the Doctor Looks For"
+      ],
       "rows": [
-        ["1 to 3 years", "Developmental milestones and early intervention", "The doctor compares your child against standard developmental milestones for this age: sitting, crawling, walking, speaking, and social interaction. They look for significant delays in multiple areas and whether the child needs full assistance with basic tasks like feeding and mobility. At this age, the doctor also checks whether the condition is likely to improve or is permanent."],
-        ["4 to 12 years", "School functioning and social participation", "The focus shifts to how the child functions outside the home. The doctor will want to see school reports, therapy progress notes, and any assessments from teachers or therapists. Key questions: Can the child participate in a regular classroom? Do they need a special school? Can they interact with other children? Can they be left alone at school or during play? The doctor also looks at independence in self-care tasks — dressing, toileting, eating — compared to peers of the same age."],
-        ["13 to 17 years", "Transition to adulthood and independence", "The doctor evaluates whether the care needs have changed as the child has grown older. A child who needed full care at age 5 may have developed some independence by age 14 — or the gap between the child and their peers may have widened. The doctor also considers puberty-related care needs, emotional and behavioural challenges, and whether the child can be left unsupervised. Crucially, for older teenagers, the doctor assesses whether the disability will persist into adulthood, since the Care Dependency Grant stops at 18 and the child will need to transition to the Disability Grant."]
+        [
+          "1 to 3 years",
+          "Developmental milestones and early intervention",
+          "The doctor compares your child against standard developmental milestones for this age: sitting, crawling, walking, speaking, and social interaction. They look for significant delays in multiple areas and whether the child needs full assistance with basic tasks like feeding and mobility. At this age, the doctor also checks whether the condition is likely to improve or is permanent."
+        ],
+        [
+          "4 to 12 years",
+          "School functioning and social participation",
+          "The focus shifts to how the child functions outside the home. The doctor will want to see school reports, therapy progress notes, and any assessments from teachers or therapists. Key questions: Can the child participate in a regular classroom? Do they need a special school? Can they interact with other children? Can they be left alone at school or during play? The doctor also looks at independence in self-care tasks — dressing, toileting, eating — compared to peers of the same age."
+        ],
+        [
+          "13 to 17 years",
+          "Transition to adulthood and independence",
+          "The doctor evaluates whether the care needs have changed as the child has grown older. A child who needed full care at age 5 may have developed some independence by age 14 — or the gap between the child and their peers may have widened. The doctor also considers puberty-related care needs, emotional and behavioural challenges, and whether the child can be left unsupervised. Crucially, for older teenagers, the doctor assesses whether the disability will persist into adulthood, since the Care Dependency Grant stops at 18 and the child will need to transition to the Disability Grant."
+        ]
       ]
     },
     {
@@ -149,14 +199,46 @@
       "id": "documents-checklist",
       "type": "document-checklist",
       "documents": [
-        { "label": "The SASSA medical assessment referral form (from the SASSA office)", "required": true, "notes": "Without this form, the doctor cannot complete the assessment. Make sure you have it before the appointment." },
-        { "label": "Your child's complete medical records and hospital discharge summaries", "required": true, "notes": "Bring everything — clinic cards, hospital admission summaries, specialist reports, and any diagnostic test results (blood tests, X-rays, MRI or CT scans, genetic tests)." },
-        { "label": "Your daily care log (at least 14 days)", "required": false, "notes": "This is your most powerful evidence. A handwritten or printed log showing every care task, time, and duration. If you have not started one, start today — even a few days of records are better than nothing." },
-        { "label": "School reports and teacher assessments", "required": false, "notes": "If your child attends any form of schooling — mainstream, special needs, or early intervention — bring reports that describe their functioning, behaviour, and level of independence in the classroom." },
-        { "label": "Therapy reports (occupational, speech, physiotherapy)", "required": false, "notes": "Reports from therapists who work with your child are extremely valuable. They provide an independent professional opinion that supports your case. Ask your therapist for a brief report summarising your child's needs and progress." },
-        { "label": "Your child's birth certificate or ID", "required": true, "notes": "The doctor needs to verify the child's identity and age against the referral form." },
-        { "label": "Your own ID document", "required": true, "notes": "As the caregiver, you need to identify yourself at the appointment." },
-        { "label": "Any assistive devices or equipment your child uses", "required": false, "notes": "Bring the wheelchair, walking frame, communication board, feeding tube supplies, or any other device your child relies on. The doctor needs to see these to understand the level of care required." }
+        {
+          "label": "The SASSA medical assessment referral form (from the SASSA office)",
+          "required": true,
+          "notes": "Without this form, the doctor cannot complete the assessment. Make sure you have it before the appointment."
+        },
+        {
+          "label": "Your child's complete medical records and hospital discharge summaries",
+          "required": true,
+          "notes": "Bring everything — clinic cards, hospital admission summaries, specialist reports, and any diagnostic test results (blood tests, X-rays, MRI or CT scans, genetic tests)."
+        },
+        {
+          "label": "Your daily care log (at least 14 days)",
+          "required": false,
+          "notes": "This is your most powerful evidence. A handwritten or printed log showing every care task, time, and duration. If you have not started one, start today — even a few days of records are better than nothing."
+        },
+        {
+          "label": "School reports and teacher assessments",
+          "required": false,
+          "notes": "If your child attends any form of schooling — mainstream, special needs, or early intervention — bring reports that describe their functioning, behaviour, and level of independence in the classroom."
+        },
+        {
+          "label": "Therapy reports (occupational, speech, physiotherapy)",
+          "required": false,
+          "notes": "Reports from therapists who work with your child are extremely valuable. They provide an independent professional opinion that supports your case. Ask your therapist for a brief report summarising your child's needs and progress."
+        },
+        {
+          "label": "Your child's birth certificate or ID",
+          "required": true,
+          "notes": "The doctor needs to verify the child's identity and age against the referral form."
+        },
+        {
+          "label": "Your own ID document",
+          "required": true,
+          "notes": "As the caregiver, you need to identify yourself at the appointment."
+        },
+        {
+          "label": "Any assistive devices or equipment your child uses",
+          "required": false,
+          "notes": "Bring the wheelchair, walking frame, communication board, feeding tube supplies, or any other device your child relies on. The doctor needs to see these to understand the level of care required."
+        }
       ]
     },
     {
@@ -208,8 +290,17 @@
     }
   ],
   "relatedPages": [
-    { "title": "Care Dependency Grant — Complete Guide", "slug": "/grants/care-dependency-grant" },
-    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
-    { "title": "Grant-in-Aid", "slug": "/grants/grant-in-aid" }
+    {
+      "title": "Care Dependency Grant — Complete Guide",
+      "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Disability Grant",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "Grant-in-Aid",
+      "slug": "/grants/grant-in-aid"
+    }
   ]
 }

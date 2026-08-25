@@ -60,14 +60,14 @@ export default function TableOfContents() {
         className="flex items-center justify-between w-full lg:hidden"
       >
         <div className="flex items-center gap-2">
-          <List className="w-4 h-4 text-gold" />
+          <List className="w-4 h-4 text-accent-dark" />
           <span className="text-xs font-bold text-ink">On this page</span>
         </div>
         <ChevronDown className={"w-4 h-4 text-muted transition " + (isExpanded ? "rotate-180" : "")} />
       </button>
       <div className={"mt-3 lg:mt-0 " + (isExpanded ? "block" : "hidden lg:block")}>
         <div className="hidden lg:flex items-center gap-2 mb-3">
-          <List className="w-4 h-4 text-gold" />
+          <List className="w-4 h-4 text-accent-dark" />
           <span className="text-xs font-bold text-ink">On this page</span>
         </div>
         <ul className="space-y-1">
@@ -82,7 +82,7 @@ export default function TableOfContents() {
                 className={
                   "block text-xs py-1.5 px-2 rounded-lg transition " +
                   (activeId === item.id
-                    ? "bg-gold/10 text-gold font-bold"
+                    ? "bg-gold/10 text-accent-dark font-bold"
                     : "text-muted hover:text-ink hover:bg-surface-dim")
                 }
                 style={{ paddingLeft: item.level === 3 ? "24px" : "8px" }}

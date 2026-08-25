@@ -7,74 +7,271 @@
   "lastUpdated": "2026-07-01",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SRD R370 Payment Methods — Bank Transfer vs Cash Send Collection",
     "metaDescription": "Learn how the SRD R370 grant pays out: bank EFT transfer to your account, Cash Send retail collection at Shoprite/Pick n Pay/Boxer/Checkers, or how to switch methods. No bank account needed.",
-    "keywords": ["SRD payment methods", "SRD R370 payment", "SRD cash send", "SRD bank transfer", "how to collect SRD grant", "SRD payment not reflecting"]
+    "keywords": [
+      "SRD payment methods",
+      "SRD R370 payment",
+      "SRD cash send",
+      "SRD bank transfer",
+      "how to collect SRD grant",
+      "SRD payment not reflecting"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SRD R370 Grant Payment Methods — Bank Transfer vs Cash Send",
       "description": "Learn how the SRD R370 grant pays out each month. Choose between direct bank EFT transfer to your personal account or Cash Send retail collection at Shoprite, Pick n Pay, Boxer, Checkers, and Usave — no bank account needed for cash collection. Our guide covers switching methods, processing timelines, and what to do if your payment is delayed.",
       "readingTime": "8 min read",
       "lastUpdated": "July 2026",
-      "cta": { "text": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check" },
-      "secondaryCta": { "text": "Update Bank Details", "href": "/banking/update-bank-details" }
+      "cta": {
+        "text": "Check Your SRD Status",
+        "href": "/grants/srd-r370-grant/status-check"
+      },
+      "secondaryCta": {
+        "text": "Update Bank Details",
+        "href": "/banking/update-bank-details"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SRD R370 Grant Payment Methods" },
-    { "id": "intro", "type": "paragraph", "text": "The SRD R370 grant can be paid through two methods: direct bank transfer (EFT) to your personal bank account, or Cash Send (retail collection) where you collect cash at a store. You do not need a bank account to receive the grant — Cash Send works with just your ID and a cellphone." },
-    { "id": "method1-h", "type": "heading", "level": 3, "text": "Method 1: Bank EFT (Direct Deposit)" },
-    { "id": "method1-text", "type": "paragraph", "text": "SASSA deposits your grant directly into your personal South African bank account. Payments are processed between the 25th and last day of each month. Funds typically reflect 1 to 3 business days after processing, depending on your bank." },
-    { "id": "bank-table", "type": "table", "headers": ["Bank", "Typical Credit Time"], "rows": [
-      ["Capitec", "Same day (2-4 hours)"],
-      ["FNB", "Same day to 1 business day"],
-      ["Standard Bank", "1 to 2 business days"],
-      ["Absa", "1 to 2 business days"],
-      ["Nedbank", "1 to 2 business days"],
-      ["TymeBank", "Same day"],
-      ["Bank Zero", "Same day"],
-      ["Postbank", "Same day to 1 business day"]
-    ] },
-    { "id": "bank-requirements", "type": "callout", "intent": "warning", "title": "Bank Account Requirements", "text": "The bank account MUST be registered in your own name and match your ID exactly. SASSA will not pay into third-party accounts. Your account must be active and support EFT deposits." },
-    { "id": "method2-h", "type": "heading", "level": 3, "text": "Method 2: Cash Send (Retail Collection)" },
-    { "id": "method2-text", "type": "paragraph", "text": "Cash Send allows you to collect your grant in cash at any participating retailer without a bank account. When your payment is processed, you receive an SMS voucher with a unique collection code. Take this SMS and your ID to any participating store to collect your cash." },
-    { "id": "retailers", "type": "list", "ordered": false, "items": ["Pick n Pay — all branches nationwide", "Shoprite — all branches nationwide", "Boxer — all branches nationwide", "Checkers — all branches nationwide", "Usave — all branches nationwide"] },
-    { "id": "cash-send-steps", "type": "steps", "steps": [
-      { "title": "Wait for the SMS voucher", "description": "SASSA sends an SMS with a unique collection voucher code. Do not go to the store until you receive this SMS." },
-      { "title": "Go to any participating retailer", "description": "Take your phone showing the SMS and your original ID document to any Pick n Pay, Shoprite, Boxer, Checkers, or Usave." },
-      { "title": "Present your ID and voucher code", "description": "Tell the cashier you are collecting a SASSA Cash Send. Provide your ID and the voucher code from the SMS." },
-      { "title": "Receive your cash", "description": "The cashier will verify your details and hand you R370 in cash. Count it before leaving the counter." }
-    ] },
-    { "id": "cash-send-callout", "type": "callout", "intent": "info", "title": "Cash Send SMS Expiry", "text": "The SMS voucher expires within 7 to 10 days. If you do not collect your grant within this period, the voucher expires and you will need to contact SASSA to request a new one." },
-    { "id": "switch-h", "type": "heading", "level": 3, "text": "How to Switch Between Payment Methods" },
-    { "id": "switch-text", "type": "paragraph", "text": "You can switch between bank transfer and Cash Send at any time. Changes take effect from the following month's payment." },
-    { "id": "switch-steps", "type": "steps", "steps": [
-      { "title": "Log into the SRD portal", "description": "Go to srd.sassa.gov.za and log in with your ID and phone number." },
-      { "title": "Go to 'Payment Method'", "description": "Navigate to the payment method section on your dashboard." },
-      { "title": "Select your new method", "description": "Choose 'Bank Transfer' or 'Cash Send' depending on your preference." },
-      { "title": "If switching to bank: enter your details", "description": "Provide your bank name, account number, branch code, and account type. The account must be in your name." },
-      { "title": "Confirm the change", "description": "Review your selection and confirm. The change will apply from the next month." }
-    ] },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Can I receive SRD without a bank account?", "answer": "Yes. Select 'Cash Send' as your payment method. You collect your R370 in cash at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave using an SMS voucher." },
-      { "question": "How long after approval does the payment take?", "answer": "Payments are processed between the 25th and last day of each month. Bank transfers take 1-3 business days to reflect. Cash Send SMS vouchers arrive within 24-48 hours of processing." },
-      { "question": "My SRD payment is not reflecting in my account. What do I do?", "answer": "First check your status on the SRD portal. If it says 'Approved' or 'Payment Processing', wait 1-3 business days. If it still does not appear after 5 business days, check your bank details are correct or contact SASSA." },
-      { "question": "Can I use someone else's bank account?", "answer": "No. SASSA strictly requires the bank account to be registered in your own name. Payments into third-party accounts are not allowed." },
-      { "question": "Can I collect my grant at any retailer?", "answer": "Yes, any Pick n Pay, Shoprite, Boxer, Checkers, or Usave branch nationwide can process your Cash Send collection." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "SRD R370 Grant — Complete Guide", "href": "/grants/srd-r370-grant", "description": "Full guide to the SRD grant" },
-      { "title": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check", "description": "How to check your SRD grant status" },
-      { "title": "How to Update Bank Details", "href": "/banking/update-bank-details", "description": "Step-by-step guide to changing your bank account" },
-      { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All SASSA payment methods explained" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD R370 Grant Payment Methods"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The SRD R370 grant can be paid through two methods: direct bank transfer (EFT) to your personal bank account, or Cash Send (retail collection) where you collect cash at a store. You do not need a bank account to receive the grant — Cash Send works with just your ID and a cellphone."
+    },
+    {
+      "id": "method1-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Method 1: Bank EFT (Direct Deposit)"
+    },
+    {
+      "id": "method1-text",
+      "type": "paragraph",
+      "text": "SASSA deposits your grant directly into your personal South African bank account. Payments are processed between the 25th and last day of each month. Funds typically reflect 1 to 3 business days after processing, depending on your bank."
+    },
+    {
+      "id": "bank-table",
+      "type": "table",
+      "headers": [
+        "Bank",
+        "Typical Credit Time"
+      ],
+      "rows": [
+        [
+          "Capitec",
+          "Same day (2-4 hours)"
+        ],
+        [
+          "FNB",
+          "Same day to 1 business day"
+        ],
+        [
+          "Standard Bank",
+          "1 to 2 business days"
+        ],
+        [
+          "Absa",
+          "1 to 2 business days"
+        ],
+        [
+          "Nedbank",
+          "1 to 2 business days"
+        ],
+        [
+          "TymeBank",
+          "Same day"
+        ],
+        [
+          "Bank Zero",
+          "Same day"
+        ],
+        [
+          "Postbank",
+          "Same day to 1 business day"
+        ]
+      ]
+    },
+    {
+      "id": "bank-requirements",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Bank Account Requirements",
+      "text": "The bank account MUST be registered in your own name and match your ID exactly. SASSA will not pay into third-party accounts. Your account must be active and support EFT deposits."
+    },
+    {
+      "id": "method2-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Method 2: Cash Send (Retail Collection)"
+    },
+    {
+      "id": "method2-text",
+      "type": "paragraph",
+      "text": "Cash Send allows you to collect your grant in cash at any participating retailer without a bank account. When your payment is processed, you receive an SMS voucher with a unique collection code. Take this SMS and your ID to any participating store to collect your cash."
+    },
+    {
+      "id": "retailers",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Pick n Pay — all branches nationwide",
+        "Shoprite — all branches nationwide",
+        "Boxer — all branches nationwide",
+        "Checkers — all branches nationwide",
+        "Usave — all branches nationwide"
+      ]
+    },
+    {
+      "id": "cash-send-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Wait for the SMS voucher",
+          "description": "SASSA sends an SMS with a unique collection voucher code. Do not go to the store until you receive this SMS."
+        },
+        {
+          "title": "Go to any participating retailer",
+          "description": "Take your phone showing the SMS and your original ID document to any Pick n Pay, Shoprite, Boxer, Checkers, or Usave."
+        },
+        {
+          "title": "Present your ID and voucher code",
+          "description": "Tell the cashier you are collecting a SASSA Cash Send. Provide your ID and the voucher code from the SMS."
+        },
+        {
+          "title": "Receive your cash",
+          "description": "The cashier will verify your details and hand you R370 in cash. Count it before leaving the counter."
+        }
+      ]
+    },
+    {
+      "id": "cash-send-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Cash Send SMS Expiry",
+      "text": "The SMS voucher expires within 7 to 10 days. If you do not collect your grant within this period, the voucher expires and you will need to contact SASSA to request a new one."
+    },
+    {
+      "id": "switch-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Switch Between Payment Methods"
+    },
+    {
+      "id": "switch-text",
+      "type": "paragraph",
+      "text": "You can switch between bank transfer and Cash Send at any time. Changes take effect from the following month's payment."
+    },
+    {
+      "id": "switch-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Log into the SRD portal",
+          "description": "Go to srd.sassa.gov.za and log in with your ID and phone number."
+        },
+        {
+          "title": "Go to 'Payment Method'",
+          "description": "Navigate to the payment method section on your dashboard."
+        },
+        {
+          "title": "Select your new method",
+          "description": "Choose 'Bank Transfer' or 'Cash Send' depending on your preference."
+        },
+        {
+          "title": "If switching to bank: enter your details",
+          "description": "Provide your bank name, account number, branch code, and account type. The account must be in your name."
+        },
+        {
+          "title": "Confirm the change",
+          "description": "Review your selection and confirm. The change will apply from the next month."
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I receive SRD without a bank account?",
+          "answer": "Yes. Select 'Cash Send' as your payment method. You collect your R370 in cash at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave using an SMS voucher."
+        },
+        {
+          "question": "How long after approval does the payment take?",
+          "answer": "Payments are processed between the 25th and last day of each month. Bank transfers take 1-3 business days to reflect. Cash Send SMS vouchers arrive within 24-48 hours of processing."
+        },
+        {
+          "question": "My SRD payment is not reflecting in my account. What do I do?",
+          "answer": "First check your status on the SRD portal. If it says 'Approved' or 'Payment Processing', wait 1-3 business days. If it still does not appear after 5 business days, check your bank details are correct or contact SASSA."
+        },
+        {
+          "question": "Can I use someone else's bank account?",
+          "answer": "No. SASSA strictly requires the bank account to be registered in your own name. Payments into third-party accounts are not allowed."
+        },
+        {
+          "question": "Can I collect my grant at any retailer?",
+          "answer": "Yes, any Pick n Pay, Shoprite, Boxer, Checkers, or Usave branch nationwide can process your Cash Send collection."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SRD R370 Grant — Complete Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full guide to the SRD grant"
+        },
+        {
+          "title": "Check Your SRD Status",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "How to check your SRD grant status"
+        },
+        {
+          "title": "How to Update Bank Details",
+          "href": "/banking/update-bank-details",
+          "description": "Step-by-step guide to changing your bank account"
+        },
+        {
+          "title": "SASSA Payment Methods",
+          "href": "/banking/payment-methods",
+          "description": "All SASSA payment methods explained"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
-    { "title": "SRD Status Check", "slug": "/grants/srd-r370-grant/status-check" },
-    { "title": "Update Bank Details", "slug": "/banking/update-bank-details" }
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "SRD Status Check",
+      "slug": "/grants/srd-r370-grant/status-check"
+    },
+    {
+      "title": "Update Bank Details",
+      "slug": "/banking/update-bank-details"
+    }
   ]
 }

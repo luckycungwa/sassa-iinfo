@@ -1,0 +1,177 @@
+{
+  "id": "province-kwazulu-natal",
+  "slug": "/provinces/kwazulu-natal",
+  "classification": "province-hub",
+  "title": "SASSA KwaZulu-Natal Province — Offices, Grants & Information",
+  "description": "Complete guide to SASSA services in KwaZulu-Natal. Regional office in Pietermaritzburg, grant collection across Durban and rural KZN, mobile pay points, and province-specific FAQs.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA KwaZulu-Natal: Offices, Grants & Collection Guide 2026",
+    "metaDescription": "SASSA guide for KwaZulu-Natal. Regional office at 1 Bank Street, Pietermaritzburg (033 846 3300). Durban office queues, rural mobile pay points, isiZulu services, and collection tips.",
+    "keywords": [
+      "SASSA KZN",
+      "KwaZulu-Natal SASSA offices",
+      "SASSA Durban",
+      "SASSA Pietermaritzburg",
+      "SASSA mobile pay points KZN"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA KwaZulu-Natal Province",
+      "description": "Everything KZN beneficiaries need: regional office details, where to collect, how mobile pay points serve deep rural areas, and answers to common provincial questions.",
+      "readingTime": "6 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
+    },
+    {
+      "id": "province-overview",
+      "type": "province-overview",
+      "capital": "Pietermaritzburg",
+      "regionalOfficeAddress": "1 Bank Street, Pietermaritzburg, 3201",
+      "regionalOfficePhone": "033 846 3300",
+      "collectionInfo": "KwaZulu-Natal beneficiaries collect grants at major retailers in towns and cities, via direct bank transfer, or at mobile pay points in remote rural areas. Because much of the province is rural, the mobile pay point network here is one of the most extensive in the country.",
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant"
+      ]
+    },
+    {
+      "id": "services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA services in KwaZulu-Natal"
+    },
+    {
+      "id": "services-p",
+      "type": "paragraph",
+      "text": "The provincial regional office in Pietermaritzburg coordinates local offices across all eleven districts, including high-volume urban centres like Durban and Richards Bay and deep rural service points in Msinga, KwaNongoma and the South Coast. Full-service offices handle new applications, reviews, card replacements and appeals assistance; smaller satellite points handle enquiries and form collection."
+    },
+    {
+      "id": "offices-grid",
+      "type": "link-grid",
+      "title": "Finding your nearest office",
+      "links": [
+        {
+          "label": "Browse the national offices directory",
+          "href": "/offices"
+        },
+        {
+          "label": "Regional office enquiries: 033 846 3300",
+          "href": null
+        }
+      ]
+    },
+    {
+      "id": "collection-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant collection in KwaZulu-Natal"
+    },
+    {
+      "id": "collection-p1",
+      "type": "paragraph",
+      "text": "Urban beneficiaries in Durban, Pietermaritzburg and Richards Bay have the widest choice: SASSA card withdrawals at Shoprite, Boxer, Pick n Pay, Checkers and Usave tills, post office branches, or direct bank deposit. Durban Central on Stalwart Simelane Street handles the province's highest office volume — expect long queues in pay week."
+    },
+    {
+      "id": "collection-p2",
+      "type": "paragraph",
+      "text": "Rural beneficiaries are served primarily by scheduled mobile pay points that visit community halls and tribal authority offices on set days each month. Where retailers exist in small towns, Cash Send collection adds another option without needing a bank account."
+    },
+    {
+      "id": "tips-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Check your mobile pay point schedule monthly — visit dates change with road conditions and weather.",
+        "Bank transfer avoids travel entirely; any SASSA office can switch your payment method.",
+        "Durban CBD queues peak in the first week — mid-month visits are far shorter.",
+        "Application forms can be explained in isiZulu at every branch in the province."
+      ]
+    },
+    {
+      "id": "emergency-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Floods and emergencies",
+      "text": "KZN's storm season regularly disrupts pay points. During emergencies SASSA announces alternative arrangements — confirm schedules on official channels or call 0800 60 10 11 before travelling to a mobile point."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Can I apply for a grant in isiZulu?",
+          "answer": "Yes. SASSA staff across KZN are multilingual, and application forms can be completed and explained in isiZulu at all branches."
+        },
+        {
+          "question": "Which is the busiest SASSA office in KZN?",
+          "answer": "Durban Central on Stalwart Simelane Street handles the highest volume, followed by Pietermaritzburg and Richards Bay — especially during the first week of each month."
+        },
+        {
+          "question": "How do rural beneficiaries collect without a bank account?",
+          "answer": "Scheduled mobile pay points visit rural areas monthly, and Cash Send collection works at Boxer, Shoprite and Pick n Pay stores in most towns."
+        },
+        {
+          "question": "What happens when floods disrupt payments?",
+          "answer": "SASSA announces alternative collection arrangements through official channels and the 0800 60 10 11 line. Mobile points may be rerouted or delayed until conditions allow."
+        },
+        {
+          "question": "Are KZN payment dates different from other provinces?",
+          "answer": "No. Payment dates are synchronised nationally — see our payment dates hub for this month's schedule."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA KwaZulu-Natal regional office",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SASSA toll-free helpline 0800 60 10 11",
+          "url": "tel:0800601011"
+        }
+      ],
+      "note": "Provincial details verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Grants Overview",
+      "slug": "/grants"
+    }
+  ]
+}

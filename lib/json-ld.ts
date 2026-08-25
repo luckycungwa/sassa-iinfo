@@ -26,7 +26,7 @@ export function breadcrumbSchema(items: { name: string; url: string }[]) {
   };
 }
 
-export function articleSchema(title: string, description: string, datePublished: string, dateModified?: string) {
+export function articleSchema(title: string, description: string, datePublished: string, slug: string, dateModified?: string) {
   return {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -34,20 +34,24 @@ export function articleSchema(title: string, description: string, datePublished:
     description,
     datePublished,
     dateModified: dateModified || datePublished,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteUrl}${slug}`,
+    },
     publisher: {
       "@type": "Organization",
       "@id": `${siteUrl}/#organization`,
-      name: "44tagstudios",
-      url: "https://44tagstudios.co.za",
+      name: "SASSA Grant Guide",
+      url: siteUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/icon-512.png`,
+      },
     },
     author: {
       "@type": "Person",
       name: "Lucky Cungwa",
       url: "https://44tagstudios.co.za",
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": siteUrl,
     },
   };
 }

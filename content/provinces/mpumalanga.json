@@ -1,0 +1,162 @@
+{
+  "id": "province-mpumalanga",
+  "slug": "/provinces/mpumalanga",
+  "classification": "province-hub",
+  "title": "SASSA Mpumalanga Province — Offices, Grants & Information",
+  "description": "Complete guide to SASSA services in Mpumalanga. Regional office in Mbombela, offices across Witbank and Ermelo, mobile pay points for Bushbuckridge, and province FAQs.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Mpumalanga: Offices, Grants & Collection Guide 2026",
+    "metaDescription": "SASSA guide for Mpumalanga. Regional office at 17 Government Boulevard, Mbombela (013 754 3900). Full-service towns, Bushbuckridge mobile units, retail collection and FAQs.",
+    "keywords": [
+      "SASSA Mpumalanga",
+      "Mpumalanga SASSA offices",
+      "SASSA Nelspruit",
+      "SASSA Witbank",
+      "SASSA Bushbuckridge"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Mpumalanga Province",
+      "description": "Provincial hub for Mpumalanga beneficiaries: regional office contacts, full-service office towns, rural mobile services, and answers to common questions.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
+    },
+    {
+      "id": "province-overview",
+      "type": "province-overview",
+      "capital": "Mbombela (Nelspruit)",
+      "regionalOfficeAddress": "17 Government Boulevard, Riverside Park, Mbombela, 1200",
+      "regionalOfficePhone": "013 754 3900",
+      "collectionInfo": "Mpumalanga beneficiaries receive payments at retail cash points, via bank EFTs, and at post office hubs. Mobile pay points service deep rural communities in Bushbuckridge and around Emalahleni, complementing the province's mix of urban centres and rural areas.",
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant"
+      ]
+    },
+    {
+      "id": "services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA services in Mpumalanga"
+    },
+    {
+      "id": "services-p",
+      "type": "paragraph",
+      "text": "Full-service SASSA offices operate in the major towns — Mbombela, eMalahleni (Witbank), Secunda, Middelburg and Ermelo — handling applications, reviews, card replacements and appeals support. Smaller towns are served by satellite points and scheduled mobile units, with Bushbuckridge residents relying on a combination of mobile visits and the nearest full-service offices in Mbombela or Hazyview."
+    },
+    {
+      "id": "offices-grid",
+      "type": "link-grid",
+      "title": "Finding your nearest office",
+      "links": [
+        {
+          "label": "Browse the national offices directory",
+          "href": "/offices"
+        },
+        {
+          "label": "Regional office enquiries: 013 754 3900",
+          "href": null
+        }
+      ]
+    },
+    {
+      "id": "collection-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant collection in Mpumalanga"
+    },
+    {
+      "id": "collection-p1",
+      "type": "paragraph",
+      "text": "Collection is straightforward in urban centres: every national retailer chain processes SASSA card withdrawals free of charge on payment days. Bank transfers suit beneficiaries with accounts and reflect within days of each official date."
+    },
+    {
+      "id": "collection-p2",
+      "type": "paragraph",
+      "text": "In Bushbuckridge and other deep rural zones, monthly mobile pay points bring cash collection closer to home. Confirm visit dates each month through your local office or community structures before travelling, since schedules adjust for road conditions."
+    },
+    {
+      "id": "tips-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Retail collection works at Boxer, Pick n Pay, Shoprite, Checkers and Usave province-wide.",
+        "Switch payment methods any time: SRD via the online portal, other grants at an office.",
+        "Bushbuckridge is served by mobile units plus Hazyview/Mbombela offices.",
+        "Mid-month office visits avoid the pay-week queues common in eMalahleni and Secunda."
+      ]
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Can I collect my grant at any retailer in Mpumalanga?",
+          "answer": "Yes. Boxer, Pick n Pay, Shoprite, Checkers and Usave process SASSA cash payouts across all Mpumalanga towns."
+        },
+        {
+          "question": "How do Bushbuckridge residents access SASSA services?",
+          "answer": "Through scheduled mobile units and local retail pay points; the nearest full-service offices are in Mbombela or Hazyview. Check monthly mobile schedules for visit dates."
+        },
+        {
+          "question": "Is there a SASSA office in every town?",
+          "answer": "No. Full-service offices sit in Mbombela, eMalahleni, Secunda, Middelburg and Ermelo; smaller towns rely on mobile units and satellite points."
+        },
+        {
+          "question": "Can I switch from Cash Send to bank transfer?",
+          "answer": "Yes. SRD beneficiaries change methods on the online portal; other grant types change at any SASSA office with your ID."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA Mpumalanga regional office",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Provincial details verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Grants Overview",
+      "slug": "/grants"
+    }
+  ]
+}

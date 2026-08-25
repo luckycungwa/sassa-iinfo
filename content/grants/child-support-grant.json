@@ -8,12 +8,25 @@
   "version": "1.0.0",
   "readingTime": "7 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Child Support Grant 2026: Amount, Eligibility & How to Apply",
     "metaDescription": "Complete guide to the SASSA Child Support Grant: R580 per child, means test limits, what counts as income, required documents, application steps, and appeals.",
-    "keywords": ["child support grant", "SASSA child grant", "child grant South Africa", "means test income", "CSG application"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Child Support Grant" }
+    "keywords": [
+      "child support grant",
+      "SASSA child grant",
+      "child grant South Africa",
+      "means test income",
+      "CSG application"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Child Support Grant"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +36,14 @@
       "description": "Complete guide to the SASSA Child Support Grant: R580 per child, means test limits, what counts as income, required documents, application steps, and appeals.",
       "readingTime": "7 min read",
       "lastUpdated": "2026-07-26",
-      "cta": { "label": "Check Eligibility", "href": "/eligibility" },
-      "secondaryCta": { "label": "How to Apply", "href": "/guides/how-to-apply-sassa-grant" }
+      "cta": {
+        "label": "Check Eligibility",
+        "href": "/eligibility"
+      },
+      "secondaryCta": {
+        "label": "How to Apply",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
     },
     {
       "id": "summary",
@@ -73,8 +92,16 @@
         "The child must not be married or living independently."
       ],
       "recommendedGrants": [
-        { "name": "Foster Child Grant", "slug": "/grants/foster-care-grant", "amount": "R1,295" },
-        { "name": "Care Dependency Grant", "slug": "/grants/care-dependency-grant", "amount": "R2,400" }
+        {
+          "name": "Foster Child Grant",
+          "slug": "/grants/foster-care-grant",
+          "amount": "R1,295"
+        },
+        {
+          "name": "Care Dependency Grant",
+          "slug": "/grants/care-dependency-grant",
+          "amount": "R2,400"
+        }
       ]
     },
     {
@@ -91,16 +118,52 @@
     {
       "id": "means-test-table",
       "type": "table",
-      "headers": ["Type of Income", "Counts?", "Practical Example"],
+      "headers": [
+        "Type of Income",
+        "Counts?",
+        "Practical Example"
+      ],
       "rows": [
-        ["Formal salary or wages", "Yes", "A part-time or full-time job with a regular payslip."],
-        ["Piece jobs and casual work", "Yes", "Gardening, domestic work, day labour, or any ad-hoc work paid in cash."],
-        ["Tips and gratuities", "Yes", "Tips from waiting tables, car washing, car guarding, or delivery work."],
-        ["Maintenance from the other parent", "Yes", "Court-ordered child maintenance or an agreed monthly amount."],
-        ["Regular help from family", "Yes", "Monthly cash gifts from a parent, sibling, or relative to help with bills."],
-        ["Small business or spaza shop income", "Yes", "Profit from selling goods, running a township business, or hawking."],
-        ["Another SASSA grant in your name", "No", "Your own Older Person Grant, Disability Grant, or other SASSA grant."],
-        ["One-off lump sums", "No", "A once-off UIF payout, a bonus, or an inheritance received a single time."]
+        [
+          "Formal salary or wages",
+          "Yes",
+          "A part-time or full-time job with a regular payslip."
+        ],
+        [
+          "Piece jobs and casual work",
+          "Yes",
+          "Gardening, domestic work, day labour, or any ad-hoc work paid in cash."
+        ],
+        [
+          "Tips and gratuities",
+          "Yes",
+          "Tips from waiting tables, car washing, car guarding, or delivery work."
+        ],
+        [
+          "Maintenance from the other parent",
+          "Yes",
+          "Court-ordered child maintenance or an agreed monthly amount."
+        ],
+        [
+          "Regular help from family",
+          "Yes",
+          "Monthly cash gifts from a parent, sibling, or relative to help with bills."
+        ],
+        [
+          "Small business or spaza shop income",
+          "Yes",
+          "Profit from selling goods, running a township business, or hawking."
+        ],
+        [
+          "Another SASSA grant in your name",
+          "No",
+          "Your own Older Person Grant, Disability Grant, or other SASSA grant."
+        ],
+        [
+          "One-off lump sums",
+          "No",
+          "A once-off UIF payout, a bonus, or an inheritance received a single time."
+        ]
       ],
       "caption": "How different types of income affect the means test"
     },
@@ -121,12 +184,36 @@
       "id": "docs",
       "type": "document-checklist",
       "documents": [
-        { "label": "Your original 13-digit barcoded Smart ID card or green ID book", "required": true, "notes": "Temporary IDs are not accepted." },
-        { "label": "The child's birth certificate (original)", "required": true, "notes": "If the child has no birth certificate, bring a sworn affidavit and proof of application from Home Affairs." },
-        { "label": "Proof of income (payslips, bank statements, or an affidavit if unemployed)", "required": true, "notes": "Last 3 months of statements if you have a bank account." },
-        { "label": "Proof of residence (utility bill, rental agreement, or letter from ward councillor)", "required": true, "notes": "Must show your current physical address." },
-        { "label": "Proof of marital status (marriage certificate, divorce order, or death certificate of spouse)", "required": false, "notes": "Only needed if you are married or were previously married." },
-        { "label": "School report or clinic card for the child", "required": false, "notes": "Helpful to confirm the child's age and that they attend school or clinic visits." }
+        {
+          "label": "Your original 13-digit barcoded Smart ID card or green ID book",
+          "required": true,
+          "notes": "Temporary IDs are not accepted."
+        },
+        {
+          "label": "The child's birth certificate (original)",
+          "required": true,
+          "notes": "If the child has no birth certificate, bring a sworn affidavit and proof of application from Home Affairs."
+        },
+        {
+          "label": "Proof of income (payslips, bank statements, or an affidavit if unemployed)",
+          "required": true,
+          "notes": "Last 3 months of statements if you have a bank account."
+        },
+        {
+          "label": "Proof of residence (utility bill, rental agreement, or letter from ward councillor)",
+          "required": true,
+          "notes": "Must show your current physical address."
+        },
+        {
+          "label": "Proof of marital status (marriage certificate, divorce order, or death certificate of spouse)",
+          "required": false,
+          "notes": "Only needed if you are married or were previously married."
+        },
+        {
+          "label": "School report or clinic card for the child",
+          "required": false,
+          "notes": "Helpful to confirm the child's age and that they attend school or clinic visits."
+        }
       ]
     },
     {
@@ -139,11 +226,26 @@
       "id": "steps",
       "type": "steps",
       "steps": [
-        { "title": "Gather your documents", "description": "Collect all original documents listed above and make photocopies. SASSA will not accept expired IDs or unsigned affidavits." },
-        { "title": "Visit your nearest SASSA office", "description": "Go to the SASSA office that serves your area. You can find your closest office on the SASSA website or by asking at your nearest Thusong Service Centre." },
-        { "title": "Complete the application form", "description": "A SASSA officer will assist you in filling out the application form. You will need to provide details about your household income, the child, and the child's other parent if known." },
-        { "title": "Provide fingerprints and take a photo", "description": "SASSA will take your fingerprints and a photograph as part of the application process. The child may also need to be present." },
-        { "title": "Wait for the outcome", "description": "SASSA has up to 3 months to process your application. Payments are backdated to the date you applied, so keep your receipt safe." }
+        {
+          "title": "Gather your documents",
+          "description": "Collect all original documents listed above and make photocopies. SASSA will not accept expired IDs or unsigned affidavits."
+        },
+        {
+          "title": "Visit your nearest SASSA office",
+          "description": "Go to the SASSA office that serves your area. You can find your closest office on the SASSA website or by asking at your nearest Thusong Service Centre."
+        },
+        {
+          "title": "Complete the application form",
+          "description": "A SASSA officer will assist you in filling out the application form. You will need to provide details about your household income, the child, and the child's other parent if known."
+        },
+        {
+          "title": "Provide fingerprints and take a photo",
+          "description": "SASSA will take your fingerprints and a photograph as part of the application process. The child may also need to be present."
+        },
+        {
+          "title": "Wait for the outcome",
+          "description": "SASSA has up to 3 months to process your application. Payments are backdated to the date you applied, so keep your receipt safe."
+        }
       ]
     },
     {
@@ -191,9 +293,21 @@
     }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Foster Care Grant", "slug": "/grants/foster-care-grant" },
-    { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" },
-    { "title": "Child Support Grant FAQ", "slug": "/faq" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Foster Care Grant",
+      "slug": "/grants/foster-care-grant"
+    },
+    {
+      "title": "Care Dependency Grant",
+      "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Child Support Grant FAQ",
+      "slug": "/faq"
+    }
   ]
 }

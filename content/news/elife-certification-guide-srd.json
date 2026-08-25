@@ -7,69 +7,221 @@
   "lastUpdated": "2026-07-28",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official SASSA publications", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "eLife Certification for SRD Grant: Complete Guide 2026",
     "metaDescription": "Step-by-step guide to completing mandatory eLife certification and iiDentifii biometric face-scan for SASSA SRD R370 grant. Fix common errors and avoid suspension.",
-    "keywords": ["eLife certification", "SRD biometric verification", "iiDentifii face scan", "SASSA verification", "SRD R370 face scan"]
+    "keywords": [
+      "eLife certification",
+      "SRD biometric verification",
+      "iiDentifii face scan",
+      "SASSA verification",
+      "SRD R370 face scan"
+    ]
   },
   "contentBlocks": [
-    { "id": "hero-1", "type": "hero", "title": "eLife Certification: Mandatory Face-Scan for SRD Grant", "description": "Biometric verification is now a requirement for all SRD R370 beneficiaries. Learn how to complete the iiDentifii face-scan from your phone, fix common errors, and avoid grant suspension.", "readingTime": "5 min read", "lastUpdated": "2026-07-28" },
-    { "id": "h1", "type": "heading", "level": 2, "text": "What Is eLife Certification?" },
-    { "id": "p1", "type": "paragraph", "text": "eLife certification (also called iiDentifii biometric verification) is a mandatory annual process where SRD R370 beneficiaries must verify their identity using a face-scan on their smartphone. The system compares your live photo against your Home Affairs photo and SASSA records." },
-    { "id": "p2", "type": "paragraph", "text": "According to SASSA, more than 68,000 grants were suspended in May 2026 because beneficiaries failed to complete their eLife certification. Many suspensions were due to simple errors that could have been avoided." },
-    { "id": "h2", "type": "heading", "level": 3, "text": "Why Is It Required?" },
-    { "id": "list1", "type": "list", "ordered": false, "items": [
-      "To prevent identity fraud and ghost beneficiaries",
-      "To comply with FICA (Financial Intelligence Centre Act) requirements",
-      "To confirm the applicant is alive and still meets eligibility criteria",
-      "To align with SIU recommendations after the 2025 audit"
-    ] },
-    { "id": "h3", "type": "heading", "level": 3, "text": "Step-by-Step: How to Complete eLife Certification" },
-    { "id": "steps1", "type": "steps", "steps": [
-      { "title": "Ensure you have a smartphone with a camera", "description": "You need a smartphone with a working front camera and internet connection. The process does not work on feature phones or computers." },
-      { "title": "Go to the official SRD portal", "description": "Open your phone browser and go to srd.sassa.gov.za. Do NOT use any other website — scammers create fake portals." },
-      { "title": "Enter your ID number and phone number", "description": "Use the same phone number you registered with SASSA. An OTP will be sent to this number." },
-      { "title": "Enter the OTP and select 'Start Verification'", "description": "The OTP expires after 5 minutes. If it expires, request a new one." },
-      { "title": "Allow camera access when prompted", "description": "Your browser will ask for permission to use your camera. Click 'Allow'. If you clicked 'Block', go to your browser settings and enable camera access for the site." },
-      { "title": "Position your face in the frame", "description": "Hold your phone at arm's length. Ensure your face is well-lit and centred. Remove glasses, hats, and face coverings. The system will capture your photo automatically." },
-      { "title": "Wait for the confirmation message", "description": "Once verified, you will see a green confirmation message. The process takes about 30 seconds." }
-    ] },
-    { "id": "h4", "type": "heading", "level": 3, "text": "Top 5 Reasons Biometric Verification Fails" },
-    { "id": "callout1", "type": "callout", "intent": "warning", "title": "68,000+ grants suspended in May 2026", "text": "Most suspensions were caused by simple errors that are easy to fix. Here are the most common problems and how to solve them." },
-    { "id": "list2", "type": "list", "ordered": true, "items": [
-      "Poor lighting: Your face must be evenly lit. Avoid backlight (window behind you) and shadows. Sit facing a window or lamp.",
-      "Old Home Affairs photo: If your ID photo is very old, the face-match algorithm may fail. Visit Home Affairs to update your photo.",
-      "Glasses and accessories: Remove glasses, hats, scarves, and face coverings. The system needs to see your full face.",
-      "Bad internet connection: A slow or unstable connection causes upload failures. Use Wi-Fi if mobile data is unreliable.",
-      "App permissions blocked: If you previously blocked camera access, the scan will fail. Check your browser settings."
-    ] },
-    { "id": "h5", "type": "heading", "level": 3, "text": "What to Do If You Fail 3 Times" },
-    { "id": "p3", "type": "paragraph", "text": "If you fail the biometric verification three times, your application is flagged for manual review. You will need to visit your nearest SASSA office with your ID." },
-    { "id": "list3", "type": "list", "ordered": false, "items": [
-      "Take your ID document to the nearest SASSA office",
-      "Ask for the eLife certification desk (some offices have dedicated biometric stations)",
-      "A SASSA officer will verify your identity manually",
-      "Once verified, your grant status will be updated within 48 hours"
-    ] },
-    { "id": "faq1", "type": "faq", "faqs": [
-      { "question": "Do I need to do eLife certification every month?", "answer": "No. eLife certification is an annual requirement. Once completed, it is valid for 12 months. However, SASSA may request a new scan if there are discrepancies." },
-      { "question": "What if I don't have a smartphone?", "answer": "Visit your nearest SASSA office with your ID. They have devices at the biometric desk to complete the verification for you. You cannot complete eLife certification without access to a camera." },
-      { "question": "Will my grant be suspended if I don't complete this?", "answer": "Yes. SASSA has confirmed that grants will be suspended for beneficiaries who do not complete eLife certification within the annual window. Your grant can be reinstated after you complete verification." },
-      { "question": "Is it safe to use the face-scan?", "answer": "Yes. The iiDentifii system is used by major South African banks and is fully POPIA compliant. Your biometric data is encrypted and not stored on your phone." }
-    ] },
-    { "id": "div1", "type": "divider" },
-    { "id": "link1", "type": "link-grid", "links": [
-      { "title": "Official SRD Portal", "href": "https://srd.sassa.gov.za", "description": "Complete your eLife certification" },
-      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full grant information" },
-      { "title": "Grant Reviews Update", "href": "/news/sassa-grant-review-crackdown-2026", "description": "350,000 grants under review" },
-      { "title": "Find Your Nearest SASSA Office", "href": "/offices", "description": "Visit in person if you cannot verify" }
-    ] }
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "title": "eLife Certification: Mandatory Face-Scan for SRD Grant",
+      "description": "Biometric verification is now a requirement for all SRD R370 beneficiaries. Learn how to complete the iiDentifii face-scan from your phone, fix common errors, and avoid grant suspension.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-07-28"
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "What Is eLife Certification?"
+    },
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "text": "eLife certification (also called iiDentifii biometric verification) is a mandatory annual process where SRD R370 beneficiaries must verify their identity using a face-scan on their smartphone. The system compares your live photo against your Home Affairs photo and SASSA records."
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "text": "According to SASSA, more than 68,000 grants were suspended in May 2026 because beneficiaries failed to complete their eLife certification. Many suspensions were due to simple errors that could have been avoided."
+    },
+    {
+      "id": "h2",
+      "type": "heading",
+      "level": 3,
+      "text": "Why Is It Required?"
+    },
+    {
+      "id": "list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "To prevent identity fraud and ghost beneficiaries",
+        "To comply with FICA (Financial Intelligence Centre Act) requirements",
+        "To confirm the applicant is alive and still meets eligibility criteria",
+        "To align with SIU recommendations after the 2025 audit"
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "heading",
+      "level": 3,
+      "text": "Step-by-Step: How to Complete eLife Certification"
+    },
+    {
+      "id": "steps1",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ensure you have a smartphone with a camera",
+          "description": "You need a smartphone with a working front camera and internet connection. The process does not work on feature phones or computers."
+        },
+        {
+          "title": "Go to the official SRD portal",
+          "description": "Open your phone browser and go to srd.sassa.gov.za. Do NOT use any other website — scammers create fake portals."
+        },
+        {
+          "title": "Enter your ID number and phone number",
+          "description": "Use the same phone number you registered with SASSA. An OTP will be sent to this number."
+        },
+        {
+          "title": "Enter the OTP and select 'Start Verification'",
+          "description": "The OTP expires after 5 minutes. If it expires, request a new one."
+        },
+        {
+          "title": "Allow camera access when prompted",
+          "description": "Your browser will ask for permission to use your camera. Click 'Allow'. If you clicked 'Block', go to your browser settings and enable camera access for the site."
+        },
+        {
+          "title": "Position your face in the frame",
+          "description": "Hold your phone at arm's length. Ensure your face is well-lit and centred. Remove glasses, hats, and face coverings. The system will capture your photo automatically."
+        },
+        {
+          "title": "Wait for the confirmation message",
+          "description": "Once verified, you will see a green confirmation message. The process takes about 30 seconds."
+        }
+      ]
+    },
+    {
+      "id": "h4",
+      "type": "heading",
+      "level": 3,
+      "text": "Top 5 Reasons Biometric Verification Fails"
+    },
+    {
+      "id": "callout1",
+      "type": "callout",
+      "intent": "warning",
+      "title": "68,000+ grants suspended in May 2026",
+      "text": "Most suspensions were caused by simple errors that are easy to fix. Here are the most common problems and how to solve them."
+    },
+    {
+      "id": "list2",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Poor lighting: Your face must be evenly lit. Avoid backlight (window behind you) and shadows. Sit facing a window or lamp.",
+        "Old Home Affairs photo: If your ID photo is very old, the face-match algorithm may fail. Visit Home Affairs to update your photo.",
+        "Glasses and accessories: Remove glasses, hats, scarves, and face coverings. The system needs to see your full face.",
+        "Bad internet connection: A slow or unstable connection causes upload failures. Use Wi-Fi if mobile data is unreliable.",
+        "App permissions blocked: If you previously blocked camera access, the scan will fail. Check your browser settings."
+      ]
+    },
+    {
+      "id": "h5",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Do If You Fail 3 Times"
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "text": "If you fail the biometric verification three times, your application is flagged for manual review. You will need to visit your nearest SASSA office with your ID."
+    },
+    {
+      "id": "list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Take your ID document to the nearest SASSA office",
+        "Ask for the eLife certification desk (some offices have dedicated biometric stations)",
+        "A SASSA officer will verify your identity manually",
+        "Once verified, your grant status will be updated within 48 hours"
+      ]
+    },
+    {
+      "id": "faq1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Do I need to do eLife certification every month?",
+          "answer": "No. eLife certification is an annual requirement. Once completed, it is valid for 12 months. However, SASSA may request a new scan if there are discrepancies."
+        },
+        {
+          "question": "What if I don't have a smartphone?",
+          "answer": "Visit your nearest SASSA office with your ID. They have devices at the biometric desk to complete the verification for you. You cannot complete eLife certification without access to a camera."
+        },
+        {
+          "question": "Will my grant be suspended if I don't complete this?",
+          "answer": "Yes. SASSA has confirmed that grants will be suspended for beneficiaries who do not complete eLife certification within the annual window. Your grant can be reinstated after you complete verification."
+        },
+        {
+          "question": "Is it safe to use the face-scan?",
+          "answer": "Yes. The iiDentifii system is used by major South African banks and is fully POPIA compliant. Your biometric data is encrypted and not stored on your phone."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Official SRD Portal",
+          "href": "https://srd.sassa.gov.za",
+          "description": "Complete your eLife certification"
+        },
+        {
+          "title": "SRD R370 Grant Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full grant information"
+        },
+        {
+          "title": "Grant Reviews Update",
+          "href": "/news/sassa-grant-review-crackdown-2026",
+          "description": "350,000 grants under review"
+        },
+        {
+          "title": "Find Your Nearest SASSA Office",
+          "href": "/offices",
+          "description": "Visit in person if you cannot verify"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
-    { "title": "Grant Review Crackdown", "slug": "/news/sassa-grant-review-crackdown-2026" },
-    { "title": "SASSA Offices", "slug": "/offices" },
-    { "title": "Status Meanings", "slug": "/status" }
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "Grant Review Crackdown",
+      "slug": "/news/sassa-grant-review-crackdown-2026"
+    },
+    {
+      "title": "SASSA Offices",
+      "slug": "/offices"
+    },
+    {
+      "title": "Status Meanings",
+      "slug": "/status"
+    }
   ]
 }

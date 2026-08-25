@@ -8,22 +8,42 @@
   "version": "1.0.0",
   "readingTime": "8 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Founder, 44tagstudios", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Founder, 44tagstudios",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Foster Care Grant 2026: Amount, Eligibility & How to Apply",
     "metaDescription": "Complete guide to the SASSA Foster Care Grant: R1,295 per month, court order requirements, how to apply through a social worker, renewal process, and extension past age 18.",
-    "keywords": ["foster care grant", "SASSA foster child grant", "foster parent grant South Africa", "childrens court order SASSA", "foster care grant extension"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Foster Care Grant" }
+    "keywords": [
+      "foster care grant",
+      "SASSA foster child grant",
+      "foster parent grant South Africa",
+      "childrens court order SASSA",
+      "foster care grant extension"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Foster Care Grant"
+    }
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Foster Care Grant",
       "description": "Complete guide to the SASSA Foster Care Grant: R1,295 per month per foster child, the Children's Court order you need, how to apply through a social worker, how to renew before the order expires, and what happens when the foster child turns 18.",
       "readingTime": "8 min read",
       "lastUpdated": "2026-07-27",
-      "cta": { "label": "Find a Social Worker", "href": "/offices" },
-      "secondaryCta": { "label": "Foster Care FAQ", "href": "/faq" }
+      "cta": {
+        "label": "Find a Social Worker",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "Foster Care FAQ",
+        "href": "/faq"
+      }
     },
     {
       "id": "summary",
@@ -46,14 +66,42 @@
     {
       "id": "csg-vs-fcg-table",
       "type": "table",
-      "headers": ["Feature", "Foster Care Grant", "Child Support Grant"],
+      "headers": [
+        "Feature",
+        "Foster Care Grant",
+        "Child Support Grant"
+      ],
       "rows": [
-        ["Monthly amount", "R1,295 per child", "R580 per child"],
-        ["Means test", "No income test for foster parent", "Income threshold applies"],
-        ["Legal requirement", "Children's Court order required", "No court order needed"],
-        ["Who can apply", "Court-appointed foster parents", "Biological parents, grandparents, or any primary caregiver"],
-        ["Renewal", "Court order must be renewed every 2 years", "No renewal required until child turns 18"],
-        ["Child's status", "Orphaned, abandoned, or neglected", "Any child under 18 in caregiver's care"]
+        [
+          "Monthly amount",
+          "R1,295 per child",
+          "R580 per child"
+        ],
+        [
+          "Means test",
+          "No income test for foster parent",
+          "Income threshold applies"
+        ],
+        [
+          "Legal requirement",
+          "Children's Court order required",
+          "No court order needed"
+        ],
+        [
+          "Who can apply",
+          "Court-appointed foster parents",
+          "Biological parents, grandparents, or any primary caregiver"
+        ],
+        [
+          "Renewal",
+          "Court order must be renewed every 2 years",
+          "No renewal required until child turns 18"
+        ],
+        [
+          "Child's status",
+          "Orphaned, abandoned, or neglected",
+          "Any child under 18 in caregiver's care"
+        ]
       ],
       "caption": "The Foster Care Grant pays more per child but requires a legal court order. The Child Support Grant is easier to apply for but pays less."
     },
@@ -79,7 +127,11 @@
         "You cannot be a paid foster parent through a non-governmental organisation for the same child"
       ],
       "recommendedGrants": [
-        { "name": "Child Support Grant (Top-Up for Orphans)", "slug": "/grants/child-support-grant", "amount": "R830" }
+        {
+          "name": "Child Support Grant (Top-Up for Orphans)",
+          "slug": "/grants/child-support-grant",
+          "amount": "R830"
+        }
       ]
     },
     {
@@ -97,11 +149,26 @@
       "id": "court-order-steps",
       "type": "steps",
       "steps": [
-        { "title": "Contact a social worker", "description": "Visit your nearest Department of Social Development (DSD) office or a registered child protection organisation. A social worker will assess your situation and the child's needs." },
-        { "title": "Social worker investigation", "description": "The social worker conducts a home visit, interviews you and the child (if age-appropriate), and writes a recommendation report for the Children's Court." },
-        { "title": "Court application", "description": "The social worker files the report with the Children's Court. The court sets a date to hear the matter. You and the child (if old enough) must attend." },
-        { "title": "Children's Court order issued", "description": "If the court approves, you receive a formal foster care order. This document is your key to the SASSA grant." },
-        { "title": "Apply to SASSA", "description": "Take the court order, your ID, and the child's birth certificate to your nearest SASSA office. Complete the grant application form." }
+        {
+          "title": "Contact a social worker",
+          "description": "Visit your nearest Department of Social Development (DSD) office or a registered child protection organisation. A social worker will assess your situation and the child's needs."
+        },
+        {
+          "title": "Social worker investigation",
+          "description": "The social worker conducts a home visit, interviews you and the child (if age-appropriate), and writes a recommendation report for the Children's Court."
+        },
+        {
+          "title": "Court application",
+          "description": "The social worker files the report with the Children's Court. The court sets a date to hear the matter. You and the child (if old enough) must attend."
+        },
+        {
+          "title": "Children's Court order issued",
+          "description": "If the court approves, you receive a formal foster care order. This document is your key to the SASSA grant."
+        },
+        {
+          "title": "Apply to SASSA",
+          "description": "Take the court order, your ID, and the child's birth certificate to your nearest SASSA office. Complete the grant application form."
+        }
       ]
     },
     {
@@ -121,12 +188,33 @@
       "id": "docs",
       "type": "document-checklist",
       "documents": [
-        { "label": "Valid Children's Court foster placement order (original)", "required": true, "notes": "Must be current and not expired." },
-        { "label": "Your original 13-digit ID or smart ID card", "required": true },
-        { "label": "The foster child's birth certificate (original)", "required": true },
-        { "label": "School attendance certificate or school report", "required": false, "notes": "Required for school-aged children." },
-        { "label": "Proof of residence (utility bill or letter from ward councillor)", "required": true },
-        { "label": "Death certificates of biological parents (if applicable)", "required": false, "notes": "Helps confirm the child's orphan status." }
+        {
+          "label": "Valid Children's Court foster placement order (original)",
+          "required": true,
+          "notes": "Must be current and not expired."
+        },
+        {
+          "label": "Your original 13-digit ID or smart ID card",
+          "required": true
+        },
+        {
+          "label": "The foster child's birth certificate (original)",
+          "required": true
+        },
+        {
+          "label": "School attendance certificate or school report",
+          "required": false,
+          "notes": "Required for school-aged children."
+        },
+        {
+          "label": "Proof of residence (utility bill or letter from ward councillor)",
+          "required": true
+        },
+        {
+          "label": "Death certificates of biological parents (if applicable)",
+          "required": false,
+          "notes": "Helps confirm the child's orphan status."
+        }
       ]
     },
     {
@@ -139,12 +227,30 @@
       "id": "apply-steps",
       "type": "steps",
       "steps": [
-        { "title": "Get the court order first", "description": "Work with a DSD social worker to obtain a valid Children's Court foster care order. Do not go to SASSA before you have this document." },
-        { "title": "Gather your documents", "description": "Collect the court order, your ID, the child's birth certificate, proof of residence, and school attendance letter." },
-        { "title": "Visit your nearest SASSA office", "description": "Go to the SASSA office that serves your area. Bring all original documents and photocopies." },
-        { "title": "Complete the application form", "description": "A SASSA officer will assist you. You will need to provide the court order details and your personal information." },
-        { "title": "Provide fingerprints and photo", "description": "SASSA will capture your biometric information. The foster child may also need to be present." },
-        { "title": "Wait for processing", "description": "SASSA processes foster care grant applications within 2-3 months. Payments are backdated to the application date." }
+        {
+          "title": "Get the court order first",
+          "description": "Work with a DSD social worker to obtain a valid Children's Court foster care order. Do not go to SASSA before you have this document."
+        },
+        {
+          "title": "Gather your documents",
+          "description": "Collect the court order, your ID, the child's birth certificate, proof of residence, and school attendance letter."
+        },
+        {
+          "title": "Visit your nearest SASSA office",
+          "description": "Go to the SASSA office that serves your area. Bring all original documents and photocopies."
+        },
+        {
+          "title": "Complete the application form",
+          "description": "A SASSA officer will assist you. You will need to provide the court order details and your personal information."
+        },
+        {
+          "title": "Provide fingerprints and photo",
+          "description": "SASSA will capture your biometric information. The foster child may also need to be present."
+        },
+        {
+          "title": "Wait for processing",
+          "description": "SASSA processes foster care grant applications within 2-3 months. Payments are backdated to the application date."
+        }
       ]
     },
     {
@@ -162,10 +268,22 @@
       "id": "renewal-steps",
       "type": "steps",
       "steps": [
-        { "title": "Start 3 months before expiry", "description": "Contact your social worker or DSD office at least 3 months before the court order expires." },
-        { "title": "Social worker re-assessment", "description": "The social worker visits your home, re-assesses the child's situation, and writes a renewal recommendation." },
-        { "title": "Court order renewal", "description": "The social worker files the renewal with the Children's Court. The court reviews and extends the order." },
-        { "title": "Submit renewed order to SASSA", "description": "Take the renewed court order to SASSA. They update your grant record and payments continue." }
+        {
+          "title": "Start 3 months before expiry",
+          "description": "Contact your social worker or DSD office at least 3 months before the court order expires."
+        },
+        {
+          "title": "Social worker re-assessment",
+          "description": "The social worker visits your home, re-assesses the child's situation, and writes a renewal recommendation."
+        },
+        {
+          "title": "Court order renewal",
+          "description": "The social worker files the renewal with the Children's Court. The court reviews and extends the order."
+        },
+        {
+          "title": "Submit renewed order to SASSA",
+          "description": "Take the renewed court order to SASSA. They update your grant record and payments continue."
+        }
       ]
     },
     {
@@ -226,16 +344,41 @@
       "id": "related-links",
       "type": "link-grid",
       "links": [
-        { "title": "Child Support Grant", "href": "/grants/child-support-grant", "description": "Alternative for caregivers without court orders" },
-        { "title": "Care Dependency Grant", "href": "/grants/care-dependency-grant", "description": "For children with severe disabilities" },
-        { "title": "Find a SASSA Office", "href": "/offices", "description": "Locate your nearest office" },
-        { "title": "Appeal a Decline", "href": "/appeals/how-to-appeal", "description": "Challenge a grant decline" }
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant",
+          "description": "Alternative for caregivers without court orders"
+        },
+        {
+          "title": "Care Dependency Grant",
+          "href": "/grants/care-dependency-grant",
+          "description": "For children with severe disabilities"
+        },
+        {
+          "title": "Find a SASSA Office",
+          "href": "/offices",
+          "description": "Locate your nearest office"
+        },
+        {
+          "title": "Appeal a Decline",
+          "href": "/appeals/how-to-appeal",
+          "description": "Challenge a grant decline"
+        }
       ]
     }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
-    { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "Care Dependency Grant",
+      "slug": "/grants/care-dependency-grant"
+    }
   ]
 }

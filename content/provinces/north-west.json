@@ -1,0 +1,162 @@
+{
+  "id": "province-north-west",
+  "slug": "/provinces/north-west",
+  "classification": "province-hub",
+  "title": "SASSA North West Province — Offices, Grants & Information",
+  "description": "Complete guide to SASSA services in North West. Regional office in Mahikeng, Rustenburg mining-belt collection, mobile pay points for remote towns, and province FAQs.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA North West: Offices, Grants & Collection Guide 2026",
+    "metaDescription": "SASSA guide for North West Province. Regional office in Mahikeng (018 397 2600). Rustenburg and Brits offices, platinum-belt collection points, Setswana services and FAQs.",
+    "keywords": [
+      "SASSA North West",
+      "North West SASSA offices",
+      "SASSA Rustenburg",
+      "SASSA Mahikeng",
+      "SASSA Klerksdorp"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA North West Province",
+      "description": "Provincial hub for North West beneficiaries: regional office contacts, collection across the platinum mining belt, mobile services for remote towns, and local FAQs.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
+    },
+    {
+      "id": "province-overview",
+      "type": "province-overview",
+      "capital": "Mahikeng",
+      "regionalOfficeAddress": "2nd Floor, Mega City Complex, Carrington Street, Mahikeng, 2745",
+      "regionalOfficePhone": "018 397 2600",
+      "collectionInfo": "North West beneficiaries collect at Shoprite, Boxer and Pick n Pay stores across the province. Mobile pay points serve remote towns and communities around the platinum mining belt, where pay-week queues run longest due to population density around Rustenburg and Brits.",
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant"
+      ]
+    },
+    {
+      "id": "services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA services in North West"
+    },
+    {
+      "id": "services-p",
+      "type": "paragraph",
+      "text": "Full-service offices operate in Mahikeng, Rustenburg, Klerksdorp, Potchefstroom and Brits, handling applications, reviews, card replacements and appeals support. Smaller towns such as Vryburg, Taung and Zeerust are served by scheduled mobile units that bring application and enquiry services to them monthly."
+    },
+    {
+      "id": "offices-grid",
+      "type": "link-grid",
+      "title": "Finding your nearest office",
+      "links": [
+        {
+          "label": "Browse the national offices directory",
+          "href": "/offices"
+        },
+        {
+          "label": "Regional office enquiries: 018 397 2600",
+          "href": null
+        }
+      ]
+    },
+    {
+      "id": "collection-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant collection in North West"
+    },
+    {
+      "id": "collection-p1",
+      "type": "paragraph",
+      "text": "Retail collection works at national chains throughout the province. In mining towns like Rustenburg and Brits, population density makes pay-week queues noticeably longer — collecting from day two after your pay date, or mid-month for non-urgent visits, saves hours."
+    },
+    {
+      "id": "collection-p2",
+      "type": "paragraph",
+      "text": "Remote towns depend on mobile pay point schedules published each month. As everywhere, uncollected balances carry over indefinitely, so a missed visit never means lost money."
+    },
+    {
+      "id": "tips-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Staff speak English, Setswana and Afrikaans at all branches.",
+        "Avoid pay week in Rustenburg and Brits — queues are the province's longest.",
+        "Mobile units cover Vryburg, Taung and Zeerust on monthly schedules.",
+        "Mine workers earning below the threshold may still qualify for certain grants."
+      ]
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Where do I collect my grant in Rustenburg?",
+          "answer": "At any Shoprite, Boxer or Pick n Pay in the Rustenburg CBD, or at the Rustenburg SASSA local office pay point."
+        },
+        {
+          "question": "Can mine workers apply for grants?",
+          "answer": "If you earn below the means test threshold you may still qualify for grants like the Child Support Grant. Rustenburg and Brits offices handle many mining-community applications."
+        },
+        {
+          "question": "Is there an office in every town?",
+          "answer": "No. Full-service offices sit in Mahikeng, Rustenburg, Klerksdorp, Potchefstroom and Brits; smaller towns are covered by scheduled mobile units."
+        },
+        {
+          "question": "Which languages are supported?",
+          "answer": "English, Setswana and Afrikaans — application forms can be explained in Setswana at every branch."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA North West regional office",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Provincial details verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Grants Overview",
+      "slug": "/grants"
+    }
+  ]
+}

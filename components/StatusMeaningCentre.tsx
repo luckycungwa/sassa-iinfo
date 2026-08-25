@@ -81,7 +81,7 @@ export default function StatusMeaningCentre() {
                 <div className="flex-1 min-w-0">
                   <h3 className="font-bold text-sm leading-tight truncate">{s.statusName}</h3>
                   <p className={`text-xs mt-0.5 leading-snug line-clamp-2 ${
-                    selectedStatus.id === s.id ? "text-black/70" : "text-muted"
+                    selectedStatus.id === s.id ? "text-ink" : "text-muted"
                   }`}>
                     {s.shortDescription}
                   </p>

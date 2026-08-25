@@ -1,0 +1,162 @@
+{
+  "id": "province-free-state",
+  "slug": "/provinces/free-state",
+  "classification": "province-hub",
+  "title": "SASSA Free State Province — Offices, Grants & Information",
+  "description": "Complete guide to SASSA services in the Free State. Regional office in Bloemfontein, shorter queues than metro provinces, farming-district mobile pay points, and FAQs.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Free State: Offices, Grants & Collection Guide 2026",
+    "metaDescription": "SASSA guide for the Free State. Regional office at 95 St Andrew Street, Bloemfontein (051 412 0300). Bloemfontein and Botshabelo offices, rural mobile points, Sesotho services and FAQs.",
+    "keywords": [
+      "SASSA Free State",
+      "Free State SASSA offices",
+      "SASSA Bloemfontein",
+      "SASSA Welkom",
+      "SASSA Botshabelo"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Free State Province",
+      "description": "Provincial hub for Free State beneficiaries: regional office contacts, where queues are shortest, rural collection for farming districts, and local FAQs.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
+    },
+    {
+      "id": "province-overview",
+      "type": "province-overview",
+      "capital": "Bloemfontein",
+      "regionalOfficeAddress": "95 St Andrew Street, Bloemfontein, 9301",
+      "regionalOfficePhone": "051 412 0300",
+      "collectionInfo": "Free State payments flow mainly through direct bank transfer or retail collection at Shoprite, Boxer and Pick n Pay. Mobile pay points serve the eastern Free State farming districts, and the province's smaller population means generally shorter office queues than Gauteng or KZN.",
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant"
+      ]
+    },
+    {
+      "id": "services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA services in the Free State"
+    },
+    {
+      "id": "services-p",
+      "type": "paragraph",
+      "text": "The Bloemfontein regional office coordinates local offices across the province, including high-traffic Bloemfontein and Botshabelo offices and smaller-town branches in Bethlehem, Kroonstad, Welkom and Sasolburg. All full-service offices handle new applications, grant reviews, card replacements and appeals assistance."
+    },
+    {
+      "id": "offices-grid",
+      "type": "link-grid",
+      "title": "Finding your nearest office",
+      "links": [
+        {
+          "label": "Browse the national offices directory",
+          "href": "/offices"
+        },
+        {
+          "label": "Regional office enquiries: 051 412 0300",
+          "href": null
+        }
+      ]
+    },
+    {
+      "id": "collection-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant collection in the Free State"
+    },
+    {
+      "id": "collection-p1",
+      "type": "paragraph",
+      "text": "Towns across the province have reliable retail collection — every national chain processes card withdrawals without fees on payment days. Bank transfer is popular here precisely because towns are far apart; money arrives regardless of weather or distance."
+    },
+    {
+      "id": "collection-p2",
+      "type": "paragraph",
+      "text": "Farming communities in the eastern districts rely partly on scheduled mobile pay points that visit set locations each month. Farm workers and residents without nearby retailers should consider switching to bank transfer at any office to remove collection trips altogether."
+    },
+    {
+      "id": "tips-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Smaller-town offices (Bethlehem, Kroonstad, Welkom) have the shortest waits.",
+        "Bloemfontein and Botshabelo peak during pay week — visit mid-month instead.",
+        "Sesotho-speaking staff are available at all branches.",
+        "Payment dates match the national schedule exactly."
+      ]
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Are Free State payment dates different from national dates?",
+          "answer": "No. All SASSA payment dates are nationally synchronised — Free State beneficiaries are paid on the same dates as every other province."
+        },
+        {
+          "question": "Which Free State offices are busiest?",
+          "answer": "Bloemfontein and Botshabelo see the highest foot traffic. Offices in Bethlehem, Kroonstad and Welkom typically have much shorter wait times."
+        },
+        {
+          "question": "How do farming communities access grants?",
+          "answer": "Scheduled mobile pay points serve the eastern Free State farming districts monthly, and bank transfer is recommended for farm workers and rural residents."
+        },
+        {
+          "question": "Can I apply in Sesotho?",
+          "answer": "Yes. Free State offices have Sesotho-speaking staff who can explain and complete application forms with you."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA Free State regional office",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Provincial details verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Grants Overview",
+      "slug": "/grants"
+    }
+  ]
+}

@@ -6,7 +6,8 @@ import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
 import { canonicalUrl } from "@/lib/canonical";
 import { newsArticles } from "../../../../lib/data/news";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
-import { articleSchema, breadcrumbSchema } from "../../../../lib/json-ld";
+import { articleSchema, breadcrumbSchema, faqSchema } from "../../../../lib/json-ld";
+import type { FAQBlock } from "../../../../lib/schema/contentSchema";
 
 export function generateStaticParams() {
   const allPages = loadAllContent();
@@ -38,7 +39,9 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
 
   const content = getPageBySlug(`/news/${slug}`);
   if (content) {
-    const jsonArticleSchema = articleSchema(content.seo.metaTitle, content.seo.metaDescription, content.lastUpdated);
+    const jsonArticleSchema = articleSchema(content.seo.metaTitle, content.seo.metaDescription, content.lastUpdated, content.slug);
+    const faqBlock = content.contentBlocks.find((b): b is FAQBlock => b.type === "faq");
+    const faqJsonLd = faqBlock ? faqSchema(faqBlock.faqs) : null;
     return (
       <>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonArticleSchema) }} />
@@ -47,6 +50,9 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
           { name: "News", url: "/news" },
           { name: content.title, url: content.slug },
         ])) }} />
+        {faqJsonLd && (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+        )}
         <ContentBlockRenderer page={content} blocks={content.contentBlocks} />
       </>
     );
@@ -55,7 +61,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
   const article = newsArticles.find((a) => a.slug === slug);
   if (!article) notFound();
 
-  const articleJsonLd = articleSchema(article.title, article.summary, article.date);
+  const articleJsonLd = articleSchema(article.title, article.summary, article.date, `/news/${article.slug}`);
   const breadcrumbJsonLd = breadcrumbSchema([
     { name: "Home", url: "/" },
     { name: "News", url: "/news" },
@@ -95,7 +101,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
         </div>
         <div className="bg-gold/5 border border-gold/10 rounded-xl p-4 text-xs text-muted leading-relaxed">
           Information in this article was verified against official SASSA communications at time of publication.
-          Grant policies may change. Check the <Link href="/news" className="text-gold hover:underline font-bold">news section</Link> for updates.
+          Grant policies may change. Check the <Link href="/news" className="text-accent-dark hover:underline font-bold">news section</Link> for updates.
         </div>
       </div>
     </>

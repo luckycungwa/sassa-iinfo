@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Banknote, CreditCard, Building2, Smartphone, ShieldCheck } from "lucide-react";
 import { bankingGuides } from "../../../lib/data/banking";
+import { loadAllContent } from "../../../lib/content-loader";
 import { canonicalUrl } from "@/lib/canonical";
 
 export const metadata: Metadata = {
@@ -18,17 +19,28 @@ const guideIcons: Record<string, React.ReactNode> = {
   "bank-verification-process": <ShieldCheck className="w-5 h-5" />,
 };
 
+const jsonBankingGuides = loadAllContent()
+  .filter((p) => p.slug.startsWith("/banking/"))
+  .map((p) => ({ id: p.id, slug: p.slug.replace("/banking/", ""), title: p.title, description: p.seo.metaDescription }));
+const seenJsonSlugs = new Set(jsonBankingGuides.map((g) => g.slug));
+const allBankingGuides = [
+  ...jsonBankingGuides,
+  ...bankingGuides
+    .filter((g) => !seenJsonSlugs.has(g.slug))
+    .map((g) => ({ id: g.id, slug: g.slug, title: g.title, description: g.description })),
+];
+
 export default function BankingHubPage() {
   return (
     <div>
       <section className="bg-slate text-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-white/60 uppercase tracking-widest mb-3">banking & payments</p>
+          <p className="text-xs font-bold text-muted uppercase tracking-widest mb-3">banking & payments</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-white leading-[1.15] tracking-[-0.007em]">
             How SASSA pays your grant
           </h1>
-          <p className="text-[21px] text-white/80 mt-4 max-w-xl leading-relaxed">
-            Four ways to receive your grant â€” bank transfer, Cash Send, Post Office, or mobile pay points.
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+            Four ways to receive your grant Ã¢â‚¬â€ bank transfer, Cash Send, Post Office, or mobile pay points.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
             <Link
@@ -74,7 +86,7 @@ export default function BankingHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-6">Most-requested guides</h2>
           <div className="grid gap-3 md:grid-cols-3">
-            {bankingGuides.filter((g) => ["payment-methods", "how-to-register-for-srd-portal", "update-bank-details"].includes(g.slug)).map((guide) => (
+            {allBankingGuides.filter((g) => ["payment-methods", "how-to-register-for-srd-portal", "update-bank-details"].includes(g.slug)).map((guide) => (
               <Link
                 key={guide.id}
                 href={`/banking/${guide.slug}`}
@@ -98,7 +110,7 @@ export default function BankingHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-6">All banking guides</h2>
           <div className="space-y-2">
-            {bankingGuides.map((guide) => (
+            {allBankingGuides.map((guide) => (
               <Link
                 key={guide.id}
                 href={`/banking/${guide.slug}`}
@@ -134,7 +146,7 @@ export default function BankingHubPage() {
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className="text-sm text-carbon/70 leading-relaxed">{faq.a}</p>
+                  <p className="text-sm text-body leading-relaxed">{faq.a}</p>
                 </div>
               </details>
             ))}
@@ -147,10 +159,10 @@ export default function BankingHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Need more help with banking?</p>
-              <p className="text-sm text-white/60">Visit the SRD Portal or check payment dates</p>
+              <p className="text-sm text-muted">Visit the SRD Portal or check payment dates</p>
             </div>
             <div className="flex gap-2">
-              <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-yellow text-carbon rounded-[22px] text-xs font-bold hover:opacity-90 transition">
+              <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">
                 SRD Portal <ArrowRight className="w-3 h-3" />
               </a>
               <Link href="/payment-dates" className="inline-flex items-center gap-1.5 px-5 py-2.5 border-2 border-white/30 text-white rounded-[22px] text-xs font-bold hover:bg-white/10 transition">

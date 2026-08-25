@@ -1,0 +1,163 @@
+{
+  "id": "download-consent-form",
+  "slug": "/downloads/sassa-consent-form",
+  "classification": "downloadable-form",
+  "title": "SASSA Consent and Declaration Form — Database Verification Authorisation",
+  "description": "The general consent form authorising SASSA to verify your personal, financial and medical information against Home Affairs, SARS, bank and medical databases.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Consent and Declaration Form: What You're Signing & Why",
+    "metaDescription": "Understand the SASSA consent form that authorises database verification with Home Affairs, SARS, banks and medical boards — how to complete it correctly and what each clause means.",
+    "keywords": [
+      "sassa consent form",
+      "sassa declaration form",
+      "sassa data verification consent",
+      "sassa information sharing form"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Consent and Declaration Form",
+      "description": "The standard authorisation letting SASSA check your details against national databases. Here is exactly what you are agreeing to before you sign.",
+      "readingTime": "4 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "View Filling Guide",
+        "href": "#how-to-fill"
+      },
+      "secondaryCta": {
+        "label": "View All Forms",
+        "href": "/downloads"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "This consent form grants SASSA permission to access third-party databases — Home Affairs, SARS, commercial banks and medical assessment boards — to verify the information in your grant application or review. It is a routine part of almost every application: without it, SASSA cannot confirm your declarations electronically."
+    },
+    {
+      "id": "why-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Why SASSA needs this consent"
+    },
+    {
+      "id": "why-p",
+      "type": "paragraph",
+      "text": "Verification is how honest applications get approved quickly. When you consent, SASSA can confirm your identity records match Home Affairs, your tax status matches SARS, your declared income matches bank data, and medical reports match board assessments. Refusing consent does not stop verification — it just makes your application manual, slower, and more likely to be flagged for extra scrutiny."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to complete the form"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "title": "#how-to-fill",
+      "steps": [
+        {
+          "title": "Read every clause before signing",
+          "description": "Each clause describes one category of data checking. Ask the official to explain anything unclear — that is their job."
+        },
+        {
+          "title": "Tick only the databases relevant to you",
+          "description": "For example, a Child Support applicant need not tick medical board consent; a Disability applicant does."
+        },
+        {
+          "title": "Enter your details fully",
+          "description": "Full ID number, full names as on your ID, and a contact number you actually answer — verification queries go here."
+        },
+        {
+          "title": "Sign in front of a SASSA official",
+          "description": "The signature must be witnessed at the branch by the official processing your file."
+        }
+      ]
+    },
+    {
+      "id": "checklist-block",
+      "type": "document-checklist",
+      "title": "Bring these when you sign",
+      "documents": [
+        {
+          "label": "Original ID document",
+          "required": true
+        },
+        {
+          "label": "Application reference number (if reapplying)",
+          "required": false
+        },
+        {
+          "label": "Proof of residence",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "privacy-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Your data is protected by law",
+      "text": "Consent permits verification for grant administration only. POPIA governs how SASSA stores and uses this data, and it cannot be sold or shared for marketing."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Is signing this consent compulsory?",
+          "answer": "Practically yes — without it SASSA cannot run electronic verification, so applications stall in manual review. The consent is limited to verifying the information you provided for your grant."
+        },
+        {
+          "question": "What databases can SASSA check?",
+          "answer": "Home Affairs (identity and marital status), SARS (tax and income indicators), commercial banks (account ownership), and medical assessment boards where medically-based grants are involved."
+        },
+        {
+          "question": "Can I withdraw my consent later?",
+          "answer": "Withdrawal effectively freezes verification of your file, which pauses processing. For active grants it can lead to suspension until consent is restored."
+        },
+        {
+          "question": "Does this form cover SRD monthly checks?",
+          "answer": "The SRD R370 terms include their own consent accepted during online registration. This paper form applies to permanent grant applications and reviews at offices."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA application and verification policy",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Form purpose verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Bank Verification Process",
+      "slug": "/banking/bank-verification-process"
+    },
+    {
+      "title": "Application Document Checklist",
+      "slug": "/downloads/sassa-grant-application-checklist"
+    },
+    {
+      "title": "Eligibility Overview",
+      "slug": "/eligibility"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "province-northern-cape",
+  "slug": "/provinces/northern-cape",
+  "classification": "province-hub",
+  "title": "SASSA Northern Cape Province — Offices, Grants & Information",
+  "description": "Complete guide to SASSA services in the Northern Cape. Regional office in Kimberley, mobile pay points for remote towns like Upington and Springbok, bank transfer advice, and FAQs.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Northern Cape: Offices, Grants & Collection Guide 2026",
+    "metaDescription": "SASSA guide for the Northern Cape. Regional office in Kimberley (053 802 7300). Remote collection for Upington and Springbok, mobile pay point schedules, Afrikaans services and FAQs.",
+    "keywords": [
+      "SASSA Northern Cape",
+      "Northern Cape SASSA offices",
+      "SASSA Kimberley",
+      "SASSA Upington",
+      "SASSA Springbok"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Northern Cape Province",
+      "description": "Provincial hub for Northern Cape beneficiaries: regional office contacts, surviving the country's longest distances, mobile pay points, and practical local advice.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
+    },
+    {
+      "id": "province-overview",
+      "type": "province-overview",
+      "capital": "Kimberley",
+      "regionalOfficeAddress": "Old SAR Building, Market Square, Kimberley, 8300",
+      "regionalOfficePhone": "053 802 7300",
+      "collectionInfo": "The Northern Cape has the smallest population but the largest geographic area. Beneficiaries in remote towns like Upington and Springbok rely on mobile pay points and retailer cash collection — because distances are vast, direct bank transfer is strongly recommended here above all provinces.",
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant"
+      ]
+    },
+    {
+      "id": "services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA services in the Northern Cape"
+    },
+    {
+      "id": "services-p",
+      "type": "paragraph",
+      "text": "The Kimberley regional office coordinates the province's local offices and its extensive mobile network. Full-service offices handle applications, reviews and card services in the main population centres, while scheduled mobile units travel enormous distances each month to reach towns that have no permanent SASSA presence."
+    },
+    {
+      "id": "offices-grid",
+      "type": "link-grid",
+      "title": "Finding your nearest office",
+      "links": [
+        {
+          "label": "Browse the national offices directory",
+          "href": "/offices"
+        },
+        {
+          "label": "Regional office enquiries: 053 802 7300",
+          "href": null
+        }
+      ]
+    },
+    {
+      "id": "collection-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant collection in the Northern Cape"
+    },
+    {
+      "id": "collection-p1",
+      "type": "paragraph",
+      "text": "Distance shapes every collection decision in this province. The nearest full-service office to Upington is roughly four hours away in Kimberley, though Upington itself has retail pay points at Shoprite and Pick n Pay plus a monthly mobile unit visit."
+    },
+    {
+      "id": "collection-p2",
+      "type": "paragraph",
+      "text": "For most beneficiaries outside Kimberley, the practical hierarchy is: bank transfer first (no travel at all), retailer Cash Send second (where chains operate), and scheduled mobile pay points as the fallback for towns with neither. If a mobile visit is missed, report it to the regional office and remember your balance waits for you."
+    },
+    {
+      "id": "tips-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Bank transfer eliminates travel across vast distances — switch free at any office.",
+        "Afrikaans-speaking staff are available at all branches.",
+        "Confirm mobile unit schedules before long trips; they shift monthly.",
+        "Report missed mobile visits to 053 802 7300."
+      ]
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "How do I get my grant in a remote town?",
+          "answer": "Through scheduled mobile pay points or retailer collection where available. Direct bank transfer remains the strongest option to avoid long-distance travel entirely."
+        },
+        {
+          "question": "Where is the nearest SASSA office to Upington?",
+          "answer": "The nearest full-service office is in Kimberley (roughly four hours' drive). Upington has retail pay points at Shoprite and Pick n Pay, and a mobile unit visits monthly."
+        },
+        {
+          "question": "Can I apply in Afrikaans?",
+          "answer": "Yes. Afrikaans is widely spoken across the province and staff assist in Afrikaans at all branches."
+        },
+        {
+          "question": "What if the mobile pay point skips my town?",
+          "answer": "Contact the Kimberley regional office on 053 802 7300 to report it. Your money stays available until collected — consider bank transfer to avoid future dependence on schedules."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA Northern Cape regional office",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Provincial details verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Payment Methods Compared",
+      "slug": "/banking/payment-methods"
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Payment Processing — What It Means & When You Will Receive Your Money",
   "description": "Your SASSA status shows 'Payment Processing' — your grant money is on its way. Here is what this status means, how long it takes, and what to do if your payment is delayed.",
-  "lastUpdated": "2026-07-01",
-  "version": "1.0.0",
+  "lastUpdated": "2026-08-23",
+  "version": "1.1.0",
   "status": "published",
   "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
   "seo": {
@@ -18,15 +18,15 @@
       "id": "hero", "type": "hero",
       "title": "Payment Processing — When Your Money Arrives",
       "description": "Your SASSA status shows 'Payment Processing' — your grant money is on its way! Learn how long different payment methods take, what to do if processing takes longer than expected, and how to access your funds.",
-      "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026",
       "cta": { "text": "Track Your Payment", "href": "/status/payment-processing" },
       "secondaryCta": { "text": "View Payment Methods", "href": "/banking/payment-methods" }
     },
     { "id": "h1", "type": "heading", "level": 2, "text": "Payment Processing — What It Means" },
     { "id": "intro", "type": "paragraph", "text": "The 'Payment Processing' status is the best status to see — it means SASSA has instructed the bank or payment merchant to release your grant money. Your funds are in transit and should reach you shortly. This is the final stage before money arrives in your account or collection point." },
     { "id": "who", "type": "paragraph", "text": "This status affects approved beneficiaries whose grant payment is being processed for release." },
-    { "id": "ref-block", "type": "status-reference", "statusName": "Payment Processing", "explanation": "SASSA has completed all eligibility checks and has submitted the payment instruction to the South African Reserve Bank (SARB) for batch processing. The payment file is being processed through the national payment system and sent to your specific bank or retail payment partner.", "whyItHappens": ["Your grant was approved and the pay date has arrived", "SASSA submitted the national payment batch to the Reserve Bank", "Your bank is processing the incoming EFT transfer", "The payment is moving through inter-bank clearing systems"], "howLongItLasts": "Typically 24 to 48 hours. Bank transfers usually reflect within 1 to 2 business days. Cash Send vouchers are sent via SMS within 24 to 48 hours of the payment being processed.", "whatYouShouldDo": ["Check your bank account balance — do not rely solely on SMS notifications", "If using Cash Send: wait for the SMS voucher and do not visit a retailer until you receive it", "Do not change your bank details while payment is processing — this will cause delays", "Do not close your bank account until the payment reflects", "If the status remains 'Payment Processing' for more than 5 business days, contact SASSA"], "relatedStatuses": [{ "name": "Approved", "slug": "approved" }, { "name": "Application Complete", "slug": "application-complete" }] },
+    { "id": "ref-block", "type": "status-reference", "statusName": "Payment Processing", "explanation": "SASSA has completed all eligibility checks and has submitted your payment into the national payment system. The payment file is moving through the banking system on its way to your specific bank or retail payment partner.", "whyItHappens": ["Your grant was approved and the pay date has arrived", "SASSA has released your payment for processing", "Your bank is processing the incoming EFT transfer", "The payment is moving through inter-bank clearing systems"], "howLongItLasts": "Typically 24 to 48 hours. Bank transfers usually reflect within 1 to 2 business days. Cash Send vouchers are sent via SMS within 24 to 48 hours of the payment being processed.", "whatYouShouldDo": ["Check your bank account balance — do not rely solely on SMS notifications", "If using Cash Send: wait for the SMS voucher and do not visit a retailer until you receive it", "Do not change your bank details while payment is processing — this will cause delays", "Do not close your bank account until the payment reflects", "If the status remains 'Payment Processing' for more than 5 business days, contact SASSA"], "relatedStatuses": [{ "name": "Approved", "slug": "approved" }, { "name": "Application Complete", "slug": "application-complete" }] },
     { "id": "delay-reasons-h", "type": "heading", "level": 3, "text": "Why Payment Processing Might Take Longer" },
     { "id": "delay-reasons", "type": "list", "ordered": false, "items": ["Public holidays or weekends delay inter-bank clearing by 1 to 2 days", "High payment volume at month-end can slow batch processing", "Your bank may place a temporary hold on large volumes of incoming EFT payments", "Technical issues with the national payment system (rare)", "Your bank account may have a deposit limit that blocks the incoming transfer"] },
     { "id": "delay-callout", "type": "callout", "intent": "info", "title": "Standard Banking Hours Apply", "text": "EFT payments processed after 16:00 on a Friday will typically only reflect on the following Monday (or Tuesday if Monday is a public holiday). Plan accordingly." },
@@ -44,7 +44,9 @@
       { "question": "My status changed from 'Processing' back to 'Approved'. What happened?", "answer": "This can happen if the payment batch encountered an error and needs to be resubmitted. It should reprocess within a few days." },
       { "question": "I received the SMS but my bank account shows no money. Why?", "answer": "For Cash Send: the SMS is your voucher — take it to a retailer to collect cash. For bank transfers: some banks take up to 2 business days to credit your account." },
       { "question": "Can I collect my grant while status shows 'Processing'?", "answer": "For Cash Send: wait for the SMS voucher. Do not go to a retailer without it. For bank transfer: wait for the funds to reflect in your account." },
-      { "question": "Will I get an SMS when payment is complete?", "answer": "For Cash Send: yes, you will receive an SMS with a collection voucher code. For bank transfers: SMS notifications depend on your bank's settings." }
+      { "question": "Will I get an SMS when payment is complete?", "answer": "For Cash Send: yes, you will receive an SMS with a collection voucher code. For bank transfers: SMS notifications depend on your bank's settings." },
+      { "question": "Why did my SASSA payment date change?", "answer": "SASSA does not publish a reason for every date adjustment. In practice, dates shift around public holidays, weekends, and busy month-end payment periods. What matters is your current status: if it still shows 'Approved' or 'Payment Processing', your money for this cycle is still on its way. Check the exact dates for your grant on our payment dates pages." },
+      { "question": "My pay date disappeared from my status — what now?", "answer": "First check whether your overall status has changed, for example back to 'Approved' or to 'Pending'. If only the date is missing and the status is unchanged, check again in a few days. If your original pay day has passed and no payment has arrived, follow our payment not reflecting guide." }
     ] },
     { "id": "related-links", "type": "link-grid", "links": [
       { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All the ways to receive your grant payment" },

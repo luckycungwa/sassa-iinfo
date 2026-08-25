@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, BookOpen, ListChecks, FileText } from "lucide-react";
 import { guides } from "../../../lib/data/guides";
+import { loadAllContent } from "../../../lib/content-loader";
 import { canonicalUrl } from "@/lib/canonical";
 
 export const metadata: Metadata = {
@@ -10,20 +11,36 @@ export const metadata: Metadata = {
   alternates: { canonical: canonicalUrl("/guides") },
 };
 
-const featuredGuides = guides.filter((g) => ["how-to-apply-sassa-grant", "how-to-check-sassa-status", "understanding-means-test"].includes(g.slug));
-const otherGuides = guides.filter((g) => !["how-to-apply-sassa-grant", "how-to-check-sassa-status", "understanding-means-test"].includes(g.slug));
+const jsonGuideEntries = loadAllContent()
+  .filter((p) => p.slug.startsWith("/guides/"))
+  .map((p) => ({ id: p.id, slug: p.slug.replace("/guides/", ""), title: p.title, description: p.seo.metaDescription }));
+const seenGuideSlugs = new Set(jsonGuideEntries.map((g) => g.slug));
+const allGuideEntries = [
+  ...jsonGuideEntries,
+  ...guides
+    .filter((g) => !seenGuideSlugs.has(g.slug))
+    .map((g) => ({ id: g.id, slug: g.slug, title: g.title, description: g.description })),
+];
+
+const featuredSlugs = ["how-to-apply-sassa-grant", "how-to-check-sassa-status", "understanding-means-test"];
+const featuredGuides = allGuideEntries.filter((g) => featuredSlugs.includes(g.slug));
+const tsFeatured = featuredGuides.map((f) => {
+  const match = guides.find((g) => g.slug === f.slug);
+  return { ...f, steps: match ? match.steps : [] };
+});
+const otherGuides = allGuideEntries.filter((g) => !featuredSlugs.includes(g.slug));
 
 export default function GuidesHubPage() {
   return (
     <div>
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-carbon/50 uppercase tracking-widest mb-3">how-to guides</p>
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">how-to guides</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
             Step-by-step SASSA guides
           </h1>
-          <p className="text-[21px] text-carbon/70 mt-4 max-w-xl leading-relaxed">
-            Practical walkthroughs for every SASSA process â€” from applying to checking your status and understanding the means test.
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+            Practical walkthroughs for every SASSA process Ã¢â‚¬â€ from applying to checking your status and understanding the means test.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
             <Link
@@ -46,7 +63,7 @@ export default function GuidesHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
-              { icon: BookOpen, label: "Step-by-Step Guides", value: `${guides.length}` },
+              { icon: BookOpen, label: "Step-by-Step Guides", value: `${allGuideEntries.length}` },
               { icon: ListChecks, label: "Document Checklists", value: "Included" },
               { icon: FileText, label: "Means Test Explained", value: "5 Factors" },
               { icon: BookOpen, label: "Application Steps", value: "6 Phases" },
@@ -69,7 +86,7 @@ export default function GuidesHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-6">Featured guides</h2>
           <div className="grid gap-3 md:grid-cols-3">
-            {featuredGuides.map((g) => (
+            {tsFeatured.map((g) => (
               <Link key={g.id} href={"/guides/" + g.slug} className="p-5 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center mb-3">
                   <BookOpen className="w-5 h-5 text-violet" />
@@ -112,7 +129,7 @@ export default function GuidesHubPage() {
           <h2 className="text-[21px] font-black text-carbon tracking-[-0.007em] mb-6">Common questions</h2>
           <div className="space-y-2 max-w-2xl">
             {[
-              { q: "Which guide should I start with?", a: "If you're new to SASSA, start with 'How to Apply for a SASSA Grant' â€” it covers the entire process from eligibility to submission." },
+              { q: "Which guide should I start with?", a: "If you're new to SASSA, start with 'How to Apply for a SASSA Grant' Ã¢â‚¬â€ it covers the entire process from eligibility to submission." },
               { q: "Do I need all the documents listed in the checklist?", a: "The checklist covers every possible document. At minimum, you need your ID, proof of residence, and proof of income. Additional documents depend on the grant type." },
               { q: "How long does the application process take?", a: "Submitting the application takes about 30-60 minutes at a SASSA office. Processing takes up to 3 months. The SRD R370 grant is reviewed monthly." },
             ].map((faq) => (
@@ -122,7 +139,7 @@ export default function GuidesHubPage() {
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className="text-sm text-carbon/70 leading-relaxed">{faq.a}</p>
+                  <p className="text-sm text-body leading-relaxed">{faq.a}</p>
                 </div>
               </details>
             ))}
@@ -135,10 +152,10 @@ export default function GuidesHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Need more help with a specific topic?</p>
-              <p className="text-sm text-white/60">Visit the full grant library or check your eligibility</p>
+              <p className="text-sm text-muted">Visit the full grant library or check your eligibility</p>
             </div>
             <div className="flex gap-2">
-              <Link href="/grants" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-yellow text-carbon rounded-[22px] text-xs font-bold hover:opacity-90 transition">
+              <Link href="/grants" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">
                 Grant Library <ArrowRight className="w-3 h-3" />
               </Link>
               <Link href="/eligibility" className="inline-flex items-center gap-1.5 px-5 py-2.5 border-2 border-white/30 text-white rounded-[22px] text-xs font-bold hover:bg-white/10 transition">

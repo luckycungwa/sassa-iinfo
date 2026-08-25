@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const GRANTS_2026 = {
   srd: { label: "SRD R370 Grant", amount: 370, desc: "Unemployed, 18-59, no income" },
@@ -68,7 +69,14 @@ export default function GrantCalculator() {
       quals.push({ grant: GRANTS_2026.grantInAid.label, amount: GRANTS_2026.grantInAid.amount, note: "Must already receive a primary grant" });
     }
 
-    setResults(quals.length > 0 ? quals : []);
+    if (quals.length === 0) {
+      setResults([]);
+      toast.info("No grants matched — try adjusting your answers above.");
+      return;
+    }
+    setResults(quals);
+    const totalAmount = quals.reduce((sum, q) => sum + q.amount, 0);
+    toast.success("Estimated total: R" + totalAmount.toLocaleString() + "/month");
   }
 
   const total = results ? results.reduce((sum, r) => sum + r.amount, 0) : 0;
@@ -80,8 +88,8 @@ export default function GrantCalculator() {
 
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-1.5">
-          <label className="text-xs font-bold text-ink">Your Age</label>
-          <select value={age} onChange={(e) => setAge(e.target.value)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono">
+          <label htmlFor="gc-age" className="text-xs font-bold text-ink">Your Age</label>
+          <select id="gc-age" value={age} onChange={(e) => setAge(e.target.value)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono">
             <option value="">Select age range...</option>
             <option value="1">Under 18</option>
             <option value="25">18-59</option>
@@ -91,8 +99,8 @@ export default function GrantCalculator() {
         </div>
 
         <div className="space-y-1.5">
-          <label className="text-xs font-bold text-ink">Have a Disability?</label>
-          <select value={hasDisability} onChange={(e) => setHasDisability(e.target.value)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono">
+          <label htmlFor="gc-disability" className="text-xs font-bold text-ink">Have a Disability?</label>
+          <select id="gc-disability" value={hasDisability} onChange={(e) => setHasDisability(e.target.value)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono">
             <option value="">Select...</option>
             <option value="yes">Yes</option>
             <option value="no">No</option>
@@ -100,23 +108,23 @@ export default function GrantCalculator() {
         </div>
 
         <div className="space-y-1.5">
-          <label className="text-xs font-bold text-ink">Number of Children (under 18)</label>
-          <input type="number" min={0} max={20} value={childrenCount} onChange={(e) => setChildrenCount(parseInt(e.target.value) || 0)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono" />
+          <label htmlFor="gc-children" className="text-xs font-bold text-ink">Number of Children (under 18)</label>
+          <input id="gc-children" type="number" min={0} max={20} value={childrenCount} onChange={(e) => setChildrenCount(parseInt(e.target.value) || 0)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono" />
         </div>
 
         <div className="space-y-1.5">
-          <label className="text-xs font-bold text-ink">Orphaned Children in Your Care</label>
-          <input type="number" min={0} max={20} value={orphanCount} onChange={(e) => setOrphanCount(parseInt(e.target.value) || 0)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono" />
+          <label htmlFor="gc-orphan" className="text-xs font-bold text-ink">Orphaned Children in Your Care</label>
+          <input id="gc-orphan" type="number" min={0} max={20} value={orphanCount} onChange={(e) => setOrphanCount(parseInt(e.target.value) || 0)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono" />
         </div>
 
         <div className="space-y-1.5">
-          <label className="text-xs font-bold text-ink">Foster Children</label>
-          <input type="number" min={0} max={20} value={fosterCount} onChange={(e) => setFosterCount(parseInt(e.target.value) || 0)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono" />
+          <label htmlFor="gc-foster" className="text-xs font-bold text-ink">Foster Children</label>
+          <input id="gc-foster" type="number" min={0} max={20} value={fosterCount} onChange={(e) => setFosterCount(parseInt(e.target.value) || 0)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono" />
         </div>
 
         <div className="space-y-1.5">
-          <label className="text-xs font-bold text-ink">Need Full-Time Care?</label>
-          <select value={needsCare} onChange={(e) => setNeedsCare(e.target.value)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono">
+          <label htmlFor="gc-care" className="text-xs font-bold text-ink">Need Full-Time Care?</label>
+          <select id="gc-care" value={needsCare} onChange={(e) => setNeedsCare(e.target.value)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono">
             <option value="">Select...</option>
             <option value="yes">Yes</option>
             <option value="no">No</option>
@@ -124,8 +132,8 @@ export default function GrantCalculator() {
         </div>
 
         <div className="space-y-1.5">
-          <label className="text-xs font-bold text-ink">War Veteran?</label>
-          <select value={isVeteran} onChange={(e) => setIsVeteran(e.target.value)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono">
+          <label htmlFor="gc-veteran" className="text-xs font-bold text-ink">War Veteran?</label>
+          <select id="gc-veteran" value={isVeteran} onChange={(e) => setIsVeteran(e.target.value)} className="w-full bg-canvas border border-border rounded-lg px-3 py-2 text-xs text-ink font-mono">
             <option value="">Select...</option>
             <option value="yes">Yes (WWI/WWII/Korea)</option>
             <option value="no">No</option>
@@ -138,7 +146,7 @@ export default function GrantCalculator() {
       </button>
 
       {results !== null && (
-        <div className="border-t border-border pt-4 space-y-3">
+        <div role="status" aria-live="polite" className="border-t border-border pt-4 space-y-3">
           {results.length === 0 ? (
             <div className="text-center py-6">
               <p className="text-sm font-bold text-ink">No grants found</p>
@@ -148,7 +156,7 @@ export default function GrantCalculator() {
             <>
               <div className="flex items-center justify-between">
                 <h3 className="text-xs font-black text-ink">Estimated Monthly Total</h3>
-                <span className="text-lg font-black text-gold font-mono">R{total.toLocaleString()}</span>
+                <span className="text-lg font-black text-accent-dark font-mono">R{total.toLocaleString()}</span>
               </div>
               <div className="space-y-2">
                 {results.map((r, i) => (
@@ -157,13 +165,13 @@ export default function GrantCalculator() {
                       <p className="text-xs font-bold text-ink">{r.grant}</p>
                       <p className="text-[11px] text-muted-foreground">{r.note}</p>
                     </div>
-                    <span className="text-sm font-bold text-gold font-mono shrink-0 ml-2">R{r.amount.toLocaleString()}</span>
+                    <span className="text-sm font-bold text-accent-dark font-mono shrink-0 ml-2">R{r.amount.toLocaleString()}</span>
                   </div>
                 ))}
               </div>
               <div className="bg-gold/5 border border-gold/20 rounded-lg p-3">
                 <p className="text-[11px] text-ink leading-relaxed">
-                  <strong className="text-gold">Important:</strong> This is an estimate based on 2026 grant amounts. Actual eligibility depends on the SASSA means test. Apply through official SASSA channels for confirmation.
+                  <strong className="text-accent-dark">Important:</strong> This is an estimate based on 2026 grant amounts. Actual eligibility depends on the SASSA means test. Apply through official SASSA channels for confirmation.
                 </p>
               </div>
             </>

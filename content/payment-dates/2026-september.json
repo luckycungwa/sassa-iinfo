@@ -1,0 +1,69 @@
+{
+  "id": "payment-date-2026-september",
+  "slug": "/payment-dates/2026-september",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates — September 2026",
+  "description": "Complete schedule of SASSA social grant payout dates for September 2026. Older Persons: 2 September, Disability: 3 September, Children: 4 September, review cycle day: 7 September, SRD R370: 24-30 September. Heritage Day falls inside the SRD window.",
+  "lastUpdated": "2026-08-21",
+  "version": "1.0.0",
+  "readingTime": "7 min read",
+  "status": "published",
+  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official SASSA publications", "verified": true },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates September 2026: Full Payout Schedule",
+    "metaDescription": "SASSA payment dates for September 2026 confirmed: Older Persons 2 Sep, Disability 3 Sep, Children 4 Sep, review day 7 Sep, SRD R370 24-30 Sep. Heritage Day impact explained.",
+    "keywords": ["SASSA payment dates September 2026", "September SASSA payout", "SASSA grant dates September", "SRD payment date September 2026", "SASSA Heritage Day payments"],
+    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Payment Dates September 2026" }
+  },
+  "contentBlocks": [
+    { "id": "hero", "type": "hero", "title": "SASSA Payment Dates — September 2026", "description": "Full payout schedule for September 2026. Older Persons: 2 Sep, Disability: 3 Sep, Children: 4 Sep, review cycle day: 7 Sep, SRD R370: 24-30 Sep. Heritage Day falls inside the SRD window this month.", "readingTime": "7 min read", "lastUpdated": "2026-08-21", "cta": { "label": "View All Payment Dates", "href": "/payment-dates" }, "secondaryCta": { "label": "August 2026 Schedule", "href": "/payment-dates/2026-august" } },
+    { "id": "intro", "type": "paragraph", "text": "SASSA has confirmed the September 2026 payment schedule. Permanent grants are paid in the first week as usual, the monthly grant-review window falls on Monday 7 September, and SRD R370 payments run from 24 to 30 September. One date needs special attention this month: Heritage Day on Thursday 24 September is a public holiday and falls on the very first day of the SRD payment window, which may shift some bank transfers by one business day." },
+    { "id": "review-heading", "type": "heading", "level": 2, "text": "The Review Cycle Continues on 7 September" },
+    { "id": "review-p1", "type": "paragraph", "text": "The fourth-day payment window introduced in August continues in September. Beneficiaries whose grant reviews were finalised at the end of August, along with those receiving backdated payments after a successful review, will be paid on Monday 7 September. The review drive announced in July — covering more than 350,000 grants across the 2026/27 financial year — is still in progress, so some beneficiaries will receive review notices during September." },
+    { "id": "review-callout", "type": "callout", "intent": "info", "title": "The 7 September Date Is Not for Everyone", "text": "Only collect on 7 September if SASSA has specifically notified you that your payment falls under the review or backlog cycle. If you receive your grant on a regular cycle without any pending review, continue collecting on your usual date: 2, 3, or 4 September." },
+    { "id": "dates-heading", "type": "heading", "level": 2, "text": "September 2026 Payment Schedule" },
+    { "id": "dates-table", "type": "table", "headers": ["Grant Type", "Payment Date", "Day of Week"], "rows": [
+      ["Older Persons Grant (Pension)", "2 September 2026", "Wednesday"],
+      ["Disability Grant", "3 September 2026", "Thursday"],
+      ["Children's Grants (CSG, Foster, CDG)", "4 September 2026", "Friday"],
+      ["Review Cycle (Reviews & Backlogs)", "7 September 2026", "Monday"],
+      ["Social Relief of Distress (SRD R370)", "24-30 September 2026", "Month-end window"]
+    ], "caption": "Confirmed SASSA payout schedule for September 2026" },
+    { "id": "heritage-heading", "type": "heading", "level": 2, "text": "Heritage Day: What It Means for Your Payment" },
+    { "id": "heritage-p1", "type": "paragraph", "text": "Heritage Day on Thursday 24 September 2026 is a national public holiday, and it lands on the first day of the SRD R370 payment window. Banks do not process standard transfers on public holidays, so beneficiaries paid early in the window may see their money reflect one business day later than usual — in practice, mostly on Friday 25 September. Cash Send payments and collections at retail pay points such as supermarkets usually continue on the holiday itself, but Post Office branches close on public holidays." },
+    { "id": "heritage-list", "type": "list", "ordered": false, "items": [
+      "SRD beneficiaries collecting via Cash Send: funds are usually available within 2 hours of processing, including on the holiday.",
+      "Bank account recipients: expect transfers approved on 24 September to reflect on Friday 25 September at the earliest.",
+      "SASSA SAPO card holders: Post Office branches are closed on 24 September — collect from 25 September onwards.",
+      "Permanent grants paid on 2-4 September are completely unaffected by Heritage Day."
+    ] },
+    { "id": "eLife-heading", "type": "heading", "level": 3, "text": "If Your Grant Was Suspended for eLife Certification" },
+    { "id": "eLife-p1", "type": "paragraph", "text": "Around 68,000 SRD beneficiaries were suspended in May 2026 for failing to complete eLife certification. Those who completed verification during August should see reinstated payments reflected in the September cycle. If you completed certification but your status still shows suspended after the payment window opens, contact SASSA on 0800 60 10 11 with your reference number ready." },
+    { "id": "faq-heading", "type": "heading", "level": 2, "text": "Frequently Asked Questions" },
+    { "id": "faq", "type": "faq", "faqs": [
+      { "question": "When exactly will Older Persons grants be paid in September 2026?", "answer": "Wednesday 2 September 2026. Because 1 September falls on a Tuesday, payments start on the 2nd, following the standard pattern of paying permanent grants from the second day of the month." },
+      { "question": "Does Heritage Day delay the SRD R370 payment?", "answer": "Possibly, by one business day. The holiday falls on Thursday 24 September, the first day of the SRD window. Bank transfers processed that day typically reflect on Friday 25 September. Cash Send recipients are usually unaffected." },
+      { "question": "I was paid on 7 August because of a review. Will I be paid on 7 September too?", "answer": "Not automatically. Once your review is finalised and approved, you return to your standard grant-type date. You would only be paid on 7 September if a new review outcome or backlog payment is being processed for you, and SASSA will notify you if so." },
+      { "question": "What documents do I need if I am called for a review in September?", "answer": "Take your original South African ID, proof of residence, your latest 3 months bank statements, the review notification letter or SMS, and any grant-specific documents such as a medical report for Disability Grant reviews." },
+      { "question": "Will December-style early payments apply in September?", "answer": "No. Early payouts before public holidays only happen for major holiday periods such as Christmas. Heritage Day does not move the permanent grant dates of 2, 3, and 4 September." }
+    ] },
+    { "id": "scam-callout", "type": "callout", "intent": "warning", "title": "Avoid Scams During Review Season", "text": "Fraudsters often target beneficiaries during review periods. SASSA will never ask for your PIN, password, OTP, or bank account details over the phone or by SMS. Do not pay anyone who promises to fast-track your review. All SASSA services are free." },
+    { "id": "divider", "type": "divider" },
+    { "id": "sources", "type": "sources", "note": "Dates verified against official SASSA publications.", "sources": [
+      { "label": "SASSA official website", "url": "https://sassa.gov.za" },
+      { "label": "SASSA SRD portal", "url": "https://srd.sassa.gov.za" },
+      { "label": "SASSA toll-free helpline", "url": "tel:0800601011" }
+    ] },
+    { "id": "other-months", "type": "link-grid", "title": "Other Payment Months", "links": [
+      { "label": "August 2026", "href": "/payment-dates/2026-august" },
+      { "label": "October 2026", "href": "/payment-dates/2026-october" },
+      { "label": "November 2026", "href": "/payment-dates/2026-november" }
+    ] }
+  ],
+  "relatedPages": [
+    { "title": "All Payment Dates", "slug": "/payment-dates" },
+    { "title": "August 2026 Payment Dates", "slug": "/payment-dates/2026-august" },
+    { "title": "September 2026 Payment Dates Confirmed (News)", "slug": "/news/september-2026-payment-dates" },
+    { "title": "Banking & Payment Methods", "slug": "/banking" }
+  ]
+}

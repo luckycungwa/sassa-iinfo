@@ -7,53 +7,240 @@
   "lastUpdated": "2026-07-01",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Alternative Income Source Detected — SASSA Status Meaning & Fix",
     "metaDescription": "SASSA says 'Alternative Income Source Detected'? Learn what triggered this status, how bank deposits affect your grant, and step-by-step instructions to appeal and get approved.",
-    "keywords": ["SASSA alternative income source", "alternative income source detected", "SASSA declined income", "SRD income source", "R370 alternative income"]
+    "keywords": [
+      "SASSA alternative income source",
+      "alternative income source detected",
+      "SASSA declined income",
+      "SRD income source",
+      "R370 alternative income"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Alternative Income Source Detected — What to Do Next",
       "description": "Did SASSA flag your grant with 'Alternative Income Source Detected'? Learn what triggered this status, how bank deposits affect your application, and step-by-step instructions to appeal the decision and secure your SRD grant.",
       "readingTime": "5 min read",
       "lastUpdated": "June 2026",
-      "cta": { "text": "Appeal Your Decline", "href": "/appeals/appeal-after-income-source" },
-      "secondaryCta": { "text": "Check Your Status", "href": "/status/alternative-income-source" }
+      "cta": {
+        "text": "Appeal Your Decline",
+        "href": "/appeals/appeal-after-income-source"
+      },
+      "secondaryCta": {
+        "text": "Check Your Status",
+        "href": "/status/alternative-income-source"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Alternative Income Source Detected — What It Means" },
-    { "id": "intro", "type": "paragraph", "text": "The 'Alternative Income Source Detected' status is one of the most common reasons for SRD R370 grant declines. It means SASSA's automated monthly audit found evidence in their database that you have another source of financial support. This does not always mean you actually have income — system errors and misinterpreted bank transactions are very common." },
-    { "id": "who", "type": "paragraph", "text": "This status affects SRD R370 applicants whose bank account deposits triggered SASSA's income detection threshold." },
-    { "id": "ref-block", "type": "status-reference", "statusName": "Alternative Income Source Detected", "explanation": "SASSA cross-checks your ID against government databases (SARS, UIF, NSFAS, Department of Labour) and also scans your bank account transactions. If any system shows income, employment, or funding, your grant is declined for that month.", "whyItHappens": ["You have an active UIF registration on the Department of Labour database (even if you no longer receive payments)", "You are registered as an NSFAS-funded student (even if your studies are complete)", "Your bank account received a deposit exceeding R624 in a single month", "You are registered for PAYE tax through an employer", "You are listed as receiving another social grant or pension", "A family member transferred money to your account for groceries or emergencies", "You transferred money between your own bank accounts", "Someone else uses your bank account for their transactions"], "howLongItLasts": "This status applies to each individual month. Even if you fix the issue, the next month is evaluated as a fresh cycle. You must appeal each declined month separately.", "whatYouShouldDo": ["Check your bank statements for the month in question and identify every deposit", "If you are unemployed but have UIF history, get a UI-19 termination letter from the Department of Labour", "If you completed your studies, get an NSFAS cancellation letter from the myNSFAS portal", "For each non-income deposit (gift, family transfer, loan repayment), write a sworn affidavit explaining the source", "Submit an appeal on the DSD Appeal website at srd.dsd.gov.za for each declined month", "Attach supporting documents: bank statements, affidavit, UIF letter, or NSFAS letter"], "relatedStatuses": [{ "name": "Means Test Failed", "slug": "means-test-failed" }, { "name": "Declined", "slug": "declined" }] },
-    { "id": "bank-htrigger-h", "type": "heading", "level": 3, "text": "What Triggers 'Alternative Income Source'?" },
-    { "id": "bank-trigger-text", "type": "paragraph", "text": "SASSA uses an automated bank verification system that scans your linked bank account every month. Any deposit — even a gift from a family member, a loan repayment, or money you transferred between your own accounts — can trigger this status if the total exceeds R624 in a calendar month." },
-    { "id": "bank-threshold-callout", "type": "callout", "intent": "warning", "title": "R624 Threshold", "text": "The SRD R370 grant uses a strict means test threshold of R624 per month. If your bank account shows combined deposits exceeding R624 in any month, SASSA automatically flags 'Alternative Income Source' — even if the money is not actual income." },
-    { "id": "common-scenarios-h", "type": "heading", "level": 3, "text": "Common Scenarios That Trigger This Status" },
-    { "id": "common-scenarios", "type": "list", "ordered": false, "items": ["Family member sent you money for groceries or school fees", "Friend repaid a loan they owed you", "You transferred money from a savings account to your everyday account", "Your employer paid you a final payout after retrenchment months ago", "The Department of Labour still has your UIF status as 'active' even though you no longer receive UIF", "Your former school or university still shows you as an active NSFAS student", "Your spouse or partner deposits money into your account for household expenses"] },
-    { "id": "appeal-steps-h", "type": "heading", "level": 3, "text": "How to Appeal 'Alternative Income Source' Declines" },
-    { "id": "appeal-intro", "type": "paragraph", "text": "Appealing this status requires proving that the deposits in your account are not actual income. Follow these steps carefully:" },
-    { "id": "appeal-steps", "type": "steps", "steps": [{ "title": "Review your bank statements", "description": "Download or print your bank statements for the declined month(s). Highlight every deposit and note the source of each one." }, { "title": "Prepare a sworn affidavit", "description": "Visit your nearest SAPS station and write a sworn affidavit explaining each deposit. For example: 'R500 from my sister for my child's school fees — this is not income.' The affidavit must be commissioned by a police officer." }, { "title": "Gather supporting evidence", "description": "If UIF is the issue: get a UI-19 termination letter from the Department of Labour. If NSFAS is the issue: get a cancellation letter from the myNSFAS portal. If gifts: ask family members to write supporting letters." }, { "title": "Submit your appeal online", "description": "Go to srd.dsd.gov.za. Enter your ID number and phone number. Verify with the OTP sent to your phone. Select the declined month(s) and upload your affidavit, bank statements, and supporting letters." }, { "title": "Wait for tribunal ruling", "description": "The Independent Tribunal for Social Assistance Appeals (ITSAA) will review your case. Rulings typically take 60 to 90 days. If approved, you will receive backpay for all declined months." }] },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "My friend sent me R500 as a birthday gift. Will SASSA count this as income?", "answer": "Yes. Any deposit into your bank account, even a gift from family or friends, can trigger the 'Alternative Income Source' flag. You can appeal by providing a sworn affidavit from your friend confirming it was a gift." },
-      { "question": "How much money in deposits can trigger this status?", "answer": "Any single deposit over R624, or multiple smaller deposits totalling more than R624 in a calendar month, can trigger this status." },
-      { "question": "Do I need to appeal every month separately?", "answer": "Yes. Because SASSA evaluates eligibility on a monthly basis, you must appeal for each individual month that shows 'Alternative Income Source'." },
-      { "question": "Can I transfer money between my own bank accounts?", "answer": "Yes, but it may trigger this status. If you transfer from savings to chequing, the deposit into the chequing account may be counted. Keep an affidavit explaining this ready." },
-      { "question": "How long does the appeal take?", "answer": "The ITSAA tribunal typically takes 60 to 90 days to issue a ruling. If successful, SASSA must pay all backdated amounts within 14 business days." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "How to Appeal a Declined SASSA Grant", "href": "/appeals/how-to-appeal", "description": "Complete guide to the ITSAA appeal process" },
-      { "title": "Appealing a Decline Due to UIF Registration", "href": "/appeals/appeal-after-uif", "description": "What to do if SASSA says you are registered for UIF" },
-      { "title": "Appealing Due to Alternative Income Source", "href": "/appeals/appeal-after-income-source", "description": "Specific appeal guidance for income source declines" },
-      { "title": "Understanding the SASSA Means Test", "href": "/guides/understanding-means-test", "description": "How the means test and income thresholds work" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Alternative Income Source Detected — What It Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The 'Alternative Income Source Detected' status is one of the most common reasons for SRD R370 grant declines. It means SASSA's automated monthly audit found evidence in their database that you have another source of financial support. This does not always mean you actually have income — system errors and misinterpreted bank transactions are very common."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This status affects SRD R370 applicants whose bank account deposits triggered SASSA's income detection threshold."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Alternative Income Source Detected",
+      "explanation": "SASSA cross-checks your ID against government databases (SARS, UIF, NSFAS, Department of Labour) and also scans your bank account transactions. If any system shows income, employment, or funding, your grant is declined for that month.",
+      "whyItHappens": [
+        "You have an active UIF registration on the Department of Labour database (even if you no longer receive payments)",
+        "You are registered as an NSFAS-funded student (even if your studies are complete)",
+        "Your bank account received a deposit exceeding R624 in a single month",
+        "You are registered for PAYE tax through an employer",
+        "You are listed as receiving another social grant or pension",
+        "A family member transferred money to your account for groceries or emergencies",
+        "You transferred money between your own bank accounts",
+        "Someone else uses your bank account for their transactions"
+      ],
+      "howLongItLasts": "This status applies to each individual month. Even if you fix the issue, the next month is evaluated as a fresh cycle. You must appeal each declined month separately.",
+      "whatYouShouldDo": [
+        "Check your bank statements for the month in question and identify every deposit",
+        "If you are unemployed but have UIF history, get a UI-19 termination letter from the Department of Labour",
+        "If you completed your studies, get an NSFAS cancellation letter from the myNSFAS portal",
+        "For each non-income deposit (gift, family transfer, loan repayment), write a sworn affidavit explaining the source",
+        "Submit an appeal on the DSD Appeal website at srd.dsd.gov.za for each declined month",
+        "Attach supporting documents: bank statements, affidavit, UIF letter, or NSFAS letter"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Means Test Failed",
+          "slug": "means-test-failed"
+        },
+        {
+          "name": "Declined",
+          "slug": "declined"
+        }
+      ]
+    },
+    {
+      "id": "bank-htrigger-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Triggers 'Alternative Income Source'?"
+    },
+    {
+      "id": "bank-trigger-text",
+      "type": "paragraph",
+      "text": "SASSA uses an automated bank verification system that scans your linked bank account every month. Any deposit — even a gift from a family member, a loan repayment, or money you transferred between your own accounts — can trigger this status if the total exceeds R624 in a calendar month."
+    },
+    {
+      "id": "bank-threshold-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "R624 Threshold",
+      "text": "The SRD R370 grant uses a strict means test threshold of R624 per month. If your bank account shows combined deposits exceeding R624 in any month, SASSA automatically flags 'Alternative Income Source' — even if the money is not actual income."
+    },
+    {
+      "id": "common-scenarios-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Scenarios That Trigger This Status"
+    },
+    {
+      "id": "common-scenarios",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Family member sent you money for groceries or school fees",
+        "Friend repaid a loan they owed you",
+        "You transferred money from a savings account to your everyday account",
+        "Your employer paid you a final payout after retrenchment months ago",
+        "The Department of Labour still has your UIF status as 'active' even though you no longer receive UIF",
+        "Your former school or university still shows you as an active NSFAS student",
+        "Your spouse or partner deposits money into your account for household expenses"
+      ]
+    },
+    {
+      "id": "appeal-steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Appeal 'Alternative Income Source' Declines"
+    },
+    {
+      "id": "appeal-intro",
+      "type": "paragraph",
+      "text": "Appealing this status requires proving that the deposits in your account are not actual income. Follow these steps carefully:"
+    },
+    {
+      "id": "appeal-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Review your bank statements",
+          "description": "Download or print your bank statements for the declined month(s). Highlight every deposit and note the source of each one."
+        },
+        {
+          "title": "Prepare a sworn affidavit",
+          "description": "Visit your nearest SAPS station and write a sworn affidavit explaining each deposit. For example: 'R500 from my sister for my child's school fees — this is not income.' The affidavit must be commissioned by a police officer."
+        },
+        {
+          "title": "Gather supporting evidence",
+          "description": "If UIF is the issue: get a UI-19 termination letter from the Department of Labour. If NSFAS is the issue: get a cancellation letter from the myNSFAS portal. If gifts: ask family members to write supporting letters."
+        },
+        {
+          "title": "Submit your appeal online",
+          "description": "Go to srd.dsd.gov.za. Enter your ID number and phone number. Verify with the OTP sent to your phone. Select the declined month(s) and upload your affidavit, bank statements, and supporting letters."
+        },
+        {
+          "title": "Wait for tribunal ruling",
+          "description": "The Independent Tribunal for Social Assistance Appeals (ITSAA) will review your case. Rulings typically take 60 to 90 days. If approved, you will receive backpay for all declined months."
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "My friend sent me R500 as a birthday gift. Will SASSA count this as income?",
+          "answer": "Yes. Any deposit into your bank account, even a gift from family or friends, can trigger the 'Alternative Income Source' flag. You can appeal by providing a sworn affidavit from your friend confirming it was a gift."
+        },
+        {
+          "question": "How much money in deposits can trigger this status?",
+          "answer": "Any single deposit over R624, or multiple smaller deposits totalling more than R624 in a calendar month, can trigger this status."
+        },
+        {
+          "question": "Do I need to appeal every month separately?",
+          "answer": "Yes. Because SASSA evaluates eligibility on a monthly basis, you must appeal for each individual month that shows 'Alternative Income Source'."
+        },
+        {
+          "question": "Can I transfer money between my own bank accounts?",
+          "answer": "Yes, but it may trigger this status. If you transfer from savings to chequing, the deposit into the chequing account may be counted. Keep an affidavit explaining this ready."
+        },
+        {
+          "question": "How long does the appeal take?",
+          "answer": "The ITSAA tribunal typically takes 60 to 90 days to issue a ruling. If successful, SASSA must pay all backdated amounts within 14 business days."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How to Appeal a Declined SASSA Grant",
+          "href": "/appeals/how-to-appeal",
+          "description": "Complete guide to the ITSAA appeal process"
+        },
+        {
+          "title": "Appealing a Decline Due to UIF Registration",
+          "href": "/appeals/appeal-after-uif",
+          "description": "What to do if SASSA says you are registered for UIF"
+        },
+        {
+          "title": "Appealing Due to Alternative Income Source",
+          "href": "/appeals/appeal-after-income-source",
+          "description": "Specific appeal guidance for income source declines"
+        },
+        {
+          "title": "Understanding the SASSA Means Test",
+          "href": "/guides/understanding-means-test",
+          "description": "How the means test and income thresholds work"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "How to Appeal a Declined Grant", "slug": "/appeals/how-to-appeal" },
-    { "title": "Appealing Due to Alternative Income Source", "slug": "/appeals/appeal-after-income-source" },
-    { "title": "Understanding the Means Test", "slug": "/guides/understanding-means-test" },
-    { "title": "Declined Status Meaning", "slug": "/status/declined" }
+    {
+      "title": "How to Appeal a Declined Grant",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Appealing Due to Alternative Income Source",
+      "slug": "/appeals/appeal-after-income-source"
+    },
+    {
+      "title": "Understanding the Means Test",
+      "slug": "/guides/understanding-means-test"
+    },
+    {
+      "title": "Declined Status Meaning",
+      "slug": "/status/declined"
+    }
   ]
 }

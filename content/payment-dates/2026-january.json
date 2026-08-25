@@ -1,0 +1,160 @@
+{
+  "id": "payment-dates-2026-january",
+  "slug": "/payment-dates/2026-january",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates January 2026",
+  "description": "Confirmed SASSA payment dates for January 2026: Older Persons 2 January, Disability 5 January, Children's grants 6 January, SRD R370 from 23 January.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates January 2026 (Old Age, Disability, Child & SRD)",
+    "metaDescription": "SASSA payment dates for January 2026: Older Persons Fri 2 Jan, Disability Mon 5 Jan, Children's grants Tue 6 Jan, SRD R370 from Sat 23 Jan. Collection tips inside.",
+    "keywords": [
+      "sassa payment dates january 2026",
+      "old age grant january 2026",
+      "srd payment dates january 2026"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Payment Dates January 2026",
+      "description": "The new grant year opens with the standard first-week schedule for permanent grants. The first SRD R370 batch of 2026 starts from Saturday 23 January.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026"
+    },
+    {
+      "id": "intro-h",
+      "type": "heading",
+      "level": 2,
+      "text": "January 2026 payment schedule at a glance"
+    },
+    {
+      "id": "date-table",
+      "type": "table",
+      "caption": "Confirmed SASSA payment dates for January 2026",
+      "rows": [
+        [
+          "Older Persons Grant (60-74)",
+          "Friday 2 January 2026"
+        ],
+        [
+          "Older Persons Grant (75+)",
+          "Friday 2 January 2026"
+        ],
+        [
+          "Disability Grant",
+          "Monday 5 January 2026"
+        ],
+        [
+          "Children's Grants (Child Support, Foster Care, Care Dependency)",
+          "Tuesday 6 January 2026"
+        ],
+        [
+          "SRD R370 Grant",
+          "From Saturday 23 January 2026 (batches until 30 January)"
+        ]
+      ],
+      "headers": [
+        "Grant type",
+        "Payment date"
+      ]
+    },
+    {
+      "id": "what-know-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to know about January payments"
+    },
+    {
+      "id": "know-p1",
+      "type": "paragraph",
+      "text": "January is one of the busiest collection months of the year because December balances and January payments can both still be waiting. If you did not collect your December money, it has not expired — balances stay on your SASSA card or bank account indefinitely. Collecting both amounts on the same trip saves transport costs."
+    },
+    {
+      "id": "know-p2",
+      "type": "paragraph",
+      "text": "Pay points and retail tills are quietest in the second week of the month. The first three days after each pay date have the longest queues, so if your household can wait a day or two, collection is faster and safer. Bank account transfers usually reflect within 1-3 working days after the official date."
+    },
+    {
+      "id": "srd-note",
+      "type": "paragraph",
+      "text": "SRD R370 beneficiaries receive an SMS when their specific batch is released. There is no single SRD payday — your date depends on when your monthly approval was processed, which is why the window runs across several days."
+    },
+    {
+      "id": "safety-callout",
+      "type": "callout",
+      "variant": "warning",
+      "title": "Scam alert for the new year",
+      "text": "Scammers know January is tight for many households and circulate fake 'New Year top-up' messages asking for your ID number or a fee to 'release' funds. SASSA never charges fees and never pays top-ups you did not apply for. Check any offer against our scam guide before responding."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What are the SASSA payment dates for January 2026?",
+          "answer": "Older Persons grants were paid on Friday 2 January 2026, Disability grants on Monday 5 January, Children's grants on Tuesday 6 January, and SRD R370 payments ran in batches from 23 to 30 January."
+        },
+        {
+          "question": "Did the New Year public holiday delay January payments?",
+          "answer": "No. SASSA scheduled Older Persons payments on 2 January, the first working day after New Year's Day, so no pay date moved."
+        },
+        {
+          "question": "I did not collect my December grant. Is it lost?",
+          "answer": "No. Unclaimed grant money stays in your account or on your card indefinitely. You can collect it together with your January payment whenever convenient."
+        },
+        {
+          "question": "When does the SRD R370 pay in January 2026?",
+          "answer": "The first SRD batch of 2026 started on Saturday 23 January, with further batches through to 30 January. Your exact date appears in the SMS SASSA sends when your monthly approval is processed."
+        },
+        {
+          "question": "Why does my bank show the money a day later than the official date?",
+          "answer": "Bank transfers are processed on the official date but can take 1-3 working days to reflect, depending on your bank. Card collections at tills are available immediately on the pay date."
+        },
+        {
+          "question": "Will my grant amount change in January 2026?",
+          "answer": "No. Amounts only change after the national budget announcement (typically February), with new figures taking effect from April. January paid at the previous year's rates."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official payment calendar announcements",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "Postbank / SASSA card collection notices",
+          "url": "https://www.postbank.co.za"
+        }
+      ],
+      "note": "Dates shown reflect the published January 2026 schedule. This page is maintained for reference; current-month details live on the payment dates hub."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "February 2026 Payment Dates",
+      "slug": "/payment-dates/2026-february"
+    },
+    {
+      "title": "December 2025 & Festive Season Payments",
+      "slug": "/payment-dates/2026-december"
+    }
+  ]
+}

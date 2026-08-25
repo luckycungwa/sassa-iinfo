@@ -4,97 +4,319 @@
   "classification": "eligibility-guide",
   "title": "SASSA Grants for Caregivers — Grant-in-Aid, Child Support & More",
   "description": "Complete guide for caregivers in South Africa. Learn about the Grant-in-Aid, Child Support Grant, and other SASSA grants available to those caring for children, the elderly, or disabled family members.",
-  "lastUpdated": "2026-07-29",
-  "version": "2.0.0",
+  "lastUpdated": "2026-08-25",
+  "version": "2.1.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Grants for Caregivers — Grant-in-Aid, Child Support & More",
     "metaDescription": "Complete guide to SASSA grants for caregivers in South Africa. Learn about Grant-in-Aid (R580/month), Child Support Grant (R580/month per child), and other grants for those caring for family members. Includes eligibility and application steps.",
-    "keywords": ["SASSA caregiver grant", "SASSA grant-in-aid", "SASSA caring for elderly", "SASSA caring for disabled", "SASSA caregiver financial help", "SASSA family caregiver"]
+    "keywords": [
+      "SASSA caregiver grant",
+      "SASSA grant-in-aid",
+      "SASSA caring for elderly",
+      "SASSA caring for disabled",
+      "SASSA caregiver financial help",
+      "SASSA family caregiver"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Grants for Caregivers — Grant-in-Aid, Child Support & More",
       "description": "If you care for a child, elderly parent, or disabled family member, several SASSA grants can help. Learn about the Grant-in-Aid, Child Support Grant, and other financial support available to caregivers.",
       "readingTime": "8 min read",
-      "lastUpdated": "July 2026",
-      "cta": { "label": "Child Support Grant", "href": "/grants/child-support-grant" },
-      "secondaryCta": { "label": "Grant-in-Aid Guide", "href": "/grants/grant-in-aid" }
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Child Support Grant",
+        "href": "/grants/child-support-grant"
+      },
+      "secondaryCta": {
+        "label": "Grant-in-Aid Guide",
+        "href": "/grants/grant-in-aid"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants for Caregivers" },
-    { "id": "intro", "type": "paragraph", "text": "If you are caring for a family member — whether a child, elderly parent, or disabled relative — you may qualify for several SASSA grants depending on your circumstances. SASSA provides specific grants to support caregivers, though the structure may not be what you expect." },
-    { "id": "why", "type": "paragraph", "text": "Caring for a vulnerable family member is a significant financial and emotional responsibility. SASSA provides the Grant-in-Aid (for those caring for grant recipients who need 24-hour care) and the Child Support Grant (for primary caregivers of children). Understanding which grant applies to your specific caregiving situation is the first step to getting support." },
-    { "id": "scenario-h", "type": "heading", "level": 3, "text": "Real-Life Scenario" },
-    { "id": "scenario", "type": "paragraph", "text": "Nomsa is a 38-year-old from Mthatha who cares for her elderly mother (who receives the Older Person Grant) and her two children aged 6 and 10. Her mother requires full-time care after a stroke. Nomsa's mother can apply for the Grant-in-Aid (R580/month top-up) because she needs 24-hour care. Nomsa herself can apply for the Child Support Grant (R580/month per child) for her two children. This means the household can receive up to R4,140 per month in total grants. This guide explains each option in detail." },
-    { "id": "grants-h", "type": "heading", "level": 3, "text": "Which Grants Caregivers Can Access" },
-    { "id": "grants-table", "type": "table", "headers": ["Grant Type", "Amount", "Who It Helps", "Key Requirement"], "rows": [
-      ["Grant-in-Aid", "R580/month top-up", "Grant recipient needing full-time care", "Person you care for must already receive a SASSA grant and have medical proof of needing 24-hour care."],
-      ["Child Support Grant", "R580/month per child", "Primary caregiver of child under 18", "Caregiver must meet the means test. Child must be under 18."],
-      ["Foster Child Grant", "R1,295/month per child", "Foster parents", "Valid children's court order required."],
-      ["Care Dependency Grant", "R2,400/month", "Child with severe disability", "Medical proof of severe, permanent disability requiring full-time home care."]
-    ] },
-    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Eligibility Checklist for Caregivers" },
-    { "id": "checklist", "type": "eligibility-checklist", "checklist": [
-      "Must be a South African citizen or permanent resident",
-      "Must be the primary caregiver of the person needing care",
-      "Must have a valid South African ID",
-      "For Grant-in-Aid: the person you care for must already receive a SASSA grant",
-      "For Child Support Grant: the child must be under 18 and in your care"
-    ], "restrictions": [
-      "Grant-in-Aid is paid to the grant recipient (the person receiving care), not the caregiver directly",
-      "Child Support Grant is means-tested for the caregiver's income",
-      "You cannot claim a caregiver's salary from SASSA — grants are designed to support the person receiving care, not pay the caregiver"
-    ], "recommendedGrants": [
-      { "name": "Child Support Grant", "slug": "child-support-grant", "amount": "R580 / month per child" },
-      { "name": "Grant-in-Aid", "slug": "grant-in-aid", "amount": "R580 / month" },
-      { "name": "Foster Child Grant", "slug": "foster-care-grant", "amount": "R1,295 / month per child" }
-    ] },
-    { "id": "docs-h", "type": "heading", "level": 3, "text": "Required Documents" },
-    { "id": "docs", "type": "document-checklist", "documents": [
-      { "label": "Your valid South African ID", "required": true },
-      { "label": "ID or birth certificate of the person you care for", "required": true },
-      { "label": "Medical report confirming need for 24-hour care (for Grant-in-Aid)", "required": false },
-      { "label": "Proof of income or affidavit of unemployment (for Child Support Grant means test)", "required": false },
-      { "label": "Child's birth certificate (for Child Support Grant)", "required": false }
-    ] },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Process" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Identify the right grant", "description": "Determine which grant matches your caregiving situation: Grant-in-Aid for elderly/disabled care, Child Support Grant for children, or Foster Child Grant for foster children." },
-      { "title": "Gather supporting documents", "description": "Collect medical reports, IDs, birth certificates, and proof of income as required for your specific grant type." },
-      { "title": "Visit your SASSA office", "description": "Take all documents to your nearest SASSA office. Some grants (like Child Support) can be applied for at any time." },
-      { "title": "Complete the application", "description": "Fill in the application form with assistance from a SASSA officer. Ensure all details match your ID document." }
-    ] },
-    { "id": "callout", "type": "callout", "intent": "info", "title": "Understanding Grant-in-Aid", "text": "Grant-in-Aid is often misunderstood. It is paid to the person receiving care (the grant beneficiary), not the caregiver. For example, if your elderly mother receives the Older Person Grant, she can apply for Grant-in-Aid to get an additional R580/month. This extra money helps cover care costs but is paid into her account, not yours." },
-    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
-    { "id": "mistakes", "type": "list", "ordered": false, "items": [
-      "Expecting Grant-in-Aid to be paid directly to you as a caregiver — it is paid to the grant recipient",
-      "Not applying for the Child Support Grant because you think only biological parents qualify — primary caregivers qualify",
-      "Assuming you cannot work while being a caregiver — you can receive grants and work if your income permits",
-      "Not getting a medical report for Grant-in-Aid — the doctor must specifically confirm that 24-hour care is needed"
-    ] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Can I get paid as a caregiver for looking after my elderly parent?", "answer": "Not directly. Your parent may qualify for the Grant-in-Aid on top of their Older Person Grant, but it is paid to them. You cannot claim a salary from SASSA for being a family caregiver." },
-      { "question": "Can I receive the Child Support Grant if I am not the biological parent?", "answer": "Yes. If you are the primary caregiver of the child (the person who meets the child's daily needs), you can apply for the Child Support Grant on behalf of the child." },
-      { "question": "Can I receive both Grant-in-Aid and Child Support Grant?", "answer": "Yes. They serve different purposes. The Child Support Grant is for a child in your care, while Grant-in-Aid is added to an older or disabled person's existing grant." },
-      { "question": "How does the medical assessment for Grant-in-Aid work?", "answer": "The person needing care must be assessed by a SASSA medical officer. The doctor must confirm they require full-time, 24-hour care from another person. A standard doctor's note is not sufficient." },
-      { "question": "Can I get the Care Dependency Grant if I care for a disabled child?", "answer": "Yes, if the child has a severe, permanent disability requiring full-time home care. The child must be assessed by a SASSA medical officer. The grant is R2,400 per month." }
-    ] },
-    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
-    { "id": "related", "type": "link-grid", "links": [
-      { "title": "Child Support Grant Guide", "href": "/grants/child-support-grant", "description": "Full details on the child grant" },
-      { "title": "Grant-in-Aid Guide", "href": "/grants/grant-in-aid", "description": "Additional support for full-time care" },
-      { "title": "Foster Child Grant Guide", "href": "/grants/foster-care-grant", "description": "For foster parents" },
-      { "title": "Care Dependency Grant", "href": "/grants/care-dependency-grant", "description": "For children with severe disabilities" },
-      { "title": "Older Person Grant Guide", "href": "/grants/older-person-grant", "description": "State pension for seniors" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Grants for Caregivers"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "If you are caring for a family member — whether a child, elderly parent, or disabled relative — you may qualify for several SASSA grants depending on your circumstances. SASSA provides specific grants to support caregivers, though the structure may not be what you expect."
+    },
+    {
+      "id": "why",
+      "type": "paragraph",
+      "text": "Caring for a vulnerable family member is a significant financial and emotional responsibility. SASSA provides the Grant-in-Aid (for those caring for grant recipients who need 24-hour care) and the Child Support Grant (for primary caregivers of children). Understanding which grant applies to your specific caregiving situation is the first step to getting support."
+    },
+    {
+      "id": "scenario-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Real-Life Scenario"
+    },
+    {
+      "id": "scenario",
+      "type": "paragraph",
+      "text": "Nomsa is a 38-year-old from Mthatha who cares for her elderly mother (who receives the Older Person Grant) and her two children aged 6 and 10. Her mother requires full-time care after a stroke. Nomsa's mother can apply for the Grant-in-Aid (R580/month top-up) because she needs 24-hour care. Nomsa herself can apply for the Child Support Grant (R580/month per child) for her two children. This means the household can receive up to R4,140 per month in total grants. This guide explains each option in detail."
+    },
+    {
+      "id": "grants-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Which Grants Caregivers Can Access"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "Grant Type",
+        "Amount",
+        "Who It Helps",
+        "Key Requirement"
+      ],
+      "rows": [
+        [
+          "Grant-in-Aid",
+          "R580/month top-up",
+          "Grant recipient needing full-time care",
+          "Person you care for must already receive a SASSA grant and have medical proof of needing 24-hour care."
+        ],
+        [
+          "Child Support Grant",
+          "R580/month per child",
+          "Primary caregiver of child under 18",
+          "Caregiver must meet the means test. Child must be under 18."
+        ],
+        [
+          "Foster Child Grant",
+          "R1,295/month per child",
+          "Foster parents",
+          "Valid children's court order required."
+        ],
+        [
+          "Care Dependency Grant",
+          "R2,400/month",
+          "Child with severe disability",
+          "Medical proof of severe, permanent disability requiring full-time home care."
+        ]
+      ]
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Eligibility Checklist for Caregivers"
+    },
+    {
+      "id": "checklist",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "Must be a South African citizen or permanent resident",
+        "Must be the primary caregiver of the person needing care",
+        "Must have a valid South African ID",
+        "For Grant-in-Aid: the person you care for must already receive a SASSA grant",
+        "For Child Support Grant: the child must be under 18 and in your care"
+      ],
+      "restrictions": [
+        "Grant-in-Aid is paid to the grant recipient (the person receiving care), not the caregiver directly",
+        "Child Support Grant is means-tested for the caregiver's income",
+        "You cannot claim a caregiver's salary from SASSA — grants are designed to support the person receiving care, not pay the caregiver"
+      ],
+      "recommendedGrants": [
+        {
+          "name": "Child Support Grant",
+          "slug": "child-support-grant",
+          "amount": "R580 / month per child"
+        },
+        {
+          "name": "Grant-in-Aid",
+          "slug": "grant-in-aid",
+          "amount": "R580 / month"
+        },
+        {
+          "name": "Foster Child Grant",
+          "slug": "foster-care-grant",
+          "amount": "R1,295 / month per child"
+        }
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Your valid South African ID",
+          "required": true
+        },
+        {
+          "label": "ID or birth certificate of the person you care for",
+          "required": true
+        },
+        {
+          "label": "Medical report confirming need for 24-hour care (for Grant-in-Aid)",
+          "required": false
+        },
+        {
+          "label": "Proof of income or affidavit of unemployment (for Child Support Grant means test)",
+          "required": false
+        },
+        {
+          "label": "Child's birth certificate (for Child Support Grant)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Step-by-Step Process"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Identify the right grant",
+          "description": "Determine which grant matches your caregiving situation: Grant-in-Aid for elderly/disabled care, Child Support Grant for children, or Foster Child Grant for foster children."
+        },
+        {
+          "title": "Gather supporting documents",
+          "description": "Collect medical reports, IDs, birth certificates, and proof of income as required for your specific grant type."
+        },
+        {
+          "title": "Visit your SASSA office",
+          "description": "Take all documents to your nearest SASSA office. Some grants (like Child Support) can be applied for at any time."
+        },
+        {
+          "title": "Complete the application",
+          "description": "Fill in the application form with assistance from a SASSA officer. Ensure all details match your ID document."
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Understanding Grant-in-Aid",
+      "text": "Grant-in-Aid is often misunderstood. It is paid to the person receiving care (the grant beneficiary), not the caregiver. For example, if your elderly mother receives the Older Person Grant, she can apply for Grant-in-Aid to get an additional R580/month. This extra money helps cover care costs but is paid into her account, not yours."
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Mistakes to Avoid"
+    },
+    {
+      "id": "mistakes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Expecting Grant-in-Aid to be paid directly to you as a caregiver — it is paid to the grant recipient",
+        "Not applying for the Child Support Grant because you think only biological parents qualify — primary caregivers qualify",
+        "Assuming you cannot work while being a caregiver — you can receive grants and work if your income permits",
+        "Not getting a medical report for Grant-in-Aid — the doctor must specifically confirm that 24-hour care is needed"
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I get paid as a caregiver for looking after my elderly parent?",
+          "answer": "Not directly. Your parent may qualify for the Grant-in-Aid on top of their Older Person Grant, but it is paid to them. You cannot claim a salary from SASSA for being a family caregiver."
+        },
+        {
+          "question": "Can I receive the Child Support Grant if I am not the biological parent?",
+          "answer": "Yes. If you are the primary caregiver of the child (the person who meets the child's daily needs), you can apply for the Child Support Grant on behalf of the child."
+        },
+        {
+          "question": "Can I receive both Grant-in-Aid and Child Support Grant?",
+          "answer": "Yes. They serve different purposes. The Child Support Grant is for a child in your care, while Grant-in-Aid is added to an older or disabled person's existing grant."
+        },
+        {
+          "question": "How does the medical assessment for Grant-in-Aid work?",
+          "answer": "The person needing care must be assessed by a SASSA medical officer. The doctor must confirm they require full-time, 24-hour care from another person. A standard doctor's note is not sufficient."
+        },
+        {
+          "question": "Can I get the Care Dependency Grant if I care for a disabled child?",
+          "answer": "Yes, if the child has a severe, permanent disability requiring full-time home care. The child must be assessed by a SASSA medical officer. The grant is R2,400 per month."
+        }
+      ]
+    },
+    {
+      "id": "related-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Related Guides"
+    },
+    {
+      "id": "related",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Child Support Grant Guide",
+          "href": "/grants/child-support-grant",
+          "description": "Full details on the child grant"
+        },
+        {
+          "title": "Grant-in-Aid Guide",
+          "href": "/grants/grant-in-aid",
+          "description": "Additional support for full-time care"
+        },
+        {
+          "title": "Foster Child Grant Guide",
+          "href": "/grants/foster-care-grant",
+          "description": "For foster parents"
+        },
+        {
+          "title": "Care Dependency Grant",
+          "href": "/grants/care-dependency-grant",
+          "description": "For children with severe disabilities"
+        },
+        {
+          "title": "Older Person Grant Guide",
+          "href": "/grants/older-person-grant",
+          "description": "State pension for seniors"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
-    { "title": "Grant-in-Aid Guide", "slug": "/grants/grant-in-aid" },
-    { "title": "Foster Child Grant", "slug": "/grants/foster-care-grant" },
-    { "title": "Care Dependency Grant", "slug": "/grants/care-dependency-grant" },
-    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" }
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "Grant-in-Aid Guide",
+      "slug": "/grants/grant-in-aid"
+    },
+    {
+      "title": "Foster Child Grant",
+      "slug": "/grants/foster-care-grant"
+    },
+    {
+      "title": "Care Dependency Grant",
+      "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Older Person Grant",
+      "slug": "/grants/older-person-grant"
+    }
   ]
 }

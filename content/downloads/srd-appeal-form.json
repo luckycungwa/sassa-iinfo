@@ -8,12 +8,25 @@
   "version": "1.0.0",
   "readingTime": "5 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SRD Appeal Form 2026: Download DSD Appeal Form for SASSA R370 Grant",
     "metaDescription": "Download the official DSD appeal form for the SASSA SRD R370 grant. Step-by-step appeal instructions, required documents checklist, and FAQs. Free to download and submit.",
-    "keywords": ["SRD appeal form", "SASSA R370 appeal", "DSD appeal form download", "SRD grant appeal process", "how to appeal SASSA SRD decision"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "SRD Appeal Form - DSD Appeal" }
+    "keywords": [
+      "SRD appeal form",
+      "SASSA R370 appeal",
+      "DSD appeal form download",
+      "SRD grant appeal process",
+      "how to appeal SASSA SRD decision"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SRD Appeal Form - DSD Appeal"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +36,14 @@
       "description": "Download the official Department of Social Development (DSD) appeal form for the SASSA SRD R370 grant. Complete instructions for submitting your appeal and getting your payments reinstated.",
       "readingTime": "5 min read",
       "lastUpdated": "2026-07-27",
-      "cta": { "label": "View Filling Guide", "href": "#how-to-fill" },
-      "secondaryCta": { "label": "View All Forms", "href": "/downloads" }
+      "cta": {
+        "label": "View Filling Guide",
+        "href": "#how-to-fill"
+      },
+      "secondaryCta": {
+        "label": "View All Forms",
+        "href": "/downloads"
+      }
     },
     {
       "id": "intro-paragraph",
@@ -41,12 +60,30 @@
       "id": "instructions",
       "type": "steps",
       "steps": [
-        { "title": "Download the DSD Appeal Form", "description": "Click the download button above to save the PDF. Print it out or fill it digitally using a PDF editor." },
-        { "title": "Fill in your personal details", "description": "Provide your full name, ID number, SASSA reference number (from your rejection letter), phone number, and email address. Ensure all details match your original application." },
-        { "title": "State your reason for appeal", "description": "In the section provided, explain clearly why you believe SASSA's decision was incorrect. Common reasons include: your income is below the threshold, SASSA used incorrect bank details, or your application was declined due to a technical error." },
-        { "title": "Attach supporting documents", "description": "Include any evidence that supports your appeal. This may include bank statements showing low income, an affidavit explaining your situation, proof of residence, or a corrected application form." },
-        { "title": "Submit the form to DSD", "description": "Submit the completed form and supporting documents via email to appeal@dsd.gov.za, or deliver it in person to any DSD office. You can also submit at your nearest SASSA office, which will forward it to DSD." },
-        { "title": "Wait for the outcome", "description": "DSD has 60 to 90 days to process your appeal. You will receive a response by SMS or post. If your appeal is successful, any backdated payments will be deposited into your bank account." }
+        {
+          "title": "Download the DSD Appeal Form",
+          "description": "Click the download button above to save the PDF. Print it out or fill it digitally using a PDF editor."
+        },
+        {
+          "title": "Fill in your personal details",
+          "description": "Provide your full name, ID number, SASSA reference number (from your rejection letter), phone number, and email address. Ensure all details match your original application."
+        },
+        {
+          "title": "State your reason for appeal",
+          "description": "In the section provided, explain clearly why you believe SASSA's decision was incorrect. Common reasons include: your income is below the threshold, SASSA used incorrect bank details, or your application was declined due to a technical error."
+        },
+        {
+          "title": "Attach supporting documents",
+          "description": "Include any evidence that supports your appeal. This may include bank statements showing low income, an affidavit explaining your situation, proof of residence, or a corrected application form."
+        },
+        {
+          "title": "Submit the form to DSD",
+          "description": "Submit the completed form and supporting documents via email to appeal@dsd.gov.za, or deliver it in person to any DSD office. You can also submit at your nearest SASSA office, which will forward it to DSD."
+        },
+        {
+          "title": "Wait for the outcome",
+          "description": "DSD has 60 to 90 days to process your appeal. You will receive a response by SMS or post. If your appeal is successful, any backdated payments will be deposited into your bank account."
+        }
       ]
     },
     {
@@ -59,12 +96,36 @@
       "id": "required-docs",
       "type": "document-checklist",
       "documents": [
-        { "label": "Completed and signed DSD appeal form", "required": true, "notes": "Both pages must be signed. Unsigned forms will not be processed." },
-        { "label": "Copy of your ID document (Smart ID or green ID book)", "required": true, "notes": "Certified copy not older than 3 months." },
-        { "label": "Copy of the SASSA rejection letter", "required": true, "notes": "The letter includes your reference number and the reason for decline." },
-        { "label": "Proof of income or affidavit if unemployed", "required": true, "notes": "Bank statements from the last 3 months or a sworn affidavit confirming no income." },
-        { "label": "Supporting evidence for your appeal reason", "required": false, "notes": "For example, corrected bank statement, updated proof of residence, or a letter from your ward councillor." },
-        { "label": "Proof of banking details", "required": false, "notes": "A recent bank statement or letter from your bank confirming your account details." }
+        {
+          "label": "Completed and signed DSD appeal form",
+          "required": true,
+          "notes": "Both pages must be signed. Unsigned forms will not be processed."
+        },
+        {
+          "label": "Copy of your ID document (Smart ID or green ID book)",
+          "required": true,
+          "notes": "Certified copy not older than 3 months."
+        },
+        {
+          "label": "Copy of the SASSA rejection letter",
+          "required": true,
+          "notes": "The letter includes your reference number and the reason for decline."
+        },
+        {
+          "label": "Proof of income or affidavit if unemployed",
+          "required": true,
+          "notes": "Bank statements from the last 3 months or a sworn affidavit confirming no income."
+        },
+        {
+          "label": "Supporting evidence for your appeal reason",
+          "required": false,
+          "notes": "For example, corrected bank statement, updated proof of residence, or a letter from your ward councillor."
+        },
+        {
+          "label": "Proof of banking details",
+          "required": false,
+          "notes": "A recent bank statement or letter from your bank confirming your account details."
+        }
       ]
     },
     {
@@ -123,8 +184,17 @@
     }
   ],
   "relatedPages": [
-    { "title": "Download Centre", "slug": "/downloads" },
-    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-grant" },
-    { "title": "SRD Appeal Process Guide", "slug": "/guides/srd-appeal-process" }
+    {
+      "title": "Download Centre",
+      "slug": "/downloads"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "SRD Appeal Process Guide",
+      "slug": "/appeals/how-to-appeal"
+    }
   ]
 }

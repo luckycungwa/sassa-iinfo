@@ -87,6 +87,7 @@ function validate(contents, path) {
     contents.contentBlocks.forEach((block, idx) => {
       if (!block.id) errors.push(`Block [${idx}] missing "id"`);
       if (!block.type) errors.push(`Block [${idx}] missing "type"`);
+      findRawHtml(block, `contentBlocks[${idx}]`, errors);
     });
   } else if (contents.contentBlocks !== undefined) {
     errors.push("contentBlocks must be an array");
@@ -99,15 +100,39 @@ function validate(contents, path) {
   return { errors, warnings };
 }
 
+function findRawHtml(value, path, errors) {
+  if (typeof value === "string") {
+    if (/<[a-zA-Z/][^>]*>/.test(value)) {
+      errors.push(`${path} contains raw HTML — use the proper block type (e.g. link-grid) instead`);
+    }
+  } else if (Array.isArray(value)) {
+    value.forEach((item, i) => findRawHtml(item, `${path}[${i}]`, errors));
+  } else if (value !== null && typeof value === "object") {
+    for (const [key, val] of Object.entries(value)) {
+      findRawHtml(val, `${path}.${key}`, errors);
+    }
+  }
+}
+
 const files = collectFiles(ROOT);
 totalFiles = files.length;
 console.log(`\nValidating ${totalFiles} content files...\n`);
+
+const seenSlugs = new Map();
 
 for (const file of files) {
   try {
     const raw = readFileSync(file, "utf-8");
     const parsed = JSON.parse(raw);
     const result = validate(parsed, file);
+    if (typeof parsed.slug === "string") {
+      const existing = seenSlugs.get(parsed.slug);
+      if (existing) {
+        result.errors.push(`Duplicate slug "${parsed.slug}" — already used by ${existing.replace(ROOT, "")}`);
+      } else {
+        seenSlugs.set(parsed.slug, file);
+      }
+    }
     if (result.errors.length > 0) {
       console.error(`  FAIL  ${file.replace(ROOT, "")} (${result.errors.length} error(s))`);
       for (const err of result.errors) console.error(`         - ${err}`);

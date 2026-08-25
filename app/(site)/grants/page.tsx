@@ -41,11 +41,11 @@ export default function GrantsHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
-              <p className="text-xs font-bold text-carbon/50 uppercase tracking-widest mb-3">grant library</p>
+              <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">grant library</p>
               <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
                 All SASSA social grants
               </h1>
-              <p className="text-[21px] text-carbon/70 mt-4 max-w-xl leading-relaxed">
+              <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
                 South Africa&apos;s social grant system provides financial support to millions. Below are all eight grants with eligibility, amounts, and application guides.
               </p>
               <div className="flex flex-wrap gap-3 mt-8">
@@ -157,7 +157,7 @@ export default function GrantsHubPage() {
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>
                 <div className="px-5 pb-5">
-                  <p className="text-sm text-carbon/70 leading-relaxed">{faq.answer}</p>
+                  <p className="text-sm text-body leading-relaxed">{faq.answer}</p>
                 </div>
               </details>
             ))}

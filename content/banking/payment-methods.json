@@ -8,32 +8,75 @@
   "lastUpdated": "2026-07-01",
   "version": "1.1.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Payment Methods — Bank EFT, Cash Send, Post Office & Mobile Pay Points",
     "metaDescription": "Complete guide to SASSA payment methods: direct bank EFT transfer, Cash Send retail collection at Pick n Pay/Shoprite/Boxer, Post Office collection, and mobile pay points for rural beneficiaries.",
-    "keywords": ["SASSA payment methods", "SASSA how to get paid", "SASSA bank transfer", "SASSA cash collection", "SASSA Post Office", "SASSA mobile pay points"]
+    "keywords": [
+      "SASSA payment methods",
+      "SASSA how to get paid",
+      "SASSA bank transfer",
+      "SASSA cash collection",
+      "SASSA Post Office",
+      "SASSA mobile pay points"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Payment Methods — How You Get Paid",
       "description": "Four ways to receive your grant. No bank account? No problem. Compare bank EFT, Cash Send retail collection, Post Office, and mobile pay points side by side.",
       "readingTime": "5 min read",
       "lastUpdated": "2026-07-01",
-      "cta": { "label": "Switch Your Method", "href": "/banking/update-bank-details" },
-      "secondaryCta": { "label": "Compare at a Glance", "href": "#comparison" }
+      "cta": {
+        "label": "Switch Your Method",
+        "href": "/banking/update-bank-details"
+      },
+      "secondaryCta": {
+        "label": "Compare at a Glance",
+        "href": "#comparison"
+      }
     },
     {
       "id": "comparison",
       "type": "comparison-table",
       "title": "Payment Methods at a Glance",
-      "headers": ["Method", "Speed", "Requires Bank Account?", "Best For"],
+      "headers": [
+        "Method",
+        "Speed",
+        "Requires Bank Account?",
+        "Best For"
+      ],
       "rows": [
-        ["Bank Transfer (EFT)", "1-3 business days", "Yes", "Beneficiaries with a bank account"],
-        ["Cash Send", "Same day SMS", "No", "Beneficiaries without a bank account"],
-        ["Post Office", "On pay day", "No", "Beneficiaries near a Post Office branch"],
-        ["Mobile Pay Point", "Scheduled dates", "No", "Rural beneficiaries with limited access"]
+        [
+          "Bank Transfer (EFT)",
+          "1-3 business days",
+          "Yes",
+          "Beneficiaries with a bank account"
+        ],
+        [
+          "Cash Send",
+          "Same day SMS",
+          "No",
+          "Beneficiaries without a bank account"
+        ],
+        [
+          "Post Office",
+          "On pay day",
+          "No",
+          "Beneficiaries near a Post Office branch"
+        ],
+        [
+          "Mobile Pay Point",
+          "Scheduled dates",
+          "No",
+          "Rural beneficiaries with limited access"
+        ]
       ]
     },
     {
@@ -46,7 +89,7 @@
       "id": "bank-eft-h",
       "type": "heading",
       "level": 3,
-      "text": "Bank Transfer (EFT) \u2014 Fast and Direct"
+      "text": "Bank Transfer (EFT) — Fast and Direct"
     },
     {
       "id": "bank-eft-text",
@@ -76,7 +119,7 @@
       "id": "cash-send-h",
       "type": "heading",
       "level": 3,
-      "text": "Cash Send (Retail Collection) \u2014 No Bank Account Needed"
+      "text": "Cash Send (Retail Collection) — No Bank Account Needed"
     },
     {
       "id": "cash-send-text",
@@ -88,23 +131,35 @@
       "type": "callout",
       "intent": "success",
       "title": "Participating Retailers",
-      "text": "You can collect Cash Send at: Pick n Pay, Shoprite, Checkers, Boxer, Usave, and Spar. Cash Send is free \u2014 no collection fees are charged by SASSA or the retailers."
+      "text": "You can collect Cash Send at: Pick n Pay, Shoprite, Checkers, Boxer, Usave, and Spar. Cash Send is free — no collection fees are charged by SASSA or the retailers."
     },
     {
       "id": "cash-send-steps",
       "type": "steps",
       "steps": [
-        { "title": "Receive your SMS voucher", "description": "After your grant is approved, SASSA sends an SMS with a voucher code and PIN to your registered phone number." },
-        { "title": "Go to a participating retailer", "description": "Visit any Pick n Pay, Shoprite, Checkers, Boxer, Usave, or Spar till point." },
-        { "title": "Provide your ID and SMS details", "description": "Tell the cashier you are collecting a SASSA Cash Send. Provide your ID book or smart ID card." },
-        { "title": "Receive your cash", "description": "The cashier processes the voucher and hands you your grant in cash. Keep the SMS until you have received the money." }
+        {
+          "title": "Receive your SMS voucher",
+          "description": "After your grant is approved, SASSA sends an SMS with a voucher code and PIN to your registered phone number."
+        },
+        {
+          "title": "Go to a participating retailer",
+          "description": "Visit any Pick n Pay, Shoprite, Checkers, Boxer, Usave, or Spar till point."
+        },
+        {
+          "title": "Provide your ID and SMS details",
+          "description": "Tell the cashier you are collecting a SASSA Cash Send. Provide your ID book or smart ID card."
+        },
+        {
+          "title": "Receive your cash",
+          "description": "The cashier processes the voucher and hands you your grant in cash. Keep the SMS until you have received the money."
+        }
       ]
     },
     {
       "id": "post-office-h",
       "type": "heading",
       "level": 3,
-      "text": "Post Office Collection \u2014 Being Phased Out"
+      "text": "Post Office Collection — Being Phased Out"
     },
     {
       "id": "post-office-text",
@@ -122,7 +177,7 @@
       "id": "mobile-h",
       "type": "heading",
       "level": 3,
-      "text": "Mobile Pay Points \u2014 For Rural Communities"
+      "text": "Mobile Pay Points — For Rural Communities"
     },
     {
       "id": "mobile-text",
@@ -157,11 +212,26 @@
       "id": "switch-srd-steps",
       "type": "steps",
       "steps": [
-        { "title": "Log into the SRD Portal", "description": "Go to srd.sassa.gov.za and enter your ID number and the phone number you used during application." },
-        { "title": "Request and enter OTP", "description": "An OTP will be sent to your phone. Enter it to access your profile." },
-        { "title": "Go to Payment Method", "description": "Navigate to the 'Payment Method' section in your profile dashboard." },
-        { "title": "Select your preferred method", "description": "Choose between bank transfer (EFT) or Cash Send (retail collection)." },
-        { "title": "Confirm and save", "description": "Review your selection and confirm. The change will apply from the next payment cycle." }
+        {
+          "title": "Log into the SRD Portal",
+          "description": "Go to srd.sassa.gov.za and enter your ID number and the phone number you used during application."
+        },
+        {
+          "title": "Request and enter OTP",
+          "description": "An OTP will be sent to your phone. Enter it to access your profile."
+        },
+        {
+          "title": "Go to Payment Method",
+          "description": "Navigate to the 'Payment Method' section in your profile dashboard."
+        },
+        {
+          "title": "Select your preferred method",
+          "description": "Choose between bank transfer (EFT) or Cash Send (retail collection)."
+        },
+        {
+          "title": "Confirm and save",
+          "description": "Review your selection and confirm. The change will apply from the next payment cycle."
+        }
       ]
     },
     {
@@ -209,11 +279,29 @@
     }
   ],
   "relatedPages": [
-    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" },
-    { "title": "How to Update Bank Details", "slug": "/banking/update-bank-details" },
-    { "title": "SASSA Card Explained", "slug": "/banking/sassa-card-explained" },
-    { "title": "Payment Not Reflecting", "slug": "/banking/payment-not-reflecting" },
-    { "title": "Bank Verification Process", "slug": "/banking/bank-verification-process" },
-    { "title": "SASSA Payment Dates", "slug": "/payment-dates" }
+    {
+      "title": "Cash Send Guide",
+      "slug": "/banking/cash-send-guide"
+    },
+    {
+      "title": "How to Update Bank Details",
+      "slug": "/banking/update-bank-details"
+    },
+    {
+      "title": "SASSA Card Explained",
+      "slug": "/banking/sassa-card-explained"
+    },
+    {
+      "title": "Payment Not Reflecting",
+      "slug": "/banking/payment-not-reflecting"
+    },
+    {
+      "title": "Bank Verification Process",
+      "slug": "/banking/bank-verification-process"
+    },
+    {
+      "title": "SASSA Payment Dates",
+      "slug": "/payment-dates"
+    }
   ]
 }

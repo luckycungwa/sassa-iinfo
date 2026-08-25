@@ -146,19 +146,6 @@ export const guides: Guide[] = [
         { title: "If Your Grant Was Stopped", detail: "If your grant stopped because you missed a reconfirmation, log back in, complete the reconfirmation, and your payments usually resume within one payment cycle. If not, contact 0800 60 10 11." },
       ],
     },
-    {
-      id: "sassa-2026-payment-dates-calendar",
-      slug: "sassa-2026-payment-dates-calendar",
-      title: "SASSA 2026 Payment Dates Calendar",
-      description: "The full-year 2026 calendar of SASSA grant payment dates, organised by month and grant type, including older persons, disability, children's grants and the SRD R370.",
-      steps: [
-        { title: "How SASSA Schedules Payments", detail: "Every month, Older Person and Disability grants pay on the 2nd, 3rd, 4th and 5th depending on your date of birth. Children's grants (Child Support, Foster Care, Care Dependency) pay on the 5th, 6th and 7th. SRD R370 pays in the last week of the month (25th to 31st)." },
-        { title: "Find Your Payment Date", detail: "Your payment day depends on the month and year you were born. Older persons born in January–July pay earlier in the cycle; August–December pay later. Use our payment date lookup tool for your exact day." },
-        { title: "2026 Full-Year Calendar", detail: "Our payment-dates hub lists every month of 2026 with its exact dates. Bookmark your month, or check back each month as SASSA confirms the schedule." },
-        { title: "Public Holidays Shift Dates", detail: "When a scheduled payment day falls on a public holiday, SASSA pays the previous working day. Always check the month's page for adjusted dates." },
-        { title: "Check Your Individual Date", detail: "For your personal payment day, log into the SRD portal or use the SASSA WhatsApp line (082 046 8553) and follow the prompts for your balance and next payment date." },
-      ],
-    },
   ];
 
 export function getGuide(slug: string): Guide | undefined {

@@ -1,0 +1,170 @@
+{
+  "id": "banking-sassa-ussd-codes",
+  "slug": "/banking/sassa-ussd-codes",
+  "classification": "banking-guide",
+  "title": "SASSA USSD Codes & Mobile Services — Check Status and Balance by Phone",
+  "description": "Every SASSA contact channel for mobile phones: the *134*7737# USSD menu, WhatsApp line, toll-free helpline and fraud hotline, with what each one can do.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA USSD Code *134*7737#: Check Balance & Status by Phone (2026)",
+    "metaDescription": "Check your SASSA grant balance, payment date and application status from any phone: the official USSD code, WhatsApp number, toll-free helpline and fraud line explained.",
+    "keywords": [
+      "sassa ussd code",
+      "*134*7737#",
+      "sassa whatsapp number",
+      "check sassa balance phone",
+      "sassa contact number"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA USSD Codes & Mobile Services",
+      "description": "No smartphone data needed: check your grant balance, payment date and status with a single dial. All official SASSA mobile channels in one place.",
+      "readingTime": "4 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Check Status Online Instead",
+        "href": "/guides/how-to-check-sassa-status"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Not everyone has data or airtime to spare, and SASSA's USSD service exists precisely for that: it works on any cellphone, on every major network, using standard menu prompts. This guide covers that code plus every other official mobile channel, so you never depend on an unverified number found online."
+    },
+    {
+      "id": "ussd-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The SASSA USSD code: *134*7737#"
+    },
+    {
+      "id": "ussd-p",
+      "type": "paragraph",
+      "text": "Dial *134*7737# on your mobile phone to open the SASSA menu. Follow the on-screen prompts to check your grant balance, confirm your next payment date, or review your application status. Standard network rates apply; the service works on Vodacom, MTN, Cell C and Telkom."
+    },
+    {
+      "id": "channels-table",
+      "type": "table",
+      "caption": "Official SASSA mobile channels at a glance",
+      "rows": [
+        [
+          "USSD menu",
+          "*134*7737#",
+          "Balance, payment date, status — no data needed"
+        ],
+        [
+          "WhatsApp",
+          "082 046 8553",
+          "Status checks, banking details, guided menus"
+        ],
+        [
+          "Toll-free helpline",
+          "0800 60 10 11",
+          "Speaking to an agent; lost vouchers; complex queries"
+        ],
+        [
+          "Fraud hotline",
+          "0800 60 10 11",
+          "Reporting scams, stolen cards, hijacked applications"
+        ]
+      ],
+      "headers": [
+        "Channel",
+        "Number / Code",
+        "Best for"
+      ]
+    },
+    {
+      "id": "whatsapp-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA WhatsApp line"
+    },
+    {
+      "id": "whatsapp-p",
+      "type": "paragraph",
+      "text": "Save 082 046 8553 to your contacts and send 'SASSA' as your first message. The automated assistant guides you through checking balances, payment dates, application status and banking details. It is free on most networks and handles many queries without ever calling."
+    },
+    {
+      "id": "helpline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Toll-free helpline hours"
+    },
+    {
+      "id": "helpline-p",
+      "type": "paragraph",
+      "text": "Call 0800 60 10 11 to speak with an agent, Monday to Friday from 07:30 to 16:00. The call is completely free. Mornings are quieter than lunchtime; have your ID number ready before dialling so verification is quick."
+    },
+    {
+      "id": "scam-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Only these numbers are real",
+      "text": "Scammers circulate fake 'SASSA' numbers daily. The channels above are the complete official set. Any other number asking for your PIN, card details or a fee is fraud — report it on 0800 60 10 11."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What is the official SASSA USSD code?",
+          "answer": "*134*7737#. Dial it on any South African network to reach the SASSA menu for balance, payment date and status checks at standard rates."
+        },
+        {
+          "question": "Does the USSD service cost anything?",
+          "answer": "There is no service fee from SASSA; your network's standard USSD rates apply, which are typically fractions of a rand per session."
+        },
+        {
+          "question": "What is the SASSA WhatsApp number?",
+          "answer": "082 046 8553. Save it, send 'SASSA', and follow the automated options for balance, payment date, status and banking detail queries."
+        },
+        {
+          "question": "When can I call the SASSA helpline?",
+          "answer": "Monday to Friday, 07:30 to 16:00 on 0800 60 10 11. Calls are toll-free; mornings usually have shorter waiting times."
+        },
+        {
+          "question": "How do I report SASSA fraud?",
+          "answer": "Call 0800 60 10 11 and report the incident, keeping any suspicious messages as evidence. You can also report at your nearest SAPS station."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official contact channels",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Numbers verified August 2026. Treat any differing number found elsewhere as fraudulent until confirmed."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "How to Check Your Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "Payment Methods Compared",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Change Your SRD Phone Number",
+      "slug": "/guides/change-srd-phone-number"
+    }
+  ]
+}

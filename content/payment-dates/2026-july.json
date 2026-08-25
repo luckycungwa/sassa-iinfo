@@ -143,6 +143,6 @@
   "relatedPages": [
     { "title": "All Payment Dates", "slug": "/payment-dates" },
     { "title": "SASSA Grant Overview", "slug": "/grants" },
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-grant" }
+    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" }
   ]
 }

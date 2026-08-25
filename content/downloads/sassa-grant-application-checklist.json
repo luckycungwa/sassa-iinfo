@@ -1,0 +1,183 @@
+{
+  "id": "download-grant-checklist",
+  "slug": "/downloads/sassa-grant-application-checklist",
+  "classification": "downloadable-form",
+  "title": "SASSA Grant Application Document Checklist — Everything to Bring",
+  "description": "Complete checklist of documents required when applying for any SASSA social grant. Missing documents are the most common cause of application delays — arrive prepared.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Grant Application Checklist: All Documents You Need in 2026",
+    "metaDescription": "Every document needed for a SASSA grant application: ID, proof of residence, bank statements, marital status papers, medical reports and child documents — with certification rules.",
+    "keywords": [
+      "sassa application checklist",
+      "documents for sassa grant",
+      "sassa required documents",
+      "sassa application requirements"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Grant Application Document Checklist",
+      "description": "One trip instead of three: tick off every document before you visit the office. Missing paperwork is the number one reason applications stall.",
+      "readingTime": "5 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "View the Full Checklist",
+        "href": "#checklist"
+      },
+      "secondaryCta": {
+        "label": "View All Forms",
+        "href": "/downloads"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Use this checklist to gather everything before your SASSA office visit. Work through it item by item: certification has expiry rules, some documents are only needed for specific grants, and arriving complete means your application is captured on the day — with same-day receipt confirmation."
+    },
+    {
+      "id": "core-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Documents every applicant needs"
+    },
+    {
+      "id": "checklist-block",
+      "type": "document-checklist",
+      "title": "#checklist",
+      "documents": [
+        {
+          "label": "Original 13-digit green ID book or smart ID card",
+          "required": true,
+          "notes": "Must be original at the office — copies alone are not accepted."
+        },
+        {
+          "label": "Certified copy of your ID",
+          "required": true,
+          "notes": "Certification must be stamped within the last six months; SAPS commissions copies free."
+        },
+        {
+          "label": "Proof of residence",
+          "required": true,
+          "notes": "Utility bill, rental agreement, or tribal authority letter. If homeless, a sworn affidavit with a ward councillor letter suffices."
+        },
+        {
+          "label": "Three months of bank statements",
+          "required": true,
+          "notes": "Stamped or certified by your bank. Shows income (or its absence) for the means test."
+        },
+        {
+          "label": "Marital status documents where applicable",
+          "required": false,
+          "notes": "Marriage certificate, divorce decree, or spouse's death certificate."
+        },
+        {
+          "label": "Medical report (Disability Grant only)",
+          "required": false,
+          "notes": "Completed by a SASSA-contracted medical officer — state assessment, not your GP's letter."
+        },
+        {
+          "label": "Proof of other income or benefits",
+          "required": false,
+          "notes": "UIF letter, pension slip, or NSFAS letter if you receive any of these."
+        },
+        {
+          "label": "Children's birth certificates (child grants)",
+          "required": false,
+          "notes": "Required for Child Support, Foster Care and Care Dependency applications."
+        },
+        {
+          "label": "Court order (Foster Care Grant)",
+          "required": false,
+          "notes": "The placement order from the children's court."
+        }
+      ]
+    },
+    {
+      "id": "cert-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Certification rules that trip people up"
+    },
+    {
+      "id": "cert-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Certifications older than six months are rejected — re-stamp old copies before applying.",
+        "SAPS stations certify ID copies free of charge; bring the original plus the copy.",
+        "Bank statements must show your full name and account number on the bank's letterhead or app export.",
+        "Foreign nationals: use valid permit documents — asylum section 22 permits limit which grants apply."
+      ]
+    },
+    {
+      "id": "day-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "On the day itself",
+      "text": "Arrive early, bring originals AND certified copies, and keep every receipt SASSA issues. Your application receives a reference number the day it is captured — that reference is how you track progress afterwards."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What documents do I need for a SASSA grant application?",
+          "answer": "Core four: original ID, certified ID copy, proof of residence, and three months of bank statements — plus grant-specific items like birth certificates for child grants, court orders for foster care, or medical reports for disability."
+        },
+        {
+          "question": "How recent must my certified ID copy be?",
+          "answer": "Certification must be stamped within six months of submission. Older stamps are rejected, so re-certify before applying."
+        },
+        {
+          "question": "I have no proof of residence in my name. What now?",
+          "answer": "Use a sworn affidavit confirming your residential address supported by a ward councillor or tribal authority letter. SASSA accepts these where formal utility bills are not available."
+        },
+        {
+          "question": "Can I apply without bank statements?",
+          "answer": "If you have no bank account, declare this at the office — staff will guide the alternative affidavit route. But opening a basic account is usually faster and helps you receive payments directly later."
+        },
+        {
+          "question": "Do I need an appointment?",
+          "answer": "No appointments are needed — offices work on queues. Arriving early in the morning, mid-month and mid-week gives you the shortest waits."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA application documentation requirements",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Checklist verified against current office requirements, August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Grant Application Form Guide",
+      "slug": "/downloads/sassa-application-form"
+    },
+    {
+      "title": "Consent and Declaration Form",
+      "slug": "/downloads/sassa-consent-form"
+    },
+    {
+      "title": "Eligibility Overview",
+      "slug": "/eligibility"
+    }
+  ]
+}

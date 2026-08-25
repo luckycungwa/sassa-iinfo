@@ -1,0 +1,205 @@
+{
+  "id": "guide-change-srd-phone-number",
+  "slug": "/guides/change-srd-phone-number",
+  "classification": "how-to-guide",
+  "title": "How to Change Your SRD Phone Number",
+  "description": "Step-by-step guide to changing the cellphone number on your SRD R370 grant application, online at srd.sassa.gov.za or via WhatsApp, and what to do if you no longer have the old SIM.",
+  "lastUpdated": "2026-08-23",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "How to Change Your SRD R370 Phone Number (2026 Step-by-Step)",
+    "metaDescription": "Update the cellphone number on your SRD R370 grant: online request at srd.sassa.gov.za, WhatsApp option, ID requirements, and how long approval takes.",
+    "keywords": [
+      "change srd phone number",
+      "update srd cell number",
+      "srd r370 new number",
+      "sassa change number"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "How to Change Your SRD Phone Number",
+      "description": "Your registered cellphone is your key to SRD OTPs, approval SMSes and payment notices. Lost the SIM? Changed networks? Here is exactly how to update it.",
+      "readingTime": "6 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "SRD Portal Login Steps",
+        "href": "/banking/how-to-register-for-srd-portal"
+      },
+      "secondaryCta": {
+        "label": "Check Your Status",
+        "href": "/guides/how-to-check-sassa-status"
+      }
+    },
+    {
+      "id": "why-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Why your registered number matters"
+    },
+    {
+      "id": "why-p1",
+      "type": "paragraph",
+      "text": "SASSA sends every important SRD message — one-time PINs, monthly approvals, payment dates and review notices — to the cellphone number linked to your application. If you have lost that number or switched networks, you are effectively cut off from your own grant updates, and a stranger using your old SIM may receive them instead."
+    },
+    {
+      "id": "why-p2",
+      "type": "paragraph",
+      "text": "Updating your number is free, and doing it promptly protects both your money and your identity."
+    },
+    {
+      "id": "methods-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Two ways to change your SRD number"
+    },
+    {
+      "id": "method-steps",
+      "type": "steps",
+      "title": "Method 1: Online request form (most common)",
+      "steps": [
+        {
+          "title": "Go to the official SRD website",
+          "description": "Open srd.sassa.gov.za in any browser. Avoid links sent by strangers — type the address yourself."
+        },
+        {
+          "title": "Find the 'Request change of cellphone number' option",
+          "description": "It sits under the SRD R370 services section on the home page."
+        },
+        {
+          "title": "Enter your existing ID number",
+          "description": "Use your 13-digit South African ID or, for asylum seekers and special-permit holders, your file number."
+        },
+        {
+          "title": "Enter the NEW cellphone number you want registered",
+          "description": "The SIM must be in your name or at least in your active possession — SASSA verifies ownership against network records."
+        },
+        {
+          "title": "Follow the SMS instructions on both numbers where asked",
+          "description": "You will receive confirmation prompts. Complete them within the stated time or the request lapses."
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-steps",
+      "type": "steps",
+      "title": "Method 2: SASSA WhatsApp line",
+      "steps": [
+        {
+          "title": "Save 082 046 8553",
+          "description": "This is the official SASSA WhatsApp service number."
+        },
+        {
+          "title": "Say 'Change number'",
+          "description": "The menu guides you through identity verification with your ID number."
+        },
+        {
+          "title": "Provide the new number and confirm",
+          "description": "You will get a reference for the change request — keep it until the update is confirmed by SMS."
+        }
+      ]
+    },
+    {
+      "id": "timing-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How long does the change take?"
+    },
+    {
+      "id": "timing-p",
+      "type": "paragraph",
+      "text": "Most number changes process within 3 to 7 working days because SASSA cross-checks SIM registration details with the mobile networks. During this window, keep the old number active if you still can. Approval arrives by SMS to your new number."
+    },
+    {
+      "id": "lostsim-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If you no longer have the old SIM at all"
+    },
+    {
+      "id": "lostsim-p",
+      "type": "paragraph",
+      "text": "You do not need the old SIM to update your details — the online form works purely from your ID number. What matters is proving the new number belongs to you, which happens automatically through RICA-linked network checks. If verification fails repeatedly, visit a SASSA office with your green barcoded ID; staff can escalate the change manually."
+    },
+    {
+      "id": "fraud-callout",
+      "type": "callout",
+      "variant": "warning",
+      "title": "Changed number without your knowledge?",
+      "text": "If your approval SMSes suddenly stop and your status shows messages 'sent' to an unfamiliar number, someone may have hijacked your application. Request the change back immediately and report suspected fraud on 0800 60 10 11."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Can I change my SRD phone number without the old SIM?",
+          "answer": "Yes. The online change-of-number request uses your ID number, not the old SIM. Network verification confirms the new number belongs to you within 3-7 working days."
+        },
+        {
+          "question": "Does changing my number delay my SRD payment?",
+          "answer": "It can, briefly. Payment notifications go to your registered number, so update it well before month-end and monitor your status directly on the portal during the switchover."
+        },
+        {
+          "question": "Can I use someone else's number for my SRD grant?",
+          "answer": "It is strongly discouraged and often fails verification, since SASSA checks SIM ownership. Using another person's number means they receive your OTPs — a fraud risk for both of you."
+        },
+        {
+          "question": "How do I know my number change was successful?",
+          "answer": "You receive a confirmation SMS on the new number once processing completes. You can also log into srd.sassa.gov.za — the dashboard reflects the updated contact details."
+        },
+        {
+          "question": "What if I also need to change my banking details?",
+          "answer": "Bank detail changes are a separate process done through the portal's bank-change option with its own verification. Do them one at a time — simultaneous changes trigger extra fraud screening. See our banking details guide."
+        },
+        {
+          "question": "Is there a fee to change my SRD number?",
+          "answer": "No. Any website or person charging a fee for this is scamming you. The official channels are srd.sassa.gov.za, the WhatsApp line 082 046 8553, and SASSA offices."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SRD R370 official portal — change of cellphone request",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA WhatsApp self-service line 082 046 8553",
+          "url": "https://wa.me/27820468553"
+        },
+        {
+          "label": "SASSA toll-free helpline 0800 60 10 11",
+          "url": "tel:0800601011"
+        }
+      ],
+      "note": "Verified against official SASSA channels in August 2026. Never pay anyone to update your details."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Reconfirm Your SRD Grant",
+      "slug": "/guides/reconfirm-srd-grant"
+    },
+    {
+      "title": "Cancel Your SRD Application",
+      "slug": "/guides/cancel-srd-application"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    }
+  ]
+}

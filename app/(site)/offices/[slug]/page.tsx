@@ -33,6 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${office.name} | SASSA Office in ${office.city}, ${office.province}`,
     description: `${office.name} in ${office.city}, ${office.province}. Address: ${office.address}. Phone: ${office.phone}. Hours: ${office.operatingHours}. Services: ${office.servicesOffered.join(", ")}.`,
     alternates: { canonical: canonicalUrl(`/offices/${slug}`) },
+    robots: { index: false, follow: true },
   };
 }
 
@@ -127,7 +128,7 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ s
 
         {office.localTip && (
           <div className="bg-gold/5 border border-gold/20 rounded-xl p-5">
-            <h2 className="text-xs font-extrabold text-gold font-mono uppercase tracking-wider mb-2">Local Tip</h2>
+            <h2 className="text-xs font-extrabold text-accent-dark font-mono uppercase tracking-wider mb-2">Local Tip</h2>
             <p className="text-sm text-muted leading-relaxed">{office.localTip}</p>
           </div>
         )}

@@ -4,7 +4,8 @@ import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
 import { canonicalUrl } from "@/lib/canonical";
 import { downloadableForms } from "../../../../lib/data/downloads";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
-import { breadcrumbSchema } from "../../../../lib/json-ld";
+import { breadcrumbSchema, faqSchema } from "../../../../lib/json-ld";
+import type { FAQBlock } from "../../../../lib/schema/contentSchema";
 import { FileText } from "lucide-react";
 
 export function generateStaticParams() {
@@ -37,8 +38,13 @@ export default async function DownloadDetailPage({ params }: { params: Promise<{
 
   const content = getPageBySlug(`/downloads/${slug}`);
   if (content) {
+    const faqBlock = content.contentBlocks.find((b): b is FAQBlock => b.type === "faq");
+    const faqJsonLd = faqBlock ? faqSchema(faqBlock.faqs) : null;
     return (
       <>
+        {faqJsonLd && (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+        )}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
           { name: "Home", url: "/" },
           { name: "Download Centre", url: "/downloads" },

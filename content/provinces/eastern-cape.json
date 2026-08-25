@@ -1,0 +1,162 @@
+{
+  "id": "province-eastern-cape",
+  "slug": "/provinces/eastern-cape",
+  "classification": "province-hub",
+  "title": "SASSA Eastern Cape Province — Offices, Grants & Information",
+  "description": "Complete guide to SASSA services in the Eastern Cape. Regional office in East London, rural collection around Mthatha and Lusikisiki, isiXhosa services, and province FAQs.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Eastern Cape: Offices, Grants & Collection Guide 2026",
+    "metaDescription": "SASSA guide for the Eastern Cape. Regional office at 3 Oxford Street, East London (043 707 6400). Mthatha services, mobile pay points for deep rural areas, bank transfer advice and FAQs.",
+    "keywords": [
+      "SASSA Eastern Cape",
+      "Eastern Cape SASSA offices",
+      "SASSA East London",
+      "SASSA Mthatha",
+      "SASSA mobile pay points Eastern Cape"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Eastern Cape Province",
+      "description": "Provincial hub for Eastern Cape beneficiaries: regional office contacts, collection across cities and deep rural villages, mobile pay points, and local FAQs.",
+      "readingTime": "6 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
+    },
+    {
+      "id": "province-overview",
+      "type": "province-overview",
+      "capital": "Bhisho",
+      "regionalOfficeAddress": "3 Oxford Street, East London, 5201",
+      "regionalOfficePhone": "043 707 6400",
+      "collectionInfo": "Eastern Cape beneficiaries collect at major retailers (Shoprite, Boxer, Pick n Pay) or via direct bank transfer. Mobile pay points serve deep rural areas around Mthatha, Lusikisiki and Mount Frere — the province has some of the longest travel distances to offices in South Africa.",
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant"
+      ]
+    },
+    {
+      "id": "services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA services in the Eastern Cape"
+    },
+    {
+      "id": "services-p",
+      "type": "paragraph",
+      "text": "The regional office in East London coordinates local offices across the province, from Nelson Mandela Bay and East London metros to rural service points serving the former Transkei regions. Full-service offices handle applications, reviews and card services; mobile units carry applications and enquiries into remote villages where no office is within practical travelling distance."
+    },
+    {
+      "id": "offices-grid",
+      "type": "link-grid",
+      "title": "Finding your nearest office",
+      "links": [
+        {
+          "label": "Browse the national offices directory",
+          "href": "/offices"
+        },
+        {
+          "label": "Regional office enquiries: 043 707 6400",
+          "href": null
+        }
+      ]
+    },
+    {
+      "id": "collection-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant collection in the Eastern Cape"
+    },
+    {
+      "id": "collection-p1",
+      "type": "paragraph",
+      "text": "Metro beneficiaries in Gqeberha and East London have full retail access — card withdrawals at all national chains work on payment day without fees. The provincial challenge is rurality: villages around Mthatha, Lusikisiki, Flagstaff and Mount Frere can be hours from the nearest retailer."
+    },
+    {
+      "id": "collection-p2",
+      "type": "paragraph",
+      "text": "For those areas, scheduled mobile pay points are the backbone of collection. Where a beneficiary has any bank account, direct transfer remains the strongest recommendation: it removes travel entirely and money reflects within days of each pay date. Cash Send at participating retailers covers beneficiaries without accounts who can reach a town occasionally."
+    },
+    {
+      "id": "tips-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "All offices have isiXhosa-speaking staff; forms can be completed in isiXhosa.",
+        "Bank transfer eliminates long rural travel — switch at any office with your ID.",
+        "Mobile unit schedules change monthly; confirm before travelling.",
+        "The Mthatha local office serves surrounding communities; deeper rural points rely on mobile visits."
+      ]
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Are there SASSA mobile offices in rural areas?",
+          "answer": "Yes. Mobile units visit rural villages on scheduled days each month. The East London regional office or your nearest local office can confirm the current schedule."
+        },
+        {
+          "question": "What is the closest SASSA office to Mthatha?",
+          "answer": "The Mthatha local office serves the town and surrounds. For deep rural areas near Lusikisiki and Flagstaff, mobile pay points are the primary service channel."
+        },
+        {
+          "question": "Can I apply for a grant in isiXhosa?",
+          "answer": "Yes. Every Eastern Cape office has isiXhosa-speaking staff, and application forms can be explained and completed in isiXhosa."
+        },
+        {
+          "question": "What is the best payment method for rural beneficiaries?",
+          "answer": "Direct bank transfer if you have an account — it avoids long trips entirely. Otherwise register for Cash Send collection at the nearest participating retailer."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA Eastern Cape regional office",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Provincial details verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Payment Methods Compared",
+      "slug": "/banking/payment-methods"
+    }
+  ]
+}

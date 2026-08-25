@@ -7,44 +7,144 @@
   "lastUpdated": "2026-07-01",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Appealing SASSA Decline Due to UIF Registration — Complete Guide",
     "metaDescription": "Guide to appealing a SASSA grant decline caused by UIF registration. Learn how to get a UI-19 termination letter from the Department of Labour and submit it with your ITSAA appeal.",
-    "keywords": ["SASSA UIF appeal", "UIF registered SASSA decline", "UI-19 form", "SASSA UIF database error", "appeal SASSA UIF"]
+    "keywords": [
+      "SASSA UIF appeal",
+      "UIF registered SASSA decline",
+      "UI-19 form",
+      "SASSA UIF database error",
+      "appeal SASSA UIF"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Appealing a Decline Due to UIF Registration",
       "description": "SASSA often declines grants when your ID is linked to a UIF record, even if you are no longer receiving payments. This guide explains how to get a UI-19 termination letter from the Department of Labour and submit a successful appeal.",
       "readingTime": "5 min read",
       "lastUpdated": "June 2026",
-      "cta": { "text": "Appeal Your UIF Decline", "href": "https://srd.dsd.gov.za" },
-      "secondaryCta": { "text": "How to Appeal Guide", "href": "/appeals/how-to-appeal" }
+      "cta": {
+        "text": "Appeal Your UIF Decline",
+        "href": "https://srd.dsd.gov.za"
+      },
+      "secondaryCta": {
+        "text": "How to Appeal Guide",
+        "href": "/appeals/how-to-appeal"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Appealing a Decline Due to UIF Registration" },
-    { "id": "intro", "type": "paragraph", "text": "A very common reason for grant rejection is 'UIF Registered'. This happens because SASSA's database checks find your ID registered on the Department of Labour's UIF database, even if you are no longer receiving payments." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants who received a decline status because their ID number is linked to a UIF record, even if they are no longer receiving UIF payments." },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Steps to Appeal" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Visit the Department of Labour", "description": "Visit your local Department of Labour office to request a UI-19 form or a UIF Status Letter." },
-      { "title": "Get proof of termination", "description": "Ensure the letter clearly states your employment has terminated and you are no longer receiving monthly UIF payouts." },
-      { "title": "Make a copy", "description": "Scan or take a clear photo of this official letter." },
-      { "title": "Submit your appeal", "description": "Submit your appeal online via the ITSAA portal and upload the proof of UIF termination, or present it at a SASSA office." }
-    ] },
-    { "id": "callout", "type": "callout", "intent": "info", "title": "Timeline", "text": "Submit as soon as you receive the decline, within 90 days. The Department of Labour can take 5-10 days to print your status letter." },
-    { "id": "documents-h", "type": "heading", "level": 3, "text": "Required Documents" },
-    { "id": "documents", "type": "list", "ordered": false, "items": ["UI-19 form or official UIF status confirmation letter", "Copy of your ID", "Unemployment affidavit"] },
-    { "id": "why-h", "type": "heading", "level": 3, "text": "Why This Happens" },
-    { "id": "why", "type": "list", "ordered": false, "items": ["Employer failed to update your termination status with the Department of Labour", "Legacy database error on the state servers"] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Why did SASSA say I have UIF when I was retrenched years ago?", "answer": "This is almost always because your former employer never submitted your UI-19 termination form to the Department of Labour, leaving your status active on their database." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Appealing a Decline Due to UIF Registration"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "A very common reason for grant rejection is 'UIF Registered'. This happens because SASSA's database checks find your ID registered on the Department of Labour's UIF database, even if you are no longer receiving payments."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This guide is for SASSA applicants who received a decline status because their ID number is linked to a UIF record, even if they are no longer receiving UIF payments."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Steps to Appeal"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Visit the Department of Labour",
+          "description": "Visit your local Department of Labour office to request a UI-19 form or a UIF Status Letter."
+        },
+        {
+          "title": "Get proof of termination",
+          "description": "Ensure the letter clearly states your employment has terminated and you are no longer receiving monthly UIF payouts."
+        },
+        {
+          "title": "Make a copy",
+          "description": "Scan or take a clear photo of this official letter."
+        },
+        {
+          "title": "Submit your appeal",
+          "description": "Submit your appeal online via the ITSAA portal and upload the proof of UIF termination, or present it at a SASSA office."
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Timeline",
+      "text": "Submit as soon as you receive the decline, within 90 days. The Department of Labour can take 5-10 days to print your status letter."
+    },
+    {
+      "id": "documents-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Required Documents"
+    },
+    {
+      "id": "documents",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "UI-19 form or official UIF status confirmation letter",
+        "Copy of your ID",
+        "Unemployment affidavit"
+      ]
+    },
+    {
+      "id": "why-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Why This Happens"
+    },
+    {
+      "id": "why",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Employer failed to update your termination status with the Department of Labour",
+        "Legacy database error on the state servers"
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Why did SASSA say I have UIF when I was retrenched years ago?",
+          "answer": "This is almost always because your former employer never submitted your UI-19 termination form to the Department of Labour, leaving your status active on their database."
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
-    { "title": "Appeal After NSFAS Decline", "slug": "/appeals/appeal-after-nsfas" },
-    { "title": "Common Reasons for Decline", "slug": "/appeals/appeal-reasons" }
+    {
+      "title": "How to Appeal",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Appeal After NSFAS Decline",
+      "slug": "/appeals/appeal-after-nsfas"
+    },
+    {
+      "title": "Common Reasons for Decline",
+      "slug": "/appeals/appeal-reasons"
+    }
   ]
 }

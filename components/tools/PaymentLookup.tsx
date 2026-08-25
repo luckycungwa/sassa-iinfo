@@ -15,8 +15,8 @@ export default function PaymentLookup() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="space-y-2">
-          <label className="block text-xs font-bold text-muted-foreground">Select Grant Type</label>
-          <select value={selectedGrant} onChange={(e) => setSelectedGrant(e.target.value)}
+          <label htmlFor="lookup-grant" className="block text-xs font-bold text-muted-foreground">Select Grant Type</label>
+          <select id="lookup-grant" value={selectedGrant} onChange={(e) => setSelectedGrant(e.target.value)}
             className="w-full border border-surface-container rounded-xl px-3 py-2.5 bg-canvas">
             <option value="older-person">Older Persons Pension</option>
             <option value="disability">Disability Grant</option>
@@ -26,8 +26,8 @@ export default function PaymentLookup() {
         </div>
 
         <div className="space-y-2">
-          <label className="block text-xs font-bold text-muted-foreground">Select Month</label>
-          <select value={selectedMonth} onChange={(e) => setSelectedMonth(e.target.value)}
+          <label htmlFor="lookup-month" className="block text-xs font-bold text-muted-foreground">Select Month</label>
+          <select id="lookup-month" value={selectedMonth} onChange={(e) => setSelectedMonth(e.target.value)}
             className="w-full border border-surface-container rounded-xl px-3 py-2.5 bg-canvas">
             <option value="july-2026">July 2026</option>
             <option value="august-2026">August 2026</option>
@@ -35,14 +35,14 @@ export default function PaymentLookup() {
         </div>
       </div>
 
-      <div className="p-5 bg-midnight border border-border rounded-xl text-center">
+      <div role="status" aria-live="polite" className="p-5 bg-midnight border border-border rounded-xl text-center">
         <p className="text-xs text-gold font-mono uppercase tracking-wider">Scheduled Payment Date</p>
-        <h3 className="text-2xl font-extrabold text-body mt-1">
+        <h3 className="text-2xl font-extrabold text-gold mt-1">
           {selectedGrant === "older-person" && selectedMonth === "july-2026" && "3 July 2026"}
           {selectedGrant === "older-person" && selectedMonth === "august-2026" && "4 August 2026"}
           {selectedGrant === "disability" && selectedMonth === "july-2026" && "4 July 2026"}
           {selectedGrant === "disability" && selectedMonth === "august-2026" && "5 August 2026"}
-          {selectedGrant === "child-support" && selectedMonth === "july-2026" && "5 July 2026"}
+          {selectedGrant === "child-support" && selectedMonth === "july-2026" && "6 July 2026"}
           {selectedGrant === "child-support" && selectedMonth === "august-2026" && "6 August 2026"}
           {selectedGrant === "srd" && selectedMonth === "july-2026" && "25 - 30 July 2026"}
           {selectedGrant === "srd" && selectedMonth === "august-2026" && "25 - 31 August 2026"}

@@ -47,7 +47,7 @@ export default function AppealsCentre() {
               }`}
             >
               <h3 className="text-sm font-bold leading-tight">{g.title}</h3>
-              <p className={`text-xs ${activeGuide.id === g.id ? "text-black/70" : "text-muted"}`}>
+              <p className={`text-xs ${activeGuide.id === g.id ? "text-ink" : "text-muted"}`}>
                 {g.shortDescription}
               </p>
             </button>

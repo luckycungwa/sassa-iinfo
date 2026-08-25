@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Search, Clock, AlertTriangle, ShieldCheck, ArrowRight, CheckCircle, XCircle } from "lucide-react";
 import { statuses } from "../../../lib/data/statuses";
@@ -30,11 +30,11 @@ export default function StatusHubPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <section className="bg-slate text-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-white/60 uppercase tracking-widest mb-3">status centre</p>
+          <p className="text-xs font-bold text-muted uppercase tracking-widest mb-3">status centre</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-white leading-[1.15] tracking-[-0.007em]">
             SASSA status meanings explained
           </h1>
-          <p className="text-[21px] text-white/80 mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
             Your SASSA application status tells you exactly where things stand. Whether it says Pending, Approved, Declined, or something else, we explain what it means and what to do next.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
@@ -50,6 +50,27 @@ export default function StatusHubPage() {
             >
               Why is my status pending?
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-paper border-t border-border py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-[19px] font-black text-carbon tracking-[-0.007em] mb-4">Common problems right now</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {[
+              { href: "/status/approved", title: "Approved, no pay date", desc: "What it means when approval shows without a pay day" },
+              { href: "/banking/payment-not-reflecting", title: "Pay day passed, no money", desc: "Escalation steps when your payment is overdue" },
+              { href: "/status/payment-processing", title: "Payment date changed", desc: "Why dates shift and what your status is telling you" },
+              { href: "/banking/update-bank-details", title: "Bank details problem", desc: "Fix banking details stuck in verification" },
+              { href: "/guides/change-srd-phone-number", title: "Changed or lost number", desc: "Update your SRD cellphone number, even without the SIM" },
+              { href: "/appeals/how-to-appeal", title: "Declined â€” appeal", desc: "Lodge an ITSAA appeal within the 90-day window" },
+            ].map((p) => (
+              <Link key={p.href} href={p.href} className="flex flex-col p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+                <p className="text-sm font-black text-carbon group-hover:text-violet transition">{p.title}</p>
+                <p className="text-xs text-ash mt-1 leading-snug">{p.desc}</p>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -169,10 +190,10 @@ export default function StatusHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Need help with a specific SASSA status?</p>
-              <p className="text-sm text-white/60">Check your status online or visit the appeals centre</p>
+              <p className="text-sm text-muted">Check your status online or visit the appeals centre</p>
             </div>
             <div className="flex gap-2">
-              <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-yellow text-carbon rounded-[22px] text-xs font-bold hover:opacity-90 transition">
+              <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">
                 Check Status <ArrowRight className="w-3 h-3" />
               </a>
               <Link href="/appeals" className="inline-flex items-center gap-1.5 px-5 py-2.5 border-2 border-white/30 text-white rounded-[22px] text-xs font-bold hover:bg-white/10 transition">

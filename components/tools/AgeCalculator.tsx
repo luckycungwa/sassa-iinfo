@@ -35,16 +35,16 @@ export default function AgeCalculator() {
       </div>
 
       <div className="space-y-2">
-        <label className="block text-xs font-bold text-muted-foreground">Enter Your Date of Birth</label>
+        <label htmlFor="age-dob" className="block text-xs font-bold text-muted-foreground">Enter Your Date of Birth</label>
         <div className="flex gap-2">
-          <input type="date" value={dob} onChange={(e) => setDob(e.target.value)}
+          <input id="age-dob" type="date" value={dob} onChange={(e) => setDob(e.target.value)}
             className="border border-surface-container rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none" />
           <button onClick={handleCalculateAge} className="bg-gold hover:bg-gold-dark text-black font-bold px-4 py-2.5 rounded-xl text-xs transition">Verify Age limits</button>
         </div>
       </div>
 
       {ageResult && (
-        <div className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
+        <div role="status" aria-live="polite" className="p-4 bg-canvas rounded-xl border border-border space-y-3 animate-fadeIn">
           <p className="text-sm font-bold text-ink">Calculated Age: <span className="text-accent-dark">{ageResult.age} years old</span></p>
           {ageResult.qualifiedGrants.length > 0 ? (
             <div className="space-y-2">

@@ -8,22 +8,42 @@
   "version": "1.0.0",
   "readingTime": "7 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Founder, 44tagstudios", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Founder, 44tagstudios",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Grant-in-Aid 2026: Amount, Eligibility & How to Apply",
     "metaDescription": "Complete guide to the SASSA Grant-in-Aid: R580 monthly top-up for Older Person, Disability, or War Veterans Grant recipients who need full-time care. Eligibility, medical assessment, and application steps.",
-    "keywords": ["grant-in-aid", "SASSA grant-in-aid", "SASSA top-up grant", "full-time care grant", "SASSA caregiver grant"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Grant-in-Aid" }
+    "keywords": [
+      "grant-in-aid",
+      "SASSA grant-in-aid",
+      "SASSA top-up grant",
+      "full-time care grant",
+      "SASSA caregiver grant"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Grant-in-Aid"
+    }
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Grant-in-Aid",
       "description": "Complete guide to the SASSA Grant-in-Aid: R580 per month paid on top of your existing grant if you need full-time care from another person. Eligibility criteria, medical assessment process, how to apply, and common mistakes that cause declines.",
       "readingTime": "7 min read",
       "lastUpdated": "2026-07-27",
-      "cta": { "label": "Older Person Grant Guide", "href": "/grants/older-person-grant" },
-      "secondaryCta": { "label": "Disability Grant Guide", "href": "/grants/disability-grant" }
+      "cta": {
+        "label": "Older Person Grant Guide",
+        "href": "/grants/older-person-grant"
+      },
+      "secondaryCta": {
+        "label": "Disability Grant Guide",
+        "href": "/grants/disability-grant"
+      }
     },
     {
       "id": "summary",
@@ -69,8 +89,16 @@
         "Both you and your caregiver must provide details on the application"
       ],
       "recommendedGrants": [
-        { "name": "Older Person Grant", "slug": "/grants/older-person-grant", "amount": "R2,400" },
-        { "name": "Disability Grant", "slug": "/grants/disability-grant", "amount": "R2,400" }
+        {
+          "name": "Older Person Grant",
+          "slug": "/grants/older-person-grant",
+          "amount": "R2,400"
+        },
+        {
+          "name": "Disability Grant",
+          "slug": "/grants/disability-grant",
+          "amount": "R2,400"
+        }
       ]
     },
     {
@@ -113,11 +141,27 @@
       "id": "docs",
       "type": "document-checklist",
       "documents": [
-        { "label": "Your original 13-digit ID or smart ID card", "required": true },
-        { "label": "Medical assessment report from a doctor", "required": true, "notes": "Must state you need 24-hour full-time care. Use the official SASSA form." },
-        { "label": "Your primary grant details (reference number or latest payment slip)", "required": true },
-        { "label": "Details of your caregiver (name, ID number, relationship to you)", "required": true },
-        { "label": "Proof of residence", "required": true }
+        {
+          "label": "Your original 13-digit ID or smart ID card",
+          "required": true
+        },
+        {
+          "label": "Medical assessment report from a doctor",
+          "required": true,
+          "notes": "Must state you need 24-hour full-time care. Use the official SASSA form."
+        },
+        {
+          "label": "Your primary grant details (reference number or latest payment slip)",
+          "required": true
+        },
+        {
+          "label": "Details of your caregiver (name, ID number, relationship to you)",
+          "required": true
+        },
+        {
+          "label": "Proof of residence",
+          "required": true
+        }
       ]
     },
     {
@@ -130,11 +174,26 @@
       "id": "apply-steps",
       "type": "steps",
       "steps": [
-        { "title": "Visit your doctor", "description": "Ask your doctor to complete the SASSA medical report form. Ensure they explicitly state you need 24-hour full-time care. The form is available at any SASSA office." },
-        { "title": "Gather your documents", "description": "Collect your ID, primary grant details, the medical report, caregiver details, and proof of residence." },
-        { "title": "Visit your SASSA office", "description": "Go to the SASSA office where your primary grant is registered. Submit all documents to the grants officer." },
-        { "title": "Complete the application", "description": "Fill in the Grant-in-Aid application form. The officer will capture your details and those of your caregiver." },
-        { "title": "Wait for processing", "description": "If your primary grant is active and the medical report is clear, processing is usually faster than new grant applications — typically 4-6 weeks." }
+        {
+          "title": "Visit your doctor",
+          "description": "Ask your doctor to complete the SASSA medical report form. Ensure they explicitly state you need 24-hour full-time care. The form is available at any SASSA office."
+        },
+        {
+          "title": "Gather your documents",
+          "description": "Collect your ID, primary grant details, the medical report, caregiver details, and proof of residence."
+        },
+        {
+          "title": "Visit your SASSA office",
+          "description": "Go to the SASSA office where your primary grant is registered. Submit all documents to the grants officer."
+        },
+        {
+          "title": "Complete the application",
+          "description": "Fill in the Grant-in-Aid application form. The officer will capture your details and those of your caregiver."
+        },
+        {
+          "title": "Wait for processing",
+          "description": "If your primary grant is active and the medical report is clear, processing is usually faster than new grant applications — typically 4-6 weeks."
+        }
       ]
     },
     {
@@ -184,16 +243,41 @@
       "id": "related-links",
       "type": "link-grid",
       "links": [
-        { "title": "Older Person Grant", "href": "/grants/older-person-grant", "description": "State pension for seniors 60+" },
-        { "title": "Disability Grant", "href": "/grants/disability-grant", "description": "Grant for persons unable to work" },
-        { "title": "Care Dependency Grant", "href": "/grants/care-dependency-grant", "description": "For caregivers of disabled children" },
-        { "title": "Appeal a Decline", "href": "/appeals/how-to-appeal", "description": "Challenge a declined application" }
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant",
+          "description": "State pension for seniors 60+"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant",
+          "description": "Grant for persons unable to work"
+        },
+        {
+          "title": "Care Dependency Grant",
+          "href": "/grants/care-dependency-grant",
+          "description": "For caregivers of disabled children"
+        },
+        {
+          "title": "Appeal a Decline",
+          "href": "/appeals/how-to-appeal",
+          "description": "Challenge a declined application"
+        }
       ]
     }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
-    { "title": "Disability Grant", "slug": "/grants/disability-grant" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Older Person Grant",
+      "slug": "/grants/older-person-grant"
+    },
+    {
+      "title": "Disability Grant",
+      "slug": "/grants/disability-grant"
+    }
   ]
 }

@@ -7,81 +7,256 @@
   "lastUpdated": "2026-07-29",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official SASSA publications", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Scam Warning July 2026 — Fake SMS Targeting SRD Beneficiaries",
     "metaDescription": "Urgent SASSA fraud alert: new SMS scam tells SRD R370 beneficiaries their grant is stopped. Fake srd.sassa.gov.za clone asks for ID, bank details and OTP. How to stay safe.",
-    "keywords": ["SASSA scam warning", "SRD SMS scam", "fake SASSA website", "grant fraud alert", "phishing SMS"]
+    "keywords": [
+      "SASSA scam warning",
+      "SRD SMS scam",
+      "fake SASSA website",
+      "grant fraud alert",
+      "phishing SMS"
+    ]
   },
   "contentBlocks": [
-    { "id": "hero-1", "type": "hero", "title": "SASSA Issues Fresh Scam Warning: Fake SMS Targeting SRD Beneficiaries", "description": "SASSA has issued an urgent fraud alert about a new wave of SMS scams targeting SRD R370 grant beneficiaries. The fake messages claim your grant has been stopped and direct you to a fraudulent website designed to steal your personal information.", "readingTime": "6 min read", "lastUpdated": "2026-07-29" },
-    { "id": "h1", "type": "heading", "level": 2, "text": "How the Scam Works" },
-    { "id": "p1", "type": "paragraph", "text": "SASSA has issued an urgent fraud alert about a new wave of SMS scams targeting SRD R370 grant beneficiaries. The scam works by sending a text message from an unknown number that appears to be from SASSA. The message claims your grant has been stopped or suspended and instructs you to click a link to verify your details." },
-    { "id": "p2", "type": "paragraph", "text": "The link takes you to a fake website that closely mimics the official SRD portal at srd.sassa.gov.za. The fraudulent site will ask you to enter your ID number, bank account details, and a one-time PIN (OTP). Once you submit this information, the scammers can access your bank account and steal your money." },
-    { "id": "h2", "type": "heading", "level": 3, "text": "Typical Scam SMS Example" },
-    { "id": "callout1", "type": "callout", "intent": "warning", "title": "Do NOT Respond to This Type of Message", "text": "A typical scam SMS reads: 'SASSA: Your SRD grant has been suspended due to incomplete verification. Click here to verify your details immediately: http://srd-sassa-verify.co.za. Failure to respond within 24 hours will result in permanent cancellation.' This is a FAKE message. Delete it immediately." },
-    { "id": "p3", "type": "paragraph", "text": "The scammers use fear and urgency to trick you into acting quickly without thinking. They say your grant will be permanently cancelled if you do not respond within 24 hours. This pressure is designed to stop you from checking with official sources." },
-    { "id": "h3", "type": "heading", "level": 3, "text": "Red Flags to Look Out For" },
-    { "id": "list1", "type": "list", "ordered": false, "items": [
-      "The SMS comes from an unknown mobile number, not from an official SASSA short code",
-      "The message contains a clickable link — SASSA never sends links via SMS",
-      "The website address does not end in .gov.za — official SASSA sites always use .gov.za",
-      "The message asks for your bank PIN, online banking password, or OTP",
-      "The message creates urgency with threats of permanent cancellation",
-      "The SMS has poor grammar or spelling mistakes"
-    ] },
-    { "id": "h4", "type": "heading", "level": 3, "text": "What SASSA Will Never Do" },
-    { "id": "list2", "type": "list", "ordered": false, "items": [
-      "SASSA never sends SMS messages with links asking you to verify your details",
-      "SASSA never asks for your bank PIN, online banking password, or OTP",
-      "SASSA never calls you asking for payment to release your grant",
-      "SASSA never requests your ID number via SMS or social media",
-      "SASSA never sends representatives to your home to collect documents or money"
-    ] },
-    { "id": "h5", "type": "heading", "level": 3, "text": "What to Do If You Receive a Suspicious SMS" },
-    { "id": "steps1", "type": "steps", "steps": [
-      { "title": "Do not click any links", "description": "The link leads to a fake website designed to steal your information. Do not open it under any circumstances." },
-      { "title": "Delete the message immediately", "description": "Once you have confirmed it is a scam, delete the SMS from your phone. Do not reply to the sender." },
-      { "title": "Report the number to SASSA", "description": "Forward the SMS to SASSA's fraud hotline on 0800 60 10 11. Include the phone number it came from so SASSA can take action." },
-      { "title": "If you entered your details, contact your bank NOW", "description": "If you already clicked the link and entered your details, call your bank immediately to block your account. Then report it to SASSA and the SAPS cybercrime unit." }
-    ] },
-    { "id": "callout2", "type": "callout", "intent": "info", "title": "Only Use Official SASSA Channels", "text": "The only official SASSA website is sassa.gov.za. The only official SRD portal is srd.sassa.gov.za. Always type these addresses into your browser yourself. Never click a link from an SMS or email claiming to be from SASSA." },
-    { "id": "h6", "type": "heading", "level": 3, "text": "How to Verify If Your Grant Is Really at Risk" },
-    { "id": "p4", "type": "paragraph", "text": "If you are worried that your grant might genuinely be suspended, do not use the link in the SMS. Instead, follow these steps to check your status safely:" },
-    { "id": "list3", "type": "list", "ordered": true, "items": [
-      "Open your phone browser and type srd.sassa.gov.za manually",
-      "Enter your ID number and the phone number registered with SASSA",
-      "Check your application status on the official dashboard",
-      "If you are unsure, call SASSA on 0800 60 10 11 and speak to an agent"
-    ] },
-    { "id": "h7", "type": "heading", "level": 3, "text": "Other Common SASSA Scams" },
-    { "id": "p5", "type": "paragraph", "text": "This SMS scam is not the only fraud targeting SASSA beneficiaries. Here are other common scams to watch out for:" },
-    { "id": "list4", "type": "list", "ordered": false, "items": [
-      "Fake SASSA WhatsApp groups asking for personal information",
-      "People posing as SASSA officials offering to speed up your application for a fee",
-      "Fake SASSA cards sold at shops or on the street",
-      "Phishing emails pretending to be from the SASSA appeals department",
-      "Social media pages claiming to offer 'grant top-ups' or 'bonus payments'"
-    ] },
-    { "id": "faq1", "type": "faq", "faqs": [
-      { "question": "How do I know if an SMS is really from SASSA?", "answer": "SASSA only sends SMS notifications from 0800 60 10 11. If the SMS comes from any other number, especially a regular mobile number, it is fake. SASSA never includes links in their SMS messages." },
-      { "question": "I clicked the link but did not enter any details. Am I safe?", "answer": "You are likely safe if you did not enter any information. However, delete your browser history and run a security scan on your phone. If you entered any details, contact your bank immediately." },
-      { "question": "Can scammers access my grant payments?", "answer": "If they obtain your ID number, bank details, and OTP, they can change your payment method and redirect your grant to their own account. This is why it is critical to never share these details." },
-      { "question": "What is SASSA doing about these scams?", "answer": "SASSA works with the SAPS cybercrime unit and the Banking Association of South Africa to track and shut down scam websites and phone numbers. However, new scams appear regularly, so beneficiaries must stay vigilant." },
-      { "question": "How do I report a scam?", "answer": "Call SASSA on 0800 60 10 11, report to the SAPS cybercrime unit at your nearest police station, or contact your bank if financial details were compromised." }
-    ] },
-    { "id": "div1", "type": "divider" },
-    { "id": "link1", "type": "link-grid", "links": [
-      { "title": "SASSA Scam Alert Guide", "href": "/guides/sassa-scam-alert-guide", "description": "Complete guide to avoiding grant fraud" },
-      { "title": "Official SRD Portal", "href": "https://srd.sassa.gov.za", "description": "Check your grant status safely" },
-      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full grant information" },
-      { "title": "How to Update Bank Details", "href": "/banking/update-bank-details", "description": "Securely update your payment method" }
-    ] }
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "title": "SASSA Issues Fresh Scam Warning: Fake SMS Targeting SRD Beneficiaries",
+      "description": "SASSA has issued an urgent fraud alert about a new wave of SMS scams targeting SRD R370 grant beneficiaries. The fake messages claim your grant has been stopped and direct you to a fraudulent website designed to steal your personal information.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-07-29"
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "How the Scam Works"
+    },
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "text": "SASSA has issued an urgent fraud alert about a new wave of SMS scams targeting SRD R370 grant beneficiaries. The scam works by sending a text message from an unknown number that appears to be from SASSA. The message claims your grant has been stopped or suspended and instructs you to click a link to verify your details."
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "text": "The link takes you to a fake website that closely mimics the official SRD portal at srd.sassa.gov.za. The fraudulent site will ask you to enter your ID number, bank account details, and a one-time PIN (OTP). Once you submit this information, the scammers can access your bank account and steal your money."
+    },
+    {
+      "id": "h2",
+      "type": "heading",
+      "level": 3,
+      "text": "Typical Scam SMS Example"
+    },
+    {
+      "id": "callout1",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Do NOT Respond to This Type of Message",
+      "text": "A typical scam SMS reads: 'SASSA: Your SRD grant has been suspended due to incomplete verification. Click here to verify your details immediately: http://srd-sassa-verify.co.za. Failure to respond within 24 hours will result in permanent cancellation.' This is a FAKE message. Delete it immediately."
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "text": "The scammers use fear and urgency to trick you into acting quickly without thinking. They say your grant will be permanently cancelled if you do not respond within 24 hours. This pressure is designed to stop you from checking with official sources."
+    },
+    {
+      "id": "h3",
+      "type": "heading",
+      "level": 3,
+      "text": "Red Flags to Look Out For"
+    },
+    {
+      "id": "list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The SMS comes from an unknown mobile number, not from an official SASSA short code",
+        "The message contains a clickable link — SASSA never sends links via SMS",
+        "The website address does not end in .gov.za — official SASSA sites always use .gov.za",
+        "The message asks for your bank PIN, online banking password, or OTP",
+        "The message creates urgency with threats of permanent cancellation",
+        "The SMS has poor grammar or spelling mistakes"
+      ]
+    },
+    {
+      "id": "h4",
+      "type": "heading",
+      "level": 3,
+      "text": "What SASSA Will Never Do"
+    },
+    {
+      "id": "list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "SASSA never sends SMS messages with links asking you to verify your details",
+        "SASSA never asks for your bank PIN, online banking password, or OTP",
+        "SASSA never calls you asking for payment to release your grant",
+        "SASSA never requests your ID number via SMS or social media",
+        "SASSA never sends representatives to your home to collect documents or money"
+      ]
+    },
+    {
+      "id": "h5",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Do If You Receive a Suspicious SMS"
+    },
+    {
+      "id": "steps1",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Do not click any links",
+          "description": "The link leads to a fake website designed to steal your information. Do not open it under any circumstances."
+        },
+        {
+          "title": "Delete the message immediately",
+          "description": "Once you have confirmed it is a scam, delete the SMS from your phone. Do not reply to the sender."
+        },
+        {
+          "title": "Report the number to SASSA",
+          "description": "Forward the SMS to SASSA's fraud hotline on 0800 60 10 11. Include the phone number it came from so SASSA can take action."
+        },
+        {
+          "title": "If you entered your details, contact your bank NOW",
+          "description": "If you already clicked the link and entered your details, call your bank immediately to block your account. Then report it to SASSA and the SAPS cybercrime unit."
+        }
+      ]
+    },
+    {
+      "id": "callout2",
+      "type": "callout",
+      "intent": "info",
+      "title": "Only Use Official SASSA Channels",
+      "text": "The only official SASSA website is sassa.gov.za. The only official SRD portal is srd.sassa.gov.za. Always type these addresses into your browser yourself. Never click a link from an SMS or email claiming to be from SASSA."
+    },
+    {
+      "id": "h6",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Verify If Your Grant Is Really at Risk"
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "text": "If you are worried that your grant might genuinely be suspended, do not use the link in the SMS. Instead, follow these steps to check your status safely:"
+    },
+    {
+      "id": "list3",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Open your phone browser and type srd.sassa.gov.za manually",
+        "Enter your ID number and the phone number registered with SASSA",
+        "Check your application status on the official dashboard",
+        "If you are unsure, call SASSA on 0800 60 10 11 and speak to an agent"
+      ]
+    },
+    {
+      "id": "h7",
+      "type": "heading",
+      "level": 3,
+      "text": "Other Common SASSA Scams"
+    },
+    {
+      "id": "p5",
+      "type": "paragraph",
+      "text": "This SMS scam is not the only fraud targeting SASSA beneficiaries. Here are other common scams to watch out for:"
+    },
+    {
+      "id": "list4",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Fake SASSA WhatsApp groups asking for personal information",
+        "People posing as SASSA officials offering to speed up your application for a fee",
+        "Fake SASSA cards sold at shops or on the street",
+        "Phishing emails pretending to be from the SASSA appeals department",
+        "Social media pages claiming to offer 'grant top-ups' or 'bonus payments'"
+      ]
+    },
+    {
+      "id": "faq1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How do I know if an SMS is really from SASSA?",
+          "answer": "SASSA only sends SMS notifications from 0800 60 10 11. If the SMS comes from any other number, especially a regular mobile number, it is fake. SASSA never includes links in their SMS messages."
+        },
+        {
+          "question": "I clicked the link but did not enter any details. Am I safe?",
+          "answer": "You are likely safe if you did not enter any information. However, delete your browser history and run a security scan on your phone. If you entered any details, contact your bank immediately."
+        },
+        {
+          "question": "Can scammers access my grant payments?",
+          "answer": "If they obtain your ID number, bank details, and OTP, they can change your payment method and redirect your grant to their own account. This is why it is critical to never share these details."
+        },
+        {
+          "question": "What is SASSA doing about these scams?",
+          "answer": "SASSA works with the SAPS cybercrime unit and the Banking Association of South Africa to track and shut down scam websites and phone numbers. However, new scams appear regularly, so beneficiaries must stay vigilant."
+        },
+        {
+          "question": "How do I report a scam?",
+          "answer": "Call SASSA on 0800 60 10 11, report to the SAPS cybercrime unit at your nearest police station, or contact your bank if financial details were compromised."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Scam Alert Guide",
+          "href": "/guides/sassa-scam-alert-guide",
+          "description": "Complete guide to avoiding grant fraud"
+        },
+        {
+          "title": "Official SRD Portal",
+          "href": "https://srd.sassa.gov.za",
+          "description": "Check your grant status safely"
+        },
+        {
+          "title": "SRD R370 Grant Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full grant information"
+        },
+        {
+          "title": "How to Update Bank Details",
+          "href": "/banking/update-bank-details",
+          "description": "Securely update your payment method"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SASSA Scam Alert Guide", "slug": "/guides/sassa-scam-alert-guide" },
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
-    { "title": "Update Bank Details", "slug": "/banking/update-bank-details" },
-    { "title": "Payment Methods", "slug": "/banking/payment-methods" }
+    {
+      "title": "SASSA Scam Alert Guide",
+      "slug": "/guides/sassa-scam-alert-guide"
+    },
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "Update Bank Details",
+      "slug": "/banking/update-bank-details"
+    },
+    {
+      "title": "Payment Methods",
+      "slug": "/banking/payment-methods"
+    }
   ]
 }

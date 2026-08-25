@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import PaymentCentre from "../../../components/PaymentCentre";
 import { paymentMonths } from "../../../lib/data/paymentDates";
@@ -44,11 +44,11 @@ export default function PaymentDatesPage() {
       {faq && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />}
       <section className="bg-slate text-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-white/60 uppercase tracking-widest mb-3">payment calendar</p>
+          <p className="text-xs font-bold text-muted uppercase tracking-widest mb-3">payment calendar</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-white leading-[1.15] tracking-[-0.007em]">
             SASSA payment dates 2026
           </h1>
-          <p className="text-[21px] text-white/80 mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
             Monthly payout schedules for all SASSA grants - Older Person, Disability, Child Support, SRD R370, and more.
           </p>
         </div>
@@ -127,7 +127,7 @@ export default function PaymentDatesPage() {
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>
                 <div className="px-4 pb-4">
-                  <p className="text-sm text-carbon/70 leading-relaxed">{faq.answer}</p>
+                  <p className="text-sm text-body leading-relaxed">{faq.answer}</p>
                 </div>
               </details>
             ))}
@@ -139,7 +139,7 @@ export default function PaymentDatesPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
             <Link href="/grants" className="text-yellow font-bold hover:underline">Browse all SASSA grants</Link>
-            <span className="text-white/40 mx-3">|</span>
+            <span className="text-muted mx-3">|</span>
             <Link href="/status" className="text-yellow font-bold hover:underline">Check your SASSA status</Link>
           </p>
         </div>

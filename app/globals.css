@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 @import "tw-animate-css";
 
 @theme {
@@ -7,7 +7,7 @@
   --font-mono: "JetBrains Mono", "IBM Plex Mono", monospace;
 
   --color-yellow: #ffc500;
-  --color-yellow-dark: #e6b100;
+  --color-yellow-dark: #a16207;
   --color-violet: #7700ff;
   --color-violet-bright: #9b4dff;
   --color-carbon: #312f27;
@@ -15,25 +15,40 @@
   --color-paper: #ffffff;
   --color-fog: #efefef;
   --color-sand: #e9e4d9;
-  --color-ash: #b1afa7;
+  --color-ash: #6f6d64;
   --color-canvas: #fafafa;
   --color-surface: #ffffff;
   --color-surface-dim: #f5f5f5;
   --color-ink: #312f27;
   --color-body: #312f27;
-  --color-muted: #b1afa7;
-  --color-muted-foreground: #8a867e;
+  --color-muted: #6f6d64;
+  --color-muted-foreground: #75726b;
   --color-border: #e5e3dd;
   --color-border-strong: #c8c4ba;
   --color-accent: #ffc500;
-  --color-accent-dark: #e6b100;
+  --color-accent-dark: #a16207;
   --color-accent-light: #fff8d6;
   --color-amber: #ffc500;
-  --color-amber-dark: #e6b100;
+  --color-amber-dark: #a16207;
   --color-gold: #ffc500;
-  --color-gold-dark: #e6b100;
+  --color-gold-dark: #a16207;
   --color-primary: #7700ff;
   --color-primary-foreground: #ffffff;
+
+  --color-midnight: #131316;
+  --color-trading-down: #dc2626;
+  --color-trading-up: #16a34a;
+  --color-info: #2563eb;
+  --color-success-dark: #15803d;
+  --color-surface-container: #f0efeb;
+  --color-surface0: #ffffff;
+  --color-slate-850: #172033;
+  --color-slate-955: #010409;
+  --color-slate-150: #eceff5;
+  --color-accent-turquoise: #14b8a6;
+  --color-emerald-850: #05573f;
+  --color-emerald-150: #bcf7da;
+  --color-amber-850: #7c390d;
 
   --radius-xs: 2px;
   --radius-sm: 4px;
@@ -43,6 +58,7 @@
   --radius-card: 2.85px;
   --radius-pill: 28.5px;
   --radius-input: 6px;
+  --radius-sassa: 12px;
 }
 
 * {
@@ -226,7 +242,7 @@ h1 {
 
 .dark {
   --color-yellow: #d4a017;
-  --color-yellow-dark: #b8890f;
+  --color-yellow-dark: #eec13f;
   --color-violet: #9b4dff;
   --color-violet-bright: #b87aff;
   --color-carbon: #e8e4d9;
@@ -234,23 +250,24 @@ h1 {
   --color-paper: #1e1e22;
   --color-fog: #2a2a2e;
   --color-sand: #333336;
-  --color-ash: #8a8680;
+  --color-ash: #a6a398;
   --color-canvas: #131316;
   --color-surface: #1e1e22;
   --color-surface-dim: #2a2a2e;
   --color-ink: #e8e4d9;
   --color-body: #e8e4d9;
-  --color-muted: #8a8680;
-  --color-muted-foreground: #8a8680;
+  --color-muted: #a6a398;
+  --color-muted-foreground: #a19e95;
   --color-border: #2a2a2e;
   --color-border-strong: #444448;
   --color-accent: #d4a017;
-  --color-accent-dark: #b8890f;
+  --color-accent-dark: #eec13f;
   --color-accent-light: #333336;
   --color-amber: #d4a017;
-  --color-amber-dark: #b8890f;
+  --color-amber-dark: #eec13f;
   --color-gold: #d4a017;
-  --color-gold-dark: #b8890f;
+  --color-gold-dark: #eec13f;
+  --color-surface-container: #333336;
   --color-primary: #9b4dff;
   --color-primary-foreground: #ffffff;
 }

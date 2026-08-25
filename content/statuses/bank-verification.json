@@ -7,56 +7,229 @@
   "lastUpdated": "2026-07-01",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Bank Verification Pending — SASSA Status Meaning & Resolution Guide",
     "metaDescription": "SASSA bank verification pending? Learn why SASSA verifies your bank account, how long it takes, common failure reasons, and step-by-step instructions to resolve verification issues.",
-    "keywords": ["SASSA bank verification", "bank verification pending", "SASSA bank verification failed", "SASSA bank details", "SRD bank verification"]
+    "keywords": [
+      "SASSA bank verification",
+      "bank verification pending",
+      "SASSA bank verification failed",
+      "SASSA bank details",
+      "SRD bank verification"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Bank Verification Pending — How to Resolve It",
       "description": "Your SASSA status shows 'Bank Verification Pending' — your grant payment cannot proceed until this is resolved. Learn why bank verification happens, common failure reasons, and exactly what steps to take to get your payment released.",
       "readingTime": "5 min read",
       "lastUpdated": "June 2026",
-      "cta": { "text": "Fix Bank Details", "href": "/banking/update-bank-details" },
-      "secondaryCta": { "text": "Check Your Status", "href": "/status/bank-verification" }
+      "cta": {
+        "text": "Fix Bank Details",
+        "href": "/banking/update-bank-details"
+      },
+      "secondaryCta": {
+        "text": "Check Your Status",
+        "href": "/status/bank-verification"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Bank Verification Pending — What It Means" },
-    { "id": "intro", "type": "paragraph", "text": "The 'Bank Verification Pending' status means SASSA is in the process of confirming that the bank account you provided belongs to you. This is a standard security step that prevents grant payments from being sent to incorrect or fraudulent accounts. Your grant cannot be paid until this verification is complete." },
-    { "id": "who", "type": "paragraph", "text": "This status affects applicants whose bank account details are being verified by SASSA against their banking institution's records." },
-    { "id": "ref-block", "type": "status-reference", "statusName": "Bank Verification Pending", "explanation": "SASSA uses an automated system that communicates with South Africa's major banks (Standard Bank, FNB, Absa, Nedbank, Capitec). The system checks that the ID number and full name on your bank account match your SASSA application exactly. Any mismatch — even a single character — will cause verification to fail.", "whyItHappens": ["You recently submitted or updated your bank account details", "You switched your payment method from Cash Send to direct bank transfer", "You applied for a new grant and provided bank details for the first time", "Your bank account details were flagged for a periodic reverification", "There is a minor mismatch between your ID document name and your bank account name"], "howLongItLasts": "Typically 5 to 10 business days. In some cases, it can take up to 30 days if the bank requires manual verification or if there is a name mismatch that needs human intervention.", "whatYouShouldDo": ["Confirm the bank account is registered in YOUR legal name exactly as it appears on your ID", "Verify the account is active and not frozen, dormant, or restricted", "Check that the account type supports EFT deposits (Savings, Cheque, or Transmission accounts all work)", "Visit your bank branch to confirm your ID number is correctly linked to your account", "If the account is correct but verification still fails, switch to Cash Send collection as a temporary alternative"], "relatedStatuses": [{ "name": "Identity Verification", "slug": "identity-verification" }, { "name": "Approved", "slug": "approved" }] },
-    { "id": "why-verify-h", "type": "heading", "level": 3, "text": "Why SASSA Verifies Bank Accounts" },
-    { "id": "why-verify", "type": "list", "ordered": false, "items": ["To prevent grant fraud and ensure payments go to the correct beneficiary", "To comply with the Financial Intelligence Centre Act (FICA) requirements", "To prevent payments into third-party accounts, which is strictly prohibited", "To reduce payment errors caused by incorrect account numbers or branch codes", "To protect beneficiaries from scams where fraudsters change bank details"] },
-    { "id": "failure-reasons-h", "type": "heading", "level": 3, "text": "Common Reasons Bank Verification Fails" },
-    { "id": "failure-callout", "type": "callout", "intent": "warning", "title": "Name Mismatch Is the #1 Cause", "text": "The most common reason for bank verification failure is a mismatch between the name on your SASSA application and the name on your bank account. For example: 'Thabo Mokoena' on your ID but 'T Mokoena' on your bank account. Even a missing middle name can trigger a failure." },
-    { "id": "failure-list", "type": "list", "ordered": false, "items": ["Name mismatch: the name on your bank account does not match your ID exactly", "ID number mismatch: your ID number is not correctly linked to your bank account", "Account dormant or frozen: the account has not been used for an extended period", "Account type not supported: some accounts (like bond accounts or credit cards) cannot receive EFT payments", "Account closed: the account was closed or is in the process of being closed", "Branch code incorrect: the branch code you entered does not match the account", "Account in a different name: the account belongs to a family member or friend, not you"] },
-    { "id": "fix-steps-h", "type": "heading", "level": 3, "text": "How to Fix Bank Verification Issues" },
-    { "id": "fix-steps", "type": "steps", "steps": [
-      { "title": "Check your account details on the SRD portal", "description": "Log into srd.sassa.gov.za and navigate to 'Update Bank Details'. Verify that your account number, branch code, and account type are 100% correct." },
-      { "title": "Visit your bank", "description": "Go to your bank branch with your ID. Ask them to confirm that your ID number and full name are correctly linked to your account. Request a stamped confirmation letter if possible." },
-      { "title": "Fix any name mismatches", "description": "If your bank account uses a shortened version of your name (e.g., 'Bob' instead of 'Robert'), ask the bank to update it to match your ID exactly. Alternatively, update your SASSA application to match your bank name." },
-      { "title": "Switch to Cash Send temporarily", "description": "If you urgently need your grant and bank verification is taking too long, log into the SRD portal and change your payment method to 'Cash Send'. You can collect your grant at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave." },
-      { "title": "Wait for re-verification", "description": "After updating your details, the verification process restarts automatically. Allow 5 to 10 business days for the bank to respond." }
-    ] },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Can I use my relative's bank account to receive my grant?", "answer": "No. SASSA bank verification will automatically fail if the ID registered at the bank does not match the applicant's SASSA ID. Grants can only be paid into accounts registered in your own name." },
-      { "question": "What bank accounts does SASSA accept?", "answer": "SASSA accepts Savings, Cheque, and Transmission accounts at all major South African banks: Standard Bank, FNB, Absa, Nedbank, Capitec, Bank Zero, TymeBank, and African Bank." },
-      { "question": "Can I use a Postbank account?", "answer": "Yes. Postbank accounts are fully compatible with SASSA payments. In fact, many beneficiaries specifically use Postbank for grant collections." },
-      { "question": "What if my bank verification stays pending for more than 30 days?", "answer": "Visit your nearest SASSA local office with your ID and a recent bank statement. A SASSA officer can manually escalate your verification." },
-      { "question": "Will I lose my grant if bank verification fails?", "answer": "No. You will not lose your grant permanently. Switch to Cash Send collection to receive your payments while you resolve the bank verification issue." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "How to Update Your SASSA Bank Details", "href": "/banking/update-bank-details", "description": "Step-by-step guide to changing your bank account" },
-      { "title": "SASSA Payment Methods", "href": "/banking/payment-methods", "description": "All the ways to receive your grant payment" },
-      { "title": "Cash Send Collection Guide", "href": "/banking", "description": "How to collect your grant without a bank account" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Bank Verification Pending — What It Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The 'Bank Verification Pending' status means SASSA is in the process of confirming that the bank account you provided belongs to you. This is a standard security step that prevents grant payments from being sent to incorrect or fraudulent accounts. Your grant cannot be paid until this verification is complete."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This status affects applicants whose bank account details are being verified by SASSA against their banking institution's records."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Bank Verification Pending",
+      "explanation": "SASSA uses an automated system that communicates with South Africa's major banks (Standard Bank, FNB, Absa, Nedbank, Capitec). The system checks that the ID number and full name on your bank account match your SASSA application exactly. Any mismatch — even a single character — will cause verification to fail.",
+      "whyItHappens": [
+        "You recently submitted or updated your bank account details",
+        "You switched your payment method from Cash Send to direct bank transfer",
+        "You applied for a new grant and provided bank details for the first time",
+        "Your bank account details were flagged for a periodic reverification",
+        "There is a minor mismatch between your ID document name and your bank account name"
+      ],
+      "howLongItLasts": "Typically 5 to 10 business days. In some cases, it can take up to 30 days if the bank requires manual verification or if there is a name mismatch that needs human intervention.",
+      "whatYouShouldDo": [
+        "Confirm the bank account is registered in YOUR legal name exactly as it appears on your ID",
+        "Verify the account is active and not frozen, dormant, or restricted",
+        "Check that the account type supports EFT deposits (Savings, Cheque, or Transmission accounts all work)",
+        "Visit your bank branch to confirm your ID number is correctly linked to your account",
+        "If the account is correct but verification still fails, switch to Cash Send collection as a temporary alternative"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Identity Verification",
+          "slug": "identity-verification"
+        },
+        {
+          "name": "Approved",
+          "slug": "approved"
+        }
+      ]
+    },
+    {
+      "id": "why-verify-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Why SASSA Verifies Bank Accounts"
+    },
+    {
+      "id": "why-verify",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "To prevent grant fraud and ensure payments go to the correct beneficiary",
+        "To comply with the Financial Intelligence Centre Act (FICA) requirements",
+        "To prevent payments into third-party accounts, which is strictly prohibited",
+        "To reduce payment errors caused by incorrect account numbers or branch codes",
+        "To protect beneficiaries from scams where fraudsters change bank details"
+      ]
+    },
+    {
+      "id": "failure-reasons-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Reasons Bank Verification Fails"
+    },
+    {
+      "id": "failure-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Name Mismatch Is the #1 Cause",
+      "text": "The most common reason for bank verification failure is a mismatch between the name on your SASSA application and the name on your bank account. For example: 'Thabo Mokoena' on your ID but 'T Mokoena' on your bank account. Even a missing middle name can trigger a failure."
+    },
+    {
+      "id": "failure-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Name mismatch: the name on your bank account does not match your ID exactly",
+        "ID number mismatch: your ID number is not correctly linked to your bank account",
+        "Account dormant or frozen: the account has not been used for an extended period",
+        "Account type not supported: some accounts (like bond accounts or credit cards) cannot receive EFT payments",
+        "Account closed: the account was closed or is in the process of being closed",
+        "Branch code incorrect: the branch code you entered does not match the account",
+        "Account in a different name: the account belongs to a family member or friend, not you"
+      ]
+    },
+    {
+      "id": "fix-steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Fix Bank Verification Issues"
+    },
+    {
+      "id": "fix-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Check your account details on the SRD portal",
+          "description": "Log into srd.sassa.gov.za and navigate to 'Update Bank Details'. Verify that your account number, branch code, and account type are 100% correct."
+        },
+        {
+          "title": "Visit your bank",
+          "description": "Go to your bank branch with your ID. Ask them to confirm that your ID number and full name are correctly linked to your account. Request a stamped confirmation letter if possible."
+        },
+        {
+          "title": "Fix any name mismatches",
+          "description": "If your bank account uses a shortened version of your name (e.g., 'Bob' instead of 'Robert'), ask the bank to update it to match your ID exactly. Alternatively, update your SASSA application to match your bank name."
+        },
+        {
+          "title": "Switch to Cash Send temporarily",
+          "description": "If you urgently need your grant and bank verification is taking too long, log into the SRD portal and change your payment method to 'Cash Send'. You can collect your grant at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave."
+        },
+        {
+          "title": "Wait for re-verification",
+          "description": "After updating your details, the verification process restarts automatically. Allow 5 to 10 business days for the bank to respond."
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I use my relative's bank account to receive my grant?",
+          "answer": "No. SASSA bank verification will automatically fail if the ID registered at the bank does not match the applicant's SASSA ID. Grants can only be paid into accounts registered in your own name."
+        },
+        {
+          "question": "What bank accounts does SASSA accept?",
+          "answer": "SASSA accepts Savings, Cheque, and Transmission accounts at all major South African banks: Standard Bank, FNB, Absa, Nedbank, Capitec, Bank Zero, TymeBank, and African Bank."
+        },
+        {
+          "question": "Can I use a Postbank account?",
+          "answer": "Yes. Postbank accounts are fully compatible with SASSA payments. In fact, many beneficiaries specifically use Postbank for grant collections."
+        },
+        {
+          "question": "What if my bank verification stays pending for more than 30 days?",
+          "answer": "Visit your nearest SASSA local office with your ID and a recent bank statement. A SASSA officer can manually escalate your verification."
+        },
+        {
+          "question": "Will I lose my grant if bank verification fails?",
+          "answer": "No. You will not lose your grant permanently. Switch to Cash Send collection to receive your payments while you resolve the bank verification issue."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How to Update Your SASSA Bank Details",
+          "href": "/banking/update-bank-details",
+          "description": "Step-by-step guide to changing your bank account"
+        },
+        {
+          "title": "SASSA Payment Methods",
+          "href": "/banking/payment-methods",
+          "description": "All the ways to receive your grant payment"
+        },
+        {
+          "title": "Cash Send Collection Guide",
+          "href": "/banking",
+          "description": "How to collect your grant without a bank account"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Update Bank Details", "slug": "/banking/update-bank-details" },
-    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" },
-    { "title": "Identity Verification", "slug": "/status/identity-verification" }
+    {
+      "title": "Update Bank Details",
+      "slug": "/banking/update-bank-details"
+    },
+    {
+      "title": "SASSA Payment Methods",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Identity Verification",
+      "slug": "/status/identity-verification"
+    }
   ]
 }

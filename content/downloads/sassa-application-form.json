@@ -8,12 +8,25 @@
   "version": "1.0.0",
   "readingTime": "5 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Grant Application Form 001: Download & Complete Guide",
     "metaDescription": "Download the official SASSA grant application form (Form 001). Step-by-step guide to completing your application for Child Support, Older Persons, Disability, and other social grants.",
-    "keywords": ["SASSA application form", "SASSA form 001 download", "grant application form South Africa", "SASSA form PDF", "how to apply for SASSA grant"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Grant Application Form 001" }
+    "keywords": [
+      "SASSA application form",
+      "SASSA form 001 download",
+      "grant application form South Africa",
+      "SASSA form PDF",
+      "how to apply for SASSA grant"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SASSA Grant Application Form 001"
+    }
   },
   "contentBlocks": [
     {
@@ -23,8 +36,14 @@
       "description": "Download the official SASSA grant application form (Form 001) and complete our step-by-step guide to submitting your application correctly the first time.",
       "readingTime": "5 min read",
       "lastUpdated": "2026-07-27",
-      "cta": { "label": "View Filling Guide", "href": "#how-to-fill" },
-      "secondaryCta": { "label": "View All Forms", "href": "/downloads" }
+      "cta": {
+        "label": "View Filling Guide",
+        "href": "#how-to-fill"
+      },
+      "secondaryCta": {
+        "label": "View All Forms",
+        "href": "/downloads"
+      }
     },
     {
       "id": "intro-paragraph",
@@ -41,12 +60,36 @@
       "id": "document-checklist",
       "type": "document-checklist",
       "documents": [
-        { "label": "Your original 13-digit barcoded Smart ID card or green ID book", "required": true, "notes": "Must be original — certified copies are not accepted at the office." },
-        { "label": "Proof of residence (not older than 3 months)", "required": true, "notes": "Utility bill, rental agreement, or letter from ward councillor." },
-        { "label": "Proof of income or affidavit if unemployed", "required": true, "notes": "Payslips, bank statements, or a sworn affidavit stating you have no income." },
-        { "label": "The beneficiary's birth certificate (for child grants)", "required": false, "notes": "Only needed if applying for a Child Support, Foster Care, or Care Dependency Grant." },
-        { "label": "Medical report (for Disability or Care Dependency Grant)", "required": false, "notes": "A medical report completed by a registered doctor, not older than 3 months." },
-        { "label": "Proof of marital status if applicable", "required": false, "notes": "Marriage certificate, divorce decree, or death certificate of spouse." }
+        {
+          "label": "Your original 13-digit barcoded Smart ID card or green ID book",
+          "required": true,
+          "notes": "Must be original — certified copies are not accepted at the office."
+        },
+        {
+          "label": "Proof of residence (not older than 3 months)",
+          "required": true,
+          "notes": "Utility bill, rental agreement, or letter from ward councillor."
+        },
+        {
+          "label": "Proof of income or affidavit if unemployed",
+          "required": true,
+          "notes": "Payslips, bank statements, or a sworn affidavit stating you have no income."
+        },
+        {
+          "label": "The beneficiary's birth certificate (for child grants)",
+          "required": false,
+          "notes": "Only needed if applying for a Child Support, Foster Care, or Care Dependency Grant."
+        },
+        {
+          "label": "Medical report (for Disability or Care Dependency Grant)",
+          "required": false,
+          "notes": "A medical report completed by a registered doctor, not older than 3 months."
+        },
+        {
+          "label": "Proof of marital status if applicable",
+          "required": false,
+          "notes": "Marriage certificate, divorce decree, or death certificate of spouse."
+        }
       ]
     },
     {
@@ -59,12 +102,30 @@
       "id": "steps",
       "type": "steps",
       "steps": [
-        { "title": "Download and print the form", "description": "Click the download button above to save the PDF. Print it on A4 paper. SASSA also provides free forms at their offices if you prefer to collect one in person." },
-        { "title": "Complete Section A — Personal Details", "description": "Fill in your full name, ID number, date of birth, and contact information. Use your name exactly as it appears on your ID document. Any mismatch may delay your application." },
-        { "title": "Complete Section B — Income and Means Test", "description": "Declare all sources of income, including salary, piece jobs, maintenance, and financial help from family. Even if you are unemployed, you must complete this section. Attach supporting documents." },
-        { "title": "Complete Section C — Beneficiary Details", "description": "If applying for a grant on behalf of a child or dependent, provide their full details, birth certificate number, and relationship to you." },
-        { "title": "Sign and date the declaration", "description": "Read the declaration carefully. By signing, you confirm that all information is true. False declarations may result in grant cancellation and legal action." },
-        { "title": "Submit at your nearest SASSA office", "description": "Take the completed form and all original documents to your nearest SASSA office. You will be fingerprinted and photographed. Keep the receipt as proof of application." }
+        {
+          "title": "Download and print the form",
+          "description": "Click the download button above to save the PDF. Print it on A4 paper. SASSA also provides free forms at their offices if you prefer to collect one in person."
+        },
+        {
+          "title": "Complete Section A — Personal Details",
+          "description": "Fill in your full name, ID number, date of birth, and contact information. Use your name exactly as it appears on your ID document. Any mismatch may delay your application."
+        },
+        {
+          "title": "Complete Section B — Income and Means Test",
+          "description": "Declare all sources of income, including salary, piece jobs, maintenance, and financial help from family. Even if you are unemployed, you must complete this section. Attach supporting documents."
+        },
+        {
+          "title": "Complete Section C — Beneficiary Details",
+          "description": "If applying for a grant on behalf of a child or dependent, provide their full details, birth certificate number, and relationship to you."
+        },
+        {
+          "title": "Sign and date the declaration",
+          "description": "Read the declaration carefully. By signing, you confirm that all information is true. False declarations may result in grant cancellation and legal action."
+        },
+        {
+          "title": "Submit at your nearest SASSA office",
+          "description": "Take the completed form and all original documents to your nearest SASSA office. You will be fingerprinted and photographed. Keep the receipt as proof of application."
+        }
       ]
     },
     {
@@ -116,8 +177,17 @@
     }
   ],
   "relatedPages": [
-    { "title": "Download Centre", "slug": "/downloads" },
-    { "title": "Child Support Grant Guide", "slug": "/grants/child-support-grant" },
-    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" }
+    {
+      "title": "Download Centre",
+      "slug": "/downloads"
+    },
+    {
+      "title": "Child Support Grant Guide",
+      "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "How to Apply for a SASSA Grant",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    }
   ]
 }

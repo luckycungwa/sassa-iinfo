@@ -25,7 +25,7 @@ export default function HeroSection({
   secondaryCta,
 }: HeroSectionProps) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-midnight via-surface to-surface border-b border-border">
+    <section className="relative overflow-hidden bg-gradient-to-br from-surface-dim via-surface to-surface dark:from-midnight dark:via-surface dark:to-surface border-b border-border">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gold/5 via-transparent to-transparent" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 relative">
         <div className={"grid gap-12 " + (image ? "md:grid-cols-2 md:items-center" : "")}>
@@ -77,6 +77,8 @@ export default function HeroSection({
               <img
                 src={image}
                 alt={imageAlt || ""}
+                width={800}
+                height={640}
                 className="rounded-xl w-full h-auto object-cover max-h-80"
                 loading="lazy"
               />

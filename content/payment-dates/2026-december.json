@@ -1,0 +1,161 @@
+{
+  "id": "payment-dates-2026-december",
+  "slug": "/payment-dates/2026-december",
+  "classification": "payment-date",
+  "title": "SASSA Payment Dates December 2026 (Festive Season Schedule)",
+  "description": "Provisional SASSA payment dates for December 2026: Older Persons 2 December, Disability 3 December, Children's grants 4 December, early SRD window from 23 December for Christmas.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Payment Dates December 2026 — Early SRD Payout Before Christmas",
+    "metaDescription": "SASSA payment dates for December 2026: Older Persons Wed 2 Dec, Disability Thu 3 Dec, Children's grants Fri 4 Dec, SRD from Wed 23 Dec so money arrives before Christmas. Festive collection tips.",
+    "keywords": [
+      "sassa payment dates december 2026",
+      "srd december 2026 payout",
+      "old age grant december 2026"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Payment Dates December 2026",
+      "description": "Permanent grants pay in the first week as usual, and the SRD R370 window starts unusually early — from 23 December — so beneficiaries have cash before Christmas Day. Dates are provisional until SASSA confirms.",
+      "readingTime": "6 min read",
+      "lastUpdated": "August 2026"
+    },
+    {
+      "id": "intro-h",
+      "type": "heading",
+      "level": 2,
+      "text": "December 2026 payment schedule at a glance"
+    },
+    {
+      "id": "date-table",
+      "type": "table",
+      "caption": "Provisional SASSA payment dates for December 2026",
+      "rows": [
+        [
+          "Older Persons Grant (60-74)",
+          "Wednesday 2 December 2026"
+        ],
+        [
+          "Older Persons Grant (75+)",
+          "Wednesday 2 December 2026"
+        ],
+        [
+          "Disability Grant",
+          "Thursday 3 December 2026"
+        ],
+        [
+          "Children's Grants (Child Support, Foster Care, Care Dependency)",
+          "Friday 4 December 2026"
+        ],
+        [
+          "SRD R370 Grant",
+          "From Wednesday 23 December 2026 (batches through 31 December)"
+        ]
+      ],
+      "headers": [
+        "Grant type",
+        "Payment date"
+      ]
+    },
+    {
+      "id": "what-know-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to know about December payments"
+    },
+    {
+      "id": "early-p",
+      "type": "paragraph",
+      "text": "The standout feature of December is the early SRD start. Rather than the usual last-week-only pattern beginning on the 24th or 25th, batches begin on Wednesday 23 December so that most approved beneficiaries see money before Christmas. Your exact day still depends on your individual batch."
+    },
+    {
+      "id": "queues-p",
+      "type": "paragraph",
+      "text": "Expect the year's longest queues on the first two paydays and again from the 23rd onward. Retail pay points inside supermarkets often move faster than standalone ATMs during the festive rush, and weekday mornings stay calmer than afternoons. If your budget allows, waiting until the second day after payday avoids the worst crush entirely."
+    },
+    {
+      "id": "bank-p",
+      "type": "paragraph",
+      "text": "Bank processing slows between Christmas and New Year. Transfers made on 23-24 December can take an extra working day to reflect. If you depend on a specific date for travel or groceries, card collection at a till is more predictable than waiting for a bank transfer in festive week."
+    },
+    {
+      "id": "balance-p",
+      "type": "paragraph",
+      "text": "Unspent money carries over — there is no December deadline. Balances left uncollected remain available into January, which also makes 'collect before Christmas or lose it' scams easy to spot as false."
+    },
+    {
+      "id": "festive-callout",
+      "type": "callout",
+      "variant": "warning",
+      "title": "Festive-season scam peak",
+      "text": "December brings fake 'Christmas bonus' and 'double payout' messages. SASSA does not pay bonuses of any kind. Never share your ID number, card PIN, or reference number in response to an SMS or WhatsApp message."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What are the SASSA payment dates for December 2026?",
+          "answer": "Provisionally: Older Persons grants pay Wednesday 2 December 2026, Disability grants Thursday 3 December, Children's grants Friday 4 December, and SRD R370 batches run from 23 to 31 December. Confirm final dates with SASSA closer to the month."
+        },
+        {
+          "question": "Will SRD really pay before Christmas?",
+          "answer": "That is the design of the provisional schedule — batches start 23 December specifically so payments land before Christmas Day. Watch for your approval SMS from mid-December to learn your exact day."
+        },
+        {
+          "question": "Are SASSA offices open between Christmas and New Year?",
+          "answer": "Offices follow the public holiday calendar: closed Christmas Day (25 December) and Day of Goodwill (26 December), with limited activity on surrounding days. Sort urgent matters before 24 December where possible."
+        },
+        {
+          "question": "Do grant amounts increase in December?",
+          "answer": "No. Amounts only change each April. Any message promising a December bonus or increase is a scam."
+        },
+        {
+          "question": "I can't get to a pay point over the holidays. Will my money be safe?",
+          "answer": "Yes. Money not collected stays on your card or account indefinitely and waits for you in January with no penalty."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA official payment calendar announcements",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "Postbank festive-season operating notices",
+          "url": "https://www.postbank.co.za"
+        }
+      ],
+      "note": "December 2026 dates are provisional based on the standard scheduling pattern. This page will be updated when SASSA confirms."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "November 2026 Payment Dates",
+      "slug": "/payment-dates/2026-november"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    }
+  ]
+}

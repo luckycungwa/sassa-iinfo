@@ -4,7 +4,8 @@ import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
 import { canonicalUrl } from "@/lib/canonical";
 import { guides } from "../../../../lib/data/guides";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
-import { breadcrumbSchema, howToSchema } from "../../../../lib/json-ld";
+import { breadcrumbSchema, howToSchema, faqSchema } from "../../../../lib/json-ld";
+import type { FAQBlock } from "../../../../lib/schema/contentSchema";
 
 export function generateStaticParams() {
   const allPages = loadAllContent();
@@ -36,8 +37,13 @@ export default async function GuideDetailPage({ params }: { params: Promise<{ sl
 
   const content = getPageBySlug(`/guides/${slug}`);
   if (content) {
+    const faqBlock = content.contentBlocks.find((b): b is FAQBlock => b.type === "faq");
+    const faqJsonLd = faqBlock ? faqSchema(faqBlock.faqs) : null;
     return (
       <>
+        {faqJsonLd && (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+        )}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
           { name: "Home", url: "/" },
           { name: "Guides", url: "/guides" },
@@ -67,8 +73,7 @@ export default async function GuideDetailPage({ params }: { params: Promise<{ sl
           <h1 className="text-2xl font-black text-ink tracking-tight">{guide.title}</h1>
           <p className="text-sm text-muted mt-1">{guide.description}</p>
         </div>
-      <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          {guide.steps.map((step, i) => (
+        <div className="space-y-4">          {guide.steps.map((step, i) => (
             <div key={i} className="bg-surface border border-border rounded-xl p-5">
               <div className="flex items-center gap-3 mb-2">
                 <span className="w-7 h-7 rounded-lg bg-accent-dark text-black text-xs font-black flex items-center justify-center flex-shrink-0">

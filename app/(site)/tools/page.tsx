@@ -14,11 +14,11 @@ export default function ToolsPage() {
     <div>
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-carbon/50 uppercase tracking-widest mb-3">tools</p>
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">tools</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
             Interactive tools
           </h1>
-          <p className="text-[21px] text-carbon/70 mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
             Eligibility checker, grant calculator, payment lookup, deadline timer â€” all run in your browser.
           </p>
         </div>

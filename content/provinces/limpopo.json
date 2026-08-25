@@ -1,0 +1,173 @@
+{
+  "id": "province-limpopo",
+  "slug": "/provinces/limpopo",
+  "classification": "province-hub",
+  "title": "SASSA Limpopo Province — Offices, Grants & Information",
+  "description": "Complete guide to SASSA services in Limpopo. Regional office in Polokwane, rural mobile pay points across Vhembe and Mopani, bank transfer advice for remote villages, and FAQs.",
+  "lastUpdated": "2026-08-23",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Limpopo: Offices, Grants & Collection Guide 2026",
+    "metaDescription": "SASSA guide for Limpopo Province. Regional office at 48 Landros Mare Street, Polokwane (015 291 7400). Mobile pay points in Vhembe, Capricorn, Mopani and Sekhukhune, plus collection tips.",
+    "keywords": [
+      "SASSA Limpopo",
+      "Limpopo SASSA offices",
+      "SASSA Polokwane",
+      "SASSA Thohoyandou",
+      "SASSA mobile pay points Limpopo"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Limpopo Province",
+      "description": "Provincial hub for Limpopo beneficiaries: regional office contacts, how the vast rural mobile network operates, why bank transfer is recommended here, and local FAQs.",
+      "readingTime": "6 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
+    },
+    {
+      "id": "province-overview",
+      "type": "province-overview",
+      "capital": "Polokwane",
+      "regionalOfficeAddress": "48 Landros Mare Street, Polokwane, 0699",
+      "regionalOfficePhone": "015 291 7400",
+      "collectionInfo": "Limpopo's large rural network means many beneficiaries rely on mobile pay points and community hall collection days. Retail collection works well in towns; for remote villages, SASSA mobile units serve communities across Vhembe, Capricorn, Mopani and Sekhukhune districts.",
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant"
+      ]
+    },
+    {
+      "id": "services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA services in Limpopo"
+    },
+    {
+      "id": "services-p",
+      "type": "paragraph",
+      "text": "Full-service offices in Polokwane, Thohoyandou, Giyani, Mokopane and other district centres handle applications, reviews, card replacements and appeals support. The province spans a huge geographic area, so satellite points and scheduled mobile units bring services to villages that are far from any town — schedules are published monthly through tribal authority offices."
+    },
+    {
+      "id": "offices-grid",
+      "type": "link-grid",
+      "title": "Finding your nearest office",
+      "links": [
+        {
+          "label": "Browse the national offices directory",
+          "href": "/offices"
+        },
+        {
+          "label": "Regional office enquiries: 015 291 7400",
+          "href": null
+        }
+      ]
+    },
+    {
+      "id": "collection-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant collection in Limpopo"
+    },
+    {
+      "id": "collection-p1",
+      "type": "paragraph",
+      "text": "In towns like Polokwane, Tzaneen and Mokopane, SASSA card withdrawals at major retailers work exactly as elsewhere in the country. The provincial difference is distance: many beneficiaries travel significant distances to reach a retailer or pay point, which is why direct bank transfer is strongly recommended wherever a beneficiary has access to a bank account — money arrives without travel at all."
+    },
+    {
+      "id": "collection-p2",
+      "type": "paragraph",
+      "text": "For villages without retail access, monthly mobile pay point visits are the primary channel. Plan around the published schedule: arrive early, bring your card and ID, and remember that uncollected money stays available — you will not lose a payment because you missed one visit day."
+    },
+    {
+      "id": "tips-list",
+      "type": "list",
+      "style": "bulleted",
+      "items": [
+        "Switch to bank transfer to eliminate long trips to retailers.",
+        "Check mobile unit schedules at your local tribal authority office each month.",
+        "Thohoyandou serves the Vhembe district including Dzanani and Malamulele areas.",
+        "Staff can assist in Sepedi, Tshivenda and Xitsonga at all branches."
+      ]
+    },
+    {
+      "id": "scam-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Village scam warning",
+      "text": "Travelling 'agents' charging fees to 'register' beneficiaries for grants or collect money on their behalf operate in rural Limpopo. All legitimate SASSA services are free — never hand over your card or PIN to anyone."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "How do I find rural pay points in Limpopo?",
+          "answer": "SASSA publishes monthly schedules of community halls and mobile trucks serving remote areas. Local tribal authority offices also display current visit dates."
+        },
+        {
+          "question": "Which office serves the Vhembe district?",
+          "answer": "The Thohoyandou SASSA office serves Vhembe, with mobile pay points covering outlying villages such as Dzanani and Malamulele."
+        },
+        {
+          "question": "Can I get help in my home language?",
+          "answer": "Yes — Sepedi, Tshivenda, Xitsonga and other local languages are supported at Limpopo branches."
+        },
+        {
+          "question": "Are there enough retail pay points in rural areas?",
+          "answer": "Retailers concentrate in towns. Deep rural beneficiaries should use bank transfer or scheduled mobile pay points, and plan collection trips in advance."
+        },
+        {
+          "question": "What if I miss the mobile pay point day in my village?",
+          "answer": "Your money is not lost — balances carry over until you collect. Check when the unit next visits, or switch to bank transfer to avoid future dependence on the schedule."
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Sources & verification",
+      "sources": [
+        {
+          "label": "SASSA Limpopo regional office",
+          "url": "https://sassa.gov.za"
+        }
+      ],
+      "note": "Provincial details verified August 2026."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "All Payment Dates 2026",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Payment Methods Compared",
+      "slug": "/banking/payment-methods"
+    }
+  ]
+}

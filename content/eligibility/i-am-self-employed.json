@@ -4,88 +4,291 @@
   "classification": "eligibility-guide",
   "title": "SASSA Grants for Self-Employed and Informal Workers",
   "description": "Learn how self-employment and informal income affects SASSA grant eligibility. How the means test works for small business owners, freelancers, and gig economy workers.",
-  "lastUpdated": "2026-07-29",
-  "version": "2.0.0",
+  "lastUpdated": "2026-08-25",
+  "version": "2.1.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Grants for Self-Employed & Informal Workers — Eligibility Guide",
     "metaDescription": "Guide to SASSA grant eligibility for self-employed South Africans, freelancers, small business owners, and informal workers. How the means test applies to irregular income, and what to do if your deposits trigger a decline.",
-    "keywords": ["SASSA self-employed", "SASSA informal worker", "SASSA freelancer grant", "SASSA small business owner", "SASSA means test irregular income", "SASSA spaza shop"]
+    "keywords": [
+      "SASSA self-employed",
+      "SASSA informal worker",
+      "SASSA freelancer grant",
+      "SASSA small business owner",
+      "SASSA means test irregular income",
+      "SASSA spaza shop"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Grants for Self-Employed and Informal Workers",
       "description": "Self-employed workers, freelancers, and informal traders can qualify for SASSA grants if their income falls below the threshold. Learn how the means test applies to irregular income and how to prepare your application.",
       "readingTime": "8 min read",
-      "lastUpdated": "July 2026",
-      "cta": { "label": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant" },
-      "secondaryCta": { "label": "Unemployed Guide", "href": "/eligibility/i-am-unemployed" }
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "SRD R370 Grant Guide",
+        "href": "/grants/srd-r370-grant"
+      },
+      "secondaryCta": {
+        "label": "Unemployed Guide",
+        "href": "/eligibility/i-am-unemployed"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grants for Self-Employed and Informal Workers" },
-    { "id": "intro", "type": "paragraph", "text": "Self-employed individuals, freelancers, and informal workers can qualify for SASSA grants if their monthly income falls below the means test threshold. However, proving your income can be more complex than for formally employed applicants because SASSA looks at all deposits into your bank account — not just your declared profit." },
-    { "id": "why", "type": "paragraph", "text": "Self-employed and informal workers contribute to the economy but often have irregular income. The means test accounts for this by averaging income over multiple months to determine eligibility. The challenge is that SASSA's automated system treats ALL deposits as income, which means business payments, client invoices, and even transfers between your own accounts can count against you." },
-    { "id": "scenario-h", "type": "heading", "level": 3, "text": "Real-Life Scenario" },
-    { "id": "scenario", "type": "paragraph", "text": "Themba runs a small spaza shop in Tembisa. His monthly profit is around R2,000, but his bank account shows deposits of R8,000-R12,000 per month from customers paying via EFT. Although his profit is well below the R624 threshold, SASSA sees the total deposits and flags him as having an 'Alternative Income Source'. Themba needs to appeal each declined month by explaining that the deposits are business turnover, not personal income. This guide explains how self-employed individuals like Themba can navigate the system." },
-    { "id": "grants-h", "type": "heading", "level": 3, "text": "Which Grants Self-Employed Workers Can Apply For" },
-    { "id": "grants-table", "type": "table", "headers": ["Grant Type", "Eligible?", "Means Test", "Notes"], "rows": [
-      ["SRD R370", "Yes (if net income under R624/month)", "Strict (R624/month threshold)", "All bank deposits counted. Business turnover may trigger 'Alternative Income Source'."],
-      ["Child Support Grant", "Yes", "Moderate (R63,600/yr for single caregiver)", "Less strict means test. Better option if you have children."],
-      ["Foster Child Grant", "Yes", "None", "No means test. Ideal if you are a foster parent."]
-    ] },
-    { "id": "checklist-h", "type": "heading", "level": 3, "text": "Key Considerations" },
-    { "id": "checklist", "type": "list", "ordered": false, "items": [
-      "All deposits into your bank account are considered income, including business payments and client invoices",
-      "Business expenses are not deducted from the means test calculation — SASSA looks at deposits, not profit",
-      "If your monthly average deposit total exceeds R624, you will not qualify for SRD R370",
-      "Using a separate business bank account can help demonstrate that deposits are business-related, not personal income",
-      "If your income fluctuates, some months you may qualify and others you may not"
-    ] },
-    { "id": "docs-h", "type": "heading", "level": 3, "text": "Required Documents" },
-    { "id": "docs", "type": "document-checklist", "documents": [
-      { "label": "Valid South African ID", "required": true },
-      { "label": "Last 3-6 months bank statements showing all deposits", "required": true },
-      { "label": "Affidavit explaining the nature of your self-employment and why deposits are not personal income", "required": false },
-      { "label": "If appealing, a sworn statement explaining each deposit over R624", "required": false },
-      { "label": "Business registration certificate (if applicable)", "required": false }
-    ] },
-    { "id": "steps-h", "type": "heading", "level": 3, "text": "Step-by-Step Process" },
-    { "id": "steps", "type": "steps", "steps": [
-      { "title": "Review your bank statements", "description": "Look at your last 3 months of bank statements. Add up all deposits and divide by 3 to get your monthly average." },
-      { "title": "Compare with the R624 threshold", "description": "If your average monthly deposits are below R624, apply for SRD R370. If above, consider using a separate business account or appealing declined months." },
-      { "title": "Apply for SRD R370", "description": "Apply online at srd.sassa.gov.za with your ID and banking details. Use a personal account if possible." },
-      { "title": "If declined, prepare your appeal", "description": "If SASSA flags your deposits as 'Alternative Income Source', prepare an affidavit explaining that deposits are business turnover, not personal income." },
-      { "title": "Appeal each declined month", "description": "File an appeal on the ITSAA portal for each month you believe you qualified. Upload your affidavit and bank statements." }
-    ] },
-    { "id": "callout", "type": "callout", "intent": "warning", "title": "Important Warning", "text": "SASSA's automated system cannot distinguish between business turnover and personal income. If you receive client payments into your personal bank account, those deposits will count against the R624 threshold. This is the most common reason self-employed applicants are declined. Always keep accurate records and be prepared to appeal." },
-    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
-    { "id": "mistakes", "type": "list", "ordered": false, "items": [
-      "Mixing business and personal income in one account — use separate accounts to make your case stronger during an appeal",
-      "Assuming SASSA only looks at profit — the system sees total deposits, and business expenses are not deducted",
-      "Not appealing declined months — many self-employed people are incorrectly declined and can win on appeal",
-      "Not keeping records of each deposit — you need to explain each deposit over R624 during an appeal"
-    ] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "I run a small spaza shop. Can I get the SRD R370 grant?", "answer": "If your average monthly deposits (not profit) across all your bank accounts are below R624, you may qualify. However, most spaza shop owners have turnover above this, which triggers the 'Alternative Income Source' flag. You can appeal by explaining that deposits are business turnover, not personal income." },
-      { "question": "I do freelance work and earn irregular income. How does SASSA calculate it?", "answer": "SASSA averages your deposits over 3 months. If your average is below R624 in a given month, you should qualify. Because income is irregular, some months will qualify and others won't." },
-      { "question": "Can self-employed people apply for other SASSA grants?", "answer": "Yes. The Child Support Grant and Foster Child Grant are much more accessible for self-employed people. Child Support Grant has an annual threshold of R63,600, which accommodates many small business owners." },
-      { "question": "How do I prove I am self-employed if I have no formal registration?", "answer": "You can provide a sworn affidavit at a SAPS station explaining your business activities, along with bank statements showing the pattern of deposits. This is acceptable for appeal purposes." },
-      { "question": "Can I use a separate business account to avoid triggering the threshold?", "answer": "Yes. Having a separate business account can help demonstrate that business deposits are not personal income. However, SASSA may still consider total deposits across all accounts." },
-      { "question": "What if a client pays me R2,000 in one month but I have no other income?", "answer": "That single deposit of R2,000 exceeds the R624 threshold and will likely trigger a decline for that month. You can appeal by explaining it was a one-off payment and that your overall monthly average is below R624." }
-    ] },
-    { "id": "related-h", "type": "heading", "level": 3, "text": "Related Guides" },
-    { "id": "related", "type": "link-grid", "links": [
-      { "title": "SRD R370 Grant Guide", "href": "/grants/srd-r370-grant", "description": "Full details on the R370 grant" },
-      { "title": "Appeal After Income Source Flag", "href": "/appeals/appeal-after-income-source", "description": "How to appeal an 'Alternative Income Source' decline" },
-      { "title": "SASSA for Unemployed", "href": "/eligibility/i-am-unemployed", "description": "Options if you have no income" },
-      { "title": "Payment Methods Guide", "href": "/banking/payment-methods", "description": "How to receive your grant payments" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Grants for Self-Employed and Informal Workers"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Self-employed individuals, freelancers, and informal workers can qualify for SASSA grants if their monthly income falls below the means test threshold. However, proving your income can be more complex than for formally employed applicants because SASSA looks at all deposits into your bank account — not just your declared profit."
+    },
+    {
+      "id": "why",
+      "type": "paragraph",
+      "text": "Self-employed and informal workers contribute to the economy but often have irregular income. The means test accounts for this by averaging income over multiple months to determine eligibility. The challenge is that SASSA's automated system treats ALL deposits as income, which means business payments, client invoices, and even transfers between your own accounts can count against you."
+    },
+    {
+      "id": "scenario-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Real-Life Scenario"
+    },
+    {
+      "id": "scenario",
+      "type": "paragraph",
+      "text": "Themba runs a small spaza shop in Tembisa. His monthly profit is around R2,000, but his bank account shows deposits of R8,000-R12,000 per month from customers paying via EFT. Although his profit is well below the R624 threshold, SASSA sees the total deposits and flags him as having an 'Alternative Income Source'. Themba needs to appeal each declined month by explaining that the deposits are business turnover, not personal income. This guide explains how self-employed individuals like Themba can navigate the system."
+    },
+    {
+      "id": "grants-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Which Grants Self-Employed Workers Can Apply For"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "Grant Type",
+        "Eligible?",
+        "Means Test",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "SRD R370",
+          "Yes (if net income under R624/month)",
+          "Strict (R624/month threshold)",
+          "All bank deposits counted. Business turnover may trigger 'Alternative Income Source'."
+        ],
+        [
+          "Child Support Grant",
+          "Yes",
+          "Moderate (R63,600/yr for single caregiver)",
+          "Less strict means test. Better option if you have children."
+        ],
+        [
+          "Foster Child Grant",
+          "Yes",
+          "None",
+          "No means test. Ideal if you are a foster parent."
+        ]
+      ]
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Key Considerations"
+    },
+    {
+      "id": "checklist",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "All deposits into your bank account are considered income, including business payments and client invoices",
+        "Business expenses are not deducted from the means test calculation — SASSA looks at deposits, not profit",
+        "If your monthly average deposit total exceeds R624, you will not qualify for SRD R370",
+        "Using a separate business bank account can help demonstrate that deposits are business-related, not personal income",
+        "If your income fluctuates, some months you may qualify and others you may not"
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Required Documents"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Valid South African ID",
+          "required": true
+        },
+        {
+          "label": "Last 3-6 months bank statements showing all deposits",
+          "required": true
+        },
+        {
+          "label": "Affidavit explaining the nature of your self-employment and why deposits are not personal income",
+          "required": false
+        },
+        {
+          "label": "If appealing, a sworn statement explaining each deposit over R624",
+          "required": false
+        },
+        {
+          "label": "Business registration certificate (if applicable)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Step-by-Step Process"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Review your bank statements",
+          "description": "Look at your last 3 months of bank statements. Add up all deposits and divide by 3 to get your monthly average."
+        },
+        {
+          "title": "Compare with the R624 threshold",
+          "description": "If your average monthly deposits are below R624, apply for SRD R370. If above, consider using a separate business account or appealing declined months."
+        },
+        {
+          "title": "Apply for SRD R370",
+          "description": "Apply online at srd.sassa.gov.za with your ID and banking details. Use a personal account if possible."
+        },
+        {
+          "title": "If declined, prepare your appeal",
+          "description": "If SASSA flags your deposits as 'Alternative Income Source', prepare an affidavit explaining that deposits are business turnover, not personal income."
+        },
+        {
+          "title": "Appeal each declined month",
+          "description": "File an appeal on the ITSAA portal for each month you believe you qualified. Upload your affidavit and bank statements."
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Important Warning",
+      "text": "SASSA's automated system cannot distinguish between business turnover and personal income. If you receive client payments into your personal bank account, those deposits will count against the R624 threshold. This is the most common reason self-employed applicants are declined. Always keep accurate records and be prepared to appeal."
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Mistakes to Avoid"
+    },
+    {
+      "id": "mistakes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Mixing business and personal income in one account — use separate accounts to make your case stronger during an appeal",
+        "Assuming SASSA only looks at profit — the system sees total deposits, and business expenses are not deducted",
+        "Not appealing declined months — many self-employed people are incorrectly declined and can win on appeal",
+        "Not keeping records of each deposit — you need to explain each deposit over R624 during an appeal"
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "I run a small spaza shop. Can I get the SRD R370 grant?",
+          "answer": "If your average monthly deposits (not profit) across all your bank accounts are below R624, you may qualify. However, most spaza shop owners have turnover above this, which triggers the 'Alternative Income Source' flag. You can appeal by explaining that deposits are business turnover, not personal income."
+        },
+        {
+          "question": "I do freelance work and earn irregular income. How does SASSA calculate it?",
+          "answer": "SASSA averages your deposits over 3 months. If your average is below R624 in a given month, you should qualify. Because income is irregular, some months will qualify and others won't."
+        },
+        {
+          "question": "Can self-employed people apply for other SASSA grants?",
+          "answer": "Yes. The Child Support Grant and Foster Child Grant are much more accessible for self-employed people. Child Support Grant has an annual threshold of R63,600, which accommodates many small business owners."
+        },
+        {
+          "question": "How do I prove I am self-employed if I have no formal registration?",
+          "answer": "You can provide a sworn affidavit at a SAPS station explaining your business activities, along with bank statements showing the pattern of deposits. This is acceptable for appeal purposes."
+        },
+        {
+          "question": "Can I use a separate business account to avoid triggering the threshold?",
+          "answer": "Yes. Having a separate business account can help demonstrate that business deposits are not personal income. However, SASSA may still consider total deposits across all accounts."
+        },
+        {
+          "question": "What if a client pays me R2,000 in one month but I have no other income?",
+          "answer": "That single deposit of R2,000 exceeds the R624 threshold and will likely trigger a decline for that month. You can appeal by explaining it was a one-off payment and that your overall monthly average is below R624."
+        }
+      ]
+    },
+    {
+      "id": "related-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Related Guides"
+    },
+    {
+      "id": "related",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SRD R370 Grant Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full details on the R370 grant"
+        },
+        {
+          "title": "Appeal After Income Source Flag",
+          "href": "/appeals/appeal-after-income-source",
+          "description": "How to appeal an 'Alternative Income Source' decline"
+        },
+        {
+          "title": "SASSA for Unemployed",
+          "href": "/eligibility/i-am-unemployed",
+          "description": "Options if you have no income"
+        },
+        {
+          "title": "Payment Methods Guide",
+          "href": "/banking/payment-methods",
+          "description": "How to receive your grant payments"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
-    { "title": "Appeal After Income Source Flag", "slug": "/appeals/appeal-after-income-source" },
-    { "title": "SASSA for Unemployed", "slug": "/eligibility/i-am-unemployed" },
-    { "title": "Payment Methods", "slug": "/banking/payment-methods" }
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "Appeal After Income Source Flag",
+      "slug": "/appeals/appeal-after-income-source"
+    },
+    {
+      "title": "SASSA for Unemployed",
+      "slug": "/eligibility/i-am-unemployed"
+    },
+    {
+      "title": "Payment Methods",
+      "slug": "/banking/payment-methods"
+    }
   ]
 }
