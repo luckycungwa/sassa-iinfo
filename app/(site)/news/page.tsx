@@ -54,7 +54,7 @@ export default function NewsHubPage() {
               <Link
                 key={article.id}
                 href={article.slug}
-                className="flex items-center justify-between gap-4 p-5 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group"
+                className="flex items-center justify-between gap-4 p-5 card hover:bg-yellow/30 transition group"
               >
                 <div className="min-w-0">
                   <p className="text-[19px] font-black text-carbon group-hover:text-violet transition">{article.title}</p>

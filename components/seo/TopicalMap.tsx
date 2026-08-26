@@ -124,7 +124,7 @@ export default function TopicalMap() {
           </div>
           <div className="bg-white text-ink p-5 rounded-2xl border border-surface-dim shadow-inner space-y-3 font-sans">
             <div className="flex items-center gap-2 text-xs text-surface0">
-              <div className="w-6 h-6 rounded-full bg-surface-dim flex items-center justify-center text-xs font-black text-accent-dark">ZA</div>
+              <img src="/main-logo.svg" alt="" className="w-6 h-6" />
               <div><span className="text-xs font-semibold text-ink block leading-none">SASSA Resource Platform</span><span className="text-xs text-outline font-mono">https://sassaiinfo.co.za › status › pending</span></div>
             </div>
             <h4 className="text-lg font-medium text-info hover:underline cursor-pointer leading-tight">

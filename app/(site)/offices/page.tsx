@@ -68,7 +68,7 @@ export default function OfficesHubPage() {
               { icon: Clock, label: "Open Hours", value: "07:30\u201316:00" },
               { icon: Phone, label: "Helpline", value: "0800 60 10 11" },
             ].map((stat) => (
-              <div key={stat.label} className="flex items-center gap-3 bg-fog rounded-[2.85px] p-4">
+              <div key={stat.label} className="flex items-center gap-3 card p-4">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center">
                   <stat.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -90,7 +90,7 @@ export default function OfficesHubPage() {
               <Link
                 key={o.id}
                 href={`/offices/${o.id}`}
-                className="flex items-center justify-between p-4 bg-paper rounded-[2.85px] hover:bg-yellow/30 transition group"
+                className="flex items-center justify-between p-4 card hover:bg-yellow/30 transition group"
               >
                 <div className="min-w-0 flex-1">
                   <p className="text-sm font-bold text-carbon group-hover:text-violet transition">{o.name}</p>
@@ -124,7 +124,7 @@ export default function OfficesHubPage() {
               { q: "What should I bring?", a: "Bring your original green ID book or smart ID card, certified copies of supporting documents, and any previous correspondence from SASSA. Keep your phone charged for SMS verification codes." },
               { q: "Can someone else visit on my behalf?", a: "Only if they have a signed power of attorney or an official SASSA consent letter. You must be present for biometric verification (fingerprints) during new applications." },
             ].map((faq) => (
-              <details key={faq.q} className="group bg-fog rounded-[2.85px] overflow-hidden">
+              <details key={faq.q} className="group card overflow-hidden">
                 <summary className="text-sm font-bold text-carbon p-4 cursor-pointer list-none flex items-center justify-between hover:bg-fog/80 transition">
                   {faq.q}
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

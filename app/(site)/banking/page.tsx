@@ -68,7 +68,7 @@ export default function BankingHubPage() {
               { icon: ShieldCheck, label: "Bank Verification", value: "2-3 days" },
               { icon: CreditCard, label: "SASSA Card", value: "Free" },
             ].map((stat) => (
-              <div key={stat.label} className="flex items-center gap-3 bg-paper rounded-[2.85px] p-4">
+              <div key={stat.label} className="flex items-center gap-3 card p-4">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center">
                   <stat.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -90,7 +90,7 @@ export default function BankingHubPage() {
               <Link
                 key={guide.id}
                 href={`/banking/${guide.slug}`}
-                className="p-5 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group"
+                className="p-5 card hover:bg-yellow/30 transition group"
               >
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center mb-3">
                   {guideIcons[guide.slug] || <CreditCard className="w-5 h-5 text-violet" />}
@@ -114,7 +114,7 @@ export default function BankingHubPage() {
               <Link
                 key={guide.id}
                 href={`/banking/${guide.slug}`}
-                className="flex items-center gap-3 p-4 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group"
+                className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group"
               >
                 <div className="w-8 h-8 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                   {guideIcons[guide.slug] || <CreditCard className="w-4 h-4 text-violet" />}
@@ -140,7 +140,7 @@ export default function BankingHubPage() {
               { q: "Which stores can I collect Cash Send at?", a: "Pick n Pay, Shoprite, Checkers, Boxer, Usave, and Spar. Take your SMS voucher and ID to the till point. No bank account needed." },
               { q: "Can I use someone else's bank account?", a: "No. The bank account must be in your name as it appears on your ID. Using another person's account will cause payment delays. Use Cash Send if you do not have your own bank account." },
             ].map((faq) => (
-              <details key={faq.q} className="group bg-fog rounded-[2.85px] overflow-hidden">
+              <details key={faq.q} className="group card overflow-hidden">
                 <summary className="text-sm font-bold text-carbon p-4 cursor-pointer list-none flex items-center justify-between hover:bg-fog/80 transition">
                   {faq.q}
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

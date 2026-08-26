@@ -62,7 +62,7 @@ export default function AppealsHubPage() {
               { icon: FileText, label: "Appeal Guides", value: `${appeals.length}` },
               { icon: CheckCircle2, label: "Backpay on Approval", value: "Yes" },
             ].map((stat) => (
-              <div key={stat.label} className="flex items-center gap-3 bg-fog rounded-[2.85px] p-4">
+              <div key={stat.label} className="flex items-center gap-3 card p-4">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center">
                   <stat.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -80,7 +80,7 @@ export default function AppealsHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[19px] font-black text-carbon tracking-[-0.007em] mb-4">How to appeal guides</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <Link href="/appeals/how-to-appeal" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/appeals/how-to-appeal" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <Scale className="w-5 h-5 text-violet" />
               </div>
@@ -89,7 +89,7 @@ export default function AppealsHubPage() {
                 <p className="text-xs text-ash">Step-by-step guide</p>
               </div>
             </Link>
-            <Link href="/appeals/appeal-timeline" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/appeals/appeal-timeline" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <Clock className="w-5 h-5 text-violet" />
               </div>
@@ -98,7 +98,7 @@ export default function AppealsHubPage() {
                 <p className="text-xs text-ash">60-90 day process</p>
               </div>
             </Link>
-            <Link href="/appeals/appeal-documents" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/appeals/appeal-documents" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <FileText className="w-5 h-5 text-violet" />
               </div>
@@ -107,7 +107,7 @@ export default function AppealsHubPage() {
                 <p className="text-xs text-ash">What you need</p>
               </div>
             </Link>
-            <Link href="/appeals/appeal-reasons" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/appeals/appeal-reasons" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <AlertTriangle className="w-5 h-5 text-violet" />
               </div>
@@ -125,7 +125,7 @@ export default function AppealsHubPage() {
           <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-6">Start here: general appeal guide</h2>
           <Link
             href="/appeals/how-to-appeal"
-            className="flex items-start gap-4 p-6 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group"
+            className="flex items-start gap-4 p-6 card hover:bg-yellow/30 transition group"
           >
             <Scale className="w-8 h-8 text-violet shrink-0 mt-1" />
             <div>
@@ -147,7 +147,7 @@ export default function AppealsHubPage() {
               <Link
                 key={a.id}
                 href={"/appeals/" + a.slug}
-                className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group"
+className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group"
               >
                 <FileText className="w-5 h-5 text-violet shrink-0" />
                 <div className="min-w-0 flex-1">
@@ -165,7 +165,7 @@ export default function AppealsHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-6">Most common SASSA decline reasons</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <Link href="/appeals/appeal-after-uif" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group">
+            <Link href="/appeals/appeal-after-uif" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0"><FileText className="w-5 h-5 text-violet" /></div>
               <div className="min-w-0">
                 <p className="text-sm font-bold text-carbon group-hover:text-violet transition truncate">UIF Registered</p>
@@ -173,7 +173,7 @@ export default function AppealsHubPage() {
               </div>
               <ArrowRight className="w-3.5 h-3.5 text-ash group-hover:text-violet transition shrink-0 ml-auto" />
             </Link>
-            <Link href="/appeals/appeal-after-nsfas" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group">
+            <Link href="/appeals/appeal-after-nsfas" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0"><FileText className="w-5 h-5 text-violet" /></div>
               <div className="min-w-0">
                 <p className="text-sm font-bold text-carbon group-hover:text-violet transition truncate">NSFAS Funded</p>
@@ -181,7 +181,7 @@ export default function AppealsHubPage() {
               </div>
               <ArrowRight className="w-3.5 h-3.5 text-ash group-hover:text-violet transition shrink-0 ml-auto" />
             </Link>
-            <Link href="/appeals/appeal-after-income-source" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group">
+            <Link href="/appeals/appeal-after-income-source" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0"><AlertTriangle className="w-5 h-5 text-violet" /></div>
               <div className="min-w-0">
                 <p className="text-sm font-bold text-carbon group-hover:text-violet transition truncate">Income Source</p>

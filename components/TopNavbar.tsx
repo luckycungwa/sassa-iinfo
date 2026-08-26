@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Menu, X, ChevronDown, Sparkles, ArrowRight, Sun, Moon
+  Menu, X, ChevronDown, ArrowRight, Sun, Moon
 } from "lucide-react";
 import SearchDialog from "./SearchDialog";
 import { useTheme } from "./ThemeProvider";
@@ -80,13 +80,7 @@ function ThemeToggle() {
   );
 }
 
-export default function TopNavbar({
-  isAssistantOpen,
-  onToggleAssistant,
-}: {
-  isAssistantOpen: boolean;
-  onToggleAssistant: () => void;
-}) {
+export default function TopNavbar() {
   const pathname = usePathname();
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -190,9 +184,7 @@ export default function TopNavbar({
       <header className="sticky top-0 z-30 print:hidden bg-paper/90 backdrop-blur-sm border-b border-border">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link href="/" className="hover:opacity-80 transition-opacity flex-shrink-0 flex items-center gap-3">
-            <div className="w-9 h-9 rounded-[2.85px] bg-yellow flex items-center justify-center text-carbon font-black text-sm tracking-tight">
-              ZA
-            </div>
+            <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-9 h-9" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">

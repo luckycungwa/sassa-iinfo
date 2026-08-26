@@ -81,7 +81,7 @@ export default function EligibilityHubPage() {
               { icon: CheckCircle2, label: "Income Threshold", value: "R624/mo" },
               { icon: CheckCircle2, label: "Grant Types", value: "8 Available" },
             ].map((stat) => (
-              <div key={stat.label} className="flex items-center gap-3 bg-fog rounded-[2.85px] p-4">
+              <div key={stat.label} className="flex items-center gap-3 card p-4">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center">
                   <stat.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -100,7 +100,7 @@ export default function EligibilityHubPage() {
           <h2 className="text-[19px] font-black text-carbon tracking-[-0.007em] mb-4">Most common situations</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {commonSituations.map((s) => (
-              <Link key={s.id} href={`/eligibility/${s.slug}`} className="flex items-center gap-3 p-4 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group">
+              <Link key={s.id} href={`/eligibility/${s.slug}`} className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                   <Search className="w-5 h-5 text-violet" />
                 </div>
@@ -122,7 +122,7 @@ export default function EligibilityHubPage() {
               <Link
                 key={e.id}
                 href={`/eligibility/${e.slug}`}
-                className="flex items-center justify-between p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group"
+                className="flex items-center justify-between p-4 card hover:bg-yellow/30 transition group"
               >
                 <div className="min-w-0 flex-1">
                   <p className="text-sm font-bold text-carbon group-hover:text-violet transition">{e.title}</p>
@@ -140,7 +140,7 @@ export default function EligibilityHubPage() {
           <h2 className="text-[21px] font-black text-carbon tracking-[-0.007em] mb-6">Common mistakes that affect eligibility</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             {commonMistakes.map((m) => (
-              <div key={m.title} className="flex items-start gap-3 p-4 rounded-[2.85px] bg-paper">
+              <div key={m.title} className="flex items-start gap-3 p-4 card">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0 mt-0.5">
                   <m.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -159,7 +159,7 @@ export default function EligibilityHubPage() {
           <h2 className="text-[21px] font-black text-carbon tracking-[-0.007em] mb-6">Common SASSA eligibility questions</h2>
           <div className="space-y-2 max-w-2xl">
             {faqs.map((faq) => (
-              <details key={faq.question} className="group bg-fog rounded-[2.85px] overflow-hidden">
+              <details key={faq.question} className="group card overflow-hidden">
                 <summary className="text-sm font-bold text-carbon p-4 cursor-pointer list-none flex items-center justify-between hover:bg-fog/80 transition">
                   {faq.question}
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

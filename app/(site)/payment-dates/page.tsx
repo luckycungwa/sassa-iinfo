@@ -67,7 +67,7 @@ export default function PaymentDatesPage() {
                 <p className="text-xs text-ash">Current month</p>
               </div>
             </Link>
-            <Link href={"/payment-dates/" + (nextMonth?.slug || "2026-august")} className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href={"/payment-dates/" + (nextMonth?.slug || "2026-august")} className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <CalendarDays className="w-5 h-5 text-violet" />
               </div>
@@ -76,7 +76,7 @@ export default function PaymentDatesPage() {
                 <p className="text-xs text-ash">Next month</p>
               </div>
             </Link>
-            <Link href="/banking" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/banking" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <CalendarDays className="w-5 h-5 text-violet" />
               </div>
@@ -100,7 +100,7 @@ export default function PaymentDatesPage() {
               <Link
                 key={m.id}
                 href={`/payment-dates/${m.slug}`}
-                className="flex items-center gap-2 text-sm font-bold px-4 py-3 rounded-[2.85px] bg-paper text-carbon hover:bg-yellow/50 transition"
+                className="flex items-center gap-2 text-sm font-bold px-4 py-3 card text-carbon hover:bg-yellow/50 transition"
               >
                 <CalendarDays className="w-3.5 h-3.5 text-violet shrink-0" />
                 {m.label}
@@ -121,7 +121,7 @@ export default function PaymentDatesPage() {
           <h2 className="text-[21px] font-black text-carbon tracking-[-0.007em] mb-6">Common SASSA payment questions</h2>
           <div className="space-y-2 max-w-2xl">
             {faqs.map((faq) => (
-              <details key={faq.question} className="group bg-paper rounded-[2.85px] overflow-hidden border border-border">
+              <details key={faq.question} className="group card overflow-hidden">
                 <summary className="text-sm font-bold text-carbon p-4 cursor-pointer list-none flex items-center justify-between hover:bg-paper/80 transition">
                   {faq.question}
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

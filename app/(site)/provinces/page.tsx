@@ -67,7 +67,7 @@ export default function ProvincesHubPage() {
               { icon: Phone, label: "Helpline", value: "0800 60 10 11" },
               { icon: Users, label: "Beneficiaries", value: "18m+" },
             ].map((stat) => (
-              <div key={stat.label} className="flex items-center gap-3 bg-fog rounded-[2.85px] p-4">
+              <div key={stat.label} className="flex items-center gap-3 card p-4">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center">
                   <stat.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -89,7 +89,7 @@ export default function ProvincesHubPage() {
               <Link
                 key={p.id}
                 href={`/provinces/${p.slug}`}
-                className="flex items-center gap-4 p-4 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group"
+                className="flex items-center gap-4 p-4 card hover:bg-yellow/30 transition group"
               >
                 <Building className="w-5 h-5 text-violet shrink-0" />
                 <div className="flex-1 min-w-0">
@@ -111,7 +111,7 @@ export default function ProvincesHubPage() {
           <h2 className="text-[21px] font-black text-carbon tracking-[-0.007em] mb-6">Province information</h2>
           <div className="space-y-2 max-w-2xl">
             {provinceFaqs.map((faq) => (
-              <details key={faq.question} className="group bg-fog rounded-[2.85px] overflow-hidden">
+              <details key={faq.question} className="group card overflow-hidden">
                 <summary className="text-sm font-bold text-carbon p-4 cursor-pointer list-none flex items-center justify-between hover:bg-fog/80 transition">
                   {faq.question}
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

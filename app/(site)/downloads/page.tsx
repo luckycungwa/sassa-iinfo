@@ -65,7 +65,7 @@ export default function DownloadsHubPage() {
               { icon: Download, label: "Avg File Size", value: "~420 KB" },
               { icon: ArrowRight, label: "Filling Guides", value: "Detailed" },
             ].map((stat) => (
-              <div key={stat.label} className="flex items-center gap-3 bg-paper rounded-[2.85px] p-4">
+              <div key={stat.label} className="flex items-center gap-3 card p-4">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center">
                   <stat.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -87,7 +87,7 @@ export default function DownloadsHubPage() {
               <Link
                 key={d.id}
                 href={`/downloads/${d.slug}`}
-                className="flex items-center gap-4 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group"
+                className="flex items-center gap-4 p-4 card hover:bg-yellow/30 transition group"
               >
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                   <FileText className="w-5 h-5 text-violet" />
@@ -113,7 +113,7 @@ export default function DownloadsHubPage() {
               { q: "Do I need to print the forms or can I fill them online?", a: "Most SASSA forms must be printed and filled by hand. Bring the completed form plus all required documents to your nearest SASSA office." },
               { q: "Which form do I need for my situation?", a: "Start with the Official Grant Application Form for most grants. Use the Bank Change Form if you need to update payment details, or the SRD Appeal Template if you're appealing a decline." },
             ].map((faq) => (
-              <details key={faq.q} className="group bg-paper rounded-[2.85px] overflow-hidden">
+              <details key={faq.q} className="group card overflow-hidden">
                 <summary className="text-sm font-bold text-carbon p-4 cursor-pointer list-none flex items-center justify-between hover:bg-paper/80 transition">
                   {faq.q}
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

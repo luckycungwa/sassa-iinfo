@@ -55,7 +55,7 @@ export default function AuthorPage() {
                   That independence is deliberate â€” it lets me tell you honestly what is confirmed, what may change,
                   and when information was last checked.
                 </p>
-                <p className="text-sm bg-fog rounded-[2.85px] p-4">
+                <p className="text-sm card p-4">
                   <strong>How content is verified:</strong> every article is checked against official SASSA publications,
                   Government Gazettes, and the Social Assistance Act, and each page carries a last-review date so you
                   always know how current the information is.
@@ -71,7 +71,7 @@ export default function AuthorPage() {
                   { title: "Plain language", desc: "Government jargon is translated into clear steps anyone can follow." },
                   { title: "No personal data", desc: "This site never asks for your ID number, banking details, or passwords." },
                 ].map((s) => (
-                  <div key={s.title} className="bg-fog rounded-[2.85px] p-4">
+                  <div key={s.title} className="card p-4">
                     <p className="text-base font-black text-carbon">{s.title}</p>
                     <p className="text-sm text-body mt-1">{s.desc}</p>
                   </div>

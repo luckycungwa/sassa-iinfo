@@ -49,7 +49,7 @@ export default function ContactPage() {
                 For official SASSA services &mdash; checking your grant status, applying for grants, updating personal
                 details, or lodging appeals &mdash; please use the official SASSA channels listed on this page.
               </p>
-              <div className="bg-fog rounded-[2.85px] p-5 mt-6">
+              <div className="card p-5 mt-6">
                 <p className="text-sm text-body italic">
                   <strong>Note:</strong> We cannot process or assist with individual grant applications, status checks,
                   or appeals. Those must be handled through official SASSA channels.
@@ -59,21 +59,21 @@ export default function ContactPage() {
             <div className="space-y-6">
               <h2 className="text-[21px] font-black text-carbon tracking-[-0.007em]">Official SASSA services</h2>
               <div className="space-y-2">
-                <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 bg-fog rounded-[2.85px] p-4 hover:bg-yellow/30 transition group">
+                <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 card p-4 hover:bg-yellow/30 transition group">
                   <ExternalLink className="w-5 h-5 text-violet shrink-0" />
                   <div>
                     <p className="text-sm font-bold text-carbon">SRD Grant Portal</p>
                     <p className="text-xs text-ash">srd.sassa.gov.za</p>
                   </div>
                 </a>
-                <a href="https://srd.dsd.gov.za" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 bg-fog rounded-[2.85px] p-4 hover:bg-yellow/30 transition group">
+                <a href="https://srd.dsd.gov.za" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 card p-4 hover:bg-yellow/30 transition group">
                   <ExternalLink className="w-5 h-5 text-violet shrink-0" />
                   <div>
                     <p className="text-sm font-bold text-carbon">Appeal Portal</p>
                     <p className="text-xs text-ash">srd.dsd.gov.za</p>
                   </div>
                 </a>
-                <Link href="/offices" className="flex items-center gap-4 bg-fog rounded-[2.85px] p-4 hover:bg-yellow/30 transition group">
+                <Link href="/offices" className="flex items-center gap-4 card p-4 hover:bg-yellow/30 transition group">
                   <MapPin className="w-5 h-5 text-violet shrink-0" />
                   <div>
                     <p className="text-sm font-bold text-carbon">SASSA Office Finder</p>

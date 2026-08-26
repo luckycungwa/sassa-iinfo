@@ -146,7 +146,7 @@ export default function HomePage() {
               <Link
                 key={g.href}
                 href={g.href}
-                className="group bg-fog hover:bg-yellow/30 rounded-[2.85px] p-5 transition block"
+                className="card group hover:bg-yellow/30 p-5 transition block"
               >
                 <p className="text-[21px] font-black text-carbon group-hover:text-violet transition">{g.name}</p>
                 <p className="text-sm text-ash mt-1 leading-snug">{g.desc}</p>
@@ -174,42 +174,42 @@ export default function HomePage() {
             Everything you can do
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
-            <Link href="/status" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
+            <Link href="/status" className="card flex items-start gap-4 p-5 transition group">
               <Shield className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Check your SASSA status</p>
                 <p className="text-sm text-muted mt-1 leading-snug">Understand every SRD and grant status from Pending to Approved, Declined, and everything between.</p>
               </div>
             </Link>
-            <Link href="/payment-dates" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
+            <Link href="/payment-dates" className="card flex items-start gap-4 p-5 transition group">
               <Clock className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA payment dates 2026</p>
                 <p className="text-sm text-muted mt-1 leading-snug">Monthly schedules for every grant, including SRD batch windows and permanent grant paydays.</p>
               </div>
             </Link>
-            <Link href="/appeals" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
+            <Link href="/appeals" className="card flex items-start gap-4 p-5 transition group">
               <FileText className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Appeal a declined SASSA grant</p>
                 <p className="text-sm text-muted mt-1 leading-snug">Step-by-step guide to challenging a declined grant through ITSAA within 90 days.</p>
               </div>
             </Link>
-            <Link href="/tools" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
+            <Link href="/tools" className="card flex items-start gap-4 p-5 transition group">
               <Calculator className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA interactive tools</p>
                 <p className="text-sm text-muted mt-1 leading-snug">Eligibility checker, grant calculator, payment lookup, and appeal deadline timer.</p>
               </div>
             </Link>
-            <Link href="/offices" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
+            <Link href="/offices" className="card flex items-start gap-4 p-5 transition group">
               <MapPin className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Find a SASSA office</p>
                 <p className="text-sm text-muted mt-1 leading-snug">Provincial SASSA offices with addresses, contact numbers, and operating hours.</p>
               </div>
             </Link>
-            <Link href="/guides" className="flex items-start gap-4 p-5 rounded-[2.85px] bg-paper hover:bg-white/80 transition group">
+            <Link href="/guides" className="card flex items-start gap-4 p-5 transition group">
               <BookOpen className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA step-by-step guides</p>
@@ -239,7 +239,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative">
-              <div className="bg-fog rounded-[2.85px] p-8 relative overflow-hidden">
+              <div className="card p-8 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('/srd-bg.avif')] bg-cover bg-center opacity-[0.06]" />
                 <div className="relative">
                   <p className="text-sm font-bold text-violet uppercase tracking-widest mb-2">Why I built this</p>

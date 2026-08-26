@@ -81,7 +81,7 @@ export default function GrantsHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="sr-only">SASSA grant quick navigation</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <Link href="/eligibility" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/eligibility" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <Search className="w-5 h-5 text-violet" />
               </div>
@@ -90,7 +90,7 @@ export default function GrantsHubPage() {
                 <p className="text-xs text-ash">Check if you qualify</p>
               </div>
             </Link>
-            <Link href="/status" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/status" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <ShieldCheck className="w-5 h-5 text-violet" />
               </div>
@@ -99,7 +99,7 @@ export default function GrantsHubPage() {
                 <p className="text-xs text-ash">Check application status</p>
               </div>
             </Link>
-            <Link href="/appeals" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/appeals" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <Scale className="w-5 h-5 text-violet" />
               </div>
@@ -108,7 +108,7 @@ export default function GrantsHubPage() {
                 <p className="text-xs text-ash">Appeal a declined grant</p>
               </div>
             </Link>
-            <Link href="/payment-dates" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/payment-dates" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <CalendarDays className="w-5 h-5 text-violet" />
               </div>
@@ -129,7 +129,7 @@ export default function GrantsHubPage() {
               <Link
                 key={g.id}
                 href={"/grants/" + g.slug}
-                className="flex items-center justify-between p-5 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group"
+                className="flex items-center justify-between p-5 card hover:bg-yellow/30 transition group"
               >
                 <div className="min-w-0">
                   <p className="text-[19px] font-black text-carbon group-hover:text-violet transition">{g.title}</p>
@@ -151,7 +151,7 @@ export default function GrantsHubPage() {
           <h2 className="text-[29px] font-black text-carbon leading-[1.1] tracking-[-0.007em] mb-8">Common SASSA grant questions</h2>
           <div className="space-y-3 max-w-2xl">
             {faqs.map((faq) => (
-              <details key={faq.question} className="group bg-paper rounded-[2.85px] overflow-hidden">
+              <details key={faq.question} className="group card overflow-hidden">
                 <summary className="text-sm font-bold text-carbon p-5 cursor-pointer list-none flex items-center justify-between hover:bg-paper/80 transition">
                   {faq.question}
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

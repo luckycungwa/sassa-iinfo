@@ -12,17 +12,17 @@
   --color-violet-bright: #9b4dff;
   --color-carbon: #312f27;
   --color-slate: #4a5058;
-  --color-paper: #ffffff;
-  --color-fog: #efefef;
-  --color-sand: #e9e4d9;
-  --color-ash: #6f6d64;
+  --color-paper: #f5f4f0;
+  --color-fog: #e8e7e2;
+  --color-sand: #e2ddd0;
+  --color-ash: #5c5a52;
   --color-canvas: #fafafa;
   --color-surface: #ffffff;
   --color-surface-dim: #f5f5f5;
   --color-ink: #312f27;
   --color-body: #312f27;
-  --color-muted: #6f6d64;
-  --color-muted-foreground: #75726b;
+  --color-muted: #5c5a52;
+  --color-muted-foreground: #6b6960;
   --color-border: #e5e3dd;
   --color-border-strong: #c8c4ba;
   --color-accent: #ffc500;
@@ -106,9 +106,20 @@ h1 {
 }
 
 .skeleton {
-  background: linear-gradient(90deg, #efefef 25%, #e5e3dd 50%, #efefef 75%);
+  background: linear-gradient(90deg, #e8e7e2 25%, #dddbd4 50%, #e8e7e2 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s ease-in-out infinite;
+}
+
+.card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 2.85px;
+}
+
+.card:hover {
+  background: var(--color-surface-dim);
+  border-color: var(--color-border-strong);
 }
 
 @keyframes slide-in {
@@ -173,7 +184,7 @@ h1 {
 :root {
   --background: #fafafa;
   --foreground: #312f27;
-  --card: #ffffff;
+  --card: #f5f4f0;
   --card-foreground: #312f27;
   --popover: #ffffff;
   --popover-foreground: #312f27;
@@ -182,7 +193,7 @@ h1 {
   --secondary: #efefef;
   --secondary-foreground: #312f27;
   --muted: #efefef;
-  --muted-foreground: #8a867e;
+  --muted-foreground: #5c5a52;
   --accent: #ffc500;
   --accent-foreground: #312f27;
   --destructive: #dc2626;
@@ -208,7 +219,7 @@ h1 {
 .dark {
   --background: #131316;
   --foreground: #e8e4d9;
-  --card: #1e1e22;
+  --card: #262629;
   --card-foreground: #e8e4d9;
   --popover: #1e1e22;
   --popover-foreground: #e8e4d9;
@@ -247,9 +258,9 @@ h1 {
   --color-violet-bright: #b87aff;
   --color-carbon: #e8e4d9;
   --color-slate: #2a2a2e;
-  --color-paper: #1e1e22;
-  --color-fog: #2a2a2e;
-  --color-sand: #333336;
+  --color-paper: #262629;
+  --color-fog: #1f1f22;
+  --color-sand: #2e2e32;
   --color-ash: #a6a398;
   --color-canvas: #131316;
   --color-surface: #1e1e22;
@@ -273,7 +284,7 @@ h1 {
 }
 
 .dark .skeleton {
-  background: linear-gradient(90deg, #2a2a2e 25%, #1e1e22 50%, #2a2a2e 75%);
+  background: linear-gradient(90deg, #252528 25%, #1e1e22 50%, #252528 75%);
   background-size: 200% 100%;
 }
 

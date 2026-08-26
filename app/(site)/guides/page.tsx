@@ -68,7 +68,7 @@ export default function GuidesHubPage() {
               { icon: FileText, label: "Means Test Explained", value: "5 Factors" },
               { icon: BookOpen, label: "Application Steps", value: "6 Phases" },
             ].map((stat) => (
-              <div key={stat.label} className="flex items-center gap-3 bg-fog rounded-[2.85px] p-4">
+              <div key={stat.label} className="flex items-center gap-3 card p-4">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center">
                   <stat.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -87,7 +87,7 @@ export default function GuidesHubPage() {
           <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-6">Featured guides</h2>
           <div className="grid gap-3 md:grid-cols-3">
             {tsFeatured.map((g) => (
-              <Link key={g.id} href={"/guides/" + g.slug} className="p-5 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group">
+              <Link key={g.id} href={"/guides/" + g.slug} className="p-5 card hover:bg-yellow/30 transition group">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center mb-3">
                   <BookOpen className="w-5 h-5 text-violet" />
                 </div>
@@ -110,7 +110,7 @@ export default function GuidesHubPage() {
               <Link
                 key={g.id}
                 href={"/guides/" + g.slug}
-                className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group"
+                className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group"
               >
                 <FileText className="w-5 h-5 text-violet shrink-0" />
                 <div className="min-w-0 flex-1">
@@ -133,7 +133,7 @@ export default function GuidesHubPage() {
               { q: "Do I need all the documents listed in the checklist?", a: "The checklist covers every possible document. At minimum, you need your ID, proof of residence, and proof of income. Additional documents depend on the grant type." },
               { q: "How long does the application process take?", a: "Submitting the application takes about 30-60 minutes at a SASSA office. Processing takes up to 3 months. The SRD R370 grant is reviewed monthly." },
             ].map((faq) => (
-              <details key={faq.q} className="group bg-paper rounded-[2.85px] overflow-hidden">
+              <details key={faq.q} className="group card overflow-hidden">
                 <summary className="text-sm font-bold text-carbon p-4 cursor-pointer list-none flex items-center justify-between hover:bg-paper/80 transition">
                   {faq.q}
                   <svg className="w-4 h-4 text-ash shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>

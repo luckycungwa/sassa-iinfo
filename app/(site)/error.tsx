@@ -11,9 +11,7 @@ export default function SiteError({
 }) {
   return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center bg-canvas text-ink p-8">
-      <div className="w-16 h-16 rounded-xl bg-gold flex items-center justify-center text-accent-foreground font-black text-xl mb-6">
-        ZA
-      </div>
+      <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-16 h-16 mb-6" />
       <h1 className="text-3xl font-black tracking-tight text-ink mb-2">Something went wrong</h1>
       <p className="text-sm text-muted mb-8 text-center max-w-md">
         We couldn&apos;t load this page. Please try again or return home.

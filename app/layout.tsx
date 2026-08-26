@@ -108,7 +108,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         name: "SASSA Grant Guide",
         description: "Independent guide to SASSA social grants in South Africa. Created by 44tagstudios.",
         url: siteUrl,
-        logo: `${siteUrl}/favicon.svg`,
+        logo: `${siteUrl}/main-logo.svg`,
         foundingDate: "2025",
         founder: {
           "@type": "Person",

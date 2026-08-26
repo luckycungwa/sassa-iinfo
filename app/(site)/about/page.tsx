@@ -61,7 +61,7 @@ export default function AboutPage() {
                   Every page is researched against official SASSA publications, Government Gazettes, and the
                   Social Assistance Act. All factual claims are sourced and dated.
                 </p>
-                <p className="text-sm bg-fog rounded-[2.85px] p-4">
+                <p className="text-sm card p-4">
                   <strong>Disclaimer:</strong> This is an independent, educational resource. We are not affiliated with
                   SASSA, the South African Social Security Agency, or any government department.
                 </p>
@@ -71,7 +71,7 @@ export default function AboutPage() {
               <h2 className="text-[29px] font-black text-carbon leading-[1.1] tracking-[-0.007em]">Our standards</h2>
               <div className="space-y-3 mt-6">
                 {standards.map((s) => (
-                  <div key={s.title} className="bg-fog rounded-[2.85px] p-4">
+                  <div key={s.title} className="card p-4">
                     <p className="text-base font-black text-carbon">{s.title}</p>
                     <p className="text-sm text-body mt-1">{s.desc}</p>
                   </div>

@@ -66,7 +66,7 @@ export default function StatusHubPage() {
               { href: "/guides/change-srd-phone-number", title: "Changed or lost number", desc: "Update your SRD cellphone number, even without the SIM" },
               { href: "/appeals/how-to-appeal", title: "Declined â€” appeal", desc: "Lodge an ITSAA appeal within the 90-day window" },
             ].map((p) => (
-              <Link key={p.href} href={p.href} className="flex flex-col p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+              <Link key={p.href} href={p.href} className="flex flex-col p-4 card hover:bg-yellow/30 transition group">
                 <p className="text-sm font-black text-carbon group-hover:text-violet transition">{p.title}</p>
                 <p className="text-xs text-ash mt-1 leading-snug">{p.desc}</p>
               </Link>
@@ -84,7 +84,7 @@ export default function StatusHubPage() {
               { icon: Clock, label: "Typical Processing", value: "7-30 days" },
               { icon: AlertTriangle, label: "Appeal Window", value: "90 days" },
             ].map((stat) => (
-              <div key={stat.label} className="flex items-center gap-3 bg-paper rounded-[2.85px] p-4">
+              <div key={stat.label} className="flex items-center gap-3 card p-4">
                 <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center">
                   <stat.icon className="w-5 h-5 text-violet" />
                 </div>
@@ -102,7 +102,7 @@ export default function StatusHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[19px] font-black text-carbon tracking-[-0.007em] mb-4">Quick answers by status</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <Link href="/status/pending" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/status/pending" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <Clock className="w-5 h-5 text-violet" />
               </div>
@@ -111,7 +111,7 @@ export default function StatusHubPage() {
                 <p className="text-xs text-ash">No action needed</p>
               </div>
             </Link>
-            <Link href="/status/approved" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/status/approved" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <CheckCircle className="w-5 h-5 text-violet" />
               </div>
@@ -120,7 +120,7 @@ export default function StatusHubPage() {
                 <p className="text-xs text-ash">Payment scheduled</p>
               </div>
             </Link>
-            <Link href="/status/declined" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/status/declined" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <XCircle className="w-5 h-5 text-violet" />
               </div>
@@ -129,7 +129,7 @@ export default function StatusHubPage() {
                 <p className="text-xs text-ash">You can appeal</p>
               </div>
             </Link>
-            <Link href="/status/alternative-income-source" className="flex items-center gap-3 p-4 rounded-[2.85px] bg-fog hover:bg-yellow/30 transition group">
+            <Link href="/status/alternative-income-source" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <AlertTriangle className="w-5 h-5 text-violet" />
               </div>
@@ -150,7 +150,7 @@ export default function StatusHubPage() {
               <Link
                 key={s.id}
                 href={"/status/" + s.slug}
-                className="flex items-center justify-between p-5 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group"
+                className="flex items-center justify-between p-5 card hover:bg-yellow/30 transition group"
               >
                 <div className="min-w-0">
                   <p className="text-[19px] font-black text-carbon group-hover:text-violet transition">{s.statusName}</p>
@@ -171,7 +171,7 @@ export default function StatusHubPage() {
               <Link
                 key={s.id}
                 href={"/status/" + s.slug}
-                className="flex items-center gap-3 p-4 rounded-[2.85px] bg-paper hover:bg-yellow/30 transition group"
+                className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group"
               >
                 <ShieldCheck className="w-5 h-5 text-violet shrink-0" />
                 <div className="min-w-0 flex-1">
