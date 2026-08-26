@@ -38,6 +38,7 @@
   "relatedPages": [
     { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" },
     { "title": "How to Register on SRD Portal", "slug": "/banking/how-to-register-for-srd-portal" },
-    { "title": "Status Meanings Guide", "slug": "/status/pending" }
+    { "title": "Status Meanings Guide", "slug": "/status/pending" },
+    { "title": "SRD Help: Call Centres and Kiosks", "slug": "/guides/srd-call-centre-kiosk-help" }
   ]
 }

@@ -170,7 +170,7 @@
     {
       "id": "apply-intro",
       "type": "paragraph",
-      "text": "The SRD grant application is fully online — you do not need to visit a SASSA office to apply. There are two ways to apply:"
+      "text": "The SRD grant application is fully online — you do not need to visit a SASSA office to apply. There are two ways to apply. If you struggle with the online system, SASSA has free call centres and self-service kiosks where staff can help you apply in person — see our guide to call centres and kiosks for the full details."
     },
     {
       "id": "apply-methods-h",
@@ -506,6 +506,11 @@
           "title": "Alternative Income Source Status",
           "href": "/status/alternative-income-source",
           "description": "What this status means and how to fix it"
+        },
+        {
+          "title": "SRD Help: Call Centres and Kiosks",
+          "href": "/guides/srd-call-centre-kiosk-help",
+          "description": "How to get human help if the online system is difficult"
         }
       ]
     }

@@ -50,7 +50,8 @@
       { "title": "How to Check Any SASSA Grant Status", "href": "/guides/how-to-check-sassa-status", "description": "General guide covering all grant types — online, WhatsApp, USSD, and office methods" },
       { "title": "SRD R370 Grant — Complete Guide", "href": "/grants/srd-r370-grant", "description": "Full guide to the SRD grant" },
       { "title": "SRD Monthly Review Explained", "href": "/grants/srd-r370-grant/monthly-review", "description": "Understanding monthly eligibility checks" },
-      { "title": "Declined Status — What to Do", "href": "/status/declined", "description": "What to do if your grant is declined" }
+      { "title": "Declined Status — What to Do", "href": "/status/declined", "description": "What to do if your grant is declined" },
+      { "title": "Get Help: Call Centres and Kiosks", "href": "/guides/srd-call-centre-kiosk-help", "description": "Free call centre and in-person help when the online system is difficult" }
     ] }
   ],
   "relatedPages": [

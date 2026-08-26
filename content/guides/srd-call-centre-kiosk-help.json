@@ -1,0 +1,516 @@
+{
+  "id": "guide-srd-call-centre-kiosk",
+  "slug": "/guides/srd-call-centre-kiosk-help",
+  "classification": "how-to-guide",
+  "title": "How to Apply for SRD if You Struggle with the Online System — Call Centres and Self-Service Kiosks",
+  "description": "Practical guide to getting human help with your SRD R370 application: the free SASSA call centre, self-service kiosks at SASSA offices, and step-by-step alternatives when the online system is difficult.",
+  "lastUpdated": "2026-08-26",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SRD Help Without the Internet — Call Centre & Kiosk Guide 2026",
+    "metaDescription": "Can't use the SRD online system? Get human help via the free SASSA call centre (0800 60 10 11) or visit a self-service kiosk at your nearest SASSA office. Step-by-step guide.",
+    "keywords": [
+      "SASSA call centre SRD",
+      "SRD help call centre",
+      "SASSA 0800 60 10 11",
+      "SRD self service kiosk",
+      "SASSA office help SRD",
+      "SRD application help",
+      "SASSA phone number SRD",
+      "how to apply SRD without internet"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "How to Apply for SRD if You Struggle with the Online System",
+      "description": "The SRD grant is mostly online, but that does not mean you are on your own. Free call centres and self-service kiosks exist to help you apply, check your status, and sort out problems. This guide shows you exactly how to use them.",
+      "readingTime": "8 min read",
+      "lastUpdated": "August 2026",
+      "cta": {
+        "label": "Call SASSA Free: 0800 60 10 11",
+        "href": "tel:0800601011"
+      },
+      "secondaryCta": {
+        "label": "Check Your SRD Status",
+        "href": "/grants/srd-r370-grant/status-check"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The SRD R370 grant application is done through the SASSA online portal. That is the rule, and it is not changing. But for many people — those without reliable data, without a smartphone, or simply not comfortable with online forms — that creates a real problem. The good news: SASSA has set up ways to get human help. This guide walks you through the free call centre, the self-service kiosks, and what to do when the online system is not working for you."
+    },
+    {
+      "id": "court-context-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What the Court Case Means for You Right Now"
+    },
+    {
+      "id": "court-context-text",
+      "type": "paragraph",
+      "text": "On 25 August 2026, SASSA told the Supreme Court of Appeal that they have measures in place to improve access to the SRD grant. Specifically, they pointed to two things: free call centres where a real person can help, and self-service kiosks that have been rolled out at many SASSA offices (with plans to add them to public libraries too)."
+    },
+    {
+      "id": "court-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Nothing has changed yet",
+      "text": "The court case is still being heard. SASSA's promise to improve access is a statement made to the court, not an official policy change you can act on today. The system is still primarily online. But the call centre and kiosks already exist and are available right now. This guide shows you how to use what is already there."
+    },
+    {
+      "id": "court-context-2",
+      "type": "paragraph",
+      "text": "In practical terms, this means two things for you: (1) the call centre at 0800 60 10 11 can now help with SRD application problems, not just general grant enquiries, and (2) self-service kiosks at SASSA offices let you sit down with a screen and get step-by-step help from staff. Both options are free."
+    },
+    {
+      "id": "call-centre-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Free SASSA Call Centre for SRD Help"
+    },
+    {
+      "id": "call-centre-number",
+      "type": "callout",
+      "intent": "success",
+      "title": "Free Call Centre: 0800 60 10 11",
+      "text": "This is toll-free from any phone in South Africa — landline or cellphone. You will not be charged. Available Monday to Friday, 8am to 5pm."
+    },
+    {
+      "id": "call-centre-text",
+      "type": "paragraph",
+      "text": "The SASSA helpline at 0800 60 10 11 has historically been used for general grant enquiries. Following the court case, SASSA has indicated that this line now has dedicated capacity to help with SRD-specific problems — application help, status queries, and troubleshooting."
+    },
+    {
+      "id": "call-centre-best-times",
+      "type": "heading",
+      "level": 3,
+      "text": "Best Times to Call"
+    },
+    {
+      "id": "call-centre-best-times-text",
+      "type": "paragraph",
+      "text": "The call centre is busiest between 10am and 2pm on weekdays. For the shortest wait, try calling early in the morning (right at 8am) or late in the afternoon (after 3pm). Mondays and Fridays tend to be busier than other days."
+    },
+    {
+      "id": "call-centre-table",
+      "type": "table",
+      "headers": [
+        "What the Call Centre Can Help With",
+        "What You Still Need to Do Online or In Person"
+      ],
+      "rows": [
+        [
+          "Walk you through the SRD application step by step over the phone",
+          "Submit the actual SRD application (must be done through srd.sassa.gov.za or at a kiosk)"
+        ],
+        [
+          "Check your SRD application status",
+          "Upload supporting documents (affidavits, bank statements) online or at a SASSA office"
+        ],
+        [
+          "Explain why your application was declined",
+          "Submit an appeal through srd.dsd.gov.za"
+        ],
+        [
+          "Help you understand what each status message means",
+          "Update your bank details on the SRD portal"
+        ],
+        [
+          "Advise on which documents you need",
+          "Complete facial or identity verification (done through the app or at a SASSA office)"
+        ],
+        [
+          "Report a problem with your payment",
+          "Choose your payment method (bank or Cash Send)"
+        ]
+      ]
+    },
+    {
+      "id": "call-centre-steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Have Ready Before You Call"
+    },
+    {
+      "id": "call-centre-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Your 13-digit South African ID number",
+          "description": "The call centre agent will ask for this to look up your account. Have it written down in front of you."
+        },
+        {
+          "title": "The phone number you used to apply",
+          "description": "This is the number linked to your SRD application. The agent may send an OTP to verify it is you."
+        },
+        {
+          "title": "A pen and paper",
+          "description": "Write down any reference numbers, steps, or instructions the agent gives you. You may need them later."
+        },
+        {
+          "title": "Your question or problem ready",
+          "description": "Be specific. Instead of 'my grant is not working', say 'my status says declined for August and I do not know why'. The more specific you are, the faster they can help."
+        }
+      ]
+    },
+    {
+      "id": "call-centre-safety",
+      "type": "callout",
+      "intent": "danger",
+      "title": "Safety Warning: What the Call Centre Will NEVER Ask For",
+      "text": "SASSA will never ask for your bank PIN, your OTP, your online banking password, or money. If anyone calling themselves SASSA asks for these, it is a scam. Hang up and call back on 0800 60 10 11 yourself. Never share your OTP or PIN with anyone — not even someone who says they are helping you."
+    },
+    {
+      "id": "kiosk-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Self-Service Kiosks at SASSA Offices"
+    },
+    {
+      "id": "kiosk-intro",
+      "type": "paragraph",
+      "text": "SASSA has rolled out self-service kiosks at many local offices across South Africa. These are touchscreen computers set up in the office where you can sit down and work through your SRD application with staff nearby to help. SASSA has told the court they plan to expand these to public libraries as well."
+    },
+    {
+      "id": "kiosk-what-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What a Self-Service Kiosk Can Do"
+    },
+    {
+      "id": "kiosk-what",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Submit a new SRD grant application",
+        "Check your current SRD application status",
+        "Update your personal details (phone number, address)",
+        "Update your banking details",
+        "Help you appeal a declined application",
+        "Print a status confirmation if you need a record"
+      ]
+    },
+    {
+      "id": "kiosk-what-not-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What a Kiosk Cannot Do"
+    },
+    {
+      "id": "kiosk-what-not",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Process payments or give you cash",
+        "Override a declined application (you still need to appeal)",
+        "Speed up verification or payment timelines",
+        "Issue a new SASSA card (that is done at the Post Office or selected retailers)",
+        "Change government policy or eligibility rules"
+      ]
+    },
+    {
+      "id": "kiosk-expect-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What to Expect at the Office"
+    },
+    {
+      "id": "kiosk-expect-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Arrive with your ID and phone",
+          "description": "Bring your original ID document (or passport for non-citizens) and the cellphone linked to your application. The kiosk may send an OTP to verify it is you."
+        },
+        {
+          "title": "Ask a staff member for the self-service kiosk",
+          "description": "Not all SASSA offices have kiosks yet. If there is one, a staff member will direct you to it. If there is no kiosk, you can still ask a clerk to help you at their desk."
+        },
+        {
+          "title": "Sit at the kiosk and follow the prompts",
+          "description": "The screen will guide you through each step. If you get stuck, ask the staff member. That is what they are there for."
+        },
+        {
+          "title": "Get a printout or confirmation",
+          "description": "If you need proof of your application or status, ask the staff member to print a confirmation for you."
+        }
+      ]
+    },
+    {
+      "id": "kiosk-availability",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Kiosk availability varies by office",
+      "text": "Not every SASSA office has a self-service kiosk yet. Larger offices in cities and major towns are more likely to have one. If your local office does not have a kiosk, you can still get help from a SASSA clerk at the counter, or call the free helpline on 0800 60 10 11."
+    },
+    {
+      "id": "alternatives-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Step-by-Step Alternatives When the Online System Is Difficult"
+    },
+    {
+      "id": "alternatives-intro",
+      "type": "paragraph",
+      "text": "If you cannot use the online portal for any reason — no data, no smartphone, the site keeps crashing, or you just do not know where to start — here are your options in order of what to try first."
+    },
+    {
+      "id": "alternatives-process",
+      "type": "process-diagram",
+      "steps": [
+        {
+          "label": "Try the WhatsApp line",
+          "description": "Save 082 046 8553 to your contacts. Send 'SASSA' and follow the menu. This works on most phones with minimal data and is free on many networks."
+        },
+        {
+          "label": "Use the USSD code",
+          "description": "Dial *134*7737# on any phone. This works without data or a smartphone. Standard network rates apply."
+        },
+        {
+          "label": "Call the free helpline",
+          "description": "Dial 0800 60 10 11 from any phone. An agent can check your status and walk you through the application process over the phone."
+        },
+        {
+          "label": "Visit a SASSA office with a kiosk",
+          "description": "Go to your nearest SASSA office with your ID. Staff can help you apply on the self-service kiosk or at the counter."
+        },
+        {
+          "label": "Ask a trusted person to help you online",
+          "description": "If you have a family member or friend you trust, they can sit with you and help you complete the application on srd.sassa.gov.za. Never share your OTP or bank PIN with them — only help with the form itself."
+        }
+      ]
+    },
+    {
+      "id": "comparison-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Your Help Options Compared"
+    },
+    {
+      "id": "comparison-table",
+      "type": "comparison-table",
+      "headers": [
+        "Option",
+        "What You Need",
+        "Best For"
+      ],
+      "rows": [
+        [
+          "Online Portal",
+          "Smartphone + data + working browser",
+          "Fastest if you are comfortable online"
+        ],
+        [
+          "WhatsApp (082 046 8553)",
+          "Phone + minimal data",
+          "Quick status checks and basic help"
+        ],
+        [
+          "USSD (*134*7737#)",
+          "Any phone, no data",
+          "Status check without internet"
+        ],
+        [
+          "Call Centre (0800 60 10 11)",
+          "Any phone, no data",
+          "Complex problems needing a real person"
+        ],
+        [
+          "SASSA Office / Kiosk",
+          "ID + phone + travel to office",
+          "Full help with application, documents, and troubleshooting"
+        ]
+      ]
+    },
+    {
+      "id": "online-tips-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Tips to Make the Online System Easier"
+    },
+    {
+      "id": "online-tips",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Use a library, school, or community centre WiFi instead of mobile data — most public libraries offer free internet access",
+        "Try the portal early in the morning (before 9am) or late at night when fewer people are online",
+        "If the site says 'session expired', go back to the start and enter your details again — this is common and does not mean your application failed",
+        "Make sure your phone number is registered in your own name — the OTP will only send to a number that matches your ID at the network provider",
+        "Clear your browser cache if the site keeps showing errors — on Chrome, go to Settings > Privacy > Clear Browsing Data",
+        "Ask at your local library if they have a computer you can use. SASSA has indicated plans to add kiosks to libraries as well."
+      ]
+    },
+    {
+      "id": "safety-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Staying Safe When Getting Help"
+    },
+    {
+      "id": "safety-text",
+      "type": "paragraph",
+      "text": "When you get help from a call centre agent, kiosk assistant, or anyone helping you with your application, there are a few rules that protect you. Follow them every time."
+    },
+    {
+      "id": "safety-rules",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Never share your OTP (one-time PIN) with anyone. If someone asks for it, it is a scam — even if they say they are SASSA staff. SASSA will never ask for your OTP.",
+        "Never share your bank PIN or online banking password with anyone. Not over the phone, not in person, not through WhatsApp.",
+        "Only use the official SRD website: srd.sassa.gov.za. Do not enter your details on any other website.",
+        "If someone calls you claiming to be from SASSA and asks for money or personal details, hang up. Call 0800 60 10 11 yourself to verify.",
+        "Do not let anyone take your ID book or SASSA card. If you need help at a SASSA office, keep your documents in your hands at all times.",
+        "If you are approached by someone offering to 'speed up' your application for a fee, walk away. SASSA applications are free. There is no fast track."
+      ]
+    },
+    {
+      "id": "related-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Related Guides"
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Check Your SRD Status",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "All the ways to check your SRD grant status"
+        },
+        {
+          "title": "How to Apply for SRD",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full step-by-step SRD application guide"
+        },
+        {
+          "title": "SRD Payment Methods",
+          "href": "/grants/srd-r370-grant/payment-methods",
+          "description": "Bank transfer vs Cash Send — how you get paid"
+        },
+        {
+          "title": "Appeal a Declined SRD",
+          "href": "/appeals/appeal-after-decline",
+          "description": "What to do when your SRD application is declined"
+        },
+        {
+          "title": "How to Check Any SASSA Status",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "Online, WhatsApp, USSD, and in-person status checks"
+        },
+        {
+          "title": "SRD Scam Alert Guide",
+          "href": "/guides/sassa-scam-alert-guide",
+          "description": "How to spot and avoid SASSA scams"
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I apply for the SRD grant over the phone?",
+          "answer": "Not directly. The application must be submitted through the online portal (srd.sassa.gov.za) or at a SASSA office kiosk. But the call centre agent on 0800 60 10 11 can walk you through the process step by step while you are on the phone. If you have no way to access the internet, visit a SASSA office where staff can help you apply on the kiosk."
+        },
+        {
+          "question": "Is the call centre really free?",
+          "answer": "Yes. The number 0800 60 10 11 is toll-free from any South African phone — landline or cellphone. You will not be charged for the call, and there are no hidden fees."
+        },
+        {
+          "question": "How long will I wait on the phone?",
+          "answer": "Wait times vary. During busy periods (10am-2pm, Mondays and Fridays) you may wait 15 to 30 minutes. Early mornings (8am-9am) and late afternoons (after 3pm) are usually quicker. Have your ID number ready so the agent can help you immediately when they pick up."
+        },
+        {
+          "question": "Do self-service kiosks cost anything?",
+          "answer": "No. Using a SASSA self-service kiosk is completely free. You do not pay anything to apply, check your status, or get help from staff."
+        },
+        {
+          "question": "Can I use someone else's phone to apply or check my status?",
+          "answer": "You can use someone else's phone to access the SRD portal, but you will need your own ID number and the phone number linked to your application (for the OTP). Never enter your details on a public computer or someone else's device without being sure your information is safe. Always log out when you are finished."
+        },
+        {
+          "question": "What if I do not have a smartphone at all?",
+          "answer": "You have three options: (1) use USSD by dialling *134*7737# on any phone, (2) call 0800 60 10 11 for help, or (3) visit a SASSA office where staff can help you on the kiosk. You do not need a smartphone to receive SRD payments — you can use Cash Send with a basic phone."
+        },
+        {
+          "question": "What if the call centre cannot solve my problem?",
+          "answer": "If the call centre agent cannot resolve your issue, ask them to log a formal complaint or escalate your case. You can also visit your nearest SASSA office in person, where staff have more tools to investigate and fix problems. Bring your ID and any reference numbers from the call."
+        },
+        {
+          "question": "My local SASSA office does not have a kiosk. Can I still get help?",
+          "answer": "Yes. Even without a kiosk, SASSA clerks at the counter can help you check your status, update details, and guide you through the application. The kiosk is a convenience, not a requirement. You can also call 0800 60 10 11 for phone-based help."
+        },
+        {
+          "question": "Can I apply for SRD at a public library?",
+          "answer": "Not yet. SASSA has indicated plans to roll out self-service kiosks at public libraries, but this has not been widely implemented. Check with your local library to see if a kiosk is available. In the meantime, you can use a library's free internet access to apply on srd.sassa.gov.za yourself."
+        },
+        {
+          "question": "Will the call centre or kiosk speed up my application?",
+          "answer": "No. The call centre and kiosks give you access to the same system — they do not fast-track your application. Verification still takes the same time (7-14 business days). What these options do give you is help navigating the process and someone to talk to when things go wrong."
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "This guide was prepared based on SASSA's submissions to the Supreme Court of Appeal (25 August 2026) and publicly available information about SASSA's SRD support services.",
+      "sources": [
+        {
+          "label": "SASSA Official Website",
+          "url": "https://www.sassa.gov.za",
+          "accessed": "August 2026"
+        },
+        {
+          "label": "SRD Grant Portal",
+          "url": "https://srd.sassa.gov.za",
+          "accessed": "August 2026"
+        },
+        {
+          "label": "SRD Appeal Portal",
+          "url": "https://srd.dsd.gov.za",
+          "accessed": "August 2026"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "SRD Status Check",
+      "slug": "/grants/srd-r370-grant/status-check"
+    },
+    {
+      "title": "SRD Payment Methods",
+      "slug": "/grants/srd-r370-grant/payment-methods"
+    },
+    {
+      "title": "Appeal After Decline",
+      "slug": "/appeals/appeal-after-decline"
+    },
+    {
+      "title": "Scam Alert Guide",
+      "slug": "/guides/sassa-scam-alert-guide"
+    }
+  ]
+}

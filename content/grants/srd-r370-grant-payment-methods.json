@@ -256,6 +256,11 @@
           "title": "SASSA Payment Methods",
           "href": "/banking/payment-methods",
           "description": "All SASSA payment methods explained"
+        },
+        {
+          "title": "SRD Help: Call Centres and Kiosks",
+          "href": "/guides/srd-call-centre-kiosk-help",
+          "description": "How to get human help if the online system is difficult"
         }
       ]
     }
