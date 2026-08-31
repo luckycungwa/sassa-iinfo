@@ -88,6 +88,33 @@ export default function PaymentDatesPage() {
                 <p className="text-xs text-ash">Collection options</p>
               </div>
             </Link>
+            <Link href="/payment-dates/older-persons-grant-payment-dates" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
+              <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
+                <CalendarDays className="w-5 h-5 text-violet" />
+              </div>
+              <div>
+                <p className="text-sm font-black text-carbon group-hover:text-violet transition">Older Persons Grant Dates</p>
+                <p className="text-xs text-ash">Pension payout schedule</p>
+              </div>
+            </Link>
+            <Link href="/payment-dates/disability-grant-payment-dates" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
+              <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
+                <CalendarDays className="w-5 h-5 text-violet" />
+              </div>
+              <div>
+                <p className="text-sm font-black text-carbon group-hover:text-violet transition">Disability Grant Dates</p>
+                <p className="text-xs text-ash">Payout schedule</p>
+              </div>
+            </Link>
+            <Link href="/guides/how-to-check-sassa-status" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
+              <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
+                <CalendarDays className="w-5 h-5 text-violet" />
+              </div>
+              <div>
+                <p className="text-sm font-black text-carbon group-hover:text-violet transition">Check My Payment Date</p>
+                <p className="text-xs text-ash">Online, WhatsApp or USSD</p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -141,9 +168,9 @@ export default function PaymentDatesPage() {
       <section className="bg-slate text-white py-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
-            <Link href="/grants" className="text-accent-dark font-bold hover:underline">Browse all SASSA grants</Link>
-            <span className="text-muted mx-3">|</span>
-            <Link href="/status" className="text-accent-dark font-bold hover:underline">Check your SASSA status</Link>
+            <Link href="/grants" className="text-accent font-bold hover:underline">Browse all SASSA grants</Link>
+            <span className="text-white/30 mx-3">|</span>
+            <Link href="/status" className="text-accent font-bold hover:underline">Check your SASSA status</Link>
           </p>
         </div>
       </section>

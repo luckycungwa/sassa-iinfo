@@ -33,10 +33,10 @@ export default function HeroSection({
             <h1 className="text-3xl md:text-5xl font-black tracking-tight leading-[1.05] text-ink">
               {title}
             </h1>
-            <p className="text-base md:text-lg text-muted leading-relaxed">
+            <p className="text-base md:text-lg text-muted-foreground-foreground leading-relaxed">
               {description}
             </p>
-            <div className="flex flex-wrap items-center gap-4 text-xs text-muted font-mono">
+            <div className="flex flex-wrap items-center gap-4 text-xs text-muted-foreground font-mono">
               {readingTime && (
                 <span className="flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5" />

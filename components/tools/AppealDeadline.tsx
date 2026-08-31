@@ -31,7 +31,7 @@ export default function AppealDeadline() {
         <label htmlFor="appeal-decline-date" className="block text-xs font-bold text-muted-foreground">Date You Received SASSA Decline Notification</label>
         <div className="flex gap-2">
           <input id="appeal-decline-date" type="date" value={declineDate} onChange={(e) => setDeclineDate(e.target.value)}
-            className="border border-surface-container rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none" />
+            className="border border-surface-container rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none focus:ring-2 focus:ring-accent-dark" />
           <button onClick={handleCalculateAppeal} className="bg-gold hover:bg-gold-dark text-black font-bold px-4 py-2.5 rounded-xl text-xs transition">Check Deadline</button>
         </div>
       </div>

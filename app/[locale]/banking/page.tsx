@@ -35,7 +35,7 @@ export default function BankingHubPage() {
     <div>
       <section className="bg-slate text-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-muted uppercase tracking-widest mb-3">banking & payments</p>
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">banking & payments</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-white leading-[1.15] tracking-[-0.007em]">
             How SASSA pays your grant
           </h1>
@@ -159,7 +159,7 @@ export default function BankingHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Need more help with banking?</p>
-              <p className="text-sm text-muted">Visit the SRD Portal or check payment dates</p>
+              <p className="text-sm text-white/70">Visit the SRD Portal or check payment dates</p>
             </div>
             <div className="flex gap-2">
               <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema } from "@/lib/json-ld";
 import GoldCardBanner from "@/components/GoldCardBanner";
-import { ArrowRight, Shield, MapPin, Calculator, FileText, BookOpen, Clock } from "lucide-react";
+import { ArrowRight, Shield, MapPin, Calculator, BookOpen, CalendarDays, FilePlus2, XCircle, Hourglass, Wallet, RefreshCw, Scale, Smartphone } from "lucide-react";
 import { newsArticles } from "@/lib/data/news";
 import { loadAllContent } from "@/lib/content-loader";
 import AdUnit from "@/components/ads/AdUnit";
@@ -14,18 +14,18 @@ const grants = [
   { name: "Older Person", amount: "R2,400", href: "/grants/older-person-grant", desc: "State pension for men 60+ and women 60+" },
   { name: "Disability", amount: "R2,400", href: "/grants/disability-grant", desc: "For adults unable to work due to disability" },
   { name: "Child Support", amount: "R580", href: "/grants/child-support-grant", desc: "Per child per month for primary caregivers" },
-  { name: "Foster Care", amount: "R1,290", href: "/grants/foster-care-grant", desc: "For foster parents caring for children" },
+  { name: "Foster Care", amount: "R1,295", href: "/grants/foster-care-grant", desc: "For foster parents caring for children" },
   { name: "Care Dependency", amount: "R2,400", href: "/grants/care-dependency-grant", desc: "For children with disabilities" },
   { name: "War Veterans", amount: "R2,420", href: "/grants/war-veterans-grant", desc: "For military veterans or their surviving partners" },
   { name: "Grant-in-Aid", amount: "R580", href: "/grants/grant-in-aid", desc: "Additional support for grant recipients who need full-time care" },
 ];
 
 export const metadata: Metadata = {
-  title: 'SASSA Status Check & Grant Guide 2026 â€” Independent South African Resource',
+  title: 'SASSA Status Check & Grant Guide 2026 — Independent South African Resource',
   description: 'Complete guide to SASSA grants: check your SRD status, payment dates, appeal process, and eligibility. Step-by-step guides for all 8 social grants including SRD R370, Older Person, Child Support, and Disability grants.',
   alternates: { canonical: canonicalUrl("/") },
   openGraph: {
-    title: 'SASSA Status Check & Grant Guide 2026 â€” Independent South African Resource',
+    title: 'SASSA Status Check & Grant Guide 2026 — Independent South African Resource',
     description: 'Complete guide to SASSA grants: check your SRD status, payment dates, appeal process, and eligibility.',
   },
 };
@@ -60,11 +60,11 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
             <div className="flex-1 text-center md:text-left">
-              <p className="text-xs font-bold text-muted uppercase tracking-widest mb-4">sassa grant guide</p>
+              <p className="text-xs font-bold text-white/70 uppercase tracking-widest mb-4">sassa grant guide</p>
               <h1 className="text-[40px] md:text-[57px] lg:text-[68px] font-black leading-[1.15] text-white tracking-[-0.007em]">
                 Every grant,<br />made clear
               </h1>
-              <p className="text-[21px] md:text-[24px] text-body leading-relaxed mt-6 max-w-lg">
+              <p className="text-[21px] md:text-[24px] text-white/80 leading-relaxed mt-6 max-w-lg">
                 Every grant amount, payment date, and appeal deadline - checked against official sources and written in plain language.
               </p>
               <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
@@ -108,7 +108,7 @@ export default function HomePage() {
           <p className="text-[21px] text-body mt-4 max-w-lg mx-auto">
             Eight grants supporting millions of South Africans. Everything you need to know.
           </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm text-muted font-mono">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm text-carbon/60 font-mono">
             <span>18M+ recipients</span>
             <span className="w-1 h-1 rounded-full bg-carbon/20" />
             <span>8 grant types</span>
@@ -153,49 +153,94 @@ export default function HomePage() {
       <section className="bg-yellow py-16 md:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[34px] md:text-[40px] font-black text-carbon leading-[1.15] tracking-[-0.007em] text-center">
-            Everything you can do
+            What are you looking for?
           </h2>
+          <p className="text-center text-base text-body mt-3 max-w-xl mx-auto">
+            Jump straight to the task you need to get done.
+          </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
             <Link href="/status" className="card flex items-start gap-4 p-5 transition group">
               <Shield className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
-                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Check your SASSA status</p>
-                <p className="text-sm text-muted mt-1 leading-snug">Understand every SRD and grant status from Pending to Approved, Declined, and everything between.</p>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Check my SASSA status</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">Understand every SRD and grant status from Pending to Approved, Declined, and everything between.</p>
               </div>
             </Link>
             <Link href="/payment-dates" className="card flex items-start gap-4 p-5 transition group">
-              <Clock className="w-6 h-6 text-violet shrink-0 mt-0.5" />
+              <CalendarDays className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
-                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA payment dates 2026</p>
-                <p className="text-sm text-muted mt-1 leading-snug">Monthly schedules for every grant, including SRD batch windows and permanent grant paydays.</p>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Payment dates</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">Monthly schedules for every grant, including SRD batch windows and permanent grant paydays.</p>
+              </div>
+            </Link>
+            <Link href="/guides/how-to-apply-sassa-grant" className="card flex items-start gap-4 p-5 transition group">
+              <FilePlus2 className="w-6 h-6 text-violet shrink-0 mt-0.5" />
+              <div>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Apply for a grant</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">How to apply for every SASSA grant, plus the documents and steps each one needs.</p>
+              </div>
+            </Link>
+            <Link href="/banking/sassa-ussd-codes" className="card flex items-start gap-4 p-5 transition group">
+              <Smartphone className="w-6 h-6 text-violet shrink-0 mt-0.5" />
+              <div>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Check by phone</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">USSD menu, WhatsApp line, and toll-free helpline — no data or smartphone needed.</p>
+              </div>
+            </Link>
+            <Link href="/status/declined" className="card flex items-start gap-4 p-5 transition group">
+              <XCircle className="w-6 h-6 text-violet shrink-0 mt-0.5" />
+              <div>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">My grant was declined</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">Why applications get declined and how to appeal through ITSAA within 90 days.</p>
+              </div>
+            </Link>
+            <Link href="/status/pending" className="card flex items-start gap-4 p-5 transition group">
+              <Hourglass className="w-6 h-6 text-violet shrink-0 mt-0.5" />
+              <div>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">My status is pending</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">What Pending means, how long it lasts, and when to follow up with SASSA.</p>
+              </div>
+            </Link>
+            <Link href="/banking/payment-not-reflecting" className="card flex items-start gap-4 p-5 transition group">
+              <Wallet className="w-6 h-6 text-violet shrink-0 mt-0.5" />
+              <div>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Payment not received</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">Approved but the money never arrived? Work through the checks and get it resolved.</p>
+              </div>
+            </Link>
+            <Link href="/banking/update-bank-details" className="card flex items-start gap-4 p-5 transition group">
+              <RefreshCw className="w-6 h-6 text-violet shrink-0 mt-0.5" />
+              <div>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Change my banking details</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">Update your bank account, biometrics, or payment method with SASSA step by step.</p>
               </div>
             </Link>
             <Link href="/appeals" className="card flex items-start gap-4 p-5 transition group">
-              <FileText className="w-6 h-6 text-violet shrink-0 mt-0.5" />
+              <Scale className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
-                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Appeal a declined SASSA grant</p>
-                <p className="text-sm text-muted mt-1 leading-snug">Step-by-step guide to challenging a declined grant through ITSAA within 90 days.</p>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Appeal a SASSA decision</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">Step-by-step guide to challenging a declined grant through ITSAA within 90 days.</p>
               </div>
             </Link>
             <Link href="/tools" className="card flex items-start gap-4 p-5 transition group">
               <Calculator className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
-                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA interactive tools</p>
-                <p className="text-sm text-muted mt-1 leading-snug">Eligibility checker, grant calculator, payment lookup, and appeal deadline timer.</p>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA tools & calculators</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">Eligibility checker, grant calculator, payment lookup, and appeal deadline timer.</p>
               </div>
             </Link>
             <Link href="/offices" className="card flex items-start gap-4 p-5 transition group">
               <MapPin className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
                 <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Find a SASSA office</p>
-                <p className="text-sm text-muted mt-1 leading-snug">Provincial SASSA offices with addresses, contact numbers, and operating hours.</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">Provincial SASSA offices with addresses, contact numbers, and operating hours.</p>
               </div>
             </Link>
             <Link href="/guides" className="card flex items-start gap-4 p-5 transition group">
               <BookOpen className="w-6 h-6 text-violet shrink-0 mt-0.5" />
               <div>
-                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">SASSA step-by-step guides</p>
-                <p className="text-sm text-muted mt-1 leading-snug">How to apply, change payment method, check status, and more.</p>
+                <p className="text-[19px] font-bold text-carbon group-hover:text-violet transition">Step-by-step guides</p>
+                <p className="text-sm text-muted-foreground mt-1 leading-snug">How to apply, change payment method, check status, cancel, and more.</p>
               </div>
             </Link>
           </div>
@@ -261,7 +306,7 @@ export default function HomePage() {
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
             <strong>Independent resource.</strong> Not affiliated with SASSA or the South African government.
             For official applications and status checks,&nbsp;
-            <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="text-accent-dark font-bold hover:underline">srd.sassa.gov.za</a>
+            <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="text-accent font-bold hover:underline">srd.sassa.gov.za</a>
             &nbsp;or call 0800 60 10 11.
           </p>
         </div>

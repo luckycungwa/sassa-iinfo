@@ -55,7 +55,7 @@ export default function EligibilityChecker() {
               <label htmlFor="ec-income" className="block text-xs font-bold text-muted-foreground">What is your monthly personal income (ZAR)?</label>
               <input id="ec-income" type="number" value={quizAnswers.monthlyIncome}
                 onChange={(e) => setQuizAnswers({ ...quizAnswers, monthlyIncome: parseInt(e.target.value) || 0 })}
-                className="w-full max-w-xs border border-surface-container rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none" />
+                className="w-full max-w-xs border border-surface-container rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none focus:ring-2 focus:ring-accent-dark" />
             </div>
           )}
           <div className="flex gap-2">
@@ -89,7 +89,7 @@ export default function EligibilityChecker() {
             <label htmlFor="ec-children" className="block text-sm font-bold text-ink">4. How many dependent children (under 18) do you actively care for?</label>
             <input id="ec-children" type="number" min="0" max="10" value={quizAnswers.childrenCount}
               onChange={(e) => setQuizAnswers({ ...quizAnswers, childrenCount: parseInt(e.target.value) || 0 })}
-              className="w-full max-w-xs border border-surface-container rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none" />
+              className="w-full max-w-xs border border-surface-container rounded-xl px-4 py-3 bg-canvas focus:bg-surface focus:outline-none focus:ring-2 focus:ring-accent-dark" />
           </div>
           <div className="flex gap-2">
             <button onClick={() => setQuizStep(2)} className="border border-surface-container px-4 py-3 rounded-xl text-sm font-bold">Back</button>

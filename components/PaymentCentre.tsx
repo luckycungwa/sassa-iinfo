@@ -71,7 +71,7 @@ export default function PaymentCentre() {
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-surface">
             SASSA Payment Centre & Schedules
           </h1>
-          <p className="text-ink/70 text-sm md:text-base leading-relaxed">
+          <p className="text-white/70 text-sm md:text-base leading-relaxed">
             South Africa’s most trusted source for verified SASSA payment dates. View upcoming payment schedules, download calendar guides, and access previous cycles.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
@@ -110,7 +110,7 @@ export default function PaymentCentre() {
               </div>
               <h2 className="font-bold text-lg text-ink">Current Month: July 2026</h2>
             </div>
-            <span className="text-xs font-mono text-muted">Next Payout Cycle</span>
+            <span className="text-xs font-mono text-muted-foreground">Next Payout Cycle</span>
           </div>
 
           <div className="space-y-4">
@@ -138,7 +138,7 @@ export default function PaymentCentre() {
               </div>
               <h2 className="font-bold text-lg text-ink">Next Month: August 2026</h2>
             </div>
-            <span className="text-xs font-mono text-muted">Provisional Dates</span>
+            <span className="text-xs font-mono text-muted-foreground">Provisional Dates</span>
           </div>
 
           <div className="space-y-4">
@@ -174,7 +174,7 @@ export default function PaymentCentre() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-border pb-4 gap-2">
           <div>
             <h2 className="font-bold text-base text-ink">Payment Date Archives</h2>
-            <p className="text-muted text-xs">Verify historical payment release cycles for reference.</p>
+            <p className="text-muted-foreground text-xs">Verify historical payment release cycles for reference.</p>
           </div>
           <div className="flex gap-2">
             <button
@@ -182,7 +182,7 @@ export default function PaymentCentre() {
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
                 selectedYear === "2026"
                   ? "bg-accent text-black"
-                  : "bg-surface-dim text-muted hover:bg-surface-container"
+                  : "bg-surface-dim text-muted-foreground hover:bg-surface-container"
               }`}
             >
               2026 Cycle
@@ -192,7 +192,7 @@ export default function PaymentCentre() {
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition ${
                 selectedYear === "2025"
                   ? "bg-accent text-black"
-                  : "bg-surface-dim text-muted hover:bg-surface-container"
+                  : "bg-surface-dim text-muted-foreground hover:bg-surface-container"
               }`}
             >
               2025 Cycle
@@ -203,7 +203,7 @@ export default function PaymentCentre() {
         {selectedYear === "2026" ? (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs md:text-sm text-ink">
-              <thead className="bg-canvas text-muted font-bold font-mono">
+              <thead className="bg-canvas text-muted-foreground font-bold font-mono">
                 <tr>
                   <th className="p-3">Month (2026)</th>
                   <th className="p-3">Older Persons</th>
@@ -247,7 +247,7 @@ export default function PaymentCentre() {
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs md:text-sm text-ink">
-              <thead className="bg-canvas text-muted font-bold font-mono">
+              <thead className="bg-canvas text-muted-foreground font-bold font-mono">
                 <tr>
                   <th className="p-3">Month (2025)</th>
                   <th className="p-3">Older Persons</th>

@@ -54,7 +54,7 @@ export default function InteractiveTools() {
               className={`flex items-center gap-1.5 px-4 py-3 rounded-xl text-xs font-bold transition ${
                 activeTool === tool.id
                   ? "bg-accent text-primary-foreground"
-                  : "bg-surface text-muted hover:bg-canvas border border-border"
+                  : "bg-surface text-muted-foreground hover:bg-canvas border border-border"
               }`}
             >
               <Icon className="w-4 h-4" />

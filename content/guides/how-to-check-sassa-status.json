@@ -5,7 +5,7 @@
   "title": "How to Check Your SASSA Grant Status",
   "description": "Multiple ways to check your SASSA grant application or payment status online, via WhatsApp, USSD code, or at a SASSA office.",
   "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "published",
   "author": {
     "name": "Grant Guide Editorial Team",
@@ -13,13 +13,16 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "How to Check Your SASSA Grant Status — Online, WhatsApp & USSD",
-    "metaDescription": "Multiple ways to check your SASSA grant status: online at srd.sassa.gov.za, via WhatsApp (082 046 8553), USSD code *134*7737#, or at your nearest SASSA office.",
+    "metaTitle": "How to Check Your SASSA Grant Status — With Your ID Number, Online, WhatsApp & USSD",
+    "metaDescription": "Check your SASSA grant status with your ID number and phone number: online at srd.sassa.gov.za, WhatsApp, USSD, or at a SASSA office. No official app exists — avoid third-party status apps.",
     "keywords": [
       "check SASSA status",
       "SASSA status check",
+      "check my SASSA status with ID number",
+      "SASSA status check by phone number",
       "SASSA WhatsApp line",
       "SASSA USSD code",
+      "is there a SASSA status app",
       "SASSA application status"
     ]
   },
@@ -29,7 +32,7 @@
       "type": "hero",
       "title": "How to Check Your SASSA Grant Status",
       "description": "There are multiple ways to check your SASSA grant status — online via the SRD portal, through the WhatsApp line, by USSD code, or in person at a SASSA office. Find the method that works best for you.",
-      "readingTime": "4 min read",
+      "readingTime": "6 min read",
       "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Register on SRD Portal",
@@ -59,6 +62,23 @@
         {
           "text": "why your status might be on hold",
           "href": "/grants/srd-r370-grant-monthly-review"
+        }
+      ]
+    },
+    {
+      "id": "id-phone-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Can You Check with Just Your ID Number?"
+    },
+    {
+      "id": "id-phone-p",
+      "type": "paragraph",
+      "text": "The short answer: on every channel, SASSA verifies you using your ID number plus the phone number you registered when you applied. You cannot check your status with the ID number alone. The portal, WhatsApp, USSD, and the call centre all pull up your file only when you provide both, because SASSA protects your records against identity fraud. If you have lost the phone number you applied with, update it first through the change-phone process, then any method below will work.",
+      "links": [
+        {
+          "text": "how to change the phone number on your SASSA application",
+          "href": "/guides/change-srd-phone-number"
         }
       ]
     },
@@ -110,7 +130,7 @@
     {
       "id": "whatsapp-tip",
       "type": "paragraph",
-      "text": "This method is handy if you are already on WhatsApp anyway. The chat menus walk you through step by step, and you do not need to remember any codes or web addresses. Just reply with the number of the option you want. One thing to remember: SASSA will never message you out of the blue asking for your PIN or OTP — always start the conversation yourself by sending 'SASSA'.",
+      "text": "This method is handy if you are already on WhatsApp anyway. The chat menus walk you through step by step, and you do not need to remember any codes or web addresses. Just reply with the number of the option you want. One thing to remember: SASSA will never message you out of the blue asking for your PIN or OTP — always start the conversation yourself by sending 'SASSA'. The WhatsApp line has been updated before, so if 082 046 8553 stops responding, confirm the current number on sassa.gov.za rather than trusting a Google result.",
       "links": [
         {
           "text": "spotting fake SASSA messages",
@@ -127,7 +147,30 @@
     {
       "id": "ussd-text",
       "type": "paragraph",
-      "text": "Dial *134*7737# on your mobile phone. Follow the menu to check your grant status. Standard network rates apply."
+      "text": "Dial *134*7737# on your mobile phone. Follow the menu to check your grant status. Standard network rates apply. You may also see *120*3210# or *120*69277# referenced online — USSD codes have changed over the years and vary between guides, so if one code does not work for you, try another or confirm the current code on sassa.gov.za."
+    },
+    {
+      "id": "app-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Is There an Official SASSA Status App?"
+    },
+    {
+      "id": "app-p",
+      "type": "paragraph",
+      "text": "No. SASSA does not have an official status-checking app in the Play Store or App Store. There is no 'SASSA official app' on Android or iPhone — the official channels are the srd.sassa.gov.za portal, WhatsApp, USSD, the call centre, and SASSA offices. Apps that claim to be an official SASSA status checker are third-party tools at best and scams at worst. They are not connected to your grant records, and many ask for your ID and PIN, which you should never share."
+    },
+    {
+      "id": "moya-p",
+      "type": "paragraph",
+      "text": "The Moya app, a free South African messaging app, does offer a 'SASSA grants' section that lets you check your SRD status by entering your ID and phone number. Moya is a third-party app, not a SASSA product, and it retrieves the same records you can see yourself on the official portal. It can be useful if your regular data bundle is finished, but treat it like the portal and never enter more than your ID and registered phone number."
+    },
+    {
+      "id": "sms-warning",
+      "type": "callout",
+      "intent": "warning",
+      "title": "There Is No Official SMS Status-Check Number",
+      "text": "SASSA sends you SMS updates, but it does not run a service where you text your ID number to a number to get a status back. Websites or social posts telling you to 'SMS your ID to 082 046 8553' or any other number are describing the WhatsApp line at best and scams at worst. Never text your ID number to an unverified number, and never reply to an SMS asking for your PIN or OTP."
     },
     {
       "id": "ussd-tip",
@@ -179,6 +222,14 @@
       "id": "faq",
       "type": "faq",
       "faqs": [
+        {
+          "question": "Is there an official SASSA status app?",
+          "answer": "No. SASSA has no official app in the Play Store or App Store. Apps advertising a 'SASSA official status check' are third-party or fraudulent — the only official channels are the srd.sassa.gov.za portal, WhatsApp, USSD, the 0800 60 10 11 call centre, and SASSA offices. Never enter your PIN into any app claiming to be SASSA."
+        },
+        {
+          "question": "Can I check my SASSA status with only my ID number?",
+          "answer": "No — every channel needs your ID number plus the phone number you registered when you applied. SASSA matches both to pull up your file, to stop strangers from viewing your records. If you lost the phone number you applied with, update it first via the change-phone process, then check again."
+        },
         {
           "question": "Why is my status still showing 'Pending' after weeks?",
           "answer": "'Pending' means your application is still being checked and no decision has been made yet. It can stay on Pending for a while during busy periods, especially around re-confirmation. Keep checking, and if it has been more than 90 days, contact SASSA on 0800 60 10 11 to ask for an update."

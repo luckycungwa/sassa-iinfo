@@ -193,7 +193,7 @@ export default function StatusHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Need help with a specific SASSA status?</p>
-              <p className="text-sm text-muted">Check your status online or visit the appeals centre</p>
+              <p className="text-sm text-white/70">Check your status online or visit the appeals centre</p>
             </div>
             <div className="flex gap-2">
               <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">

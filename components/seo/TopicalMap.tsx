@@ -125,7 +125,7 @@ export default function TopicalMap() {
           <div className="bg-white text-ink p-5 rounded-2xl border border-surface-dim shadow-inner space-y-3 font-sans">
             <div className="flex items-center gap-2 text-xs text-surface0">
               <img src="/main-logo.svg" alt="" className="w-6 h-6" />
-              <div><span className="text-xs font-semibold text-ink block leading-none">SASSA Resource Platform</span><span className="text-xs text-outline font-mono">https://sassaiinfo.co.za › status › pending</span></div>
+              <div><span className="text-xs font-semibold text-ink block leading-none">SASSA Resource Platform</span><span className="text-xs text-outline font-mono">https://sassagrantguide.co.za › status › pending</span></div>
             </div>
             <h4 className="text-lg font-medium text-info hover:underline cursor-pointer leading-tight">
               {serpQuery.includes("pending") ? "SASSA Status Pending Code: Meanings, Causes & 30-Day Fixes" : serpQuery.includes("child") ? "SASSA Child Support Grant Expiry: Official Age Limit Rules" : serpQuery.includes("appeal") ? "SASSA Appeal Guide: How to Submit ITSAA Online Forms (2026)" : "Official SASSA Payment Dates Calendar 2026 | Approved Schedule"}

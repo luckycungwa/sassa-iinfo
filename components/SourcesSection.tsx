@@ -11,7 +11,7 @@ export default function SourcesSection({ sources }: { sources: SourceLink[] }) {
       <p className="text-sm font-bold text-ink mb-3">Sources &amp; Official References</p>
       <ul className="space-y-2">
         {sources.map((source, i) => (
-          <li key={i} className="text-sm text-muted">
+          <li key={i} className="text-sm text-muted-foreground">
             <a
               href={source.url}
               target="_blank"

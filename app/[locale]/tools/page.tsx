@@ -79,9 +79,9 @@ export default function ToolsPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
             <strong>Struggling with the online system?</strong> You can call SASSA free on{" "}
-            <a href="tel:0800601011" className="text-accent-dark font-bold hover:underline">0800 60 10 11</a>{" "}
+            <a href="tel:0800601011" className="text-accent font-bold hover:underline">0800 60 10 11</a>{" "}
             or visit a SASSA office for in-person help.{" "}
-            <Link href="/guides/srd-call-centre-kiosk-help" className="text-accent-dark font-bold hover:underline">
+            <Link href="/guides/srd-call-centre-kiosk-help" className="text-accent font-bold hover:underline">
               Full guide to call centres and kiosks
             </Link>
           </p>

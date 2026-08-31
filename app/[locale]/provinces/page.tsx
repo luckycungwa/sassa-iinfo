@@ -130,7 +130,7 @@ export default function ProvincesHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Looking for a specific office address?</p>
-              <p className="text-sm text-muted">Use our office finder to locate your nearest branch</p>
+              <p className="text-sm text-white/70">Use our office finder to locate your nearest branch</p>
             </div>
             <div className="flex gap-2">
               <Link href="/offices" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">

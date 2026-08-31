@@ -76,7 +76,7 @@ export default async function BankingDetailPage({ params }: { params: Promise<{ 
           {guide.content.map((section, i) => (
             <div key={i} className="bg-surface border border-border rounded-xl p-5">
               <h2 className="text-sm font-extrabold text-ink mb-2">{section.heading}</h2>
-              <p className="text-sm text-muted leading-relaxed">{section.text}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">{section.text}</p>
             </div>
           ))}
         </div>

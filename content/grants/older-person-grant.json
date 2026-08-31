@@ -550,8 +550,8 @@
       "links": [
         {
           "title": "Older Person Grant payment dates",
-          "href": "/payment-dates",
-          "description": "See the confirmed 2026 payment schedule for older person grants."
+          "href": "/payment-dates/older-persons-grant-payment-dates",
+          "description": "Every confirmed 2026 payment date for the Older Person Grant, plus what to do if your pension is late."
         },
         {
           "title": "Disability Grant",
@@ -827,6 +827,10 @@
     {
       "title": "Grant Library",
       "slug": "/grants"
+    },
+    {
+      "title": "Older Person Grant Payment Dates",
+      "slug": "/payment-dates/older-persons-grant-payment-dates"
     },
     {
       "title": "Disability Grant",

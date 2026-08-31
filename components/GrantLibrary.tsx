@@ -56,7 +56,7 @@ export default function GrantLibrary() {
               <span>{selectedGrant.amount} / month</span>
             </div>
           </div>
-          <p className="text-muted text-sm md:text-base leading-relaxed">
+          <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
             {selectedGrant.overview}
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function GrantLibrary() {
               <CheckCircle className="w-4 h-4 text-accent-dark" />
               Eligibility Criteria
             </h3>
-            <ul className="space-y-2 text-xs md:text-sm text-muted">
+            <ul className="space-y-2 text-xs md:text-sm text-muted-foreground">
               {selectedGrant.eligibilityCriteria.map((c, idx) => (
                 <li key={idx} className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent-dark mt-2 flex-shrink-0"></span>
@@ -85,7 +85,7 @@ export default function GrantLibrary() {
               <FileText className="w-4 h-4 text-accent-dark" />
               Documents Required
             </h3>
-            <ul className="space-y-2 text-xs md:text-sm text-muted">
+            <ul className="space-y-2 text-xs md:text-sm text-muted-foreground">
               {selectedGrant.documentsRequired.map((d, idx) => (
                 <li key={idx} className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent-dark mt-2 flex-shrink-0"></span>
@@ -102,7 +102,7 @@ export default function GrantLibrary() {
             <BookOpen className="w-4 h-4 text-ink" />
             How To Apply
           </h3>
-          <ol className="space-y-2 text-xs md:text-sm text-muted list-decimal pl-4">
+          <ol className="space-y-2 text-xs md:text-sm text-muted-foreground list-decimal pl-4">
             {selectedGrant.howToApply.map((step, idx) => (
               <li key={idx} className="pl-1">
                 <span>{step}</span>
@@ -142,7 +142,7 @@ export default function GrantLibrary() {
                     )}
                   </button>
                   {expandedFaq === idx && (
-                    <div className="text-xs md:text-sm text-muted mt-1 pl-1 leading-relaxed">
+                    <div className="text-xs md:text-sm text-muted-foreground mt-1 pl-1 leading-relaxed">
                       {faq.answer}
                     </div>
                   )}

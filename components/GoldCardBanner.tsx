@@ -27,7 +27,7 @@ export default function GoldCardBanner() {
               <p className="text-[17px] font-bold leading-snug">
                 Gold Cards no longer work. Get your Black Card if you have not swapped yet.
               </p>
-              <p className="text-sm text-muted mt-1">
+              <p className="text-sm text-white/70 mt-1">
                 Your grant is safe, but you cannot withdraw or use it until you collect a free Black Card — bring your ID to any Postbank point or participating retailer.
               </p>
             </div>
@@ -54,7 +54,7 @@ export default function GoldCardBanner() {
             <p className="text-[17px] font-bold leading-snug">
               Swap your SASSA Gold Card for the new Postbank Black Card before it stops working.
             </p>
-            <p className="text-sm text-muted mt-1">
+            <p className="text-sm text-white/70 mt-1">
               Free swap — just bring your ID to any Postbank service point or participating retailer.
             </p>
           </div>

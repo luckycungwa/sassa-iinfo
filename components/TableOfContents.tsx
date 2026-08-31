@@ -63,7 +63,7 @@ export default function TableOfContents() {
           <List className="w-4 h-4 text-accent-dark" />
           <span className="text-xs font-bold text-ink">On this page</span>
         </div>
-        <ChevronDown className={"w-4 h-4 text-muted transition " + (isExpanded ? "rotate-180" : "")} />
+        <ChevronDown className={"w-4 h-4 text-muted-foreground transition " + (isExpanded ? "rotate-180" : "")} />
       </button>
       <div className={"mt-3 lg:mt-0 " + (isExpanded ? "block" : "hidden lg:block")}>
         <div className="hidden lg:flex items-center gap-2 mb-3">
@@ -83,7 +83,7 @@ export default function TableOfContents() {
                   "block text-xs py-1.5 px-2 rounded-lg transition " +
                   (activeId === item.id
                     ? "bg-gold/10 text-accent-dark font-bold"
-                    : "text-muted hover:text-ink hover:bg-surface-dim")
+                    : "text-muted-foreground hover:text-ink hover:bg-surface-dim")
                 }
                 style={{ paddingLeft: item.level === 3 ? "24px" : "8px" }}
               >

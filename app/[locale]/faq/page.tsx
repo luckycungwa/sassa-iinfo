@@ -31,7 +31,7 @@ export default function FAQPage() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">Frequently Asked Questions</h1>
-          <p className="text-sm text-muted mt-1">Common questions about SASSA grants, payments, statuses, and appeals.</p>
+          <p className="text-sm text-muted-foreground mt-1">Common questions about SASSA grants, payments, statuses, and appeals.</p>
         </div>
 
         <div className="flex flex-wrap gap-2">

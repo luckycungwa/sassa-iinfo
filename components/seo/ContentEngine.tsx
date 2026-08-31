@@ -389,9 +389,9 @@ export default function ContentEngine() {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sassaiinfo.co.za" },
-    { "@type": "ListItem", "position": 2, "name": "${activeParsedDoc.meta.category || "Category"}", "item": "https://sassaiinfo.co.za/${activeParsedDoc.meta.category || ""}" },
-    { "@type": "ListItem", "position": 3, "name": "${activeParsedDoc.meta.title || "Title"}", "item": "https://sassaiinfo.co.za${activeParsedDoc.meta.slug || ""}" }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sassagrantguide.co.za" },
+    { "@type": "ListItem", "position": 2, "name": "${activeParsedDoc.meta.category || "Category"}", "item": "https://sassagrantguide.co.za/${activeParsedDoc.meta.category || ""}" },
+    { "@type": "ListItem", "position": 3, "name": "${activeParsedDoc.meta.title || "Title"}", "item": "https://sassagrantguide.co.za${activeParsedDoc.meta.slug || ""}" }
   ]
 }`}</pre>
                   </div>

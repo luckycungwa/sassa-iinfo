@@ -24,7 +24,7 @@ export default function DownloadCentre() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Sidebar */}
         <div className="lg:col-span-4 space-y-2">
-          <h2 className="font-bold text-xs font-mono tracking-wider text-muted px-1 uppercase">
+          <h2 className="font-bold text-xs font-mono tracking-wider text-muted-foreground px-1 uppercase">
             Available Documents
           </h2>
           {downloadableForms.map((form) => (
@@ -53,7 +53,7 @@ export default function DownloadCentre() {
               <h1 className="text-xl md:text-2xl font-extrabold text-ink tracking-tight">
                 {selectedForm.title}
               </h1>
-              <p className="text-muted text-xs font-mono">Document reference: {selectedForm.pdfPlaceholderContent}</p>
+              <p className="text-muted-foreground text-xs font-mono">Document reference: {selectedForm.pdfPlaceholderContent}</p>
             </div>
             <button
               onClick={handleOpenPrintSimulation}
@@ -65,8 +65,8 @@ export default function DownloadCentre() {
 
           {/* Description */}
           <div className="space-y-1.5">
-            <h3 className="font-bold text-xs font-mono text-muted tracking-wider uppercase">Document Purpose</h3>
-            <p className="text-muted text-sm leading-relaxed">
+            <h3 className="font-bold text-xs font-mono text-muted-foreground tracking-wider uppercase">Document Purpose</h3>
+            <p className="text-muted-foreground text-sm leading-relaxed">
               {selectedForm.purpose}
             </p>
           </div>
@@ -77,7 +77,7 @@ export default function DownloadCentre() {
               <CheckCircle className="w-4.5 h-4.5 text-accent-dark" />
               How to Complete This Document:
             </h3>
-            <ul className="space-y-2.5 text-xs md:text-sm text-muted">
+            <ul className="space-y-2.5 text-xs md:text-sm text-muted-foreground">
               {selectedForm.howToFill.map((step, idx) => (
                 <li key={idx} className="flex gap-2.5">
                   <span className="w-5 h-5 rounded-full bg-canvas border border-border text-ink text-xs font-mono font-bold flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -95,7 +95,7 @@ export default function DownloadCentre() {
               <FileText className="w-4.5 h-4.5 text-accent-dark" />
               Accompanying Attachments Required:
             </h3>
-            <ul className="space-y-2 text-xs md:text-sm text-muted">
+            <ul className="space-y-2 text-xs md:text-sm text-muted-foreground">
               {selectedForm.documentChecklist.map((doc, idx) => (
                 <li key={idx} className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent-dark mt-2 flex-shrink-0"></span>
@@ -127,10 +127,10 @@ export default function DownloadCentre() {
 
             {/* Input Config Section (Hidden when printing!) */}
             <div className="p-4 bg-canvas rounded-xl border border-border space-y-3 print:hidden">
-              <p className="text-xs text-muted font-bold">Personalize form fields before printing:</p>
+              <p className="text-xs text-muted-foreground font-bold">Personalize form fields before printing:</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div className="space-y-1">
-                  <label className="text-xs font-bold text-muted uppercase font-mono">Full Name & Surname</label>
+                  <label className="text-xs font-bold text-muted-foreground uppercase font-mono">Full Name & Surname</label>
                   <input
                     type="text"
                     value={simulatedApplicantName}
@@ -140,7 +140,7 @@ export default function DownloadCentre() {
                   />
                 </div>
                 <div className="space-y-1">
-                  <label className="text-xs font-bold text-muted uppercase font-mono">13-Digit ID Number</label>
+                  <label className="text-xs font-bold text-muted-foreground uppercase font-mono">13-Digit ID Number</label>
                   <input
                     type="text"
                     value={simulatedIdNumber}
@@ -165,9 +165,9 @@ export default function DownloadCentre() {
               {/* Header */}
               <div className="text-center border-b-2 border-ink pb-4 space-y-1.5">
                 <p className="text-sm font-bold uppercase tracking-wider">REPUBLIC OF SOUTH AFRICA</p>
-                <p className="text-xs font-semibold uppercase text-muted">DEPARTMENT OF SOCIAL DEVELOPMENT</p>
+                <p className="text-xs font-semibold uppercase text-muted-foreground">DEPARTMENT OF SOCIAL DEVELOPMENT</p>
                 <h4 className="text-base font-extrabold uppercase mt-1 text-ink">{selectedForm.title}</h4>
-                <p className="text-xs font-mono text-muted">REF: {selectedForm.pdfPlaceholderContent}</p>
+                <p className="text-xs font-mono text-muted-foreground">REF: {selectedForm.pdfPlaceholderContent}</p>
               </div>
 
               {/* Applicant Info Section */}
@@ -175,11 +175,11 @@ export default function DownloadCentre() {
                 <p className="font-bold text-xs uppercase bg-surface-dim p-1.5 font-sans border border-surface-container">Section A: Applicant Declarations</p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="border-b border-outline-variant pb-1 flex justify-between">
-                    <span className="text-xs font-bold uppercase text-muted">Applicant Name:</span>
+                    <span className="text-xs font-bold uppercase text-muted-foreground">Applicant Name:</span>
                     <span className="font-sans font-bold">{simulatedApplicantName || "____________________"}</span>
                   </div>
                   <div className="border-b border-outline-variant pb-1 flex justify-between">
-                    <span className="text-xs font-bold uppercase text-muted">ID Number:</span>
+                    <span className="text-xs font-bold uppercase text-muted-foreground">ID Number:</span>
                     <span className="font-sans font-bold">{simulatedIdNumber || "____________________"}</span>
                   </div>
                 </div>
@@ -188,7 +188,7 @@ export default function DownloadCentre() {
               {/* Instructions Checkoffs */}
               <div className="space-y-2">
                 <p className="font-bold text-xs uppercase bg-surface-dim p-1.5 font-sans border border-surface-container">Section B: Terms & Guidelines</p>
-                <ul className="space-y-2 text-muted">
+                <ul className="space-y-2 text-muted-foreground">
                   {selectedForm.howToFill.map((step, idx) => (
                     <li key={idx} className="flex gap-2.5">
                       <span className="font-bold font-sans">[{idx + 1}]</span>
@@ -202,13 +202,13 @@ export default function DownloadCentre() {
               <div className="grid grid-cols-2 gap-8 pt-8 text-center font-sans text-xs">
                 <div className="space-y-1">
                   <div className="border-b border-outline-variant h-10"></div>
-                  <p className="font-semibold text-muted">Applicant Signature</p>
-                  <p className="text-xs text-muted">Sign in front of Commissioner</p>
+                  <p className="font-semibold text-muted-foreground">Applicant Signature</p>
+                  <p className="text-xs text-muted-foreground">Sign in front of Commissioner</p>
                 </div>
                 <div className="space-y-1">
                   <div className="border-b border-outline-variant h-10"></div>
-                  <p className="font-semibold text-muted">SASSA Commissioner / Officer</p>
-                  <p className="text-xs text-muted">Date and Stamp</p>
+                  <p className="font-semibold text-muted-foreground">SASSA Commissioner / Officer</p>
+                  <p className="text-xs text-muted-foreground">Date and Stamp</p>
                 </div>
               </div>
             </div>

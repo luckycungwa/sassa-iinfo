@@ -50,16 +50,16 @@ export default function EditorialPolicyPage() {
         </div>
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">Editorial Policy</h1>
-          <p className="text-sm text-muted mt-1">How this site researches, verifies, and maintains its content</p>
+          <p className="text-sm text-muted-foreground mt-1">How this site researches, verifies, and maintains its content</p>
         </div>
       </div>
 
       <div className="bg-surface border border-border rounded-xl p-6 space-y-3">
-        <p className="text-sm text-muted leading-relaxed">
+        <p className="text-sm text-muted-foreground leading-relaxed">
           This page explains the standards behind every article, guide, and data point on SASSA Grant Guide.
           If you want to know whether a number on this site can be trusted, this is where the answer lives.
         </p>
-        <p className="text-sm text-muted leading-relaxed">
+        <p className="text-sm text-muted-foreground leading-relaxed">
           Short version: I check everything against official government sources, I date every page so you know
           when it was last verified, and if I get something wrong, I fix it and note the correction.
         </p>
@@ -74,7 +74,7 @@ export default function EditorialPolicyPage() {
                 <Icon className="w-4 h-4 text-accent-dark" />
                 <h2 className="text-sm font-bold text-ink">{p.title}</h2>
               </div>
-              <p className="text-sm text-muted leading-relaxed">{p.desc}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">{p.desc}</p>
             </div>
           );
         })}
@@ -82,10 +82,10 @@ export default function EditorialPolicyPage() {
 
       <div className="bg-gold/10 border border-gold/20 rounded-xl p-5">
         <h2 className="text-sm font-bold text-accent-dark mb-2">Correction History</h2>
-        <p className="text-sm text-muted leading-relaxed mb-3">
+        <p className="text-sm text-muted-foreground leading-relaxed mb-3">
           Substantive corrections to published content are logged below. Minor clarifications and formatting changes are not listed.
         </p>
-        <div className="space-y-2 text-xs text-muted font-mono">
+        <div className="space-y-2 text-xs text-muted-foreground font-mono">
           <p><span className="text-accent-dark">2026-07-01:</span> Initial publication of editorial policy.</p>
         </div>
       </div>

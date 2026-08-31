@@ -40,7 +40,7 @@ export default function AdUnit({
 
   return (
     <div className={`ad-container my-6 text-center ${className}`} aria-label={label}>
-      <p className="text-[10px] uppercase tracking-widest text-muted mb-2">{label}</p>
+      <p className="text-[10px] uppercase tracking-widest text-muted-foreground mb-2">{label}</p>
       <ins
         ref={ref}
         className="adsbygoogle"

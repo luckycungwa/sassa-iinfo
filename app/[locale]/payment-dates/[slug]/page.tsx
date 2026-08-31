@@ -81,7 +81,7 @@ export default async function PaymentMonthPage({ params }: { params: Promise<{ l
         <div className="flex items-start gap-4">
           <div>
             <h1 className="text-2xl font-black text-ink tracking-tight">SASSA Payment Dates — {month.label}</h1>
-            <p className="text-sm text-muted mt-1">
+            <p className="text-sm text-muted-foreground mt-1">
               Complete schedule of social grant payout dates for {month.label}.
               {month.notes && <span className="block mt-1 text-xs font-medium text-gold-dark">{month.notes}</span>}
             </p>
@@ -90,7 +90,7 @@ export default async function PaymentMonthPage({ params }: { params: Promise<{ l
 
         {month.description && (
           <div className="bg-surface border border-border rounded-xl p-5">
-            <p className="text-sm text-muted leading-relaxed">{month.description}</p>
+            <p className="text-sm text-muted-foreground leading-relaxed">{month.description}</p>
           </div>
         )}
 
@@ -105,19 +105,19 @@ export default async function PaymentMonthPage({ params }: { params: Promise<{ l
             <tbody className="divide-y divide-border">
               <tr className="bg-surface">
                 <td className="p-4 font-bold text-ink">Older Persons Grant (Pension)</td>
-                <td className="p-4 text-muted font-mono">{formatDate(month.dates.olderPersons)}</td>
+                <td className="p-4 text-muted-foreground font-mono">{formatDate(month.dates.olderPersons)}</td>
               </tr>
               <tr className="bg-surface">
                 <td className="p-4 font-bold text-ink">Disability Grant</td>
-                <td className="p-4 text-muted font-mono">{formatDate(month.dates.disability)}</td>
+                <td className="p-4 text-muted-foreground font-mono">{formatDate(month.dates.disability)}</td>
               </tr>
               <tr className="bg-surface">
                 <td className="p-4 font-bold text-ink">Children&apos;s Grants (Child Support, Foster Care, Care Dependency)</td>
-                <td className="p-4 text-muted font-mono">{formatDate(month.dates.children)}</td>
+                <td className="p-4 text-muted-foreground font-mono">{formatDate(month.dates.children)}</td>
               </tr>
               <tr className="bg-surface">
                 <td className="p-4 font-bold text-ink">Social Relief of Distress (SRD R370)</td>
-                <td className="p-4 text-muted font-mono">{formatDate(month.dates.srd)}</td>
+                <td className="p-4 text-muted-foreground font-mono">{formatDate(month.dates.srd)}</td>
               </tr>
             </tbody>
           </table>
@@ -140,7 +140,7 @@ export default async function PaymentMonthPage({ params }: { params: Promise<{ l
                 className={`text-xs font-bold px-3 py-2 rounded-lg border transition ${
                   m.slug === month.slug
                     ? "bg-accent text-black border-accent"
-                    : "bg-canvas text-muted border-border hover:bg-surface hover:text-ink"
+                    : "bg-canvas text-muted-foreground border-border hover:bg-surface hover:text-ink"
                 }`}
               >
                 {m.label}

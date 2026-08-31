@@ -1,0 +1,296 @@
+{
+  "id": "payment-dates-older-persons-grant",
+  "slug": "/payment-dates/older-persons-grant-payment-dates",
+  "classification": "payment-date",
+  "title": "SASSA Older Persons Grant Payment Dates 2026",
+  "description": "Every SASSA Older Persons Grant payment date for 2026: the confirmed monthly dates, how the pay cycle works, and what to do if your pension payment is late.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Older Persons Grant Payment Dates 2026 — When Pension Pays",
+    "metaDescription": "All confirmed SASSA Older Persons (pension) grant payment dates for 2026: month-by-month schedule, how the pay cycle works, and what to do if your payment is late.",
+    "keywords": [
+      "SASSA older persons grant payment dates",
+      "SASSA pension payment date",
+      "when is the SASSA pension paid 2026",
+      "older persons grant payout date",
+      "SASSA pension late payment"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SASSA Older Persons Grant Payment Dates 2026"
+    }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Older Persons Grant Payment Dates 2026",
+      "description": "The Older Persons Grant (pension) is usually paid on the first or second working day of each month — but the exact date moves. Here is every confirmed 2026 payout date, how the cycle works, and what to do if your money is late.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "View This Month's Dates",
+        "href": "/payment-dates/2026-september"
+      },
+      "secondaryCta": {
+        "label": "All Payment Dates",
+        "href": "/payment-dates"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "SASSA pays permanent grants on a staggered monthly cycle so pay points do not collapse under everyone collecting on one day. The Older Persons Grant is paid first — normally on the first or second working day of the month — before Disability and then Children's grants. The day is not fixed to a date like the '1st': it depends on weekends, public holidays, and SASSA's official monthly schedule."
+    },
+    {
+      "id": "current-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Confirmed 2026 Payment Dates for Older Persons"
+    },
+    {
+      "id": "current-p",
+      "type": "paragraph",
+      "text": "SASSA confirms each month's schedule a week or so in advance. The dates below come from SASSA's confirmed publications; months marked provisional follow the standard pattern until SASSA confirms them. Today is 25 August 2026, so the next payment is the confirmed 2 September 2026 date."
+    },
+    {
+      "id": "dates-table",
+      "type": "table",
+      "headers": [
+        "Month",
+        "Payment Date",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "January 2026",
+          "2 January 2026",
+          "Confirmed"
+        ],
+        [
+          "February 2026",
+          "3 February 2026",
+          "Confirmed"
+        ],
+        [
+          "March 2026",
+          "3 March 2026",
+          "Confirmed"
+        ],
+        [
+          "April 2026",
+          "2 April 2026",
+          "Confirmed"
+        ],
+        [
+          "May 2026",
+          "4 May 2026",
+          "Confirmed"
+        ],
+        [
+          "June 2026",
+          "3 June 2026",
+          "Confirmed"
+        ],
+        [
+          "July 2026",
+          "3 July 2026",
+          "Confirmed"
+        ],
+        [
+          "August 2026",
+          "4 August 2026",
+          "Confirmed"
+        ],
+        [
+          "September 2026",
+          "2 September 2026",
+          "Confirmed by SASSA 21 August 2026"
+        ],
+        [
+          "October 2026",
+          "5 October 2026",
+          "Provisional — confirm with SASSA"
+        ],
+        [
+          "November 2026",
+          "3 November 2026",
+          "Provisional — confirm with SASSA"
+        ],
+        [
+          "December 2026",
+          "2 December 2026",
+          "Provisional — confirm with SASSA"
+        ]
+      ],
+      "caption": "SASSA Older Persons Grant payment dates for 2026"
+    },
+    {
+      "id": "cycle-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How the Payment Cycle Works"
+    },
+    {
+      "id": "cycle-p",
+      "type": "paragraph",
+      "text": "The Older Persons Grant is paid first in the monthly cycle because pensioners are the largest permanent-grant group in South Africa. The general pattern: Older Persons pay on the first or second working day, Disability grants on the next working day, and Children's grants after that. SASSA only fixes the dates when it publishes the official monthly schedule — and if a date falls on a weekend or public holiday, the payment may move to the previous working day. That is why 4 August 2026 (Tuesday) followed 4 May 2026; the schedule shifts with the calendar."
+    },
+    {
+      "id": "amounts-p",
+      "type": "paragraph",
+      "text": "The payment amount for 2026 is R2,400 per month for recipients aged 60–74 and R2,420 for those aged 75 and over. If every month payment comes out at an older, lower amount, your local SASSA office may not have applied the April 2026 increase — report it on 0800 60 10 11 and underpayments are corrected with arrears."
+    },
+    {
+      "id": "mid-pattern-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Bank Transfer vs. Card Collection Timing"
+    },
+    {
+      "id": "mid-pattern-p",
+      "type": "paragraph",
+      "text": "If you collect at a pay point or retailer with your SASSA card, the money is usually available on the payment date itself. If you are paid into a bank account, transfers usually reflect one to three working days after the official date. Do not panic if the balance is unchanged on payment day — check again the next morning before calling, and only escalate to 0800 60 10 11 if a full five working days pass with nothing reflecting."
+    },
+    {
+      "id": "review-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "A New 4th-Day Payment Window Started in August",
+      "text": "SASSA added a fourth payment day in August 2026, paid on the 7th of each month, for beneficiaries whose grants are under review, who are receiving backdated payments, or who fall into the eLife certification backlog. This does not change your normal date — if you were not notified of a review, collect on your usual Older Persons date as normal."
+    },
+    {
+      "id": "late-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to Do If Your Pension Is Late"
+    },
+    {
+      "id": "late-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Wait one full working day after the official date — bank transfers commonly lag, especially after holidays.",
+        "Check your balance again the next morning before taking any action; most 'missing' payments are simply slow transfers.",
+        "If five working days pass with nothing reflecting, call SASSA on 0800 60 10 11 with your ID number ready.",
+        "Bring your ID and latest bank statement to your nearest SASSA office — an agent can flag a delayed payment for investigation.",
+        "If you collect by card, visit any participating retailer pay point on the announced date; uncollected funds stay on your card safely."
+      ]
+    },
+    {
+      "id": "scam-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Never Pay Someone to Fix a Late Payment",
+      "text": "SASSA never charges for resolving a late or missing payment. Anyone offering to 'release' your pension, move your date, or clear a hold in exchange for money or a deposit is a fraudster. All SASSA services are free — report suspicious calls on 0800 60 10 11."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the next Older Persons Grant payment date?",
+          "answer": "As of 25 August 2026, the next payment is Wednesday 2 September 2026 — confirmed by SASSA on 21 August 2026. October is provisionally 5 October 2026, pending SASSA's confirmation."
+        },
+        {
+          "question": "Why is my pension paid on a different day every month?",
+          "answer": "The Older Persons Grant is paid on the first or second working day of the month, so the calendar date shifts whenever a month starts on a weekend or public holiday. SASSA confirms the exact schedule each month, usually one to two weeks in advance."
+        },
+        {
+          "question": "I collect by bank transfer — when should the money reflect?",
+          "answer": "Bank transfers usually appear one to three working days after the official payment date. If nothing reflects after five working days, call 0800 60 10 11 or visit a SASSA office with your ID."
+        },
+        {
+          "question": "Does the new 7th-of-the-month payment window affect me?",
+          "answer": "Only if SASSA has notified you that your grant is under review or due for backdated payment. If you receive your pension normally each month, keep collecting on your usual Older Persons date."
+        },
+        {
+          "question": "Will my pension amount change during the year?",
+          "answer": "Grant amounts only increase in April, when the new fiscal year starts. In 2026 the Older Persons Grant is R2,400 (60–74) and R2,420 (75+). Any message promising a mid-year bonus or increase outside April is a scam."
+        },
+        {
+          "question": "What should I do if I did not receive my pension at all this month?",
+          "answer": "Wait one working day, check your balance again (most delays are transfers), and if five working days pass with no payment, call 0800 60 10 11 or visit a SASSA office. Never pay anyone who offers to fix it for you."
+        }
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "Dates verified against official SASSA publications. Months marked provisional use the standard cycle until SASSA confirms.",
+      "sources": [
+        {
+          "label": "SASSA official website",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SASSA SRD portal",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA toll-free helpline",
+          "url": "tel:0800601011"
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "type": "link-grid",
+      "title": "Related Guides",
+      "links": [
+        {
+          "title": "All Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "September 2026 Payment Dates",
+          "href": "/payment-dates/2026-september"
+        },
+        {
+          "title": "Older Persons Grant Guide",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "How to Check Your SASSA Status",
+          "href": "/guides/how-to-check-sassa-status"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Disability Grant Payment Dates",
+      "slug": "/payment-dates/disability-grant-payment-dates"
+    },
+    {
+      "title": "Older Persons Grant Guide",
+      "slug": "/grants/older-person-grant"
+    },
+    {
+      "title": "September 2026 Payment Dates",
+      "slug": "/payment-dates/2026-september"
+    }
+  ]
+}

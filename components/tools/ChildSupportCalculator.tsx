@@ -37,7 +37,7 @@ export default function ChildSupportCalculator() {
         <label htmlFor="child-dob" className="block text-xs font-bold text-muted-foreground">Enter Child&apos;s Date of Birth</label>
         <div className="flex gap-2">
           <input id="child-dob" type="date" value={childDob} onChange={(e) => setChildDob(e.target.value)}
-            className="border border-surface-container rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none" />
+            className="border border-surface-container rounded-xl px-4 py-2.5 bg-canvas text-sm focus:outline-none focus:ring-2 focus:ring-accent-dark" />
           <button onClick={handleCalculateChildSupport} className="bg-gold hover:bg-gold-dark text-black font-bold px-4 py-2.5 rounded-xl text-xs transition">Calculate Expiry</button>
         </div>
       </div>

@@ -1,0 +1,303 @@
+{
+  "id": "payment-dates-disability-grant",
+  "slug": "/payment-dates/disability-grant-payment-dates",
+  "classification": "payment-date",
+  "title": "SASSA Disability Grant Payment Dates 2026",
+  "description": "Every SASSA Disability Grant payment date for 2026: the confirmed monthly dates, how the pay cycle works, and what to do if your grant payment is late.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Disability Grant Payment Dates 2026 — When It Pays",
+    "metaDescription": "All confirmed SASSA Disability Grant payment dates for 2026: month-by-month schedule, how the pay cycle works, and what to do if your payment is late.",
+    "keywords": [
+      "SASSA disability grant payment dates",
+      "SASSA disability grant payout date",
+      "when is the disability grant paid 2026",
+      "disability grant payment day",
+      "SASSA disability late payment"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SASSA Disability Grant Payment Dates 2026"
+    }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA Disability Grant Payment Dates 2026",
+      "description": "The Disability Grant is paid on the working day right after the Older Persons Grant in SASSA's monthly cycle. Here are every confirmed 2026 payout date, how the cycle works, and what to do if your money is late.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "View This Month's Dates",
+        "href": "/payment-dates/2026-september"
+      },
+      "secondaryCta": {
+        "label": "All Payment Dates",
+        "href": "/payment-dates"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "SASSA pays permanent grants on a staggered monthly cycle. The Disability Grant is paid the working day after the Older Persons Grant and before the Children's grants, so it usually lands on the second or third working day of the month. The exact calendar date moves every month depending on weekends, public holidays, and SASSA's published schedule — so keep this page bookmarked and check the confirmed date each month."
+    },
+    {
+      "id": "current-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Confirmed 2026 Payment Dates for Disability Grant"
+    },
+    {
+      "id": "current-p",
+      "type": "paragraph",
+      "text": "SASSA confirms each month's schedule a week or so in advance. The dates below come from SASSA's confirmed publications; months marked provisional follow the standard pattern until SASSA confirms them. Today is 25 August 2026, so the next payment is the confirmed 3 September 2026 date."
+    },
+    {
+      "id": "dates-table",
+      "type": "table",
+      "headers": [
+        "Month",
+        "Payment Date",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "January 2026",
+          "5 January 2026",
+          "Confirmed"
+        ],
+        [
+          "February 2026",
+          "4 February 2026",
+          "Confirmed"
+        ],
+        [
+          "March 2026",
+          "4 March 2026",
+          "Confirmed"
+        ],
+        [
+          "April 2026",
+          "3 April 2026",
+          "Confirmed"
+        ],
+        [
+          "May 2026",
+          "5 May 2026",
+          "Confirmed"
+        ],
+        [
+          "June 2026",
+          "4 June 2026",
+          "Confirmed"
+        ],
+        [
+          "July 2026",
+          "4 July 2026",
+          "Confirmed"
+        ],
+        [
+          "August 2026",
+          "5 August 2026",
+          "Confirmed"
+        ],
+        [
+          "September 2026",
+          "3 September 2026",
+          "Confirmed by SASSA 21 August 2026"
+        ],
+        [
+          "October 2026",
+          "6 October 2026",
+          "Provisional — confirm with SASSA"
+        ],
+        [
+          "November 2026",
+          "4 November 2026",
+          "Provisional — confirm with SASSA"
+        ],
+        [
+          "December 2026",
+          "3 December 2026",
+          "Provisional — confirm with SASSA"
+        ]
+      ],
+      "caption": "SASSA Disability Grant payment dates for 2026"
+    },
+    {
+      "id": "cycle-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How the Payment Cycle Works"
+    },
+    {
+      "id": "cycle-p",
+      "type": "paragraph",
+      "text": "The Disability Grant is paid on the working day after the Older Persons Grant, which keeps the queue load manageable at pay points. When the Older Persons date shifts because of a weekend or holiday, the Disability date shifts with it. For example, in April 2026 Older Persons paid on Thursday 2 April and Disability on Friday 3 April; in May the cycle landed on Monday 4 and Tuesday 5 May. SASSA only fixes dates when it publishes the official schedule, usually one to two weeks before the month starts."
+    },
+    {
+      "id": "amounts-p",
+      "type": "paragraph",
+      "text": "The Disability Grant pays R2,400 per month in 2026. If you receive an older, lower amount, your local SASSA office may not have applied the April 2026 increase — report it on 0800 60 10 11 and underpayments are corrected with arrears. A R580 Grant-in-Aid can also be added on top of the Disability Grant if you need full-time care in your own home."
+    },
+    {
+      "id": "mid-pattern-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Bank Transfer vs. Card Collection Timing"
+    },
+    {
+      "id": "mid-pattern-p",
+      "type": "paragraph",
+      "text": "If you collect at a pay point or retailer with your SASSA card, the money is usually available on the payment date itself. If you are paid into a bank account, transfers usually reflect one to three working days after the official date. Do not panic if the balance is unchanged on payment day — check again the next morning, and only call 0800 60 10 11 if a full five working days pass with nothing reflecting."
+    },
+    {
+      "id": "review-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Disability Grants Are Reviewed More Often",
+      "text": "Disability Grant eligibility can change, so SASSA periodically asks for updated medical reports. This does not change your payment date — but if your grant is flagged for a review, your payment falls under the new 4th-day window (7th of the month) introduced in August 2026. If SASSA has not notified you of a review, collect on your usual Disability date."
+    },
+    {
+      "id": "late-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to Do If Your Payment Is Late"
+    },
+    {
+      "id": "late-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Wait one full working day after the official date — bank transfers commonly lag, especially around holidays.",
+        "Check your balance again the next morning before taking any action; most 'missing' payments are slow transfers.",
+        "If five working days pass with nothing reflecting, call SASSA on 0800 60 10 11 with your ID number ready.",
+        "Bring your ID and latest bank statement to your nearest SASSA office — an agent can flag a delayed payment for investigation.",
+        "If you collect by card, visit any participating retailer pay point on the announced date; uncollected funds stay on your card safely."
+      ]
+    },
+    {
+      "id": "medical-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Holidays Outside the Payout Window Don't Move Your Date",
+      "text": "Public holidays that fall outside the payout window do not push your date. In 2026, Youth Day (16 June) and Heritage Day (24 September) did not shift the permanent grant dates. Only a holiday that falls directly on the scheduled working day matters — SASSA accounts for it in the published table."
+    },
+    {
+      "id": "scam-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Never Pay Someone to Fix a Late Payment",
+      "text": "SASSA never charges for resolving a late or missing payment. Anyone offering to 'release' your grant, move your date, or clear a hold in exchange for money or a deposit is a fraudster. All SASSA services are free — report suspicious calls on 0800 60 10 11."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the next Disability Grant payment date?",
+          "answer": "As of 25 August 2026, the next payment is Thursday 3 September 2026 — confirmed by SASSA on 21 August 2026. October is provisionally 6 October 2026, pending SASSA's confirmation."
+        },
+        {
+          "question": "Why is my Disability Grant paid on a different day every month?",
+          "answer": "The Disability Grant is paid on the working day after the Older Persons Grant, so the calendar date shifts whenever a month starts on a weekend or public holiday. SASSA confirms the exact schedule each month, usually one to two weeks in advance."
+        },
+        {
+          "question": "I collect by bank transfer — when should the money reflect?",
+          "answer": "Bank transfers usually appear one to three working days after the official payment date. If nothing reflects after five working days, call 0800 60 10 11 or visit a SASSA office with your ID."
+        },
+        {
+          "question": "Does a medical review change my payment date?",
+          "answer": "Not permanently. If your grant is under review, your payment may fall in the 4th-day window (the 7th of the month) rather than your usual date. Once the review is finalised, you return to your normal Disability date."
+        },
+        {
+          "question": "Will my grant amount change during the year?",
+          "answer": "Grant amounts only increase in April, when the new fiscal year starts. In 2026 the Disability Grant is R2,400 per month. Any message promising a mid-year bonus or increase outside April is a scam."
+        },
+        {
+          "question": "What should I do if I did not receive my payment at all this month?",
+          "answer": "Wait one working day, check your balance again (most delays are transfers), and if five working days pass with no payment, call 0800 60 10 11 or visit a SASSA office. Never pay anyone who offers to fix it for you."
+        }
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "Dates verified against official SASSA publications. Months marked provisional use the standard cycle until SASSA confirms.",
+      "sources": [
+        {
+          "label": "SASSA official website",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SASSA SRD portal",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA toll-free helpline",
+          "url": "tel:0800601011"
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "type": "link-grid",
+      "title": "Related Guides",
+      "links": [
+        {
+          "title": "All Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "September 2026 Payment Dates",
+          "href": "/payment-dates/2026-september"
+        },
+        {
+          "title": "Disability Grant Guide",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "title": "How to Check Your SASSA Status",
+          "href": "/guides/how-to-check-sassa-status"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Older Persons Grant Payment Dates",
+      "slug": "/payment-dates/older-persons-grant-payment-dates"
+    },
+    {
+      "title": "Disability Grant Guide",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "September 2026 Payment Dates",
+      "slug": "/payment-dates/2026-september"
+    }
+  ]
+}

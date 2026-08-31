@@ -104,7 +104,7 @@ export default function OfficesHubPage() {
                       <span key={s} className="text-xs text-ash/70">{s}</span>
                     ))}
                     {o.servicesOffered.length > 3 && (
-                      <span className="text-xs text-ash/50">+{o.servicesOffered.length - 3} more</span>
+                      <span className="text-xs text-ash/70">+{o.servicesOffered.length - 3} more</span>
                     )}
                   </div>
                 </div>
@@ -143,7 +143,7 @@ export default function OfficesHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Can&apos;t find your local office?</p>
-              <p className="text-sm text-muted">Visit the province hubs for regional information</p>
+              <p className="text-sm text-white/70">Visit the province hubs for regional information</p>
             </div>
             <div className="flex gap-2">
               <Link href="/provinces" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">

@@ -78,20 +78,20 @@ export default async function DownloadDetailPage({ params }: { params: Promise<{
           </div>
           <div>
             <h1 className="text-2xl font-black text-ink tracking-tight">{form.title}</h1>
-            <p className="text-sm text-muted mt-1">{form.shortDescription}</p>
+            <p className="text-sm text-muted-foreground mt-1">{form.shortDescription}</p>
           </div>
         </div>
 
         <div className="bg-surface border border-border rounded-xl p-5">
           <h2 className="text-sm font-extrabold text-ink mb-2">Purpose</h2>
-          <p className="text-sm text-muted leading-relaxed">{form.purpose}</p>
+          <p className="text-sm text-muted-foreground leading-relaxed">{form.purpose}</p>
         </div>
 
         <div className="bg-surface border border-border rounded-xl p-5">
           <h2 className="text-sm font-extrabold text-ink mb-3">How to Fill This Form</h2>
           <ul className="space-y-2">
             {form.howToFill.map((step, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="text-accent font-bold flex-shrink-0">{i + 1}.</span>
                 {step}
               </li>
@@ -103,7 +103,7 @@ export default async function DownloadDetailPage({ params }: { params: Promise<{
           <h2 className="text-sm font-extrabold text-ink mb-3">Document Checklist</h2>
           <ul className="space-y-2">
             {form.documentChecklist.map((doc, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="w-1.5 h-1.5 rounded-full bg-status-pending mt-1.5 flex-shrink-0" />
                 {doc}
               </li>
@@ -113,10 +113,10 @@ export default async function DownloadDetailPage({ params }: { params: Promise<{
 
         <div className="flex items-center justify-between bg-surface border border-surface-container rounded-xl p-4">
           <div>
-            <p className="text-xs font-bold text-muted font-mono uppercase tracking-wider">File Size</p>
+            <p className="text-xs font-bold text-muted-foreground font-mono uppercase tracking-wider">File Size</p>
             <p className="text-sm font-bold text-ink mt-0.5">{form.approxSize}</p>
           </div>
-          <div className="text-xs text-muted font-mono text-right leading-relaxed">{form.pdfPlaceholderContent}</div>
+          <div className="text-xs text-muted-foreground font-mono text-right leading-relaxed">{form.pdfPlaceholderContent}</div>
         </div>
       </div>
     </>

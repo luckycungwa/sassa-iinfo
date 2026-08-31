@@ -62,7 +62,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                   key={block.id}
                   id={block.id}
                   style={fontStyle}
-                  className="text-xs font-bold text-muted tracking-tight mt-3 mb-1.5 uppercase font-mono"
+                  className="text-xs font-bold text-muted-foreground tracking-tight mt-3 mb-1.5 uppercase font-mono"
                 >
                   {block.text}
                 </h4>
@@ -132,7 +132,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
               >
                 <div className="overflow-x-auto">
                   <table className="w-full text-left text-sm border-collapse">
-                    <thead className="bg-surface-dim border-b border-surface-container font-mono text-xs text-muted">
+                    <thead className="bg-surface-dim border-b border-surface-container font-mono text-xs text-muted-foreground">
                       <tr>
                         {block.headers.map((header, idx) => (
                           <th key={idx} className="p-3 font-bold uppercase tracking-wider">
@@ -155,7 +155,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                   </table>
                 </div>
                 {block.caption && (
-                  <div className="bg-surface border-t border-border p-2.5 text-center text-xs text-muted font-mono">
+                  <div className="bg-surface border-t border-border p-2.5 text-center text-xs text-muted-foreground font-mono">
                     {block.caption}
                   </div>
                 )}
@@ -166,7 +166,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
           case "callout": {
             let calloutStyle = "bg-surface border-surface-container text-ink";
             let Icon = Info;
-            let iconColor = "text-muted";
+            let iconColor = "text-muted-foreground";
 
             if (block.intent === "warning") {
               calloutStyle = "bg-trading-down/10 border-trading-down/30 text-ink";
@@ -249,9 +249,9 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                           {faq.question}
                         </span>
                         {isOpen ? (
-                          <ChevronUp className="w-4 h-4 text-muted flex-shrink-0" />
+                          <ChevronUp className="w-4 h-4 text-muted-foreground flex-shrink-0" />
                         ) : (
-                          <ChevronDown className="w-4 h-4 text-muted flex-shrink-0" />
+                          <ChevronDown className="w-4 h-4 text-muted-foreground flex-shrink-0" />
                         )}
                       </button>
                       {isOpen && (
@@ -281,7 +281,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                     <h4 className="text-xs font-black text-ink leading-none">
                       National SASSA Payout Schedules
                     </h4>
-                    <span className="text-xs font-mono text-muted uppercase tracking-wider block mt-0.5">
+                    <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider block mt-0.5">
                       Cycle Month: {block.month}
                     </span>
                   </div>
@@ -294,7 +294,7 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                       className="p-3 border border-border bg-surface-dim/30 rounded-xl flex flex-col justify-between gap-2.5"
                     >
                       <div>
-                        <span className="text-xs font-mono font-bold text-muted uppercase block leading-none">
+                        <span className="text-xs font-mono font-bold text-muted-foreground uppercase block leading-none">
                           Category
                         </span>
                         <span className="text-xs font-extrabold text-ink tracking-tight block mt-1 leading-tight">
@@ -303,11 +303,11 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                       </div>
                       <div className="border-t border-border pt-2 flex items-center justify-between text-xs">
                         <div className="text-left">
-                          <span className="text-xs font-mono text-muted block leading-none">Date</span>
+                          <span className="text-xs font-mono text-muted-foreground block leading-none">Date</span>
                           <span className="font-mono font-bold text-ink mt-0.5 block">{pay.date}</span>
                         </div>
                         <div className="text-right">
-                          <span className="text-xs font-mono text-muted block leading-none">Est Payout</span>
+                          <span className="text-xs font-mono text-muted-foreground block leading-none">Est Payout</span>
                           <span className="font-mono font-black text-accent-dark mt-0.5 block">{pay.amount}</span>
                         </div>
                       </div>
@@ -331,21 +331,21 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                       Local SASSA Branch
                     </span>
                     <h4 className="text-xs font-black text-ink mt-0.5">{block.branchName}</h4>
-                    <span className="text-xs text-muted font-mono mt-0.5 block">{block.province} Province</span>
+                    <span className="text-xs text-muted-foreground font-mono mt-0.5 block">{block.province} Province</span>
                   </div>
 
                   <div className="space-y-2 text-xs">
                     <div className="flex items-start gap-2">
-                      <MapPin className="w-4 h-4 text-muted mt-0.5 flex-shrink-0" />
-                      <span className="text-muted leading-normal">{block.address}</span>
+                      <MapPin className="w-4 h-4 text-muted-foreground mt-0.5 flex-shrink-0" />
+                      <span className="text-muted-foreground leading-normal">{block.address}</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Phone className="w-4 h-4 text-muted flex-shrink-0" />
-                      <span className="text-muted font-mono">{block.contactNumber}</span>
+                      <Phone className="w-4 h-4 text-muted-foreground flex-shrink-0" />
+                      <span className="text-muted-foreground font-mono">{block.contactNumber}</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Clock className="w-4 h-4 text-muted flex-shrink-0" />
-                      <span className="text-muted font-mono">{block.operatingHours}</span>
+                      <Clock className="w-4 h-4 text-muted-foreground flex-shrink-0" />
+                      <span className="text-muted-foreground font-mono">{block.operatingHours}</span>
                     </div>
                   </div>
                 </div>
@@ -358,15 +358,15 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                         Accessibility Vetting
                       </span>
                     </div>
-                    <p className="text-xs text-muted mt-2 leading-relaxed">
+                    <p className="text-xs text-muted-foreground mt-2 leading-relaxed">
                       {block.accessibilityNotes}
                     </p>
                   </div>
 
                   {block.coordinates && (
-                    <div className="pt-2 border-t border-border mt-2 flex items-center justify-between text-xs font-mono text-muted">
+                    <div className="pt-2 border-t border-border mt-2 flex items-center justify-between text-xs font-mono text-muted-foreground">
                       <span>Coordinates:</span>
-                      <span className="text-muted">
+                      <span className="text-muted-foreground">
                         {block.coordinates.lat.toFixed(4)}, {block.coordinates.lng.toFixed(4)}
                       </span>
                     </div>
@@ -396,10 +396,10 @@ export default function ArticleLayout({ blocks }: ArticleLayoutProps) {
                     Extension: {block.customType}
                   </span>
                 </div>
-                <p className="text-xs text-muted mt-1 leading-normal font-sans">
+                <p className="text-xs text-muted-foreground mt-1 leading-normal font-sans">
                   Interactive tool ready for this slot.
                 </p>
-                <div className="mt-2 text-left bg-midnight p-2.5 rounded-lg text-xs font-mono text-muted overflow-x-auto max-h-24">
+                <div className="mt-2 text-left bg-midnight p-2.5 rounded-lg text-xs font-mono text-white/60 overflow-x-auto max-h-24">
                   {JSON.stringify(block.payload, null, 2)}
                 </div>
               </div>

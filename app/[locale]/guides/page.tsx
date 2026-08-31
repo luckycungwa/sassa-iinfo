@@ -152,7 +152,7 @@ export default function GuidesHubPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Need more help with a specific topic?</p>
-              <p className="text-sm text-muted">Visit the full grant library or check your eligibility</p>
+              <p className="text-sm text-white/70">Visit the full grant library or check your eligibility</p>
             </div>
             <div className="flex gap-2">
               <Link href="/grants" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">

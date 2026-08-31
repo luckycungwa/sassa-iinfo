@@ -99,7 +99,7 @@ export default function AuthorPage() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[19px] font-bold text-white">Spotted an error or outdated info?</p>
-              <p className="text-sm text-muted">Help keep this resource accurate</p>
+              <p className="text-sm text-white/70">Help keep this resource accurate</p>
             </div>
             <Link href="/contact" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-accent text-accent-foreground rounded-[22px] text-xs font-bold hover:opacity-90 transition">
               Contact Us <ArrowRight className="w-3 h-3" />

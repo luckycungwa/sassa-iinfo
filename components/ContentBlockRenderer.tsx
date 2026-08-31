@@ -1,4 +1,4 @@
-﻿import type { ContentBlock, BasePage, PageClassification } from "../lib/schema/contentSchema";
+import type { ContentBlock, BasePage, PageClassification } from "../lib/schema/contentSchema";
 import PageShell from "./PageShell";
 import SourcesSection from "./SourcesSection";
 import TableOfContents from "./TableOfContents";
@@ -67,13 +67,13 @@ function Block({ block, classification }: { block: ContentBlock; classification?
       return <Tag id={id} className={cn("font-bold text-ink tracking-tight mt-10 mb-4", sizes[block.level])}>{block.text}</Tag>;
     }
     case "paragraph":
-      return <p className="text-sm text-muted leading-relaxed mb-5">{renderParagraphText(block.text, block.links)}</p>;
+      return <p className="text-sm text-muted-foreground leading-relaxed mb-5">{renderParagraphText(block.text, block.links)}</p>;
     case "list": {
       const ListTag = block.ordered ? "ol" : "ul";
       return (
         <ListTag className={cn("space-y-2 mb-5", block.ordered ? "list-decimal list-inside" : "")}>
           {block.items.map((item, i) => (
-            <li key={i} className="flex items-start gap-2 text-sm text-muted">
+            <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
               {!block.ordered && <span className="w-1.5 h-1.5 rounded-full bg-gold mt-1.5 flex-shrink-0" />}
               {block.ordered && <span className="font-bold text-accent-dark flex-shrink-0">{i + 1}.</span>}
               {item}
@@ -86,7 +86,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
       return (
         <div className="overflow-x-auto mb-5">
           <table className="w-full text-sm border-collapse">
-            {block.caption && <caption className="text-xs text-muted text-left mb-2 font-mono">{block.caption}</caption>}
+            {block.caption && <caption className="text-xs text-muted-foreground text-left mb-2 font-mono">{block.caption}</caption>}
             <thead>
               <tr className="border-b border-border">
                 {block.headers.map((h, i) => (
@@ -98,7 +98,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
               {block.rows.map((row, ri) => (
                 <tr key={ri} className="border-b border-border last:border-0 hover:bg-surface-dim/20 transition">
                   {row.map((cell, ci) => (
-                    <td key={ci} className="p-3 text-xs text-muted">{cell}</td>
+                    <td key={ci} className="p-3 text-xs text-muted-foreground">{cell}</td>
                   ))}
                 </tr>
               ))}
@@ -109,9 +109,9 @@ function Block({ block, classification }: { block: ContentBlock; classification?
     case "callout": {
       if (block.intent === "success") {
         return (
-          <div className="border rounded-xl p-5 mb-5" style={{ borderColor: `${accent}40`, backgroundColor: `${accent}10` }}>
-            {block.title && <p className="font-bold text-sm mb-1.5" style={{ color: accent }}>{block.title}</p>}
-            <p className="text-sm leading-relaxed opacity-90" style={{ color: accent }}>{block.text}</p>
+          <div className="border border-success-dark/30 bg-success-dark/10 rounded-xl p-5 mb-5 text-ink">
+            {block.title && <p className="font-bold text-sm mb-1.5 text-success-dark">{block.title}</p>}
+            <p className="text-sm leading-relaxed opacity-90">{block.text}</p>
           </div>
         );
       }
@@ -137,7 +137,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
               </span>
               <div>
                 <p className="text-sm font-bold text-ink">{step.title}</p>
-                <p className="text-sm text-muted mt-0.5">{step.description}</p>
+                <p className="text-sm text-muted-foreground mt-0.5">{step.description}</p>
               </div>
             </div>
           ))}
@@ -150,11 +150,11 @@ function Block({ block, classification }: { block: ContentBlock; classification?
             <details key={i} className="border border-border rounded-xl group">
               <summary className="text-sm font-bold text-ink p-4 cursor-pointer list-none flex items-center justify-between hover:bg-surface-dim/30 transition rounded-xl">
                 {faq.question}
-                <span className="text-muted group-open:rotate-180 transition-transform flex-shrink-0 ml-2">
+                <span className="text-muted-foreground group-open:rotate-180 transition-transform flex-shrink-0 ml-2">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </span>
               </summary>
-              <p className="text-sm text-muted px-4 pb-4 leading-relaxed">{faq.answer}</p>
+              <p className="text-sm text-muted-foreground px-4 pb-4 leading-relaxed">{faq.answer}</p>
             </details>
           ))}
         </div>
@@ -165,7 +165,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
           {block.links.map((link, i) => (
             <a key={i} href={link.href} className="block border border-border rounded-xl p-4 hover:border-gold/50 hover:bg-surface-dim/30 transition-colors group">
               <p className="text-sm font-bold text-accent-dark group-hover:text-violet transition">{link.title}</p>
-              {link.description && <p className="text-xs text-muted mt-1">{link.description}</p>}
+              {link.description && <p className="text-xs text-muted-foreground mt-1">{link.description}</p>}
             </a>
           ))}
         </div>
@@ -173,11 +173,11 @@ function Block({ block, classification }: { block: ContentBlock; classification?
     case "sources":
       return (
         <div className="mb-5 rounded-xl border border-border bg-surface-dim/40 p-5">
-          <p className="text-xs font-bold text-muted uppercase tracking-wider mb-3">Sources used on this page</p>
-          {block.note && <p className="text-xs text-muted mb-3 leading-relaxed">{block.note}</p>}
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-3">Sources used on this page</p>
+          {block.note && <p className="text-xs text-muted-foreground mb-3 leading-relaxed">{block.note}</p>}
           <ul className="space-y-1.5">
             {block.sources.map((s, i) => (
-              <li key={i} className="text-xs text-muted">
+              <li key={i} className="text-xs text-muted-foreground">
                 <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-accent-dark hover:text-violet hover:underline break-all">
                   {s.label}
                 </a>
@@ -194,7 +194,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
             <div key={i} className="bg-surface border border-border rounded-xl p-5 text-center">
               <p className="text-2xl font-black text-accent-dark">{stat.value}</p>
               <p className="text-xs font-bold text-ink mt-1">{stat.label}</p>
-              {stat.description && <p className="text-xs text-muted mt-0.5">{stat.description}</p>}
+              {stat.description && <p className="text-xs text-muted-foreground mt-0.5">{stat.description}</p>}
             </div>
           ))}
         </div>
@@ -212,7 +212,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
               </div>
               <div className={cn("pb-6", i === block.steps.length - 1 ? "pb-0" : "")}>
                 <p className="text-sm font-bold text-ink">{step.label}</p>
-                <p className="text-sm text-muted mt-0.5">{step.description}</p>
+                <p className="text-sm text-muted-foreground mt-0.5">{step.description}</p>
               </div>
             </div>
           ))}
@@ -222,7 +222,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
       return (
         <div className="overflow-x-auto mb-5">
           <table className="w-full text-sm border-collapse">
-            {block.caption && <caption className="text-xs text-muted text-left mb-2 font-mono">{block.caption}</caption>}
+            {block.caption && <caption className="text-xs text-muted-foreground text-left mb-2 font-mono">{block.caption}</caption>}
             <thead>
               <tr style={{ borderBottom: `2px solid ${accent}80` }}>
                 {block.headers.map((h, i) => (
@@ -234,7 +234,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
               {block.rows.map((row, ri) => (
                 <tr key={ri} className="border-b border-border hover:bg-surface-dim/20 transition">
                   {row.map((cell, ci) => (
-                    <td key={ci} className={cn("p-3 text-xs text-muted", ci === 0 ? "font-bold text-ink" : "text-center")}>{cell}</td>
+                    <td key={ci} className={cn("p-3 text-xs text-muted-foreground", ci === 0 ? "font-bold text-ink" : "text-center")}>{cell}</td>
                   ))}
                 </tr>
               ))}
@@ -246,7 +246,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
       return (
         <div className="bg-surface border border-border rounded-xl p-5 mb-5">
           <h4 className="text-sm font-bold text-ink mb-2">{block.title}</h4>
-          <p className="text-sm text-muted leading-relaxed">{block.text}</p>
+          <p className="text-sm text-muted-foreground leading-relaxed">{block.text}</p>
         </div>
       );
     case "grant-summary":
@@ -254,11 +254,11 @@ function Block({ block, classification }: { block: ContentBlock; classification?
         <div className="flex items-start justify-between gap-4 bg-surface border border-gold/20 rounded-xl p-5 mb-5">
           <div>
             <p className="text-xs font-bold text-ink mb-1">Target Group</p>
-            <p className="text-xs text-muted">{block.targetGroup}</p>
+            <p className="text-xs text-muted-foreground">{block.targetGroup}</p>
           </div>
           <div className="text-right flex-shrink-0">
             <p className="text-2xl font-black text-accent-dark">{block.amount}</p>
-            <p className="text-xs font-mono text-muted">{block.frequency}</p>
+            <p className="text-xs font-mono text-muted-foreground">{block.frequency}</p>
           </div>
         </div>
       );
@@ -266,10 +266,10 @@ function Block({ block, classification }: { block: ContentBlock; classification?
       return (
         <ul className="space-y-2 mb-5">
           {block.documents.map((doc, i) => (
-            <li key={i} className="flex items-start gap-2 text-sm text-muted">
+            <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
               <span className={cn("w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0", doc.required ? "bg-gold" : "bg-border")} />
-              {doc.label}{!doc.required && <span className="text-muted ml-1">(optional)</span>}
-              {doc.notes && <span className="text-muted ml-1">{'\u2014'} {doc.notes}</span>}
+              {doc.label}{!doc.required && <span className="text-muted-foreground ml-1">(optional)</span>}
+              {doc.notes && <span className="text-muted-foreground ml-1">{'\u2014'} {doc.notes}</span>}
             </li>
           ))}
         </ul>
@@ -277,18 +277,18 @@ function Block({ block, classification }: { block: ContentBlock; classification?
     case "status-reference":
       return (
         <div className="bg-surface border border-border rounded-xl p-5 mb-5 space-y-3">
-          <p className="text-sm text-muted leading-relaxed">{block.explanation}</p>
+          <p className="text-sm text-muted-foreground leading-relaxed">{block.explanation}</p>
           <div>
             <p className="text-sm font-bold text-ink mb-1">Why it happens:</p>
-            <ul className="space-y-1">{block.whyItHappens.map((w, i) => <li key={i} className="text-sm text-muted flex gap-1"><span className="text-accent-dark">{'\u2022'}</span>{w}</li>)}</ul>
+            <ul className="space-y-1">{block.whyItHappens.map((w, i) => <li key={i} className="text-sm text-muted-foreground flex gap-1"><span className="text-accent-dark">{'\u2022'}</span>{w}</li>)}</ul>
           </div>
           <div>
             <p className="text-sm font-bold text-ink mb-1">How long it lasts:</p>
-            <p className="text-sm text-muted">{block.howLongItLasts}</p>
+            <p className="text-sm text-muted-foreground">{block.howLongItLasts}</p>
           </div>
           <div>
             <p className="text-sm font-bold text-ink mb-1">What to do:</p>
-            <ul className="space-y-1">{block.whatYouShouldDo.map((w, i) => <li key={i} className="text-sm text-muted flex gap-1"><span className="text-accent-dark">{'\u2022'}</span>{w}</li>)}</ul>
+            <ul className="space-y-1">{block.whatYouShouldDo.map((w, i) => <li key={i} className="text-sm text-muted-foreground flex gap-1"><span className="text-accent-dark">{'\u2022'}</span>{w}</li>)}</ul>
           </div>
         </div>
       );
@@ -296,7 +296,7 @@ function Block({ block, classification }: { block: ContentBlock; classification?
       return <hr className="border-border my-8" />;
     case "quote":
       return (
-        <blockquote className="border-l-4 border-gold pl-5 italic text-sm text-muted mb-5">
+        <blockquote className="border-l-4 border-gold pl-5 italic text-sm text-muted-foreground mb-5">
           <p>{block.text}</p>
           {block.attribution && <footer className="text-xs font-bold text-ink mt-2">{'\u2014'} {block.attribution}</footer>}
         </blockquote>
@@ -311,14 +311,14 @@ function Block({ block, classification }: { block: ContentBlock; classification?
       return (
         <figure className="mb-5">
           <Image src={block.src} alt={block.alt} width={800} height={450} className="rounded-xl w-full object-cover" loading="lazy" />
-          {block.caption && <figcaption className="text-xs text-muted mt-2 text-center font-mono">{block.caption}</figcaption>}
+          {block.caption && <figcaption className="text-xs text-muted-foreground mt-2 text-center font-mono">{block.caption}</figcaption>}
         </figure>
       );
     case "news-meta":
       return (
         <div className="flex gap-2 mb-5">
-          <span className="text-xs font-mono text-muted bg-surface border border-border rounded px-2 py-1">{block.date}</span>
-          {block.tags.map((tag) => <span key={tag} className="text-xs font-mono text-muted bg-surface border border-border rounded px-2 py-1">{tag}</span>)}
+          <span className="text-xs font-mono text-muted-foreground bg-surface border border-border rounded px-2 py-1">{block.date}</span>
+          {block.tags.map((tag) => <span key={tag} className="text-xs font-mono text-muted-foreground bg-surface border border-border rounded px-2 py-1">{tag}</span>)}
         </div>
       );
     default:
@@ -356,7 +356,7 @@ function OfficialAssistance() {
   return (
     <div className="mt-10 bg-surface border border-border rounded-xl p-6">
       <p className="font-bold text-ink mb-2 text-sm">Need Official Assistance?</p>
-      <p className="text-sm text-muted leading-relaxed mb-4">
+      <p className="text-sm text-muted-foreground leading-relaxed mb-4">
         This is an independent informational resource. For official services {'\u2014'} checking your grant status,
         updating your details, or submitting an appeal {'\u2014'} please use the official SASSA portals directly:
       </p>

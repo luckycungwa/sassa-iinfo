@@ -27,7 +27,7 @@ export default function EligibilityCentre({ onNavigateToTools }: { onNavigateToT
         </div>
 
         <div className="space-y-2">
-          <h2 className="font-bold text-xs font-mono tracking-wider text-muted px-1 uppercase">
+          <h2 className="font-bold text-xs font-mono tracking-wider text-muted-foreground px-1 uppercase">
             Browse by Situation
           </h2>
           {eligibilityGuides.map((g) => (
@@ -60,13 +60,13 @@ export default function EligibilityCentre({ onNavigateToTools }: { onNavigateToT
           <h1 className="text-xl md:text-2xl font-extrabold text-ink tracking-tight">
             {selectedGuide.title}
           </h1>
-          <p className="text-muted text-sm md:text-base leading-relaxed">
+          <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
             {selectedGuide.shortDescription}
           </p>
         </div>
 
         {/* Introduction */}
-        <p className="text-muted text-sm leading-relaxed">
+        <p className="text-muted-foreground text-sm leading-relaxed">
           {selectedGuide.introduction}
         </p>
 
@@ -94,7 +94,7 @@ export default function EligibilityCentre({ onNavigateToTools }: { onNavigateToT
               <div key={idx} className="p-4 border border-accent-light/40 bg-accent-light/30 rounded-xl flex items-center justify-between">
                 <div>
                   <h4 className="font-bold text-sm text-ink">{grant.name}</h4>
-                  <p className="text-xs text-muted mt-0.5">Estimated payout amount</p>
+                  <p className="text-xs text-muted-foreground mt-0.5">Estimated payout amount</p>
                 </div>
                 <div className="font-extrabold font-mono text-sm text-accent-dark bg-surface border border-accent-light/40 px-3 py-1 rounded-lg">
                   {grant.amount}
@@ -107,7 +107,7 @@ export default function EligibilityCentre({ onNavigateToTools }: { onNavigateToT
         {/* Steps To Qualify */}
         <div className="space-y-3">
           <h3 className="font-bold text-sm text-ink">Steps To Qualify:</h3>
-          <ol className="space-y-2 text-xs md:text-sm text-muted list-decimal pl-4">
+          <ol className="space-y-2 text-xs md:text-sm text-muted-foreground list-decimal pl-4">
             {selectedGuide.stepsToQualify.map((step, idx) => (
               <li key={idx} className="pl-1 leading-relaxed">{step}</li>
             ))}
@@ -145,7 +145,7 @@ export default function EligibilityCentre({ onNavigateToTools }: { onNavigateToT
                     )}
                   </button>
                   {expandedFaq === idx && (
-                    <div className="text-xs md:text-sm text-muted mt-1 pl-1 leading-relaxed">
+                    <div className="text-xs md:text-sm text-muted-foreground mt-1 pl-1 leading-relaxed">
                       {faq.answer}
                     </div>
                   )}

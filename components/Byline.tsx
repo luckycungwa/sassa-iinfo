@@ -32,12 +32,12 @@ export default function Byline() {
         <span className="flex items-center gap-1.5 text-xs text-muted-foreground bg-surface border border-border rounded-md px-2.5 py-1.5">
           <Stethoscope className="w-3.5 h-3.5 text-accent-dark" />
           Medically reviewed by <span className="font-semibold text-ink">{medicalReviewer.name}</span>
-          <span className="text-muted font-mono">({medicalReviewer.credentials})</span>
+          <span className="text-muted-foreground font-mono">({medicalReviewer.credentials})</span>
         </span>
         <span className="flex items-center gap-1.5 text-xs text-muted-foreground bg-surface border border-border rounded-md px-2.5 py-1.5">
           <Scale className="w-3.5 h-3.5 text-accent-dark" />
           Legally reviewed by <span className="font-semibold text-ink">{legalReviewer.name}</span>
-          <span className="text-muted font-mono">({legalReviewer.credentials})</span>
+          <span className="text-muted-foreground font-mono">({legalReviewer.credentials})</span>
         </span>
       </div>
     </div>

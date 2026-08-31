@@ -585,6 +585,11 @@
       "type": "link-grid",
       "links": [
         {
+          "title": "Disability Grant payment dates",
+          "href": "/payment-dates/disability-grant-payment-dates",
+          "description": "Every confirmed 2026 payment date for the Disability Grant, plus what to do if your payment is late."
+        },
+        {
           "title": "Medical Assessment Guide",
           "href": "/grants/disability-grant/medical-assessment",
           "description": "What to expect at the SASSA doctor"
@@ -855,6 +860,10 @@
     {
       "title": "Grant Library",
       "slug": "/grants"
+    },
+    {
+      "title": "Disability Grant Payment Dates",
+      "slug": "/payment-dates/disability-grant-payment-dates"
     },
     {
       "title": "Care Dependency Grant",

@@ -208,7 +208,7 @@ className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group"
               <AlertTriangle className="w-6 h-6 text-yellow shrink-0" />
               <div>
                 <p className="text-[19px] font-bold text-white">Need to submit an appeal right now?</p>
-                <p className="text-sm text-muted">Visit the official SRD appeal portal</p>
+                <p className="text-sm text-white/70">Visit the official SRD appeal portal</p>
               </div>
             </div>
             <div className="flex gap-2">

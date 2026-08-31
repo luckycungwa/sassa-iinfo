@@ -73,18 +73,18 @@ export default async function EligibilityDetailPage({ params }: { params: Promis
       <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{guide.title}</h1>
-          <p className="text-sm text-muted mt-1">{guide.shortDescription}</p>
+          <p className="text-sm text-muted-foreground mt-1">{guide.shortDescription}</p>
         </div>
 
         <div className="bg-surface border border-border rounded-xl p-5">
-          <p className="text-sm text-muted leading-relaxed">{guide.introduction}</p>
+          <p className="text-sm text-muted-foreground leading-relaxed">{guide.introduction}</p>
         </div>
 
         <div className="bg-surface border border-border rounded-xl p-5">
           <h2 className="text-sm font-extrabold text-ink mb-3">Checklist</h2>
           <ul className="space-y-2">
             {guide.checklist.map((item, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" />
                 {item}
               </li>
@@ -112,7 +112,7 @@ export default async function EligibilityDetailPage({ params }: { params: Promis
           <h2 className="text-sm font-extrabold text-ink mb-3">Steps to Qualify</h2>
           <ul className="space-y-2">
             {guide.stepsToQualify.map((step, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="text-accent font-bold flex-shrink-0">{i + 1}.</span>
                 {step}
               </li>
@@ -125,7 +125,7 @@ export default async function EligibilityDetailPage({ params }: { params: Promis
           <ul className="space-y-1">
             {guide.restrictions.map((restriction, i) => (
               <li key={i} className="flex items-start gap-2 text-sm text-accent-dark">
-                <span className="text-muted font-bold flex-shrink-0">&bull;</span>
+                <span className="text-muted-foreground font-bold flex-shrink-0">&bull;</span>
                 {restriction}
               </li>
             ))}
@@ -139,11 +139,11 @@ export default async function EligibilityDetailPage({ params }: { params: Promis
               <details key={i} className="border border-border rounded-lg group">
                 <summary className="text-sm font-bold text-ink p-3 cursor-pointer list-none flex items-center justify-between">
                   {faq.question}
-                  <span className="text-muted group-open:rotate-180 transition-transform flex-shrink-0 ml-2">
+                  <span className="text-muted-foreground group-open:rotate-180 transition-transform flex-shrink-0 ml-2">
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                   </span>
                 </summary>
-                <p className="text-sm text-muted p-3 pt-0 leading-relaxed">{faq.answer}</p>
+                <p className="text-sm text-muted-foreground p-3 pt-0 leading-relaxed">{faq.answer}</p>
               </details>
             ))}
           </div>

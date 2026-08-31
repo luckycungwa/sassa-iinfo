@@ -7,6 +7,7 @@ import ThemeProvider from "@/components/ThemeProvider";
 import ToastProvider from "@/components/ToastProvider";
 import TopNavbar from "@/components/TopNavbar";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import NavigationProgress from "@/components/NavigationProgress";
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
@@ -24,7 +25,7 @@ const jetbrains = JetBrains_Mono({
   display: 'swap',
 });
 
-const siteUrl = process.env.APP_URL || "https://sassaiinfo.co.za";
+const siteUrl = process.env.APP_URL || "https://sassagrantguide.co.za";
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
 const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID;
 
@@ -161,6 +162,7 @@ export default async function LocaleLayout({
       <body className="font-display antialiased" suppressHydrationWarning>
         <NextIntlClientProvider>
           <ThemeProvider>
+            <NavigationProgress />
             <div className="relative min-h-screen flex flex-col bg-background text-foreground overflow-x-hidden">
               <a href="#article-body-column" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-violet focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:text-sm">
                 Skip to content

@@ -12,7 +12,7 @@ export default function ProvinceHubs() {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
       {/* Province Selectors */}
       <div className="lg:col-span-4 space-y-2">
-        <h2 className="font-bold text-xs font-mono tracking-wider text-muted px-1 uppercase">
+        <h2 className="font-bold text-xs font-mono tracking-wider text-muted-foreground px-1 uppercase">
           Select Province Hub
         </h2>
         {provinces.map((p) => (
@@ -44,7 +44,7 @@ export default function ProvinceHubs() {
           <h1 className="text-xl md:text-2xl font-extrabold text-ink tracking-tight">
             SASSA {selectedProvince.name} regional Guide
           </h1>
-          <p className="text-muted text-xs font-mono">Provincial Capital: {selectedProvince.capital}</p>
+          <p className="text-muted-foreground text-xs font-mono">Provincial Capital: {selectedProvince.capital}</p>
         </div>
 
         {/* Regional Office Info */}
@@ -53,13 +53,13 @@ export default function ProvinceHubs() {
             <MapPin className="w-4.5 h-4.5 text-accent-dark" /> Provincial Head Office
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm text-muted">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm text-muted-foreground">
             <div className="space-y-1">
-              <p className="font-bold text-muted uppercase font-mono text-[10px]">Physical Address</p>
+              <p className="font-bold text-muted-foreground uppercase font-mono text-[10px]">Physical Address</p>
               <p className="leading-relaxed font-semibold text-ink">{selectedProvince.regionalOfficeAddress}</p>
             </div>
             <div className="space-y-1">
-              <p className="font-bold text-muted uppercase font-mono text-[10px]">Phone Contact</p>
+              <p className="font-bold text-muted-foreground uppercase font-mono text-[10px]">Phone Contact</p>
               <p className="leading-relaxed font-bold text-accent-dark text-sm">{selectedProvince.regionalOfficePhone}</p>
             </div>
           </div>
@@ -67,8 +67,8 @@ export default function ProvinceHubs() {
 
         {/* Collection Info */}
         <div className="space-y-2">
-          <h3 className="font-bold text-xs font-mono text-muted tracking-wider uppercase">Local Collection Information</h3>
-          <p className="text-muted text-sm leading-relaxed">
+          <h3 className="font-bold text-xs font-mono text-muted-foreground tracking-wider uppercase">Local Collection Information</h3>
+          <p className="text-muted-foreground text-sm leading-relaxed">
             {selectedProvince.collectionInfo}
           </p>
         </div>
@@ -94,7 +94,7 @@ export default function ProvinceHubs() {
                     )}
                   </button>
                   {expandedFaq === idx && (
-                    <div className="text-xs md:text-sm text-muted mt-1 pl-1 leading-relaxed">
+                    <div className="text-xs md:text-sm text-muted-foreground mt-1 pl-1 leading-relaxed">
                       {faq.answer}
                     </div>
                   )}

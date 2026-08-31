@@ -62,7 +62,7 @@ export default function NewsHubPage() {
                   <div className="flex items-center gap-3 mt-2">
                     <span className="text-xs font-mono text-ash">{formatDate(article.date)}</span>
                     {article.tags.slice(0, 2).map((tag) => (
-                      <span key={tag} className="text-xs text-ash/60">#{tag}</span>
+                      <span key={tag} className="text-xs text-ash/80">#{tag}</span>
                     ))}
                   </div>
                 </div>
@@ -95,7 +95,7 @@ export default function NewsHubPage() {
       <section className="bg-slate text-white py-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
-            <Link href="/" className="text-accent-dark font-bold hover:underline">Return to homepage</Link>
+            <Link href="/" className="text-accent font-bold hover:underline">Return to homepage</Link>
           </p>
         </div>
       </section>

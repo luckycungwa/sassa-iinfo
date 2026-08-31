@@ -71,18 +71,18 @@ export default async function AppealDetailPage({ params }: { params: Promise<{ l
       <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{appeal.title}</h1>
-          <p className="text-sm text-muted mt-1">{appeal.shortDescription}</p>
+          <p className="text-sm text-muted-foreground mt-1">{appeal.shortDescription}</p>
         </div>
 
         <div className="bg-surface border border-border rounded-xl p-5">
-          <p className="text-sm text-muted leading-relaxed">{appeal.introduction}</p>
+          <p className="text-sm text-muted-foreground leading-relaxed">{appeal.introduction}</p>
         </div>
 
         <div className="bg-surface border border-border rounded-xl p-5">
           <h2 className="text-sm font-extrabold text-ink mb-3">Step-by-Step Process</h2>
           <ul className="space-y-2">
             {appeal.steps.map((step, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="text-accent font-bold flex-shrink-0">{i + 1}.</span>
                 {step}
               </li>
@@ -99,7 +99,7 @@ export default async function AppealDetailPage({ params }: { params: Promise<{ l
           <h2 className="text-sm font-extrabold text-ink mb-3">Required Documents</h2>
           <ul className="space-y-2">
             {appeal.documents.map((doc, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="w-1.5 h-1.5 rounded-full bg-status-pending mt-1.5 flex-shrink-0" />
                 {doc}
               </li>
@@ -111,7 +111,7 @@ export default async function AppealDetailPage({ params }: { params: Promise<{ l
           <h2 className="text-sm font-extrabold text-ink mb-3">Common Reasons for Appeal</h2>
           <ul className="space-y-2">
             {appeal.commonReasons.map((reason, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" />
                 {reason}
               </li>
@@ -123,7 +123,7 @@ export default async function AppealDetailPage({ params }: { params: Promise<{ l
           <h2 className="text-sm font-extrabold text-ink mb-3">Possible Outcomes</h2>
           <ul className="space-y-2">
             {appeal.outcomes.map((outcome, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className={`w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0 ${i === 0 ? "bg-status-approved" : "bg-status-declined"}`} />
                 {outcome}
               </li>
@@ -138,11 +138,11 @@ export default async function AppealDetailPage({ params }: { params: Promise<{ l
               <details key={i} className="border border-border rounded-lg group">
                 <summary className="text-sm font-bold text-ink p-3 cursor-pointer list-none flex items-center justify-between">
                   {faq.question}
-                  <span className="text-muted group-open:rotate-180 transition-transform flex-shrink-0 ml-2">
+                  <span className="text-muted-foreground group-open:rotate-180 transition-transform flex-shrink-0 ml-2">
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                   </span>
                 </summary>
-                <p className="text-sm text-muted p-3 pt-0 leading-relaxed">{faq.answer}</p>
+                <p className="text-sm text-muted-foreground p-3 pt-0 leading-relaxed">{faq.answer}</p>
               </details>
             ))}
           </div>

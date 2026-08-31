@@ -176,7 +176,7 @@ export default function GovernanceHub() {
   return (
     <div className="space-y-6" id="governance-hub-root">
       {/* Editorial Header Banner */}
-      <div className="bg-white border border-surface-dim rounded-3xl p-6 md:p-8 relative overflow-hidden">
+      <div className="bg-surface border border-border rounded-3xl p-6 md:p-8 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-accent-light/200/5 rounded-full blur-3xl pointer-events-none"></div>
         <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="space-y-2 max-w-3xl">
@@ -187,16 +187,16 @@ export default function GovernanceHub() {
             <h2 className="text-xl md:text-2xl font-black text-ink tracking-tight leading-none">
               Design System Enforcement & Content Schema Board
             </h2>
-            <p className="text-xs text-surface0 leading-relaxed font-sans">
+            <p className="text-xs text-muted-foreground leading-relaxed font-sans">
               Welcome, Architect. This dashboard defines the strict Content Schema rules and Visual Governance contracts required to maintain zero-drift architectural integrity across the platform&apos;s 5,000 static pages.
             </p>
           </div>
-          <div className="flex-shrink-0 bg-surface border border-surface-dim p-4 rounded-2xl flex items-center gap-3">
+          <div className="flex-shrink-0 bg-canvas border border-border p-4 rounded-2xl flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-accent-dark flex items-center justify-center text-black font-extrabold text-sm">
               G1
             </div>
             <div>
-              <div className="text-xs font-bold text-outline font-mono uppercase leading-none">Version</div>
+              <div className="text-xs font-bold text-muted-foreground font-mono uppercase leading-none">Version</div>
               <div className="text-xs font-black text-ink mt-0.5">v1.0.0 (Strict)</div>
               <div className="text-xs text-accent-dark font-bold mt-0.5 font-mono">STATUS: ACTIVE</div>
             </div>
@@ -204,7 +204,7 @@ export default function GovernanceHub() {
         </div>
 
         {/* Primary Sub Navigation Tabs */}
-        <div className="flex flex-wrap gap-1 bg-surface p-1 rounded-sassa border border-border mt-6 max-w-xl">
+        <div className="flex flex-wrap gap-1 bg-canvas p-1 rounded-sassa border border-border mt-6 max-w-xl">
           {[
             { id: "schema", label: "Content Schema & Validator", icon: FileCode },
             { id: "tokens", label: "Design Token Scale", icon: Sliders },
@@ -218,8 +218,8 @@ export default function GovernanceHub() {
                 onClick={() => setActiveTab(tab.id as any)}
                 className={`flex items-center gap-2 px-3 py-2 rounded-md text-xs font-bold transition ${
                   activeTab === tab.id
-                    ? "bg-midnight text-surface shadow-md"
-                    : "text-surface0 hover:text-midnight hover:bg-canvas"
+                    ? "bg-ink text-canvas shadow-md"
+                    : "text-muted-foreground hover:text-ink hover:bg-surface-dim"
                 }`}
               >
                 <Icon className="w-3.5 h-3.5" />
@@ -245,13 +245,13 @@ export default function GovernanceHub() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
               
               {/* Interactive Schema Visualizer (Left Column) */}
-              <div className="lg:col-span-5 bg-white border border-surface-dim rounded-3xl p-6 space-y-6">
+              <div className="lg:col-span-5 bg-surface border border-border rounded-3xl p-6 space-y-6">
                 <div>
                   <h3 className="text-sm font-extrabold text-ink flex items-center gap-2">
                     <Layers className="w-4.5 h-4.5 text-accent-dark" />
                     Interactive Block System Schema
                   </h3>
-                  <p className="text-xs text-outline font-mono mt-0.5">
+                  <p className="text-xs text-muted-foreground font-mono mt-0.5">
                     Click a content block to view its typed schema and visual preview rules
                   </p>
                 </div>
@@ -274,7 +274,7 @@ export default function GovernanceHub() {
                       className={`py-2 px-1 text-[11px] font-bold rounded-lg border text-center transition ${
                         selectedBlockType === block.id
                           ? "bg-accent-light/20 text-ink border-gold shadow-xs"
-                          : "bg-surface text-muted border-surface-dim hover:bg-surface-dim"
+                          : "bg-canvas text-muted-foreground border-border hover:bg-surface-dim"
                       }`}
                     >
                       {block.label}
@@ -283,17 +283,17 @@ export default function GovernanceHub() {
                 </div>
 
                 {/* Selected Block Specification */}
-                <div className="bg-surface border border-surface-dim rounded-2xl p-4 space-y-4">
+                <div className="bg-canvas border border-border rounded-2xl p-4 space-y-4">
                   {selectedBlockType === "heading" && (
                     <>
                       <div className="flex items-center justify-between border-b border-surface-container/50 pb-2">
                         <span className="text-xs font-mono font-black text-ink">type: &quot;heading&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">H1 to H4</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Represents editorial title nodes. Generates clear semantic page structures, vital for accessible screen-reading and Google heading extraction algorithms.
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface HeadingBlock {
   type: "heading";
   level: 1 | 2 | 3 | 4;
@@ -301,8 +301,8 @@ export default function GovernanceHub() {
 }`}
                       </div>
                       {/* Live Preview block */}
-                      <div className="p-3 bg-white border border-surface-container rounded-lg">
-                        <span className="text-xs font-mono text-outline block mb-1">Preview (H2 Level):</span>
+                      <div className="p-3 bg-surface border border-border rounded-lg">
+                        <span className="text-xs font-mono text-muted-foreground block mb-1">Preview (H2 Level):</span>
                         <h2 className="text-sm font-black text-ink tracking-tight">Understanding SASSA Means Testing</h2>
                       </div>
                     </>
@@ -314,19 +314,19 @@ export default function GovernanceHub() {
                         <span className="text-xs font-mono font-black text-ink">type: &quot;paragraph&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">Paragraph</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Represents standard body copy. Configured with a relaxed line height and neutral color to reduce cognitive fatigue for users looking up critical assistance rules.
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface ParagraphBlock {
   type: "paragraph";
   text: string;
 }`}
                       </div>
                       {/* Live Preview block */}
-                      <div className="p-3 bg-white border border-surface-container rounded-lg">
-                        <span className="text-xs font-mono text-outline block mb-1">Preview (Body copy):</span>
-                        <p className="text-xs text-muted leading-relaxed">
+                      <div className="p-3 bg-surface border border-border rounded-lg">
+                        <span className="text-xs font-mono text-muted-foreground block mb-1">Preview (Body copy):</span>
+                        <p className="text-xs text-muted-foreground leading-relaxed">
                           To qualify for the Older Persons grant, your combined annual household income must remain below the strict means test threshold of R224,400.
                         </p>
                       </div>
@@ -339,10 +339,10 @@ export default function GovernanceHub() {
                         <span className="text-xs font-mono font-black text-ink">type: &quot;list&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">Ordered / Unordered</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Represents document checklists, application steps, or required papers. Fails validation if items are empty.
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface ListBlock {
   type: "list";
   ordered: boolean;
@@ -350,9 +350,9 @@ export default function GovernanceHub() {
 }`}
                       </div>
                       {/* Live Preview block */}
-                      <div className="p-3 bg-white border border-surface-container rounded-lg">
-                        <span className="text-xs font-mono text-outline block mb-1">Preview:</span>
-                        <ul className="list-disc list-inside text-xs text-muted space-y-1 pl-1">
+                      <div className="p-3 bg-surface border border-border rounded-lg">
+                        <span className="text-xs font-mono text-muted-foreground block mb-1">Preview:</span>
+                        <ul className="list-disc list-inside text-xs text-muted-foreground space-y-1 pl-1">
                           <li>Original Smart Card ID document</li>
                           <li>3 months certified bank statements</li>
                         </ul>
@@ -366,10 +366,10 @@ export default function GovernanceHub() {
                         <span className="text-xs font-mono font-black text-ink">type: &quot;callout&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">High Contrast Notice</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Used strictly to convey critical warnings, deadlines, or legal disclaimers. Folds completely into our State Authority palettes (no generic purple alerts).
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface CalloutBlock {
   type: "callout";
   intent: "info" | "warning" | "success" | "danger";
@@ -396,10 +396,10 @@ export default function GovernanceHub() {
                         <span className="text-xs font-mono font-black text-ink">type: &quot;table&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">Data Matrix</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Designed to render clean comparative grant data, means test thresholds, and age parameters. Prohibits border leakage and keeps structures flat.
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface TableBlock {
   type: "table";
   headers: string[];
@@ -408,16 +408,16 @@ export default function GovernanceHub() {
 }`}
                       </div>
                       {/* Live Preview block */}
-                      <div className="bg-white border border-surface-container rounded-lg overflow-hidden">
+                      <div className="bg-surface border border-border rounded-lg overflow-hidden">
                         <table className="w-full text-left text-[11px] border-collapse">
-                          <thead className="bg-surface border-b border-surface-container font-mono">
+                          <thead className="bg-canvas border-b border-border font-mono text-ink">
                             <tr>
                               <th className="p-1.5 font-bold">Grant Type</th>
                               <th className="p-1.5 font-bold text-right">Limit</th>
                             </tr>
                           </thead>
                           <tbody>
-                            <tr className="border-b border-surface-dim">
+                            <tr className="border-b border-border text-ink">
                               <td className="p-1.5">Single Older Person</td>
                               <td className="p-1.5 text-right font-mono text-accent-dark">R112,200/yr</td>
                             </tr>
@@ -433,10 +433,10 @@ export default function GovernanceHub() {
                         <span className="text-xs font-mono font-black text-ink">type: &quot;faq&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">QA Accordion</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Pairs directly with JSON-LD FAQPage schemas, satisfying direct search query responses. Fails validation if answers are empty.
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface FAQBlock {
   type: "faq";
   faqs: { question: string; answer: string }[];
@@ -451,10 +451,10 @@ export default function GovernanceHub() {
                         <span className="text-xs font-mono font-black text-ink">type: &quot;payment-dates&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">Payout Grid</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Displays dynamic monthly payout schedules. Links directly to calendar rendering templates.
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface PaymentDatesBlock {
   type: "payment-dates";
   month: string;
@@ -470,10 +470,10 @@ export default function GovernanceHub() {
                         <span className="text-xs font-mono font-black text-ink">type: &quot;office-details&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">Local Finder</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Optimized for localized indexing (e.g. &quot;Soweto branch opening times&quot;). Satisfies Google Schema LocalBusiness structure statically.
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface OfficeDetailsBlock {
   type: "office-details";
   branchName: string;
@@ -490,10 +490,10 @@ export default function GovernanceHub() {
                         <span className="text-xs font-mono font-black text-ink">type: &quot;custom&quot;</span>
                         <span className="text-xs font-mono text-accent-dark font-bold uppercase">Future Proof Extensibility</span>
                       </div>
-                      <p className="text-xs text-surface0 leading-normal">
+                      <p className="text-xs text-muted-foreground leading-normal">
                         Allows developers to introduce specialized templates (interactive calculators, custom comparison matrices) without modifying or breaking the base compiler core.
                       </p>
-                      <div className="bg-ink text-outline-variant p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
+                      <div className="bg-ink text-amber p-3 rounded-lg text-xs font-mono whitespace-pre overflow-x-auto">
 {`interface CustomBlock {
   type: "custom";
   customType: string;
@@ -506,7 +506,7 @@ export default function GovernanceHub() {
               </div>
 
               {/* Dynamic Content Validator Panel (Right Column) */}
-              <div className="lg:col-span-7 bg-white border border-surface-dim rounded-3xl p-6 space-y-6 flex flex-col justify-between">
+              <div className="lg:col-span-7 bg-surface border border-border rounded-3xl p-6 space-y-6 flex flex-col justify-between">
                 <div>
                   <div className="flex items-center justify-between">
                     <div>
@@ -514,18 +514,18 @@ export default function GovernanceHub() {
                         <Database className="w-4.5 h-4.5 text-accent-dark" />
                         Dynamic Content Schema Validator
                       </h3>
-                      <p className="text-xs text-outline font-mono mt-0.5">
+                      <p className="text-xs text-muted-foreground font-mono mt.0.5">
                         Audit structured page files against YMYL and visual token parameters
                       </p>
                     </div>
 
-                    <div className="flex items-center gap-1 bg-surface p-1 border border-surface-dim rounded-xl">
+                    <div className="flex items-center gap-1 bg-canvas p-1 border border-border rounded-xl">
                       <button
                         onClick={() => handleTemplateSelect("compliant")}
                         className={`px-2.5 py-1 text-xs font-bold rounded-lg transition ${
                           schemaTemplate === "compliant"
-                            ? "bg-white text-accent-dark border border-surface-container/60 shadow-xs"
-                            : "text-outline"
+                            ? "bg-surface text-accent-dark border border-border shadow-xs"
+                            : "text-muted-foreground"
                         }`}
                       >
                         Compliant Page
@@ -534,8 +534,8 @@ export default function GovernanceHub() {
                         onClick={() => handleTemplateSelect("non-compliant")}
                         className={`px-2.5 py-1 text-xs font-bold rounded-lg transition ${
                           schemaTemplate === "non-compliant"
-                            ? "bg-white text-red-800 border border-surface-container/60 shadow-xs"
-                            : "text-outline"
+                            ? "bg-surface text-red-600 border border-border shadow-xs"
+                            : "text-muted-foreground"
                         }`}
                       >
                         Non-Compliant Page
@@ -550,7 +550,7 @@ export default function GovernanceHub() {
                       onChange={(e) => setValidatorInput(e.target.value)}
                       className="w-full h-80 bg-ink text-gold font-mono text-xs p-4 rounded-2xl border border-ink focus:outline-hidden focus:ring-1 focus:ring-accent-light/200 overflow-y-auto leading-relaxed"
                     />
-                    <div className="absolute bottom-3 right-3 text-xs font-mono text-surface0 bg-ink/60 px-2 py-0.5 rounded-sm">
+                    <div className="absolute bottom-3 right-3 text-xs font-mono text-muted-foreground bg-ink/60 px-2 py-0.5 rounded-sm">
                       JSON Template Editor
                     </div>
                   </div>
@@ -638,7 +638,7 @@ export default function GovernanceHub() {
                                 </span>
                               </div>
 
-                              <div className="border border-surface-container rounded-2xl bg-white max-h-[420px] overflow-y-auto">
+                              <div className="border border-border rounded-2xl bg-surface max-h-[420px] overflow-y-auto">
                                 <PageShell 
                                   page={parsedPageData} 
                                 >
@@ -658,13 +658,13 @@ export default function GovernanceHub() {
 
           {/* TAB 2: DESIGN TOKEN SCALE */}
           {activeTab === "tokens" && (
-            <div className="bg-white border border-surface-dim rounded-3xl p-6 space-y-8">
+            <div className="bg-surface border border-border rounded-3xl p-6 space-y-8">
               <div>
                 <h3 className="text-sm font-extrabold text-ink flex items-center gap-1.5">
                   <Sliders className="w-4.5 h-4.5 text-accent-dark" />
                   Strict Design Token System
                 </h3>
-                <p className="text-xs text-outline font-mono mt-0.5">
+                <p className="text-xs text-muted-foreground font-mono mt-0.5">
                   Our typography, borders, and spacing parameters are locked to finite scales to eliminate UI drift
                 </p>
               </div>
@@ -673,11 +673,11 @@ export default function GovernanceHub() {
                 
                 {/* Spacing Token Board */}
                 <div className="space-y-4">
-                  <div className="flex items-center gap-2 border-b border-surface-dim pb-2">
+                  <div className="flex items-center gap-2 border-b border-border pb-2">
                     <Maximize2 className="w-4 h-4 text-accent-dark" />
                     <h4 className="text-xs font-black text-ink">Locked Spacing Scale</h4>
                   </div>
-                  <p className="text-xs text-surface0 leading-normal">
+                  <p className="text-xs text-muted-foreground leading-normal">
                     Arbitrary margins/paddings are forbidden. Developers are prohibited from introducing custom spacing values to enforce visual rhythm.
                   </p>
 
@@ -691,7 +691,7 @@ export default function GovernanceHub() {
                             style={{ width: name === "none" ? "0px" : name === "xs" ? "8px" : name === "sm" ? "16px" : name === "md" ? "24px" : name === "lg" ? "32px" : name === "xl" ? "48px" : name === "xxl" ? "64px" : "96px" }}
                           />
                         </div>
-                        <span className="w-12 text-right text-outline">{val}</span>
+                        <span className="w-12 text-right text-muted-foreground">{val}</span>
                       </div>
                     ))}
                   </div>
@@ -706,11 +706,11 @@ export default function GovernanceHub() {
 
                 {/* Typography System Board */}
                 <div className="space-y-4">
-                  <div className="flex items-center gap-2 border-b border-surface-dim pb-2">
+                  <div className="flex items-center gap-2 border-b border-border pb-2">
                     <Type className="w-4 h-4 text-accent-dark" />
                     <h4 className="text-xs font-black text-ink">Typography Scale & Families</h4>
                   </div>
-                  <p className="text-xs text-surface0 leading-normal">
+                  <p className="text-xs text-muted-foreground leading-normal">
                     To maintain editorial-first credibility, typography utilizes strict hierarchy rules. Heading elements pair custom display tracking with neutral grey text.
                   </p>
 
@@ -720,16 +720,16 @@ export default function GovernanceHub() {
                       { size: "headMajor", label: "Major Section Heading (H2)", css: "text-base font-black text-ink", spec: `${DESIGN_TOKENS.typography.sizes.headMajor} - Strict leading` },
                       { size: "headMinor", label: "Minor Subsection Heading (H3)", css: "text-sm font-bold text-ink", spec: `${DESIGN_TOKENS.typography.sizes.headMinor}` },
                       { size: "subhead", label: "Card Headers / Subguides", css: "text-xs font-bold text-ink", spec: `${DESIGN_TOKENS.typography.sizes.subhead}` },
-                      { size: "body", label: "Readable Body Paragraph", css: "text-xs text-muted leading-relaxed", spec: `${DESIGN_TOKENS.typography.sizes.body} - Relaxed Lineheight (1.7)` },
+                      { size: "body", label: "Readable Body Paragraph", css: "text-xs text-muted-foreground leading-relaxed", spec: `${DESIGN_TOKENS.typography.sizes.body} - Relaxed Lineheight (1.7)` },
                       { size: "caption", label: "Tables & Form Captions", css: "text-[11px] text-outline", spec: `${DESIGN_TOKENS.typography.sizes.caption}` },
                       { size: "meta", label: "Status Badges / Timestamps", css: "text-xs font-mono text-outline", spec: `${DESIGN_TOKENS.typography.sizes.meta} - Tech Mono` }
                     ].map((item) => (
-                      <div key={item.size} className="flex items-center justify-between border-b border-surface pb-2">
+                      <div key={item.size} className="flex items-center justify-between border-b border-border pb-2">
                         <div>
                           <div className={item.css}>{item.label}</div>
-                          <div className="text-xs text-outline mt-0.5 font-mono">Font Token: {item.size}</div>
+                          <div className="text-xs text-muted-foreground mt-0.5 font-mono">Font Token: {item.size}</div>
                         </div>
-                        <span className="text-xs font-mono text-outline text-right">{item.spec}</span>
+                        <span className="text-xs font-mono text-muted-foreground text-right">{item.spec}</span>
                       </div>
                     ))}
                   </div>
@@ -737,12 +737,12 @@ export default function GovernanceHub() {
               </div>
 
               {/* Color System and Shadow Prohibitions */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-t border-surface-dim pt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-t border-border pt-8">
                 
                 {/* State Authority Color Swatches */}
                 <div className="space-y-4">
                   <h4 className="text-xs font-black text-ink">State Authority Palette</h4>
-                  <p className="text-xs text-surface0 leading-normal">
+                  <p className="text-xs text-muted-foreground leading-normal">
                     Derived from official administrative social security environments. Bright SaaS secondary colors are completely omitted to reinforce administrative trustworthiness.
                   </p>
 
@@ -757,15 +757,15 @@ export default function GovernanceHub() {
                       { hex: DESIGN_TOKENS.colors.states.declined, label: "Declined (Alert)", desc: "Remedy/Appeal State" },
                       { hex: "#f8fafc", label: "Off-White (Canvas)", desc: "Background Surface" }
                     ].map((c) => (
-                      <div key={c.hex} className="flex items-center gap-3 p-2 border border-surface-dim rounded-xl">
+                      <div key={c.hex} className="flex items-center gap-3 p-2 border border-border rounded-xl">
                         <div
                           className="w-10 h-10 rounded-lg border border-surface-container/50 flex-shrink-0"
                           style={{ backgroundColor: c.hex }}
                         />
                         <div>
                           <div className="text-xs font-bold text-ink leading-none">{c.label}</div>
-                          <div className="text-xs font-mono text-outline mt-1">{c.hex}</div>
-                          <div className="text-xs text-outline">{c.desc}</div>
+                          <div className="text-xs font-mono text-muted-foreground mt-1">{c.hex}</div>
+                          <div className="text-xs text-muted-foreground">{c.desc}</div>
                         </div>
                       </div>
                     ))}
@@ -775,7 +775,7 @@ export default function GovernanceHub() {
                 {/* Border Systems & Shadow Restrictions */}
                 <div className="space-y-4">
                   <h4 className="text-xs font-black text-ink">Borders & Elevation Parameters</h4>
-                  <p className="text-xs text-surface0 leading-normal">
+                  <p className="text-xs text-muted-foreground leading-normal">
                     This platform operates under a flat, high-contrast, tactile design layout. Elevation is created through clean background offsets and borders, never shadows.
                   </p>
 
@@ -791,17 +791,17 @@ export default function GovernanceHub() {
                     </div>
 
                     <div className="grid grid-cols-3 gap-3">
-                      <div className="p-3 bg-white border border-slate-150 rounded-md text-center">
-                        <div className="text-xs font-mono font-bold text-outline">Radius Sharp</div>
-                        <div className="h-6 w-full border border-outline-variant mt-2 rounded-xs flex items-center justify-center text-xs font-mono text-outline">4px</div>
+                      <div className="p-3 bg-surface border border-border rounded-md text-center">
+                        <div className="text-xs font-mono font-bold text-muted-foreground">Radius Sharp</div>
+                        <div className="h-6 w-full border border-border-strong mt-2 rounded-xs flex items-center justify-center text-xs font-mono text-muted-foreground">4px</div>
                       </div>
-                      <div className="p-3 bg-white border border-slate-150 rounded-xl text-center">
-                        <div className="text-xs font-mono font-bold text-outline">Radius Standard</div>
-                        <div className="h-6 w-full border border-outline-variant mt-2 rounded-xl flex items-center justify-center text-xs font-mono text-outline">12px</div>
+                      <div className="p-3 bg-surface border border-border rounded-xl text-center">
+                        <div className="text-xs font-mono font-bold text-muted-foreground">Radius Standard</div>
+                        <div className="h-6 w-full border border-border-strong mt-2 rounded-xl flex items-center justify-center text-xs font-mono text-muted-foreground">12px</div>
                       </div>
-                      <div className="p-3 bg-white border border-slate-150 rounded-full text-center">
-                        <div className="text-xs font-mono font-bold text-outline">Radius Pill</div>
-                        <div className="h-6 w-full border border-outline-variant mt-2 rounded-full flex items-center justify-center text-xs font-mono text-outline">99px</div>
+                      <div className="p-3 bg-surface border border-border rounded-full text-center">
+                        <div className="text-xs font-mono font-bold text-muted-foreground">Radius Pill</div>
+                        <div className="h-6 w-full border border-border-strong mt-2 rounded-full flex items-center justify-center text-xs font-mono text-muted-foreground">99px</div>
                       </div>
                     </div>
                   </div>
@@ -812,13 +812,13 @@ export default function GovernanceHub() {
 
           {/* TAB 3: COMPONENT CONTRACTS (VALID VS INVALID) */}
           {activeTab === "contracts" && (
-            <div className="bg-white border border-surface-dim rounded-3xl p-6 space-y-6">
+            <div className="bg-surface border border-border rounded-3xl p-6 space-y-6">
               <div>
                 <h3 className="text-sm font-extrabold text-ink flex items-center gap-1.5">
                   <Scale className="w-4.5 h-4.5 text-accent-dark" />
                   Visual Governance Component Contracts
                 </h3>
-                <p className="text-xs text-outline font-mono mt-0.5">
+                <p className="text-xs text-muted-foreground font-mono mt-0.5">
                   Side-by-side verification: Conforming versus Non-Conforming UI pattern implementations
                 </p>
               </div>
@@ -827,7 +827,7 @@ export default function GovernanceHub() {
               <div className="space-y-10">
                 
                 {/* BUTTON CONTRACT */}
-                <div className="border-b border-surface-dim pb-8 space-y-4">
+                <div className="border-b border-border pb-8 space-y-4">
                   <div className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-accent-dark"></span>
                     <h4 className="text-xs font-black text-ink">Component: Button Contract</h4>
@@ -841,7 +841,7 @@ export default function GovernanceHub() {
                           <CheckCircle2 className="w-4 h-4 text-accent-dark" />
                           <span className="text-xs font-black text-accent-dark uppercase tracking-wider font-mono">CONFORMING (VALID)</span>
                         </div>
-                        <p className="text-xs text-surface0 leading-normal">
+                        <p className="text-xs text-muted-foreground leading-normal">
                           Complies with typography size limits (discrete text-xs font-bold), corner radius (rounded-xl), and state authority contrast (6.8:1 white on emerald). Fully flat with no gradients or drop shadows.
                         </p>
                       </div>
@@ -860,7 +860,7 @@ export default function GovernanceHub() {
                           <XCircle className="w-4 h-4 text-red-800" />
                           <span className="text-xs font-black text-red-800 uppercase tracking-wider font-mono">NON-CONFORMING (VIOLATION)</span>
                         </div>
-                        <p className="text-xs text-surface0 leading-normal">
+                        <p className="text-xs text-muted-foreground leading-normal">
                           Violates multiple contracts: Introduces a SaaS-style purple gradient, high-depth drop shadow, uppercase tracking-widest, and oversized text.
                         </p>
                       </div>
@@ -875,7 +875,7 @@ export default function GovernanceHub() {
                 </div>
 
                 {/* CARD CONTRACT */}
-                <div className="border-b border-surface-dim pb-8 space-y-4">
+                <div className="border-b border-border pb-8 space-y-4">
                   <div className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-accent-dark"></span>
                     <h4 className="text-xs font-black text-ink">Component: Card Contract</h4>
@@ -889,16 +889,16 @@ export default function GovernanceHub() {
                           <CheckCircle2 className="w-4 h-4 text-accent-dark" />
                           <span className="text-xs font-black text-accent-dark uppercase tracking-wider font-mono">CONFORMING (VALID)</span>
                         </div>
-                        <p className="text-xs text-surface0 leading-normal mb-4">
+                        <p className="text-xs text-muted-foreground leading-normal mb-4">
                           Complies with strict card boundaries. Off-white card canvas with clean, high-contrast borders separating card details from parent layout.
                         </p>
                       </div>
 
-                      <div className="p-5 bg-white border border-surface-dim rounded-3xl text-ink">
+                      <div className="p-5 bg-canvas border border-border rounded-3xl text-ink">
                         <h5 className="text-xs font-black text-ink">Disability Grant</h5>
-                        <p className="text-xs text-surface0 mt-1">Temporary or permanent grants for citizens aged 18 to 59.</p>
-                        <div className="mt-4 flex items-center justify-between text-[11px] border-t border-surface-dim pt-3">
-                          <span className="font-mono text-outline">Monthly Value</span>
+                        <p className="text-xs text-muted-foreground mt-1">Temporary or permanent grants for citizens aged 18 to 59.</p>
+                        <div className="mt-4 flex items-center justify-between text-[11px] border-t border-border pt-3">
+                          <span className="font-mono text-muted-foreground">Monthly Value</span>
                           <span className="font-bold text-accent-dark font-mono">R2,400</span>
                         </div>
                       </div>
@@ -911,16 +911,16 @@ export default function GovernanceHub() {
                           <XCircle className="w-4 h-4 text-red-800" />
                           <span className="text-xs font-black text-red-800 uppercase tracking-wider font-mono">NON-CONFORMING (VIOLATION)</span>
                         </div>
-                        <p className="text-xs text-surface0 leading-normal mb-4">
+                        <p className="text-xs text-muted-foreground leading-normal mb-4">
                           Violates shadow restrictions (uses heavy drop-shadow-lg) and layout consistency. Omits required borders, creating a floating aesthetic that violates the strict design constitution.
                         </p>
                       </div>
 
-                      <div className="p-6 bg-white rounded-lg shadow-2xl text-ink transform hover:scale-105 transition-transform duration-300">
+                      <div className="p-6 bg-canvas rounded-lg shadow-2xl text-ink transform hover:scale-105 transition-transform duration-300">
                         <h5 className="text-sm font-semibold text-ink">Disability Grant</h5>
-                        <p className="text-xs text-surface0 mt-1">Temporary or permanent grants for citizens aged 18 to 59.</p>
+                        <p className="text-xs text-muted-foreground mt-1">Temporary or permanent grants for citizens aged 18 to 59.</p>
                         <div className="mt-4 flex items-center justify-between text-[11px] pt-3">
-                          <span className="text-outline">Monthly Value</span>
+                          <span className="text-muted-foreground">Monthly Value</span>
                           <span className="font-bold text-purple-600">R2,400</span>
                         </div>
                       </div>
@@ -943,7 +943,7 @@ export default function GovernanceHub() {
                           <CheckCircle2 className="w-4 h-4 text-accent-dark" />
                           <span className="text-xs font-black text-accent-dark uppercase tracking-wider font-mono">CONFORMING (VALID)</span>
                         </div>
-                        <p className="text-xs text-surface0 leading-normal">
+                        <p className="text-xs text-muted-foreground leading-normal">
                           Strict pill format utilizing discrete state authority color codes matching the specific application outcome status.
                         </p>
                       </div>
@@ -968,7 +968,7 @@ export default function GovernanceHub() {
                           <XCircle className="w-4 h-4 text-red-800" />
                           <span className="text-xs font-black text-red-800 uppercase tracking-wider font-mono">NON-CONFORMING (VIOLATION)</span>
                         </div>
-                        <p className="text-xs text-surface0 leading-normal">
+                        <p className="text-xs text-muted-foreground leading-normal">
                           Fails due to flashing animations, custom border shapes (using sharp rounded-md), and massive text that breaks context.
                         </p>
                       </div>
@@ -991,13 +991,13 @@ export default function GovernanceHub() {
 
           {/* TAB 4: FOLDER STRUCTURE BLUEPRINT */}
           {activeTab === "storage" && (
-            <div className="bg-white border border-surface-dim rounded-3xl p-6 space-y-6">
+            <div className="bg-surface border border-border rounded-3xl p-6 space-y-6">
               <div>
                 <h3 className="text-sm font-extrabold text-ink flex items-center gap-1.5">
                   <FolderOpen className="w-4.5 h-4.5 text-accent-dark" />
                   Static-First Content Folder Structure
                 </h3>
-                <p className="text-xs text-outline font-mono mt-0.5">
+                <p className="text-xs text-muted-foreground font-mono mt-0.5">
                   Proposed repository layout for hosting the platform&apos;s 5,000+ files efficiently
                 </p>
               </div>
@@ -1008,7 +1008,7 @@ export default function GovernanceHub() {
                   <div className="text-gold font-bold">SASSA_RESOURCE_ROOT/</div>
                   <div className="pl-4 text-surface0">├── app/</div>
                   <div className="pl-4 text-surface0">├── components/</div>
-                  <div className="pl-4 text-outline font-bold">├── content/  (Static Resource Repository)</div>
+                  <div className="pl-4 text-muted-foreground font-bold">├── content/  (Static Resource Repository)</div>
                   <div className="pl-8 text-accent-light/200">├── payment-dates/</div>
                   <div className="pl-12 text-outline-variant">├── 2026-07-schedule.json</div>
                   <div className="pl-12 text-outline-variant">└── 2026-08-schedule.json</div>
@@ -1031,17 +1031,17 @@ export default function GovernanceHub() {
                 </div>
 
                 {/* Storage Specifications & Recommendations */}
-                <div className="space-y-4 text-xs text-muted leading-relaxed">
-                  <div className="bg-surface p-4 rounded-xl border border-surface-dim">
-                    <span className="text-xs font-mono font-bold text-outline block mb-1">FILE CONVETION LIMITS</span>
+                <div className="space-y-4 text-xs text-muted-foreground leading-relaxed">
+                  <div className="bg-canvas p-4 rounded-xl border border-border">
+                    <span className="text-xs font-mono font-bold text-muted-foreground block mb-1">FILE CONVETION LIMITS</span>
                     <p className="font-mono text-ink">
                       {STORE_RECOMMENDATIONS.fileNamingConvention}
                     </p>
                   </div>
 
-                  <div className="bg-surface p-4 rounded-xl border border-surface-dim">
-                    <span className="text-xs font-mono font-bold text-outline block mb-1">BUILD BUILD-PHASE INTEGRATION</span>
-                    <p className="font-sans text-surface0 mt-1">
+                  <div className="bg-canvas p-4 rounded-xl border border-border">
+                    <span className="text-xs font-mono font-bold text-muted-foreground block mb-1">BUILD BUILD-PHASE INTEGRATION</span>
+                    <p className="font-sans text-muted-foreground mt-1">
                       {STORE_RECOMMENDATIONS.buildIntegration}
                     </p>
                   </div>
@@ -1055,7 +1055,7 @@ export default function GovernanceHub() {
                     <p className="text-[11px] leading-relaxed text-ink font-sans">
                       To prevent structural breaks across 5,000 pages when content fields change:
                     </p>
-                    <ul className="list-decimal pl-4 text-xs text-muted font-sans space-y-1">
+                    <ul className="list-decimal pl-4 text-xs text-muted-foreground font-sans space-y-1">
                       <li>
                         <strong>Semantic Content Versioning</strong>: Every JSON/Markdown content file carries a `version` string (e.g. &quot;1.2.0&quot;).
                       </li>

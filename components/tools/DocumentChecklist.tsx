@@ -57,7 +57,7 @@ export default function DocumentChecklist() {
       <div className="space-y-2">
         <label htmlFor="checklist-grant" className="block text-xs font-bold text-muted-foreground">Select Grant Type</label>
         <select id="checklist-grant" value={checklistGrant} onChange={(e) => setChecklistGrant(e.target.value)}
-          className="w-full border border-surface-container rounded-xl px-3 py-2.5 bg-canvas text-sm focus:outline-none">
+          className="w-full border border-surface-container rounded-xl px-3 py-2.5 bg-canvas text-sm focus:outline-none focus:ring-2 focus:ring-accent-dark">
           <option value="older-person">Older Person Grant (Pension)</option>
           <option value="child-support">Child Support Grant</option>
           <option value="disability">Disability Grant</option>

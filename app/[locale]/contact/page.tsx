@@ -89,9 +89,9 @@ export default function ContactPage() {
       <section className="bg-slate text-white py-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[19px] leading-relaxed max-w-2xl mx-auto">
-            <Link href="/" className="text-accent-dark font-bold hover:underline">Return to homepage</Link>
-            <span className="text-muted mx-3">|</span>
-            <Link href="/about" className="text-accent-dark font-bold hover:underline">About this guide</Link>
+            <Link href="/" className="text-accent font-bold hover:underline">Return to homepage</Link>
+            <span className="text-white/30 mx-3">|</span>
+            <Link href="/about" className="text-accent font-bold hover:underline">About this guide</Link>
           </p>
         </div>
       </section>

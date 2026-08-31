@@ -73,14 +73,14 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ l
       <div className="space-y-6 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{office.name}</h1>
-          <p className="text-sm text-muted mt-1 capitalize">{office.city}, {office.province}</p>
+          <p className="text-sm text-muted-foreground mt-1 capitalize">{office.city}, {office.province}</p>
         </div>
 
         <div className="bg-surface border border-border rounded-xl p-5 space-y-4">
           <div className="flex items-start gap-3">
             <MapPin className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
             <div>
-              <p className="text-xs font-bold text-muted font-mono uppercase tracking-wider">Address</p>
+              <p className="text-xs font-bold text-muted-foreground font-mono uppercase tracking-wider">Address</p>
               <p className="text-sm text-ink mt-0.5">{office.address}</p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ l
           <div className="flex items-start gap-3">
             <Phone className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
             <div>
-              <p className="text-xs font-bold text-muted font-mono uppercase tracking-wider">Phone</p>
+              <p className="text-xs font-bold text-muted-foreground font-mono uppercase tracking-wider">Phone</p>
               <p className="text-sm text-ink mt-0.5">{office.phone}</p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ l
           <div className="flex items-start gap-3">
             <Clock className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
             <div>
-              <p className="text-xs font-bold text-muted font-mono uppercase tracking-wider">Operating Hours</p>
+              <p className="text-xs font-bold text-muted-foreground font-mono uppercase tracking-wider">Operating Hours</p>
               <p className="text-sm text-ink mt-0.5">{office.operatingHours}</p>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ l
           <div className="flex items-start gap-3">
             <Accessibility className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
             <div>
-              <p className="text-xs font-bold text-muted font-mono uppercase tracking-wider">Accessibility</p>
+              <p className="text-xs font-bold text-muted-foreground font-mono uppercase tracking-wider">Accessibility</p>
               <p className="text-sm text-ink mt-0.5">{office.accessibilityNotes}</p>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ l
           <h2 className="text-sm font-extrabold text-ink mb-3">Services Offered</h2>
           <ul className="space-y-2">
             {office.servicesOffered.map((service, i) => (
-              <li key={i} className="flex items-start gap-2 text-sm text-muted">
+              <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" />
                 {service}
               </li>
@@ -124,8 +124,8 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ l
 
         <div className="bg-surface border border-border rounded-xl p-5">
           <h2 className="text-sm font-extrabold text-ink mb-2">Directions</h2>
-          <p className="text-sm text-muted leading-relaxed">{office.directions}</p>
-          <p className="text-sm text-muted mt-2">
+          <p className="text-sm text-muted-foreground leading-relaxed">{office.directions}</p>
+          <p className="text-sm text-muted-foreground mt-2">
             <span className="font-bold">Nearby: </span>{office.nearbyLandmarks}
           </p>
         </div>
@@ -133,7 +133,7 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ l
         {office.localTip && (
           <div className="bg-gold/5 border border-gold/20 rounded-xl p-5">
             <h2 className="text-xs font-extrabold text-accent-dark font-mono uppercase tracking-wider mb-2">Local Tip</h2>
-            <p className="text-sm text-muted leading-relaxed">{office.localTip}</p>
+            <p className="text-sm text-muted-foreground leading-relaxed">{office.localTip}</p>
           </div>
         )}
       </div>
