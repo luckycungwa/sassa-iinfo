@@ -54,9 +54,9 @@ export const guides: Guide[] = [
     description: "How the means test works, income thresholds for single and married applicants, asset limits, and how your grant eligibility is calculated.",
     steps: [
       { title: "What Is the Means Test?", detail: "The means test is a financial assessment SASSA uses to determine if your income and assets fall below the legal threshold for grant eligibility. It ensures grants go to those who need them most." },
-      { title: "Income Thresholds (Single)", detail: "For most grants: single applicants must have annual income below R96,240. For the SRD R370 grant: bank inflows must be below R624 per month." },
-      { title: "Income Thresholds (Married)", detail: "For married applicants: combined annual income must be below R192,480 (or R127,200 for Child Support Grant)." },
-      { title: "Asset Limits", detail: "Single applicant assets must be below R1,372,800. Married couple combined assets must be below R2,745,600. Assets include property (excluding primary residence), investments, savings, and vehicles." },
+      { title: "Income Thresholds (Single)", detail: "For most grants: single applicants must have annual income below R112,200. For the SRD R370 grant: bank inflows must be below R624 per month." },
+      { title: "Income Thresholds (Married)", detail: "For married applicants: combined annual income must be below R224,400 (or R139,200 for Child Support Grant)." },
+      { title: "Asset Limits", detail: "Single applicant assets must be below R1,584,000. Married couple combined assets must be below R3,168,000. Assets include property (excluding primary residence), investments, savings, and vehicles." },
       { title: "What Counts as Income?", detail: "Salary/wages, pension payments, rental income, farm income, regular gifts or remittances, UIF payments, NSFAS allowances, and interest from investments." },
     ],
   },

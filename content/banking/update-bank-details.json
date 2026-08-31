@@ -4,7 +4,7 @@
   "classification": "banking-guide",
   "title": "How to Update Your SASSA Bank Details — Change Account for Grant Payments",
   "description": "Step-by-step guide to changing your bank account for SASSA grant payments: online via the SRD portal or in person at a SASSA office. Requirements, processing time, and important warnings.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -13,8 +13,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "How to Update SASSA Bank Details — Change Account for Grant Payments",
-    "metaDescription": "Step-by-step guide to updating your SASSA bank details: change your bank account online via the SRD portal or in person at a SASSA office. Requirements, processing time, and important warnings.",
+    "metaTitle": "Update SASSA Banking Details — Step-by-Step (2026)",
+    "metaDescription": "Update your SASSA banking details in 2026 online via the SRD portal or at an office. Follow our step-by-step guide to switch accounts.",
     "keywords": [
       "update SASSA bank details",
       "change SASSA bank account",
@@ -30,7 +30,7 @@
       "title": "How to Update Your SASSA Bank Details — Change Account for Grant Payments",
       "description": "Need to change the bank account where your SASSA grant is deposited? Learn how to update your details online via the SRD portal or in person at a SASSA office, and what to expect during bank verification.",
       "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Go to SRD Portal",
         "href": "/banking/how-to-register-for-srd-portal"
@@ -49,12 +49,25 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "If you need to change the bank account where your SASSA grant is paid, you can do it online through the SRD portal or in person at a SASSA office. The new account must be registered in your own name."
+      "text": "If you need to change the bank account where your SASSA grant is paid, you can do it online through the SRD portal or in person at a SASSA office. The new account must be registered in your own name.",
+      "links": [
+        {
+          "text": "the SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SASSA beneficiaries who need to change the bank account where their grant is deposited."
+      "text": "If you have changed banks, closed an old account, or simply made a typo last time, you are in the right place. This is one of those small admin tasks that feels fiddly but is genuinely important — wrong bank details are the number one reason grant payments get stuck in limbo."
+    },
+    {
+      "id": "name-rule",
+      "type": "callout",
+      "intent": "warning",
+      "title": "The account MUST be yours",
+      "text": "SASSA only pays into an account in the applicant's own name. You cannot use a relative's or friend's account — even with their permission. If you do not have your own account, use Cash Send or the SASSA card instead of risking a frozen payment."
     },
     {
       "id": "online-h",

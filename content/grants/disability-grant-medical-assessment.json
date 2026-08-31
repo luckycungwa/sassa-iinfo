@@ -4,7 +4,7 @@
   "classification": "grant-detail",
   "title": "Disability Grant — Medical Assessment Walkthrough",
   "description": "Step-by-step guide to the SASSA Disability Grant medical exam: Form A, what your doctor must fill in, District Surgeon checks, conditions that qualify, supporting documents, and appeal steps.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
@@ -36,12 +36,18 @@
       "title": "Disability Grant — Medical Assessment Walkthrough",
       "description": "Step-by-step guide to the SASSA Disability Grant medical exam: Form A, what your doctor must fill in, District Surgeon checks, conditions that qualify, supporting documents, and appeal steps.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-07-27"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "The medical assessment is the make-or-break step for your Disability Grant. This page is a focused deep-dive into everything you need to know about the exam — from getting the right form to what happens at the District Surgeon appointment. If you are preparing for your assessment or wondering why your application was rejected, start here."
+      "text": "The medical assessment is the make-or-break step for your Disability Grant. This page is a focused deep-dive into everything you need to know about the exam — from getting the right form to what happens at the District Surgeon appointment. If you are preparing for your assessment or wondering why your application was rejected, start here.",
+      "links": [
+        {
+          "text": "Disability Grant",
+          "href": "/grants/disability-grant"
+        }
+      ]
     },
     {
       "id": "form-a-h",
@@ -231,6 +237,36 @@
         {
           "question": "The District Surgeon said my condition is not severe enough — can I try again later?",
           "answer": "Yes, but you must appeal within 90 days. If your condition gets worse, you can also submit a new application with updated medical evidence. Do not simply reapply with the same information — get new tests, specialist reports, or hospital records that show how your condition has progressed."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-mgf9z3",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "SASSA Tools",
+          "href": "/tools"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
         }
       ]
     }

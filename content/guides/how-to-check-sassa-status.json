@@ -4,41 +4,216 @@
   "classification": "how-to-guide",
   "title": "How to Check Your SASSA Grant Status",
   "description": "Multiple ways to check your SASSA grant application or payment status online, via WhatsApp, USSD code, or at a SASSA office.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "How to Check Your SASSA Grant Status — Online, WhatsApp & USSD",
     "metaDescription": "Multiple ways to check your SASSA grant status: online at srd.sassa.gov.za, via WhatsApp (082 046 8553), USSD code *134*7737#, or at your nearest SASSA office.",
-    "keywords": ["check SASSA status", "SASSA status check", "SASSA WhatsApp line", "SASSA USSD code", "SASSA application status"]
+    "keywords": [
+      "check SASSA status",
+      "SASSA status check",
+      "SASSA WhatsApp line",
+      "SASSA USSD code",
+      "SASSA application status"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "How to Check Your SASSA Grant Status",
       "description": "There are multiple ways to check your SASSA grant status — online via the SRD portal, through the WhatsApp line, by USSD code, or in person at a SASSA office. Find the method that works best for you.",
       "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "label": "Register on SRD Portal", "href": "/banking/how-to-register-for-srd-portal" },
-      "secondaryCta": { "label": "How to Apply for a Grant", "href": "/guides/how-to-apply-sassa-grant" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Register on SRD Portal",
+        "href": "/banking/how-to-register-for-srd-portal"
+      },
+      "secondaryCta": {
+        "label": "How to Apply for a Grant",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "How to Check Your SASSA Grant Status" },
-    { "id": "intro", "type": "paragraph", "text": "You can check your SASSA grant application or payment status using any of these methods." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA grant applicants and beneficiaries who want to check their application or payment status using online, WhatsApp, USSD, or in-person methods." },
-    { "id": "online-h", "type": "heading", "level": 3, "text": "Method 1: Online Portal (Recommended)" },
-    { "id": "online-text", "type": "paragraph", "text": "Visit srd.sassa.gov.za. Enter your ID number and the phone number used during application. You will receive an OTP via SMS to access your status dashboard." },
-    { "id": "whatsapp-h", "type": "heading", "level": 3, "text": "Method 2: SASSA WhatsApp Line" },
-    { "id": "whatsapp-text", "type": "paragraph", "text": "Save 082 046 8553 to your phone. Send 'SASSA' to start. Follow the prompts to check your balance, payment date, or application status. Free on most networks." },
-    { "id": "ussd-h", "type": "heading", "level": 3, "text": "Method 3: USSD Code" },
-    { "id": "ussd-text", "type": "paragraph", "text": "Dial *134*7737# on your mobile phone. Follow the menu to check your grant status. Standard network rates apply." },
-    { "id": "office-h", "type": "heading", "level": 3, "text": "Method 4: Visit a SASSA Office" },
-    { "id": "office-text", "type": "paragraph", "text": "Bring your ID to any SASSA local office. A clerk can look up your status and provide a printout if needed." }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Check Your SASSA Grant Status"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "You can check your SASSA grant application or payment status using any of these methods. Pick whichever one fits you best — they all show the same information, so there is no right or wrong answer. The SRD online portal is the fastest and gives you the most detail, but if you have trouble with data or apps, the WhatsApp line or USSD code works just as well."
+    },
+    {
+      "id": "why-check",
+      "type": "paragraph",
+      "text": "It is worth checking your status regularly, not just once. A grant that was approved can hit snags later — a bank verification that is suddenly flagged, a missed re-confirmation, or a review hold that needs your attention. Catching a problem early is a lot less stressful than discovering it on payment day, so a quick monthly check takes two minutes and saves you a lot of worry.",
+      "links": [
+        {
+          "text": "why your status might be on hold",
+          "href": "/grants/srd-r370-grant-monthly-review"
+        }
+      ]
+    },
+    {
+      "id": "online-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Method 1: Online Portal (Recommended)"
+    },
+    {
+      "id": "online-text",
+      "type": "paragraph",
+      "text": "Visit srd.sassa.gov.za. Enter your ID number and the phone number you used during application. You will receive an OTP via SMS to access your status dashboard.",
+      "links": [
+        {
+          "text": "srd",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "online-tip",
+      "type": "paragraph",
+      "text": "Before you start, make sure the phone you enter is the one linked to your application. If you have changed your cell number since applying, the OTP will not reach you — sort that out first via the 'change phone number' process, otherwise you will be stuck in a loop of requests that never arrive.",
+      "links": [
+        {
+          "text": "how to change your SASSA phone number",
+          "href": "/guides/change-srd-phone-number"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Method 2: SASSA WhatsApp Line"
+    },
+    {
+      "id": "whatsapp-text",
+      "type": "paragraph",
+      "text": "Save 082 046 8553 to your phone. Send 'SASSA' to start. Follow the prompts to check your balance, payment date, or application status. Free on most networks.",
+      "links": [
+        {
+          "text": "payment date",
+          "href": "/payment-dates"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-tip",
+      "type": "paragraph",
+      "text": "This method is handy if you are already on WhatsApp anyway. The chat menus walk you through step by step, and you do not need to remember any codes or web addresses. Just reply with the number of the option you want. One thing to remember: SASSA will never message you out of the blue asking for your PIN or OTP — always start the conversation yourself by sending 'SASSA'.",
+      "links": [
+        {
+          "text": "spotting fake SASSA messages",
+          "href": "/guides/sassa-scam-alert-guide"
+        }
+      ]
+    },
+    {
+      "id": "ussd-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Method 3: USSD Code"
+    },
+    {
+      "id": "ussd-text",
+      "type": "paragraph",
+      "text": "Dial *134*7737# on your mobile phone. Follow the menu to check your grant status. Standard network rates apply."
+    },
+    {
+      "id": "ussd-tip",
+      "type": "paragraph",
+      "text": "USSD is the best backup option if your phone does not have data or an app at the moment. It works on any handset, even the simplest ones. Standard network rates apply, so it is not free like the WhatsApp line — but it is cheap and it gets the job done.",
+      "links": [
+        {
+          "text": "all SASSA USSD codes",
+          "href": "/banking/sassa-ussd-codes"
+        }
+      ]
+    },
+    {
+      "id": "office-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Method 4: Visit a SASSA Office"
+    },
+    {
+      "id": "office-text",
+      "type": "paragraph",
+      "text": "Bring your ID to any SASSA local office. A clerk can look up your status and provide a printout if needed."
+    },
+    {
+      "id": "office-tip",
+      "type": "paragraph",
+      "text": "If online checks are not working and you are near an office, this is a reliable fallback. Go early in the morning and bring your ID book or smart card. Some offices now have self-service kiosks where you can check your status on a touchscreen without queuing for a clerk — ask the staff at your nearest office if a kiosk is available there.",
+      "links": [
+        {
+          "text": "self-service kiosks at SASSA offices",
+          "href": "/guides/srd-call-centre-kiosk-help"
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Every Method Shows the Same Status",
+      "text": "The portal, WhatsApp, USSD, and the SASSA office all read from the same system. If one method shows 'Pending' and another shows something different, trust the newer result and give it a day or two — the systems sync up quickly."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Why is my status still showing 'Pending' after weeks?",
+          "answer": "'Pending' means your application is still being checked and no decision has been made yet. It can stay on Pending for a while during busy periods, especially around re-confirmation. Keep checking, and if it has been more than 90 days, contact SASSA on 0800 60 10 11 to ask for an update."
+        },
+        {
+          "question": "I keep getting an error when I try to log into the SRD portal. What now?",
+          "answer": "Try the other methods — the WhatsApp line (082 046 8553) or USSD *134*7737#. If those also fail, you can visit a SASSA office or call 0800 60 10 11. Portal login errors are often temporary, so clearing your browser cache and trying again after a while also helps."
+        },
+        {
+          "question": "Do I need data to check my status on WhatsApp?",
+          "answer": "The SASSA WhatsApp line is free on most networks, including on a zero-data plan from the main providers. If you are worried about data, the USSD code *134*7737# is another option that works on any phone, though standard rates may apply."
+        },
+        {
+          "question": "Can someone check my status on my behalf?",
+          "answer": "Only your ID number and linked phone number are needed on the portal, so a family member with those details can log in for you. If you allow a helper to use a kiosk or ask a SASSA clerk on your behalf, never share your OTP — and be very careful who you trust with your ID and phone number."
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" },
-    { "title": "How to Register on SRD Portal", "slug": "/banking/how-to-register-for-srd-portal" },
-    { "title": "Status Meanings Guide", "slug": "/status/pending" },
-    { "title": "SRD Help: Call Centres and Kiosks", "slug": "/guides/srd-call-centre-kiosk-help" }
+    {
+      "title": "How to Apply for a SASSA Grant",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    },
+    {
+      "title": "How to Register on SRD Portal",
+      "slug": "/banking/how-to-register-for-srd-portal"
+    },
+    {
+      "title": "Status Meanings Guide",
+      "slug": "/status/pending"
+    },
+    {
+      "title": "SRD Help: Call Centres and Kiosks",
+      "slug": "/guides/srd-call-centre-kiosk-help"
+    }
   ]
 }

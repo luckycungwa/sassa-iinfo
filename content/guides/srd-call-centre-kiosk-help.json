@@ -4,7 +4,7 @@
   "classification": "how-to-guide",
   "title": "How to Apply for SRD if You Struggle with the Online System — Call Centres and Self-Service Kiosks",
   "description": "Practical guide to getting human help with your SRD R370 application: the free SASSA call centre, self-service kiosks at SASSA offices, and step-by-step alternatives when the online system is difficult.",
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -33,7 +33,7 @@
       "title": "How to Apply for SRD if You Struggle with the Online System",
       "description": "The SRD grant is mostly online, but that does not mean you are on your own. Free call centres and self-service kiosks exist to help you apply, check your status, and sort out problems. This guide shows you exactly how to use them.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Call SASSA Free: 0800 60 10 11",
         "href": "tel:0800601011"
@@ -57,7 +57,13 @@
     {
       "id": "court-context-text",
       "type": "paragraph",
-      "text": "On 25 August 2026, SASSA told the Supreme Court of Appeal that they have measures in place to improve access to the SRD grant. Specifically, they pointed to two things: free call centres where a real person can help, and self-service kiosks that have been rolled out at many SASSA offices (with plans to add them to public libraries too)."
+      "text": "On 25 August 2026, SASSA told the Supreme Court of Appeal that they have measures in place to improve access to the SRD grant. Specifically, they pointed to two things: free call centres where a real person can help, and self-service kiosks that have been rolled out at many SASSA offices (with plans to add them to public libraries too).",
+      "links": [
+        {
+          "text": "Appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "court-callout",

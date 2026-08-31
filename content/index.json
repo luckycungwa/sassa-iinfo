@@ -4,7 +4,7 @@
   "classification": "home-page",
   "title": "SASSA Grant Guide — Independent Resource Hub",
   "description": "Your independent guide to every SASSA social grant in South Africa. Check eligibility, find payment dates, apply, appeal SASSA decisions, and use interactive tools — all in one place.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -16,7 +16,17 @@
   "seo": {
     "metaTitle": "SASSA Grant Guide — Independent Guide to South African Social Grants 2026",
     "metaDescription": "Independent guide to every SASSA social grant in South Africa. Check SRD R370 status, find payment dates, compare grant amounts, apply online, and appeal declined applications. Updated July 2026.",
-    "keywords": ["SASSA", "social grants", "South Africa", "SRD R370", "grant application", "payment dates", "SASSA status check", "independent SASSA guide", "social relief of distress"],
+    "keywords": [
+      "SASSA",
+      "social grants",
+      "South Africa",
+      "SRD R370",
+      "grant application",
+      "payment dates",
+      "SASSA status check",
+      "independent SASSA guide",
+      "social relief of distress"
+    ],
     "schemaMarkup": {
       "@type": "WebSite",
       "name": "SASSA Grant Guide",
@@ -43,16 +53,38 @@
     {
       "id": "hero-2",
       "type": "paragraph",
-      "text": "SASSA (South African Social Security Agency) provides monthly social grants to millions of South Africans. This independent resource helps you understand each grant, check your eligibility, find payment dates, apply online, and appeal if your application is declined. We are not affiliated with SASSA or any government department — we simply make the information easier to find and use."
+      "text": "SASSA (South African Social Security Agency) provides monthly social grants to millions of South Africans. This independent resource helps you understand each grant, check your eligibility, find payment dates, apply online, and appeal if your application is declined. We are not affiliated with SASSA or any government department — we simply make the information easier to find and use.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        },
+        {
+          "text": "payment dates",
+          "href": "/payment-dates"
+        }
+      ]
     },
     {
       "id": "quick-stats",
       "type": "stat-bar",
       "stats": [
-        { "value": "18M+", "label": "South Africans receiving social grants" },
-        { "value": "8", "label": "Social grant types available" },
-        { "value": "R370-R2,420", "label": "Monthly grant amounts" },
-        { "value": "80+", "label": "Detailed guides and resources" }
+        {
+          "value": "18M+",
+          "label": "South Africans receiving social grants"
+        },
+        {
+          "value": "8",
+          "label": "Social grant types available"
+        },
+        {
+          "value": "R370-R2,420",
+          "label": "Monthly grant amounts"
+        },
+        {
+          "value": "80+",
+          "label": "Detailed guides and resources"
+        }
       ]
     },
     {
@@ -64,7 +96,21 @@
     {
       "id": "how-grants-work",
       "type": "paragraph",
-      "text": "South Africa's social grant system is one of the most extensive in the developing world. SASSA administers grants ranging from the Older Person Grant (state pension) to the Child Support Grant and the Social Relief of Distress (SRD R370) grant. Each grant has specific eligibility criteria based on age, income, and personal circumstances. The application process varies by grant type — some can be completed entirely online (like the SRD grant), while others require a visit to your local SASSA office."
+      "text": "South Africa's social grant system is one of the most extensive in the developing world. SASSA administers grants ranging from the Older Person Grant (state pension) to the Child Support Grant and the Social Relief of Distress (SRD R370) grant. Each grant has specific eligibility criteria based on age, income, and personal circumstances. The application process varies by grant type — some can be completed entirely online (like the SRD grant), while others require a visit to your local SASSA office.",
+      "links": [
+        {
+          "text": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "text": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "why-use-this-guide-h",
@@ -75,7 +121,13 @@
     {
       "id": "why-use-this-guide",
       "type": "paragraph",
-      "text": "Official SASSA information can be difficult to navigate — websites go down during peak periods, application statuses are confusing, and the appeals process is not well documented elsewhere. This site was created to fill that gap. Every page is written in plain language, updated when grant amounts or rules change, and designed to help you get the support you are entitled to. All factual claims about grant amounts and eligibility are sourced from official SASSA publications and Government Gazettes."
+      "text": "Official SASSA information can be difficult to navigate — websites go down during peak periods, application statuses are confusing, and the appeals process is not well documented elsewhere. This site was created to fill that gap. Every page is written in plain language, updated when grant amounts or rules change, and designed to help you get the support you are entitled to. All factual claims about grant amounts and eligibility are sourced from official SASSA publications and Government Gazettes.",
+      "links": [
+        {
+          "text": "grant amounts",
+          "href": "/guides/sassa-grant-amounts"
+        }
+      ]
     },
     {
       "id": "what-you-can-do-h",
@@ -107,11 +159,29 @@
     }
   ],
   "relatedPages": [
-    { "title": "Browse All Grants", "slug": "/grants" },
-    { "title": "Payment Dates", "slug": "/payment-dates" },
-    { "title": "Check Your Status", "slug": "/status" },
-    { "title": "Appeal a Decision", "slug": "/appeals" },
-    { "title": "Interactive Tools", "slug": "/tools" },
-    { "title": "About This Guide", "slug": "/about" }
+    {
+      "title": "Browse All Grants",
+      "slug": "/grants"
+    },
+    {
+      "title": "Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Check Your Status",
+      "slug": "/status"
+    },
+    {
+      "title": "Appeal a Decision",
+      "slug": "/appeals"
+    },
+    {
+      "title": "Interactive Tools",
+      "slug": "/tools"
+    },
+    {
+      "title": "About This Guide",
+      "slug": "/about"
+    }
   ]
 }

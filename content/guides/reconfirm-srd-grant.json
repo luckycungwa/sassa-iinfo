@@ -4,7 +4,7 @@
   "classification": "how-to-guide",
   "title": "How to Reconfirm Your SRD R370 Grant",
   "description": "Why SASSA asks SRD beneficiaries to reconfirm their applications, the exact reconfirmation steps on srd.sassa.gov.za and WhatsApp, deadlines to avoid missing a payment cycle, and what happens if you skip it.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "How to Reconfirm Your SRD R370 Grant",
       "description": "SASSA periodically asks beneficiaries to confirm their details are still correct before the next payment cycle. Miss the request and your payment can pause — here is how to reconfirm in minutes.",
       "readingTime": "6 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Your Status",
         "href": "/guides/how-to-check-sassa-status"
@@ -173,6 +173,32 @@
         }
       ],
       "note": "Verified against official SASSA channels in August 2026. Reconfirmation cycles and deadlines follow current SASSA practice."
+    },
+    {
+      "id": "related-pages-4t1zxk",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How-To Guides",
+          "href": "/guides"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "SASSA Tools",
+          "href": "/tools"
+        }
+      ]
     }
   ],
   "relatedPages": [

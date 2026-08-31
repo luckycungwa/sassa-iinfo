@@ -4,45 +4,217 @@
   "classification": "how-to-guide",
   "title": "SASSA Grant Amounts 2026 — Complete List of All Grant Values",
   "description": "Complete list of all SASSA social grant amounts for 2026. SRD R370, Older Person Grant, Disability Grant, Child Support Grant, Foster Child Grant, and more.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Grant Amounts 2026 — Complete List of All Grant Values",
     "metaDescription": "Complete list of all SASSA social grant amounts for 2026: SRD R370, Older Person Grant R2,400, Disability Grant R2,400, Child Support Grant R580, Foster Child Grant R1,295, and more.",
-    "keywords": ["SASSA grant amounts 2026", "SASSA grant values", "SASSA how much per month", "SASSA grant list", "SASSA social grant amounts"]
+    "keywords": [
+      "SASSA grant amounts 2026",
+      "SASSA grant values",
+      "SASSA how much per month",
+      "SASSA grant list",
+      "SASSA social grant amounts"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Grant Amounts 2026 — Complete List of All Grant Values",
       "description": "See the complete list of SASSA social grant amounts for 2026 — from the SRD R370 to the Older Person Grant of R2,400 and the War Veterans Grant of R2,420. All amounts in one place for easy reference.",
       "readingTime": "3 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "label": "Payment Dates 2026", "href": "/payment-dates" },
-      "secondaryCta": { "label": "How to Apply", "href": "/guides/how-to-apply-sassa-grant" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Payment Dates 2026",
+        "href": "/payment-dates"
+      },
+      "secondaryCta": {
+        "label": "How to Apply",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grant Amounts 2026" },
-    { "id": "intro", "type": "paragraph", "text": "Below is the complete list of SASSA social grant amounts for 2026. Amounts are reviewed annually and may increase with the national budget." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for anyone who wants to see a complete overview of all current SASSA grant amounts in one place." },
-    { "id": "amounts-table", "type": "table", "headers": ["Grant Type", "Monthly Amount", "Frequency"], "rows": [
-      ["Social Relief of Distress (SRD R370)", "R370", "Monthly"],
-      ["Older Person Grant (60-74 years)", "R2,400", "Monthly"],
-      ["Older Person Grant (75+ years)", "R2,420", "Monthly"],
-      ["Disability Grant", "R2,400", "Monthly"],
-      ["War Veterans Grant", "R2,420", "Monthly"],
-      ["Foster Child Grant", "R1,295", "Monthly"],
-      ["Care Dependency Grant", "R2,400", "Monthly"],
-      ["Child Support Grant", "R580", "Monthly"],
-      ["Child Support Grant (orphan)", "R580", "Monthly"],
-      ["Grant-in-Aid", "R580", "Monthly"]
-    ] },
-    { "id": "note", "type": "paragraph", "text": "Grant amounts are subject to change based on the national budget announcement. The amounts listed above are current as of July 2026." }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Grant Amounts 2026"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Below is the complete list of SASSA social grant amounts for 2026. Amounts are reviewed annually and may increase with the national budget."
+    },
+    {
+      "id": "how-read",
+      "type": "paragraph",
+      "text": "Two things to notice straight away. The Older Person Grant pays more once you reach 75 (R2,400 to R2,420) — that extra bump covers the higher costs that come with age. And several grants share the same figure (R2,400) because they are all set at the level pensioners need to live on. The SRD R370 is a different beast entirely: it is a temporary relief grant, not a full social grant, which is why the number is so much smaller.",
+      "links": [
+        {
+          "text": "how the SRD differs from other grants",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "extra-payment-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Watch out for the extra 'top-up' payments"
+    },
+    {
+      "id": "extra-payment-text",
+      "type": "paragraph",
+      "text": "In some months — usually around December or during the festive season — SASSA pays an extra amount on top of the regular grant. This is not part of your monthly figure and it changes from year to year. The table below is your monthly baseline; check our payment dates page for any announced top-ups before getting excited about your balance.",
+      "links": [
+        {
+          "text": "payment dates 2026",
+          "href": "/payment-dates"
+        }
+      ]
+    },
+    {
+      "id": "means-test-note",
+      "type": "callout",
+      "intent": "info",
+      "title": "Your amount can be reduced by income",
+      "text": "Most of these amounts assume you pass the means test in full. If you have some income, the grant you actually receive can be reduced by part of that income. The table shows the maximum you can get, not a guarantee you will get it all. If you are not sure how much YOU qualify for, our grant calculator gives you the maths without having to guess."
+    },
+    {
+      "id": "amounts-table",
+      "type": "table",
+      "headers": [
+        "Grant Type",
+        "Monthly Amount",
+        "Frequency"
+      ],
+      "rows": [
+        [
+          "Social Relief of Distress (SRD R370)",
+          "R370",
+          "Monthly"
+        ],
+        [
+          "Older Person Grant (60-74 years)",
+          "R2,400",
+          "Monthly"
+        ],
+        [
+          "Older Person Grant (75+ years)",
+          "R2,420",
+          "Monthly"
+        ],
+        [
+          "Disability Grant",
+          "R2,400",
+          "Monthly"
+        ],
+        [
+          "War Veterans Grant",
+          "R2,420",
+          "Monthly"
+        ],
+        [
+          "Foster Child Grant",
+          "R1,295",
+          "Monthly"
+        ],
+        [
+          "Care Dependency Grant",
+          "R2,400",
+          "Monthly"
+        ],
+        [
+          "Child Support Grant",
+          "R580",
+          "Monthly"
+        ],
+        [
+          "Child Support Grant (orphan)",
+          "R580",
+          "Monthly"
+        ],
+        [
+          "Grant-in-Aid",
+          "R580",
+          "Monthly"
+        ]
+      ]
+    },
+    {
+      "id": "note",
+      "type": "paragraph",
+      "text": "Grant amounts are subject to change based on the national budget announcement. The amounts listed above are current as of July 2026."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Why is the SRD R370 so much less than other grants?",
+          "answer": "The SRD grant is temporary relief for people who have no income and do not qualify for a full social grant. The R370 reflects that — it is meant to help, not replace a proper grant. If your circumstances change, you may qualify for a bigger grant like the Disability Grant or Child Support Grant instead."
+        },
+        {
+          "question": "Do grant amounts change every year?",
+          "answer": "SASSA reviews amounts during the national budget announcement, usually in the first few months of the year. Increases are common but not guaranteed, and each grant moves separately — so stay alert rather than assuming your grant changed."
+        },
+        {
+          "question": "Will my bank charge me fees on these amounts?",
+          "answer": "Any money you receive from SASSA is yours with no SASSA fee. Depending on your payment method, a retailer or bank may apply their own charges for withdrawal. The SASSA card is designed to keep withdrawal costs as low as possible."
+        },
+        {
+          "question": "Can my grant amount be less than the table shows?",
+          "answer": "Yes. If you earn a little income, SASSA can pay a reduced amount based on your means test result. The table shows the maximum full amount — your actual figure can be lower if income is detected."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-4iwegw",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How-To Guides",
+          "href": "/guides"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Tools",
+          "href": "/tools"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Payment Dates 2026", "slug": "/payment-dates/2026-july" },
-    { "title": "SRD R370 Grant Guide", "slug": "/grants/srd-r370-grant" },
-    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" }
+    {
+      "title": "Payment Dates 2026",
+      "slug": "/payment-dates/2026-july"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "How to Apply for a SASSA Grant",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    }
   ]
 }

@@ -24,6 +24,18 @@ let passed = 0;
 let failed = 0;
 const allErrors = [];
 
+/**
+ * Locale trees that mirror English content. A slug may legitimately repeat
+ * across trees (e.g. content/grants/srd-r370-grant.json and
+ * content/zu/grants/srd-r370-grant.json), so duplicate checks are scoped to
+ * the first path segment under /content.
+ */
+function scopeOf(file) {
+  const rel = file.replace(ROOT, "").replace(/\\/g, "/").replace(/^\//, "");
+  const first = rel.split("/")[0];
+  return first || "root";
+}
+
 function collectFiles(dir) {
   const entries = readdirSync(dir);
   const files = [];
@@ -126,11 +138,17 @@ for (const file of files) {
     const parsed = JSON.parse(raw);
     const result = validate(parsed, file);
     if (typeof parsed.slug === "string") {
-      const existing = seenSlugs.get(parsed.slug);
+      const scope = scopeOf(file);
+      let scoped = seenSlugs.get(scope);
+      if (!scoped) {
+        scoped = new Map();
+        seenSlugs.set(scope, scoped);
+      }
+      const existing = scoped.get(parsed.slug);
       if (existing) {
-        result.errors.push(`Duplicate slug "${parsed.slug}" — already used by ${existing.replace(ROOT, "")}`);
+        result.errors.push(`Duplicate slug "${parsed.slug}" (scope ${scope}) — already used by ${existing.replace(ROOT, "")}`);
       } else {
-        seenSlugs.set(parsed.slug, file);
+        scoped.set(parsed.slug, file);
       }
     }
     if (result.errors.length > 0) {

@@ -4,7 +4,7 @@
   "classification": "province-hub",
   "title": "SASSA Northern Cape Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in the Northern Cape. Regional office in Kimberley, mobile pay points for remote towns like Upington and Springbok, bank transfer advice, and FAQs.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA Northern Cape Province",
       "description": "Provincial hub for Northern Cape beneficiaries: regional office contacts, surviving the country's longest distances, mobile pay points, and practical local advice.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Find an Office",
         "href": "/offices"
@@ -75,10 +75,6 @@
         {
           "label": "Browse the national offices directory",
           "href": "/offices"
-        },
-        {
-          "label": "Regional office enquiries: 053 802 7300",
-          "href": null
         }
       ]
     },

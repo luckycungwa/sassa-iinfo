@@ -1,0 +1,150 @@
+{
+  "id": "banking-card-replacement",
+  "slug": "/banking/sassa-card-replacement",
+  "classification": "banking-guide",
+  "title": "Ukutshintshwa kweSASSA Card — Indlela yokuTshintsha iKhadi eLahlekileyo, eBethweyo, okanye eNakalisiweyo",
+  "description": "Inkqubo yesinyathelo ngesinyathelo yokutshintsha iSASSA card eLahlekileyo, eBethweyo, okanye eNakalisiweyo: yenzani ngokuthe ngqo, phi uhambele khona ukuthatha enye, imifuno efunekayo, iindlela, kunye nexesha lokucubungula.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Ukutshintshwa kweSASSA Card — Inkqubo yeKhadi eLahlekileyo, eBethweyo, okanye eNakalisiweyo",
+    "metaDescription": "Ilahleke okanye yonakalise ikhadi yakho yeSASSA? Inkqubo yesinyathelo ngesinyathelo yokufumana enye: phi uhambele khona, imifuno ekufuneka uthwele, ithatha ixesha elingakanani, kunye indlela yokufikelela kwinqanaba lakho ngelixa ulinde.",
+    "keywords": [
+      "ukutshintshwa kweSASSA card",
+      "SASSA card eLahlekileyo",
+      "SASSA card eBethweyo",
+      "SASSA card eNakalisiweyo",
+      "tshintshisa iSASSA card",
+      "ukuphindwa kunikwa iSASSA card"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ukutshintshwa kweSASSA Card — Indlela yokuTshintsha iKhadi eLahlekileyo, eBethweyo, okanye eNakalisiweyo",
+      "description": "Ilahleke, ibethwe, okanye yonakalise ikhadi yakho yeSASSA? Ukufumana enye kulula. Funda amanyathelo akufuneka awenze ngokuthe ngqo, apho uhambele khona, imifuno ekufuneka uthwele, kunye indlela yokufikelela kwinqanaba lakho ngelixa ulinde.",
+      "readingTime": "3 ngqesho ukufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "I-SASSA Card Ichazwe",
+        "href": "/banking/sassa-card-explained"
+      },
+      "secondaryCta": {
+        "label": "Tshintshela kuCash Send",
+        "href": "/banking/cash-send-guide"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Inkqubo yokuTshintshwa kweSASSA Card"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Ukulahleka kwekhadi yakho yeSASSA okanye ukubethwa kwayo kunokuba ngumhlupheko, kodwa ukufumana enye kulula. Nantsi into ekufuneka yenziwe ngokuthe ngqo, apho uhambele khona, kunye nemifuno ekufuneka uthwele."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Ukulahleka kwekhadi yakho yokukhokelwa kunokujongeka njengokulahleka kokufikelela kuphela kwenqanaba lakho, kodwa imali yakho ayilahlekanga nangaluphi na icala — ihlala ikhuselekile kwingqinisiso yeSASSA de uyithathe. nokuba ikhadi yakho ibethwe, ilahleke ngenkqubo, okanye i-chip nje iyekile, ukutshintshwa kukutyelela iofisi eqhelekileyo. Ngelixa ulinde, kukho enye indlela esebenza ngaphandle kwekhadi.",
+      "links": []
+    },
+    {
+      "id": "lost-stolen-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ukuba iKhadi yakho iLahlekile okanye iBethwe"
+    },
+    {
+      "id": "lost-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Yibike empoliseni (ukuba ibethwe)",
+          "description": "Ukuba ikhadi yakho ibethwe, bhala ingxelo yobulungisa kwisikhululo seSAPS esecaleni. Uya kudinga inombolo yesikhangiso yesicelo sakho sokutshintsha."
+        },
+        {
+          "title": "Tyelela iofisi yakho yeSASSA esecaleni",
+          "description": "Hamba kwi-ofisi yakho yeSASSA esecaleni ngesazisi sakho. Ukuba isazisi sakho naso ibethwe, thatha ifayili evela eSAPS."
+        },
+        {
+          "title": "Gcwalisa ifomu yokutshintshwa",
+          "description": "Umphathi weSASSA uya kukunceda ngefomu yesicelo sokutshintshwa kwekhadi. Chaza ukuba ikhadi yakho ilahlekile okanye ibethwe."
+        },
+        {
+          "title": "Yamkela ikhadi yakho entsha",
+          "description": "Ikhadi elitshintshiweyo livame ukunikelwa ngaphakathi kweveki ezi-2 ukuya kwezi-4. Uya kwaziswa xa ilungile ukuthathwa."
+        }
+      ]
+    },
+    {
+      "id": "damaged-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ukuba iKhadi yakho iNakalisiwe"
+    },
+    {
+      "id": "damaged-text",
+      "type": "paragraph",
+      "text": "Ukuba iSASSA card yakho inakalisiwe (iphukile, igugile, okanye i-chip ayisasebenzi), tyelela iofisi yakho yeSASSA esecaleni ngesazisi kunye nekhadi elinakalisiweyo. Ukutshintshwa ngamanye amaxesha kukhawuleza kunokulahleka, kuninzi kucubungulwa ngaphakathi kweveki ezi-1 ukuya kwezi-2."
+    },
+    {
+      "id": "while-waiting-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela yokufikelela kwiNqanaba lakho ngelixa uLinde"
+    },
+    {
+      "id": "while-waiting",
+      "type": "paragraph",
+      "text": "Ngelixa ulinde ikhadi yakho, unokufikelela kwinqanaba lakho. Tshintsha indlela yokukhokela kuCash Send ngayo iportal yeSRD. Uya kufumana iSMS voucher onokuyisebenzisa ukuthatha inqanaba lakho kunye nayiphi na iPick n Pay, Shoprite, Boxer, Checkers, okanye iSpar ngemali.",
+      "links": [
+        {
+          "text": "iSRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ixabiso elifanelekileyo lokutshintshwa kweSASSA card?",
+          "answer": "Ukutshintshwa kokuqala kuyimahala. Ukutshintshwa okulandelayo kunokuba nemali encinci yokuphatha ngokwesigqibo seSASSA."
+        },
+        {
+          "question": "Ndingafumana inqanaba lam ngaphandle kwekhadi?",
+          "answer": "Ewe. Tshintshela kuCash Send okanye ukuthunyelwa ebhankini ngelixa ulinde ikhadi yakho."
+        },
+        {
+          "question": "Ithatha ixesha elingakanani ukufumana ikhadi elitshintshiweyo?",
+          "answer": "Ikhadi eLahlekileyo/eBethweyo: iiveki ezi-2 ukuya kwezi-4. Ikhadi eNakalisiweyo: iiveki ezi-1 ukuya kwezi-2."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "I-SASSA Card Ichazwe",
+      "slug": "/banking/sassa-card-explained"
+    },
+    {
+      "title": "Iindlela zokuKhokela iSASSA",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Inkqubo yeCash Send",
+      "slug": "/banking/cash-send-guide"
+    }
+  ]
+}

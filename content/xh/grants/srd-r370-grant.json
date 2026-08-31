@@ -1,0 +1,2185 @@
+{
+  "id": "grant-srd",
+  "slug": "/grants/srd-r370-grant",
+  "classification": "grant-detail",
+  "title": "Isibonelelo sokuNcedwa kwabaNtu abasengxakini (SRD R370) — IsiKhokelo esiGqibeleleyo",
+  "description": "Isikhokelo esipheleleyo seSASSA kwisibonelelo seSRD R370 (ebesaziwa ngokuba yi-R350): ukufaneleka, indlela yokufaka isicelo kwi-intanethi okanye ngeWhatsApp, iintsuku zokuhlawula, ukujonga imeko, izibheno, kunye nayo yonke into abaxhamli ekufuneka bayazi.",
+  "lastUpdated": "2026-08-25",
+  "version": "2.0.0",
+  "readingTime": "Iminithi ezili-10 zokufunda",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Isibonelelo seSRD R370 — Jonga Imeko, Faka Isicelo uze Uhlawulwe (2026)",
+    "metaDescription": "Jonga imeko yakho yeSRD R370, faka isicelo kwi-intanethi okanye ngeWhatsApp, kwaye ubone xa uhlawulwa ngo-2026 — isikhokelo esipheleleyo sesibonelelo senkxaso yentlalo seSASSA.",
+    "keywords": [
+      "isibonelelo seSRD R370",
+      "isibonelelo seSASSA SRD",
+      "isibonelelo se-R350",
+      "iSASSA R370",
+      "ukuncedwa kwabo basengxakini",
+      "isibonelelo se-COVID seSASSA",
+      "isicelo seSRD",
+      "isibonelelo seSASSA sabangenamsebenzi"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Iwebhusayithi Esemthethweni YeSASSA",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "IPortal Esemthethweni YeSRD R370",
+      "url": "https://srd.sassa.gov.za"
+    },
+    {
+      "label": "ISebe lezokuPhuhliso lweNtlalo",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "I-Tribunal eziMeleyo (ITSAA)",
+      "url": "https://itsaa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Isibonelelo sokuNcedwa kwabaNtu abasengxakini (SRD R370)",
+      "description": "Isikhokelo esipheleleyo seSASSA kwisibonelelo seSRD R370 (ebesaziwa ngokuba yi-R350): ukufaneleka, indlela yokufaka isicelo kwi-intanethi okanye ngeWhatsApp, iintsuku zokuhlawula, ukujonga imeko, izibheno, kunye nayo yonke into abaxhamli ekufuneka bayazi.",
+      "readingTime": "Iminithi ezingama-68 zokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Jonga Imeko Yakho",
+        "href": "/grants/srd-r370-grant/status-check"
+      },
+      "secondaryCta": {
+        "label": "Indlela Yokufaka Isicelo",
+        "href": "/grants/srd-r370-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R370",
+      "frequency": "Ngenyanga",
+      "targetGroup": "Abantu boMzantsi Afrika abangenamsebenzi abaneminyaka eyi-18 ukuya kwi-59, abangenawo umvuzo okanye axhaswa ngumntu."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Isibonelelo sokuNcedwa kwabaNtu abasengxakini (SRD), esaziwa ngokuba sisibonelelo seR370 (senyuswe sisuke kwiR350 ngo-2025), yeyona nkqubo inkulu yoncedo lwentlalo eMzantsi Afrika ngokwenani labaxhamli. Sihlawula intlawulo yenyanga kubantu abadala abangenamsebenzi nabangenawo omnye umthombo wengeniso okanye inkxaso karhulumente. Esi sibonelelo sandisiwe ukuya kuthi ga kwinyanga kaMatshi 2027."
+    },
+    {
+      "id": "quick-links-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Izenzo Ezikhawulezileyo"
+    },
+    {
+      "id": "quick-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Jonga Imeko Yakho YeSRD",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "Jonga isicelo sakho kunye nemo yentlawulo kwi-intanethi"
+        },
+        {
+          "title": "Faka Isicelo SeSRD",
+          "href": "/grants/srd-r370-grant",
+          "description": "Isikhokelo sokufaka isicelo sinyathelo ngesinyathelo"
+        },
+        {
+          "title": "Iindlela Zokuhlawula ZeSRD",
+          "href": "/grants/srd-r370-grant/payment-methods",
+          "description": "Indlela ofumana ngayo intlawulo yakho yeR370"
+        },
+        {
+          "title": "Uphononongo Lwanyanga LweSRD",
+          "href": "/grants/srd-r370-grant/monthly-review",
+          "description": "Ukuqonda ukujongwa kukufaneleka kwanyanga"
+        },
+        {
+          "title": "Bhena iSRD Enqatshelweyo",
+          "href": "/appeals/appeal-after-decline",
+          "description": "Indlela yokubhena ukuba iSRD yakho iyaliwe"
+        }
+      ]
+    },
+    {
+      "id": "eligibility-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Iinkcazo zokuFaneleka"
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "text": "Ukuze ufaneleke kwisibonelelo seSRD R370, kufuneka uhlangabezane neZONKE ezi kaluhlanu zilandelayo:"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ummi waseMzantsi Afrika, ummi osisimumamaleko ongapheliyo, imbacu, umfuni bokukhosela, okanye umphathi wepasile ekhethekileyo",
+        "Uneminyaka eyi-18 ukuya kwi-59",
+        "Awunamsebenzi kwaye awufumani mvuzo",
+        "Awufumani esinye isibonelelo sentlalo seSASSA",
+        "Awufumani iintlawulo ze-UIF (Unemployment Insurance Fund)",
+        "Awuxhaswa yiNSFAS (National Student Financial Aid Scheme)",
+        "Awubhaliselanga kwirhafu yePAYE",
+        "Akukho zenzo zokufaka imali ekhawuntini yakho yasebhankini ezingaphezu kweR624 ngenyanga",
+        "Akuwahlali kwiziko elixhaswa ngurhulumente"
+      ]
+    },
+    {
+      "id": "amount-info-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Isixa-Mali Sesibonelelo kunye neShedyuli Yokuhlawula"
+    },
+    {
+      "id": "amount-info",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD siyi-R370 ngenyanga. Iintlawulo zenziwa phakathi komhla wama-25 kunye nosuku lokugqibela lwenyanga nganye. Ngokungafaniyo nezinye izibonelelo zeSASSA, isibonelelo seSRD asinomhla omnye ogxiliweyo wokuhlawula — iintlawulo zikhutshwa ngokulandelelana ukususela kumhla wama-25 ukuya phambili. Abanye abaxhamli basenokufumana intlawulo kwangethuba okanye kamva kule window kuxhomekeka kwibhanki yakho okanye kwindlela oqokelela ngayo."
+    },
+    {
+      "id": "amount-table",
+      "type": "table",
+      "headers": [
+        "Inkcukacha",
+        "Ulwazi"
+      ],
+      "rows": [
+        [
+          "Isixa-Mali Sanyanga",
+          "R370"
+        ],
+        [
+          "Ixesha Lokuhlawula",
+          "Umhla wama-25 ukuya kumhla wokugqibela wenyanga"
+        ],
+        [
+          "Indlela Yokuhlawula",
+          "I-EFT yasebhankini okanye i-Cash Send (ukuqokelela ezivenkileni)"
+        ],
+        [
+          "Uhlobo Lwesibonelelo",
+          "Uncedo lwabaNtu abasengxakini (SRD)"
+        ],
+        [
+          "Isandiso",
+          "Sixhaswa de kube kukwinyanga kaMatshi 2027"
+        ]
+      ]
+    },
+    {
+      "id": "how-to-apply-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela Yokufaka Isicelo SeSRD R370"
+    },
+    {
+      "id": "apply-intro",
+      "type": "paragraph",
+      "text": "Isicelo sesibonelelo seSRD sifakwa kwi-intanethi kuphela — wena akukho mfuneko yakuyatyelela i-ofisi yeSASSA. Zimbini iindlela zokufaka isicelo. Ukuba udlala ngengxaki nenkqubo ye-intanethi, iSASSA inamaziko okufowuna asimahla kunye nee-kiosk zokuzinceda apho abasebenzi bakunceda khona ngokwendlela yokujongana nawe ngqo — jonga isikhokelo sethu samaziko okufowuna nee-kiosk ngeenkcukacha ezipheleleyo."
+    },
+    {
+      "id": "apply-methods-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Indlela 1: IPortal Ye-Intanethi (srd.sassa.gov.za)"
+    },
+    {
+      "id": "apply-online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Tyela ikhusi leSRD",
+          "description": "Yiya kwi-srd.sassa.gov.za ngefowuni yakho, ngetabulethi, okanye ngekhompyutha."
+        },
+        {
+          "title": "Faka inombolo yakho yesazisi",
+          "description": "Chwetheza inombolo yakho yokuzazisa yaseMzantsi Afrika enamanani ali-13. Abafuni bokukhosela kunye nabaphathi beepasile ezikhethekileyo mabafake amanani eepasile zabo."
+        },
+        {
+          "title": "Faka inombolo yakho yefowuni",
+          "description": "Nika inombolo yefowuni ephathwayo ebhaliswe egameni lakho. ISASSA iya kuthumela i-OTP kule nombolo."
+        },
+        {
+          "title": "Funda kwaye wamkele isibhengezo",
+          "description": "Funda ngononophelo imigaqo neemeko. Nqakraza kwiibhokisi ukuqinisekisa ukuba uhlangabezana neenkqubo zokufaneleka."
+        },
+        {
+          "title": "Ngenisa isicelo sakho",
+          "description": "Nqakraza ukuyingenisa. Uya kufumana i-SMS yokuqinisekisa enenombolo yesalathiso sosicelo sakho."
+        }
+      ]
+    },
+    {
+      "id": "apply-whatsapp-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Indlela 2: WhatsApp"
+    },
+    {
+      "id": "whatsapp-text",
+      "type": "paragraph",
+      "text": "Unakho kwangokunjalo ukufaka isicelo nge-WhatsApp yeSASSA. Gcina u-082 046 8553 kubafowunelwa bakho, thumela igama elithi 'SASSA' ukuqalisa incoko, uye ulandele imiyalelo yemenyu ukuze ungenise isicelo esitsha. Inkonzo ye-WhatsApp isimahla kwiinethiwekhi ezininzi zaseMzantsi Afrika."
+    },
+    {
+      "id": "after-applying-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Kwenzeka Ntoni Emva Kokuba Ufakile Isicelo"
+    },
+    {
+      "id": "after-applying",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Isicelo sifunyenwe",
+          "description": "ISASSA iqinisekisa ukufunyanwa kwaso ngeSMS. Isicelo sakho singena kwinkqubo yokuqinisekiswa."
+        },
+        {
+          "title": "Ukuqinisekiswa kuyaqhuba",
+          "description": "ISASSA ijonga isazisi sakho kwii-database zika-Home Affairs, iSARS, iUIF, neNSFAS. Iinkcukacha zeakhawunti yakho yasebhankini ziyaqinisekiswa."
+        },
+        {
+          "title": "Uvavanyo Lwanyanga",
+          "description": "Emva kwemvume yokuqala, ukufaneleka kwakho kuphononongwa kwakhona rhoqo ngenyanga ngokusebenzisa ukujonga iakhawunti yebhanki kunye neencwadi-zincwadi ngokuzenzekelayo."
+        },
+        {
+          "title": "Intlawulo",
+          "description": "Ukuba uvunyiwe kwangaloo nyanga, intlawulo yenziwa phakathi komhla wama-25 nowama-30 nge-EFT yasebhankini okanye nge-Cash Send."
+        }
+      ]
+    },
+    {
+      "id": "monthly-review-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Inkqubo Yokujongwa Kwanyanga — Kubalulekile"
+    },
+    {
+      "id": "monthly-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Imeko Yakho Itsintsha Rhoqo Ngenyanga",
+      "text": "Ngokungafaniyo nezinye izibonelelo zeSASSA, isibonelelo seSRD asiVUNYWA ngokusisigxina. Rhoqo ngenyanga, iSASSA iphinda ivavanye ukufaneleka kwakho ngokujonga iakhawunti yakho yebhanki kunye neencwadi-zincwadi zikarhulumente. Imeko yakho inokutshintsha isuke kwi-'Approved' iye kwi-'Declined' ukusuka kwelinye inyanga ukuya kwelinye ngokusekelwe kwimisebenzi yakho yezemali. Hlala ujonga imeko yakho rhoqo ngenyanga."
+    },
+    {
+      "id": "documents-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Amaxwebhu aFunekayo"
+    },
+    {
+      "id": "documents",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Inombolo yokuzazisa esebenzayo yaseMzantsi Afrika (amanani ali-13)",
+          "required": true
+        },
+        {
+          "label": "Inombolo yefowuni ephathwayo ebhaliswe egameni lakho",
+          "required": true
+        },
+        {
+          "label": "Iinkcukacha zeakhawunti yasebhankini (kuloo nto uhlawulwa ngqo kuyo) okanye ukhetho lweCash Send",
+          "required": true
+        },
+        {
+          "label": "Inombolo yomfuni bokukhosela okanye yepasile ekhethekileyo (ukuba iyasebenza)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "status-check-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela Yokujonga Imeko Yakho YeSRD"
+    },
+    {
+      "id": "status-check",
+      "type": "paragraph",
+      "text": "Unokujonga imeko yesibonelelo sakho seSRD ngeendlela ezininzi. Indlela exhaphake kakhulu yiportal ye-intanethi e-srd.sassa.gov.za — faka inombolo yakho yesazisi kunye nenombolo yefowuni esetyenzisiweyo xa wenayenza isicelo, qinisekisa nge-OTP, ize ibonakale idashboard yemo yakho. Unakho kwangokunjalo ukujonga ngeWhatsApp (082 046 8553), nge-USSD (*134*7737#), okanye ngokutyelela i-ofisi yeSASSA. Ngesikhokelo esipheleleyo, jonga iphepha lethu elinikelwe ekujongeni imeko."
+    },
+    {
+      "id": "common-statuses-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Iimeko Eziqhelekileyo ZeSRD Zichaziwe"
+    },
+    {
+      "id": "common-statuses",
+      "type": "table",
+      "headers": [
+        "Imeko",
+        "Intsingiselo",
+        "Into Omawuyenze"
+      ],
+      "rows": [
+        [
+          "Pending",
+          "Isicelo sikuluhlu lokuqinisekiswa",
+          "Linda iintsuku ezi-7 ukuya kwezi-14 zokusebenza. Akukho nto ufuna ukuyenza."
+        ],
+        [
+          "Approved",
+          "Ufanelekele intlawulo kule nyanga",
+          "Linda intlawulo phakathi komhla wama-25 nowama-30."
+        ],
+        [
+          "Payment Processing",
+          "Iimali zisahambiswa",
+          "Iimali zibonakala kwiintsuku ezi-1 ukuya kwezi-3 zokusebenza."
+        ],
+        [
+          "Declined",
+          "Awufanelekanga kule nyanga",
+          "Jonga ikhowudi yesizathu uze ubhene kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA)."
+        ],
+        [
+          "Alternative Income Source",
+          "Iidiphozithi zasebhankini zigqithile kumda",
+          "Bhena ngesibhengezo esifungelweyo esichaza iidiphozithi."
+        ],
+        [
+          "Bank Verification Pending",
+          "Iakhawunti yebhanki iyaqinisekiswa",
+          "Qinisekisa ukuba iakhawunti iyasebenza yaye igama lakho likuyo."
+        ],
+        [
+          "Identity Verification Failed",
+          "Ukungangqinelani kwesazisi no-Home Affairs",
+          "Gqibezela ukuqinisekiswa kobuso okanye tyelela i-Home Affairs."
+        ],
+        [
+          "Referred",
+          "Iphawulwe zophando lobuqhetseba",
+          "Qhagamshelana neSASSA Fraud Hotline ukuyisombulula."
+        ],
+        [
+          "Cancelled",
+          "Isibonelelo siyekiwe ngokusisigxina",
+          "Tyelela i-ofisi yeSASSA ukuceba ukubuyiselwa kwaso."
+        ],
+        [
+          "Application Complete",
+          "Iprofil yakho igqityiwe",
+          "Linda uvavanyo lwanyanga. Akukho nto ufuna ukuyenza."
+        ]
+      ]
+    },{
+      "id": "appeal-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela Yokubhena Isibonelelo SeSRD Esingavunywanga"
+    },
+    {
+      "id": "appeal-text",
+      "type": "paragraph",
+      "text": "Ukuba isibonelelo sakho seSRD siyaliwe kuyo nayiphi na inyanga, unelungelo lokubhena. Izibheno ziphathwa yi-Independent Tribunal for Social Assistance Appeals (ITSAA), hayi iSASSA ngokwayo. Unazo iintsuku ezingama-30 ukususela kumhla wokwaliwa ukuba ungenise isibheno sakho (iportal yeITSAA yamkela izibheno ukuya kwiintsuku ezingama-90). Kuba inyanga nganye ivavanywa ngokwahlukileyo, kufuneka ubhene inyanga nganye engavunywanga ngokwahlukileyo."
+    },
+    {
+      "id": "appeal-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Tyelela iwebhusayithi yesibheno yeDSD",
+          "description": "Yiya kwi-srd.dsd.gov.za ngefowuni yakho okanye ngekhompyutha."
+        },
+        {
+          "title": "Faka isazisi sakho nenombolo yefowuni",
+          "description": "Nika inombolo yakho yesazisi kunye nenombolo yefowuni esetyenzisiweyo kwisicelo sakho. Qinisekisa nge-OTP ethunyelwe efowunini yakho."
+        },
+        {
+          "title": "Khetha inyanga(i) ofuna ukuzibhena",
+          "description": "Khetha inyanga nganye ebonisa ukuthi 'Declined'. Unokubhena iinyanga ezininzi kwiseshini enye."
+        },
+        {
+          "title": "Khetha isizathu sakho sesibheno",
+          "description": "Khetha isizathu kwimenyu edropunayo ehambelana nemeko yakho (umzekelo, 'Andinamsebenzi', 'Andinamvuzo', 'Impazamo yeUIF')."
+        },
+        {
+          "title": "Faka amaxwebhu axhasayo",
+          "description": "Faka isibhengezo sakho esifungelweyo, iingxelo zebhanki, ileta yokuphela kweUIF, okanye ileta yokurhoxiswa kweNSFAS njengobungqina."
+        },
+        {
+          "title": "Ngenisa uze ugcine inombolo yakho yesalathiso",
+          "description": "Emva kokungenisa, gcina iNamba Yesalathiso Sesibheno sakho. Uya kuyidinga xa ufuna ukulandela."
+        }
+      ]
+    },
+    {
+      "id": "payment-methods-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Iindlela Zokuhlawula"
+    },
+    {
+      "id": "payment-text",
+      "type": "paragraph",
+      "text": "Unokufumana isibonelelo sakho seSRD ngeendlela ezimbini: ukudluliselwa okuthe ngqo kwebhanki (EFT) kwiakhawunti yakho yasebhankini, okanye i-Cash Send (ukuqokelela ezivenkileni) kwiivenkile ezithatha inxaxheba. Unakho ukutshintsha phakathi kweendlela nangaliphi na ixesha ngeportal yeSRD. Utshintsho luqala ukusebenza kwinyanga elandelayo."
+    },
+    {
+      "id": "payment-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Akudingeki Iakhawunti Yebhanki",
+      "text": "Akukho mfuneko yokuba ube neakhawunti yebhanki ukuze ufumane isibonelelo seSRD. Khetha i-'Cash Send' njengendlela yakho yokuhlawula uze uqokelele isibonelelo sakho kwiivenkile ezithi iPick n Pay, iShoprite, iBoxer, iCheckers, okanye iUsave usebenzisa ivawutsha yeSMS ethunyelwe efowunini yakho."
+    },
+    {
+      "id": "qualify-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ngubani Ofanelekayo Kwisibonelelo SeSRD R370 — EzingeNkcukacha"
+    },
+    {
+      "id": "qualify-citizenship",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD R370 sivulekile kwiqela elibanzi labantu abahlala eMzantsi Afrika, kodwa imithetho yokuba ngubani o'fanelekileyo' ingqongqo kakhulu kunokuba abaninzi bekholelwa. ISASSA kufuneka iqinisekise ubuyena bakho kunye nemeko yakho yokuhlala ngokuchasene neerekhodi zikarhulumente ngokusemthethweni phambi kokuba kuvunywe nayiphi na intlawulo. Isibonelelo senzelwe abantu abangenawo ngokwenene umvuzo okanye abangenawo olunye uhlobo lwenkxaso karhulumente, ngoko i-arhente ijonga isicelo ngasinye ngokuchasene needatabase ezininzi zikazwelonke. Ukuhlangabezana nekhowudi enye okanye ezimbini akwanele — kufuneka uhlangabezane nazo zonke ngaxeshanye, kwaye kufuneka uqhubeke uhlangabezana nazo rhoqo ngenyanga."
+    },
+    {
+      "id": "qualify-citizenship-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ubumi, ubufundi bokukhosela, kunye nemeko yokuhlala"
+    },
+    {
+      "id": "qualify-citizenship-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Abemi boMzantsi Afrika abanenombolo yokuzazisa esebenzayo enamanani ali-13.",
+        "Abahlali abasisimumamaleko esingapheliyo abanepasile esebenzayo yokusimumamaleka eMzantsi Afrika.",
+        "Iimbacu ezibhaliswe ngokusesikweni kwinkqubo yeSebe leMicimbi yaseKhaya (Department of Home Affairs).",
+        "Abafuni bokukhosela nabaphathi beepasile ezikhethekileyo, abafaka isicelo besebenzisa amanani eepasile zabo kunokuba basebenzise inombolo yokuzazisa yaseMzantsi Afrika.",
+        "Kufuneka uhlale eMzantsi Afrika ngokwasemzimbeni kwaye ube ungumhlali oqhelekileyo. Isibonelelo asifumaneki kubantu abahlala ngaphandle kwelizwe."
+      ]
+    },
+    {
+      "id": "qualify-age-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Umthetho weminyaka: 18 ukuya kwi-59"
+    },
+    {
+      "id": "qualify-age",
+      "type": "paragraph",
+      "text": "Kufuneka ubuncinane ube neminyaka eyi-18 kwaye ungekafiki kuma-60. Isibonelelo seSRD senzelwe ukuba sibe sisiqhobo kubantu abadala abaseminyakeni yokusebenza abangazange bafaneleke kwezinye iindidi zezibonelelo. Ukuba uneminyaka engama-60 okanye ngaphezulu, kufuneka ufake isicelo se-Older Persons Grant endaweni, esisisibonelelo esisisigxina esinesixa-mali saso (esiphezulu) kunye novavanyo lwengeniso olwahlukileyo. Ukuba ungekho kuma-18, awukwazi ukufumana isibonelelo seSRD egameni lakho; inkxaso yabantwana ifumaneka nge-Child Support Grant ehlawulwa kumntu ogcina umntwana. Ukujongwa kweminyaka kusetyenziswa ngokuzenzekelayo kusebenzisa umhla wakho wokuzalwa kwirejista yase-Home Affairs, ngoko akukho mfuneko yokungenisa ubungqina beminyaka ngokwahlukileyo."
+    },
+    {
+      "id": "qualify-income-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ingeniso kunye novavanyo lwengeniso lweR624"
+    },
+    {
+      "id": "qualify-income",
+      "type": "paragraph",
+      "text": "Owona mthetho ubalulekileyo luvavanyo lwengeniso (means test). Ukuze ufumane isibonelelo seSRD, ingeniso yakho yenyanga ekujonge kuyo kufuneka ibe seR624 okanye ngaphantsi. Lo mda lilinye inani iSASSA elisebenzisayo xa ijonga iakhawunti yakho yebhanki kunye nezinye iirekhodi rhoqo ngenyanga. Ukuba iidiphozithi ezifika ekhawuntini yakho zibonisa ukuba ufumana ngaphezu kweR624 kwangaloo nyanga, inkqubo iya kukumaka njengomntu one-'alternative income source' ize iwale loo nyanga. Akunamsebenzi ukuba imali isisiphumo somvuzo, isipho, intlawulo yestokvel, okanye udluliselo olukanye — okubalulekileyo sisixa-mali esifikelela ekhawuntini yakho ngokuchasene nomda. Uvavanyo lujonga imeko yakho yezemali yobuqu, hayi eyekhaya lakho, kodwa nayiphi na imali efakwe ekhawuntini yakho isabalelwa kwisixa-mali sakho."
+    },
+    {
+      "id": "qualify-income-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Yintoni 'ingeniso' kule meko",
+      "text": "ISASSA ijonga imali engena ekhawuntini yakho yebhanki, hayi kuphela umsebenzi osesikweni. Umvuzo ocengcelekayo, inkxaso eqhelekileyo evela kusapho, kwaye neendiphozithi ezinkulu ezikanye zinokuchaphazela uvavanyo lwakho. Ukuba idiphozithi ayisiyo ngeniso ngokwenene, usenokufuna ukuyichaza ngexesha lesibheno ngesibhengezo esifungelweyo."
+    },
+    {
+      "id": "qualify-disqualify-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ingeniso nenkxaso ekwenza ungafaneleki"
+    },
+    {
+      "id": "qualify-disqualify-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Umvuzo oqhelekileyo okanye iwage ephathwa ngePAYE (uqeshwe ngokusemthethweni).",
+        "Iintlawulo ze-UIF (Unemployment Insurance Fund) ezisebenzayo — umzekelo, emva kokupheliswa emsebenzini.",
+        "Inkxaso yeNSFAS (National Student Financial Aid Scheme) ngelixa usengumfundi obhalisiweyo.",
+        "Nasiphi na esinye isibonelelo sentlalo seSASSA ehlawulwa kuwe ngokwakho, ngaphandle kwesinye isibonelelo esithile: i-Child Support Grant ehlawulwa kumntwana wakho ayikwenzi ungafaneleki.",
+        "Ukuhlala kwiziko elixhaswa ngurhulumente elinjengentolongo, iziko lokunyamekela elilawulwa ngurhulumente, okanye ikhaya elifana noko."
+      ]
+    },
+    {
+      "id": "qualify-special-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Iimeko ezikhethekileyo: abafundi, abasebenzi begig, nabasebenzi basekhaya"
+    },
+    {
+      "id": "qualify-special-students",
+      "type": "paragraph",
+      "text": "Abafundi bavame ukudida. Ukuba ufumana inkxaso yeNSFAS, awufanelekeli kwisibonelelo seSRD kangangoko loo nxaso isasebenza, kuba iNSFAS ithathwa njengenkxaso yezemali karhulumente. Abafundi abangaxhaswa yiNSFAS nabangenawo olunye uvuyo basenokufaneleka, ngaphandle kokuba ingeniso yabo yenyanga ihlala isezantsi okanye ilingana neR624. Ii-bursary ezivela kwiinkampani zabucala okanye kwiintsapho azifani neNSFAS, kodwa nayiphi na idiphozithi eqhelekileyo isabalelwa kuvavanyo lwengeniso, ngoko i-bursary yabucala ekunyusa ngaphezu komda iya kuchaphazela isiphumo sakho."
+    },
+    {
+      "id": "qualify-special-gig",
+      "type": "paragraph",
+      "text": "Abasebenzi begig kunye nabasebenzi abangacwangciswanga (abanjenga baqhubi be-ride-hailing, abahambisi bezinto, abasebenzi abazimeleyo, nabasebenzi bexesha elithile) banokufaneleka KUPHELA ukuba umvuzo wabo wonke wenyanga usezantsi okanye ulingana neR624. Kuba ingeniso yegig ayiqhelekanga, imeko yakho isenokutshintshana phakathi kwe-'Approved' ne-'Declined' inyanga ngenyanga njengoko iidiphozithi zitshintsha. Gcina imisebenzi yakhawunti yakho ihle kangangoko uze ulungele ukubhena iinyanga apho imeko yengeniso esezantsi ngokwenene yaphawulwa ngempazamo. Inyanga enye elungileyo engaphezu komda ayizukubhangisa isibonelelo sakho ngokusisigxina — ichaphazela kuphela loo nyanga ithile."
+    },
+    {
+      "id": "qualify-special-domestic",
+      "type": "paragraph",
+      "text": "Abasebenzi basekhaya nabanye abaqeshwa abasebenza ngokungaqhelekanga bafaneleka kuphela xa umvuzo wabo ungaphantsi komda weR624 KUNYE nokuba ababhaliselanga kwirhafu yePAYE. Ukuba umqeshi wakho ukuhlawula ngokusesikweni ngeslip yomvuzo kunye nePAYE, ngokubanzi uthathwa njengomntu oqeshiweyo kwaye akuzukufaneleka kwangaloo nyanga. Ukuba wenza umsebenzi wexesha elithile ohlawula kancinci owukugcina ngaphantsi kweR624, usenokufaneleka, kodwa ukujongwa kwebhanki kwanyanga kuthetha ukuba kufuneka uphinde ube ngaphantsi komda. Umsebenzi wendlu ongacwangciswanga ohlawulwa ngemali ephathwayo engazange ifike ekhawuntini yakho yebhanki akuzukubonwa yiSASSA, kodwa kusafuneka uxele ngokunyanisekileyo imeko yakho yokuqeshwa."
+    },
+    {
+      "id": "means-test-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uvavanyo Lwengeniso Luchaziwe, Ngemizekelo Esebenzayo"
+    },
+    {
+      "id": "means-test-intro",
+      "type": "paragraph",
+      "text": "Uvavanyo lwengeniso yindlela nje yeSASSA yokuphendula umbuzo omnye: 'Ngaba lo mntu unengeniso eyaneleyo yokuphila ngaphandle kwesi sibonelelo?' Uvavanyo lwenziwa ngokuzenzekelayo. Rhoqo ngenyanga, iSASSA ifumana iinkcukacha zengeniso ize izithelekise nomda weR624. Apha ngezantsi kukho imizekelo ebonakalayo yokuba uvavanyo lusebenza njani. Le yimifanekiso yokusiza ukuba uqonde ingqiqo — imeko yakho ivavanywa ngeerekhodi zakho zasebhankini nede-database, kwaye iimeko ezinzima (ezinjengediphozithi enkulu engengomvuzo) ziphathwa ngexesha lenkqubo yesibheno, hayi kuvavanyo lokuqala."
+    },
+    {
+      "id": "means-test-examples",
+      "type": "table",
+      "headers": [
+        "Imeko",
+        "Ingeniso yenyanga / imeko",
+        "Isiphumo esilindelekileyo"
+      ],
+      "rows": [
+        [
+          "Akukho mvuzo kwaphela",
+          "R0 ekhawuntini",
+          "Uyafaneleka — kuvunywa ukuba zonke ezinye iinkqubo ziyahlangabezana."
+        ],
+        [
+          "Umsebenzi ongacwangciswanga ohlawula kancinci",
+          "R500 ngenyanga",
+          "Uyafaneleka — ngaphantsi komda weR624."
+        ],
+        [
+          "Iinzuzo ezimodareyithi zomsebenzi",
+          "R700 ngenyanga",
+          "Kusenokuwa — ngaphezu komda weR624."
+        ],
+        [
+          "Ukufumana iUIF",
+          "I-UIF iyasebenza",
+          "Awufaneleki — iUIF ngumvuzo okwenza ungafaneleki."
+        ],
+        [
+          "Ukufumana iNSFAS",
+          "I-NSFAS iyasebenza",
+          "Awufaneleki — iNSFAS yinkxaso ekwenza ungafaneleki."
+        ],
+        [
+          "Kwesinye isibonelelo seSASSA",
+          "Nasiphi na (ngaphandle kwesibonelelo somntwana wakho)",
+          "Awufaneleki — esinye isibonelelo kuphela ngexesha elinye."
+        ],
+        [
+          "Uqeshwe ngokusemthethweni (PAYE)",
+          "Umvuzo uyahlawulwa",
+          "Awufaneleki — umvuzo wokuqesha ngokusemthethweni."
+        ]
+      ],
+      "caption": "Iziphumo zovavanyo lwengeniso ezibonakalisayo. Inani R624 lelona mda lusemthethweni ngoku."
+    },
+    {
+      "id": "means-test-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Umda unokuhlaziywa",
+      "text": "Inani R624 libonisa izinga langoku lovavanyo lwengeniso elipapashwe yiSASSA. Urhulumente usenokulilungisa kwixesha elide. Hlala uphethe inani njengelona mda lusemthethweni kwaye uliqinisekise kwi-srd.sassa.gov.za ukuba awuqinisekanga."
+    },
+    {
+      "id": "means-test-sars",
+      "type": "paragraph",
+      "text": "Idatha yeSARS isetyenziswa njani: ISASSA ayiwugqibi ngomgqatso ingeniso yakho. Ifumana iinkcukacha ezivela eSouth African Revenue Service (SARS), kwiSebe leMicimbi yaseKhaya, kwinkqubo yeUIF, nakwiNSFAS. Ukuba iSARS ibonisa ukuba ubhalisele iPAYE okanye uvumele ingeniso yokuqeshwa engaphezu komda, inkqubo iya kukwala. Ngesi sizathu kubalulekile ukuba iirekhodi zakho zerhafu nokuqeshwa zichaneke — irekhodi endala okanye engachananga yomqeshi inokuthintela isibonelelo sakho ngempazamo de ilungiswe neSARS. Ukuba ukholelwa ukuba umqeshi wakho wangaphambili usakubhala njengomqeshwa, kufuneka uyisombulule loo nto neSARS uze ubhene iinyanga ezichatshazelweyo."
+    },
+    {
+      "id": "apply-online-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokufaka Isicelo SeSRD Ngenyathelo Ngenyathelo (Kwi-Intanethi)"
+    },
+    {
+      "id": "apply-online-detail-intro",
+      "type": "paragraph",
+      "text": "Ukufaka isicelo kwi-intanethi yeyona ndlela ikhawulezayo nengabizi, kwaye isimahla ngokupheleleyo. Akukho mntu omelwe ukumhlawula, kwaye akukho mfuneko yokutyelela i-ofisi. Phambi kokuba uqale, yiba nenombolo yakho yesazisi (okanye yepasile) kunye nefowuni ephathwayo egameni lakho, kunye neenkcukacha zakho zasebhankini ukuba ufuna ukuhlawulwa nge-EFT. Umkhombandlela ongezantsi wandisa kumanyathelo asisiseko ngeenkcukacha ezisebenzayo ezivile abafakisicelo abaninzi. Ngexesha elifanayo, unokufunda isikhokelo esingundoqo sokufaka isicelo seSRD esidweliswe ngezantsi.",
+      "links": [
+        {
+          "text": "Isikhokelo sokufaka isicelo seSRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "apply-online-detail-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Vula iportal esemthethweni",
+          "description": "Tyelela i-srd.sassa.gov.za. Le kuphela kwepotala esemthethweni yokufaka isicelo seSRD. Yibekele i-bookmark uze uqaphele owona mntu kaloku — kuma-arhente abucala akuthembisayo ukuba aza kufaka isicelo egameni lakho."
+        },
+        {
+          "title": "Qalisa isicelo esitsha",
+          "description": "Skrolela ukuya kwicandelo lesicelo sabanini bamazisi aseMzantsi Afrika (okanye kwicandelo elahlukileyo labafuni bokukhosela/abaphathi beepasile ezikhethekileyo). Faka inombolo yakho yesazisi enamanani ali-13."
+        },
+        {
+          "title": "Qinisekisa inombolo yakho yefowuni",
+          "description": "Faka inombolo yefowuni ebhaliswe egameni lakho. ISASSA ithumela i-PIN yokusetyenziswa kanye (OTP) ngeSMS. Chwetheza ukuze ubonise ukuba ulawula le nombolo. Ungaze wabelane ngale OTP nomnye umntu."
+        },
+        {
+          "title": "Faka iinkcukacha zakho zobuqu",
+          "description": "Qinisekisa igama lakho, ifani yakho, nomhla wakho wokuzalwa ngokuchanekileyo njengoko zibonakala kwisazisi sakho. Ukungangqinelani no-Home Affairs sesona sizathu sikhulu sokulibaziseka nokusilela kokuqinisekiswa."
+        },
+        {
+          "title": "Khetha indlela yakho yokuhlawula",
+          "description": "Khetha iakhawunti yebhanki (faka inombolo yeakhawunti, isetyana nebhanki) okanye i-Cash Send/ukuqokelela ezivenkileni. Iakhawunti kufuneka ibe egameni lakho."
+        },
+        {
+          "title": "Amkele iingqinisekiso",
+          "description": "Nqakraza kwiibhokisi eziqinisekisa ukuba uhlangabezana neenkqubo: awunamsebenzi, awufumani mvuzo, awunayo iUIF/iNSFAS, ingeniso ingaphantsi okanye ilingana neR624, kwaye akukho kwiziko likarhulumente."
+        },
+        {
+          "title": "Ngenisa uze ugcine isalathiso sakho",
+          "description": "Ngenisa ifom. Ufumana iSMS eqinisekisa ukufunyanwa enesalathiso sosicelo sakho. Yigcine kwiidelux zokulandela nokujongwa kwemeko."
+        }
+      ]
+    },
+    {
+      "id": "apply-online-tips",
+      "type": "callout",
+      "intent": "info",
+      "title": "Simahla kwaye Kukuzinceda",
+      "text": "Isicelo se-intanethi sisimahla. Ukuba awukwazi ukusebenzisa iwebhusayithi, ungafaka isicelo nge-WhatsApp yeSASSA okanye utyelele i-ofisi yeSASSA okanye i-kiosk yoncedo ngaphandle kwentlawulo. Akukho mntu osemthethweni oya kukukhawulisa ukuze ufake isicelo."
+    },
+    {
+      "id": "apply-whatsapp-h2",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokufaka Isicelo Nge-WhatsApp YeSASSA"
+    },
+    {
+      "id": "apply-whatsapp-intro",
+      "type": "paragraph",
+      "text": "Ukuba awukwazi ukufikelela ngokulula kwibrowser, okanye ukhetha nje ifowuni yakho, unokugqibezela sonke isicelo ngeWhatsApp. Inkonzo inikwa yiSASSA kwinombolo 082 046 8553 kwaye isimahla kwiinethiwekhi ezininzi zaseMzantsi Afrika. Umjelo weWhatsApp wenza ezinye iikhowudo ezifanayo kwaye ufikelela kwisiphumo esifanayo njengewebhusayithi."
+    },
+    {
+      "id": "apply-whatsapp-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Gcina inombolo",
+          "description": "Yongeza u-082 046 8553 kubafowunelwa bakho njengo 'SASSA SRD'."
+        },
+        {
+          "title": "Qalisa incoko",
+          "description": "Vula iWhatsApp, thumela umyalezo othi 'SASSA' (okanye 'HI') ku-082 046 8553, uze uthumele."
+        },
+        {
+          "title": "Khetha ukhetho lwesicelo",
+          "description": "Landela imenyu yempendulo. Khetha ukhetho lwesicelo esitsha seSRD (ngokuqhelekileyo ngokuphendula ngenombolo okanye igama elihambelanayo)."
+        },
+        {
+          "title": "Faka isazisi sakho neenkcukacha",
+          "description": "Xa kuceliwe, chwetheza inombolo yakho yesazisi enamanani ali-13 (okanye inombolo yepasile) kunye neenkcukacha zakho zobuqu ngokuchanekileyo njengokwenza isazisi sakho."
+        },
+        {
+          "title": "Qinisekisa ifowuni yakho neOTP",
+          "description": "Qinisekisa inombolo ocwale ngayo. ISASSA ithumela iOTP; faka xa kuceliwe."
+        },
+        {
+          "title": "Khetha indlela yokuhlawula uze ungenise",
+          "description": "Khetha iEFT yasebhankini okanye iCash Send, amkele iingqinisekiso, uze ungenise. Ufumana uqinisekiso ngeSMS ngenombolo yakho yesalathiso."
+        }
+      ]
+    },
+    {
+      "id": "apply-whatsapp-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Isibonelelo esifanayo, Imithetho efanayo",
+      "text": "Ukufaka isicelo ngeWhatsApp kusebenzisa ukufaneleka okufanayo novavanyo lwengeniso njengewebhusayithi. Itsintsha kuphela indlela — hayi isiphumo okanye isixa-mali."
+    },{
+      "id": "documents-before-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Amaxwebhu neenkcukacha Ozidingayo Phambi Kokufaka Isicelo"
+    },
+    {
+      "id": "documents-before-list",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Inombolo yezaziso yaseMzantsi Afrika (amanani ali-13) OKANYE inombolo esebenzayo yomfuni bokukhosela / yepasile ekhethekileyo",
+          "required": true,
+          "notes": "Isetyenziselwa ukuqinisekisa ubuyena bakho no-Home Affairs."
+        },
+        {
+          "label": "Inombolo yefowuni ephathwayo ebhaliswe egameni lakho",
+          "required": true,
+          "notes": "Ufumana iOTP nazo zonke iiSMS zemeko kule nombolo."
+        },
+        {
+          "label": "Iakhawunti yebhanki egameni lakho (ukuba ukhetha iEFT)",
+          "required": false,
+          "notes": "Umnikazi weakhawunti kufuneka ahambelane nesazisi sakho. Ungakhetha iCash Send ukuba awunayo iakhawunti yebhanki."
+        },
+        {
+          "label": "Ubungqina bokungabikho kolunye uvuyo (kuphela xa uceliwe ngexesha lesibheno)",
+          "required": false,
+          "notes": "Isibhengezo esifungelweyo okanye ingxelo yebhanki isenokufuneka ukuba inyanga iyaliwe."
+        },
+        {
+          "label": "Inombolo yakho yesalathiso sosicelo (emva kokufaka isicelo)",
+          "required": false,
+          "notes": "Gcina iSMS ukuze ukwazi ukujonga imeko nokubhena kamva."
+        }
+      ]
+    },
+    {
+      "id": "documents-before-notes",
+      "type": "paragraph",
+      "text": "Awunyanzelekanga ukuba ungenise amaxwebhu ascanekileyo ukuze ufake isicelo. ISASSA iqinisekisa ulwazi oluninzi ngombane ngokuchasene needatabase zikarhulumente. Ezona zinto kubalulekile ukuba uzinike ngokuchanekileyo yinombolo yakho yesazisi/epasile, inombolo yakho yefowuni, kunye neenkcukacha zakho zokuhlawula. Ukuba wakhe watshata kwaye ifani yakho yahlukile kwiirekhodi zeHome Affairs, qinisekisa ukuba ufaka isicelo usebenzisa igama elichanekileyo kwisazisi sakho ukuze uphephe isiphumo esithi 'Identity Verification Failed'. Ukuba awunayo iakhawunti yebhanki, khetha iCash Send ngexesha lesicelo uze uqokelele evenkileni — akukho luxwebhu olufunekayo kuloo khetho ngaphandle kwesazisi sakho."
+    },
+    {
+      "id": "after-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Emva Kokufaka Isicelo: Kwenzeka Ntoni Ngexesha Lokuqinisekiswa"
+    },
+    {
+      "id": "after-apply-verify",
+      "type": "paragraph",
+      "text": "Ukungenisa isicelo sakho linyathelo nje lokuqala. ISASSA emva koko iqhuba inkqubo yokuqinisekiswa ngokuzenzekelayo ejonga iinkcukacha zakho ngokuchasene neenkqubo ezininzi zikarhulumente. Ukuqonda oku kunceda ukubona ukuba kutheni isiphumo sithatha ixesha — nokuba kutheni imeko inokutshintsha ukusuka kwelinye inyanga ukuya kwelinye nangemva kokuba usele uhlawulwe ngaphambili. Iikhowudi ezifanayo ziqhuba rhoqo ngenyanga, nto leyo eyenza ukuba umxhamli owayesele evunyiwe alwe kwangaloo nyanga ukuba iimeko zakhe zitshintsha."
+    },
+    {
+      "id": "verification-process",
+      "type": "process-diagram",
+      "steps": [
+        {
+          "label": "Ukujongwa kobuyena (Home Affairs)",
+          "description": "Isazisi sakho okanye ipasile yakho isityekiswa ngokuchasene nerejista yabemi yeDepartment of Home Affairs ukuqinisekisa ukuba ukhona kwaye ungumhlali ovunyiweyo."
+        },
+        {
+          "label": "Ukujongwa kwengeniso (SARS / iibhanki)",
+          "description": "ISASSA ijonga ukuba ubhalisele iPAYE okanye ubonakalisa iidiphozithi ezingaphezu komda weR624 ekhawuntini yakho yebhanki."
+        },
+        {
+          "label": "Ukujongwa kweUIF",
+          "description": "Isazisi sakho sitshekishwa kwinkqubo yeUIF ukuqinisekisa ukuba awufumani iintlawulo ze-inshurensi yokuphulukana nomsebenzi."
+        },
+        {
+          "label": "Ukujongwa kweNSFAS",
+          "description": "Isazisi sakho sitshekishwa kwiirekhodi zeNSFAS ukuqinisekisa ukuba awuxhaswa njengomfundi ngoku."
+        },
+        {
+          "label": "Ukujongwa kwezinye izibonelelo",
+          "description": "ISASSA iqinisekisa ukuba awufumani esinye isibonelelo seSASSA (ngaphandle kweChild Support Grant yomntwana wakho)."
+        },
+        {
+          "label": "Ukujongwa kweziko likarhulumente",
+          "description": "Iqinisekisa ukuba akuwahlali entolongweni okanye kwiziko lokunyamekela elixhaswa ngurhulumente."
+        }
+      ]
+    },
+    {
+      "id": "after-apply-timing",
+      "type": "callout",
+      "intent": "info",
+      "title": "Ixesha lesigqibo sokuqala",
+      "text": "Ukuqinisekiswa kokuqala ngokuqhelekileyo kuthatha iintsuku ezimbalwa ukuya kwiiveki ezimbini. Emva koko, inyanga nganye iphinda ivavanywe ngokuzenzekelayo kusetyenziswa ezi khowudi zifanayo, ngoko akufunekanga uphinde ufake isicelo — kodwa kufuneka uqhubeke ujonga imeko yakho, ngakumbi kufutshane neentsuku zokuhlawula."
+    },
+    {
+      "id": "declined-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Kutheni Izicelo ZeSRD Zingavunywanga — Nendlela Yokulungisa Nganye"
+    },
+    {
+      "id": "declined-reasons",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ingeniso engaphezu komda: ibhanki yakho ibonise iidiphozithi ezingaphezu kweR624 kwinyanga evavanyiweyo. Ukulungisa: ukuba imali yayingengomvuzo (isipho, imbuyekezo yemali-mboleko, okanye ukuphosisa), bhena ngesibhengezo esifungelweyo esichaza idiphozithi nganye.",
+        "Ukungangqinelani kwesazisi noHome Affairs: igama lakho okanye umhla wokuzalwa awuhambelani neerekhodi. Ukulungisa: gqibezela inkqubo yokuqinisekisa ubuso kwipotala yeSRD, okanye uhlaziye iinkcukacha zakho eHome Affairs, uze uphinde ujonge.",
+        "Ukuba kwesinye isibonelelo: inkqubo ibona ukuba ufumana esinye isibonelelo seSASSA. Ukulungisa: kufuneka ukhethe esinye isibonelelo; ukuba esinye isibonelelo siphelile, hlaziye iirekhodi zakho uze ubhene inyanga eliweyo.",
+        "INEFund yabafundi ibonwe: uphawulwe njengomfundi oxhaswayo. Ukulungisa: ukuba inkxaso yakho yeNSFAS iphelile, faka ileta yokurhoxiswa okanye yokuphela uze ubhene.",
+        "IUIF ibonwe: ufumana iUIF. Ukulungisa: xa iUIF iyekile, bhena inyanga ngeleta yakho yokuphela kweUIF.",
+        "Ulwazi lobuqhetseba okanye olungachananganga: kufakwe iinkcukacha zobuxoki. Ukulungisa: lungisa isicelo sakho ngepotala okanye eofisini yeSASSA; ungaze ubangele iinkcukacha zobuxoki, kuba oku kunokukhokelela ekutsalweni kwengqalelo yobuqhetseba."
+      ]
+    },
+    {
+      "id": "declined-fix",
+      "type": "callout",
+      "intent": "danger",
+      "title": "Bhena, Ungafaki Nje Isicelo Kwakhona",
+      "text": "Ukuphinda ufake isicelo ngeenkcukacha ezifanayo akuzukulungisa ukwaliwa kwaye kunokudala izicelo eziphindaphindiweyo. Indlela echanileyo kukubhena inyanga ethile eliweyo kwi-Independent Tribunal (ITSAA) kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA)."
+    },
+    {
+      "id": "appeal-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokubhena Inyanga El iweyo YeSRD"
+    },
+    {
+      "id": "appeal-detail-intro",
+      "type": "paragraph",
+      "text": "Ukuba inyanga ethile iyaliwe kwaye ukholelwa ukuba isigqibo asichananga, ungabhena. Izibheno ziphathwa ngokuzimeleyo yi-Independent Tribunal for Social Assistance Appeals (ITSAA), hayi yiSASSA. Imithetho emibini ibalulekile: kufuneka ubhene kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA) ukususela kwinyanga eliweyo, kwaye kufuneka ubhene inyanga nganye eliweyo ngokwahlukileyo, kuba inyanga nganye ivavanywa ngokwayo. Ngenkcazelo ephangaleleyo, jonga iphepha lethu lesikhokelo sesibheno elidweliswe ngezantsi.",
+      "links": [
+        {
+          "text": "isikhokelo sesibheno",
+          "href": "/appeals/appeal-after-decline"
+        }
+      ]
+    },
+    {
+      "id": "appeal-detail-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Yiya kwipotala yesibheno",
+          "description": "Tyelela i-srd.sassa.gov.za/appeal okanye i-itsaa.gov.za. Le zezona tshannels zisemthethweni zezibheno zeITSAA."
+        },
+        {
+          "title": "Faka isazisi sakho nefowuni",
+          "description": "Nika inombolo yakho yesazisi kunye nenombolo yefowuni esetyenzisiweyo kwisicelo sakho, uze uqinisekise ngeOTP ethunyelwe kuwe."
+        },
+        {
+          "title": "Khetha inyanga eliweyo",
+          "description": "Khetha inyanga ethile eboniswe njenge 'Declined'. Phinda ukwenze oku kwinyanga nganye ofuna ukuyicela — azidibaniswa kwisibheno esinye."
+        },
+        {
+          "title": "Xela isizathu sakho",
+          "description": "Khetha isizathu esifanelekileyo (umzekelo, awunamsebenzi, awunamvuzo, okanye iUIF/iNSFAS iphelile)."
+        },
+        {
+          "title": "Faka ubungqina",
+          "description": "Faka amaxwebhu axhasayo: isibhengezo esifungelweyo, iingxelo zebhanki, ileta yokuphela kweUIF, okanye ileta yokurhoxiswa kweNSFAS, njengoko kufanelekile."
+        },
+        {
+          "title": "Ngenisa kwaye ugcine isalathiso sakho",
+          "description": "Ngenisa kwaye ugcine iNamba Yakho Yesalathiso Sesibheno. ITSAA iya kukwazisa ngesiphumo, esinokuthatha iiveki ezininzi."
+        }
+      ]
+    },
+    {
+      "id": "appeal-detail-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Ifestile Yeentsuku Ezingama-30 Ingqongqo",
+      "text": "Umda weentsuku ezingama-30 ubalwa ukususela kumhla wenyanga eliweyo. Ukuba uyawuphosa, loo nyanga ngokuqhelekileyo ayinakuphinda ithathelwe ingqalelo, ngoko jonga imeko yakho rhoqo uze ubhene ngokukhawuleza."
+    },
+    {
+      "id": "payment-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Intlawulo: Nini Yaye Uhlawulwa Njani"
+    },
+    {
+      "id": "payment-detail-intro",
+      "type": "paragraph",
+      "text": "Xa inyanga ivunyiwe, iSASSA ihlawula phakathi komhla wama-25 kunye nosuku lokugqibela lwalo nyanga. Akukho mhla omnye omiselweyo wokuhlawula wonke umntu; iintlawulo ziqhutywa ngokulandelelana, kwaye usuku lwakho ngqo luxhomekeke kwibhanki yakho okanye kwindlela oqokelela ngayo. Ngeshedyuli epheleleyo kunye namanyathelo okutshintsha indlela, jonga isikhokelo see-nala zokuhlawula zeSRD kunye nencoko ecacisa uphononongo lwanyanga edweliswe ngezantsi. Isishwankathelo ngezantsi sigubungela ezona nketho zingundoqo.",
+      "links": [
+        {
+          "text": "Isikhokelo see-nala zokuhlawula zeSRD",
+          "href": "/grants/srd-r370-grant/payment-methods"
+        },
+        {
+          "text": "incoko ecacisa uphononongo lwanyanga",
+          "href": "/grants/srd-r370-grant/monthly-review"
+        }
+      ]
+    },
+    {
+      "id": "payment-detail-methods",
+      "type": "table",
+      "headers": [
+        "Indlela",
+        "Indlela esebenza ngayo",
+        "Amanqaku abalulekileyo"
+      ],
+      "rows": [
+        [
+          "Idiphozithi yebhanki ethe ngqo (EFT)",
+          "Ihlawulwa kwiakhawunti yakho yasebhankini yobuqu",
+          "Ngokuqhelekileyo ikhawuleza; iakhawunti kufuneka ibe egameni lakho."
+        ],
+        [
+          "Ukuqokelela imali ezivenkileni",
+          "Qokelela kwiPick n Pay, iBoxer, iShoprite, iCheckers, okanye iUSave usebenzisa ivawutsha yeSMS",
+          "Akukho mfuneko yokusebenzisa iakhawunti yebhanki; zisa isazisi sakho kunye nevawutsha."
+        ],
+        [
+          "IPosa (SAPO)",
+          "Phambi kwexesha ibiyindawo eqhelekileyo yokuqokelela",
+          "Iyapheliswa kancinci kancinci — tshintshela kwibhanki okanye kokuqokelela ezivenkileni."
+        ]
+      ],
+      "caption": "Iinyanga ezivunyiweyo zihlawulwa ngaphakathi kwifestile yokuhlawula yenyanga; ukhetho lwendlela lwenziwa kwipotala yeSRD."
+    },
+    {
+      "id": "payment-blackcard",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Ikhadi elimnyama / ukufuduswa kwePostbank",
+      "text": "ISASSA ithatha indawo yekhadi elidala eligolide leSASSA nekhadi elitsha elimnyama lePostbank. ISASSA ibhengeze umhla wokugqibela wokufuduka ongu-31 August 2026 ukuze abaxhamli batshintshe amakhadi abo kwindawo yePostbank okanye yeSASSA ukuze baqhubeke befumana iintlawulo. Iintsuku zokugqibela zinokutshintsha, ngoko qinisekisa umhla wangoku kwiitshannels ezisemthethweni zeSASSA nezePostbank phambi kokuba utyelele."
+    },
+    {
+      "id": "reaffirm-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukugcina Isibonelelo Sakho: Ukuqinisa Kwakhona Nokuyeka"
+    },
+    {
+      "id": "reaffirm-intro",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD asisosivume sokugqibela. ISASSA ifuna abaxhamli baqinise (baqinisekise kwakhona) iinkcukacha zabo malunga nenyanga ezintathu ezithile, kwaye iphinda ivavanye ukufaneleka rhoqo ngenyanga kusetyenziswa uvavanyo lwengeniso. Ukuba inyanga iyawuphosa uvavanyo, kwangaloo nyanga akuhlawulwa — isibonelelo 'siyayeka' kwangaloo nyanga kunokuba sicinywe liphela. Ukuhlala uhlawulwa kuxhomekeka ekugcineni iinkcukacha zakho zihlanjululwe nasco ukuhlangabezana novavanyo rhoqo ngenyanga. Abaxhamli abaninzi bayamangala xa intlawulo ebisenza ngaphambili iyeka; phantse kuzo zonke iimeko kungenxa yokuba ukujongwa kwanyanga kufumene ingeniso okanye iflegi yedatha."
+    },
+    {
+      "id": "reaffirm-causes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ingeniso engaphezu kweR624 ibonwe ngaphakathi kwenyanga — esona sizathu sixhaphakileyo sokungahlawulwa.",
+        "Inombolo yakho yefowuni okanye iinkcukacha zebhanki zitshintshile kwaye azihlaziywanga kwipotala, ngoko iSASSA ayinakukuqinisekisa okanye ikuhlawule.",
+        "Uqalise ukufumana iUIF, iNSFAS, okanye esinye isibonelelo seSASSA.",
+        "Uphawulwe njengomntu ohleli kwiziko likarhulumente.",
+        "Uliphosile ixesha lokuqinisa kwakhona kwaye irekhodi lakho ligugile."
+      ]
+    },
+    {
+      "id": "reaffirm-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Hlaziya, Ungalindi",
+      "text": "Gcina iinkcukacha zakho zefowuni, zebhanki, nezobuqu zihlanjululwe kwipotala yeSRD. Ukuba iimeko zakho zitshintsha, ukuhlaziya ngokukhawuleza kusiza ekuphepheni intlawulo ephosiweyo. Qinisa kwakhona xa ucelwa, malunga kwane nyanga ezintathu zibe nye."
+    },
+    {
+      "id": "vs-other-h",
+      "type": "heading",
+      "level": 2,
+      "text": "I-SRD Jedwa Nezinye Izibonelelo ZeSASSA"
+    },
+    {
+      "id": "vs-other-intro",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD R370 sesinye sezibonelelo zentlalo ezininzi eMzantsi Afrika, kodwa asiqhelekanga: sisithutyana, sinovavanyo olungqongqo lwengeniso lwanyanga, kwaye sijolise kubantu abadala abaseminyakeni yokusebenza abangena kolunye uncedo. Itheyibhile engezantsi iyithelekisa nezona zibonelelo zisisigxina. Izixa-mali zezinye izibonelelo ngaphandle kweSRD zitshintsha unyaka nonyaka kwaye kufuneka ziqinisekiswe kwiwebhusayithi esemthethweni yeSASSA; amanani apha agxile kumahluko wobume abalulekileyo ekufanelekeni."
+    },
+    {
+      "id": "vs-other-table",
+      "type": "comparison-table",
+      "headers": [
+        "Isibonelelo",
+        "Senzelwe Bani",
+        "Minyaka",
+        "Uvavanyo Lwengeniso?",
+        "Ingongoma EPhambili"
+      ],
+      "rows": [
+        [
+          "SRD R370",
+          "Abangenamsebenzi nabangena kolunye uncedo",
+          "18 ukuya kwi-59",
+          "Ewe — ingeniso engaphantsi okanye elingana neR624",
+          "Sisithutyana; sivavanywa kwakhona rhoqo ngenyanga."
+        ],
+        [
+          "Older Person's Grant",
+          "Abantu abadala abasweleyo",
+          "60 nangaphezulu",
+          "Ewe (ingeniso/iimpahla)",
+          "Sisigxina; isixa-mali simiselwa ngonyaka."
+        ],
+        [
+          "Disability Grant",
+          "Abantu abadala abakhubazekileyo",
+          "18+ (akukho mda uphezulu ochaziweyo)",
+          "Ewe (ingeniso/iimpahla)",
+          "Sisigxina; sifuna uvavanyo lwezonyango."
+        ],
+        [
+          "Child Support Grant",
+          "Umgcini womntwana (0 ukuya kwi-17)",
+          "Umntwana 0 ukuya kwi-17",
+          "Ewe (ingeniso/iimpahla)",
+          "Uhlawulelwa umgcini; akuthinteli iSRD yakho."
+        ],
+        [
+          "Foster Child Grant",
+          "Umzali owondlayo womntwana",
+          "Umntwana okwifoster care",
+          "Akukho uvavanyo lwengeniso",
+          "Uhlawulelwa umzali owondlayo."
+        ]
+      ],
+      "caption": "Uthelekiso lobume kuphela. Qinisekisa izixa-mali zangoku kwiwebhusayithi esemthethweni yeSASSA."
+    },
+    {
+      "id": "vs-other-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Umkhethe weChild Support Grant",
+      "text": "Ngokuqhelekileyo awunakufumana iSRD ngoxa ufumana esinye isibonelelo seSASSA. Umkhethe yiChild Support Grant ehlawulwa kumntwana wakho — ungayifumana loo nto KUNYE neSRD, kuba isibonelelo somntwana sesomntwana, hayi sesakho."
+    },
+    {
+      "id": "scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Zikrelekr ele: Ubuqhetseba BeSRD"
+    },
+    {
+      "id": "scams-danger",
+      "type": "callout",
+      "intent": "danger",
+      "title": "ISASSA ayisokuze ikucele ezi zinto",
+      "text": "ISASSA kunye nenkqubo yeSRD ayisokuze ikucele iPIN, iphasiwedi, okanye iOTP. Ayisokuze ikuhlawulise ukufaka isicelo, ukujonga imeko, okanye 'ukukhawulezisa' intlawulo. Nabani na owenza njalo ngumqhetsebi."
+    },
+    {
+      "id": "scams-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Iiwebhusayithi ezingekho ngqiqweni zoku'jonga imeko' ezilinganisa i-srd.sassa.gov.za zize zisere izazisi neOTP.",
+        "Imiyalezo efuna i-airtime okanye 'imali yokuvula' phambi kokuba uhlawulwe.",
+        "Abantu abakunikela 'ukuphehlelela' okanye 'ukukhawulezisa' isibonelelo sakho ngenxa yekomishini.",
+        "Iifowuni okanye ii-WhatsApp ezikucela iPIN yebhanki okanye 'ukuqinisekisa' iphasiwedi yakho.",
+        "Iikhonkco ze-phishing ezithunyelwa ngeSMS okanye nge-imeyile ezizenza zisuka eSASSA."
+      ]
+    },
+    {
+      "id": "scams-closing",
+      "type": "paragraph",
+      "text": "Hlala usebenzisa ipotala esemthethweni i-srd.sassa.gov.za, umgca weWhatsApp osemthethweni 082 046 8553, okanye i-ofisi yeSASSA ngokwasemzimbeni. Ukuba awuqinisekanga ukuba umyalezo unyanisekile, ungacofa iikhonkco okanye ungabelani ngeekhowudi — vula indawo esemthethweni ngqo kwibrowser yakho. Xela ubuqhetseba kwiSASSA Fraud Hotline ku-0800 60 10 11. Khumbula: ukufaka isicelo, ukujonga imeko, nokubhena kusimahla, kwaye akukho nkqubo esemthethweni efuna ukuba uthenge i-airtime okanye uhlawule 'i-agent'."
+    },
+    {
+      "id": "lifecycle-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Umjikelo WeSRD: Ukuhamba Inyanga Ngenyanga"
+    },
+    {
+      "id": "lifecycle-p1",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD siqondwa kakuhle kakhulu njengomjikelo wenyanga ngenyanga ophinda-phindwayo kunokuba sibe yimvume enye kuphela. Kwinyanga yokuqala ufaka isicelo aze iSASSA iqhube iikhowudi zayo; ukuba uyaphumelela, uhlawulwa kwifestile yaloo nyanga. Kwinyanga yesibini iikhowudi ezifanayo ziyaphinda ziqhube ngokuzenzekelayo — akuphindi ufake isicelo, kodwa usenokwala ukuba, umzekelo, idiphozithi ikunyuse ngaphezu kweR624. Oku kuphinda-phindeka kangangoko inkqubo ixhaswa kwaye uhlangabezana novavanyo. Malunga kwane nyanga ezintathu zonke, iSASSA ikucela ukuba uqinisekise kwakhona, nto leyo ethetha ukuqinisekisa ukuba imeko yakho ayitshintshanga ngokusisiseko. Ukuyicinga isibonelelo njengovavanyo lwanyanga, hayi njengelungelo elisisigxina, kukunceda uphephe izimanga."
+    },
+    {
+      "id": "lifecycle-p2",
+      "type": "paragraph",
+      "text": "Ngaphakathi komjikelo ngamnye, iintsuku ezibalulekileyo sisicelo (onokufaka nangaliphi na ixesha), uvavanyo (olughubekayo), kunye nefestile yokuhlawula (malunga nomhla wama-25 ukuya kumhla wokugqibela wenyanga kwiinyanga ezivunyiweyo). Akukho nzuzo yokufaka isicelo 'ekuqaleni kwenyanga' ngeenjongo zokuhlawulwa, kuba intlawulo ilandela imvume kunye nefestile yokuhlawula emiselweyo, hayi umhla wesicelo. Okubalulekileyo kakhulu kukuba iinkcukacha zakho zichaneke ukuze iikhowudi ezizenzekelayo zipase aze intlawulo ifikelele kuwe. Ukuba ikhowudi iyaphosa, kwangaloo nyanga akuhlawulwa, kwaye ngokuqhelekileyo uya kwazi ngayo kuphela xa ujonga imeko yakho okanye ubona kungekho mali yafikileyo."
+    },
+    {
+      "id": "lifecycle-p3",
+      "type": "paragraph",
+      "text": "Abaxhamli abayiphatha isibonelelo njengento 'esuke yacwangciswa yaze yamakwe' ngabo bawela enkungwini. Ibali elixhaphakileyo ngumntu obehlawulwa iinyanga ezintathu, umzekelo, aze isalamane sifake imali kumsitho wosapho, inkqubo ifake iflegi 'Alternative Income Source', ize inyanga elandelayo iyalwe. Kuba umntu ebengajongi imeko, uya kuqaphela kwiiveki kamva. Ukwakha umkhuba wokujonga imeko malunga nomhla wama-20 kwinyanga nganye, phambi kwefestile yokuhlawula, kukuvumela ukuba ubone uze ubhene iingxaki kwangethuba — ngaphakathi kwifestile yokubhena yeentsuku ezingama-30."
+    },
+    {
+      "id": "status-meaning-h",
+      "type": "heading",
+      "level": 2,
+      "text": "I-Pending', 'Approved', ne-'Declined' Zithetha Ntoni Ngokwenene"
+    },
+    {
+      "id": "status-pending",
+      "type": "paragraph",
+      "text": "iPending sisimo sokuqala esingathathiyo ndawo. Kuthetha ukuba iSASSA inesicelo sakho kodwa ayikagqibi ukujonga-cross-checks ngokuchasene noHome Affairs, iSARS, iUIF, neNSFAS. Ayisiyo ukulahlwa. Uninzi lwezicelo zokuqala luhlala kuPending iintsuku ezimbalwa ukuya kwiiveki ezimbini. Ukuba uhlala uPending ixesha elide ngokungaqhelekanga, kunokubonisa ukungangqinelani — umzekelo, ifani yakho kwisicelo ayihambelani noHome Affairs — nto leyo eyenza ukuqinisekiswa kuyekele ngxamalala. Kwelo meko, ukugqibezela inkqubo yokuqinisekisa ubuso okanye ukutyelela iHome Affairs ukuze uhlanganise iirekhodi zakho ngokuqhelekileyo kuyayisombulula."
+    },
+    {
+      "id": "status-approved",
+      "type": "paragraph",
+      "text": "iApproved ithetha ukuba udlule kwii-khowudi zangaloo nyanga ethile kwaye intlawulo ifikelelekile kwifestile yaloo nyanga. Ayiqinisekisi ukuba imali sele ifikile — inika nje isiqinisekiso sokuba igunyazisiwe. Iinyanga ezithi Approved zinokulandelela zibonise ukuthi 'Payment Processing' kwaye emva koko zibonakale ekhawuntini yakho okanye njengevawutsha enokuqokelelwa. Ukuba uyiApproved kodwa akukho nto uyibonayo emva kokuvalwa kwefestile, jonga iinkcukacha zakho zasebhankini kwaye, ukuba zichanekile, qhagamshelana neSASSA ngenombolo yakho yesalathiso. Imvume isoloko imalunga nenyanga ethile kwaye kufuneka iphinde ifunyanwe kwinyanga elandelayo."
+    },
+    {
+      "id": "status-declined",
+      "type": "paragraph",
+      "text": "iDeclined ithetha ukuba iikhowudi zaphosa kwangaloo nyanga. Isizathu siqhele ukuboniswa: 'Alternative Income Source' (iidiphozithi ezingaphezu kweR624), 'Already on another grant', 'UIF detected', 'NSFAS detected', okanye ukungangqinelani kokuzazisa. iDeclined inxulumene nenyanga ethile — ayelisusi isibonelelo sakho sonke, kwaye unganqanywa kwakhona kwinyanga elandelayo ukuba imeko yakho itshintsha. Isenzo esiphambili kukubhena inyanga eliweyo kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA) ukuba ukholelwa ukuba ayichananga. Ukuyityeshela ukwaliwa kulahlekelwa loo nyanga ngokusisigxina xa ifestile iphelile."
+    },
+    {
+      "id": "payment-delays-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukulibaziseka Kwentlawulo Nento Omawuyenze"
+    },
+    {
+      "id": "pd-p1",
+      "type": "paragraph",
+      "text": "Nangemva kwemvume, intlawulo isenokulibaziseka. Isizathu esixhaphake kakhulu ziinkcukacha zebhanki ezingachananga okanye ezivaliweyo — iEFT iyathunyelwa kodwa ibuyela umva, ize imali ibuyiselwe iSASSA. Eyesibini kukukhetha iCash Send kodwa ungayiqokeleli ivawutsha, okanye ulahlekelwe yiSMS. Eyesithathu kukuba usemva nje ku-rollout oqhubekayo; iSASSA ayihlawuli wonke umntu ngosuku olunye, ngoko umhlobo ohlawulwa ngomhla wama-25 ngoxa wena uhlawulwa ngama-29 eqhelekileyo, akukho mpazamo. Umonde ngaphakathi kwefestile ngokuqhelekileyo ufanelekile."
+    },
+    {
+      "id": "pd-p2",
+      "type": "paragraph",
+      "text": "Ukuba imeko yakho ithi 'Payment Processing' okanye 'Approved' kwaye ifestile ayikapheli, linda — udluliselo lunokuthatha iintsuku zokusebenza ezintathu ukubonakala. Ukuba ifestile iphelile kwaye akukho nto ifikile, qala uvule ipotala yeSRD uqinisekise ukuba iakhawunti yebhanki okanye inombolo yefowuni esemva ichanekile yaye igama lakho likuyo. Yilungise ukuba kuyafuneka (utshintsho lusebenza kwinyanga elandelayo) uze uphinde ujonge. Ukuba iinkcukacha zichanekile kwaye intlawulo ayikho ngokwenene, qhagamshelana ne-call centre yeSASSA okanye utyelele i-ofisi usebenzisa isazisi sakho nenombolo yakho yesalathiso; gcina irekhodi le-screenshots zeemeko zakho."
+    },
+    {
+      "id": "pd-p3",
+      "type": "paragraph",
+      "text": "Qaphela ngobuqhetseba obuthi 'payment unlock' ngexesha lokulibaziseka. Abaqhetsebi bathumela imiyalezo kubaxhamli bebe bethi intlawulo yabo 'yokhuniwe' kwaye ingakhululwa ngentlawulo okanye ngokwabelana ngeOTP. ISASSA ayisokuze iqutyulwele ukukhulula intlawulo ngentlawulo, kwaye ukwabelana ngeOTP kuvumela umqhetsebi ukuba aphambukise imali. Ukuba umyalezo ukucinezelela ukuba uhlawule okanye unabelane ngeekhowudi ukuze 'ukhulule' isibonelelo, bubuqhetseba — xela kwiSASSA Fraud Hotline ku-0800 60 10 11. Hlala uqinisekisa imeko yentlawulo kuphela kwipotala esemthethweni."
+    },{
+      "id": "special-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iimeko Ezikhethekileyo Zobomi"
+    },
+    {
+      "id": "special-60",
+      "type": "paragraph",
+      "text": "Ukujika kuma-60: Isibonelelo seSRD senzelwe iminyaka eyi-18 ukuya kwi-59. Kwinyanga ujika kuma-60, awusafaneleki kwiSRD kwaye kufuneka utshintshele kwi-Older Person's Grant, esisisigxina kwaye sihlawula isixa-mali esiphezulu. Tyelela i-ofisi yeSASSA ukuze ufake isicelo; sukuba ulinde nje ukuba iSRD iqhubeke, kuba inkqubo iya kuyiyeka kuma-60 kungakhathaliseki. Ukucwangcisa olu tshintsho kancinci phambi komhla wakho wokuzalwa kuthintela isikhewu sengeniso, kwaye nasiphi na isibheno seSRD kwangaloo mda ngokuqhelekileyo siba silele kuba ikhowudi yobudala ayizange ipumelele."
+    },
+    {
+      "id": "special-job",
+      "type": "paragraph",
+      "text": "Ukuqalisa umsebenzi: Ukuba uqalisa ukuqeshwa ngokusesikweni (PAYE) okanye uqalisa ukufumana ngaphezu kweR624 ngenyanga, iinyanga zakho zeSRD ziya kwala. Oku kukuziphatha okuchanekileyo, hayi impazamo — isibonelelo senzelwe abangenamsebenzi okanye abanomvuzo omncinci kakhulu. Ukuba umsebenzi uyaphela kwaye uphinde ube ngaphantsi komda, iinyanga zamva zinokuvunywa; bhena nayiphi na inyanga ebiyaliwe ngempazamo emva kokuba uqeshwe waphela ngokunikezela ileta yokuphela. Umsebenzi ongacwangciswanga, onenomvuzo omncinci kakhulu ngaphantsi komda akukwenzi ungafaneleki, kodwa uvavanywa ngokokufikelela ekhawuntini yakho."
+    },
+    {
+      "id": "special-baby",
+      "type": "paragraph",
+      "text": "Ukuba nomntwana: Ukuzalwa komntwana akutshintshi ukufaneleka kwakho kweSRD, kwaye kusenokukuvumela nokuba ufake isicelo seChild Support Grant kulo mntwana. Khumbula umkhethe obalulekileyo: ukufumana iChild Support Grant yomntwana wakho AKUKwenzi ungafaneleki iSRD. Ngoko umzali unokufumana zombini — isibonelelo somntwana kumntwana kunye neSRD kuye — ngaphandle kokuba umzali uhlangabezana nazo zonke iinkqubo zeSRD (iminyaka eyi-18 ukuya kwi-59, ingeniso engaphantsi okanye elingana neR624, akukho UIF/NSFAS, kwaye akukho kwiziko likarhulumente)."
+    },
+    {
+      "id": "comms-h",
+      "type": "heading",
+      "level": 2,
+      "text": "ISASSA Inxibelelana Nawe Njani"
+    },
+    {
+      "id": "comms-p1",
+      "type": "paragraph",
+      "text": "ISASSA iqhagamshelana nabaxhamli ngokuyintloko ngeSMS kwinombolo yefowuni esemva. Ezi SMS zithwala iOTP yakho ngexesha lesicelo nokujonga imeko, isalathiso sosicelo sakho, kunye nevawutsha yakho yeCash Send xa uqokelela evenkileni. Yiphatha nayiphi na imiyalezo ekucela iPIN, iphasiwedi, okanye iOTP njengerhubuluza — iSASSA ithumela iikhowudi kodwa ayisokuze ikucele ukuba uzifunde uphinde, okanye uhlawule ukuze uzisebenzise. Imiyalezo yokwenene yeSASSA ayisayi kuba nekhonkco elifuna intlawulo engxamisekileyo."
+    },
+    {
+      "id": "comms-p2",
+      "type": "paragraph",
+      "text": "Kuba unxibelelwano luseSMS, ukugcina inombolo yakho isebenza yaye isegameni lakho kubalulekile. Ukuba utshintsha inombolo, hlaziya ipotala ngokukhawuleza. Ukuba ifowuni yakho ilahlekile, iOTP ayinakufikelela kuwe kwaye usenokungakwazi ukujonga imeko nokubhena de uye kuqinisekisa ubuyena eofisini. Ukuseta isikhumbuzo sokujonga imeko rhoqo ngenyanga kuyanceda, kuba iSASSA ayisokuze ilandele ngokwayo yonke into. Ukuhlala unxibelelana kakuhle kuthintela iingxaki ezininzi ezinokuphepheka."
+    },
+    {
+      "id": "evidence-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ubungqina Ebuqinisa Isibheno"
+    },
+    {
+      "id": "evidence-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isibhengezo esifungelweyo esichaza nayiphi na idiphozithi ebingengomvuzo (isipho, imbuyekezo yemali-mboleko, okanye ukuphosisa).",
+        "Iingxelo zebhanki ezibonisa ingeniso yakho yokwenene yenyanga kwixesha eliweyo.",
+        "Ileta yokuphela kweUIF, ukuba iUIF yayisisizathu kwaye sele iphelile.",
+        "Ileta yokurhoxisa okanye yokugqiba iNSFAS, ukuba iNSFAS yayisisizathu.",
+        "Ubungqina bokuba esinye isibonelelo siphelile, ukuba 'kwenye isibonelelo' yayisisizathu.",
+        "Isazisi sakho kunye neNombolo Yesalathiso Socelo neyoSibheno."
+      ]
+    },
+    {
+      "id": "evidence-p",
+      "type": "paragraph",
+      "text": "Xa ubhena, faka amaxwebhu aphendula ngqo kwisizathu sokwaliwa. Isibheno esingena bungqina asinakwenzeka ukuba siphumelele, kuba iITSAA ijonga ukuba isigqibo seSASSA sasichanekile kwidatha ekhoyo. Ubungqina obucacileyo, obuthe ngqo — ngakumbi isibhengezo esifungelweyo esichaza idiphozithi nganye engachazwanga — yeyona ndlela isebenzayo yokutshintsha ukwaliwa kwe-'Alternative Income Source'. Gcina iikopi zayo yonke into othumileyo kwaye uqaphele iNamba Yakho Yesalathiso Sesibheno ukuze ukwazi ukulandela."
+    },
+    {
+      "id": "databases-h",
+      "type": "heading",
+      "level": 2,
+      "text": "I-Database Zikarhulumente Ezingemva Kwesicelo Sakho"
+    },
+    {
+      "id": "db-homeaffairs",
+      "type": "paragraph",
+      "text": "Department of Home Affairs: Ngulo mthombo wokwenene wobuyena bakho. ISASSA ijonga ukuba isazisi sakho okanye ipasile ikhona kwaye ihambelana negama elingenisiweyo nomhla wokuzalwa. Ukungangqinelani ngunobangela oqhelekileyo we-'Identity Verification Failed'. Ukuhlanganisa iinkcukacha zakho eHome Affairs, okanye ukuqinisekisa ubuso kwipotala, kusombulula uninzi lwezi. Hlala ufaka isicelo usebenzisa igama elichanekileyo kwisazisi sakho ukunqanda oku kwaphela."
+    },
+    {
+      "id": "db-sars",
+      "type": "paragraph",
+      "text": "South African Revenue Service (SARS): Idatha yeSARS ixelela iSASSA ukuba ubhalisele iPAYE okanye uvumele ingeniso yokuqeshwa. Ukuba udweliswe njengomqeshwa onengeniso engaphezu komda, uya kwala. Abasebenzi bangaphambili ngamanye amaxesha bahlala kuluhlu lwePAYE lomqeshi omdala emva kokuba bemkile; ukulungisa loo nto neSARS uze ubhene yindlela yokulungisa. Ngesi sizathu umsebenzi omdala unokuthintela isibonelelo ngempazamo de iirekhodi zihlaziywe."
+    },
+    {
+      "id": "db-uif",
+      "type": "paragraph",
+      "text": "UIF (Unemployment Insurance Fund): Ukuba ufumana iUIF, inkqubo iyayibona ize iwale iSRD, kuba iUIF yingenis o ekwenza ungafaneleki. Xa iUIF iyekile, nikezela ileta yokuphela uze ubhene iinyanga ezichatshazelweyo. Qaphela ukuba ukuye wafaka izimali kwiUIF ngaphambili ngokwayo akukwenzi ungafaneleki — kuphela iintlawulo zeUIF ezisebenzayo ozifumanayo ngoku. Ukujongwa kujongana nerejista ephilayo yeUIF ngexesha lovavanyo."
+    },
+    {
+      "id": "db-nsfas",
+      "type": "paragraph",
+      "text": "NSFAS: Ngoxa usengumfundi oxhaswa yiNSFAS, awufaneleki. Emva kokuba izifundo zakho ziphelile okanye inkxaso iyekile, faka ileta efanelekileyo uze ubhene. Qaphela ukuba ukuba ngumfundi nje akukwenzi ungafaneleki — kuphela inkxaso yeNSFAS esebenzayo. Ii-bursary zabucala kunye nenkxaso yosapho ayiyoNSFAS, kodwa nayiphi na idiphozithi eqhelekileyo evela kuzo isabalelwa kwingeniso yakho yeR624, ngoko isenokuchaphazela uvavanyo lwengeniso."
+    },
+    {
+      "id": "regional-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Umahluko Weendawo Nokuqokelela"
+    },
+    {
+      "id": "regional-p",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD sisizwe sonke, kodwa indlela osiqokelela ngayo inokwahluka ngokwendawo. Kwiidolophu ezinkulu nasezixekweni, ukuqokelela ezivenkileni kwiPick n Pay, iBoxer, iShoprite, iCheckers, neUSave kufumaneka kakhulu, kwaye iEFT yebhanki yeyona nto isetyenziswayo kwabo baneakhawunti. Kwiindawo ezikude, iindawo zokuthengisa zinokuba zimbalwa, nto leyo eyenza iakhawunti yebhanki okanye iinketho eziseleyo zePosi zibaluleke ngakumbi — nangona ukuqokelela imali eSAPO kupheliswa, ngoko abaxhamli kwezo ndawo mabaqalise ukuvula iakhawunti yebhanki elula okanye baqinisekise eyona venkile ikufutshane. ISASSA ibhengeza amalungiselelo okuqokelela kwii-tshannels zayo ezisemthethweni, kwaye i-ofisi yeSASSA yendawo ingacebisa ngenye indawo yokuhlawula ekufutshane."
+    },
+    {
+      "id": "planb-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuba ISRD Yakho Iyeka: Isicwangciso Esisebenzayo B"
+    },
+    {
+      "id": "planb-p1",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD sisithutyana ngokuyilwa kwaye sinokuyeka ngezizathu ezininzi ezisemthethweni — ufumana umsebenzi, ujika kuma-60, okanye inkqubo iyaphela. Kuba asiyongeniso eqinisekisiweyo, ihlakaniphile ukuba ungakhange ukhuphe izibophelelo ezisisigxina, ezexesha elide malunga naso. Ukuba iSRD yakho iyeka, qala ujonge isizathu: funda isizathu semeko, kwaye ukuba asichananga, bhena kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA). Ukuba sichanekile (umzekelo, ngoku uqeshiwe), guqula ingqwalasela kwingeniso okanye olunye uncedo onalo ngoku kunokuba uyiphathe isibonelelo njengesigxina."
+    },
+    {
+      "id": "planb-p2",
+      "type": "paragraph",
+      "text": "Ukuba isibonelelo siyaphela kwaye awunayo ingeniso, hlola ezinye iindlela zoncedo: izibonelelo ezisisigxina zeSASSA ukuba ngoku uyafaneleka (Older Person, Disability, Child Support), iUIF ukuba usandula ukuphulukana nomsebenzi, okanye iinkqubo zomasipala zoncedo lwamahlwempu nezokutya eziqhutywa libhunga likamasipala wakho. Akukho nanye kwezi engena ngepotala yeSRD, ngoko qhagamshelana nesebe okanye i-ofisi efanelekileyo. Okubalulekileyo kukuba uthathe amanyathelo kwangethuba kunokuba ulinde de iimvuno zakho ziphele, kuba izicelo nemvume zithatha ixesha."
+    },
+    {
+      "id": "scenarios-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iimeko Eziqhelekileyo, Ziphendulwe Ngokufutshane"
+    },
+    {
+      "id": "scenario-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ndihlawulwe inyanga ephelileyo kodwa hayi le: jonga imeko yakho; idiphozithi isenokuba ikunyuse ngaphezu kweR624, okanye ikhowudi ikufakele iflegi. Bhena ukuba ayichananga.",
+        "Umzalwana wam undithumela imali ngamanye amaxesha: ezo diphozithi zibalwa kwingeniso yakho yeR624; zicacise ngesibhengezo ukuba uyaliwe.",
+        "Ndifake isicelo ngeWhatsApp nakwiwebhusayithi: sebenzisa isalathiso sakho sokuqala; izicelo eziphindaphindiweyo ziyadityaniswa, aziphindwa kabini.",
+        "Ndifumene iSMS ethi 'cofa apha uqinisekise': qinisekisa kuphela ngaphakathi kwesiza esisemthethweni i-srd.sassa.gov.za; ungacofi iikhonkco ezingaziwayo.",
+        "Isibonelelo sam sibonisa iApproved kodwa isixa-mali sibonakala sifutshane: iSRD yiR370 eqingqiweyo kwinyanga nganye evunyiweyo; akukho zixa-mali ezingaphelelanga, ngoko qinisekisa ukuba ufunda isaziso esichanekileyo."
+      ]
+    },
+    {
+      "id": "office-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukufaka Isicelo Ngokwasemzimbeni EOfisini YeSASSA"
+    },
+    {
+      "id": "office-apply-intro",
+      "type": "paragraph",
+      "text": "Nangona isibonelelo senzelwe ukuba sifakwe kwi-intanethi okanye ngeWhatsApp, usenokufaka isicelo okanye ufumane uncedo ngokwasemzimbeni eofisini yeSASSA okanye kwi-kiosk yoncedo. Oku kuluncedo ukuba awunayo i-smartphone okanye unengxaki nenkqubo yedijithali. Iziphumo neenkqubo ziyafana; indlela kuphela eyahlukileyo. Abasebenzi banceda ngaphandle kwentlawulo, kwaye akufanele uhlawule 'i-agent' eofisini okanye kufutshane nayo ukuze ibenzele isicelo."
+    },
+    {
+      "id": "office-apply-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Fumana eyona ofisi ikufutshane",
+          "description": "Fumana i-ofisi yeSASSA okanye i-kiosk evunyiweyo. Fika kwangoko, kuba imigca inokuba yinde."
+        },
+        {
+          "title": "Zisa isazisi nefowuni",
+          "description": "Thatha isazisi sakho okanye ipasile kunye nefowuni ephathwayo ebhaliswe egameni lakho kwiOTP."
+        },
+        {
+          "title": "Cela uncedo lwesicelo seSRD",
+          "description": "Ilungu labasebenzi okanye i-kiosk yokuzinceda ikukhokela kwimibuzo efanayo neyepotala."
+        },
+        {
+          "title": "Qinisekisa uze ungenise",
+          "description": "Qinisekisa iinkcukacha zakho, gqibezela inyathelo leOTP, uze ufumane inombolo yakho yesalathiso ngeSMS."
+        }
+      ]
+    },
+    {
+      "id": "portal-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukusebenzisa IPotala YeSRD Emva Kokufaka Isicelo"
+    },
+    {
+      "id": "portal-p1",
+      "type": "paragraph",
+      "text": "Emva kokuba ufake isicelo, ipotala i-srd.sassa.gov.za iba liziko lolawulo lwakho. Emva kokungena ngesazisi sakho neOTP, ungajonga imeko, ubone isiphumo senyanga nganye, utshintshe indlela yakho yokuhlawula, uhlaziye iinkcukacha zakho zebhanki nefowuni, uze uqalise isibheno senyanga eliweyo. Ukujonga ipotala rhoqo ngenyanga lelona khono lingcono lokuphepha iintlawulo eziphosiweyo, kuba ikubonisa isizathu esichanekileyo sokuba inyanga iyalwe — ulwazi olufunekayo ukuze ubhene ngokuchanekileyo."
+    },
+    {
+      "id": "portal-p2",
+      "type": "paragraph",
+      "text": "Ipotala ikwakubonisa isikhumbuzo sokuqinisa kwakhona malunga nenyanga ezintathu zonke. Xa siyavela, siphethe ngokukhawuleza; ukusityeshela kunokushiya irekhodi lakho ligugile kwaye kunokuchaphazela iintlawulo. Isikhumbuzo asisosicelo esitsha kwaye aselisi isibonelelo sakho — luqinisekiso kwakhona. Ulubhathe njengokujonga rhoqo, uze uludibanise nokujonga ngokukhawuleza iinkcukacha zakho zebhanki nefowuni ukuze uqinisekise ukuba yonke into esemva isachanekile."
+    },
+    {
+      "id": "reaffirm-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuqonda Isikhumbuzo Sokuqinisa Kwakhona"
+    },
+    {
+      "id": "reaffirm-detail-p1",
+      "type": "paragraph",
+      "text": "Ukuqinisa kwakhona (ngamanye amaxesha kubizwa ngokuba kukuqinisekisa kwakhona) yindlela yeSASSA yokuqinisekisa ukuba abaxhamli basahlangabezana neenkqubo ngaphandle kokunyanzelwa ukuba benze isicelo esitsha esipheleleyo rhoqo emva kwezinyanga ezimbalwa. Xa uceliwe, uqinisekisa ukuba iinkcukacha zakho zobuqu zichanekile nokuba akukho nto itshintshileyo ngokwesiseko malunga nengeniso yakho okanye iimeko. Iikhowudi ze-othomathikhi zanyanga zisaya kuqhuba nokuba kunjalo; ukuqinisa kwakhona luqinisekiso olongezelelweyo lwamaxesha athile olubekwa ngaphezu kwezo khowudi."
+    },
+    {
+      "id": "reaffirm-detail-p2",
+      "type": "paragraph",
+      "text": "Ukuphosa isikhumbuzo sokuqinisa kwakhona akusicimi ngoko nangoko isibonelelo sakho, kodwa kunokushiya ifayile yakho kwimeko 'egugileyo' ephazamisa iintlawulo nokuqinisekiswa. Ukuba uyaqaphela ukuba usiphosile, ngema kwaye uqinise kwakhona ngokukhawuleza, uze ujonge iimeko zeenyanga zamva ukuqinisekisa ukuba zingachatshazelwanga. Isikhumbuzo sibuyela kumjikelo wamalunga neenyanga ezintathu, ngoko ukusetha isikhumbuzo sekota kukunceda uhlale ungasagqibanga."
+    },
+    {
+      "id": "blackcard-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukufuduswa Kwekhadi Elimnyama LePostbank Ngokweenkcukacha"
+    },
+    {
+      "id": "blackcard-detail-p1",
+      "type": "paragraph",
+      "text": "ISASSA ithatha indawo yekhadi elidala eligolide leSASSA nekhadi elitsha elimnyama elikhutshwa yiPostbank. Injongo echaziweyo kukuphucula iziseko ezisisiseko zokuhlawula nokuphucula ukhuseleko. Abaxhamli abaqokelela ngekhadi leSASSA/Postbank kulindeleke ukuba batshintshele kwikhadi elimnyama kwindawo yePostbank okanye yeSASSA. ISASSA ibhekisele esidlangalaleni kumhla wokugqibela wokufuduka ongu-31 August 2026 ukuze iintlawulo ziqhubeke ngaphandle kokuphazamiseka. Kuba imihla yokusemthethweni isenokutshintsha, hlala uqinisekisa umhla wangoku kwii-tshannels ezisemthethweni zeSASSA nezePostbank phambi kokuba utyelele."
+    },
+    {
+      "id": "blackcard-detail-p2",
+      "type": "paragraph",
+      "text": "Ukuba sele ufumana iSRD yakho ngeEFT kwiakhawunti yakho yebhanki, ukufuduswa kwekhadi kusenokungakuchaphazeli kwaphela — indlela yakho yokuhlawula ihlala injalo. Ukufuduswa kubaluleke ngakumbi kwabo baxhomekeke kwikhadi leSASSA/Postbank ukuze baqokelele. Ukuba awuqinisekanga ukuba ngowaliphi na iqela, jonga indlela yakho yokuhlawula kwipotala yeSRD kwaye, ukuba kuyafuneka, tyelela i-ofisi yeSASSA okanye isebe lePostbank ngesazisi sakho uqinisekise into ekufuneka uyenzile."
+    },
+    {
+      "id": "tax-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Irhafu Nesibonelelo SeSRD"
+    },
+    {
+      "id": "tax-p",
+      "type": "paragraph",
+      "text": "Intlawulo yeSRD R370 sisibonelelo soncedo lwentlalo kwaye ikhululwe kwirhafu yengeniso. Awunyanzelekanga ukuyixela njengengeniso erhafelwayo kwireturn yakho yonyaka, kwaye ukuyifumana akudali tyala lerhafu okanye imfuneko yokubhalisela irhafu. Oku kunjalo kwangolo hlobo nezinye izibonelelo zeSASSA. Ukuba unalo kwangoko ukuqeshwa okusemthethweni kwenye indawo, loo mveliso yengeniso yokuqeshwa ihlala irhafelwa njengesiqhelo — kuphela inxalenye yesibonelelo ekhululiweyo."
+    },
+    {
+      "id": "security-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukukhusela Iakhawunti Yakho Nokhuseleko Lwakho Lobuqu"
+    },
+    {
+      "id": "security-p1",
+      "type": "paragraph",
+      "text": "Iprofil yakho yeSRD ixabisekile koqhekezelo kuba ilawula intlawulo yenyanga. Yikhusele ngokugcina iOTP, iPIN, nephasiwedi yakho ziyimfihlo — akukho nkqubo esemthethweni yeSASSA eya kusokuze izicele. Sebenzisa inombolo yefowuni oyilawulayo, uze ulumke ngabasemgceni 'abanikela' ukuba 'balungise' isicelo sakho; basenokuzama ukuyiguqula intlawulo yakho iye kwiakhawunti abayilawulayo. Ukuba urhanela ukuba iprofil yakho yanyaniselwa, qhagamshelana neSASSA Fraud Hotline ku-0800 60 10 11 ngoko nangoko."
+    },
+    {
+      "id": "security-p2",
+      "type": "paragraph",
+      "text": "Lumka kwangokunjalo ngekhonkco ocikayo. Iisayithi ze-phishing zilinganisa i-srd.sassa.gov.za ukuze zibambe isazisi sakho neOTP, emva koko zitshintshe iinkcukacha zakho zasebhankini. Hlala uchwetheza idilesi esemthethweni ngqo kwibrowser yakho okanye usebenzise umgca weWhatsApp osemthethweni 082 046 8553. Ukuba iwebhusayithi ikucela iOTP 'ukuqinisekisa' ngaphandle kokungena okusemthethweni, yivala. Ukujonga imeko yakho rhoqo kwipotala esemthethweni yeyona ndlela ekhuselekileyo yokuqinisekisa ukuba akukho nto itshintshiweyo ngaphandle kolwazi lwakho."
+    },
+    {
+      "id": "appeal-outcomes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iziphumo Zesibheno Nento Ezithethayo"
+    },
+    {
+      "id": "appeal-outcomes-p1",
+      "type": "paragraph",
+      "text": "Emva kokuba iITSAA iphonononge isibheno sakho, inokuluseka, ilusekise ngokuyinxenye, okanye ilulale. 'Lusekiwe' lithetha ukuba ukwaliwa kwangaloo nyanga kwarhoxiswa kwaye kufuneka uhlawulwe kuyo, kuquka nembuyekezo ekufuneka ibikhona. 'Luliwe' lithetha ukuba iTribunal yavumelana nesigqibo seSASSA ngokusekelwe kubungqina, kwaye kwangaloo nyanga ayiyi kuhlawulwa. Inyanga nganye obhene kuyo igqitywa ngokwahlukileyo, ngoko unokuwina enye inyanga ulahlekelwe kwenye ngokuxhomekeka kwiinyani ezisisiseko zaye."
+    },
+    {
+      "id": "appeal-outcomes-p2",
+      "type": "paragraph",
+      "text": "Ukuba isibheno sakho siyaliwe kwaye ukholelwa ukuba kwenzeka impazamo yenyani okanye yenkqubo (umzekelo, iSASSA isebenzise idatha yeUIF endala), ungafuna ukuphononongwa ngakumbi kwii-tshannels ezibonelelwa yiITSAA, kodwa ifestile yokubhena eqhelekileyo yeentsuku ezingama-30 kwinyanga yontloko isasebenza. Isifundo esisebenzayo kukubhena ngokukhawuleza uze unikezele ubungqina obuqinileyo kwesiqalo sokuqala, kuba amanyathelo amva adanda kwaye angaqinisekanga. Gcina iNamba Yakho Yesalathiso Sesibheno kunye naziphi na iileta zeziphumo kwiirekhodi zakho."
+    },
+    {
+      "id": "backpay-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iintlawulo Zembuyekezo Emva Kwesibheno Esiphumeleleyo"
+    },
+    {
+      "id": "backpay-p",
+      "type": "paragraph",
+      "text": "Xa isibheno silusekwa ngenyanga owawungafanele uyaliwe, ngokuqhelekileyo iSASSA ihlawula loo nyanga njengembuyekezo, kuba wawunelungelo kuyo kwasekuqaleni. Imbuyekezo ilandela indlela efanayo (EFT okanye Cash Send) obuyikhethile. Ihlawulwa xa ukurhoxiswa kuqhutywa, nto leyo enokuthatha iiveki ezongezelelweyo emva kwesiphumo. Ukuba isibheno esilusekiweyo asihlawulwa emva kwexesha elifanelekileyo, landela ngenombolo yesalathiso yeITSAA kwaye, ukuba kuyafuneka, i-ofisi yeSASSA — kodwa qaphela ukuba iinyanga ongazange uzibhene kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA) ngokuqhelekileyo zilahlekile nokuba ubufanelekile ngokwenene."
+    },{
+      "id": "timeline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukusuka Kwisicelo Ukuya Kwintlawulo Yokuqala: Ixesha Elimiyo Ngokusisiseko"
+    },
+    {
+      "id": "timeline-table",
+      "type": "table",
+      "headers": [
+        "Isigaba",
+        "Kwenzeka ntoni",
+        "Ixesha eliqhelekileyo"
+      ],
+      "rows": [
+        [
+          "Faka isicelo",
+          "Uthumela iinkcukacha zakho ngepotala okanye ngeWhatsApp",
+          "Usuku 0"
+        ],
+        [
+          "IOTP nokuqokelelwa kokuqala",
+          "Inkqubo iqinisekisa ifowuni yakho ize irekhode isicelo",
+          "Iminithi embalwa"
+        ],
+        [
+          "Ukujongwa kokuzazisa needatabase",
+          "I-cross-checks zeHome Affairs, SARS, UIF, NSFAS ziyaghuba",
+          "Iintsuku ezimbalwa ukuya kwiiveki ezi-2"
+        ],
+        [
+          "Isigqibo sokuqala",
+          "Imeko iba yiApproved okanye iDeclined kwinyanga yokuqala",
+          "Ngaphakathi kwe-2 iiveki ngokuqhelekileyo"
+        ],
+        [
+          "Intlawulo yokuqala (ukuba ivunyiwe)",
+          "IEFT okanye iCash Send ngaphakathi kwefestile yenyanga",
+          "Umhla wama-25 ukuya kumhla wokugqibela wenyanga"
+        ],
+        [
+          "Ukuphononongwa kwakhona kwanyanga",
+          "Inyanga nganye iphinde ivavanywe; qinisa kwakhona malunga nenyanga ezintathu",
+          "Kuyaqhubeka"
+        ]
+      ],
+      "caption": "Amaxesha aqhelekileyo kwaye anokwahluka ngokwevolumu nangeengxaki zedatha."
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iimpazamo Eziqhelekileyo Ezilibazisa Okanye Ezithintela Intlawulo"
+    },
+    {
+      "id": "mistakes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ukusebenzisa iakhawunti yebhanki engeyiyo eyakho — iintlawulo ziyaphambuka okanye ziphawulwe.",
+        "Ukuchwetheza igama lakho ngokwahlukileyo kwisazisi sakho, kubangele 'Identity Verification Failed'.",
+        "Ukuvumela inombolo yakho yefowuni iphele ukuze ukuphose iOTP neSMS zemeko.",
+        "Ukuyicinga ukuba imvume isisigxina kwaye ungajongi imeko rhoqo ngenyanga.",
+        "Ukufaka imali (izipho, iimali-mboleko, iintlawulo zestokvel) ezikunyusa ngaphezu kweR624.",
+        "Ukuhlawula umntu wesithathu ofaka iinkcukacha ezingachananga okanye zobuqhetseba.",
+        "Ukungabheni kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA) ukususela kwinyanga eliweyo."
+      ]
+    },
+    {
+      "id": "update-details-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokuhlaziya Iinkcukacha Zakho (Ifowuni, Ibhanki, Idilesi)"
+    },
+    {
+      "id": "update-intro",
+      "type": "paragraph",
+      "text": "Ukugcina iinkcukacha zakho zonxibelelwano nobhanki zihlanjululwe yenye yeendlela ezilula zokuphepha iintlawulo eziphosiweyo. Zonke iihlaziyo zisimahla kwaye zenziwa ngepotata esemthethweni yeSRD okanye eofisini yeSASSA — ungaze uhlawule nabani na ukuze akwenzele. Utshintsho lwebhanki ngokuqhelekileyo lusebenza kwinyanga elandelayo, ngoko hlaziya ngokukhawuleza xa kukho into etshintshileyo kunokulinda de intlawulo isile."
+    },
+    {
+      "id": "update-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ngema kwipotala yeSRD",
+          "description": "Tyelela i-srd.sassa.gov.za uze ungene ngesazisi sakho neOTP."
+        },
+        {
+          "title": "Vula 'Update Personal Details'",
+          "description": "Fumana icandelo lolwazi lobuqu okanye lobhanki."
+        },
+        {
+          "title": "Tshintsha inombolo yakho yefowuni",
+          "description": "Faka inombolo yakho entsha; qinisekisa ngeOTP ethunyelwe kuyo. Ukuba ulahlekelwe yinombolo endala, tyelela i-ofisi yeSASSA."
+        },
+        {
+          "title": "Tshintsha iakhawunti yakho yebhanki",
+          "description": "Faka iakhawunti entsha egameni lakho. Utshintsho lusebenza kwinyanga elandelayo."
+        },
+        {
+          "title": "Gcina uze uqinisekise",
+          "description": "Ngenisa uze uphinde ujonge imeko yakho emva kosuku ukuqinisekisa ukuba uhlaziyo lwathatheka."
+        }
+      ]
+    },
+    {
+      "id": "rights-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Amalungelo Akho Noxanduva Lwakho Njengomxhamli"
+    },
+    {
+      "id": "rights-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ilungelo: lokufaka isicelo ngokukhululekileyo nokuvavanywa ngokufanelekileyo ngokuchasene neenkqubo ezishicilelweyo.",
+        "Ilungelo: lokubhena inyanga eliweyo kwi-Independent Tribunal (ITSAA) kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA).",
+        "Ilungelo: lokufumana iR370 epheleleyo kwinyanga nganye evunyiweyo ngaphandle kokuthotywa okanye 'iintlawulo'.",
+        "Uxanduva: lokunika ulwazi olunyanisekileyo nokungafaki iinkcukacha zobuxoki.",
+        "Uxanduva: lokugcina ifowuni, ibhanki, neenkcukacha zobuqu zihlanjululwe.",
+        "Uxanduva: lokuxela utshintsho (umzekelo, ukuqalisa umsebenzi okanye ukufumana iUIF/NSFAS) oluchaphazela ukufaneleka."
+      ]
+    },
+    {
+      "id": "gov-services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "ISRD Nezinye Iinkonzo Zikarhulumente"
+    },
+    {
+      "id": "gov-services-p",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD sihleli ecaleni kolunye uncedo lukarhulumente. Sahlukile kwiUIF (eyenzelwe ababeke-zimali abaphulukene nomsebenzi), kwiNSFAS (inkxaso yabafundi), nakwizibonelelo ezisisigxina zeSASSA. Ukufumana iSRD akukubhalisi kumakhaya e-RDP okanye kwiinkqubo zoncedo ezinxulumene neCOVID, kwaye akuchaphazeli uninzi lweenkonzo ezingezizo ezemali. Kuba amasebe ahlukeneyo aqhuba iinkqubo ezahlukeneyo, hlala uqinisekisa unxibelelwano nesebe elifanelekileyo kunokuba uthathe ngokuqinisekileyo. Umzekelo, uncedo lwamasipala lwamahlwempu kunye neenkqubo zesondlo zesikolo zinemithetho yazo kwaye azinxulunyaniswa nemo yakho yeSRD."
+    },
+    {
+      "id": "glossary-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isichazi-Magama SeSRD"
+    },
+    {
+      "id": "glossary-table",
+      "type": "table",
+      "headers": [
+        "Igama",
+        "Intsingiselo"
+      ],
+      "rows": [
+        [
+          "SRD",
+          "Social Relief of Distress — inkqubo yesibonelelo."
+        ],
+        [
+          "Means test (uvavanyo lwengeniso)",
+          "Ukujongwa ukuba ingeniso yakho yenyanga ingaphantsi okanye ilingana neR624."
+        ],
+        [
+          "ITSAA",
+          "Independent Tribunal for Social Assistance Appeals — iphatha izibheno zeSRD."
+        ],
+        [
+          "OTP",
+          "PIN yokusetyenziswa kanye ethunyelwa ngeSMS ukuqinisekisa ifowuni yakho."
+        ],
+        [
+          "Cash Send",
+          "Ukuqokelela isibonelelo ezivenkileni usebenzisa ivawutsha yeSMS."
+        ],
+        [
+          "Reaffirmation (ukuqinisa kwakhona)",
+          "Ukuqinisekisa kwakhona iinkcukacha zakho malunga nenyanga ezintathu."
+        ],
+        [
+          "Lapsing (ukuyeka)",
+          "Inyanga engekahlawulwa kuba uvavanyo lwengeniso okanye ikhowudi yaphosa."
+        ],
+        [
+          "Alternative Income Source",
+          "Imeko ethetha ukuba iidiphozithi ezingaphezu komda zafunyanwa."
+        ]
+      ],
+      "caption": "Isalathiso esikhawulezileyo samagama asetyenziswa kulo lonke isikhokelo."
+    },
+    {
+      "id": "myths-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iintsomi ZeSRD Ngokuchasene NeNyani"
+    },
+    {
+      "id": "myths-table",
+      "type": "table",
+      "headers": [
+        "Intsomi",
+        "Inyani"
+      ],
+      "rows": [
+        [
+          "ISASSA ihlawulisa ukufaka isicelo.",
+          "Bubuxoki. Ukufaka isicelo, ukujonga imeko, nokubhena kusimahla."
+        ],
+        [
+          "Ndingasebenzisa iakhawunti yebhanki ya naba mntu na.",
+          "Bubuxoki. Iakhawunti kufuneka ibe egameni lakho."
+        ],
+        [
+          "Kuba ndavunyiwa, soze ndingayeki ukuyifumana.",
+          "Bubuxoki. Iphinda ivavanywe rhoqo ngenyanga."
+        ],
+        [
+          "Isipho semali sendenza ndingafaneleki ngokusisigxina.",
+          "Bubuxoki. Inyanga enye engaphezu komda ichaphazela loo nyanga kuphela; yicacise ngesibheno ukuba yayingengomvuzo."
+        ],
+        [
+          "Kufuneka ndiphinde ndifake isicelo rhoqo ngenyanga.",
+          "Bubuxoki. Uqinisekisa kwakhona malunga nenyanga ezintathu; ukujongwa kwanyanga kuyenzeka ngokuzenzekelayo."
+        ],
+        [
+          "Umntu unokukhawulezisa intlawulo yam ngentlawulo.",
+          "Bubuxoki. Akukho kukhawulezisa okusemthethweni; zityeshele ezo nto."
+        ]
+      ],
+      "caption": "Ulwazi oluxhaphakileyo olungachananga lulungiswa ngezibakala eziqinisekisiweyo."
+    },
+    {
+      "id": "stat-bar",
+      "type": "stat-bar",
+      "stats": [
+        {
+          "label": "Isixa-mali sanyanga",
+          "value": "R370",
+          "description": "Kuhlawulwa kwinyanga nganye evunyiweyo (inyusiwe kwifka R350)."
+        },
+        {
+          "label": "Umda wengeniso",
+          "value": "R624",
+          "description": "Ubuninzi bengeniso yenyanga ukuze ufaneleke."
+        },
+        {
+          "label": "Uluhlu lweminyaka",
+          "value": "18 ukuya kwi-59",
+          "description": "Abantu abadala baseminyakeni yokusebenza kuphela."
+        },
+        {
+          "label": "Ifestile yokubhena",
+          "value": "30-90 iintsuku",
+          "description": "Ukucela umngeni kwinyanga eliweyo."
+        }
+      ]
+    },
+    {
+      "id": "repeated-declines-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuba Uyaliwa Rhoqo"
+    },
+    {
+      "id": "repeated-declines-p1",
+      "type": "paragraph",
+      "text": "Abanye abaxhamli bayaliwa inyanga emva kwenyanga. Phambi kokuba uthathe ukuba inkqubo yaphukile, jonga ikhowudi yesizathu ngalinye — iboniswa kwimeko yakho. Iimbangela eziqhelekileyo ziyafana: iidiphozithi ezingaphezu kweR624, irekhodi leUIF okanye leNSFAS elisebenzayo, esinye isibonelelo kwisazisi sakho, okanye ukungangqinelani kokuzazisa okungasonjululwanga. Ukuba isizathu siyafana rhoqo ngenyanga, ukulungisa imbangela esisiseko (hayi ukuphinda ufake isicelo) yeyona nto itshintsha isiphumo. Kwimicimbi yengeniso, isibhengezo sicacisa iidiphozithi ezikanye okanye ezingengomvuzo; kwiUIF/NSFAS, ileta yokuphela okanye yokugqiba yileyo icacisa iflegi."
+    },
+    {
+      "id": "repeated-declines-p2",
+      "type": "paragraph",
+      "text": "Ukuba uqinisekile ukuba ukwaliwa akuchananga kwaye izibheno zisaghubeka zingaphumeleli, qwalasela ukuba ingaba irekhodi endala yokuqeshwa okanye yenkxaso isaphila na kwiinkqubo zeSARS, UIF, okanye NSFAS. Ezi rekhodi azitshintshi ngoko nangoko xa umsebenzi okanye ikhosi iphela, kwaye iSASSA isebenza kuphela ngento ezi rekhodi ziyixela. Ukusombulula irekhodi yemvelaphi ngqo neziko elifanelekileyo, uze ubhene nobungqina, siye sisisona isisombululo esihlala sisebenza. I-ofisi yeSASSA nayo ingacebisa ukuba ukuphononongwa ngesandla kuyimfanele kwimeko yakho."
+    },
+    {
+      "id": "budget-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukwenza Okona Kunconywayo Kwisibonelelo Esiguquguqukayo"
+    },
+    {
+      "id": "budget-p",
+      "type": "paragraph",
+      "text": "Kuba iSRD inokuvunywa kwelinye inyanga iyaliwe kwelinye, kukhuselekile ukuyiphatha njengento eyongezelelweyo kunokuba ibe yingxenye yengeniso ephambili. Apho kunokwenzeka, thintela ukuzibophelela kwiR370 kwizibophelelo ezingagungqiyo zanyanga ongenakukwazi ukuzifeza ukuba inyanga iyaliwe. Abaxhamli abaninzi basebenzisa isibonelelo kwizinto ezisisiseko njengokutya nokuhamba, kwaye bagcina isikhuseleko esincinci kwiinyanga apho intlawulo ingafikiyo. Ukucwangcisa ngokuguquguquka, kunokuba uthathe ukuba siya kuhlala sifika, kunciphisa ifuthe lenyanga ephosiweyo."
+    },
+    {
+      "id": "contact-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isishwankathelo See-Tshannels Zonxibelelwano Ezisemthethweni"
+    },
+    {
+      "id": "contact-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Iwebhusayithi (isicelo, imeko, izibheno, uhlaziyo): srd.sassa.gov.za",
+        "WhatsApp (isicelo nemibuzo): 082 046 8553",
+        "Ukujonga imeko ngeUSSD: *134*7737#",
+        "SASSA Fraud Hotline: 0800 60 10 11",
+        "Ngokwasemzimbeni: nayiphi na i-ofisi yeSASSA okanye i-kiosk yoncedo evunyiweyo (uncedo olusimahla)."
+      ]
+    },
+    {
+      "id": "official-comms-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokuwazi Unxibelelwano LweSASSA Oluyinyani"
+    },
+    {
+      "id": "official-comms-p",
+      "type": "paragraph",
+      "text": "Imiyalezo yokwenene yeSASSA ifika njengeSMS esuka kwiinkqubo ezisemthethweni kwaye iya kuba nesalathiso okanye nevawutsha, ingaze ibe yimfuno yokuhlawula okanye iPIN yakho. ISASSA ayisokuze ikufowunele ikucele iphasiwedi yebhanki, kwaye ayisayi kuthumela iikhonkco ezikucela ukuba ufake iOTP kwisayithi yomntu wesithathu. Ukuba umyalezo udala ungxamiseko — 'isibonelelo sakho siza kurhoxiswa ngaphandle kokuba uhlawule ngoku' — phantse ngokuqinisekileyo bubuqhetseba. Xa uthandabuza, vula i-srd.sassa.gov.za ngqo uze ujonge imeko yakho kunokuba usebenze ngaloo myalezo."
+    },
+    {
+      "id": "status-confusion-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iimeko Abantu Abazidibanisa Ngazo Rhoqo"
+    },
+    {
+      "id": "status-confusion-table",
+      "type": "table",
+      "headers": [
+        "Imeko Ebonwayo",
+        "Ihlala ideleka njengento yantoni",
+        "Umahluko Obalulekileyo"
+      ],
+      "rows": [
+        [
+          "Pending",
+          "Declined",
+          "Pending isaqhubeka ukusetyenzwa; akukho sigqibo sikho."
+        ],
+        [
+          "Alternative Income Source",
+          "Isithintelo sanggapheleli",
+          "Ichaphazela loo nyanga kuphela; lungisa uze ubhene."
+        ],
+        [
+          "Approved",
+          "Intlawulo ifunyenwe",
+          "Approved ithetha ukuba igunyazisiwe, ayikafiki ekhawuntini yakho."
+        ],
+        [
+          "Bank Verification Pending",
+          "Declined",
+          "Iinkcukacha zebhanki zakho zisajongwa, aziweliwe."
+        ],
+        [
+          "Referred",
+          "Ukwaliwa okuqhelekileyo",
+          "Referred lithetha ukuphanda ubuqhetseba; qhagamshelana ne-hotline."
+        ]
+      ],
+      "caption": "Ukucacisa iimeko ezididana rhoqo."
+    },
+    {
+      "id": "student-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Abafundi: IJonge Ekhethekileyo"
+    },
+    {
+      "id": "student-detail-p",
+      "type": "paragraph",
+      "text": "Umthetho wabafundi uchane: inkxaso yeNSFAS esebenzayo ikwenza ungafaneleki, kodwa ukuba ngumfundi akukwenzi oko. Umfundi wezemfundo okanye weyunivesithi ongaphantsi kweNSFAS ongenalo olunye uvuyo usenokufaneleka, kangangoko iidiphozithi zihlala zingaphantsi okanye zilingana neR624. Oku kubalulekile kuba abantu abaninzi abancinci bakholelwa ukuba babhanyeziwe ngokuzenzekelayo, okanye ngokwahlukileyo bakholelwa ukuba i-bursary yabucala ayinakwenza nto. I-bursary ayiyoNSFAS, kodwa nayiphi na imali eyifaka ekhawuntini yakho isabalelwa kuvavanyo lwengeniso, ngoko iidiphozithi ezinkulu eziqhelekileyo ze-bursary zisengakunyusa ngaphezu komda kwangaloo nyanga."
+    },
+    {
+      "id": "gig-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Abasebenzi Begig NabaNgekho Sisemthethweni: IJonge Ekhethekileyo"
+    },
+    {
+      "id": "gig-detail-p",
+      "type": "paragraph",
+      "text": "Umsebenzi wegig nawongacwangciswanga uhlala kwindawo emfiliba. Isibonelelo asiwuthinteli umsebenzi — sithintela ingeniso engaphezu kweR624 ngenyanga. Umhambisi wezinto ofumana iR400 kwinyanga ethe cwaka uyafaneleka; lo mhambisi mnye ofumana iR900 kwinyanga exakekileyo uya kwala kwangaloo nyanga. Kuba amaqonga ehlawula ngokungaqhelekanga, imeko yakho inokutshintshana ngokusemthethweni inyanga ngenyanga, kwaye ayisiyo mpazamo. Umngcipheko kukuba inyanga enye elungileyo isusa isibonelelo kanye xa usenokusifuna, ngoko ukulandelela ingeniso yakho yanyanga kukunceda uqikelele kwaye, ukuba ufakwe ngeflegi ngempazamo, ubhene nobungqina."
+    },
+    {
+      "id": "child-grant-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Umkhethe WeChild Support Grant Uchaziwe"
+    },
+    {
+      "id": "child-grant-detail-p",
+      "type": "paragraph",
+      "text": "Umthetho 'wesibonelelo esinye kuphela' unesinye isiqhwithi: iChild Support Grant ehlawulwa kumntwana wakho. Lo mkhethe ukho kuba isibonelelo somntwana senzelwe iimfuno zomntwana, hayi ingeniso yomgcini, ngoko asithathwa njengenkxaso ekwenza umgcini angafaneleki iSRD yakhe. Zonke ezinye izibonelelo zeSASSA ezihlawulwa kuwe ngokwakho — Older Person, Disability, Foster Child — ziyakwenza ungafaneleki. Ukuba ufumana isibonelelo somntwana kwaye iSRD yakho iyaliwe ngenxa yokuthi 'kwenye isibonelelo', olo kwaliwa kufanele lucelwe umngeni, kuba isibonelelo somntwana akufuneki sibangele oko."
+    },
+    {
+      "id": "appeal-detail-extra-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Izibheno: Iingcebiso Ezisebenzayo Zokuphumelela"
+    },
+    {
+      "id": "appeal-detail-extra-p",
+      "type": "paragraph",
+      "text": "Imikhuba emithathu iphucula kakhulu iziphumo zezibheno. Okokuqala, bhena kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA) — izibheno ezingeniswa emva kwefestile yeentsuku ezingama-90 azithathelwa ngqalelo, nokuba ubungqina bakho buqine kangakanani. Okwesibini, gqibela ubungqina bakho uze ubugqibe samva sesizathu sokwaliwa: isibhengezo sengeniso, ileta yeUIF kwiUIF, ileta yeNSFAS kwiNSFAS. Okwesithathu, bhena inyanga nganye eliweyo ngokwahlukileyo kunokuba uthabathe ukuba isibheno esinye sigubungela zonke. Ukugcina ifolda (ephathwayo okanye efowunini yakho) ngesazisi sakho, iinombolo zesalathiso, neeleta ezixhasayo kwenza inkqubo ibe khawuleza ngalo lonke ixesha."
+    },
+    {
+      "id": "payment-dates-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuqonda Iintsuku Zokuhlawula ZeSRD"
+    },
+    {
+      "id": "payment-dates-detail-p",
+      "type": "paragraph",
+      "text": "Ngokungafaniyo nezibonelelo ezisisigxina zeSASSA, ezidla ngokuba neshedyuli epapashiweyo yeentsuku zokuhlawula ezithile ngohlobo lwesibonelelo, iSRD ihlawulwa ngaphakathi kwefestile yenyanga kunokuba ibe ngumhla omiselweyo omnye. ISASSA ibhengeza amalungiselelo okuhlawula enyanga kwii-tshannels zayo ezisemthethweni, kwaye abaxhamli ngamnye bahlawulwa ngokulandelelana ukususela malunga nomhla wama-25 wenyanga ukuya kumhla wokugqibela. Usuku lwakho ngqo luxhomekeke kwibhanki yakho okanye kwindlela yokuqokelela nakwindawo okuyo ku-rollout. Yiphatha ifestile yama-25-ukuya-kuphela kwenyanga njengeyona nyaniso ethembekileyo, uze uthembele kunxibelelwano olusemthethweni lweSASSA kuyo nayiphi na iinkcukacha ezingakumbi zokuseta usuku kuneeziposti 'eziqinisekisa umhla' ezingengowasemthethweni."
+    },
+    {
+      "id": "voucher-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Ivawutsha YeCash Send Esebenza Ngayo"
+    },
+    {
+      "id": "voucher-p",
+      "type": "paragraph",
+      "text": "Ukuba ukhetha iCash Send, iSASSA ithumela ivawutsha yeSMS kwifowuni yakho ebhalisiweyo emva kokuba intlawulo iqhutyiwe. Uthatha loo khowudi yevawutsha, kunye nesazisi sakho, uye evenkileni ethatha inxaxheba — iPick n Pay, iBoxer, iShoprite, iCheckers, okanye iUSave — uze uqokelele imali ekhawuntuni. Ivawutsha isetyenziswa kanye kuphela kwaye inomda wexesha, ngoko qokelela ngokukhawuleza kwaye ungaze wabelane ngayo naye nabani na. Ukuba ivawutsha ayifiki emva kwenyanga ebonise iApproved, jonga imeko yakho kunye nomqondiso wefowuni, uqinisekise ukuba inombolo yefowuni esemva isachanekile; inombolo engeyiyo ithetha ukuba ivawutsha iye kwindawo engeyiyo."
+    },
+    {
+      "id": "cancel-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukurhoxisa Okanye Ukuyekisa Isibonelelo Ngokuzithandela"
+    },
+    {
+      "id": "cancel-p",
+      "type": "paragraph",
+      "text": "Ukuba iimeko zakho zitshintsha kwaye awusafuni okanye awusafaneleki isibonelelo — umzekelo, uqalisa ukuqeshwa okusemthethweni — kulindeleke ukuba uyeke ukuyifuna, kuba ukuyifuna okuqhubekayo ongafanelekanga kuyo kunokulingana nobuqhetseba. Ungahlaziya imeko yakho ngepotala yeSRD okanye eofisini yeSASSA, kwaye uvavanyo lwengeniso lwanyanga luza kuyayeka iinyanga apho usilela khona. Ukugcina iinkcukacha zakho zichanekile ngokuzithandela luxanduva kwaye yeyona ndlela ecocekileyo yokunqanda ukubhekiswa kubuqhetseba kamva kwiinyanga ongafanele uyifumana."
+    },
+    {
+      "id": "credit-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD, Credit, Neemali-Mboleko"
+    },
+    {
+      "id": "credit-p",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD asisiyongeniso yokuqeshwa kwaye asiyo mboleko-mali, ngoko asidali tyala okanye asichaphazeli irekhodi lakho le-credit. Ababolekisi, kodwa, basenokubuza ngengeniso yakho xa ufaka isicelo se-credit; isibonelelo singadweliswa njengengeniso, kodwa kuba sisithutyana kwaye sishukumayo, sisibambiso esibuthathaka kwisibophelelo sexesha elide sokuhlawula. Lumka ngokuthatha i-credit ecinga ukuba isibonelelo siya kuhlala sifika — inyanga enye eliweyo isenokukushiya ungakwazi ukuhlawula. Njengesiqhelo, isibonelelo kufuneka siphathwe njengenkxaso yesithutyana, hayi njengomvuzo osisigxina."
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uluhlu Lokujonga Ukufaneleka Ngokukhawuleza"
+    },
+    {
+      "id": "checklist-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ndingummi waseMzantsi Afrika, ummi osisimumamaleko esingapheliyo, okanye imbacu/umfuni bokukhosela obhalisiweyo.",
+        "Ndineminyaka eyi-18 ukuya kwi-59.",
+        "Andinamvuzo, okanye ingeniso yam yenyanga ingaphantsi okanye ilingana neR624.",
+        "Andifumani iUIF, iNSFAS, okanye esinye isibonelelo seSASSA (ngaphandle kweChild Support Grant yomntwana wam).",
+        "Andihlali kwiziko elixhaswa ngurhulumente.",
+        "Ndinganikezela ngesazisi/epasile kunye nenombolo yefowuni egameni lam."
+      ]
+    },
+    {
+      "id": "final-note",
+      "type": "callout",
+      "intent": "info",
+      "title": "Hlala unolwazi ngokusemthethweni",
+      "text": "Imigaqo yeSRD, imida, neentsuku zingatshintsha. Olona lwazi lusemthethweni lusoloko luvela kwi-srd.sassa.gov.za, kumgca weWhatsApp weSASSA 082 046 8553, nakwi-Independent Tribunal (ITSAA) e-itsaa.gov.za. Sebenzisa esi sikhokelo njengesichazi esibanzi, kodwa qinisekisa iinkcukacha eziphilayo kwii-tshannels ezisemthethweni phambi kokuba uthathe amanyathelo."
+    },{
+      "id": "refugee-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iimbacu Nabafuni Bokukhosela: IJonge Ekhethekileyo"
+    },
+    {
+      "id": "refugee-p",
+      "type": "paragraph",
+      "text": "Iimbacu ezaziwayo nabafuni bokukhosela/abaphathi beepasile ezikhethekileyo bayafaneleka kwisibonelelo seSRD, kodwa isicelo sisebenzisa inombolo yepasile okanye yomfuni bokukhosela kunokuba isebenzise isazisi saseMzantsi Afrika. Kufanelekile ukuba kusetyenziswe uvavanyo olufanayo lwengeniso kunye nokujongwa okufanayo ngokuchasene nengeniso nolunye uncedo. Ingxaki exhaphake kakhulu kweli qela yipasile ephelelwe lixesha okanye esaqhuba, kuba iSASSA iqinisekisa inombolo ngokuchasene nenkqubo yeHome Affairs; ukuba ipasile ayisebenzi kuloo nkqubo, ukuqinisekiswa kuyasilela. Ukugcina ipasile yakho isebenzayo kwaye ihlaziyiwe noHome Affairs kubaluleke kakhulu, kwaye nasiphi na isikhewu kwimeko yepasile sinokuguqulela ngqo kwinyanga engaphumelelanga okanye elahlekileyo."
+    },
+    {
+      "id": "disability-h",
+      "type": "heading",
+      "level": 2,
+      "text": "ISRD Nabantu Abakhubazekileyo"
+    },
+    {
+      "id": "disability-p",
+      "type": "paragraph",
+      "text": "Ukuba ukhubazekile kwaye uneminyaka eyi-18 ukuya kwi-59 ongenamvuzo okanye onomvuzo omncinci kakhulu, isibonelelo seSRD sinokunceda kwixesha elifutshane, kodwa asisondlo kwiDisability Grant esisisigxina, esihlawula isixa-mali esiphezulu kwaye asivavanywa rhoqo ngenyanga ngendlela efanayo. Ukuba ukhubazeko lwakho luthintela ukuba ungasebenzi, kufuneka uhlole iDisability Grant ngeofisi yeSASSA kunye novavanyo lwezonyango. Awunakufumana zombini iDisability Grant neSRD ngaxeshanye, ngoko eyona ndlela elungele ixesha elide ngokuqhelekileyo sisibonelelo esisisigxina kunokuba ibe yinkqubo yethutyana njengeSRD."
+    },
+    {
+      "id": "reflect-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuba Iintlawulo Zithatha Ixesha Elingakanani Ukubonakala"
+    },
+    {
+      "id": "reflect-p",
+      "type": "paragraph",
+      "text": "Nje ukuba inyanga ibonise 'Payment Processing' okanye 'Approved', imali ngokuqhelekileyo iyabonakala kwiintsuku zokusebenza ezimbalwa, zoku-1 ukuya kwezi-3, kuxhomekeka kwisantya sokwenza imicimbi kwebhanki yakho. Iivawutshe zeCash Send zasezivenkileni zihlala zifumaneka kanye nje ukufika kweSMS. Ukuba iintsuku ezininzi zokusebenza zihamba kungekho mali kwaye iinkcukacha zakho zichanekile, intlawulo isenokuba yaphambuka — jonga kwakhona iinkcukacha zeakhawunti kwaye, ukuba kuyafuneka, zihlaziye kwinyanga elandelayo. Ukungafumani rhoqo kwintlawulo ngoxa iinkcukacha zichanekile kufuneka kuphakanyiswe neSASSA usebenzisa inombolo yakho yesalathiso, kodwa ulibaziseko oluninzi luyasombululeka ngaphakathi kwefestile eqhelekileyo ngaphandle kongenelelo."
+    },
+    {
+      "id": "reasoncodes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iikhowudi Zesizathu Sokualiwa Ngeliso Elinye"
+    },
+    {
+      "id": "reasoncodes-table",
+      "type": "table",
+      "headers": [
+        "Isizathu Esibonisiweyo",
+        "Itheni",
+        "Ulungiso Oluqhelekileyo"
+      ],
+      "rows": [
+        [
+          "Alternative Income Source",
+          "Iidiphozithi ezingaphezu kweR624 zifunyenwe",
+          "Isibhengezo esichaza iidiphozithi ezingengomvuzo; bhena."
+        ],
+        [
+          "Already on another grant",
+          "Esinye isibonelelo seSASSA kwisazisi sakho",
+          "Qinisekisa umkhethe (isibonelelo somntwana) okanye phelisa esinye isibonelelo; bhena."
+        ],
+        [
+          "UIF detected",
+          "Iintlawulo zeUIF ezisebenzayo",
+          "Ileta yokuphela kweUIF; bhena emva kokuphela kweUIF."
+        ],
+        [
+          "NSFAS detected",
+          "Inkxaso yabafundi esebenzayo",
+          "Ileta yokurhoxiswa kweNSFAS; bhena emva kokuphela kwenkxaso."
+        ],
+        [
+          "Identity Verification Failed",
+          "Ukungangqinelani noHome Affairs",
+          "Ukuqinisekisa ubuso okanye ulungise iinkcukacha eHome Affairs."
+        ]
+      ],
+      "caption": "Qhambanisa ubungqina bakho besibheno kwisizathu esibonisiweyo ngqo."
+    },
+    {
+      "id": "closing-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuyidibanisa Yonke"
+    },
+    {
+      "id": "closing-p",
+      "type": "paragraph",
+      "text": "Isibonelelo seSRD R370 luhlobo loncedo olunamandla kodwa olunemiqathango engqongqo. Impumelelo ifuneka ngemikhwa emithathu: faka isicelo kanye ngeenkcukacha ezichanekileyo, jonga imeko yakho rhoqo ngenyanga, kwaye ubhene kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA) ukuba inyanga iyaliwe ngempazamo. Gcina iinkcukacha zakho zefowuni nezebhanki zihlanjululwe, yiphatha isibonelelo njengento eguquguqukayo kunokuba ibe yesisigxina, uze uzikhusele kubuqhetseba obujolise kubaxhamli. Ngaloo mikhwa, inkqubo isebenza njengoko kucetyiwe — ifaka iR370 ngenyanga ezandleni zabantu abangenawo ngokwenene omnye umvuzo. Kwiintsuku ezifumanekayo, iimeko, nezibheno, hlala ubuyela kwipotala esemthethweni i-srd.sassa.gov.za."
+    },
+    {
+      "id": "help-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukufumana Uncedo Xa Inkqubo Inzima Ukuyisebenzisa"
+    },
+    {
+      "id": "help-p",
+      "type": "paragraph",
+      "text": "Asinguye wonke umntu onayo i-smartphone, idatha ethembekileyo, okanye ukuzithemba ekuhambeni kwipotala ye-intanethi, kwaye iSASSA iyayiqonda le nto. Uncedo olusimahla lufumaneka ngeeofisi zeSASSA neekiosk zokuzinceda, apho abasebenzi bakunceda khona ukufaka isicelo, ukujonga imeko, nokubhena ngaphandle kwentlawulo. Abantu abasebenzela uluntu kunye nezinye iiofisi zikamasipala nazo ziqhuba iindawo zoncedo. Into ebalulekileyo ekufuneka uyikhumbule kukuba uncedo kufuneka luhlale lusimahla — ukuba umntu ufuna intlawulo yokukunceda, akenzi ngokusemthethweni. Isikhokelo sethu esinikelwe kwiSRD sigubungela iicall centres nekiosk ngokweenkcukacha kwabo bakhetha uncedo lomntu."
+    },
+    {
+      "id": "help-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Awuphedwanga wedwa",
+      "text": "Izigidi zabantu baseMzantsi Afrika zixhomekeke kwisibonelelo seSRD. Ukuba kukho into engahambiyo kakuhle — inyanga eliweyo, intlawulo ephosiweyo, imeko edidayo — ngokuqhelekileyo iyalungiseka ngamanyathelo akuloo mkhondo: jonga isizathu, hlaziya iinkcukacha zakho, uze ubhene kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA) usebenzisa ubungqina obufanelekileyo."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Imibuzo Ebuzwa Rhoqo"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Isibonelelo seSRD sihlala ixesha elingakanani?",
+          "answer": "Isibonelelo seSRD sandisiwe ukuya kuthi ga kwinyanga kaMatshi 2027. Siphononongwa rhoqo ngonyaka ngurhulumente kwaye singasandiswa ngakumbi."
+        },
+        {
+          "question": "Kutheni imeko yam yeSRD ithi 'Alternative Income Source'?",
+          "answer": "Oku kuthetha ukuba iSASSA ifumene idiphozithi yebhanki okanye ubhaliso egameni lakho ebonisa ukuba unenye ingeniso. Nkqu nesipho esisuka kusapho sinokuyibangela le nto. Bhena ngesibhengezo esifungelweyo esichaza idiphozithi nganye."
+        },
+        {
+          "question": "Ndingalifumana isibonelelo seSRD ukuba ndisebenza umsebenzi wexeshana?",
+          "answer": "Kuphela ukuba ingeniso yakho yenyanga ingaphantsi kweR624. Ukuba iakhawunti yakho yebhanki ibonisa iidiphozithi ezingaphezu kweR624 kuyo nayiphi na inyanga, uya kwala kwangaloo nyanga."
+        },
+        {
+          "question": "Ngaba kufuneka ndiphinde ndifake isicelo rhoqo ngenyanga?",
+          "answer": "Hayi. Nje ukuba isicelo sakho sivunyiwe, iSASSA ikuvavanya ngokuzenzekelayo rhoqo ngenyanga. Akukho mfuneko yokuba uphinde ufake isicelo ngaphandle kokuba isibonelelo sakho sicinyiwe."
+        },
+        {
+          "question": "Ndingalifumana isibonelelo seSRD kwakunye nesinye isibonelelo seSASSA?",
+          "answer": "Hayi. Ungafumana isibonelelo sentlalo esinye kuphela ngaxeshanye. Ukuba ufanelekela eya-Older Person, Disability, okanye Child Support, kufuneka ukhethe esinye."
+        },
+        {
+          "question": "Kutheni ndiyi... Kuyintoni ukuba ndijika kuma-60 ngoxa ndisafumana iSRD?",
+          "answer": "Isibonelelo seSRD senzelwe iminyaka eyi-18 ukuya kwi-59. Nje ukuba ujika kuma-60, kufuneka ufake isicelo se-Older Person Grant endaweni. Tyelela eyona ofisi yeSASSA ikufutshane ukuze uguqukele."
+        },
+        {
+          "question": "Ndisitshintsha njani isicwangciso seentlawulo zam ukusuka kwibhanki ukuya kwiCash Send?",
+          "answer": "Ngema kwipotala yeSRD e-srd.sassa.gov.za, yiya kwi'Payment Method', uze utshintshe ukusuka kwi'Bank Transfer' ukuya kwi'Cash Send'. Utshintsho lusebenza kwinyanga elandelayo."
+        },
+        {
+          "question": "Ndingayihlaziya na inombolo yam yefowuni yeSRD?",
+          "answer": "Ewe. Ngema kwipotala yeSRD uze uye kwi'Update Personal Details'. Uza kudinga ukufikelela kwifowuni yakho endala ukuze uqinisekise, okanye utyelele i-ofisi yeSASSA ukuba awusenakufikelela kuyo."
+        },
+        {
+          "question": "Kwenzeka ntoni ukuba imeko yam yeSRD ithi 'Referred'?",
+          "answer": "Oku kuthetha ukuba isicelo sakho siphawulwe ngophando lobuqhetseba. Qhagamshelana neSASSA Fraud Hotline ku-0800 60 10 11 kwaye lungiselela ukutyelela i-ofisi yeSASSA nesazisi sakho ukuyisombulula."
+        },
+        {
+          "question": "Ngaba isibonelelo seSRD siyerhafelwa?",
+          "answer": "Hayi. Izibonelelo zentlalo zeSASSA zikhululiwe kwirhafu yengeniso. Awunyanzelekanga ukuba uzixele kwireturn yakho yerhafu."
+        }
+      ]
+    },
+    {
+      "id": "faq-more-1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Isimo sam sithe 'Pending' kwiiveki ezingaphezu kwezimbini. Kufuneka ndenze ntoni?",
+          "answer": "Isimo esithi Pending sithetha ukuba isicelo sakho sisaghuba ukuqinisekiswa ngokuchasene noHome Affairs, iSARS, iUIF, neNSFAS. Ukulibaziseka okufutshane kuqhelekile. Qhubeka ujonga rhoqo emva kweentsuku ezimbalwa. Ukuba sihlala kwiPending ixesha elide ngokungaqhelekanga (iiveki ezininzi) ngaphandle kohlaziyo, ungazama ukughagamshelana necail centre yeSASSA okanye utyelele i-ofisi nesazisi sakho nenombolo yakho yesalathiso."
+        },
+        {
+          "question": "Isimo sam sithe 'Approved' kodwa andikahlawulwa. Kutheni?",
+          "answer": "Imvume ithetha ukuba ufanelekele kwangaloo nyanga; intlawulo ilandela kwifestile eqhelekileyo yokuhlawula (malunga nomhla wama-25 ukuya ekupheleni kwenyanga). Ukuba ifestile iphelile kwaye uvunyiwe, qinisekisa ukuba indlela yakho yokuhlawula neenkcukacha zebhanki zichanekile kwaye zigama lakho. Iakhawunti engalunganga okanye evaliweyo inokwenza intlawulo ibuyele umva. Ukuba iinkcukacha zichanekile kwaye intlawulo ayikafiki, jonga imeko kwakhona uze uqhagamshelane neSASSA, ugcine inombolo yakho yesalathiso."
+        },
+        {
+          "question": "Ingeniso yeqabane lam okanye yomtshakazi wam iyayichaphazela na iSRD yam?",
+          "answer": "Uvavanyo lwengeniso lujonga ingeniso engena KWAAKHO kwiakhawunti yakho yebhanki kunye neerekhodi zakho zikarhulumente, hayi ngokuzenzekelayo eyeqabane lakho. Noko kunjalo, ukuba imali evela kwiqabane lakho ifakwa rhoqo ekhawuntini yakho kwaye ikunyusa ngaphezu kweR624 ngenyanga, oko kunokuchaphazela uvavanyo lwakho. Isibonelelo sisekelwe kwimeko yakho yemali yobuqu njengoko ibonakala ekhawuntini yakho nakwii-database."
+        },
+        {
+          "question": "Ndifake isicelo kabini ngempazamo. Ingxaki leyo na?",
+          "answer": "Ukungenisa ngaphezu kwesicelo esinye ngesazisi esifanayo akudali izibonelelo ezininzi kwaye ngokuqhelekileyo kuyadityaniswa, kodwa izicelo eziphindaphindiweyo zinokubangela ukudideka okanye ukulibaziseka. Sebenzisa inombolo yakho yesalathiso sokuqala ukujonga imeko, kwaye ungahlawuli nabani na ukuze 'alungise' izicelo eziphindaphindiweyo. Ukuba unexhala, qhagamshelana neSASSA ngesazisi sakho ukuqinisekisa isicelo sakho esisebenzayo esinye."
+        },
+        {
+          "question": "Nditshintsha njani iinkcukacha zam zebhanki kwisibonelelo seSRD?",
+          "answer": "Ngema kwipotala yeSRD e-srd.sassa.gov.za, yiya kwicandelo lokuhlaziya iinkcukacha zobuqu okanye zebhanki, uze ufake iakhawunti yakho entsha (kufuneka ibe egameni lakho). Utshintsho ngokuqhelekileyo lusebenza kwinyanga elandelayo. Ungakwazi kwakhona ukusebenzisa umgca weWhatsApp okanye utyelele i-ofisi yeSASSA ukuba awukwazi ukufikelela kwipotala. Ngesikhokelo esipheleleyo jonga iphepha lethu leendlela zokuhlawula."
+        },
+        {
+          "question": "Kwenzeka ntoni emva kokuba ndifakile isibheno?",
+          "answer": "Isibheno sakho siya kwi-Independent Tribunal for Social Assistance Appeals (ITSAA), ephinda ivavanye ubungqina ngokuchasene nesigqibo seSASSA kwangaloo nyanga. Iziphumo zezi: lusekiwe (uguqukele kwintlawulo kwangaloo nyanga, nembuyekezo ukuba iyafumaneka), lusekwe ngokuyinxenye, okanye luliwe. ITSAA iyakwazisa, kwaye inkqubo inokuthatha iiveki ezininzi. Gcina iNamba Yakho Yesalathiso Sesibheno ukuze ulandele."
+        },
+        {
+          "question": "Isibheno seSRD sithatha ixesha elingakanani?",
+          "answer": "Amaxesha okusombulula izibheno ayahluka, kodwa ezininzi zisonjululwa kwiiveki ezimbalwa ukuya kwiinyanga ezimbalwa ngokuxhomekeka kwevolumu nokuntsonkotha kobungqina bakho. Akukho siphumo sokukhawuleza. Jonga imeko yesibheno sakho ngenombolo yakho yesalathiso kunye neetshannels ezisemthethweni zeITSAA kunokuthemba abobabini."
+        },
+        {
+          "question": "Ndiliphosile umhla wobheno weentsuku ezingama-30. Ndingasabhena?",
+          "answer": "Ifestile yeentsuku ezingama-30 ingqongqo kwaye iqala ukususela kumhla wenyanga eliweyo. Ukuyiphosa ngokuqhelekileyo kuthetha ukuba loo nyanga ithile ayinakuphinda ithathelwe ngqalelo ngobheno oluqhelekileyo. Usombululo olusebenzekayo kukuqinisekisa ukuba iinyanga ezizayo zivavanywa ngokuchanekileyo; ukuba ukholelwa ukuba kukho impazamo yenkqubo okanye yenkqubo eqhuba, qhagamshelana neITSAA okanye neSASSA ukuze ufumane inkcazelo yeendlela ezingakho."
+        },
+        {
+          "question": "Ndingafumana iSRD kunye neUIF ngaxeshanye?",
+          "answer": "Hayi. Ukufumana iintlawulo zeUIF yingeniso ekwenza ungafaneleki kwisibonelelo seSRD. Ukuba useUIF, iinyanga zakho zeSRD ziya kwala. Xa iUIF iphela, iinyanga zamva zinokufaneleka, kwaye ungabhena nayiphi na inyanga eliweyo ngempazamo emva kokuphela kweUIF ngokunikezela ileta yakho yokuphela kweUIF."
+        },
+        {
+          "question": "'Identity Verification Failed' ithetha ntoni?",
+          "answer": "Kuthetha ukuba iinkcukacha ozingenisileyo azihambelani neerekhodi ze-Department of Home Affairs — rhoqo ifani, umhla wokuzalwa, okanye ukungangqinelani kwenombolo yesazisi. Isombulula ngokugqibezela inyathelo lokuqinisekisa ubuso kwipotala yeSRD okanye ngokulungisa iinkcukacha zakho eHome Affairs, uze uphinde ujonge imeko yakho. Ukusebenzisa igama elichanekileyo kwisazisi sakho xa ufaka isicelo kuyakunqanda oku."
+        },
+        {
+          "question": "Ndingasebenzisa iakhawunti yebhanki yelungu losapho ukuze ndihlawulwe?",
+          "answer": "Hayi. Iakhawunti yebhanki esetyenziswayo kwiSRD kufuneka ibe egameni lakho. Iintlawulo ezisiwa kwiakhawunti ezingahambelani nesazisi sakho ziyaliwa okanye zifakwe iflegi, nto leyo enokulibazisa okanye ithintele isibonelelo sakho kwaye isenokudala iinkxalabo zobuqhetseba. Sebenzisa iakhawunti yakho, okanye khetha ukuqokelela ezivenkileni ngeCash Send ukuba awunayo iakhawunti."
+        },
+        {
+          "question": "Inombolo yam yefowuni ilahlekile okanye iSIM itshintshiwe. Ndiyigcina njani na iSRD yam?",
+          "answer": "Inombolo yakho ebhalisiweyo isetyenziselwa iOTP neeSMS zemeko, ngoko yihlaziye ngokukhawuleza. Ukuba usenayo ifowuni, yitshintshe kwipotala yeSRD. Ukuba ulahlekelwe kuyo, tyelela i-ofisi yeSASSA nesazisi sakho ukuqinisekisa ubuyena bakho uze uhlaziye inombolo. Ukwenza ngokukhawuleza kuthintela ukuphoswa kwemiyalezo yokuqinisekisa nentlawulo."
+        }
+      ]
+    },
+    {
+      "id": "faq-more-2",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ukufumana iSRD kuya kuchaphazela na i-credit score yam?",
+          "answer": "Hayi. Isibonelelo seSRD yintlawulo yoncedo lwentlalo, hayi imali-mboleko okanye i-credit. Ukuyifumana akudali irekhodi le-credit okanye kuchaphazele i-credit score yakho. Ayibalwa njengengeniso ekufuneka uyibuyise."
+        },
+        {
+          "question": "Ngaba iSRD iyerhafelwa?",
+          "answer": "Hayi. Njengezinye izibonelelo zentlalo zeSASSA, intlawulo yeSRD R370 ikhululiwe kwirhafu yengeniso kwaye akukho mfuneko yokuyixela njengengeniso erhafelwayo kwireturn yakho."
+        },
+        {
+          "question": "Abafuni bokukhosela neembacu bangafaka isicelo seSRD?",
+          "answer": "Ewe. Iimbacu ezaziwayo ezibhaliswe kwinkqubo yeHome Affairs kunye nabafuni bokukhosela okanye abaphathi beepasile ezikhethekileyo bangafaka isicelo. Basebenzisa inombolo yabo yepasile okanye yomfuni bokukhosela kunokuba basebenzise inombolo yezaziso yaseMzantsi Afrika, kwaye kufuneka bahlangabezane novavanyo olufanayo lwengeniso kunye nezinye iinkqubo."
+        },
+        {
+          "question": "Ndingumfundi ongaxhaswa yiNSFAS. Ndingayifumana na iSRD?",
+          "answer": "Usenokufaneleka ukuba awunalo olunye uvuyo kwaye iidiphozithi zakho zanyanga zihlala zingaphantsi okanye zilingana neR624. Ukungafumani iNSFAS akokwaneleyo ngokuzenzekelayo — uvavanyo lwengeniso lusasebenza kuyo nayiphi na into efika ekhawuntini yakho. Ii-bursary zabucala nenkxaso yosapho zisabalelwa njengeendiphozithi ngokuchasene nomda."
+        },
+        {
+          "question": "Abasebenzi basekhaya nabasebenzi begig bangalifumana na isibonelelo seSRD?",
+          "answer": "Kuphela ukuba umvuzo wonke wanyanga ungaphantsi okanye ulingana neR624 kwaye awuqeshwanga ngokusemthethweni ngePAYE. Iinzuzo zegig nezecasual zivavanywa ngokokufika ekhawuntini yakho rhoqo ngenyanga, ngoko imeko yakho inokutshintsha inyanga ngenyanga. Ukuba uhlawulwa ngokusemthethweni ngePAYE, ngokuqhelekileyo uthathwa njengomntu oqeshiweyo kwaye akuzukufaneleka."
+        },
+        {
+          "question": "Ndazi njani ukuba isibonelelo sam siyekile (lapsed)?",
+          "answer": "Jonga imeko yakho rhoqo ngenyanga. Ukuba inyanga ibonisa 'Declined' (umzekelo 'Alternative Income Source') okanye awufumani nantoni na nangona bekusenzela phambi koko, isibonelelo siyekile kwangaloo nyanga ngenxa yovavanyo lwengeniso okanye iflegi yedatha. Lungisa imbangela esisiseko uze ubhene iinyanga ezaliweyo ngempazamo kwiintsuku ezingama-30 (okanye ukuya kwezingama-90 ngeportal yeITSAA)."
+        },
+        {
+          "question": "Yintoni ikhadi elimnyama lePostbank, kwaye ndiyafuna na?",
+          "answer": "ISASSA ithatha indawo yekhadi elidala eligolide leSASSA nekhadi elitsha elimnyama lePostbank. ISASSA ibhengeze umhla wokufuduka ongu-31 August 2026 ukuze abaxhamli batshintshe amakhadi abo kwindawo yePostbank okanye yeSASSA ukuze baqhubeke befumana iintlawulo. Ukuba ufumana intlawulo ngeEFT kwiakhawunti yakho yebhanki, oku kusenokungakuchaphazeli; ukuba uqokelela ngekhadi leSASSA/Postbank, qinisekisa imeko yakho kwii-tshannels ezisemthethweni, kuba iintsuku zingatshintsha."
+        },
+        {
+          "question": "Ndingaphinda ndifake isicelo emva kokuba iSRD yam icinyiwe?",
+          "answer": "Ukuba isibonelelo sakho sicinyiwe (umzekelo, emva kokungafaneleka ixesha elide), ngokuqhelekileyo kufuneka ungenise isicelo esitsha kunokuba usiqalise kwakhona. Ukuba savele sayeka okanye sathiqa kwiinyanga ezithile, ezo nyanga zingasonjululwa ngamahlaziyo nezibheno. Tyelela ipotala yeSRD okanye i-ofisi yeSASSA kwimeko yakho ethile."
+        },
+        {
+          "question": "Kutheni ndifuneka ukuqinisa kwakhona rhoqo emva kweenyanga ezintathu?",
+          "answer": "ISASSA ifuna ukuqinisa kwakhona rhoqo (malunga nenyanga ezintathu) ukuqinisekisa iinkcukacha zakho kunye nomfuno oqhubekayo, ecaleni kovavanyo lwengeniso lwanyanga. Lulawulo lokuqinisekisa ukuba isibonelelo siye kubantu abasahlangabezana neenkqubo. Qinisa kwakhona ngepotala esemthethweni xa ucelwa; ukuphosa kungashiya irekhodi lakho ligugile kwaye kuchaphazele iintlawulo."
+        },
+        {
+          "question": "Ngaba iSRD ibalwa ngokuchasene nezindlu ze-RDP okanye ezinye iimbonelelo zentlalo?",
+          "answer": "Isibonelelo seSRD yintlawulo yoncedo lwethutyana kwaye ngokuqhelekileyo ayiphathwa njengengeniso esisigxina kwezinye iinkqubo zentlalo, kodwa imithetho yezindlu nezinye iimbonelelo ibekwe ngamasebe karhulumente ahlukeneyo. Kwiimpendulo eziqinisekileyo malunga nokuba isibonelelo sinxibelelana njani nezindlu ze-RDP okanye olunye uncedo, qhagamshelana nesebe elifanelekileyo okanye i-ofisi yeSASSA, kwaye uthembele kwisikhokelo esisemthethweni."
+        },
+        {
+          "question": "Ndingayifumana na iSRD ukuba ndisele ndifumana iChild Support Grant yomntwana wam?",
+          "answer": "Ewe. IChild Support Grant ehlawulwa kumntwana wakho ngumkhethe kumthetho 'wesibonelelo esinye'. Ungafumana isibonelelo somntwana kwaye kwangaxeshanye ufumane iSRD R370 yakho, ngeemeko zokuba uhlangabezana nazo zonke iinkqubo zeSRD (iminyaka eyi-18 ukuya kwi-59, ingeniso engaphantsi okanye elingana neR624, akukho UIF/NSFAS, njalo njalo)."
+        },
+        {
+          "question": "Ndingalufumana phi uncedo lomntu ukuba inkqubo ye-intanethi inzima ukuyisebenzisa?",
+          "answer": "Ungafaka isicelo okanye ufumane uncedo eofisini yeSASSA okanye ngamaziko okufowuna asimahla nekiosk zokuzinceda zeSASSA, apho abasebenzi bakunceda khona ngaphandle kwentlawulo. Lumka nabani na okuhlawulisayo. Isikhokelo sethu seSRD help sicacisa indlela yokufikelela kuncedo lomntu, kwaye iphepha lokujonga imeko licacisa ukujonga ngeUSSD neWhatsApp."
+        },
+        {
+          "question": "Ndisixela njani isikrelemnqa seSRD okanye ubuqhetseba?",
+          "answer": "Xela ubuqhetseba kwiSASSA Fraud Hotline ku-0800 60 10 11, kwaye ungaze wabelane ngePIN, iphasiwedi, okanye iOTP. Sebenzisa kuphela iitshannels ezisemthethweni: i-srd.sassa.gov.za, umgca weWhatsApp 082 046 8553, okanye i-ofisi yeSASSA ngokwasemzimbeni."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Jonga Imeko Yakho YeSRD",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "Isikhokelo esipheleleyo sokujonga imeko yesibonelelo sakho seSRD"
+        },
+        {
+          "title": "Iindlela Zokuhlawula ZeSRD",
+          "href": "/grants/srd-r370-grant/payment-methods",
+          "description": "Indlela ofumana ngayo intlawulo yakho yeR370"
+        },
+        {
+          "title": "Uphononongo Lwanyanga LweSRD Luchaziwe",
+          "href": "/grants/srd-r370-grant/monthly-review",
+          "description": "Ukuqonda ukuphononongwa kwakhona kukufaneleka kwanyanga"
+        },
+        {
+          "title": "Indlela Yokufaka Isicelo SeSRD",
+          "href": "/grants/srd-r370-grant",
+          "description": "Isikhokelo sokufaka isicelo sinyathelo ngesinyathelo"
+        },
+        {
+          "title": "Bhena Isibonelelo SeSRD Esaliweyo",
+          "href": "/appeals/appeal-after-decline",
+          "description": "Indlela yokubhena ukuba iSRD yakho iyaliwe"
+        },
+        {
+          "title": "Isimo Se-Alternative Income Source",
+          "href": "/status/alternative-income-source",
+          "description": "Into eli simo elithethayo nendlela yokusilungisa"
+        },
+        {
+          "title": "Uncedo LweSRD: Iicall Centres Nekiosk",
+          "href": "/guides/srd-call-centre-kiosk-help",
+          "description": "Indlela yokufumana uncedo lomntu ukuba inkqubo ye-intanethi inzima"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "ILayibrari Yezibonelelo",
+      "slug": "/grants"
+    },
+    {
+      "title": "Isibonelelo saBantu abaDala",
+      "slug": "/grants/older-person-grant"
+    },
+    {
+      "title": "Isibonelelo sokuKhubazeka",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "SRD vs Ezinye Izibonelelo",
+      "slug": "/grants"
+    }
+  ]
+}

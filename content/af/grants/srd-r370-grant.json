@@ -1,0 +1,2190 @@
+{
+  "id": "grant-srd",
+  "slug": "/grants/srd-r370-grant",
+  "classification": "grant-detail",
+  "title": "Social Relief of Distress (SRD R370)-toelaag — Volledige Gids",
+  "description": "Volledige gids tot die SASSA SRD R370-toelaag (voorheen R350): kwalifikasievereistes, hoe om aanlyn of per WhatsApp aansoek te doen, betaaldatums, statustoetse, appèlle en alles wat begunstigdes moet weet.",
+  "lastUpdated": "2026-08-25",
+  "version": "2.0.0",
+  "readingTime": "10 min leestyd",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SRD R370-toelaag — Kyk Status, Doen Aansoek & Word Betaal (2026)",
+    "metaDescription": "Kyk jou SRD R370-status, doen aanlyn of per WhatsApp aansoek, en sien wanneer jy in 2026 betaal word — die volledige SASSA-maatskaplike noodlenigingstoelaaggids.",
+    "keywords": [
+      "SRD R370-toelaag",
+      "SASSA SRD-toelaag",
+      "R350-toelaag",
+      "SASSA R370",
+      "social relief of distress",
+      "SASSA COVID-toelaag",
+      "SRD-aansoek",
+      "SASSA-toelaag vir werkloses"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Amptelike Webwerf",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SRD R370 Amptelike Portaal",
+      "url": "https://srd.sassa.gov.za"
+    },
+    {
+      "label": "Departement van Maatskaplike Ontwikkeling",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "Onafhanklike Tribunaal (ITSAA)",
+      "url": "https://itsaa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Social Relief of Distress (SRD R370)-toelaag",
+      "description": "Volledige gids tot die SASSA SRD R370-toelaag (voorheen R350): kwalifikasievereistes, hoe om aanlyn of per WhatsApp aansoek te doen, betaaldatums, statustoetse, appèlle en alles wat begunstigdes moet weet.",
+      "readingTime": "68 min leestyd",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Kyk Jou Status",
+        "href": "/grants/srd-r370-grant/status-check"
+      },
+      "secondaryCta": {
+        "label": "Hoe om Aansoek te Doen",
+        "href": "/grants/srd-r370-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R370",
+      "frequency": "Maandeliks",
+      "targetGroup": "Werkloose Suid-Afrikaners tussen 18 en 59 met geen inkomste of finansiële ondersteuning nie."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Die Social Relief of Distress (SRD)-toelaag, algemeen bekend as die R370-toelaag (verhoog van R350 in 2025), is Suid-Afrika se grootste maatskaplike hulpprogram gemeet aan die aantal begunstigdes. Dit voorsien 'n maandelikse betaling aan werkloose volwassenes wat geen ander bron van inkomste of staatsondersteuning het nie. Die toelaag is verleng tot minstens Maart 2027."
+    },
+    {
+      "id": "quick-links-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Vinnige Aksies"
+    },
+    {
+      "id": "quick-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Kyk Jou SRD-status",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "Kyk jou aansoek- en betalingstatus aanlyn"
+        },
+        {
+          "title": "Doen aansoek vir die SRD-toelaag",
+          "href": "/grants/srd-r370-grant",
+          "description": "Stap-vir-stap-aansoekgids"
+        },
+        {
+          "title": "SRD-betalingsmetodes",
+          "href": "/grants/srd-r370-grant/payment-methods",
+          "description": "Hoe jy jou R370-betaling ontvang"
+        },
+        {
+          "title": "SRD-maandelikse hersiening",
+          "href": "/grants/srd-r370-grant/monthly-review",
+          "description": "Verstaan die maandelikse kwalifikasiekontrole"
+        },
+        {
+          "title": "Appèl teen 'n afgekeurde SRD",
+          "href": "/appeals/appeal-after-decline",
+          "description": "Hoe om te appelleer as jou SRD afgekeur word"
+        }
+      ]
+    },
+    {
+      "id": "eligibility-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Kwalifikasievereistes"
+    },
+    {
+      "id": "eligibility-intro",
+      "type": "paragraph",
+      "text": "Om vir die SRD R370-toelaag te kwalifiseer, moet jy aan AL die volgende vereistes voldoen:"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Suid-Afrikaanse burger, permanente inwoner, vlugteling, asielsoeker of houer van 'n spesiale permit",
+        "Tussen die ouderdomme van 18 en 59 jaar",
+        "Werkloos en ontvang geen inkomste nie",
+        "Ontvang geen ander maatskaplike toelaag van SASSA nie",
+        "Ontvang geen UIF (Unemployment Insurance Fund)-betalings nie",
+        "Ontvang geen NSFAS (National Student Financial Aid Scheme)-befondsing nie",
+        "Nie geregistreer vir PAYE-belasting nie",
+        "Geen maandelikse bankdeposito's van meer as R624 nie",
+        "Woon nie in 'n staatsbefondsde inrigting nie"
+      ]
+    },
+    {
+      "id": "amount-info-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Toelaagbedrag & Betaalskedule"
+    },
+    {
+      "id": "amount-info",
+      "type": "paragraph",
+      "text": "Die SRD-toelaag is R370 per maand. Betalings word tussen die 25ste en die laaste dag van elke maand gemaak. Anders as ander SASSA-toelaes het die SRD-toelaag nie 'n vaste enkele betaaldatum nie — betalings word progressief vanaf die 25ste uitgerol. Sommige begunstigdes kan binne hierdie venster vroeër of later betaling ontvang, afhangende van hul bank- of invorderingsmetode."
+    },
+    {
+      "id": "amount-table",
+      "type": "table",
+      "headers": [
+        "Besonderheid",
+        "Inligting"
+      ],
+      "rows": [
+        [
+          "Maandelikse bedrag",
+          "R370"
+        ],
+        [
+          "Betaalvenster",
+          "25ste tot laaste dag van elke maand"
+        ],
+        [
+          "Betaalmetode",
+          "Bank EFT of Cash Send (kleinhandel-invordering)"
+        ],
+        [
+          "Toelaagtipe",
+          "Social Relief of Distress (SRD)"
+        ],
+        [
+          "Verlenging",
+          "Befonds tot minstens Maart 2027"
+        ]
+      ]
+    },
+    {
+      "id": "how-to-apply-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Hoe om vir die SRD R370-toelaag aansoek te doen"
+    },
+    {
+      "id": "apply-intro",
+      "type": "paragraph",
+      "text": "Die SRD-toelaagaansoek is ten volle aanlyn — jy hoef nie 'n SASSA-kantoor te besoek om aansoek te doen nie. Daar is twee maniere om aansoek te doen. As jy sukkel met die aanlynstelsel, het SASSA gratis oproepsentrums en selfbedieningskiosks waar personeel jou persoonlik kan help om aansoek te doen — sien ons gids tot oproepsentrums en kiosks vir die volle besonderhede."
+    },
+    {
+      "id": "apply-methods-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Metode 1: Aanlynportaal (srd.sassa.gov.za)"
+    },
+    {
+      "id": "apply-online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Besoek die SRD-webwerf",
+          "description": "Gaan na srd.sassa.gov.za op jou foon, tablet of rekenaar."
+        },
+        {
+          "title": "Voer jou ID-nommer in",
+          "description": "Tik jou 13-syfer Suid-Afrikaanse ID-nommer in. Asielsoekers en houers van spesiale permitte moet hul permitnommers gebruik."
+        },
+        {
+          "title": "Voer jou telefoonnommer in",
+          "description": "Gee die selfoonnommer wat in jou naam geregistreer is. SASSA sal 'n OTP na hierdie nommer stuur."
+        },
+        {
+          "title": "Lees en aanvaar die verklaring",
+          "description": "Lees die bepalings en voorwaardes versigtig deur. Merk die blokkies om te bevestig dat jy aan die kwalifikasievereistes voldoen."
+        },
+        {
+          "title": "Dien jou aansoek in",
+          "description": "Klik versend. Jy sal 'n bevestigings-SMS met jou aansoekverwysingsnommer ontvang."
+        }
+      ]
+    },
+    {
+      "id": "apply-whatsapp-h",
+      "type": "heading",
+      "level": 4,
+      "text": "Metode 2: WhatsApp"
+    },
+    {
+      "id": "whatsapp-text",
+      "type": "paragraph",
+      "text": "Jy kan ook via die SASSA WhatsApp-lyn aansoek doen. Stoor 082 046 8553 in jou telefoonkontakte, stuur 'SASSA' om die gesprek te begin, en volg die kieslysaanwysings om 'n nuwe aansoek in te dien. Die WhatsApp-diens is gratis op die meeste Suid-Afrikaanse netwerke."
+    },
+    {
+      "id": "after-applying-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Wat gebeur nadat jy aansoek gedoen het"
+    },
+    {
+      "id": "after-applying",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Aansoek ontvang",
+          "description": "SASSA bevestig ontvangs per SMS. Jou aansoek gaan in die verifikasieproses in."
+        },
+        {
+          "title": "Verifikasie aan die gang",
+          "description": "SASSA kontroleer jou ID teen die Home Affairs-, SARS-, UIF- en NSFAS-databasisse. Jou bankrekeningbesonderhede word geverifieer."
+        },
+        {
+          "title": "Maandelikse evaluering",
+          "description": "Na aanvanklike goedkeuring word jou kwalifisering elke maand deur geoutomatiseerde bank- en databasis-kontroles herevalueer."
+        },
+        {
+          "title": "Betaling",
+          "description": "As jy vir die maand goedgekeur is, word betaling tussen die 25ste en die 30ste per bank EFT of Cash Send gemaak."
+        }
+      ]
+    },
+    {
+      "id": "monthly-review-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Maandelikse hersieningsproses — belangrik"
+    },
+    {
+      "id": "monthly-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Jou status verander elke maand",
+      "text": "Anders as ander SASSA-toelaes word die SRD-toelaag NIE permanent goedgekeur nie. Elke maand evalueer SASSA jou kwalifisering opnuut deur jou bankrekening en staatsdatabasisse te kontroleer. Jou status kan van een maand tot die volgende van 'Goedgekeur' na 'Afgekeur' verander, na gelang van jou finansiële aktiwiteit. Kontroleer altyd jou status elke maand."
+    },
+    {
+      "id": "documents-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Dokumente benodig"
+    },
+    {
+      "id": "documents",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Geldige Suid-Afrikaanse ID-nommer (13 syfers)",
+          "required": true
+        },
+        {
+          "label": "Selfoonnommer in jou naam geregistreer",
+          "required": true
+        },
+        {
+          "label": "Bankrekeningbesonderhede (vir direkte betaling) of voorkeur vir Cash Send",
+          "required": true
+        },
+        {
+          "label": "Asielsoeker- of spesiale-permitnommer (indien van toepassing)",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "status-check-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Hoe om jou SRD-status na te gaan"
+    },
+    {
+      "id": "status-check",
+      "type": "paragraph",
+      "text": "Jy kan jou SRD-toelaagstatus deur verskeie kanale nagaan. Die algemeenste metode is die aanlynportaal by srd.sassa.gov.za — voer jou ID-nommer en die telefoonnommer wat tydens aansoek gebruik is, in, verifieer met 'n OTP, en jou statuspaneel verskyn. Jy kan ook per WhatsApp (082 046 8553), USSD (*134*7737#), of deur 'n SASSA-kantoor te besoek, nagaan. Vir 'n volledige gids, sien ons toegewyde statusbladsy."
+    },
+    {
+      "id": "common-statuses-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Algemene SRD-statusse verduidelik"
+    },
+    {
+      "id": "common-statuses",
+      "type": "table",
+      "headers": [
+        "Status",
+        "Betekenis",
+        "Wat om te doen"
+      ],
+      "rows": [
+        [
+          "Hangende",
+          "Aansoek is in die verifikasietou",
+          "Wag 7-14 werksdae. Geen aksie nodig nie."
+        ],
+        [
+          "Goedgekeur",
+          "Jy kwalifiseer vir betaling hierdie maand",
+          "Wag vir betaling tussen die 25ste-30ste."
+        ],
+        [
+          "Betaling word verwerk",
+          "Fondse word oorgedra",
+          "Fondse word binne 1-3 werksdae weerspieël."
+        ],
+        [
+          "Afgekeur",
+          "Jy het nie hierdie maand gekwalifiseer nie",
+          "Kontroleer die redeskode en appelleer binne 30 dae (of tot 90 dae deur die ITSAA-portaal)."
+        ],
+        [
+          "Alternatiewe Inkomstebron",
+          "Bankdeposito's het die drempel oorskry",
+          "Appelleer met 'n beëdigde verklaring wat die deposito's verduidelik."
+        ],
+        [
+          "Bankverifikasie hangend",
+          "Bankrekening word geverifieer",
+          "Maak seker die rekening is aktief en in jou naam."
+        ],
+        [
+          "Identiteitsverifikasie misluk",
+          "ID stem nie ooreen met Home Affairs nie",
+          "Voltooi gesigsverifikasie of besoek Home Affairs."
+        ],
+        [
+          "Verwys",
+          "Gemerk vir bedrogondersoek",
+          "Kontak die SASSA-bedrogblitslyn om dit op te los."
+        ],
+        [
+          "Gekanselleer",
+          "Toelaag permanent gestaak",
+          "Besoek die SASSA-kantoor om herinstelling te versoek."
+        ],
+        [
+          "Aansoek voltooi",
+          "Profiel volledig opgestel",
+          "Wag vir maandelikse evaluering. Geen aksie nodig nie."
+        ]
+      ]
+    },
+    {
+      "id": "appeal-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Hoe om teen 'n afgekeurde SRD-toelaag te appelleer"
+    },
+    {
+      "id": "appeal-text",
+      "type": "paragraph",
+      "text": "As jou SRD-toelaag vir enige maand afgekeur word, het jy die reg om te appelleer. Appèlle word deur die Independent Tribunal for Social Assistance Appeals (ITSAA) hanteer, nie deur SASSA self nie. Jy het 30 dae vanaf die datum van afkeuring om jou appèl in te dien (die ITSAA-portaal aanvaar appèlle tot 90 dae). Omdat elke maand afsonderlik geëvalueer word, moet jy teen elke afgekeurde maand individueel appelleer."
+    },
+    {
+      "id": "appeal-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Besoek die DSD-appèlwebwerf",
+          "description": "Gaan na srd.dsd.gov.za op jou foon of rekenaar."
+        },
+        {
+          "title": "Voer jou ID- en telefoonnommer in",
+          "description": "Gee jou ID-nommer en die telefoonnommer wat in jou aansoek gebruik is. Verifieer met die OTP wat na jou foon gestuur is."
+        },
+        {
+          "title": "Kies die maand(e) om te appelleer",
+          "description": "Kies elke maand wat 'Afgekeur' toon. Jy kan verskeie maande in een sessie appelleer."
+        },
+        {
+          "title": "Kies jou rede vir die appèl",
+          "description": "Kies die rede uit die afrolkieslys wat by jou situasie pas (bv. 'Werkloos', 'Geen inkomste', 'UIF-fout')."
+        },
+        {
+          "title": "Laai ondersteunende dokumente op",
+          "description": "Heg jou beëdigde verklaring, bankstate, UIF-beëindigingsbrief of NSFAS-kansellasiebrief as bewyse aan."
+        },
+        {
+          "title": "Dien in en stoor jou verwysingsnommer",
+          "description": "Stoor jou appèlverwysingsnommer na indiening. Jy sal dit vir opvolgings nodig hê."
+        }
+      ]
+    },
+    {
+      "id": "payment-methods-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Betaalmetodes"
+    },
+    {
+      "id": "payment-text",
+      "type": "paragraph",
+      "text": "Jy kan jou SRD-toelaag deur twee metodes ontvang: direkte bankoordrag (EFT) na jou persoonlike bankrekening, of Cash Send (kleinhandel-invordering) by deelnemende winkels. Jy kan te eniger tyd deur die SRD-portaal tussen metodes wissel. Veranderinge tree vanaf die volgende maand in werking."
+    },
+    {
+      "id": "payment-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Geen bankrekening nodig nie",
+      "text": "Jy het nie 'n bankrekening nodig om die SRD-toelaag te ontvang nie. Kies 'Cash Send' as jou betaalmetode en trek jou toelaag by enige Pick n Pay-, Shoprite-, Boxer-, Checkers- of Usave-winkel met die SMS-bewys wat na jou foon gestuur is."
+    },
+    {
+      "id": "qualify-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Wie vir die SRD R370-toelaag kwalifiseer — in besonderhede"
+    },
+    {
+      "id": "qualify-citizenship",
+      "type": "paragraph",
+      "text": "Die SRD R370-toelaag is oop vir 'n breë groep mense wat in Suid-Afrika woon, maar die reëls oor wie as 'kwalifiseer' gereken word, is strenger as wat baie besef. SASSA moet beide jou identiteit en jou inwoningsstatus teen amptelike staatsrekords bevestig voordat enige betaling goedgekeur word. Die toelaag is bedoel vir mense wat werklik sonder inkomste of ander vorme van staatsondersteuning is, daarom kontroleer die agentskap elke aansoek teen verskeie nasionale databasisse. Om aan een of twee vereistes te voldoen, is nie genoeg nie — jy moet terselfdertyd aan almal voldoen, en jy moet elke maand aan hulle bly voldoen."
+    },
+    {
+      "id": "qualify-citizenship-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Burgerskap-, vlugteling- en inwoningsstatus"
+    },
+    {
+      "id": "qualify-citizenship-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Suid-Afrikaanse burgers met 'n geldige 13-syfer ID-nommer.",
+        "Permanente inwoners met 'n geldige Suid-Afrikaanse permanente-inwoningpermit.",
+        "Vlugtelinge wat formeel op die Departement van Binnelandse Sake-stelsel geregistreer is.",
+        "Asielsoekers en houers van spesiale permitte, wat met hul permitnommers eerder as 'n Suid-Afrikaanse ID-nommer aansoek doen.",
+        "Jy moet fisies teenwoordig en gewoonlik in Suid-Afrika woonagtig wees. Die toelaag is nie beskikbaar vir mense wat buite die land woon nie."
+      ]
+    },
+    {
+      "id": "qualify-age-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Die ouderdomsreël: 18 tot 59 jaar"
+    },
+    {
+      "id": "qualify-age",
+      "type": "paragraph",
+      "text": "Jy moet minstens 18 jaar oud wees en nog nie 60 nie. Die SRD-toelaag is ontwerp as 'n oorbrugging vir volwassenes in die werkende ouderdomsgroep wat buite ander toelaagkategorieë val. As jy 60 of ouer is, moet jy eerder vir die Toelaag vir Bejaardes (Older Person's Grant) aansoek doen, wat 'n permanente toelaag met sy eie (hoër) bedrag en 'n ander middeletoets is. As jy onder 18 is, kan jy nie die SRD-toelaag in jou eie naam ontvang nie; ondersteuning vir kinders kom deur die Kinderondersteuningstoelaag wat aan 'n versorger betaal word. Die ouderdomskontrole word outomaties met jou geboortedatum op die Home Affairs-bevolkingsregister toegepas, so jy hoef nie afsonderlik bewys van ouderdom in te dien nie."
+    },
+    {
+      "id": "qualify-income-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Inkomste en die R624-middeletoets"
+    },
+    {
+      "id": "qualify-income",
+      "type": "paragraph",
+      "text": "Die enkele belangrikste reël is die inkomste-(middele-)toets. Om die SRD-toelaag te ontvang, moet jou beoordeelde maandelikse inkomste op of onder R624 wees. Hierdie drempel is die syfer wat SASSA gebruik wanneer dit elke maand jou bankrekening en ander rekords kontroleer. As deposito's in jou rekening daarop dui dat jy in 'n gegewe maand meer as R624 verdien, sal die stelsel jou as hebbende 'n 'alternatiewe inkomstebron' merk en daardie maand afkeur. Dit maak nie saak of die geld 'n salaris, 'n geskenk, 'n stokveluitbetaling of 'n eenmalige oordrag is nie — wat saak maak, is die totaal wat teen die drempel jou rekening bereik. Die toets kyk na jou individuele finansiële posisie, nie dié van jou huishouding nie, maar enige geld wat in jou eie rekening gedeponeer word, tel steeds by jou totaal."
+    },
+    {
+      "id": "qualify-income-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Wat 'inkomste' hier beteken",
+      "text": "SASSA kyk na geld wat jou bankrekening binnevloei, nie net formele indiensneming nie. Informele verdienste, gereelde ondersteuning van familie, en selfs groot eenmalige deposito's kan jou beoordeling beïnvloed. As 'n deposito nie werklik inkomste is nie, moet jy dit dalk tydens 'n appèl met 'n beëdigde verklaring verduidelik."
+    },
+    {
+      "id": "qualify-disqualify-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Inkomste en ondersteuning wat jou diskwalifiseer"
+    },
+    {
+      "id": "qualify-disqualify-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "'n Gereelde salaris of loon wat deur PAYE verwerk word (jy is formeel werksaam).",
+        "Aktiewe UIF (Unemployment Insurance Fund)-betalings — byvoorbeeld ná 'n aflegging.",
+        "NSFAS-befondsing (die National Student Financial Aid Scheme) terwyl jy 'n geregistreerde student is.",
+        "Enige ander SASSA-maatskaplike toelaag wat persoonlik aan jou betaal word, met een spesifieke uitsondering: die Kinderondersteuningstoelaag wat vir jou eie kind betaal word, diskwalifiseer jou nie.",
+        "Inwoningskap in 'n staatsbefondsde inrigting soos 'n gevangenis, 'n staatsbestuurde versorgingsfasiliteit of 'n soortgelyke regeringsbefondsde tehuis."
+      ]
+    },
+    {
+      "id": "qualify-special-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Spesiale gevalle: studente, gig-werkers en huishoudelike werkers"
+    },
+    {
+      "id": "qualify-special-students",
+      "type": "paragraph",
+      "text": "Studente is 'n algemene bron van verwarring. As jy NSFAS-befondsing ontvang, word jy van die SRD-toelaag gediskwalifiseer solank daardie befondsing aktief is, omdat NSFAS as regeringsfinansiële ondersteuning behandel word. Studente wat NIE deur NSFAS befonds word nie en wat geen ander inkomste het nie, kan steeds kwalifiseer, mits hul maandelikse inkomste op of onder R624 bly. Beurse van private maatskappye of families is nie dieselfde as NSFAS nie, maar enige gereelde deposito tel steeds by die inkomstetoets, so 'n private beurs wat jou bo die drempel stoot, sal jou uitslag beïnvloed."
+    },
+    {
+      "id": "qualify-special-gig",
+      "type": "paragraph",
+      "text": "Gig-werkers en los arbeiders (soos ritbestuurders, afleweringsryers, vryskutwerkers en dagloners) kan SLEGS kwalifiseer as hul totale maandelikse verdienste op of onder R624 is. Omdat gig-inkomste onreëlmatig is, kan jou status van maand tot maand tussen 'Goedgekeur' en 'Afgekeur' wissel soos deposito's verander. Hou jou bankaktiwiteit so skoon as moontlik en wees gereed om maande te appelleer waar 'n opregte lae-inkomste-situasie verkeerdelik gemerk is. 'n Enkele goeie maand bo die drempel sal nie jou toelaag permanent kanselleer nie — dit raak slegs daardie spesifieke maand."
+    },
+    {
+      "id": "qualify-special-domestic",
+      "type": "paragraph",
+      "text": "Huishoudelike werkers en ander deeltydse werknemers kwalifiseer slegs wanneer hul verdienste onder die R624-drempel is EN hulle nie vir PAYE geregistreer is nie. As jou werkgewer jou formeel deur 'n betaalstrokie en PAYE betaal, word jy oor die algemeen as werksaam beskou en sal jy nie vir daardie maand kwalifiseer nie. As jy af en toe, baie lae-betaling werk doen wat jou onder R624 hou, mag jy kwalifiseer, maar die maandelikse bankkontroles beteken dat jy werklik onder die perk moet val. Informele huishoudelike werk wat in kontant betaal word en nooit jou bankrekening bereik nie, sal nie deur SASSA gesien word nie, maar jy moet steeds jou indiensnemingstatus eerlik verklaar."
+    },
+    {
+      "id": "means-test-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die middeletoets verduidelik, met uitgewerkte voorbeelde"
+    },
+    {
+      "id": "means-test-intro",
+      "type": "paragraph",
+      "text": "Die middeletoets is eenvoudig SASSA se manier om een vraag te beantwoord: 'Het hierdie persoon genoeg inkomste om sonder hierdie toelaag te leef?' Die toets is outomaties. Elke maand ontvang SASSA inkomstedata en vergelyk dit met die R624-drempel. Hieronder is realistiese voorbeelde van hoe die toets uitwerk. Dit is illustrasies om jou te help om die logika te verstaan — jou eie situasie word op jou werklike bank- en databasisrekords beoordeel, en grensgevalle (soos 'n groot maar nie-inkomste-deposito) word tydens die appèlproses eerder as by die aanvanklike toets hanteer."
+    },
+    {
+      "id": "means-test-examples",
+      "type": "table",
+      "headers": [
+        "Situasie",
+        "Maandelikse inkomste / situasie",
+        "Waarskynlike uitslag"
+      ],
+      "rows": [
+        [
+          "Glad geen inkomste nie",
+          "R0 in die rekening",
+          "Kwalifiseer — goedgekeur as aan alle ander vereistes voldoen word."
+        ],
+        [
+          "Af en toe lae-betaling werk",
+          "R500 per maand",
+          "Kwalifiseer — onder die R624-drempel."
+        ],
+        [
+          "Matige los verdienste",
+          "R700 per maand",
+          "Waarskynlik afgekeur — bo die R624-drempel."
+        ],
+        [
+          "Ontvang UIF",
+          "UIF aktief",
+          "Gediskwalifiseer — UIF is diskwalifiserende inkomste."
+        ],
+        [
+          "Ontvang NSFAS",
+          "NSFAS aktief",
+          "Gediskwalifiseer — NSFAS is diskwalifiserende ondersteuning."
+        ],
+        [
+          "Op 'n ander SASSA-toelaag",
+          "Enige (behalwe kindertoelaag vir eie kind)",
+          "Gediskwalifiseer — slegs een toelaag op 'n slag."
+        ],
+        [
+          "Formeel werksaam (PAYE)",
+          "Salaris betaal",
+          "Gediskwalifiseer — formele indiensnemingsinkomste."
+        ]
+      ],
+      "caption": "Illustratiewe middeletoets-uitslae. Die R624-syfer is die huidige amptelike drempel."
+    },
+    {
+      "id": "means-test-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Die drempel kan bygewerk word",
+      "text": "Die R624-syfer weerspieël die huidige middeletoetsvlak wat deur SASSA gepubliseer word. Die regering kan hierdie bedrag mettertyd aanpas. Behandel die syfer altyd as 'die jongste amptelike drempel' en bevestig dit op srd.sassa.gov.za as jy onseker is."
+    },
+    {
+      "id": "means-test-sars",
+      "type": "paragraph",
+      "text": "Hoe SARS-data gebruik word: SASSA besluit nie jou inkomste uit niks uit nie. Dit ontvang verifikasievoere van die South African Revenue Service (SARS), die Departement van Binnelandse Sake, die UIF-stelsel en NSFAS. As SARS toon dat jy vir PAYE geregistreer is of verklaarde indiensnemingsinkomste bo die drempel het, sal die stelsel jou afkeur. Daarom is dit belangrik om seker te maak jou belasting- en indiensnemingsrekords is akkuraat — 'n ou of verkeerde werkgewerregistrasie kan jou toelaag verkeerdelik blokkeer totdat dit by SARS reggestel word. As jy glo 'n vorige werkgewer lys jou steeds as 'n werknemer, moet jy dit dalk met SARS uitklaar en dan die betrokke maande appelleer."
+    },
+    {
+      "id": "apply-online-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om stap vir stap (aanlyn) vir die SRD-toelaag aansoek te doen"
+    },
+    {
+      "id": "apply-online-detail-intro",
+      "type": "paragraph",
+      "text": "Aanlyn aansoek doen is die vinnigste en goedkoopste roete, en dit is heeltemal gratis. Jy hoef niemand te betaal nie, en jy hoef nie 'n kantoor te besoek nie. Maak gereed voordat jy begin: jou ID- (of permit-)nommer en 'n selfoon in jou naam, plus jou bankbesonderhede as jy betaling per EFT wil ontvang. Die stapsgewyse uiteensetting hieronder brei die basiese stappe uit met praktiese besonderhede wat baie aansoekers mis. Vir 'n aparte, gestruktureerde oorsig kan jy ook die hoof-SRD-aansoekrighlydblad hieronder lees.",
+      "links": [
+        {
+          "text": "SRD-aansoekrighlyne",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "apply-online-detail-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Maak die amptelike portaal oop",
+          "description": "Besoek srd.sassa.gov.za. Dit is die enigste amptelike SRD-aansoekwebwerf. Boekmerk dit en vermy om derdeparty-'agente' te betaal wat belowe om namens jou aansoek te doen."
+        },
+        {
+          "title": "Begin 'n nuwe aansoek",
+          "description": "Rol af na die aansoekafdeling vir Suid-Afrikaanse ID-houers (of die aparte afdeling vir asielsoekers/houers van spesiale permitte). Voer jou 13-syfer ID-nommer in."
+        },
+        {
+          "title": "Verifieer jou selfoonnommer",
+          "description": "Voer die selfoonnommer in wat in jou naam geregistreer is. SASSA stuur 'n eenmalige PIN (OTP) per SMS. Tik dit in om te bewys jy beheer die nommer. Moet nooit hierdie OTP met enigiemand deel nie."
+        },
+        {
+          "title": "Teken jou persoonlike besonderhede aan",
+          "description": "Bevestig jou naam, van en geboortedatum presies soos dit op jou ID verskyn. Rekenverskille met Home Affairs is 'n groot rede vir vertragings en verifikasiefoute."
+        },
+        {
+          "title": "Kies jou betaalmetode",
+          "description": "Kies bankrekening (voer rekeningnommer, tak en bank in) of Cash Send / kleinhandel-invordering. Die rekening moet in jou eie naam wees."
+        },
+        {
+          "title": "Aanvaar die verklarings",
+          "description": "Merk die blokkies wat bevestig dat jy aan die vereistes voldoen: werkloos, geen ander toelaag, geen UIF/NSFAS, inkomste op of onder R624, en nie in 'n staatsinrigting nie."
+        },
+        {
+          "title": "Dien in en stoor jou verwysing",
+          "description": "Dien die vorm in. Jy ontvang 'n SMS wat ontvangs met jou aansoekverwysing bevestig. Hou dit vir opvolgings en statustoetse."
+        }
+      ]
+    },
+    {
+      "id": "apply-online-tips",
+      "type": "callout",
+      "intent": "info",
+      "title": "Gratis en selfbediening",
+      "text": "Die aanlynaansoek is gratis. As jy nie die webwerf kan gebruik nie, kan jy via die SASSA WhatsApp-lyn aansoek doen of 'n SASSA-kantoor of 'n hulpkiosk sonder koste besoek. Niemand wat wettig is, sal jou laat betaal om aansoek te doen nie."
+    },
+    {
+      "id": "apply-whatsapp-h2",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om via die SASSA WhatsApp-lyn aansoek te doen"
+    },
+    {
+      "id": "apply-whatsapp-intro",
+      "type": "paragraph",
+      "text": "As jy nie maklike toegang tot 'n blaaier het nie, of jy verkies eenvoudig jou foon, kan jy die hele aansoek op WhatsApp voltooi. Die diens word deur SASSA op die nommer 082 046 8553 aangebied en is gratis op die meeste Suid-Afrikaanse selfoonnetwerke. Die WhatsApp-kanaal voer dieselfde kontroles uit en bereik dieselfde uitslag as die webwerf."
+    },
+    {
+      "id": "apply-whatsapp-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Stoor die nommer",
+          "description": "Voeg 082 046 8553 as 'SASSA SRD' by jou telefoonkontakte."
+        },
+        {
+          "title": "Begin die klets",
+          "description": "Maak WhatsApp oop, stuur 'n boodskap 'SASSA' (of 'HI') na 082 046 8553, en stuur dit."
+        },
+        {
+          "title": "Kies die aansoekopsie",
+          "description": "Volg die antwoordkieslys. Kies die opsie vir 'n nuwe SRD-aansoek (gewoonlik deur met die ooreenstemmende nommer of sleutelwoord te antwoord)."
+        },
+        {
+          "title": "Voer jou ID en besonderhede in",
+          "description": "Tik jou 13-syfer ID-nommer (of permitnommer) en jou persoonlike besonderhede presies soos op jou ID wanneer gevra word."
+        },
+        {
+          "title": "Bevestig jou selfoon en OTP",
+          "description": "Bevestig die nommer waarvan jy klets. SASSA stuur 'n OTP; voer dit in wanneer gevra word."
+        },
+        {
+          "title": "Kies betaalmetode en dien in",
+          "description": "Kies bank EFT of Cash Send, aanvaar die verklarings, en dien in. Jy kry 'n SMS-bevestiging met jou verwysingsnommer."
+        }
+      ]
+    },
+    {
+      "id": "apply-whatsapp-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Dieselfde toelaag, dieselfde reëls",
+      "text": "Om op WhatsApp aansoek te doen, gebruik presies dieselfde kwalifikasievereistes en middeletoets as die webwerf. Dit verander slegs die kanaal — nie die uitslag of die bedrag nie."
+    },
+    {
+      "id": "documents-before-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Dokumente en besonderhede wat jy nodig het voordat jy aansoek doen"
+    },
+    {
+      "id": "documents-before-list",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Suid-Afrikaanse ID-nommer (13 syfers) OF 'n geldige asielsoeker-/spesiale-permitnommer",
+          "required": true,
+          "notes": "Word gebruik om jou identiteit teen Home Affairs te verifieer."
+        },
+        {
+          "label": "Selfoonnommer in jou naam geregistreer",
+          "required": true,
+          "notes": "Jy ontvang die OTP en alle status-SMS'e op hierdie nommer."
+        },
+        {
+          "label": "Bankrekening in jou eie naam (as jy EFT kies)",
+          "required": false,
+          "notes": "Rekeninghouer moet met jou ID ooreenstem. Jy kan eerder Cash Send kies as jy geen bankrekening het nie."
+        },
+        {
+          "label": "Bewys van geen ander inkomste nie (slegs as dit tydens appèl gevra word)",
+          "required": false,
+          "notes": "'n Beëdigde verklaring of bankstaat mag nodig wees as 'n maand afgekeur word."
+        },
+        {
+          "label": "Jou aansoekverwysingsnommer (nadat jy aansoek gedoen het)",
+          "required": false,
+          "notes": "Stoor die SMS sodat jy later status kan nagaan en appelleer."
+        }
+      ]
+    },
+    {
+      "id": "documents-before-notes",
+      "type": "paragraph",
+      "text": "Jy hoef nie geskandeerde dokumente op te laai om aansoek te doen nie. SASSA verifieer die meeste inligting elektronies teen staatsdatabasisse. Die belangrikste dinge wat jy akkuraat moet verskaf, is jou ID-/permitnommer, jou telefoonnommer en jou betaalbesonderhede. As jy ooit getroud was en jou van van Home Affairs-rekords verskil, maak seker jy doen aansoek met die presiese naam op jou ID om 'n 'Identiteitsverifikasie misluk'-uitslag te vermy. As jy geen bankrekening het nie, kies Cash Send by aansoek en trek dit by 'n kleinhandelaar in — geen dokument is vir daardie keuse nodig buiten jou ID nie."
+    },
+    {
+      "id": "after-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Nadat jy aansoek gedoen het: wat tydens verifikasie gebeur"
+    },
+    {
+      "id": "after-apply-verify",
+      "type": "paragraph",
+      "text": "Om jou aansoek in te dien is slegs die eerste stap. SASSA voer dan 'n geoutomatiseerde verifikasieproses uit wat jou besonderhede teen verskeie regeringstelsels kontroleer. Om dit te verstaan, help jou om te sien waarom 'n uitslag tyd kan neem — en waarom 'n status van een maand tot die volgende kan wissel, selfs nadat jy voorheen betaal is. Dieselfde kontroles word elke maand uitgevoer, daarom kan 'n voorheen goedgekeurde begunstigde later afgekeur word as hul omstandighede verander."
+    },
+    {
+      "id": "verification-process",
+      "type": "process-diagram",
+      "steps": [
+        {
+          "label": "Identiteitskontrole (Home Affairs)",
+          "description": "Jou ID of permit word teen die bevolkingsregister van die Departement van Binnelandse Sake gekontroleer om te bevestig dat jy bestaan en 'n erkende inwoner is."
+        },
+        {
+          "label": "Inkomstekontrole (SARS / banke)",
+          "description": "SASSA kontroleer of jy vir PAYE geregistreer is of deposito's bo die R624-drempel in jou bankrekening toon."
+        },
+        {
+          "label": "UIF-kontrole",
+          "description": "Jou ID word teen die UIF-stelsel gekontroleer om te bevestig dat jy nie werkloosheidsversekeringsbetalings ontvang nie."
+        },
+        {
+          "label": "NSFAS-kontrole",
+          "description": "Jou ID word teen NSFAS-rekords gekontroleer om te bevestig dat jy tans nie as 'n student befonds word nie."
+        },
+        {
+          "label": "Ander-toelaag-kontrole",
+          "description": "SASSA bevestig dat jy nie reeds 'n ander SASSA-toelaag ontvang nie (behalwe die Kinderondersteuningstoelaag vir jou eie kind)."
+        },
+        {
+          "label": "Staatsinrigting-kontrole",
+          "description": "Bevestig dat jy nie in 'n gevangenis of staatsbefondsde versorgingsfasiliteit woon nie."
+        }
+      ]
+    },
+    {
+      "id": "after-apply-timing",
+      "type": "callout",
+      "intent": "info",
+      "title": "Tydsberekening van die eerste besluit",
+      "text": "Aanvanklike verifikasie neem gewoonlik 'n paar dae tot 'n paar weke. Daarna word elke maand outomaties met dieselfde kontroles herevalueer, so jy doen nie weer aansoek nie — maar jy moet jou status bly nagaan, veral rondom betaaldatums."
+    },
+    {
+      "id": "declined-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Waarom SRD-aansoeke afgekeur word — en hoe om elkeen reg te maak"
+    },
+    {
+      "id": "declined-reasons",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Inkomste bo die drempel: jou bank het in die beoordeelde maand deposito's van meer as R624 getoon. Regstelling: as die geld nie inkomste was nie ('n geskenk, leningsbetaling of fout), appelleer met 'n beëdigde verklaring wat elke deposito verduidelik.",
+        "ID stem nie met Home Affairs ooreen nie: jou naam of geboortedatum stem nie met rekords ooreen nie. Regstelling: voltooi die gesigsverifikasie-aanwysing in die SRD-portaal, of werk jou besonderhede by Home Affairs by, en kontroleer dan weer.",
+        "Reeds op 'n ander toelaag: die stelsel sien dat jy 'n ander SASSA-toelaag ontvang. Regstelling: jy moet een toelaag kies; as die ander toelaag geëindig het, werk jou rekords by en appelleer die afgekeurde maand.",
+        "NSFAS bespeur: jy word as 'n befondsde student gemerk. Regstelling: as jou NSFAS-befondsing geëindig het, laai 'n kansellasie- of beëindigingsbrief op en appelleer.",
+        "UIF bespeur: jy ontvang UIF. Regstelling: sodra UIF ophou, appelleer die maand met jou UIF-beëindigingsbrief.",
+        "Bedrieglike of verkeerde inligting: vals besonderhede is verskaf. Regstelling: korrigeer jou aansoek deur die portaal of 'n SASSA-kantoor; dien nooit vals inligting in nie, aangesien dit tot 'n bedrogverwysing kan lei."
+      ]
+    },
+    {
+      "id": "declined-fix",
+      "type": "callout",
+      "intent": "danger",
+      "title": "Appelleer, moenie net weer aansoek doen nie",
+      "text": "Om met dieselfde besonderhede weer aansoek te doen, sal nie 'n afkeuring regmaak nie en kan duplikate skep. Die korrekte roete is om die spesifieke afgekeurde maand binne 30 dae (of tot 90 dae deur die ITSAA-portaal) deur die Independent Tribunal (ITSAA) te appelleer."
+    },
+    {
+      "id": "appeal-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om teen 'n afgekeurde SRD-maand te appelleer"
+    },
+    {
+      "id": "appeal-detail-intro",
+      "type": "paragraph",
+      "text": "As 'n spesifieke maand afgekeur word en jy glo die besluit is verkeerd, kan jy appelleer. Appèlle word onafhanklik deur die Independent Tribunal for Social Assistance Appeals (ITSAA) hanteer, nie deur SASSA nie. Twee reëls is kritiek: jy moet binne 30 dae (of tot 90 dae deur die ITSAA-portaal) van die afgekeurde maand appelleer, en jy moet elke afgekeurde maand afsonderlik appelleer, omdat elke maand op sy eie beoordeel word. Vir 'n vollediger uiteensetting, sien ons appèlgidsbladsy hieronder.",
+      "links": [
+        {
+          "text": "appèlgids",
+          "href": "/appeals/appeal-after-decline"
+        }
+      ]
+    },
+    {
+      "id": "appeal-detail-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Gaan na die appèlportaal",
+          "description": "Besoek srd.sassa.gov.za/appeal of itsaa.gov.za. Dit is die amptelike ITSAA-appèlkanale."
+        },
+        {
+          "title": "Voer jou ID en foon in",
+          "description": "Gee jou ID-nommer en die selfoonnommer wat in jou aansoek gebruik is, en verifieer dan met die OTP wat na jou gestuur is."
+        },
+        {
+          "title": "Kies die afgekeurde maand",
+          "description": "Kies die spesifieke maand wat as 'Afgekeur' getoon word. Herhaal dit vir elke maand wat jy wil betwis — hulle word nie in een appèl saamgevoeg nie."
+        },
+        {
+          "title": "Stel jou rede",
+          "description": "Kies die rede wat pas (byvoorbeeld werkloos, geen inkomste, of UIF/NSFAS geëindig)."
+        },
+        {
+          "title": "Laai bewyse op",
+          "description": "Heg ondersteunende dokumente aan: 'n beëdigde verklaring, bankstate, UIF-beëindigingsbrief of NSFAS-kansellasiebrief, soos van toepassing."
+        },
+        {
+          "title": "Dien in en hou jou verwysing",
+          "description": "Dien in en stoor jou appèlverwysingsnommer. ITSAA sal jou van die uitslag verwittig, wat 'n paar weke kan neem."
+        }
+      ]
+    },
+    {
+      "id": "appeal-detail-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Die 30-dae-venster is streng",
+      "text": "Die 30-dae-perk geld vanaf die datum van die afgekeurde maand. As jy dit mis, kan daardie maand gewoonlik nie deur die standaardappèl herondersoek word nie, so kontroleer jou status gereeld en appelleer stiptelik."
+    },
+    {
+      "id": "payment-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Betaling: wanneer en hoe jy betaal word"
+    },
+    {
+      "id": "payment-detail-intro",
+      "type": "paragraph",
+      "text": "Wanneer 'n maand goedgekeur word, betaal SASSA rofweg tussen die 25ste en die laaste dag van daardie maand. Daar is geen enkele vaste betaaldatum vir almal nie; betalings rol progressief uit, en jou presiese dag hang van jou bank- of invorderingsmetode af. Vir die volle skedule en stappe om van metode te verander, sien die SRD-betalingsmetodes-gids en die maandelikse-hersiening-uiteensetting hieronder. Die opsomming hieronder dek die hoofopsies.",
+      "links": [
+        {
+          "text": "SRD-betalingsmetodes-gids",
+          "href": "/grants/srd-r370-grant/payment-methods"
+        },
+        {
+          "text": "maandelikse-hersiening-uiteensetting",
+          "href": "/grants/srd-r370-grant/monthly-review"
+        }
+      ]
+    },
+    {
+      "id": "payment-detail-methods",
+      "type": "table",
+      "headers": [
+        "Metode",
+        "Hoe dit werk",
+        "Belangrike notas"
+      ],
+      "rows": [
+        [
+          "Direkte bankdeposito (EFT)",
+          "In jou persoonlike bankrekening betaal",
+          "Gewoonlik die vinnigste; rekening moet in jou naam wees."
+        ],
+        [
+          "Kontant-invordering by kleinhandelaars",
+          "Trek by Pick n Pay, Boxer, Shoprite, Checkers of USave met 'n SMS-bewys in",
+          "Geen bankrekening nodig nie; bring jou ID en die bewys."
+        ],
+        [
+          "Poskantoor (SAPO)",
+          "Voorheen 'n algemene invorderingspunt",
+          "Word uitgefaseer — skuif na bank- of kleinhandel-invordering."
+        ]
+      ],
+      "caption": "Goedgekeurde maande word binne die maandelikse betaalvenster betaal; metodiekeuse word in die SRD-portaal gemaak."
+    },
+    {
+      "id": "payment-blackcard",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Swartkaart / Postbank-migrasie",
+      "text": "SASSA vervang die ou goue SASSA-kaart met die nuwe swart Postbank-kaart. SASSA het 'n migrasiesperdatum van 31 Augustus 2026 aangekondig waarteen begunstigdes hul kaart by 'n Postbank- of SASSA-punt moet omruil om aan te hou om betalings te ontvang. Sperdatums kan verander, so bevestig die huidige datum op die amptelike SASSA- en Postbank-kanale voordat jy die punt besoek."
+    },
+    {
+      "id": "reaffirm-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Jou toelaag behou: herbevestiging en vervalling"
+    },
+    {
+      "id": "reaffirm-intro",
+      "type": "paragraph",
+      "text": "Die SRD-toelaag is nie 'n permanente goedkeuring nie. SASSA vereis dat begunstigdes hul besonderhede rofweg elke drie maande herbevestig, en dit herevalueer elke maand kwalifisering met die middeletoets. As 'n maand die toets druip, word daardie maand eenvoudig nie betaal nie — die toelaag 'verval' vir daardie maand eerder as om heeltemal gekanselleer te word. Om aanbetaal te word, hang daarvan af dat jy jou besonderhede op datum hou en elke maand werklik die toets slaag. Baie begunstigdes is verbaas wanneer 'n voorheen betroubare betaling ophou; in byna al die gevalle is dit omdat die maandelikse kontrole inkomste of 'n data-vlag gevind het."
+    },
+    {
+      "id": "reaffirm-causes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Inkomste van meer as R624 wat in 'n maand bespeur word — die algemeenste oorsaak van 'n nie-betaling.",
+        "Jou telefoonnommer of bankbesonderhede verander en word nie in die portaal bygewerk nie, so SASSA kan jou nie verifieer of betaal nie.",
+        "Jy begin om UIF, NSFAS of 'n ander SASSA-toelaag te ontvang.",
+        "Jy word gemerk as woonagtig in 'n staatsinrigting.",
+        "Jy mis die herbevestigingsvenster en jou rekord raak verouderd."
+      ]
+    },
+    {
+      "id": "reaffirm-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Werk by, moenie wag nie",
+      "text": "Hou jou telefoonnommer, bank- en persoonlike besonderhede in die SRD-portaal op datum. As jou omstandighede verander, help vinnige bywerking om 'n gemiste betaling te vermy. Herbevestig wanneer gevra word, rofweg elke drie maande."
+    },
+    {
+      "id": "vs-other-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD vs ander SASSA-toelaes"
+    },
+    {
+      "id": "vs-other-intro",
+      "type": "paragraph",
+      "text": "Die SRD R370-toelaag is een van verskeie maatskaplike toelaes in Suid-Afrika, maar dit is ongewoon: dit is tydelik, het 'n streng maandelikse middeletoets, en is gerig op volwassenes in die werkende ouderdomsgroep sonder ander ondersteuning. Die tabel hieronder vergelyk dit met die belangrikste permanente toelaes. Bedrae vir toelaes anders as SRD verander elke jaar en moet op die amptelike SASSA-webwerf bevestig word; die syfers hier fokus op die strukturele verskille wat vir kwalifisering saak maak."
+    },
+    {
+      "id": "vs-other-table",
+      "type": "comparison-table",
+      "headers": [
+        "Toelaag",
+        "Vir wie dit is",
+        "Ouderdom",
+        "Middeletoets?",
+        "Kernpunt"
+      ],
+      "rows": [
+        [
+          "SRD R370",
+          "Werkloos sonder ander ondersteuning",
+          "18 tot 59",
+          "Ja — inkomste op of onder R624",
+          "Tydelik; elke maand herevalueer."
+        ],
+        [
+          "Toelaag vir Bejaardes",
+          "Bejaardes in nood",
+          "60 en ouer",
+          "Ja (inkomste/bates)",
+          "Permanent; bedrag jaarliks vasgestel."
+        ],
+        [
+          "Gestremdheidstoelaag",
+          "Volwassenes met gestremdhede",
+          "18+ (geen boonste perk gespesifiseer nie)",
+          "Ja (inkomste/bates)",
+          "Permanent; vereis mediese assessering."
+        ],
+        [
+          "Kinderondersteuningstoelaag",
+          "Versorger van 'n kind (0 tot 17)",
+          "Kind 0 tot 17",
+          "Ja (inkomste/bates)",
+          "Betaal aan versorger; blokkeer NIE jou eie SRD nie."
+        ],
+        [
+          "Pleegkindertoelaag",
+          "Pleegouer van 'n kind",
+          "Kind in pleegsorg",
+          "Geen middeletoets",
+          "Betaal aan die pleegouer."
+        ]
+      ],
+      "caption": "Slegs strukturele vergelyking. Bevestig huidige bedrae op die amptelike SASSA-webwerf."
+    },
+    {
+      "id": "vs-other-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Die Kinderondersteuningstoelaag-uitsondering",
+      "text": "Gewoonlik kan jy nie SRD kry terwyl jy 'n ander SASSA-toelaag ontvang nie. Die uitsondering is die Kinderondersteuningstoelaag wat vir jou eie kind betaal word — jy mag dit EN die SRD-toelaag ontvang, omdat die kindertoelaag vir die kind is, nie vir jou nie."
+    },
+    {
+      "id": "scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Beskerm jouself teen SRD-bedrog"
+    },
+    {
+      "id": "scams-danger",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA sal nooit hiervoor vra nie",
+      "text": "SASSA en die SRD-stelsel sal NOOIT vir jou PIN, wagwoord of OTP vra nie. Hulle sal NOOIT 'n fooi vra om aansoek te doen, jou status na te gaan of 'n betaling te 'vinnig-spoor' nie. Enigiemand wat dit doen, is 'n bedrieër."
+    },
+    {
+      "id": "scams-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Valse 'statustoets'-webwerwe wat srd.sassa.gov.za naboots en jou ID en OTP steel.",
+        "Boodskappe wat lugtyd of 'aktiveringsfooie' eis voordat jy betaal kan word.",
+        "Mense wat aanbied om jou toelaag teen 'n kommissie te 'opgradeer' of te 'bespoedig'.",
+        "Oproepe of WhatsApp-boodskappe wat vra vir jou bank-PIN of om jou wagwoord te 'bevestig'.",
+        "Phishing-skakels wat per SMS of e-pos gestuur word en voorgee om van SASSA te wees."
+      ]
+    },
+    {
+      "id": "scams-closing",
+      "type": "paragraph",
+      "text": "Gebruik altyd die amptelike portaal srd.sassa.gov.za, die amptelike WhatsApp-lyn 082 046 8553, of 'n fisiese SASSA-kantoor. As jy onseker is of 'n boodskap eg is, moenie op skakels klik of kodes deel nie — maak die amptelike webwerf direk in jou blaaier oop. Rapporteer bedrog by die SASSA-bedrogblitslyn op 0800 60 10 11. Onthou: aansoek doen, status nagaan en appelleer is alles gratis, en geen wettige proses vereis dat jy lugtyd koop of 'n 'agent' betaal nie."
+    },
+    {
+      "id": "lifecycle-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die SRD-lewensiklus: 'n maand-vir-maand-uiteensetting"
+    },
+    {
+      "id": "lifecycle-p1",
+      "type": "paragraph",
+      "text": "Die SRD-toelaag word die beste verstaan as 'n herhalende maandelikse siklus eerder as 'n eenmalige goedkeuring. In maand een doen jy aansoek en SASSA voer sy kontroles uit; as jy slaag, word jy in daardie maand se venster betaal. In maand twee word dieselfde kontroles weer outomaties uitgevoer — jy doen nie weer aansoek nie, maar jy kan steeds afgekeur word as, byvoorbeeld, 'n deposito jou oor R624 gestoot het. Dit herhaal so lank as wat die program befonds word en jy die toets slaag. Rofweg elke drie maande vra SASSA jou om te herbevestig, wat eenvoudig bevestig dat jou situasie nie fundamenteel verander het nie. Om die toelaag as 'n maandelikse beoordeling te beskou, nie as 'n permanente reg nie, help jou om verrassings te vermy."
+    },
+    {
+      "id": "lifecycle-p2",
+      "type": "paragraph",
+      "text": "Binne elke siklus is die belangrike datums die aansoek (wat jy te eniger tyd kan indien), die beoordeling (wat deurlopend is), en die betaalvenster (rofweg die 25ste tot die laaste dag van die maand vir goedgekeurde maande). Daar is geen voordeel om 'vroeg in die maand' vir betaaldoeleindes aansoek te doen nie, omdat betaling die goedkeuring en die vaste maandelikse venster volg, nie die aansoekdatum nie. Wat die belangrikste is, is dat jou besonderhede korrek is sodat die geoutomatiseerde kontroles slaag en die betaling jou bereik. As 'n kontrole druip, word die maand eenvoudig nie betaal nie, en jy besef dit gewoonlik eers wanneer jy jou status nagaan of sien geen geld aankom nie."
+    },
+    {
+      "id": "lifecycle-p3",
+      "type": "paragraph",
+      "text": "Begunstigdes wat die toelaag as 'instel en vergeet' behandel, is dié wat gevang word. Die algemeenste storie is iemand wat vir drie maande betaal is, dan deponeer 'n familielid geld vir 'n familie-geleentheid, die stelsel merk 'Alternatiewe Inkomstebron', en die volgende maand word afgekeur. Omdat die persoon nie status nagegaan het nie, merk hulle dit eers weke later op. Om 'n gewoonte te maak om status rondom die 20ste van elke maand, voor die betaalvenster, na te gaan, laat jou toe om probleme vroeg raak te sien en te appelleer — binne die 30-dae-appèlvenster."
+    },
+    {
+      "id": "status-meaning-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Wat 'Hangende', 'Goedgekeur' en 'Afgekeur' werklik beteken"
+    },
+    {
+      "id": "status-pending",
+      "type": "paragraph",
+      "text": "Hangende is die neutrale begintoestand. Dit beteken SASSA het jou aansoek, maar het nog nie die kruiskontroles teen Home Affairs, SARS, UIF en NSFAS voltooi nie. Dit is nie 'n afkeuring nie. Die meeste eerste aansoeke bly 'n paar dae tot 'n paar weke in Hangende. As jy buitengewoon lank in Hangende bly, kan dit 'n rekenverskil aandui — byvoorbeeld, jou van op die aansoek stem nie met Home Affairs ooreen nie — wat verifikasie stilletjies stuit. In daardie geval maak die voltooiing van die gesigsverifikasie-aanwysing of die besoek aan Home Affairs om jou rekords in lyn te bring, dit gewoonlik los."
+    },
+    {
+      "id": "status-approved",
+      "type": "paragraph",
+      "text": "Goedgekeur beteken jy het die kontroles vir daardie spesifieke maand geslaag en 'n betaling is in die maandelikse venster verskuldig. Dit waarborg nie dat die geld aangekom het nie — slegs dat dit gemagtig is nie. Goedgekeurde maande kan later 'Betaling word verwerk' toon en dan in jou rekening of as 'n intrekbare bewys weerspieël word. As jy Goedgekeur is maar geen betaling sien nadat die venster gesluit het nie, kontroleer jou bankbesonderhede en, as dit korrek is, kontak SASSA met jou verwysingsnommer. Goedkeuring is altyd maandspesifiek en moet die volgende maand weer verdien word."
+    },
+    {
+      "id": "status-declined",
+      "type": "paragraph",
+      "text": "Afgekeur beteken die kontroles het vir daardie maand gedruip. Die rede word gewoonlik getoon: 'Alternatiewe Inkomstebron' (deposito's van meer as R624), 'Reeds op 'n ander toelaag', 'UIF bespeur', 'NSFAS bespeur', of 'n identiteitsrekenverskil. Afgekeur is maandspesifiek — dit kanselleer nie jou hele toelaag nie, en jy kan die volgende maand weer Goedgekeur word as jou situasie verander. Die sleutelaksie is om die afgekeurde maand binne 30 dae (of tot 90 dae deur die ITSAA-portaal) te appelleer as jy glo dit is verkeerd. Om 'n afkeuring te ignoreer, verbeur daardie maand permanent sodra die venster verby is."
+    },
+    {
+      "id": "payment-delays-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Betalingsvertragings en wat om te doen"
+    },
+    {
+      "id": "pd-p1",
+      "type": "paragraph",
+      "text": "Selfs ná goedkeuring kan 'n betaling vertraag word. Die algemeenste oorsaak is verkeerde of geslote bankbesonderhede — die EFT word gestuur maar bons, en die geld word terug aan SASSA gegee. Die tweede is om Cash Send te kies maar nie die bewys in te trek nie, of die SMS te verloor. 'n Derde is eenvoudig om later in die progressiewe uitrol te wees; SASSA betaal nie almal op 'n enkele dag nie, dus is dit normaal, nie 'n fout nie, dat 'n vriend op die 25ste betaal word terwyl jy op die 29ste betaal word. Geduld binne die venster is gewoonlik geregverdig."
+    },
+    {
+      "id": "pd-p2",
+      "type": "paragraph",
+      "text": "As jou status 'Betaling word verwerk' of 'Goedgekeur' is en die venster nog nie geëindig het nie, wag — die oordrag kan een tot drie werksdae neem om te weerspieël. As die venster geëindig het en niks aangekom het nie, maak eers die SRD-portaal weer oop en bevestig die bankrekening of selfoonnommer op lêer korrek en in jou naam is. Korrigeer dit indien nodig (veranderinge geld vanaf die volgende maand) en kontroleer weer. As besonderhede korrek is en die betaling werklik ontbreek, kontak die SASSA-oproepsentrum of besoek 'n kantoor met jou ID en verwysingsnommer; hou 'n rekord van jou statusskermkiekies."
+    },
+    {
+      "id": "pd-p3",
+      "type": "paragraph",
+      "text": "Wees op die hoede vir 'betaling-ontsluit'-bedrog tydens vertragings. Bedrieërs stuur boodskappe aan begunstigdes wat beweer hul betaling is 'gevries' en teen 'n fooi of deur 'n OTP te deel vrygelaat kan word. SASSA vries nooit betalings teen 'n fooi nie, en deur jou OTP te deel, laat 'n bedrieër die geld herlei. As 'n boodskap jou druk om te betaal of kodes te deel om 'n toelaag 'vry te stel', is dit bedrog — rapporteer dit by die SASSA-bedrogblitslyn op 0800 60 10 11. Verifieer betaalstatus altyd slegs op die amptelike portaal."
+    },
+    {
+      "id": "special-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Spesiale lewensituasies"
+    },
+    {
+      "id": "special-60",
+      "type": "paragraph",
+      "text": "Om 60 te word: Die SRD-toelaag is vir ouderdomme 18 tot 59. Die maand wat jy 60 word, kwalifiseer jy nie meer vir SRD nie en moet jy na die Toelaag vir Bejaardes oorskakel, wat permanent is en 'n hoër bedrag betaal. Besoek 'n SASSA-kantoor om aansoek te doen; moenie net aanhou om SRD te verwag nie, want die stelsel sal dit op 60 stop, ongeag. Deur hierdie oorgang 'n bietjie voor jou verjaarsdag te beplan, vermy 'n gaping in inkomste, en enige SRD-appèl reg aan die grens is oor die algemeen kwestieus sodra die ouderdomsvereiste druip."
+    },
+    {
+      "id": "special-job",
+      "type": "paragraph",
+      "text": "Om 'n werk te begin: As jy formele indiensneming (PAYE) begin of meer as R624 per maand begin verdien, sal jou SRD-maande afgekeur word. Dit is korrekte gedrag, nie 'n fout nie — die toelaag is vir dié sonder of met baie lae inkomste. As die werk eindig en jy weer onder die drempel is, kan latere maande goedgekeur word; appelleer enige maand wat verkeerdelik afgekeur is nadat indiensneming gestop het deur 'n beëindigingsbrief te verskaf. Informele, baie lae verdienste onder die drempel diskwalifiseer jou nie, maar dit word beoordeel op wat jou bank bereik."
+    },
+    {
+      "id": "special-baby",
+      "type": "paragraph",
+      "text": "Om 'n kind te hê: Die geboorte van 'n kind verander nie jou eie SRD-kwalifisering nie, en dit kan jou ook toelaat om vir die Kinderondersteuningstoelaag vir daardie kind aansoek te doen. Onthou die belangrike uitsondering: die ontvangs van die Kinderondersteuningstoelaag vir jou eie kind diskwalifiseer jou NIE van SRD nie. Dus kan 'n ouer beide ontvang — die kindertoelaag vir die kind en die SRD vir hulself — mits die ouer aan alle SRD-vereistes voldoen (ouderdom 18 tot 59, inkomste op of onder R624, geen UIF/NSFAS nie, en nie in 'n staatsinrigting nie)."
+    },
+    {
+      "id": "comms-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe SASSA met jou kommunikeer"
+    },
+    {
+      "id": "comms-p1",
+      "type": "paragraph",
+      "text": "SASSA kontak begunstigdes hoofsaaklik per SMS na die telefoonnommer op lêer. Hierdie SMS-boodskappe dra jou OTP tydens aansoek- en statustoetse, jou aansoekverwysing, en jou Cash Send-bewys wanneer jy by 'n kleinhandelaar intrek. Behandel enige boodskap wat vir jou PIN, wagwoord of OTP vra as verdag — SASSA stuur kodes maar vra nooit dat jy dit teruglees of betaal om dit te gebruik nie. Egte SASSA-boodskappe sal nie skakels bevat wat dringende betaling eis nie."
+    },
+    {
+      "id": "comms-p2",
+      "type": "paragraph",
+      "text": "Omdat kommunikasie op SMS gegrond is, is dit noodsaaklik om jou nommer aktief en in jou naam te hou. As jy van nommers verander, werk die portaal dadelik by. As jou foon verlore is, kan die OTP jou nie bereik nie en kan jy uit statustoetse en appèlle gesluit word totdat jy 'n kantoor besoek om jou identiteit te verifieer. Die opstel van 'n eenvoudige herinnering om status maandeliks na te gaan, help ook, aangesien SASSA nie individueel elke begunstigde wie se betaling ontbreek, sal jaag nie. Goeie kontakhigiëne voorkom die meeste vermybare probleme."
+    },
+    {
+      "id": "evidence-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Bewyse wat 'n appèl versterk"
+    },
+    {
+      "id": "evidence-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "'n Beëdigde verklaring wat enige deposito wat nie inkomste was nie (geskenk, leningsbetaling of fout), verduidelik.",
+        "Bankstate wat jou werklike maandelikse inkomstevloei vir die afgekeurde tydperk toon.",
+        "'n UIF-beëindigingsbrief, as UIF die rede was en sedertdien geëindig het.",
+        "'n NSFAS-kansellasie- of voltooiingsbrief, as NSFAS die rede was.",
+        "Bewys dat 'n ander toelaag geëindig het, as 'reeds op 'n ander toelaag' die rede was.",
+        "Jou ID en die aansoek- en appèlverwysingsnommers."
+      ]
+    },
+    {
+      "id": "evidence-p",
+      "type": "paragraph",
+      "text": "Wanneer jy appelleer, laai die dokumente op wat die afkeuringsrede direk aanspreek. 'n Appèl sonder bewyse sal waarskynlik nie slaag nie, omdat ITSAA beoordeel of die SASSA-besluit op grond van die beskikbare data korrek was. Duidelike, spesifieke bewyse — veral 'n beëdigde verklaring wat elke onverklaarde deposito verduidelik — is die enkele doeltreffendste manier om 'n 'Alternatiewe Inkomstebron'-afkeuring om te keer. Hou afskrifte van alles wat jy indien en let jou appèlverwysingsnommer op sodat jy kan opvolg."
+    },
+    {
+      "id": "databases-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die staatsdatabasisse agter jou aansoek"
+    },
+    {
+      "id": "db-homeaffairs",
+      "type": "paragraph",
+      "text": "Departement van Binnelandse Sake: Dit is die waarheidsbron vir jou identiteit. SASSA kontroleer dat jou ID of permit bestaan en met jou ingediende naam en geboortedatum ooreenstem. 'n Rekenverskil is die gewone oorsaak van 'Identiteitsverifikasie misluk'. Om jou besonderhede by Home Affairs in lyn te bring, of die gesigsverifikasie-stap in die portaal te voltooi, los die meeste van hierdie gevalle op. Doen altyd aansoek met die presiese naam wat op jou ID gedruk is om dit heeltemal te vermy."
+    },
+    {
+      "id": "db-sars",
+      "type": "paragraph",
+      "text": "South African Revenue Service (SARS): SARS-data vertel SASSA of jy vir PAYE geregistreer is of verklaarde indiensnemingsinkomste het. As jy as werksaam met inkomste bo die drempel gelys is, sal jy afgekeur word. Voormalige werknemers bly soms ná vertrek op 'n ou werkgewer se PAYE-lys; om dit by SARS reg te stel en dan te appelleer, is die roete tot regstelling. Daarom kan 'n ou werk 'n toelaag verkeerdelik blokkeer totdat die rekords bygewerk word."
+    },
+    {
+      "id": "db-uif",
+      "type": "paragraph",
+      "text": "UIF (Unemployment Insurance Fund): As jy UIF ontvang, sien die stelsel dit en keur SRD af, omdat UIF diskwalifiserende inkomste is. Sodra UIF ophou, verskaf die beëindigingsbrief en appelleer die betrokke maande. Let daarop dat dit nie op sigself diskwalifiserend is om in die verlede tot UIF bygedra te het nie — slegs aktiewe UIF-betalings is. Die kontrole is teen die lewende UIF-register ten tye van die beoordeling."
+    },
+    {
+      "id": "db-nsfas",
+      "type": "paragraph",
+      "text": "NSFAS: Terwyl jy 'n aktiewe, deur NSFAS befondsde student is, word jy gediskwalifiseer. Nadat jou studies eindig of befondsing ophou, laai die relevante brief op en appelleer. Let daarop dat bloot 'n student wees nie diskwalifiserend is nie — slegs aktiewe NSFAS-befondsing is. Private beurse en familie-ondersteuning is nie NSFAS nie, maar enige gereelde deposito van hulle tel steeds by jou R624-inkomstetotaal, so hulle kan steeds die middeletoets beïnvloed."
+    },
+    {
+      "id": "regional-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Streeks- en invorderingsverskille"
+    },
+    {
+      "id": "regional-p",
+      "type": "paragraph",
+      "text": "Die SRD-toelaag is nasionaal, maar hoe jy dit intrek, kan per ligging verskil. In groot dorpe en stede is kleinhandel-invordering by Pick n Pay, Boxer, Shoprite, Checkers en USave wyd beskikbaar, en bank-EFT is die verstek vir dié met rekeninge. In meer afgeleë gebiede mag daar minder kleinhandelspunte wees, wat 'n bankrekening of die oorblywende Poskantoor-opsies belangriker maak — hoewel SAPO-kontantinvordering uitgefaseer word, sodat begunstigdes in daardie gebiede die opening van 'n eenvoudige bankrekening of die bevestiging van die naaste kleinhandelvennoot moet prioritiseer. SASSA kondig invorderingsreëlings op sy amptelike kanale aan, en plaaslike SASSA-kantore kan oor die naaste betaalpunt adviseer."
+    },
+    {
+      "id": "planb-h",
+      "type": "heading",
+      "level": 2,
+      "text": "As jou SRD ophou: 'n praktiese Plan B"
+    },
+    {
+      "id": "planb-p1",
+      "type": "paragraph",
+      "text": "Die SRD-toelaag is per ontwerp tydelik en kan om baie wettige redes ophou — jy kry werk, jy word 60, of die program eindig. Omdat dit nie gewaarborgde inkomste is nie, is dit verstandig om nie vaste, langtermyn-verpligtinge daaromheen te bou nie. As jou SRD ophou, kyk eers waarom: lees die statusrede, en as dit verkeerd is, appelleer binne 30 dae (of tot 90 dae deur die ITSAA-portaal). As dit korrek is (byvoorbeeld, jy is nou werksaam), verskuif die fokus na die inkomste of ander ondersteuning wat jy nou het eerder as om die toelaag as permanent te behandel."
+    },
+    {
+      "id": "planb-p2",
+      "type": "paragraph",
+      "text": "As die toelaag eindig en jy geen ander inkomste het nie, verken die ander vorme van hulp: die permanente SASSA-toelaes as jy nou kwalifiseer (Bejaardes, Gestremdheid, Kinderondersteuning), UIF as jy onlangs werk verloor het, of munisipale behoeftige- en voedselondersteuningsprogramme wat deur jou plaaslike raad bedryf word. Nie een van hierdie word deur die SRD-portaal bekom nie, so kontak die relevante departement of kantoor. Die sleutel is om vroeg op te tree eerder as om te wag totdat spaargeld opraak, omdat aansoeke en goedkeurings tyd neem."
+    },
+    {
+      "id": "scenarios-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Algemene situasies, kortliks beantwoord"
+    },
+    {
+      "id": "scenario-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ek is verlede maand betaal maar nie hierdie maand nie: kontroleer jou status; 'n deposito het jou dalk oor R624 gestoot, of 'n kontrole het jou gemerk. Appelleer as dit verkeerd is.",
+        "My broer/sus stuur my soms geld: daardie deposito's tel by jou R624-totaal; verduidelik dit met 'n verklaring as jy afgekeur word.",
+        "Ek het op WhatsApp en op die webwerf aansoek gedoen: gebruik jou oorspronklike verwysing; duplikate word gekonsolideer, nie verdubbel nie.",
+        "Ek het 'n SMS gekry wat sê 'klik hier om te verifieer': verifieer slegs binne die amptelike srd.sassa.gov.za-webwerf; moenie op onbekende skakels klik nie.",
+        "My toelaag wys Goedgekeur maar die bedrag lyk min: SRD is 'n vaste R370 per goedgekeurde maand; daar is geen gedeeltelike bedrae nie, so bevestig dat jy die regte kennisgewing lees."
+      ]
+    },
+    {
+      "id": "office-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Persoonlik by 'n SASSA-kantoor aansoek doen"
+    },
+    {
+      "id": "office-apply-intro",
+      "type": "paragraph",
+      "text": "Hoewel die toelaag ontwerp is om aanlyn of via WhatsApp aangevra te word, kan jy steeds persoonlik by 'n SASSA-kantoor of 'n hulpkiosk aansoek doen of hulp kry. Dit is nuttig as jy geen slimfoon het nie of met die digitale proses sukkel. Die uitslag en vereistes is identies; slegs die kanaal verskil. Personeel help sonder koste, en jy moet nooit 'n 'agent' by of naby 'n kantoor betaal om namens jou in te dien nie."
+    },
+    {
+      "id": "office-apply-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Vind jou naaste kantoor",
+          "description": "Soek 'n SASSA-kantoor of goedgekeurde kiosk. Kom vroeg aan, aangesien rye lank kan wees."
+        },
+        {
+          "title": "Bring jou ID en foon",
+          "description": "Neem jou ID of permit en die selfoon wat in jou naam geregistreer is vir die OTP."
+        },
+        {
+          "title": "Vra om SRD-aansoekhulp",
+          "description": "'n Personeellid of selfbedieningskiosk lei jou deur dieselfde vrae as die portaal."
+        },
+        {
+          "title": "Verifieer en dien in",
+          "description": "Bevestig jou besonderhede, voltooi die OTP-stap, en ontvang jou verwysingsnommer per SMS."
+        }
+      ]
+    },
+    {
+      "id": "portal-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die SRD-portaal gebruik nadat jy aansoek gedoen het"
+    },
+    {
+      "id": "portal-p1",
+      "type": "paragraph",
+      "text": "Sodra jy aansoek gedoen het, word die srd.sassa.gov.za-portaal jou beheersentrum. Nadat jy met jou ID en OTP aangemeld het, kan jy status nagaan, elke maand se uitslag bekyk, jou betaalmetode verander, jou bank- en telefoonbesonderhede bywerk, en 'n appèl vir 'n afgekeurde maand begin. Om die portaal maandeliks na te gaan, is die enkele beste gewoonte om gemiste betalings te vermy, omdat dit jou die presiese rede wys waarom 'n maand afgekeur is — inligting wat jy nodig het om korrek te appelleer."
+    },
+    {
+      "id": "portal-p2",
+      "type": "paragraph",
+      "text": "Die portaal vertoon ook die herbevestigings-aanwysing rofweg elke drie maande. Voltooi dit dadelik wanneer dit verskyn; om dit te ignoreer kan jou rekord verouderd laat en betalings beïnvloed. Die aanwysing is nie 'n nuwe aansoek nie en herstel nie jou toelaag nie — dit is 'n herbevestiging. Behandel dit soos 'n gereelde inklok, en koppel dit aan 'n vinnige hersiening van jou bank- en telefoonbesonderhede om seker te maak alles op lêer is steeds korrek."
+    },
+    {
+      "id": "reaffirm-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die herbevestigings-aanwysing verstaan"
+    },
+    {
+      "id": "reaffirm-detail-p1",
+      "type": "paragraph",
+      "text": "Herbevestiging (soms ook herbevestiging genoem) is SASSA se manier om seker te maak begunstigdes voldoen steeds aan die vereistes sonder om elke paar maande 'n volledige nuwe aansoek te dwing. Wanneer gevra word, bevestig jy dat jou persoonlike besonderhede korrek is en dat niks fundamenteel oor jou inkomste of omstandighede verander het nie. Die maandelikse geoutomatiseerde kontroles loop steeds ongeag daarvan; herbevestiging is 'n bykomende periodieke bevestiging wat bo-op daardie kontroles gevoeg word."
+    },
+    {
+      "id": "reaffirm-detail-p2",
+      "type": "paragraph",
+      "text": "Om die herbevestigings-aanwysing te mis, kanselleer nie dadelik jou toelaag nie, maar dit kan jou lêer in 'n 'verouderde' toestand laat wat betalings en verifikasie steur. As jy besef jy het dit gemis, meld aan en voltooi dit so gou moontlik, en kontroleer jou onlangse maande se status om te bevestig dat betalings nie geraak is nie. Die aanwysing herhaal gewoonlik op 'n rofweg drie-maande-siklus, so die stel van 'n kwartaallikse herinnering help jou om dit by te hou."
+    },
+    {
+      "id": "blackcard-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die swart Postbank-kaartmigrasie in besonderhede"
+    },
+    {
+      "id": "blackcard-detail-p1",
+      "type": "paragraph",
+      "text": "SASSA vervang die ou goue SASSA-kaart met 'n nuwe swart kaart wat deur Postbank uitgereik word. Die aangekondigde doel is om betaalinfrastruktuur te moderniseer en sekuriteit te verbeter. Begunstigdes wat via 'n SASSA/Postbank-kaart intrek, word verwag om by 'n Postbank- of SASSA-punt na die swart kaart om te ruil. SASSA het publiek na 'n migrasiesperdatum van 31 Augustus 2026 vir hierdie omruiling verwys sodat betalings sonder onderbreking voortgaan. Omdat amptelike datums kan verskuif, bevestig altyd die huidige sperdatum op die amptelike SASSA- en Postbank-kanale voordat jy reis."
+    },
+    {
+      "id": "blackcard-detail-p2",
+      "type": "paragraph",
+      "text": "As jy reeds jou SRD per EFT in jou eie bankrekening ontvang, mag die kaartmigrasie jou glad nie raak nie — jou betaalmetode bly dieselfde. Die migrasie is hoofsaaklik van belang vir dié wat op 'n fisiese SASSA/Postbank-kaart staatmaak om in te trek. As jy onseker is in watter groep jy val, kontroleer jou betaalmetode in die SRD-portaal en, indien nodig, besoek 'n SASSA-kantoor of Postbank-tak met jou ID om te bevestig wat jy moet doen."
+    },
+    {
+      "id": "tax-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Belasting en die SRD-toelaag"
+    },
+    {
+      "id": "tax-p",
+      "type": "paragraph",
+      "text": "Die SRD R370-betaling is 'n maatskaplike-hulptoelaag en is vrygestel van inkomstebelasting. Jy hoef dit nie as belasbare inkomste op jou jaarlikse opgawe te verklaar nie, en die ontvangs daarvan skep nie 'n belasingsverpligting of 'n vereiste om vir belasting te registreer nie. Dit is dieselfde behandeling as ander SASSA-toelaes. As jy ook elders formele indiensneming het, bly daardie indiensnemingsinkomste soos normaal belasbaar — slegs die toelaaggedeelte is vrygestel."
+    },
+    {
+      "id": "security-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Jou rekening en persoonlike sekuriteit beskerm"
+    },
+    {
+      "id": "security-p1",
+      "type": "paragraph",
+      "text": "Jou SRD-profiel is waardevol vir misdadigers omdat dit 'n maandelikse betaling beheer. Beskerm dit deur jou OTP, PIN en wagwoord geheim te hou — geen wettige SASSA-proses sal ooit daarvoor vra nie. Gebruik 'n telefoonnommer wat jy beheer, en wees op die hoede vir 'behulpsame' vreemdelinge wat aanbied om jou aansoek te 'regmaak'; hulle probeer dalk jou betaling na 'n rekening wat hulle beheer, herlei. As jy vermoed jou profiel is geknoei, kontak dadelik die SASSA-bedrogblitslyn op 0800 60 10 11."
+    },
+    {
+      "id": "security-p2",
+      "type": "paragraph",
+      "text": "Wees net so versigtig met die skakels waarop jy klik. Phishing-webwerwe boots srd.sassa.gov.za na om jou ID en OTP te versamel en verander dan jou bankbesonderhede. Tik altyd die amptelike adres direk in jou blaaier of gebruik die amptelike WhatsApp-lyn 082 046 8553. As 'n webwerf vir jou OTP vra om jou buite die amptelike aanmeldvloei te 'verifieer', maak dit toe. Om jou eie status gereeld deur die amptelike portaal na te gaan, is die veiligste manier om te bevestig dat niks sonder jou medewete verander is nie."
+    },
+    {
+      "id": "appeal-outcomes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appèluitslae en wat hulle beteken"
+    },
+    {
+      "id": "appeal-outcomes-p1",
+      "type": "paragraph",
+      "text": "Nadat ITSAA jou appèl hersien het, kan dit dit bekragtig, gedeeltelik bekragtig of van die hand wys. 'Bekragtig' beteken die afkeuring vir daardie maand is omgekeer en jy behoort daarvoor betaal te word, insluitend enige verskuldigde terugbetaling. 'Van die hand gewys' beteken die Tribunaal het op grond van die bewyse met SASSA se besluit saamgestem, en daardie maand sal nie betaal word nie. Elke maand wat jy geappelleer het, word afsonderlik beslis, so jy mag een maand wen en 'n ander verloor, afhangende van die onderliggende feite vir elkeen."
+    },
+    {
+      "id": "appeal-outcomes-p2",
+      "type": "paragraph",
+      "text": "As jou appèl van die hand gewys word en jy glo 'n feitelike of prosedurele fout het plaasgevind (byvoorbeeld, SASSA het verouderde UIF-data gebruik), kan jy verdere hersiening deur die kanale wat ITSAA verskaf, soek, maar die standaard 30-dae-appèlvenster vir die oorspronklike maand geld steeds. Die praktiese les is om stiptelik te appelleer en die eerste keer sterk bewyse te verskaf, omdat latere remedies stadiger en minder seker is. Hou jou appèlverwysingsnommer en enige uitslagbriewe vir jou rekords."
+    },
+    {
+      "id": "backpay-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Terugbetalings ná 'n suksesvolle appèl"
+    },
+    {
+      "id": "backpay-p",
+      "type": "paragraph",
+      "text": "Wanneer 'n appèl vir 'n maand waarin jy verkeerdelik afgekeur is, bekragtig word, betaal SASSA gewoonlik daardie maand as 'n terugbetaling, omdat jy dit die hele tyd verskuldig was. Die terugbetaling volg dieselfde metode (EFT of Cash Send) wat jy gekies het. Dit word betaal wanneer die omkering verwerk word, wat addisionele weke ná die uitslag kan neem. As 'n bekragtigde appèl nie na 'n redelike tyd betaal word nie, volg dit met ITSAA se verwysingsnommer op en, indien nodig, 'n SASSA-kantoor — maar let daarop dat maande wat jy nie binne 30 dae (of tot 90 dae deur die ITSAA-portaal) geappelleer het nie, tipies verlore gaan, selfs as jy werklik gekwalifiseer het."
+    },
+    {
+      "id": "timeline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Van aansoek tot eerste betaling: 'n realistiese tydlyn"
+    },
+    {
+      "id": "timeline-table",
+      "type": "table",
+      "headers": [
+        "Stadium",
+        "Wat gebeur",
+        "Tipiese tyd"
+      ],
+      "rows": [
+        [
+          "Dien aansoek in",
+          "Jy stuur jou besonderhede via die portaal of WhatsApp",
+          "Dag 0"
+        ],
+        [
+          "OTP en aanvanklike aantekening",
+          "Stelsel verifieer jou foon en teken die aansoek aan",
+          "'n Paar minute"
+        ],
+        [
+          "Identiteits- en databasis-kontroles",
+          "Kruiskontroles teen Home Affairs, SARS, UIF, NSFAS word uitgevoer",
+          "'n Paar dae tot 2 weke"
+        ],
+        [
+          "Eerste besluit",
+          "Status word vir die eerste maand Goedgekeur of Afgekeur",
+          "Binne ~2 weke tipies"
+        ],
+        [
+          "Eerste betaling (as goedgekeur)",
+          "EFT of Cash Send binne die maandelikse venster",
+          "25ste tot laaste dag van die maand"
+        ],
+        [
+          "Maandelikse herevaluering",
+          "Elke maand herevalueer; herbevestig rofweg elke 3 maande",
+          "Lopend"
+        ]
+      ],
+      "caption": "Tydsberekeninge is tipies en kan met volumes en datasake verskil."
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Algemene foute wat betaling vertraag of blokkeer"
+    },
+    {
+      "id": "mistakes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Om 'n bankrekening te gebruik wat nie in jou eie naam is nie — betalings bons of word gemerk.",
+        "Om jou naam anders as op jou ID te tik, wat 'n 'Identiteitsverifikasie misluk' veroorsaak.",
+        "Laat jou telefoonnommer verval sodat jy OTP's en status-SMS'e mis.",
+        "Aannem dat goedkeuring permanent is en nie elke maand status nagaan nie.",
+        "Geld deponeer (geskenke, lenings, stokvel-uitbetalings) wat jou oor R624 stoot.",
+        "Om 'n derde party te betaal wat verkeerde of bedrieglike besonderhede indien.",
+        "Nie binne 30 dae (of tot 90 dae deur die ITSAA-portaal) van 'n afgekeurde maand te appelleer nie."
+      ]
+    },
+    {
+      "id": "update-details-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om jou besonderhede by te werk (foon, bank, adres)"
+    },
+    {
+      "id": "update-intro",
+      "type": "paragraph",
+      "text": "Om jou kontak- en bankbesonderhede op datum te hou, is een van die eenvoudigste maniere om gemiste betalings te vermy. Alle bywerkings is gratis en word deur die amptelike SRD-portaal of 'n SASSA-kantoor gedoen — betaal nooit iemand om dit vir jou te doen nie. Veranderinge aan bankbesonderhede tree tipies vanaf die volgende maand in werking, so werk by sodra iets verander eerder as om te wag tot 'n betaling misluk."
+    },
+    {
+      "id": "update-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Meld by die SRD-portaal aan",
+          "description": "Besoek srd.sassa.gov.za en meld met jou ID en OTP aan."
+        },
+        {
+          "title": "Maak 'Werk Persoonlike Besonderhede By' oop",
+          "description": "Vind die afdeling vir persoonlike of bankinligting."
+        },
+        {
+          "title": "Verander jou telefoonnommer",
+          "description": "Voer jou nuwe nommer in; verifieer met die OTP wat daarheen gestuur is. As jy toegang tot die ou nommer verloor het, besoek 'n SASSA-kantoor."
+        },
+        {
+          "title": "Verander jou bankrekening",
+          "description": "Voer die nuwe rekening in jou naam in. Veranderinge geld vanaf die volgende maand."
+        },
+        {
+          "title": "Stoor en bevestig",
+          "description": "Dien in en kontroleer jou status ná 'n dag om te bevestig die bywerking het in werking getree."
+        }
+      ]
+    },
+    {
+      "id": "rights-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Jou regte en verantwoordelikhede as begunstigde"
+    },
+    {
+      "id": "rights-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Reg: om gratis aansoek te doen en billik teen die gepubliseerde vereistes beoordeel te word.",
+        "Reg: om binne 30 dae (of tot 90 dae deur die ITSAA-portaal) teen 'n afgekeurde maand by die Independent Tribunal (ITSAA) te appelleer.",
+        "Reg: om die volle R370 elke goedgekeurde maand sonder afleidings of 'fooie' te ontvang.",
+        "Verantwoordelikheid: om eerlike inligting te verskaf en nie vals besonderhede in te dien nie.",
+        "Verantwoordelikheid: om jou foon-, bank- en persoonlike besonderhede op datum te hou.",
+        "Verantwoordelikheid: om veranderinge (byvoorbeeld, om werk te aanvaar of UIF/NSFAS te ontvang) wat kwalifisering raak, te rapporteer."
+      ]
+    },
+    {
+      "id": "gov-services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD en ander staatsdienste"
+    },
+    {
+      "id": "gov-services-p",
+      "type": "paragraph",
+      "text": "Die SRD-toelaag staan langs ander staatsondersteuning. Dit is apart van UIF (wat vir bydraers is wat werk verloor het), van NSFAS (studentebefondsing), en van die permanente SASSA-toelaes. Om SRD te ontvang, registreer jou nie vir RDP-behuising of COVID-verwante ondersteuningsprogramme nie, en dit raak nie die meeste ander nie-kontantdienste nie. Omdat verskillende departemente verskillende programme bedryf, bevestig altyd interaksies met die relevante departement eerder as om te aanvaar. Byvoorbeeld, munisipale behoeftige-ondersteuning en skoolvoedingsprogramme het hul eie reëls en is nie aan jou SRD-status gekoppel nie."
+    },
+    {
+      "id": "glossary-h",
+      "type": "heading",
+      "level": 2,
+      "text": "'n Woordelys van SRD-terme"
+    },
+    {
+      "id": "glossary-table",
+      "type": "table",
+      "headers": [
+        "Term",
+        "Betekenis"
+      ],
+      "rows": [
+        [
+          "SRD",
+          "Social Relief of Distress — die toelaagprogram."
+        ],
+        [
+          "Middeletoets",
+          "Die kontrole dat jou maandelikse inkomste op of onder R624 is."
+        ],
+        [
+          "ITSAA",
+          "Independent Tribunal for Social Assistance Appeals — hanteer SRD-appèlle."
+        ],
+        [
+          "OTP",
+          "Eenmalige PIN wat per SMS gestuur word om jou foon te verifieer."
+        ],
+        [
+          "Cash Send",
+          "Kleinhandel-invordering van jou toelaag met 'n SMS-bewys."
+        ],
+        [
+          "Herbevestiging",
+          "Herbevestig jou besonderhede rofweg elke drie maande."
+        ],
+        [
+          "Vervalling",
+          "'n Maand wat nie betaal word nie omdat die middeletoets of 'n kontrole gedruip het."
+        ],
+        [
+          "Alternatiewe Inkomstebron",
+          "Status wat beteken deposito's bo die drempel is bespeur."
+        ]
+      ],
+      "caption": "Vinnige naslaan vir terme wat deurgaans in hierdie gids gebruik word."
+    },
+    {
+      "id": "myths-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD-mites vs feite"
+    },
+    {
+      "id": "myths-table",
+      "type": "table",
+      "headers": [
+        "Mite",
+        "Feit"
+      ],
+      "rows": [
+        [
+          "SASSA vra 'n fooi om aansoek te doen.",
+          "Vals. Aansoek doen, status nagaan en appelleer is gratis."
+        ],
+        [
+          "Ek kan enigiemand se bankrekening gebruik.",
+          "Vals. Die rekening moet in jou eie naam wees."
+        ],
+        [
+          "Sodra dit goedgekeur is, stop dit nooit.",
+          "Vals. Dit word elke maand herevalueer."
+        ],
+        [
+          "'n Geldgeskenk diskwalifiseer my vir altyd.",
+          "Vals. Een maand bo die drempel raak slegs daardie maand; verduidelik dit tydens appèl as dit nie inkomste was nie."
+        ],
+        [
+          "Ek moet elke maand weer aansoek doen.",
+          "Vals. Jy herbevestig rofweg elke drie maande; maandelikse kontroles is outomaties."
+        ],
+        [
+          "Iemand kan my betaling teen 'n fooi vinnig-spoor.",
+          "Vals. Geen wettige vinnig-spoor bestaan nie; ignoreer sulke aanbiedinge."
+        ]
+      ],
+      "caption": "Algemene wanvoorligting wat met geverifieerde feite reggestel word."
+    },
+    {
+      "id": "stat-bar",
+      "type": "stat-bar",
+      "stats": [
+        {
+          "label": "Maandelikse bedrag",
+          "value": "R370",
+          "description": "Betaal per goedgekeurde maand (verhoog van R350)."
+        },
+        {
+          "label": "Inkomstedrempel",
+          "value": "R624",
+          "description": "Maksimum maandelikse inkomste om te kwalifiseer."
+        },
+        {
+          "label": "Ouderdomsgroep",
+          "value": "18 to 59",
+          "description": "Slegs volwassenes in die werkende ouderdomsgroep."
+        },
+        {
+          "label": "Appèlvenster",
+          "value": "30-90 days",
+          "description": "Om 'n afgekeurde maand te betwis."
+        }
+      ]
+    },
+    {
+      "id": "repeated-declines-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Wat as jy herhaaldelik afgekeur word"
+    },
+    {
+      "id": "repeated-declines-p1",
+      "type": "paragraph",
+      "text": "Sommige begunstigdes word maand na maand afgekeur. Voordat jy aanneem die stelsel is gebreek, kontroleer elke keer die redeskode — dit word in jou status getoon. Die gewone oorsake is konsekwent: deposito's bo R624, 'n aktiewe UIF- of NSFAS-rekord, 'n ander toelaag op jou ID, of 'n onopgeloste identiteitsrekenverskil. As die rede elke maand dieselfde is, is die regstelling van die onderliggende oorsaak (nie weer aansoek doen nie) wat die uitslag verander. Vir inkomstesake verduidelik 'n verklaring eenmalige of nie-inkomste-deposito's; vir UIF/NSFAS maak 'n beëindigings- of voltooiingsbrief die vlag skoon."
+    },
+    {
+      "id": "repeated-declines-p2",
+      "type": "paragraph",
+      "text": "As jy seker is die afkeuring is verkeerd en appèlle bly misluk, oorweeg of 'n ou indiensnemings- of befondsingsrekord steeds lewendig in SARS-, UIF- of NSFAS-stelsels is. Hierdie rekords werk nie altyd by die oomblik wat 'n werk of kursus eindig nie, en SASSA kan slegs optree op wat daardie stelsels rapporteer. Om die bronrekord direk by die relevante instelling op te los en dan met bewyse te appelleer, is dikwels die enigste blywende regstelling. 'n SASSA-kantoor kan ook adviseer of 'n handmatige hersiening vir jou saak gepas is."
+    },
+    {
+      "id": "budget-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die beste maak van 'n wisselende toelaag"
+    },
+    {
+      "id": "budget-p",
+      "type": "paragraph",
+      "text": "Omdat SRD die een maand goedgekeur en die volgende maand afgekeur kan word, is dit die veiligste om dit as aanvullende eerder as kerninkomste te behandel. Waar moontlik, vermy om die R370 aan vaste maandelikse verpligtinge te verbind wat jy nie kan nakom as 'n maand afgekeur word nie. Baie begunstigdes gebruik die toelaag vir noodsaaklikhede soos kos en vervoer, en hou 'n klein buffer vir maande wanneer 'n betaling nie aankom nie. Om rondom die wisselvalligheid te beplan, eerder as om aan te neem dit sal altyd kom, verminder die impak van 'n gemiste maand."
+    },
+    {
+      "id": "contact-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Opsomming van amptelike kontakkanale"
+    },
+    {
+      "id": "contact-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Webwerf (aansoek, status, appèlle, bywerkings): srd.sassa.gov.za",
+        "WhatsApp (aansoek en navrae): 082 046 8553",
+        "USSD-statustoets: *134*7737#",
+        "SASSA-bedrogblitslyn: 0800 60 10 11",
+        "Persoonlik: enige SASSA-kantoor of goedgekeurde hulpkiosk (gratis bystand)."
+      ]
+    },
+    {
+      "id": "official-comms-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om egte SASSA-kommunikasie te herken"
+    },
+    {
+      "id": "official-comms-p",
+      "type": "paragraph",
+      "text": "Egte SASSA-boodskappe kom as SMS van amptelike stelsels aan en sal jou verwysing of 'n bewys bevat, nooit 'n eis vir betaling of jou PIN nie. SASSA sal jou nie bel om jou bankwagwoord te vra nie, en sal nie skakels stuur wat vra dat jy jou OTP op 'n derdeparty-webwerf invoer nie. As 'n boodskap dringendheid skep — 'jou toelaag sal gekanselleer word tensy jy nou betaal' — is dit byna seker bedrog. Wanneer jy twyfel, maak srd.sassa.gov.za direk oop en kontroleer jou eie status eerder as om op die boodskap te reageer."
+    },
+    {
+      "id": "status-confusion-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Statusse wat mense dikwels deurmekaar kry"
+    },
+    {
+      "id": "status-confusion-table",
+      "type": "table",
+      "headers": [
+        "Status gesien",
+        "Waarvoor dit dikwels aangesien word",
+        "Kernverskil"
+      ],
+      "rows": [
+        [
+          "Hangende",
+          "Afgekeur",
+          "Hangende word steeds verwerk; nog geen besluit nie."
+        ],
+        [
+          "Alternatiewe Inkomstebron",
+          "Permanente verbod",
+          "Dit raak slegs die spesifieke maand; maak reg en appelleer."
+        ],
+        [
+          "Goedgekeur",
+          "Betaling ontvang",
+          "Goedgekeur beteken gemagtig, nog nie in jou rekening nie."
+        ],
+        [
+          "Bankverifikasie hangend",
+          "Afgekeur",
+          "Jou bankbesonderhede word steeds nagegaan, nie verwerp nie."
+        ],
+        [
+          "Verwys",
+          "Gewone afkeuring",
+          "Verwys beteken 'n bedrogondersoek; kontak die blitslyn."
+        ]
+      ],
+      "caption": "Verduidelik statusse wat algemeen deurmekaar geraak word."
+    },
+    {
+      "id": "student-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Studente: 'n nader kyk"
+    },
+    {
+      "id": "student-detail-p",
+      "type": "paragraph",
+      "text": "Die reël vir studente is presies: aktiewe NSFAS-befondsing diskwalifiseer jou, maar om 'n student te wees, diskwalifiseer nie. 'n Leerder of universiteitstudent wat NIE op NSFAS is nie en wat geen ander inkomste het nie, mag kwalifiseer, solank deposito's op of onder R624 bly. Dit maak saak omdat baie jong mense aanneem hulle word outomaties uitgesluit, of omgekeerd aanneem 'n private beurs word geïgnoreer. Die beurs is nie NSFAS nie, maar enige geld wat dit in jou rekening plaas, tel steeds in die middeletoets, so groot gereelde beursdeposito's kan jou steeds vir 'n gegewe maand oor die drempel stoot."
+    },
+    {
+      "id": "gig-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Gig- en informele werkers: 'n nader kyk"
+    },
+    {
+      "id": "gig-detail-p",
+      "type": "paragraph",
+      "text": "Gig- en informele werk lê in 'n grys gebied. Die toelaag verbied nie werk nie — dit verbied inkomste van meer as R624 per maand. 'n Afleweringsryer wat R400 in 'n rustige maand verdien, kwalifiseer; dieselfde ryer wat R900 in 'n besige maand verdien, sal vir daardie maand afgekeur word. Omdat platforms onreëlmatig betaal, kan jou status wettig van maand tot maand wissel, en dit is nie 'n fout nie. Die risiko is dat 'n enkele sterk maand die toelaag presies verwyder wanneer jy dit dalk steeds nodig het, so om jou eie maandelikse inkomstevloei dop te hou, help jou om te antisipeer en, as dit verkeerdelik gemerk is, met bewyse te appelleer."
+    },
+    {
+      "id": "child-grant-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die Kinderondersteuningstoelaag-uitsondering verduidelik"
+    },
+    {
+      "id": "child-grant-detail-p",
+      "type": "paragraph",
+      "text": "Die 'slegs een toelaag'-reël het presies een uitsondering: die Kinderondersteuningstoelaag wat vir jou eie kind betaal word. Hierdie uitsondering bestaan omdat die kindertoelaag vir die kind se behoeftes bedoel is, nie vir die versorger se inkomste nie, so dit word nie as diskwalifiserende ondersteuning vir die versorger se eie SRD behandel nie. Al die ander SASSA-toelaes wat persoonlik aan jou betaal word — Bejaardes, Gestremdheid, Pleegkind — diskwalifiseer jou wel. As jy die kindertoelaag ontvang en jou SRD word vir 'reeds op 'n ander toelaag' afgekeur, is daardie spesifieke afkeuring die moeite werd om te betwis, omdat die kindertoelaag dit nie behoort te veroorsaak nie."
+    },
+    {
+      "id": "appeal-detail-extra-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appèlle: praktiese wenke vir sukses"
+    },
+    {
+      "id": "appeal-detail-extra-p",
+      "type": "paragraph",
+      "text": "Drie gewoontes verbeter appèluitslae dramaties. Eerstens, appelleer binne 30 dae (of tot 90 dae deur die ITSAA-portaal) — appèlle wat na die 90-dae-venster ingedien word, word nie oorweeg nie, ongeag hoe sterk jou bewyse is. Tweedens, pas jou bewyse by die presiese afkeuringsrede: 'n verklaring vir inkomste, 'n UIF-brief vir UIF, 'n NSFAS-brief vir NSFAS. Derdens, appelleer elke afgekeurde maand individueel eerder as om aan te neem een appèl dek almal. Om 'n dopgehou (fisies of op jou foon) met jou ID, verwysingsnommers en ondersteunende briewe te hou, maak die proses elke keer vinniger."
+    },
+    {
+      "id": "payment-dates-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD-betaaldatums verstaan"
+    },
+    {
+      "id": "payment-dates-detail-p",
+      "type": "paragraph",
+      "text": "Anders as die permanente SASSA-toelaes, wat dikwels 'n gepubliseerde skedule van spesifieke betaaldae per toelaagtipe het, word die SRD-toelaag binne 'n maandelikse venster eerder as op 'n enkele vaste datum betaal. SASSA kondig maandelikse betalingsreëlings op sy amptelike kanale aan, en individuele begunstigdes word progressief van rofweg die 25ste van die maand tot die laaste dag betaal. Jou presiese dag hang van jou bank- of invorderingsmetode en van waar jy in die uitrol sit. Behandel die 25ste-tot-maandeinde-venster as die betroubare feit, en steun op die amptelike SASSA-kommunikasies vir enige meer spesifieke beplanning eerder as op nie-amptelike 'presiese datum'-plasings."
+    },
+    {
+      "id": "voucher-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe die Cash Send-bewys werk"
+    },
+    {
+      "id": "voucher-p",
+      "type": "paragraph",
+      "text": "As jy Cash Send (kleinhandel-invordering) kies, stuur SASSA 'n SMS-bewys na jou geregistreerde foon sodra betaling verwerk is. Neem daardie bewyskode, saam met jou ID, na 'n deelnemende kleinhandelaar — Pick n Pay, Boxer, Shoprite, Checkers of USave — en trek die kontant oor die toonbank. Die bewys is eenmalig en tydbeperk, so trek dit stiptelik in en deel nooit die kode met enigiemand nie. As die bewys ná 'n goedgekeurde maand nie aankom nie, kontroleer jou status en jou foonsein, en bevestig die selfoonnommer op lêer is steeds korrek; 'n verkeerde nommer beteken die bewys gaan na die verkeerde plek."
+    },
+    {
+      "id": "cancel-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die toelaag kanselleer of vrywillig stop"
+    },
+    {
+      "id": "cancel-p",
+      "type": "paragraph",
+      "text": "As jou omstandighede verander en jy nie meer die toelaag nodig het of daarvoor kwalifiseer nie — byvoorbeeld, jy begin formele indiensneming — word van jou verwag om op te hou om dit te eis, omdat deurlopende eise waarvoor jy nie kwalifiseer nie as bedrog beskou kan word. Jy kan jou situasie deur die SRD-portaal of 'n SASSA-kantoor bywerk, en die maandelikse middeletoets sal in elk geval ophou om maande waarin jy dit druip, goed te keur. Om jou besonderhede vrywillig akkuraat te hou, is beide 'n verantwoordelikheid en die skoonste manier om 'n latere bedrogverwysing vir maande wat jy nie moes ontvang het nie, te vermy."
+    },
+    {
+      "id": "credit-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD, krediet en lenings"
+    },
+    {
+      "id": "credit-p",
+      "type": "paragraph",
+      "text": "Die SRD-toelaag is nie inkomste uit indiensneming nie en is nie 'n lening nie, so dit skep nie 'n skuld of raak jou kredietrekord nie. Uitleners mag egter oor jou inkomste vra wanneer jy om krediet aansoek doen; die toelaag kan as inkomste gelys word, maar omdat dit tydelik en wisselvallig is, is dit swak sekuriteit vir 'n langtermyn-terugbetalingverpligting. Wees versigtig om krediet aan te gaan wat aanneem die toelaag sal altyd aankom — 'n enkele afgekeurde maand kan jou onvermoënd laat om te betaal. Soos altyd, word die toelaag die beste as tydelike ondersteuning behandel, nie as 'n permanente salaris nie."
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Vinnige kwalifikasie-kontrolelys"
+    },
+    {
+      "id": "checklist-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ek is 'n Suid-Afrikaanse burger, permanente inwoner, of geregistreerde vlugteling/asielsoeker.",
+        "Ek is tussen 18 en 59 jaar oud.",
+        "Ek het geen inkomste nie, of my maandelikse inkomste is op of onder R624.",
+        "Ek ontvang nie UIF, NSFAS of 'n ander SASSA-toelaag nie (behalwe die Kinderondersteuningstoelaag vir my eie kind).",
+        "Ek is nie woonagtig in 'n staatsbefondsde inrigting nie.",
+        "Ek kan 'n ID/permit en 'n telefoonnommer in my naam verskaf."
+      ]
+    },
+    {
+      "id": "final-note",
+      "type": "callout",
+      "intent": "info",
+      "title": "Bly ingelig deur amptelike bronne",
+      "text": "SRD-reëls, drempels en datums kan verander. Die betroubaarste inligting kom altyd van srd.sassa.gov.za, die SASSA WhatsApp-lyn 082 046 8553, en die Independent Tribunal (ITSAA) by itsaa.gov.za. Gebruik hierdie gids as 'n deeglike uiteensetting, maar bevestig lewendige besonderhede op die amptelike kanale voordat jy optree."
+    },
+    {
+      "id": "refugee-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Vlugtelinge en asielsoekers: 'n nader kyk"
+    },
+    {
+      "id": "refugee-p",
+      "type": "paragraph",
+      "text": "Erkende vlugtelinge en asielsoekers/houers van spesiale permitte kom vir die SRD-toelaag in aanmerking, maar die aansoek gebruik hul permit- of asielsoekernommer in plaas van 'n Suid-Afrikaanse ID. Dieselfde middeletoets en dieselfde kontroles teen inkomste en ander ondersteuning geld. Die algemeenste probleem vir hierdie groep is 'n vervalde of hangende permit, omdat SASSA die nommer teen die Home Affairs-stelsel verifieer; as die permit nie op daardie stelsel aktief is nie, druip verifikasie. Om jou permit geldig en bygewerk by Home Affairs te hou, is dus noodsaaklik, en enige gaping in permitstatus kan direk in 'n mislukte of vervalde maand vertaal word."
+    },
+    {
+      "id": "disability-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD en mense met gestremdhede"
+    },
+    {
+      "id": "disability-p",
+      "type": "paragraph",
+      "text": "As jy 'n gestremdheid het en tussen 18 en 59 is met geen of baie lae inkomste nie, mag die SRD-toelaag op kort termyn help, maar dit is nie 'n plaasvervanger vir die permanente Gestremdheidstoelaag nie, wat 'n hoër bedrag betaal en nie maandeliks op dieselfde manier herevalueer word nie. As jou gestremdheid jou verhoed om te werk, behoort jy die Gestremdheidstoelaag deur 'n SASSA-kantoor en 'n mediese assessering te ondersoek. Jy kan nie beide die Gestremdheidstoelaag en SRD terselfdertyd ontvang nie, so die beter langtermyn-pas is gewoonlik die permanente toelaag eerder as die tydelike SRD."
+    },
+    {
+      "id": "reflect-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe lank betalings neem om te weerspieël"
+    },
+    {
+      "id": "reflect-p",
+      "type": "paragraph",
+      "text": "Sodra 'n maand 'Betaling word verwerk' of 'Goedgekeur' wys, weerspieël die geld tipies binne een tot drie werksdae, afhangende van jou bank se verwerkingspoed. Kleinhandel-Cash Send-bewyse is gewoonlik beskikbaar sodra die SMS aankom. As verskeie werksdae verbygaan sonder fondse en jou besonderhede korrek is, het die betaling dalk gebons — kontroleer jou rekeningbesonderhede weer en, indien nodig, werk dit vir die volgende maand by. Aanhoudende nie-ontvangs met korrekte besonderhede moet met jou verwysingsnommer by SASSA geopper word, maar die meeste vertragings los binne die normale venster sonder ingryping op."
+    },
+    {
+      "id": "reasoncodes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Afkeuringsredeskodes op 'n oogopslag"
+    },
+    {
+      "id": "reasoncodes-table",
+      "type": "table",
+      "headers": [
+        "Rede getoon",
+        "Wat dit beteken",
+        "Tipiese regstelling"
+      ],
+      "rows": [
+        [
+          "Alternatiewe Inkomstebron",
+          "Deposito's bo R624 bespeur",
+          "Beëdigde verklaring wat nie-inkomste-deposito's verduidelik; appelleer."
+        ],
+        [
+          "Reeds op 'n ander toelaag",
+          "'n Ander SASSA-toelaag op jou ID",
+          "Bevestig die uitsondering (kindertoelaag) of beëindig die ander toelaag; appelleer."
+        ],
+        [
+          "UIF bespeur",
+          "Aktiewe UIF-betalings",
+          "UIF-beëindigingsbrief; appelleer nadat UIF eindig."
+        ],
+        [
+          "NSFAS bespeur",
+          "Aktiewe studentebefondsing",
+          "NSFAS-kansellasiebrief; appelleer nadat befondsing eindig."
+        ],
+        [
+          "Identiteitsverifikasie misluk",
+          "Rekenverskil met Home Affairs",
+          "Gesigsverifikasie of regstel besonderhede by Home Affairs."
+        ]
+      ],
+      "caption": "Pas jou appèlbewyse by die presiese rede wat getoon word."
+    },
+    {
+      "id": "closing-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Alles bymekaar sit"
+    },
+    {
+      "id": "closing-p",
+      "type": "paragraph",
+      "text": "Die SRD R370-toelaag is 'n kragtige maar streng voorwaardelike vorm van ondersteuning. Sukses kom van drie gewoontes: doen een keer met akkurate besonderhede aansoek, kontroleer jou status elke maand, en appelleer binne 30 dae (of tot 90 dae deur die ITSAA-portaal) as 'n maand verkeerdelik afgekeur word. Hou jou foon- en bankbesonderhede op datum, behandel die toelaag as wisselend eerder as permanent, en beskerm jouself teen die bedrog wat op begunstigdes gemik is. Met daardie gewoontes werk die stelsel soos bedoel — R370 per maand in die hande van mense wat werklik geen ander inkomste het nie. Vir lewendige datums, statusse en appèlle, keer altyd terug na die amptelike srd.sassa.gov.za-portaal."
+    },
+    {
+      "id": "help-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hulp kry wanneer die stelsel moeilik is om te gebruik"
+    },
+    {
+      "id": "help-p",
+      "type": "paragraph",
+      "text": "Nie almal het 'n slimfoon, betroubare data, of die vertroue om 'n aanlynportaal te navigeer nie, en SASSA erken dit. Gratis bystand is beskikbaar deur SASSA-kantore en selfbedieningskiosks, waar personeel jou sonder koste help om aansoek te doen, status na te gaan en te appelleer. Gemeenskapswerkers en sommige munisipale kantore bedryf ook ondersteuningspunte. Die belangrike ding om te onthou, is dat hulp altyd gratis moet wees — as iemand betaling eis om jou te help, is hulle nie wettig nie. Ons toegewyde SRD-hulpgids dek oproepsentrums en kiosks in meer besonderhede vir dié wat menslike bystand verkies."
+    },
+    {
+      "id": "help-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Jy is nie alleen nie",
+      "text": "Miljoene Suid-Afrikaners maak op die SRD-toelaag staat. As iets verkeerd gaan — 'n afgekeurde maand, 'n gemiste betaling, 'n verwarrende status — is dit gewoonlik regmaakbaar deur die stappe in hierdie gids: kontroleer die rede, werk jou besonderhede by, en appelleer binne 30 dae (of tot 90 dae deur die ITSAA-portaal) met die regte bewyse."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Gereelde Vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Hoe lank hou die SRD-toelaag?",
+          "answer": "Die SRD-toelaag is verleng tot minstens Maart 2027. Dit word jaarliks deur die regering hersien en mag verder verleng word."
+        },
+        {
+          "question": "Hoekom sê my SRD-status 'Alternatiewe Inkomstebron'?",
+          "answer": "Dit beteken SASSA het 'n bankdeposito of registrasie in jou naam gevind wat daarop dui dat jy ander inkomste het. Selfs 'n geskenk van familie kan dit veroorsaak. Appelleer met 'n beëdigde verklaring wat elke deposito verduidelik."
+        },
+        {
+          "question": "Kan ek die SRD-toelaag kry as ek deeltyds werk?",
+          "answer": "Slegs as jou maandelikse verdienste onder R624 is. As jou bankrekening in enige maand deposito's van meer as R624 toon, sal jy vir daardie maand afgekeur word."
+        },
+        {
+          "question": "Moet ek elke maand weer aansoek doen?",
+          "answer": "Nee. Sodra jou aansoek goedgekeur is, evalueer SASSA jou elke maand outomaties. Jy hoef nie weer aansoek te doen tensy jou toelaag gekanselleer is nie."
+        },
+        {
+          "question": "Kan ek beide SRD en 'n ander SASSA-toelaag kry?",
+          "answer": "Nee. Jy kan slegs een maatskaplike toelaag op 'n slag ontvang. As jy vir 'n Toelaag vir Bejaardes, Gestremdheidstoelaag of Kinderondersteuningstoelaag kwalifiseer, moet jy een kies."
+        },
+        {
+          "question": "Wat as ek 60 word terwyl ek SRD ontvang?",
+          "answer": "Die SRD-toelaag is vir ouderdomme 18 tot 59. Sodra jy 60 word, moet jy eerder vir die Toelaag vir Bejaardes aansoek doen. Besoek jou naaste SASSA-kantoor om oor te skakel."
+        },
+        {
+          "question": "Hoe verander ek my betaalmetode van bank na Cash Send?",
+          "answer": "Meld by die SRD-portaal by srd.sassa.gov.za aan, gaan na 'Betaalmetode', en skakel van 'Bankoordrag' na 'Cash Send' oor. Veranderinge geld vanaf die volgende maand."
+        },
+        {
+          "question": "Kan ek my telefoonnommer vir SRD bywerk?",
+          "answer": "Ja. Meld by die SRD-portaal aan en navigeer na 'Werk Persoonlike Besonderhede By'. Jy sal toegang tot jou ou nommer vir verifikasie nodig hê, of besoek 'n SASSA-kantoor as jy nie meer toegang het nie."
+        },
+        {
+          "question": "Wat gebeur as my SRD-status 'Verwys' sê?",
+          "answer": "Dit beteken jou aansoek is vir 'n bedrogondersoek gemerk. Kontak die SASSA-bedrogblitslyn by 0800 60 10 11 en maak gereed om 'n SASSA-kantoor met jou ID te besoek om dit op te los."
+        },
+        {
+          "question": "Is die SRD-toelaag belasbaar?",
+          "answer": "Nee. SASSA-maatskaplike toelaes is vrygestel van inkomstebelasting. Jy hoef dit nie op jou belastingopgawe te verklaar nie."
+        }
+      ]
+    },
+    {
+      "id": "faq-more-1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "My status sê al meer as twee weke 'Hangende'. Wat moet ek doen?",
+          "answer": "'n Hangende-status beteken jou aansoek beweeg steeds deur verifikasie teen Home Affairs, SARS, UIF en NSFAS. Kort vertragings is normaal. Hou aan om elke paar dae na te gaan. As dit vir 'n buitengewoon lang tyd (verskeie weke) in Hangende bly sonder bywerking, kan jy die SASSA-oproepsentrum kontak of 'n kantoor met jou ID en verwysingsnommer besoek."
+        },
+        {
+          "question": "My status is 'Goedgekeur' maar ek is nie betaal nie. Hoekom?",
+          "answer": "Goedkeuring beteken jy het vir daardie maand gekwalifiseer; betaling volg in die normale betaalvenster (rofweg die 25ste tot maandeinde). As die venster verby is en jy goedgekeur is, bevestig eers dat jou betaalmetode en bankbesonderhede korrek en in jou naam is. 'n Verkeerde of geslote rekening kan die betaling laat bons. As besonderhede korrek is en betaling steeds nie aangekom het nie, kontroleer die status weer en kontak SASSA, met jou verwysingsnommer byderhand."
+        },
+        {
+          "question": "Raak my maat of eggenoot se inkomste my SRD-toelaag?",
+          "answer": "Die middeletoets kyk na inkomste wat in JOU bankrekening invloei en jou eie staatsrekords, nie outomaties jou maat s'n nie. As geld van 'n maat egter gereeld in jou rekening gedeponeer word en jou maandelikse totaal bo R624 stoot, kan dit jou beoordeling raak. Die toelaag is op jou individuele finansiële posisie gegrond soos dit in jou rekening en databasisse weerspieël word."
+        },
+        {
+          "question": "Ek het per abuis twee keer aansoek gedoen. Is dit 'n probleem?",
+          "answer": "Om meer as een aansoek met dieselfde ID in te dien, skep nie verskeie toelaes nie en word oor die algemeen gekonsolideer, maar dupliseer aansoeke kan verwarring of vertragings veroorsaak. Gebruik jou oorspronklike verwysingsnommer om status na te gaan, en vermy om iemand te betaal om duplikate te 'regmaak'. As jy bekommerd is, kontak SASSA met jou ID om jou enkele aktiewe aansoek te bevestig."
+        },
+        {
+          "question": "Hoe verander ek my bankbesonderhede op die SRD-toelaag?",
+          "answer": "Meld by die SRD-portaal by srd.sassa.gov.za aan, gaan na die afdeling vir die bywerking van persoonlike of bankbesonderhede, en voer jou nuwe rekening in (dit moet in jou naam wees). Veranderinge tree tipies vanaf die volgende maand in werking. Jy kan ook die WhatsApp-lyn gebruik of 'n SASSA-kantoor besoek as jy nie by die portaal kan uitkom nie. Vir 'n volledige gids, sien ons betaalmetodes-bladsy."
+        },
+        {
+          "question": "Wat gebeur nadat ek 'n appèl ingedien het?",
+          "answer": "Jou appèl gaan na die Independent Tribunal for Social Assistance Appeals (ITSAA), wat die bewyse teen die SASSA-besluit vir daardie spesifieke maand hersien. Uitslae is: bekragtig (jy word vir daardie maand toegestaan, met terugbetaling indien van toepassing), gedeeltelik bekragtig, of van die hand gewys. ITSAA verwittig jou, en die proses kan 'n paar weke neem. Hou jou appèlverwysingsnommer vir opvolging."
+        },
+        {
+          "question": "Hoe lank neem 'n SRD-appèl?",
+          "answer": "Appèl-omkeertye wissel, maar baie word binne 'n paar weke tot 'n paar maande opgelos, afhangende van volume en die kompleksiteit van jou bewyse. Daar is geen kitsuitslag nie. Kontroleer jou appèlstatus met jou verwysingsnommer en die amptelike ITSAA-kanale eerder as om derde partye te vertrou."
+        },
+        {
+          "question": "Ek het die 30-dae-appèlsperdatum gemis. Kan ek steeds appelleer?",
+          "answer": "Die 30-dae-venster is streng en geld vanaf die datum van die afgekeurde maand. Om dit te mis, beteken gewoonlik daardie spesifieke maand kan nie deur die standaardappèl herondersoek word nie. Die praktiese regstelling is om seker te maak toekomstige maande word korrek beoordeel; as jy glo daar was 'n stelsel- of prosedurefout, kontak ITSAA of SASSA vir leiding oor jou opsies."
+        },
+        {
+          "question": "Kan ek die SRD-toelaag en UIF terselfdertyd ontvang?",
+          "answer": "Nee. Die ontvangs van UIF-betalings is diskwalifiserende inkomste vir die SRD-toelaag. As jy op UIF is, sal jou SRD-maande afgekeur word. Sodra jou UIF eindig, mag daardie latere maande kwalifiseer, en jy kan enige maand wat verkeerdelik afgekeur is nadat UIF gestop het, appelleer deur jou UIF-beëindigingsbrief te verskaf."
+        },
+        {
+          "question": "Wat beteken 'Identiteitsverifikasie misluk'?",
+          "answer": "Dit beteken die besonderhede wat jy ingedien het, stem nie met die Departement van Binnelandse Sake se rekords ooreen nie — dikwels 'n van-, geboortedatum- of ID-nommer-rekenverskil. Los dit op deur die gesigsverifikasie-stap in die SRD-portaal te voltooi of jou besonderhede by Home Affairs te korrigeer, en dan jou status weer na te gaan. Om die presiese naam op jou ID by aansoek te gebruik, voorkom dit."
+        },
+        {
+          "question": "Kan ek 'n familielid se bankrekening gebruik om betaling te ontvang?",
+          "answer": "Nee. Die bankrekening wat vir SRD-betaling gebruik word, moet in jou eie naam wees. Betalings aan rekeninge wat nie met jou ID ooreenstem nie, word verwerp of gemerk, wat jou toelaag kan vertraag of blokkeer en vrae oor bedrog kan laat ontstaan. Gebruik jou eie rekening, of kies Cash Send-kleinhandel-invordering as jy geen rekening het nie."
+        },
+        {
+          "question": "My telefoonnommer is verlore of SIM geruil. Hoe hou ek my toelaag?",
+          "answer": "Jou geregistreerde nommer word vir OTP's en status-SMS gebruik, so werk dit dadelik by. As jy steeds toegang het, verander dit in die SRD-portaal. As jy toegang verloor het, besoek 'n SASSA-kantoor met jou ID om jou identiteit te verifieer en die nommer by te werk. Om vinnig op te tree, voorkom gemiste verifikasie- en betalingsboodskappe."
+        }
+      ]
+    },
+    {
+      "id": "faq-more-2",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Sal die ontvangs van die SRD-toelaag my krediettelling raak?",
+          "answer": "Nee. Die SRD-toelaag is 'n maatskaplike-hulpbetaling, nie 'n lening of krediet nie. Om dit te ontvang, skep nie 'n kredietrekord of raak jou krediettelling nie. Dit word ook nie as inkomste getel wat jy moet terugbetaal nie."
+        },
+        {
+          "question": "Is die SRD-toelaag belasbaar?",
+          "answer": "Nee. Soos ander SASSA-maatskaplike toelaes, is die SRD R370-betaling vrygestel van inkomstebelasting en hoef dit nie as belasbare inkomste op jou opgawe verklaar te word nie."
+        },
+        {
+          "question": "Kan asielsoekers en vlugtelinge vir SRD aansoek doen?",
+          "answer": "Ja. Erkende vlugtelinge wat op die Home Affairs-stelsel geregistreer is en asielsoekers of houers van spesiale permitte kan aansoek doen. Hulle gebruik hul permit- of asielsoekernommer in plaas van 'n Suid-Afrikaanse ID-nommer, en moet aan dieselfde middeletoets en ander vereistes voldoen."
+        },
+        {
+          "question": "Ek is 'n student wat nie deur NSFAS befonds word nie. Kan ek SRD kry?",
+          "answer": "Jy mag kwalifiseer as jy geen ander inkomste het nie en jou maandelikse deposito's op of onder R624 bly. Om nie NSFAS te ontvang nie, is nie outomaties genoeg nie — die inkomstetoets geld steeds vir wat ook al jou rekening bereik. Private beurse en familie-ondersteuning tel steeds as deposito's teen die drempel."
+        },
+        {
+          "question": "Kan huishoudelike werkers en gig-werkers die SRD-toelaag kry?",
+          "answer": "Slegs as totale maandelikse verdienste op of onder R624 is en jy nie formeel via PAYE werksaam is nie. Gig- en los verdienste word beoordeel op wat elke maand in jou bank beland, so jou status mag van maand tot maand verander. As jy formeel met PAYE betaal word, word jy oor die algemeen as werksaam beskou en sal jy nie kwalifiseer nie."
+        },
+        {
+          "question": "Hoe weet ek of my toelaag verval het?",
+          "answer": "Kontroleer jou status elke maand. As 'n maand 'Afgekeur' wys (byvoorbeeld, 'Alternatiewe Inkomstebron') of jy eenvoudig geen betaling ontvang nie ten spyte van vorige goedkeurings, het die toelaag vir daardie maand verval weens die middeletoets of 'n data-vlag. Maak die onderliggende oorsaak reg en appelleer verkeerdelik afgekeurde maande binne 30 dae (of tot 90 dae deur die ITSAA-portaal)."
+        },
+        {
+          "question": "Wat is die swart Postbank-kaart, en het ek dit nodig?",
+          "answer": "SASSA vervang die ou goue SASSA-kaart met 'n nuwe swart Postbank-kaart. SASSA het 'n migrasiesperdatum van 31 Augustus 2026 aangekondig waarteen begunstigdes hul kaart by 'n Postbank- of SASSA-punt moet omruil om aanhou betaal te word. As jy betaling per EFT na jou eie bankrekening ontvang, mag dit jou nie raak nie; as jy via 'n SASSA/Postbank-kaart intrek, bevestig jou situasie op amptelike kanale, aangesien datums kan verander."
+        },
+        {
+          "question": "Kan ek weer aansoek doen nadat my SRD gekanselleer is?",
+          "answer": "As jou toelaag gekanselleer is (byvoorbeeld, ná langtermyn-onbevoegdheid), moet jy oor die algemeen 'n nuwe aansoek indien eerder as om dit eenvoudig te heraktiveer. As dit slegs vir spesifieke maande geskors of verval het, mag daardie maande deur bywerkings en appèlle aangespreek word. Besoek die SRD-portaal of 'n SASSA-kantoor vir jou spesifieke geval."
+        },
+        {
+          "question": "Hoekom moet ek elke drie maande herbevestig?",
+          "answer": "SASSA vereis periodieke herbevestiging (rofweg elke drie maande) om jou besonderhede en voortgesette behoefte te bevestig, langs die maandelikse middeletoets-herevaluering. Dit is 'n beheer om te verseker die toelaag gaan na mense wat steeds aan die vereistes voldoen. Herbevestig deur die amptelike portaal wanneer gevra word; om dit te mis, kan jou rekord verouderd laat en betalings raak."
+        },
+        {
+          "question": "Tel die SRD-toelaag teen RDP-huise of ander maatskaplike voordele?",
+          "answer": "Die SRD-toelaag is 'n tydelike hulpbetaling en word oor die algemeen nie as permanente inkomste vir ander maatskaplike programme behandel nie, maar reëls vir behuising en ander voordele word deur verskillende regeringsdepartemente vasgestel. Vir definitiewe antwoorde oor hoe die toelaag met RDP-behuising of ander bystand saamwerk, raadpleeg die relevante departement of 'n SASSA-kantoor, en steun op amptelike leiding eerder as informele advies."
+        },
+        {
+          "question": "Kan ek SRD kry as ek reeds die Kinderondersteuningstoelaag vir my kind kry?",
+          "answer": "Ja. Die Kinderondersteuningstoelaag wat vir jou eie kind betaal word, is die een uitsondering op die 'geen ander toelaag'-reël. Jy mag die kindertoelaag vir jou kind en die SRD R370 vir jouself terselfdertyd ontvang, mits jy aan al die SRD-vereistes voldoen (ouderdom 18 tot 59, inkomste op of onder R624, geen UIF/NSFAS nie, ens.)."
+        },
+        {
+          "question": "Waar kan ek menslike hulp kry as die aanlynstelsel moeilik is om te gebruik?",
+          "answer": "Jy kan by 'n SASSA-kantoor of deur SASSA se gratis oproepsentrums en selfbedieningskiosks aansoek doen of hulp kry, waar personeel sonder koste help. Pasop vir enigiemand wat 'n fooi vra. Ons SRD-hulpgids verduidelik hoe om menslike bystand te bereik, en die statustoetsbladsy verduidelik om per USSD en WhatsApp na te gaan."
+        },
+        {
+          "question": "Hoe rapporteer ek 'n SRD-swendelary of bedrog?",
+          "answer": "Rapporteer swendelary en bedrog by die SASSA-bedrogblitslyn op 0800 60 10 11, en deel nooit jou PIN, wagwoord of OTP nie. Gebruik slegs amptelike kanale: srd.sassa.gov.za, die WhatsApp-lyn 082 046 8553, of 'n fisiese SASSA-kantoor."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Kyk Jou SRD-status",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "Volledige gids om jou SRD-toelaagstatus na te gaan"
+        },
+        {
+          "title": "SRD-betalingsmetodes",
+          "href": "/grants/srd-r370-grant/payment-methods",
+          "description": "Hoe jy jou R370-betaling ontvang"
+        },
+        {
+          "title": "SRD-maandelikse hersiening verduidelik",
+          "href": "/grants/srd-r370-grant/monthly-review",
+          "description": "Verstaan maandelikse kwalifikasie-herevaluerings"
+        },
+        {
+          "title": "Hoe om vir SRD aansoek te doen",
+          "href": "/grants/srd-r370-grant",
+          "description": "Stap-vir-stap-aansoekgids"
+        },
+        {
+          "title": "Appèl teen 'n afgekeurde SRD-toelaag",
+          "href": "/appeals/appeal-after-decline",
+          "description": "Hoe om te appelleer as jou SRD afgekeur word"
+        },
+        {
+          "title": "Alternatiewe Inkomstebron-status",
+          "href": "/status/alternative-income-source",
+          "description": "Wat hierdie status beteken en hoe om dit reg te maak"
+        },
+        {
+          "title": "SRD-hulp: oproepsentrums en kiosks",
+          "href": "/guides/srd-call-centre-kiosk-help",
+          "description": "Hoe om menslike hulp te kry as die aanlynstelsel moeilik is"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Toelaagbiblioteek",
+      "slug": "/grants"
+    },
+    {
+      "title": "Toelaag vir Bejaardes",
+      "slug": "/grants/older-person-grant"
+    },
+    {
+      "title": "Gestremdheidstoelaag",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "SRD vs ander toelaes",
+      "slug": "/grants"
+    }
+  ]
+}

@@ -85,7 +85,7 @@ export const eligibilityGuides: EligibilityGuide[] = [
     checklist: [
       "Must be 60 years or older.",
       "Must be a South African citizen or permanent resident.",
-      "Annual income must be below R96,240 (Single) or R192,480 (Married)."
+      "Annual income must be below R112,200 (Single) or R224,400 (Married)."
     ],
     recommendedGrants: [
       { name: "Older Person Grant (Pension)", slug: "older-person-grant", amount: "R2,400 / month" },
@@ -133,7 +133,7 @@ export const eligibilityGuides: EligibilityGuide[] = [
     faqs: [
       {
         question: "Can I receive a disability grant if I get a private pension?",
-        answer: "Only if the private pension income falls below the strict means test threshold of R96,240 per year."
+        answer: "Only if the private pension income falls below the strict means test threshold of R112,200 per year."
       }
     ]
   },

@@ -1,0 +1,187 @@
+{
+  "id": "srd-court-case-help-options",
+  "slug": "/news/sassa-court-case-srd-help-options",
+  "classification": "news-article",
+  "title": "SASSA Court Case: Free Call Centres and Kiosks for SRD Help",
+  "description": "SASSA told the Supreme Court of Appeal on 25 August 2026 that they have measures to improve SRD access — free call centres with human help and self-service kiosks at offices. Here is what it means for you.",
+  "lastUpdated": "2026-08-26",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Independent coverage of the Supreme Court of Appeal proceedings",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA SRD Court Case — Free Call Centre & Kiosk Help Explained",
+    "metaDescription": "SASSA told the Supreme Court of Appeal it will improve SRD access: free call centres with human help and self-service kiosks. Plain-language guide to what it means for applicants.",
+    "keywords": [
+      "SASSA court case SRD",
+      "SASSA Supreme Court of Appeal",
+      "SASSA call centre SRD",
+      "SASSA self service kiosk",
+      "SRD help options 2026"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "title": "SASSA Promises Better SRD Access — Free Call Centres and Kiosks",
+      "description": "On 25 August 2026, SASSA told the Supreme Court of Appeal that it has measures to improve access to SRD applications — including free call centres with human intervention and self-service kiosks. Here is what already exists today and how you can use it.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-08-26"
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "What Happened"
+    },
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "text": "On 25 August 2026, SASSA appeared before the Supreme Court of Appeal in a case about access to the SRD R370 grant. In its submissions, SASSA said it has put measures in place to improve how people can apply and get help with the SRD system. It specifically named two options: free call centres where a real person helps you, and self-service kiosks that have been rolled out in many SASSA offices, with libraries planned next.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "callout1",
+      "type": "callout",
+      "intent": "info",
+      "title": "No Immediate Change for Applicants",
+      "text": "The court case is still being heard, and no new policy has been announced. The system remains primarily online. But the call centre and kiosks SASSA described already exist — this article explains how to use them right now."
+    },
+    {
+      "id": "h2",
+      "type": "heading",
+      "level": 2,
+      "text": "Free Call Centre: 0800 60 10 11"
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "text": "The SASSA toll-free helpline on 0800 60 10 11 connects you to a real person who can help with SRD applications, status checks, declined grants, and payment problems. It is free from any phone, and is best called in the early morning or after 3pm when queues are shorter.",
+      "links": [
+        {
+          "text": "how to get the most out of the call centre",
+          "href": "/guides/srd-call-centre-kiosk-help"
+        }
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "heading",
+      "level": 2,
+      "text": "Self-Service Kiosks at SASSA Offices"
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "text": "SASSA has rolled out self-service kiosks at many local offices. These let you apply for SRD, check your status, and update details on a touchscreen — with staff nearby to help. Not every office has one yet, so check with your nearest office before travelling.",
+      "links": [
+        {
+          "text": "full kiosk guide",
+          "href": "/guides/srd-call-centre-kiosk-help"
+        }
+      ]
+    },
+    {
+      "id": "h4",
+      "type": "heading",
+      "level": 2,
+      "text": "What Was the Case About?"
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "text": "The appeal concerns how people access the SRD grant, which remains digital-first. Campaigners have argued that online-only access leaves out people without smartphones, data, or digital skills. SASSA's court submissions describe the call centres and kiosks as part of the answer to that concern."
+    },
+    {
+      "id": "faq1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Has the SRD grant changed because of the court case?",
+          "answer": "No. The grant amount (R370) and the application system are unchanged. The court case is about improving access and is still being heard. Watch our news section for any ruling."
+        },
+        {
+          "question": "Can I apply for SRD at a SASSA office now?",
+          "answer": "The application is still submitted online or on a self-service kiosk at the office. You cannot submit a full application by phone, but a call centre agent can walk you through it. Many offices have kiosks where staff help you apply on the spot."
+        },
+        {
+          "question": "Is the call centre number still 0800 60 10 11?",
+          "answer": "Yes. Dial 0800 60 10 11 from any phone Monday to Friday, 8am to 5pm. It is toll-free."
+        },
+        {
+          "question": "Do self-service kiosks cost money?",
+          "answer": "No. Kiosks and staff help at SASSA offices are completely free."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Complete Guide: Call Centres and Kiosks",
+          "href": "/guides/srd-call-centre-kiosk-help",
+          "description": "Step-by-step: what the call centre can do, what kiosks can do, and what still needs to be done online"
+        },
+        {
+          "title": "Check Your SRD Status",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "All the ways to check your SRD grant status"
+        },
+        {
+          "title": "Appeal a Declined SRD",
+          "href": "/appeals/appeal-after-decline",
+          "description": "How to appeal if your SRD application is declined"
+        },
+        {
+          "title": "SRD Scam Alert",
+          "href": "/guides/sassa-scam-alert-guide",
+          "description": "Spot fake SASSA messages and fraud calls"
+        }
+      ]
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "sources": [
+        {
+          "label": "SASSA official website",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SRD portal",
+          "url": "https://srd.sassa.gov.za"
+        }
+      ],
+      "note": "Coverage based on SASSA's submissions to the Supreme Court of Appeal on 25 August 2026. Court outcomes pending."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "SRD Help: Call Centres and Kiosks",
+      "slug": "/guides/srd-call-centre-kiosk-help"
+    },
+    {
+      "title": "SRD R370 Grant Guide",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "September 2026 Payment Dates",
+      "slug": "/payment-dates/2026-september"
+    }
+  ]
+}

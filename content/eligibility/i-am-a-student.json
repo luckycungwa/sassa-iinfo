@@ -31,7 +31,7 @@
       "title": "Can Students Get SASSA Grants?",
       "description": "Students in South Africa may qualify for SASSA grants under certain conditions. Learn how NSFAS funding affects eligibility, what grants are available to students, and how to apply if you're not receiving other state funding.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "NSFAS-Funded? Learn More",
         "href": "/eligibility/i-receive-nsfas"
@@ -233,7 +233,13 @@
     {
       "id": "decline",
       "type": "paragraph",
-      "text": "If SASSA declines you claiming you are 'NSFAS Funded' but you are not receiving any funding, you need to get a NSFAS cancellation or completion letter. Visit the myNSFAS portal to request this letter. Then file an appeal on the ITSAA appeal portal with the letter attached. Visit our appeal after NSFAS guide for detailed instructions."
+      "text": "If SASSA declines you claiming you are 'NSFAS Funded' but you are not receiving any funding, you need to get a NSFAS cancellation or completion letter. Visit the myNSFAS portal to request this letter. Then file an appeal on the ITSAA appeal portal with the letter attached. Visit our appeal after NSFAS guide for detailed instructions.",
+      "links": [
+        {
+          "text": "ITSAA",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "faq",

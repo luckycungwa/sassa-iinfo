@@ -4,7 +4,7 @@
   "classification": "how-to-guide",
   "title": "How to Apply for a SASSA Grant",
   "description": "Complete walkthrough for applying for any SASSA social grant in 2026: which grant fits your situation, every document you need, where to apply, what happens during the means test, and how long approval takes.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -31,7 +31,7 @@
       "title": "How to Apply for a SASSA Grant",
       "description": "Applying for a SASSA social grant is free, and most rejections happen because of missing documents or choosing the wrong grant — not because you don't qualify. This guide walks you through choosing the right grant, gathering every document, submitting your application, and tracking it to payment.",
       "readingTime": "9 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Documents Checklist",
         "href": "/guides/sassa-documents-checklist"
@@ -50,7 +50,17 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Every year millions of South Africans apply for social grants, and a large share of applications are delayed or declined for avoidable reasons: the wrong grant was chosen, a document was missing, or the means test revealed undeclared income. This guide covers the full process for permanent grants such as the Older Persons, Disability, and Child Support grants, plus the online process for the SRD R370 grant."
+      "text": "Every year millions of South Africans apply for social grants, and a large share of applications are delayed or declined for avoidable reasons: the wrong grant was chosen, a document was missing, or the means test revealed undeclared income. This guide covers the full process for permanent grants such as the Older Persons, Disability, and Child Support grants, plus the online process for the SRD R370 grant.",
+      "links": [
+        {
+          "text": "Child Support grant",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "who",

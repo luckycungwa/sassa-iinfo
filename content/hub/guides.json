@@ -1,1 +1,65 @@
-{"id":"hub-guides","slug":"/guides","classification":"hub-index","title":"How-to Guides for SASSA Grants","description":"Step-by-step guides for common SASSA tasks: applying, checking status, updating details, and more.","lastUpdated":"2026-06-30","version":"1.0.0","status":"published","author":{"name":"Grant Guide Editorial Team","role":"Content Editor","verified":true},"seo":{"metaTitle":"SASSA How-to Guides — Apply, Check, Update, Appeal","metaDescription":"Step-by-step SASSA guides: how to apply for a grant, check your status, update personal details, change payment method, and submit an appeal.","keywords":["SASSA guide","how to apply SASSA","SASSA help"]},"contentBlocks":[{"id":"h1","type":"heading","level":2,"text":"How-to Guides"},{"id":"intro","type":"paragraph","text":"Step-by-step guides to help you navigate the SASSA grant system — from applying for your first grant to managing payments and submitting appeals."}]}
+{
+  "id": "hub-guides",
+  "slug": "/guides",
+  "classification": "hub-index",
+  "title": "How-to Guides for SASSA Grants",
+  "description": "Step-by-step guides for common SASSA tasks: applying, checking status, updating details, and more.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA How-to Guides — Apply, Check, Update, Appeal",
+    "metaDescription": "Step-by-step SASSA guides: how to apply for a grant, check your status, update personal details, change payment method, and submit an appeal.",
+    "keywords": [
+      "SASSA guide",
+      "how to apply SASSA",
+      "SASSA help"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "How-to Guides"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Step-by-step guides to help you navigate the SASSA grant system — from applying for your first grant to managing payments and submitting appeals.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
+    },
+    {
+      "id": "related-pages-c4zq8t",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Eligibility Guides",
+          "href": "/eligibility"
+        },
+        {
+          "title": "Banking & Payments",
+          "href": "/banking"
+        }
+      ]
+    }
+  ]
+}

@@ -31,7 +31,7 @@
       "title": "Can I Get a SASSA Grant if I Receive UIF?",
       "description": "Receiving UIF payments doesn't automatically disqualify you from SASSA grants — but the amount matters. Learn how UIF affects your means test, what the R624 threshold means, and how to appeal if you're incorrectly flagged.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Appeal a UIF Decline",
         "href": "/appeals/appeal-after-uif"
@@ -50,7 +50,13 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Many South Africans transition between UIF and SASSA grants. If you currently receive Unemployment Insurance Fund (UIF) payments, your SASSA eligibility depends on the amount and duration of your UIF payouts. Understanding how the means test treats UIF income is critical to knowing whether you qualify."
+      "text": "Many South Africans transition between UIF and SASSA grants. If you currently receive Unemployment Insurance Fund (UIF) payments, your SASSA eligibility depends on the amount and duration of your UIF payouts. Understanding how the means test treats UIF income is critical to knowing whether you qualify.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
     },
     {
       "id": "why",
@@ -216,7 +222,13 @@
     {
       "id": "decline",
       "type": "paragraph",
-      "text": "This is one of the most common SASSA database errors. If SASSA declines you claiming you are 'UIF Registered' but you are no longer receiving UIF, visit your nearest Department of Labour office and request a UI-19 termination letter. Then file an appeal on the ITSAA appeal portal and upload the letter. Visit our appeal after UIF decline guide for detailed instructions."
+      "text": "This is one of the most common SASSA database errors. If SASSA declines you claiming you are 'UIF Registered' but you are no longer receiving UIF, visit your nearest Department of Labour office and request a UI-19 termination letter. Then file an appeal on the ITSAA appeal portal and upload the letter. Visit our appeal after UIF decline guide for detailed instructions.",
+      "links": [
+        {
+          "text": "ITSAA",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "faq",

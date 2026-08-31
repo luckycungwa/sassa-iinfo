@@ -1,0 +1,288 @@
+{
+  "id": "banking-black-card-swap",
+  "slug": "/banking/black-card-swap",
+  "classification": "banking-guide",
+  "title": "Ukuguqulwa Kwekhadi Le-SASSA Black — Isikhathi Sokugcina Sekhadi Legolide Siphelile",
+  "description": "Amakhadi e-SASSA Gold ayekile ukusebenza ngemuva kuka-31 August 2026. Imali yakho ivikeleke — thatha i-Postbank Black Card yakho yamahhala ku-Shoprite, Checkers, Usave, Pick n Pay, Boxer noma ku-Spar nge-ID yakho kuphela. Shaya *120*355# ukuze uthole indawo eduze nekhadi.",
+  "lastUpdated": "2026-08-26",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official Postbank and SASSA communications",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Ukuguqulwa Kwekhadi Le-SASSA Black — Ngemva Kwekhasi (2026)",
+    "metaDescription": "Amakhadi e-Gold ayekile ukusebenza ngemuva kuka-31 August 2026. Imali yakho ivikeleke — thatha i-Postbank Black Card yakho yamahhala nge-ID yakho kuphela. Funda lapha.",
+    "keywords": [
+      "i-SASSA black card",
+      "i-Postbank black card",
+      "isikhathi sokugcina segolide",
+      "ukuguqulwa kwekhadi le-SASSA gold",
+      "i-black card 31 August 2026",
+      "ukufakwa kwekhadi le-SASSA 2026",
+      "indawo yokuthatha i-Postbank"
+    ]
+  },
+  "sources": [
+    { "label": "I-SASSA i-website esemthethweni", "url": "https://www.sassa.gov.za" },
+    { "label": "Izitatimende ze-SASSA", "url": "https://www.sassa.gov.za/Pages/Media-Statements.aspx" },
+    { "label": "i-Department of Social Development", "url": "https://www.dsd.gov.za" }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Guqula Ikhadi Legolide le-SASSA — Uhlobo Lwe-Black Card",
+      "description": "I-Postbank iguqule ikhadi ngalinye le-SASSA Gold nge-Postbank Black Card entsha. Isikhathi sokugcina sokuguqula bekungu-31 August 2026, futhi amakhadi e-Gold ayekile ukusebenza ngemva kosuku lowo. Uma ungakaguquli, imali yakho ivikeleke — thatha i-Black Card yakho manje. Ukuguqula kuyamahhala, kuthatha imizuzu, futhi kudinga i-ID yakho yeNingizimu Afrika kuphela.",
+      "readingTime": "imizuzu engu-5 yokufunda",
+      "lastUpdated": "2026-08-26",
+      "cta": {
+        "label": "Ungaguqula Kanjani — Ngezinyathelo",
+        "href": "#how-to-swap"
+      },
+      "secondaryCta": {
+        "label": "Uhlobo Lokufakwa Kwekhadi",
+        "href": "/banking/sassa-card-replacement"
+      }
+    },
+    {
+      "id": "warning-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "Amakhadi e-Gold Ayekile Ukusebenza",
+      "text": "Isikhathi sokugcina sika-31 August 2026 siphelile futhi i-Postbank yaqinisekisa ukuthi ngeke kunjalo. Amakhadi e-Gold ayekisiwe — uma ungakaguquli, awunakufinyelela imali yakho kuze kube yini uthatha i-Black Card. Ungaxhawuli: imali yakho isephephile ku-akhawunti yakho ye-Postbank futhi ukuguqula kunoma yiphi indawo kuyamahhala."
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Kungani Kufanele Uguqule Ikhadi Legolide"
+    },
+    {
+      "id": "why-swap",
+      "type": "paragraph",
+      "text": "I-Postbank isusa kancane kancane ikhadi le-SASSA elidala legolide iyifake enye entsha i-Postbank Black Card njengengxenye yokuvuselela uhlelo lokukhokhelwa izinhlelo zokusekela abantu kuleli. I-Black Card isebenza ku-ATMs eyengeziwe, isekela izinkokhelo ezingathinti, futhi inokuvikelwa okuthuthukile. Ngemva kuka-31 August 2026 amakhadi e-Gold adala azoekisiwa."
+    },
+    {
+      "id": "how-to-swap",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Qoqa i-ID yakho",
+          "description": "Thatha incwadi yakho ye-ID yeNingizimu Afrika esebenzayo noma i-smart ID card. I-ID yesikhashana iyamkelekile. AWUDINGI ikhadi yakho endala legolide ukuze uthole entsha."
+        },
+        {
+          "title": "Thola indawo yokuthatha eduze kunakho konke",
+          "description": "Shaya *120*355# kucingo lakho ukuze uthole indawo yokuthatha eduze kunakho konke, noma usho ku-Postbank ku-0800 53 54 55. Ungathatha kunoma yisiphi isifunda, noma ube naphi lapho i-grant yakho yamukelwe."
+        },
+        {
+          "title": "Vakashela indawo ye-Postbank noma isitolo esihlanganyelayo",
+          "description": "Amakhadi atholakala ezindaweni ze-Postbank ngaphakathi kwamastoro ahlanganyelayo e-Shoprite, Checkers, Usave, Pick n Pay, Boxer ne-Spar kulo lonke ilizwe."
+        },
+        {
+          "title": "Thatha i-Black Card yakho",
+          "description": "Ukuguqula kuyamahhala ngokuphelele futhi kuthatha imizuzu embalwa. Akukho mafomu adingekayo futhi akukho ukuvula okudingekayo — ikhadi isebenza ngokushesha uma inikiwe."
+        },
+        {
+          "title": "Hlola ibhalansi yakho ethunyelwe",
+          "description": "Noma yiluphi uhlobo lwemali kulikhadi lakho elidala legolide luyishintsha ngokuzenzakalelayo kwi-Black Card entsha. Ungalilahli ikhadi endala ngaphambi kokuthi uqinisekise ukuthi ibhalansi yakho isidlulisiwe."
+        }
+      ]
+    },
+    {
+      "id": "free-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Ukuguqula Kuyamahhala",
+      "text": "I-SASSA ne-Postbank azizange zikhole i-Black Card swap. Uma umuntu ekucela ukukhokha, ugcwale ifomu, noma unikeze i-PIN noma i-OTP ukuze uthole ikhadi, unomuntu ozokukhohlisa. I-Black Card yangempela inokuthi 'Postbank' ebhalwe ngaphambili."
+    },
+    {
+      "id": "where-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Lapho Ungathatha Khona I-Black Card Yakho"
+    },
+    {
+      "id": "where-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Izindawo ze-Postbank ngaphakathi kwamastoro akhethiwe e-Shoprite",
+        "Izindawo ze-Postbank ngaphakathi kwamastoro akhethiwe e-Checkers ne-Usave",
+        "Izindawo ze-Postbank ngaphakathi kwamastoro akhethiwe e-Pick n Pay ne-Boxer",
+        "Izindawo ze-Postbank ngaphakathi kwamastoro akhethiwe e-Spar",
+        "Amabhilangi e-Postbank azimele kulo lonke ilizwe"
+      ]
+    },
+    {
+      "id": "ussd-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Thola Indawo Yokuthatha Eduze",
+      "text": "Shaya *120*355# kunoma yisiphi iselula ukuze uthole indawo yokuthatha ikhadi ye-Postbank eduze kunakho konke. Iseviso isebenza kuzo zonke inethiwekhi ezinkulu zaseNingizimu Afrika. Ungasho futhi ku-Postbank ku-0800 53 54 55."
+    },
+    {
+      "id": "scam-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Isixwayiso Sebhali Le-Black Card"
+    },
+    {
+      "id": "scam-paragraph",
+      "type": "paragraph",
+      "text": "Abakhohlisi bajubese abathengi ngesikhathi sokuguqulwa kwekhadi. Khumbula: i-Black Card yangempela inokuthi 'Postbank' ebhalwe ngaphambili njalo. Uma ikhadi lingasho i-Postbank, iyabhexa. I-SASSA ne-Postbank ngeke zicela i-PIN yakho, i-OTP, noma inombolo yebhange, futhi akukho muntu ongakukhokhela ukuguqula ikhadi yakho."
+    },
+    {
+      "id": "scam-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Uma kungasho 'Postbank' ngaphambili, iyabhexa",
+        "Akukho mafomu adingekayo — uma ucelwa ukusayina into, ikhadi ayikho yangempela",
+        "Ukuguqula kuyamahhala — noma ubani okucela imali yiyaqamba",
+        "Ungakaze wabelane nge-PIN yakho, i-OTP, noma inombolo yebhange noma muphi umuntu",
+        "Bika amabhali ku-SASSA Fraud Hotline ku-0800 60 10 11 noma ku-Postbank ku-0800 53 54 55"
+      ]
+    },
+    {
+      "id": "usage-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukusebenzisa i-Black Card yakho nsuku zonke"
+    },
+    {
+      "id": "usage-paragraph",
+      "type": "paragraph",
+      "text": "I-Black Card isebenza kunoma yisiphi i-ATM noma endaweni yokukhokha ethola i-Mastercard, futhi ungathola imali ngemahhala ezitolo ezihlanganyelayo (Shoprite, Checkers, Pick n Pay, Boxer, Usave) nama-ATM e-Postbank. Akukho mikhondo yanyanga, futhi ikhadi isekela izinkokhelo ezingathinti ezitolo ezamkela amakhadi."
+    },
+    {
+      "id": "lost-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Ikhadi elilahlekile noma ebuntfweni?",
+      "text": "Bika manje ku-Postbank ku-0800 53 54 55 ukuze ikhadi ibanjwe. Bese uvakashela noma yiphi indawo ye-Postbank ne-ID yakho ukuze uthole esinye. Izinkokhelo ze-grant yakho ziqhubeka njalo — imali ihlala ku-akhawunti yakho ye-Postbank ngisho nangalesi sikhathi."
+    },
+    {
+      "id": "after-deadline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ikhadi Legolide Liyekile Ukusebenza — Manje?"
+    },
+    {
+      "id": "after-deadline-p",
+      "type": "paragraph",
+      "text": "Uma ikhadi lakho legolide selingasebenzi ngemva kuka-31 August 2026, lokhu kujwayelekile futhi akukho lutho olungaphuthelwe nge-grant yakho. Imali yakho ayilahlekile — ihlala ku-akhawunti yakho ye-Postbank. Kufanele uthathe i-Black Card yakho nje. Ukuguqula kusayamahhala futhi kusathatha imizuzu kunoma yiphi indawo, nangemva kwesikhathi sokugcina."
+    },
+    {
+      "id": "after-deadline-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ungxhawuli — imali yakho isephephile",
+          "description": "Izinkokhelo ze-grant yakho nanoma yiluphi uhlobo lwemali kulikhadi lakho endala zihlala ku-akhawunti yakho ye-Postbank. Ikuphela ikhadi kuphela ekisiwe."
+        },
+        {
+          "title": "Thola indawo yokuthatha",
+          "description": "Shaya *120*355# kucingo lakho, noma usho ku-Postbank ku-0800 53 54 55, ukuze uthole indawo ye-Postbank eduze kunakho konke noma isitolo esihlanganyelayo."
+        },
+        {
+          "title": "Thatha i-Black Card yakho ne-ID",
+          "description": "Vakashela indawo yokuthatha ne-ID yakho yeNingizimu Afrika (incwadi noma i-smart ID). Akukho ikhadi endala, akukho mafomu, akukho mikhondo. I-Black Card isebenza ngokushesha uma inikiwe."
+        }
+      ]
+    },
+    {
+      "id": "after-deadline-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Ngesikhathi Esifanayo, Isashesha — Ngemva Kwesikhathi Sokugcina",
+      "text": "Ukulahlekelwa isikhathi sokugcina akukubolekisi lutho ngaphezu kwalokho, futhi awujwayelwa noma ubophezeleke. I-Postbank iqhubeka nokunika amakhadi e-Black ngemva kuka-31 Agasti. Isiphetho esisodwa ukuthi ikhadi lakho elidala legolide lihlala ekisiwe kuze kube yini uthatha ikhadi entsha."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibuzo Evamile"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ngilahlekelwe isikhathi sokugcina sika-31 August 2026. Ngiyakuthola yini i-Black Card?",
+          "answer": "Yebo. I-Postbank iqhubeka nokunika amakhadi e-Black ngemva kwesikhathi sokugcina. Imali yakho isephephile ku-akhawunti yakho ye-Postbank — thatha i-Black Card yakho ne-ID yakho kunoma yiphi indawo yokuthatha futhi isebenza ngokushesha. Akukho mikhondo noma isijwayelo sokuguqula kamuva."
+        },
+        {
+          "question": "Ikhadi legolide liyekile ukusebenza. Imali yami iphelile?",
+          "answer": "Cha. Imali yakho ayilahlekile futhi i-grant yakho ayithintekile. Ikhadi ekisiwe ivimba ukufinyelela kuphela — ibhalansi yakho nezinkokhelo ezizayo zihlala zivikeleke ku-akhawunti yakho ye-Postbank kuze kube yini uthatha i-Black Card."
+        },
+        {
+          "question": "Ukuguqulwa kwe-Black Card kuhamba nangamali?",
+          "answer": "Cha. Ukufakwa kuyamahhala ngokuphelele. Akukho mafomu, akukho mikhondo, akukho ukuvula okudingekayo. Uma umuntu ekucela ukukhokhela ikhadi, iyabhexa."
+        },
+        {
+          "question": "Ngidinga ukuletha ikhadi yami yegolide ukuze ngiguqule?",
+          "answer": "Cha. Kufanele uthathe i-ID yakho yeNingizimu Afrika noma i-ID yesikhashana kuphela. Noma yiluphi uhlobo lwemali kulikhadi lakho legolide luyishintsha ngokuzenzakalelayo kwi-Black Card entsha."
+        },
+        {
+          "question": "Ngiyakuthola yini i-Black Card yami esifundweni esahlukile kunalapho i-grant yakho yamukelwe?",
+          "answer": "Yebo. Amakhadi atholakala kunoma yiphi indawo ye-Postbank noma isitolo esihlanganyelayo kunoma yisiphi isifunda, noma ngabe i-grant yakho yamukelwe kuphi."
+        },
+        {
+          "question": "Kwenzeke nini uma ikhadi legolide ilahlekile noma ebuntfweni ngaphambi kokuguqula?",
+          "answer": "Bika ku-Postbank ku-0800 53 54 55 ukuze ikhadi ibanjwe, bese uvakashela noma yiphi indawo ye-Postbank ne-ID yakho ukuze uthathe i-Black Card. Izinkokhelo ze-grant yakho ziqhubeka njalo ngalesi sikhathi."
+        },
+        {
+          "question": "Ngiyithola kanjani indawo yokuthatha i-Black Card eduze?",
+          "answer": "Shaya *120*355# kucingo lakho ukuze uthole indawo yokuthatha eduze kunakho konke, noma usho ku-Postbank ku-0800 53 54 55. Amakhadi atholakala ezindaweni ze-Postbank ngaphakathi kwamastoro akhethiwe e-Shoprite, Checkers, Usave, Pick n Pay, Boxer ne-Spar."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Izindlela Zokukhokhelwa ze-SASSA",
+          "href": "/banking/payment-methods",
+          "description": "Wonke amakhono okuthatha i-grant yakho"
+        },
+        {
+          "title": "Uhlobo Lokufakwa Kwekhadi",
+          "href": "/banking/sassa-card-replacement",
+          "description": "Ilahlekile, yabuntfwene, noma yonakele"
+        },
+        {
+          "title": "Izindaba Zakamuva ze-SASSA",
+          "href": "/news",
+          "description": "Izinsuku zokukhokhelwa nokuguquka kwezinqubomgomo"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Izindlela Zokukhokhelwa ze-SASSA",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Uhlobo Lokufakwa Kwekhadi",
+      "slug": "/banking/sassa-card-replacement"
+    },
+    {
+      "title": "Izindaba Zokuguqulwa Kwegolide",
+      "slug": "/news/sassa-gold-card-to-black-card-migration"
+    },
+    {
+      "title": "Amabhilangi e-SASSA",
+      "slug": "/offices"
+    }
+  ]
+}

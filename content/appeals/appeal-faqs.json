@@ -4,44 +4,140 @@
   "classification": "faq-page",
   "title": "SASSA Grant Appeal FAQs — Your Questions Answered",
   "description": "Frequently asked questions about the SASSA grant appeal process: deadlines, documents, timelines, multiple months, success rates, and what to do if your appeal is dismissed.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Grant Appeal FAQs — Deadlines, Documents, Timelines & More",
     "metaDescription": "Frequently asked questions about SASSA grant appeals. Learn about the 90-day deadline, required documents, appeal timelines, multiple month appeals, and what happens after a dismissal.",
-    "keywords": ["SASSA appeal FAQ", "SASSA appeal questions", "SASSA appeal help", "SASSA appeal how long", "SASSA appeal success rate"]
+    "keywords": [
+      "SASSA appeal FAQ",
+      "SASSA appeal questions",
+      "SASSA appeal help",
+      "SASSA appeal how long",
+      "SASSA appeal success rate"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Grant Appeal FAQs — Your Questions Answered",
       "description": "Find answers to the most common questions about the SASSA grant appeal process. Learn about the 90-day deadline, required documents, timelines, multiple-month appeals, and what to do if your appeal is dismissed.",
       "readingTime": "2 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "text": "Submit an Appeal", "href": "https://srd.dsd.gov.za" },
-      "secondaryCta": { "text": "How to Appeal Guide", "href": "/appeals/how-to-appeal" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Submit an Appeal",
+        "href": "https://srd.dsd.gov.za"
+      },
+      "secondaryCta": {
+        "text": "How to Appeal Guide",
+        "href": "/appeals/how-to-appeal"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grant Appeal FAQs" },
-    { "id": "intro", "type": "paragraph", "text": "Find answers to the most common questions about the SASSA grant appeal process. If you do not see your question here, refer to our detailed appeal guides." },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "How long do I have to appeal a SASSA decline?", "answer": "You have 90 days from the date of your decline notification to file an appeal. Appeals submitted after 90 days will not be accepted." },
-      { "question": "How long does the appeal process take?", "answer": "The tribunal takes 60 to 90 days to issue a ruling. Complex cases may take up to 120 days." },
-      { "question": "Do I need a lawyer to appeal?", "answer": "No. SASSA appeals are designed for self-representation. The online portal guides you through the process." },
-      { "question": "Can I appeal more than once?", "answer": "You cannot appeal the tribunal's decision. However, you can submit a new grant application if your circumstances change." },
-      { "question": "Do I get paid while my appeal is pending?", "answer": "No. Payments only resume if and when your appeal is approved. Backpay is then issued to the original decline date." },
-      { "question": "How do I get backpay after a successful appeal?", "answer": "SASSA has 14 business days to process backpay after receiving the tribunal ruling. Backpay includes all months from the original decline date." },
-      { "question": "Can I appeal if I do not know why I was declined?", "answer": "Yes. Select 'Other' as the reason on the appeal form and explain your situation. The tribunal will investigate." },
-      { "question": "What if I missed the 90-day deadline?", "answer": "Unfortunately, you cannot appeal after 90 days. You must submit a completely new grant application." },
-      { "question": "Can I appeal in person at a SASSA office?", "answer": "Yes, for non-SRD grants. Visit your nearest SASSA office with your documents and request a manual appeal submission." },
-      { "question": "Do I need to appeal every declined month for SRD?", "answer": "Yes. Each month is assessed independently. You must appeal each month that shows 'Declined'." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Grant Appeal FAQs"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Find answers to the most common questions about the SASSA grant appeal process. If you do not see your question here, refer to our detailed appeal guides.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How long do I have to appeal a SASSA decline?",
+          "answer": "You have 90 days from the date of your decline notification to file an appeal. Appeals submitted after 90 days will not be accepted."
+        },
+        {
+          "question": "How long does the appeal process take?",
+          "answer": "The tribunal takes 60 to 90 days to issue a ruling. Complex cases may take up to 120 days."
+        },
+        {
+          "question": "Do I need a lawyer to appeal?",
+          "answer": "No. SASSA appeals are designed for self-representation. The online portal guides you through the process."
+        },
+        {
+          "question": "Can I appeal more than once?",
+          "answer": "You cannot appeal the tribunal's decision. However, you can submit a new grant application if your circumstances change."
+        },
+        {
+          "question": "Do I get paid while my appeal is pending?",
+          "answer": "No. Payments only resume if and when your appeal is approved. Backpay is then issued to the original decline date."
+        },
+        {
+          "question": "How do I get backpay after a successful appeal?",
+          "answer": "SASSA has 14 business days to process backpay after receiving the tribunal ruling. Backpay includes all months from the original decline date."
+        },
+        {
+          "question": "Can I appeal if I do not know why I was declined?",
+          "answer": "Yes. Select 'Other' as the reason on the appeal form and explain your situation. The tribunal will investigate."
+        },
+        {
+          "question": "What if I missed the 90-day deadline?",
+          "answer": "Unfortunately, you cannot appeal after 90 days. You must submit a completely new grant application."
+        },
+        {
+          "question": "Can I appeal in person at a SASSA office?",
+          "answer": "Yes, for non-SRD grants. Visit your nearest SASSA office with your documents and request a manual appeal submission."
+        },
+        {
+          "question": "Do I need to appeal every declined month for SRD?",
+          "answer": "Yes. Each month is assessed independently. You must appeal each month that shows 'Declined'."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-x3702s",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
-    { "title": "Appeal Timeline", "slug": "/appeals/appeal-timeline" },
-    { "title": "Required Documents", "slug": "/appeals/appeal-documents" },
-    { "title": "Appeal for SRD", "slug": "/appeals/appeal-for-srd" }
+    {
+      "title": "How to Appeal",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Appeal Timeline",
+      "slug": "/appeals/appeal-timeline"
+    },
+    {
+      "title": "Required Documents",
+      "slug": "/appeals/appeal-documents"
+    },
+    {
+      "title": "Appeal for SRD",
+      "slug": "/appeals/appeal-for-srd"
+    }
   ]
 }

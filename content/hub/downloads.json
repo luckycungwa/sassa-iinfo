@@ -1,1 +1,69 @@
-{"id":"hub-downloads","slug":"/downloads","classification":"hub-index","title":"SASSA Forms and Documents","description":"Download SASSA application forms, affidavits, and checklists for your grant application.","lastUpdated":"2026-06-30","version":"1.0.0","status":"published","author":{"name":"Grant Guide Editorial Team","role":"Content Editor","verified":true},"seo":{"metaTitle":"SASSA Forms Download — Applications, Affidavits, Checklists","metaDescription":"Download essential SASSA forms including grant applications, affidavits, consent forms, and document checklists for all social grant types.","keywords":["SASSA forms","download SASSA forms","SASSA application form"]},"contentBlocks":[{"id":"h1","type":"heading","level":2,"text":"SASSA Forms and Documents"},{"id":"intro","type":"paragraph","text":"Download the forms and documents you need for your SASSA grant application, appeal, or affidavit."}]}
+{
+  "id": "hub-downloads",
+  "slug": "/downloads",
+  "classification": "hub-index",
+  "title": "SASSA Forms and Documents",
+  "description": "Download SASSA application forms, affidavits, and checklists for your grant application.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Forms Download — Applications, Affidavits, Checklists",
+    "metaDescription": "Download essential SASSA forms including grant applications, affidavits, consent forms, and document checklists for all social grant types.",
+    "keywords": [
+      "SASSA forms",
+      "download SASSA forms",
+      "SASSA application form"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Forms and Documents"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Download the forms and documents you need for your SASSA grant application, appeal, or affidavit.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
+    },
+    {
+      "id": "related-pages-8wd9od",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "How-To Guides",
+          "href": "/guides"
+        },
+        {
+          "title": "Eligibility Guides",
+          "href": "/eligibility"
+        },
+        {
+          "title": "Banking & Payments",
+          "href": "/banking"
+        }
+      ]
+    }
+  ]
+}

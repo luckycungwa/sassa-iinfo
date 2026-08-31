@@ -2,9 +2,9 @@
   "id": "banking-black-card-swap",
   "slug": "/banking/black-card-swap",
   "classification": "banking-guide",
-  "title": "SASSA Black Card Swap — Gold Card Deadline 31 August 2026",
-  "description": "Swap your SASSA Gold Card for the new Postbank Black Card before 31 August 2026 or your card stops working. Free swap at Shoprite, Checkers, Usave, Pick n Pay, Boxer and Spar — just bring your ID. Dial *120*355# to find your nearest collection point.",
-  "lastUpdated": "2026-08-04",
+  "title": "SASSA Black Card Swap — Gold Card Deadline Passed",
+  "description": "SASSA Gold Cards stopped working after 31 August 2026. Your money is safe — collect your free Postbank Black Card at Shoprite, Checkers, Usave, Pick n Pay, Boxer or Spar with just your ID. Dial *120*355# to find your nearest collection point.",
+  "lastUpdated": "2026-08-26",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Black Card Swap — Gold Card Deadline 31 August 2026",
-    "metaDescription": "Swap your SASSA Gold Card for the Postbank Black Card before 31 August 2026 or your card stops working. Free swap at major retailers, just bring your ID. Dial *120*355# for your nearest collection point.",
+    "metaTitle": "SASSA Black Card Swap — After the Deadline (2026)",
+    "metaDescription": "Gold Cards stopped working after 31 August 2026. Your money is safe — collect your free Postbank Black Card with just your ID. Find out how here.",
     "keywords": [
       "SASSA black card",
       "Postbank black card",
@@ -26,14 +26,19 @@
       "Postbank card collection point"
     ]
   },
+  "sources": [
+    { "label": "SASSA Official Website", "url": "https://www.sassa.gov.za" },
+    { "label": "SASSA Media Statements", "url": "https://www.sassa.gov.za/Pages/Media-Statements.aspx" },
+    { "label": "Department of Social Development", "url": "https://www.dsd.gov.za" }
+  ],
   "contentBlocks": [
     {
       "id": "hero",
       "type": "hero",
-      "title": "Swap Your SASSA Gold Card — Deadline 31 August 2026",
-      "description": "Postbank is replacing every SASSA Gold Card with the new Black Card. The final deadline is 31 August 2026 and it will NOT be extended. Around 280,000 beneficiaries still had not switched as of early August 2026. The swap is free, takes minutes, and needs only your South African ID.",
+      "title": "Swap Your SASSA Gold Card — Black Card Guide",
+      "description": "Postbank replaced every SASSA Gold Card with the new Black Card. The final swap deadline was 31 August 2026, and Gold Cards no longer work after that date. If you have not swapped yet, your grant money is safe — get your Black Card now. The swap is free, takes minutes, and needs only your South African ID.",
       "readingTime": "5 min read",
-      "lastUpdated": "4 August 2026",
+      "lastUpdated": "2026-08-26",
       "cta": {
         "label": "How to Swap — Step by Step",
         "href": "#how-to-swap"
@@ -47,8 +52,8 @@
       "id": "warning-callout",
       "type": "callout",
       "intent": "danger",
-      "title": "Do Not Wait Until the Last Minute",
-      "text": "Postbank has confirmed the 31 August 2026 deadline will not be extended. After this date, Gold Cards stop working and you will not be able to access your grant money until you collect a Black Card. Queues get longer every week closer to the deadline — swap as soon as possible."
+      "title": "Gold Cards No Longer Work",
+      "text": "The 31 August 2026 deadline has passed and Postbank confirmed it would not be extended. Gold Cards have been deactivated — if you have not swapped yet, you cannot access your grant money until you collect a Black Card. Do not panic: your money stays safe in your Postbank account and the swap at any collection point remains free."
     },
     {
       "id": "h1",
@@ -161,6 +166,42 @@
       "text": "Report it immediately to Postbank on 0800 53 54 55 so the card is blocked. Then visit any Postbank service point with your ID for a replacement. Your grant payments continue as normal — the money stays in your Postbank account while you wait."
     },
     {
+      "id": "after-deadline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "My Gold Card Stopped Working — What Now?"
+    },
+    {
+      "id": "after-deadline-p",
+      "type": "paragraph",
+      "text": "If your Gold Card no longer works after 31 August 2026, that is expected and nothing is wrong with your grant. Your money is not lost — it stays in your Postbank account. You simply need to collect your Black Card. The swap is still completely free and still takes minutes at any collection point, even after the deadline."
+    },
+    {
+      "id": "after-deadline-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Don't panic — your money is safe",
+          "description": "Your grant payments and any balance on your old card remain on your Postbank account. Only the card itself has been deactivated."
+        },
+        {
+          "title": "Find a collection point",
+          "description": "Dial *120*355# on your mobile phone, or call Postbank on 0800 53 54 55, to find the nearest Postbank service point or participating retailer."
+        },
+        {
+          "title": "Collect your Black Card with your ID",
+          "description": "Visit the collection point with your South African ID (book or smart ID). No old card, no forms, no fees. The Black Card works immediately when issued."
+        }
+      ]
+    },
+    {
+      "id": "after-deadline-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Still Free, Still Quick — After the Deadline",
+      "text": "Missing the deadline does not cost you anything extra, and you are not fined or penalised. Postbank continues issuing Black Cards after 31 August. The only consequence is that your old Gold Card stays deactivated until you collect the new card."
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 2,
@@ -171,8 +212,12 @@
       "type": "faq",
       "faqs": [
         {
-          "question": "What happens if I do not swap my Gold Card by 31 August 2026?",
-          "answer": "Your Gold Card will stop working after 31 August 2026 and you will not be able to access your grant money until you collect a Black Card. Your grant itself is not affected — the money stays in your Postbank account — but you will have no way to withdraw it until you swap."
+          "question": "I missed the 31 August 2026 deadline. Can I still get a Black Card?",
+          "answer": "Yes. Postbank continues issuing Black Cards after the deadline. Your money is safe in your Postbank account — collect your Black Card with your ID at any collection point and it will work immediately. There is no fee or penalty for swapping late."
+        },
+        {
+          "question": "My Gold Card stopped working. Is my grant money gone?",
+          "answer": "No. Your money is not lost and your grant is not affected. The deactivated card simply blocks access — your balance and future payments stay safely in your Postbank account until you collect a Black Card."
         },
         {
           "question": "Does the Black Card swap cost anything?",

@@ -13,8 +13,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Older Person Grant Eligibility Guide — Turn 60 Pension Guide",
-    "metaDescription": "Complete guide to SASSA Older Person Grant (state pension) eligibility for those aged 60 and over. Includes income thresholds, application steps, transitioning from SRD, and what to do if declined.",
+    "metaTitle": "SASSA Grant for Over 60s — Pension & Care (2026)",
+    "metaDescription": "SASSA grant for over 60s in 2026: check the Older Person pension (R2,400/month), eligibility, and how to apply for care support.",
     "keywords": [
       "SASSA older person grant",
       "SASSA pension eligibility",
@@ -31,7 +31,7 @@
       "title": "SASSA Older Person Grant Eligibility Guide",
       "description": "When you turn 60, you transition from unemployment support to the state pension. Learn about the Older Person Grant, income thresholds, how to apply, and what other grants you may qualify for.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Older Person Grant",
         "href": "/grants/older-person-grant"
@@ -50,7 +50,13 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "When you reach the age of 60, you transition from unemployment support (SRD) to the state pension — the Older Person Grant. This grant provides R2,400 per month (R2,420 for those 75+) and is the most substantial social grant in South Africa."
+      "text": "When you reach the age of 60, you transition from unemployment support (SRD) to the state pension — the Older Person Grant. This grant provides R2,400 per month (R2,420 for those 75+) and is the most substantial social grant in South Africa.",
+      "links": [
+        {
+          "text": "SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "why",
@@ -66,7 +72,7 @@
     {
       "id": "scenario",
       "type": "paragraph",
-      "text": "Mpho is a 63-year-old retired teacher from Limpopo. She receives a small government pension of R3,000 per month from GEPF. Her total annual income is R36,000, well below the R96,240 single threshold. Mpho qualifies for the Older Person Grant despite receiving a pension. She also explored the Grant-in-Aid for her husband who requires full-time care. This guide explains exactly what Mpho — and anyone approaching 60 — needs to know."
+      "text": "Mpho is a 63-year-old retired teacher from Limpopo. She receives a small government pension of R3,000 per month from GEPF. Her total annual income is R36,000, well below the R112,200 single threshold. Mpho qualifies for the Older Person Grant despite receiving a pension. She also explored the Grant-in-Aid for her husband who requires full-time care. This guide explains exactly what Mpho — and anyone approaching 60 — needs to know."
     },
     {
       "id": "grants-h",
@@ -88,7 +94,7 @@
           "Older Person Grant",
           "R2,400/month (R2,420 if 75+)",
           "60+",
-          "Means test: income below R96,240/yr (single) or R192,480/yr (married)"
+          "Means test: income below R112,200/yr (single) or R224,400/yr (married)"
         ],
         [
           "Grant-in-Aid",
@@ -118,8 +124,8 @@
         "Must be a South African citizen, permanent resident, or refugee",
         "Must not live in a state-funded institution (e.g., state old age home)",
         "Must not receive another social grant for yourself",
-        "Annual income must be below R96,240 (Single) or R192,480 (Married)",
-        "Total assets must be below R1,372,800 (Single) or R2,745,600 (Married)"
+        "Annual income must be below R112,200 (Single) or R224,400 (Married)",
+        "Total assets must be below R1,584,000 (Single) or R3,168,000 (Married)"
       ],
       "restrictions": [
         "You cannot receive the SRD R370 grant once you turn 60 — you must migrate to the Older Person Grant",
@@ -258,7 +264,7 @@
         },
         {
           "question": "Can I get the Older Person Grant if I still work part-time?",
-          "answer": "Yes, provided your total annual income from all sources (including part-time work) falls below R96,240 for a single person or R192,480 for a married person."
+          "answer": "Yes, provided your total annual income from all sources (including part-time work) falls below R112,200 for a single person or R224,400 for a married person."
         },
         {
           "question": "What happens if my spouse passes away?",

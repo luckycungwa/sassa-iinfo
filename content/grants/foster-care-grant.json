@@ -3,10 +3,10 @@
   "slug": "/grants/foster-care-grant",
   "classification": "grant-detail",
   "title": "Foster Care Grant — Complete Guide 2026",
-  "description": "Complete guide to the SASSA Foster Care Grant: R1,295 per month per foster child, court order requirements, application process, how to renew, and what happens when the child turns 18.",
-  "lastUpdated": "2026-07-27",
-  "version": "1.0.0",
-  "readingTime": "8 min read",
+  "description": "Complete guide to the SASSA Foster Care Grant: R1,295 per month per foster child, the Children's Court order you need, how to apply through a social worker, the annual review, and what happens when the court order lapses.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.1.0",
+  "readingTime": "23 min read",
   "status": "published",
   "author": {
     "name": "Lucky Cungwa",
@@ -14,14 +14,14 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "Foster Care Grant 2026: Amount, Eligibility & How to Apply",
-    "metaDescription": "Complete guide to the SASSA Foster Care Grant: R1,295 per month, court order requirements, how to apply through a social worker, renewal process, and extension past age 18.",
+    "metaTitle": "Foster Child Grant — R1,295/Month & How to Apply (2026)",
+    "metaDescription": "Foster Child Grant pays R1,295/month in 2026. Learn the court-order rules and follow our step-by-step SASSA foster care application and renewal guide.",
     "keywords": [
       "foster care grant",
       "SASSA foster child grant",
       "foster parent grant South Africa",
       "childrens court order SASSA",
-      "foster care grant extension"
+      "foster care grant renewal"
     ],
     "schemaMarkup": {
       "@type": "GovernmentService",
@@ -33,9 +33,9 @@
       "id": "hero",
       "type": "hero",
       "title": "Foster Care Grant",
-      "description": "Complete guide to the SASSA Foster Care Grant: R1,295 per month per foster child, the Children's Court order you need, how to apply through a social worker, how to renew before the order expires, and what happens when the foster child turns 18.",
-      "readingTime": "8 min read",
-      "lastUpdated": "2026-07-27",
+      "description": "Complete guide to the SASSA Foster Care Grant: R1,295 per month per foster child, the Children's Court order you need, how to apply through a social worker, the annual review, and what happens when the court order lapses.",
+      "readingTime": "23 min read",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Find a Social Worker",
         "href": "/offices"
@@ -49,13 +49,50 @@
       "id": "summary",
       "type": "grant-summary",
       "amount": "R1,295 per month per foster child",
-      "frequency": "Monthly (reviewed every 2 years)",
-      "targetGroup": "Court-appointed foster parents caring for orphaned, abandoned, or neglected children under 18."
+      "frequency": "Monthly (reviewed annually)",
+      "targetGroup": "Court-appointed foster parents caring for children who cannot live with their biological parents, under 18."
     },
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "The SASSA Foster Care Grant provides financial support to foster parents who have been legally appointed by a South African Children's Court to care for a child who cannot live with their biological parents. Unlike the Child Support Grant, there is no income means test for foster parents — the grant is based on the child's needs, not the foster parent's income."
+      "text": "The SASSA Foster Care Grant provides financial support to foster parents who have been legally appointed by a South African Children's Court to care for a child who cannot live with their biological parents. The most important thing to understand is that there is no income means test for this grant. The amount you receive is based on the child's needs and the existence of a valid court order — not on what you earn. In 2026 the grant pays R1,295 per month for each foster child in your care."
+    },
+    {
+      "id": "what-is-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What the Foster Care Grant Is"
+    },
+    {
+      "id": "what-is",
+      "type": "paragraph",
+      "text": "A foster care grant is a court-order-based grant. SASSA pays it to the foster parent or caregiver because a court has decided the child must live with someone other than the biological parents. Because the payment follows a court order rather than a household income test, a foster parent who is wealthy receives the same amount as one who is poor, as long as the court order is valid. This is what makes the foster care grant different from the Child Support Grant, which is paid to any caregiver subject to a means test."
+    },
+    {
+      "id": "what-is-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "No Means Test — But the Court Order Is Everything",
+      "text": "There is no income or asset test for the Foster Care Grant. The only thing that keeps the money flowing is a valid Children's Court order. If the order lapses and is not renewed, the grant stops — even if the child is still living with you."
+    },
+    {
+      "id": "who-can-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Who Can Be a Foster Parent"
+    },
+    {
+      "id": "who-can-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "You must be a South African citizen, permanent resident, or refugee.",
+        "A Children's Court must have formally placed the child in your foster care through a court order.",
+        "You must be the person responsible for the child's day-to-day care and the child must live with you in South Africa.",
+        "The child must be under 18 (the grant can be extended to 21 if the child is still in school or tertiary education).",
+        "You can be a relative, a family friend, or an approved non-relative caregiver — what matters is the court order, not your relationship to the child.",
+        "You cannot be a paid foster parent employed by an organisation for the same child and also receive the SASSA grant for that child."
+      ]
     },
     {
       "id": "csg-vs-fcg-h",
@@ -75,7 +112,7 @@
         [
           "Monthly amount",
           "R1,295 per child",
-          "R580 per child"
+          "Standard child support amount per child"
         ],
         [
           "Means test",
@@ -94,16 +131,16 @@
         ],
         [
           "Renewal",
-          "Court order must be renewed every 2 years",
+          "Reviewed annually with the court order",
           "No renewal required until child turns 18"
         ],
         [
           "Child's status",
-          "Orphaned, abandoned, or neglected",
+          "Placed by court due to inability of parents to care",
           "Any child under 18 in caregiver's care"
         ]
       ],
-      "caption": "The Foster Care Grant pays more per child but requires a legal court order. The Child Support Grant is easier to apply for but pays less."
+      "caption": "The Foster Care Grant pays more per child but requires a legal court order. The Child Support Grant is easier to apply for but pays less and is subject to a means test."
     },
     {
       "id": "eligibility-h",
@@ -130,7 +167,7 @@
         {
           "name": "Child Support Grant (Top-Up for Orphans)",
           "slug": "/grants/child-support-grant",
-          "amount": "R830"
+          "amount": "Top-up (set annually)"
         }
       ]
     },
@@ -143,7 +180,7 @@
     {
       "id": "court-order-intro",
       "type": "paragraph",
-      "text": "The most important requirement for the Foster Care Grant is a valid Children's Court order. This is a legal document issued by the Children's Court that formally places the child in your care. You cannot apply for the grant without this order. The process to get one starts with a social worker."
+      "text": "The most important requirement for the Foster Care Grant is a valid Children's Court order. This is a legal document issued by the Children's Court that formally places the child in your care. You cannot apply for the grant without this order. The process to get one always starts with a social worker from the Department of Social Development (DSD) or a registered child protection organisation."
     },
     {
       "id": "court-order-steps",
@@ -172,11 +209,16 @@
       ]
     },
     {
+      "id": "court-order-details",
+      "type": "paragraph",
+      "text": "The court order names you as the foster parent and the child as the person placed in your care. Keep the original safe — SASSA will want to see it, and you will need it every time you renew. If the child's circumstances change (for example, a parent becomes able to care again, or the child needs to move), the social worker and the court handle that through a new order."
+    },
+    {
       "id": "court-order-callout",
       "type": "callout",
       "intent": "warning",
-      "title": "Court Order Expiry",
-      "text": "Children's Court orders typically expire after 2 years. You must work with a social worker to renew the order before it expires. If the order expires, the grant stops automatically. Do not wait — start the renewal process at least 3 months before expiry."
+      "title": "Court Order Review",
+      "text": "Children's Court foster care orders are reviewed annually. You must renew the order with your social worker before it expires, otherwise the grant stops automatically. Do not wait — start the renewal process at least 3 months before expiry."
     },
     {
       "id": "docs-h",
@@ -211,6 +253,11 @@
           "required": true
         },
         {
+          "label": "Bank details (account confirmation letter)",
+          "required": true,
+          "notes": "Needed so SASSA can pay the grant to you."
+        },
+        {
           "label": "Death certificates of biological parents (if applicable)",
           "required": false,
           "notes": "Helps confirm the child's orphan status."
@@ -233,7 +280,7 @@
         },
         {
           "title": "Gather your documents",
-          "description": "Collect the court order, your ID, the child's birth certificate, proof of residence, and school attendance letter."
+          "description": "Collect the court order, your ID, the child's birth certificate, proof of residence, bank details, and school attendance letter."
         },
         {
           "title": "Visit your nearest SASSA office",
@@ -249,20 +296,65 @@
         },
         {
           "title": "Wait for processing",
-          "description": "SASSA processes foster care grant applications within 2-3 months. Payments are backdated to the application date."
+          "description": "SASSA processes foster care grant applications within a few months. Payments are backdated to the application date once approved."
         }
       ]
     },
     {
-      "id": "renewal-h",
+      "id": "apply-note",
+      "type": "paragraph",
+      "text": "Because the grant depends on the court order, apply to SASSA as soon as you have the signed order in hand. If you wait, you may lose backpay for the period the child was already in your care under a valid order."
+    },
+    {
+      "id": "payment-h",
       "type": "heading",
       "level": 2,
+      "text": "How the Grant Is Paid"
+    },
+    {
+      "id": "payment-intro",
+      "type": "paragraph",
+      "text": "The Foster Care Grant is paid to the foster parent or approved caregiver — the person named in the court order as responsible for the child. You choose how to receive the money, and the same payment methods apply as for other SASSA grants."
+    },
+    {
+      "id": "payment-methods",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bank deposit: the money goes into your personal bank account. This is the safest and most common method.",
+        "SASSA card: you can draw the grant at retail pay points such as Shoprite, Pick n Pay, Boxer, Checkers, and USave.",
+        "Post Office: being phased out for grant payments — move to a bank account or SASSA card if you still collect this way.",
+        "ATM: you can draw cash using your SASSA card."
+      ]
+    },
+    {
+      "id": "black-card-foster",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Swap Your Gold Card for the Black Card",
+      "text": "SASSA is replacing the old gold SASSA card with the new black Postbank card. SASSA has stated the migration deadline as 31 August 2026. If you collect your foster care grant with a gold card, swap it at a SASSA or Postbank point with your ID before then so payments are not interrupted. More on payment help is on our banking guide."
+    },
+    {
+      "id": "annual-review-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Annual Review and the Court Order"
+    },
+    {
+      "id": "annual-review",
+      "type": "paragraph",
+      "text": "The Foster Care Grant is reviewed every year because it is tied to the Children's Court order. SASSA will not keep paying once the court order expires, so the renewal of the court order is the renewal of the grant. Work with your social worker each year so the order is extended in time. This is the single most common reason foster parents lose the grant — they miss the annual renewal."
+    },
+    {
+      "id": "renewal-h",
+      "type": "heading",
+      "level": 3,
       "text": "Renewal Process — Don't Let the Grant Expire"
     },
     {
       "id": "renewal-intro",
       "type": "paragraph",
-      "text": "The Foster Care Grant is not permanent. It is linked to the validity of your Children's Court order, which typically lasts 2 years. You must renew both the court order and the grant before they expire. This is the most common reason foster parents lose the grant — they miss the renewal deadline."
+      "text": "The Foster Care Grant is not permanent. It is linked to the validity of your Children's Court order, which is reviewed annually. You must renew the court order (through a social worker) each year, and SASSA continues the grant on the strength of the renewed order. Start early so there is no gap in payments."
     },
     {
       "id": "renewal-steps",
@@ -278,13 +370,31 @@
         },
         {
           "title": "Court order renewal",
-          "description": "The social worker files the renewal with the Children's Court. The court reviews and extends the order."
+          "description": "The social worker files the renewal with the Children's Court. The court reviews and extends the order, usually for another year."
         },
         {
           "title": "Submit renewed order to SASSA",
           "description": "Take the renewed court order to SASSA. They update your grant record and payments continue."
         }
       ]
+    },
+    {
+      "id": "lapse-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Happens When the Court Order Lapses"
+    },
+    {
+      "id": "lapse",
+      "type": "paragraph",
+      "text": "If the Children's Court order expires and has not been renewed, SASSA must stop the grant — even if the child is still living with you and nothing else has changed. The money stops from the expiry date. To restart it, you need a fresh or extended court order, after which you take it to SASSA and the grant can resume (backpay is not guaranteed for a period with no valid order, so renew on time)."
+    },
+    {
+      "id": "lapse-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Renew Before the Date, Not After",
+      "text": "A lapsed court order means a stopped grant. Mark the expiry date and begin the social worker renewal at least three months before. SASSA cannot pay the foster care grant without a valid order on file."
     },
     {
       "id": "turning-18-h",
@@ -298,11 +408,286 @@
       "text": "The Foster Care Grant normally stops when the child turns 18. However, if the child is still attending secondary school or tertiary education, the grant can be extended up to age 21. You need a social worker's recommendation and a school or university attendance letter. Apply for the extension before the child's 18th birthday to avoid a gap in payments."
     },
     {
+      "id": "suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Suspension and Cancellation"
+    },
+    {
+      "id": "suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The Children's Court order expired and was not renewed.",
+        "The child no longer lives with you or is no longer in your care.",
+        "The child turns 18 (or 21, if still studying) with no extension granted.",
+        "SASSA finds the court order was invalid or obtained on wrong information.",
+        "The child is adopted — adoption ends the foster care grant.",
+        "You are a paid foster parent through an organisation for the same child."
+      ]
+    },
+    {
+      "id": "suspension-note",
+      "type": "paragraph",
+      "text": "If your grant is suspended or cancelled, SASSA should tell you why. If you believe it was a mistake — for example the order is still valid and was simply not submitted in time — take the proof to your SASSA office and ask for it to be reinstated."
+    },
+    {
+      "id": "appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appeals"
+    },
+    {
+      "id": "appeals-itsaa",
+      "type": "paragraph",
+      "text": "If your Foster Care Grant application is declined, the appeal goes to the Independent Tribunal for Social Assistance Appeals (ITSAA), the same independent body that reviews other SASSA grant decisions. For non-SRD grants you can also submit a written appeal through a SASSA office or to the Ministry of Social Development. A social worker can help you prepare the appeal."
+    },
+    {
+      "id": "appeals-procedure-foster",
+      "type": "appeal-procedure",
+      "steps": [
+        "Read your rejection letter and note the decision date.",
+        "Lodge your appeal to the ITSAA within 30 days of the decision. The online appeal portal accepts late lodgements up to 90 days from the decline date.",
+        "Submit a written appeal through a SASSA office or to the Ministry of Social Development if you prefer paper.",
+        "Include the court order, your ID, and any new evidence (for example a fresh social worker report).",
+        "Wait for the ITSAA outcome. If the tribunal upholds the appeal, SASSA starts or resumes the grant."
+      ],
+      "timeline": "Lodge within 30 days; the online portal accepts up to 90 days from the decline date. The tribunal aims to decide after receiving a complete appeal.",
+      "documents": [
+        "Your South African ID",
+        "The valid Children's Court order",
+        "The SASSA rejection letter",
+        "A social worker report or other evidence supporting the placement"
+      ],
+      "commonReasons": [
+        "The court order had expired or was not valid",
+        "The child was not living with the applicant",
+        "The same child was already on another caregiver's grant",
+        "Missing or incorrect documents at application"
+      ],
+      "outcomes": [
+        "Appeal upheld — the grant is approved or resumed",
+        "Appeal partially upheld — granted from a later date",
+        "Appeal declined — the original decision stands"
+      ]
+    },
+    {
       "id": "appeal-callout",
       "type": "callout",
       "intent": "info",
-      "title": "90-Day Appeal Window",
-      "text": "If your Foster Care Grant application is declined, you have 90 days from the date of the rejection letter to appeal. Write to the Minister of Social Development explaining why you disagree. Include the court order, your ID, and any new evidence. A social worker can help you prepare the appeal."
+      "title": "Appeal Window",
+      "text": "If your Foster Care Grant application is declined, you can appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA) within 30 days of the decision (the online portal accepts late lodgements up to 90 days). You can also submit a written appeal through a SASSA office or to the Ministry of Social Development. Include the court order, your ID, and any new evidence. A social worker can help you prepare the appeal."
+    },
+    {
+      "id": "compare-foster-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Foster Care vs Child Support vs Kinship Care"
+    },
+    {
+      "id": "compare-foster-table",
+      "type": "comparison-table",
+      "headers": [
+        "Grant",
+        "Court order?",
+        "Means test?",
+        "Amount (2026)",
+        "Who it is for"
+      ],
+      "rows": [
+        [
+          "Foster Care Grant",
+          "Yes — Children's Court order",
+          "No",
+          "R1,295 per child",
+          "Court-appointed foster parents"
+        ],
+        [
+          "Child Support Grant",
+          "No",
+          "Yes",
+          "Standard child support amount",
+          "Any primary caregiver (parent, grandparent, etc.)"
+        ],
+        [
+          "Kinship / relative care",
+          "Usually no separate order",
+          "Yes (where applicable)",
+          "Varies by grant type",
+          "Relatives caring for a child without a formal foster order"
+        ]
+      ],
+      "caption": "Foster care is the only one of these that needs a court order and has no means test. If a court order is hard to get, the Child Support Grant (with its orphan top-up) may be the practical option for a relative caregiver."
+    },
+    {
+      "id": "scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Beware of Foster Care Grant Scams"
+    },
+    {
+      "id": "scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA Never Charges a Fee",
+      "text": "No one at SASSA will ask you to pay to process a foster care grant or to renew a court order. Anyone demanding money, your PIN, or your card is running a scam."
+      },
+    {
+      "id": "scams-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Never share your SASSA card PIN, portal password, or OTP with anyone.",
+        "The court order comes from the Children's Court via a social worker — not from someone who messages you offering to 'arrange' one for a fee.",
+        "Apply and renew only through official SASSA offices and DSD social workers.",
+        "Check your payment status only on official sites such as services.sassa.gov.za.",
+        "Ignore social media posts or WhatsApp messages promising faster foster care grants for a payment."
+      ]
+    },
+    {
+      "id": "internal-links-foster",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How to Appeal",
+          "href": "/appeals",
+          "description": "Challenge a decline through the ITSAA"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant",
+          "description": "Option if a court order is hard to get"
+        },
+        {
+          "title": "Care Dependency Grant",
+          "href": "/grants/care-dependency-grant",
+          "description": "For children with severe disabilities"
+        },
+        {
+          "title": "Find a SASSA Office",
+          "href": "/offices",
+          "description": "Locate your nearest office"
+        }
+      ]
+    },
+    {
+      "id": "key-figures-foster",
+      "type": "stat-bar",
+      "stats": [
+        { "label": "Monthly amount", "value": "R1,295", "description": "Per foster child, effective 1 April 2026" },
+        { "label": "Means test", "value": "None", "description": "Based on a valid court order, not your income" },
+        { "label": "Review", "value": "Annually", "description": "The Children's Court order is renewed each year" },
+        { "label": "Appeal window", "value": "30 days", "description": "To the ITSAA; portal accepts up to 90 days" }
+      ]
+    },
+    {
+      "id": "kinship-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Kinship Care and Relative Caregivers"
+    },
+    {
+      "id": "kinship-p1",
+      "type": "paragraph",
+      "text": "Many children are raised by grandparents, aunts, uncles, or other relatives without ever going through a Children's Court. This is often called kinship care or relative care. If there is no formal court order, the relative is usually not a foster parent in the legal sense and cannot get the Foster Care Grant. Instead, the relative applies for the Child Support Grant (with its orphan top-up where the parents have died), which is means-tested. The court order is the line that separates foster care from kinship care — and only foster care carries the R1,295 amount with no means test."
+    },
+    {
+      "id": "kinship-p2",
+      "type": "paragraph",
+      "text": "If a relative believes the child cannot be safely returned to the parents, the route into foster care is the same as for any other caregiver: involve a DSD social worker, who assesses the situation and asks the Children's Court to make a foster order. Relatives are commonly appointed as foster parents, and being a family member does not disqualify you. What qualifies you is the court order and the child living in your care in South Africa."
+    },
+    {
+      "id": "adoption-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Adoption Compared to Foster Care"
+    },
+    {
+      "id": "adoption-p1",
+      "type": "paragraph",
+      "text": "Foster care and adoption are different legal steps with different money outcomes. Foster care is a court placement that can be temporary or reviewed, and it carries the SASSA Foster Care Grant while the order is valid. Adoption makes you the child's legal parent permanently; once an adoption is final, the Foster Care Grant stops because the child is no longer a foster child but your own child. Adoptive parents take on full financial responsibility, and there is no automatic SASSA grant that replaces the foster care payment after adoption."
+    },
+    {
+      "id": "adoption-p2",
+      "type": "paragraph",
+      "text": "Because adoption ends the grant, think carefully before starting adoption if the foster care grant is what supports the child's care. Speak to your social worker about the long-term plan for the child. Sometimes a child remains in foster care for years precisely because the court has not ended the parents' rights and an adoption is not on the cards. Keep the annual court-order renewal going for as long as the placement is a foster placement."
+    },
+    {
+      "id": "multiple-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Caring for More Than One Foster Child"
+    },
+    {
+      "id": "multiple-p1",
+      "type": "paragraph",
+      "text": "You can receive the Foster Care Grant for more than one child, and each child is paid separately at R1,295 per month. The important rule is that each child needs their own Children's Court order. You cannot cover three children with one order. When you renew, renew each order, and take each renewed order to SASSA so every child's payment continues. If a new child is placed with you, start the court process and the SASSA application for that child as soon as the order is signed."
+    },
+    {
+      "id": "extension-p1",
+      "type": "paragraph",
+      "text": "The grant normally ends at 18, but the extension to 21 for learners is worth planning for. Well before the child's 18th birthday, ask the social worker for a recommendation and get a current school or tertiary attendance letter. Hand both to SASSA so the payment bridges the 18th birthday without a gap. If the child leaves school before 18 with no further study, the grant ends at 18 as usual."
+    },
+    {
+      "id": "parents-return-p1",
+      "type": "paragraph",
+      "text": "If the biological parents become able to care for the child again, the social worker and the court review the placement. The court may end the foster order, and when it ends the Foster Care Grant stops. This is not a penalty — it reflects that the child has returned to parental care. If the return is only temporary, keep the order and the renewal current so the grant is there when the child is back with you."
+    },
+    {
+      "id": "foster-card-1",
+      "type": "info-card",
+      "icon": "scale",
+      "title": "The court order is your proof",
+      "text": "Keep the original Children's Court order safe and make copies. SASSA and the social worker will ask for it every renewal. A lost order can delay your payment, so replace it through the court if it goes missing."
+    },
+    {
+      "id": "foster-card-2",
+      "type": "info-card",
+      "icon": "calendar",
+      "title": "Mark the expiry date",
+      "text": "Write the court order's expiry date where you will see it. Begin the social worker renewal at least three months before, because the grant stops the moment the order lapses if it is not renewed."
+    },
+    {
+      "id": "application-flow-foster",
+      "type": "process-diagram",
+      "steps": [
+        { "label": "Social worker", "description": "DSD social worker assesses the child and your home" },
+        { "label": "Court order", "description": "Children's Court places the child in your foster care" },
+        { "label": "Apply at SASSA", "description": "Take the order, IDs, proof of residence, and bank details" },
+        { "label": "Decision", "description": "Approved (backdated pay) or declined (appeal to ITSAA)" },
+        { "label": "Annual renewal", "description": "Renew the court order each year and update SASSA" }
+      ]
+    },
+    {
+      "id": "order-invalid-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If SASSA Says the Court Order Is Invalid"
+    },
+    {
+      "id": "order-invalid-p1",
+      "type": "paragraph",
+      "text": "Sometimes SASSA refuses or stops the grant because the court order does not look valid — for example it is expired, it names a different caregiver, or it was not a proper Children's Court order. In that case the fix is almost always through the court and the social worker, not by arguing with the SASSA officer. Ask the social worker to confirm the order is the correct type and still in force, get a fresh or corrected order if needed, and take it back to SASSA. If you believe SASSA applied the rule wrongly, appeal to the ITSAA with the order and a social worker letter."
+    },
+    {
+      "id": "use-of-money-p1",
+      "type": "paragraph",
+      "text": "The Foster Care Grant is paid for the child's care, and you are expected to use it for the child's needs — food, clothing, school costs, and so on. Because there is no means test, a foster parent with higher income still receives the full amount; this reflects that the payment follows the court's placement decision rather than your wallet. Keep simple records of how the child is supported so you can show the social worker during the annual review that the placement is working."
+    },
+    {
+      "id": "payment-delay-foster-p1",
+      "type": "paragraph",
+      "text": "If a foster care payment is late or missing, check your status on the official SASSA services portal before going to an office. The usual cause is a lapsed or unrenewed court order, a bank detail problem, or the gold-to-black card swap. Renew the court order with your social worker and take it to SASSA, update your bank details at the office, or complete the card swap. Have your reference number and the court order handy — they make any query at the office much faster."
+    },
+    {
+      "id": "appointee-p1",
+      "type": "paragraph",
+      "text": "In some cases the foster parent cannot manage the money themselves — for example they are very ill or otherwise unable. SASSA can pay the grant to an appointed person or, through the social worker, make arrangements so the child's care is still funded. This is decided with SASSA and the social worker, not by a private agreement between family members. If you think an appointee is needed, raise it at the SASSA office and with the social worker who handles the court order, and keep the child's best interest at the centre of the arrangement."
+    },
+    {
+      "id": "guardianship-p1",
+      "type": "paragraph",
+      "text": "A related route is legal guardianship, where a court appoints you as the child's guardian without it being a foster placement. Guardianship and foster care are different: a foster order is specifically what unlocks the Foster Care Grant, while guardianship on its own does not. If you have guardianship but no foster order, you would normally use the means-tested Child Support Grant for the child. If you are unsure which legal status you hold, ask the social worker or the Children's Court clerk — the type of order you have decides which grant you can claim."
     },
     {
       "id": "faq-h",
@@ -316,7 +701,7 @@
       "faqs": [
         {
           "question": "Can a grandparent get the Foster Care Grant for an orphaned grandchild?",
-          "answer": "Yes, but you need a Children's Court order. If getting a court order is difficult, you may qualify for the Child Support Grant Top-Up (R830 per month for orphaned children) instead, which does not require a court order."
+          "answer": "Yes, but you need a Children's Court order. If getting a court order is difficult, you may qualify for the Child Support Grant top-up for orphaned children instead, which does not require a court order and pays more than the standard child support grant."
         },
         {
           "question": "What if the biological parents are still alive but cannot care for the child?",
@@ -337,6 +722,54 @@
         {
           "question": "Can I adopt the foster child and still get the grant?",
           "answer": "No. Once a child is legally adopted, the Foster Care Grant stops. You become the child's legal parent and are responsible for their support. Adoption also ends any maintenance obligations from the biological parents."
+        },
+        {
+          "question": "How much is the foster care grant in 2026?",
+          "answer": "The Foster Care Grant pays R1,295 per month for each foster child, effective from 1 April 2026. There is no means test, so the amount is the same regardless of your income."
+        },
+        {
+          "question": "Is there a means test for the foster care grant?",
+          "answer": "No. The Foster Care Grant has no income or asset means test. It is paid on the strength of a valid Children's Court order placing the child in your care."
+        },
+        {
+          "question": "How often must the court order be renewed?",
+          "answer": "The Children's Court order behind a foster care grant is reviewed annually. You must renew it with your social worker each year and give the renewed order to SASSA so payments continue."
+        },
+        {
+          "question": "What happens if I forget to renew the court order?",
+          "answer": "If the court order expires and is not renewed, SASSA must stop the grant — even if the child still lives with you. Take the renewed order to SASSA as soon as you have it to resume payments. Renew at least three months before expiry to avoid a gap."
+        },
+        {
+          "question": "Can the foster care grant be backdated?",
+          "answer": "If you apply to SASSA with a valid court order, the grant can be backdated to your application date. Apply promptly once you have the signed order so you do not lose pay for the time the child was already in your care."
+        },
+        {
+          "question": "What documents do I need to apply?",
+          "answer": "You need the original Children's Court order, your ID, the child's birth certificate, proof of residence, your bank details, and a school attendance letter if the child is of school age. Death certificates of the biological parents help confirm orphan status but are not always required."
+        },
+        {
+          "question": "Do I have to use the SASSA card to be paid?",
+          "answer": "No. You can choose a direct bank deposit, which is the safest. You can also use the SASSA card at retail pay points and ATMs. If you still have the old gold card, swap it for the new black Postbank card by 31 August 2026."
+        },
+        {
+          "question": "Can a biological parent get the foster care grant for their own child?",
+          "answer": "No. The Foster Care Grant is for a child placed in your care by a court because the biological parents cannot care for them. A biological parent caring for their own child would apply for the Child Support Grant instead, subject to a means test."
+        },
+        {
+          "question": "What is the difference between foster care and kinship care?",
+          "answer": "Foster care is created by a Children's Court order and has no means test. Kinship or relative care usually happens without a formal court order and, where a grant applies, is typically through the means-tested Child Support Grant. The court order is the key difference."
+        },
+        {
+          "question": "How long does a foster care grant application take?",
+          "answer": "SASSA generally processes the application within a few months once you have submitted a valid court order and documents. Payments are backdated to the application date when approved."
+        },
+        {
+          "question": "Can the grant continue after the child turns 18?",
+          "answer": "Yes, up to age 21 if the child is still in secondary school or tertiary education. You need a social worker's recommendation and a school or university attendance letter, and you should apply for the extension before the 18th birthday."
+        },
+        {
+          "question": "Where do I start if I want to become a foster parent?",
+          "answer": "Start with a social worker at your nearest Department of Social Development office or a registered child protection organisation. They assess the child's situation, help the court make the order, and then you take the order to SASSA to apply for the grant."
         }
       ]
     },
@@ -361,7 +794,7 @@
         },
         {
           "title": "Appeal a Decline",
-          "href": "/appeals/how-to-appeal",
+          "href": "/appeals",
           "description": "Challenge a grant decline"
         }
       ]
@@ -379,6 +812,10 @@
     {
       "title": "Care Dependency Grant",
       "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Appeals",
+      "slug": "/appeals"
     }
   ]
 }

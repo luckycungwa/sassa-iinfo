@@ -4,7 +4,7 @@
   "classification": "banking-guide",
   "title": "SASSA Payment Not Reflecting — Complete Escalation Guide",
   "description": "Complete escalation guide for SASSA payments not reflecting. Covers decision trees, provincial contacts, phone scripts, and what to do after 30+ days.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -33,7 +33,7 @@
       "title": "SASSA Payment Not Reflecting — Complete Escalation Guide",
       "description": "Your SASSA grant was approved but the money hasn't appeared in your account. This guide walks you through every troubleshooting step, the decision tree for your specific situation, provincial escalation contacts, and exactly what to say when you call SASSA.",
       "readingTime": "8 min read",
-      "lastUpdated": "July 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Your Status",
         "href": "/guides/how-to-check-sassa-status"
@@ -65,7 +65,13 @@
     {
       "id": "payday-today",
       "type": "paragraph",
-      "text": "If today is your pay day and nothing has arrived yet, work through this before anything else. Bank transfers do not all land at the same moment — different banks credit incoming SASSA payments at different speeds, and a payment released later in the day can reflect the next business morning. If you collect via Cash Send, your money is only ready once the SMS voucher arrives on your phone; retailers cannot pay you without it. And if you receive the SRD R370 grant, remember that it is paid across a window of several days each month rather than to everyone on one single date, so being paid later in that window is normal."
+      "text": "If today is your pay day and nothing has arrived yet, work through this before anything else. Bank transfers do not all land at the same moment — different banks credit incoming SASSA payments at different speeds, and a payment released later in the day can reflect the next business morning. If you collect via Cash Send, your money is only ready once the SMS voucher arrives on your phone; retailers cannot pay you without it. And if you receive the SRD R370 grant, remember that it is paid across a window of several days each month rather than to everyone on one single date, so being paid later in that window is normal.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "payday-today-check",
@@ -274,7 +280,7 @@
       "steps": [
         {
           "title": "Verify the correct grant amount",
-          "description": "Check the official SASSA grant amounts: SRD R370 is R370/month, Older Person Grant is R2,190-R2,210/month, Child Support Grant is R530/month, Disability Grant is R2,190/month, Foster Care Grant is R1,190/month. Confirm what you should be receiving."
+          "description": "Check the official SASSA grant amounts: SRD R370 is R370/month, Older Person Grant is R2,400/month, Child Support Grant is R580/month, Disability Grant is R2,400/month, Foster Care Grant is R1,295/month. Confirm what you should be receiving."
         },
         {
           "title": "If you were underpaid",

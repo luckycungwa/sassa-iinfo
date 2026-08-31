@@ -4,7 +4,7 @@
   "classification": "downloadable-form",
   "title": "SASSA Unemployment Affidavit Template — Sworn Declaration of No Income",
   "description": "The standard sworn affidavit template declaring unemployment, required for SASSA grant applications and appeals. Includes how to sign it correctly at a SAPS station.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "SASSA Unemployment Affidavit Template",
       "description": "The sworn declaration that you have no income or employment — required for many grant applications and almost every appeal against an income-related decline.",
       "readingTime": "4 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "View Filling Guide",
         "href": "#how-to-fill"
@@ -42,7 +42,13 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "This affidavit is a formal, sworn statement — made under oath — that you are currently unemployed and receive no income. SASSA requires it when your application needs proof of financial status and you have no employer documents to provide, and the independent tribunal expects it with most appeals against 'income identified' or means-test declines."
+      "text": "This affidavit is a formal, sworn statement — made under oath — that you are currently unemployed and receive no income. SASSA requires it when your application needs proof of financial status and you have no employer documents to provide, and the independent tribunal expects it with most appeals against 'income identified' or means-test declines.",
+      "links": [
+        {
+          "text": "independent tribunal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "fill-h",
@@ -155,6 +161,20 @@
         }
       ],
       "note": "Requirements verified August 2026."
+    },
+    {
+      "id": "related-pages-grwsm4",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Documents Checklist",
+          "href": "/guides/sassa-documents-checklist"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        }
+      ]
     }
   ],
   "relatedPages": [

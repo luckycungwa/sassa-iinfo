@@ -128,7 +128,7 @@ export default function EligibilityChecker() {
                     <p className="font-extrabold text-sm text-ink">Child Support Grant</p>
                     <p className="text-xs text-muted-foreground">Claimable for {quizAnswers.childrenCount} children</p>
                   </div>
-                  <span className="text-xs font-extrabold text-accent-dark bg-accent-light px-2 py-1 rounded">R530/mo each</span>
+                    <span className="text-xs font-extrabold text-accent-dark bg-accent-light px-2 py-1 rounded">R580/mo each</span>
                 </div>
               )}
               {quizAnswers.isUnemployed && quizAnswers.age >= 18 && quizAnswers.age < 60 && !quizAnswers.hasDisability && (

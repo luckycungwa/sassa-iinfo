@@ -4,43 +4,177 @@
   "classification": "how-to-guide",
   "title": "SASSA Required Documents Checklist",
   "description": "Complete checklist of documents you need when applying for any SASSA grant. Includes ID, proof of residence, income statements, medical reports, and court orders.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Required Documents Checklist — What You Need to Apply",
     "metaDescription": "Complete document checklist for SASSA grant applications: certified ID, proof of residence, 3 months bank statements, unemployment affidavit, medical reports, and court orders.",
-    "keywords": ["SASSA documents needed", "SASSA application checklist", "SASSA required documents", "SASSA ID requirements", "SASSA bank statements"]
+    "keywords": [
+      "SASSA documents needed",
+      "SASSA application checklist",
+      "SASSA required documents",
+      "SASSA ID requirements",
+      "SASSA bank statements"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Required Documents Checklist",
       "description": "Having the right documents ready speeds up your SASSA grant application. Use our complete checklist to make sure you have everything you need — from your ID to bank statements and medical reports.",
       "readingTime": "3 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "label": "Start Your Application", "href": "/guides/how-to-apply-sassa-grant" },
-      "secondaryCta": { "label": "Understanding the Means Test", "href": "/guides/understanding-means-test" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Start Your Application",
+        "href": "/guides/how-to-apply-sassa-grant"
+      },
+      "secondaryCta": {
+        "label": "Understanding the Means Test",
+        "href": "/guides/understanding-means-test"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Required Documents Checklist" },
-    { "id": "intro", "type": "paragraph", "text": "Having the correct documents ready before you apply for a SASSA grant will save you time and prevent delays. Below is the complete checklist of documents you may need." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for anyone preparing to apply for a SASSA grant who wants to make sure they have all the required documents ready before visiting a SASSA office." },
-    { "id": "checklist", "type": "document-checklist", "documents": [
-      { "label": "Original 13-digit barcoded Smart Card ID or green ID book", "required": true },
-      { "label": "Proof of Residence — utility bill in your name (last 3 months)", "required": true, "notes": "Or letter from traditional leader or ward councillor" },
-      { "label": "Last 3 months bank statements showing all deposits", "required": true },
-      { "label": "Sworn affidavit confirming unemployment (stamped at SAPS)", "required": false, "notes": "If unemployed" },
-      { "label": "Marriage certificate, divorce order, or death certificate of spouse", "required": false, "notes": "For means test calculation" },
-      { "label": "SASSA medical assessment report", "required": false, "notes": "For Disability Grant and Care Dependency Grant" },
-      { "label": "Valid Children's Court order", "required": false, "notes": "For Foster Care Grant" },
-      { "label": "NSFAS cancellation or completion letter", "required": false, "notes": "If previously funded by NSFAS" },
-      { "label": "UI-19 termination letter", "required": false, "notes": "If previously employed" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Required Documents Checklist"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Having the correct documents ready before you apply for a SASSA grant will save you time and prevent delays. Below is the complete checklist of documents you may need."
+    },
+    {
+      "id": "certified-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Certified copies — the one thing people forget"
+    },
+    {
+      "id": "certified-text",
+      "type": "paragraph",
+      "text": "Most people arrive with the right documents but uncertified copies. A 'certified copy' is one stamped by a police officer at any SAPS station or by a commissioner of oaths, signed within the last few months. You do not need new certification for every single document — just for the important ones like your ID and any legal documents. If you are not sure whether a copy is acceptable, get it certified anyway. It costs nothing at a police station and it is the single most common reason applications get sent back."
+    },
+    {
+      "id": "tips-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Tips before you go"
+    },
+    {
+      "id": "tips",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bring originals too — SASSA staff may want to see the originals alongside your certified copies",
+        "Copy both sides of your ID if there is anything printed on the back",
+        "Make two copies of everything — one goes in, one stays home with you",
+        "Bank statements must show your full name and the last 3 months of activity",
+        "If you do not have a bill in your name, ask your traditional leader or ward councillor for a letter confirming where you live"
+      ]
+    },
+    {
+      "id": "tips-note",
+      "type": "callout",
+      "intent": "success",
+      "title": "Running low on money for copies?",
+      "text": "Copies are usually free or very cheap at SASSA offices. Ask before you pay anywhere else — and remember no SASSA official ever charges you for a grant application."
+    },
+    {
+      "id": "checklist",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Original 13-digit barcoded Smart Card ID or green ID book",
+          "required": true
+        },
+        {
+          "label": "Proof of Residence — utility bill in your name (last 3 months)",
+          "required": true,
+          "notes": "Or letter from traditional leader or ward councillor"
+        },
+        {
+          "label": "Last 3 months bank statements showing all deposits",
+          "required": true
+        },
+        {
+          "label": "Sworn affidavit confirming unemployment (stamped at SAPS)",
+          "required": false,
+          "notes": "If unemployed"
+        },
+        {
+          "label": "Marriage certificate, divorce order, or death certificate of spouse",
+          "required": false,
+          "notes": "For means test calculation"
+        },
+        {
+          "label": "SASSA medical assessment report",
+          "required": false,
+          "notes": "For Disability Grant and Care Dependency Grant"
+        },
+        {
+          "label": "Valid Children's Court order",
+          "required": false,
+          "notes": "For Foster Care Grant"
+        },
+        {
+          "label": "NSFAS cancellation or completion letter",
+          "required": false,
+          "notes": "If previously funded by NSFAS"
+        },
+        {
+          "label": "UI-19 termination letter",
+          "required": false,
+          "notes": "If previously employed"
+        }
+      ]
+    },
+    {
+      "id": "related-pages-s0catf",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How-To Guides",
+          "href": "/guides"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "SASSA Tools",
+          "href": "/tools"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" },
-    { "title": "Understanding the Means Test", "slug": "/guides/understanding-means-test" },
-    { "title": "Appeal Documents Checklist", "slug": "/appeals/appeal-documents" }
+    {
+      "title": "How to Apply for a SASSA Grant",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    },
+    {
+      "title": "Understanding the Means Test",
+      "slug": "/guides/understanding-means-test"
+    },
+    {
+      "title": "Appeal Documents Checklist",
+      "slug": "/appeals/appeal-documents"
+    }
   ]
 }

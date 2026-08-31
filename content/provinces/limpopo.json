@@ -4,7 +4,7 @@
   "classification": "province-hub",
   "title": "SASSA Limpopo Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in Limpopo. Regional office in Polokwane, rural mobile pay points across Vhembe and Mopani, bank transfer advice for remote villages, and FAQs.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA Limpopo Province",
       "description": "Provincial hub for Limpopo beneficiaries: regional office contacts, how the vast rural mobile network operates, why bank transfer is recommended here, and local FAQs.",
       "readingTime": "6 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Find an Office",
         "href": "/offices"
@@ -65,7 +65,13 @@
     {
       "id": "services-p",
       "type": "paragraph",
-      "text": "Full-service offices in Polokwane, Thohoyandou, Giyani, Mokopane and other district centres handle applications, reviews, card replacements and appeals support. The province spans a huge geographic area, so satellite points and scheduled mobile units bring services to villages that are far from any town — schedules are published monthly through tribal authority offices."
+      "text": "Full-service offices in Polokwane, Thohoyandou, Giyani, Mokopane and other district centres handle applications, reviews, card replacements and appeals support. The province spans a huge geographic area, so satellite points and scheduled mobile units bring services to villages that are far from any town — schedules are published monthly through tribal authority offices.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "offices-grid",
@@ -75,10 +81,6 @@
         {
           "label": "Browse the national offices directory",
           "href": "/offices"
-        },
-        {
-          "label": "Regional office enquiries: 015 291 7400",
-          "href": null
         }
       ]
     },
@@ -91,7 +93,13 @@
     {
       "id": "collection-p1",
       "type": "paragraph",
-      "text": "In towns like Polokwane, Tzaneen and Mokopane, SASSA card withdrawals at major retailers work exactly as elsewhere in the country. The provincial difference is distance: many beneficiaries travel significant distances to reach a retailer or pay point, which is why direct bank transfer is strongly recommended wherever a beneficiary has access to a bank account — money arrives without travel at all."
+      "text": "In towns like Polokwane, Tzaneen and Mokopane, SASSA card withdrawals at major retailers work exactly as elsewhere in the country. The provincial difference is distance: many beneficiaries travel significant distances to reach a retailer or pay point, which is why direct bank transfer is strongly recommended wherever a beneficiary has access to a bank account — money arrives without travel at all.",
+      "links": [
+        {
+          "text": "SASSA card",
+          "href": "/banking/sassa-card-explained"
+        }
+      ]
     },
     {
       "id": "collection-p2",

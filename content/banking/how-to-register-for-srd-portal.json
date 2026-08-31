@@ -4,7 +4,7 @@
   "classification": "banking-guide",
   "title": "How to Register on the SRD Portal — Create Your SASSA Online Account",
   "description": "Step-by-step guide to registering on the SASSA SRD portal at srd.sassa.gov.za: create an account, log in, check your status, update details, and manage your grant online.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -31,7 +31,7 @@
       "title": "How to Register on the SRD Portal — Create Your SASSA Online Account",
       "description": "The SRD portal at srd.sassa.gov.za is your online hub for managing your R370 grant. Learn how to register, log in with your ID and OTP, check your status, and update your payment details.",
       "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Go to SRD Portal",
         "href": "https://srd.sassa.gov.za"
@@ -55,7 +55,7 @@
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SRD R370 grant applicants who need to create an account on the srd.sassa.gov.za portal to check their status and manage their grant."
+      "text": "There is no separate registration form to fill in for the SRD portal — your account is created the moment you apply for the grant, using the phone number on your application. This guide takes you through your first login so you can see your status, update your details, and switch payment methods without travelling to a SASSA office."
     },
     {
       "id": "register-h",

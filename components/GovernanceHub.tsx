@@ -327,7 +327,7 @@ export default function GovernanceHub() {
                       <div className="p-3 bg-white border border-surface-container rounded-lg">
                         <span className="text-xs font-mono text-outline block mb-1">Preview (Body copy):</span>
                         <p className="text-xs text-muted leading-relaxed">
-                          To qualify for the Older Persons grant, your combined annual household income must remain below the strict means test threshold of R192,480.
+                          To qualify for the Older Persons grant, your combined annual household income must remain below the strict means test threshold of R224,400.
                         </p>
                       </div>
                     </>
@@ -419,7 +419,7 @@ export default function GovernanceHub() {
                           <tbody>
                             <tr className="border-b border-surface-dim">
                               <td className="p-1.5">Single Older Person</td>
-                              <td className="p-1.5 text-right font-mono text-accent-dark">R96,240/yr</td>
+                              <td className="p-1.5 text-right font-mono text-accent-dark">R112,200/yr</td>
                             </tr>
                           </tbody>
                         </table>

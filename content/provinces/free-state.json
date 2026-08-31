@@ -4,7 +4,7 @@
   "classification": "province-hub",
   "title": "SASSA Free State Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in the Free State. Regional office in Bloemfontein, shorter queues than metro provinces, farming-district mobile pay points, and FAQs.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA Free State Province",
       "description": "Provincial hub for Free State beneficiaries: regional office contacts, where queues are shortest, rural collection for farming districts, and local FAQs.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Find an Office",
         "href": "/offices"
@@ -65,7 +65,13 @@
     {
       "id": "services-p",
       "type": "paragraph",
-      "text": "The Bloemfontein regional office coordinates local offices across the province, including high-traffic Bloemfontein and Botshabelo offices and smaller-town branches in Bethlehem, Kroonstad, Welkom and Sasolburg. All full-service offices handle new applications, grant reviews, card replacements and appeals assistance."
+      "text": "The Bloemfontein regional office coordinates local offices across the province, including high-traffic Bloemfontein and Botshabelo offices and smaller-town branches in Bethlehem, Kroonstad, Welkom and Sasolburg. All full-service offices handle new applications, grant reviews, card replacements and appeals assistance.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "offices-grid",
@@ -75,10 +81,6 @@
         {
           "label": "Browse the national offices directory",
           "href": "/offices"
-        },
-        {
-          "label": "Regional office enquiries: 051 412 0300",
-          "href": null
         }
       ]
     },

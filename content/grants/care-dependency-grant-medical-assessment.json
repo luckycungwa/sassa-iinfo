@@ -4,7 +4,7 @@
   "classification": "grant-detail",
   "title": "Care Dependency Grant — Medical Assessment Guide for Parents",
   "description": "Complete guide to the SASSA Care Dependency Grant medical assessment: what the doctor checks, how to prepare a daily care log, age-specific considerations, and what documents to bring.",
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
@@ -35,7 +35,7 @@
       "title": "Care Dependency Grant — Medical Assessment Guide for Parents",
       "description": "Complete guide to the SASSA Care Dependency Grant medical assessment: what the doctor checks, how to prepare a daily care log, age-specific considerations, and what documents to bring for your child.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-07-26",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Browse Download Centre",
         "href": "/downloads"
@@ -287,6 +287,36 @@
       "intent": "info",
       "title": "90-Day Appeal Window — and How to Win an Appeal",
       "text": "If your grant is declined because of the medical assessment, you have 90 days to appeal. Most successful appeals come from parents who submitted a detailed daily care log and supporting letters from therapists or specialists. Remember: SASSA is looking for proof that your child cannot be left alone safely at any time. If the first doctor did not see that, give the appeal panel the evidence they need."
+    },
+    {
+      "id": "related-pages-lsgdb5",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "SASSA Tools",
+          "href": "/tools"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        }
+      ]
     }
   ],
   "relatedPages": [

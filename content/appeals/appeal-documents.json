@@ -4,7 +4,7 @@
   "classification": "appeal-guide",
   "title": "Required Documents for SASSA Grant Appeal",
   "description": "Complete checklist of documents you need to submit a successful SASSA grant appeal, including certification requirements and where to upload them.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "Required Documents for SASSA Grant Appeal",
       "description": "Submitting the correct documents with your appeal is critical. Missing or incorrect documents are the most common reason for appeal delays or dismissals. This complete checklist covers everything you need for a successful SASSA grant appeal.",
       "readingTime": "7 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Start Your Appeal",
         "href": "https://srd.dsd.gov.za"
@@ -49,12 +49,18 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Submitting the correct documents with your appeal is critical. Missing or incorrect documents are the most common reason for appeal delays or dismissals."
+      "text": "Submitting the correct documents with your appeal is critical. Missing or incorrect documents are the most common reason for appeal delays or dismissals.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for anyone preparing to submit a SASSA grant appeal and needs to know exactly which documents to gather."
+      "text": "If you were told your grant was declined because of income, identity, or document issues, the documents below are the difference between a quick ruling and a wasted appeal. The key is not to submit everything you own — it is to submit exactly the evidence that answers the reason SASSA gave, properly certified so the tribunal can accept it. Here is the full checklist."
     },
     {
       "id": "steps-h",
@@ -142,6 +148,24 @@
         {
           "question": "Do I need a lawyer to prepare appeal documents?",
           "answer": "No. SASSA appeals are designed to be submitted without legal representation. The forms are straightforward and designed for self-representation."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-tu1a33",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
         }
       ]
     }

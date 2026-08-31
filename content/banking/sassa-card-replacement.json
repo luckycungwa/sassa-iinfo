@@ -4,7 +4,7 @@
   "classification": "banking-guide",
   "title": "SASSA Card Replacement — How to Replace a Lost, Stolen, or Damaged Card",
   "description": "Step-by-step guide to replacing a lost, stolen, or damaged SASSA card: what to do immediately, where to go for a replacement, required documents, costs, and processing time.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -31,7 +31,7 @@
       "title": "SASSA Card Replacement — How to Replace a Lost, Stolen, or Damaged Card",
       "description": "Lost, stolen, or damaged your SASSA card? Getting a replacement is straightforward. Learn what steps to take immediately, where to go, what documents you need, and how to access your grant while waiting.",
       "readingTime": "3 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "SASSA Card Explained",
         "href": "/banking/sassa-card-explained"
@@ -55,7 +55,7 @@
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SASSA beneficiaries who need to replace a lost, stolen, or damaged SASSA payment card."
+      "text": "Losing your payment card can feel like losing your only access to your grant, but your money is never gone — it stays safe in the SASSA system until you collect it. Whether your card was stolen, lost in a move, or the chip simply gave up, a replacement is a routine office visit. And while you wait, there is a cash option that works with no card at all."
     },
     {
       "id": "lost-stolen-h",
@@ -105,7 +105,13 @@
     {
       "id": "while-waiting",
       "type": "paragraph",
-      "text": "While waiting for your replacement card, you can still access your grant. Switch your payment method to Cash Send through the SRD portal. You will receive an SMS voucher that you can use to collect your grant at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave in cash."
+      "text": "While waiting for your replacement card, you can still access your grant. Switch your payment method to Cash Send through the SRD portal. You will receive an SMS voucher that you can use to collect your grant at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave in cash.",
+      "links": [
+        {
+          "text": "the SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "faq",

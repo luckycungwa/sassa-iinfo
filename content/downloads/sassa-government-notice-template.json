@@ -4,7 +4,7 @@
   "classification": "downloadable-form",
   "title": "SASSA Government Gazette Notice Reference Guide",
   "description": "Reference guide to the official Government Gazette notices that govern SASSA grant amounts, means test thresholds and payment regulations — and how to find them on gov.za.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "Government Gazette Notice Reference Guide",
       "description": "Grant amounts, means tests and payment rules all trace back to numbered Gazette notices. Here is how to find, read and cite them.",
       "readingTime": "4 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "View All Forms",
         "href": "/downloads"
@@ -38,7 +38,17 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Every official change to social grants — annual increases, revised means test thresholds, new regulations — takes legal effect through a Government Gazette notice. This reference guide explains what those notices are, which ones matter for beneficiaries, and how to use their reference numbers in formal correspondence or appeals."
+      "text": "Every official change to social grants — annual increases, revised means test thresholds, new regulations — takes legal effect through a Government Gazette notice. This reference guide explains what those notices are, which ones matter for beneficiaries, and how to use their reference numbers in formal correspondence or appeals.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        },
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "what-h",

@@ -4,7 +4,7 @@
   "classification": "downloadable-form",
   "title": "SASSA Grant Application Document Checklist — Everything to Bring",
   "description": "Complete checklist of documents required when applying for any SASSA social grant. Missing documents are the most common cause of application delays — arrive prepared.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "SASSA Grant Application Document Checklist",
       "description": "One trip instead of three: tick off every document before you visit the office. Missing paperwork is the number one reason applications stall.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "View the Full Checklist",
         "href": "#checklist"
@@ -164,6 +164,24 @@
         }
       ],
       "note": "Checklist verified against current office requirements, August 2026."
+    },
+    {
+      "id": "related-pages-tkeoe3",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Documents Checklist",
+          "href": "/guides/sassa-documents-checklist"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        }
+      ]
     }
   ],
   "relatedPages": [

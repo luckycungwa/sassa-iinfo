@@ -4,7 +4,7 @@
   "classification": "appeal-guide",
   "title": "How to Appeal a SASSA Grant After Initial Decline",
   "description": "Step-by-step guide to appealing a SASSA grant after receiving an initial decline. Covers every step from receiving your decline notification to receiving the tribunal ruling.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "How to Appeal a SASSA Grant After Initial Decline",
       "description": "A declined grant application is not the end of the road. You have 90 days to file an appeal with ITSAA. This guide covers every step from receiving your decline notification to gathering evidence and tracking your tribunal ruling.",
       "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Submit an Appeal",
         "href": "https://srd.dsd.gov.za"
@@ -48,12 +48,25 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "A declined grant application is not the end of the road. You have 90 days to file an appeal with the Independent Tribunal for Social Assistance Appeals (ITSAA). This guide covers every step from receiving your decline notification to receiving the tribunal ruling."
+      "text": "A declined grant application is not the end of the road. You have 90 days to file an appeal with the Independent Tribunal for Social Assistance Appeals (ITSAA). This guide covers every step from receiving your decline notification to receiving the tribunal ruling.",
+      "links": [
+        {
+          "text": "Independent Tribunal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SASSA applicants who received a decline notification and need step-by-step instructions on how to file an appeal."
+      "text": "Before you start, resist the urge to appeal the moment you see 'Declined'. Take an evening first. Read the decline reason, sleep on it, and come back with clear evidence. Most dismissed appeals fail because people filed in a hurry without documents that actually answer the decline reason."
+    },
+    {
+      "id": "mental",
+      "type": "callout",
+      "intent": "success",
+      "title": "A decline is not a verdict on you",
+      "text": "Thousands of grants are declined every month on technicalities — an old UIF record, a flagged deposit, a mismatch in your ID. More often than not, it is a data problem, not a personal judgment. Appeal with evidence and you have a real chance of getting paid."
     },
     {
       "id": "steps-h",
@@ -103,6 +116,12 @@
       "text": "You have 90 days from the date of the decline notification to file your appeal. The tribunal has 60-90 days to issue a ruling."
     },
     {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Questions When Starting an Appeal"
+    },
+    {
       "id": "faq",
       "type": "faq",
       "faqs": [
@@ -113,6 +132,32 @@
         {
           "question": "Can I appeal in person at a SASSA office?",
           "answer": "Yes. For non-SRD grants, you can visit your nearest SASSA office with your documents and request a manual appeal submission."
+        },
+        {
+          "question": "I was declined, but I do not know why. Where do I start?",
+          "answer": "Check your decline notification on the SASSA status page first — it shows the reason code. Not sure what a code means? Our decline reasons guide breaks each one down with the exact evidence you need. Choosing to appeal without knowing the reason is the number one way people lose time."
+        },
+        {
+          "question": "Can I file an appeal if I cannot afford data for the portal?",
+          "answer": "Yes. Visit your nearest SASSA office and ask staff to help you submit a manual appeal, or use the free Wi-Fi available at many civic centres and libraries. You can also call 0800 60 10 11 and ask for guidance on submitting."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-agvqi5",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
         }
       ]
     }

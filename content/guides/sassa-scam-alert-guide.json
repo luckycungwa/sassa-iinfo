@@ -4,7 +4,7 @@
   "classification": "how-to-guide",
   "title": "SASSA Scam Alert & Fraud Prevention Guide 2026",
   "description": "Learn how to spot and avoid SASSA grant scams. Fake SMS messages, phishing websites, fraudulent agents, and impersonation calls — with real examples and what to do if you've been scammed.",
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
@@ -37,7 +37,7 @@
       "title": "SASSA Scam Alert & Fraud Prevention Guide",
       "description": "Learn how to spot and avoid SASSA grant scams. Fake SMS messages, phishing websites, fraudulent agents, and impersonation calls — with real examples and what to do if you have been scammed.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-07-26",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Report a Scam",
         "href": "https://www.sassa.gov.za"
@@ -261,6 +261,32 @@
       "id": "final-note",
       "type": "paragraph",
       "text": "Share this guide with your family, friends, and community. The more people know about these scams, the harder it is for fraudsters to succeed. If you suspect a scam, report it. Together we can help protect South Africa's most vulnerable grant beneficiaries."
+    },
+    {
+      "id": "related-pages-v02mn4",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How-To Guides",
+          "href": "/guides"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "SASSA Tools",
+          "href": "/tools"
+        }
+      ]
     }
   ],
   "relatedPages": [

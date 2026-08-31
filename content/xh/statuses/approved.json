@@ -1,0 +1,332 @@
+{
+  "id": "status-approved",
+  "slug": "/status/approved",
+  "classification": "status-meaning",
+  "title": "Uphambiwe — Ukuthetha Ntoni Nokwenzeka Ntoni Emva Kokugunyazwa KweSASSA",
+  "description": "Isibonelelo sakho seSASSA sigunyaziwe! Nantsi into ethethwa kukuba nesimo 'sokuphambiwe', ukuba uza kuhlawulwa nini, nento omele uyenze xa ulinde intlawulo yakho.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.1.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Isimo SeSASSA Siphambiwe — Uza Kuhlawulwa Nini? (2026)",
+    "metaDescription": "Isimo seSASSA 'SiPhambiwe' ngo-2026? Fumanisa ukuba uza kuhlawulwa nini, kutheni kungenzeka kungabonakali umhla wokuhlawula, nokuba wenze ntoni xa imali ishiyile.",
+    "keywords": [
+      "isimo esiphambiweyo seSASSA",
+      "siphambiwe ngaphandle komhla wokuhlawula",
+      "iSASSA iphambiwe kodwa akukho mali",
+      "intsingiselo yokuphambiwa kweSRD",
+      "akukho mhla wokuhlawula iSASSA",
+      "iSASSA izakundihlawula nini"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Uphambiwe — Uza Kuhlawulwa Nini?",
+      "description": "Isibonelelo sakho seSASSA sigunyaziwe! Qonda ukuba ukuba nesimo 'sokuPhambiwe' kuthetha ntoni, xa kuza kufika intlawulo yakho, kuthatha ixesha elingakanani ukuba ibonakale kwiakhawunti yakho yebhanki, nokuba wenze ntoni xa intlawulo yakho ilibele.",
+      "readingTime": "Iminithi e-7 yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Ilandelise Intlawulo Yakho",
+        "href": "/status/payment-processing"
+      },
+      "secondaryCta": {
+        "text": "Jonga Imihla Yentlawulo",
+        "href": "/payment-dates"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Uphambiwe — Ukuthetha Ntoni Kwisibonelelo Sakho SeSASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Isimo 'sokuPhambiwe' yile nto ubukade uyilinde. Kuthetha ukuba iSASSA igqibe ukuhlolwa kwayo kokuqinisekisa, kwaye iqinisekisile ukuba uyahlangabezana neemfuno zokufaneleka kule nyanga, kwaye yabela imali yentlawulo yakho. Oku kukucoceka kokugqibela phambi kokuba imali yakho ithunyelwe kwibhanki yakho okanye kwindawo yokufumana imali."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Esi simo singabaxhamli beSASSA ezizicelo zabo zezibonelelo ziye zaphononongwa zaza zagunyazwa ngempumelelo ukuze zihlawulwe."
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Isibonelelo Sakho Sigunyaziwe",
+      "text": "Iintlawulo ziyakhutshwa ngokwe-shedyuli yokuhlawula esemthethweni yeSASSA. Ngokuqhelekileyo imali ibonakala kwiintsuku ezi-1-3 zomsebenzi emva komhla wokuhlawula."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Siphambiwe",
+      "explanation": "Isicelo sakho sipasile kuzo zonke izinto zokuqinisekisa: isazisi sakho sihambelana neerekhodi zeHome Affairs, iinkcukacha zakho zebhanki ziye zaqinisekiswa ngempumelelo, uvavanyo lweendlela zobomi lubonise ukuba akukho mali engenayo engakufanelekiyo, kwaye akukho maki zoqhankqalazo ezaphakanyiswa. Ngoku iSASSA ikubandakanyile kwiqela lokuhlawula lale nyanga.",
+      "whyItHappens": [
+        "Zonke iimfuno zokufaneleka ziye zanikezelwa",
+        "Ukuqinisekiswa kwebhanki kugqitywe ngempumelelo",
+        "Ukuqinisekiswa kwesazisi kupasile kwibhasi yedatha yeHome Affairs",
+        "Uvavanyo lweendlela zobomi luqinisekisile ukuba umvuzo wakho ungaphakathi komda",
+        "Akukho mithombo yenkxaso yeUIF, NSFAS, okanye eminye efunyenweyo"
+      ],
+      "howLongItLasts": "Isimo 'sokuPhambiwe' sihleli de kucutshulwe intlawulo ize igqithiselwe kwibhanki yakho okanye kwiarhente yakho yokuhlawula. Xa sele uhlawuliwe, isimo sitshintsha sibe 'kuPhambeka kwentlawulo' okanye 'kuhlawulwe'. Inyanga nganye entsha ivavanywa ngokwahlukileyo — ukuphambiwa kwenye inyanga akuthethi ukuba uza kuphambiwa nakwelandelayo.",
+      "whatYouShouldDo": [
+        "Khangela umhla wokuhlawula ecaleni kwesimo sakho esiphambiweyo",
+        "Ukuba ufumana ugqithiso lwebhanki: lindela imali kwiintsuku ezi-1 ukuya kwezi-3 zomsebenzi emva komhla wokuhlawula",
+        "Ukuba ufumana iCash Send: linda i-SMS voucher phambi kokuba uye kwivenkile",
+        "Sukuyivala okanye uyitshintshe iakhawunti yakho yebhanki de kufike intlawulo",
+        "Qhubeka ujonge isimo sakho ekuqaleni kwenyanga nganye entsha ukuze uvavanywe kwakhona"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Intlawulo Iyaqhuba",
+          "slug": "payment-processing"
+        },
+        {
+          "name": "Isicelo Sigqityiwe",
+          "slug": "application-complete"
+        }
+      ]
+    },
+    {
+      "id": "payment-timing-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Uza Kuhlawulwa Nini?"
+    },
+    {
+      "id": "payment-timing",
+      "type": "paragraph",
+      "text": "Emva kokuba isimo sakho sibonise 'uPhambiwe', ngokuqhelekileyo umhla wokuhlawula uyongezwa kwiintsuku nje ezimbalwa zomsebenzi. Imihla ngqo iyahluka ngokohlobo lwesibonelelo:"
+    },
+    {
+      "id": "payment-table",
+      "type": "table",
+      "headers": [
+        "Uhlobo Lwesibonelelo",
+        "Ixhasa Lokuhlawula",
+        "Indlela"
+      ],
+      "rows": [
+        [
+          "Isibonelelo seSRD R370",
+          "Ixhasa lokuhlawula lonyanga lisiqala malunga nomhla wama-25",
+          "I-EFT yebhanki okanye iCash Send"
+        ],
+        [
+          "Isibonelelo Somntu Omdala",
+          "Iveki yokuqala yenyanga nganye",
+          "I-EFT yebhanki okanye ukuqokelela kwivenkile"
+        ],
+        [
+          "Isibonelelo Sokukhubazeka",
+          "Iveki yokuqala yenyanga nganye",
+          "I-EFT yebhanki okanye ukuqokelela kwivenkile"
+        ],
+        [
+          "Isibonelelo Sokuxhaswa Komntwana",
+          "Iveki yokuqala yenyanga nganye, emva kwezibonelelo zabantu abadala nokhubazeka",
+          "I-EFT yebhanki okanye ukuqokelela kwivenkile"
+        ],
+        [
+          "Isibonelelo Sokukhathalelwa Ngogcino",
+          "Iveki yokuqala yenyanga nganye, emva kwezibonelelo zabantu abadala nokhubazeka",
+          "I-EFT yebhanki okanye ukuqokelela kwivenkile"
+        ]
+      ]
+    },
+    {
+      "id": "bank-credit-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Kuthatha Ixesha Elingakanani Ukuba Ibonakale Kwiakhawunti Yakho Yebhanki?"
+    },
+    {
+      "id": "bank-credit",
+      "type": "paragraph",
+      "text": "Xa iSASSA icutshe ixesha lokuhlawula, ixesha elithathwa yimali ukuba ibonakale kwiakhawunti yakho lixhomekeke kwibhanki yakho:"
+    },
+    {
+      "id": "bank-table",
+      "type": "table",
+      "headers": [
+        "Ibhanki",
+        "Ixesha Lokufakwa Kwemali Okuliqhelekileyo"
+      ],
+      "rows": [
+        [
+          "Capitec",
+          "Ngolo suku lunye (kwiinyure ezi-2 ukuya kwezi-4 emva kokukhutshwa kweSASSA)"
+        ],
+        [
+          "FNB",
+          "Ngolo suku lunye okanye usuku olulandelayo lomsebenzi"
+        ],
+        [
+          "Standard Bank",
+          "Iintsuku ezi-1 ukuya kwezi-2 zomsebenzi"
+        ],
+        [
+          "Absa",
+          "Iintsuku ezi-1 ukuya kwezi-2 zomsebenzi"
+        ],
+        [
+          "Nedbank",
+          "Iintsuku ezi-1 ukuya kwezi-2 zomsebenzi"
+        ],
+        [
+          "TymeBank",
+          "Ngolo suku lunye"
+        ],
+        [
+          "Bank Zero",
+          "Ngolo suku lunye"
+        ],
+        [
+          "Postbank",
+          "Ngolo suku lunye okanye usuku olulandelayo lomsebenzi"
+        ]
+      ]
+    },
+    {
+      "id": "nopayday-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uphambiwe Ngaphandle Komhla Wokuhlawula — Ukuthetha Ntoni Nento Omawuyenze"
+    },
+    {
+      "id": "nopayday-answer",
+      "type": "paragraph",
+      "text": "Ukuba isimo sakho sibonisa 'uPhambiwe' kodwa akukho mhla wokuhlawula ubonakalayo ecaleni kwaso, isicelo sakho sigunyaziwe kule nyanga, kodwa umhla wokuhlawula akukabonakaliswa. Oku kwenzeka rhoqo kwaye akuthethi ukuba ukuphambiwa kwakho kurhoxisiwe. Kwiimeko ezininzi umhla wokuhlawula uyongezwa njengoko usuku lokuhlawula olulandelayo lusondela."
+    },
+    {
+      "id": "nopayday-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Uphambiwe kodwa akukho mhla wokuhlawula ubonakalayo?",
+      "text": "Isicelo sakho sigunyaziwe, kodwa umhla wokuhlawula akukabonakaliswa. Akukho nto ifunekayo kuwe ngelixa ulindile — qhubeka ujonge isimo sakho rhoqo kwiintsuku ezimbalwa kunokuba ufune kwakhona."
+    },
+    {
+      "id": "nopayday-diff",
+      "type": "paragraph",
+      "text": "Oku kwahlukile kwisimo 'sokuLimba', esithetha ukuba iSASSA isavavanya ukufaneleka kwakho kule nyanga. Kukwahlukile nakwintlawulo elahlekileyo: ukuba umhla wokuhlawula wawubonisiwe kwaye loo mhla udlulile kungabikho mali kwiakhawunti yakho, landela isikhokelo sethu sokuba intlawulo ingabonakali."
+    },
+    {
+      "id": "nopayday-not-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Into Omawungayenzi Ngelixa Ulindile"
+    },
+    {
+      "id": "nopayday-not",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sukungenisa isicelo esitsha — akusayi kwenza umhla wokuhlawula ubonakale kwangoko kwaye kunokwenza irekhodi lakho libe nzima",
+        "Sukubhatala nabani na obanga ukuba unokukhupha intlawulo yakho okanye anyanzelise ukuba kubonakale umhla wokuhlawula — oku bubuqhetseba obuqhelekileyo",
+        "Sukutshintsha iinkcukacha zakho zebhanki ngokuphindaphindiweyo ngelixa ulindile — utshintsho ngalunye luphinda luqale ukuqinisekiswa kwaye lunokutyhala intlawulo yakho iye kumjikelo olandelayo",
+        "Sukuxhomekeka kwizaziso ze-SMS kuphela — jonga isimo sakho ngqo kwiportal esemthethweni"
+      ]
+    },
+    {
+      "id": "nosms-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Akukho SMS Okwangoku? Ukuba Kutheni Oku Kunokuba Qhelekileyo"
+    },
+    {
+      "id": "nosms",
+      "type": "paragraph",
+      "text": "Izaziso zokuphambiwa zithunyelwa nge-SMS apho iSASSA inom nombolo yefowuni esebenzayo esemfayileni, kodwa imiyalezo ingafika kade okanye ingafiki konke — ingakumbi ukuba inombolo yakho itshintshile ukususela xa ubusenza isicelo. Iportal yesimo sisiseko esithembekileyo senyaniso: ukuba ibonisa 'uPhambiwe', thatha isibonelelo sakho njengesigunyaziweyo nokuba ingafikanga na i-SMS. Ukuba inombolo yakho itshintshile okanye ilahlekile, yihlaziya usebenzisa isikhokelo sethu senombolo yefowuni yeSRD ukuze izaziso ezizayo zifike kuwe.",
+      "links": [
+        {
+          "text": "SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Imibuzo Ebuzwa Rhoqo"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Isimo sam sithi 'Siphambiwe' kodwa akukho mhla wokuhlawula. Kuthetha ntoni oku?",
+          "answer": "Isicelo sakho sigunyaziwe, kodwa umhla wokuhlawula akukabonakaliswa. Oku kwenzeka rhoqo kwaye akukho nto ifunekayo kuwe. Ngokuqhelekileyo umhla wokuhlawula uyongezwa kwiintsuku ezimbalwa zomsebenzi njengoko usuku lokuhlawula olulandelayo lusondela — qhubeka ujonge isimo sakho kunokuba ufune kwakhona."
+        },
+        {
+          "question": "Ngaba isimo 'sokuPhambiwe' singatshintsha sibuyele 'kuLimba' okanye 'siNqatshelwe'?",
+          "answer": "Ewe. Inyanga nganye ivavanywa njengomjikelo owahlukileyo. Ukuba imeko yakho yemali itshintsha phakathi kwenyanga (umzekelo, ufumana imali efakwa kwibhanki), inyanga elandelayo inokubonisa isimo esahlukileyo."
+        },
+        {
+          "question": "Ndiphambiwe kodwa imali ayikho kwiakhawunti yam. Ndifanele ukwenza ntoni?",
+          "answer": "Linda iintsuku ezi-1 ukuya kwezi-3 zomsebenzi emva komhla wokuhlawula. Ukuba isengabonakali, qinisekisa ukuba iinkcukacha zakho zebhanki zichanekile kwaye iakhawunti iyasebenza. Ukuba ingxaki iyaqhubeka, qhagamshelana neSASSA."
+        },
+        {
+          "question": "Ngaba kufuneka ndiphinde ndifune kwakhona inyanga ngenyanga ukuba ndiphambiwe?",
+          "answer": "Hayi. Xa sele uphambiwe, isibonelelo sakho sivavanywa ngokuzenzekelayo inyanga nganye. Kufuneka ufune kwakhona kuphela ukuba isibonelelo sakho sicinyiwe okanye kufuneka utshintshe uhlobo lwesibonelelo."
+        },
+        {
+          "question": "Ngaba ndingayitshintsha indlela yam yokuhlawula emva kokuphambiwa?",
+          "answer": "Ewe. Ngena kwiportal yeSRD waye kwi 'Payment Method' ukuze utshintshe phakathi kogqithiso lwebhanki neCash Send. Utshintsho luqala ukusebenza ukususela kwinyanga elandelayo."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Intlawulo Ayibonakali?",
+          "href": "/banking/payment-not-reflecting",
+          "description": "Amanyathelo okunyusa xa umhla wakho wokuhlawula udlulile kungabikho mali"
+        },
+        {
+          "title": "Iindlela Zokuhlawula ZeSASSA",
+          "href": "/banking/payment-methods",
+          "description": "Zonke iindlela zokufumana intlawulo yesibonelelo sakho"
+        },
+        {
+          "title": "Indlela Yokuhlaziya Iinkcukacha Zebhanki",
+          "href": "/banking/update-bank-details",
+          "description": "Tshintsha iakhawunti yakho yebhanki kwiintlawulo zezibonelelo"
+        },
+        {
+          "title": "Imihla Yokuhlawula Ka-Agasti 2026",
+          "href": "/payment-dates/2026-august",
+          "description": "Imihla ngqo yokuhlawula kunye nexhasa leSRD kule nyanga"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Intlawulo Iyaqhuba",
+      "slug": "/status/payment-processing"
+    },
+    {
+      "title": "Isikhokelo Sokuba Intlawulo Ayibonakali",
+      "slug": "/banking/payment-not-reflecting"
+    },
+    {
+      "title": "Isicelo Sigqityiwe",
+      "slug": "/status/application-complete"
+    },
+    {
+      "title": "Imihla Yokuhlawula YeSASSA",
+      "slug": "/payment-dates"
+    }
+  ]
+}

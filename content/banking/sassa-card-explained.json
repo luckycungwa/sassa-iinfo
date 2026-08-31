@@ -4,53 +4,209 @@
   "classification": "banking-guide",
   "title": "SASSA Card Explained — How It Works, Benefits, and Alternatives",
   "description": "Everything you need to know about the SASSA card: how it works, where to use it, how it compares to bank accounts and Cash Send, and whether you need one to receive your grant.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Card Explained — How the SASSA Payment Card Works",
     "metaDescription": "Everything about the SASSA card: how it works, where to use it for free withdrawals, how it differs from a bank account, whether you need one, and how to get a replacement if lost.",
-    "keywords": ["SASSA card", "SASSA payment card", "SASSA card replacement", "SASSA card vs bank account", "SASSA gold card"]
+    "keywords": [
+      "SASSA card",
+      "SASSA payment card",
+      "SASSA card replacement",
+      "SASSA card vs bank account",
+      "SASSA gold card"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SASSA Card Explained — How It Works, Benefits, and Alternatives",
       "description": "The SASSA gold card is a payment option for beneficiaries without a bank account. Learn how it works, where to use it for free withdrawals, and how it compares to bank transfer and Cash Send.",
       "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "label": "Card Replacement Guide", "href": "/banking/sassa-card-replacement" },
-      "secondaryCta": { "label": "All Payment Methods", "href": "/banking/payment-methods" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Card Replacement Guide",
+        "href": "/banking/sassa-card-replacement"
+      },
+      "secondaryCta": {
+        "label": "All Payment Methods",
+        "href": "/banking/payment-methods"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Card Explained" },
-    { "id": "intro", "type": "paragraph", "text": "The SASSA card (also known as the SASSA gold card) is a payment card that some beneficiaries use to access their social grant. It works like a debit card and allows you to withdraw your grant at specific retailers and ATMs without needing a personal bank account." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA beneficiaries who want to understand how the SASSA payment card works and whether it is the right option for them." },
-    { "id": "what-is-it-h", "type": "heading", "level": 3, "text": "What Is the SASSA Card?" },
-    { "id": "what-is-it", "type": "paragraph", "text": "The SASSA card is a Mastercard-branded payment card issued through the South African Post Office (SAPO) in partnership with SASSA. Your grant is loaded onto the card each month, and you can use it to withdraw cash or make purchases at any merchant that accepts Mastercard." },
-    { "id": "features-h", "type": "heading", "level": 3, "text": "Key Features" },
-    { "id": "features-list", "type": "list", "ordered": false, "items": ["Free withdrawals at Postbank ATMs and select retailers", "Works at any Mastercard-accepting merchant for purchases", "No monthly account fees", "No minimum balance required", "Pin-protected for security", "Can be used in-store or at ATMs"] },
-    { "id": "card-vs-bank-h", "type": "heading", "level": 3, "text": "SASSA Card vs Bank Account vs Cash Send" },
-    { "id": "comparison-table", "type": "table", "headers": ["Feature", "SASSA Card", "Personal Bank Account", "Cash Send"], "rows": [
-      ["Bank account needed?", "No", "Yes", "No"],
-      ["Withdraw cash", "Free at Postbank ATMs", "Free at own bank ATMs", "At retailer counter"],
-      ["Make purchases", "Yes (any Mastercard merchant)", "Yes (any merchant)", "No (cash only)"],
-      ["Monthly fees", "None", "Varies by bank", "None"],
-      ["Collection speed", "Same day as payout", "1-3 business days", "24-48 hours"],
-      ["Lose card/phone", "Free replacement available", "Bank replacement fee", "SMS resend available"]
-    ] },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Do I need a SASSA card to receive my grant?", "answer": "No. The SASSA card is just one of several payment options. You can receive your grant via bank transfer or Cash Send without needing a card." },
-      { "question": "How do I get a SASSA card?", "answer": "Visit your nearest SASSA office with your ID and apply for a SASSA payment card. The card is issued through the Post Office." },
-      { "question": "Is the SASSA card free?", "answer": "Yes. There are no monthly fees or charges for receiving your grant on the SASSA card." },
-      { "question": "Can I use the SASSA card at any ATM?", "answer": "You can use it at any Mastercard-accepting ATM, but fees may apply at third-party ATMs. Withdrawals at Postbank ATMs are free." },
-      { "question": "Can I switch from bank transfer to the SASSA card?", "answer": "Yes. Visit a SASSA office to request a SASSA card and update your payment method." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Card Explained"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The SASSA card (also known as the SASSA gold card) is a payment card that some beneficiaries use to access their social grant. It works like a debit card and allows you to withdraw your grant at specific retailers and ATMs without needing a personal bank account."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "The SASSA card used to be the standard way every beneficiary got paid; today it is just one of several options. Whether it is right for you depends on one simple question: do you want cash in your pocket without a bank account, or would bank transfer serve you better? A few minutes comparing them now can prevent months of unnecessary collection trips."
+    },
+    {
+      "id": "what-is-it-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Is the SASSA Card?"
+    },
+    {
+      "id": "what-is-it",
+      "type": "paragraph",
+      "text": "The SASSA card is a Mastercard-branded payment card issued through the South African Post Office (SAPO) in partnership with SASSA. Your grant is loaded onto the card each month, and you can use it to withdraw cash or make purchases at any merchant that accepts Mastercard."
+    },
+    {
+      "id": "features-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Key Features"
+    },
+    {
+      "id": "features-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Free withdrawals at Postbank ATMs and select retailers",
+        "Works at any Mastercard-accepting merchant for purchases",
+        "No monthly account fees",
+        "No minimum balance required",
+        "Pin-protected for security",
+        "Can be used in-store or at ATMs"
+      ]
+    },
+    {
+      "id": "card-vs-bank-h",
+      "type": "heading",
+      "level": 3,
+      "text": "SASSA Card vs Bank Account vs Cash Send"
+    },
+    {
+      "id": "comparison-table",
+      "type": "table",
+      "headers": [
+        "Feature",
+        "SASSA Card",
+        "Personal Bank Account",
+        "Cash Send"
+      ],
+      "rows": [
+        [
+          "Bank account needed?",
+          "No",
+          "Yes",
+          "No"
+        ],
+        [
+          "Withdraw cash",
+          "Free at Postbank ATMs",
+          "Free at own bank ATMs",
+          "At retailer counter"
+        ],
+        [
+          "Make purchases",
+          "Yes (any Mastercard merchant)",
+          "Yes (any merchant)",
+          "No (cash only)"
+        ],
+        [
+          "Monthly fees",
+          "None",
+          "Varies by bank",
+          "None"
+        ],
+        [
+          "Collection speed",
+          "Same day as payout",
+          "1-3 business days",
+          "24-48 hours"
+        ],
+        [
+          "Lose card/phone",
+          "Free replacement available",
+          "Bank replacement fee",
+          "SMS resend available"
+        ]
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Do I need a SASSA card to receive my grant?",
+          "answer": "No. The SASSA card is just one of several payment options. You can receive your grant via bank transfer or Cash Send without needing a card."
+        },
+        {
+          "question": "How do I get a SASSA card?",
+          "answer": "Visit your nearest SASSA office with your ID and apply for a SASSA payment card. The card is issued through the Post Office."
+        },
+        {
+          "question": "Is the SASSA card free?",
+          "answer": "Yes. There are no monthly fees or charges for receiving your grant on the SASSA card."
+        },
+        {
+          "question": "Can I use the SASSA card at any ATM?",
+          "answer": "You can use it at any Mastercard-accepting ATM, but fees may apply at third-party ATMs. Withdrawals at Postbank ATMs are free."
+        },
+        {
+          "question": "Can I switch from bank transfer to the SASSA card?",
+          "answer": "Yes. Visit a SASSA office to request a SASSA card and update your payment method."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-4wruwu",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Banking & Payments",
+          "href": "/banking"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD Status Check",
+          "href": "/grants/srd-r370-grant/status-check"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SASSA Card Replacement", "slug": "/banking/sassa-card-replacement" },
-    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" },
-    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" }
+    {
+      "title": "SASSA Card Replacement",
+      "slug": "/banking/sassa-card-replacement"
+    },
+    {
+      "title": "SASSA Payment Methods",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Cash Send Guide",
+      "slug": "/banking/cash-send-guide"
+    }
   ]
 }

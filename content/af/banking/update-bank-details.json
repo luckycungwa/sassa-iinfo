@@ -1,0 +1,159 @@
+{
+  "id": "banking-update-bank-details",
+  "slug": "/banking/update-bank-details",
+  "classification": "banking-guide",
+  "title": "Hoe om jou SASSA-bankbesonderhede op te dateer — Verander rekening vir toelaebetalings",
+  "description": "Stap-vir-stap gids om jou bankrekening vir SASSA-toelaebetalings te verander: aanlyn via die SRD-portaal of persoonlik by 'n SASSA-kantoor. Vereistes, verwerktyd en belangrike waarskuwings.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA-bankbesonderhede op dateer — Stap-vir-stap (2026)",
+    "metaDescription": "Dateer jou SASSA-bankbesonderhede in 2026 op aanlyn via die SRD-portaal of by 'n kantoor. Volg ons stap-vir-stap gids om rekenings te wissel.",
+    "keywords": [
+      "SASSA-bankbesonderhede op dateer",
+      "SASSA-bankrekening verander",
+      "SASSA betaalmetode verander",
+      "SASSA rekeningnommer op dateer",
+      "SASSA bankwisselvorm"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Hoe om jou SASSA-bankbesonderhede op te dateer — Verander rekening vir toelaebetalings",
+      "description": "Moet jy die bankrekening verander waar jou SASSA-toelae gestort word? Leer hoe om jou besonderhede aanlyn op te dateer via die SRD-portaal of persoonlik by 'n SASSA-kantoor, en wat om te verwag gedurende bankverifikasie.",
+      "readingTime": "4 min lees",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Gaan na SRD-portaal",
+        "href": "/banking/how-to-register-for-srd-portal"
+      },
+      "secondaryCta": {
+        "label": "Bankverifikasieproses",
+        "href": "/banking/bank-verification-process"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om jou SASSA-bankbesonderhede op te dateer"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "As jy die bankrekening moet verander waar jou SASSA-toelae betaal word, kan jy dit aanlyn doen deur die SRD-portaal of persoonlik by 'n SASSA-kantoor. Die nuwe rekening moet in jou eie naam geregistreer wees.",
+      "links": [
+        {
+          "text": "die SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "As jy van bank gewissel het, 'n ou rekening gesluit het, of laas keer bloot 'n tikfout gemaak het, is jy op die regte plek. Hierdie is een van daardie klein administratiewe take wat lastig voel maar werklik belangrik is — verkeerde bankbesonderhede is die nommer-een rede waarom toelaebetalings in die limbo vasval."
+    },
+    {
+      "id": "name-rule",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Die rekening MOET joune wees",
+      "text": "SASSA betaal slegs in 'n rekening in die aansoeker se eie naam. Jy kan nie 'n familielid of vriend se rekening gebruik nie — selfs met hul toestemming. As jy nie jou eie rekening het nie, gebruik Cash Send of die SASSA-kaart eerder as om 'n gevriesde betaling te waag."
+    },
+    {
+      "id": "online-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Metode 1: Aanlyn op dateer (Aanbeveel)"
+    },
+    {
+      "id": "online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Meld aan by die SRD-portaal",
+          "description": "Gaan na srd.sassa.gov.za. Voer jou ID-nommer en foonnommer in. Verifieer met die OTP wat na jou foon gestuur is."
+        },
+        {
+          "title": "Navigeer na 'Dateer bankbesonderhede op'",
+          "description": "Vind die bankbesonderhede-afdeling op jou dashboard."
+        },
+        {
+          "title": "Voer jou nuwe bankrekeninginligting in",
+          "description": "Verskaf jou nuwe banknaam, rekeningnommer, takkode en rekeningtipe (Spaar, Betaal-, of Oordragrekening)."
+        },
+        {
+          "title": "Bevestig die besonderhede",
+          "description": "Gaan elke syfer van die rekeningnommer en takkode dubbel na. 'n Enkele verkeerde syfer sal jou betaling vertraag."
+        },
+        {
+          "title": "Dien in en wag vir verifikasie",
+          "description": "SASSA sal die nuwe rekening met jou bank verifieer. Dit duur 5 tot 10 besigheidsdae."
+        }
+      ]
+    },
+    {
+      "id": "office-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Metode 2: Op dateer by 'n SASSA-kantoor"
+    },
+    {
+      "id": "office-text",
+      "type": "paragraph",
+      "text": "As jy nie toegang tot die aanlynportaal het nie, besoek jou naaste SASSA-kantoor met jou ID en 'n bankstate of brief van jou bank wat die nuwe rekening bevestig. Voltooi die SASSA-toestemmingsvorm vir bankbetaling en 'n SASSA-amptenaar sal die verandering verwerk."
+    },
+    {
+      "id": "important-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Belangrike reëls",
+      "text": "Die bankrekening moet in jou eie naam wees. SASSA sal nie toelaes in derdeparty-rekenings betaal nie. Bankverifikasie duur 5-10 besigheidsdae. Moenie jou ou rekening sluit voordat die eerste betaling in die nuwe rekening aankom nie."
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Hoe lank neem dit om bankbesonderhede op te dateer?",
+          "answer": "Bankverifikasie duur 5 tot 10 besigheidsdae. Sodra geverifieer, word die nuwe rekening vir die volgende maand se betaling gebruik."
+        },
+        {
+          "question": "Kan ek my bankbesonderhede op dateer as ek toegang tot my foonnommer verloor het?",
+          "answer": "Nee. Jy moet 'n SASSA-kantoor met jou ID besoek om eers jou foonnommer op te dateer, en dan die aanlynportaal gebruik."
+        },
+        {
+          "question": "Sal die verandering van my bankbesonderhede my huidige maand se betaling raak?",
+          "answer": "As jy jou besonderhede na die 20ste van die maand verander, sal die verandering vanaf die volgende maand geld. Moenie besonderhede verander terwyl 'n betaling verwerk word nie."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "SASSA-betalingsmetodes",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Bankverifikasieproses",
+      "slug": "/banking/bank-verification-process"
+    },
+    {
+      "title": "Betaling weerspieël nie",
+      "slug": "/banking/payment-not-reflecting"
+    },
+    {
+      "title": "Hoe om op SRD-portaal te registreer",
+      "slug": "/banking/how-to-register-for-srd-portal"
+    }
+  ]
+}

@@ -4,16 +4,29 @@
   "classification": "office-location",
   "title": "SASSA Cape Town Office",
   "description": "SASSA Cape Town office in the Western Cape, located at 9 Dorp Street, Cape Town CBD. Full grant services including applications, card services, payments, and beneficiary support.",
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "5 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Cape Town Office: Dorp Street, Services & Directions",
     "metaDescription": "SASSA Cape Town office at 9 Dorp Street, Cape Town CBD. Phone: 021 456 7890. Full list of services: grant applications, card replacements, payments, and beneficiary enquiries. Hours and directions included.",
-    "keywords": ["SASSA Cape Town office", "SASSA Dorp Street", "SASSA Western Cape office", "Cape Town SASSA branch", "SASSA Cape Town grants"],
-    "schemaMarkup": { "@type": "GovernmentOffice", "name": "SASSA Cape Town Office" }
+    "keywords": [
+      "SASSA Cape Town office",
+      "SASSA Dorp Street",
+      "SASSA Western Cape office",
+      "Cape Town SASSA branch",
+      "SASSA Cape Town grants"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentOffice",
+      "name": "SASSA Cape Town Office"
+    }
   },
   "contentBlocks": [
     {
@@ -22,9 +35,15 @@
       "title": "SASSA Cape Town Office",
       "description": "Full-service SASSA office in central Cape Town offering grant applications, card replacements, payment enquiries, and social work referrals. Located at 9 Dorp Street, Cape Town CBD.",
       "readingTime": "5 min read",
-      "lastUpdated": "2026-07-26",
-      "cta": { "label": "Find Other Offices", "href": "/offices" },
-      "secondaryCta": { "label": "Western Cape Province Hub", "href": "/provinces/western-cape" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Find Other Offices",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "Western Cape Province Hub",
+        "href": "/provinces/western-cape"
+      }
     },
     {
       "id": "intro-paragraph",
@@ -125,11 +144,38 @@
       "intent": "warning",
       "title": "Peak Times — Arrive Early or Go Mid-Week",
       "text": "The Cape Town office is busiest on Mondays, Fridays, and the first week of the month. For a faster experience, visit between 10:00 and 13:00 on a Tuesday or Wednesday. The office also opens on Saturday mornings for limited services, which can be a good alternative if you cannot visit during the week."
+    },
+    {
+      "id": "related-pages-a0a5tc",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Provincial Offices",
+          "href": "/provinces"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        }
+      ]
     }
   ],
   "relatedPages": [
-    { "title": "Office Finder", "slug": "/offices" },
-    { "title": "Western Cape Province Hub", "slug": "/provinces/western-cape" },
-    { "title": "All SASSA Offices in Western Cape", "slug": "/provinces/western-cape" }
+    {
+      "title": "Office Finder",
+      "slug": "/offices"
+    },
+    {
+      "title": "Western Cape Province Hub",
+      "slug": "/provinces/western-cape"
+    },
+    {
+      "title": "All SASSA Offices in Western Cape",
+      "slug": "/provinces/western-cape"
+    }
   ]
 }

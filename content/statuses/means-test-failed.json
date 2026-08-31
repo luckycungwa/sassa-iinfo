@@ -4,55 +4,219 @@
   "classification": "status-meaning",
   "title": "Means Test Failed — What It Means & How to Fix Your Financial Assessment",
   "description": "Your SASSA status shows 'Means Test Failed'. Learn what this status means, why SASSA declined your application, and how to appeal if the assessment was incorrect.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
-    "metaTitle": "Means Test Failed Status — What It Means & How to Appeal",
-    "metaDescription": "SASSA shows 'Means Test Failed'? Learn what this status means, why your income or assets may have exceeded the limit, and how to appeal with corrected financial information.",
-    "keywords": ["SASSA means test failed", "SASSA means test", "means test threshold", "SASSA income limit", "SASSA asset limit"]
+    "metaTitle": "SASSA Status Failed? Reasons & How to Fix It (2026)",
+    "metaDescription": "SASSA 'Means Test Failed' status in 2026? See why your income or assets exceeded the limit and how to fix it by appealing with SASSA.",
+    "keywords": [
+      "SASSA means test failed",
+      "SASSA means test",
+      "means test threshold",
+      "SASSA income limit",
+      "SASSA asset limit"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Means Test Failed — What This Status Means",
       "description": "The 'Means Test Failed' status means SASSA determined your income or assets exceed the legal threshold. Learn why this happened and how to appeal if SASSA's assessment was incorrect.",
       "readingTime": "3 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "text": "Appeal Your Assessment", "href": "/appeals/how-to-appeal" },
-      "secondaryCta": { "text": "How the Means Test Works", "href": "/guides/understanding-means-test" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Appeal Your Assessment",
+        "href": "/appeals/how-to-appeal"
+      },
+      "secondaryCta": {
+        "text": "How the Means Test Works",
+        "href": "/guides/understanding-means-test"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Means Test Failed — What It Means" },
-    { "id": "intro", "type": "paragraph", "text": "The 'Means Test Failed' status means that SASSA's financial assessment determined your income or assets exceed the legal maximum for the grant you applied for. The means test is a financial eligibility check that ensures grants go to South Africans who genuinely need financial support." },
-    { "id": "who", "type": "paragraph", "text": "This status affects applicants whose declared income or assets exceeded SASSA's means test threshold." },
-    { "id": "callout", "type": "callout", "intent": "info", "title": "Need a full explanation of the means test?", "text": "Our comprehensive guide explains income thresholds, asset limits, the sliding scale, and how SASSA calculates your eligibility in detail." },
-    { "id": "ref-block", "type": "status-reference", "statusName": "Means Test Failed", "explanation": "SASSA evaluates your income and assets against published legal thresholds. If either your income or assets exceed the limit for your specific grant, your application is declined for means test failure.", "whyItHappens": ["Your annual income exceeds the threshold for single applicants (R96,240 for most grants)", "Your combined household income exceeds the married threshold (R192,480)", "Your assets (property, investments, savings, vehicles) exceed the asset limit (R1,372,800 single, R2,745,600 married)", "For SRD: your bank account received deposits exceeding R624 in a single month", "You declared income or assets on your application that exceed the limits"], "howLongItLasts": "The decline applies to the current application or monthly cycle. You can reapply or appeal if your financial situation has changed or if SASSA's assessment was incorrect.", "whatYouShouldDo": ["Review the means test thresholds for your specific grant on the Grant Library page", "Check if SASSA may have incorrectly calculated your income or assets", "If your financial situation has changed: submit updated bank statements and financial records", "If SASSA made an error: file an appeal with evidence showing your actual income/assets", "If your income legitimately exceeds thresholds: you may not qualify for this grant at this time"], "relatedStatuses": [{ "name": "Alternative Income Source", "slug": "alternative-income-source" }, { "name": "Declined", "slug": "declined" }] },
-    { "id": "thresholds-h", "type": "heading", "level": 3, "text": "2026 Means Test Thresholds" },
-    { "id": "threshold-table", "type": "table", "headers": ["Grant Type", "Single Income Limit", "Married Income Limit", "Asset Limit (Single)", "Asset Limit (Married)"], "rows": [
-      ["Older Person Grant", "R96,240/year", "R192,480/year", "R1,372,800", "R2,745,600"],
-      ["Disability Grant", "R96,240/year", "R192,480/year", "R1,372,800", "R2,745,600"],
-      ["Child Support Grant", "R63,600/year", "R127,200/year", "N/A", "N/A"],
-      ["Care Dependency Grant", "R249,600/year", "R499,200/year", "N/A", "N/A"],
-      ["SRD R370 Grant", "R624/month", "R624/month", "N/A", "N/A"],
-      ["Grant-in-Aid", "No separate test", "No separate test", "N/A", "N/A"]
-    ] },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "What counts as income for the means test?", "answer": "Salary/wages, pension payments, rental income, farm income, regular gifts or remittances, UIF payments, NSFAS allowances, and interest from investments." },
-      { "question": "What counts as assets?", "answer": "Property (excluding the home you live in), investments, savings accounts, shares, vehicles, and any other valuable assets you own." },
-      { "question": "Can I appeal a means test failure?", "answer": "Yes. If you believe SASSA miscalculated your income or assets, file an appeal with supporting financial documents within 90 days." },
-      { "question": "I was approved before but now my status says means test failed. Why?", "answer": "Every month is reassessed. If your financial situation changed (e.g., you received a deposit or started earning), you may fail the means test in subsequent months." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "Understanding the SASSA Means Test", "href": "/guides/understanding-means-test", "description": "Complete guide to how the means test works" },
-      { "title": "How to Appeal a Declined Grant", "href": "/appeals/how-to-appeal", "description": "Step-by-step appeal process for declined applications" },
-      { "title": "Alternative Income Source", "href": "/status/alternative-income-source", "description": "Related status for income-related declines" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Means Test Failed — What It Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The 'Means Test Failed' status means that SASSA's financial assessment determined your income or assets exceed the legal maximum for the grant you applied for. The means test is a financial eligibility check that ensures grants go to South Africans who genuinely need financial support."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This status affects applicants whose declared income or assets exceeded SASSA's means test threshold."
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Need a full explanation of the means test?",
+      "text": "Our comprehensive guide explains income thresholds, asset limits, the sliding scale, and how SASSA calculates your eligibility in detail."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Means Test Failed",
+      "explanation": "SASSA evaluates your income and assets against published legal thresholds. If either your income or assets exceed the limit for your specific grant, your application is declined for means test failure.",
+      "whyItHappens": [
+        "Your annual income exceeds the threshold for single applicants (R112,200 for most grants)",
+        "Your combined household income exceeds the married threshold (R224,400)",
+        "Your assets (property, investments, savings, vehicles) exceed the asset limit (R1,584,000 single, R3,168,000 married)",
+        "For SRD: your bank account received deposits exceeding R624 in a single month",
+        "You declared income or assets on your application that exceed the limits"
+      ],
+      "howLongItLasts": "The decline applies to the current application or monthly cycle. You can reapply or appeal if your financial situation has changed or if SASSA's assessment was incorrect.",
+      "whatYouShouldDo": [
+        "Review the means test thresholds for your specific grant on the Grant Library page",
+        "Check if SASSA may have incorrectly calculated your income or assets",
+        "If your financial situation has changed: submit updated bank statements and financial records",
+        "If SASSA made an error: file an appeal with evidence showing your actual income/assets",
+        "If your income legitimately exceeds thresholds: you may not qualify for this grant at this time"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Alternative Income Source",
+          "slug": "alternative-income-source"
+        },
+        {
+          "name": "Declined",
+          "slug": "declined"
+        }
+      ]
+    },
+    {
+      "id": "thresholds-h",
+      "type": "heading",
+      "level": 3,
+      "text": "2026 Means Test Thresholds"
+    },
+    {
+      "id": "threshold-table",
+      "type": "table",
+      "headers": [
+        "Grant Type",
+        "Single Income Limit",
+        "Married Income Limit",
+        "Asset Limit (Single)",
+        "Asset Limit (Married)"
+      ],
+      "rows": [
+        [
+          "Older Person Grant",
+          "R112,200/year",
+          "R224,400/year",
+          "R1,584,000",
+          "R3,168,000"
+        ],
+        [
+          "Disability Grant",
+          "R112,200/year",
+          "R224,400/year",
+          "R1,584,000",
+          "R3,168,000"
+        ],
+        [
+          "Child Support Grant",
+          "R69,600/year",
+          "R139,200/year",
+          "N/A",
+          "N/A"
+        ],
+        [
+          "Care Dependency Grant",
+          "R288,000/year",
+          "R576,000/year",
+          "N/A",
+          "N/A"
+        ],
+        [
+          "SRD R370 Grant",
+          "R624/month",
+          "R624/month",
+          "N/A",
+          "N/A"
+        ],
+        [
+          "Grant-in-Aid",
+          "No separate test",
+          "No separate test",
+          "N/A",
+          "N/A"
+        ]
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What counts as income for the means test?",
+          "answer": "Salary/wages, pension payments, rental income, farm income, regular gifts or remittances, UIF payments, NSFAS allowances, and interest from investments."
+        },
+        {
+          "question": "What counts as assets?",
+          "answer": "Property (excluding the home you live in), investments, savings accounts, shares, vehicles, and any other valuable assets you own."
+        },
+        {
+          "question": "Can I appeal a means test failure?",
+          "answer": "Yes. If you believe SASSA miscalculated your income or assets, file an appeal with supporting financial documents within 90 days."
+        },
+        {
+          "question": "I was approved before but now my status says means test failed. Why?",
+          "answer": "Every month is reassessed. If your financial situation changed (e.g., you received a deposit or started earning), you may fail the means test in subsequent months."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Understanding the SASSA Means Test",
+          "href": "/guides/understanding-means-test",
+          "description": "Complete guide to how the means test works"
+        },
+        {
+          "title": "How to Appeal a Declined Grant",
+          "href": "/appeals/how-to-appeal",
+          "description": "Step-by-step appeal process for declined applications"
+        },
+        {
+          "title": "Alternative Income Source",
+          "href": "/status/alternative-income-source",
+          "description": "Related status for income-related declines"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Understanding the Means Test", "slug": "/guides/understanding-means-test" },
-    { "title": "How to Appeal", "slug": "/appeals/how-to-appeal" },
-    { "title": "Alternative Income Source", "slug": "/status/alternative-income-source" }
+    {
+      "title": "Understanding the Means Test",
+      "slug": "/guides/understanding-means-test"
+    },
+    {
+      "title": "How to Appeal",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Alternative Income Source",
+      "slug": "/status/alternative-income-source"
+    }
   ]
 }

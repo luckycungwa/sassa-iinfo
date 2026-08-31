@@ -1,0 +1,219 @@
+{
+  "id": "guide-check-sassa-status",
+  "slug": "/guides/how-to-check-sassa-status",
+  "classification": "how-to-guide",
+  "title": "Ungahlola Kanjani Isimo Se-Grant ye-SASSA",
+  "description": "Izindlela eziningi zokuhlola isimo sesicelo se-grant ye-SASSA noma isimo sokukhokhelwa ku-inthanethi, nge-WhatsApp, nge-USSD code, noma esikhungweni se-SASSA.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Ungahlola Kanjani Isimo Se-Grant ye-SASSA — Ku-inthanethi, WhatsApp & USSD",
+    "metaDescription": "Izindlela eziningi zokuhlola isimo se-grant ye-SASSA: ku-inthanethi ku-srd.sassa.gov.za, nge-WhatsApp (082 046 8553), nge-USSD code *134*7737#, noma esikhungweni se-SASSA esisedu kunakho konke.",
+    "keywords": [
+      "hlola isimo se-SASSA",
+      "ukuhlola isimo se-SASSA",
+      "i-WhatsApp line ye-SASSA",
+      "i-USSD code ye-SASSA",
+      "isimo sesicelo se-SASSA"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ungahlola Kanjani Isimo Se-Grant ye-SASSA",
+      "description": "Kunezindlela eziningi zokuhlola isimo se-grant ye-SASSA — ku-inthanethi nge-SRD portal, nge-WhatsApp line, nge-USSD code, noma ubhekisise esikhungweni se-SASSA. Khetha indlela ehambelana nawe kangcono.",
+      "readingTime": "imizuzu engu-4 yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Bhalisa ku-SRD Portal",
+        "href": "/banking/how-to-register-for-srd-portal"
+      },
+      "secondaryCta": {
+        "label": "Ungacela Kanjani I-Grant",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Ungahlola Kanjani Isimo Se-Grant ye-SASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Ungahlola isimo sesicelo se-grant ye-SASSA noma isimo sokukhokhelwa nganoma yisiphi salezi zindlela. Khetha leyo ehambelana nawe kangcono — zonke zikhombisa ulwazi olufanayo, ngakho akukho olungile noma olungileyo. I-SRD portal ku-inthanethi iyashesha kunazo zonke futhi ikunikeze ulwazi oluningi, kodwa uma unenkinga ngedatha noma ngezinhlelo, i-WhatsApp line noma i-USSD code isebenza kahle njalo."
+    },
+    {
+      "id": "why-check",
+      "type": "paragraph",
+      "text": "Kufanele uhlolise isimo sakho njalo, hhayi kanye kuphela. I-grant eyamukelwe ingabhekana nezinkinga kamuva — ukuqinisekisa ebhange elibonakaliswe ngokungazeleli, ukubuyiselwa okubulalwe, noma ukubambezeleka okudinga ukunakwa. Ukubamba inkinga kusenesikhathi kunokuyithola ngosuku lokukhokhelwa, ngakho ukuhlola nyanga ngayinye kuthatha imizuzu embalwa futhi kuyakusindisa ekukhathazekeni okukhulu.",
+      "links": [
+        {
+          "text": "isizathu sokuthi isimo sakho singabamba",
+          "href": "/grants/srd-r370-grant-monthly-review"
+        }
+      ]
+    },
+    {
+      "id": "online-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 1: I-Portal Ku-inthanethi (Iphakanyisiwe)"
+    },
+    {
+      "id": "online-text",
+      "type": "paragraph",
+      "text": "Vakashela ku-srd.sassa.gov.za. Faka inombolo yakho ye-ID nenombolo yocingo oyisebenzisile ngesikhathi sokucela. Uzothola i-OTP nge-SMS ukuze uvule isikhwama sokuhlola isimo.",
+      "links": [
+        {
+          "text": "srd",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "online-tip",
+      "type": "paragraph",
+      "text": "Ngaphambi kuqala, qinisekisa ukuthi ucingo olufakile luyiloyo ehlanganisiwe nesicelo sakho. Uma ushintshe inombolo yocingo ngemva kokucela, i-OTP ngeke ikufinyelele — kulungise leyo ndaba kuqala ngenkathi yenguqulo 'shintsha inombolo yocingo', kungenjalo uzoba sendleleni yokuthola izicelo ezingafiki.",
+      "links": [
+        {
+          "text": "ukuthi ungashintsha kanjani inombolo ye-SASSA",
+          "href": "/guides/change-srd-phone-number"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 2: I-WhatsApp Line ye-SASSA"
+    },
+    {
+      "id": "whatsapp-text",
+      "type": "paragraph",
+      "text": "Gcina u-082 046 8553 kucingo lakho. Thumela 'SASSA' ukuze uqale. Landela imiyalelo ukuze uhlole ibhalansi, usuku lokukhokhelwa, noma isimo sesicelo. Imahhala kuzo inethiwekhi eziningi.",
+      "links": [
+        {
+          "text": "usuku lokukhokhelwa",
+          "href": "/payment-dates"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-tip",
+      "type": "paragraph",
+      "text": "Le ndlela iyasesiza uma usese-WhatsApp nje. Imenyu yokuxoxisana ikuhola ngezinyathelo, futhi awudingi ukukhumbula noma yiziphi izinkombi noma aniyethi. Phendula nje ngenombolo yokhetho ofuna ukuyisebenzisa. Enye into okufanele ukhumbule: i-SASSA ngeke ikuthumelele umyalezo we-PIN noma i-OTP ngaphandle kokuthi uqale ngawe — qalisa nje ngokuthumela 'SASSA'.",
+      "links": [
+        {
+          "text": "ukubona amaphutha e-SASSA",
+          "href": "/guides/sassa-scam-alert-guide"
+        }
+      ]
+    },
+    {
+      "id": "ussd-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 3: I-USSD Code"
+    },
+    {
+      "id": "ussd-text",
+      "type": "paragraph",
+      "text": "Shaya *134*7737# kucingo lakho. Landela imenyu ukuze uhlole isimo se-grant yakho. Izinkokhelo ezijwayelekile zinethiwekhi zisebenza."
+    },
+    {
+      "id": "ussd-tip",
+      "type": "paragraph",
+      "text": "I-USSD indlela engcono yokubuyisela uma ucingo lwakho lungenawo amadatha noma uhlelo manje. Isebenza kumniningo, nangaphezu kwalo naluphi uhlobo lucingo. Izinkokhelo ezijwayelekile zinethiwekhi zisebenza, ngakho ayimahhala njenge-WhatsApp line — kodwa iyashibhile futhi isenza umsebenzi.",
+      "links": [
+        {
+          "text": "wonke ama-USSD code e-SASSA",
+          "href": "/banking/sassa-ussd-codes"
+        }
+      ]
+    },
+    {
+      "id": "office-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 4: Vakashela I-Sikhungo se-SASSA"
+    },
+    {
+      "id": "office-text",
+      "type": "paragraph",
+      "text": "Letha i-ID yakho esikhungweni ngasinye se-SASSA sendawo. Umsebenzisi angakuhlola isimo sakho futhi akunikeze isisetshenziswa uma kunesidingo."
+    },
+    {
+      "id": "office-tip",
+      "type": "paragraph",
+      "text": "Uma ukuhlola ku-inthanethi kungasebenzi futhi usecinde esikhungweni, leyo ndlela ekahle yokubuyisela. Yaqala ekuseni bese uletha incwadi ye-ID noma i-smart card yakho. Ezinye izikhungo manje zinekhasi lokusebenza ngokwakho lapho ungahlola isimo sakho ngokuthinta isikrini ngaphandle kokulinda umsebenzisi — buza abasebenzi esikhungweni esisedu kunakho konke uma kukhona leli khasi.",
+      "links": [
+        {
+          "text": "amakhasi okusebenza ngokwakho ezikhungweni ze-SASSA",
+          "href": "/guides/srd-call-centre-kiosk-help"
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Zonke Izindlela Zikhombisa Isimo Esifanayo",
+      "text": "I-portal, i-WhatsApp, i-USSD, nesikhungo se-SASSA zifunda esistimu esifanayo. Uma indlela ethile ikhombisa 'Isilindile' nezinye zikhombisa okuhlukile, thembelesi umphumela omusha ubeke insuku ezimbili noma ezintathu — izistimu zihlanganisa kahle."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibuzo Evamile"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Kungani isimo sami sibonakala 'Sisilindile' ngemva kwamasonto?",
+          "answer": "'Isilindile' kusho ukuthi isicelo sakho siyaqhubeka nokuhlolwa futhi akukho isinqumo esenziwe. Singahlala njalo isikhathi eside ngesikhathi esivumelanisiwe, ikakhulukazi ngesikhathi sokubuyiselwa. Qhubeka uhlola, futhi uma kukade izinsuku eziyi-90, xhumana ne-SASSA ku-0800 60 10 11 ukuze uthole ukuvuselela."
+        },
+        {
+          "question": "Ngiqhubeka nthola iphutha uma ngizama ukungena ku-SRD portal. Manje?",
+          "answer": "Zama ezinye izindlela — i-WhatsApp line (082 046 8553) noma i-USSD *134*7737#. Uma nalezi zingasebenzi, ungasalela esikhungweni se-SASSA noma usho ku-0800 60 10 11. Amaphutha okungena ku-portal avamise ukuba okwesikhashana, ngakho ukususa ifayili yesipheqululho bese uzama futhi kamuva kusizayo."
+        },
+        {
+          "question": "Ngidinga idatha ukuze ngihlole isimo ngise-WhatsApp?",
+          "answer": "I-WhatsApp line ye-SASSA imahhala kuzo inethiwekhi eziningi, kuhlanganisa nezinhlelo ezingekhozedatha kusuka kubaphathi abakhulu. Uma ukhathazeka ngedatha, i-USSD code *134*7737# indlela enye ehambelana noma yisiphi iselula, nakuba izinkokhelo ezijwayelekile zingasebenza."
+        },
+        {
+          "question": "Umuntu ongahlola isimo sami esikhundleni sami?",
+          "answer": "Inombolo yakho ye-ID ne-inombolo yocingo ehlanganisiwe kuphela edingekile ku-portal, ngakho ilungu lemndeni elinale mininingwane lingena ku-akhawunti yakho. Uma uvumela umuntu ozokusiza ukusebenzise ikhasi noma ubuze umhloli we-SASSA esikhundleni sakho, ungakaze wabelane nge-OTP yakho — futhi ubekezele kakhulu ngobani omthembayo nge-ID ne-inombolo yocingo."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Ungacela Kanjani I-Grant ye-SASSA",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    },
+    {
+      "title": "Ungabhalisa Kanjani Ku-SRD Portal",
+      "slug": "/banking/how-to-register-for-srd-portal"
+    },
+    {
+      "title": "Uhlobo Lokuchazwa Kwesimo",
+      "slug": "/status/pending"
+    },
+    {
+      "title": "USRD Usizo: Amasentsha Namakhlesi",
+      "slug": "/guides/srd-call-centre-kiosk-help"
+    }
+  ]
+}

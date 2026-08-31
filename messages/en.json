@@ -1,0 +1,56 @@
+{
+  "Nav": {
+    "home": "Home",
+    "grants": "Grants",
+    "paymentDates": "Payment Dates",
+    "status": "Check Status",
+    "appeals": "Appeals",
+    "tools": "Tools",
+    "guides": "Guides",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Common": {
+    "search": "Search",
+    "menu": "Menu",
+    "close": "Close",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last updated",
+    "readMore": "Read more",
+    "loading": "Loading…"
+  },
+  "Tools": {
+    "title": "Tools",
+    "eligibilityEngine": "Eligibility Engine",
+    "eligibilityEngineDesc": "Find every grant you may qualify for in 60 seconds.",
+    "meansTest": "Means Test Calculator",
+    "meansTestDesc": "Check if your income qualifies for a grant.",
+    "calculate": "Calculate",
+    "checkEligibility": "Check eligibility"
+  },
+  "Home": {
+    "heroTitle": "South Africa's clearest guide to SASSA grants",
+    "heroSubtitle": "Independent, plain-language help with grants, payments, applications and appeals.",
+    "ctaPrimary": "Check your eligibility",
+    "ctaSecondary": "Browse grants"
+  },
+  "Footer": {
+    "disclaimer": "This is an independent information resource. We are not affiliated with SASSA or the South African government.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "disclaimerLink": "Disclaimer",
+    "editorial": "Editorial Policy"
+  },
+  "NotFound": {
+    "title": "404",
+    "description": "This page does not exist in our resource library.",
+    "home": "Return to Home"
+  },
+  "Language": {
+    "label": "Language",
+    "en": "English",
+    "zu": "isiZulu",
+    "xh": "isiXhosa",
+    "af": "Afrikaans"
+  }
+}

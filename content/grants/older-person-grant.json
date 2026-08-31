@@ -4,9 +4,9 @@
   "classification": "grant-detail",
   "title": "Older Person Grant (State Pension)",
   "description": "The SASSA Older Person Grant provides a monthly income to South Africans aged 60 and older who meet the means test requirements.",
-  "lastUpdated": "2026-06-30",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
-  "readingTime": "5 min read",
+  "readingTime": "22 min read",
   "status": "published",
   "author": {
     "name": "Grant Guide Editorial Team",
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "Older Person Grant (State Pension) — SASSA 2026",
-    "metaDescription": "Complete guide to the SASSA Older Person Grant: R2,400 per month, eligibility criteria, required documents, application steps, and appeal process for seniors aged 60+.",
+    "metaTitle": "Older Person Grant — R2,400/Month & How to Apply (2026)",
+    "metaDescription": "Older Person Grant pays R2,400/month in 2026. Check if you qualify, review the means test, and follow our step-by-step SASSA pension application guide.",
     "keywords": [
       "older person grant",
       "state pension South Africa",
@@ -27,14 +27,28 @@
       "name": "Older Person Grant"
     }
   },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Department of Social Development",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "National Treasury Budget Review 2026",
+      "url": "https://www.treasury.gov.za"
+    }
+  ],
   "contentBlocks": [
     {
       "id": "hero",
       "type": "hero",
       "title": "Older Person Grant (State Pension)",
       "description": "Complete guide to the SASSA Older Person Grant: R2,400 per month, eligibility criteria, required documents, application steps, and appeal process for seniors aged 60+.",
-      "readingTime": "5 min read",
-      "lastUpdated": "2026-06-30",
+      "readingTime": "22 min read",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Eligibility",
         "href": "/eligibility/i-am-over-60"
@@ -71,8 +85,8 @@
         "Must be 60 years or older.",
         "Must not live in a state-funded institution (e.g., state old age home).",
         "Must not receive another social grant for yourself.",
-        "Means Test (Single): Annual income must be below R96,240; assets must be below R1,372,800.",
-        "Means Test (Married): Combined annual income must be below R192,480; combined assets must be below R2,745,600."
+        "Means Test (Single): Annual income must be below R112,200; assets must be below R1,584,000.",
+        "Means Test (Married): Combined annual income must be below R224,400; combined assets must be below R3,168,000."
       ]
     },
     {
@@ -149,6 +163,642 @@
       "text": "If your Older Person Grant is declined, you have 90 days from receiving the notification to appeal to the Ministry of Social Development."
     },
     {
+      "id": "deepdive-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Detailed Eligibility: Who Qualifies in 2026"
+    },
+    {
+      "id": "deepdive-eligibility-p1",
+      "type": "paragraph",
+      "text": "Beyond the basic age and means-test rules, SASSA applies several qualifying conditions to the Older Person Grant. Understanding each one up front saves you a wasted trip to the office and helps you decide whether to apply, or to support an ageing parent, grandparent, or relative with their application."
+    },
+    {
+      "id": "deepdive-eligibility-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Age: You must be 60 years or older on the date of application. The higher R2,420 amount applies from your 75th birthday.",
+        "Citizenship or status: You must be a South African citizen, a permanent resident, or a recognised refugee living in South Africa.",
+        "Residence: You must be living in South Africa at the time of application and intend to remain here. The grant is not paid to South Africans who have permanently emigrated.",
+        "Not in a state institution: You cannot receive the grant if you are being fully maintained in a state-funded institution such as a state old-age home, prison, or state psychiatric facility.",
+        "No overlapping personal grant: You cannot receive the Older Person Grant at the same time as another social grant paid for your own support, for example the Disability Grant. A grant paid for someone else in your care, such as a Child Support Grant for a grandchild, is separate and allowed.",
+        "One grant only: You may hold only one Older Person Grant in your own name."
+      ]
+    },
+    {
+      "id": "deepdive-residency-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Travelling or living abroad temporarily",
+      "text": "If you leave South Africa for an extended period, SASSA may suspend the grant. Short holidays are normally fine, but you should inform your local office if you plan to be away for several months so your payments are not stopped unexpectedly."
+    },
+    {
+      "id": "meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Means Test Explained"
+    },
+    {
+      "id": "meanstest-p1",
+      "type": "paragraph",
+      "text": "The means test is how SASSA checks that the grant reaches people who genuinely need it. It looks at both your income and your assets. If your income is below the threshold, you receive the full grant. If it is above, the grant is reduced on a sliding scale rather than being cut off automatically. This means many seniors with a small pension, rental income, or part-time earnings still qualify for a partial amount.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
+    },
+    {
+      "id": "meanstest-table",
+      "type": "table",
+      "headers": [
+        "Situation",
+        "Income limit for full grant",
+        "Income at which grant reaches zero",
+        "Asset limit (primary home excluded)"
+      ],
+      "rows": [
+        [
+          "Single applicant",
+          "~R112,200/year (about R9,350/month)",
+          "~R117,000/year",
+          "~R1,584,000"
+        ],
+        [
+          "Married couple (combined)",
+          "~R224,400/year (about R18,700/month)",
+          "~R229,200/year",
+          "~R3,168,000"
+        ]
+      ],
+      "caption": "Older Person Grant means-test thresholds for 2026"
+    },
+    {
+      "id": "meanstest-p2",
+      "type": "paragraph",
+      "text": "The grant is reduced by roughly R1 for every R2 of income above the full-grant limit. For a married couple, SASSA combines both spouses' income and assets no matter what type of marriage you have, including customary and out-of-community marriages. Your primary home is not counted as an asset."
+    },
+    {
+      "id": "meanstest-examples",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Example 1 (single): Thandi is 68 and earns R9,450/month (R113,400/year), about R1,200 above the limit. Her grant is reduced by about R600, so she receives roughly R1,800/month instead of the full R2,400.",
+        "Example 2 (single): Sipho is 72 with no income. He receives the full R2,400/month.",
+        "Example 3 (married): A couple with combined income of R19,700/month (R236,400/year) is above the zero point, so neither receives the grant.",
+        "Example 4 (married): A couple with combined income of R18,900/month (R226,800/year) is R2,400 above the full limit, so each partner's grant is reduced by about R1,200 to roughly R1,200/month."
+      ]
+    },
+    {
+      "id": "meanstest-home-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Your home does not count",
+      "text": "The asset limit excludes the value of your primary residence. Furniture, a car, savings, and investment property can count, but the house you live in is protected."
+    },
+    {
+      "id": "apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply: Online vs SASSA Office"
+    },
+    {
+      "id": "apply-p1",
+      "type": "paragraph",
+      "text": "You can apply for the Older Person Grant in two ways: online through the SASSA services portal, or in person at your nearest SASSA office. The online route is convenient if you are comfortable using a phone or computer and can save your documents as files or photos."
+    },
+    {
+      "id": "apply-online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Go to the SASSA services portal",
+          "description": "Visit services.sassa.gov.za and register or sign in with your ID number and a password."
+        },
+        {
+          "title": "Start a new Older Person Grant application",
+          "description": "Select the Older Person Grant and complete the online form with your personal, income, and banking details."
+        },
+        {
+          "title": "Upload your documents",
+          "description": "Upload clear photos or scans of your ID, proof of residence, proof of income or assets, and bank details."
+        },
+        {
+          "title": "Submit and save your reference number",
+          "description": "Submit the form and keep the confirmation reference. SASSA will contact you about the outcome."
+        }
+      ]
+    },
+    {
+      "id": "apply-office-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Visit your nearest SASSA office",
+          "description": "Take your original documents and photocopies. An officer will help you complete the form."
+        },
+        {
+          "title": "Attend the interview and give biometrics",
+          "description": "Your fingerprints and photo are captured and an interview is conducted."
+        },
+        {
+          "title": "Keep your receipt",
+          "description": "You receive a stamped receipt proving the date you applied. Payments are backdated to this date if you are approved."
+        },
+        {
+          "title": "Wait for the decision",
+          "description": "Most applications are processed within about three months. You can check your status online or at the office."
+        }
+      ]
+    },
+    {
+      "id": "apply-authorisation-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Someone can apply on your behalf",
+      "text": "If you are too frail or unwell to travel, a family member or trusted person can apply for you with a letter of authorisation or a power of attorney. SASSA may also arrange a home visit or assessment in some cases."
+    },
+    {
+      "id": "documents-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Required Documents Checklist"
+    },
+    {
+      "id": "documents-checklist",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "13-digit barcoded Smart ID card, green ID book, or valid refugee/permanent-resident proof",
+          "required": true,
+          "notes": "A temporary ID is generally not accepted for the application."
+        },
+        {
+          "label": "Proof of income (latest payslip, pension slip, or an affidavit if you have no income)",
+          "required": true,
+          "notes": "If SASSA reviews your finances, provide the last 3 months of bank statements."
+        },
+        {
+          "label": "Proof of assets (bank statements, property or investment statements where relevant)",
+          "required": true,
+          "notes": "Your primary home is excluded from the asset test."
+        },
+        {
+          "label": "Proof of residence (utility bill, municipal letter, or letter from a traditional leader or ward councillor)",
+          "required": true
+        },
+        {
+          "label": "Marriage certificate (or divorce order / death certificate if previously married)",
+          "required": true,
+          "notes": "Needed because both spouses' income and assets are combined."
+        },
+        {
+          "label": "Bank details for payment (account holder, bank, branch, account number)",
+          "required": true,
+          "notes": "Bank deposit is the recommended payment method."
+        }
+      ]
+    },
+    {
+      "id": "payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Payment Methods and the SASSA Black Card"
+    },
+    {
+      "id": "payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bank deposit: The grant is paid into your personal bank account. This is the safest and most recommended method.",
+        "SASSA card: You can collect your grant at retail pay points such as Shoprite, Pick n Pay, Boxer, Checkers, and USave using your SASSA card.",
+        "Post Office: Some offices still pay via the Post Office, but this channel is being phased out.",
+        "ATM: You can withdraw using your SASSA card at an ATM."
+      ]
+    },
+    {
+      "id": "payment-blackcard-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Swap your old gold card for the new black card by 31 August 2026",
+      "text": "SASSA is replacing the old gold SASSA card with the new black Postbank card. SASSA's stated migration deadline is 31 August 2026, and beneficiaries must swap to keep getting paid. Dates can change, so confirm the latest deadline on the official SASSA and Postbank channels before you visit."
+    },
+    {
+      "id": "review-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Annual Life-Certificate (Review) Process"
+    },
+    {
+      "id": "review-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Receive your review notice",
+          "description": "Each year SASSA asks pensioners to confirm they are still alive and still qualify. This is called the life certificate or biometric review."
+        },
+        {
+          "title": "Complete the biometric check",
+          "description": "You confirm your identity using a fingerprint or other biometric at a SASSA office, registered pay point, or via the approved channel."
+        },
+        {
+          "title": "Update any changes",
+          "description": "Tell SASSA about changes to your income, assets, marital status, or living situation during the review."
+        },
+        {
+          "title": "Keep your payments flowing",
+          "description": "Once the review is done, your payments continue. If you miss the review, your grant can be suspended."
+        }
+      ]
+    },
+    {
+      "id": "review-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Don't miss your review",
+      "text": "SASSA cross-checks bank accounts with SARS and credit bureaus. If you do not complete your life-certificate review, your grant may be suspended until you do. Reinstating a suspended grant can take time, so do the review as soon as you are asked."
+    },
+    {
+      "id": "carehome-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Moving Into a Care Home or Hospital"
+    },
+    {
+      "id": "carehome-p1",
+      "type": "paragraph",
+      "text": "If you move into a state-funded institution where your living costs are fully covered, the Older Person Grant normally stops because the state is already maintaining you. If you move into a private care home or live with family and still pay your own way, the grant can continue as long as you still meet the means test."
+    },
+    {
+      "id": "carehome-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Tell SASSA about the change",
+      "text": "Always notify your local SASSA office if you move into any institution or change address. Not reporting a move into a state institution can lead to an overpayment that you may later have to repay."
+    },
+    {
+      "id": "suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Suspension, Cancellation, and Reinstatement"
+    },
+    {
+      "id": "suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Your grant may be suspended for a missed life-certificate review, a change in income or assets above the limit, or a failed verification check.",
+        "Your grant may be cancelled if you no longer qualify, if you pass away (the grant ends and should be reported), or if you move permanently abroad.",
+        "If your grant is suspended and you still qualify, visit your SASSA office with proof (bank statements, ID, review confirmation) to request reinstatement. Backdated payments may be restored from the suspension date.",
+        "If you were paid incorrectly, SASSA may recover the overpaid amount in instalments from future grants."
+      ]
+    },
+    {
+      "id": "appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appeals: What to Do If Your Application Is Declined"
+    },
+    {
+      "id": "appeals-p1",
+      "type": "paragraph",
+      "text": "If your Older Person Grant application is declined, you have the right to appeal. Declined applications are reviewed by the Independent Tribunal for Social Assistance Appeals (ITSAA). For grants other than the SRD grant, you can also lodge your appeal through a SASSA office or in writing to the Ministry of Social Development."
+    },
+    {
+      "id": "appeals-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Read your decision letter",
+          "description": "The letter explains why you were declined and the deadline to appeal."
+        },
+        {
+          "title": "Lodge within 30 days",
+          "description": "You should appeal within 30 days of the decision. The online appeal portal accepts appeals up to 90 days from the decline date."
+        },
+        {
+          "title": "Submit your appeal and evidence",
+          "description": "Explain why you disagree and attach any new proof, such as updated bank statements or a corrected affidavit."
+        },
+        {
+          "title": "Wait for the tribunal outcome",
+          "description": "The Independent Tribunal reviews your case and lets you know the result. If upheld, your grant is approved, often backdated to your application."
+        }
+      ]
+    },
+    {
+      "id": "appeals-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Where to appeal",
+      "text": "You can appeal online through the SASSA services portal, at your nearest SASSA office, or in writing to the Ministry of Social Development. If your situation is urgent, ask the office about a temporary arrangement while your appeal is considered."
+    },
+    {
+      "id": "comparison-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Older Person Grant vs Other SASSA Grants"
+    },
+    {
+      "id": "comparison-table",
+      "type": "comparison-table",
+      "headers": [
+        "Grant",
+        "Monthly amount (2026)",
+        "Who it is for",
+        "Means test"
+      ],
+      "rows": [
+        [
+          "Older Person Grant (ages 60 to 74)",
+          "R2,400",
+          "South Africans aged 60 and older",
+          "Income and assets"
+        ],
+        [
+          "Older Person Grant (ages 75 and older)",
+          "R2,420",
+          "South Africans aged 75 and older",
+          "Income and assets"
+        ],
+        [
+          "War Veterans Grant",
+          "R2,420",
+          "Qualifying war veterans aged 60 and older",
+          "Income and assets"
+        ],
+        [
+          "Disability Grant",
+          "R2,400",
+          "Adults aged 18 to 59 with a disability",
+          "Income and assets"
+        ],
+        [
+          "SRD R370 Grant",
+          "R370",
+          "Citizens, permanent residents, or refugees aged 18 to 59 with little or no income",
+          "Separate income test"
+        ]
+      ],
+      "caption": "How the Older Person Grant compares with similar grants"
+    },
+    {
+      "id": "links-grid",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Older Person Grant payment dates",
+          "href": "/payment-dates",
+          "description": "See the confirmed 2026 payment schedule for older person grants."
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant",
+          "description": "If you are under 60 and unable to work because of a disability."
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant",
+          "description": "The Social Relief of Distress grant for working-age adults."
+        },
+        {
+          "title": "How to appeal a SASSA decision",
+          "href": "/appeals",
+          "description": "Step-by-step help with the Independent Tribunal appeal process."
+        },
+        {
+          "title": "SASSA services portal",
+          "href": "https://services.sassa.gov.za",
+          "description": "Apply online and check your application status."
+        },
+        {
+          "title": "Department of Social Development",
+          "href": "https://www.dsd.gov.za",
+          "description": "National policy and oversight of social grants."
+        }
+      ]
+    },
+    {
+      "id": "scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Protect Yourself From Scams"
+    },
+    {
+      "id": "scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA never asks for payment to approve a grant",
+      "text": "Fraudsters may call, SMS, or message you asking for a 'processing fee' or your banking PIN to release your grant. SASSA does not charge to apply or approve a grant, and will never ask for your PIN or OTP. Report suspicious messages to the official SASSA channels and never share your banking login details."
+    },
+    {
+      "id": "other-support-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Other Support Available to Pensioners"
+    },
+    {
+      "id": "other-support-p1",
+      "type": "paragraph",
+      "text": "The Older Person Grant is one part of a wider set of help for seniors. Depending on where you live, you may also qualify for municipal and provincial support that reduces your daily costs. Ask your local SASSA office, the Department of Social Development, or your municipality about what is available in your area, because programmes differ by province and town."
+    },
+    {
+      "id": "other-support-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Municipal rates and taxes rebates: Many municipalities offer reduced or exempted property rates for pensioners who own their home.",
+        "Free basic electricity and water: Indigent and pensioner households may receive a free basic allocation of electricity and water from the municipality.",
+        "Transport concessions: Some provinces and municipalities offer discounted or free public transport for older persons.",
+        "Community-based care: If you need help at home, the Department of Social Development funds home-based and community care workers in some areas.",
+        "Older person housing: Subsidised old-age homes and housing options may be available through provincial social development departments."
+      ]
+    },
+    {
+      "id": "tax-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Is the Grant Taxable?"
+    },
+    {
+      "id": "tax-p1",
+      "type": "paragraph",
+      "text": "The Older Person Grant is a social assistance payment and is not taxable income. You do not need to declare it on a tax return, and it is not affected by any small pension or interest you receive, provided those amounts stay within the means-test limits. If you are unsure how your other income is treated, SASSA will assess it as part of the means test when you apply or at each review."
+    },
+    {
+      "id": "report-changes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Reporting Changes to SASSA"
+    },
+    {
+      "id": "report-changes-p1",
+      "type": "paragraph",
+      "text": "Your grant amount depends on your personal situation. If something changes, tell SASSA promptly so you are paid the correct amount and avoid an overpayment that you would later have to repay. You can report changes at your local office or through the SASSA services portal where the option is available."
+    },
+    {
+      "id": "report-changes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Your income or assets rise above the means-test limit.",
+        "You marry, divorce, or your spouse passes away.",
+        "You move house or change province.",
+        "You change your bank account or banking details.",
+        "You move into or out of a care institution.",
+        "Your contact details, such as phone number or address, change."
+      ]
+    },
+    {
+      "id": "status-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Checking Your Application or Payment Status"
+    },
+    {
+      "id": "status-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Check online",
+          "description": "Log in to services.sassa.gov.za and view your application and payment status with your ID number."
+        },
+        {
+          "title": "Use the USSD line",
+          "description": "Dial the SASSA USSD code from your phone and follow the prompts to check status without using mobile data."
+        },
+        {
+          "title": "Call the SASSA call centre",
+          "description": "Phone the SASSA helpline with your ID and reference number ready."
+        },
+        {
+          "title": "Visit your local office",
+          "description": "Take your ID and receipt to ask an officer to check your application or payment in person."
+        }
+      ]
+    },
+    {
+      "id": "status-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Keep your receipt and reference number",
+      "text": "Your application receipt and online reference number are the fastest way for SASSA to find your case. Store them somewhere safe as soon as you apply, because they are needed for status checks, appeals, and backdating."
+    },
+    {
+      "id": "deepdive-faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "More Questions? Deep-Dive FAQ"
+    },
+    {
+      "id": "deepdive-faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the exact Older Person Grant amount in 2026?",
+          "answer": "From 1 April 2026, the grant is R2,400 per month for people aged 60 to 74, and R2,420 per month for those aged 75 and older. War veterans also receive R2,420 per month."
+        },
+        {
+          "question": "Can I get the grant if I still earn a salary?",
+          "answer": "Yes. If your total income is below the means-test limit (about R112,200/year for a single person, or R224,400/year combined for a married couple), you can receive the full or a partial grant. Income above the limit reduces the grant on a sliding scale rather than disqualifying you automatically."
+        },
+        {
+          "question": "How is the grant reduced if my income is too high?",
+          "answer": "The grant is reduced by roughly R1 for every R2 of income above the full-grant limit. For example, a single person earning R1,200 above the limit would receive about R600 less per month."
+        },
+        {
+          "question": "Do both spouses' incomes count?",
+          "answer": "Yes. For a married couple, SASSA combines both partners' income and assets regardless of the type of marriage, including customary and out-of-community marriages."
+        },
+        {
+          "question": "Is my house counted as an asset?",
+          "answer": "No. Your primary home is excluded from the asset test. The asset limit (about R1,584,000 for a single person) applies to savings, vehicles, investments, and other property, not your main residence."
+        },
+        {
+          "question": "Can a family member apply for me?",
+          "answer": "Yes. If you are unable to travel, a relative or trusted person can apply on your behalf with a letter of authorisation or power of attorney. SASSA may also arrange a home visit in some cases."
+        },
+        {
+          "question": "Can I apply online?",
+          "answer": "Yes. You can apply at services.sassa.gov.za by registering, completing the form, and uploading your documents. You can also apply in person at any SASSA office."
+        },
+        {
+          "question": "How long does the application take?",
+          "answer": "Most applications are processed within about three months. If approved, payments are backdated to the date you applied, so keep your receipt or reference number safe."
+        },
+        {
+          "question": "What documents do I need?",
+          "answer": "You need your ID (or refugee/permanent-resident proof), proof of income and assets (including the last 3 months of bank statements if reviewed), proof of residence, your marriage certificate if married, and your bank details for payment."
+        },
+        {
+          "question": "Which payment method is best?",
+          "answer": "A direct bank deposit is the safest and most reliable. You can also collect with your SASSA card at retailers such as Shoprite, Pick n Pay, Boxer, Checkers, and USave, or withdraw at an ATM."
+        },
+        {
+          "question": "What is the black SASSA card change?",
+          "answer": "The old gold SASSA card is being replaced by a new black Postbank card. SASSA's stated deadline to swap is 31 August 2026, and beneficiaries must swap to keep getting paid. Confirm the latest date on official SASSA and Postbank channels."
+        },
+        {
+          "question": "What is the life-certificate review?",
+          "answer": "Every year pensioners must confirm they are still alive and still qualify through a biometric (fingerprint) review. If you miss it, your grant can be suspended until you complete it."
+        },
+        {
+          "question": "What happens if I move into a care home?",
+          "answer": "If a state institution fully maintains you, the grant normally stops. If you live in a private home or with family and still pay your own way, the grant can continue while you meet the means test. Always tell SASSA about the move."
+        },
+        {
+          "question": "Can my grant be suspended?",
+          "answer": "Yes. Common reasons are a missed life-certificate review, income or assets rising above the limit, or a failed verification. You can request reinstatement at your SASSA office with updated proof."
+        },
+        {
+          "question": "How do I appeal a declined application?",
+          "answer": "Appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA). Lodge within 30 days of the decision; the online portal accepts appeals up to 90 days. You can appeal online, at a SASSA office, or in writing to the Ministry of Social Development."
+        },
+        {
+          "question": "Does the grant stop when I die?",
+          "answer": "Yes. The grant ends on the death of the beneficiary. The family should report the passing to SASSA so payments stop and any final arrangements are handled correctly."
+        },
+        {
+          "question": "Can I get the Older Person Grant and a Child Support Grant at the same time?",
+          "answer": "Yes. The Older Person Grant is paid for your own support, while a Child Support Grant can be paid to you as the caregiver of a grandchild or other child in your care. They are separate grants."
+        },
+        {
+          "question": "Is the Older Person Grant taxable?",
+          "answer": "No. The grant is a social assistance payment and is not taxable. You do not declare it on a tax return, and it is assessed separately from any small pension or interest under the means test."
+        },
+        {
+          "question": "What happens if I marry after I start receiving the grant?",
+          "answer": "Tell SASSA. Your spouse's income and assets are combined with yours for the means test, whatever type of marriage you have. If the combined total goes above the limit, your grant may be reduced or stopped from the next review."
+        },
+        {
+          "question": "My spouse passed away. What should I do?",
+          "answer": "Report the death to SASSA and provide the death certificate. Your means test is recalculated on a single-person basis, which may increase your grant if your late spouse's income was part of the combined total."
+        },
+        {
+          "question": "Can I receive the grant if I have a private pension?",
+          "answer": "Yes, provided your total income, including the pension, stays within the means test. A small private pension often keeps you under the limit, and the grant is reduced rather than cancelled if you are slightly over."
+        },
+        {
+          "question": "Can I live abroad and keep the grant?",
+          "answer": "Generally no. The grant is for people living in South Africa. Long absences can lead to suspension. If you plan to travel, inform your local office first."
+        },
+        {
+          "question": "What if SASSA says I failed the means test but I disagree?",
+          "answer": "You can appeal. Gather proof such as bank statements, a pension slip, or a sworn affidavit, and appeal to the Independent Tribunal for Social Assistance Appeals within the deadline stated in your letter."
+        },
+        {
+          "question": "How do I update my bank details?",
+          "answer": "Update your banking at your nearest SASSA office or through the official SASSA channels. Never share your banking login with anyone, and ignore messages asking you to 'confirm' details by paying a fee."
+        },
+        {
+          "question": "Can the grant be paid to someone else on my behalf?",
+          "answer": "The grant is paid into your account or card. If you are unable to collect it, a trusted person can help using your card with your permission, but you should never hand over your PIN. A formal arrangement can be made through SASSA if needed."
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -160,7 +810,7 @@
       "faqs": [
         {
           "question": "Can I get the pension if I am still working?",
-          "answer": "Yes, provided your total earnings from your employment fall below the means test threshold (under R96,240 per year for a single person)."
+          "answer": "Yes, provided your total earnings from your employment fall below the means test threshold (under R112,200 per year for a single person)."
         },
         {
           "question": "Does the pension increase automatically every year?",

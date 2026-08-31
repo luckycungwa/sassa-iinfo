@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from "react";
-import { Sliders, Calendar, Calculator, Clock, BarChart, FileText, Table, DollarSign } from "lucide-react";
+import { Sliders, Calendar, Calculator, Clock, BarChart, FileText, Table, DollarSign, Scale, Sparkles } from "lucide-react";
 import EligibilityChecker from "./tools/EligibilityChecker";
 import PaymentLookup from "./tools/PaymentLookup";
 import AgeCalculator from "./tools/AgeCalculator";
@@ -11,6 +11,8 @@ import HouseholdEstimator from "./tools/HouseholdEstimator";
 import DocumentChecklist from "./tools/DocumentChecklist";
 import GrantComparison from "./tools/GrantComparison";
 import GrantCalculator from "./tools/GrantCalculator";
+import MeansTestCalculator from "./tools/MeansTestCalculator";
+import EligibilityEngine from "./tools/EligibilityEngine";
 
 type ToolType =
   | "eligibility-checker"
@@ -21,7 +23,9 @@ type ToolType =
   | "amount-estimator"
   | "checklist-generator"
   | "grant-comparison"
-  | "grant-calculator";
+  | "grant-calculator"
+  | "means-test"
+  | "eligibility-engine";
 
 export default function InteractiveTools() {
   const [activeTool, setActiveTool] = useState<ToolType>("eligibility-checker");
@@ -38,7 +42,9 @@ export default function InteractiveTools() {
           { id: "amount-estimator", label: "Household Estimator", icon: BarChart },
           { id: "checklist-generator", label: "Checklist Gen", icon: FileText },
           { id: "grant-comparison", label: "Comparison Matrix", icon: Table },
-          { id: "grant-calculator", label: "Grant Calculator", icon: DollarSign }
+          { id: "grant-calculator", label: "Grant Calculator", icon: DollarSign },
+          { id: "means-test", label: "Means Test", icon: Scale },
+          { id: "eligibility-engine", label: "Eligibility Engine", icon: Sparkles }
         ].map((tool) => {
           const Icon = tool.icon;
           return (
@@ -68,6 +74,8 @@ export default function InteractiveTools() {
         {activeTool === "checklist-generator" && <DocumentChecklist />}
         {activeTool === "grant-comparison" && <GrantComparison />}
         {activeTool === "grant-calculator" && <GrantCalculator />}
+        {activeTool === "means-test" && <MeansTestCalculator />}
+        {activeTool === "eligibility-engine" && <EligibilityEngine />}
       </div>
     </div>
   );

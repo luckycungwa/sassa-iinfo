@@ -4,7 +4,7 @@
   "classification": "grant-detail",
   "title": "Child Support Grant — Means Test Guide for Caregivers",
   "description": "Complete guide to the SASSA Child Support Grant means test: caregiver income thresholds, what counts as income, and how informal earnings affect your grant.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "8 min read",
   "status": "published",
@@ -15,7 +15,7 @@
   },
   "seo": {
     "metaTitle": "Child Support Grant Means Test — Guide for Caregivers 2026",
-    "metaDescription": "Complete guide to the SASSA Child Support Grant means test: caregiver income thresholds (R63,600/yr single), what counts as income, informal work rules, and how income changes affect your grant.",
+    "metaDescription": "Complete guide to the SASSA Child Support Grant means test: caregiver income thresholds (R69,600/yr single), what counts as income, informal work rules, and how income changes affect your grant.",
     "keywords": [
       "child support grant means test",
       "CSG income threshold",
@@ -36,7 +36,7 @@
       "title": "Child Support Grant — Means Test Guide for Caregivers",
       "description": "Everything you need to know about the income test for the SASSA Child Support Grant. Understand what counts as income, how thresholds work, and what to do if your income changes.",
       "readingTime": "8 min read",
-      "lastUpdated": "2026-07-27",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Your Eligibility",
         "href": "/eligibility"
@@ -50,13 +50,19 @@
       "id": "summary",
       "type": "grant-summary",
       "amount": "R580",
-      "frequency": "Monthly per child (R830 for orphans in CSG Top-Up)",
+      "frequency": "Monthly per child (an additional top-up may apply for orphaned children — confirm the current amount with SASSA)",
       "targetGroup": "Primary caregivers of children under 18 who meet the means test requirements."
     },
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "The Child Support Grant (CSG) means test is a financial assessment SASSA uses to determine whether a caregiver qualifies for the grant. Unlike some other grants, the CSG means test looks at the caregiver's income — not the child's. Many applicants are confused about what counts as income, especially when it comes to informal work, help from family, or stokvel payouts. This guide breaks it all down clearly."
+      "text": "The Child Support Grant (CSG) means test is a financial assessment SASSA uses to determine whether a caregiver qualifies for the grant. Unlike some other grants, the CSG means test looks at the caregiver's income — not the child's. Many applicants are confused about what counts as income, especially when it comes to informal work, help from family, or stokvel payouts. This guide breaks it all down clearly.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
     },
     {
       "id": "general-guide-callout",
@@ -83,13 +89,13 @@
       "rows": [
         [
           "Single caregiver (unmarried, divorced, widowed)",
-          "R63,600 per year",
-          "R5,300 per month"
+          "R69,600 per year",
+          "R5,800 per month"
         ],
         [
           "Married caregiver (spouse's income included)",
-          "R127,200 per year (combined)",
-          "R10,600 per month (combined)"
+          "R139,200 per year (combined)",
+          "R11,600 per month (combined)"
         ]
       ]
     },
@@ -286,7 +292,7 @@
       "faqs": [
         {
           "question": "What if I am unemployed but my spouse works?",
-          "answer": "If you are married, SASSA considers the combined income of both spouses. Even if you personally earn nothing, your spouse's income is included in the means test. The combined threshold is R127,200 per year. If your spouse earns above this, you may not qualify for the grant unless your household income falls within the threshold."
+          "answer": "If you are married, SASSA considers the combined income of both spouses. Even if you personally earn nothing, your spouse's income is included in the means test. The combined threshold is R139,200 per year. If your spouse earns above this, you may not qualify for the grant unless your household income falls within the threshold."
         },
         {
           "question": "What if I receive maintenance for the child — does that count as income?",

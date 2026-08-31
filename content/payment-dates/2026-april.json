@@ -4,7 +4,7 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates April 2026 (New Grant Amounts Apply)",
   "description": "Confirmed SASSA payment dates for April 2026: Older Persons 2 April, Disability 3 April, Children's grants 6 April, SRD R370 from 24 April. New fiscal-year amounts apply.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -28,7 +28,7 @@
       "title": "SASSA Payment Dates April 2026",
       "description": "April starts the new fiscal year: the grant increases announced in February appear in this month's payments. Here is the full schedule and how to check your new amount.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "intro-h",
@@ -76,7 +76,13 @@
     {
       "id": "amounts-p",
       "type": "paragraph",
-      "text": "The 1 April increase applies automatically — you do not need to apply for it or visit an office. From the first April payment, permanent grants pay at their new annual rates and the SRD R370 continues at its set monthly value."
+      "text": "The 1 April increase applies automatically — you do not need to apply for it or visit an office. From the first April payment, permanent grants pay at their new annual rates and the SRD R370 continues at its set monthly value.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "verify-steps",
@@ -140,6 +146,28 @@
         }
       ],
       "note": "Dates reflect the published April 2026 schedule; amounts per the confirmed budget figures effective 1 April 2026."
+    },
+    {
+      "id": "related-pages-71ldgc",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     }
   ],
   "relatedPages": [

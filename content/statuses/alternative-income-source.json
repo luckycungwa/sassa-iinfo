@@ -4,7 +4,7 @@
   "classification": "status-meaning",
   "title": "Alternative Income Source Detected — What It Means & How to Fix It",
   "description": "SASSA says you have an 'Alternative Income Source' — here is exactly what triggered this status, how to fix it, and how to appeal.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "Alternative Income Source Detected — What to Do Next",
       "description": "Did SASSA flag your grant with 'Alternative Income Source Detected'? Learn what triggered this status, how bank deposits affect your application, and step-by-step instructions to appeal the decision and secure your SRD grant.",
       "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Appeal Your Decline",
         "href": "/appeals/appeal-after-income-source"
@@ -49,7 +49,13 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "The 'Alternative Income Source Detected' status is one of the most common reasons for SRD R370 grant declines. It means SASSA's automated monthly audit found evidence in their database that you have another source of financial support. This does not always mean you actually have income — system errors and misinterpreted bank transactions are very common."
+      "text": "The 'Alternative Income Source Detected' status is one of the most common reasons for SRD R370 grant declines. It means SASSA's automated monthly audit found evidence in their database that you have another source of financial support. This does not always mean you actually have income — system errors and misinterpreted bank transactions are very common.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "who",
@@ -138,7 +144,13 @@
     {
       "id": "appeal-intro",
       "type": "paragraph",
-      "text": "Appealing this status requires proving that the deposits in your account are not actual income. Follow these steps carefully:"
+      "text": "Appealing this status requires proving that the deposits in your account are not actual income. Follow these steps carefully:",
+      "links": [
+        {
+          "text": "Appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "appeal-steps",

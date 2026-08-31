@@ -4,7 +4,7 @@
   "classification": "appeal-guide",
   "title": "How to Check Your SASSA Appeal Status — Track Your ITSAA Appeal",
   "description": "Step-by-step guide to checking your SASSA appeal status online. How to track your ITSAA appeal using your reference number, ID, and phone number.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "How to Check Your SASSA Appeal Status",
       "description": "Track your SASSA appeal progress online using your ID number, phone number, and Appeal Reference Number. This guide shows you exactly how to check your ITSAA appeal status and understand what each status means.",
       "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Check Your Appeal Status",
         "href": "https://srd.dsd.gov.za"
@@ -49,12 +49,18 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "After submitting your appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA), you can track its progress online. You will need your ID number, phone number, and Appeal Reference Number."
+      "text": "After submitting your appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA), you can track its progress online. You will need your ID number, phone number, and Appeal Reference Number.",
+      "links": [
+        {
+          "text": "Independent Tribunal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for anyone who has submitted a SASSA grant appeal and wants to track its progress through the ITSAA system."
+      "text": "Weeks passing with no update is the most anxious part of appealing, and it is also completely normal — the tribunal can take up to 90 days. The good news is that your appeal is almost never lost in the system. This guide walks you through checking the status yourself, so you never have to wait on hold or rely on rumours about how your appeal is progressing."
     },
     {
       "id": "steps-h",
@@ -132,6 +138,24 @@
         {
           "question": "What if my status has not changed in over 90 days?",
           "answer": "Contact ITSAA directly or visit your nearest SASSA office to follow up. There may be a backlog or a documentation issue."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-ttn24h",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
         }
       ]
     }

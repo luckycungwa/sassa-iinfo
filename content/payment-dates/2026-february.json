@@ -4,7 +4,7 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates February 2026",
   "description": "Confirmed SASSA payment dates for February 2026: Older Persons 3 February, Disability 4 February, Children's grants 5 February, SRD R370 from 25 February.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -28,7 +28,7 @@
       "title": "SASSA Payment Dates February 2026",
       "description": "Permanent grants follow the usual pattern in the first week. The short month compresses the SRD R370 window into 25-28 February — check your SMS early.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "intro-h",
@@ -76,12 +76,24 @@
     {
       "id": "know-p1",
       "type": "paragraph",
-      "text": "February is the shortest month, which squeezes the SRD R370 batch window into just four days (25-28 February). If you receive SRD, watch for your approval SMS from around the 20th so you know which day your batch lands. There is no room for delays to stretch into March."
+      "text": "February is the shortest month, which squeezes the SRD R370 batch window into just four days (25-28 February). If you receive SRD, watch for your approval SMS from around the 20th so you know which day your batch lands. There is no room for delays to stretch into March.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "budget-p",
       "type": "paragraph",
-      "text": "February is also budget month. The Minister of Finance announces whether grant amounts will increase in the annual budget speech, usually in mid-to-late February. Important: any announced increases do not change your February or March payments — new amounts only take effect from April, the start of the new fiscal year."
+      "text": "February is also budget month. The Minister of Finance announces whether grant amounts will increase in the annual budget speech, usually in mid-to-late February. Important: any announced increases do not change your February or March payments — new amounts only take effect from April, the start of the new fiscal year.",
+      "links": [
+        {
+          "text": "grant amounts",
+          "href": "/guides/sassa-grant-amounts"
+        }
+      ]
     },
     {
       "id": "know-p2",
@@ -133,6 +145,28 @@
         }
       ],
       "note": "Dates reflect the published February 2026 schedule. Budget details were accurate at publication; see our news section for confirmed amounts."
+    },
+    {
+      "id": "related-pages-sjcml5",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     }
   ],
   "relatedPages": [

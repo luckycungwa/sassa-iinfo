@@ -1,5 +1,6 @@
 ﻿import type { ContentBlock, BasePage, PageClassification } from "../lib/schema/contentSchema";
 import PageShell from "./PageShell";
+import SourcesSection from "./SourcesSection";
 import TableOfContents from "./TableOfContents";
 import HeroSection from "./HeroSection";
 import { CATEGORY_THEMES } from "../lib/theme/category-theme";
@@ -343,6 +344,9 @@ export function EditorialRenderer({ page, blocks }: EditorialRendererProps) {
           <Block key={block.id || i} block={block} classification={page.classification} />
         ))}
         <OfficialAssistance />
+        {page.sources && page.sources.length > 0 && (
+          <SourcesSection sources={page.sources} />
+        )}
       </PageShell>
     </>
   );

@@ -21,19 +21,19 @@ export default function GrantComparison() {
               <td className="p-3 font-semibold">Older Person</td>
               <td className="p-3 font-mono font-bold text-accent-dark">R2,400</td>
               <td className="p-3">60+ years</td>
-              <td className="p-3">Under R96,240/yr (Single)</td>
+              <td className="p-3">Under R112,200/yr (Single)</td>
             </tr>
             <tr>
               <td className="p-3 font-semibold">Disability Grant</td>
               <td className="p-3 font-mono font-bold text-accent-dark">R2,400</td>
               <td className="p-3">18-59 years</td>
-              <td className="p-3">Under R96,240/yr (Single)</td>
+              <td className="p-3">Under R112,200/yr (Single)</td>
             </tr>
             <tr>
               <td className="p-3 font-semibold">Child Support</td>
               <td className="p-3 font-mono font-bold text-accent-dark">R580</td>
               <td className="p-3">0-17 years</td>
-              <td className="p-3">Under R63,600/yr (Single)</td>
+              <td className="p-3">Under R69,600/yr (Single)</td>
             </tr>
             <tr>
               <td className="p-3 font-semibold">Foster Care</td>

@@ -4,7 +4,7 @@
   "classification": "how-to-guide",
   "title": "How to Change Your SASSA Payment Method",
   "description": "Step-by-step guide to switching your SASSA payment method between bank transfer, Cash Send retail collection, and SASSA card. How to update online and what to expect.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "How to Change Your SASSA Payment Method",
       "description": "You can switch between bank transfer, Cash Send, and the SASSA card at any time. Follow our step-by-step guide to change your payment method online and understand when the change takes effect.",
       "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Compare Payment Methods",
         "href": "/banking/payment-methods"
@@ -49,12 +49,29 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "You can change how you receive your SASSA grant at any time. Whether you want to switch from bank transfer to Cash Send, or update your bank account details, the process is simple."
+      "text": "You can change how you receive your SASSA grant at any time. Whether you want to switch from bank transfer to Cash Send, or update your bank account details, the process is simple. The method you choose matters more than you think — it affects how fast you get your money, whether any fees apply, and how easy it is to withdraw it."
+    },
+    {
+      "id": "what-to-choose",
+      "type": "paragraph",
+      "text": "A good rule of thumb: if you live near a big retailer, Cash Send is usually the most convenient because you can collect your grant when you shop. If you use a bank app anyway, bank transfer means the money lands straight in your account with no collection step. And if you have no bank account or access to a paypoint, the SASSA card is the safest option to carry around. There is no wrong choice — only the one that fits how you live.",
+      "links": [
+        {
+          "text": "compare every payment option",
+          "href": "/banking/payment-methods"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SASSA beneficiaries who want to switch between bank transfer, Cash Send retail collection, or the SASSA card payment methods."
+      "text": "You do not need to visit a SASSA office to change how you get paid — the whole process happens online and takes about two minutes once you know where to look.",
+      "links": [
+        {
+          "text": "SASSA card",
+          "href": "/banking/sassa-card-explained"
+        }
+      ]
     },
     {
       "id": "online-h",
@@ -92,20 +109,30 @@
       "id": "callout",
       "type": "callout",
       "intent": "info",
-      "title": "Important",
-      "text": "Changes made after the 20th of the month will apply from the following month. Do not change your payment method while a payment is processing."
+      "title": "Timing Is Everything",
+      "text": "Changes made after the 20th of the month will apply from the following month. Do not change your payment method while a payment is processing — wait until the money reflects, then switch. If you are about to be paid within days, it is safer to collect this month as planned and enjoy the new method next month."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
     },
     {
       "id": "faq",
       "type": "faq",
       "faqs": [
         {
-          "question": "How long does it take for a payment method change to take effect?",
-          "answer": "Changes made before the 20th of the month usually take effect for the current month's payment. After the 20th, they apply from the next month."
+          "question": "What if I have no bank account?",
+          "answer": "You do not need one. Choose Cash Send to collect at a big retailer, or get a SASSA card. Both work without any bank account of your own — this is exactly what they were made for."
         },
         {
-          "question": "Can I switch from Cash Send to bank transfer mid-month?",
-          "answer": "Yes, but the change will apply from the following month. You will receive the current month's payment via Cash Send."
+          "question": "Will changing my method mess up my next payment?",
+          "answer": "No, as long as you change before the 20th and not while a payment is already processing. If you switch late in the month, your payment will just arrive via the old method this month and the new one next month."
+        },
+        {
+          "question": "Why is my payment method change not showing on the portal?",
+          "answer": "Give it a day or two — the update can take up to 48 hours to reflect. If it still has not changed after that, try the SASSA WhatsApp line (082 046 8553) or call 0800 60 10 11 for help."
         }
       ]
     }

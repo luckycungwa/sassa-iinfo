@@ -4,7 +4,7 @@
   "classification": "province-hub",
   "title": "SASSA North West Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in North West. Regional office in Mahikeng, Rustenburg mining-belt collection, mobile pay points for remote towns, and province FAQs.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA North West Province",
       "description": "Provincial hub for North West beneficiaries: regional office contacts, collection across the platinum mining belt, mobile services for remote towns, and local FAQs.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Find an Office",
         "href": "/offices"
@@ -65,7 +65,13 @@
     {
       "id": "services-p",
       "type": "paragraph",
-      "text": "Full-service offices operate in Mahikeng, Rustenburg, Klerksdorp, Potchefstroom and Brits, handling applications, reviews, card replacements and appeals support. Smaller towns such as Vryburg, Taung and Zeerust are served by scheduled mobile units that bring application and enquiry services to them monthly."
+      "text": "Full-service offices operate in Mahikeng, Rustenburg, Klerksdorp, Potchefstroom and Brits, handling applications, reviews, card replacements and appeals support. Smaller towns such as Vryburg, Taung and Zeerust are served by scheduled mobile units that bring application and enquiry services to them monthly.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "offices-grid",
@@ -75,10 +81,6 @@
         {
           "label": "Browse the national offices directory",
           "href": "/offices"
-        },
-        {
-          "label": "Regional office enquiries: 018 397 2600",
-          "href": null
         }
       ]
     },

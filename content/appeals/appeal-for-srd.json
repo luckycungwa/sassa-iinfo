@@ -4,7 +4,7 @@
   "classification": "appeal-guide",
   "title": "How to Appeal an SRD R370 Grant Decline — SRD-Specific Guide",
   "description": "SRD R370 grant appeal guide specific to the SRD application system. How to appeal monthly declines, navigate the srd.dsd.gov.za portal, and get backpaid for approved months.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -31,7 +31,7 @@
       "title": "How to Appeal an SRD R370 Grant Decline",
       "description": "The SRD R370 grant eligibility is reassessed every month, so you may need to appeal multiple declines. This SRD-specific guide covers how to appeal monthly declines on the srd.dsd.gov.za portal and get backpaid for approved months.",
       "readingTime": "8 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Appeal Your SRD Decline",
         "href": "https://srd.dsd.gov.za"
@@ -50,12 +50,28 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "The SRD R370 grant operates differently from other SASSA grants. Because eligibility is reassessed every month, you may find that one month is approved and the next is declined. This guide covers the specific process for appealing SRD grant declines."
+      "text": "The SRD R370 grant operates differently from other SASSA grants. Because eligibility is reassessed every month, you may find that one month is approved and the next is declined. This guide covers the specific process for appealing SRD grant declines.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is specifically for SRD R370 grant applicants who need to appeal monthly declines through the srd.dsd.gov.za portal."
+      "text": "Before you start, understand the one thing that confuses most SRD applicants: your appeal is not a single decision. Each declined month is its own case, with its own deadline. If you have three declined months, you may need to file three appeals — and they can all be done in one sitting on the same portal. This guide shows you exactly how the process works so you do not lose money over a paperwork detail.",
+      "links": [
+        {
+          "text": "each month's deadline",
+          "href": "/appeals/appeal-timeline"
+        }
+      ]
     },
     {
       "id": "why-h",

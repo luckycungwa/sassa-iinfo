@@ -4,7 +4,7 @@
   "classification": "province-hub",
   "title": "SASSA Eastern Cape Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in the Eastern Cape. Regional office in East London, rural collection around Mthatha and Lusikisiki, isiXhosa services, and province FAQs.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA Eastern Cape Province",
       "description": "Provincial hub for Eastern Cape beneficiaries: regional office contacts, collection across cities and deep rural villages, mobile pay points, and local FAQs.",
       "readingTime": "6 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Find an Office",
         "href": "/offices"
@@ -75,10 +75,6 @@
         {
           "label": "Browse the national offices directory",
           "href": "/offices"
-        },
-        {
-          "label": "Regional office enquiries: 043 707 6400",
-          "href": null
         }
       ]
     },

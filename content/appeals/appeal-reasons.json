@@ -4,7 +4,7 @@
   "classification": "appeal-guide",
   "title": "Common Reasons for SASSA Grant Decline & How to Appeal Them",
   "description": "Every official SASSA decline reason explained with the exact appeal strategy for each, including UIF, NSFAS, bank verification, means test, and identity verification failures.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "Common Reasons for SASSA Grant Decline & How to Appeal Them",
       "description": "SASSA declines grants for specific coded reasons. Knowing exactly why you were declined helps you file a targeted appeal with the right evidence. This guide covers every decline reason and the exact appeal strategy for each.",
       "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Submit an Appeal",
         "href": "https://srd.dsd.gov.za"
@@ -49,12 +49,18 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "SASSA declines grants for specific coded reasons. Knowing exactly why you were declined helps you file a targeted appeal with the right evidence."
+      "text": "SASSA declines grants for specific coded reasons. Knowing exactly why you were declined helps you file a targeted appeal with the right evidence.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SASSA applicants who want to understand why their grant was declined and what kind of evidence they need to submit for a successful appeal."
+      "text": "Getting a decline reason you do not recognise is stressful — you do not know what went wrong, so you do not know what to fix. Every decline is actually a coded message from SASSA's system, and each code has a matching appeal strategy. Understanding the code behind your decline tells you exactly which evidence will get your grant reinstated fastest."
     },
     {
       "id": "steps-h",
@@ -147,6 +153,24 @@
         {
           "question": "What if I have multiple decline reasons?",
           "answer": "Address each reason in your appeal with separate evidence for each. Upload multiple documents labeled clearly."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-zas9hu",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
         }
       ]
     }

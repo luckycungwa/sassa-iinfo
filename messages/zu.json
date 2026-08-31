@@ -1,0 +1,56 @@
+{
+  "Nav": {
+    "home": "Ikhaya",
+    "grants": "Izibonelelo",
+    "paymentDates": "Izinsuku Zokukhokha",
+    "status": "Bheka Isimo",
+    "appeals": "Izikhalazo",
+    "tools": "Amathuluzi",
+    "guides": "Izikhokhelo",
+    "about": "Mayelana",
+    "contact": "Thintana"
+  },
+  "Common": {
+    "search": "Sesha",
+    "menu": "Imenyu",
+    "close": "Vala",
+    "backToHome": "Buyela Ekhaya",
+    "lastUpdated": "Kubuyekezwe okokugcina",
+    "readMore": "Funda kabanzi",
+    "loading": "Iyalayisha…"
+  },
+  "Tools": {
+    "title": "Amathuluzi",
+    "eligibilityEngine": "Injini Yokufaneleka",
+    "eligibilityEngineDesc": "Thola yonke imali ongase uyifanele ngemizuzu engama-60.",
+    "meansTest": "Isibalo Sokuhlola Imali",
+    "meansTestDesc": "Bheka ukuthi umholo wakho ufanelekile yini.",
+    "calculate": "Bala",
+    "checkEligibility": "Bheka ukufaneleka"
+  },
+  "Home": {
+    "heroTitle": "Umhlahlandlela ocacile kakhulu eNingizimu Afrika ngezibonelelo ze-SASSA",
+    "heroSubtitle": "Usizo oluzimele, lolimi olulula ngezibonelelo, izinkokhelo, izicelo nezikhalazo.",
+    "ctaPrimary": "Bheka ukufaneleka kwakho",
+    "ctaSecondary": "Bheka izibonelelo"
+  },
+  "Footer": {
+    "disclaimer": "Lo ngumthombo wolwazi ozimele. Asihlangene ne-SASSA noma uhulumeni waseNingizimu Afrika.",
+    "privacy": "Ubumfihlo",
+    "terms": "Imigomo",
+    "disclaimerLink": "Isitolilelo",
+    "editorial": "Inqubomgomo Yabahleli"
+  },
+  "NotFound": {
+    "title": "404",
+    "description": "Leli khasi alikho emtatsheni wethu wolwazi.",
+    "home": "Buyela Ekhaya"
+  },
+  "Language": {
+    "label": "Ulimi",
+    "en": "English",
+    "zu": "isiZulu",
+    "xh": "isiXhosa",
+    "af": "Afrikaans"
+  }
+}

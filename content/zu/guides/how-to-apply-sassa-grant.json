@@ -1,0 +1,440 @@
+{
+  "id": "guide-apply-sassa-grant",
+  "slug": "/guides/how-to-apply-sassa-grant",
+  "classification": "how-to-guide",
+  "title": "Ungacela Kanjani I-Grant ye-SASSA",
+  "description": "Uhlobo olugcwele lokucela noma iyiphi i-grant ye-SASSA yezenhlalo ngo-2026: iyiphi i-grant ehambelana nesimo sakho, yonke imibhalo ozoyidinga, ukuphi lapho uzocela, okwenzeka ngesikhathi sokuhlola imali, nesikhathi esithathwa ukunyuswa.",
+  "lastUpdated": "2026-08-25",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications and the Social Assistance Act",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Ungacela Kanjani I-Grant ye-SASSA — Umhlahlandlela Ngezinyathelo 2026",
+    "metaDescription": "Funda ukuthi ungacela kanjani i-grant ye-SASSA ngo-2026: khetha i-grant efanele, qoqa yonke imibhalo, dlula esivivinyweni semali, ufake esikhathini noma ku-inthanethi, landela isicelo sakho kuze kube yimvume.",
+    "keywords": [
+      "ucela i-grant ye-SASSA",
+      "isicelo se-grant ye-SASSA",
+      "ukucela i-SASSA",
+      "inqubo yesicelo se-SASSA",
+      "izinyathelo ze-grant ye-SASSA"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ungacela Kanjani I-Grant ye-SASSA",
+      "description": "Ukucela i-grant yezenhlalo ye-SASSA kuyamahhala, futhi iningi lokwaliwa kungenxa yemibhalo engekho noma ukukhetha i-grant engalungile — hhayi ngoba awufaneleki. Lo mhlahlandlela uhola ekukhetheni i-grant efanele, ukuqoqweni kwemibhalo yonke, ukuthumeleni isicelo sakho, nasokulandeleni kube kukhokhelwa.",
+      "readingTime": "imizuzu engu-9 yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Uhlu LweMibhalo",
+        "href": "/guides/sassa-documents-checklist"
+      },
+      "secondaryCta": {
+        "label": "Hlola Isimo Sakho",
+        "href": "/guides/how-to-check-sassa-status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Ungacela Kanjani I-Grant ye-SASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Minyaka yonke izigidi zabantu baseNingizimu Afrika bacela izingodo zokusekela abantu, futhi ingxenye enkulu yesicelo ibambezeleka noma iyaliwa ngenxa yezinto ezivimbelayo: i-grant engalungile icingiwe, imibhalo embulala, noma ukuhlola imali kveze imali engasho. Lo mhlahlandlela ubalwa wonke umgudu wezingodo zihlala, ezifana nezingodo zabaDala, abaNgqabaza, nosizi lokunakekela, kanye nenqubo ku-inthanethi ye-SRD R370 grant.",
+      "links": [
+        {
+          "text": "i-Child Support grant",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "text": "i-SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Lo mhlahlandlela ukhona kulowo nalowo ozocela ngokwesibili, noma oxoxisa kabusha ngemuva kokuguquka kwezimo, noma onesiza ilungu lemhlophe ngalokhu kucela. Uma isicelo sakho sesaliwe funda umhlahlandlela wokukhala esikhundleni salo."
+    },
+    {
+      "id": "choose-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isigaba 0: Khetha I-Grant Efanele"
+    },
+    {
+      "id": "choose-p1",
+      "type": "paragraph",
+      "text": "Ngaphambi kokuthatha imibhalo, qinisekisa ukuthi iyiphi i-grant ehambelana nesimo sakho. Ukucela i-grant engalungile kuchitha amasonto amaningi — isicelo sizohlolwa ngokwemigomo yaleyo grant bese iyaliwa uma ingafani. Sebenzisa lokhu kwethulwa kwezinhloko zezingodo namazinga akho manje:"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "I-Grant",
+        "Inani Lanyanga",
+        "Yabantu Abaphi"
+      ],
+      "rows": [
+        [
+          "I-Older Persons Grant",
+          "R2,400 (R2,420 ku-75+)",
+          "Abantu baseNingizimu Afrika abaneminyaka engu-60 nangaphezulu abadlula esivivinyweni semali"
+        ],
+        [
+          "I-Disability Grant",
+          "R2,400",
+          "Abantu abaneminyaka engu-18-59 abanokungqubazeka komzimba noma kwengqondo okuqinisekisiwe ngokuhlolwa kwezokugula kwesifunda"
+        ],
+        [
+          "I-Child Support Grant",
+          "R580",
+          "Abaphathi bokunakekela abakhulu bantfwana abangaphansi kweminyaka engu-18 abadlula esivivinyweni semali"
+        ],
+        [
+          "I-Foster Care Grant",
+          "R1,295",
+          "Abazali ababekwe yicala abanakekela izingane ezibekwe esikhundleni sabo"
+        ],
+        [
+          "I-Care Dependency Grant",
+          "R2,400",
+          "Abanakekeli bantfwana abanokungqubazeka okukhulu okudinga ukunakekelwa isikhathi sonke"
+        ],
+        [
+          "I-War Veterans Grant",
+          "R2,420",
+          "Abasokisi abadala beMpi Yomhlaba Wezwe Noma iMpi yaMakhoreya abaneminyaka engu-60+"
+        ],
+        [
+          "I-Grant-in-Aid",
+          "R580",
+          "Abamukeli be-grant abadinga ukunakekelwa isikhathi sonke"
+        ],
+        [
+          "I-SRD R370 Grant",
+          "R370",
+          "Abantu abangasebenzi abaneminyaka engu-18-60 abangenamali noma ukusekelwa (becela ku-inthanethi)"
+        ]
+      ],
+      "caption": "Izinhloko ezinkulu ze-SASSA grant namazinga okhokhelwa akhona manje"
+    },
+    {
+      "id": "choose-p2",
+      "type": "paragraph",
+      "text": "Iyunithi ngayinye ye-grant kulibrari yethu ichaza imigomo yokufaneleka eqondile. Izibonelo ezimbili: awunakwamukela i-Older Persons Grant uma uthola imali ngaphezu kwesilinganiso, futhi awunakwamukela i-SRD R370 uma uthola i-UIF, ukusekela kwe-NSFAS, noma noma yini enye i-grant. Lapho kunokungenzeka ukuthi izingodo zimbili — ngokwesibonelo igogo eyanakekela izingane zangaphambili ingafaneleka ku-Child Support (njengomunakekeli) ne-Older Persons — ungalicela ngalinye ngokwalo uma uhlangabezana nemigomo yalo."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Inqubo Yesicelo, Ngezinyathelo"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Hlola ukufaneleka kwakho ngokuningiliziwe",
+          "description": "Funda izidingo ezithile zegrant yakho — iminyaka, amazinga emali, imithetho yokuhlala, nezidingo zokugula. Uhlu lwethu lwezinhloko ze-grant nokufaneleka lubalwa wonke."
+        },
+        {
+          "title": "Qoqa yonke imibhalo yokuqala",
+          "description": "Qoqa imibhalo yokuqala nezindatshana zokuhlinzeka kwalokhu okubalwe ku-checklist engaphansi. Imibhalo embulala yiwona imbuyiselo enkulu kakhoku yokubuyela ekhontini nokubambezeleka."
+        },
+        {
+          "title": "Vakashela ibhurokhokhi ye-SASSA esedu kunakho konke",
+          "description": "Ukucela izingodo zihlala kufanele kwenziwe ngokubuka. Fika kusenesikhathi — imijikelezo iyabubula ngaphambi kwesikhathi sokuvula. Akudingekisi isikhungo, kodwa ezinye izikhungo zinesistimu yokubhalisa ukuze kuhlolwe ukungqubazeka."
+        },
+        {
+          "title": "Qedela isicelo nomhloli",
+          "description": "Umhloli we-SASSA ugcwala ifomu esemthethweni nawe. Ungayisayini ngaphambi kokuthi uqinisekise ukuthi konke kunembile. Izinwele zakho zizothathwa njengengxenye yokuqinisekisa ubunikazi."
+        },
+        {
+          "title": "Yenza ukubhalisa (ngokwegranti ethile)",
+          "description": "Ukucela ukuNgqabazeka ne-Care Dependency kudinga ukuhlola kwezokugula kwesifunda. Umhloli uzobhala isikhungo sakho noma akuthumele ku-district surgeon. Ukuhlangana, ukwehlukanisa, nokuhlola imali kuhlolwa ku-database yabaphathi."
+        },
+        {
+          "title": "Thola i-receipt yakho enesikhathi",
+          "description": "Uzothola i-receipt enenombolo yokubhekelela. Yithathele izithombe ufake iphepha livikeleke — uyayidinga lenombolo ukuze uhlolise isimo futhi ubekezele."
+        },
+        {
+          "title": "Landela isicelo sakho",
+          "description": "Hlola inqubekela ngale ndlela ye-WhatsApp (082 046 8553), noma nge-inthanethi (0800 60 10 11), noma endaweni yakho usebenzisa inombolo yokubhekelela. Ukucubungula kuthatha kungakapheli izinyanga ezintathu."
+        },
+        {
+          "title": "Thola isinqumo nasokhokhelwa kokuqala",
+          "description": "Uma imvume inikiwe, izinkokhelo zibuyiselwa esikhathini sesicelo sakho. Uma aliwe, uzothola izizathu ezibhalwe phansi futhi ukhulume ngokukhathazeka kungakapheli izinsuku eziyi-90."
+        }
+      ]
+    },
+    {
+      "id": "where-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Lapho Ungacela Khona"
+    },
+    {
+      "id": "where-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Izikhungo ze-SASSA zendawo: wonke izingodo zihlala (Older Persons, Disability, Child Support, Foster Care, Care Dependency). Le ndlela eyodwa yalezi zingodo.",
+        "Ku-inthanethi ku-srd.sassa.gov.za: i-SRD R370 grant kuphela. Ukucela konke kuthatha imizuzu engu-10 futhi kudinga inombolo yakho ye-ID, imininingwane yokuxhumana, neze-banking.",
+        "WhatsApp 082 046 8553: ukucela i-SRD R370 nokubhekelela isimo.",
+        "Ukuhlola ekhaya: uma ungahambi ngenxa yesifo, cela ilungu lemndeni ukulungisa ukuhlola ekhaya ngokubhalisa endaweni yakho."
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibhalo Ozoyidinga"
+    },
+    {
+      "id": "docs-checklist",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "I-ID yakho yokuqala ye-13-digit noma i-smart card ene-barcode yaseNingizimu Afrika",
+          "required": true,
+          "notes": "I-ID yesikhashana yamkelekile ngenkathi ulinde idokhumenti esemthethweni"
+        },
+        {
+          "label": "Isibonakaliso sokuhlala (ibhili lamanzi, i-affidavit, noma incwadi ye-council)",
+          "required": true,
+          "notes": "Uma uhlala endaweni engenamigqomo, incwadi yaqinisekisa ivela ku-ward councillor iyasebenza"
+        },
+        {
+          "label": "Izigigi zebhange zamasonto amathathu okugcina",
+          "required": true,
+          "notes": "Kudingekile uma unebhange; ikhombisa umhloli wezimali isimo sakho sangempela semali"
+        },
+        {
+          "label": "Isitifiketi sokushada (uma ushashile) noma umyalo wokwehlukanisa",
+          "required": true,
+          "notes": "Imali yabalingani ihlanganiswe esivivinyweni semali"
+        },
+        {
+          "label": "Izifayela zokukhokha noma incwadi yabasebenzi (uma usebenza)",
+          "required": true
+        },
+        {
+          "label": "Ifomu ye-UI-19 evela ku-Department of Labour (uma ube usebenze ngaphambili)",
+          "required": false,
+          "notes": "Iqinisekisa isimo sakho se-UIF"
+        },
+        {
+          "label": "Amarisidi okuzalwa kwantfwana (ukucela i-Child Support, Care Dependency)",
+          "required": true
+        },
+        {
+          "label": "Isibonakaliso sokuhamba esikoleni (izingane eziyi-7-18 ku-Child Support Grant)",
+          "required": false,
+          "notes": "Kudingeka kamuva; umunakekeli wentfwana kufanele aqinisekise ukubhalisa esikoleni minyaka yonke"
+        },
+        {
+          "label": "Umbiko wezokugula / incwadi yokuthumela (Disability, Care Dependency)",
+          "required": true,
+          "notes": "Ukuhlola kwesifunda kuqaliswa yi-SASSA, kodwa letha nanoma yiziphi izibonakaliso zokugula ezikhona"
+        },
+        {
+          "label": "Umyalo wecala obeka intfwana esikhundleni sakho (Foster Care)",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "means-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuqonda Isivivinyo Semali"
+    },
+    {
+      "id": "means-p1",
+      "type": "paragraph",
+      "text": "Iningi lezingodo zihlala liyagunyaziswa isivivinyo semali — ukuhlola imali yakho nezimpahla ukuze uqinisekise ukuthi udinga ngempela ukusekela. Imali yakho eyedwa, nokuthi uma ushashile, imali yabalingani zakho ihlanganiswe. Izimpahla ezifana nephrofethi nazo zihlolwa. Amazinga ajika minyaka ngayinye; uhlobo lwethu lokuqonda isivivinyo semali uhlaka amazinga akhona manje ngemibhalo esecacile."
+    },
+    {
+      "id": "means-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Sho Konke",
+      "text": "Ungafihli imali noma ama-akhawunti ebhange. I-SASSA iqinisekisa izitatimende ngokumelene nezinketho zebhange nezabasebenzi, futhi imali engasho etholwe kamuva iholela ekukhishweni nokubuyiselwa kokukhokhelwe. Ukuveza imali ngokungaxabani kungasalela ukufaneleka kwakho."
+    },
+    {
+      "id": "after-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Okwenzeka Ngemuva Kokuthi Ufake Isicelo"
+    },
+    {
+      "id": "timeline-table",
+      "type": "table",
+      "headers": [
+        "Isigaba",
+        "Isikhathi Esijwayelekile",
+        "Okwenzeka"
+      ],
+      "rows": [
+        [
+          "Ukufaka isicelo",
+          "Usuku 1",
+          "Ifomu ligcwele, ubunikazi buthathwe, i-receipt inikwa inombolo yokubhekelela"
+        ],
+        [
+          "Ukuqinisekisa",
+          "Amasonti angu-2-8",
+          "UBunikazi, isimo sokushada, imali, nokuhlola i-database kuqediwe"
+        ],
+        [
+          "Ukuhlola kwezokugula (uma kunesidingo)",
+          "Amasonti angu-2-6",
+          "Isikhungo nodokotela wesifunda; imiphumela ifakwa esinqumweni"
+        ],
+        [
+          "Isinqumo",
+          "Kungakapheli izinyanga ezintathu",
+          "Isicelo samukelwe noma saliwe nezizathu ezibhalwe phansi"
+        ],
+        [
+          "Ukhokhelwa kokuqala",
+          "Inkathi elandelayo",
+          "Izingodo ezimukelwe zibuyiselwa esikhathini sesicelo"
+        ]
+      ],
+      "caption": "Ugudu olujwayelekile lokucubungula isicelo se-grant"
+    },
+    {
+      "id": "after-p1",
+      "type": "paragraph",
+      "text": "Akukho lapho ukhokha khona noma yisiphi isigaba. Uma umuntu ekucela imali ukuze isicelo sisheshe — kuhlanganisa abakuti- agents ngaphandle kwezikhungo ze-SASSA — babika ku-fraud hotline ku-0800 601 011."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibuzo Evamile"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ngingacela ku-inthanethi i-grant ye-SASSA?",
+          "answer": "I-SRD R370 grant kuphela ekamukela ukucela okugcwele ku-inthanethi, ku-srd.sassa.gov.za. Wonke izingodo zihlala zidinga ukuvakashela endaweni ngoba ubunikazi nezincwadi zokuqala kufanele ziqinisekiswe."
+        },
+        {
+          "question": "Kubiza malini ukucela?",
+          "answer": "Akukho lutho. Yonke inkonzo ye-SASSA iyamahhala. Bika noma ubani okucela imali yokucela, yokusheshisa, noma yamafomu ku-fraud line ku-0800 601 011."
+        },
+        {
+          "question": "Kuthatha isikhathi esingakanani ukuvunywa?",
+          "answer": "Kungakapheli izinyanga ezintathu ngokomthetho. Izicelo ezilula zigcina zisinqunyelwe ngaphambi kwesikhathi; ezidinga ukuhlola kwezokugula zithatha isikhathi eside. Izinkokhelo zibuyiselwa esikhathini sesicelo sakho noma kukade kucatshangwa."
+        },
+        {
+          "question": "Ngingacela izingodo ezimbili ngesikhathi esisodwa?",
+          "answer": "Yebo, uma ngempela uhlangabezana nemigomo ngayinye — ngokwesibonelo i-Older Persons Grant ne-Child Support Grant njengomunakekeli. Awunakwamukela izingodo ezixubanisa izimo ezifana ne-Disability ne-Older Persons ngasikhathi sinye."
+        },
+        {
+          "question": "Kwenzeka nini uma ngenayo idokhumenti ye-ID?",
+          "answer": "Cela i-ID yesikhashana ku-Home Affairs kuqala — i-SASSA yamkela i-ID yesikhashana ekuceleni. Ukuhlola ekhaya kungalungiswa ngokubhalisa endaweni yakho."
+        },
+        {
+          "question": "Isicelo sami saliwe. Ngenzenjani?",
+          "answer": "Funda isizathu sokwaliwa esikwigama lesaziso, bese ubeka ukukhathazeka kungakapheli izinsuku eziyi-90. Iningi lokwaliwa libuyiselwa uma kuthunyelwe amadokhumenti afanele."
+        },
+        {
+          "question": "Ngabe umuntu ongacela esikhundleni sami?",
+          "answer": "Yebo. Umuntu oqinisekisiwe (proxy) angacela ezinye izingodo esikhundleni sakho ngencwadi yemvume nama-ID womabili. Nge-SRD grant, ukucela kufanele kwenziwe nge-ID noma inombolo yocingo yakho."
+        },
+        {
+          "question": "Nini lapho kufanele ngicela kabusha noma ngivuselele?",
+          "answer": "Izingodo zihlala ziqhubeka ngaphandle kokuvuselela kodwa zihlolwa ngesikhathi. I-Foster Care Grant iphela ngomyla ngamunye wecala futhi kufanele ivuselelwe ngaphambi kokuphela. I-SRD grant iphinde ihlolwe nyanga ngayinye ngokuzenzakalelayo."
+        }
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "Inqubo iqinisekisiwe ngokumelene nezithombo zisemthethweni.",
+      "sources": [
+        {
+          "label": "i-SASSA i-website esemthethweni",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "i-SASSA SRD portal",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "Social Assistance Act 13 ka-2004",
+          "url": "https://www.gov.za/documents/social-assistance-act"
+        }
+      ]
+    },
+    {
+      "id": "related-grid",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Uhlu LweMibhalo",
+          "href": "/guides/sassa-documents-checklist",
+          "description": "Konke okuzoletha, ngokwesigaba se-grant"
+        },
+        {
+          "title": "Ukuqonda Isivivinyo Semali",
+          "href": "/guides/understanding-means-test",
+          "description": "Amazinga acacisiwe ngemibhalo"
+        },
+        {
+          "title": "Ungahlola Kanjani Isimo Sakho",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "Wonke amakhono okulandela"
+        },
+        {
+          "title": "Ungakhala Kanjani Ekwalweni",
+          "href": "/appeals/how-to-appeal",
+          "description": "Ukukhathazeka kwe-ITSAA ngezinyathelo"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Uhlu LweMibhalo ye-SASSA",
+      "slug": "/guides/sassa-documents-checklist"
+    },
+    {
+      "title": "Ukuqonda Isivivinyo Semali",
+      "slug": "/guides/understanding-means-test"
+    },
+    {
+      "title": "Ungahlola Kanjani Isimo Sakho",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "I-SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "Ungakhala Kanjani I-Grant Eshunyekwe",
+      "slug": "/appeals/how-to-appeal"
+    }
+  ]
+}

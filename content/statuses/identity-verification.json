@@ -4,7 +4,7 @@
   "classification": "status-meaning",
   "title": "Identity Verification Failed/Pending — What It Means & How to Fix It",
   "description": "Your SASSA status shows 'Identity Verification Failed' — here is why it happens, how to complete facial verification, and what to do if Home Affairs records do not match.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "Identity Verification Failed — How to Fix It",
       "description": "Your SASSA status shows 'Identity Verification Failed or Pending' — your grant is on hold until your identity is confirmed. Learn how to complete facial verification, what to do if Home Affairs records don't match, and how to resolve this quickly.",
       "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Complete Verification",
         "href": "/status/identity-verification"

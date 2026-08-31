@@ -4,16 +4,30 @@
   "classification": "province-hub",
   "title": "SASSA Gauteng Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in Gauteng Province. Regional office in Johannesburg, list of SASSA offices across the province, grant collection information, and frequently asked questions.",
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Gauteng Province: Offices, Grants & Payment Collection Guide 2026",
     "metaDescription": "Complete SASSA guide for Gauteng Province. Regional office at 78 Marshall Street, Johannesburg. List of SASSA offices in Pretoria, Soweto, Tembisa, and more. Grant collection info, province statistics, and FAQs.",
-    "keywords": ["SASSA Gauteng", "Gauteng SASSA offices", "SASSA Johannesburg office", "SASSA Pretoria office", "SASSA Gauteng grants", "SASSA Soweto"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Gauteng Province" }
+    "keywords": [
+      "SASSA Gauteng",
+      "Gauteng SASSA offices",
+      "SASSA Johannesburg office",
+      "SASSA Pretoria office",
+      "SASSA Gauteng grants",
+      "SASSA Soweto"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SASSA Gauteng Province"
+    }
   },
   "contentBlocks": [
     {
@@ -22,9 +36,15 @@
       "title": "SASSA Gauteng Province",
       "description": "Complete information hub for SASSA services in Gauteng Province. Regional office details, local SASSA offices, grant collection information, and province-specific FAQs.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-07-28",
-      "cta": { "label": "Find an Office", "href": "/offices" },
-      "secondaryCta": { "label": "View All Provinces", "href": "/provinces" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
     },
     {
       "id": "province-overview",
@@ -34,16 +54,36 @@
       "regionalOfficePhone": "011 123 4567",
       "collectionInfo": "Gauteng beneficiaries can collect grants at any SASSA office, SAPO branch, or participating retailer (Shoprite, Checkers, Pick n Pay, Boxer, USave) across the province. Most collection points are well-distributed, but queues in inner-city offices can be long during the first week of the month.",
       "beneficiaryCount": "Approximately 2.8 million grant beneficiaries",
-      "grantTypes": ["Child Support Grant", "Older Persons Grant", "Disability Grant", "Foster Care Grant", "Care Dependency Grant", "SRD R370 Grant", "War Veterans Grant"]
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant",
+        "War Veterans Grant"
+      ]
     },
     {
       "id": "stat-bar",
       "type": "stat-bar",
       "stats": [
-        { "label": "Grant Beneficiaries", "value": "2.8 Million" },
-        { "label": "SASSA Offices", "value": "24" },
-        { "label": "Collection Points", "value": "450+" },
-        { "label": "Population Served", "value": "15+ Million" }
+        {
+          "label": "Grant Beneficiaries",
+          "value": "2.8 Million"
+        },
+        {
+          "label": "SASSA Offices",
+          "value": "24"
+        },
+        {
+          "label": "Collection Points",
+          "value": "450+"
+        },
+        {
+          "label": "Population Served",
+          "value": "15+ Million"
+        }
       ]
     },
     {
@@ -62,12 +102,30 @@
       "type": "link-grid",
       "title": "Key Offices in Gauteng",
       "links": [
-        { "label": "Pretoria Central — 250 Hall Street", "href": "/offices/gp-pretoria-central" },
-        { "label": "Johannesburg CBD — 78 Marshall Street", "href": "/offices/gp-johannesburg-cbd" },
-        { "label": "Soweto — Maponya Mall", "href": "/offices/gp-soweto-maponya" },
-        { "label": "Tembisa — Thusong Centre", "href": "/offices/gp-tembisa" },
-        { "label": "Sebokeng — Vaal Region", "href": "/offices/gp-sebokeng" },
-        { "label": "Alexandra — Greater Johannesburg", "href": "/offices/gp-alexandra" }
+        {
+          "label": "Pretoria Central — 250 Hall Street",
+          "href": "/offices/gp-pretoria-central"
+        },
+        {
+          "label": "Johannesburg CBD — 78 Marshall Street",
+          "href": "/offices"
+        },
+        {
+          "label": "Soweto — Maponya Mall",
+          "href": "/offices"
+        },
+        {
+          "label": "Tembisa — Thusong Centre",
+          "href": "/offices"
+        },
+        {
+          "label": "Sebokeng — Vaal Region",
+          "href": "/offices"
+        },
+        {
+          "label": "Alexandra — Greater Johannesburg",
+          "href": "/offices"
+        }
       ]
     },
     {
@@ -133,9 +191,21 @@
     }
   ],
   "relatedPages": [
-    { "title": "All Provinces", "slug": "/provinces" },
-    { "title": "SASSA Pretoria Central Office", "slug": "/offices/gp-pretoria-central" },
-    { "title": "SASSA Payment Dates", "slug": "/payment-dates" },
-    { "title": "Grants Overview", "slug": "/grants" }
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "SASSA Pretoria Central Office",
+      "slug": "/offices/gp-pretoria-central"
+    },
+    {
+      "title": "SASSA Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Grants Overview",
+      "slug": "/grants"
+    }
   ]
 }

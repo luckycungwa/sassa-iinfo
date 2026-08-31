@@ -13,8 +13,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Disability Grant Eligibility — Medical Vetting & Application Guide",
-    "metaDescription": "Complete guide to SASSA Disability Grant eligibility. Learn about the medical evaluation process, required documents, age requirements, and how to apply for permanent or temporary disability grants.",
+    "metaTitle": "SASSA Grant for Disabled — Eligibility & Medical Test (2026)",
+    "metaDescription": "SASSA grant for disabled South Africans in 2026: check Disability Grant eligibility, the medical test, and how to apply.",
     "keywords": [
       "SASSA disability grant",
       "disability grant eligibility",
@@ -31,7 +31,7 @@
       "title": "Disability Grant Eligibility and Medical Vetting Guide",
       "description": "If you cannot work due to a physical or mental condition, you may qualify for the SASSA Disability Grant. Learn about the medical evaluation process, eligibility requirements, and how to apply.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Disability Grant Guide",
         "href": "/grants/disability-grant"
@@ -50,7 +50,13 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Individuals who cannot work due to a physical or mental condition can qualify for SASSA's Disability Grant of R2,400 per month. Unlike the SRD R370, the Disability Grant is a permanent grant designed for long-term support. The application process requires official medical clearance from a SASSA-approved medical officer."
+      "text": "Individuals who cannot work due to a physical or mental condition can qualify for SASSA's Disability Grant of R2,400 per month. Unlike the SRD R370, the Disability Grant is a permanent grant designed for long-term support. The application process requires official medical clearance from a SASSA-approved medical officer.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "why",
@@ -118,8 +124,8 @@
         "Must be aged 18 to 59 years",
         "Must submit a medical assessment report from a SASSA-approved doctor (less than 3 months old)",
         "The disability must prevent you from working",
-        "Means Test (Single): Annual income under R96,240; assets under R1,372,800",
-        "Means Test (Married): Combined income under R192,480; assets under R2,745,600"
+        "Means Test (Single): Annual income under R112,200; assets under R1,584,000",
+        "Means Test (Married): Combined income under R224,400; assets under R3,168,000"
       ],
       "restrictions": [
         "Your grant can be temporarily reviewed if your health condition improves",
@@ -254,7 +260,7 @@
         },
         {
           "question": "Can I receive a disability grant if I get a private pension?",
-          "answer": "Only if the private pension income falls below the strict means test threshold of R96,240 per year for a single person."
+          "answer": "Only if the private pension income falls below the strict means test threshold of R112,200 per year for a single person."
         },
         {
           "question": "Can I work while receiving the Disability Grant?",

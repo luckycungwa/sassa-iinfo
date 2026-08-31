@@ -4,7 +4,7 @@
   "classification": "news-article",
   "title": "September 2026 SASSA Payment Dates Confirmed — Heritage Day Falls Inside SRD Window",
   "description": "SASSA confirms September 2026 payment dates: Older Persons 2 Sep, Disability 3 Sep, Children 4 Sep, review day 7 Sep, and SRD R370 from 24-30 Sep — with Heritage Day landing on the first day of the SRD window.",
-  "lastUpdated": "2026-08-21",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -31,7 +31,7 @@
       "title": "September 2026 Payment Dates Confirmed — Heritage Day Falls Inside SRD Window",
       "description": "SASSA has confirmed the payment schedule for September 2026. Permanent grants are paid on 2, 3, and 4 September, the review cycle continues on Monday 7 September, and SRD R370 payments run from 24 to 30 September — starting on the Heritage Day public holiday.",
       "readingTime": "7 min read",
-      "lastUpdated": "2026-08-21"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "h1",
@@ -42,7 +42,17 @@
     {
       "id": "p1",
       "type": "paragraph",
-      "text": "SASSA has confirmed the payment schedule for September 2026. The month follows the standard pattern for permanent grants, keeps the review-cycle window introduced in August, and ends with an important quirk: the first day of the SRD R370 payment window falls on Heritage Day, a national public holiday."
+      "text": "SASSA has confirmed the payment schedule for September 2026. The month follows the standard pattern for permanent grants, keeps the review-cycle window introduced in August, and ends with an important quirk: the first day of the SRD R370 payment window falls on Heritage Day, a national public holiday.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "text": "payment schedule",
+          "href": "/payment-dates"
+        }
+      ]
     },
     {
       "id": "list1",

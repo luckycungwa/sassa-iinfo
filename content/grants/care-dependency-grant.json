@@ -4,9 +4,9 @@
   "classification": "grant-detail",
   "title": "Care Dependency Grant — Complete Guide 2026",
   "description": "Complete guide to the SASSA Care Dependency Grant: R2,400 per month for caregivers of children with severe disabilities, medical assessment process, required documents, and application steps.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
-  "readingTime": "9 min read",
+  "readingTime": "21 min read",
   "status": "published",
   "author": {
     "name": "Lucky Cungwa",
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "Care Dependency Grant 2026: Amount, Eligibility & How to Apply",
-    "metaDescription": "Complete guide to the SASSA Care Dependency Grant: R2,400 per month for severely disabled children aged 1-18, medical assessment process, required documents, and step-by-step application guide.",
+    "metaTitle": "Care Dependency Grant — R2,400/Month (2026 Guide)",
+    "metaDescription": "Care Dependency Grant pays R2,400/month in 2026. Check who qualifies and how to apply for this SASSA grant for severely disabled children.",
     "keywords": [
       "care dependency grant",
       "SASSA care dependency",
@@ -34,8 +34,8 @@
       "type": "hero",
       "title": "Care Dependency Grant",
       "description": "Complete guide to the SASSA Care Dependency Grant: R2,400 per month for caregivers of children with severe disabilities who need full-time care at home. Medical assessment process, required documents, application steps, and what happens when the child turns 18.",
-      "readingTime": "9 min read",
-      "lastUpdated": "2026-07-27",
+      "readingTime": "21 min read",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Eligibility",
         "href": "/eligibility/i-am-a-caregiver"
@@ -126,7 +126,7 @@
         "The child must be between 1 and 18 years old",
         "A SASSA medical officer must confirm the child has a severe, permanent disability requiring full-time home care",
         "The child must not be cared for in a state-funded institution for more than 6 months",
-        "Means Test: combined annual household income below R249,600 (single) or R499,200 (married)",
+        "Means Test (2026): income test only — no asset test. Single caregiver income below R288,000/year (R24,000/month) qualifies in full; above that the grant reduces by about R1 for every R2 of extra income, reaching zero at about R292,800/year. Married couples: combined income below R576,000/year (R48,000/month).",
         "You must be the child's parent or primary caregiver"
       ],
       "restrictions": [
@@ -279,6 +279,501 @@
       "text": "If your Care Dependency Grant is declined, you have 90 days to appeal. A detailed care log showing the child's daily needs — feeding, bathing, medication, supervision — along with a letter from a specialist can significantly strengthen your appeal. Contact a social worker at your nearest DSD office for help preparing the appeal."
     },
     {
+      "id": "cd-stats",
+      "type": "stat-bar",
+      "stats": [
+        {
+          "label": "Monthly amount (2026)",
+          "value": "R2,400",
+          "description": "Paid every month for each qualifying child"
+        },
+        {
+          "label": "Age range",
+          "value": "Under 18",
+          "description": "For children with severe disabilities who need full-time care"
+        },
+        {
+          "label": "Means test",
+          "value": "Income only",
+          "description": "There is no asset test in 2026"
+        }
+      ]
+    },
+    {
+      "id": "cd-amount-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How Much You Receive in 2026"
+    },
+    {
+      "id": "cd-amount-text",
+      "type": "paragraph",
+      "text": "In 2026 the Care Dependency Grant pays R2,400 per month for each child who qualifies. This is the same amount paid by the adult Disability Grant and is far higher than the Child Support Grant. The payment is made every month for as long as the child still meets the criteria and the medical assessment remains valid. The money is meant to help you meet the extra costs of full-time care at home, such as transport to clinics and therapy, special nutrition, nappies and consumables, assistive devices, and the income a parent or caregiver loses by staying home to provide care.",
+      "links": [
+        {
+          "text": "Disability Grant",
+          "href": "/grants/disability-grant"
+        }
+      ]
+    },
+    {
+      "id": "cd-meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Means Test in 2026 — Income Only"
+    },
+    {
+      "id": "cd-meanstest-text",
+      "type": "paragraph",
+      "text": "A common misunderstanding is that the Care Dependency Grant uses the same means test as other grants. In 2026 the Care Dependency Grant uses an income test only. There is no asset test. SASSA looks only at the income of the primary caregiver, or if you are married, the combined income of both spouses. Your house, car, savings and other assets are not counted. This makes the Care Dependency Grant easier to qualify for than grants that also test assets, which is why many families who would not pass the Older Person or Disability Grant asset test can still receive it."
+    },
+    {
+      "id": "cd-meanstest-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "2026 income thresholds at a glance",
+      "text": "Single caregiver: income below R24,000 a month (R288,000 a year) qualifies for the full grant. Married couple: combined income below R48,000 a month (R576,000 a year). Above those levels the grant is reduced, not stopped instantly — see the worked example below."
+    },
+    {
+      "id": "cd-means-table",
+      "type": "table",
+      "headers": [
+        "Situation",
+        "Monthly income",
+        "Annual income",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Single caregiver",
+          "Below R24,000",
+          "Below R288,000",
+          "Full grant of R2,400"
+        ],
+        [
+          "Single caregiver",
+          "Just above R24,000",
+          "Just above R288,000",
+          "Reduced grant, then zero"
+        ],
+        [
+          "Single caregiver",
+          "Above about R24,400",
+          "Above about R292,800",
+          "No grant"
+        ],
+        [
+          "Married couple (combined)",
+          "Below R48,000",
+          "Below R576,000",
+          "Full grant of R2,400"
+        ],
+        [
+          "Married couple (combined)",
+          "Above R48,000",
+          "Above R576,000",
+          "No grant"
+        ]
+      ],
+      "caption": "The grant reduces by about R1 for every R2 of income above the threshold, reaching zero at about R292,800 a year for a single caregiver."
+    },
+    {
+      "id": "cd-means-example",
+      "type": "heading",
+      "level": 3,
+      "text": "Worked Example of the Reduction"
+    },
+    {
+      "id": "cd-means-example-text",
+      "type": "paragraph",
+      "text": "The reduction works like this: for every R2 your income is above the threshold, the grant drops by about R1. A single caregiver earning R25,000 a month (R300,000 a year) is R12,000 above the R288,000 threshold, so the reduction is about R6,000 — more than the grant value, so the application would not qualify at that income. The reduction only protects a partial grant for incomes only slightly above the line. If your income is close to the threshold, apply anyway and let SASSA calculate the exact amount."
+    },
+    {
+      "id": "cd-payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How the Grant Is Paid"
+    },
+    {
+      "id": "cd-payment-text",
+      "type": "paragraph",
+      "text": "Once your application is approved, the Care Dependency Grant is paid every month into the method you choose. You do not pay any fee to apply, and you should never pay a fee to receive the money. You can change your payment method later by visiting a SASSA office."
+    },
+    {
+      "id": "cd-payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Direct bank deposit into your personal bank account",
+        "The SASSA black card, which works at retail pay points and ATMs",
+        "Cash collection at selected retailers such as Shoprite, Pick n Pay, Boxer, Checkers and USave",
+        "The South African Post Office, although this channel is being phased out"
+      ]
+    },
+    {
+      "id": "cd-blackcard-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The SASSA Black Card"
+    },
+    {
+      "id": "cd-blackcard-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Switch before the deadline",
+      "text": "SASSA has replaced the old gold card with a new black Postbank card. The official migration deadline was 31 August 2026. If you still hold the old gold card, switch to the black card at an approved point so your payments are not interrupted."
+    },
+    {
+      "id": "cd-blackcard-text",
+      "type": "paragraph",
+      "text": "The black card works like an ordinary bank card. You can draw cash at ATMs and at retail pay points, and you can use it to pay for goods in shops. Grant recipients do not pay a monthly card fee. Keep the card safe, never write down your PIN, and never hand the card or PIN to anyone who offers to 'help' you."
+    },
+    {
+      "id": "cd-reviews-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Medical Reviews and Renewals"
+    },
+    {
+      "id": "cd-reviews-text",
+      "type": "paragraph",
+      "text": "The Care Dependency Grant is not paid forever without checks, because it depends on the child's care needs. SASSA requires a medical re-assessment from time to time. If the child's condition is permanent, the assessment may stay valid for several years, but SASSA will tell you when a review is due. Attend the review appointment, because if you do not, the grant can be suspended."
+    },
+    {
+      "id": "cd-reviews-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Note the review date",
+          "description": "Check the review date on your grant letter or the SASSA notification you receive."
+        },
+        {
+          "title": "Book the assessment",
+          "description": "Take the child for a new medical assessment before the expiry date using the official SASSA form."
+        },
+        {
+          "title": "Submit the report",
+          "description": "Hand the updated medical report to your SASSA office and keep your receipt."
+        },
+        {
+          "title": "Keep payments active",
+          "description": "Keep your bank account or card active while the review is processed so payments continue."
+        }
+      ]
+    },
+    {
+      "id": "cd-suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Suspension, Lapsing and Reinstatement"
+    },
+    {
+      "id": "cd-suspension-text",
+      "type": "paragraph",
+      "text": "Your grant can be suspended or stopped in certain situations. Knowing the reasons helps you avoid a gap in payments and act quickly if something goes wrong."
+    },
+    {
+      "id": "cd-suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The child turns 18 — the grant lapses and the young adult must apply for the Disability Grant",
+        "The child is in a state-funded institution for more than six months",
+        "A medical review shows the child no longer needs full-time care",
+        "Your income rises above the means-test limit",
+        "You fail to attend a required review or to submit documents SASSA asks for"
+      ]
+    },
+    {
+      "id": "cd-reinstate-text",
+      "type": "paragraph",
+      "text": "If the grant is suspended by mistake, or your situation changes again, you can apply for reinstatement. Take your ID, the child's birth certificate, and proof that the qualifying condition continues to your SASSA office. If your evidence supports it, reinstatement is backdated to the month the grant should have been paid."
+    },
+    {
+      "id": "cd-vs-disability-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Care Dependency Grant vs the Disability Grant"
+    },
+    {
+      "id": "cd-vs-disability-table",
+      "type": "comparison-table",
+      "headers": [
+        "Feature",
+        "Care Dependency Grant",
+        "Disability Grant"
+      ],
+      "rows": [
+        [
+          "Who it is for",
+          "Child under 18 with a severe disability needing full-time care",
+          "Adult aged 18 to 59 unable to work due to disability"
+        ],
+        [
+          "Amount (2026)",
+          "R2,400",
+          "R2,400"
+        ],
+        [
+          "Means test",
+          "Income only, no asset test",
+          "Income and asset test"
+        ],
+        [
+          "Medical assessment",
+          "Required for the child",
+          "Required for the applicant"
+        ],
+        [
+          "At age 18",
+          "Lapses; move to the Disability Grant",
+          "Continues if still qualifying"
+        ]
+      ],
+      "caption": "Both pay the same monthly amount, but the Care Dependency Grant is for children and uses an income-only means test."
+    },
+    {
+      "id": "cd-scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Protecting Yourself from Scams"
+    },
+    {
+      "id": "cd-scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA never charges a fee",
+      "text": "SASSA does not charge any fee to apply for, approve, or pay a grant. Anyone who asks for money, your SASSA card, or your PIN is trying to scam you."
+    },
+    {
+      "id": "cd-scams-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Never pay an 'agent' who promises to speed up your application",
+        "Never share your ID number, card, or PIN with strangers or over the phone",
+        "Apply only at official SASSA offices or through official SASSA channels",
+        "Check payment dates and balances only on official SASSA or Postbank platforms",
+        "Report fraud to SASSA or the South African Police Service immediately"
+      ]
+    },
+    {
+      "id": "cd-appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appeals — If Your Application Is Declined"
+    },
+    {
+      "id": "cd-appeals-text",
+      "type": "paragraph",
+      "text": "If SASSA declines your Care Dependency Grant, you have the right to appeal. For non-SRD grants the appeal is lodged through a SASSA office or in writing to the Ministry of Social Development. The Independent Tribunal for Social Assistance Appeals, known as ITSAA, considers the appeal. A detailed care log and a clear medical report give you the best chance."
+    },
+    {
+      "id": "cd-appeals-procedure",
+      "type": "appeal-procedure",
+      "steps": [
+        "Read your decline letter carefully to understand the exact reason",
+        "Gather stronger evidence, especially a detailed medical report and a daily care log",
+        "Visit your SASSA office or write to the Ministry of Social Development within 30 days of the decision",
+        "Submit your appeal with all supporting documents and keep the receipt",
+        "Wait for the Independent Tribunal for Social Assistance Appeals (ITSAA) outcome"
+      ],
+      "timeline": "Lodge within 30 days of the decline. The ITSAA portal can accept appeals up to 90 days from the date of decline.",
+      "documents": [
+        "Your ID",
+        "The child's birth certificate",
+        "A new or updated medical assessment report",
+        "A daily care log describing feeding, bathing, supervision and medication",
+        "Any specialist or hospital reports"
+      ],
+      "commonReasons": [
+        "Medical report did not clearly state a 24-hour care need",
+        "Income above the means-test threshold",
+        "Child in a state institution for over six months",
+        "Missing or incorrect documents"
+      ],
+      "outcomes": [
+        "Grant approved and backdated to the application date",
+        "Grant declined and the decision upheld",
+        "Request for more information before a final decision"
+      ]
+    },
+    {
+      "id": "cd-appeals-help",
+      "type": "paragraph",
+      "text": "If you need help preparing an appeal, speak to a social worker at your nearest Department of Social Development office, or read our full appeals guide.",
+      "links": [
+        {
+          "text": "appeals guide",
+          "href": "/appeals"
+        }
+      ]
+    },
+    {
+      "id": "cd-fulltime-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What 'Full-Time Care' Means in Practice"
+    },
+    {
+      "id": "cd-fulltime-text",
+      "type": "paragraph",
+      "text": "Full-time care means the child needs another person's help for most of the day and night. It is not about how much you love or supervise the child — it is about whether the child can survive safely without constant hands-on help. A child who cannot feed themselves, cannot be left alone because they wander or harm themselves, needs help with breathing equipment, or needs turning in bed to avoid sores, clearly needs full-time care. SASSA and the district surgeon look at the real daily routine, not just the diagnosis."
+    },
+    {
+      "id": "cd-fulltime-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The child cannot be left alone safely for any length of time",
+        "The child needs help with eating, drinking, bathing, or dressing",
+        "The child needs help moving, turning, or changing position to stay comfortable",
+        "The child needs regular medical care such as feeds, medication, or equipment",
+        "A caregiver must be available day and night"
+      ]
+    },
+    {
+      "id": "cd-incomecheck-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How SASSA Checks Your Income"
+    },
+    {
+      "id": "cd-incomecheck-text",
+      "type": "paragraph",
+      "text": "Because the 2026 means test is an income test only, SASSA checks what you and your spouse actually earn. You must give honest, current proof. If you are employed, SASSA looks at your salary. If you run a business or do informal work, you must declare that income too. Hiding income is fraud and can lead to the grant being stopped and the money being recovered."
+    },
+    {
+      "id": "cd-incomecheck-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Your last three months of bank statements if you are employed",
+        "Payslips or a letter from your employer",
+        "A sworn affidavit if you are unemployed or have no income",
+        "Proof of any maintenance, pension, or other money you receive",
+        "Your spouse's income proof if you are married"
+      ]
+    },
+    {
+      "id": "cd-waiting-h",
+      "type": "heading",
+      "level": 2,
+      "text": "While You Wait for a Decision"
+    },
+    {
+      "id": "cd-waiting-text",
+      "type": "paragraph",
+      "text": "Most Care Dependency Grant applications are decided within 60 to 90 days. During this time, keep your receipts and reference number safe. If the child's condition changes or you move house, tell SASSA as soon as possible. You do not need to re-apply if you simply move — you update your details. If the wait is longer than 90 days with no answer, visit the SASSA office with your receipt and ask for a status check."
+    },
+    {
+      "id": "cd-waiting-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Keep the application receipt with the reference number",
+        "Note the date you applied",
+        "Keep the child's medical records together in one file",
+        "Write down the names of any SASSA officers you speak to"
+      ]
+    },
+    {
+      "id": "cd-backdating-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Backdating and Late Applications"
+    },
+    {
+      "id": "cd-backdating-text",
+      "type": "paragraph",
+      "text": "If your application is approved, SASSA backdates the payments to the month you applied. This means you receive the money owed from the application date, not only from the approval date. You cannot normally backdate a grant to a date before you applied, so apply as soon as you have the medical report. If a review is missed and the grant is later reinstated, backdating depends on your evidence."
+    },
+    {
+      "id": "cd-reporting-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Reporting Changes to SASSA"
+    },
+    {
+      "id": "cd-reporting-text",
+      "type": "paragraph",
+      "text": "You must tell SASSA about changes that affect the grant. This protects you from owing money back later. Report changes quickly and in writing where you can."
+    },
+    {
+      "id": "cd-reporting-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A change in your income or your spouse's income",
+        "A change in the child's living situation, such as moving to a residential facility",
+        "A change in address or bank details",
+        "The death of the child — the grant must stop, and you should inform SASSA"
+      ]
+    },
+    {
+      "id": "cd-assessment-day-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Tips for the Medical Assessment Day"
+    },
+    {
+      "id": "cd-assessment-day-text",
+      "type": "paragraph",
+      "text": "The assessment day is when SASSA decides if your child needs full-time care. A little preparation makes a big difference. Bring the child, all medical records, and a clear written summary of the child's daily routine. The doctor wants to see the real care needs, not just a diagnosis."
+    },
+    {
+      "id": "cd-assessment-day-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Arrive with the child and the completed official SASSA medical form",
+        "Bring hospital files, therapy reports, and a list of medications",
+        "Write down a typical day: waking, feeding, bathing, supervision, sleep",
+        "Bring any assistive devices the child uses, such as a wheelchair or feeding tube",
+        "Be honest about bad days as well as good days"
+      ]
+    },
+    {
+      "id": "cd-progressive-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Caring for a Child With a Progressive Condition"
+    },
+    {
+      "id": "cd-progressive-text",
+      "type": "paragraph",
+      "text": "Some severe disabilities get worse over time. If your child's needs increase, tell SASSA and ask for a new assessment, because the grant amount does not automatically rise but the medical record should reflect the true need. A clear, up-to-date report also helps if you later apply for the adult Disability Grant when the child turns 18. Keep every report, because it builds a history that supports future applications and appeals."
+    },
+    {
+      "id": "cd-myths-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Myths About the Care Dependency Grant"
+    },
+    {
+      "id": "cd-myths-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Myth: You must be poor to qualify. Truth: the 2026 test is income only, and many working caregivers still qualify if income is within the limit.",
+        "Myth: A diagnosis alone gets the grant. Truth: the child must need full-time care, proven by a medical assessment.",
+        "Myth: You can get it online. Truth: you must apply in person because the child's assessment is required.",
+        "Myth: It ends at age 16. Truth: it continues until the child turns 18.",
+        "Myth: You must pay an agent. Truth: SASSA never charges a fee."
+      ]
+    },
+    {
+      "id": "cd-family-support-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How the Grant Supports Your Family"
+    },
+    {
+      "id": "cd-family-support-text",
+      "type": "paragraph",
+      "text": "Caring for a child with a severe disability affects the whole household. The monthly amount helps with transport to clinics, special food and nappies, assistive devices, and the income a caregiver may lose by staying home. It does not replace the love and attention the child needs, but it reduces the financial pressure so you can focus on care. If your situation changes, remember that the grant can be reviewed and, where needed, appealed."
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 2,
@@ -315,6 +810,58 @@
         {
           "question": "How often does the medical assessment need to be repeated?",
           "answer": "For permanent disabilities, the assessment is done once. However, SASSA may request a review every 2-5 years to confirm the child still needs full-time care."
+        },
+        {
+          "question": "Can the Care Dependency Grant be paid if the child and I live outside South Africa?",
+          "answer": "No. The child and the primary caregiver must live in South Africa. The grant is for children cared for at home in South Africa, not for children living overseas or in institutions abroad."
+        },
+        {
+          "question": "Is the Care Dependency Grant taxable?",
+          "answer": "No. SASSA social grants, including the Care Dependency Grant, are not taxable income in South Africa."
+        },
+        {
+          "question": "Can I get the grant if I work full time?",
+          "answer": "Yes, if your income is within the 2026 means-test limit. A single caregiver must earn below R24,000 a month (R288,000 a year) for the full grant. The grant reduces for incomes just above the limit and stops once income is too high."
+        },
+        {
+          "question": "What happens if my child's condition improves?",
+          "answer": "If a medical review finds the child no longer needs full-time care, the grant can be reduced or stopped. As long as the severe disability and care need continue, and reviews are attended, the grant continues until the child turns 18."
+        },
+        {
+          "question": "Can a foster parent or guardian apply?",
+          "answer": "Yes. Any person acting as the child's primary caregiver — including a foster parent, grandparent, aunt, uncle, or guardian — can apply, provided they can show the child lives with them and they are responsible for the child's care."
+        },
+        {
+          "question": "Can I apply for the Care Dependency Grant online?",
+          "answer": "No. You must apply in person at a SASSA office because the medical assessment of the child is a required part of the process. Online applications are only available for the SRD grant at services.sassa.gov.za."
+        },
+        {
+          "question": "How long does approval take?",
+          "answer": "SASSA aims to process the application within 60 to 90 days. If approved, payments are backdated to the date you applied, so you receive the money owed from the application month."
+        },
+        {
+          "question": "Does the Care Dependency Grant affect the Child Support Grant for my other children?",
+          "answer": "No. Each grant is assessed per child. Receiving the Care Dependency Grant for one child does not stop you from getting a Child Support Grant for a different child who does not have a severe disability."
+        },
+        {
+          "question": "What proof of income does SASSA need?",
+          "answer": "If you are employed, bring your last three months of bank statements. If you are unemployed, bring a sworn affidavit confirming you have no income. SASSA may also ask for proof of any other support you receive."
+        },
+        {
+          "question": "Can the grant be suspended if I miss a review?",
+          "answer": "Yes. If SASSA asks for a medical review and you do not attend or submit the report, the grant can be suspended. Attend the review or ask for a new date in good time to avoid a gap in payments."
+        },
+        {
+          "question": "What if my application is declined because of the medical report?",
+          "answer": "Ask for the exact reason. Often the report did not clearly state that the child needs 24-hour care. Get a more detailed report from your doctor or specialist describing the child's daily care needs, then appeal within the allowed time."
+        },
+        {
+          "question": "Can I choose how to receive the money?",
+          "answer": "Yes. You can receive the grant by bank deposit, onto the SASSA black card, or as cash at approved retailers. You can change your payment method later at a SASSA office."
+        },
+        {
+          "question": "Does the grant increase at any point?",
+          "answer": "The amount is reviewed by government from time to time through the annual budget, but there is no automatic age-based increase like the one on the Older Person Grant. In 2026 it is R2,400 a month."
         }
       ]
     },

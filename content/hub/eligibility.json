@@ -4,43 +4,140 @@
   "classification": "hub-index",
   "title": "SASSA Grant Eligibility Guide",
   "description": "Find out which SASSA grant you qualify for based on your personal circumstances. Situation-based guides for unemployed, students, seniors, disabled, and more.",
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Am I Eligible? — SASSA Grant Eligibility Guide",
     "metaDescription": "Not sure which SASSA grant you qualify for? Select your situation: unemployed, student, over 60, disabled, caregiver, UIF recipient, or self-employed. Find matching grants with full eligibility criteria.",
-    "keywords": ["SASSA eligibility", "qualify for grant", "grant eligibility", "SASSA which grant", "am I eligible for SASSA"]
+    "keywords": [
+      "SASSA eligibility",
+      "qualify for grant",
+      "grant eligibility",
+      "SASSA which grant",
+      "am I eligible for SASSA"
+    ]
   },
   "contentBlocks": [
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Grant Eligibility Guide" },
-    { "id": "intro", "type": "paragraph", "text": "Different SASSA grants have different eligibility requirements. Find the guide that matches your personal circumstances to see which grant you may qualify for. Our situation-based guides cover the most common scenarios." },
-    { "id": "quick-nav", "type": "link-grid", "links": [
-      { "title": "I Am Unemployed", "href": "/eligibility/i-am-unemployed", "description": "No income, no job" },
-      { "title": "I Am Over 60", "href": "/eligibility/i-am-over-60", "description": "Senior citizens and pension eligibility" },
-      { "title": "I Am Disabled", "href": "/eligibility/i-am-disabled", "description": "Disability grant medical vetting" },
-      { "title": "I Receive UIF", "href": "/eligibility/i-receive-uif", "description": "How UIF affects eligibility" },
-      { "title": "I Receive NSFAS", "href": "/eligibility/i-receive-nsfas", "description": "Student funding and grant rules" },
-      { "title": "I Am a Student", "href": "/eligibility/i-am-a-student", "description": "Student grant eligibility" },
-      { "title": "I Am a Caregiver", "href": "/eligibility/i-am-a-caregiver", "description": "Caring for family members" },
-      { "title": "I Am Self-Employed", "href": "/eligibility/i-am-self-employed", "description": "Freelance and informal work" },
-      { "title": "I Have No Bank Account", "href": "/eligibility/i-have-no-bank-account", "description": "Cash collection options" },
-      { "title": "I Receive a Pension", "href": "/eligibility/i-receive-pension", "description": "Pension and grant rules" }
-    ] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "What is the income limit for SASSA grants?", "answer": "For most grants, single applicants must earn below R96,240 per year. For the SRD R370 grant, your monthly bank inflows must stay under R624." },
-      { "question": "Can I get a grant if I have a part-time job?", "answer": "You may still qualify if your earnings fall below the means test threshold. Casual or gig economy income under R624/month generally won't disqualify you." },
-      { "question": "Does UIF or NSFAS affect my eligibility?", "answer": "Yes. Active UIF payments above R624/month or any NSFAS funding will disqualify you from the SRD R370 grant. We have specific guides for both scenarios." },
-      { "question": "What if my situation changes after I'm approved?", "answer": "You must report changes in income, employment, or household composition to SASSA. Failure to do so can result in overpayment recovery or cancellation." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Grant Eligibility Guide"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Different SASSA grants have different eligibility requirements. Find the guide that matches your personal circumstances to see which grant you may qualify for. Our situation-based guides cover the most common scenarios."
+    },
+    {
+      "id": "quick-nav",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "I Am Unemployed",
+          "href": "/eligibility/i-am-unemployed",
+          "description": "No income, no job"
+        },
+        {
+          "title": "I Am Over 60",
+          "href": "/eligibility/i-am-over-60",
+          "description": "Senior citizens and pension eligibility"
+        },
+        {
+          "title": "I Am Disabled",
+          "href": "/eligibility/i-am-disabled",
+          "description": "Disability grant medical vetting"
+        },
+        {
+          "title": "I Receive UIF",
+          "href": "/eligibility/i-receive-uif",
+          "description": "How UIF affects eligibility"
+        },
+        {
+          "title": "I Receive NSFAS",
+          "href": "/eligibility/i-receive-nsfas",
+          "description": "Student funding and grant rules"
+        },
+        {
+          "title": "I Am a Student",
+          "href": "/eligibility/i-am-a-student",
+          "description": "Student grant eligibility"
+        },
+        {
+          "title": "I Am a Caregiver",
+          "href": "/eligibility/i-am-a-caregiver",
+          "description": "Caring for family members"
+        },
+        {
+          "title": "I Am Self-Employed",
+          "href": "/eligibility/i-am-self-employed",
+          "description": "Freelance and informal work"
+        },
+        {
+          "title": "I Have No Bank Account",
+          "href": "/eligibility/i-have-no-bank-account",
+          "description": "Cash collection options"
+        },
+        {
+          "title": "I Receive a Pension",
+          "href": "/eligibility/i-receive-pension",
+          "description": "Pension and grant rules"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the income limit for SASSA grants?",
+          "answer": "For most grants, single applicants must earn below R112,200 per year. For the SRD R370 grant, your monthly bank inflows must stay under R624."
+        },
+        {
+          "question": "Can I get a grant if I have a part-time job?",
+          "answer": "You may still qualify if your earnings fall below the means test threshold. Casual or gig economy income under R624/month generally won't disqualify you."
+        },
+        {
+          "question": "Does UIF or NSFAS affect my eligibility?",
+          "answer": "Yes. Active UIF payments above R624/month or any NSFAS funding will disqualify you from the SRD R370 grant. We have specific guides for both scenarios."
+        },
+        {
+          "question": "What if my situation changes after I'm approved?",
+          "answer": "You must report changes in income, employment, or household composition to SASSA. Failure to do so can result in overpayment recovery or cancellation."
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Unemployed Guide", "slug": "/eligibility/i-am-unemployed" },
-    { "title": "Over 60 Guide", "slug": "/eligibility/i-am-over-60" },
-    { "title": "Disability Guide", "slug": "/eligibility/i-am-disabled" },
-    { "title": "UIF Guide", "slug": "/eligibility/i-receive-uif" },
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Interactive Tools", "slug": "/tools" }
+    {
+      "title": "Unemployed Guide",
+      "slug": "/eligibility/i-am-unemployed"
+    },
+    {
+      "title": "Over 60 Guide",
+      "slug": "/eligibility/i-am-over-60"
+    },
+    {
+      "title": "Disability Guide",
+      "slug": "/eligibility/i-am-disabled"
+    },
+    {
+      "title": "UIF Guide",
+      "slug": "/eligibility/i-receive-uif"
+    },
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Interactive Tools",
+      "slug": "/tools"
+    }
   ]
 }

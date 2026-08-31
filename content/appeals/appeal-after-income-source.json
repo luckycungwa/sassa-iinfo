@@ -4,7 +4,7 @@
   "classification": "appeal-guide",
   "title": "Appealing a Decline Due to Alternative Income Source Detection",
   "description": "What to do when SASSA declines your grant saying you have an alternative income source but the deposits in your account are not actual income. Sworn affidavit and appeal strategy.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "Appealing a Decline Due to Alternative Income Source Detection",
       "description": "SASSA's automated bank audit can flag deposits in your account as alternative income. If those deposits are gifts, loans, or savings transfers, this guide shows you how to prepare a sworn affidavit and submit a successful appeal.",
       "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Appeal Your Income Source Decline",
         "href": "https://srd.dsd.gov.za"
@@ -49,12 +49,22 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "One of the most common SRD decline reasons is 'Alternative Income Source Detected'. This happens when SASSA's automated bank audit finds deposits in your account. If these deposits are not actual income, you need a specific appeal strategy."
+      "text": "One of the most common SRD decline reasons is 'Alternative Income Source Detected'. This happens when SASSA's automated bank audit finds deposits in your account. If these deposits are not actual income, you need a specific appeal strategy.",
+      "links": [
+        {
+          "text": "SRD",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SRD R370 grant applicants whose status shows 'Alternative Income Source Detected' because of bank account deposits."
+      "text": "If you see 'Alternative Income Source Detected' on your status, do not assume you did something wrong. SASSA's automated scans cannot tell the difference between a salary and a birthday gift, a loan from your mother, or the money you moved out of your own savings account. This guide shows you how to explain those deposits in a way the tribunal understands — so your money is not lost over a misunderstanding."
     },
     {
       "id": "steps-h",

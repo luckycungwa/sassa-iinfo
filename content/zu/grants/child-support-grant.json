@@ -1,0 +1,902 @@
+{
+  "id": "grant-child-support",
+  "slug": "/grants/child-support-grant",
+  "classification": "grant-detail",
+  "title": "Isibonelelo Sengane",
+  "description": "Isibonelelo Sengane se-SASSA sinikeza R580 ngenyanga ngengane kubanakekeli abahlangabezana nezidingo zokuhlolwa kwezimali.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "readingTime": "Ukufunda kwemizuzu engama-24",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Isibonelelo Sengane — R580/Ngenyanga & Indlela Yokufaka Isicelo (2026)",
+    "metaDescription": "Isibonelelo Sengane sikhokha R580/ngenyanga ngo-2026. Bheka ukufaneleka nokuhlolwa kwezimali, bese ulandela umhlahlandlela wokufaka isicelo ngesinyathelo ngesinyathelo we-SASSA wengane yakho.",
+    "keywords": [
+      "isibonelelo sengane",
+      "isibonelelo sengane se-SASSA",
+      "isibonelelo sengane eNingizimu Afrika",
+      "imali engenayo yokuhlolwa kwezimali",
+      "isicelo se-CSG"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Child Support Grant"
+    }
+  },
+  "sources": [
+    {
+      "label": "Iwebhusayithi Esemthethweni ye-SASSA",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "UMnyango Wezokuthuthukiswa Komphakathi",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "Ukubuyekezwa Kwesabelomali Somnyango Wezezimali 2026",
+      "url": "https://www.treasury.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Isibonelelo Sengane",
+      "description": "Umhlahlandlela ophelele weSASSA Isibonelelo Sengane: R580 ngengane, imikhawulo yokuhlolwa kwezimali, okubhekwayo njengemali engenayo, amadokhumenti adingekayo, izinyathelo zokufaka isicelo, nokufaka izikhalazo.",
+      "readingTime": "Ukufunda kwemizuzu engama-24",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Bheka Ukufaneleka",
+        "href": "/eligibility"
+      },
+      "secondaryCta": {
+        "label": "Indlela Yokufaka Isicelo",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R580 ngenyanga ngengane",
+      "frequency": "Kanyanga zonke (imali eyengeziwe ingase isebenze ezinganeni eziyizintandane — qinisekisa inani lamanje ne-SASSA)",
+      "targetGroup": "Abanakekeli abayinhloko bezingane ezingaphansi kweminyaka engu-18 abahlangabezana nezidingo zokuhlolwa kwezimali."
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "Isibonelelo Sengane se-SASSA yisibonelelo somphakathi esitholwa kakhulu eNingizimu Afrika. Sinikeza inkokhelo yanyanga zonke ukusiza abanakekeli babhekele izindleko zokukhulisa ingane. Uma ungomnakekeli oyinhloko wengane engaphansi kweminyaka engu-18 futhi imali yakho engenayo ingaphansi komkhawulo wokuhlolwa kwezimali, kungenzeka ukuthi uyafaneleka.",
+      "links": [
+        {
+          "text": "ukuhlolwa kwezimali",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
+    },
+    {
+      "id": "child-topup-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Imali Eyengeziwe Yesibonelelo Sengane Yezintandane"
+    },
+    {
+      "id": "child-topup-paragraph",
+      "type": "paragraph",
+      "text": "Uma ingane ilahlekelwe womabili abazali, noma womabili abazali basejele, basesikhungweni sezempilo yengqondo, noma bengatholakala, ungafaneleka kwimali eyengeziwe yesibonelelo Sengane. Lokhu kukhokha imali eyengeziwe phezu kwe-R580 ejwayelekile. Inani eliqondile lishintshe ngokuhamba kwesikhathi futhi liyingxenye yezingxoxo zomphakathi, ngakho qinisekisa inani lamanje ne-SASSA ngaphambi kokuthembela kulo."
+    },
+    {
+      "id": "eligibility-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibandela Yokufaneleka"
+    },
+    {
+      "id": "eligibility",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "Kumele ube umnakekeli oyinhloko wengane (umzali wemvelo, ugogo, isihlobo, noma nanoma ngubani onakekela ingane).",
+        "Ingane kumele ibe ngaphansi kweminyaka engu-18.",
+        "Kumele ube isakhamuzi saseNingizimu Afrika, isihlali sokuhlala unomphela, noma umbaleki.",
+        "Kumele uhlangabezane nokuhlolwa kwezimali: abanakekeli abangashadile abahola R69,600 noma ngaphansi ngonyaka (cishe R5,800 ngenyanga), noma abashadile abahola R139,200 noma ngaphansi bebonke (cishe R11,600 ngenyanga).",
+        "Ingane kumele ihlale nawe eNingizimu Afrika.",
+        "Akumelwe ukhokhelwe umholo ukunakekela ingane (isb. isibonelelo somzali wokondla sihlukile)."
+      ],
+      "restrictions": [
+        "Awukwazi ukuthola isibonelelo sezingane ezingaphezu kweziyisithupha ngesikhathi sinye.",
+        "Ingane ayikwazi ukunakekelwa esikhungweni esixhaswa nguhulumeni isikhathi esingaphezu kwezinyanga eziyisithupha.",
+        "Akumelwe uthole esinye isibonelelo saleyo ngane.",
+        "Ingane akumelwe ishade noma ihlale ngokuzimela."
+      ],
+      "recommendedGrants": [
+        {
+          "name": "Isibonelelo Sengane Yokondliwa",
+          "slug": "/grants/foster-care-grant",
+          "amount": "R1,295"
+        },
+        {
+          "name": "Isibonelelo Sokuncika Ekunakekelweni",
+          "slug": "/grants/care-dependency-grant",
+          "amount": "R2,400"
+        }
+      ]
+    },
+    {
+      "id": "means-test-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Yini Ebhekwa Njengemali Engenayo Ekuhlolweni Kwezimali?"
+    },
+    {
+      "id": "means-test-intro",
+      "type": "paragraph",
+      "text": "Esinye sezingxenye ezidida kakhulu zesicelo sesibonelelo Sengane ukuhlolwa kwezimali. Abanakekeli abaningi abaqiniseki ukuthi imali engenayo engekho emthethweni eyalelwe yini ukuthi imenyezelwe. Impendulo emfushane: yebo, imali engenayo eminingi iyabalwa. I-SASSA ifuna ukwazi ngawo wonke amathombo emali engenayo engena emndenini wakho, ngisho noma ingajwayelekile noma ikhokhelwa ukheshi. Ngezansi kukhona ukuhlukaniswa kwalokho okufakwayo nokungafakwayo."
+    },
+    {
+      "id": "means-test-table",
+      "type": "table",
+      "headers": [
+        "Uhlobo Lwemali Engenayo",
+        "Iyabalwa?",
+        "Isibonelo Esisebenzayo"
+      ],
+      "rows": [
+        [
+          "Umholo osemthethweni noma amaholo",
+          "Yebo",
+          "Umsebenzi wesikhashana noma ogcwele onesilip esijwayelekile."
+        ],
+        [
+          "Imisebenzi eyizikhashana nomsebenzi wokuziphilisa",
+          "Yebo",
+          "Ukusebenza engadini, umsebenzi wasekhaya, umsebenzi wosuku, noma noma muphi umsebenzi wesikhashana okhokhelwa ukheshi."
+        ],
+        [
+          "Amathiphu namabhunuisi",
+          "Yebo",
+          "Amathiphu avela ekulindeni amatafula, ekugezeni izimoto, ekuqapheni izimoto, noma kumsebenzi wokuletha."
+        ],
+        [
+          "Imali yokondla evela komunye umzali",
+          "Yebo",
+          "Imali yokondla eza ngomyalelo wenkantolo noma inani elivunyelwene ngalo lanyanga zonke."
+        ],
+        [
+          "Usizo olujwayelekile oluvela emndenini",
+          "Yebo",
+          "Izipho zemali zanyanga zonke ezivela kumzali, umzalwane, noma isihlobo ukusiza ngezindleko."
+        ],
+        [
+          "Imali engenayo yebhizinisi elincane noma i-spaza shop",
+          "Yebo",
+          "Inzuzo evela ekuthengiseni izimpahla, ekuqhubeni ibhizinisi lasedolobheni, noma ekuthengiseni emgwaqweni."
+        ],
+        [
+          "Esinye isibonelelo se-SASSA egameni lakho",
+          "Cha",
+          "Isibonelelo sakho Sempesheni, Sokukhubazeka, noma esinye isibonelelo se-SASSA."
+        ],
+        [
+          "Izimali ezinkulu zesikhashana",
+          "Cha",
+          "Inkokhelo ye-UIF eyenziwa kanye, ibhonasi, noma ifa othole kanye kuphela."
+        ]
+      ],
+      "caption": "Indlela izinhlobo ezihlukene zemali engenayo ezithinta ngayo ukuhlolwa kwezimali"
+    },
+    {
+      "id": "means-test-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Memeza konke",
+      "text": "I-SASSA ingacela izitatimende zasebhange futhi ingase ivakashele ekhaya lakho ukuze iqinisekise isimo sakho sezimali. Uma utholakala ufihle imali engenayo, isibonelelo sakho singamiswa futhi ungacelwa ukukhokhele imali owayitholile. Kuhlale kungcono ukumenyezela yonke imali engenayo, ngisho noma ingajwayelekile noma ikhokhelwa ukheshi."
+    },
+    {
+      "id": "docs-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Amadokhumenti Adingekayo"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Ikhadi lakho likaSmart ID elinamakhodi ayi-13 noma incwadi eluhlaza yomazisi",
+          "required": true,
+          "notes": "Amakhadi omazisi esikhashana awamukelekile."
+        },
+        {
+          "label": "Isitifiketi sokuzalwa sengane (okuqala)",
+          "required": true,
+          "notes": "Uma ingane ingenaso isitifiketi sokuzalwa, letha isifungo esibhaliwe nobufakazi bokufakwa kwesicelo ku-Home Affairs."
+        },
+        {
+          "label": "Ubufakazi bemali engenayo (amaslip, izitatimende zasebhange, noma isifungo esibhaliwe uma ungenawo umsebenzi)",
+          "required": true,
+          "notes": "Izitatimende zezinyanga ezi-3 ezidlule uma unekhawunti yasebhange."
+        },
+        {
+          "label": "Ubufakazi bendlu yokuhlala (isikweletu sezinsiza, isivumelwano sokuqasha, noma incwadi evela kukhansela)",
+          "required": true,
+          "notes": "Kumele kubonise ikheli lakho langempela lamanje."
+        },
+        {
+          "label": "Ubufakazi besimo sokushada (isitifiketi somshado, umyalelo wesehlukaniso, noma isitifiketi sokufa somlingani)",
+          "required": false,
+          "notes": "Kudingeka kuphela uma ushadile noma usushade ngaphambilini."
+        },
+        {
+          "label": "Irikhodi yesikole noma ikhadi lomtholampilo sengane",
+          "required": false,
+          "notes": "Kuyasiza ukuqinisekisa iminyaka yengane nokuthi ifunda noma iya emtholampilo."
+        }
+      ]
+    },
+    {
+      "id": "steps-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokufaka Isicelo"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Qoqa amadokhumenti akho",
+          "description": "Qoqa wonke amadokhumenti okuqala abalwa ngenhla bese wenza amakhophi. I-SASSA ngeke yamukele umazisi ophelelwe isikhathi noma izifungo ezingasayiniwe."
+        },
+        {
+          "title": "Vakashela ihhovisi le-SASSA eliseduze",
+          "description": "Iya ehhovisi le-SASSA elisebenzela indawo yakho. Ungalithola ihhovisi eliseduze kuwe kwiwebhusayithi ye-SASSA noma ngokubuza e-Thusong Service Centre eseduze."
+        },
+        {
+          "title": "Gcwalisa ifomu lesicelo",
+          "description": "Isikhulu se-SASSA sizokusiza ugcwalise ifomu lesicelo. Uzodinga ukunikeza imininingwane yemali engenayo yasekhaya, yengane, nomzali wesibili wengane uma eyaziwa."
+        },
+        {
+          "title": "Nikeza izigxivizo zeminwe bese uthatha isithombe",
+          "description": "I-SASSA izothatha izigxivizo zakho zeminwe nesithombe njengengxenye yenqubo yesicelo. Ingane ingase idingeke futhi ukuthi ibekhona."
+        },
+        {
+          "title": "Linda umphumela",
+          "description": "I-SASSA inezinyanga ezifika kwezi-3 zokucubungula isicelo sakho. Izinkokhelo zibuyela emuva kusukela ngosuku owafaka ngaso isicelo, ngakho gcina irisidi lakho endaweni ephephe."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-caregiver-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukufaneleka Okuningiliziwe: Ubani Obalwa Njengomnakekeli?"
+    },
+    {
+      "id": "deepdive-caregiver-p1",
+      "type": "paragraph",
+      "text": "Isibonelelo Sengane sikhokhelwa umnakekeli oyinhloko wengane, hhayi ngokuzenzakalelayo umzali. I-SASSA igxile ekutheni ubani obheka ingane nsuku zonke. Lokhu ukwehlukanisa okubalulekile ngoba umzali wemvelo ongahlali nengane kungenzeka angabi umuntu ofanelekayo, kuyilapho ugogo, isihlobo, noma ngisho umuntu ongeyena isihlobo onakekela ingane engaba."
+    },
+    {
+      "id": "deepdive-caregiver-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Kumele ube umnakekeli oyinhloko: umuntu onesibopho esikhulu sokunakekela ingane nsuku zonke, ukudla, izingubo, nendawo yokuhlala.",
+        "Ungaba umzali wemvelo, ugogo, umzalwane omdala, umzala, usisi, umalume, noma omunye umuntu oziphethe kahle onakekela ingane.",
+        "Kumele ube isakhamuzi saseNingizimu Afrika, isihlali sokuhlala unomphela, noma umbaleki obonwayo ohlala eNingizimu Afrika.",
+        "Ingane kumele ihlale nawe eNingizimu Afrika njengengxenye yomndeni wakho.",
+        "Akumelwe ukhokhelwe umholo ukunakekela ingane (isibonelo, isibonelelo esisemthethweni sokondlwa siyisibonelelo esihlukile).",
+        "Isibonelelo silandela ingane, hhayi umnakekeli. Uma ingane ithuthela kohlala nomunye umuntu, isibonelelo singathuthelwa kumnakekeli oyinhloko omusha."
+      ]
+    },
+    {
+      "id": "deepdive-follows-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Isibonelelo silandela ingane",
+      "text": "Uma ukunakekela ingane kushintshela komunye umuntu, isibonelelo sidluliselwa kumnakekeli oyinhloko omusha esikhundleni sokuthi sivele sime. I-SASSA izoqinisekisa uhlelo olusha lokuhlala ngaphambi kokuhambisa inkokhelo."
+    },
+    {
+      "id": "deepdive-arrangements-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iminyaka Yengane Nohlelo Lokuhlala"
+    },
+    {
+      "id": "deepdive-arrangements-p1",
+      "type": "paragraph",
+      "text": "Ingane kumele ibe ngaphansi kweminyaka engu-18. Isibonelelo senzelwe ukusekela izingane ezisengancancile futhi ezihlala esimweni somndeni noma sekhaya. Ingane eshadile, ehlala ngokuzimela ngokuphelele, noma ehlala unomphela esikhungweni esixhaswa nguhulumeni ngokuvamile ayifaneleki."
+    },
+    {
+      "id": "deepdive-arrangements-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ngaphansi kwe-18: Ingane kumele ibe ngaphansi kweminyaka engu-18 lapho isibonelelo sikhokhwa.",
+        "Ukuhlala nawe: Ingane kumele ihlale nawe. Ukuvakasha kwesikhashana komunye umzali akukuphezi isibonelelo.",
+        "Hhayi esikhungweni sikahulumeni: Uma ingane inakekelwa esikhungweni esixhaswa nguhulumeni isikhathi esingaphezu kwezinyanga eziyisithupha, isibonelelo ngokuvamile siyayeka.",
+        "Ukuya esikoleni nasemtholampilo: I-SASSA ilindela ukuthi izingane eziseminyakeni yokufunda zibe zifunda (noma umtholampilo ezinganeni ezincane) futhi ingase icele ubufakazi."
+      ]
+    },
+    {
+      "id": "deepdive-foster-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isibonelelo Sengane Ngokuqhathaniswa Nesibonelelo Sengane Yokondliwa"
+    },
+    {
+      "id": "deepdive-foster-p1",
+      "type": "paragraph",
+      "text": "Abanakekeli bavame ukudideka phakathi kwesibonelelo sengane nesibonelelo sengane yokondliwa. Ziyahlukile: isibonelelo sengane yokondliwa sikhokhelwa lapho inkantolo ibeka ingane ekunakekelweni kwakho kokondlwa, futhi asisekelwe emalini yakho engenayo. Isibonelelo Sengane sisekelwe ekuhlolweni kwezimali komnakekeli. Uma ingane ifakwe ngokusemthethweni ekunakekelweni kokondlwa, buza ehhovisi le-SASSA ukuthi yiliphi isibonelelo esisebenzayo, ngoba awukwazi ukuthola kokubili ngenye ingane."
+    },
+    {
+      "id": "deepdive-foster-table",
+      "type": "comparison-table",
+      "headers": [
+        "Isibonelelo",
+        "Inani (2026)",
+        "Oselenzelwe",
+        "Umehluko obalulekile"
+      ],
+      "rows": [
+        [
+          "Isibonelelo Sengane",
+          "R580 ngengane ngenyanga",
+          "Umnakekeli oyinhloko wengane engaphansi kwe-18",
+          "Sisekelwe ekuhlolweni kwezimali komnakekeli; silandela ingane"
+        ],
+        [
+          "Isibonelelo Sengane Yokondliwa",
+          "Inani elingaphezulu elingaguquki",
+          "Ingane ebekwe ekunakekelweni kwakho ngomyalelo wenkantolo",
+          "Alisekelwe ekuhlolweni kwezimali komnakekeli; kudingeka umyalelo wenkantolo"
+        ],
+        [
+          "Isibonelelo Sokuncika Ekunakekelweni",
+          "R2,400 ngenyanga",
+          "Ingane ekhubazekile kakhulu edinga ukunakekelwa ngokugcwele",
+          "Ingane kumele ihlolwe njengedinga ukunakekelwa okuqhubekayo"
+        ]
+      ],
+      "caption": "Indlela isibonelelo sengane esihluke ngayo kwezinye izibonelelo ezihlobene"
+    },
+    {
+      "id": "deepdive-meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuhlolwa Kwezimali Kwango-2026"
+    },
+    {
+      "id": "deepdive-meanstest-p1",
+      "type": "paragraph",
+      "text": "Kwesibonelelo Sengane, ukuhlolwa kwezimali kubheka imali engenayo kuphela, hhayi izimpahla. Imali engenayo yomnakekeli kumele ibe ngaphansi komkhawulo wesibonelelo esigcwele. Ngaphezu komkhawulo, isibonelelo siyancishiswa ngesikali esishibilikayo esikhundleni sokwenqatshwa ngokuphelele. Izibalo ngezansi yimikhawulo ka-2026; qinisekisa kuziteshi ezisemthethweni ze-SASSA ngoba zingashintsha unyaka ngamunye wesabelomali."
+    },
+    {
+      "id": "deepdive-meanstest-table",
+      "type": "table",
+      "headers": [
+        "Isimo",
+        "Umkhawulo wemali engenayo wesibonelelo esigcwele",
+        "Ngaphezu komkhawulo"
+      ],
+      "rows": [
+        [
+          "Umnakekeli oyinhloko ongashadile",
+          "~R5,800 ngenyanga",
+          "Isibonelelo siyancishiswa ngesikali esishibilikayo (cishe R1 kancane kwi-R2 ngayinye yemali engenayo engaphezulu komkhawulo)"
+        ],
+        [
+          "Umkhaya oshadile (kuhlanganisiwe)",
+          "~R11,600 ngenyanga",
+          "Isibonelelo siyancishiswa ngesikali esishibilikayo ngendlela efanayo"
+        ]
+      ],
+      "caption": "Izinga lokuhlolwa kwezimali lesibonelelo sengane ngo-2026"
+    },
+    {
+      "id": "deepdive-meanstest-examples",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isibonelo 1 (ongashadile): UNomsa uhola R5,500/ngenyanga. Lokhu kungaphansi komkhawulo, ngakho uthola i-R580/ngenyanga ephelele yengane osendleleni yakho.",
+        "Isibonelo 2 (ongashadile): UTheo uhola R6,300/ngenyanga, cishe nge-R500 ngaphezulu komkhawulo. Isibonelelo sakhe sishonellwa cishe nge-R250, ngakho uthola cishe R330/ngenyanga.",
+        "Isibonelo 3 (oshadile): Umkhaya onemali engenayo ehlanganisiwe ka-R11,000/ngenyanga ungaphansi komkhawulo futhi uthola isibonelelo esigcwele.",
+        "Isibonelo 4 (oshadile): Umkhaya onemali engenayo ehlanganisiwe ka-R12,600/ngenyanga ungenhla komkhawulo nge-R1,000, ngakho isibonelelo sishonellwa cishe nge-R500 sibe cishe R80/ngenyanga."
+      ]
+    },
+    {
+      "id": "deepdive-meanstest-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Akukho ukuhlolwa okusemthethweni kwezimpahla",
+      "text": "Ngokungafani nezibonelelo Sempesheni, Sokukhubazeka, nesabalandeli bezimpi, isibonelelo Sengane asisebenzisi ukuhlolwa okusemthethweni kwezimpahla. I-SASSA ibheka imali yakho engenayo, hhayi inani lekhaya lakho, imoto, noma imali oyongayo."
+    },
+    {
+      "id": "deepdive-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokufaka Isicelo: Ehhovisi Naku-Inthanethi"
+    },
+    {
+      "id": "deepdive-apply-office",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Qoqa amadokhumenti akho",
+          "description": "Qoqa umazisi wakho, isitifiketi sokuzalwa sengane, ubufakazi bemali engenayo, nobufakazi bendlu yokuhlala (bona uhlu ngenhla)."
+        },
+        {
+          "title": "Vakashela ihhovisi le-SASSA eliseduze",
+          "description": "Iya ehhovisi elisebenzela indawo yakho, noma buza e-Thusong Service Centre eseduze ngezinkomba."
+        },
+        {
+          "title": "Gcwalisa ifomu ngesikhulu",
+          "description": "Isikhulu se-SASSA sikusiza ugcwalise isicelo ngemininingwane yasekhaya, yemali engenayo, neyengane."
+        },
+        {
+          "title": "Nikeza izigxivizo bese gcina irisidi lakho",
+          "description": "Izigxivizo zakho zeminwe nesithombe kuyathathwa. Gcina irisidi elinesitembu; izinkokhelo zibuyela emuva kusukela ngosuku lokufaka isicelo uma uvunyiwe."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-apply-p1",
+      "type": "paragraph",
+      "text": "Abanakekeli abaningi basafaka izicelo ngokuqondile, kodwa i-SASSA iqhubekile nokwandisa izinsizakalo zaku-inthanethi. Lapho indlela yaku-inthanethi itholakala kwisibonelelo sakho, ungaqala isicelo ku-services.sassa.gov.za, ulayishe amadokhumenti akho, bese ulandelela umphumela. Uma ukufaka isicelo ku-inthanethi kungakavuleki kwesibonelelo Sengane endaweni yakho, sebenzisa indlela yasehhovisi ngenhla."
+    },
+    {
+      "id": "deepdive-apply-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Usizo luyatholakala",
+      "text": "Uma ungakwazi ukuhamba, isisebenzi senhlalakahle noma isikhulu se-SASSA singase sikwazi ukukusiza ngokuvakasha ekhaya noma ngokuhlela isicelo egameni lengane. Buza ehhovisi lendawo."
+    },
+    {
+      "id": "deepdive-payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Inkokhelo Iya Kumnakekeli"
+    },
+    {
+      "id": "deepdive-payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Imali ikhokhelwa umnakekeli oyinhloko, hhayi ingane futhi hhayi omunye umzali wengane.",
+        "Inkokhelo ngokuvamile yenziwa ngokufaka imali ebhange ekhawuntini yomnakekeli, noma ngekhadi le-SASSA ezindaweni zokukhokha ezitolo.",
+        "Isibonelelo kumele sisetshenziselwe izidingo zengane: ukudla, izingubo, izindleko zesikole, nezempilo."
+      ]
+    },
+    {
+      "id": "deepdive-orphan-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Imali Eyengeziwe Yezintandane"
+    },
+    {
+      "id": "deepdive-orphan-p1",
+      "type": "paragraph",
+      "text": "Lapho ingane ilahlekelwe womabili abazali, noma womabili abazali basejele, basesikhungweni sezempilo yengqondo, noma bengatholakala, umnakekeli angafaneleka emalini eyengeziwe ekhokhwa phezu kwesibonelelo sengane esijwayelekile. Inani eliqondile lokwengezwa lishintshile ngokuhamba kwesikhathi futhi kwesinye isikhathi libe yingxoxo emphakathini, ngakho asisho inani elilodwa elingaguquki lapha. Hlala uqinisekisa inani lamanje lokwengezwa kwiwebhusayithi esemthethweni ye-SASSA noma ehhovisi le-SASSA eliseduze ngaphambi kokuthembela kulo."
+    },
+    {
+      "id": "deepdive-orphan-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Qinisekisa inani lamanje lokwengezwa ne-SASSA",
+      "text": "Ngoba inani lokwengezwa lezintandane lingalungiswa nguNgqongqoshe Wezokuthuthukiswa Komphakathi, phatha noma yiliphi inani elithile emali ofuna ukulibona kwenye indawo njengesithombe sesikhathi, hhayi isiqinisekiso. Iziteshi ezisemthethweni ze-SASSA zishicilela inani elisebenza ngonyaka wamanje."
+    },
+    {
+      "id": "deepdive-turns18-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Kwenzekani Uma Ingane Igcwalisa Iminyaka Engu-18"
+    },
+    {
+      "id": "deepdive-turns18-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isibonelelo Sengane siphela enyangeni elandela ukuba ingane igcwalise iminyaka engu-18.",
+        "Uma umuntu omncane esafunda esikoleni noma emfundweni ephakeme, buza i-SASSA ukuthi ngabe kukhona yini ukusekelwa okuqhubekayo okusebenzayo; isibonelelo esijwayelekile asenzele ukwelula ngokuzenzakalelayo.",
+        "Azise i-SASSA ngaphambi kosuku lokuzalwa ukuze inkokhelo iyeke ngendlela efanele futhi ugweme ukukhokhelwa ngokweqile okungadinga ukubuyiselwa.",
+        "Umuntu omncane onenkinga yokunakekelwa noma okhubazekile angafaneleka kwesinye isibonelelo egameni lakhe; buza ehhovisi ngezinketho."
+      ]
+    },
+    {
+      "id": "deepdive-suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukumiswa Nokukhanselwa"
+    },
+    {
+      "id": "deepdive-suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isibonelelo singamiswa uma ingane iyeka ukuhlala nawe, iyeka ukuya esikoleni ngaphandle kwesizathu esifanele, noma uma imali yakho engenayo ikhuphuka ngaphezu komkhawulo.",
+        "Singakhanselwa uma ingane igcwalisa iminyaka engu-18, ishada, ithuthela esikhungweni sikahulumeni, noma umsebenzi wokunakekela udluliselwa komunye umuntu.",
+        "Uma ukholelwa ukuthi ukumiswa akulungile, thatha ubufakazi bakho (incwadi yesikole, ikhadi lomtholampilo, imali engenayo ebuyekeziwe) uye ehhovisi le-SASSA ukuze ucele ukubuyiselwa.",
+        "I-SASSA ingabuyisa izinkokhelo ezingalungile ngezikhawu ezincane ezibonelweni ezizayo."
+      ]
+    },
+    {
+      "id": "deepdive-appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Izikhalazo: Okufanele Ukwenze Uma Wenqatshwa"
+    },
+    {
+      "id": "deepdive-appeals-p1",
+      "type": "paragraph",
+      "text": "Uma isicelo sakho seSibonelelo Sengane sinqatshiwe, ungafaka isikhalazo. Izicelo ezenqatshiwe zibuyekezwa yi-Tribunal Ezimele Yezikhalazo Zosizo Lwezenhlalakahle (ITSAA). Ezibonelweni ezingewona isibonelelo se-SRD, ungafaka isikhalazo ngehhovisi le-SASSA noma ngokubhala kuMnyango Wezokuthuthukiswa Komphakathi."
+    },
+    {
+      "id": "deepdive-appeals-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Funda incwadi yakho yesinqumo",
+          "description": "Incwadi ichaza ukuthi kungani wenqatshiwe nomkhawulo wesikhathi wokufaka isikhalazo."
+        },
+        {
+          "title": "Faka isikhalazo phakathi kwezinsuku ezingama-30",
+          "description": "Faka isikhalazo phakathi kwezinsuku ezingama-30 kusukela esinqumweni. Iphaneli yokufaka izikhalazo yaku-inthanethi yamukela izikhalazo kuze kube izinsuku ezingama-90 kusukela ngosuku lokunqatshwa."
+        },
+        {
+          "title": "Thumela isikhalazo sakho nobufakazi",
+          "description": "Chaza ukuthi kungani ungavumelani bese unamathisela ubufakazi obusha njengamarekhodi emali engenayo abuyekeziwe, isitifiketi sokuzalwa sengane, noma incwadi yokuya esikoleni."
+        },
+        {
+          "title": "Linda umphumela wetribhinali",
+          "description": "I-Tribunal Ezimele ibuyekeza udaba lwakho. Uma kuvunyelwa, isibonelelo siyagunyazwa futhi ngokuvamile sibuyiselwa emuva kusukela esicelweni sakho."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-appeals-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Thola usizo ngesikhalazo sakho",
+      "description": "Ungafaka isikhalazo ku-inthanethi ngephaneli yezinsizakalo ye-SASSA, ehhovisi le-SASSA eliseduze, noma ngokubhala kuMnyango Wezokuthuthukiswa Komphakathi. Isisebenzi senhlalakahle singakusiza ukuhlanganisa isikhalazo sakho."
+    },
+    {
+      "id": "deepdive-scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Zivikele Ekukhwabanisweni"
+    },
+    {
+      "id": "deepdive-scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "I-SASSA ayikaze icele ukukhokhwa ukuze igunyaze isibonelelo",
+      "text": "Qaphula kunoma ngubani ongakushayela, akuthumelele i-SMS, noma akuthumelele umlayezo ecela imali noma i-PIN yakho yasebhange ukuze kukhishwe isibonelelo Sengane. I-SASSA ayikhokhiseli ukufaka isicelo noma ukuvuma isibonelelo futhi ngeke ikucele i-PIN noma i-OTP yakho. Bika imilayezo ecatshangelwayo kuziteshi ezisemthethweni ze-SASSA."
+    },
+    {
+      "id": "deepdive-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Ukuhlolwa kwezimali kwesibonelelo sengane",
+          "href": "/grants/child-support-grant/means-test-detail",
+          "description": "Ukubukwa okujulile kokuthi ukuhlolwa kwemali engenayo kubalwa kanjani."
+        },
+        {
+          "title": "Isibonelelo Sengane Yokondliwa",
+          "href": "/grants/foster-care-grant",
+          "description": "Uma ingane ibekwe kuwe ngomyalelo wenkantolo."
+        },
+        {
+          "title": "Isibonelelo Sokuncika Ekunakekelweni",
+          "href": "/grants/care-dependency-grant",
+          "description": "Ingane ekhubazekile kakhulu edinga ukunakekelwa ngokugcwele."
+        },
+        {
+          "title": "Indlela yokufaka isikhalazo ngesinqumo se-SASSA",
+          "href": "/appeals",
+          "description": "Usizo ngesinyathelo ngesinyathelo ngenqubo yokufaka izikhalazo ye-Tribunal Ezimele."
+        },
+        {
+          "title": "Isibonelelo Se-SRD R370",
+          "href": "/grants/srd-r370-grant",
+          "description": "Usizo lwezenhlalakahle kubantu abadala abasebenzayo abangenamali engenayo."
+        },
+        {
+          "title": "Iphaneli yezinsizakalo ye-SASSA",
+          "href": "https://services.sassa.gov.za",
+          "description": "Faka isicelo ku-inthanethi bese ubheka isimo sesicelo sakho."
+        }
+      ]
+    },
+    {
+      "id": "your-other-grants-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isibonelelo Nokwesinye Isibonelelo Sakho Se-SASSA"
+    },
+    {
+      "id": "your-other-grants-p1",
+      "type": "paragraph",
+      "text": "Ukuthola Isibonelelo Sengane akukuvimbeli ukuthi uthole isibonelelo egameni lakho. Isibonelo, ugogo onakekela umzukulu angathola Isibonelelo Sempesheni ngoba wena kanye Isibonelelo Sengane sengane. Lezi zihlolwa zodwa, futhi ngasinye sinemithetho yaso nokuhlolwa kwezimali kwakho."
+    },
+    {
+      "id": "your-other-grants-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ungathola isibonelelo Sengane futhi ugcine esinye isibonelelo Sempesheni, Sokukhubazeka, noma Sabalandeli Bezimpi egameni lakho.",
+        "Awukwazi ukuthola kokubili isibonelelo Sengane kanye nesibonelelo Sengane Yokondliwa ngenye ingane.",
+        "Isibonelelo sakho asibalwa njengemali engenayo ekuhlolweni kwezimali kwengane, futhi isibonelelo sengane asibalwa njengemali engenayo kokwakho.",
+        "Uma izimo zakho zishintsha, buyekeza zombili izibonelelo, ngoba ngasinye sinokuhlolwa kwezimali kwaso nemithetho yaso."
+      ]
+    },
+    {
+      "id": "maintenance-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Imali Yokondla Evela Komunye Umzali"
+    },
+    {
+      "id": "maintenance-p1",
+      "type": "paragraph",
+      "text": "Omunye umzali wengane angase abe nesibopho esingokomthetho sokukhokha imali yokondla. Leyo mali yokondla ibalwa njengemali engenayo ekuhlolweni kwezimali, kodwa ukuyifuna akumisi isibonelelo Sengane. Isibonelelo nemali yokondla ziklanyelwe ukusebenza ndawonye ukusekela ingane. Uma unenkinga yokuthola imali yokondla, inkantolo yokondla ehhovisi likamantshi lendawo ingakusiza ukuphoqelela umyalelo."
+    },
+    {
+      "id": "spend-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukusebenzisa Isibonelelo Ezingidingweni Zengane"
+    },
+    {
+      "id": "spend-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ukudla nokusuthisa ingane.",
+        "Izimali zesikole, imifaniswano, izinto zokubhala, nokuthutha ukuya esikoleni.",
+        "Izingubo nezicathulo ezifanele isizini.",
+        "Ukunakekelwa kwezempilo, ukuvakasha emtholampilo, nemithi engakhawulelwanga kwenye indawo.",
+        "Indawo yokuhlala ephephe nezindleko zasekhaya ingane ehlanganyela kuzo."
+      ]
+    },
+    {
+      "id": "report-changes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukubika Izinguquko Ku-SASSA"
+    },
+    {
+      "id": "report-changes-p1",
+      "type": "paragraph",
+      "text": "Isibonelelo sakho sincike ekutheni ingane ihlala nawe nokuthi imali yakho engenayo ihleli ngaphakathi komkhawulo. Uma noma yikuphi kwalokhu kushintsha, tshela i-SASSA ngokushesha ukuze ukhokhelwe ngendlela efanele futhi ugweme ukukhokhelwa ngokweqile okungadinga ukuthi ukukhokhe kamuva."
+    },
+    {
+      "id": "report-changes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Imali yakho engenayo ikhuphuka ngaphezu komkhawulo wokuhlolwa kwezimali.",
+        "Ingane ithuthela kohlala komunye umuntu (isibonelelo kufanele sidluliselwe kumnakekeli omusha).",
+        "Ingane iyeka ukuya esikoleni ngaphandle kwesizathu esifanele.",
+        "Ushintsha ibhange lakho noma imininingwane yokuxhumana.",
+        "Ingane igcwalisa iminyaka engu-18 noma iyashada."
+      ]
+    },
+    {
+      "id": "report-changes-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Bika izinguquko kusenesikhathi",
+      "text": "Uma ungazisi i-SASSA ngoshintsho oluthinta isibonelelo, ungakhokhelwa ngokungalungile bese ucelwa ukukhokhela imali kamuva. Ukubika ngokushesha kukuvikela kanye nengane."
+    },
+    {
+      "id": "transfer-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uma Ukunakekelwa Kwengane Kudluliselwa Komunye Umuntu"
+    },
+    {
+      "id": "transfer-p1",
+      "type": "paragraph",
+      "text": "Izinhlelo zokuhlala zezingane ziyashintsha. Uma ingane ithuthela kohlala nesihlobo, umzali wokondla, noma omunye umnakekeli, isibonelelo Sengane kufanele sihambise nengane. I-SASSA izoqinisekisa uhlelo olusha futhi ingase icele isicelo esisha kumuntu osenomsebenzi oyinhloko wokunakekela."
+    },
+    {
+      "id": "transfer-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Tshela i-SASSA ngokuthuthela",
+          "description": "Bika ushintsho ehhovisi lendawo ukuze izinkokhelo zibuyekezwe futhi kutholakale umnakekeli olungile."
+        },
+        {
+          "title": "Umnakekeli omusha ufaka isicelo noma uqhubeka athathe",
+          "description": "Umnakekeli omusha unikeza umazisi wakhe, ubufakazi bendlu yokuhlala, nobufakazi bokuthi ingane ihlala naye."
+        },
+        {
+          "title": "I-SASSA iyaqinisekisa bese idlulisela",
+          "description": "Uma ukuqinisekisa kuqediwe, isibonelelo sikhokhelwa umnakekeli omusha kusukela ngosuku lokudlulisa, ngakho ukusekelwa kwengane kuyaqhubeka ngaphandle kwegesi elide."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Eminye Imibuzo? I-FAQ Yokujula"
+    },
+    {
+      "id": "deepdive-faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ithini inani lesibonelelo sengane ngo-2026?",
+          "answer": "Kusukela ngomhla ka-1 April 2026 isibonelelo singu-R580 ngenyanga ngengane ngayinye efanelekayo engaphansi kuka-18. Inani elingeziwe eliphakeme liyatholakala ezinganeni eziyizintandane ezinakekelweni zomnakekeli; qinisekisa inani lamanje lokwengezwa ne-SASSA."
+        },
+        {
+          "question": "Ubani ongaba umnakekeli?",
+          "answer": "Noma muphi umnakekeli oyinhloko angafaka isicelo: umzali wemvelo, ugogo, umzalwane omdala, isihlobo, noma umuntu ongeyena isihlobo oziphethe kahle oyinhloko enakekela ingane nsuku zonke. Isibonelelo sisekelwe ekutheni ubani onakekela ingane, hhayi nje ukuthi ubani umzali."
+        },
+        {
+          "question": "Ingabe ingane kumele ihlale nami?",
+          "answer": "Yebo. Ingane kumele ihlale nawe njengengxenye yomndeni wakho eNingizimu Afrika. Isibonelelo silandela ingane, ngakho uma ukunakekelwa kushintsha ngezandla, inkokhelo ingathuthelwa kumnakekeli omusha."
+        },
+        {
+          "question": "Ithini ukuhlolwa kwezimali komnakekeli ongashadile?",
+          "answer": "Ngo-2026, umnakekeli oyinhloko ongashadile onemali engenayo engaphansi kuka-R5,800 ngenyanga uthola isibonelelo esigcwele. Ngaphezu kwalokho, isibonelelo siyancishiswa ngesikali esishibilikayo esikhundleni sokwenqatshwa."
+        },
+        {
+          "question": "Ithini ukuhlolwa kwezimali kubantu abashadile?",
+          "answer": "Imali engenayo ehlanganisiwe engaphansi kuka-R11,600 ngenyanga inikeza isibonelelo esigcwele. Ngaphezu kwalokho isibonelelo siyancipha ngesikali esishibilikayo ngendlela efanayo nomnakekeli ongashadile."
+        },
+        {
+          "question": "Ingabe kukhona ukuhlolwa kwezimpahla?",
+          "answer": "Cha. Ukuhlolwa kwezimali kwesibonelelo sengane kubheka imali engenayo kuphela. Ikhaya lakho, imoto, nemali oyongayo ayibalwa, ngokungafani nezibonelelo Sempesheni noma Sokukhubazeka."
+        },
+        {
+          "question": "Ngingasithola yini isibonelelo sezingane ezingaphezu kweyodwa?",
+          "answer": "Yebo, ungathola isibonelelo sezingane ezingaphezu kweyodwa ezinganeni ozinakekelayo, kuze kufike kumkhawulo wezingane eziyisithupha kumnakekeli ngamunye. Ngaphezu kwalokho, buza ehhovisi mayelana nezinye izinketho ezifana nesibonelelo Sengane Yokondliwa."
+        },
+        {
+          "question": "Kuthiwani uma womabili abazali befaka isicelo ngenye ingane?",
+          "answer": "I-SASSA ikhokha isibonelelo esisodwa kuphela ngengane. Uma abantu ababili befisa isibonelelo, i-SASSA iphenya ukuthi ubani umnakekeli oyinhloko futhi ikhokhe umuntu onikeza ukunakekelwa okuningi."
+        },
+        {
+          "question": "Ingabe kufanele ngimenyezele imali engenayo ekhokhelwa ukheshi nengajwayelekile?",
+          "answer": "Yebo. Yonke imali engenayo iyabalwa, kuhlanganise nomsebenzi okhokhelwa ukheshi, amathiphu, imali yokondla evela komunye umzali, nokusekwa okujwayelekile okuvela emndenini. Kuphela esinye isibonelelo sakho se-SASSA nezimali ezinkulu ezenza kanye ezingafakwa."
+        },
+        {
+          "question": "Ngingafaka isicelo ku-inthanethi?",
+          "answer": "I-SASSA iyandisa izicelo zaku-inthanethi nge-services.sassa.gov.za. Lapho indlela itholakala kwisibonelelo sakho, ungafaka isicelo futhi ulayishe amadokhumenti ku-inthanethi; ngaphandle kwalokho faka isicelo ubuso nobuso ehhovisi le-SASSA eliseduze."
+        },
+        {
+          "question": "Kuthathekisa isikhathi esingakanani isicelo?",
+          "answer": "Izicelo eziningi zicutshungulwa phakathi kwezinyanga ezintathu. Uma uvunyiwe, izinkokhelo zibuyela emuva kusukela ngosuku owafaka ngaso isicelo, ngakho gcina irisidi lakho."
+        },
+        {
+          "question": "Yimaphi amadokhumenti engiwadingayo?",
+          "answer": "Udinga umazisi wakho, isitifiketi sokuzalwa sengane, ubufakazi bemali engenayo (nezitatimende zasebhange zezinyanga ezi-3 ezidlule uma unekhawunti), nobufakazi bendlu yokuhlala. Idokhumenti yomshado noma yokuhlukanisa iyadingeka kuphela uma isebenza kuwe."
+        },
+        {
+          "question": "Imali ikhokhwa kanjani?",
+          "answer": "Isibonelelo sikhokhelwa umnakekeli oyinhloko, ngokuvamile ngokufakwa kwemali ebhange noma ngekhadi le-SASSA ezindaweni zokukhokha ezitolo. Kumele isetshenziselwe izidingo zengane."
+        },
+        {
+          "question": "Ithini imali eyengeziwe yezintandane?",
+          "answer": "Iyimali ekhokhwa phezu kwesibonelelo esijwayelekile lapho ingane ilahlekelwe womabili abazali noma womabili abazali bengatholakala noma basejele noma basesikhungweni sezempilo yengqondo. Inani eliqondile liyashintsha, ngakho liqinisekise ne-SASSA."
+        },
+        {
+          "question": "Kwenzekani uma ingane igcwalisa iminyaka engu-18?",
+          "answer": "Isibonelelo siphela enyangeni elandela ukuba ingane igcwalise iminyaka engu-18. Tshela i-SASSA ngaphambi kwalokho ukuze izinkokhelo ziyeke ngendlela efanele. Buza ngolunye usizo uma umuntu omncane esafunda noma ekhubazekile."
+        },
+        {
+          "question": "Singamiswa yini isibonelelo?",
+          "answer": "Yebo, isibonelo uma ingane iyeka ukuhlala nawe, iyeka ukuya esikoleni ngaphandle kwesizathu, noma imali yakho engenayo ikhuphuka ngaphezu komkhawulo. Thatha ubufakazi bakho uye ehhovisi le-SASSA ukuze ucele ukubuyiselwa."
+        },
+        {
+          "question": "Ngifaka kanjani isikhalazo ngenqatshwa?",
+          "answer": "Faka isikhalazo ku-Tribunal Ezimele Yezikhalazo Zosizo Lwezenhlalakahle (ITSAA) phakathi kwezinsuku ezingama-30 (iphaneli yaku-inthanethi yamukela kuze kube izinsuku ezingama-90). Ungafaka isikhalazo ku-inthanethi, ehhovisi le-SASSA, noma ngokubhala kuMnyango Wezokuthuthukiswa Komphakathi."
+        },
+        {
+          "question": "Ngingasithola yini isibonelelo sengane nesibonelelo sempesheni ngesikhathi sinye?",
+          "answer": "Yebo. Umnakekeli angabamba isibonelelo egameni lakhe, njengesibonelelo Sempesheni, futhi athole nesibonelelo Sengane sengane esendleleni yakhe. Ngasinye sihlolwa ngokwehlukana."
+        },
+        {
+          "question": "Ingabe imali yokondla evela komunye umzali ibalwa njengemali engenayo?",
+          "answer": "Yebo, imali yokondla eyalwa inkantolo noma evunyelwene ngayo ibalwa njengemali engenayo ekuhlolweni kwezimali. Kodwa ukuthola imali yokondla akukhanseli isibonelelo; lezi zinsiza ezimbili zimele zisebenze ndawonye ekusekeleni ingane."
+        },
+        {
+          "question": "Ngingasithola yini isibonelelo uma ngisathola isibonelelo sengane yokondliwa kwenye ingane?",
+          "answer": "Yebo, ungathola isibonelelo Sengane Yokondliwa sengane ethile nesibonelelo Sengane sengane ehlukile. Awukwazi ukuthola kokubili ngenye ingane."
+        },
+        {
+          "question": "Kuthiwani uma omunye umzali wengane naye efaka isicelo?",
+          "answer": "I-SASSA ikhokha isibonelelo esisodwa kuphela ngengane. Uma abantu ababili befaka isicelo, i-SASSA inquma ukuthi ubani umnakekeli oyinhloko bese ikhokha lowo muntu. Nikeza ubufakazi bokufunda, bomtholampilo, nokuhlala kwakho ukuze ubukeze isikhundla sakho."
+        },
+        {
+          "question": "Ingabe isibonelelo siyathinteka uma ngenekhawunti yasebhange?",
+          "answer": "Cha. Ukuba nekhawunti yasebhange kuhle futhi ukufakwa kwemali ebhange yiyona ndlela yokukhokha etuswayo. Umane unikeze imininingwane yakho yasebhange; ikhawunti ayibalwa njengempahla ngalesi sibonelelo ngoba akukho ukuhlolwa kwezimpahla."
+        },
+        {
+          "question": "Ingabe umuntu ongeyona isihlobo angaba umnakekeli?",
+          "answer": "Yebo. Noma muphi umuntu oziphethe kahle oyinhloko enakekela ingane angafaka isicelo, kuhlanganise nongeyena isihlobo. I-SASSA iqinisekisa ukuthi ingane ihlala ngempela nawe nokuthi unesibopho esikhulu sokuyinakekela."
+        },
+        {
+          "question": "Kwenzekani uma ngingabiki ushintsho lwemali engenayo?",
+          "answer": "Uma i-SASSA kamuva ithola ukuthi ubungenhla komkhawulo, isibonelelo singamiswa futhi ungacelwa ukukhokhele imali ekhokhwe ngokweqile ngezikhawu. Ukubika izinguquko kusenesikhathi kukuvikela lokhu."
+        },
+        {
+          "question": "Ingabe isibonelelo singakhokhelwa omunye umzali wengane esikhundleni sami?",
+          "answer": "Isibonelelo sikhokhelwa umnakekeli oyinhloko, noma ngubani lowo. Uma ingane ithuthela kohlala nomunye umzali, isibonelelo singathuthela kuye ngemuva kokuthi i-SASSA iqinisekisile uhlelo olusha lokuhlala."
+        },
+        {
+          "question": "Ingabe ngidinga isitifiketi sokuzalwa sengane?",
+          "answer": "Yebo, isitifiketi sokuzalwa sokuqala siyadingeka. Uma ingane singenalo, letha isifungo esibhaliwe nobufakazi bokufakwa kwesicelo ku-Home Affairs; i-SASSA ingakusiza ngenkathi isitifiketi sicubungulwa."
+        }
+      ]
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibuzo Ejwayelekile"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Mina nowayekade engumlingani wami sobabili safaka isicelo sesibonelelo sengane yethu. Kwenzekani?",
+          "answer": "I-SASSA izokhokha isibonelelo esisodwa kuphela ngengane. Uma abantu ababili befake isicelo ngenye ingane, i-SASSA izophenya ukuthi ubani umnakekeli oyinhloko. Isibonelelo siya kumuntu onikeza ukunakekelwa okuningi kwengane."
+        },
+        {
+          "question": "Ngenza imisebenzi eyizikhashana futhi ngihola ngezandla. Ngidinga ukumenyezela lokho?",
+          "answer": "Yebo. Yonke imali engenayo iyabalwa ekuhlolweni kwezimali, kuhlanganise nezinkokhelo ezikhokhelwa ukheshi, amathiphu, nomsebenzi ongajwayelekile. Incazelo ye-SASSA yemali engenayo ibanzi. Uma ungamenyezeli imali engenayo ekhokhelwa ukheshi bese i-SASSA iyithola, isibonelelo sakho singakhanselwa futhi ungadingeka ukukhokhele imali."
+        },
+        {
+          "question": "Ngingafaka isicelo uma ngingeyena umzali wemvelo?",
+          "answer": "Yebo. Isibonelelo senzelwe umnakekeli oyinhloko, hhayi nje umzali wemvelo. Ogogo, obhambane, omalume, abafowethu abadala, ngisho nabangewona izihlobo bangafaka isicelo uma ngibo abanakekela ingane."
+        },
+        {
+          "question": "Kwenzekani uma ingane yami iyeka ukuya esikoleni?",
+          "answer": "I-SASSA idinga ukuthi izingane ezithola isibonelelo ziye esikoleni njalo (noma umtholampilo ezinganeni ezincane). Uma ingane yakho iyeka ukuya esikoleni ngaphandle kwesizathu esifanele, i-SASSA ingamisa isibonelelo. Gcina incwadi yokuya esikoleni noma ikhadi lomtholampilo endaweni ephephe."
+        },
+        {
+          "question": "Ngingasithola yini isibonelelo sezingane ezingaphezu kweziyisithupha?",
+          "answer": "Cha. Umkhawulo wezingane eziyisithupha kumnakekeli ngamunye. Uma unakekela izingane ezingaphezu kweziyisithupha (isibonelo, izintandane ezihlobene nawe), buza ehhovisi le-SASSA ngesibonelelo Sengane Yokondliwa noma ezinye izinketho."
+        },
+        {
+          "question": "Ngilahlekelwe yikhadi lami le-SASSA. Ngizithola kanjani izinkokhelo zami?",
+          "answer": "Iya ehhovisi le-SASSA eliseduze nomazisi wakho bese ufaka isicelo sekhadi elishintshiwe. Kukhona imali encane yokushintsha. Ngenkathi ulinde, ungacela enye indlela yokukhokha ehhovisi. Ungamkhokheli umuntu ukuba asheshise ukushintsha — kungumsebenzi wamahhala we-SASSA."
+        }
+      ]
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Iwindi Lokufaka Isikhalazo Lezinsuku Ezingama-90",
+      "text": "Uma isicelo sakho seSibonelelo Sengane sinqatshiwe, unezinsuku ezingama-90 kusukela ngosuku owathola ngaso incwadi yenqaba ukuze ufake isikhalazo. Bhala kuNgqongqoshe Wezokuthuthukiswa Komphakathi uchaza ukuthi kungani ungavumelani nesinqumo. Faka noma yibuphi ubufakazi obusha obufana namarekhodi emali engenayo abuyekeziwe noma amadokhumenti ayifanele. Ungathola usizo ngesikhalazo sakho ehhovisi le-SASSA eliseduze noma kusisebenzi senhlalakahle."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Umtapo Wezibonelelo",
+      "slug": "/grants"
+    },
+    {
+      "title": "Isibonelelo Sengane Yokondliwa",
+      "slug": "/grants/foster-care-grant"
+    },
+    {
+      "title": "Isibonelelo Sokuncika Ekunakekelweni",
+      "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Imibuzo Ejwayelekile Yesibonelelo Sengane",
+      "slug": "/faq"
+    }
+  ]
+}

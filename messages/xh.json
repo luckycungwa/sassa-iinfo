@@ -1,0 +1,56 @@
+{
+  "Nav": {
+    "home": "Ikhaya",
+    "grants": "Izibonelelo",
+    "paymentDates": "Iintsuku zoKuhlawula",
+    "status": "Jonga iMe ko",
+    "appeals": "Izikhalazo",
+    "tools": "Izixhobo",
+    "guides": "Izikhokelo",
+    "about": "Malunga",
+    "contact": "Qhagamshelana"
+  },
+  "Common": {
+    "search": "Khangela",
+    "menu": "Imenyu",
+    "close": "Vala",
+    "backToHome": "Buyela eKhaya",
+    "lastUpdated": "Yahlaziywa okokugqibela",
+    "readMore": "Funda okungakumbi",
+    "loading": "Iyalayisha…"
+  },
+  "Tools": {
+    "title": "Izixhobo",
+    "eligibilityEngine": "I-Engine yokuFaneleka",
+    "eligibilityEngineDesc": "Fumana yonke imali onokuba uyifanele kwimizuzu engama-60.",
+    "meansTest": "Isibalo soVavanyo lweNgeniso",
+    "meansTestDesc": "Jonga ukuba umvuzo wakho uyafaneleka na.",
+    "calculate": "Bala",
+    "checkEligibility": "Jonga ukufaneleka"
+  },
+  "Home": {
+    "heroTitle": "Esona sikhokelo sicacileyo eMzantsi Afrika ngezibonelelo ze-SASSA",
+    "heroSubtitle": "Uncedo oluzimeleyo, lolwimi olulula ngezibonelelo, iintlawulo, izicelo nezikhalazo.",
+    "ctaPrimary": "Jonga ukufaneleka kwakho",
+    "ctaSecondary": "Jonga izibonelelo"
+  },
+  "Footer": {
+    "disclaimer": "Lo ngumthombo wolwazi ozimeleyo. Asidibani ne-SASSA okanye norhulumente waseMzantsi Afrika.",
+    "privacy": "Ubumfihlo",
+    "terms": "Imiqathango",
+    "disclaimerLink": "Isikhanyiso",
+    "editorial": "UMgaqo-nkqubo wabaHleli"
+  },
+  "NotFound": {
+    "title": "404",
+    "description": "Eli phepha alikho kwithala lethu lolwazi.",
+    "home": "Buyela eKhaya"
+  },
+  "Language": {
+    "label": "Ulwimi",
+    "en": "English",
+    "zu": "isiZulu",
+    "xh": "isiXhosa",
+    "af": "Afrikaans"
+  }
+}

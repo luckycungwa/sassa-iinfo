@@ -4,7 +4,7 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates — August 2026",
   "description": "Complete schedule of SASSA social grant payout dates for August 2026. Older Persons: 4 August, Disability: 5 August, Children: 6 August, review day: 7 August, SRD R370: 25-31 August. New 4th-day cycle introduced for grant reviews.",
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
@@ -35,7 +35,7 @@
       "title": "SASSA Payment Dates — August 2026",
       "description": "Full payout schedule for August 2026 including the new 4th day cycle. Older Persons: 4 Aug, Disability: 5 Aug, Children: 6 Aug, review day: 7 Aug, SRD R370: 25-31 Aug. Plan your collection with our detailed guide.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-07-29",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "View All Payment Dates",
         "href": "/payment-dates"

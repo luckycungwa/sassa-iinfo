@@ -3,10 +3,10 @@
   "slug": "/grants/disability-grant",
   "classification": "grant-detail",
   "title": "Disability Grant — Complete Guide 2026",
-  "description": "Complete guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment walkthrough, required documents, application steps, and appeal process.",
-  "lastUpdated": "2026-07-26",
-  "version": "1.0.0",
-  "readingTime": "7 min read",
+  "description": "Complete guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment walkthrough, required documents, application steps, means test, payment, reviews, and appeal process.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.1.0",
+  "readingTime": "24 min read",
   "status": "published",
   "author": {
     "name": "Grant Guide Editorial Team",
@@ -14,28 +14,43 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "Disability Grant — SASSA 2026 Amount, Eligibility & Guide",
-    "metaDescription": "Guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment, required documents, and appeal process.",
+    "metaTitle": "Disability Grant — R2,400/Month & How to Apply (2026)",
+    "metaDescription": "Disability Grant pays R2,400/month in 2026. Check eligibility, understand the medical assessment and means test, and follow our step-by-step SASSA application and appeal guide.",
     "keywords": [
       "SASSA disability grant",
       "disability grant South Africa",
       "SASSA disability grant amount",
       "disability grant application",
-      "SASSA medical assessment"
+      "SASSA medical assessment",
+      "disability grant means test 2026"
     ],
     "schemaMarkup": {
       "@type": "GovernmentService",
       "name": "Disability Grant"
     }
   },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SASSA Services Portal",
+      "url": "https://services.sassa.gov.za"
+    },
+    {
+      "label": "Department of Social Development",
+      "url": "https://www.dsd.gov.za"
+    }
+  ],
   "contentBlocks": [
     {
       "id": "hero",
       "type": "hero",
       "title": "Disability Grant — Complete Guide 2026",
-      "description": "Complete guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment walkthrough, required documents, application steps, and appeal process.",
-      "readingTime": "7 min read",
-      "lastUpdated": "2026-07-26",
+      "description": "Complete guide to the SASSA Disability Grant: R2,400 per month, eligibility criteria, medical assessment walkthrough, means test, required documents, application steps, payment, reviews, and appeal process.",
+      "readingTime": "24 min read",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Eligibility",
         "href": "/eligibility/i-am-disabled"
@@ -55,7 +70,7 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "The SASSA Disability Grant provides a monthly income for people whose disability stops them from working or supporting themselves. It is not the same as a temporary illness or injury benefit. SASSA needs proof that your disability is permanent or severe enough to keep you from earning an income."
+      "text": "The SASSA Disability Grant provides a monthly income for people whose disability stops them from working or supporting themselves. It is not the same as a temporary illness or injury benefit, and it is separate from the Social Relief of Distress (SRD) grant. SASSA needs proof that your disability is permanent or severe enough to keep you from earning an income. In 2026 the grant pays R2,400 per month. The money is meant to help with daily living costs when you cannot earn because of your disability."
     },
     {
       "id": "eligibility-h",
@@ -68,15 +83,15 @@
       "type": "eligibility-checklist",
       "checklist": [
         "South African citizen, permanent resident, or refugee between 18 and 59 years old",
-        "Medical assessment confirming a permanent or severe disability lasting longer than 6 months",
-        "Disability prevents you from earning a living or supporting yourself",
-        "Means Test (Single): Annual income under R96,240 and assets under R1,372,800",
-        "Means Test (Married): Combined income under R192,480 and combined assets under R2,745,600",
-        "Not already receiving another social grant for yourself"
+        "Medical assessment confirming a disability that prevents you from earning a living",
+        "Disability is permanent, or expected to last long enough that a temporary grant must be reviewed before it ends",
+        "Means Test (Single): Annual income below about R112,200 (about R9,350 per month) and assets below about R1,584,000",
+        "Means Test (Married): Combined annual income below about R224,400 (about R18,700 per month) and combined assets below about R3,168,000",
+        "Not already receiving another social grant for yourself (such as the Older Person's Grant)"
       ],
       "restrictions": [
-        "You do not qualify if you live in a state-funded institution",
-        "Temporary disabilities under 6 months should apply for the Temporary Disability Grant instead"
+        "You do not qualify if you live in a state-funded institution and receive full care there",
+        "If your disability is expected to improve within about 12 months, you may be granted a temporary disability grant that is reviewed before it expires, rather than a permanent one"
       ],
       "recommendedGrants": [
         {
@@ -88,6 +103,17 @@
           "name": "Care Dependency Grant",
           "slug": "/grants/care-dependency-grant",
           "amount": "R2,400"
+        }
+      ]
+    },
+    {
+      "id": "eligibility-note",
+      "type": "paragraph",
+      "text": "The disability does not have to be a diagnosed condition alone. SASSA looks at whether the disability actually stops you from working and supporting yourself. A condition that is well managed and lets you work will usually not qualify, even if it is serious on paper. The medical assessment is where this is decided.",
+      "links": [
+        {
+          "text": "medical assessment",
+          "href": "/grants/disability-grant/medical-assessment"
         }
       ]
     },
@@ -123,6 +149,11 @@
           "required": true
         },
         {
+          "label": "Bank details (account confirmation letter or cancelled cheque)",
+          "required": true,
+          "notes": "Needed so SASSA can pay you by direct deposit."
+        },
+        {
           "label": "Proof of any disability benefits or medical insurance payouts",
           "required": false,
           "notes": "If applicable, declare these to avoid penalties."
@@ -138,7 +169,7 @@
     {
       "id": "medical-intro",
       "type": "paragraph",
-      "text": "The medical assessment is the make-or-break step for your disability grant. This is where the SASSA doctor (called the District Surgeon or a contracted government doctor) examines you and decides whether your disability is severe enough. Unlike a visit to your own GP, this assessment follows a strict checklist and the doctor's findings must match specific criteria."
+      "text": "The medical assessment is the make-or-break step for your disability grant. This is where the SASSA doctor (often called the District Surgeon or a contracted government doctor) examines you and decides whether your disability is severe enough. Unlike a visit to your own GP, this assessment follows a strict checklist and the doctor's findings must match specific criteria. SASSA books the assessment for you once you submit your application with the medical report form."
     },
     {
       "id": "medical-steps",
@@ -146,7 +177,7 @@
       "steps": [
         {
           "title": "Get the medical report form",
-          "description": "Collect the official SASSA medical report form (Form A) from any SASSA office or download it online. Do not use a plain doctor's letter — it will be rejected."
+          "description": "Collect the official SASSA medical report form from any SASSA office. Do not use a plain doctor's letter — it will be rejected."
         },
         {
           "title": "Visit your own doctor first",
@@ -154,15 +185,15 @@
         },
         {
           "title": "Submit your application with the form",
-          "description": "Take the completed form and your other documents to the SASSA office. They will schedule you for an appointment with the District Surgeon."
+          "description": "Take the completed form and your other documents to the SASSA office. They will schedule you for an appointment with the SASSA doctor."
         },
         {
           "title": "Attend the SASSA medical assessment",
-          "description": "The District Surgeon will review your doctor's report, examine you, ask about your daily life, and decide if you meet the disability criteria. Bring any supporting test results (X-rays, blood tests, specialist letters)."
+          "description": "The SASSA doctor will review your doctor's report, examine you, ask about your daily life, and decide if you meet the disability criteria. Bring any supporting test results (X-rays, blood tests, specialist letters)."
         },
         {
           "title": "Wait for the decision",
-          "description": "SASSA will process the outcome. If approved, the grant is backdated to your application date. If rejected, you have 90 days to appeal."
+          "description": "SASSA will process the outcome. If approved, the grant is backdated to your application date. If rejected, you can appeal to the ITSAA within 30 days (the online portal accepts late lodgements up to 90 days)."
         }
       ]
     },
@@ -174,7 +205,7 @@
         "Permanent physical impairment: loss of limbs, paralysis, severe arthritis, blindness, advanced heart or lung disease.",
         "Mental or neurological disability: severe depression, schizophrenia, epilepsy, dementia, intellectual disability.",
         "Ability to perform daily activities: walking, bathing, dressing, preparing food, and working. The doctor will assess if your disability stops you from earning a living.",
-        "Duration of the condition: must be permanent or expected to last more than 6 months. Temporary conditions are referred to the Temporary Disability Grant.",
+        "Duration of the condition: must be permanent or long enough that a temporary grant has to be reviewed before it ends. Short-term conditions are referred for a temporary grant, not a permanent one.",
         "Treatment progress: the doctor will check whether you are receiving appropriate treatment and whether the condition has improved or worsened."
       ]
     },
@@ -202,13 +233,13 @@
       "rows": [
         [
           "Duration limit",
-          "Issued for up to 6 months",
-          "Indefinite"
+          "Reviewed up to 12 months",
+          "No fixed end date"
         ],
         [
           "Medical reviews",
-          "Must be re-assessed every 6 months",
-          "Periodic reviews, usually every 2–5 years"
+          "Re-assessed before expiry (up to 12 months)",
+          "Periodic reviews as SASSA requires"
         ],
         [
           "Amount",
@@ -217,7 +248,7 @@
         ],
         [
           "Who qualifies",
-          "Disability expected to last 6–12 months",
+          "Disability expected to last up to 12 months",
           "Permanent disability with no expected recovery"
         ],
         [
@@ -227,6 +258,71 @@
         ]
       ],
       "caption": "Both grants pay the same monthly amount. The main difference is how often you need to be re-assessed."
+    },
+    {
+      "id": "means-test-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Means Test in Detail"
+    },
+    {
+      "id": "means-test-intro",
+      "type": "paragraph",
+      "text": "Even if your disability qualifies, SASSA checks your income and assets through a means test. The test looks at what you and your spouse earn and own. Your primary home is excluded from the asset limit. If your income is at or below the threshold you get the full R2,400. If it is above the threshold, the grant is reduced and eventually falls to zero. The same rules apply whether your grant is temporary or permanent."
+    },
+    {
+      "id": "means-test-table",
+      "type": "table",
+      "headers": [
+        "Your situation",
+        "Annual income",
+        "Grant outcome"
+      ],
+      "rows": [
+        [
+          "Single, no other income",
+          "R0",
+          "Full R2,400 per month"
+        ],
+        [
+          "Single, earns at the limit",
+          "About R112,200 (R9,350/month)",
+          "Full R2,400 per month (at the limit)"
+        ],
+        [
+          "Single, earns above the limit",
+          "About R114,600",
+          "Reduced — grant drops by about R1 for every R2 above the limit"
+        ],
+        [
+          "Single, earns well above the limit",
+          "About R117,000",
+          "Grant reduced to zero"
+        ],
+        [
+          "Married, combined at the limit",
+          "About R224,400 (R18,700/month)",
+          "Full R2,400 per month (at the limit)"
+        ],
+        [
+          "Married, combined well above the limit",
+          "About R229,200",
+          "Grant reduced to zero"
+        ]
+      ],
+      "caption": "Worked examples for 2026. Figures are approximate — SASSA applies the test to your exact declared income and assets."
+    },
+    {
+      "id": "means-test-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "How the Reduction Works",
+      "text": "The grant is reduced by roughly R1 for every R2 that your income is above the limit. For a single person, income at about R112,200/year gives the full grant; at about R117,000/year the grant is gone. For a married couple, the combined limit is about R224,400/year, falling to zero at about R229,200/year. Always declare your true income — under-declaring is fraud and can lead to recovery of paid amounts."
+    },
+    {
+      "id": "means-test-assets",
+      "type": "paragraph",
+      "text": "Assets are also tested. For a single person, assets should be below about R1,584,000; for a married couple, combined assets below about R3,168,000. Your primary home does not count toward this limit. Vehicles, savings, property you rent out, and other valuables can count, so bring proof of what you own when you apply."
     },
     {
       "id": "apply-h",
@@ -240,7 +336,7 @@
       "steps": [
         {
           "title": "Collect all documents",
-          "description": "Gather your ID, proof of residence, proof of income/assets, and the SASSA medical report form completed by your doctor."
+          "description": "Gather your ID, proof of residence, proof of income/assets, bank details, and the SASSA medical report form completed by your doctor."
         },
         {
           "title": "Visit your nearest SASSA office",
@@ -252,7 +348,7 @@
         },
         {
           "title": "Attend the medical assessment",
-          "description": "SASSA will give you a date to see the District Surgeon for the medical examination."
+          "description": "SASSA will give you a date to see the SASSA doctor for the medical examination."
         },
         {
           "title": "Wait for the outcome",
@@ -261,11 +357,418 @@
       ]
     },
     {
+      "id": "payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How and When You Get Paid"
+    },
+    {
+      "id": "payment-intro",
+      "type": "paragraph",
+      "text": "Once approved, your disability grant is paid monthly. The first payment includes any backpay from your application date. You can choose how to receive the money, and you can change your payment method later by visiting a SASSA office. Payments usually land in the same month for all grant recipients, though the exact date can shift."
+    },
+    {
+      "id": "payment-methods",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bank deposit: the money goes straight into your personal bank account. This is the safest and most common method.",
+        "SASSA card: you can use the SASSA card at retail pay points such as Shoprite, Pick n Pay, Boxer, Checkers, and USave.",
+        "Post Office: historically a common collection point, but Post Office grant payments are being phased out — move to a bank account or SASSA card if you still collect this way.",
+        "ATM: you can draw cash using your SASSA card at an ATM."
+      ]
+    },
+    {
+      "id": "black-card-h",
+      "type": "heading",
+      "level": 3,
+      "text": "SASSA Black Card (Gold Card Migration)"
+    },
+    {
+      "id": "black-card",
+      "type": "paragraph",
+      "text": "SASSA is replacing the old gold SASSA card with a new black Postbank card. If you still use the gold card, you should switch to the black card so you can keep collecting your grant without interruption. The card is issued through Postbank and works at the same retail pay points and ATMs."
+    },
+    {
+      "id": "black-card-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Migration Deadline",
+      "text": "SASSA has stated that the deadline to move from the old gold card to the new black Postbank card is 31 August 2026. If you have not swapped your card by then, your payments could be disrupted. Visit a SASSA or Postbank card swap point with your ID to switch as soon as possible."
+    },
+    {
+      "id": "reviews-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Reviews and Renewals"
+    },
+    {
+      "id": "reviews-intro",
+      "type": "paragraph",
+      "text": "A disability grant is not automatically paid forever. SASSA reviews grants to confirm you still qualify. The review type depends on whether your grant is temporary or permanent. Missing a review is one of the most common reasons a grant is suspended, so treat every review date as important."
+    },
+    {
+      "id": "reviews-temp",
+      "type": "paragraph",
+      "text": "Temporary disability grants are reviewed before they expire. SASSA will call you back for a medical re-assessment (up to about 12 months from when the grant started, or from the last review). If your condition has not improved, the grant can be renewed for another temporary period. If it has improved enough that you can work, the grant stops."
+    },
+    {
+      "id": "reviews-permanent",
+      "type": "paragraph",
+      "text": "Permanent disability grants are reviewed periodically, on a schedule SASSA sets. You will be told when to report for a review. Keep your contact details and address up to date with SASSA so you do not miss a review notice. If you move, tell your SASSA office."
+    },
+    {
+      "id": "suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Suspension and Reinstating Your Grant"
+    },
+    {
+      "id": "suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "You did not attend a required medical or grant review.",
+        "Your income or assets changed and now sit above the means-test limit.",
+        "SASSA found incorrect or incomplete information in your application.",
+        "You were admitted to a state institution that provides full care.",
+        "You started receiving another grant for yourself that replaces this one."
+      ]
+    },
+    {
+      "id": "suspension-note",
+      "type": "paragraph",
+      "text": "If your grant is suspended, SASSA should tell you why in writing. Do not ignore the letter. In many cases you can fix the problem and have the grant reinstated, sometimes with backpay."
+    },
+    {
+      "id": "reinstate",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Read the suspension letter",
+          "description": "Find the reason and the action SASSA wants you to take, and any deadline."
+        },
+        {
+          "title": "Gather the missing proof",
+          "description": "This might be a new medical report, updated bank statements, or proof of residence."
+        },
+        {
+          "title": "Visit the SASSA office",
+          "description": "Submit your documents and ask for the grant to be reinstated. Keep a copy of everything you hand in."
+        },
+        {
+          "title": "Follow up",
+          "description": "If the grant is not reinstated and you disagree, move to the appeal process below."
+        }
+      ]
+    },
+    {
+      "id": "appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appeals — What to Do If You're Declined"
+    },
+    {
+      "id": "appeals-itsaa",
+      "type": "paragraph",
+      "text": "Declined disability grant applications are appealed to the Independent Tribunal for Social Assistance Appeals (ITSAA), not directly back to the SASSA officer who decided. The ITSAA is an independent body that reviews SASSA decisions. For non-SRD grants like the disability grant, you can also submit a written appeal through a SASSA office or to the Ministry of Social Development."
+    },
+    {
+      "id": "appeals-procedure",
+      "type": "appeal-procedure",
+      "steps": [
+        "Read your rejection letter and note the decision date.",
+        "Lodge your appeal to the ITSAA within 30 days of the decision. The online appeal portal accepts late lodgements up to 90 days from the decline date.",
+        "Submit a written appeal through a SASSA office or to the Ministry of Social Development if you prefer paper.",
+        "Include your ID, the rejection letter, and any new medical evidence (a detailed specialist report helps).",
+        "Wait for the ITSAA outcome. If the tribunal upholds the appeal, SASSA reinstates or starts the grant, often with backpay."
+      ],
+      "timeline": "Lodge within 30 days; the online portal accepts up to 90 days from the decline date. The tribunal aims to decide within a set period after receiving a complete appeal.",
+      "documents": [
+        "Your South African ID",
+        "The SASSA rejection letter",
+        "A detailed medical report from your treating doctor or specialist",
+        "Any test results or specialist letters that support your case"
+      ],
+      "commonReasons": [
+        "The medical report was too vague to show you cannot work",
+        "Income or assets were above the means-test limit",
+        "You missed the medical assessment appointment",
+        "You already receive another grant for yourself"
+      ],
+      "outcomes": [
+        "Appeal upheld — the grant is approved, sometimes backdated",
+        "Appeal partially upheld — a temporary grant is granted instead of permanent",
+        "Appeal declined — the original decision stands and you can seek further review"
+      ]
+    },
+    {
       "id": "appeal-callout",
       "type": "callout",
       "intent": "warning",
-      "title": "90 Days to Appeal",
-      "text": "If SASSA rejects your disability grant, you have 90 days from the date on the rejection letter to appeal. Write to the Minister of Social Development at the address on your rejection letter. Include a copy of the rejection letter, your ID, and any new medical evidence. Getting a more detailed report from your specialist often helps overturn a rejection."
+      "title": "Act Within the Window",
+      "text": "For the disability grant and other non-SRD grants, appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA). Lodge within 30 days of the decision; the online appeal portal accepts late lodgements up to 90 days from the decline date. You can also submit a written appeal through a SASSA office or to the Ministry of Social Development. Include a copy of the rejection letter, your ID, and any new medical evidence. A clearer diagnosis and test results can make a big difference."
+    },
+    {
+      "id": "compare-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Disability Grant vs Other Grants"
+    },
+    {
+      "id": "compare-table",
+      "type": "comparison-table",
+      "headers": [
+        "Grant",
+        "Amount (2026)",
+        "Age",
+        "Means test",
+        "Key requirement"
+      ],
+      "rows": [
+        [
+          "Disability Grant",
+          "R2,400/month",
+          "18 to 59",
+          "Yes",
+          "Medical assessment proving inability to work"
+        ],
+        [
+          "SRD R370 Grant",
+          "R370/month",
+          "18 to 59 (and 60+ not on another grant)",
+          "Low-income test, no other grant",
+          "Little or no income and not on another SASSA grant"
+        ],
+        [
+          "Older Person's Grant",
+          "See Older Person's Grant guide",
+          "60 and older",
+          "Yes",
+          "Age 60 or older"
+        ]
+      ],
+      "caption": "The Disability Grant is for working-age people who cannot work because of a disability. If you are 60 or older, the Older Person's Grant may apply instead."
+    },
+    {
+      "id": "compare-note",
+      "type": "paragraph",
+      "text": "You cannot get the Disability Grant and the Older Person's Grant at the same time. If you turn 60 while on a disability grant, speak to SASSA about moving to the Older Person's Grant. The SRD R370 grant is a short-term relief grant for people with little or no income and is separate from the disability benefit."
+    },
+    {
+      "id": "scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Beware of SASSA Scams"
+    },
+    {
+      "id": "scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA Never Asks for Payment",
+      "text": "SASSA will never ask you to pay a fee to apply, to be approved, or to receive your grant. Anyone who asks for money, your PIN, or your card is running a scam. Report it and protect your details."
+    },
+    {
+      "id": "scams-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Never share your SASSA card PIN, online portal password, or OTP with anyone, including people who claim to be SASSA officials.",
+        "Apply only through official SASSA offices or the official services portal. Ignore WhatsApp messages and social media posts promising quick approvals.",
+        "Do not pay 'agents' or 'consultants' who say they can speed up your grant.",
+        "Check payment status only on official sites such as services.sassa.gov.za.",
+        "If someone offers to 'reactivate' a suspended grant for a fee, it is a scam."
+      ]
+    },
+    {
+      "id": "internal-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Medical Assessment Guide",
+          "href": "/grants/disability-grant/medical-assessment",
+          "description": "What to expect at the SASSA doctor"
+        },
+        {
+          "title": "How to Appeal",
+          "href": "/appeals",
+          "description": "Challenge a decline through the ITSAA"
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant",
+          "description": "Short-term relief if you have little income"
+        },
+        {
+          "title": "Grant Library",
+          "href": "/grants",
+          "description": "Compare all SASSA grants"
+        }
+      ]
+    },
+    {
+      "id": "key-figures",
+      "type": "stat-bar",
+      "stats": [
+        {
+          "label": "Monthly amount",
+          "value": "R2,400",
+          "description": "Paid in 2026 for both temporary and permanent grants"
+        },
+        {
+          "label": "Age range",
+          "value": "18 to 59",
+          "description": "Working-age applicants"
+        },
+        {
+          "label": "Single income limit",
+          "value": "~R112,200/yr",
+          "description": "Full grant below this; reduced to zero at ~R117,000/yr"
+        },
+        {
+          "label": "Appeal window",
+          "value": "30 days",
+          "description": "To the ITSAA; the online portal accepts up to 90 days"
+        }
+      ]
+    },
+    {
+      "id": "earning-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding 'Unable to Earn a Living'"
+    },
+    {
+      "id": "earning-p1",
+      "type": "paragraph",
+      "text": "The heart of the disability grant is not your diagnosis — it is whether your disability stops you from earning enough to support yourself. SASSA uses the phrase 'unable to earn a living' on purpose. A person with a serious condition who can still do some kind of work that pays their way will usually not qualify. A person with a milder condition who, because of it, genuinely cannot work at all may qualify. The SASSA doctor weighs your diagnosis against your real ability to function day to day, including walking, sitting, lifting, concentrating, and managing personal care."
+    },
+    {
+      "id": "earning-p2",
+      "type": "paragraph",
+      "text": "This is why the medical report must describe function, not just labels. 'Diabetes' tells SASSA little; 'diabetes with amputated lower limbs and kidney failure requiring dialysis three times a week, unable to travel to or perform any workplace task' tells them what they need to know. If you do informal or part-time work, say so, because it counts toward the means test. Honesty protects you: declaring small income that is under the limit is fine, while hiding income can be treated as fraud and recovered later."
+    },
+    {
+      "id": "earning-p3",
+      "type": "paragraph",
+      "text": "SASSA also looks at your whole household when you are married. A spouse's income is combined with yours for the married means test, which is why the married threshold is about double the single one. If you live with family who support you, that support is not usually counted as your income, but any money paid into your name, or assets held in your name, can be. When in doubt, declare it and let SASSA apply the test."
+    },
+    {
+      "id": "terminal-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Severe and Terminal Illness"
+    },
+    {
+      "id": "terminal-p1",
+      "type": "paragraph",
+      "text": "Some conditions are so severe that the question is not whether you will recover but how long you have. Advanced terminal illnesses, end-stage organ failure, and severe progressive diseases are assessed on the same disability criteria, but the SASSA doctor will note the expected course of the illness. A terminal diagnosis alone does not grant the money automatically — the inability to earn a living and the means test still apply — but a clear specialist report makes the assessment straightforward."
+    },
+    {
+      "id": "terminal-p2",
+      "type": "paragraph",
+      "text": "If your illness is expected to last less than about a year, you will most likely be given a temporary disability grant that is reviewed before it ends, rather than a permanent one. That is not a lesser grant — it pays the same R2,400 per month — it simply comes with a review date. Treat that review date as firm: missing it is the main way temporary grants get suspended."
+    },
+    {
+      "id": "terminal-card",
+      "type": "info-card",
+      "icon": "heart",
+      "title": "Get the specialist's report in writing",
+      "text": "For severe or terminal conditions, ask your specialist for a detailed letter stating the diagnosis, expected progression, and exactly how the illness limits your ability to work. Hand this to the SASSA doctor at your assessment."
+    },
+    {
+      "id": "incare-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Grant-in-Aid and Care Dependency Grant"
+    },
+    {
+      "id": "incare-p1",
+      "type": "paragraph",
+      "text": "The Disability Grant is for the person who cannot work. Two related grants often come up alongside it. Grant-in-Aid adds R580 per month on top of an existing grant when you need full-time care from another person because of your disability. The Care Dependency Grant is for caring for a child (under 18) with a severe disability, and in 2026 it also pays R2,400 per month. You can receive the Disability Grant and Grant-in-Aid together; a child's Care Dependency Grant is a separate application for the child.",
+      "links": [
+        {
+          "text": "The Care Dependency Grant",
+          "href": "/grants/care-dependency-grant"
+        },
+        {
+          "text": "Grant-in-Aid",
+          "href": "/grants/grant-in-aid"
+        }
+      ]
+    },
+    {
+      "id": "med-report-tips",
+      "type": "heading",
+      "level": 3,
+      "text": "Getting the Most From Your Medical Report"
+    },
+    {
+      "id": "med-report-p1",
+      "type": "paragraph",
+      "text": "Because the medical report carries your whole application, spend time on it. Ask your doctor to be specific about daily limits, to list every test that proves the diagnosis, and to state clearly how long the condition is expected to last. Vague or blank sections are the most common reason assessments are delayed or rejected. If your first application is declined, a fuller specialist report is often the difference on appeal."
+    },
+    {
+      "id": "home-visit-p1",
+      "type": "paragraph",
+      "text": "If you are too ill to travel to a SASSA office or the SASSA doctor, tell the office when you apply. In some cases SASSA can arrange an assessment at your home or through your treating facility. Do not simply skip the appointment — contact the office first so your application is not refused for non-attendance."
+    },
+    {
+      "id": "tax-p1",
+      "type": "paragraph",
+      "text": "Social grants are not taxed. The R2,400 you receive each month is paid free of income tax and you do not declare it on a tax return. If you receive a private pension, disability insurance, or UIF at the same time, those may count as income in the means test, so declare them on your application."
+    },
+    {
+      "id": "application-flow",
+      "type": "process-diagram",
+      "steps": [
+        {
+          "label": "Collect documents",
+          "description": "ID, proof of residence, income and asset proof, bank details, medical report form"
+        },
+        {
+          "label": "Apply at SASSA",
+          "description": "Submit the form and fingerprints at your local office"
+        },
+        {
+          "label": "Medical assessment",
+          "description": "SASSA books the SASSA doctor examination"
+        },
+        {
+          "label": "Decision",
+          "description": "Approved (backdated pay) or declined (appeal to ITSAA)"
+        },
+        {
+          "label": "Review",
+          "description": "Temporary grants reviewed up to 12 months; permanent grants on SASSA's schedule"
+        }
+      ]
+    },
+    {
+      "id": "improve-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If Your Condition Improves"
+    },
+    {
+      "id": "improve-p1",
+      "type": "paragraph",
+      "text": "A grant can be reviewed at any time if SASSA believes your situation changed. If a temporary grant is reviewed and you have recovered enough to work, it ends — that is how the temporary grant is designed to work. If you are on a permanent grant and your health improves, tell SASSA at the next review rather than hiding it; carrying on to claim when you no longer qualify can lead to a demand to repay the money. If you later become unable to work again, you simply apply afresh using the same medical report process."
+    },
+    {
+      "id": "reapply-p1",
+      "type": "paragraph",
+      "text": "There is no rule stopping you from applying again after a grant ends. A new application is assessed on its merits with a fresh medical report and means test. If your first application was refused, do not keep resubmitting the same weak paperwork — get a clearer specialist report and, if refused again, use the appeal route to the ITSAA within the window. Persistence with better evidence is more effective than repeated identical applications."
+    },
+    {
+      "id": "payment-delay-p1",
+      "type": "paragraph",
+      "text": "If a payment is late or missing, first check your status on the official SASSA services portal or by USSD before visiting an office. Common causes are a missed review, a bank detail problem, or the card swap. Update your bank details at a SASSA office, and if the grant was suspended for a review you missed, take the requested proof in to reinstate it. Keep your SMS and reference number from the application — they speed up any query at the office."
+    },
+    {
+      "id": "other-support-p1",
+      "type": "paragraph",
+      "text": "Beyond the grant本身, ask your SASSA office or a social worker about other support you may qualify for, such as transport help to medical appointments, disability-friendly home modifications through relevant government programmes, and referrals to rehabilitation services. The disability grant is one part of a wider set of services, and a social worker can point you to what fits your situation so you are not relying on the monthly payment alone."
     },
     {
       "id": "faq-h",
@@ -279,11 +782,11 @@
       "faqs": [
         {
           "question": "What happens if the SASSA doctor turns me down?",
-          "answer": "You can appeal within 90 days. Get a more detailed medical report from your specialist and submit it with your appeal letter. Many rejections happen because the medical form was too vague — a clearer diagnosis and test results can make a big difference."
+          "answer": "You can appeal to the ITSAA within 30 days (up to 90 days via the online portal). Get a more detailed medical report from your specialist and submit it with your appeal. Many rejections happen because the medical form was too vague — a clearer diagnosis and test results can make a big difference."
         },
         {
           "question": "Can I work part-time while getting a disability grant?",
-          "answer": "The grant is meant for people who cannot work enough to support themselves. If you earn anything, it must fall below the means test threshold (R96,240 per year for a single person). Any extra income must be declared to SASSA."
+          "answer": "The grant is meant for people who cannot work enough to support themselves. If you earn anything, it must fall below the means test threshold (about R112,200 per year, roughly R9,350 per month for a single person). Any extra income must be declared to SASSA, and the grant is reduced once you go above the limit."
         },
         {
           "question": "What conditions automatically qualify for the disability grant?",
@@ -291,7 +794,7 @@
         },
         {
           "question": "Do I need a new medical assessment every year?",
-          "answer": "It depends. If you have a permanent disability grant, reviews happen every 2 to 5 years. If you have a temporary disability grant, you are assessed every 6 months to see if the condition has improved."
+          "answer": "It depends. If you have a permanent disability grant, reviews happen on a schedule SASSA sets (often every few years). If you have a temporary disability grant, you are re-assessed before it expires, up to about 12 months from the start or last review."
         },
         {
           "question": "Can I apply if I have HIV or diabetes?",
@@ -299,11 +802,51 @@
         },
         {
           "question": "How long does the disability grant application take?",
-          "answer": "From submission to decision, expect 60 to 90 days. The medical assessment appointment usually takes 2 to 4 weeks to schedule. If approved, your first payment includes backpay from the date you applied."
+          "answer": "From submission to decision, expect up to 90 days. The medical assessment appointment usually takes a few weeks to schedule. If approved, your first payment includes backpay from the date you applied."
         },
         {
           "question": "What is the difference between Disability Grant and Grant-in-Aid?",
           "answer": "The Disability Grant is for people who cannot work because of their disability. Grant-in-Aid is an extra R580 paid on top of an existing grant if you need full-time care from someone else. You can receive both if you qualify."
+        },
+        {
+          "question": "How much is the disability grant in 2026?",
+          "answer": "The Disability Grant pays R2,400 per month in 2026. The amount is the same whether the grant is temporary or permanent."
+        },
+        {
+          "question": "What is the means test for a single person in 2026?",
+          "answer": "For a single person, your annual income should be below about R112,200 (roughly R9,350 per month) to get the full grant, and your assets below about R1,584,000 (your primary home is excluded). Above the income limit the grant is reduced by about R1 for every R2 over, reaching zero at about R117,000 per year."
+        },
+        {
+          "question": "What is the means test for a married couple in 2026?",
+          "answer": "For a married couple, combined annual income should be below about R224,400 (roughly R18,700 per month) and combined assets below about R3,168,000. The grant falls to zero at about R229,200 combined income per year."
+        },
+        {
+          "question": "Is my house counted as an asset?",
+          "answer": "No. Your primary home is excluded from the asset limit for the disability grant means test. Other property, vehicles, savings, and valuables can count."
+        },
+        {
+          "question": "Can I get the disability grant if I am in a wheelchair but can still work?",
+          "answer": "The test is about whether the disability stops you from earning a living, not the diagnosis itself. If you can still do work that supports you, the grant may not be approved. The SASSA doctor makes this call based on the assessment."
+        },
+        {
+          "question": "What happens to my grant when I turn 60?",
+          "answer": "You cannot receive the Disability Grant and the Older Person's Grant at the same time. As you approach age 60, speak to SASSA about switching to the Older Person's Grant, which is for people 60 and older."
+        },
+        {
+          "question": "Can refugees get the disability grant?",
+          "answer": "Yes. You must be a South African citizen, permanent resident, or refugee, and you must meet the age, medical, and means-test criteria like anyone else."
+        },
+        {
+          "question": "My grant was suspended after I missed a review. What do I do?",
+          "answer": "Go to your SASSA office with the requested documents — often a new medical report or proof of income — and ask for reinstatement. If you disagree with the suspension, appeal to the ITSAA within 30 days of the decision."
+        },
+        {
+          "question": "Do I have to use the SASSA card, or can I get paid into my bank?",
+          "answer": "You can choose. Most people are paid by direct bank deposit, which is the safest. You can also use the SASSA card at retail pay points and ATMs. If you still have the old gold card, swap it for the new black Postbank card by 31 August 2026."
+        },
+        {
+          "question": "Can I apply online for the disability grant?",
+          "answer": "The application is made at a SASSA office, where SASSA also books your medical assessment. You can check information and some services on the official SASSA services portal, but the disability grant itself is applied for in person with the required documents and medical report."
         }
       ]
     }
@@ -322,8 +865,12 @@
       "slug": "/grants/grant-in-aid"
     },
     {
-      "title": "Disability Grant FAQ",
-      "slug": "/faq"
+      "title": "Disability Grant Medical Assessment",
+      "slug": "/grants/disability-grant/medical-assessment"
+    },
+    {
+      "title": "Appeals",
+      "slug": "/appeals"
     }
   ]
 }

@@ -4,16 +4,30 @@
   "classification": "province-hub",
   "title": "SASSA Western Cape Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in the Western Cape Province. Regional office in Cape Town, list of SASSA offices from Khayelitsha to George, grant collection information, and FAQs.",
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Western Cape Province: Offices, Grants & Payment Guide 2026",
     "metaDescription": "Complete SASSA guide for Western Cape Province. Regional office in Cape Town. Offices in Khayelitsha, Mitchells Plain, George, Paarl, and more. Grant collection info, province statistics, and FAQs.",
-    "keywords": ["SASSA Western Cape", "Western Cape SASSA offices", "SASSA Cape Town office", "SASSA Khayelitsha", "SASSA George office", "Western Cape grant collection"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Western Cape Province" }
+    "keywords": [
+      "SASSA Western Cape",
+      "Western Cape SASSA offices",
+      "SASSA Cape Town office",
+      "SASSA Khayelitsha",
+      "SASSA George office",
+      "Western Cape grant collection"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SASSA Western Cape Province"
+    }
   },
   "contentBlocks": [
     {
@@ -22,9 +36,15 @@
       "title": "SASSA Western Cape Province",
       "description": "Complete information hub for SASSA services in the Western Cape. Regional office details, local SASSA offices across the province, grant collection information, and province-specific FAQs.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-07-28",
-      "cta": { "label": "Find an Office", "href": "/offices" },
-      "secondaryCta": { "label": "View All Provinces", "href": "/provinces" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Find an Office",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "View All Provinces",
+        "href": "/provinces"
+      }
     },
     {
       "id": "province-overview",
@@ -34,16 +54,36 @@
       "regionalOfficePhone": "021 456 7890",
       "collectionInfo": "Western Cape beneficiaries can collect grants at SASSA offices, SAPO branches, and participating retailers across the province. Retailers including Shoprite, Checkers, Pick n Pay, Boxer, and USave accept SASSA gold card withdrawals. Rural beneficiaries in areas like the Karoo and Overberg may rely on SAPO and mobile pay points.",
       "beneficiaryCount": "Approximately 1.4 million grant beneficiaries",
-      "grantTypes": ["Child Support Grant", "Older Persons Grant", "Disability Grant", "Foster Care Grant", "Care Dependency Grant", "SRD R370 Grant", "War Veterans Grant"]
+      "grantTypes": [
+        "Child Support Grant",
+        "Older Persons Grant",
+        "Disability Grant",
+        "Foster Care Grant",
+        "Care Dependency Grant",
+        "SRD R370 Grant",
+        "War Veterans Grant"
+      ]
     },
     {
       "id": "stat-bar",
       "type": "stat-bar",
       "stats": [
-        { "label": "Grant Beneficiaries", "value": "1.4 Million" },
-        { "label": "SASSA Offices", "value": "14" },
-        { "label": "Collection Points", "value": "300+" },
-        { "label": "Population Served", "value": "7+ Million" }
+        {
+          "label": "Grant Beneficiaries",
+          "value": "1.4 Million"
+        },
+        {
+          "label": "SASSA Offices",
+          "value": "14"
+        },
+        {
+          "label": "Collection Points",
+          "value": "300+"
+        },
+        {
+          "label": "Population Served",
+          "value": "7+ Million"
+        }
       ]
     },
     {
@@ -62,12 +102,30 @@
       "type": "link-grid",
       "title": "Key Offices in the Western Cape",
       "links": [
-        { "label": "Cape Town CBD — 9 Dorp Street", "href": "/offices/wc-cape-town" },
-        { "label": "Khayelitsha — Thusong Centre", "href": "/offices/wc-khayelitsha" },
-        { "label": "Mitchells Plain — Town Centre", "href": "/offices/wc-mitchells-plain" },
-        { "label": "George — CBD", "href": "/offices/wc-george" },
-        { "label": "Paarl — Stroebel Street", "href": "/offices/wc-paarl" },
-        { "label": "All Western Cape offices & hours", "href": "/offices" }
+        {
+          "label": "Cape Town CBD — 9 Dorp Street",
+          "href": "/offices/wc-cape-town"
+        },
+        {
+          "label": "Khayelitsha — Thusong Centre",
+          "href": "/offices"
+        },
+        {
+          "label": "Mitchells Plain — Town Centre",
+          "href": "/offices"
+        },
+        {
+          "label": "George — CBD",
+          "href": "/offices"
+        },
+        {
+          "label": "Paarl — Stroebel Street",
+          "href": "/offices"
+        },
+        {
+          "label": "All Western Cape offices & hours",
+          "href": "/offices"
+        }
       ]
     },
     {
@@ -129,9 +187,21 @@
     }
   ],
   "relatedPages": [
-    { "title": "All Provinces", "slug": "/provinces" },
-    { "title": "SASSA Cape Town Office", "slug": "/offices/wc-cape-town" },
-    { "title": "SASSA Payment Dates", "slug": "/payment-dates" },
-    { "title": "Grants Overview", "slug": "/grants" }
+    {
+      "title": "All Provinces",
+      "slug": "/provinces"
+    },
+    {
+      "title": "SASSA Cape Town Office",
+      "slug": "/offices/wc-cape-town"
+    },
+    {
+      "title": "SASSA Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Grants Overview",
+      "slug": "/grants"
+    }
   ]
 }

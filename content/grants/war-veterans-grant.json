@@ -4,9 +4,9 @@
   "classification": "grant-detail",
   "title": "War Veterans Grant — Complete Guide 2026",
   "description": "Complete guide to the SASSA War Veterans Grant: R2,420 per month for veterans of WWI, WWII, and the Korean War. Eligibility, documents, application process, and how it differs from military pensions.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
-  "readingTime": "6 min read",
+  "readingTime": "18 min read",
   "status": "published",
   "author": {
     "name": "Lucky Cungwa",
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "War Veterans Grant 2026: Amount, Eligibility & How to Apply",
-    "metaDescription": "Complete guide to the SASSA War Veterans Grant: R2,420 per month for veterans of WWI, WWII, and the Korean War. Eligibility criteria, required documents, and how to apply.",
+    "metaTitle": "War Veterans Grant — R2,420/Month & Eligibility (2026)",
+    "metaDescription": "War Veterans Grant pays R2,420/month in 2026. Check eligibility for WWI, WWII and Korean War veterans and how to apply via SASSA.",
     "keywords": [
       "war veterans grant",
       "SASSA war veterans",
@@ -34,8 +34,8 @@
       "type": "hero",
       "title": "War Veterans Grant",
       "description": "Complete guide to the SASSA War Veterans Grant: R2,420 per month for veterans who served in World War I, World War II, or the Korean War. Eligibility criteria, required documents, application process, and how this grant differs from modern military pensions.",
-      "readingTime": "6 min read",
-      "lastUpdated": "2026-07-27",
+      "readingTime": "18 min read",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Grant Library",
         "href": "/grants"
@@ -75,8 +75,8 @@
         "South African citizen or permanent resident",
         "Must have served in WWI, WWII, or the Korean War",
         "Must be 60 years or older, or have a disability",
-        "Means Test (Single): Annual income below R96,240; assets below R1,372,800",
-        "Means Test (Married): Combined income below R192,480; assets below R2,745,600",
+        "Means Test (Single, 2026): Annual income below R112,200; assets below about R1,584,000",
+        "Means Test (Married, 2026): Combined income below R224,400; assets below about R3,168,000",
         "Must not be living in a state-funded institution"
       ],
       "restrictions": [
@@ -218,6 +218,534 @@
       "text": "If your War Veterans Grant is declined, appeals are fast-tracked through the Department of Military Veterans and the Ministry of Social Development. You have 90 days from the decline notification to appeal. Contact a DMV officer for assistance with your appeal."
     },
     {
+      "id": "wv-stats",
+      "type": "stat-bar",
+      "stats": [
+        {
+          "label": "Monthly amount (2026)",
+          "value": "R2,420",
+          "description": "R20 more than the Older Person Grant"
+        },
+        {
+          "label": "Who it is for",
+          "value": "War veterans",
+          "description": "WWI, WWII or Korean War veterans who are 60+ or disabled"
+        },
+        {
+          "label": "Means test",
+          "value": "Same as Older Person",
+          "description": "Income and asset test apply"
+        }
+      ]
+    },
+    {
+      "id": "wv-amount-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How Much You Receive in 2026"
+    },
+    {
+      "id": "wv-amount-text",
+      "type": "paragraph",
+      "text": "In 2026 the War Veterans Grant pays R2,420 per month. That is R20 more than the standard Older Person Grant, paid as recognition of military service. The grant is separate from any military pension you receive through the Department of Military Veterans, and you can receive both at the same time. The amount does not increase at age 75 — the extra R20 for seniors applies only to the Older Person Grant."
+    },
+    {
+      "id": "wv-conflicts-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Who Qualifies — the Defined Conflicts"
+    },
+    {
+      "id": "wv-conflicts-text",
+      "type": "paragraph",
+      "text": "The War Veterans Grant is legislated for veterans of specific historical conflicts. The core qualifying service is World War I, World War II, or the Korean War. The regulations also recognise certain other defined conflicts. If you served in the South African National Defence Force after 1994 or on modern peacekeeping missions, this grant does not apply to you — you must approach the Department of Military Veterans for military pension benefits."
+    },
+    {
+      "id": "wv-conflicts-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "World War I",
+        "World War II",
+        "The Korean War",
+        "Other conflicts defined in the regulations (confirm with the Department of Military Veterans)"
+      ]
+    },
+    {
+      "id": "wv-meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The 2026 Means Test — Same as the Older Person Grant"
+    },
+    {
+      "id": "wv-meanstest-text",
+      "type": "paragraph",
+      "text": "The War Veterans Grant uses the same means test as the Older Person Grant. That means both an income test and an asset test apply. SASSA looks at your income and the value of your assets, or the combined income and assets of you and your spouse if you are married.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
+    },
+    {
+      "id": "wv-means-table",
+      "type": "table",
+      "headers": [
+        "Test",
+        "Single",
+        "Married (combined)"
+      ],
+      "rows": [
+        [
+          "Annual income below",
+          "R112,200",
+          "R224,400"
+        ],
+        [
+          "Assets below",
+          "About R1,584,000",
+          "About R3,168,000"
+        ]
+      ],
+      "caption": "If your income or assets are above these limits, the grant is reduced or not paid. The exact reduction depends on how far above the limit you are."
+    },
+    {
+      "id": "wv-payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How the Grant Is Paid"
+    },
+    {
+      "id": "wv-payment-text",
+      "type": "paragraph",
+      "text": "Once approved, the War Veterans Grant is paid every month into the method you choose. There is no fee to apply or to receive the grant."
+    },
+    {
+      "id": "wv-payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Direct bank deposit into your personal bank account",
+        "The SASSA black card, used at retail pay points and ATMs",
+        "Cash collection at selected retailers such as Shoprite, Pick n Pay, Boxer, Checkers and USave",
+        "The South African Post Office, which is being phased out as a payment channel"
+      ]
+    },
+    {
+      "id": "wv-blackcard-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The SASSA Black Card"
+    },
+    {
+      "id": "wv-blackcard-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Switch before the deadline",
+      "text": "SASSA replaced the old gold card with a new black Postbank card. The official migration deadline was 31 August 2026. If you still hold the gold card, switch to the black card at an approved point so your payments continue without interruption."
+    },
+    {
+      "id": "wv-blackcard-text",
+      "type": "paragraph",
+      "text": "The black card works like a normal bank card. You can draw cash at ATMs and retail pay points and use it for shop purchases. Grant recipients pay no monthly card fee. Keep your PIN secret and never give your card to anyone.",
+      "links": [
+        {
+          "text": "black card",
+          "href": "/banking/black-card-swap"
+        }
+      ]
+    },
+    {
+      "id": "wv-reviews-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Reviews and Renewals"
+    },
+    {
+      "id": "wv-reviews-text",
+      "type": "paragraph",
+      "text": "Because the War Veterans Grant uses the Older Person means test, SASSA reviews it in the same way as the Older Person Grant. You may be asked to confirm that you still meet the income and asset limits. Keep your details and payment method up to date, and respond to any review request quickly to avoid a suspension."
+    },
+    {
+      "id": "wv-dmv-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Relationship with the Department of Military Veterans"
+    },
+    {
+      "id": "wv-dmv-text",
+      "type": "paragraph",
+      "text": "The War Veterans Grant is a SASSA social grant. The Department of Military Veterans (DMV) pays separate military pensions and benefits. You can receive both. If you need a replacement certificate of military service, contact the DMV or the SANDF records office early, because it can take weeks to issue. More information is on the DMV website at dmv.gov.za."
+    },
+    {
+      "id": "wv-scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Protecting Yourself from Scams"
+    },
+    {
+      "id": "wv-scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA never charges a fee",
+      "text": "SASSA does not charge any fee to apply for, approve, or pay a grant. Anyone who asks for money, your card, or your PIN is trying to scam you."
+    },
+    {
+      "id": "wv-scams-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Never pay an 'agent' who promises to speed up your application",
+        "Never share your ID number, card, or PIN with strangers or over the phone",
+        "Apply only at official SASSA offices or through official SASSA channels",
+        "Check payment dates and balances only on official SASSA or Postbank platforms",
+        "Report fraud to SASSA or the South African Police Service immediately"
+      ]
+    },
+    {
+      "id": "wv-appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appeals — If Your Application Is Declined"
+    },
+    {
+      "id": "wv-appeals-text",
+      "type": "paragraph",
+      "text": "If your War Veterans Grant is declined, you can appeal. For non-SRD grants the appeal is lodged through a SASSA office or in writing to the Ministry of Social Development. The Independent Tribunal for Social Assistance Appeals (ITSAA) considers the appeal. Veterans can also ask the Department of Military Veterans for help with their appeal."
+    },
+    {
+      "id": "wv-appeals-procedure",
+      "type": "appeal-procedure",
+      "steps": [
+        "Read your decline letter to understand the exact reason",
+        "Gather evidence such as your military service record and proof of income and assets",
+        "Visit your SASSA office or write to the Ministry of Social Development within 30 days",
+        "Submit your appeal with all supporting documents and keep the receipt",
+        "Wait for the Independent Tribunal for Social Assistance Appeals (ITSAA) outcome"
+      ],
+      "timeline": "Lodge within 30 days of the decline. The ITSAA portal can accept appeals up to 90 days from the date of decline.",
+      "documents": [
+        "Your ID",
+        "Certificate of military service or military record book",
+        "Proof of income and assets",
+        "Any letter from the Department of Military Veterans"
+      ],
+      "commonReasons": [
+        "Income or assets above the Older Person Grant limits",
+        "Could not prove qualifying military service",
+        "Missing or incorrect documents",
+        "Living in a state-funded institution"
+      ],
+      "outcomes": [
+        "Grant approved and backdated to the application date",
+        "Grant declined and the decision upheld",
+        "Request for more information before a final decision"
+      ]
+    },
+    {
+      "id": "wv-appeals-help",
+      "type": "paragraph",
+      "text": "Read our full appeals guide for step-by-step help with a declined application.",
+      "links": [
+        {
+          "text": "appeals guide",
+          "href": "/appeals"
+        }
+      ]
+    },
+    {
+      "id": "wv-prove-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Proving Your Military Service"
+    },
+    {
+      "id": "wv-prove-text",
+      "type": "paragraph",
+      "text": "The single most important document for the War Veterans Grant is proof of qualifying military service. Without it, SASSA cannot confirm you meet the core requirement. If your papers were lost over the years, start the replacement process early, because it can take several weeks."
+    },
+    {
+      "id": "wv-prove-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Find your original papers",
+          "description": "Look for your certificate of military service, discharge certificate, or military record book at home or with family."
+        },
+        {
+          "title": "Contact the SANDF records office",
+          "description": "If the papers are lost, the South African National Defence Force records department can search for your service history."
+        },
+        {
+          "title": "Contact the Department of Military Veterans",
+          "description": "The DMV can also help issue a confirmation of service, especially for veterans already known to them."
+        },
+        {
+          "title": "Submit with your SASSA application",
+          "description": "Take the proof to your SASSA office so the officer can verify your service as part of the application."
+        }
+      ]
+    },
+    {
+      "id": "wv-timing-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How Long Decisions Take and Backdating"
+    },
+    {
+      "id": "wv-timing-text",
+      "type": "paragraph",
+      "text": "War Veterans Grant applications can take up to about three months, largely because SASSA may verify your service with the Department of Defence. If your application is approved, payments are backdated to the month you applied, so you receive the money owed from the application date. Apply as soon as your documents are ready, because the grant is not normally backdated before your application date."
+    },
+    {
+      "id": "wv-reporting-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Reporting Changes"
+    },
+    {
+      "id": "wv-reporting-text",
+      "type": "paragraph",
+      "text": "Like all means-tested grants, you must tell SASSA about changes that affect your income, assets, or living situation. This avoids a later demand to repay money you were not entitled to."
+    },
+    {
+      "id": "wv-reporting-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A change in your income, such as a new pension or salary",
+        "A change in your assets, such as selling property or receiving an inheritance",
+        "A move into a state-funded institution",
+        "A change in address, bank details, or marital status",
+        "Your death — the grant stops and your family should inform SASSA"
+      ]
+    },
+    {
+      "id": "wv-care-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If You Also Need Full-Time Care"
+    },
+    {
+      "id": "wv-care-text",
+      "type": "paragraph",
+      "text": "If you receive the War Veterans Grant and you also become unable to care for yourself and need 24-hour care from another person, you may qualify for Grant-in-Aid on top of it. Grant-in-Aid is a separate R580-a-month top-up that rides on your primary grant, so you do not face a new means test. Ask your SASSA officer for the medical form when your care needs change."
+    },
+    {
+      "id": "wv-dmv-help-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Getting Help from the Department of Military Veterans"
+    },
+    {
+      "id": "wv-dmv-help-text",
+      "type": "paragraph",
+      "text": "The Department of Military Veterans supports veterans with pensions, benefits, and records. Although the War Veterans Grant itself is paid by SASSA, the DMV is often the fastest route to confirm service and to help with appeals. Reach them through their provincial offices or their website at dmv.gov.za."
+    },
+    {
+      "id": "wv-dmv-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Replacing a lost certificate of military service",
+        "Confirming qualifying service for SASSA",
+        "Helping with appeals and military pension questions",
+        "Advising on benefits for veterans and surviving spouses"
+      ]
+    },
+    {
+      "id": "wv-example-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Worked Example of the Means Test"
+    },
+    {
+      "id": "wv-example-text",
+      "type": "paragraph",
+      "text": "The means test reduces the grant when income or assets are above the limit. For a single veteran, annual income must be below R112,200 and assets below about R1,584,000. For a married couple, combined income must be below R224,400 and combined assets below about R3,168,000. If you are slightly above, the grant may be paid at a reduced amount rather than not at all. SASSA calculates the exact reduction, so it is worth applying even if you are close to the limit."
+    },
+    {
+      "id": "wv-example-table",
+      "type": "table",
+      "headers": [
+        "Situation",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Single veteran, income R100,000, assets R1,000,000",
+          "Full grant of R2,420"
+        ],
+        [
+          "Single veteran, income R200,000",
+          "Likely no grant (income too high)"
+        ],
+        [
+          "Married couple, combined income R200,000, assets R2,500,000",
+          "Full grant"
+        ],
+        [
+          "Married couple, combined income R300,000",
+          "Likely no grant (income too high)"
+        ]
+      ],
+      "caption": "These are examples only. SASSA applies the official reduction formula to your exact figures."
+    },
+    {
+      "id": "wv-married-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Applying When You Are Married"
+    },
+    {
+      "id": "wv-married-text",
+      "type": "paragraph",
+      "text": "If you are married, SASSA counts the combined income and assets of both spouses. This is important because a spouse's pension, salary, or savings can push the couple above the limit even if your own income is low. Take your spouse's proof of income and assets to the SASSA office. If your spouse also receives a grant such as the Older Person Grant, tell the officer, because some income is treated differently under the rules."
+    },
+    {
+      "id": "wv-payment-schedule-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Payment Schedule and When You Are Paid"
+    },
+    {
+      "id": "wv-payment-schedule-text",
+      "type": "paragraph",
+      "text": "The War Veterans Grant is paid monthly, usually on the older persons' payment date each month. SASSA publishes the payment dates on its website, and you can also check at your pay point or bank. If a payment is late or missing, wait a day or two and then check your balance on the official SASSA or Postbank platforms before visiting an office. Keep your card and PIN safe when you collect."
+    },
+    {
+      "id": "wv-family-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Help for Families Caring for a Veteran"
+    },
+    {
+      "id": "wv-family-text",
+      "type": "paragraph",
+      "text": "If a war veteran in your family needs full-time care, the veteran may be able to add Grant-in-Aid to the War Veterans Grant, as described above. Family caregivers do not receive a separate SASSA wage, but the top-up helps cover care costs. Speak to a SASSA officer and, if the veteran is a modern-era serviceman, to the Department of Military Veterans about care support."
+    },
+    {
+      "id": "wv-family-link",
+      "type": "paragraph",
+      "text": "Read the Grant-in-Aid guide to see how the top-up works alongside a primary grant.",
+      "links": [
+        {
+          "text": "Grant-in-Aid guide",
+          "href": "/grants/grant-in-aid"
+        }
+      ]
+    },
+    {
+      "id": "wv-purpose-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Purpose of the War Veterans Grant"
+    },
+    {
+      "id": "wv-purpose-text",
+      "type": "paragraph",
+      "text": "The War Veterans Grant exists to honour and support South Africans who served in the major conflicts of the last century and who now, in older age or with a disability, need a social grant. It is paid by SASSA but reflects a national commitment to veterans, which is why it pays slightly more than the standard Older Person Grant. It is not a replacement for a military pension, and it does not affect any pension you receive from the Department of Military Veterans."
+    },
+    {
+      "id": "wv-incomplete-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What If Your Documents Are Incomplete"
+    },
+    {
+      "id": "wv-incomplete-text",
+      "type": "paragraph",
+      "text": "Many veterans apply with lost or incomplete papers. If you do not have your certificate of military service, apply anyway and tell the SASSA officer. SASSA can verify service with the Department of Defence, and the DMV can issue confirmation. Bring whatever you do have — an old discharge letter, a veteran's card, a pension book, or a letter from a veterans' organisation — because any proof helps. Do not pay anyone who offers to 'create' documents, as that is fraud."
+    },
+    {
+      "id": "wv-other-grants-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The War Veterans Grant and Other SASSA Grants"
+    },
+    {
+      "id": "wv-other-grants-text",
+      "type": "paragraph",
+      "text": "You cannot receive the War Veterans Grant and the Older Person Grant at the same time, but you can receive the War Veterans Grant together with Grant-in-Aid if you need full-time care. If your spouse receives a grant such as the Older Person Grant, that is separate and not affected. The important rule is that you may not receive two grants that are meant for the same person in the same role, so choose the War Veterans Grant over the Older Person Grant where you qualify for both."
+    },
+    {
+      "id": "wv-after-approval-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens After Approval"
+    },
+    {
+      "id": "wv-after-approval-text",
+      "type": "paragraph",
+      "text": "Once approved, your grant is paid every month for as long as you meet the rules. SASSA will review it from time to time, mainly to confirm your income and assets have not gone above the limit. Keep your details current, respond to reviews, and tell SASSA about changes. If the grant is ever suspended, you can appeal using the process described above. Approval does not expire by itself — it continues until a review shows you no longer qualify."
+    },
+    {
+      "id": "wv-form-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Completing the Application Form"
+    },
+    {
+      "id": "wv-form-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Get the form at a SASSA office",
+          "description": "A SASSA officer gives you the grant application form and checks your documents before you start."
+        },
+        {
+          "title": "Fill in personal details",
+          "description": "Provide your ID number, address, bank details, and contact information exactly as on your ID."
+        },
+        {
+          "title": "Record your military service",
+          "description": "Give the details of your service and attach your certificate or proof. The officer notes the conflict you served in."
+        },
+        {
+          "title": "Sign and give fingerprints",
+          "description": "Sign the form and provide fingerprints as confirmation. The officer submits it for processing."
+        },
+        {
+          "title": "Keep your receipt",
+          "description": "The office gives you a receipt with a reference number. Keep it for all follow-up and appeals."
+        }
+      ]
+    },
+    {
+      "id": "wv-refused-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If You Are Refused More Than Once"
+    },
+    {
+      "id": "wv-refused-text",
+      "type": "paragraph",
+      "text": "If your first application is declined and your appeal also fails, do not give up if your situation is genuine. Gather stronger proof of service and of your income and assets, then re-apply with the new evidence, or ask the Department of Military Veterans for help. Sometimes the problem is simply missing documents, which a fresh, complete application can fix. A social worker or a veterans' organisation can sit with you and prepare the paperwork."
+    },
+    {
+      "id": "wv-orgs-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Veterans' Organisations That Can Help"
+    },
+    {
+      "id": "wv-orgs-text",
+      "type": "paragraph",
+      "text": "Several organisations support veterans with paperwork, records, and appeals. They do not charge for basic help and can be a useful ally when SASSA or the DMV need confirmation of your service."
+    },
+    {
+      "id": "wv-orgs-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The Department of Military Veterans (dmv.gov.za) for service records and pensions",
+        "Your provincial SASSA office for the grant application and appeals",
+        "Registered veterans' associations in your province",
+        "A social worker at the Department of Social Development for appeal support"
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 2,
@@ -246,6 +774,50 @@
         {
           "question": "Can my spouse receive the grant after I pass away?",
           "answer": "No. The grant is for the veteran only and does not transfer to a surviving spouse. Your spouse may qualify for the Older Person Grant in their own right."
+        },
+        {
+          "question": "Can I receive both the War Veterans Grant and the Older Person Grant?",
+          "answer": "No. You cannot receive both grants for yourself, because they overlap. You should take the War Veterans Grant, which pays R20 more, or the Older Person Grant if you prefer — but not both."
+        },
+        {
+          "question": "Is the War Veterans Grant taxable?",
+          "answer": "No. SASSA social grants, including the War Veterans Grant, are not taxable income in South Africa."
+        },
+        {
+          "question": "Can I apply for the War Veterans Grant online?",
+          "answer": "No. You must apply in person at a SASSA office, because your military service and means test must be verified. Online applications are only for the SRD grant at services.sassa.gov.za."
+        },
+        {
+          "question": "What proof of military service do I need?",
+          "answer": "You need a certificate of military service, a discharge certificate, or your military record book. If these are lost, request a replacement from the SANDF records office or the Department of Military Veterans before you apply."
+        },
+        {
+          "question": "How long does the application take?",
+          "answer": "Applications can take up to about three months, because SASSA may verify your military service with the Department of Defence. Keep your receipt and reference number."
+        },
+        {
+          "question": "What if I served as a volunteer or non-combatant?",
+          "answer": "Recognition depends on whether your service falls within the defined conflicts. Confirm with the Department of Military Veterans whether your service qualifies before applying to SASSA."
+        },
+        {
+          "question": "Can my surviving spouse get help from the DMV?",
+          "answer": "The War Veterans Grant is for the veteran only and does not pass to a spouse. However, the Department of Military Veterans may pay separate benefits to a surviving spouse — contact the DMV directly about military pensions."
+        },
+        {
+          "question": "Can the grant be suspended?",
+          "answer": "Yes. It can be suspended if your income or assets go above the Older Person Grant limits, if you move into a state-funded institution, or if you miss a review. Respond to SASSA requests quickly to avoid a gap."
+        },
+        {
+          "question": "Do I need to renew the grant every year?",
+          "answer": "You do not renew annually, but SASSA reviews it like the Older Person Grant. Keep your income, asset, and contact details up to date and answer any review request."
+        },
+        {
+          "question": "How is this grant different from a DMV military pension?",
+          "answer": "The War Veterans Grant is a means-tested SASSA social grant of R2,420 a month. A DMV military pension is a separate benefit based on your military service and is not means tested in the same way. You can receive both."
+        },
+        {
+          "question": "What if SASSA cannot confirm my service?",
+          "answer": "If verification is delayed, ask SASSA for the status and contact the Department of Military Veterans for help with your records. Do not pay anyone who offers to 'fix' the verification for a fee."
         }
       ]
     },

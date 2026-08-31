@@ -4,7 +4,7 @@
   "classification": "downloadable-form",
   "title": "SASSA Consent and Declaration Form — Database Verification Authorisation",
   "description": "The general consent form authorising SASSA to verify your personal, financial and medical information against Home Affairs, SARS, bank and medical databases.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "SASSA Consent and Declaration Form",
       "description": "The standard authorisation letting SASSA check your details against national databases. Here is exactly what you are agreeing to before you sign.",
       "readingTime": "4 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "View Filling Guide",
         "href": "#how-to-fill"
@@ -144,6 +144,24 @@
         }
       ],
       "note": "Form purpose verified August 2026."
+    },
+    {
+      "id": "related-pages-x2y9in",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Documents Checklist",
+          "href": "/guides/sassa-documents-checklist"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        }
+      ]
     }
   ],
   "relatedPages": [

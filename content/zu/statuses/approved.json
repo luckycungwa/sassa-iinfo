@@ -1,0 +1,332 @@
+{
+  "id": "status-approved",
+  "slug": "/status/approved",
+  "classification": "status-meaning",
+  "title": "Isemukelwe — Kuchaza Ukuthini Nokwenzakalayo Ngemva Kokuqinisekiswa Kwe-SASSA",
+  "description": "Isibonelelo sakho se-SASSA semukelwe! Nakhu okuchazwa isimo 'Isemukelwe', ukuthi uzokhokhelwa nini, nokuthi yini okufanele uyenze ngenkathi ulinde inkokhelo yakho.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.1.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Isimo Se-SASSA Isemukelwe — Uzokhokhelwa Nini? (2026)",
+    "metaDescription": "Isimo se-SASSA 'Isemukelwe' ngo-2026? Thola ukuthi ukhokhelwa nini, ukuthi kungani usuku lokukhokha kungase kungabonakali, nokuthi wenzeni uma imali ifika sekwedlule isikhathi.",
+    "keywords": [
+      "isimo esisemukelwe se-SASSA",
+      "isemukelwe ngaphandle kosuku lokukhokha",
+      "I-SASSA isemukelwe kodwa akukho mali",
+      "incazelo yokusemukelwa kwe-SRD",
+      "akukho usuku lokukhokha kwe-SASSA",
+      "i-SASSA izongikhokhela nini"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Isemukelwe — Uzokhokhelwa Nini?",
+      "description": "Isibonelelo sakho se-SASSA semukelwe! Qondisisa ukuthi isimo 'Isemukelwe' sisho ukuthini, ukuthi inkokhelo yakho izofika nini, ukuthi kuthatha isikhathi esingakanani ukuthi ibonakale e-akhawuntini yakho yasebhange, nokuthi yini okufanele uyenze uma inkokhelo yakho isilele.",
+      "readingTime": "Ukufunda kwemizuzu eyi-7",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Landelela Inkokhelo Yakho",
+        "href": "/status/payment-processing"
+      },
+      "secondaryCta": {
+        "text": "Buka Izinsuku Zokukhokha",
+        "href": "/payment-dates"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Isemukelwe — Kuchaza Ukuthini Ngesibonelelo Sakho Se-SASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Isimo 'Isemukelwe' yilokho nje obukade ukulindile. Kuchaza ukuthi i-SASSA isiqedile izinhlolovo zayo zokuqinisekisa, iqinisekise ukuthi uyahlangabezana nazo zonke izidingo zokufaneleka kuleyo nyanga, futhi isabelile imali yokukukhokha. Lokhu wukugcina kokuqinisekiswa ngaphambi kokuthi imali yakho ithunyelwe ebhange lakho noma endaweni yokukuthola."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Lesi simo senzelwe abahlomuli be-SASSA izicelo zabo zezibonelelo eziye zahlolwa ngempumelelo futhi zamukelwa ukuze zikhokhelwe."
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Isibonelelo Sakho Sisemukelwe",
+      "text": "Izinkokhelo zicutshungulwa ngokohlelo olusemthethweni lokukhokha lwe-SASSA. Imali ivamise ukubonakala ezinsukwini ezingu-1-3 zokusebenza ngemva kosuku lokukhokha."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Isemukelwe",
+      "explanation": "Isicelo sakho sidlule kuzo zonke izinhlolovo zokuqinisekisa: umazisi ufaniswe namarekhodi ase-Home Affairs, imininingwane yasebhange yaqinisekiswa ngempumelelo, ukuhlolwa kwezimali akubonisanga holomali olungafaneleki, futhi akukho maki lokukhwabanisa olwaphakanyiswa. I-SASSA isikufakile ohlelweni lokukhokha lwaleyo nyanga.",
+      "whyItHappens": [
+        "Zonke izidingo zokufaneleka zihlangatsheziwe",
+        "Ukuqinisekiswa kwebhange kuphumelele ngempumelelo",
+        "Ukuqinisekiswa komazisi kuphasiswe ngokuhambisana nesizindalwazi sase-Home Affairs",
+        "Ukuhlolwa kwezimali kuqinisekisile ukuthi holomali wakho ungaphansi komkhawulo",
+        "Akukho mithombo yezimali ye-UIF, NSFAS, noma eminye etholiwe"
+      ],
+      "howLongItLasts": "Isimo 'Isemukelwe' sihlala kuze kube yilapho inkokhelo icutshungulwa futhi idluliselwa ebhange lakho noma endaweni yokukuthola. Uma usukhokhiwe, isimo sishintshela ku-'Kwenziwa Inkokhelo' noma 'Sekhokhisiwe'. Inyanga ngayinye entsha ihlolwa ngokwehlukana — ukwemukelwa ngenyanga eyodwa akuqinisekisi ukwemukelwa ngenyanga elandelayo.",
+      "whatYouShouldDo": [
+        "Bheka usuku lokukhokha kanye nesimo sakho esisemukelwe",
+        "Uma uthola udluliselo lwasebhange: lindela imali ezinsukwini ezingu-1 kuya kwezingu-3 zokusebenza ngemva kosuku lokukhokha",
+        "Uma uthola i-Cash Send: linda i-SMS yevawusha ngaphambi kokuvakashela isitolo",
+        "Ungavali noma ungashintshi i-akhawunti yakho yasebhange kuze kube yilapho inkokhelo isifika",
+        "Qhubeka ubheka isimo sakho ekuqaleni kwenyanga ngayinye entsha ukuze ubone ukuhlolwa kabusha"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Kwenziwa Inkokhelo",
+          "slug": "payment-processing"
+        },
+        {
+          "name": "Isicelo Sesiphelele",
+          "slug": "application-complete"
+        }
+      ]
+    },
+    {
+      "id": "payment-timing-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Uzokhokhelwa Nini?"
+    },
+    {
+      "id": "payment-timing",
+      "type": "paragraph",
+      "text": "Ngemva kokuthi isimo sakho sibonise 'Isemukelwe', usuku lokukhokha luvamise ukungezwa phakathi nezinsuku ezimbalwa zokusebenza. Izinsuku eziqondile ziyahlukahluka ngokohlobo lwesibonelelo:"
+    },
+    {
+      "id": "payment-table",
+      "type": "table",
+      "headers": [
+        "Uhlobo Lwesibonelelo",
+        "Isikhathi Sokukhokha",
+        "Indlela"
+      ],
+      "rows": [
+        [
+          "Isibonelelo se-SRD R370",
+          "Isikhathi sanyanga zonke esiqala cishe ngomhla ka-25",
+          "I-EFT yasebhange noma i-Cash Send"
+        ],
+        [
+          "Isibonelelo Sabantu Asebekhulile",
+          "Iviki lokuqala lanyanga ngayinye",
+          "I-EFT yasebhange noma ukuqoqa esitolo"
+        ],
+        [
+          "Isibonelelo Sokukhubazeka",
+          "Iviki lokuqala lanyanga ngayinye",
+          "I-EFT yasebhange noma ukuqoqa esitolo"
+        ],
+        [
+          "Isibonelelo Sokondleka Kwengane",
+          "Iviki lokuqala lanyanga ngayinye, ngemva kwezibonelelo zabantu asebekhulile nezokukhubazeka",
+          "I-EFT yasebhange noma ukuqoqa esitolo"
+        ],
+        [
+          "Isibonelelo Sokunakekelwa Kwengane Ezondlekile (Foster Care)",
+          "Iviki lokuqala lanyanga ngayinye, ngemva kwezibonelelo zabantu asebekhulile nezokukhubazeka",
+          "I-EFT yasebhange noma ukuqoqa esitolo"
+        ]
+      ]
+    },
+    {
+      "id": "bank-credit-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Kuthatha Isikhathi Esingakanani Ukuthi Ibonakale E-akhawuntini Yakho Yasebhange?"
+    },
+    {
+      "id": "bank-credit",
+      "type": "paragraph",
+      "text": "Uma i-SASSA isicubungule inkokhelo, isikhathi esithathwayo ukuze imali ibonakale e-akhawuntini yakho sincike ebhangeni lakho:"
+    },
+    {
+      "id": "bank-table",
+      "type": "table",
+      "headers": [
+        "Ibhange",
+        "Isikhathi Esivamile Sokufakwa Kwemali"
+      ],
+      "rows": [
+        [
+          "Capitec",
+          "Ngalolo suku (phakathi kwamahora angu-2-4 ngemva kokukhishwa yi-SASSA)"
+        ],
+        [
+          "FNB",
+          "Ngalolo suku noma usuku olulandelayo lokusebenza"
+        ],
+        [
+          "Standard Bank",
+          "Izinsuku ezingu-1 kuya kwezingu-2 zokusebenza"
+        ],
+        [
+          "Absa",
+          "Izinsuku ezingu-1 kuya kwezingu-2 zokusebenza"
+        ],
+        [
+          "Nedbank",
+          "Izinsuku ezingu-1 kuya kwezingu-2 zokusebenza"
+        ],
+        [
+          "TymeBank",
+          "Ngalolo suku"
+        ],
+        [
+          "Bank Zero",
+          "Ngalolo suku"
+        ],
+        [
+          "Postbank",
+          "Ngalolo suku noma usuku olulandelayo lokusebenza"
+        ]
+      ]
+    },
+    {
+      "id": "nopayday-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isemukelwe Ngaphandle Kosuku Lokukhokha — Kuchaza Ukuthini Nokuthi Wenzeni"
+    },
+    {
+      "id": "nopayday-answer",
+      "type": "paragraph",
+      "text": "Uma isimo sakho sibonise 'Isemukelwe' kodwa kungabonakali usuku lokukhokha eduze kwaso, isicelo sakho samukelwe kule nyanga, kodwa usuku lokukhokha awukaboniswa. Lokhu kwenzeka njalo futhi akusho ukuthi ukwamukelwa kwakho sekuhoxisiwe. Ezimweni eziningi usuku lokukhokha lungezwa njengoba isikhathi esilandelayo sokukhokha sisondela."
+    },
+    {
+      "id": "nopayday-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Isemukelwe kodwa akukho usuku lokukhokha olubonakalayo?",
+      "text": "Isicelo sakho samukelwe, kodwa usuku lokukhokha awukakaboniswa. Akukho okudingekayo kuwe ngenkathi ulinde — qhubeka ubheka isimo sakho nsuku zonke ezimbalwa kunokuba uphinde ufake isicelo."
+    },
+    {
+      "id": "nopayday-diff",
+      "type": "paragraph",
+      "text": "Lokhu kuhlukile ne-'Kusacutshungulwa' (Pending), okuchaza ukuthi i-SASSA isahlola ukufaneleka kwakho kule nyanga. Kukwahlukile nokukhokhelwa okulahlekile: uma usuku lokukhokha lwaboniswa futhi lwedlula lingakabonakali mali e-akhawuntini yakho, landela umhlahlandlela wethu wokuthi inkokhelo ayibonakali."
+    },
+    {
+      "id": "nopayday-not-h",
+      "type": "heading",
+      "level": 3,
+      "text": "OkuNGAKUFANELE Ukukwenza Ngenkathi Ulinde"
+    },
+    {
+      "id": "nopayday-not",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ungafaki isicelo esisha — ngeke kwenze usuku lokukhokha luvelise futhi kungase kuyinkimbinkimbi irekhodi lakho elikhona",
+        "Ungakhokhi noma ngubani othi angakukhulula inkokhelo noma aphoqe usuku lokukhokha ukuthi lubonakale — lokhu kuwumgunyathi ovamile",
+        "Ungashintshi imininingwane yakho yasebhange kaningi ngenkathi ulinde — ushintsho ngalunye luqala kabusha ukuqinisekiswa futhi kungase kudlulise inkokhelo yakho kumjikelezo olandelayo",
+        "Ungathembeli kuphela kuzaziso ze-SMS — bheka isimo sakho ngqo kuphaneli elisemthethweni"
+      ]
+    },
+    {
+      "id": "nosms-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Akukho SMS Okwamanje? Ukuthi Kungani Kungase Kube Okujwayelekile"
+    },
+    {
+      "id": "nosms",
+      "type": "paragraph",
+      "text": "Izaziso zokwemukelwa zithunyelwa nge-SMS lapho i-SASSA inenombolo yocingo esebenzayo efayilini, kodwa imiyalezo ingase ifike sekwedlule isikhathi noma ingafiki nhlobo — ikakhulukazi uma inombolo yakho ishintshile selokhu wafaka isicelo. Iphaneli lesimo ingumthombo othembekile weqiniso: uma ibonisa 'Isemukelwe', thatha isibonelelo sakho njengosemukelwe noma ngabe i-SMS ifikile. Uma inombolo yakho ishintshile noma ilahlekile, yibuyekeze usebenzisa umhlahlandlela wethu wenombolo yocingo ye-SRD ukuze izaziso ezizayo zikufinyelele.",
+      "links": [
+        {
+          "text": "SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Imibuzo Ejwayele Ukubuzwa"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Isimo sami sithi 'Isemukelwe' kodwa akukho usuku lokukhokha. Lokhu kuchaza ukuthini?",
+          "answer": "Isicelo sakho samukelwe, kodwa usuku lokukhokha awukakaboniswa. Lokhu kwenzeka njalo futhi akukho okudingekayo kuwena. Usuku lokukhokha luvamise ukungezwa phakathi nezinsuku ezimbalwa zokusebenza njengoba isikhathi esilandelayo sokukhokha sisondela — qhubeka ubheka isimo sakho kunokuba uphinde ufake isicelo."
+        },
+        {
+          "question": "Ingabe isimo 'Isemukelwe' singashintsha sibuyele ku-'Kusacutshungulwa' noma 'Sinqatshiwe'?",
+          "answer": "Yebo. Inyanga ngayinye ihlolwa njengomjikelezo ohlukene. Uma isimo sakho sezezimali sishintsha phakathi nenyanga (isb., uthola idiphozithi yasebhange), inyanga elandelayo ingase ibonise isimo esihlukile."
+        },
+        {
+          "question": "Ngisemukelwe kodwa imali ayikho e-akhawuntini yami. Kufanele ngenzeni?",
+          "answer": "Linda izinsuku ezingu-1 kuya kwezingu-3 zokusebenza ngemva kosuku lokukhokha. Uma ingabonakali, qinisekisa ukuthi imininingwane yakho yasebhange ilungile nokuthi i-akhawunti isebenza. Uma inkinga iqhubeka, xhumana ne-SASSA."
+        },
+        {
+          "question": "Ingabe kumele ngiphinde ngifake isicelo nyanga zonke uma ngisemukelwe?",
+          "answer": "Cha. Uma ususemukelwe, isibonelelo sakho sihlolwa ngokuzenzakalelayo nyanga zonke. Udinga kuphela ukuphinda ufake isicelo uma isibonelelo sakho sihoxisiwe noma udinga ukushintshela kusibonelelo sohlobo oluhlukile."
+        },
+        {
+          "question": "Ingabe ngingashintsha indlela yami yokukhokha ngemva kokwemukelwa?",
+          "answer": "Yebo. Ngena kuphaneli ye-SRD bese uya ku-'Payment Method' ukuze ushintshe phakathi kokudluliselwa kwebhange ne-Cash Send. Izinguquko zisebenza kusukela ngenyanga elandelayo."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Inkokhelo Ayibonakali?",
+          "href": "/banking/payment-not-reflecting",
+          "description": "Izinyathelo zokuphakamisa udaba uma usuku lokukhokha luphelile kungabonakali mali"
+        },
+        {
+          "title": "Izindlela Zokukhokha Ze-SASSA",
+          "href": "/banking/payment-methods",
+          "description": "Zonke izindlela zokuthola inkokhelo yesibonelelo sakho"
+        },
+        {
+          "title": "Indlela Yokubuyekeza Imininingwane Yasebhange",
+          "href": "/banking/update-bank-details",
+          "description": "Shintsha i-akhawunti yakho yasebhange ukuze ukwazi ukuthola izinkokhelo zesibonelelo"
+        },
+        {
+          "title": "Izinsuku Zokukhokha Zango-Agasti 2026",
+          "href": "/payment-dates/2026-august",
+          "description": "Izinsuku ezizwakalayo zokukhokha nesikhathi se-SRD kule nyanga"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Kwenziwa Inkokhelo",
+      "slug": "/status/payment-processing"
+    },
+    {
+      "title": "Umhlahlandlela Wokuthi Inkokhelo Ayibonakali",
+      "slug": "/banking/payment-not-reflecting"
+    },
+    {
+      "title": "Isicelo Sesiphelele",
+      "slug": "/status/application-complete"
+    },
+    {
+      "title": "Izinsuku Zokukhokha Ze-SASSA",
+      "slug": "/payment-dates"
+    }
+  ]
+}

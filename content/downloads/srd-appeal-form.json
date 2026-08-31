@@ -4,7 +4,7 @@
   "classification": "downloadable-form",
   "title": "SRD Appeal Form — DSD Appeal Form",
   "description": "The official DSD appeal form for the SASSA SRD R370 grant. Download and complete this form if your SRD application was declined or your payment was stopped.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "5 min read",
   "status": "published",
@@ -35,7 +35,7 @@
       "title": "SRD Appeal Form — DSD Appeal Form",
       "description": "Download the official Department of Social Development (DSD) appeal form for the SASSA SRD R370 grant. Complete instructions for submitting your appeal and getting your payments reinstated.",
       "readingTime": "5 min read",
-      "lastUpdated": "2026-07-27",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "View Filling Guide",
         "href": "#how-to-fill"
@@ -48,7 +48,17 @@
     {
       "id": "intro-paragraph",
       "type": "paragraph",
-      "text": "If your SRD R370 grant application was declined or your payments were stopped, you have the right to appeal. The Department of Social Development (DSD) appeal form is the official channel for challenging SASSA's decision. You have 90 days from the date of the rejection letter to submit your appeal. Complete the form below and submit it to the DSD for review."
+      "text": "If your SRD R370 grant application was declined or your payments were stopped, you have the right to appeal. The Department of Social Development (DSD) appeal form is the official channel for challenging SASSA's decision. You have 90 days from the date of the rejection letter to submit your appeal. Complete the form below and submit it to the DSD for review.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "instructions-heading",

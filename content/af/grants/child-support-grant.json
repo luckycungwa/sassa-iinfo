@@ -1,0 +1,902 @@
+{
+  "id": "grant-child-support",
+  "slug": "/grants/child-support-grant",
+  "classification": "grant-detail",
+  "title": "Kinderondersteuningstoelaag",
+  "description": "Die SASSA Kinderondersteuningstoelaag verskaf R580 per maand per kind aan versorgers wat aan die middeletoetsvereistes voldoen.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "readingTime": "24 min read",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Kinderondersteuningstoelaag — R580/maand en hoe om aansoek te doen (2026)",
+    "metaDescription": "Die Kinderondersteuningstoelaag betaal R580/maand in 2026. Kontroleer geskiktheid en die middeletoets, en volg dan ons stap-vir-stap SASSA-aansoekgids vir u kind.",
+    "keywords": [
+      "kinderondersteuningstoelaag",
+      "SASSA-kindertoelaag",
+      "kindertoelaag Suid-Afrika",
+      "middeletoets inkomste",
+      "CSG-aansoek"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Child Support Grant"
+    }
+  },
+  "sources": [
+    {
+      "label": "SASSA Amptelike Webwerf",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Departement van Maatskaplike Ontwikkeling",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "Nasionale Tesourie-begrotingsoorsig 2026",
+      "url": "https://www.treasury.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Kinderondersteuningstoelaag",
+      "description": "Volledige gids tot die SASSA Kinderondersteuningstoelaag: R580 per kind, middeletoetsperke, wat as inkomste tel, vereiste dokumente, aansoekstappe en appèlle.",
+      "readingTime": "24 min read",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Kontroleer Geskiktheid",
+        "href": "/eligibility"
+      },
+      "secondaryCta": {
+        "label": "Hoe om Aansoek te Doen",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R580 per maand per kind",
+      "frequency": "Maandeliks (’n bykomende toppie kan geld vir weeskinders — bevestig die huidige bedrag by SASSA)",
+      "targetGroup": "Primêre versorgers van kinders jonger as 18 wat aan die middeletoetsvereistes voldoen."
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "Die SASSA Kinderondersteuningstoelaag is die mees gebruikte maatskaplike toelaag in Suid-Afrika. Dit verskaf ’n maandelikse betaling om versorgers te help om die koste van grootmaak van ’n kind te dek. As u die primêre versorger van ’n kind jonger as 18 is en u inkomste onder die middeletoetsdrempel val, kwalifiseer u waarskynlik.",
+      "links": [
+        {
+          "text": "middeletoets",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
+    },
+    {
+      "id": "child-topup-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Kinderondersteuningstoelaag-toppie vir weeskinders"
+    },
+    {
+      "id": "child-topup-paragraph",
+      "type": "paragraph",
+      "text": "As die kind beide ouers verloor het, of as beide ouers in die tronk of in ’n geestesgesondheidsinstelling is, of nie opgespoor kan word nie, kan u dalk vir die Kinderondersteuningstoelaag-toppie kwalifiseer. Dit betaal ’n bykomende toppie bo-op die standaard R580. Die presiese bedrag het oor tyd verander en is onderhewig aan openbare debat, so bevestig die huidige syfer by SASSA voordat u daarop staatmaak."
+    },
+    {
+      "id": "eligibility-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Geskiktheidskriteria"
+    },
+    {
+      "id": "eligibility",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "U moet die kind se primêre versorger wees (biologiese ouer, grootouer, familielid, of enige persoon wat na die kind omsien).",
+        "Die kind moet jonger as 18 jaar wees.",
+        "U moet ’n Suid-Afrikaanse burger, permanente inwoner of vlugteling wees.",
+        "U moet aan die middeletoets voldoen: enkellopende versorgers wat R69,600 of minder per jaar verdien (sowat R5,800 per maand), of getroude paartjies wat R139,200 of minder gesamentlik verdien (sowat R11,600 per maand).",
+        "Die kind moet by u in Suid-Afrika woon.",
+        "U mag nie ’n salaris ontvang om na die kind om te sien nie (bv. die pleegsorgtoelae is apart)."
+      ],
+      "restrictions": [
+        "U kan nie die toelaag vir meer as ses kinders op ’n slag ontvang nie.",
+        "Die kind kan nie vir langer as ses maande in ’n staatsbefondsde instelling versorg word nie.",
+        "U kan nie ’n ander toelaag vir dieselfde kind ontvang nie.",
+        "Die kind mag nie getroud wees of onafhanklik leef nie."
+      ],
+      "recommendedGrants": [
+        {
+          "name": "Pleegkindertoelaag",
+          "slug": "/grants/foster-care-grant",
+          "amount": "R1,295"
+        },
+        {
+          "name": "Sorgafhanklikheidstoelaag",
+          "slug": "/grants/care-dependency-grant",
+          "amount": "R2,400"
+        }
+      ]
+    },
+    {
+      "id": "means-test-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Wat tel as inkomste vir die middeletoets?"
+    },
+    {
+      "id": "means-test-intro",
+      "type": "paragraph",
+      "text": "Een van die verwarrendste dele van die Kinderondersteuningstoelaag-aansoek is die middeletoets. Baie versorgers is onseker of informele inkomste verklaar moet word. Die kort antwoord: ja, die meeste inkomste tel. SASSA wil van elke bron van geld wat in u huishouding inkom weet, selfs al is dit onreëlmatig of word dit kontant betaal. Hieronder is ’n uiteensetting van wat ingesluit is en wat nie."
+    },
+    {
+      "id": "means-test-table",
+      "type": "table",
+      "headers": [
+        "Tipe inkomste",
+        "Tel dit?",
+        "Praktiese voorbeeld"
+      ],
+      "rows": [
+        [
+          "Formele salaris of lone",
+          "Ja",
+          "’n Deeltydse of voltydse werk met ’n gereelde loonstrokie."
+        ],
+        [
+          "Los werke en informele werk",
+          "Ja",
+          "Tuinarbeid, huishoudelike werk, dagarbeid, of enige ad-hoc-werk wat kontant betaal word."
+        ],
+        [
+          "Fooie en gratifikasies",
+          "Ja",
+          "Wenke van kelnerwerk, karwasgoed, karwagwerk, of afleweringswerk."
+        ],
+        [
+          "Onderhoud van die ander ouer",
+          "Ja",
+          "Hofbevolé kinderonderhoud of ’n ooreengekome maandelikse bedrag."
+        ],
+        [
+          "Gereelde hulp van familie",
+          "Ja",
+          "Maandelikse kontantgeskenke van ’n ouer, broer, suster of familielid om met rekeninge te help."
+        ],
+        [
+          "Klein besigheid of spaza-winkel inkomste",
+          "Ja",
+          "Wins uit die verkoop van goedere, die bedryf van ’n munisipale besigheid, of straatverkoop."
+        ],
+        [
+          "’n Ander SASSA-toelaag in u naam",
+          "Nee",
+          "U eie Toelaag vir Bejaardes, Gestremdheidstoelaag, of ander SASSA-toelaag."
+        ],
+        [
+          "Eenmalige enkelbedrae",
+          "Nee",
+          "’n Eenmalige UIF-uitbetaling, ’n bonus, of ’n erfenis wat eenmalig ontvang word."
+        ]
+      ],
+      "caption": "Hoe verskillende soorte inkomste die middeletoets beïnvloed"
+    },
+    {
+      "id": "means-test-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Verklaar alles",
+      "text": "SASSA kan bankstate aanvra en mag u huis besoek om u finansiële situasie te verifieer. As u gevang word dat u inkomste wegsteek, kan u toelaag gestaak word en kan u gevra word om geld wat u ontvang het, terug te betaal. Dit is altyd beter om alle inkomste te verklaar, selfs al is dit onreëlmatig of word dit kontant betaal."
+    },
+    {
+      "id": "docs-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Vereiste dokumente"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "U oorspronklike 13-syfer-strepiekodeslim-ID-kaart of groen ID-boekie",
+          "required": true,
+          "notes": "Tydelike ID's word nie aanvaar nie."
+        },
+        {
+          "label": "Die kind se geboortesertifikaat (oorspronklik)",
+          "required": true,
+          "notes": "As die kind geen geboortesertifikaat het nie, bring ’n beëdigde verklaring en bewys van aansoek by Home Affairs."
+        },
+        {
+          "label": "Bewys van inkomste (loonstrokies, bankstate, of ’n beëdigde verklaring as u werkloos is)",
+          "required": true,
+          "notes": "Laaste 3 maande se state as u ’n bankrekening het."
+        },
+        {
+          "label": "Bewys van woonadres (nutsrekening, huurkontrak, of brief van wyksraadslid)",
+          "required": true,
+          "notes": "Moet u huidige fisiese adres toon."
+        },
+        {
+          "label": "Bewys van huwelikstatus (huweliksertifikaat, egskeidingsbevel, of doodsertifikaat van gade)",
+          "required": false,
+          "notes": "Slegs nodig as u getroud is of voorheen getroud was."
+        },
+        {
+          "label": "Skoolrapport of kliniekkaart vir die kind",
+          "required": false,
+          "notes": "Handig om die kind se ouderdom te bevestig en dat hulle skool of kliniek bywoon."
+        }
+      ]
+    },
+    {
+      "id": "steps-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om aansoek te doen"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Versamel u dokumente",
+          "description": "Versamel al die oorspronklike dokumente hierbo gelys en maak fotokopieë. SASSA sal nie vervalde ID's of ongetekende beëdigde verklarings aanvaar nie."
+        },
+        {
+          "title": "Besoek u naaste SASSA-kantoor",
+          "description": "Gaan na die SASSA-kantoor wat u omgewing bedien. U kan u naaste kantoor op die SASSA-webwerf vind of deur by u naaste Thusong Service Centre te vra."
+        },
+        {
+          "title": "Voltooi die aansoekvorm",
+          "description": "’n SASSA-beampte sal u help om die aansoekvorm in te vul. U sal besonderhede oor u huishoudelike inkomste, die kind, en die kind se ander ouer indien bekend, moet verskaf."
+        },
+        {
+          "title": "Verskaf vingerafdrukke en wys ’n foto",
+          "description": "SASSA sal u vingerafdrukke en ’n foto neem as deel van die aansoekproses. Die kind mag dalk ook teenwoordig moet wees."
+        },
+        {
+          "title": "Wag vir die uitslag",
+          "description": "SASSA het tot 3 maande om u aansoek te verwerk. Betalings word teruggedateer na die datum waarop u aansoek gedoen het, so hou u kwitansie veilig."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-caregiver-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uitgebreide geskiktheid: Wie tel as die versorger?"
+    },
+    {
+      "id": "deepdive-caregiver-p1",
+      "type": "paragraph",
+      "text": "Die Kinderondersteuningstoelaag word aan die primêre versorger van ’n kind betaal, nie outomaties aan ’n ouer nie. SASSA fokus op wie daagliks na die kind omsien. Dit is ’n belangrike onderskeid, want ’n biologiese ouer wat nie by die kind woon nie, is dalk nie die persoon wat kwalifiseer nie, terwyl ’n grootouer, familielid, of selfs ’n nie-familielid wat na die kind omsien, dit wel kan wees."
+    },
+    {
+      "id": "deepdive-caregiver-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "U moet die primêre versorger wees: die persoon wat hoofsaaklik verantwoordelik is vir die kind se daaglikse sorg, kos, klere en skuiling.",
+        "U kan ’n biologiese ouer, grootouer, ouer broer of suster, tannie, oom, of enige ander familielid of verantwoordelike persoon wees wat na die kind omsien.",
+        "U moet ’n Suid-Afrikaanse burger, permanente inwoner of erkende vlugteling wees wat in Suid-Afrika woon.",
+        "Die kind moet by u in Suid-Afrika woon as deel van u huishouding.",
+        "U mag nie ’n salaris ontvang om na die kind om te sien nie (byvoorbeeld, ’n formele pleegsorgtoelae is ’n ander toelaag).",
+        "Die toelaag volg die kind, nie die versorger nie. As die kind by iemand anders gaan woon, kan die toelaag na die nuwe primêre versorger oorgedra word."
+      ]
+    },
+    {
+      "id": "deepdive-follows-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Die toelaag volg die kind",
+      "text": "As die sorg van die kind van eienaar verander, word die toelaag na die nuwe primêre versorger oorgedra eerder as om bloot te stop. SASSA sal die nuwe lewensreëling verifieer voordat die betaling geskuif word."
+    },
+    {
+      "id": "deepdive-arrangements-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die kind se ouderdom en lewensreëlings"
+    },
+    {
+      "id": "deepdive-arrangements-p1",
+      "type": "paragraph",
+      "text": "Die kind moet jonger as 18 jaar wees. Die toelaag is bedoel om kinders te ondersteun wat nog afhanklik is en in ’n gesins- of huishoudelike omgewing woon. ’n Kind wat getroud is, volkome onafhanklik leef, of permanent in ’n staatsbefondsde instelling is, kwalifiseer oor die algemeen nie."
+    },
+    {
+      "id": "deepdive-arrangements-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Onder 18: Die kind moet jonger as 18 wees wanneer die toelaag betaal word.",
+        "Woon by u: Die kind moet u huis deel. Af en toe besoeke aan ’n ander ouer beëindig nie die toelaag nie.",
+        "Nie in ’n staatsinstelling nie: As die kind vir meer as ses maande in ’n staatsbefondsde instelling versorg word, stop die toelaag normaalweg.",
+        "Skool- en kliniekbywoning: SASSA verwag dat kinders van skoolgaande ouderdom skool bywoon (of kliniekbesoeke vir jonger kinders) en mag vir bewys vra."
+      ]
+    },
+    {
+      "id": "deepdive-foster-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Kinderondersteuningstoelaag teenoor Pleegsorgtoelaag"
+    },
+    {
+      "id": "deepdive-foster-p1",
+      "type": "paragraph",
+      "text": "Versorgers verwar die Kinderondersteuningstoelaag dikwels met die Pleegkindertoelaag. Hulle is verskillend: die Pleegkindertoelaag word betaal wanneer ’n hof ’n kind in u pleegsorg geplaas het, en dit is nie op u inkomste gebaseer nie. Die Kinderondersteuningstoelaag is op die versorger se middeletoets gebaseer. As ’n kind formeel by u in pleegsorg geplaas is, vra by u SASSA-kantoor watter toelaag geld, want u kan nie beide vir dieselfde kind ontvang nie."
+    },
+    {
+      "id": "deepdive-foster-table",
+      "type": "comparison-table",
+      "headers": [
+        "Toelaag",
+        "Bedrag (2026)",
+        "Vir wie dit is",
+        "Belangrikste verskil"
+      ],
+      "rows": [
+        [
+          "Kinderondersteuningstoelaag",
+          "R580 per kind per maand",
+          "Primêre versorger van ’n kind jonger as 18",
+          "Gebaseer op die versorger se middeletoets; volg die kind"
+        ],
+        [
+          "Pleegkindertoelaag",
+          "Hoër vaste bedrag",
+          "Kind wat deur ’n hofbevel in u sorg geplaas is",
+          "Nie middeletoets op die versorger nie; hofbevel vereis"
+        ],
+        [
+          "Sorgafhanklikheidstoelaag",
+          "R2,400 per maand",
+          "Kind met ’n ernstige gestremdheid wat voltydse sorg nodig het",
+          "Die kind moet beoordeel word as iemand wat voortdurende sorg nodig het"
+        ]
+      ],
+      "caption": "Hoe die Kinderondersteuningstoelaag van verwante toelaes verskil"
+    },
+    {
+      "id": "deepdive-meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die middeletoets vir 2026"
+    },
+    {
+      "id": "deepdive-meanstest-p1",
+      "type": "paragraph",
+      "text": "Vir die Kinderondersteuningstoelaag kyk die middeletoets slegs na inkomste, nie na bates nie. Die versorger se inkomste moet onder die drempel vir ’n volle toelaag val. Bo die drempel word die toelaag op ’n glyskaal verminder eerder as om heeltemal geweier te word. Die syfers hieronder is die 2026-perke; bevestig dit op die amptelike SASSA-kanale aangesien hulle elke begrotingsjaar kan verander."
+    },
+    {
+      "id": "deepdive-meanstest-table",
+      "type": "table",
+      "headers": [
+        "Situasie",
+        "Inkomsteperk vir volle toelaag",
+        "Bo die perk"
+      ],
+      "rows": [
+        [
+          "Enkellopende primêre versorger",
+          "~R5,800 per maand",
+          "Toelaag verminder op ’n glyskaal (sowat R1 minder vir elke R2 se inkomste bo die perk)"
+        ],
+        [
+          "Getroude paartjie (gesamentlik)",
+          "~R11,600 per maand",
+          "Toelaag verminder op ’n glyskaal op dieselfde manier"
+        ]
+      ],
+      "caption": "Middeletoetsdrempels vir die Kinderondersteuningstoelaag vir 2026"
+    },
+    {
+      "id": "deepdive-meanstest-examples",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Voorbeeld 1 (enkel): Nomsa verdien R5,500/maand. Dit is onder die perk, so sy ontvang die volle R580/maand vir die kind in haar sorg.",
+        "Voorbeeld 2 (enkel): Theo verdien R6,300/maand, sowat R500 bo die perk. Sy toelaag word met sowat R250 verminder, so hy ontvang omtrent R330/maand.",
+        "Voorbeeld 3 (getroud): ’n Paartjie met ’n gesamentlike inkomste van R11,000/maand is onder die perk en ontvang die volle toelaag.",
+        "Voorbeeld 4 (getroud): ’n Paartjie met ’n gesamentlike inkomste van R12,600/maand is R1,000 bo die perk, so die toelaag word met sowat R500 verminder tot omtrent R80/maand."
+      ]
+    },
+    {
+      "id": "deepdive-meanstest-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Geen formele bate-toets nie",
+      "text": "Anders as die Toelae vir Bejaardes, Gestremdheid en Oorlogsveterane, pas die Kinderondersteuningstoelaag nie ’n formele bate-toets toe nie. SASSA kyk na u inkomste, nie na die waarde van u huis, motor of spaargeld nie."
+    },
+    {
+      "id": "deepdive-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om aansoek te doen: Kantoor en aanlyn"
+    },
+    {
+      "id": "deepdive-apply-office",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Versamel u dokumente",
+          "description": "Versamel u ID, die kind se geboortesertifikaat, bewys van inkomste, en bewys van woonadres (sien die kontrolelys hierbo)."
+        },
+        {
+          "title": "Besoek u naaste SASSA-kantoor",
+          "description": "Gaan na die kantoor wat u omgewing bedien, of vra by u naaste Thusong Service Centre vir aanwysings."
+        },
+        {
+          "title": "Voltooi die vorm met ’n beampte",
+          "description": "’n SASSA-beampte help u om die aansoek met huishoudelike-, inkomste- en kinderbesonderhede in te vul."
+        },
+        {
+          "title": "Gee biometrie en hou u kwitansie veilig",
+          "description": "U vingerafdrukke en foto word geneem. Hou die gestempelde kwitansie; betalings word teruggedateer na die aansoekdatum indien goedgekeur."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-apply-p1",
+      "type": "paragraph",
+      "text": "Baie versorgers doen steeds persoonlik aansoek, maar SASSA brei sy aanlyn dienste uit. Waar die aanlyn kanaal vir u toelaag beskikbaar is, kan u die aansoek by services.sassa.gov.za begin, u dokumente oplaai, en die uitslag volg. As aanlyn aansoek nog nie vir Kinderondersteuningstoelaag in u omgewing oop is nie, gebruik die kantoorkanaal hierbo."
+    },
+    {
+      "id": "deepdive-apply-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Hulp is beskikbaar",
+      "text": "As u nie kan reis nie, kan ’n maatskaplike werker of SASSA-beampte dalk met ’n huisbesoek help of met die reël van ’n aansoek namens die kind. Vra by u plaaslike kantoor."
+    },
+    {
+      "id": "deepdive-payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Betaling gaan na die versorger"
+    },
+    {
+      "id": "deepdive-payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Die geld word aan die primêre versorger betaal, nie aan die kind nie en nie aan die kind se ander ouer nie.",
+        "Betaling word gewoonlik per bankdeposito in die versorger se rekening gemaak, of per SASSA-kaart by kleinhandel-uitbetalingspunte.",
+        "Die toelaag moet vir die kind se behoeftes gebruik word: kos, klere, skoolkoste en gesondheid."
+      ]
+    },
+    {
+      "id": "deepdive-orphan-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die weeskind-toppie"
+    },
+    {
+      "id": "deepdive-orphan-p1",
+      "type": "paragraph",
+      "text": "Waar ’n kind beide ouers verloor het, of beide ouers in die tronk, in ’n geestesgesondheidsinstelling is, of nie opgespoor kan word nie, kan die versorger dalk vir ’n verhoogde toppie bo-op die standaard Kinderondersteuningstoelaag kwalifiseer. Die presiese toppiewaarde het oor tyd verander en was soms die onderwerp van openbare debat, so ons vermeld nie ’n enkele vaste syfer hier nie. Bevestig altyd die huidige toppiebedrag op die amptelike SASSA-webwerf of by u naaste SASSA-kantoor voordat u daarop staatmaak."
+    },
+    {
+      "id": "deepdive-orphan-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Bevestig die huidige toppie by SASSA",
+      "text": "Omdat die weeskind-toppiebedrag deur die Minister van Maatskaplike Ontwikkeling aangepas kan word, behandel enige spesifieke randbedrag wat u elders sien as ’n kiekie, nie as ’n waarborg nie. Die amptelike SASSA-kanale publiseer die syfer wat in die huidige jaar geld."
+    },
+    {
+      "id": "deepdive-turns18-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Wat gebeur wanneer die kind 18 word"
+    },
+    {
+      "id": "deepdive-turns18-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Die Kinderondersteuningstoelaag eindig in die maand nadat die kind 18 word.",
+        "As die jong volwassene nog op skool of in tersiêre onderwys is, vra SASSA of enige voortgesette ondersteuning geld; die standaardtoelaag strek nie outomaties nie.",
+        "Stel SASSA voor die verjaarsdag in kennis sodat die betaling skoon stop en u ’n oorbetaling vermy wat dalk terugbetaal moet word.",
+        "’n Sorgafhanklike of gestremde jong volwassene kwalifiseer dalk vir ’n ander toelaag in hul eie naam; vra by u kantoor oor opsies."
+      ]
+    },
+    {
+      "id": "deepdive-suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Opskorting en kansellasie"
+    },
+    {
+      "id": "deepdive-suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Die toelaag kan opgeskort word as die kind ophou om by u te woon, sonder geldige rede ophou om skool by te woon, of as u inkomste bo die perk styg.",
+        "Dit kan gekanselleer word as die kind 18 word, trou, in ’n staatsinstelling intrek, of as sorg na iemand anders oorgaan.",
+        "As u glo dat ’n opskorting verkeerd is, neem u bewys (skoolbrief, kliniekkaart, bygewerkte inkomste) na u SASSA-kantoor om herinstelling aan te vra.",
+        "SASSA kan verkeerde betalings in paaiemente van toekomstige toelaes terugvorder."
+      ]
+    },
+    {
+      "id": "deepdive-appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appèlle: Wat om te doen as dit geweier word"
+    },
+    {
+      "id": "deepdive-appeals-p1",
+      "type": "paragraph",
+      "text": "As u Kinderondersteuningstoelaag-aansoek geweier word, kan u appelleer. Geweierde aansoeke word deur die Onafhanklike Tribunaal vir Appèlle in Maatskaplike Bystand (ITSAA) hersien. Vir toelaes anders as die SRD-toelaag kan u ook u appèl by ’n SASSA-kantoor indien of skriftelik aan die Ministerie van Maatskaplike Ontwikkeling."
+    },
+    {
+      "id": "deepdive-appeals-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Lees u besluitbrief",
+          "description": "Die brief verduidelik waarom u geweier is en die spertyd om te appelleer."
+        },
+        {
+          "title": "Dien binne 30 dae in",
+          "description": "Appelleer binne 30 dae na die besluit. Die aanlyn-appèlportaal aanvaar appèlle tot 90 dae vanaf die weieringsdatum."
+        },
+        {
+          "title": "Dien u appèl met bewyse in",
+          "description": "Verduidelik waarom u verskil en heg nuwe bewyse aan soos bygewerkte inkomsterekords, die kind se geboortesertifikaat, of ’n skoolbywoningsbrief."
+        },
+        {
+          "title": "Wag vir die tribunaal se uitslag",
+          "description": "Die Onafhanklike Tribunaal hersien u saak. As dit gehandhaaf word, word die toelaag goedgekeur en dikwels teruggedateer na u aansoek."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-appeals-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Kry hulp met u appèl",
+      "description": "U kan aanlyn via die SASSA-diensteportaal appelleer, by u naaste SASSA-kantoor, of skriftelik aan die Ministerie van Maatskaplike Ontwikkeling. ’n Maatskaplike werker kan u help om die appèl saam te stel."
+    },
+    {
+      "id": "deepdive-scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Beskerm jouself teen bedrog"
+    },
+    {
+      "id": "deepdive-scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA vra nooit betaling om ’n toelaag goed te keur nie",
+      "text": "Wees op u hoede vir enigiemand wat bel, SMS of boodskappe stuur en ’n “fooi” of u bank-PIN eis om die Kinderondersteuningstoelaag vry te stel. SASSA vra niks om aansoek te doen of ’n toelaag goed te keur nie en sal nooit vir u PIN of OTP vra nie. Rapporteer verdagte boodskappe aan die amptelike SASSA-kanale."
+    },
+    {
+      "id": "deepdive-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Middeletoets vir die Kinderondersteuningstoelaag",
+          "href": "/grants/child-support-grant/means-test-detail",
+          "description": "’n Dieper kyk na hoe die inkomstetoets bereken word."
+        },
+        {
+          "title": "Pleegsorgtoelaag",
+          "href": "/grants/foster-care-grant",
+          "description": "As die kind deur ’n hofbevel by u geplaas is."
+        },
+        {
+          "title": "Sorgafhanklikheidstoelaag",
+          "href": "/grants/care-dependency-grant",
+          "description": "Vir ’n kind met ’n ernstige gestremdheid wat voltydse sorg nodig het."
+        },
+        {
+          "title": "Hoe om teen ’n SASSA-besluit te appelleer",
+          "href": "/appeals",
+          "description": "Stap-vir-stap hulp met die Onafhanklike Tribunaal-appèlproses."
+        },
+        {
+          "title": "SRD R370-toelaag",
+          "href": "/grants/srd-r370-grant",
+          "description": "Maatskaplike verligting vir werksouderdom-volwassenes sonder inkomste."
+        },
+        {
+          "title": "SASSA-diensteportaal",
+          "href": "https://services.sassa.gov.za",
+          "description": "Doen aanlyn aansoek en kontroleer u aansoekstatus."
+        }
+      ]
+    },
+    {
+      "id": "your-other-grants-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die toelaag en u ander SASSA-toelaes"
+    },
+    {
+      "id": "your-other-grants-p1",
+      "type": "paragraph",
+      "text": "Om die Kinderondersteuningstoelaag te ontvang, verhoed u nie om ’n toelaag in u eie naam te kry nie. Byvoorbeeld, ’n ouma wat na ’n kleinkind omsien, kan die Toelaag vir Bejaardes vir haarself en die Kinderondersteuningstoelaag vir die kind ontvang. Die twee word afsonderlik beoordeel, en elkeen het sy eie reëls en middeletoets."
+    },
+    {
+      "id": "your-other-grants-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "U kan die Kinderondersteuningstoelaag ontvang en terselfdertyd ’n Toelaag vir Bejaardes, Gestremdheidstoelaag of Oorlogsveteranetoelaag in u eie naam hou.",
+        "U kan nie beide die Kinderondersteuningstoelaag en die Pleegkindertoelaag vir dieselfde kind ontvang nie.",
+        "U eie toelaag word nie as inkomste vir die kind se middeletoets getel nie, en die kind se toelaag word nie as inkomste vir u s’n getel nie.",
+        "As u omstandighede verander, hersien beide toelaes, want elkeen het sy eie middeletoets en kwalifiseringsreëls."
+      ]
+    },
+    {
+      "id": "maintenance-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Onderhoud van die ander ouer"
+    },
+    {
+      "id": "maintenance-p1",
+      "type": "paragraph",
+      "text": "Die kind se ander ouer mag wetlik verplig wees om onderhoud te betaal. Daardie onderhoud tel as inkomste in die middeletoets, maar om dit te eis stop nie die Kinderondersteuningstoelaag nie. Die toelaag en onderhoud is ontwerp om saam te werk om die kind te ondersteun. As u sukkel om onderhoud betaal te kry, kan ’n onderhoudshof by u plaaslike landdroskantoor u help om die bevel te laat afdwing."
+    },
+    {
+      "id": "spend-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Gebruik van die toelaag vir die kind se behoeftes"
+    },
+    {
+      "id": "spend-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Kos en voeding vir die kind.",
+        "Skoolgelde, uniforms, skryfbehoeftes en vervoer na skool.",
+        "Klere en skoene wat by die seisoen pas.",
+        "Gesondheidsorg, kliniekbesoeke en medikasie wat nie elders gedek word nie.",
+        "Veilige skuiling en die huishoudelike kostes wat die kind deel."
+      ]
+    },
+    {
+      "id": "report-changes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Rapporteer veranderinge aan SASSA"
+    },
+    {
+      "id": "report-changes-p1",
+      "type": "paragraph",
+      "text": "U toelaag hang af van die kind wat by u woon en u inkomste wat binne die perk bly. As enige van die twee verander, stel SASSA betyds in kennis sodat u korrek betaal word en ’n oorbetaling vermy word wat u later sou moes terugbetaal."
+    },
+    {
+      "id": "report-changes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "U inkomste styg bo die middeletoetsperk.",
+        "Die kind gaan by iemand anders woon (die toelaag behoort na die nuwe versorger oorgedra te word).",
+        "Die kind hou sonder ’n geldige rede op om skool by te woon.",
+        "U verander u bank- of kontakbesonderhede.",
+        "Die kind word 18 of trou."
+      ]
+    },
+    {
+      "id": "report-changes-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Rapporteer veranderinge vroeg",
+      "text": "As u SASSA nie van ’n verandering wat die toelaag raak, in kennis stel nie, kan u verkeerd betaal word en later gevra word om die geld terug te betaal. Betyds rapporteer beskerm u en die kind."
+    },
+    {
+      "id": "transfer-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Wanneer sorg van die kind na iemand anders oorgaan"
+    },
+    {
+      "id": "transfer-p1",
+      "type": "paragraph",
+      "text": "Kinders se lewensreëlings verander. As die kind by ’n familielid, pleegouer of ’n ander versorger gaan woon, behoort die Kinderondersteuningstoelaag saam met die kind te beweeg. SASSA sal die nuwe reëling verifieer en mag vir ’n nuwe aansoek van die persoon wat nou primêre sorg het, vra."
+    },
+    {
+      "id": "transfer-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Stel SASSA van die trek in kennis",
+          "description": "Rapporteer die verandering by u plaaslike kantoor sodat betalings hersien kan word en die korrekte versorger geïdentifiseer word."
+        },
+        {
+          "title": "Nuwe versorger doen aansoek of neem oor",
+          "description": "Die nuwe primêre versorger verskaf hul ID, bewys van woonadres, en bewys dat die kind by hulle woon."
+        },
+        {
+          "title": "SASSA verifieer en dra oor",
+          "description": "Sodra dit geverifieer is, word die toelaag vanaf die oordragdatum aan die nuwe versorger betaal, sodat die kind se ondersteuning sonder ’n lang onderbreking voortgaan."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Nog vrae? Uitgebreide Gereelde Vrae"
+    },
+    {
+      "id": "deepdive-faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Wat is die Kinderondersteuningstoelaag-bedrag in 2026?",
+          "answer": "Vanaf 1 April 2026 is die toelaag R580 per maand vir elke kwalifiserende kind onder 18. ’n Verhoogde toppiebedrag is beskikbaar vir weeskinders in die versorger se sorg; bevestig die huidige toppiesyfer by SASSA."
+        },
+        {
+          "question": "Wie kan die versorger wees?",
+          "answer": "Enige primêre versorger kan aansoek doen: ’n biologiese ouer, grootouer, ouer broer of suster, familielid, of verantwoordelike nie-familielid wat hoofsaaklik daagliks na die kind omsien. Die toelaag is gebaseer op wie na die kind omsien, nie net op wie die ouer is nie."
+        },
+        {
+          "question": "Moet die kind by my woon?",
+          "answer": "Ja. Die kind moet as deel van u huishouding in Suid-Afrika by u woon. Die toelaag volg die kind, so as sorg van eienaar verander, kan die betaling na die nuwe versorger beweeg."
+        },
+        {
+          "question": "Wat is die middeletoets vir ’n enkellopende versorger?",
+          "answer": "Vir 2026 ontvang ’n enkellopende primêre versorger met inkomste onder sowat R5,800 per maand die volle toelaag. Bo dit word die toelaag op ’n glyskaal verminder eerder as om geweier te word."
+        },
+        {
+          "question": "Wat is die middeletoets vir ’n getroude paartjie?",
+          "answer": "Gesamentlike inkomste onder sowat R11,600 per maand gee die volle toelaag. Bo dit verswak die toelaag op ’n glyskaal op dieselfde manier as vir ’n enkellopende versorger."
+        },
+        {
+          "question": "Is daar ’n bate-toets?",
+          "answer": "Nee. Die Kinderondersteuningstoelaag-middeletoets kyk slegs na inkomste. U huis, motor en spaargeld word nie getel nie, anders as by die Toelaag vir Bejaardes of Gestremdheidstoelaag."
+        },
+        {
+          "question": "Kan ek die toelaag vir meer as een kind kry?",
+          "answer": "Ja, u kan die toelaag vir meer as een kind in u sorg ontvang, tot ’n maksimum van ses kinders per versorger. Daarbo, vra by u kantoor oor ander opsies soos die Pleegsorgtoelaag."
+        },
+        {
+          "question": "Wat as beide ouers vir dieselfde kind aansoek doen?",
+          "answer": "SASSA betaal slegs een toelaag per kind. As twee mense eis, ondersoek SASSA wie die primêre versorger is en betaal die persoon wat die meeste sorg verskaf."
+        },
+        {
+          "question": "Moet ek kontant- en informele inkomste verklaar?",
+          "answer": "Ja. Alle inkomste tel, insluitend kontantwerk, wenke, onderhoud van die ander ouer, en gereelde hulp van familie. Slegs u eie ander SASSA-toelaag en egte eenmalige enkelbedrae word uitgesluit."
+        },
+        {
+          "question": "Kan ek aanlyn aansoek doen?",
+          "answer": "SASSA brei aanlyn aansoeke via services.sassa.gov.za uit. Waar die kanaal vir u toelaag beskikbaar is, kan u aanlyn aansoek doen en dokumente oplaai; andersins doen u persoonlik by u naaste SASSA-kantoor aansoek."
+        },
+        {
+          "question": "Hoe lank neem die aansoek?",
+          "answer": "Die meeste aansoeke word binne ongeveer drie maande verwerk. As dit goedgekeur word, word betalings teruggedateer na u aansoekdatum, so hou u kwitansie."
+        },
+        {
+          "question": "Watter dokumente het ek nodig?",
+          "answer": "U benodig u ID, die kind se geboortesertifikaat, bewys van inkomste (en die laaste 3 maande se bankstate as u ’n rekening het), en bewys van woonadres. ’n Huweliks- of egskeidingsdokument is slegs nodig as dit op u van toepassing is."
+        },
+        {
+          "question": "Hoe word die geld betaal?",
+          "answer": "Die toelaag word aan die primêre versorger betaal, gewoonlik per bankdeposito of SASSA-kaart by kleinhandel-uitbetalingspunte. Dit moet vir die kind se behoeftes gebruik word."
+        },
+        {
+          "question": "Wat is die weeskind-toppie?",
+          "answer": "Dit is ’n verhoogde bedrag wat bo-op die standaard toelaag betaal word waar ’n kind beide ouers verloor het of beide ouers nie opgespoor kan word nie of in die tronk of ’n geestesgesondheidsinstelling is. Die presiese syfer verander, so bevestig dit by SASSA."
+        },
+        {
+          "question": "Wat gebeur wanneer die kind 18 word?",
+          "answer": "Die toelaag eindig in die maand ná die kind se 18de verjaarsdag. Stel SASSA voor dit in kennis sodat betalings skoon stop. Vra oor ander ondersteuning as die jong volwassene nog in opleiding is of ’n gestremdheid het."
+        },
+        {
+          "question": "Kan die toelaag opgeskort word?",
+          "answer": "Ja, byvoorbeeld as die kind ophou om by u te woon, sonder rede ophou om skool by te woon, of u inkomste bo die perk styg. Neem u bewys na die SASSA-kantoor om herinstelling aan te vra."
+        },
+        {
+          "question": "Hoe appelleer ek teen ’n weiering?",
+          "answer": "Appelleer binne 30 dae na die Onafhanklike Tribunaal vir Appèlle in Maatskaplike Bystand (ITSAA) (die aanlynportaal aanvaar tot 90 dae). U kan aanlyn, by ’n SASSA-kantoor, of skriftelik aan die Ministerie van Maatskaplike Ontwikkeling appelleer."
+        },
+        {
+          "question": "Kan ek die Kinderondersteuningstoelaag en ’n Toelaag vir Bejaardes tegelyk kry?",
+          "answer": "Ja. ’n Versorger kan ’n toelaag in hul eie naam hou, soos die Toelaag vir Bejaardes, en ook die Kinderondersteuningstoelaag vir ’n kind in hul sorg ontvang. Elkeen word op sy eie middeletoets beoordeel."
+        },
+        {
+          "question": "Tel kinderonderhoud van die ander ouer as inkomste?",
+          "answer": "Ja, hofbevolé of ooreengekome onderhoud tel as inkomste in die middeletoets. Maar om onderhoud te ontvang kanselleer nie die toelaag nie; die twee vorme van ondersteuning is bedoel om saam vir die kind te werk."
+        },
+        {
+          "question": "Kan ek die toelaag kry as ek reeds ’n Pleegkindertoelaag vir ’n ander kind ontvang?",
+          "answer": "Ja, u kan ’n Pleegkindertoelaag vir een kind en ’n Kinderondersteuningstoelaag vir ’n ander kind ontvang. U kan nie beide vir dieselfde kind ontvang nie."
+        },
+        {
+          "question": "Wat as die kind se ander ouer ook vir die toelaag aansoek doen?",
+          "answer": "SASSA betaal slegs een toelaag per kind. As twee mense eis, bepaal SASSA wie die primêre versorger is en betaal daardie persoon. Verskaf skool-, kliniek- en lewensbewyse van u sorg."
+        },
+        {
+          "question": "Word die toelaag deur my bankrekening geraak?",
+          "answer": "Nee. Om ’n bankrekening te hê is heeltemal in orde en bankdeposito is die aanbevole betaalmetode. U verskaf bloot u bankbesonderhede; die rekening word nie as ’n bate vir hierdie toelaag getel nie, want daar is geen bate-toets nie."
+        },
+        {
+          "question": "Kan ’n nie-familielid die versorger wees?",
+          "answer": "Ja. Enige verantwoordelike persoon wat die primêre versorger is, kan aansoek doen, insluitend ’n nie-familielid. SASSA kontroleer dat die kind werklik by u woon en dat u hoofsaaklik vir hul sorg verantwoordelik is."
+        },
+        {
+          "question": "Wat gebeur as ek nie ’n verandering in my inkomste rapporteer nie?",
+          "answer": "As SASSA later vind dat u bo die perk was, kan die toelaag opgeskort word en kan u gevra word om die oorbetaalde bedrag in paaiemente terug te betaal. Veranderinge betyds rapporteer vermy dit."
+        },
+        {
+          "question": "Kan die toelaag aan die kind se ander ouer betaal word in plaas van my?",
+          "answer": "Die toelaag word aan die primêre versorger betaal, wie dit ook al is. As die kind by die ander ouer gaan woon, kan die toelaag na hulle oorgedra word nadat SASSA die nuwe lewensreëling geverifieer het."
+        },
+        {
+          "question": "Het ek die kind se geboortesertifikaat nodig?",
+          "answer": "Ja, die oorspronklike geboortesertifikaat word vereis. As die kind nie een het nie, bring ’n beëdigde verklaring en bewys van aansoek by Home Affairs; SASSA kan u lei terwyl die sertifikaat verwerk word."
+        }
+      ]
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Gereelde Vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "My eks-maat en ek het albei vir die toelaag vir ons kind aansoek gedoen. Wat gebeur?",
+          "answer": "SASSA sal slegs een toelaag per kind betaal. As twee mense vir dieselfde kind aansoek doen, sal SASSA ondersoek instel om te bepaal wie die primêre versorger is. Die toelaag gaan na die persoon wat die meeste sorg vir die kind verskaf."
+        },
+        {
+          "question": "Ek doen los werke en verdien kontant in die hand. Moet ek dit verklaar?",
+          "answer": "Ja. Alle inkomste tel vir die middeletoets, insluitend kontantbetalings, wenke en onreëlmatige werk. SASSA se definisie van inkomste is breed. As u kontantinkomste nie verklaar nie en SASSA dit uitvind, kan u toelaag gekanselleer word en kan u die geld moet terugbetaal."
+        },
+        {
+          "question": "Kan ek aansoek doen as ek nie die biologiese ouer is nie?",
+          "answer": "Ja. Die toelaag is vir die primêre versorger, nie net vir die biologiese ouer nie. Grootouers, tantes, ooms, ouer broers of susters, en selfs nie-familielede kan aansoek doen as hulle diegene is wat na die kind omsien."
+        },
+        {
+          "question": "Wat gebeur as my kind ophou om skool by te woon?",
+          "answer": "SASSA vereis dat kinders wat die toelaag ontvang gereeld skool bywoon (of kliniekbesoeke vir jonger kinders). As u kind sonder ’n geldige rede ophou om skool by te woon, kan SASSA die toelaag opskort. Hou ’n skoolbywoningsbrief of kliniekkaart byderhand."
+        },
+        {
+          "question": "Kan ek die toelaag vir meer as ses kinders ontvang?",
+          "answer": "Nee. Die perk is ses kinders per versorger. As u vir meer as ses kinders sorg (byvoorbeeld, weeskind-familielede), vra by u SASSA-kantoor oor die Pleegsorgtoelaag of ander opsies."
+        },
+        {
+          "question": "Ek het my SASSA-kaart verloor. Hoe kry ek toegang tot my betalings?",
+          "answer": "Gaan na u naaste SASSA-kantoor met u ID-dokument en doen aansoek vir ’n vervangingskaart. Daar is ’n klein vervangingsfooi. Terwyl u wag, kan u by die kantoor ’n alternatiewe betaalmetode aanvra. Betaal niemand om die vervanging te “jaag” nie — dit is ’n gratis SASSA-diens."
+        }
+      ]
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "90-Dae-Appèlvenster",
+      "text": "As u Kinderondersteuningstoelaag-aansoek geweier word, het u 90 dae vanaf die datum waarop u die weieringsbrief ontvang het om te appelleer. Skryf aan die Minister van Maatskaplike Ontwikkeling en verduidelik waarom u met die besluit verskil. Sluit enige nuwe bewyse in soos bygewerkte inkomsterekords of ontbrekende dokumente. U kan hulp met u appèl by u naaste SASSA-kantoor of by ’n maatskaplike werker kry."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Toelaagbiblioteek",
+      "slug": "/grants"
+    },
+    {
+      "title": "Pleegsorgtoelaag",
+      "slug": "/grants/foster-care-grant"
+    },
+    {
+      "title": "Sorgafhanklikheidstoelaag",
+      "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Kinderondersteuningstoelaag-Gereelde Vrae",
+      "slug": "/faq"
+    }
+  ]
+}

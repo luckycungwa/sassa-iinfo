@@ -4,50 +4,194 @@
   "classification": "status-meaning",
   "title": "Pending — What Does Pending Mean on SASSA Status Check?",
   "description": "Your SASSA grant status shows 'Pending' — here's what it means, how long it lasts, and what you should do next.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.1.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
-  "seo": {
-    "metaTitle": "Pending: What It Means for Your SASSA Grant Status",
-    "metaDescription": "SASSA status showing 'Pending'? Learn what this means, how long it takes to process, and what steps you should take while waiting for your grant decision.",
-    "keywords": ["SASSA pending", "grant pending status", "SASSA application pending"]
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
   },
+  "seo": {
+    "metaTitle": "SASSA Status Pending? What It Means & How Long (2026)",
+    "metaDescription": "SASSA status 'Pending' in 2026? Learn what it means, how long it lasts, and what to do next while your grant application is being reviewed.",
+    "keywords": [
+      "SASSA pending",
+      "grant pending status",
+      "SASSA application pending"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SRD R370 Official Portal",
+      "url": "https://srd.sassa.gov.za"
+    }
+  ],
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Pending — What It Means for Your Grant",
       "description": "Your SASSA status shows 'Pending' — your application has been received and is under review. Learn what the pending process involves, typical timeframes, and what you should and shouldn't do while waiting for a decision.",
       "readingTime": "4 min read",
-      "lastUpdated": "August 2026",
-      "cta": { "text": "Check Your Status", "href": "/status/pending" },
-      "secondaryCta": { "text": "View Pending Guide", "href": "/status/pending-30-days" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Check Your Status",
+        "href": "/status/pending"
+      },
+      "secondaryCta": {
+        "text": "View Pending Guide",
+        "href": "/status/pending-30-days"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Pending — What Does It Mean?" },
-    { "id": "intro", "type": "paragraph", "text": "When your SASSA grant status shows 'Pending', it means your application has been received and is being reviewed by SASSA officials. This is a normal part of the application process." },
-    { "id": "ref-block", "type": "status-reference", "statusName": "Pending", "explanation": "Your application is in the review queue. SASSA is verifying your personal details, means test information, and supporting documents against their records.", "whyItHappens": ["SASSA receives thousands of applications daily", "Additional verification may be needed for certain documents", "Means test calculations take time to process", "Manual review may be triggered for complex cases"], "howLongItLasts": "Typically 4–8 weeks from the date of application submission. SRD R370 applications may resolve faster (1–2 weeks).", "whatYouShouldDo": ["Continue checking your status online", "Make sure your contact details are up to date", "Respond promptly to any SASSA requests for additional information", "Do not submit a duplicate application — this will cause delays"], "relatedStatuses": [{ "name": "Payment Processing", "slug": "payment-processing" }, { "name": "Approved", "slug": "approved" }] },
-    { "id": "mistakes-h", "type": "heading", "level": 3, "text": "Common Mistakes to Avoid" },
-    { "id": "mistakes", "type": "list", "ordered": false, "items": ["Submitting a duplicate application thinking it will speed up the process — this actually resets your queue position", "Not checking the correct status portal — use srd.sassa.gov.za for SRD grants", "Ignoring SASSA requests for additional documents — always respond within the given timeframe", "Changing bank details while your application is pending — this can trigger new verification delays"] },
-    { "id": "stuck-h", "type": "heading", "level": 3, "text": "My Status Hasn't Changed in Weeks — Is It Stuck?" },
-    { "id": "stuck", "type": "paragraph", "text": "A status that stays the same for a while is usually still moving through the review queue, not stuck. For SRD R370, each month is assessed as its own cycle, so a status can sit unchanged for part of the month and then flip when the next review runs. Check your status at srd.sassa.gov.za rather than through third-party sites, since those can show outdated information. If you have been pending longer than the typical window for your grant, see our pending more than 30 days guide, and make sure your status has not quietly moved to something like 'Bank Verification' — that looks inactive but actually means SASSA is waiting on a payment detail on your side." },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "How long does the 'Pending' status last?", "answer": "For most grants, pending lasts 4–8 weeks. SRD R370 applications typically resolve within 1–2 weeks. If it has been longer than 8 weeks, contact SASSA." },
-      { "question": "Does 'Pending' mean my application was successful?", "answer": "No. Pending only means your application has been received and is being reviewed. The status will change to Approved, Declined, or another status once the review is complete." },
-      { "question": "Can I speed up the pending process?", "answer": "No, but you can avoid delays by ensuring all your documents are submitted correctly and responding quickly to any SASSA requests for additional information." },
-      { "question": "My status hasn't changed in weeks — is something wrong?", "answer": "Usually not. Applications can sit in the review queue for several weeks without visible movement. Confirm you are checking on the official portal, look out for statuses like 'Bank Verification' that need action from you, and contact SASSA only once you are past the typical processing window for your grant type." },
-      { "question": "I was pending and now it says Approved but there's no pay date. Is that normal?", "answer": "Yes — approval often shows before the pay date is added. See our guide to being approved without a pay date for what to expect next." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "Pending More Than 30 Days", "href": "/status/pending-30-days", "description": "What to do when the wait goes past the normal window" },
-      { "title": "How to Check Your Status", "href": "/guides/how-to-check-sassa-status", "description": "Every official way to check, online and by phone" },
-      { "title": "Bank Verification Status", "href": "/status/bank-verification", "description": "What this status needs from you and how to fix it" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Pending — What Does It Mean?"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "When your SASSA grant status shows 'Pending', it means your application has been received and is being reviewed by SASSA officials. This is a normal part of the application process."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Pending",
+      "explanation": "Your application is in the review queue. SASSA is verifying your personal details, means test information, and supporting documents against their records.",
+      "whyItHappens": [
+        "SASSA receives thousands of applications daily",
+        "Additional verification may be needed for certain documents",
+        "Means test calculations take time to process",
+        "Manual review may be triggered for complex cases"
+      ],
+      "howLongItLasts": "Typically 4–8 weeks from the date of application submission. SRD R370 applications may resolve faster (1–2 weeks).",
+      "whatYouShouldDo": [
+        "Continue checking your status online",
+        "Make sure your contact details are up to date",
+        "Respond promptly to any SASSA requests for additional information",
+        "Do not submit a duplicate application — this will cause delays"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Payment Processing",
+          "slug": "payment-processing"
+        },
+        {
+          "name": "Approved",
+          "slug": "approved"
+        }
+      ]
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Common Mistakes to Avoid"
+    },
+    {
+      "id": "mistakes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Submitting a duplicate application thinking it will speed up the process — this actually resets your queue position",
+        "Not checking the correct status portal — use srd.sassa.gov.za for SRD grants",
+        "Ignoring SASSA requests for additional documents — always respond within the given timeframe",
+        "Changing bank details while your application is pending — this can trigger new verification delays"
+      ]
+    },
+    {
+      "id": "stuck-h",
+      "type": "heading",
+      "level": 3,
+      "text": "My Status Hasn't Changed in Weeks — Is It Stuck?"
+    },
+    {
+      "id": "stuck",
+      "type": "paragraph",
+      "text": "A status that stays the same for a while is usually still moving through the review queue, not stuck. For SRD R370, each month is assessed as its own cycle, so a status can sit unchanged for part of the month and then flip when the next review runs. Check your status at srd.sassa.gov.za rather than through third-party sites, since those can show outdated information. If you have been pending longer than the typical window for your grant, see our pending more than 30 days guide, and make sure your status has not quietly moved to something like 'Bank Verification' — that looks inactive but actually means SASSA is waiting on a payment detail on your side.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How long does the 'Pending' status last?",
+          "answer": "For most grants, pending lasts 4–8 weeks. SRD R370 applications typically resolve within 1–2 weeks. If it has been longer than 8 weeks, contact SASSA."
+        },
+        {
+          "question": "Does 'Pending' mean my application was successful?",
+          "answer": "No. Pending only means your application has been received and is being reviewed. The status will change to Approved, Declined, or another status once the review is complete."
+        },
+        {
+          "question": "Can I speed up the pending process?",
+          "answer": "No, but you can avoid delays by ensuring all your documents are submitted correctly and responding quickly to any SASSA requests for additional information."
+        },
+        {
+          "question": "My status hasn't changed in weeks — is something wrong?",
+          "answer": "Usually not. Applications can sit in the review queue for several weeks without visible movement. Confirm you are checking on the official portal, look out for statuses like 'Bank Verification' that need action from you, and contact SASSA only once you are past the typical processing window for your grant type."
+        },
+        {
+          "question": "I was pending and now it says Approved but there's no pay date. Is that normal?",
+          "answer": "Yes — approval often shows before the pay date is added. See our guide to being approved without a pay date for what to expect next."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Pending More Than 30 Days",
+          "href": "/status/pending-30-days",
+          "description": "What to do when the wait goes past the normal window"
+        },
+        {
+          "title": "How to Check Your Status",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "Every official way to check, online and by phone"
+        },
+        {
+          "title": "Bank Verification Status",
+          "href": "/status/bank-verification",
+          "description": "What this status needs from you and how to fix it"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Payment Processing", "slug": "/status/payment-processing" },
-    { "title": "Approved", "slug": "/status/approved" },
-    { "title": "Pending 30+ Days", "slug": "/status/pending-30-days" },
-    { "title": "How to Check Your SASSA Grant Status", "slug": "/guides/how-to-check-sassa-status" }
+    {
+      "title": "Payment Processing",
+      "slug": "/status/payment-processing"
+    },
+    {
+      "title": "Approved",
+      "slug": "/status/approved"
+    },
+    {
+      "title": "Pending 30+ Days",
+      "slug": "/status/pending-30-days"
+    },
+    {
+      "title": "How to Check Your SASSA Grant Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    }
   ]
 }

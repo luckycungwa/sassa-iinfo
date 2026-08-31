@@ -1,0 +1,440 @@
+{
+  "id": "guide-apply-sassa-grant",
+  "slug": "/guides/how-to-apply-sassa-grant",
+  "classification": "how-to-guide",
+  "title": "Indlela yokuFaka iSicelo seNqanaba leSASSA",
+  "description": "Inqanaba elipheleleyo lokufaka isicelo senqanaba leSASSA ngalo mbongo wonke kunyaka 2026: liliphi inqanaba elifanelekileyo kwisimo sakho, yonke imifuno eyimfuneko, kufanele kuqhelwe phi, kwenzeka ntoni ngexesha lovavanyo lwemali, kunye nokuthatha ixesha elide kangakanani ukuvunyelwa.",
+  "lastUpdated": "2026-08-25",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications and the Social Assistance Act",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Indlela yokuFaka iSicelo seNqanaba leSASSA — Umkhombisela Ongqalileyo 2026",
+    "metaDescription": "Funda indlela yokufaka isicelo senqanaba leSASSA kunyaka 2026: khetha inqanaba elifanelekileyo, qoqa yonke imifuno, dlula kuvavanyo lwemali, yifake kwi-ofisi okanye nge-intanethi, ulandele isicelo sakho kude kube kuphunyezwa.",
+    "keywords": [
+      "ufaka isicelo senqanaba leSASSA",
+      "isicelo senqanaba leSASSA",
+      "indlela yokufaka isicelo kuSASSA",
+      "inkqubo yesicelo seSASSA",
+      "inqanaba leSASSA amanyathelo"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Indlela yokuFaka iSicelo seNqanaba leSASSA",
+      "description": "Ukufaka isicelo senqanaba lolunto epheleleyo yentlulo yamashumi amaninzi, kwaye uninzi lwamaphupha luhlehla ngenxa yemifuno engafikanga okanye ukukhetha inqanaba — hayi ngenxa yokuba awufanelekile. Le nkqubo ikunceda ukukhetha inqanaba elifanelekileyo, uqoqe yonke imifuno, uthumele isicelo sakho, ulilandele kude kube kukhokelwa.",
+      "readingTime": "6 ngqesho ukufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Uluhlu lwemiFuno",
+        "href": "/guides/sassa-documents-checklist"
+      },
+      "secondaryCta": {
+        "label": "Khangela imeko yakho",
+        "href": "/guides/how-to-check-sassa-status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela yokuFaka iSicelo seNqanaba leSASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Nyaka wonke amawaka amaninzi oMzantsi Afrika afaka isicelo ngeqanaba lolunto, kwaye inxalenye enkulu yesicelo ihlehla okanye iyalelwa ngenxa yezizathu ezinokuthintekwa: kukhethwe inqanaba elingafanelekileyo, imifuno ayifikanga, okanye uvavanyo lwemali lubonakalise ingeniso engafakwanga. Le nkqubo iqhuba inkqubo epheleleyo yeendlela zokuqhubekela phambili ezifana neendlela zabaDala, abaNgezifo, kunye nendlela yokuSekela uMntwana, kunye nenqubo ye-intanethi yeSRD R370 grant.",
+      "links": [
+        {
+          "text": "Indlela yokuSekela uMntwana",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Le nkqubo yilowo nalowo ufakeleyo isicelo sokuqala, okanye uvakalishe kwakhona emva kwenguquko yobomi, okanye unceda umntu osapho ngale nkqubo. Isicelo sakho sevalelwe ngaphambili, funda inkqubo yokukhangisa endaweni yoko."
+    },
+    {
+      "id": "choose-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Inqanaba 0: Khetha iNqanaba eLungileyo"
+    },
+    {
+      "id": "choose-p1",
+      "type": "paragraph",
+      "text": "Ngaphambi kokuqoqa imifuno, qinisekisa liphi inqanaba elifanelekileyo kwisimo sakho. Ukufaka isicelo senqanaba elingafanelekileyo kuchitha iiveki — isicelo sizohlolwa ngokweemfuno zelo nqanaba kwaye sivalwe ukuba zingafanelekanga. Sebenzisa lo mboniso weendlela eziphambili kunye neendlela zangoku:"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "iNqanaba",
+        "iMali yangaMyinge",
+        "Lubani abaNeli"
+      ],
+      "rows": [
+        [
+          "iNqanaba labaDala",
+          "R2,400 (R2,420 ngabo bamadala abangaphezulu kwe75)",
+          "Abantu baseNtla Mzantsi abadala ngaphezu kweminyaka engama-60 abadlula kuvavanyo lwemali"
+        ],
+        [
+          "iNqanaba lezifo",
+          "R2,400",
+          "Abantu abaneminyaka 18-59 abanegciwane lokuphila okanye ngqondo qinisekiswa yiimeko zokuphila"
+        ],
+        [
+          "iNqanaba yokuSekela uMntwana",
+          "R580",
+          "Abakhathali abaphambili beentsana abangaphantsi kweminyaka engama-18 abadlula kuvavanyo lwemali"
+        ],
+        [
+          "iNqanaba yeFoster Care",
+          "R1,295",
+          "Abazali be-foster ababekwe yinkundla yeentsana ababekwe phi"
+        ],
+        [
+          "iNqanaba yeCare Dependency",
+          "R2,400",
+          "Abakhathali beentsana ezineentloko ezinkulu ezifuna ukunyangwa ngexesha elipheleleyo"
+        ],
+        [
+          "iNqanaba yaMaSoldiers",
+          "R2,420",
+          "Amaqhawe adala oMkhosi woLwa nomkhosi weKhole abaneminyaka engama-60 kunye"
+        ],
+        [
+          "Grant-in-Aid",
+          "R580",
+          "Abamkeli beendlela abafuna ukunyangwa ngexesha elipheleleyo"
+        ],
+        [
+          "iNqanaba yeSRD R370",
+          "R370",
+          "Abantu abangasebenzi abaneminyaka 18-60 abangenayo ingeniso okanye inkxaso (bcwele nge-intanethi)"
+        ]
+      ],
+      "caption": "Iindlela ezinkulu zeSASSA neendlela zangoku zangemveliso"
+    },
+    {
+      "id": "choose-p2",
+      "type": "paragraph",
+      "text": "Inqanaba ngalinye elikwi-Library yeNqanaba lithetha iimfuno zokufaneleka. Am modeli amabini: akunakwenzeka ufake isicelo leNqanaba labaDala ukuba uneingeniso ephezulu kunqanaba, kwaye akunakwenzeka uthole iSRD R370 ukuba uthola i UIF, inkxaso ye NSFAS, okanye nayiphi na indlela lolunto. Xa iindlela zimbini zibonakala zifanelekile — umzekelo, usapho olunayo inzuzo yokunakekela abazali kunokufaneleka kunye neendlela zokuSekela uMntwana (njengabakhathali) neendlela zabaDala — ungaqhuba isicelo esinye nganye ukuba uhlaniyelwe kwiimfuno zalo."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Inkqubo yesiCelo, amaNyathelo ngamnyathelo"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Khangela ubunakho bakho ngokucokisekileyo",
+          "description": "Funda iimfuno ezikhethekileyo zenqanaba lakho — iminyaka, izintloko zemali, imithetho yokuhlala, kunye neemfuno zonyango. I-Library yeNqanaba kunye neemfuno zokufaneleka zihlela nganye nganye."
+        },
+        {
+          "title": "Qoqa yonke imifuno yendalo",
+          "description": "Qoqa imifuno yendalo kunye neekhophi zokukhuphela zayo yonke into ebhalwe kuluhlu lwemfuno ngezantsi. Imifuno engafikanga yeyokuqala kwiindaba zokuphinda uye khona kunye neengozi."
+        },
+        {
+          "title": "Tyelela iofisi yakho yeSASSA esecaleni",
+          "description": "Iindlela zokuqhubekela phambili kufuneka zenziwe ngubomi. Fika ngasemva — iikhonkci ziqala ngaphambi kwexesha lokuvula. Akukho ndlela yokubhalisa, kodwa nezinye iofisi zisebenzisa inkqubo yokubhalisa uvavanyo lweendlela."
+        },
+        {
+          "title": "Gcwalisa isicelo nomntu ophilayo",
+          "description": "Umphathi weSASSA ugcwalisa ifomu yawo kunye nawe. Ungayixhomeki ngaphambi kokuba uqinisekise ukuba yonke into ilungile. Iminwe yakho izothwa njengenxalenye yokuqinisekisa ubunikazi."
+        },
+        {
+          "title": "Ukwamkelwa uvavanyo (elikhethekileyo lenqanaba)",
+          "description": "Iindlela zezifo kunye zeCare Dependency zifuna uvavanyo lokuphila lwabantu. Umphathi uza kubhalisa uvavanyo lwakho okanye akuthumele kugqirha waselaphini. Imicimbi yoshishino, ukwehlukana, kunye nokuhlola ingeniso kwenziwa kwiinkqubo zasekhemphalini."
+        },
+        {
+          "title": "Yamkela i-risidi yakho elinemveliso",
+          "description": "Uza kufumana i-risidi enombolo yokulandelela. Yichuphe uphinde uligcine liphilile — uyafuneka le numeri ukukhangela imeko kunye nokulandela."
+        },
+        {
+          "title": "Landela isicelo sakho",
+          "description": "Khangela inqanaba nge-WhatsApp (082 046 8553), ngocwebo (0800 60 10 11), okanye kwi-ofisi yakho esecaleni usebenzisa inombolo yokulandelela. Ukuqhubekeka kunokuthatha kude kube kwenye inyanga."
+        },
+        {
+          "title": "Yamkela isigqibo kunye nokukhokelwa kokuqala",
+          "description": "Ukuba uvunyelwe, iindlela zibuyiselwa kunyuba isicelo sakho. Ukuba sivalwe, uza kufumana izizathu zombhalo kwaye ukwazi ukukhangisa ngaphakathi kweentsuku ezine-90."
+        }
+      ]
+    },
+    {
+      "id": "where-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ungaphi phi uFakele isicelo"
+    },
+    {
+      "id": "where-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Iindawo zeSASSA eziphambili: yonke indlela eqhubekayo (abaDala, aBangezifo, uSekelo lweMntwana, uNakekelo lweFoster, uNakekelo lweCare Dependency). Le yindlela eyodwa yeendlela.",
+        "Nge-intanethi ku srd.sassa.gov.za: iindlela zeSRD R370 kuphela. Inkqubo yonke ithatha malunga nemizuzu eli-10 kwaye idinga inombolo yakho yesazisi, ulwazi lokunxibelelana, kunye nemali ebhankini.",
+        "WhatsApp 082 046 8553: iindlela zeSRD R370 kunye nemibuzo yobume.",
+        "Ukutyelela ekhaya: ukuba ulele phantsi okanye unzima kakhulu ukuhamba, celisa umntu osapho ukulungisa ukutyelela ekhaya ngayo ofisi yakho."
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Imifuno oya kuyidinga"
+    },
+    {
+      "id": "docs-checklist",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Isazisi sakho se-13-digit esinebhakhodi yaseNtla Mzantsi okanye ikhadi eliphilileyo",
+          "required": true,
+          "notes": "Izazisi zexesha elifutshane ziyamkelwa ngelixa ulinde isazisi"
+        },
+        {
+          "label": "Ubufakazi bokuhlala (ibhili yamanzi, i-afidhavithi, okanye incwadi yombhunga)",
+          "required": true,
+          "notes": "Ukuba uhlala kwindawo yabantu abahlala ngaphandle, incwadi yoqinisekiso yoLuntu inokusebenza"
+        },
+        {
+          "label": "Iinkqubo zebhanki zokugqibela zii-3inyanga",
+          "required": true,
+          "notes": "Ifuneka ukuba unebhanki; ibonisa uvavanyo lwemali indawo yemali yangempela"
+        },
+        {
+          "label": "Ibhasi yoshishino (ukuba uhlukaniswe) okanye isigqibo soshishino",
+          "required": true,
+          "notes": "Imali yomfazi inqanaba levavanyo lwemali"
+        },
+        {
+          "label": "Iindlela zokukhokela okanye incwadi yomenzi (ukuba usebenza)",
+          "required": true
+        },
+        {
+          "label": "Ifomu ye-UI-19 evela kuMmandla woMsebenzi (ukuba uye wasebenza)",
+          "required": false,
+          "notes": "Iqinisekisa imeko yakho yeUIF"
+        },
+        {
+          "label": "Amabhesishezi ezintsana (indlela yokuSekela uMntwana, isicelo seCare Dependency)",
+          "required": true
+        },
+        {
+          "label": "Ubufakazi bokuhlola esikolweni (intsana ezi-7-18 kwiNqanaba yokuSekela uMntwana)",
+          "required": false,
+          "notes": "Iyafuneka kamva; umntu onakekela umntwana kufuneka aqinisekise ukubhalisa esikolweni kunyaka wonke"
+        },
+        {
+          "label": "Ungqinisiso lokuphila / incwadi yokuthumela (iindlela zezifo, uNakekelo lweCare Dependency)",
+          "required": true,
+          "notes": "Uvavanyo lwabantu lungenzelwa yiSASSA, kodwa zisa nayo yonke imbekelo yokuphila ekhona"
+        },
+        {
+          "label": "Isigqibo senkundla esibeka umntana esikhathini sakho (indlela yeFoster Care)",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "means-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuqonda uVavanyo lweMali"
+    },
+    {
+      "id": "means-p1",
+      "type": "paragraph",
+      "text": "Ininzi yeendlela eziqhubekayo zivavanywa ngokuvavanya imali — ukuvavanya ingeniso yakho kunye neempahla ukuze kuqinisekiswe ukuba udinga ngokwenene inkxaso. Ingeniso yakho oyedwa, kunye, ukuba uhlukaniswe, ingeniso yomfazi, ibaliswa kunye. Iimpahla ezifana neendlela zokuhlala ziqwalaselwa. Iinqanaba zitshintsha ngonyaka; inkqubo yethu yokufunda ukuqonda ukuhlola imali ibonisa iinzuzo zangoku kunye nezibonelo ezisebenzayo."
+    },
+    {
+      "id": "means-callout",
+      "type": "calloku",
+      "intent": "warning",
+      "title": "Faka Yonke into",
+      "text": "Ungafihli ingeniso okanye iibhanki. I-SASSA iqinisekisa izinto ezifakwe kwiibhanki kunye neendawo zokusebenza, kwaye ingeniso engafakwanga etholwe kamva iholela ekuphunyezweni kunye nemfuno yokukhuphela. Ukufaka ingeniso ngokunyanisekileyo kunokushiya ukufaneleka."
+    },
+    {
+      "id": "after-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Kwenzeke ntoni emva kokuthumela"
+    },
+    {
+      "id": "timeline-table",
+      "type": "table",
+      "headers": [
+        "Inqanaba",
+        "Ixesha eLiqhelekileyo",
+        "Kwenzeke ntoni"
+      ],
+      "rows": [
+        [
+          "Ukuthumela",
+          "Usuku 0",
+          "Ifomu igcwalisiwe, i-biometric ilandwe, i-risidi inikwe inombolo yokulandelela"
+        ],
+        [
+          "Ukuqinisekisa",
+          "Iiveki 2-8",
+          "Isazisi, imeko yoshishino, ingeniso, kunye nokuhlola kwindawo kugqitywa"
+        ],
+        [
+          "Uvavanyo lokuphila (ukuba kufuneka)",
+          "Iiveki 2-6",
+          "Uhlalo kunye nogqirha waselaphini; iziphumo zidityaniswa nesigqibo"
+        ],
+        [
+          "Isigqibo",
+          "Kude kube kwenye inyanga",
+          "Isicelo sivunyelwe okanye sivalwe nezizathu zombhalo"
+        ],
+        [
+          "Ukukhokelwa kokuqala",
+          "Ijikilela elizayo",
+          "Iindlela ezivunyelwe zibuyiselwa kunyuba isicelo"
+        ]
+      ],
+      "caption": "Inkqubo eqhelekileyo yokucubungula isicelo sendlela eqhubekayo"
+    },
+    {
+      "id": "after-p1",
+      "type": "paragraph",
+      "text": "Akukho mali oyikhokelayo nakweyiphi na inqanaba. Ukuba umntu ofuna imali ukukhawulezisa isicelo — kunye nabamkeli ababizwa ngokuba ngabantu ngaphandle kweendawo zeSASSA — babike kumgama wokungabikho ukuthembeka ku 0800 601 011."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibuzo ebuzwa qho"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ndingafaka isicelo nge-intanethi senqanaba leSASSA?",
+          "answer": "Kuphela inqanaba yeSRD R370 ivumela izicelo ezizimeleyo nge-intanethi, ku srd.sassa.gov.za. Yonke indlela eqhubekayo ifuna ukutyelela iofisi ngobomi kuba i-biometric kunye nemifuno yendalo kufuneka iqinisekiswe."
+        },
+        {
+          "question": "Ilixabiso elifanelekileyo lokufaka isicelo?",
+          "answer": "Akukho nto. Yonke inkonzo yeSASSA yimahala. Babike nabafuni mali yokufaka isicelo, ukukhawuleza, okanye iifomu kumgama wokungabikho ku 0800 601 011."
+        },
+        {
+          "question": "Ukuvunyelwa kuthatha ixesha elingakanani?",
+          "answer": "Kude kube kunye neentsuku ezintathu ngokomthetho. Izicelo ezilula ngamanye amaxesha zigqitywa ngokukhawuleza; ezifuna uvavanyo lokuphila zithatha ixesha elide. Iindlela zibuyiselwa kunyuba isicelo sakho ngaphandle kokuba inkqubo yathatha ixesha elingakanani."
+        },
+        {
+          "question": "Ndingafaka isicelo kwiindlela ezimbini ngaxeshanyeni?",
+          "answer": "Ewe, ukuba uhlaniyelwe ngokwenene kwiimfuno zenqanaba ngalinye — umzekelo, iNqanaba labaDala kunye neNqanaba yokuSekela uMntwana njengomkhathali. Akunakwenzeka uthole iindlela ezihlanganisiweyo ezifana neendlela zezifo kunye neendlela zabaDala ngaxeshanyeni."
+        },
+        {
+          "question": "Kuba ndingenasazisi?",
+          "answer": "Faka isicelo sesazisi sexesha elifutshane kwiNdlu yabantu kwanango — iSASSA iyamkela izazisi zexesha elifutshane. Ukutyelela ekhaya kwabafuni abangenako ukuhamba kunokulungiswa ngayo ofisi yakho."
+        },
+        {
+          "question": "Isicelo sam sivalwe. Kufanele ndenzoni?",
+          "answer": "Funda isizathu sokuvalelwa kwincwadi yakho, uze ubeke isicelo sokukhangisa ngaphakathi kweentsuku ezine-90. uninzi lwamaphupha luhlehla xa imifuno efanelekileyo ivalwe."
+        },
+        {
+          "question": "Umntu unokufaka isicelo endaweni yam?",
+          "answer": "Ewe. Umntu owugunyizileyo (proxy) unokufaka isicelo senqanaba endaweni yakho kunye nencwadi yegunya kunye nezazisi zababini. KuSRD grant, izicelo kufuneka zenziwe ngesazisi sakho kunye nenombolo yocingo."
+        },
+        {
+          "question": "Xa ndifuna ukuphinda ndifake isicelo okanye ndivuselele?",
+          "answer": "Iindlela eqhubekayo ziqhubeka ngaphandle kokuvuselela kodwa zihlolwa ngamaxesha athile. Iindlela zeFoster Care ziphela kunye nesigqibo senkundla ngasinye kwaye kufuneka zivuselelwe ngaphambi kokuphela. Inqanaba leSRD ihlolwa qho ngenyanga ngokuzenzekelayo."
+        }
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "Inkqubo iqinisekisiwe ngokwemithombo esemthethweni.",
+      "sources": [
+        {
+          "label": "Iwebhusayithi yeSASSA",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "I-portal yeSRD yeSASSA",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "uMthetho woNcedo lweNtlulo 13 we 2004",
+          "url": "https://www.gov.za/documents/social-assistance-act"
+        }
+      ]
+    },
+    {
+      "id": "related-grid",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Uluhlu lwemiFuno",
+          "href": "/guides/sassa-documents-checklist",
+          "description": "Yonke into ekufuneka uthwele, ngokwesigaba senqanaba"
+        },
+        {
+          "title": "Ukuqonda uVavanyo lweMali",
+          "href": "/guides/understanding-means-test",
+          "description": "Iinqanaba zichazwe kunye nezibonelo"
+        },
+        {
+          "title": "Indlela yokuKhangela iMeko yakho",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "Yonke indlela yokulandelela"
+        },
+        {
+          "title": "Indlela yokuKhangisa iValwe",
+          "href": "/appeals/how-to-appeal",
+          "description": "Ukukhangisa kweITSAA ngamnyathelo ngamnyathelo"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Uluhlu lwemiFuno yeSASSA",
+      "slug": "/guides/sassa-documents-checklist"
+    },
+    {
+      "title": "Ukuqonda uVavanyo lweMali",
+      "slug": "/guides/understanding-means-test"
+    },
+    {
+      "title": "Indlela yokuKhangela iMeko yakho",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "iNqanaba yeSRD R370",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "Indlela yokuKhangisa iNqanaba eValiweyo",
+      "slug": "/appeals/how-to-appeal"
+    }
+  ]
+}

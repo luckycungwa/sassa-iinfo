@@ -4,7 +4,7 @@
   "classification": "province-hub",
   "title": "SASSA KwaZulu-Natal Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in KwaZulu-Natal. Regional office in Pietermaritzburg, grant collection across Durban and rural KZN, mobile pay points, and province-specific FAQs.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA KwaZulu-Natal Province",
       "description": "Everything KZN beneficiaries need: regional office details, where to collect, how mobile pay points serve deep rural areas, and answers to common provincial questions.",
       "readingTime": "6 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Find an Office",
         "href": "/offices"
@@ -65,7 +65,13 @@
     {
       "id": "services-p",
       "type": "paragraph",
-      "text": "The provincial regional office in Pietermaritzburg coordinates local offices across all eleven districts, including high-volume urban centres like Durban and Richards Bay and deep rural service points in Msinga, KwaNongoma and the South Coast. Full-service offices handle new applications, reviews, card replacements and appeals assistance; smaller satellite points handle enquiries and form collection."
+      "text": "The provincial regional office in Pietermaritzburg coordinates local offices across all eleven districts, including high-volume urban centres like Durban and Richards Bay and deep rural service points in Msinga, KwaNongoma and the South Coast. Full-service offices handle new applications, reviews, card replacements and appeals assistance; smaller satellite points handle enquiries and form collection.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "offices-grid",
@@ -75,10 +81,6 @@
         {
           "label": "Browse the national offices directory",
           "href": "/offices"
-        },
-        {
-          "label": "Regional office enquiries: 033 846 3300",
-          "href": null
         }
       ]
     },
@@ -91,7 +93,13 @@
     {
       "id": "collection-p1",
       "type": "paragraph",
-      "text": "Urban beneficiaries in Durban, Pietermaritzburg and Richards Bay have the widest choice: SASSA card withdrawals at Shoprite, Boxer, Pick n Pay, Checkers and Usave tills, post office branches, or direct bank deposit. Durban Central on Stalwart Simelane Street handles the province's highest office volume — expect long queues in pay week."
+      "text": "Urban beneficiaries in Durban, Pietermaritzburg and Richards Bay have the widest choice: SASSA card withdrawals at Shoprite, Boxer, Pick n Pay, Checkers and Usave tills, post office branches, or direct bank deposit. Durban Central on Stalwart Simelane Street handles the province's highest office volume — expect long queues in pay week.",
+      "links": [
+        {
+          "text": "SASSA card",
+          "href": "/banking/sassa-card-explained"
+        }
+      ]
     },
     {
       "id": "collection-p2",

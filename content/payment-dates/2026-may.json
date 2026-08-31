@@ -4,7 +4,7 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates May 2026",
   "description": "Confirmed SASSA payment dates for May 2026: Older Persons 4 May, Disability 5 May, Children's grants 6 May, SRD R370 from 25 May. No holidays affect the schedule.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -28,7 +28,7 @@
       "title": "SASSA Payment Dates May 2026",
       "description": "May is a clean month: no public holidays touch the pay schedule, permanent grants run the standard first-week pattern, and SRD batches start from 25 May.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "intro-h",
@@ -76,7 +76,13 @@
     {
       "id": "know-p1",
       "type": "paragraph",
-      "text": "With no public holidays in the month, May pays exactly on pattern. It is also the ideal month for a mid-year check-up: confirm that April's increased amount is still correct, verify your cellphone number is current so review SMSes reach you, and make sure your eLife or income verification details are up to date if you receive the SRD R370."
+      "text": "With no public holidays in the month, May pays exactly on pattern. It is also the ideal month for a mid-year check-up: confirm that April's increased amount is still correct, verify your cellphone number is current so review SMSes reach you, and make sure your eLife or income verification details are up to date if you receive the SRD R370.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "know-p2",
@@ -128,6 +134,28 @@
         }
       ],
       "note": "Dates reflect the published May 2026 schedule."
+    },
+    {
+      "id": "related-pages-gcugkj",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     }
   ],
   "relatedPages": [

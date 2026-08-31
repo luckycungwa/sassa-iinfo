@@ -4,16 +4,29 @@
   "classification": "office-location",
   "title": "SASSA Pretoria Central Office",
   "description": "SASSA Pretoria Central office in Gauteng, located at 250 Hall Street, Pretoria CBD. Full range of grant services including applications, payments, card replacements, and enquiries.",
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "5 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Pretoria Central Office: Hall Street, Services & Directions",
     "metaDescription": "SASSA Pretoria Central office at 250 Hall Street, Pretoria CBD. Phone: 012 345 6789. Services offered: grant applications, card replacements, payments, enquiries. Operating hours and directions.",
-    "keywords": ["SASSA Pretoria office", "SASSA Hall Street", "SASSA Pretoria central", "SASSA Gauteng office", "Pretoria SASSA branch"],
-    "schemaMarkup": { "@type": "GovernmentOffice", "name": "SASSA Pretoria Central Office" }
+    "keywords": [
+      "SASSA Pretoria office",
+      "SASSA Hall Street",
+      "SASSA Pretoria central",
+      "SASSA Gauteng office",
+      "Pretoria SASSA branch"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentOffice",
+      "name": "SASSA Pretoria Central Office"
+    }
   },
   "contentBlocks": [
     {
@@ -22,9 +35,15 @@
       "title": "SASSA Pretoria Central Office",
       "description": "Full-service SASSA office in Pretoria CBD offering grant applications, card replacements, payments, and beneficiary enquiries. Located at 250 Hall Street, Pretoria.",
       "readingTime": "5 min read",
-      "lastUpdated": "2026-07-26",
-      "cta": { "label": "Find Other Offices", "href": "/offices" },
-      "secondaryCta": { "label": "Gauteng Province Hub", "href": "/provinces/gauteng" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Find Other Offices",
+        "href": "/offices"
+      },
+      "secondaryCta": {
+        "label": "Gauteng Province Hub",
+        "href": "/provinces/gauteng"
+      }
     },
     {
       "id": "intro-paragraph",
@@ -124,11 +143,38 @@
       "intent": "info",
       "title": "Local Tip",
       "text": "Many beneficiaries queue outside from 05:00. If you cannot arrive before 07:30, consider visiting the SASSA satellite office at the Thusong Service Centre in Soshanguve or the Mabopane office — both are less crowded than Pretoria Central."
+    },
+    {
+      "id": "related-pages-mw8yx2",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Provincial Offices",
+          "href": "/provinces"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        }
+      ]
     }
   ],
   "relatedPages": [
-    { "title": "Office Finder", "slug": "/offices" },
-    { "title": "Gauteng Province Hub", "slug": "/provinces/gauteng" },
-    { "title": "All SASSA Offices in Gauteng", "slug": "/provinces/gauteng" }
+    {
+      "title": "Office Finder",
+      "slug": "/offices"
+    },
+    {
+      "title": "Gauteng Province Hub",
+      "slug": "/provinces/gauteng"
+    },
+    {
+      "title": "All SASSA Offices in Gauteng",
+      "slug": "/provinces/gauteng"
+    }
   ]
 }

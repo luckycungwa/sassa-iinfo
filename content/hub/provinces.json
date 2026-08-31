@@ -1,1 +1,67 @@
-{"id":"hub-provinces","slug":"/provinces","classification":"hub-index","title":"SASSA Provincial Guide","description":"SASSA services and contact details for each province in South Africa.","lastUpdated":"2026-06-30","version":"1.0.0","status":"published","author":{"name":"Grant Guide Editorial Team","role":"Content Editor","verified":true},"seo":{"metaTitle":"SASSA Provincial Offices — All 9 Provinces","metaDescription":"Find SASSA offices, payment collection points, and local contacts in every South African province: Gauteng, Western Cape, KwaZulu-Natal, and more.","keywords":["SASSA per province","provincial SASSA","SASSA regional office"]},"contentBlocks":[{"id":"h1","type":"heading","level":2,"text":"SASSA Provincial Guide"},{"id":"intro","type":"paragraph","text":"SASSA operates through regional offices in each of South Africa's nine provinces. Find the office nearest you, learn about local payment collection, and get province-specific guidance."}]}
+{
+  "id": "hub-provinces",
+  "slug": "/provinces",
+  "classification": "hub-index",
+  "title": "SASSA Provincial Guide",
+  "description": "SASSA services and contact details for each province in South Africa.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Provincial Offices — All 9 Provinces",
+    "metaDescription": "Find SASSA offices, payment collection points, and local contacts in every South African province: Gauteng, Western Cape, KwaZulu-Natal, and more.",
+    "keywords": [
+      "SASSA per province",
+      "provincial SASSA",
+      "SASSA regional office"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Provincial Guide"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "SASSA operates through regional offices in each of South Africa's nine provinces. Find the office nearest you, learn about local payment collection, and get province-specific guidance."
+    },
+    {
+      "id": "related-pages-tmc25t",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "How-To Guides",
+          "href": "/guides"
+        },
+        {
+          "title": "Eligibility Guides",
+          "href": "/eligibility"
+        },
+        {
+          "title": "Banking & Payments",
+          "href": "/banking"
+        }
+      ]
+    }
+  ]
+}

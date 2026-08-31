@@ -31,7 +31,7 @@
       "title": "SASSA Grants for Self-Employed and Informal Workers",
       "description": "Self-employed workers, freelancers, and informal traders can qualify for SASSA grants if their income falls below the threshold. Learn how the means test applies to irregular income and how to prepare your application.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "SRD R370 Grant Guide",
         "href": "/grants/srd-r370-grant"
@@ -50,7 +50,13 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Self-employed individuals, freelancers, and informal workers can qualify for SASSA grants if their monthly income falls below the means test threshold. However, proving your income can be more complex than for formally employed applicants because SASSA looks at all deposits into your bank account — not just your declared profit."
+      "text": "Self-employed individuals, freelancers, and informal workers can qualify for SASSA grants if their monthly income falls below the means test threshold. However, proving your income can be more complex than for formally employed applicants because SASSA looks at all deposits into your bank account — not just your declared profit.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
     },
     {
       "id": "why",
@@ -66,7 +72,13 @@
     {
       "id": "scenario",
       "type": "paragraph",
-      "text": "Themba runs a small spaza shop in Tembisa. His monthly profit is around R2,000, but his bank account shows deposits of R8,000-R12,000 per month from customers paying via EFT. Although his profit is well below the R624 threshold, SASSA sees the total deposits and flags him as having an 'Alternative Income Source'. Themba needs to appeal each declined month by explaining that the deposits are business turnover, not personal income. This guide explains how self-employed individuals like Themba can navigate the system."
+      "text": "Themba runs a small spaza shop in Tembisa. His monthly profit is around R2,000, but his bank account shows deposits of R8,000-R12,000 per month from customers paying via EFT. Although his profit is well below the R624 threshold, SASSA sees the total deposits and flags him as having an 'Alternative Income Source'. Themba needs to appeal each declined month by explaining that the deposits are business turnover, not personal income. This guide explains how self-employed individuals like Themba can navigate the system.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "grants-h",
@@ -93,7 +105,7 @@
         [
           "Child Support Grant",
           "Yes",
-          "Moderate (R63,600/yr for single caregiver)",
+          "Moderate (R69,600/yr for single caregiver)",
           "Less strict means test. Better option if you have children."
         ],
         [
@@ -224,7 +236,7 @@
         },
         {
           "question": "Can self-employed people apply for other SASSA grants?",
-          "answer": "Yes. The Child Support Grant and Foster Child Grant are much more accessible for self-employed people. Child Support Grant has an annual threshold of R63,600, which accommodates many small business owners."
+          "answer": "Yes. The Child Support Grant and Foster Child Grant are much more accessible for self-employed people. Child Support Grant has an annual threshold of R69,600, which accommodates many small business owners."
         },
         {
           "question": "How do I prove I am self-employed if I have no formal registration?",

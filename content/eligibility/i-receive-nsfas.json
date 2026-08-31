@@ -31,7 +31,7 @@
       "title": "SASSA Grant Eligibility for NSFAS-Funded Students",
       "description": "Active NSFAS recipients are generally excluded from SASSA grants, but there are exceptions. Learn the rules, what documentation you need if your NSFAS has ended, and how to appeal if your status is incorrect.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Student Grant Guide",
         "href": "/eligibility/i-am-a-student"
@@ -66,7 +66,13 @@
     {
       "id": "scenario",
       "type": "paragraph",
-      "text": "Sipho graduated from the University of Cape Town in December 2025 with a degree funded by NSFAS. After graduating, he applied for the SRD R370 grant but was declined because SASSA's database still showed him as 'NSFAS Funded'. Sipho requested a NSFAS completion letter from the myNSFAS portal, filed an appeal on the ITSAA portal, and was approved 3 months later. This guide explains exactly what Sipho — and any former NSFAS student — needs to do to prove their funding has ended."
+      "text": "Sipho graduated from the University of Cape Town in December 2025 with a degree funded by NSFAS. After graduating, he applied for the SRD R370 grant but was declined because SASSA's database still showed him as 'NSFAS Funded'. Sipho requested a NSFAS completion letter from the myNSFAS portal, filed an appeal on the ITSAA portal, and was approved 3 months later. This guide explains exactly what Sipho — and any former NSFAS student — needs to do to prove their funding has ended.",
+      "links": [
+        {
+          "text": "ITSAA",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "grants-h",

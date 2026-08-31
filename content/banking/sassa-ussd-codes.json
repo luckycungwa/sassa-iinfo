@@ -4,7 +4,7 @@
   "classification": "banking-guide",
   "title": "SASSA USSD Codes & Mobile Services — Check Status and Balance by Phone",
   "description": "Every SASSA contact channel for mobile phones: the *134*7737# USSD menu, WhatsApp line, toll-free helpline and fraud hotline, with what each one can do.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA USSD Codes & Mobile Services",
       "description": "No smartphone data needed: check your grant balance, payment date and status with a single dial. All official SASSA mobile channels in one place.",
       "readingTime": "4 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Status Online Instead",
         "href": "/guides/how-to-check-sassa-status"
@@ -50,7 +50,13 @@
     {
       "id": "ussd-p",
       "type": "paragraph",
-      "text": "Dial *134*7737# on your mobile phone to open the SASSA menu. Follow the on-screen prompts to check your grant balance, confirm your next payment date, or review your application status. Standard network rates apply; the service works on Vodacom, MTN, Cell C and Telkom."
+      "text": "Dial *134*7737# on your mobile phone to open the SASSA menu. Follow the on-screen prompts to check your grant balance, confirm your next payment date, or review your application status. Standard network rates apply; the service works on Vodacom, MTN, Cell C and Telkom.",
+      "links": [
+        {
+          "text": "payment date",
+          "href": "/payment-dates"
+        }
+      ]
     },
     {
       "id": "channels-table",
@@ -151,6 +157,24 @@
         }
       ],
       "note": "Numbers verified August 2026. Treat any differing number found elsewhere as fraudulent until confirmed."
+    },
+    {
+      "id": "related-pages-4csais",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Banking & Payments",
+          "href": "/banking"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD Status Check",
+          "href": "/grants/srd-r370-grant/status-check"
+        }
+      ]
     }
   ],
   "relatedPages": [

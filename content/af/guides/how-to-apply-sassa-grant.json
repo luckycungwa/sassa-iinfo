@@ -1,0 +1,440 @@
+{
+  "id": "guide-apply-sassa-grant",
+  "slug": "/guides/how-to-apply-sassa-grant",
+  "classification": "how-to-guide",
+  "title": "Hoe om aansoek te doen vir 'n SASSA-toelae",
+  "description": "Volledige stap-vir-stap gids vir die aansoekproses vir enige SASSA-sosiale toelae in 2026: watter toelae pas by jou situasie, elke dokument wat jy nodig het, waar om aansoek te doen, wat gedurende die middeletoets gebeur, en hoe lank goedkeuring duur.",
+  "lastUpdated": "2026-08-25",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications and the Social Assistance Act",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Hoe om aansoek te doen vir 'n SASSA-toelae â€” Stap-vir-stap gids 2026",
+    "metaDescription": "Leer hoe om aansoek te doen vir 'n SASSA-toelae in 2026: kies die regte toelae, versamel elke dokument, slaag die middeletoets, dien by 'n kantoor of aanlyn in, en volg jou aansoek tot goedkeuring.",
+    "keywords": [
+      "aansoek doen SASSA toelae",
+      "SASSA toelae aansoek",
+      "hoe om aansoek te doen by SASSA",
+      "SASSA aansoekproses",
+      "SASSA toelae stappe"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Hoe om aansoek te doen vir 'n SASSA-toelae",
+      "description": "Aansoek doen vir 'n SASSA-sosiale toelae is gratis, en die meeste afkeurings gebeur weens ontbrekende dokumente of die verkeerde toelae gekies het â€” nie omdat jy nie kwalifiseer nie. Hierdie gids lei jou deur die keuse van die regte toelae, die versameling van elke dokument, die indiening van jou aansoek, en die opsporing daarvan tot betaling.",
+      "readingTime": "9 min lees",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Dokumentelys",
+        "href": "/guides/sassa-documents-checklist"
+      },
+      "secondaryCta": {
+        "label": "Kontroleer jou status",
+        "href": "/guides/how-to-check-sassa-status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om aansoek te doen vir 'n SASSA-toelae"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Elke jaar doen miljoene Suid-Afrikaners aansoek vir sosiale toelaes, en 'n groot deel van aansoeke word vertraag of afgekeur vir vermydelike redes: die verkeerde toelae is gekies, 'n dokument ontbreek, of die middeletoets het onverklaarde inkomste openbaar. Hierdie gids dek die volledige proses vir permanente toelaes soos die Oudpersonetoelae-, Gestremdheids- en Kindersorgtoelae, plus die aanlynproses vir die SRD R370-toelae.",
+      "links": [
+        {
+          "text": "Kindersorgtoelae",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "text": "SRD R370-toelae",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Hierdie gids is vir enigiemand wat vir die eerste keer aansoek doen, weer aansoek doen na 'n lewensverandering, of 'n familielid deur die proses help. As jou aansoek reeds afgekeur is, lees eerder ons appÃ¨lgids."
+    },
+    {
+      "id": "choose-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Stap 0: Kies die regte toelae"
+    },
+    {
+      "id": "choose-p1",
+      "type": "paragraph",
+      "text": "Voordat jy dokumente versamel, bevestig watter toelae werklik by jou situasie pas. Aansoek doen vir die verkeerde toelae mors weke â€” die aansoek sal beoordeel word volgens daardie toelae se kriteria en afgekeur word as dit nie pas nie. Gebruik hierdie oorsig van die hoof toelaes en hul huidige bedrae:"
+    },
+    {
+      "id": "grants-table",
+      "type": "table",
+      "headers": [
+        "Toelae",
+        "Maandelikse bedrag",
+        "Vir wie dit is"
+      ],
+      "rows": [
+        [
+          "Oudpersonetoelae",
+          "R2,400 (R2,420 vir 75+)",
+          "Suid-Afrikaners ouer as 60 wat die middeletoets slaag"
+        ],
+        [
+          "Gestremdheidstoelae",
+          "R2,400",
+          "Mense tussen 18 en 59 met 'n fisiese of geestelike gestremdheid bevestig deur 'n staatsmediese assessering"
+        ],
+        [
+          "Kindersorgtoelae",
+          "R580",
+          "PrimÃªre versorgers van kinders onder 18 wat die middeletoets slaag"
+        ],
+        [
+          "Pleegsorgtoelae",
+          "R1,295",
+          "Hofaangestelde pleegouers van geplaasde kinders"
+        ],
+        [
+          "Versorgingsafhanklikheidstoelae",
+          "R2,400",
+          "Versorgers van kinders met ernstige gestremdhede wat voltydse sorg vereis"
+        ],
+        [
+          "Oorlogsveteranetoelae",
+          "R2,420",
+          "Voormalige soldate van die Tweede WÃªreldoorlog of Koreaanse Oorlog ouer as 60"
+        ],
+        [
+          "Bystandstoelae",
+          "R580",
+          "Toelae-ontvangers wat voltydse versorging benodig"
+        ],
+        [
+          "SRD R370-toelae",
+          "R370",
+          "Werklose volwassenes tussen 18 en 60 met geen ander inkomste of ondersteuning nie (aanlyn aansoek)"
+        ]
+      ],
+      "caption": "Hoof SASSA-toelaes en huidige maandelikse bedrae"
+    },
+    {
+      "id": "choose-p2",
+      "type": "paragraph",
+      "text": "Elke toelae-bladsy in ons Toelaebiblioteek verduidelik sy presiese kwalifikasiereÃ«ls. Twee vinnige voorbeelde: jy kan nie 'n Oudpersonetoelae ontvang terwyl jy bo die inkomstegrens verdien nie, en jy kan nie die SRD R370 ontvang nie as jy UIF, NSFAS-finansiering of enige ander sosiale toelae ontvang nie. Wanneer twee toelaes moontlik lyk â€” byvoorbeeld 'n ouma vir wie sy kleinkinders sorg, kan kwalifiseer vir sowel Kindersorg (as versorger) as Oudpersonetoelae â€” kan jy vir elk apart aansoek doen as jy aan hul kriteria voldoen."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die aansoekproses, stap vir stap"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Kontroleer jou kwalifikasies in detail",
+          "description": "Lees die spesifieke vereistes vir jou toelae â€” ouderdomsgrense, inkomstegrense, woonreÃ«ls en mediese kriteria. Ons Toelaebiblioteek en kwalifikasiebladsye dek elkeen."
+        },
+        {
+          "title": "Versamel alle originele dokumente",
+          "description": "Versamel die originele plus afskrifte van alles wat op die lys hieronder gelys is. Ontbrekende dokumente is die hoofrede vir herhaalde besoeke en vertragings."
+        },
+        {
+          "title": "Besoek jou naaste SASSA-kantoor",
+          "description": "Permanente toelaeaansoeke moet persoonlik ingedien word. Kom vroeg â€” rye vorm voor openingstye. Geen afspraak is nodig nie, maar sekere kantore het boekiestelsels vir Gestremdheids-assesserings."
+        },
+        {
+          "title": "Voltooi die aansoek saam met 'n amptenaar",
+          "description": "SASSA-amptenaar vul die amptelike vorm saam met jou in. Moenie teken voordat jy alles nagegaan het nie. Jou vingerafdrukke sal geneem word as deel van identiteitsverifikasie."
+        },
+        {
+          "title": "Ondergaan sifting (toelae-spesifiek)",
+          "description": "Gestremdheids- en Versorgingsafhanklikheids-aansoeke vereis 'n staatsmediese assessering. Die amptenaar sal jou afspraak bespreek of jou na 'n distriksgeneesheer verwys. Huwelik-, egskeidings- en inkomstekontroles word teen departementale databasisse gedoen."
+        },
+        {
+          "title": "Ontvang jou gedateerde kwitansie",
+          "description": "Jy sal 'n kwitansie met 'n verwysingsnommer kry. Neem 'n foto daarvan en bÃªre die papierkopie veilig â€” jy het hierdie nommer nodig vir statusopsporing en opvolgings."
+        },
+        {
+          "title": "Volg jou aansoek",
+          "description": "Kontroleer vordering via die WhatsApp-lyn (082 046 8553), die hulplyn (0800 60 10 11), of jou plaaslike kantoor met jou verwysingsnommer. Verwerking duur tot drie maande."
+        },
+        {
+          "title": "Ontvang die besluit en eerste betaling",
+          "description": "Indien goedgekeur, word betalings teruggedateer na jou aansoekdatum. Indien afgekeur, sal jy skriftelike redes ontvang en kan binne 90 dae appÃ¨l."
+        }
+      ]
+    },
+    {
+      "id": "where-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Waar jy kan aansoek doen"
+    },
+    {
+      "id": "where-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "SASSA plaaslike kantore: alle permanente toelaes (Oudpersonetoelae-, Gestremdheids-, Kindersorg-, Pleegsorg-, Versorgingsafhanklikheidstoelae). Dit is die enigste kanaal vir hierdie toelaes.",
+        "Aanlyn by srd.sassa.gov.za: slegs die SRD R370-toelae. Die volledige aansoek duur ongeveer 10 minute en vereis slegs jou ID-nommer, kontakbesonderhede en bankinligting.",
+        "WhatsApp 082 046 8553: SRD R370-aansoeke en statusnavrae.",
+        "Huisbesoeke: as jy bedlÃªend of te siek is om te reis, vra 'n familielid om 'n huisbesoek deur jou plaaslike kantoor te reÃ«l."
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Dokumente wat jy sal benodig"
+    },
+    {
+      "id": "docs-checklist",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Jou originele 13-syferstrepieskode Suid-Afrikaanse ID of slimkaart",
+          "required": true,
+          "notes": "Tydelike ID's word aanvaar terwyl jy op die amptelike dokument wag"
+        },
+        {
+          "label": "Bewys van woonplek (nutsrekening, slegsverklaring of raadsbrief)",
+          "required": true,
+          "notes": "As jy in 'n informele nedersetting woon, werk 'n bevestigingsbrief van jou raadslid"
+        },
+        {
+          "label": "Laaste 3 maande bankstate",
+          "required": true,
+          "notes": "Vereis as jy 'n bankrekening het; toon die middeletoetsevaluerder jou ware finansiÃ«le posisie"
+        },
+        {
+          "label": "Huweliksertifikaat (indien getroud) of egskeidingsbevel",
+          "required": true,
+          "notes": "Eggenoot se inkomste tel vir jou middeletoets"
+        },
+        {
+          "label": "Betaalstubs of werkgewerbrief (indien in diens)",
+          "required": true
+        },
+        {
+          "label": "UI-19-vorm van die Arbeidsdepartement (indien voorheen in diens)",
+          "required": false,
+          "notes": "Bevestig jou UIF-status"
+        },
+        {
+          "label": "Geboortesertifikate van kinders (Kindersorg-, Versorgingsafhanklikheids-aansoeke)",
+          "required": true
+        },
+        {
+          "label": "Skoolbywoningbewys (kinders 7-18 op Kindersorgtoelae)",
+          "required": false,
+          "notes": "Later benodig; die kind se versorger moet skoolinskrywing jaarliks bevestig"
+        },
+        {
+          "label": "Mediese verslag / verwysingsnotas (Gestremdheid, Versorgingsafhanklikheid)",
+          "required": true,
+          "notes": "Die staatsassessering word deur SASSA gereÃ«l, maar bring enige bestaande mediese bewyse"
+        },
+        {
+          "label": "Hofbevel wat die kind in jou sorg plaas (Pleegsorg)",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "means-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die middeletoets verstaan"
+    },
+    {
+      "id": "means-p1",
+      "type": "paragraph",
+      "text": "Die meeste permanente toelaes is onderhewig aan 'n middeletoets â€” 'n assessering van jou inkomste en bates om te bevestig dat jy werklik ondersteuning benodig. Jou eie inkomste, en indien jy getroud is, jou eggenoot se inkomste tel saam. Bates soos eiendom word ook oorweeg. Die grense verander jaarliks; ons gids oor die verstaan van die middeletoets breek die huidige syfers af met uitgewerkte voorbeelde."
+    },
+    {
+      "id": "means-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Verklaar alles",
+      "text": "Moenie inkomste of bankrekenings versteek nie. SASSA verifieer verklarings teen bank- en indiensnemingsdatabasisse, en onverklaarde inkomste wat later ontdek word, lei tot opskorting en eise om terug te betaal. Om inkomste eerlik te verklaar, kan jou steeds kwalifiseer maak."
+    },
+    {
+      "id": "after-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Wat gebeur nadat jy ingedien het"
+    },
+    {
+      "id": "timeline-table",
+      "type": "table",
+      "headers": [
+        "Fase",
+        "Tipiese tyd",
+        "Wat gebeur"
+      ],
+      "rows": [
+        [
+          "Indiening",
+          "Dag 0",
+          "Vorm voltooi, biometrie vasgelÃª, kwitansie uitgereik met verwysingsnommer"
+        ],
+        [
+          "Verifikasie",
+          "2-8 weke",
+          "Identiteit, huwelikstatus, inkomste- en databasis-kontroles word voltooi"
+        ],
+        [
+          "Mediese assessering (indien van toepassing)",
+          "2-6 weke",
+          "Afspraak met 'n staatsdokter; resultate vloei in die besluit"
+        ],
+        [
+          "Besluit",
+          "Tot 3 maande",
+          "Aansoek goedgekeur of afgekeur met skriftelike redes"
+        ],
+        [
+          "Eerste betaling",
+          "Volgende betaalsiklus",
+          "Goedgekeurde toelaes word teruggedateer na die aansoekdatum"
+        ]
+      ],
+      "caption": "Tipiese verwerkingsproses vir 'n permanente toelaeaansoek"
+    },
+    {
+      "id": "after-p1",
+      "type": "paragraph",
+      "text": "Jy betaal niks op enige stadium nie. As iemand geld vra om 'n aansoek te bespoedig â€” insluitend sogenaamde agente buiten SASSA-kantore â€” meld hulle by die bedroglyn 0800 601 011."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Gereelde vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Kan ek aanlyn aansoek doen vir 'n SASSA-toelae?",
+          "answer": "Slegs die SRD R370-toelae aanvaar volledig aanlyn aansoeke, by srd.sassa.gov.za. Alle permanente toelaes vereis 'n persoonlike kantoorbesoek omdat biometrie en originele dokumente geverifieer moet word."
+        },
+        {
+          "question": "Hoeveel kos dit om aansoek te doen?",
+          "answer": "Niks. Elke SASSA-diens is gratis. Meld enigiemand wat betaling vir aansoeke, bespoediging of vorms eis by die bedroglyn 0800 601 011."
+        },
+        {
+          "question": "Hoe lank neem goedkeuring?",
+          "answer": "Tot drie maande volgens die wet. Eenvoudige aansoeke word dikwels vinniger beslis; diÃ© wat mediese assesserings vereis, duur langer. Betalings word teruggedateer na jou aansoekdatum ongeag hoe lank verwerking geduur het."
+        },
+        {
+          "question": "Kan ek vir veelvuldige toelaes tegelyk aansoek doen?",
+          "answer": "Ja, as jy werklik aan elke toelae se aparte kriteria voldoen â€” byvoorbeeld 'n Oudpersonetoelae en 'n Kindersorgtoelae as versorger. Jy kan nie oorvleuelende persoonlike toelaes soos Gestremdheid en Oudpersonetoelae gelyktydig ontvang nie."
+        },
+        {
+          "question": "Wat as ek nie 'n ID-dokument het nie?",
+          "answer": "Dien eers by Home Affairs aansoek om 'n tydelike ID â€” SASSA aanvaar tydelike ID's vir aansoeke. Huisbesoeke vir bewegingsbeperkte aansoekers kan deur jou plaaslike kantoor gereÃ«l word."
+        },
+        {
+          "question": "My aansoek is afgekeur. Wat nou?",
+          "answer": "Lees die afkeurrede op jou kennisgewingsbrief en dien dan binne 90 dae 'n appÃ¨l in. Baie afkeurings word teruggedraai wanneer die regte ondersteunende dokumente ingedien word."
+        },
+        {
+          "question": "Kan iemand namens my aansoek doen?",
+          "answer": "Ja. 'n Persoon wat jy magtig (volmag) kan namens jou vir sekere toelaes aansoek doen met 'n magtigingsbrief en albei se ID's. Vir die SRD-toelae moet aansoeke onder jou eie ID-nommer en foonnommer gedoen word."
+        },
+        {
+          "question": "Wanneer moet ek weer aansoek doen of hernu?",
+          "answer": "Permanente toelaes gaan voort sonder hernuwing maar ondergaan periodieke hersienings. Pleegsorgtoelaes verval met elke hofbevel en moet voor vervaldatum hernu word. Die SRD-toelae word elke maand outomaties hersien."
+        }
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "Proses geverifieer teen amptelike bronne.",
+      "sources": [
+        {
+          "label": "SASSA amptelike webwerf",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SASSA SRD-portaal",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "Maatskaplike Hulpwet 13 van 2004",
+          "url": "https://www.gov.za/documents/social-assistance-act"
+        }
+      ]
+    },
+    {
+      "id": "related-grid",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Dokumentelys",
+          "href": "/guides/sassa-documents-checklist",
+          "description": "Alles om te bring, per toelaetipe"
+        },
+        {
+          "title": "Die middeletoets verstaan",
+          "href": "/guides/understanding-means-test",
+          "description": "Grense verduidelik met voorbeelde"
+        },
+        {
+          "title": "Hoe om jou status na te gaan",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "Alle opsporingskanale"
+        },
+        {
+          "title": "Hoe om te appelleer teen 'n afkeuring",
+          "href": "/appeals/how-to-appeal",
+          "description": "ITSAA-appÃ¨lle stap vir stap"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "SASSA Dokumentelys",
+      "slug": "/guides/sassa-documents-checklist"
+    },
+    {
+      "title": "Die middeletoets verstaan",
+      "slug": "/guides/understanding-means-test"
+    },
+    {
+      "title": "Hoe om jou status na te gaan",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "SRD R370-toelae",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "Hoe om te appelleer teen 'n afgekeurde toelae",
+      "slug": "/appeals/how-to-appeal"
+    }
+  ]
+}

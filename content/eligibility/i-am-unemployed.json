@@ -13,8 +13,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Grants for Unemployed South Africans — SRD R370 & More",
-    "metaDescription": "Complete guide to SASSA grants for unemployed South Africans. Learn about SRD R370 eligibility, how to apply without a job, what documents you need, and what to do if you're declined.",
+    "metaTitle": "SASSA Grant for Unemployed — Do You Qualify? (2026)",
+    "metaDescription": "SASSA grants for unemployed South Africans in 2026: check if you qualify for the SRD R370 and other support, and how to apply.",
     "keywords": [
       "SASSA unemployed",
       "SASSA grant no job",
@@ -24,6 +24,20 @@
       "unemployed SASSA 2026"
     ]
   },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SRD R370 Official Portal",
+      "url": "https://srd.sassa.gov.za"
+    },
+    {
+      "label": "Department of Social Development",
+      "url": "https://www.dsd.gov.za"
+    }
+  ],
   "contentBlocks": [
     {
       "id": "hero",
@@ -31,7 +45,7 @@
       "title": "SASSA Options for Unemployed South Africans",
       "description": "If you're unemployed with no income, SASSA provides several social grants to help. Find out which grants you qualify for, how to apply for the SRD R370, and what documents you'll need.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "SRD R370 Grant Guide",
         "href": "/grants/srd-r370-grant"
@@ -66,7 +80,13 @@
     {
       "id": "scenario",
       "type": "paragraph",
-      "text": "Thandi is a 34-year-old mother of two from Soweto. She lost her retail job in December 2025 and has been unable to find new employment. She has no income and relies on family for support. Thandi qualifies for the SRD R370 grant because she is unemployed, has no monthly income, and is not receiving UIF or NSFAS. She also applied for the Child Support Grant for her two children. This guide explains exactly what Thandi — and anyone in a similar situation — needs to do."
+      "text": "Thandi is a 34-year-old mother of two from Soweto. She lost her retail job in December 2025 and has been unable to find new employment. She has no income and relies on family for support. Thandi qualifies for the SRD R370 grant because she is unemployed, has no monthly income, and is not receiving UIF or NSFAS. She also applied for the Child Support Grant for her two children. This guide explains exactly what Thandi — and anyone in a similar situation — needs to do.",
+      "links": [
+        {
+          "text": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     },
     {
       "id": "grants-h",

@@ -4,84 +4,234 @@
   "classification": "how-to-guide",
   "title": "SRD R370 Monthly Review — How Your Eligibility Is Checked Every Month",
   "description": "The SRD grant is evaluated every month. Learn exactly how the monthly review works, what SASSA checks, what triggers a decline, and how to maintain your eligibility.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SRD R370 Monthly Review — How SASSA Checks Your Eligibility Each Month",
     "metaDescription": "The SRD R370 grant is reviewed every month. Learn exactly what SASSA checks — bank account, UIF, NSFAS, SARS — what triggers a decline, and how to avoid losing your grant.",
-    "keywords": ["SRD monthly review", "SRD review process", "SASSA SRD monthly check", "SRD eligibility reassessment", "why is my SRD reviewed every month"]
+    "keywords": [
+      "SRD monthly review",
+      "SRD review process",
+      "SASSA SRD monthly check",
+      "SRD eligibility reassessment",
+      "why is my SRD reviewed every month"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SRD R370 Monthly Review — How Your Eligibility Is Checked Every Month",
       "description": "The SRD R370 grant is re-evaluated every single month — approval this month does not guarantee payment next month. Understand how SASSA's automated review works, what databases it checks against, and what triggers a decline so you can maintain your grant month after month.",
       "readingTime": "10 min read",
-      "lastUpdated": "July 2026",
-      "cta": { "text": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check" },
-      "secondaryCta": { "text": "Appeal a Decline", "href": "/status/declined" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Check Your SRD Status",
+        "href": "/grants/srd-r370-grant/status-check"
+      },
+      "secondaryCta": {
+        "text": "Appeal a Decline",
+        "href": "/status/declined"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SRD R370 Monthly Review — How It Works" },
-    { "id": "intro", "type": "paragraph", "text": "Unlike other SASSA grants that remain approved for extended periods, the SRD R370 grant is evaluated EVERY month. This means your eligibility is reassessed from scratch each month. Understanding how this monthly review works is the key to maintaining your grant and avoiding unexpected declines." },
-    { "id": "callout-important", "type": "callout", "intent": "warning", "title": "Your Status Can Change Monthly", "text": "Being approved this month does NOT guarantee approval next month. Every month is a fresh assessment. Your status can change based on bank activity, database updates, or changes in your personal circumstances." },
-    { "id": "what-is-checked-h", "type": "heading", "level": 3, "text": "What SASSA Checks Every Month" },
-    { "id": "what-is-checked", "type": "paragraph", "text": "SASSA runs an automated check against multiple government databases and your bank account at the beginning of each month:" },
-    { "id": "checks-list", "type": "list", "ordered": false, "items": [
-      "Bank account scan: SASSA checks your linked bank account for any deposits exceeding R624 in the previous month",
-      "UIF database: checks if your ID is still registered as an active UIF beneficiary",
-      "NSFAS database: checks if you are listed as an active NSFAS-funded student",
-      "SARS database: checks if you are registered for PAYE tax",
-      "SASSA database: confirms you are not receiving any other social grant",
-      "Home Affairs: verifies your ID is valid and not flagged as deceased"
-    ] },
-    { "id": "review-timeline-h", "type": "heading", "level": 3, "text": "Monthly Review Timeline" },
-    { "id": "review-timeline", "type": "table", "headers": ["Period", "What Happens"], "rows": [
-      ["1st-5th of month", "SASSA runs automated checks against all databases"],
-      ["5th-15th of month", "Bank account audit — all linked accounts are scanned for deposits"],
-      ["15th-20th of month", "Status updates appear on the portal (Pending, Approved, or Declined)"],
-      ["21st-24th of month", "Payment batch preparation for approved beneficiaries"],
-      ["25th-30th/31st", "Payments are processed and sent to banks or Cash Send"]
-    ] },
-    { "id": "common-triggers-h", "type": "heading", "level": 3, "text": "What Can Trigger a Decline During the Review" },
-    { "id": "common-triggers", "type": "list", "ordered": false, "items": [
-      "A friend or family member deposits money into your account — any amount above R624 total",
-      "You transfer money between your own accounts (savings to chequing counts as a deposit)",
-      "Your employer pays you a final payout or bonus",
-      "The Department of Labour still shows you as UIF-registered even though you no longer receive UIF",
-      "Your former university still shows you as an active NSFAS student",
-      "Your ID was flagged as deceased or lost in the Home Affairs system",
-      "You turned 59 and will no longer be eligible at 60"
-    ] },
-    { "id": "how-to-maintain-h", "type": "heading", "level": 3, "text": "How to Maintain Your Eligibility Month-to-Month" },
-    { "id": "how-to-maintain", "type": "list", "ordered": false, "items": [
-      "Keep bank deposits as low as possible — avoid any deposit exceeding R624 in a single month",
-      "If you must receive money, ask the sender to use Cash Send, eWallet, or another method that does not go through your bank account",
-      "Do not use your SASSA-linked bank account for business or secondary transactions",
-      "Ensure your UIF status is terminated if you are no longer receiving UIF (get a UI-19 letter)",
-      "Ensure your NSFAS status is cancelled if you have completed your studies",
-      "Check your status at the start of each month so you know immediately if you need to appeal"
-    ] },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Why is the SRD grant reviewed every month but other grants are not?", "answer": "The SRD grant is a temporary relief measure designed for people with no income at all. Monthly reviews ensure it goes to those who genuinely need it each month, unlike permanent grants that have longer assessment periods." },
-      { "question": "If I was declined one month, will I be declined the next month too?", "answer": "Not necessarily. If the reason for decline changes (e.g., a one-time bank deposit), you may be approved the following month. Each month is evaluated independently." },
-      { "question": "Do I need to submit documents every month?", "answer": "No. You only submit documents if you need to appeal a decline. The monthly review is automated using existing databases and bank scans." },
-      { "question": "What if I get a job mid-month? Will I lose my grant?", "answer": "If your employer pays you and the deposit exceeds R624, you may be declined the following month. However, you should report your employment status change to SASSA." },
-      { "question": "Can I prevent the monthly review from scanning my account?", "answer": "No. The monthly bank audit is a mandatory part of the SRD grant system. You cannot opt out of the review process while receiving the grant." },
-      { "question": "What happens if I miss checking my status for several months?", "answer": "Your status is still evaluated monthly. However, if you do not check it, you may miss an appeal deadline (90 days). Check regularly to protect your grant." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "SRD R370 Grant — Complete Guide", "href": "/grants/srd-r370-grant", "description": "Full guide to the SRD grant" },
-      { "title": "Check Your SRD Status", "href": "/grants/srd-r370-grant/status-check", "description": "How to check your grant status each month" },
-      { "title": "SRD Payment Methods", "href": "/grants/srd-r370-grant/payment-methods", "description": "How you receive your R370 payment" },
-      { "title": "Alternative Income Source Status", "href": "/status/alternative-income-source", "description": "What triggers this common decline reason" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD R370 Monthly Review — How It Works"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Unlike other SASSA grants that remain approved for extended periods, the SRD R370 grant is evaluated EVERY month. This means your eligibility is reassessed from scratch each month. Understanding how this monthly review works is the key to maintaining your grant and avoiding unexpected declines."
+    },
+    {
+      "id": "callout-important",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Your Status Can Change Monthly",
+      "text": "Being approved this month does NOT guarantee approval next month. Every month is a fresh assessment. Your status can change based on bank activity, database updates, or changes in your personal circumstances."
+    },
+    {
+      "id": "what-is-checked-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What SASSA Checks Every Month"
+    },
+    {
+      "id": "what-is-checked",
+      "type": "paragraph",
+      "text": "SASSA runs an automated check against multiple government databases and your bank account at the beginning of each month:"
+    },
+    {
+      "id": "checks-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bank account scan: SASSA checks your linked bank account for any deposits exceeding R624 in the previous month",
+        "UIF database: checks if your ID is still registered as an active UIF beneficiary",
+        "NSFAS database: checks if you are listed as an active NSFAS-funded student",
+        "SARS database: checks if you are registered for PAYE tax",
+        "SASSA database: confirms you are not receiving any other social grant",
+        "Home Affairs: verifies your ID is valid and not flagged as deceased"
+      ]
+    },
+    {
+      "id": "review-timeline-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Monthly Review Timeline"
+    },
+    {
+      "id": "review-timeline",
+      "type": "table",
+      "headers": [
+        "Period",
+        "What Happens"
+      ],
+      "rows": [
+        [
+          "1st-5th of month",
+          "SASSA runs automated checks against all databases"
+        ],
+        [
+          "5th-15th of month",
+          "Bank account audit — all linked accounts are scanned for deposits"
+        ],
+        [
+          "15th-20th of month",
+          "Status updates appear on the portal (Pending, Approved, or Declined)"
+        ],
+        [
+          "21st-24th of month",
+          "Payment batch preparation for approved beneficiaries"
+        ],
+        [
+          "25th-30th/31st",
+          "Payments are processed and sent to banks or Cash Send"
+        ]
+      ]
+    },
+    {
+      "id": "common-triggers-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Can Trigger a Decline During the Review"
+    },
+    {
+      "id": "common-triggers",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A friend or family member deposits money into your account — any amount above R624 total",
+        "You transfer money between your own accounts (savings to chequing counts as a deposit)",
+        "Your employer pays you a final payout or bonus",
+        "The Department of Labour still shows you as UIF-registered even though you no longer receive UIF",
+        "Your former university still shows you as an active NSFAS student",
+        "Your ID was flagged as deceased or lost in the Home Affairs system",
+        "You turned 59 and will no longer be eligible at 60"
+      ]
+    },
+    {
+      "id": "how-to-maintain-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How to Maintain Your Eligibility Month-to-Month"
+    },
+    {
+      "id": "how-to-maintain",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Keep bank deposits as low as possible — avoid any deposit exceeding R624 in a single month",
+        "If you must receive money, ask the sender to use Cash Send, eWallet, or another method that does not go through your bank account",
+        "Do not use your SASSA-linked bank account for business or secondary transactions",
+        "Ensure your UIF status is terminated if you are no longer receiving UIF (get a UI-19 letter)",
+        "Ensure your NSFAS status is cancelled if you have completed your studies",
+        "Check your status at the start of each month so you know immediately if you need to appeal"
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Why is the SRD grant reviewed every month but other grants are not?",
+          "answer": "The SRD grant is a temporary relief measure designed for people with no income at all. Monthly reviews ensure it goes to those who genuinely need it each month, unlike permanent grants that have longer assessment periods."
+        },
+        {
+          "question": "If I was declined one month, will I be declined the next month too?",
+          "answer": "Not necessarily. If the reason for decline changes (e.g., a one-time bank deposit), you may be approved the following month. Each month is evaluated independently."
+        },
+        {
+          "question": "Do I need to submit documents every month?",
+          "answer": "No. You only submit documents if you need to appeal a decline. The monthly review is automated using existing databases and bank scans."
+        },
+        {
+          "question": "What if I get a job mid-month? Will I lose my grant?",
+          "answer": "If your employer pays you and the deposit exceeds R624, you may be declined the following month. However, you should report your employment status change to SASSA."
+        },
+        {
+          "question": "Can I prevent the monthly review from scanning my account?",
+          "answer": "No. The monthly bank audit is a mandatory part of the SRD grant system. You cannot opt out of the review process while receiving the grant."
+        },
+        {
+          "question": "What happens if I miss checking my status for several months?",
+          "answer": "Your status is still evaluated monthly. However, if you do not check it, you may miss an appeal deadline (90 days). Check regularly to protect your grant."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SRD R370 Grant — Complete Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full guide to the SRD grant"
+        },
+        {
+          "title": "Check Your SRD Status",
+          "href": "/grants/srd-r370-grant/status-check",
+          "description": "How to check your grant status each month"
+        },
+        {
+          "title": "SRD Payment Methods",
+          "href": "/grants/srd-r370-grant/payment-methods",
+          "description": "How you receive your R370 payment"
+        },
+        {
+          "title": "Alternative Income Source Status",
+          "href": "/status/alternative-income-source",
+          "description": "What triggers this common decline reason"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
-    { "title": "SRD Status Check", "slug": "/grants/srd-r370-grant/status-check" },
-    { "title": "Alternative Income Source", "slug": "/status/alternative-income-source" }
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "SRD Status Check",
+      "slug": "/grants/srd-r370-grant/status-check"
+    },
+    {
+      "title": "Alternative Income Source",
+      "slug": "/status/alternative-income-source"
+    }
   ]
 }

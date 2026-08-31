@@ -4,45 +4,174 @@
   "classification": "banking-guide",
   "title": "Can I Use Someone Else's Bank Account for SASSA? Rules Explained",
   "description": "SASSA strictly prohibits third-party bank accounts. Learn why, what the rules are, what happens if you try, and legal alternatives for receiving your grant without your own account.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Can I Use Someone Else's Bank Account for SASSA? Rules & Alternatives",
     "metaDescription": "SASSA strictly prohibits third-party bank accounts. Learn why you cannot use a family member's account, what happens if you try, and legal alternatives like Cash Send or the SASSA card.",
-    "keywords": ["SASSA someone else bank account", "SASSA third party account", "SASSA family member account", "SASSA relative bank account", "can I use my husband's bank account for SASSA"]
+    "keywords": [
+      "SASSA someone else bank account",
+      "SASSA third party account",
+      "SASSA family member account",
+      "SASSA relative bank account",
+      "can I use my husband's bank account for SASSA"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Can I Use Someone Else's Bank Account for SASSA? Rules Explained",
       "description": "SASSA strictly prohibits third-party bank accounts for grant payments. Learn why this rule exists, what happens if you try using someone else's account, and discover legal alternatives like Cash Send to receive your grant.",
       "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "label": "Explore Legal Alternatives", "href": "/banking/cash-send-guide" },
-      "secondaryCta": { "label": "Bank Verification Process", "href": "/banking/bank-verification-process" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Explore Legal Alternatives",
+        "href": "/banking/cash-send-guide"
+      },
+      "secondaryCta": {
+        "label": "Bank Verification Process",
+        "href": "/banking/bank-verification-process"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Can I Use Someone Else's Bank Account for SASSA?" },
-    { "id": "intro", "type": "paragraph", "text": "The short answer is NO. SASSA has strict rules that your grant must be paid into a bank account registered in your own name. Using a family member's, friend's, or anyone else's bank account is not allowed and will result in your payment being rejected or delayed." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA applicants who are wondering whether they can receive their grant into a family member's or friend's bank account." },
-    { "id": "why-not-h", "type": "heading", "level": 3, "text": "Why Does SASSA Prohibit Third-Party Accounts?" },
-    { "id": "why-not", "type": "list", "ordered": false, "items": ["Fraud prevention: ensures grants go to the intended beneficiary", "Identity verification: SASSA matches your ID number to the bank account's registered ID", "Legal compliance: SASSA must comply with FICA (Financial Intelligence Centre Act) requirements", "Accountability: prevents disputes over who the money belongs to", "Audit requirements: allows SASSA to track payments to the correct beneficiary"] },
-    { "id": "what-happens-h", "type": "heading", "level": 3, "text": "What Happens If You Try?" },
-    { "id": "what-happens", "type": "list", "ordered": false, "items": ["Bank verification will fail: SASSA's automated system checks that the ID on the bank account matches your SASSA ID", "Your payment will be rejected: the bank will return the funds to SASSA", "Your status will show 'Bank Verification Pending' or 'Bank Verification Failed'", "You will not receive your grant until the issue is resolved", "Repeated attempts may flag your account for fraud investigation"] },
-    { "id": "alternatives-h", "type": "heading", "level": 3, "text": "Legal Alternatives If You Do Not Have a Bank Account" },
-    { "id": "alternatives", "type": "list", "ordered": false, "items": ["Cash Send: collect your grant in cash at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave", "SASSA card: apply for a SASSA payment card through the Post Office", "Open a bank account: many South African banks offer free basic bank accounts with no monthly fees (e.g., Capitec, TymeBank, Bank Zero)"] },
-    { "id": "callout", "type": "callout", "intent": "warning", "title": "Beware of Scams", "text": "Anyone who offers to 'help' you by using their bank account to receive your grant may be trying to steal your money. SASSA payments are strictly personal and non-transferable." },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Can my husband/wife receive my grant in their account?", "answer": "No. Even spouses cannot use joint accounts unless the primary account holder's ID matches the SASSA applicant. The account must be in your name." },
-      { "question": "What if I am too old or sick to open a bank account?", "answer": "Use Cash Send instead. You can collect your grant in cash at any participating retailer without needing a bank account." },
-      { "question": "Can I use a joint account?", "answer": "Yes, if you are a joint account holder and your ID number is linked to the account. Check with your bank to confirm your ID is registered on the joint account." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Can I Use Someone Else's Bank Account for SASSA?"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The short answer is NO. SASSA has strict rules that your grant must be paid into a bank account registered in your own name. Using a family member's, friend's, or anyone else's bank account is not allowed and will result in your payment being rejected or delayed."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "If you are asking this question, it is probably because you do not have a bank account of your own — and that is a very common situation among grant applicants. It is tempting to use your sister's account or your husband's card, but the rule is absolute and enforced automatically. Before you try it, understand why the rule exists and which options actually work instead."
+    },
+    {
+      "id": "why-not-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Why Does SASSA Prohibit Third-Party Accounts?"
+    },
+    {
+      "id": "why-not",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Fraud prevention: ensures grants go to the intended beneficiary",
+        "Identity verification: SASSA matches your ID number to the bank account's registered ID",
+        "Legal compliance: SASSA must comply with FICA (Financial Intelligence Centre Act) requirements",
+        "Accountability: prevents disputes over who the money belongs to",
+        "Audit requirements: allows SASSA to track payments to the correct beneficiary"
+      ]
+    },
+    {
+      "id": "what-happens-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Happens If You Try?"
+    },
+    {
+      "id": "what-happens",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bank verification will fail: SASSA's automated system checks that the ID on the bank account matches your SASSA ID",
+        "Your payment will be rejected: the bank will return the funds to SASSA",
+        "Your status will show 'Bank Verification Pending' or 'Bank Verification Failed'",
+        "You will not receive your grant until the issue is resolved",
+        "Repeated attempts may flag your account for fraud investigation"
+      ]
+    },
+    {
+      "id": "alternatives-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Legal Alternatives If You Do Not Have a Bank Account"
+    },
+    {
+      "id": "alternatives",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cash Send: collect your grant in cash at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave",
+        "SASSA card: apply for a SASSA payment card through the Post Office",
+        "Open a bank account: many South African banks offer free basic bank accounts with no monthly fees (e.g., Capitec, TymeBank, Bank Zero)"
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Beware of Scams",
+      "text": "Anyone who offers to 'help' you by using their bank account to receive your grant may be trying to steal your money. SASSA payments are strictly personal and non-transferable."
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can my husband/wife receive my grant in their account?",
+          "answer": "No. Even spouses cannot use joint accounts unless the primary account holder's ID matches the SASSA applicant. The account must be in your name."
+        },
+        {
+          "question": "What if I am too old or sick to open a bank account?",
+          "answer": "Use Cash Send instead. You can collect your grant in cash at any participating retailer without needing a bank account."
+        },
+        {
+          "question": "Can I use a joint account?",
+          "answer": "Yes, if you are a joint account holder and your ID number is linked to the account. Check with your bank to confirm your ID is registered on the joint account."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-jm5l6c",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Banking & Payments",
+          "href": "/banking"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD Status Check",
+          "href": "/grants/srd-r370-grant/status-check"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Cash Send Guide", "slug": "/banking/cash-send-guide" },
-    { "title": "SASSA Card Explained", "slug": "/banking/sassa-card-explained" },
-    { "title": "SASSA Payment Methods", "slug": "/banking/payment-methods" },
-    { "title": "Bank Verification Process", "slug": "/banking/bank-verification-process" }
+    {
+      "title": "Cash Send Guide",
+      "slug": "/banking/cash-send-guide"
+    },
+    {
+      "title": "SASSA Card Explained",
+      "slug": "/banking/sassa-card-explained"
+    },
+    {
+      "title": "SASSA Payment Methods",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Bank Verification Process",
+      "slug": "/banking/bank-verification-process"
+    }
   ]
 }

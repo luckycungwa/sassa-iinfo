@@ -4,7 +4,7 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates March 2026",
   "description": "Confirmed SASSA payment dates for March 2026: Older Persons 3 March, Disability 4 March, Children's grants 5 March, SRD R370 from 25 March.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -28,7 +28,7 @@
       "title": "SASSA Payment Dates March 2026",
       "description": "The final month of the 2025/26 fiscal year pays at existing rates. From April, the budget increases announced in February start showing in your account.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "intro-h",
@@ -76,7 +76,13 @@
     {
       "id": "know-p1",
       "type": "paragraph",
-      "text": "March closes the fiscal year, so it is the last month paid at the previous year's rates. If you want to predict your April amount, check our grant amounts page for the figures announced in the February budget — they apply automatically from April without any action on your part."
+      "text": "March closes the fiscal year, so it is the last month paid at the previous year's rates. If you want to predict your April amount, check our grant amounts page for the figures announced in the February budget — they apply automatically from April without any action on your part.",
+      "links": [
+        {
+          "text": "grant amounts",
+          "href": "/guides/sassa-grant-amounts"
+        }
+      ]
     },
     {
       "id": "know-p2",
@@ -86,7 +92,13 @@
     {
       "id": "srd-p",
       "type": "paragraph",
-      "text": "SRD R370 payments run from 25 March with batches continuing to month end. Human Rights Day (Saturday 21 March) falls on a weekend and did not affect any pay date."
+      "text": "SRD R370 payments run from 25 March with batches continuing to month end. Human Rights Day (Saturday 21 March) falls on a weekend and did not affect any pay date.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "review-callout",
@@ -133,6 +145,28 @@
         }
       ],
       "note": "Dates reflect the published March 2026 schedule. Review-cycle details were accurate at publication."
+    },
+    {
+      "id": "related-pages-wpmz69",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     }
   ],
   "relatedPages": [

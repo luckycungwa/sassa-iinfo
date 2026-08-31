@@ -4,9 +4,9 @@
   "classification": "grant-detail",
   "title": "Child Support Grant",
   "description": "The SASSA Child Support Grant provides R580 per month per child to caregivers who meet the means test requirements.",
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
-  "readingTime": "7 min read",
+  "readingTime": "24 min read",
   "status": "published",
   "author": {
     "name": "Grant Guide Editorial Team",
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "Child Support Grant 2026: Amount, Eligibility & How to Apply",
-    "metaDescription": "Complete guide to the SASSA Child Support Grant: R580 per child, means test limits, what counts as income, required documents, application steps, and appeals.",
+    "metaTitle": "Child Support Grant — R580/Month & How to Apply (2026)",
+    "metaDescription": "Child Support Grant pays R580/month in 2026. Check eligibility and the means test, then follow our step-by-step SASSA application guide for your child.",
     "keywords": [
       "child support grant",
       "SASSA child grant",
@@ -28,14 +28,28 @@
       "name": "Child Support Grant"
     }
   },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Department of Social Development",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "National Treasury Budget Review 2026",
+      "url": "https://www.treasury.gov.za"
+    }
+  ],
   "contentBlocks": [
     {
       "id": "hero",
       "type": "hero",
       "title": "Child Support Grant",
       "description": "Complete guide to the SASSA Child Support Grant: R580 per child, means test limits, what counts as income, required documents, application steps, and appeals.",
-      "readingTime": "7 min read",
-      "lastUpdated": "2026-07-26",
+      "readingTime": "24 min read",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Eligibility",
         "href": "/eligibility"
@@ -49,13 +63,19 @@
       "id": "summary",
       "type": "grant-summary",
       "amount": "R580 per month per child",
-      "frequency": "Monthly (Top-Up for orphans: R830 per month)",
+      "frequency": "Monthly (an additional top-up may apply for orphaned children — confirm the current amount with SASSA)",
       "targetGroup": "Primary caregivers of children under 18 who meet the means test requirements."
     },
     {
       "id": "intro-paragraph",
       "type": "paragraph",
-      "text": "The SASSA Child Support Grant is the most widely accessed social grant in South Africa. It provides a monthly payment to help caregivers cover the costs of raising a child. If you are the primary caregiver of a child under 18 and your income falls below the means test threshold, you likely qualify."
+      "text": "The SASSA Child Support Grant is the most widely accessed social grant in South Africa. It provides a monthly payment to help caregivers cover the costs of raising a child. If you are the primary caregiver of a child under 18 and your income falls below the means test threshold, you likely qualify.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
     },
     {
       "id": "child-topup-heading",
@@ -66,7 +86,7 @@
     {
       "id": "child-topup-paragraph",
       "type": "paragraph",
-      "text": "If the child has lost both parents, or if both parents are in prison, in a mental health institution, or cannot be traced, you may qualify for the Child Support Grant Top-Up. This pays an additional R250 per month on top of the standard R580, bringing the total to R830 per month."
+      "text": "If the child has lost both parents, or if both parents are in prison, in a mental health institution, or cannot be traced, you may qualify for the Child Support Grant Top-Up. This pays an additional top-up on top of the standard R580. The exact amount has changed over time and is subject to public debate, so confirm the current figure with SASSA before relying on it."
     },
     {
       "id": "eligibility-heading",
@@ -81,7 +101,7 @@
         "You must be the child's primary caregiver (biological parent, grandparent, relative, or any person caring for the child).",
         "The child must be under 18 years old.",
         "You must be a South African citizen, permanent resident, or refugee.",
-        "You must meet the means test: single caregivers earning R63,600 or less per year, or married couples earning R127,200 or less combined.",
+        "You must meet the means test: single caregivers earning R69,600 or less per year (about R5,800 per month), or married couples earning R139,200 or less combined (about R11,600 per month).",
         "The child must live with you in South Africa.",
         "You must not be paid a salary to care for the child (e.g., foster parent allowance is separate)."
       ],
@@ -245,6 +265,575 @@
         {
           "title": "Wait for the outcome",
           "description": "SASSA has up to 3 months to process your application. Payments are backdated to the date you applied, so keep your receipt safe."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-caregiver-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Detailed Eligibility: Who Counts as the Caregiver?"
+    },
+    {
+      "id": "deepdive-caregiver-p1",
+      "type": "paragraph",
+      "text": "The Child Support Grant is paid to the primary caregiver of a child, not automatically to a parent. SASSA's focus is on who actually looks after the child day to day. This is an important distinction because a biological parent who does not live with the child may not be the person who qualifies, while a grandparent, relative, or even a non-relative who cares for the child can be."
+    },
+    {
+      "id": "deepdive-caregiver-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "You must be the primary caregiver: the person mainly responsible for the child's daily care, food, clothing, and shelter.",
+        "You can be a biological parent, grandparent, older sibling, aunt, uncle, or any other relative or responsible person caring for the child.",
+        "You must be a South African citizen, permanent resident, or recognised refugee living in South Africa.",
+        "The child must live with you in South Africa as part of your household.",
+        "You must not be paid a salary to care for the child (for example, a formal foster-care allowance is a different grant).",
+        "The grant follows the child, not the caregiver. If the child moves to live with someone else, the grant can be moved to the new primary caregiver."
+      ]
+    },
+    {
+      "id": "deepdive-follows-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "The grant follows the child",
+      "text": "If care of the child changes hands, the grant is transferred to the new primary caregiver rather than simply stopping. SASSA will verify the new living arrangement before moving the payment."
+    },
+    {
+      "id": "deepdive-arrangements-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Child's Age and Living Arrangements"
+    },
+    {
+      "id": "deepdive-arrangements-p1",
+      "type": "paragraph",
+      "text": "The child must be under 18 years old. The grant is meant to support children who are still dependent and living in a family or household setting. A child who is married, living fully independently, or permanently in a state-funded institution generally does not qualify."
+    },
+    {
+      "id": "deepdive-arrangements-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Under 18: The child must be below the age of 18 when the grant is paid.",
+        "Living with you: The child must share your home. Occasional visits to another parent do not end the grant.",
+        "Not in a state institution: If the child is cared for in a state-funded institution for more than six months, the grant normally stops.",
+        "School and clinic attendance: SASSA expects children of school age to attend school (or clinic visits for younger children) and may ask for proof."
+      ]
+    },
+    {
+      "id": "deepdive-foster-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Child Support Grant vs Foster Care Grant"
+    },
+    {
+      "id": "deepdive-foster-p1",
+      "type": "paragraph",
+      "text": "Caregivers often confuse the Child Support Grant with the Foster Child Grant. They are different: the Foster Child Grant is paid when a court has placed a child in your foster care, and it is not based on your income. The Child Support Grant is based on the caregiver's means test. If a child has been formally foster-placed with you, ask your SASSA office which grant applies, because you cannot receive both for the same child."
+    },
+    {
+      "id": "deepdive-foster-table",
+      "type": "comparison-table",
+      "headers": [
+        "Grant",
+        "Amount (2026)",
+        "Who it is for",
+        "Key difference"
+      ],
+      "rows": [
+        [
+          "Child Support Grant",
+          "R580 per child per month",
+          "Primary caregiver of a child under 18",
+          "Based on the caregiver's means test; follows the child"
+        ],
+        [
+          "Foster Child Grant",
+          "Higher fixed amount",
+          "Child placed in your care by a court order",
+          "Not means-tested on the caregiver; court order required"
+        ],
+        [
+          "Care Dependency Grant",
+          "R2,400 per month",
+          "Child with a severe disability needing full-time care",
+          "Child must be assessed as needing ongoing care"
+        ]
+      ],
+      "caption": "How the Child Support Grant differs from related grants"
+    },
+    {
+      "id": "deepdive-meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Means Test for 2026"
+    },
+    {
+      "id": "deepdive-meanstest-p1",
+      "type": "paragraph",
+      "text": "For the Child Support Grant, the means test looks only at income, not at assets. The caregiver's income must fall below the threshold for a full grant. Above the threshold, the grant is reduced on a sliding scale rather than being refused outright. The figures below are the 2026 limits; confirm them on the official SASSA channels as they can change each budget year."
+    },
+    {
+      "id": "deepdive-meanstest-table",
+      "type": "table",
+      "headers": [
+        "Situation",
+        "Income limit for full grant",
+        "Above the limit"
+      ],
+      "rows": [
+        [
+          "Single primary caregiver",
+          "~R5,800 per month",
+          "Grant reduced on a sliding scale (roughly R1 less for every R2 of income above the limit)"
+        ],
+        [
+          "Married couple (combined)",
+          "~R11,600 per month",
+          "Grant reduced on a sliding scale in the same way"
+        ]
+      ],
+      "caption": "Child Support Grant means-test thresholds for 2026"
+    },
+    {
+      "id": "deepdive-meanstest-examples",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Example 1 (single): Nomsa earns R5,500/month. This is below the limit, so she receives the full R580/month for the child in her care.",
+        "Example 2 (single): Theo earns R6,300/month, about R500 above the limit. His grant is reduced by about R250, so he receives roughly R330/month.",
+        "Example 3 (married): A couple with combined income of R11,000/month is below the limit and receives the full grant.",
+        "Example 4 (married): A couple with combined income of R12,600/month is R1,000 above the limit, so the grant is reduced by about R500 to roughly R80/month."
+      ]
+    },
+    {
+      "id": "deepdive-meanstest-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "No formal asset test",
+      "text": "Unlike the Older Person, Disability, and War Veterans grants, the Child Support Grant does not apply a formal asset test. SASSA looks at your income, not the value of your home, car, or savings."
+    },
+    {
+      "id": "deepdive-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply: Office and Online"
+    },
+    {
+      "id": "deepdive-apply-office",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Gather your documents",
+          "description": "Collect your ID, the child's birth certificate, proof of income, and proof of residence (see the checklist above)."
+        },
+        {
+          "title": "Visit your nearest SASSA office",
+          "description": "Go to the office serving your area, or ask at your nearest Thusong Service Centre for directions."
+        },
+        {
+          "title": "Complete the form with an officer",
+          "description": "A SASSA officer helps you fill in the application with household, income, and child details."
+        },
+        {
+          "title": "Give biometrics and keep your receipt",
+          "description": "Your fingerprints and photo are captured. Keep the stamped receipt; payments are backdated to the application date if approved."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-apply-p1",
+      "type": "paragraph",
+      "text": "Many caregivers still apply in person, but SASSA has been expanding online services. Where the online channel is available for your grant, you can start the application at services.sassa.gov.za, upload your documents, and track the outcome. If online application is not yet open for Child Support Grant in your area, use the office route above."
+    },
+    {
+      "id": "deepdive-apply-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Help is available",
+      "text": "If you cannot travel, a social worker or SASSA officer may be able to help with a home visit or with arranging an application on the child's behalf. Ask at your local office."
+    },
+    {
+      "id": "deepdive-payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Payment Goes to the Caregiver"
+    },
+    {
+      "id": "deepdive-payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The money is paid to the primary caregiver, not to the child and not to the child's other parent.",
+        "Payment is usually made by bank deposit into the caregiver's account, or by SASSA card at retail pay points.",
+        "The grant must be used for the child's needs: food, clothing, school costs, and health."
+      ]
+    },
+    {
+      "id": "deepdive-orphan-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Orphan Top-Up"
+    },
+    {
+      "id": "deepdive-orphan-p1",
+      "type": "paragraph",
+      "text": "Where a child has lost both parents, or both parents are in prison, in a mental health institution, or cannot be traced, the caregiver may qualify for an increased top-up amount paid on top of the standard Child Support Grant. The exact top-up value has changed over time and has at times been the subject of public debate, so we do not state a single fixed figure here. Always confirm the current top-up amount on the official SASSA website or at your nearest SASSA office before relying on it."
+    },
+    {
+      "id": "deepdive-orphan-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Confirm the current top-up with SASSA",
+      "text": "Because the orphan top-up amount can be adjusted by the Minister of Social Development, treat any specific rand figure you see elsewhere as a snapshot, not a guarantee. The official SASSA channels publish the figure that applies in the current year."
+    },
+    {
+      "id": "deepdive-turns18-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens When the Child Turns 18"
+    },
+    {
+      "id": "deepdive-turns18-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The Child Support Grant ends in the month after the child turns 18.",
+        "If the young adult is still in school or tertiary education, ask SASSA whether any continued support applies; the standard grant does not automatically extend.",
+        "Notify SASSA before the birthday so the payment stops cleanly and you avoid an overpayment that may need to be repaid.",
+        "A care-dependent or disabled young adult may qualify for a different grant in their own name; ask your office about options."
+      ]
+    },
+    {
+      "id": "deepdive-suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Suspension and Cancellation"
+    },
+    {
+      "id": "deepdive-suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The grant can be suspended if the child stops living with you, stops attending school without a valid reason, or if your income rises above the limit.",
+        "It can be cancelled if the child turns 18, marries, moves into a state institution, or if care transfers to someone else.",
+        "If you believe a suspension is wrong, take your proof (school letter, clinic card, updated income) to your SASSA office to request reinstatement.",
+        "SASSA may recover incorrect payments in instalments from future grants."
+      ]
+    },
+    {
+      "id": "deepdive-appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appeals: What to Do If Declined"
+    },
+    {
+      "id": "deepdive-appeals-p1",
+      "type": "paragraph",
+      "text": "If your Child Support Grant application is declined, you can appeal. Declined applications are reviewed by the Independent Tribunal for Social Assistance Appeals (ITSAA). For grants other than the SRD grant, you can also lodge your appeal through a SASSA office or in writing to the Ministry of Social Development."
+    },
+    {
+      "id": "deepdive-appeals-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Read your decision letter",
+          "description": "The letter explains why you were declined and the deadline to appeal."
+        },
+        {
+          "title": "Lodge within 30 days",
+          "description": "Appeal within 30 days of the decision. The online appeal portal accepts appeals up to 90 days from the decline date."
+        },
+        {
+          "title": "Submit your appeal with evidence",
+          "description": "Explain why you disagree and attach new proof such as updated income records, the child's birth certificate, or a school attendance letter."
+        },
+        {
+          "title": "Wait for the tribunal outcome",
+          "description": "The Independent Tribunal reviews your case. If upheld, the grant is approved and often backdated to your application."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-appeals-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Get help with your appeal",
+      "description": "You can appeal online via the SASSA services portal, at your nearest SASSA office, or in writing to the Ministry of Social Development. A social worker can help you put the appeal together."
+    },
+    {
+      "id": "deepdive-scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Protect Yourself From Scams"
+    },
+    {
+      "id": "deepdive-scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA never asks for payment to approve a grant",
+      "text": "Be wary of anyone who calls, SMSes, or messages you demanding a 'fee' or your banking PIN to release the Child Support Grant. SASSA does not charge to apply or approve a grant and will never ask for your PIN or OTP. Report suspicious messages to the official SASSA channels."
+    },
+    {
+      "id": "deepdive-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Child Support Grant means test",
+          "href": "/grants/child-support-grant/means-test-detail",
+          "description": "A deeper look at how the income test is calculated."
+        },
+        {
+          "title": "Foster Care Grant",
+          "href": "/grants/foster-care-grant",
+          "description": "If the child has been placed with you by a court order."
+        },
+        {
+          "title": "Care Dependency Grant",
+          "href": "/grants/care-dependency-grant",
+          "description": "For a child with a severe disability needing full-time care."
+        },
+        {
+          "title": "How to appeal a SASSA decision",
+          "href": "/appeals",
+          "description": "Step-by-step help with the Independent Tribunal appeal process."
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant",
+          "description": "Social relief for working-age adults without income."
+        },
+        {
+          "title": "SASSA services portal",
+          "href": "https://services.sassa.gov.za",
+          "description": "Apply online and check your application status."
+        }
+      ]
+    },
+    {
+      "id": "your-other-grants-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Grant and Your Other SASSA Grants"
+    },
+    {
+      "id": "your-other-grants-p1",
+      "type": "paragraph",
+      "text": "Receiving the Child Support Grant does not stop you from getting a grant in your own name. For example, a grandmother who cares for a grandchild can receive the Older Person Grant for herself and the Child Support Grant for the child. The two are assessed separately, and each has its own rules and means test."
+    },
+    {
+      "id": "your-other-grants-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "You can receive the Child Support Grant and also hold an Older Person Grant, Disability Grant, or War Veterans Grant in your own name.",
+        "You cannot receive both the Child Support Grant and the Foster Child Grant for the same child.",
+        "Your own grant is not counted as income for the child's means test, and the child's grant is not counted as income for yours.",
+        "If your circumstances change, review both grants, because each has its own means test and qualifying rules."
+      ]
+    },
+    {
+      "id": "maintenance-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Maintenance From the Other Parent"
+    },
+    {
+      "id": "maintenance-p1",
+      "type": "paragraph",
+      "text": "The child's other parent may be legally required to pay maintenance. That maintenance counts as income in the means test, but claiming it does not stop the Child Support Grant. The grant and maintenance are designed to work together to support the child. If you are struggling to get maintenance paid, a maintenance court at your local magistrate's office can help you enforce the order."
+    },
+    {
+      "id": "spend-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Using the Grant for the Child's Needs"
+    },
+    {
+      "id": "spend-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Food and nutrition for the child.",
+        "School fees, uniforms, stationery, and transport to school.",
+        "Clothing and shoes appropriate to the season.",
+        "Health care, clinic visits, and medication not covered elsewhere.",
+        "Safe shelter and the household costs the child shares."
+      ]
+    },
+    {
+      "id": "report-changes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Reporting Changes to SASSA"
+    },
+    {
+      "id": "report-changes-p1",
+      "type": "paragraph",
+      "text": "Your grant depends on the child living with you and your income staying within the limit. If either changes, tell SASSA promptly so you are paid correctly and avoid an overpayment you would later have to repay."
+    },
+    {
+      "id": "report-changes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Your income rises above the means-test limit.",
+        "The child moves to live with someone else (the grant should transfer to the new caregiver).",
+        "The child stops attending school without a valid reason.",
+        "You change your bank or contact details.",
+        "The child turns 18 or marries."
+      ]
+    },
+    {
+      "id": "report-changes-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Report changes early",
+      "text": "If you do not tell SASSA about a change that affects the grant, you may be paid incorrectly and asked to repay the money later. Reporting promptly protects you and the child."
+    },
+    {
+      "id": "transfer-h",
+      "type": "heading",
+      "level": 2,
+      "text": "When Care of the Child Transfers to Someone Else"
+    },
+    {
+      "id": "transfer-p1",
+      "type": "paragraph",
+      "text": "Children's living arrangements change. If the child moves to live with a relative, foster parent, or another caregiver, the Child Support Grant should move with the child. SASSA will verify the new arrangement and may ask for a new application from the person who now has primary care."
+    },
+    {
+      "id": "transfer-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Tell SASSA about the move",
+          "description": "Report the change at your local office so payments can be reviewed and the correct caregiver is identified."
+        },
+        {
+          "title": "New caregiver applies or takes over",
+          "description": "The new primary caregiver provides their ID, proof of residence, and proof that the child lives with them."
+        },
+        {
+          "title": "SASSA verifies and transfers",
+          "description": "Once verified, the grant is paid to the new caregiver from the transfer date, so the child's support continues without a long gap."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "More Questions? Deep-Dive FAQ"
+    },
+    {
+      "id": "deepdive-faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the Child Support Grant amount in 2026?",
+          "answer": "From 1 April 2026 the grant is R580 per month for each eligible child under 18. An increased top-up amount is available for orphaned children in the caregiver's care; confirm the current top-up figure with SASSA."
+        },
+        {
+          "question": "Who can be the caregiver?",
+          "answer": "Any primary caregiver can apply: a biological parent, grandparent, older sibling, relative, or responsible non-relative who mainly looks after the child day to day. The grant is based on who cares for the child, not just who is the parent."
+        },
+        {
+          "question": "Does the child have to live with me?",
+          "answer": "Yes. The child must live with you as part of your household in South Africa. The grant follows the child, so if care changes hands the payment can move to the new caregiver."
+        },
+        {
+          "question": "What is the means test for a single caregiver?",
+          "answer": "For 2026, a single primary caregiver with income below about R5,800 per month receives the full grant. Above that, the grant is reduced on a sliding scale rather than being refused."
+        },
+        {
+          "question": "What is the means test for a married couple?",
+          "answer": "Combined income below about R11,600 per month gives the full grant. Above that the grant tapers on a sliding scale in the same way as for a single caregiver."
+        },
+        {
+          "question": "Is there an asset test?",
+          "answer": "No. The Child Support Grant means test looks at income only. Your home, car, and savings are not counted, unlike the Older Person or Disability grants."
+        },
+        {
+          "question": "Can I get the grant for more than one child?",
+          "answer": "Yes, you can receive the grant for more than one child in your care, up to a limit of six children per caregiver. Beyond that, ask your office about other options such as the Foster Care Grant."
+        },
+        {
+          "question": "What if both parents apply for the same child?",
+          "answer": "SASSA pays only one grant per child. If two people claim, SASSA investigates who the primary caregiver is and pays the person providing the most care."
+        },
+        {
+          "question": "Do I have to declare cash and informal income?",
+          "answer": "Yes. All income counts, including cash-in-hand work, tips, maintenance from the other parent, and regular help from family. Only your own other SASSA grant and genuine one-off lump sums are excluded."
+        },
+        {
+          "question": "Can I apply online?",
+          "answer": "SASSA is expanding online applications through services.sassa.gov.za. Where the channel is available for your grant, you can apply and upload documents online; otherwise apply in person at your nearest SASSA office."
+        },
+        {
+          "question": "How long does the application take?",
+          "answer": "Most applications are processed within about three months. If approved, payments are backdated to your application date, so keep your receipt."
+        },
+        {
+          "question": "What documents do I need?",
+          "answer": "You need your ID, the child's birth certificate, proof of income (and the last 3 months of bank statements if you have an account), and proof of residence. A marriage or divorce document is needed only if it applies to you."
+        },
+        {
+          "question": "How is the money paid?",
+          "answer": "The grant is paid to the primary caregiver, usually by bank deposit or SASSA card at retail pay points. It must be used for the child's needs."
+        },
+        {
+          "question": "What is the orphan top-up?",
+          "answer": "It is an increased amount paid on top of the standard grant where a child has lost both parents or both parents cannot be traced or are in prison or a mental health institution. The exact figure changes, so confirm it with SASSA."
+        },
+        {
+          "question": "What happens when the child turns 18?",
+          "answer": "The grant ends in the month after the child's 18th birthday. Tell SASSA before then so payments stop cleanly. Ask about other support if the young adult is still in education or has a disability."
+        },
+        {
+          "question": "Can the grant be suspended?",
+          "answer": "Yes, for example if the child stops living with you, stops attending school without reason, or your income rises above the limit. Take your proof to the SASSA office to request reinstatement."
+        },
+        {
+          "question": "How do I appeal a decline?",
+          "answer": "Appeal to the Independent Tribunal for Social Assistance Appeals (ITSAA) within 30 days (the online portal accepts up to 90 days). You can appeal online, at a SASSA office, or in writing to the Ministry of Social Development."
+        },
+        {
+          "question": "Can I get the Child Support Grant and an Older Person Grant at once?",
+          "answer": "Yes. A caregiver can hold a grant in their own name, such as the Older Person Grant, and also receive the Child Support Grant for a child in their care. Each is assessed on its own means test."
+        },
+        {
+          "question": "Does child maintenance from the other parent count as income?",
+          "answer": "Yes, court-ordered or agreed maintenance counts as income in the means test. But receiving maintenance does not cancel the grant; the two supports are meant to work together for the child."
+        },
+        {
+          "question": "Can I get the grant if I already receive a Foster Child Grant for another child?",
+          "answer": "Yes, you can receive a Foster Child Grant for one child and a Child Support Grant for a different child. You cannot receive both for the same child."
+        },
+        {
+          "question": "What if the child's other parent also applies for the grant?",
+          "answer": "SASSA pays only one grant per child. If two people claim, SASSA determines who the primary caregiver is and pays that person. Provide school, clinic, and living proof of your care."
+        },
+        {
+          "question": "Is the grant affected by my having a bank account?",
+          "answer": "No. Having a bank account is fine and bank deposit is the recommended payment method. You simply provide your bank details; the account is not counted as an asset for this grant because there is no asset test."
+        },
+        {
+          "question": "Can a non-relative be the caregiver?",
+          "answer": "Yes. Any responsible person who is the primary caregiver can apply, including a non-relative. SASSA checks that the child genuinely lives with you and that you are mainly responsible for their care."
+        },
+        {
+          "question": "What happens if I do not report a change in my income?",
+          "answer": "If SASSA later finds you were over the limit, the grant can be suspended and you may be asked to repay the overpaid amount in instalments. Reporting changes early avoids this."
+        },
+        {
+          "question": "Can the grant be paid to the child's other parent instead of me?",
+          "answer": "The grant is paid to the primary caregiver, whoever that is. If the child moves to live with the other parent, the grant can transfer to them after SASSA verifies the new living arrangement."
+        },
+        {
+          "question": "Do I need the child's birth certificate?",
+          "answer": "Yes, the original birth certificate is required. If the child has none, bring a sworn affidavit and proof of application from Home Affairs; SASSA can guide you while the certificate is processed."
         }
       ]
     },

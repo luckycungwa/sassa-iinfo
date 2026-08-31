@@ -4,7 +4,7 @@
   "classification": "news-article",
   "title": "5 Tips for a Successful SASSA Grant Appeal in 2026",
   "description": "Increase your chances of a successful SASSA appeal with these expert tips: proper documentation, correct reason codes, and understanding the ITSAA process.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "5 Tips for a Successful SASSA Grant Appeal in 2026",
       "description": "Appealing a declined grant can feel frustrating, but with the right approach your odds improve significantly. These five tips separate upheld appeals from dismissed ones.",
       "readingTime": "7 min read",
-      "lastUpdated": "2026-08-23"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "h0",
@@ -41,7 +41,13 @@
     {
       "id": "p0a",
       "type": "paragraph",
-      "text": "Declined applications are reviewed by the Independent Tribunal for Social Assistance Appeals (ITSAA), not by SASSA itself. That matters practically: the tribunal only sees what you submit, and it routes cases using the reason codes selected during lodgement. A complete, correctly-coded file moves fast; anything else waits in a queue."
+      "text": "Declined applications are reviewed by the Independent Tribunal for Social Assistance Appeals (ITSAA), not by SASSA itself. That matters practically: the tribunal only sees what you submit, and it routes cases using the reason codes selected during lodgement. A complete, correctly-coded file moves fast; anything else waits in a queue.",
+      "links": [
+        {
+          "text": "Independent Tribunal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "reason-table",
@@ -105,7 +111,13 @@
     {
       "id": "p3",
       "type": "paragraph",
-      "text": "For the SRD R370, every month is assessed independently — so each declined month needs its own appeal. The good news: the ITSAA portal lets you select multiple months in one session, so you can lodge them all together rather than repeating the process monthly."
+      "text": "For the SRD R370, every month is assessed independently — so each declined month needs its own appeal. The good news: the ITSAA portal lets you select multiple months in one session, so you can lodge them all together rather than repeating the process monthly.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "h4",

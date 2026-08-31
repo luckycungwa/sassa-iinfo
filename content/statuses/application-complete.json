@@ -4,38 +4,138 @@
   "classification": "status-meaning",
   "title": "Application Complete — What It Means & What Happens Next",
   "description": "Your SASSA status shows 'Application Complete' — here is what this positive status means and what to expect in the monthly approval cycle.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Application Complete — SASSA Status Meaning & Next Steps",
     "metaDescription": "Your SASSA status shows 'Application Complete' — all your details are verified and you are in the monthly approval cycle. Learn what happens next and when to expect payment.",
-    "keywords": ["SASSA application complete", "SASSA complete meaning", "SASSA application complete status", "what does application complete mean SASSA"]
+    "keywords": [
+      "SASSA application complete",
+      "SASSA complete meaning",
+      "SASSA application complete status",
+      "what does application complete mean SASSA"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Application Complete — Your Next Steps",
       "description": "Your SASSA application shows 'Application Complete' — all your details are verified and you're in the monthly evaluation cycle. Find out what happens next, when to expect your status update, and how to prepare for payment.",
       "readingTime": "3 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "text": "Check Your Status", "href": "/status/application-complete" },
-      "secondaryCta": { "text": "View Payment Dates", "href": "/payment-dates" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Check Your Status",
+        "href": "/status/application-complete"
+      },
+      "secondaryCta": {
+        "text": "View Payment Dates",
+        "href": "/payment-dates"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Application Complete — What It Means" },
-    { "id": "intro", "type": "paragraph", "text": "The 'Application Complete' status is a positive sign. It means SASSA has received all your information, verified your details, and your profile is fully set up in the system. You are now in the monthly evaluation cycle where your eligibility is assessed each month." },
-    { "id": "who", "type": "paragraph", "text": "This status affects applicants who have submitted all required documentation and SASSA is preparing a final decision." },
-    { "id": "callout", "type": "callout", "intent": "info", "title": "What Happens Next", "text": "SASSA will make a final decision based on your submitted documents. Check your status regularly for the outcome." },
-    { "id": "ref-block", "type": "status-reference", "statusName": "Application Complete", "explanation": "All verification steps — identity, bank, documents — have been completed successfully. Your application is no longer in 'Pending' status and is now part of the monthly automated approval system.", "whyItHappens": ["Your initial application and documents have been fully processed", "Your bank account verification was successful", "Your identity was confirmed against Home Affairs records", "Your profile is complete and ready for monthly evaluations"], "howLongItLasts": "This status persists between monthly evaluation cycles. At the start of each month, it typically changes to 'Approved' or 'Declined' depending on that month's assessment." , "whatYouShouldDo": ["Monitor the portal at the start of each month to see your status update", "If it changes to 'Approved': check for your pay date", "If it changes to 'Declined': review the reason and file an appeal if needed", "Ensure your bank account remains active and your contact details stay current"], "relatedStatuses": [{ "name": "Approved", "slug": "approved" }, { "name": "Pending", "slug": "pending" }] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Does 'Application Complete' mean I will definitely get paid?", "answer": "Almost always, yes, provided your means test does not fail during the final monthly bank sweep. Most applicants with 'Application Complete' status proceed to 'Approved'." },
-      { "question": "How long does 'Application Complete' last?", "answer": "It stays active until the monthly evaluation cycle begins. At the start of the next month, it will change to either 'Approved' or 'Declined'." },
-      { "question": "Can 'Application Complete' change back to 'Pending'?", "answer": "It should not. If your status reverts to 'Pending', it may indicate a document or verification issue that needs attention." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Application Complete — What It Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The 'Application Complete' status is a positive sign. It means SASSA has received all your information, verified your details, and your profile is fully set up in the system. You are now in the monthly evaluation cycle where your eligibility is assessed each month."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "This status affects applicants who have submitted all required documentation and SASSA is preparing a final decision."
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "What Happens Next",
+      "text": "SASSA will make a final decision based on your submitted documents. Check your status regularly for the outcome."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Application Complete",
+      "explanation": "All verification steps — identity, bank, documents — have been completed successfully. Your application is no longer in 'Pending' status and is now part of the monthly automated approval system.",
+      "whyItHappens": [
+        "Your initial application and documents have been fully processed",
+        "Your bank account verification was successful",
+        "Your identity was confirmed against Home Affairs records",
+        "Your profile is complete and ready for monthly evaluations"
+      ],
+      "howLongItLasts": "This status persists between monthly evaluation cycles. At the start of each month, it typically changes to 'Approved' or 'Declined' depending on that month's assessment.",
+      "whatYouShouldDo": [
+        "Monitor the portal at the start of each month to see your status update",
+        "If it changes to 'Approved': check for your pay date",
+        "If it changes to 'Declined': review the reason and file an appeal if needed",
+        "Ensure your bank account remains active and your contact details stay current"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Approved",
+          "slug": "approved"
+        },
+        {
+          "name": "Pending",
+          "slug": "pending"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Does 'Application Complete' mean I will definitely get paid?",
+          "answer": "Almost always, yes, provided your means test does not fail during the final monthly bank sweep. Most applicants with 'Application Complete' status proceed to 'Approved'."
+        },
+        {
+          "question": "How long does 'Application Complete' last?",
+          "answer": "It stays active until the monthly evaluation cycle begins. At the start of the next month, it will change to either 'Approved' or 'Declined'."
+        },
+        {
+          "question": "Can 'Application Complete' change back to 'Pending'?",
+          "answer": "It should not. If your status reverts to 'Pending', it may indicate a document or verification issue that needs attention."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-popcp6",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Check Your Status",
+          "href": "/guides/how-to-check-sassa-status"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Approved Status", "slug": "/status/approved" },
-    { "title": "Pending Status", "slug": "/status/pending" }
+    {
+      "title": "Approved Status",
+      "slug": "/status/approved"
+    },
+    {
+      "title": "Pending Status",
+      "slug": "/status/pending"
+    }
   ]
 }

@@ -1,0 +1,281 @@
+{
+  "id": "status-declined",
+  "slug": "/status/declined",
+  "classification": "status-meaning",
+  "title": "Ungatshatiwe — Ukuthetha Ntoni Nendlela Yokubhena Ukwaliwa Kwesibonelelo SeSASSA",
+  "description": "Isimo sesibonelelo sakho seSASSA sibonisa 'uNqatshelwe' — nantsi into ethethwa kuko, ezona zizathu zixhaphakileyo zokwaliwa, kunye nesikhokelo esipheleleyo sokubhena isibonelelo sakho esingatshatiweyo.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Isimo SeSASSA Singatshatiwe? Indlela Yokubhena Kwiintsuku Ezi-90 (2026)",
+    "metaDescription": "Isimo seSASSA 'siNqatshelwe' ngo-2026? Funda isizathu, uze ubhene kwiintsuku ezi-90 ngesikhokelo sethu esinganyathelo-nyathelo seITSAA.",
+    "keywords": [
+      "iSASSA inqatshelwe",
+      "isibonelelo seSASSA sngatshatiwe",
+      "intsingiselo yokwaliwa yiSASSA",
+      "iSRD inqatshelwe",
+      "kutheni iSASSA yam ingatshatiwa",
+      "ukubhena kokwaliwa yiSASSA"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Iwebhusayithi Esemthethweni YeSASSA",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "ISebe Lophuhliso Lwezentlalo",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "iNkundla Ezimeleyo (ITSAA)",
+      "url": "https://itsaa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ungatshatiwe — Isikhokelo Sakho Sokubhena",
+      "description": "Isibonelelo sakho seSASSA singatshatiwe — unelungelo lokubhena. Fumanisa ezona zizathu zixhaphakileyo zokwaliwa, ixesha lakho lokubhena leentsuku ezi-90, kunye nesikhokelo esinganyathelo-nyathelo sokungenisa isibheno esiphumelelayo kwiNkundla Ezimeleyo.",
+      "readingTime": "Iminithi e-4 yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Bhena Ukwaliwa",
+        "href": "/appeals/how-to-appeal"
+      },
+      "secondaryCta": {
+        "text": "Jonga Isimo Sakho",
+        "href": "/status/declined"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Ungatshatiwe — Ukuthetha Ntoni Kwisibonelelo Sakho SeSASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Ukubona 'uNqatshelwe' kukhangelo lwakho lwesimo seSASSA kunokuba nzima, kodwa asikokuphela kwendlela. Isimo sokwaliwa sithetha ukuba iinkqubo ezizenzekelayo zeSASSA ziye zagqiba ukuba awuhlangabezani neemfuno zokufaneleka kwinyanga evavanywayo. Inyanga nganye ivavanywa ngokwahlukileyo, kwaye unelungelo elisemthethweni lokubhena inyanga nganye engatshatiweyo.",
+      "links": [
+        {
+          "text": "isibheno",
+          "href": "/appeals"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Esi simo sichaphazela abafaki-zicelo izicelo zabo zezibonelelo zeSASSA ezingazange zihlangabezane neemfuno zokuphambiwa emva kokuphononongwa."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Unqatshelwe",
+      "explanation": "Isimo 'sokuNqatshelwa' sithetha ukuba iinkqubo zokuqinisekisa zeSASSA ziye zajonga isicelo sakho ngokweemfuno zabo zokufaneleka zaza zafumana isizathu sokungasamkeli isicelo sakho kuloo nyanga. I-SASSA ijonga iidathabhese ezininzi kuquka iHome Affairs, iSebe Lezemisebenzi, iSARS, iNSFAS, kunye neakhawunti yakho yebhanki. Ukwaliwa kwinyanga enye akuthethi ukuba awunakufaneleka kwiinyanga ezizayo.",
+      "whyItHappens": [
+        "Umthombo wemali ongomnye ufunyenwe: iifakelo zebhanki zigqibile umda wenyanga weR624",
+        "Ubhaliso lwe-UIF lufunyenwe: isazisi sakho sisanxulunyaniswa nerekhodi le-UIF esebenzayo",
+        "Inkxaso ye-NSFAS ifunyenwe: isazisi sakho sibhaliswe njengomfundi we-NSFAS osebenzayo",
+        "Uvavanyo lweendlela zobomi lusilele: umvuzo wakho okanye iimpahla zakho zigqitha kwimida esemthethweni",
+        "Ukuqinisekiswa kwebhanki kusilele: iinkcukacha zakho zebhanki azikwazanga ukuqinisekiswa",
+        "Ukuqinisekiswa kwesazisi kusilele: iinkcukacha zesazisi sakho azihambelani neerekhodi zeHome Affairs",
+        "Ukuzikhetha: ubhengeze ukuba unenye inkxaso",
+        "Uthunyelwe kuphando lwezityholo: isicelo sakho saphawulwa ngenxa yokungaqhelekanga",
+        "Isicelo esiphindiweyo sifunyenwe: kungeniswe isicelo esingaphezu kwenye phantsi kwesazisi sakho"
+      ],
+      "howLongItLasts": "Isimo sokwaliwa sisebenza kumjikelo wenyanga enye kuphela. Inyanga elandelayo ivavanywa njengesicelo esitsha. Nangona kunjalo, ukuba ingxaki ephantsi (umzekelo, ubhaliso lwe-UIF okanye iifakelo zebhanki) isaqhubeka, usenokwaliwa kwakhona.",
+      "whatYouShouldDo": [
+        "Jonga isaziso sakho sokwaliwa ukuze ubone ikhowudi yesizathu ethile",
+        "Ukuba ukholelwa ukuba ukwaliwa akuchanekanga, faka isibheno kwiintsuku ezi-90",
+        "Kukwaliwa okunxulumene ne-UIF: fumana ileta yokupheliswa kwe-UI-19 kwiSebe Lezemisebenzi",
+        "Kukwaliwa okunxulumene ne-NSFAS: cela ileta yokurhoxiswa kwi-myNSFAS",
+        "Kukwaliwa ngenxa yomthombo wemali: lungiselela isifungo esibhaliweyo esichaza iifakelo zebhanki",
+        "Kwiingxaki zesazisi: tyeleta iHome Affairs ukuze ulungise iinkcukacha zakho",
+        "Bhena inyanga nganye engatshatiweyo ngokwahlukileyo kwi-srd.dsd.gov.za"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Umthombo Wemali Ongomnye",
+          "slug": "alternative-income-source"
+        },
+        {
+          "name": "Ukuqinisekiswa Kwebhanki",
+          "slug": "bank-verification"
+        },
+        {
+          "name": "Uthunyelwe",
+          "slug": "referred"
+        },
+        {
+          "name": "Ukuzikhetha",
+          "slug": "self-exclusion"
+        },
+        {
+          "name": "Uvavanyo Lweendlela Zobomi Lusilele",
+          "slug": "means-test-failed"
+        }
+      ]
+    },
+    {
+      "id": "decline-reasons-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Isizathu Ngasinye Sokwaliwa Sichazwe"
+    },
+    {
+      "id": "decline-reasons",
+      "type": "table",
+      "headers": [
+        "Isizathu Sokwaliwa",
+        "Unobangela",
+        "Isisombululo"
+      ],
+      "rows": [
+        [
+          "Umthombo Wemali Ongomnye",
+          "Iifakelo zebhanki okanye umvuzo ogqitha kwi-R624/ngenyanga",
+          "Bhena ngesifungo esibhaliweyo esichaza iifakelo"
+        ],
+        [
+          "UBhalisiwe kwi-UIF",
+          "Isazisi sakho sikwibhasi yedatha ye-UIF",
+          "Fumana ileta yokupheliswa kwe-UI-19 uze ubhene"
+        ],
+        [
+          "Uxhaswa Ngu-NSFAS",
+          "Isazisi sakho siphawulwe njengomfundi osebenzayo",
+          "Fumana ileta yokurhoxiswa kwe-NSFAS uze ubhene"
+        ],
+        [
+          "Uvavanyo Lweendlela Zobomi Lusilele",
+          "Umvuzo okanye iimpahla zigqitha kwimida",
+          "Ngenisa iirekhodi zemali ezihlaziyiweyo"
+        ],
+        [
+          "Ukuqinisekiswa Kwebhanki Kusilele",
+          "Iinkcukacha zebhanki azihambelani okanye iakhawunti engasebenziyo",
+          "Lungisa iinkcukacha zebhanki okanye utshintshele kwiCash Send"
+        ],
+        [
+          "Ukuqinisekiswa Kwesazisi Kusilele",
+          "Isazisi asihambelani neerekhodi zeHome Affairs",
+          "Tyeleta iHome Affairs ukuze ulungise iinkcukacha zesazisi sakho"
+        ],
+        [
+          "Ukuzikhetha",
+          "Ubhengeze ukuba unenye inkxaso",
+          "Faka isibheno esichaza imeko yakho yokwenene"
+        ],
+        [
+          "Uthunyelwe (Uphawu Lobuqhophololo)",
+          "Umsebenzi okrokrisayo ufunyenwe",
+          "Qhagamshelana neSASSA Fraud Hotline ukuze oku kusonjululwe"
+        ],
+        [
+          "Isicelo Esiphindiweyo",
+          "Izicelo ezininzi phantsi kwesazisi esinye",
+          "Qhagamshelana neSASSA ukuze udibanise izicelo"
+        ]
+      ]
+    },
+    {
+      "id": "appeal-rights-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ilungelo Lakho Lokubhena"
+    },
+    {
+      "id": "appeal-rights-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Unemini Eziyi-90 Zokubhena",
+      "text": "Umthetho waseMzantsi Afrika ukunika iintsuku eziyi-90 ukususela kumhla wokufumana isaziso sakho sokwaliwa ukuba ufaké isibheno. Izibheno ziphathwa yi-Independent Tribunal for Social Assistance Appeals (ITSAA), ehlukile ngokupheleleyo kwiSASSA. Awudingi ggqwetha ukuba ubhene."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Imibuzo Ebuzwa Rhoqo"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ngaba ndingafaka isicelo esitsha endaweni yokubhena?",
+          "answer": "Ewe, ungafaka isicelo esitsha nanini na. Nangona kunjalo, ukuba isizathu sokwaliwa sisahleli (umzekelo, ubhaliso lwe-UIF), usenokwaliwa kwakhona. Bhena okanye ulungise ingxaki ephantsi kuqala."
+        },
+        {
+          "question": "Ngaba kufuneka ndibhene inyanga ngenyanga?",
+          "answer": "Ewe. Ngenxa yokuba iSASSA ivavanya ukufaneleka ngenyanga, kufuneka ubhene inyanga nganye ebonisa isimo 'sokuNqatshelwa'."
+        },
+        {
+          "question": "Kuthetha ntoni ukuba ndiphose ixesha lokubhena leentsuku eziyi-90?",
+          "answer": "Ngelishwa, izibheno azinakwamkelwa emva kweentsuku eziyi-90. Kufuneka ufake isicelo esitsha siphelele sezibonelelo."
+        },
+        {
+          "question": "Ngaba ndingabhena ngobuqu kwi-ofisi yeSASSA?",
+          "answer": "Ewe. Kwizibonelelo ezingezizo ze-SRD, ungatyelela i-ofisi yeSASSA namaxwebhu akho uze ucele ukuba kungeniswe isibheno ngesandla. Kwi-SRD, izibheno ziphethwa ikakhulu kwi-intanethi kwi-srd.dsd.gov.za."
+        },
+        {
+          "question": "Kuthatha ixesha elingakanani inkqubo yokubhena?",
+          "answer": "Ngokuqhelekileyo inkundla ithatha iintsuku ezingama-60 ukuya kwezingama-90 ukukhupha isigqibo. Ukuba kuvunyiwe, iSASSA kufuneka ihlawule iimali ezibuyiselwayo kwiintsuku eziyi-14 zomsebenzi."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Indlela Yokubhena Isibonelelo SeSASSA Esingatshatiweyo",
+          "href": "/appeals/how-to-appeal",
+          "description": "Isikhokelo esipheleleyo senkqubo yokubhena yeITSAA"
+        },
+        {
+          "title": "Izizathu Eziqhelekileyo Zokwaliwa Nendlela Yokubhena",
+          "href": "/appeals/appeal-reasons",
+          "description": "Isizathu ngasinye sokwaliwa kunye neendlela zokubhena ezijoliswe kuso"
+        },
+        {
+          "title": "Ixesha Lenyani Lokubhena KweSASSA",
+          "href": "/appeals/appeal-timeline",
+          "description": "Inqanaba ngalinye lenkqubo yokubhena lithatha ixesha elingakanani"
+        },
+        {
+          "title": "Bhena Emva Kobhaliso Lwe-UIF",
+          "href": "/appeals/appeal-after-uif",
+          "description": "Into omawuyenze ukuba iSASSA ithi ubhalisile kwi-UIF"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Indlela Yokubhena",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Umthombo Wemali Ongomnye",
+      "slug": "/status/alternative-income-source"
+    },
+    {
+      "title": "Ukuqinisekiswa Kwebhanki",
+      "slug": "/status/bank-verification"
+    },
+    {
+      "title": "Uvavanyo Lweendlela Zobomi Lusilele",
+      "slug": "/status/means-test-failed"
+    }
+  ]
+}

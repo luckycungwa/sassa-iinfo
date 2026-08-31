@@ -1,0 +1,159 @@
+{
+  "id": "banking-update-bank-details",
+  "slug": "/banking/update-bank-details",
+  "classification": "banking-guide",
+  "title": "Indlela yokuHlaziya iBhanki yakho — Tshintsha iAkhawunti yeNqanaba leSASSA",
+  "description": "Inkqubo yesinyathelo ngesinyathelo yokutshintsha iakhawunti yakho yebhanki yeindlela zokukhokela iSASSA: nge-intanethi ngayo iportal yeSRD okanye ngobomi kwi-ofisi yeSASSA. Iimfuno, ixesha lokucubungula, kunye nezilumkiso ezibalulekileyo.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Hlaziya iBhanki yeSASSA — ngesinyathelo ngesinyathelo (2026)",
+    "metaDescription": "Hlazisa ulwazi lwakho lweebhanki zeSASSA kunyaka 2026 nge-intanethi ngayo iportal yeSRD okanye kwi-ofisi. Landela inkqubo yethu yesinyathelo ngesinyathelo ukutshintsha iakhawunti.",
+    "keywords": [
+      "hlaziya ulwazi lweebhanki zeSASSA",
+      "tshintsha iakhawunti yebhanki yeSASSA",
+      "SASSA tshintsha indlela yokukhokelwa",
+      "SASSA hlaziya inombolo yeeakhawunti",
+      "SASSA ifomu yokutshintsha ebhankini"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Indlela yokuHlaziya iBhanki yakho — Tshintsha iAkhawunti yeNqanaba leSASSA",
+      "description": "Ufuna ukutshintsha iakhawunti yebhanki apho inqanaba lakho leSASSA lithunyelwa khona? Funda indlela yokuhlazisa ulwazi lwakho nge-intanethi ngayo iportal yeSRD okanye ngobomi kwi-ofisi yeSASSA, kunye nokulindelweyo ngexesha lokuhlola ibhanki.",
+      "readingTime": "4 ngqesho ukufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Yiya kwiPortal yeSRD",
+        "href": "/banking/how-to-register-for-srd-portal"
+      },
+      "secondaryCta": {
+        "label": "Inkqubo yokuQinisekisa iBhanki",
+        "href": "/banking/bank-verification-process"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela yokuHlaziya ulwazi lweBhanki yakho yeSASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Ukuba ufuneka utshintshise iakhawunti yebhanki apho inqanaba lakho leSASSA likhokelwa khona, unokwenza oku nge-intanethi ngayo iportal yeSRD okanye ngobomi kwi-ofisi yeSASSA. Iakhawunti entsha kufuneka ibhaliswe ngenkampani yakho oyedwa.",
+      "links": [
+        {
+          "text": "iSRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Ukuba utshintshe ibhanki, uvalile iakhawunti endala, okanye nje wenza impazamo ngaphambili, usecaleni elifanelekileyo. Le yenye yale misebenzi imincinci efana nokungcola kodwa eyinyaniso ibalulekile — ulwazi lweebhanki olungafanelekileyo yeyokuqala kwezizathu zokubamba iindlela zokukhokelwa."
+    },
+    {
+      "id": "name-rule",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Iakhawunti KUFUNEKA ibe ngowakho",
+      "text": "I-SASSA ikhokela kuphela kwiakhawunti egama eligciniweyo lomfaki isicelo. Awunakusebenzisa iakhawunti yomntu wasapho okanye sixhuku — nokuba ngeyunyawo labo. Ukuba ungenayo iakhawunti yakho, sebenzisa iCash Send okanye iSASSA card endaweni yokubeka emngciphekweni ukukhokelwa okubanjwe."
+    },
+    {
+      "id": "online-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 1: Hlazisa nge-intanethi (Iyacetyiswa)"
+    },
+    {
+      "id": "online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ngena kwiportal yeSRD",
+          "description": "Yiya ku srd.sassa.gov.za. Faka inombolo yakho yesazisi kunye nenombolo yocingo. Qinisekisa nge-OTP ethunyelwe kucingo lakho."
+        },
+        {
+          "title": "Fumana 'Hlaziya iBhanki'",
+          "description": "Fumana isigaba solwazi lweebhanki kudeshibhodi yakho."
+        },
+        {
+          "title": "Faka ulwazi lwakho lweebhanki olutsha",
+          "description": "Nika igama lebhanki entsha, inombolo yeeakhawunti, ikhodi yomatshini, kunye uhlobo lweakhawunti (iSavings, iCheque, okanye iTransmission)."
+        },
+        {
+          "title": "Qinisekisa ulwazi",
+          "description": "Phinda uhlolisise inombolo nganye yeeakhawunti nekhodi yomatshini. Inombolo enye engalunganga iya kubambelela ukukhokelwa kwakho."
+        },
+        {
+          "title": "Thumela ulinde ukuqinisekisa",
+          "description": "I-SASSA iya kuqinisekisa iakhawunti entsha nebhanki yakho. Oku kuthatha imihla eli-5 ukuya kweli-10 yoshishino."
+        }
+      ]
+    },
+    {
+      "id": "office-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 2: Hlazisa kwiOfisi yeSASSA"
+    },
+    {
+      "id": "office-text",
+      "type": "paragraph",
+      "text": "Ukuba awunakufikelela kwiportal, tyelela iofisi yakho yeSASSA esecaleni ngesazisi kunye nebhanki statement okanye incwadi evela ebhankini yakho eqinisekisa iakhawunti entsha. Gcwalisa ifomu yeSASSA yeVume yeBhanki yokukhokelwa kwaye umphathi weSASSA uya kucubungula utshintsho."
+    },
+    {
+      "id": "important-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Imithetho ebalulekileyo",
+      "text": "Iakhawunti yebhanki kufuneka ibe negama eligciniweyo lakho. I-SASSA ayizuku khokela kwiakhawunti yesithathu. Ukuqinisekisa ibhanki kuthatha imihla eli-5 ukuya kweli-10 yoshishino. Ungavali iakhawunti yakho endala de ukukhokelwa kokuqala kufike kwiakhawunti entsha."
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ithatha ixesha elingakanani ukuhlazisa ulwazi lweebhanki?",
+          "answer": "Ukuqinisekisa ibhanki kuthatha imihla eli-5 ukuya kweli-10 yoshishino. Emva kokuqinisekisa, iakhawunti entsha isetyenziselwa ukukhokelwa kwenyanga ezayo."
+        },
+        {
+          "question": "Ndingahlazisa ulwazi lwam lweebhanki xa ndilahlekelwe yi-IPhone yakho?",
+          "answer": "Hayi. Kufuneka utyelele iofisi yeSASSA ngesazisi sakho ukuze utshintshise inombolo yakho yocingo kuqala, uze usebenzise iportal nge-intanethi."
+        },
+        {
+          "question": "Kuza kuthinteka na ukukhokelwa kwenyanga yakho yangoku xa utshintsha ulwazi lwakho lweebhanki?",
+          "answer": "Ukuba utshintsha ulwazi lwakho ngemva kwemini le-20 yenyanga, utshintsho luza kusebenza ukususela kwenyanga ezayo. Musa ukutshintsha ulwazi ngexesha lokukhokelwa."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Iindlela zokuKhokela iSASSA",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Inkqubo yokuQinisekisa iBhanki",
+      "slug": "/banking/bank-verification-process"
+    },
+    {
+      "title": "Ukukhokelwa Kungabonakali",
+      "slug": "/banking/payment-not-reflecting"
+    },
+    {
+      "title": "Indlela yokuBhalisa kwiPortal yeSRD",
+      "slug": "/banking/how-to-register-for-srd-portal"
+    }
+  ]
+}

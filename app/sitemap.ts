@@ -9,7 +9,7 @@ import { guides } from "../lib/data/guides";
 import { bankingGuides } from "../lib/data/banking";
 import { newsArticles } from "../lib/data/news";
 import { paymentMonths } from "../lib/data/paymentDates";
-import { loadAllContent } from "../lib/content-loader";
+import { loadAllContent, getLocalizedSlugs } from "../lib/content-loader";
 
 const baseUrl = process.env.APP_URL || "https://sassaiinfo.co.za";
 
@@ -59,6 +59,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: (p.classification === "news-article" ? "weekly" : "monthly") as "weekly" | "monthly",
       priority: p.slug === "/banking/black-card-swap" ? 0.9 : p.classification === "grant-detail" || p.classification === "status-meaning" ? 0.8 : 0.6,
     }));
+
+  const localizedPages = (["zu", "xh", "af"] as const).flatMap((locale) =>
+    getLocalizedSlugs(locale).map((slug) => {
+      const en = allContent.find((p) => p.slug === slug);
+      return {
+        url: `${baseUrl}/${locale}${slug}`,
+        lastModified: new Date(en?.lastUpdated || latestContentDate),
+        changeFrequency: (en?.classification === "news-article" ? "weekly" : "monthly") as "weekly" | "monthly",
+        priority: slug === "/banking/black-card-swap" ? 0.9 : en?.classification === "grant-detail" || en?.classification === "status-meaning" ? 0.8 : 0.6,
+      };
+    })
+  );
 
   const grantRoutes = grants.map((g) => ({
     url: `${baseUrl}/grants/${g.slug}`,
@@ -133,6 +145,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const allRoutes = [
     ...routes,
     ...jsonPages,
+    ...localizedPages,
     ...grantRoutes,
     ...statusRoutes,
     ...appealRoutes,

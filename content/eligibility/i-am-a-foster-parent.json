@@ -31,7 +31,7 @@
       "title": "Can Foster Parents Get SASSA Grants? Foster Child Grant Guide",
       "description": "Foster parents can receive R1,295 per month per child through the Foster Child Grant. Learn about the court order requirements, application process, and other grants available to foster parents.",
       "readingTime": "8 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Foster Child Grant Guide",
         "href": "/grants/foster-care-grant"
@@ -50,7 +50,13 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Foster parents in South Africa can apply for the Foster Child Grant, which is R1,295 per month per child. This grant is specifically for children placed in foster care through the children's court. Unlike other SASSA grants, the Foster Child Grant does not have an income means test for the foster parent."
+      "text": "Foster parents in South Africa can apply for the Foster Child Grant, which is R1,295 per month per child. This grant is specifically for children placed in foster care through the children's court. Unlike other SASSA grants, the Foster Child Grant does not have an income means test for the foster parent.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
     },
     {
       "id": "why",

@@ -4,7 +4,7 @@
   "classification": "how-to-guide",
   "title": "SASSA Reference Number: Where to Find It and How to Use It",
   "description": "Your SASSA reference number identifies your grant application, appeal, or payment record. Learn where to find it for SRD and permanent grants, how to use it, and how to recover it if you lose it.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA Reference Number: Where to Find It and How to Use It",
       "description": "A reference number is the key to every SASSA interaction — status checks, appeals, payment queries and office visits. Here is exactly where yours lives and what to do if you have lost it.",
       "readingTime": "7 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Your Grant Status",
         "href": "/guides/how-to-check-sassa-status"
@@ -49,7 +49,13 @@
     {
       "id": "what-p1",
       "type": "paragraph",
-      "text": "A SASSA reference number is a unique code assigned to your grant application, appeal submission, or payment record. It links all of your paperwork to you in the SASSA system, so that any official who assists you can pull up your exact file without confusion."
+      "text": "A SASSA reference number is a unique code assigned to your grant application, appeal submission, or payment record. It links all of your paperwork to you in the SASSA system, so that any official who assists you can pull up your exact file without confusion.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "what-p2",
@@ -203,7 +209,13 @@
     {
       "id": "srd-p",
       "type": "paragraph",
-      "text": "Permanent grant applications (Older Persons, Disability, Child Support and others) use a single application reference number from submission through approval. The SRD R370 grant instead assesses your eligibility separately each month under one grant ID — so when you check an SRD status, you are really checking twelve monthly decisions attached to one reference. If you appeal a declined SRD month, each appeal gets its own appeal reference number from ITSAA on top of your SRD grant ID."
+      "text": "Permanent grant applications (Older Persons, Disability, Child Support and others) use a single application reference number from submission through approval. The SRD R370 grant instead assesses your eligibility separately each month under one grant ID — so when you check an SRD status, you are really checking twelve monthly decisions attached to one reference. If you appeal a declined SRD month, each appeal gets its own appeal reference number from ITSAA on top of your SRD grant ID.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "faq-block",

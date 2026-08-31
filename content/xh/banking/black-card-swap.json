@@ -1,0 +1,288 @@
+{
+  "id": "banking-black-card-swap",
+  "slug": "/banking/black-card-swap",
+  "classification": "banking-guide",
+  "title": "Ukutshintshwa kweSASSA Black Card — Ijikilela yeGold Card Iphelile",
+  "description": "I-SASSA Gold Cards ayisasebenzi emva kwangomhla waMgqibelo we-31 August 2026. Imali yakho ikhuselekile — yithathe iPostbank Black Card yamahala kuShoprite, Checkers, Usave, Pick n Pay, Boxer okanye iSpar ngesazisi sakho kuphela. Biza *120*355# ukuze ufumane indawo yakho yokuthatha ecaleni.",
+  "lastUpdated": "2026-08-26",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official Postbank and SASSA communications",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Ukutshintshwa kweSASSA Black Card — Emva kweJikilela (2026)",
+    "metaDescription": "I-Gold Cards ayisasebenzi emva kwangomhla waMgqibelo we-31 August 2026. Imali yakho ikhuselekile — yithathe iPostbank Black Card yamahala ngesazisi sakho kuphela. Funda indlela apha.",
+    "keywords": [
+      "SASSA black card",
+      "Postbank black card",
+      "ijikilela yeGold card",
+      "ukutshintshwa kweSASSA gold card",
+      "black card 31 August 2026",
+      "ukutshintshwa kweSASSA card 2026",
+      "indawo yokuthatha iPostbank card"
+    ]
+  },
+  "sources": [
+    { "label": "Iwebhusayithi yeSASSA", "url": "https://www.sassa.gov.za" },
+    { "label": "Izitatimende zeSASSA", "url": "https://www.sassa.gov.za/Pages/Media-Statements.aspx" },
+    { "label": "UMmandla woNcedo lweNtlulo", "url": "https://www.dsd.gov.za" }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Tshintsha iSASSA Gold Card — Inkqubo yeBlack Card",
+      "description": "I-Postbank itshintshe yonke iSASSA Gold Card ngePostbank Black Card entsha. Ijikilela yokugqibela yayi-31 August 2026, kwaye iGold Cards ayisasebenzi emva kwaloo mhla. Ukuba awukazitshintsha, imali yeqanaba lakho ikhuselekile — yithathe iBlack Card yakho ngoku. Ukutshintsha kuyimahala, kuthatha imizuzu, kwaye kufuna isazisi sakho seNtla Mzantsi kuphela.",
+      "readingTime": "5 ngqesho ukufunda",
+      "lastUpdated": "2026-08-26",
+      "cta": {
+        "label": "Indlela yokuTshintsha — ngamnyathelo ngamnyathelo",
+        "href": "#how-to-swap"
+      },
+      "secondaryCta": {
+        "label": "Inkqubo yokuTshintshwa kweCard",
+        "href": "/banking/sassa-card-replacement"
+      }
+    },
+    {
+      "id": "warning-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "I-Gold Cards Ayisasebenzi Nkqwabo",
+      "text": "Ijikilela ye-31 August 2026 iphelile kwaye i-Postbank uqinisekise ukuba ayizukandulwa. I-Gold Cards ziyamiselwe — ukuba awukazitshintsha, awunakufikelela kumali yakho kude kube uthatha iBlack Card. Ungoyiki: imali yakho ihlala ikhuselekile kwiakhawunti yakho ye-Postbank kwaye ukutshintsha kuyo nayiphi na indawo yokuthatha kuyimahala."
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Kutheni Ufakele uTshintshise iGold Card yakho"
+    },
+    {
+      "id": "why-swap",
+      "type": "paragraph",
+      "text": "I-Postbank isusa iSASSA Gold Card endala kwaye itshintshe ngayo iPostbank Black Card entsha njengenxalenye yokuqhubekela phambili kwiziko yendlela yokukhokelwa kuluntu yombuso. I-Black Card isebenza kwi-ATM ezininzi, ixhasa iindlela zokukhokela ezingafuni unxibelelwano, kwaye ineempawu zokhuseleko ezilungisiweyo. Emva kwe-31 August 2026 iGold Cards endala ziya kumiswa."
+    },
+    {
+      "id": "how-to-swap",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Qoqa isazisi sakho",
+          "description": "Thathe ibhukhwe yakho yesazisi seNtla Mzantsi esebenzayo okanye ikhadi eliphilileyo. Isazisi sexesha elifutshane siyamkelwa. AWUDINGI iGold Card yakho endala ukuthatha entsha."
+        },
+        {
+          "title": "Fumana indawo yakho yokuthatha ecaleni",
+          "description": "Biza *120*355# kucingo lwakho lwendawo ukuze ufumane indawo yokuthatha ekufuphi, okanye ubize i-Postbank ku 0800 53 54 55. Unokuthatha kulo naliphi na irhasi, nokuba inqanaba lakho livunyelwe kwenye indawo."
+        },
+        {
+          "title": "Tyelela indawo yeNkonzo yePostbank okanye iretaili ehlanganyelayo",
+          "description": "Iikhadi ziyafumaneka kwiindawo zeNkonzo yePostbank ngaphakathi kweendawo ezikhethiweyo zeShoprite, Checkers, Usave, Pick n Pay, Boxer neSpar kwilizwe lonke."
+        },
+        {
+          "title": "Yithathe iBlack Card yakho",
+          "description": "Ukutshintsha kuyimahala ngokupheleleyo kwaye kuthatha imizuzu embalwa. Akukho fomu difunekayo kwaye akukho vula ifuneka — ikhadi lisebenza ngokuthe ngqo xa linikwe."
+        },
+        {
+          "title": "Khangela ibhalansi yakho ethunyelweyo",
+          "description": "Nayiphi na ibhalansi kwiGold Card yakho endala ithunyela ngokuzenzekelayo kwiBlack Card entsha. Ungayiphupha ikhadi endala ngaphambi kokuba uqinisekise ukuba ibhalansi yakho ihambile."
+        }
+      ]
+    },
+    {
+      "id": "free-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Ukutshintsha Kuyimahala",
+      "text": "I-SASSA ne-Postbank azizuku kufuna mali yokutshintshwa kweBlack Card. Ukuba umntu ukucela ukukhokela, ugcwalise ifomu, okanye unikeze i-PIN yakho okanye i-OTP ukuthatha ikhadi, usebenza noduni. IBlack Card yangempela inegama elithi 'Postbank' eliprintiweyo ngaphambili."
+    },
+    {
+      "id": "where-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ungaphi phi uThathe iBlack Card yakho"
+    },
+    {
+      "id": "where-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Iindawo zeNkonzo yePostbank ngaphakathi kweendawo ezikhethiweyo zeShoprite",
+        "Iindawo zeNkonzo yePostbank ngaphakathi kweendawo ezikhethiweyo zeCheckers neUsave",
+        "Iindawo zeNkonzo yePostbank ngaphakathi kweendawo ezikhethiweyo zePick n Pay neBoxer",
+        "Iindawo zeNkonzo yePostbank ngaphakathi kweendawo ezikhethiweyo zeSpar",
+        "Iindawo zePostbank ezizimeleyo kwilizwe lonke"
+      ]
+    },
+    {
+      "id": "ussd-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Fumana indawo yakho yokuthatha ecaleni",
+      "text": "Biza *120*355# kulo naliphi na icala lwendawo ukuze ufumane indawo yokuthatha ekufuphi yePostbank card. Inkonzo isebenza kuzo zonke iinkqubo ezinkulu zaseNtla Mzantsi. Unokubuya ubize iPostbank ku 0800 53 54 55."
+    },
+    {
+      "id": "scam-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Isilumkiso seBlack Card Scam"
+    },
+    {
+      "id": "scam-paragraph",
+      "type": "paragraph",
+      "text": "Abaduni bajolise kubamkeli ngexesha lokuguqulwa kwekhadi. Khumbula: iBlack Card yangempela ina ngalo uncedo igama elithi 'Postbank' eliprintiweyo ngaphambili. Ukuba ikhadi alithobi iPostbank, yiyohlembu. I-SASSA ne-Postbank azizukicela i-PIN yakho, i-OTP, okanye iphasiwodi ye-bhanki, kwaye akukho mntu unokukuxabisa ukutshintsha ikhadi yakho."
+    },
+    {
+      "id": "scam-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ukuba akubhalanga 'Postbank' ngaphambili, yiyohlembu",
+        "Akukho fomu difunekayo — ukuba ucelywe ukuyixhomeki nantoni na, ikhadi aliyonyaniso",
+        "Ukutshintsha kuyimahala — nabani na ongcokelayo imali yimbambiso",
+        "Musa ukwabelana nantoni na nge-PIN yakho, i-OTP, okanye iphasiwodi yebhanki",
+        "Bika iinkqubo kumgama woBubugqira beSASSA ku 0800 60 10 11 okanye kwi-Postbank ku 0800 53 54 55"
+      ]
+    },
+    {
+      "id": "usage-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukusebenzisa iBlack Card yakho yemihla ngemihla"
+    },
+    {
+      "id": "usage-paragraph",
+      "type": "paragraph",
+      "text": "I-Black Card isebenza kuyo nayiphi na i-ATM okanye indawo yokukhokela ethabatha iMastercard, kwaye unokuthatha imali yamahala kwiiretaili ezihlanganyelayo (Shoprite, Checkers, Pick n Pay, Boxer, Usave) ne-ATM zePostbank. Akukho mali yeeakhawunti zenyanga, kwaye ikhadi ixhasa iindlela zokukhokela ezingafuni unxibelelwano kwiiretaili ezamkelayo."
+    },
+    {
+      "id": "lost-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Ikhaledi ilahlekile okanye ebethwe?",
+      "text": "Yibike ngokuthe ngqo kuPostbank ku 0800 53 54 55 ukuze ikhadi ivalwe. Emva koko tyelela nayiphi na indawo yeNkonzo yePostbank ngesazisi sakho ukuthatha enye. Iindlela zakho zokukhokelwa ziqhubeka njengakwindla — imali ihlala kwiakhawunti yakho yePostbank ngelixa ulinde."
+    },
+    {
+      "id": "after-deadline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "IGold Card yam Iyekile ukuSebenza — Kufanele ndenzoni?"
+    },
+    {
+      "id": "after-deadline-p",
+      "type": "paragraph",
+      "text": "Ukuba iGold Card yakho ayisasebenzi emva kwangomhla waMgqibelo we-31 August 2026, oku kuyalindelwa kwaye akukho nto ingalunganga ngenqanaba lakho. Imali yakho ayilahlekanga — ihlala kwiakhawunti yakho yePostbank. Kufuneka uthathe iBlack Card yakho kuphela. Ukutshintsha kusafundeka ngokupheleleyo kwaye kusaxhathatha imizuzu kunye nayiphi na indawo yokuthatha, nokuba kunyulwe ijikilela."
+    },
+    {
+      "id": "after-deadline-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ungoyiki — imali yakho ikhuselekile",
+          "description": "Iindlela zakho zokukhokelwa kunye nayo nayiphi na ibhalansi kwi khadi yakho endala ihlala kwiakhawunti yakho yePostbank. Kuphela ikhadi ngokwayo iyamisiwe."
+        },
+        {
+          "title": "Fumana indawo yokuthatha",
+          "description": "Biza *120*355# kucingo lwakho lwendawo, okanye ubize iPostbank ku 0800 53 54 55, ukuze ufumane indawo yeNkonzo yePostbank okanye iretaili ehlanganyelayo ekufuphi."
+        },
+        {
+          "title": "Yithathe iBlack Card yakho ngesazisi sakho",
+          "description": "Tyelela indawo yokuthatha ngesazisi sakho seNtla Mzantsi (ibhukhwe okanye ikhadi eliphilileyo). Akukho khadi endala, akukho fomu, akukho mali. I-Black Card isebenza ngokuthe ngqo xa linikwe."
+        }
+      ]
+    },
+    {
+      "id": "after-deadline-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Isafundeka, Isakhawuleza — Emva kweJikilela",
+      "text": "Ukuphulwa kwejikilela akukuxabisi nto ngaphezulu, kwaye awunamnqwetywa okanye unyanzelwa. I-Postbank iqhubeka nokunika iBlack Cards emva kwe-31 August 2026. Into yodwa leyo kukuba iGold Card yakho endala ihlala imiselwe de uthathe ikhadi entsha."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibuzo ebuzwa qho"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ndiyeke ijikilela ye-31 August 2026. Ndingafumana iBlack Card?",
+          "answer": "Ewe. I-Postbank iqhubeka nokunika iBlack Cards emva kwejikilela. Imali yakho ikhuselekile kwiakhawunti yakho yePostbank — yithathe iBlack Card yakho ngesazisi yakho kuyo nayiphi na indawo yokuthatha kwayo iya kusebenza ngokuthe ngqo. Akukho mali okanye imnqwetywa yokutshintsha kamva."
+        },
+        {
+          "question": "IGold Card yam iyekile ukuSebenza. Imali yeqanaba lami iphambukile?",
+          "answer": "Hayi. Imali yakho ayilahlekanga kwaye inqanaba lakho alinakuthinteka. Ikhadi elimisiwe livimba ukufikelela — ibhalansi yakho neendlela zakho zokukhokelwa zihlala zikhuselekile kwiakhawunti yakho yePostbank de uthathe iBlack Card."
+        },
+        {
+          "question": "Kuxabisa na ukutshintshwa kweBlack Card?",
+          "answer": "Hayi. Ukwenzwa ngokutsha kuyimahala ngokupheleleyo. Akukho fomu, akukho mali, akukho vula ifuneka. Ukuba umntu ukucela ukukhokela ngokwesabiso, yiyohlembu."
+        },
+        {
+          "question": "Ndingadinga ukuzisa iGold Card yakho endala ukuyitshintsha?",
+          "answer": "Hayi. Kufuna isazisi sakho seNtla Mzantsi esebenzayo okanye isazisi sexesha elifutshane kuphela. Nayo nayiphi na ibhalansi kwiGold Card yakho endala ithunyela ngokuzenzekelayo kwiBlack Card entsha."
+        },
+        {
+          "question": "Ndingayithatha iBlack Card yakho kweyeleyo eyahlukileyo endaweni apho inqanaba lakho livunyelwe khona?",
+          "answer": "Ewe. Ikhadi livunyelwe kuyo nayiphi na indawo yeNkonzo yePostbank okanye iretaili ehlanganyelayo kwiliphi na irhasi, ngaphandle kokuba inqanaba lakho livunyelwe phi ngasekuqaleni."
+        },
+        {
+          "question": "Kuba ndiyilahle okanye ibethwe ngaphambi kokuyitshintsha?",
+          "answer": "Yibike kuPostbank ku 0800 53 54 55 ukuze ikhadi ivalwe, emva koko tyelela nayiphi na indawo yeNkonzo yePostbank ngesazisi sakho ukuthatha iBlack Card. Iindlela zakho zokukhokelwa ziqhubeka njengakwindla ngelixa ulungisa enye."
+        },
+        {
+          "question": "Ndiyifumana phi indawo yokuthatha yeBlack Card ekufuphi?",
+          "answer": "Biza *120*355# kucingo lwakho lwendawo ukuze ufumane indawo yokuthatha ekufuphi, okanye ubize iPostbank ku 0800 53 54 55. Ikhadi livunyelwe kwiindawo zeNkonzo yePostbank ngaphakathi kweendawo ezikhethiweyo zeShoprite, Checkers, Usave, Pick n Pay, Boxer neSpar."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Iindlela zokuKhokela iSASSA",
+          "href": "/banking/payment-methods",
+          "description": "Yonke indlela yokuthatha inqanaba lakho"
+        },
+        {
+          "title": "Inkqubo yokuTshintshwa kweCard",
+          "href": "/banking/sassa-card-replacement",
+          "description": "Ilahlekile, ebethwe, okanye yonakalisiwe"
+        },
+        {
+          "title": "Iindaba zanamhlanzi zeSASSA",
+          "href": "/news",
+          "description": "Iinkqubo zokukhokelwa kunye novuselelo lwenqanaba"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Iindlela zokuKhokela iSASSA",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Inkqubo yokuTshintshwa kweCard",
+      "slug": "/banking/sassa-card-replacement"
+    },
+    {
+      "title": "Iindaba zokuGuqulwa kweGold Card",
+      "slug": "/news/sassa-gold-card-to-black-card-migration"
+    },
+    {
+      "title": "Iindawo zeSASSA",
+      "slug": "/offices"
+    }
+  ]
+}

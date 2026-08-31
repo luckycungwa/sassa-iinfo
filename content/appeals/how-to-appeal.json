@@ -4,7 +4,7 @@
   "classification": "appeal-guide",
   "title": "How to Appeal a Declined SASSA Grant Application",
   "description": "Complete guide to appealing a declined SASSA grant through the Independent Tribunal for Social Assistance Appeals (ITSAA): every step for SRD and permanent grants, documents that win appeals, decline codes explained, timelines, and what to do after the ruling.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "How to Appeal a Declined SASSA Grant — ITSAA Appeal Guide 2026",
-    "metaDescription": "Step-by-step guide to appealing a declined SASSA grant: lodge your ITSAA appeal within 90 days, fix decline-code errors with the right documents, track progress, and get backpay if upheld.",
+    "metaTitle": "How to Appeal a SASSA Grant — Step-by-Step (2026)",
+    "metaDescription": "Learn how to appeal a declined SASSA grant in 2026 — lodge your free ITSAA appeal within 90 days and track it to a decision.",
     "keywords": [
       "SASSA appeal process",
       "how to appeal SASSA",
@@ -24,6 +24,20 @@
       "appeal SASSA decision"
     ]
   },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Department of Social Development",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "Independent Tribunal (ITSAA)",
+      "url": "https://itsaa.gov.za"
+    }
+  ],
   "contentBlocks": [
     {
       "id": "hero",
@@ -31,7 +45,7 @@
       "title": "How to Appeal a Declined SASSA Grant",
       "description": "If your SASSA grant application was declined, you have the legal right to challenge the decision through the Independent Tribunal for Social Assistance Appeals (ITSAA) — free of charge. Many declines are reversed because they were based on outdated database matches or missing documents. This guide shows you every step.",
       "readingTime": "10 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Submit an Appeal (SRD)",
         "href": "https://srd.dsd.gov.za"
@@ -50,12 +64,24 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Appeals are not handled by SASSA itself but by an independent body — the Independent Tribunal for Social Assistance Appeals (ITSAA) — to keep the process fair. The tribunal re-examines your case and can reverse SASSA's decision. Understanding why you were declined is half the battle: each decline reason requires different supporting evidence."
+      "text": "Appeals are not handled by SASSA itself but by an independent body — the Independent Tribunal for Social Assistance Appeals (ITSAA) — to keep the process fair. The tribunal re-examines your case and can reverse SASSA's decision. Understanding why you were declined is half the battle: each decline reason requires different supporting evidence.",
+      "links": [
+        {
+          "text": "Independent Tribunal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide covers both channels: online ITSAA appeals for the SRD R370 grant, and written or in-person appeals for permanent grants such as Disability and Child Support. If your appeal has already been dismissed, see our appeal outcomes page for escalation options."
+      "text": "This guide covers both channels: online ITSAA appeals for the SRD R370 grant, and written or in-person appeals for permanent grants such as Disability and Child Support. If your appeal has already been dismissed, see our appeal outcomes page for escalation options.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "deadline-callout",
@@ -334,7 +360,7 @@
         },
         {
           "title": "Status Meanings Explained",
-          "href": "/status",
+          "href": "/grants/srd-r370-grant/status-check",
           "description": "What each status actually means"
         }
       ]

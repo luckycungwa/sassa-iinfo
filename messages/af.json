@@ -1,0 +1,56 @@
+{
+  "Nav": {
+    "home": "Tuis",
+    "grants": "Toelae",
+    "paymentDates": "Betaaldatums",
+    "status": "Kyk Status",
+    "appeals": "Appèlle",
+    "tools": "Gereedskap",
+    "guides": "Gidse",
+    "about": "Oor",
+    "contact": "Kontak"
+  },
+  "Common": {
+    "search": "Soek",
+    "menu": "Spyskaart",
+    "close": "Sluit",
+    "backToHome": "Terug na Tuis",
+    "lastUpdated": "Laas opgedateer",
+    "readMore": "Lees meer",
+    "loading": "Laai…"
+  },
+  "Tools": {
+    "title": "Gereedskap",
+    "eligibilityEngine": "Kwalfikasie-enjin",
+    "eligibilityEngineDesc": "Vind elke toelaag waarvoor jy dalk kwalifiseer binne 60 sekondes.",
+    "meansTest": "Means-toets Rekenaar",
+    "meansTestDesc": "Kyk of jou inkomste vir 'n toelaag kwalifiseer.",
+    "calculate": "Bereken",
+    "checkEligibility": "Kyk kwalfikasie"
+  },
+  "Home": {
+    "heroTitle": "Suid-Afrika se duidelikste gids vir SASSA-toelae",
+    "heroSubtitle": "Onafhanklike, eenvoudige hulp met toelae, betalings, aansoeke en appèlle.",
+    "ctaPrimary": "Kyk jou kwalfikasie",
+    "ctaSecondary": "Blaai deur toelae"
+  },
+  "Footer": {
+    "disclaimer": "Hierdie is 'n onafhanklike inligtingsbron. Ons is nie geaffilieer met SASSA of die Suid-Afrikaanse regering nie.",
+    "privacy": "Privaatheid",
+    "terms": "Voorwaardes",
+    "disclaimerLink": "Vrywaring",
+    "editorial": "Redaksionele Beleid"
+  },
+  "NotFound": {
+    "title": "404",
+    "description": "Hierdie bladsy bestaan nie in ons inligtingsbron nie.",
+    "home": "Terug na Tuis"
+  },
+  "Language": {
+    "label": "Taal",
+    "en": "English",
+    "zu": "isiZulu",
+    "xh": "isiXhosa",
+    "af": "Afrikaans"
+  }
+}

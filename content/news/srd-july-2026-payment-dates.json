@@ -4,7 +4,7 @@
   "classification": "news-article",
   "title": "SRD R370 July 2026 Payments: Batch Schedule Confirmed",
   "description": "SASSA confirms SRD R370 payments for July 2026 will be processed from 23-24 July. Permanent grant dates also confirmed.",
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -31,7 +31,7 @@
       "title": "SRD R370 July 2026 Payments: Batch Schedule Confirmed",
       "description": "SASSA has confirmed the payment schedule for July 2026. SRD R370 payments will be processed from 23 to 24 July, slightly earlier than usual because the 25th falls on a Saturday.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-07-29"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "h1",
@@ -42,7 +42,13 @@
     {
       "id": "p1",
       "type": "paragraph",
-      "text": "SASSA has confirmed the payment schedule for July 2026. The SRD R370 grant payments will be processed from 23 to 24 July 2026. This is earlier than the usual 25th start because the 25th falls on a Saturday this month."
+      "text": "SASSA has confirmed the payment schedule for July 2026. The SRD R370 grant payments will be processed from 23 to 24 July 2026. This is earlier than the usual 25th start because the 25th falls on a Saturday this month.",
+      "links": [
+        {
+          "text": "payment schedule",
+          "href": "/payment-dates"
+        }
+      ]
     },
     {
       "id": "list1",

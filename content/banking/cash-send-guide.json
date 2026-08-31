@@ -4,7 +4,7 @@
   "classification": "banking-guide",
   "title": "SASSA Cash Send Guide — How to Collect Your Grant Without a Bank Account",
   "description": "Complete guide to SASSA Cash Send: how it works, which retailers accept it, step-by-step collection instructions, SMS voucher troubleshooting, and how to switch from bank transfer.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -32,7 +32,7 @@
       "title": "SASSA Cash Send Guide — How to Collect Your Grant Without a Bank Account",
       "description": "Cash Send lets you collect your SASSA grant in cash at major retailers like Pick n Pay, Shoprite, and Boxer — no bank account needed. Follow our step-by-step guide to understand how it works and how to switch from bank transfer.",
       "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Switch to Cash Send",
         "href": "/guides/how-to-change-payment-method"
@@ -56,7 +56,7 @@
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SASSA beneficiaries who do not have a bank account and prefer to collect their grant in cash at participating retailers."
+      "text": "If the closest bank branch is far away, or the bank simply would not open an account for you, Cash Send is the option most designed for your situation. You collect your money at the same supermarket where you already shop — no bank account, no card, no charge for the withdrawal. The only things that matter are your phone, your ID, and knowing when your voucher is ready."
     },
     {
       "id": "how-it-works-h",

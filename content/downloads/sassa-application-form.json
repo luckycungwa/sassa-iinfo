@@ -4,7 +4,7 @@
   "classification": "downloadable-form",
   "title": "SASSA Grant Application Form — Form 001",
   "description": "The official SASSA grant application form (Form 001) for all social grants including Child Support, Older Persons, Disability, Foster Care, and Care Dependency grants.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "5 min read",
   "status": "published",
@@ -35,7 +35,7 @@
       "title": "SASSA Grant Application Form — Form 001",
       "description": "Download the official SASSA grant application form (Form 001) and complete our step-by-step guide to submitting your application correctly the first time.",
       "readingTime": "5 min read",
-      "lastUpdated": "2026-07-27",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "View Filling Guide",
         "href": "#how-to-fill"
@@ -48,7 +48,25 @@
     {
       "id": "intro-paragraph",
       "type": "paragraph",
-      "text": "The SASSA Form 001 is the standard application form used for all social grant applications in South Africa. Whether you are applying for the Child Support Grant, Older Persons Grant, Disability Grant, Foster Care Grant, or Care Dependency Grant, you will need to complete this form. The form is available at any SASSA office or you can download it below."
+      "text": "The SASSA Form 001 is the standard application form used for all social grant applications in South Africa. Whether you are applying for the Child Support Grant, Older Persons Grant, Disability Grant, Foster Care Grant, or Care Dependency Grant, you will need to complete this form. The form is available at any SASSA office or you can download it below.",
+      "links": [
+        {
+          "text": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "text": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "text": "Foster Care Grant",
+          "href": "/grants/foster-care-grant"
+        },
+        {
+          "text": "Care Dependency Grant",
+          "href": "/grants/care-dependency-grant"
+        }
+      ]
     },
     {
       "id": "what-you-need-heading",

@@ -1,0 +1,218 @@
+{
+  "id": "guide-reconfirm-srd-grant",
+  "slug": "/guides/reconfirm-srd-grant",
+  "classification": "how-to-guide",
+  "title": "Ungahlanganisa Kanjani I-SRD R370 Grant Yakho",
+  "description": "Kungani i-SASSA icela abathengi be-SRD ukuthi bahlanganise izicelo zabo, izinyathelo zokuhlanganisa ezijwayelekile ku-srd.sassa.gov.za ne-WhatsApp, isikhathi sokugcina ukuze ungulahlekelwe inyanga yokukhokhelwa, nokwenzeka uma ungakwenzi.",
+  "lastUpdated": "2026-08-25",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Ungahlanganisa Kanjani I-SRD R370 Grant Yakho (2026 Ngezinyathelo)",
+    "metaDescription": "Hlanganisa isicelo sakho se-SRD R370: nini i-SASSA iyadinga, izinyathelo ze-portal ne-WhatsApp, izikhathi zokugcina zanyanga, nemiphumela yokungahlanganisi.",
+    "keywords": [
+      "hlanganisa i-srd grant",
+      "ukuhlanganisa i-srd r370",
+      "i-SASSA qinisekisa isicelo",
+      "ukuqinisekisa i-srd nyanga ngayinye"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ungahlanganisa Kanjani I-SRD R370 Grant Yakho",
+      "description": "I-SASSA icela abathengi njalo ukuthi baqinisekise ukuthi imininingwane yabo isacoleka ngaphambi kwenkathi yokukhokhelwa elandelayo. Uhlelo ukuthi ukudubula kunokubuyisa — lokhu ukuthi ungahlanganisa kanjani ngezinyathelo ezimbalwa.",
+      "readingTime": "imizuzu engu-6 yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Hlola Isimo Sakho",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "label": "Izinyathelo Zokungena ku-SRD Portal",
+        "href": "/banking/how-to-register-for-srd-portal"
+      }
+    },
+    {
+      "id": "why-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuthi ukuhlanganisa yini (noba nini kuba yizicelo)"
+    },
+    {
+      "id": "why-p1",
+      "type": "paragraph",
+      "text": "Ukuhlanganisa yini ukuthi i-SASSA ikucele ukuqinisekisa ukuthi imininingwane yakho, inombolo yocingo, nezimo zokufaneleka zingashintshanga ngemva kwemvume yakho yokugcina. Kuyaqalwa ukusuka ekuseshweni kwedatha ngesikhathi — ikakhulukazi ngemva kokuguquka kwezinqubomgomo noma uma ifayili lakho libe liphuzile ngesikhathi esithile."
+    },
+    {
+      "id": "why-p2",
+      "type": "paragraph",
+      "text": "Isicelo siyeza nge-SMS ezivamile ze-SASSA. Ngoba abakhiphi bezintambo balo mlo, qalisa njalo ngewebhusayithi esemthethweni kunokusebenzisa izihlanganisi zemiyalezo."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ungahlanganisa kanjani ngezinyathelo"
+    },
+    {
+      "id": "portal-steps",
+      "type": "steps",
+      "title": "Hlanganisa kuwewebhusayithi esemthethweni",
+      "steps": [
+        {
+          "title": "Vula ku-srd.sassa.gov.za",
+          "description": "Sebenzisa ifoni yakho noma eyedlela ethembekile. Iwethi isebza kunoma yisiphi isiphequluli sefoni."
+        },
+        {
+          "title": "Khetha 'Qinisekisa isicelo sakho' / ukhetho lokuhlanganisa",
+          "description": "Ivela ohlwini lwamasevisi ekhasini lokuqala uma isikhathi sokuqinisekisa sivuliwe."
+        },
+        {
+          "title": "Faka inombolo yakho ye-ID nenombolo yocingo",
+          "description": "Lezi zimali kufanele zihambisane nezokuthi i-SASSA ezinayo — bheka uhlobo lwethu lokushintsha inombolo uma lezi zihlukile."
+        },
+        {
+          "title": "Bheka Yonke Imibhalo",
+          "description": "Qinisekisa ukuthi usahlangabezana nezigaba zemali, awutholi imali ye-UIF/NSFAS, nokuthi imininingwane yakho isacoleka."
+        },
+        {
+          "title": "Thumela bese ugcina inombolo yokubhekelela",
+          "description": "Uthola i-SMS yoqinisekiso uma sekuqediwe — ngokuvamile kungakapheli izinsuku."
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-p",
+      "type": "paragraph",
+      "text": "Uthanda i-WhatsApp? Thumela ku-082 046 8553 uthi 'Hlanganisa'. Imenyu ikhombisa imibhalo efanayo usebenzisa inombolo yakho ye-ID. Isikhungo (0800 60 10 11) nalo singakusiza uma ungakwazi ukufinyelela kumadatha."
+    },
+    {
+      "id": "timing-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Izikhathi zokugcina: ungalahleli inyanga"
+    },
+    {
+      "id": "timing-p",
+      "type": "paragraph",
+      "text": "Isikhathi sokuhlanganisa sivala ngaphambi kokulandelayo kwemvume yenyanga. Uma i-SMS yakho inesikhathi sokugcina — ngokuvamile siyasondele ekupheleni kwenyanga — qeda ukuhlanganisa kamuva ngangokunokwenzeka ngaphambi kwaso. Izicelo ezingagcwali isikhathi azikhokhelwa enyanga leyo; ukuzigcwalisa kamuva kubuyisela izinyanga ezizayo kodwa kuvamise ukungabuyiseli eyedlule."
+    },
+    {
+      "id": "skip-callout",
+      "type": "callout",
+      "variant": "warning",
+      "title": "Okwenzeka uma ungahlanganisi",
+      "text": "Isimo sakho siyashintsha kube 'siphelelwe yisikhathi' noma 'singapheleli', izinkokhelo zima, futhi kungase kudingeke ubeke isicelo esisha esikhundleni sokusebenzisa nje ukuqinisekisa. Imizuzu embalwa yokuhlanganisa igcina inyanga yemali."
+    },
+    {
+      "id": "trouble-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uma ukuhlanganisa kungasebenzi noma kungamukela imininingwane yakho"
+    },
+    {
+      "id": "trouble-p1",
+      "type": "paragraph",
+      "text": "Izizathu ezivamile kakhulu yilezi: inombolo yocingo eshintshe, iphutha le-ID, noma ifayili elibonakaliswe ngokuhlola. Lungisa imininingwane yakho yokuxhumana kuqala, bese uzama futhi emva kwamahora angu-24. Ukuhluleka okuqhubekayo kusho ukuthi kukhona kufayili lakho okudinga ukunakwa ngumuntu — vakashela isikhungo ngasinye se-SASSA nekhadi le-ID eluhlaza noma i-smart card yakho."
+    },
+    {
+      "id": "trouble-p2",
+      "type": "paragraph",
+      "text": "Ungakhokhi muntu ophakathi ukulungisa ifayili ephelile. Wonke amakhono okubuyisela asebenza ngamadoda amahhala, futhi abaphathi ezikhungweni basebenza nezifayili eziphelile njalo."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ngiyihlanganisa kanjani i-SRD grant yami?",
+          "answer": "Yiya ku-srd.sassa.gov.za, khetha ukhetho lokuhlanganisa, fake i-ID ne-inombolo yocingo ebhalisiwe, bheka imibhalo yokufaneleka, bese uthumela. Ungasebenzisa ne-WhatsApp 082 046 8553 noma usho ku-0800 60 10 11."
+        },
+        {
+          "question": "Kungani i-SASSA icela ukuthi ngihlanganise ngesikhathi esithile?",
+          "answer": "Ukuhlola ngesikhathi kusho ukuthi izimo zakho zingashintshanga futhi imininingwane yakho yokuxhumana isasebenza. Lokhu yindlela i-grant eqhubeka ngayo ngaphandle kokuvakashela ezikhungweni minyaka yonke bonke abantu."
+        },
+        {
+          "question": "Ngilahlekelwe isikhathi sokugcina. Ngiyakuthola yini inyanga leyo?",
+          "answer": "Ngokuvamile cha — izikhathi ezilahlekile azivamisi ukubuyiselwa. Qeda ukuhlanganisa manje noma kunjalo ukuze izinyanga ezizayo ziyaqhubeka, bese ukhala kuphela uma i-SMS yakho ikhombisa ukuthi isaziso sakho asifikanga."
+        },
+        {
+          "question": "Ukuhlanganisa yini okufanayo nokukhala kwanyanga eyaliwe?",
+          "answer": "Cha. Ukuhlanganisa kugcina isicelo esamukelwe siphilile. Ukukhala kuhlolisa inyanga ethile eyaliwe ngokumelene ne-trabho eyinhloko — inqubo eyodwa enesikhathi sayo."
+        },
+        {
+          "question": "Isimo sami sithi 'siphelelwe yisikhathi'. Ingabe ukuhlanganisa kwanele ukulungisa?",
+          "answer": "Uma ukuphela bekusanda kwenzeka futhi kungenxa yokubulala ukuqinisekisa, ukuhlanganisa ngokuvamile kubuyisela ifayili. Izifayili eziphelile kade zidinga isicelo esisha — hlola ikhasi lesimo lakho ukuze ubone yini ehambelana."
+        },
+        {
+          "question": "Ukuhlanganisa kuhamba nangamali?",
+          "answer": "Cha. Noma yimuphi umuntu noma iwebhusayithi ethola imali yokuhlanganisa iyakhipha ubugebengu. Sebenzisa ku-srd.sassa.gov.za kuphela, i-WhatsApp line, isikhungo, noma izikhungo eziphakanyisiwe."
+        }
+      ],
+      "title": "Imibuzo Evamile"
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Izithombo nokukhawulela",
+      "sources": [
+        {
+          "label": "I-SRD R370 portal esemthethweni — inkonzo yoqinisekiso",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "I-SASSA i-WhatsApp yokusebenza ngokwakho 082 046 8553",
+          "url": "https://wa.me/27820468553"
+        }
+      ],
+      "note": "Iqinisekisiwe ngokumelene nezindlela ze-SASSA ezisemthethweni ngo-August 2026. Izikhathi zokuhlanganisa nezikhathi zokugcina zilandela indlela ye-SASSA yamanje."
+    },
+    {
+      "id": "related-pages-4t1zxk",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Uhlobo Lwezinkombi",
+          "href": "/guides"
+        },
+        {
+          "title": "Zonke Izingodo ze-SASSA",
+          "href": "/grants"
+        },
+        {
+          "title": "Ukukhathazeka kwe-SASSA",
+          "href": "/appeals"
+        },
+        {
+          "title": "Izinsuku Zokukhokhelwa ze-SASSA",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Amathuluzi e-SASSA",
+          "href": "/tools"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Shintsha Inombolo Yakho ye-SASSA",
+      "slug": "/guides/change-srd-phone-number"
+    },
+    {
+      "title": "Khansela Isicelo Sakho se-SRD",
+      "slug": "/guides/cancel-srd-application"
+    },
+    {
+      "title": "Ukukhathazeka Kwe-SRD Ngemva Kokwaliwa",
+      "slug": "/appeals/how-to-appeal"
+    }
+  ]
+}

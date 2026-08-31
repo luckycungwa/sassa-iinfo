@@ -5,7 +5,7 @@
   "title": "SASSA Payment Methods — Bank Transfer, Cash Send, Post Office, and Mobile Pay Points",
   "description": "Complete guide to all SASSA payment methods: bank EFT, Cash Send retail collection, Post Office collection, and mobile pay points for rural areas. How each method works and how to choose.",
   "readingTime": "5 min read",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.1.0",
   "status": "published",
   "author": {
@@ -32,7 +32,7 @@
       "title": "SASSA Payment Methods — How You Get Paid",
       "description": "Four ways to receive your grant. No bank account? No problem. Compare bank EFT, Cash Send retail collection, Post Office, and mobile pay points side by side.",
       "readingTime": "5 min read",
-      "lastUpdated": "2026-07-01",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Switch Your Method",
         "href": "/banking/update-bank-details"
@@ -200,7 +200,13 @@
     {
       "id": "switch-intro",
       "type": "paragraph",
-      "text": "You can switch between payment methods at any time. The process depends on whether you are an SRD grant beneficiary or a mainstream grant beneficiary."
+      "text": "You can switch between payment methods at any time. The process depends on whether you are an SRD grant beneficiary or a mainstream grant beneficiary.",
+      "links": [
+        {
+          "text": "SRD grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "switch-srd-h",
@@ -243,7 +249,21 @@
     {
       "id": "switch-other-text",
       "type": "paragraph",
-      "text": "If you receive a mainstream grant (Older Person Grant, Disability Grant, Child Support Grant, etc.), visit your nearest SASSA office to change your payment method. Bring your ID book and proof of your new bank account (if switching to EFT). The change takes effect from the next payment cycle."
+      "text": "If you receive a mainstream grant (Older Person Grant, Disability Grant, Child Support Grant, etc.), visit your nearest SASSA office to change your payment method. Bring your ID book and proof of your new bank account (if switching to EFT). The change takes effect from the next payment cycle.",
+      "links": [
+        {
+          "text": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "text": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "text": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     },
     {
       "id": "faq-h",

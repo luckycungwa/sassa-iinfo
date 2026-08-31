@@ -1,0 +1,159 @@
+{
+  "id": "banking-update-bank-details",
+  "slug": "/banking/update-bank-details",
+  "classification": "banking-guide",
+  "title": "Ungashintsha Kanjani Imininingwane Yebhange ye-SASSA — Guqula I-Akhawunti Ngokukhokhelwa Kwe-Grant",
+  "description": "Umhlahlandlela ngezinyathelo zokuguqula i-akhawunti yebhange yezinkokhelo ze-grant ye-SASSA: ku-inthanethi nge-SRD portal noma ubhekisise esikhungweni se-SASSA. Izidingo, isikhathi sokucubungula, nezexwayiso ezibalulekile.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Vuselela Imininingwane Yebhange ye-SASSA — Ngezinyathelo (2026)",
+    "metaDescription": "Vuselela imininingwane yakho yebhange ye-SASSA ngo-2026 ku-inthanethi nge-SRD portal noma esikhungweni. Landela umhlahlandlela wethu ngezinyathelo ukuze ushintshe ama-akhawunti.",
+    "keywords": [
+      "vuselela imininingwane yebhange ye-SASSA",
+      "shintsha i-akhawunti yebhange ye-SASSA",
+      "SASSA shintsha indlela yokukhokhelwa",
+      "SASSA vuselela inombolo ye-akhawunti",
+      "ifomu lokushintsha ibhange le-SASSA"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ungashintsha Kanjani Imininingwane Yebhange ye-SASSA — Guqula I-Akhawunti Ngokukhokhelwa Kwe-Grant",
+      "description": "Udinga ukushintsha i-akhawunti yebhange lapho i-grant yakho ye-SASSA iyistholwa khona? Funda ukuthi ungavuselela kanjani imininingwane yakho ku-inthanethi nge-SRD portal noma ubhekisise esikhungweni se-SASSA, nokuthi ulindele ini ngesikhathi sokuqinisekiswa kwebhange.",
+      "readingTime": "imizuzu engu-4 yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Yiya ku-SRD Portal",
+        "href": "/banking/how-to-register-for-srd-portal"
+      },
+      "secondaryCta": {
+        "label": "Inqubo Yokuqinisekisa Ibhange",
+        "href": "/banking/bank-verification-process"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Ungashintsha Kanjani Imininingwane Yebhange ye-SASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Uma udinga ukushintsha i-akhawunti yebhange lapho i-grant yakho ye-SASSA ikhokhelwa khona, ungakwenza ku-inthanethi nge-SRD portal noma ubhekisise esikhungweni se-SASSA. I-akhawunti entsha kufanele ibhaliswe egameni lakho.",
+      "links": [
+        {
+          "text": "i-SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Uma ushintshe amabhange, uvale i-akhawunti endala, noma wenze iphutha lokubhala sikhathi esidlule, usesendaweni efanele. Lokhu kunye kwemisebenzi emincane yokuphatha izikhathi lapho umuzwa uyifa, kodwa ngempela ikubalulekile — imininingwane yebhange engalungile iyizona ezinombono eyodwa yezinkokhelo ze-grant zithela ekuyiphikisweni."
+    },
+    {
+      "id": "name-rule",
+      "type": "callout",
+      "intent": "warning",
+      "title": "I-akhawunti KUFANELE ibe yeyakho",
+      "text": "I-SASSA ikhokha kuphela ku-akhawunti egameni lomfaki isicelo. Awunakusebenzisa i-akhawunti yesihlobo noma yomngani — ngisho nangemvume yabo. Uma ungenayo i-akhawunti yakho, sebenzisa i-Cash Send noma ikhadi le-SASSA esikhundleni sokuthi ulegise izinkokhelo ezinqunywayo."
+    },
+    {
+      "id": "online-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 1: Vuselela Ku-inthanethi (Iphakanyisiwe)"
+    },
+    {
+      "id": "online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ngena ku-SRD portal",
+          "description": "Yiya ku-srd.sassa.gov.za. Faka inombolo yakho ye-ID nenombolo yocingo. Qinisekisa nge-OTP ethunyelwe kucingo."
+        },
+        {
+          "title": "Yiya ku-'Vuselela Imininingwane Yebhange'",
+          "description": "Thola isigaba semininingwane yebhange kudashboard yakho."
+        },
+        {
+          "title": "Faka imininingwane yakho entsha yebhange",
+          "description": "Nika igama lebhange lakho entsha, inombolo ye-akhawunti, ikhodi yegatsha, nohlobo lwe-akhawunti (Ukulondolozwa, I-Cheque, noma Ukudluliswa)."
+        },
+        {
+          "title": "Qinisekisa imininingwane",
+          "description": "Bheka izinombolo zonke ze-akhawunti nekhodi yegatsha. Inombolo eyodwa engalungile ibambezela izinkokhelo zakho."
+        },
+        {
+          "title": "Thumela bese ulindela ukuqinisekiswa",
+          "description": "I-SASSA izoqinisekisa i-akhawunti entsha nebhangeni lakho. Lokhu kuthatha izinsuku ezi-5 kuya kwezi-10 zokusebenza."
+        }
+      ]
+    },
+    {
+      "id": "office-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 2: Vuselela Esikhungweni se-SASSA"
+    },
+    {
+      "id": "office-text",
+      "type": "paragraph",
+      "text": "Uma ungakwazi ukufinyelela ku-portal ku-inthanethi, vakashela isikhungo se-SASSA esisedu kunakho konke ne-ID yakho nesishozo sebhange noma incwadi yebhange eqinisekisa i-akhawunti entsha. Gcwalisa iForm Yomvume Ye-SASSA Yokukhokhelwa Ebhange bese umhloli we-SASSA ucubungula ushintsho."
+    },
+    {
+      "id": "important-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Imitherho Ebalulekile",
+      "text": "I-akhawunti yebhange kufanele ibe egameni lakho. I-SASSA ngeke ikhokhe izingodo kuma-akhawunti abantu besithathu. Ukuqinisekiswa kwebhange kuthatha izinsuku ezi-5-10 zokusebenza. Ungavali i-akhawunti yakho endala kuze kube isikhokhelo sokuqala sifika ku-akhawunti entsha."
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Kuthatha isikhathi esingakanani ukuvuselelwa kwemininingwane yebhange?",
+          "answer": "Ukuqinisekiswa kwebhange kuthatha izinsuku ezi-5 kuya kwezi-10 zokusebenza. Uma sekuqinisekisiwe, i-akhawunti entsha isetshenziselwa ukukhokhelwa kwenyanga elandelayo."
+        },
+        {
+          "question": "Ngiyakwazi ukuvuselela imininingwane yami yebhange uma ngilahlekelwe ukufinyelela enombolweni yami yocingo?",
+          "answer": "Cha. Kufanele uvakashele isikhungo se-SASSA ne-ID yakho ukuze uvuselele inombolo yocingo kuqala, bese usebenzisa i-portal ku-inthanethi."
+        },
+        {
+          "question": "Ukushintsha imininingwane yami yebhange kuzothinta yini isikhokhelwa senyanga yamanje?",
+          "answer": "Uma ushintsha imininingwane yakho ngemva kwama-20th enyanga, ushintsho luzosebenza kusukela enyangeni elandelayo. Ungashintshi imininingwane ngesikhathi isikhokhelwa sicubungula."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Izindlela Zokukhokhelwa ze-SASSA",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Inqubo Yokuqinisekisa Ibhange",
+      "slug": "/banking/bank-verification-process"
+    },
+    {
+      "title": "Inkholwa Engabonakali",
+      "slug": "/banking/payment-not-reflecting"
+    },
+    {
+      "title": "Ungabhalisa Kanjani Ku-SRD Portal",
+      "slug": "/banking/how-to-register-for-srd-portal"
+    }
+  ]
+}

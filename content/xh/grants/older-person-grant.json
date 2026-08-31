@@ -1,0 +1,833 @@
+{
+  "id": "grant-older-person",
+  "slug": "/grants/older-person-grant",
+  "classification": "grant-detail",
+  "title": "Isibonelelo saBantu abaDala (IPenshini Karhulumente)",
+  "description": "Isibonelelo seSASSA saBantu abaDala sibonelela ngengeniso yanyanga kwabantu baseMzantsi Afrika abaneminyaka engama-60 nangaphezulu abahlangabezana neemfuno zovavanyo lwengeniso.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "readingTime": "10 imizuzu yokufunda",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Isibonelelo saBantu abaDala — R2,400/Ngenyanga & Indlela Yokufaka Isicelo (2026)",
+    "metaDescription": "Isibonelelo saBantu abaDala sihlawula i-R2,400/ngenyanga ngo-2026. Jonga ukuba uyafaneleka na, hlola uvavanyo lwengeniso, kwaye ulandele isikhokelo sethu seenyathelo ngenyathelo sokufaka isicelo sepenshini yeSASSA.",
+    "keywords": [
+      "isibonelelo sabantu abadala",
+      "ipenshini yaseMzantsi Afrika",
+      "ipenshini yeSASSA",
+      "isibonelelo sobudala"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Older Person Grant"
+    }
+  },
+  "sources": [
+    {
+      "label": "Iwebhusayithi Esemthethweni YeSASSA",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "ISebe Lezentlalo Nophuhliso",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "UPhononongo LweBhajethi KaNondyebo Yesizwe 2026",
+      "url": "https://www.treasury.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Isibonelelo saBantu abaDala (IPenshini Karhulumente)",
+      "description": "Isikhokelo esipheleleyo kwiSibonelelo saBantu abaDala seSASSA: i-R2,400 ngenyanga, iindlela ezisebenzayo zokufaneleka, amaxwebhu afunekayo, amanyathelo okufaka isicelo, kunye nezibheno kubantu abadala abaneminyaka yama-60 nangaphezulu.",
+      "readingTime": "10 imizuzu yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Jonga Ukufaneleka",
+        "href": "/eligibility/i-am-over-60"
+      },
+      "secondaryCta": {
+        "label": "Indlela Yokufaka Isicelo",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R2,400",
+      "frequency": "Ngenyanga (kunye ne-R20 eyongezelelweyo kubantu abakwiminyaka yama-75 nangaphezulu)",
+      "targetGroup": "Abemi baseMzantsi Afrika okanye abahlali abasisigxina abaneminyaka ema-60 nangaphezulu."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Isibonelelo seSASSA saBantu abaDala (esihlala sibizwa ngokuba yipenshini karhulumente) yenzelwe ukunika ukhuseleko lwezemali kubantu abadala baseMzantsi Afrika abangasasebenziyo nabangenawo amalungiselelo aneleyo omhlalaphantsi."
+    },
+    {
+      "id": "eligibility-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Iindlela Zokufaneleka"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Kufuneka ube ngummi waseMzantsi Afrika, umhlali osisigxina, okanye imbaleki (refugee).",
+        "Kufuneka ube neminyaka engama-60 nangaphezulu.",
+        "Kufuneka ungahlali kwiziko elixhaswa ngurhulumente (umzekelo, ikhaya lezalisa eliphantsi korhulumente).",
+        "Kufuneka ungafumani esinye isibonelelo sentlalo ngenxa yakho ngokwakho kuqala.",
+        "Uvavanyo Lwengeniso (Isingxanyi): Ingeniso yonyaka kufuneka ibe ngaphantsi kwe-R112,200; iimpahla kufuneka zibe ngaphantsi kwe-R1,584,000.",
+        "Uvavanyo Lwengeniso (Umtshatileyo): Ingeniso yonyaka edityanisiweyo kufuneka ibe ngaphantsi kwe-R224,400; iimpahla ezidityanisiweyo kufuneka zibe ngaphantsi kwe-R3,168,000."
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Amaxwebhu Afunekayo"
+    },
+    {
+      "id": "docs-list",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "IKhadi le-Smart ID elinemigca ye-13 elineebhakhowudi okanye incwadi eluhlaza yesazisi",
+          "required": true
+        },
+        {
+          "label": "Ubungqina besimo somtshato (isatifiketi somtshato, umyalelo woqhawulo-mtshato, okanye isatifiketi sokufa)",
+          "required": true
+        },
+        {
+          "label": "Ubungqina bokuqashisa endaweni (ibhili yasekusini okanye ileta evela kwinkosi yasekuhlaleni)",
+          "required": true
+        },
+        {
+          "label": "Ubungqina bengeniso neempahla (iinkcazo-mali zebhanki zeenyanga ezintathu ezidlulileyo, amalupha epeni nsini)",
+          "required": true
+        },
+        {
+          "label": "Ukuba awusebenzi, isibhengezo esifungelweyo esiqinisekisa ukungasebenzi",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela Yokufaka Isicelo"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ngenela iofisi yakho yeSASSA ekufutshane",
+          "description": "Thatha onke amaxwebhu oqobo kunye neekopi kwiiofisi zakwaSASSA ezikufutshane nawe."
+        },
+        {
+          "title": "Gqibezela ifom yesicelo",
+          "description": "Gcwalisa ifom yesicelo phambi kwegosa leSASSA."
+        },
+        {
+          "title": "Zimase udliwanondlebe",
+          "description": "Kuza kwenziwa udliwanondlebe, kuthathwe iminwe yakho, kwaye kukhutshwe irisithi."
+        },
+        {
+          "title": "Linda ukuqhutywa kwesicelo",
+          "description": "Izicelo zithatha ukuya kwiinyanga ezi-3 ukuba ziqhutywe, kwaye iintlawulo zibuyiselwa emva ukuya kumhla wofaka isicelo."
+        }
+      ]
+    },
+    {
+      "id": "appeal-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ulwazi Ngesibheno"
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Ifestile Yesibheno Yeentsuku Ezingama-90",
+      "text": "Ukuba isibonelelo saBantu abaDala siyaliwe, unazo iintsuku ezingama-90 ukususela kumhla owafumana ngayo isaziso sokufaka isibheno kuMphathiswa Wezentlalo Nophuhliso."
+    },
+    {
+      "id": "deepdive-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukufaneleka Okunzulu: Ngubani Ofanelekayo Ngo-2026"
+    },
+    {
+      "id": "deepdive-eligibility-p1",
+      "type": "paragraph",
+      "text": "Ngaphaya kwemithetho esisiseko yobudala noVavanyo Lwengeniso, iSASSA isebenzisa iimeko ezininzi zokufaneleka kwiSibonelelo saBantu abaDala. Ukuqonda ngakunye kwazo kwangaphambili kukonga uhambo olungeyomfuneko ukuya eofisini kwaye kukunceda uthathe isigqibo sokuba uza kufaka isicelo okanye uxhase umzali, utatomkhulu, okanye isihlobo sakho esigugileyo kufaka isicelo."
+    },
+    {
+      "id": "deepdive-eligibility-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ubudala: Kufuneka ube neminyaka engama-60 nangaphezulu kumhla wofaka isicelo. Isixa-mali esiphezulu se-R2,420 sisebenza ukususela kumhla wokuzalwa wakho wama-75.",
+        "Ubuwele okanye imeko: Kufuneka ube ngummi waseMzantsi Afrika, umhlali osisigxina, okanye imbaleki ebonakalayo ehlala eMzantsi Afrika.",
+        "Ukuhlala: Kufuneka uhlale eMzantsi Afrika ngexesha lofaka isicelo kwaye ujonge ukuhlala apha. Isibonelelo asihlawulwa kubantu baseMzantsi Afrika abafudukele phesheya kweelwandle ngokusisigxina.",
+        "Ukungahlali kwiziko likarhulumente: Awunakulifumana isibonelelo ukuba ugcinwa ngokupheleleyo kwiziko elixhaswa ngurhulumente njengekhaya lezalisa likarhulumente, intolongo, okanye iziko lezengqondo likarhulumente.",
+        "Akukho sibonelelo somntu esiphambeneyo: Awunakulifumana isibonelelo saBantu abaDala kwangelo xesha linye nesinye isibonelelo sentlalo esihlawulelwa ukuxhasa wena, umzekelo iDisability Grant. Isibonelelo esihlawulelwa omnye umntu okhathalela yena, njengeChild Support Grant kumzukulwana, sahlukile kwaye sivumelekile.",
+        "Isibonelelo esinye kuphela: Ungabamba isibonelelo saBantu abaDala esinye kuphela egameni lakho."
+      ]
+    },
+    {
+      "id": "deepdive-residency-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Ukuhamba Okanye Ukuhlala Phesheya Okwethutyana",
+      "text": "Ukuba ushiya uMzantsi Afrika ixesha elide, iSASSA isenokuyimisa intlawulo. Iholide ezimfutshane ngokuqhelekileyo zilungile, kodwa kufuneka uxele iofisi yakho yasekuhlaleni ukuba uceba ukuhlala kude iinyanga ezininzi ukuze iintlawulo zakho zingayekiswa ngenqubulongazi."
+    },
+    {
+      "id": "meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uvavanyo Lwengeniso Luchaziwe"
+    },
+    {
+      "id": "meanstest-p1",
+      "type": "paragraph",
+      "text": "Uvavanyo lwengeniso yindlela iSASSA eqinisekisa ngayo ukuba isibonelelo sifikelela kubantu abaludingayo ngokwenene. Ujonga zombini ingeniso yakho neempahla zakho. Ukuba ingeniso yakho ingaphantsi komda, ufumana isibonelelo esipheleleyo. Ukuba ingaphezulu, isibonelelo siyancitshiswa ngokwesikali esihlalayo kunokuba siyekwe ngokuzenzekelayo. Oku kuthetha ukuba abantu abadala abaninzi abanepen sini encinci, ingeniso yokurenta, okanye umvuzo wexeshana basafaneleka kwiqeshana."
+    },
+    {
+      "id": "meanstest-table",
+      "type": "table",
+      "headers": [
+        "Imeko",
+        "Umda wengeniso kwisibonelelo esipheleleyo",
+        "Ingeniso apho isibonelelo sifikelela phi ku-zero",
+        "Umda weempahla (ikhaya eliphambili alibalwa)"
+      ],
+      "rows": [
+        [
+          "Umfaki-sicelo ongasatshatanga",
+          "~R112,200/ngonyaka (malunga ne-R9,350/ngenyanga)",
+          "~R117,000/ngonyaka",
+          "~R1,584,000"
+        ],
+        [
+          "Isibini esitshatileyo (sidityanisiwe)",
+          "~R224,400/ngonyaka (malunga ne-R18,700/ngenyanga)",
+          "~R229,200/ngonyaka",
+          "~R3,168,000"
+        ]
+      ],
+      "caption": "Imida yovavanyo lwengeniso lweSibonelelo saBantu abaDala ngo-2026"
+    },
+    {
+      "id": "meanstest-p2",
+      "type": "paragraph",
+      "text": "Isibonelelo sincitshiswa malunga ne-R1 kwiyi-R2 nganye yengeniso engaphezu komda wesibonelelo esipheleleyo. Kwisibini esitshatileyo, iSASSA idibanisa ingeniso neempahla zabo bobabini abatshatileyo nokuba luhlobo luni na lomtshato, kuquka imitshato yesintu neyaphandle koluntu. Ikhaya lakho eliphambili alibalwa njengeempahla."
+    },
+    {
+      "id": "meanstest-examples",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Umzekelo 1 (ongatshatanga): Thandi uneminyaka engama-68 kwaye ufumana i-R9,450/ngenyanga (i-R113,400/ngonyaka), malunga ne-R1,200 ngaphezu komda. Isibonelelo sakhe sincitshiswa malunga ne-R600, ngoko ufumana malunga ne-R1,800/ngenyanga endaweni ye-R2,400 epheleleyo.",
+        "Umzekelo 2 (ongatshatanga): Sipho uneminyaka engama-72 kwaye akana nto ingeniso. Ufumana i-R2,400/ngenyanga epheleleyo.",
+        "Umzekelo 3 (umtshatileyo): Isibini esinengeniso edityanisiweyo ye-R19,700/ngenyanga (i-R236,400/ngonyaka) singaphezu kwenqanaba le-zero, ngoko akukho namnye kubo ofumana isibonelelo.",
+        "Umzekelo 4 (umtshatileyo): Isibini esinengeniso edityanisiweyo ye-R18,900/ngenyanga (i-R226,800/ngonyaka) singe-R2,400 ngaphezu komda opheleleyo, ngoko isibonelelo somlingane ngamnye sincitshiswa malunga ne-R1,200 ukuya kwi-R1,200/ngenyanga."
+      ]
+    },
+    {
+      "id": "meanstest-home-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Ikhaya Lakho Alibalwa",
+      "text": "Umda weempahla awubandakanyi ixabiso lendlu yakho ephambili. Ifenitshala, imoto, imali eyongeziweyo, kunye negunya lokuthenga (property) zinokubalwa, kodwa indlu ohlala kuyo ikhuselwe."
+    },
+    {
+      "id": "apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokufaka Isicelo: Kwi-Intanethi Okanye Eofisini YeSASSA"
+    },
+    {
+      "id": "apply-p1",
+      "type": "paragraph",
+      "text": "Ungasifaka isicelo seSibonelelo saBantu abaDala ngeendlela ezimbini: kwi-intanethi ngeportal yeenkonzo zeSASSA, okanye ngokuzimasa kwiiofisi zeSASSA ezikufutshane nawe. Indlela ye-intanethi ilula ukuba ukhululekile ukusebenzisa ifowuni okanye ikhompyutha kwaye ungagcina amaxwebhu akho njengeefayile okanye iifoto."
+    },
+    {
+      "id": "apply-online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Yiya kwi-portal yenkonzo zeSASSA",
+          "description": "Ngena kwi-services.sassa.gov.za kwaye ubhalise okanye ungene ngenombolo yakho yesazisi kunye nephasiwedi."
+        },
+        {
+          "title": "Qalisa isicelo esitsha seSibonelelo saBantu abaDala",
+          "description": "Khetha isibonelelo saBantu abaDala kwaye ugqibezele ifom yakho kwi-intanethi ngeenkcukacha zakho zobuqu, zezemali, nezebhanki."
+        },
+        {
+          "title": "Faka amaxwebhu akho",
+          "description": "Faka iifoto ezicacileyo okanye iiskheni zesazisi sakho, ubungqina bokuhlala, ubungqina bengeniso okanye impahla, kunye neenkcukacha zebhanki."
+        },
+        {
+          "title": "Ngenisa kwaye ugcine inombolo yakho yesalathiso",
+          "description": "Ngenisa ifom kwaye ugcine isalathiso sokuqinisekisa. ISASSA iya kuqhagamshelana nawe ngomphumo."
+        }
+      ]
+    },
+    {
+      "id": "apply-office-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ngenela iofisi yakho yeSASSA ekufutshane",
+          "description": "Thatha amaxwebhu akho oqobo kunye neekopi. Igosa liya kukunceda ugcwalise ifom."
+        },
+        {
+          "title": "Zimasa udliwanondlebe kwaye unike iinkcukacha zebhayometriki",
+          "description": "Iminwe yakho kunye nefoto zayithathiwe kwaye kuqhuba udliwanondlebe."
+        },
+        {
+          "title": "Gcina irisithi yakho",
+          "description": "Ufumana irisithi enesitampu eqinisekisa umhla owafaka ngayo isicelo. Iintlawulo zibuyiselwa emva kulo mhla ukuba uvunyiwe."
+        },
+        {
+          "title": "Linda isigqibo",
+          "description": "Uninzi lwezicelo luqhutywa kwisithuba esimalunga neenyanga ezintathu. Ungajonga imeko yakho kwi-intanethi okanye eofisini."
+        }
+      ]
+    },
+    {
+      "id": "apply-authorisation-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Umntu Uyasifaka Isicelo Egameni Lakho",
+      "text": "Ukuba umdala kakhulu okanye ugula kangangokuba ungenakuhamba, ilungu losapho okanye umntu othembekileyo ungasifaka isicelo egameni lakho ngeleta yogunyaziso okanye ngamandla okuvuma. ISASSA isenako kwakhona ukulungiselela utyelelo lwasekhaya okanye uvavanyo kwezinye iimeko."
+    },{
+      "id": "documents-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uluhlu Lokujonga Amaxwebhu Afunekayo"
+    },
+    {
+      "id": "documents-checklist",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "IKhadi le-Smart ID linamacala ase-13/okanye incwadi eluhlaza yesazisi, okanye ubungqina obusebenzayo bokuba ungumbaleki/umhlali osisigxina",
+          "required": true,
+          "notes": "Isazisi sexeshana ngokuqhelekileyo asamkelwa kwisicelo."
+        },
+        {
+          "label": "Ubungqina bengeniso (i-latest payslip, irisithi yepen sini, okanye isibhengezo kwabangenanto ingeniso)",
+          "required": true,
+          "notes": "Ukuba iSASSA ihlola iimali zakho, nikezela iinkcazo-mali zebhanki zeenyanga ezintathu ezidlulileyo."
+        },
+        {
+          "label": "Ubungqina beempahla (iinkcazo-mali zebhanki, iinkcazo-mali zokuthenga nendawo okanye izibonelelo zotyalo-mali apho zifanelekileyo)",
+          "required": true,
+          "notes": "Ikhaya lakho eliphambili alifakwa kuvavanyo lweempahla."
+        },
+        {
+          "label": "Ubungqina bokuhlala (ibhili yasekusini, ileta kamasipala, okanye ileta evela kwinkokeli yesintu okanye kucala wadi)",
+          "required": true
+        },
+        {
+          "label": "Isatifiketi somtshato (okanye umyalelo woqhawulo-mtshato / isatifiketi sokufa ukuba wakhe watshata)",
+          "required": true,
+          "notes": "Kufuneka kuba ngenxa yokuba ingeniso neempahla zabo bobabini abatshatileyo ziyadityaniswa."
+        },
+        {
+          "label": "Iinkcukacha zebhanki zentlawulo (umnini-akhawunti, ibhanki, isebe, inombolo yeakhawunti)",
+          "required": true,
+          "notes": "Idiphozithi yebhanki yeyona ndlela yokuhlawula ekhuthazwayo."
+        }
+      ]
+    },
+    {
+      "id": "payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Iindlela Zokuhlawula Nekhadi Elimnyama LeSASSA"
+    },
+    {
+      "id": "payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Idiphozithi yebhanki: Isibonelelo sihlawulwa kwiakhawunti yakho yebhanki yobuqu. Le yeyona ndlela ikhuselekileyo nekhuthazwayo.",
+        "Ikhadi leSASSA: Ungaliqokelela isibonelelo sakho kwiindawo zokuhlawula ezithengiselwa kuzo ezifana neShoprite, i-Pick n Pay, iBoxer, iCheckers, ne-USave usebenzisa ikhadi lakho leSASSA.",
+        "Iposi: Ezinye iiofisi zisahlawula ngePost Office, kodwa le ndlela iyayekwa.",
+        "I-ATM: Ungarhoxa usebenzisa ikhadi lakho leSASSA kwi-ATM."
+      ]
+    },
+    {
+      "id": "payment-blackcard-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Tshintsha ikhadi lakho lakho elidala legolide ukuya kwelitsha elimnyama ngaphambi kwe-31 August 2026",
+      "text": "ISASSA ithatha indawo yekhadi elidala legolide leSASSA nekhadi elitsha elimnyama lePostbank. Umhla omiselweyo wokufuduka ngokweSASSA ngu-31 August 2026, kwaye abaxhamli kufuneka batshintshe ukuze baqhubeke befumana iintlawulo. Iintsuku zingatshintsha, ngoko qinisekisa owona mhla we-latest kwii-tshannels ezisemthethweni zeSASSA nePostbank phambi kokuba utyelele."
+    },
+    {
+      "id": "review-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Inkqubo Yonyaka YoQinisekiso Lobomi (Review)"
+    },
+    {
+      "id": "review-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Fumana isaziso sakho sokuhlaziya",
+          "description": "Nyaka ngamnye iSASSA icela abafumana ipenshini ukuba baqinisekise ukuba basaphila kwaye basafanelekile. Oku kubizwa ngokuba yi-ireview yobomi okanye yebhayometriki."
+        },
+        {
+          "title": "Gqibezela ukujongwa kwebhayometriki",
+          "description": "Uqinisekisa ubuwena ngeminwe okanye enye indlela yebhayometriki eofisini yeSASSA, kwindawo ebhalisiweyo yokuhlawula, okanye kwi-tshannel evunyiweyo."
+        },
+        {
+          "title": "Hlaziya naluphi na utshintsho",
+          "description": "Xelela iSASSA ngotshintsho kwingeniso, iimpahla, isimo somtshato, okanye indlela ophila ngayo ngexesha le-review."
+        },
+        {
+          "title": "Qhubeka nokuhamba kweentlawulo zakho",
+          "description": "Nje ukuba ireview igqityiwe, iintlawulo zakho ziyaqhubeka. Ukuba uyiphosa ireview, isibonelelo sakho singayekiswa."
+        }
+      ]
+    },
+    {
+      "id": "review-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Ungayiphosi ireview yakho",
+      "text": "ISASSA iyajonga ngokunqamlezileyo iiakhawunti zebhanki neSARS kunye namaziko e-credit. Ukuba awugqibi ireview yakho yoqinisekiso lobomi, isibonelelo sakho singayekiswa kude kube uyigqibile. Ukubuyisela isibonelelo esiyekiweyo kungathatha ixesha, ngoko yenza ireview kusasa nje ukuya kucelwa."
+    },
+    {
+      "id": "carehome-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuya Kwikhaya Lokunyamekela Okanye Esibhedlele"
+    },
+    {
+      "id": "carehome-p1",
+      "type": "paragraph",
+      "text": "Ukuba ufudukela kwiziko elixhaswa ngurhulumente apho iindleko zakho zokuphila zigutyungelwa ngokupheleleyo, isibonelelo saBantu abaDala ngokuqhelekileyo siyayeka kuba urhulumente sele ekugcina. Ukuba ufudukela kwikhaya labucala lokunyamekela okanye uhlala nosapho kwaye usazihlawulela iindleko zakho, isibonelelo sinokuqhubeka ukuba ngencani usahlangabezana novavanyo lwengeniso."
+    },
+    {
+      "id": "carehome-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Xelela ISASSA Ngotshintsho",
+      "text": "Hlala uxelela iofisi yakho yeSASSA yasekuhlaleni ukuba ufudukela kulo naliphi na iziko okanye utshintsha idilesi. Ukungabikho ekuxeleni ukufuduka kwiziko likarhulumente kungenza ukuba uhlawulwe ngaphezulu kwaye usenokufuneka ubuyisele imali kamva."
+    },
+    {
+      "id": "suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuyekiswa, Ukurhoxiswa, Nokubuyiselwa"
+    },
+    {
+      "id": "suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isibonelelo sakho singayekiswa ngenxa yokuphosa ireview yoqinisekiso lobomi, utshintsho lwengeniso okanye iimpahla ngaphezu komda, okanye ukungaphumeleli koqinisekiso.",
+        "Isibonelelo sakho singarhoxiswa ukuba awusafaneleki, ukuba uyashiya (isibonelelo sesiphelile kwaye kufuneka sixelwe), okanye ukuba ufudukele phesheya ngaphandle kwembuyiselo.",
+        "Ukuba isibonelelo sakho siyekiwe kwaye usafaneleka, ngena eofisini yeSASSA ubungqina (iinkcazo-mali zebhanki, isazisi, isiqinisekiso sereview) ukucela ukubuyiselwa. Iintlawulo zomva zingabuyiselwa ukususela kumhla wokuyekiswa.",
+        "Ukuba wahlawulwa ngempazamo, iSASSA inokurhoxisa imali ehlawulwe ngaphezulu ngeengxenye kwiintlawulo zakho ezizayo."
+      ]
+    },
+    {
+      "id": "appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Izibheno: Into Onokuyenza Xa Isicelo Sakho Siwaliwe"
+    },
+    {
+      "id": "appeals-p1",
+      "type": "paragraph",
+      "text": "Ukuba isicelo sakho seSibonelelo saBantu abaDala siliwe, unelungelo lokubhena. Izicelo ezaliweyo ziphononongwa yi-Independent Tribunal for Social Assistance Appeals (ITSAA). Kwizibonelelo ezingengoweSRD, ungakwazi ukwenza isibheno sakho ngeofisi yeSASSA okanye ngokubhalela uMphathiswa Wezentlalo Nophuhliso."
+    },
+    {
+      "id": "appeals-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Funda ileta yakho yesigqibo",
+          "description": "Ileta icacisa ukuba kutheni uwaliwe kunye nomhla wokuphela wokufaka isibheno."
+        },
+        {
+          "title": "Bhena kwiintsuku ezingama-30",
+          "description": "Kufuneka ubhene kwiintsuku ezingama-30 ukususela kwisigqibo. Iportal yobheno lwe-intanethi yamkela izibheno ukuya kwiintsuku ezingama-90 ukususela kumhla wokwaliwa."
+        },
+        {
+          "title": "Ngenisa isibheno sakho kunye nobungqina",
+          "description": "Cacisa ukuba kutheni ungavumelani kwaye ufake nabuphi na ubungqina obutsha, njengeenkcazo-mali zebhanki ezihlaziyiweyo okanye isibhengezo esilungisiweyo."
+        },
+        {
+          "title": "Linda umphumo wetribunal",
+          "description": "ITribunal ezimeleyo iphonononga ityala lakho kwaye ikwazise ngomphumo. Ukuba ivumela, isibonelelo siyavunywa, rhoqo siqala kumhla wofaka isicelo."
+        }
+      ]
+    },
+    {
+      "id": "appeals-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Apho Unokubhena Khona",
+      "text": "Ungabhena kwi-intanethi ngeportal yeenkonzo zeSASSA, eofisini yeSASSA ekufutshane nawe, okanye ngokubhalela uMphathiswa Wezentlalo Nophuhliso. Ukuba imeko yakho ingxamisekile, cela iofisi malunga nesivumelwano sexeshana ngoxa isibheno sakho sicatshangelwa."
+    },
+    {
+      "id": "comparison-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isibonelelo saBantu abaDala Vs Ezinye Izibonelelo ZeSASSA"
+    },
+    {
+      "id": "comparison-table",
+      "type": "comparison-table",
+      "headers": [
+        "Isibonelelo",
+        "Isixa-mali sanyanga (2026)",
+        "Senzelwe bani",
+        "Uvavanyo lwengeniso"
+      ],
+      "rows": [
+        [
+          "Isibonelelo saBantu abaDala (iminyaka engama-60 ukuya kwama-74)",
+          "R2,400",
+          "Abantu baseMzantsi Afrika abaneminyaka engama-60 nangaphezulu",
+          "Ingeniso neempahla"
+        ],
+        [
+          "Isibonelelo saBantu abaDala (iminyaka engama-75 nangaphezulu)",
+          "R2,420",
+          "Abantu baseMzantsi Afrika abaneminyaka engama-75 nangaphezulu",
+          "Ingeniso neempahla"
+        ],
+        [
+          "Isibonelelo samaGorha eMfazwe",
+          "R2,420",
+          "Amagorha emfazwe afanelekileyo angeninyaka engama-60 nangaphezulu",
+          "Ingeniso neempahla"
+        ],
+        [
+          "Isibonelelo sokuKhubazeka",
+          "R2,400",
+          "Abantu abadala abaneminyaka eyi-18 ukuya kwi-59 abakhubazekileyo",
+          "Ingeniso neempahla"
+        ],
+        [
+          "Isibonelelo seSRD R370",
+          "R370",
+          "Abemi, abahlali abasisigxina, okanye iimbacu ezineminyaka eyi-18 ukuya kwi-59 ezinomvuzo omncinci okanye ongenamvuzo",
+          "Uvavanyo lwengeniso olwahlukileyo"
+        ]
+      ],
+      "caption": "Indlela isibonelelo saBantu abaDala esithelekisa ngayo nezinye izibonelelo ezifanayo"
+    },
+    {
+      "id": "links-grid",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Iintsuku zokuhlawula zeSibonelelo saBantu abaDala",
+          "href": "/payment-dates",
+          "description": "Jonga ishedyuli yoqinisekiso yentlawulo ka-2026 kwizibonelelo zabantu abadala."
+        },
+        {
+          "title": "Isibonelelo sokuKhubazeka",
+          "href": "/grants/disability-grant",
+          "description": "Ukuba uneminyaka engaphantsi kwama-60 kwaye ungenakusebenza ngenxa yokukhubazeka."
+        },
+        {
+          "title": "Isibonelelo seSRD R370",
+          "href": "/grants/srd-r370-grant",
+          "description": "Isibonelelo soNcedo lweNtlekele loMbutho kubantu abadala abasebenzayo."
+        },
+        {
+          "title": "Indlela yokubhena isigqibo seSASSA",
+          "href": "/appeals",
+          "description": "Uncedo olwenziwa ngenyathelo ngenyathelo kwiinkqubo zokubhena zeTribunal ezimeleyo."
+        },
+        {
+          "title": "Iportal yeenkonzo zeSASSA",
+          "href": "https://services.sassa.gov.za",
+          "description": "Faka isicelo kwi-intanethi kwaye ujonge imeko yesicelo sakho."
+        },
+        {
+          "title": "ISebe Lezentlalo Nophuhliso",
+          "href": "https://www.dsd.gov.za",
+          "description": "Umgaqo-nkqubo wesizwe kunye nokubeka iliso kwizibonelelo zentlalo."
+        }
+      ]
+    },
+    {
+      "id": "scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Zikhusele Kubuqhetseba"
+    },
+    {
+      "id": "scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "ISASSA ayikhe icele intlawulo ukuba yamkele isicelo",
+      "text": "Abakhohlisi banokucela, bagqithise umyalezo ngeSMS okanye iimessaging, okanye bakuvumeze ngethemba lokuhlamba ndim 'yintlawulo yokuqhuba' okanye i-PIN yebhanki ukuze 'bukhulule' isibonelelo sakho. ISASSA ayihlawulisi kufakwe isicelo okanye ukuvuma isibonelelo, kwaye ayinakuze icele i-PIN yakho okanye i-OTP. Xela imiyalezo ekrokrelwayo kwii-tshannels ezisemthethweni zeSASSA kwaye ungaze wabelane ngeenkcukacha zakho zokungena zebhanki."
+    },
+    {
+      "id": "other-support-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Olunye Uncedo Olufumanekayo Kubantu Abadala"
+    },
+    {
+      "id": "other-support-p1",
+      "type": "paragraph",
+      "text": "Isibonelelo saBantu abaDala yinxalenye enye yeseti ebanzi yoncedo kubantu abadala. Ngokuxhomekeke kwindawo ohlala kuyo, usenokufaneleka kwiinkxaso zikamasipala nezephondo ezinciphisa iindleko zakho zemihla ngemihla. Buza iofisi yakho yeSASSA yasekuhlaleni, iDepartment of Social Development, okanye umasipala wakho malunga noko kufumanekayo kwindawo yakho, kuba iinkqubo ziyahluka ngokwephondo nasedolophini."
+    },
+    {
+      "id": "other-support-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "AmaRhafu neeRebate zikaMasipala: Ookamasipala abaninzi banikezela ngezantya zepropati ezincitshisiweyo okanye ezikhululiweyo kubantu abadala abanomhlaba wabo.",
+        "Umbane wamahhala osisiseko namanzi: Amakhaya angahlupheka kwaye amakhaya abantu abadala asenokufumana isixa esisiseko sasimahla sombane namanzi kumasipala.",
+        "Izinto Ezifumaneka Ngexabiso EliPhantsi Zothutho: Amaphondo amanye noomasipala banikezela ngothutho lwezoluntu oluncitshisiweyo okanye olusimahla kubantu abadala.",
+        "Unyamekelo Olusekwe Ekuhlaleni: Ukuba ufuna uncedo ekhaya, iDepartment of Social Development ixhasa abasebenzi bonyamekelo lwasekhaya noluntu kwezinye iindawo.",
+        "Izindlu zabaNtu abaDala: Iinketho zezindlu ezixhaswayo nabantu abadala zinokufumaneka kumasebe ophuhliso lwezentlalo ephondo."
+      ]
+    },
+    {
+      "id": "tax-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isibonelelo Siyerhafelwa Na?"
+    },
+    {
+      "id": "tax-p1",
+      "type": "paragraph",
+      "text": "Isibonelelo saBantu abaDala sisibonelelo soncedo lwentlalo kwaye asiyongeniso erhafelwayo. Awunyanzelekanga ukuba usixele kwireturn yakh kamu yerhafu, kwaye asichatshazelwa yipenshini encinci okanye inzala oyifumanayo, ngaphandle kokuba ezo zixa-mali zihlala ngaphakathi kwemida yovavanyo lwengeniso. Ukuba awuqinisekanga ukuba enye ingeniso yakho iphathwa njani, iSASSA iya kuyivavanya njengenxalenye yovavanyo lwengeniso xa ufaka isicelo okanye kwireview nganye."
+    },
+    {
+      "id": "report-changes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuxela Utshintsho KwiSASSA"
+    },
+    {
+      "id": "report-changes-p1",
+      "type": "paragraph",
+      "text": "Isixa-mali sesibonelelo sakho sixhomekeke kwimeko yakho yobuqu. Ukuba kukho into etshintshayo, xelela iSASSA ngokukhawuleza ukuze uhlawulwe esona sixa-mali sichanekileyo kwaye uphephe intlawulo engaphezulu ekufuneka uyibuyisele kamva. Ungaxela utshintsho eofisini yakho yasekuhlaleni okanye ngeportal yeenkonzo zeSASSA apho kukho loo ndlela."
+    },
+    {
+      "id": "report-changes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ingeniso okanye iimpahla zakho zinyuka ngaphezu komda wovavanyo lwengeniso.",
+        "Utshata, uqhawula-mtshato, okanye umlingane wakho uyagqitha.",
+        "Ufuduka kwelinye ikhaya okanye utshintsha iphondo.",
+        "Utshintsha iakhawunti yakho yebhanki okanye iinkcukacha zebhanki.",
+        "Ufudukela kwiziko lokunyamekela okanye uphuma kulo.",
+        "Iinkcukacha zakho zokuqhagamshelana, njengenombolo yefowuni okanye idilesi, ziyatshintsha."
+      ]
+    },
+    {
+      "id": "status-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukujonga Isicelo Sakho Okanye Imeko Yentlawulo"
+    },
+    {
+      "id": "status-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Jonga kwi-intanethi",
+          "description": "Ngena kwi-services.sassa.gov.za kwaye ujonge imeko yesicelo sakho nentlawulo ngenombolo yesazisi sakho."
+        },
+        {
+          "title": "Sebenzisa umgca we-USSD",
+          "description": "Dial ikhowudi ye-USSD yeSASSA kwifowuni yakho kwaye ulandele imiyalelo ukujonga imeko ngaphandle kokusebenzisa idatha yemobayile."
+        },
+        {
+          "title": "Fowunela iSASSA call centre",
+          "description": "Fowunela umdibaniso woqhakamshelwano weSASSA nesazisi sakho kunye nenombolo yesalathiso esele ilungile."
+        },
+        {
+          "title": "Ngenela iofisi yakho yasekuhlaleni",
+          "description": "Thatha isazizi sakho kunye nerisithi ukuze ucele igosa ukuba lijonge isicelo okanye intlawulo yakho ngqo."
+        }
+      ]
+    },
+    {
+      "id": "status-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Gcina irisithi yakho kunye nenombolo yesalathiso",
+      "text": "Irisithi yakho yesicelo kunye nenombolo yesalathiso ye-intanethi yeyona ndlela ekhawulezayo yokuba iSASSA ifumane ityala lakho. Zigcine endaweni ekhuselekileyo kanye nje ukufaka isicelo, kuba ziyafuneka kwiintlawulo zokujonga imeko, izibhenno, nokubuyiselwa kwemali ngasemva."
+    },
+    {
+      "id": "deepdive-faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Eminye Imibuzo? I-FAQ Enzulu"
+    },
+    {
+      "id": "deepdive-faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ngaba iSibonelelo saBantu abaDala ngo-2026 singakanani?",
+          "answer": "Ukususela kwi-1 April 2026, isibonelelo siyi-R2,400 ngenyanga kubantu abaneminyaka engama-60 ukuya kwama-74, kunye ne-R2,420 ngenyanga kwabo baneminyaka engama-75 nangaphezulu. Amagorha emfazwe nawo afumana i-R2,420 ngenyanga."
+        },
+        {
+          "question": "Ndingasifumana na isibonelelo ukuba ndisafumana umvuzo?",
+          "answer": "Ewe. Ukuba ingeniso yakho ipheleleyo ingaphantsi komda wovavanyo lwengeniso (malunga ne-R112,200/ngonyaka kumntu ongatshatanga, okanye i-R224,400/ngonyaka edityanisiweyo kwisibini esitshatileyo), ungafumana isibonelelo esipheleleyo okanye esingaphelelanga. Ingeniso engaphezu komda iyanciphisa isibonelelo ngokwesikali esihlalayo kunokuba ikungculele ngokuzenzekelayo."
+        },
+        {
+          "question": "Isibonelelo sincitshiswa njani ukuba ingeniso yam iphezulu kakhulu?",
+          "answer": "Isibonelelo sincitshiswa malunga ne-R1 kwiyi-R2 nganye yengeniso engaphezu komda weright. Umzekelo, umntu ongatshatanga ofumana i-R1,200 ngaphezu komda uya kufumana malunga ne-R600 ngaphantsi ngenyanga."
+        },
+        {
+          "question": "Ngaba imali yabo bobabini abatshatileyo iyabalwa?",
+          "answer": "Ewe. Kwisibini esitshatileyo, iSASSA idibanisa ingeniso neempahla zabo bobabini abatshate kungakhathaliseki uhlobo lomtshato, kuquka imitshato yesintu nengaphandle koluntu."
+        },
+        {
+          "question": "Ngaba indlu yam ibalwa njengepahla?",
+          "answer": "Hayi. Ikhaya lakho eliphambili alifakwa kuvavanyo lweempahla. Umda weempahla (malunga ne-R1,584,000 kumntu ongatshatanga) usebenza kwiimali ezongeziweyo, izithuthi, utyalo-mali, kunye neegunya lokuthenga, hayi ikhaya lokuhlala lakho eliphambili."
+        },
+        {
+          "question": "Ngaba ilungu losapho lindigendlela?",
+          "answer": "Ewe. Ukuba awukwazi ukuhamba, isizalwane okanye umntu othembekileyo ungenza isicelo egameni lakho ngeleta yogunyaziso okanye ilungelo lokuvuma. ISASSA isenako kwakhona ukulungiselela utyelelo lwasekhaya kwezinye iimeko."
+        },
+        {
+          "question": "Ndingafaka isicelo kwi-intanethi?",
+          "answer": "Ewe. Ungafaka isicelo kwi-services.sassa.gov.za ngokubhalisa, ukugqibezela ifom, nokufaka amaxwebhu akho. Ungakwazi kwakhona ukufaka isicelo ngokwakhe kuyo nayiphi na iofisi yeSASSA."
+        },
+        {
+          "question": "Kuthatha ixesha elingakanani esicelo?",
+          "answer": "Uninzi lwezicelo luqhutywa kwisithuba seminyaka emithathu. Ukuba ivunyiwe, iintlawulo zibuyiselwa umva kumhla ofaka isicelo, ngoko gcina irisithi yakho okanye inombolo yesalathiso endaweni ekhuselekileyo."
+        },
+        {
+          "question": "Yayingawaphi amaxwebhu endiwafunayo?",
+          "answer": "Ufuna isazisi sakho (okanye ubungqina bombaleki/umhlali osisigxina), ubungqina bengeniso neempahla (kuquka iinkcazo-mali zebhanki zeenyanga ezintathu ezidlulileyo ukuba zihlolwa), ubungqina bokuhlala, isatifiketi somtshato ukuba utshatile, kunye neenkcukacha zakho zebhanki zentlawulo."
+        },
+        {
+          "question": "Iyeyiphi eyona ndlela yokuhlawula ebhetele?",
+          "answer": "Idiphozithi yebhanki ngqo yeyona ikhuselekileyo nethembekileyo. Ungakwazi kwakhona ukuqokelela ngekhadi lakho leSASSA kwiivenkile ezifana neShoprite, i-Pick n Pay, iBoxer, iCheckers, neUSave, okanye urhoxe kwi-ATM."
+        },
+        {
+          "question": "Yintoni utshintsho lwekhadi elimnyama leSASSA?",
+          "answer": "Ikhadi elitheni legolide leSASSA lithathelwa indawo yikarta elitsha elimnyama lePostbank. Umhla obhengezwe yiSASSA wokufuduka ngu-31 August 2026, kwaye abaxhamli kufuneka batshintshe ukuze baqhubeke befumana iintlawulo. Qinisekisa umhla wamva kwii-tshannels ezisemthethweni zeSASSA nePostbank."
+        },
+        {
+          "question": "Yintoni ireview yoqinisekiso lobomi?",
+          "answer": "Nyaka ngamnye abantu abadala kufuneka baqinisekise ukuba basaphila kwaye basafaneleka nge-review yebhayometriki (yeminwe). Ukuba uyayiphosa, isibonelelo sakho singayekiswa kude kube uyigqibile."
+        },
+        {
+          "question": "Kwenzeka ntoni ukuba ndifudukela kwikhaya lokunyamekela?",
+          "answer": "Ukuba iziko likarhulumente likugcina ngokupheleleyo, isibonelelo ngokuqhelekileyo siyayeka. Ukuba uhlala kwikhaya labucala okanye nosapho kwaye usazihlawulela, isibonelelo sinokuqhubeka ngoxa uhlangabezana novavanyo lwengeniso. Hlala uxelela iSASSA ngokufuduka."
+        },
+        {
+          "question": "Isibonelelo sam singayekiswa na?",
+          "answer": "Ewe. Izizathu eziqhelekileyo kukuphosa ireview yoqinisekiso lobomi, ingeniso okanye iimpahla eziphezulu komda, okanye ukungaphumeleli koqinisekiso. Ungacela ukubuyiselwa eofisini yeSASSA ubungqina obuhlaziyiweyo."
+        },
+        {
+          "question": "Ndibhena njani isicelo esaliweyo?",
+          "answer": "Bhena kwi-Independent Tribunal for Social Assistance Appeals (ITSAA). Bhena kwiintsuku ezingama-30 ukususela kwisigqibo; iportal ye-intanethi yamkela izibheno ukuya kwiintsuku ezingama-90. Ungabhena kwi-intanethi, eofisini yeSASSA, okanye ngokubhalela uMphathiswa Wezentlalo Nophuhliso."
+        },
+        {
+          "question": "Isibonelelo siyayeka na xa ndiswelekayo?",
+          "answer": "Ewe. Isibonelelo siphela kwimini yokufa komxhamli. Usapho kufuneka luxele iSASSA ngokusweleka ukuze iintlawulo ziyeke kwaye zonke iilungiselelo zokugqibela ziphathwe ngokuchanekileyo."
+        },
+        {
+          "question": "Ndingafumana iSibonelelo saBantu abaDala kunye neChild Support Grant ngaxeshanye?",
+          "answer": "Ewe. Isibonelelo saBantu abaDala sihlawulelwa ukuxhasa wena, ngoxa iChild Support Grant inokuhlawulwa kuwe njengomkhathaleli womzukulwana okanye olunye unmtwana okukhathalayo. Zezahlukileyo izibonelelo."
+        },
+        {
+          "question": "Isibonelelo sokuDala siyerhafelwa na?",
+          "answer": "Hayi. Isibonelelo sisibonelelo soncedo lwentlalo kwaye asiyongeniso erhafelwayo. Awusixeli kwireturn yerhafu, kwaye sihlolwa ngokwahlukileyo kuyo nayiphi na ipenshini encinci okanye inzala phantsi kovavanyo lwengeniso."
+        },
+        {
+          "question": "Kwenzeka ntoni ukuba nditshata emva kokuqalisa ukufumana isibonelelo?",
+          "answer": "Xelela iSASSA. Ingeniso neempahla zomlingane wakho zidityaniswa nezakho kuvavanyo lwengeniso, kungakhathaliseki uhlobo lomtshato. Ukuba itotali idityanisiweyo ingaphezu komda, isibonelelo sakho singancitshiswa okanye siyekwe ukususela kwireview elandelayo."
+        },
+        {
+          "question": "Umlingane wam uswelekile. Kufuneka ndenze ntoni?",
+          "answer": "Xela ukusweleka kwiSASSA kwaye unikezele ngesatifiketi sokufa. Uvavanyo lwakho lwengeniso lubalwa ngokutsha ngokomntu ongasatshatanga, okunokunyusa isibonelelo sakho ukuba ingeniso yomlingane wakho ongasekhoyo ibiyinxalenye yetotali edityanisiweyo."
+        },
+        {
+          "question": "Ndingasifumana na isibonelelo ukuba ndinepenshini yabucala?",
+          "answer": "Ewe, ngaphandle kokuba ingeniso yakho ipheleleyo, kuquka ipenshini, ihlala ngaphakathi komda wovavanyo lwengeniso. Ipenshini encinci yabucala ihlala ikugcina ungaphantsi komda, kwaye isibonelelo siyancitshiswa kunokuba sicinywe ukuba ungaphezulu kancinane."
+        },
+        {
+          "question": "Ndingahlala phesheya kwaye ndigcine isibonelelo?",
+          "answer": "Ngokuqhelekileyo hayi. Isibonelelo senzelwe abantu abahlala eMzantsi Afrika. Ukungabikho ixesha elide kunokukhokelela ekwiyekisweni. Ukuba uceba ukuhamba, xelela iofisi yakho yasekuhlaleni kuqala."
+        },
+        {
+          "question": "Kuthiwani ukuba iSASSA ithi andiphumelelanga uvavanyo lwengeniso kodwa ndingavumelani?",
+          "answer": "Ungabhena. Ranela ubungqina obunje eenkcazo-mali zebhanki, irisithi yepen sini, okanye isibhengezo esifungelweyo, kwaye ubhena kwi-Independent Tribunal for Social Assistance Appeals ngaphambi komhla obhaliweyo kwileta yakho."
+        },
+        {
+          "question": "Ndihlaziya njani iinkcukacha zam zebhanki?",
+          "answer": "Hlaziya iingcukacha zebhanki eofisini yeSASSA ekufutshane nawe okanye ngee-tshannels ezisemthethweni zeSASSA. Ungaze wabelane ngeenkcukacha zakho zokungena zebhanki nabani na, kwaye ungahoyi imiyalezo ekucela ukuba 'uqinisekise' iinkcukacha ngokuhlawa ntlawulo."
+        },
+        {
+          "question": "Isibonelelo sinokuhlawulwa komnye umntu egameni lam?",
+          "answer": "Isibonelelo sihlawulwa kwiakhawunti yakho okanye ikhadi lakho. Ukuba awukwazi ukuliqokelela, umntu othembekileyo unokunceda ngemvume lakho usebenzisa ikhadi, kodwa ungaze unikezele i-PIN yakho. Ilungiselelo elisemthethweni linokwenziwa ngeSASSA ukuba kuyafuneka."
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Imibuzo Ebuzwa Rhoqo"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ndingafumana na ipenshini ukuba ndisasebenza?",
+          "answer": "Ewe, ngaphandle kokuba imivuzo yakho yonke iwela ngaphantsi komda wovavanyo lwengeniso (ngaphantsi kwe-R112,200 ngonyaka kumntu ongatshatanga)."
+        },
+        {
+          "question": "Ngaba ipenshini inyuka ngokuzenzekelayo ngonyaka?",
+          "answer": "Ewe, uMphathiswa Wezezimali uhlala ebhengeza uhlengahlengiso lonyaka lwezibonelelo ngexesha lentetho yebhajethi ngoFebruwari, isebenza ukususela ku-Epreli nango-Okthobha."
+        },
+        {
+          "question": "Kwenzeka ntoni ukuba ndifudukela kwelinye iphondo?",
+          "answer": "Isibonelelo sakho sihamba nawe. Ngenela iofisi yakho entsha yeSASSA yasekuhlaleni ukuhlaziya idilesi yakho kunye nendawo yokuqokelela intlawulo."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "ILayibrari Yezibonelelo",
+      "slug": "/grants"
+    },
+    {
+      "title": "Isibonelelo sokuKhubazeka",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "Isibonelelo soNcedo (Grant-in-Aid)",
+      "slug": "/grants/grant-in-aid"
+    }
+  ]
+}

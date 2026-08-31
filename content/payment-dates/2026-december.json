@@ -4,7 +4,7 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates December 2026 (Festive Season Schedule)",
   "description": "Provisional SASSA payment dates for December 2026: Older Persons 2 December, Disability 3 December, Children's grants 4 December, early SRD window from 23 December for Christmas.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -28,7 +28,7 @@
       "title": "SASSA Payment Dates December 2026",
       "description": "Permanent grants pay in the first week as usual, and the SRD R370 window starts unusually early — from 23 December — so beneficiaries have cash before Christmas Day. Dates are provisional until SASSA confirms.",
       "readingTime": "6 min read",
-      "lastUpdated": "August 2026"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "intro-h",
@@ -76,7 +76,13 @@
     {
       "id": "early-p",
       "type": "paragraph",
-      "text": "The standout feature of December is the early SRD start. Rather than the usual last-week-only pattern beginning on the 24th or 25th, batches begin on Wednesday 23 December so that most approved beneficiaries see money before Christmas. Your exact day still depends on your individual batch."
+      "text": "The standout feature of December is the early SRD start. Rather than the usual last-week-only pattern beginning on the 24th or 25th, batches begin on Wednesday 23 December so that most approved beneficiaries see money before Christmas. Your exact day still depends on your individual batch.",
+      "links": [
+        {
+          "text": "SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "queues-p",
@@ -142,6 +148,28 @@
         }
       ],
       "note": "December 2026 dates are provisional based on the standard scheduling pattern. This page will be updated when SASSA confirms."
+    },
+    {
+      "id": "related-pages-m3e8fl",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     }
   ],
   "relatedPages": [

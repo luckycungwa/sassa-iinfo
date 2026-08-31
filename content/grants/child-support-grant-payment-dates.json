@@ -4,16 +4,29 @@
   "classification": "grant-detail",
   "title": "Child Support Grant — Payment Dates & Schedule 2026",
   "description": "SASSA Child Support Grant payment dates for July–December 2026. See when R580 is paid, how bank vs cash send affects timing, and what to do if a payment is late.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "4 min read",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "CSG Payment Dates 2026 — Child Support Grant Schedule",
     "metaDescription": "SASSA Child Support Grant payment dates for July-December 2026. See when R580 is paid, how bank vs cash send affects timing, and what to do if a payment is late.",
-    "keywords": ["CSG payment dates", "child support grant payment schedule", "SASSA payment dates 2026", "CSG R580 payment", "child grant when is it paid"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "Child Support Grant Payment Dates" }
+    "keywords": [
+      "CSG payment dates",
+      "child support grant payment schedule",
+      "SASSA payment dates 2026",
+      "CSG R580 payment",
+      "child grant when is it paid"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Child Support Grant Payment Dates"
+    }
   },
   "contentBlocks": [
     {
@@ -22,13 +35,13 @@
       "title": "Child Support Grant — Payment Dates & Schedule 2026",
       "description": "Everything you need to know about when SASSA pays the Child Support Grant, how payment method affects timing, and what to do when money does not arrive on time.",
       "readingTime": "4 min read",
-      "lastUpdated": "2026-07-27"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "summary",
       "type": "grant-summary",
       "amount": "R580 per month per child",
-      "frequency": "Monthly (Top-Up for orphans: R830 per month)",
+      "frequency": "Monthly (an additional top-up may apply for orphaned children — confirm the current amount with SASSA)",
       "targetGroup": "Primary caregivers of children under 18 who qualify for the Child Support Grant."
     },
     {
@@ -51,14 +64,42 @@
     {
       "id": "payment-dates-2026-table",
       "type": "table",
-      "headers": ["Month", "Payment Date", "Day of Week"],
+      "headers": [
+        "Month",
+        "Payment Date",
+        "Day of Week"
+      ],
       "rows": [
-        ["July 2026", "1 July 2026", "Wednesday"],
-        ["August 2026", "3 August 2026", "Monday"],
-        ["September 2026", "1 September 2026", "Tuesday"],
-        ["October 2026", "1 October 2026", "Thursday"],
-        ["November 2026", "2 November 2026", "Monday"],
-        ["December 2026", "1 December 2026", "Tuesday"]
+        [
+          "July 2026",
+          "1 July 2026",
+          "Wednesday"
+        ],
+        [
+          "August 2026",
+          "3 August 2026",
+          "Monday"
+        ],
+        [
+          "September 2026",
+          "1 September 2026",
+          "Tuesday"
+        ],
+        [
+          "October 2026",
+          "1 October 2026",
+          "Thursday"
+        ],
+        [
+          "November 2026",
+          "2 November 2026",
+          "Monday"
+        ],
+        [
+          "December 2026",
+          "1 December 2026",
+          "Tuesday"
+        ]
       ],
       "caption": "SASSA Child Support Grant payment dates for the remainder of 2026"
     },
@@ -78,12 +119,32 @@
     {
       "id": "payment-method-timing-table",
       "type": "table",
-      "headers": ["Payment Method", "When Money Is Available", "Notes"],
+      "headers": [
+        "Payment Method",
+        "When Money Is Available",
+        "Notes"
+      ],
       "rows": [
-        ["Bank transfer (EFT)", "Same day by midday", "Funds usually reflect immediately in most bank accounts. Check your banking app or ATM balance."],
-        ["Cash Send (Pick n Pay / Boxer)", "Next working day", "You will receive an SMS with a reference number. Take your ID and the SMS to the till. Do not lose the SMS."],
-        ["SASSA Gold Card (ATM)", "Same day from 06:00", "Avoid peak hours early in the month — ATMs run out of cash and queues get long."],
-        ["Retail paypoint", "Payment date + 1–2 days", "Paypoints are busiest during the first week. If you can, collect later in the month to skip the rush."]
+        [
+          "Bank transfer (EFT)",
+          "Same day by midday",
+          "Funds usually reflect immediately in most bank accounts. Check your banking app or ATM balance."
+        ],
+        [
+          "Cash Send (Pick n Pay / Boxer)",
+          "Next working day",
+          "You will receive an SMS with a reference number. Take your ID and the SMS to the till. Do not lose the SMS."
+        ],
+        [
+          "SASSA Gold Card (ATM)",
+          "Same day from 06:00",
+          "Avoid peak hours early in the month — ATMs run out of cash and queues get long."
+        ],
+        [
+          "Retail paypoint",
+          "Payment date + 1–2 days",
+          "Paypoints are busiest during the first week. If you can, collect later in the month to skip the rush."
+        ]
       ],
       "caption": "How your choice of payment method affects when you receive your CSG money"
     },
@@ -141,13 +202,55 @@
       "id": "guide-cta",
       "type": "link-grid",
       "links": [
-        { "label": "Open the Child Support Grant guide", "href": "/grants/child-support-grant" }
+        {
+          "label": "Open the Child Support Grant guide",
+          "href": "/grants/child-support-grant"
+        }
+      ]
+    },
+    {
+      "id": "related-pages-dpil3h",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "SASSA Tools",
+          "href": "/tools"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        }
       ]
     }
   ],
   "relatedPages": [
-    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" },
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Foster Care Grant", "slug": "/grants/foster-care-grant" }
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Foster Care Grant",
+      "slug": "/grants/foster-care-grant"
+    }
   ]
 }

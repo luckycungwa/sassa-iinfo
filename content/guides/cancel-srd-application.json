@@ -4,7 +4,7 @@
   "classification": "how-to-guide",
   "title": "How to Cancel Your SRD R370 Application",
   "description": "Step-by-step instructions for cancelling your SRD R370 grant application on srd.sassa.gov.za or by phone, what happens to money already received, and how cancellation differs from declining a payment.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "How to Cancel Your SRD R370 Application",
       "description": "Found employment? Receiving UIF or NSFAS income that makes you ineligible? Cancelling your SRD application is free, takes minutes, and protects you from having to repay money later.",
       "readingTime": "6 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "SRD Eligibility Rules",
         "href": "/eligibility/i-am-unemployed"
@@ -48,7 +48,13 @@
     {
       "id": "when-p1",
       "type": "paragraph",
-      "text": "The SRD R370 grant is only for people with no other income support. If you start working, begin receiving UIF, get registered for NSFAS funding, or take up any monthly income above the threshold, you no longer qualify for new months — even if earlier months were legitimately paid."
+      "text": "The SRD R370 grant is only for people with no other income support. If you start working, begin receiving UIF, get registered for NSFAS funding, or take up any monthly income above the threshold, you no longer qualify for new months — even if earlier months were legitimately paid.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "when-p2",

@@ -1,0 +1,197 @@
+{
+  "id": "status-pending",
+  "slug": "/status/pending",
+  "classification": "status-meaning",
+  "title": "Hangende — Wat Beteken 'Hangende' op die SASSA-statuskontrole?",
+  "description": "Jou SASSA-toelaagstatus wys 'Hangende' — hier is wat dit beteken, hoe lank dit duur, en wat jy volgende moet doen.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.1.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA-status Hangende? Wat Dit Beteken & Hoe Lank (2026)",
+    "metaDescription": "SASSA-status 'Hangende' in 2026? Vind uit wat dit beteken, hoe lank dit duur, en wat om volgende te doen terwyl jou toelaagaansoek hersien word.",
+    "keywords": [
+      "SASSA hangende",
+      "toelaag hangende status",
+      "SASSA aansoek hangende"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Amptelike Webwerf",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SRD R370 Amptelike Portaal",
+      "url": "https://srd.sassa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Hangende — Wat Dit Beteken vir Jou Toelaag",
+      "description": "Jou SASSA-status wys 'Hangende' — jou aansoek is ontvang en word tans hersien. Vind uit wat die hangende proses behels, tipiese tydraamwerke, en wat jy moet en nie moet doen terwyl jy op 'n besluit wag.",
+      "readingTime": "4 min leestyd",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Kyk Jou Status",
+        "href": "/status/pending"
+      },
+      "secondaryCta": {
+        "text": "Bekyk Hangende Gids",
+        "href": "/status/pending-30-days"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Hangende — Wat Beteken Dit?"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Wanneer jou SASSA-toelaagstatus 'Hangende' wys, beteken dit jou aansoek is ontvang en word tans deur SASSA-amptenare hersien. Dit is 'n normale deel van die aansoekproses."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Hangende",
+      "explanation": "Jou aansoek is in die hersieningslyn. SASSA verifieer tans jou persoonlike besonderhede, middeletoetsinligting en ondersteunende dokumente teen hul rekords.",
+      "whyItHappens": [
+        "SASSA ontvang daagliks duisende aansoeke",
+        "Addisionele verifikasie mag vir sekere dokumente nodig wees",
+        "Middeletoetsberekeninge neem tyd om te verwerk",
+        "Handmatige hersiening kan vir ingewikkelde gevalle geaktiveer word"
+      ],
+      "howLongItLasts": "Gewoonlik 4–8 weke vanaf die datum van aansoekindiening. SRD R370-aansoeke kan vinniger opgelos word (1–2 weke).",
+      "whatYouShouldDo": [
+        "Gaan aan om jou status aanlyn na te gaan",
+        "Maak seker jou kontakbesonderhede is op datum",
+        "Reageer dadelik op enige SASSA-versoeke vir addisionele inligting",
+        "Dien nie 'n duplikaat-aansoek in nie — dit sal vertragings veroorsaak"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Betalingverwerking",
+          "slug": "payment-processing"
+        },
+        {
+          "name": "Goedgekeur",
+          "slug": "approved"
+        }
+      ]
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Algemene Foute om te Vermy"
+    },
+    {
+      "id": "mistakes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Indiening van 'n duplikaat-aansoek in die hoop dat dit die proses sal bespoedig — dit stel jou plek in die lyn eintlik terug",
+        "Nie die korrekte statusportaal nagaan nie — gebruik srd.sassa.gov.za vir SRD-toelae",
+        "SASSA-versoeke vir addisionele dokumente ignoreer — reageer altyd binne die gegewe tydraamwerk",
+        "Bankbesonderhede verander terwyl jou aansoek hangende is — dit kan nuwe verifikasievertragings veroorsaak"
+      ]
+    },
+    {
+      "id": "stuck-h",
+      "type": "heading",
+      "level": 3,
+      "text": "My Status Het Nie Vir Weke Verander Nie — Is Dit Vast?"
+    },
+    {
+      "id": "stuck",
+      "type": "paragraph",
+      "text": "'n Status wat vir 'n ruk dieselfde bly, is gewoonlik steeds besig om deur die hersieningslyn te beweeg, nie vast nie. Vir SRD R370 word elke maand as sy eie siklus beoordeel, so 'n status kan vir 'n deel van die maand onveranderd bly en dan omdraai wanneer die volgende hersiening plaasvind. Kyk jou status op srd.sassa.gov.za eerder as deur derdeparty-webwerwe, want dié kan uitgediende inligting wys. As jy langer as die tipiese venster vir jou toelaag hangende was, sien ons gids vir meer as 30 dae hangende, en maak seker jou status het nie stilletjies na iets soos 'Bankverifikasie' verander nie — dit lyk nie-aktief nie, maar beteken eintlik SASSA wag op 'n betalingsbesonderheid van jou kant.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Gereelde Vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Hoe lank duur die status 'Hangende'?",
+          "answer": "Vir die meeste toelae duur hangende 4–8 weke. SRD R370-aansoeke word gewoonlik binne 1–2 weke opgelos. As dit langer as 8 weke is, kontak SASSA."
+        },
+        {
+          "question": "Beteken 'Hangende' dat my aansoek suksesvol was?",
+          "answer": "Nee. Hangende beteken net dat jou aansoek ontvang is en tans hersien word. Die status sal na 'Goedgekeur', 'Afgekeur' of 'n ander status verander sodra die hersiening voltooi is."
+        },
+        {
+          "question": "Kan ek die hangende proses bespoedig?",
+          "answer": "Nee, maar jy kan vertragings vermy deur seker te maak dat al jou dokumente korrek ingedien word en vinnig op enige SASSA-versoeke vir addisionele inligting te reageer."
+        },
+        {
+          "question": "My status het nie in weke verander nie — is daar iets fout?",
+          "answer": "Gewoonlik nie. Aansoeke kan vir etlike weke sonder sigbare beweging in die hersieningslyn bly. Bevestig dat jy op die amptelike portaal kyk, hou dophou vir statusse soos 'Bankverifikasie' wat aksie van jou vereis, en kontak SASSA eers wanneer jy verby die tipiese verwerkingsvenster vir jou toelaagtipe is."
+        },
+        {
+          "question": "Ek was hangende en nou wys dit 'Goedgekeur' maar daar is geen betaaldatum nie. Is dit normaal?",
+          "answer": "Ja — goedkeuring wys dikwels voordat die betaaldatum bygevoeg word. Sien ons gids oor goedgekeur sonder 'n betaaldatum vir wat om volgende te verwag."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Meer as 30 Dae Hangende",
+          "href": "/status/pending-30-days",
+          "description": "Wat om te doen wanneer die wagtyd die normale venster oorskry"
+        },
+        {
+          "title": "Hoe om Jou Status na te Gaan",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "Elke amptelike manier om na te gaan, aanlyn en per telefoon"
+        },
+        {
+          "title": "Bankverifikasie-status",
+          "href": "/status/bank-verification",
+          "description": "Wat hierdie status van jou benodig en hoe om dit reg te stel"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Betalingverwerking",
+      "slug": "/status/payment-processing"
+    },
+    {
+      "title": "Goedgekeur",
+      "slug": "/status/approved"
+    },
+    {
+      "title": "30+ Dae Hangende",
+      "slug": "/status/pending-30-days"
+    },
+    {
+      "title": "Hoe om Jou SASSA-toelaagstatus na te Gaan",
+      "slug": "/guides/how-to-check-sassa-status"
+    }
+  ]
+}

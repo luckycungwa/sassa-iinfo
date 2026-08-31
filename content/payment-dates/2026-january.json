@@ -4,7 +4,7 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates January 2026",
   "description": "Confirmed SASSA payment dates for January 2026: Older Persons 2 January, Disability 5 January, Children's grants 6 January, SRD R370 from 23 January.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -21,6 +21,20 @@
       "srd payment dates january 2026"
     ]
   },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SASSA Media Statements",
+      "url": "https://www.sassa.gov.za/Pages/Media-Statements.aspx"
+    },
+    {
+      "label": "National Treasury Budget Review 2026",
+      "url": "https://www.treasury.gov.za"
+    }
+  ],
   "contentBlocks": [
     {
       "id": "hero",
@@ -28,7 +42,7 @@
       "title": "SASSA Payment Dates January 2026",
       "description": "The new grant year opens with the standard first-week schedule for permanent grants. The first SRD R370 batch of 2026 starts from Saturday 23 January.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "intro-h",
@@ -76,7 +90,13 @@
     {
       "id": "know-p1",
       "type": "paragraph",
-      "text": "January is one of the busiest collection months of the year because December balances and January payments can both still be waiting. If you did not collect your December money, it has not expired — balances stay on your SASSA card or bank account indefinitely. Collecting both amounts on the same trip saves transport costs."
+      "text": "January is one of the busiest collection months of the year because December balances and January payments can both still be waiting. If you did not collect your December money, it has not expired — balances stay on your SASSA card or bank account indefinitely. Collecting both amounts on the same trip saves transport costs.",
+      "links": [
+        {
+          "text": "SASSA card",
+          "href": "/banking/sassa-card-explained"
+        }
+      ]
     },
     {
       "id": "know-p2",
@@ -86,7 +106,13 @@
     {
       "id": "srd-note",
       "type": "paragraph",
-      "text": "SRD R370 beneficiaries receive an SMS when their specific batch is released. There is no single SRD payday — your date depends on when your monthly approval was processed, which is why the window runs across several days."
+      "text": "SRD R370 beneficiaries receive an SMS when their specific batch is released. There is no single SRD payday — your date depends on when your monthly approval was processed, which is why the window runs across several days.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "safety-callout",
@@ -141,6 +167,28 @@
         }
       ],
       "note": "Dates shown reflect the published January 2026 schedule. This page is maintained for reference; current-month details live on the payment dates hub."
+    },
+    {
+      "id": "related-pages-pefw8q",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     }
   ],
   "relatedPages": [

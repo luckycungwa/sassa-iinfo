@@ -4,7 +4,7 @@
   "classification": "how-to-guide",
   "title": "How to Change Your SRD Phone Number",
   "description": "Step-by-step guide to changing the cellphone number on your SRD R370 grant application, online at srd.sassa.gov.za or via WhatsApp, and what to do if you no longer have the old SIM.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "How to Change Your SRD Phone Number",
       "description": "Your registered cellphone is your key to SRD OTPs, approval SMSes and payment notices. Lost the SIM? Changed networks? Here is exactly how to update it.",
       "readingTime": "6 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "SRD Portal Login Steps",
         "href": "/banking/how-to-register-for-srd-portal"
@@ -48,7 +48,17 @@
     {
       "id": "why-p1",
       "type": "paragraph",
-      "text": "SASSA sends every important SRD message — one-time PINs, monthly approvals, payment dates and review notices — to the cellphone number linked to your application. If you have lost that number or switched networks, you are effectively cut off from your own grant updates, and a stranger using your old SIM may receive them instead."
+      "text": "SASSA sends every important SRD message — one-time PINs, monthly approvals, payment dates and review notices — to the cellphone number linked to your application. If you have lost that number or switched networks, you are effectively cut off from your own grant updates, and a stranger using your old SIM may receive them instead.",
+      "links": [
+        {
+          "text": "SRD",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "text": "payment dates",
+          "href": "/payment-dates"
+        }
+      ]
     },
     {
       "id": "why-p2",

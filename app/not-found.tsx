@@ -8,18 +8,22 @@ export const metadata: Metadata = {
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-canvas text-ink p-8">
-      <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-16 h-16 mb-6" />
-      <h1 className="text-4xl font-black tracking-tight text-ink mb-2">404</h1>
-      <p className="text-lg text-muted mb-8 text-center max-w-md">
-        This page does not exist in our resource library.
-      </p>
-      <Link
-        href="/"
-        className="px-6 py-3 bg-accent hover:bg-accent-dark text-black font-bold rounded-xl transition text-sm"
-      >
-        Return to Home
-      </Link>
-    </div>
+    <html lang="en-ZA">
+      <body>
+        <div className="min-h-screen flex flex-col items-center justify-center bg-canvas text-ink p-8">
+          <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-16 h-16 mb-6" />
+          <h1 className="text-4xl font-black tracking-tight text-ink mb-2">404</h1>
+          <p className="text-lg text-muted mb-8 text-center max-w-md">
+            This page does not exist in our resource library.
+          </p>
+          <Link
+            href="/"
+            className="px-6 py-3 bg-accent hover:bg-accent-dark text-black font-bold rounded-xl transition text-sm"
+          >
+            Return to Home
+          </Link>
+        </div>
+      </body>
+    </html>
   );
 }

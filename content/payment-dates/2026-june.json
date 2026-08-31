@@ -4,7 +4,7 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates June 2026",
   "description": "Confirmed SASSA payment dates for June 2026: Older Persons 3 June, Disability 4 June, Children's grants 5 June, SRD R370 from 25 June. Youth Day did not shift any date.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -28,7 +28,7 @@
       "title": "SASSA Payment Dates June 2026",
       "description": "June ran on the standard schedule: permanent grants in the first week, Youth Day (16 June) caused no changes, and SRD R370 batches started from Thursday 25 June.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "intro-h",
@@ -76,7 +76,13 @@
     {
       "id": "know-p1",
       "type": "paragraph",
-      "text": "Youth Day fell on Tuesday 16 June, comfortably between the permanent-grant window and the SRD batches, so no pay date moved. Collections in the first week proceeded normally at cards, banks and retail tills."
+      "text": "Youth Day fell on Tuesday 16 June, comfortably between the permanent-grant window and the SRD batches, so no pay date moved. Collections in the first week proceeded normally at cards, banks and retail tills.",
+      "links": [
+        {
+          "text": "the SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "know-p2",
@@ -122,6 +128,28 @@
         }
       ],
       "note": "Dates reflect the published June 2026 schedule."
+    },
+    {
+      "id": "related-pages-p68mu4",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        },
+        {
+          "title": "Disability Grant",
+          "href": "/grants/disability-grant"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     }
   ],
   "relatedPages": [

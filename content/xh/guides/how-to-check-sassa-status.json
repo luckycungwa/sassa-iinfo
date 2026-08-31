@@ -1,0 +1,220 @@
+{
+  "id": "guide-check-sassa-status",
+  "slug": "/guides/how-to-check-sassa-status",
+  "classification": "how-to-guide",
+  "title": "Indlela yokuKhangela iMeko yeNqanaba leSASSA",
+  "description": "Iindlela ezininzi zokukhangela isicelo senqanaba leSASSA okanye imeko yokukhokelwa nge-intanethi, nge-WhatsApp, ngekhodi yeUSSD, okanye kwi-ofisi yeSASSA.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Indlela yokuKhangela iMeko yeNqanaba leSASSA — Nge-intanethi, WhatsApp neUSSD",
+    "metaDescription": "Iindlela ezininzi zokukhangela imeko yenqanaba leSASSA: nge-intanethi ku srd.sassa.gov.za, nge-WhatsApp (082 046 8553), ngekhodi yeUSSD *134*7737#, okanye kwi-ofisi yeSASSA esecaleni.",
+    "keywords": [
+      "khangela imeko yeSASSA",
+      "ukuhlola imeko yeSASSA",
+      "ikhonkco leSASSA leWhatsApp",
+      "ikhodi yeSASSA USSD",
+      "imeko yesicelo seSASSA"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Indlela yokuKhangela iMeko yeNqanaba leSASSA",
+      "description": "Kukho iindlela ezininzi zokukhangela imeko yenqanaba leSASSA — nge-intanethi ngayo iportal yeSRD, ngurhwebo lweWhatsApp, ngekhodi yeUSSD, okanye ngobomi kwi-ofisi yeSASSA. Khetha indlela efanelekileyo kuwe.",
+      "readingTime": "4 ngqesho ukufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Bhalisa kwiPortal yeSRD",
+        "href": "/banking/how-to-register-for-srd-portal"
+      },
+      "secondaryCta": {
+        "label": "Indlela yokuFaka iSicelo",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela yokuKhangela iMeko yeNqanaba leSASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Unokukhangela isicelo senqanaba leSASSA okanye imeko yokukhokelwa usebenzisa nayiphi na yezi ndlela. Khetha leyo ifanelekileyo kuwe — bonke babonisa ulwazi olufanayo, ngoko akukho mpendulo efanelekileyo okanye engafanelekileyo. Iportal yeSRD nge-intanethi kukhawuleza kwaye inika ulunye ulwazi, kodwa ukuba unengxaki ngolwazi lwedatha okanye iiapp, urhwebo lweWhatsApp okanye ikhodi yeUSSD isebenza ngokufanayo.",
+      "links": []
+    },
+    {
+      "id": "why-check",
+      "type": "paragraph",
+      "text": "Kufuneka uhlange imeko yakho qho, hayi kanye kuphela. Inqanaba elivunyeliweyo linokuthi libe neengxaki kamva — ukuqinisekisa ibhanki eliboniswe ngokukhawuleza, ukuphindwa kokubonisa, okanye ukubamba ukuhlola okufuna ukunaka. Ukufumana ingxaki ngaphambili kunciphisa isihuziso kunokuyifumana ngosuku lokukhokelwa, ngoko ukuhlola kweveyisi kweveki kuthatha imizuzu emibini kwaye kukunceda ukugcina into eninzi.",
+      "links": [
+        {
+          "text": "isizathu sokuba imeko yakho inokubambeka",
+          "href": "/grants/srd-r370-grant-monthly-review"
+        }
+      ]
+    },
+    {
+      "id": "online-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 1: IPortal Nge-intanethi (Iyacetyiswa)"
+    },
+    {
+      "id": "online-text",
+      "type": "paragraph",
+      "text": "Tyelela ku srd.sassa.gov.za. Faka inombolo yakho yesazisi kunye nenombolo yocingo oyisebenzisileyo ngexesha lokufaka isicelo. Uza kufumana i-OTP nge-SMS ukufikelela kudeshibhodi yakho yemeko.",
+      "links": [
+        {
+          "text": "srd",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "online-tip",
+      "type": "paragraph",
+      "text": "Ngaphambi kokuqala, qinisekisa ukuba icingo ofaka ligqityiweyo lixhumaniswe nesicelo sakho. Ukuba utshintshile inombolo yakho yocingo emva kokufaka isicelo, i-OTP iyakufika — lungisa le nto ngaphambili ngenkqubo 'tshintsha inombolo yocingo', kungenjalo uza kubamba kuloo mfuno epheleleyo engafiki.",
+      "links": [
+        {
+          "text": "indlela yokuTshintsha inombolo yeSASSA",
+          "href": "/guides/change-srd-phone-number"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 2: Urhwebo lweSASSA lweWhatsApp"
+    },
+    {
+      "id": "whatsapp-text",
+      "type": "paragraph",
+      "text": "Gcina 082 046 8553 kwicingo lakho. Thumela 'SASSA' ukuze uqale. Landela imiyalelo ukuze uhlange ibhalansi yakho, usuku lokukhokelwa, okanye imeko yesicelo. Imahala kwiinkqubo ezininzi.",
+      "links": [
+        {
+          "text": "usuku lokukhokelwa",
+          "href": "/payment-dates"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-tip",
+      "type": "paragraph",
+      "text": "Le ndlela iyasiza ukuba usendleleni yeWhatsApp kakade. Iimenyu yokuxoxisana ikubonisa ngeenyathelo, kwaye akufuni ukukhumbula nayiphi na ikhodi okanye idilesi yewebhu. Phendula ngenombolo yekhethwe yakho. Enye into ekufuneka ukhumbule: iSASSA ayizukikuthumelela ngaphandle kwexesha ifuna i-PIN yakho okanye i-OTP — qala uxoxisano ngokwakho ngokuthumela 'SASSA'.",
+      "links": [
+        {
+          "text": "ukubona imiyalezo yeSASSA engeyiyona",
+          "href": "/guides/sassa-scam-alert-guide"
+        }
+      ]
+    },
+    {
+      "id": "ussd-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 3: IKhodi yeUSSD"
+    },
+    {
+      "id": "ussd-text",
+      "type": "paragraph",
+      "text": "Biza *134*7737# kucingo lwakho lwendawo. Landela imenyu ukuze uhlange imeko yenqanaba lakho. Iintlawulo ezijikelezileyo zikhuselo ziyasebenza."
+    },
+    {
+      "id": "ussd-tip",
+      "type": "paragraph",
+      "text": "I-USSD yenye indlela elungileyo yokubuyisela xa ungenicingo lakho elinodatha okanye iapp ngelo xesha. Isebenza kucingo lueliphi na, nalo libe lilula kakhulu. Iintlawulo ezijikelezileyo zikhuselo ziyasebenza, ngoko ayimahala njengoluhlu lweWhatsApp — kodwa iyaphila kwaye yenza umsebenzi.",
+      "links": [
+        {
+          "text": "zonke iikhodi zeSASSA USSD",
+          "href": "/banking/sassa-ussd-codes"
+        }
+      ]
+    },
+    {
+      "id": "office-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Indlela 4: Tyelela iOfisi yeSASSA"
+    },
+    {
+      "id": "office-text",
+      "type": "paragraph",
+      "text": "Zisa isazisi sakho kuyo nayiphi na iofisi yeSASSA. Iklerk inokukhangela imeko yakho inike ngoprinto xa kufuneka."
+    },
+    {
+      "id": "office-tip",
+      "type": "paragraph",
+      "text": "Ukuba ukuhlola nge-intanethi akusebenzi kwaye ukufuphi neofisi, le yindlela ethembekileyo. Hamba ngakusasa uze uzise ibhukhwe yakho yesazisi okanye ikhadi eliphilileyo. Ezinye iofisi zanamhlanje zinekhasi yokuzenzekela apho unokukhangela imeko yakho kwiskrini ngaphandle kokulinda iklerk — celisa abasebenzi kwi-ofisi yakho ukuba kukho ikhasi lokuzenzekela.",
+      "links": [
+        {
+          "text": "amakhasi yokuzenzekela kwiindawo zeSASSA",
+          "href": "/guides/srd-call-centre-kiosk-help"
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Yonke iNdlela ibonisa iMeko efanayo",
+      "text": "Iportal, iWhatsApp, iUSSD, kunye neofisi yeSASSA zonke zifunda kwingqinisiso efanayo. Ukuba enye indlela ibonisa 'kuraliwe' kwaye enye ibonisa into eyahlukileyo, yithembe imiphumela emtsha uze ulinde imini okanye emibini — iinkqubo zihlanganiswa ngokukhawuleza."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibuzo ebuzwa qho"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Kutheni imeko yam ibonisa 'kuraliwe' emva kweveki?",
+          "answer": "'Kuraliwe' kuthetha ukuba isicelo sakho siyahlolwa kwaye akukho sigqibo sisenzekileyo. Inokuhlala kwi 'kuraliwe' ixesha elide kwixesha elin密集, ngakumbi ngexesha lokubuyisa. Qhuba ukuhlola, kwaye ukuba kwadlula iintsuku ezi-90, xhumana neSASSA ku 0800 60 10 11 ukucela uvuselelwo."
+        },
+        {
+          "question": "Ndiyaphinda ndifumane imposiso xa ndizama ukungena kwiportal yeSRD. Kufanele ndenzoni?",
+          "answer": "Zama ezinye iindlela — urhwebo lweWhatsApp (082 046 8553) okanye iUSSD *134*7737#. Ukuba nezoz ziyaphuphlela, unokutyelela iofisi yeSASSA okanye ubize ku 0800 60 10 11. Imposiso yokungena kwiportal ngamanye amaxesha ziyaphuphlela, ngoko ukucima isikrini sebhrawuza kunye nokuzama kwakhona emva kwexesha elithile kunceda."
+        },
+        {
+          "question": "Ndingadinga idatha ukukhangela imeko yakho kwiWhatsApp?",
+          "answer": "Urhubwe lweSASSA lweWhatsApp luyimahala kwiinkqubo ezininzi, kunye noshishino olungenanto lwedatha lwabaphambili. Ukuba ukhathazeka ngodatha, ikhodi yeUSSD *134*7737# yenye indlela esebenza kunoma yiphi icala, nokuba iintlawulo ezijikelezileyo zingasebenza."
+        },
+        {
+          "question": "Umntu unokukhangela imeko yam endaweni yam?",
+          "answer": "Kuphela inombolo yakho yesazisi kunye nenombolo yocingo exhunyisiweyo efuneka kwiportal, ngoko umntu wasapho onalo ulwazi unokungena endaweni yakho. Ukuba uvumela umncedi ukusebenzisa ikhasi lokuzenzekela okanye ucela iklerk yeSASSA endaweni yakho, ngaluphi na icala ungabelani nge-OTP yakho — kwaye ube nokhuseleko olukhulu ngabantu otbhekisa kubo ngesazisi kunye nenombolo yocingo."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Indlela yokuFaka iSicelo seSASSA",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    },
+    {
+      "title": "Indlela yokuBhalisa kwiPortal yeSRD",
+      "slug": "/banking/how-to-register-for-srd-portal"
+    },
+    {
+      "title": "Inkqubo yeMeko",
+      "slug": "/status/pending"
+    },
+    {
+      "title": "Uncedo lweSRD: Iikhonti zeKholu namaKhasi",
+      "slug": "/guides/srd-call-centre-kiosk-help"
+    }
+  ]
+}

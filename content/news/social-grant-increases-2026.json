@@ -4,63 +4,231 @@
   "classification": "news-article",
   "title": "Social Grant Increases Announced for 2026",
   "description": "Annual social grant increases announced in the 2026 national budget. Older Person Grant rises to R2,400 per month.",
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "credentials": "Verified against official SASSA publications", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official SASSA publications",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "2026 Social Grant Increases — Full List of New Amounts",
     "metaDescription": "All SASSA social grant increases announced in the 2026 budget. Older Person R2,400, Disability R2,400, Child Support R580, SRD R370 unchanged. Effective April 2026.",
-    "keywords": ["SASSA grant increases 2026", "social grant amounts", "grant increase budget", "Older Person Grant R2400", "Child Support Grant R580"]
+    "keywords": [
+      "SASSA grant increases 2026",
+      "social grant amounts",
+      "grant increase budget",
+      "Older Person Grant R2400",
+      "Child Support Grant R580"
+    ]
   },
   "contentBlocks": [
-    { "id": "hero-1", "type": "hero", "title": "Social Grant Increases Announced for 2026", "description": "The Minister of Finance announced the annual social grant increases during the 2026 budget speech. Increases take effect from April 2026 and are applied automatically to all eligible beneficiaries.", "readingTime": "7 min read", "lastUpdated": "2026-07-29" },
-    { "id": "h1", "type": "heading", "level": 2, "text": "2026 Budget: What Changed for Grant Beneficiaries" },
-    { "id": "p1", "type": "paragraph", "text": "The Minister of Finance presented the 2026 national budget on 19 February 2026, confirming the annual adjustments to social grant amounts. The increases take effect from 1 April 2026 and are applied automatically — beneficiaries do not need to take any action." },
-    { "id": "p2", "type": "paragraph", "text": "This year's increases are slightly above inflation, with most grants rising by between 5% and 6%. The SRD R370 grant, however, remains at R370 per month with no increase for the 2026/27 financial year." },
-    { "id": "h2", "type": "heading", "level": 2, "text": "New Monthly Grant Amounts from April 2026" },
-    { "id": "list1", "type": "list", "ordered": false, "items": [
-      "Older Person Grant (60-74 years): R2,400 per month (previously R2,290)",
-      "Older Person Grant (75+ years): R2,420 per month (previously R2,310)",
-      "Disability Grant: R2,400 per month (previously R2,290)",
-      "Foster Care Grant: R1,295 per month (previously R1,230)",
-      "Child Support Grant: R580 per month (previously R550)",
-      "Care Dependency Grant: R2,400 per month (previously R2,290)",
-      "War Veterans Grant: R2,420 per month (previously R2,310)",
-      "Grant-in-Aid: R580 per month (previously R550)",
-      "SRD R370 Grant: R370 per month (unchanged)"
-    ] },
-    { "id": "callout1", "type": "callout", "intent": "info", "title": "Increases Are Automatic — No Action Needed", "text": "You do not need to apply for the increase, visit a SASSA office, or submit any documents. The new amounts will reflect in your April 2026 payment automatically. If you receive your grant via bank transfer, the increased amount will be deposited on your usual payment date." },
-    { "id": "h3", "type": "heading", "level": 3, "text": "Why Was the SRD R370 Not Increased?" },
-    { "id": "p3", "type": "paragraph", "text": "The SRD R370 grant has remained at R370 since May 2023. Treasury cited fiscal constraints as the main reason for not increasing the SRD amount. The SRD grant is classified as a temporary relief measure rather than a permanent social grant, which means it is not subject to the same annual inflation adjustments as permanent grants." },
-    { "id": "p4", "type": "paragraph", "text": "Civil society groups have criticised the decision, arguing that R370 is below the food poverty line of R796 per person per month. The government has indicated that the proposed Basic Income Grant, if implemented, would address this gap." },
-    { "id": "h4", "type": "heading", "level": 3, "text": "Breakdown by Grant Type" },
-    { "id": "h5", "type": "heading", "level": 3, "text": "Older Person Grant" },
-    { "id": "p5", "type": "paragraph", "text": "The Older Person Grant increases to R2,400 per month for beneficiaries aged 60 to 74, and R2,420 for those aged 75 and older. This is an increase of R110 for the 60-74 group and R110 for the 75+ group. The higher amount for the older cohort reflects the additional care needs of older beneficiaries." },
-    { "id": "h6", "type": "heading", "level": 3, "text": "Disability Grant" },
-    { "id": "p6", "type": "paragraph", "text": "The Disability Grant rises to R2,400 per month, matching the Older Person Grant amount. This R110 increase applies to all Disability Grant beneficiaries, regardless of age. Beneficiaries on temporary disability grants will receive the increased amount for the duration of their grant validity." },
-    { "id": "h7", "type": "heading", "level": 3, "text": "Child Support Grant" },
-    { "id": "p7", "type": "paragraph", "text": "The Child Support Grant increases from R550 to R580 per month — a R30 increase per child. For a caregiver with three children, the monthly total moves from R1,650 to R1,740. The Foster Care Grant rises by R65 to R1,295, and the Care Dependency Grant increases by R110 to R2,400." },
-    { "id": "callout2", "type": "callout", "intent": "warning", "title": "Beware of Scammers", "text": "SASSA will never call or SMS you asking for payment to receive your grant increase. The increases are automatic and free. If anyone asks you to pay money to unlock a higher grant amount, it is a scam. Report suspicious activity to SASSA on 0800 60 10 11." },
-    { "id": "faq1", "type": "faq", "faqs": [
-      { "question": "When do the new grant amounts start?", "answer": "All increases take effect from 1 April 2026. Your first payment at the new rate will be deposited in April 2026 on your usual payment date." },
-      { "question": "Do I need to apply for the increase?", "answer": "No. The increases are applied automatically to all eligible beneficiaries. You do not need to submit any forms or visit a SASSA office." },
-      { "question": "Why did the SRD R370 not increase?", "answer": "The SRD is a temporary relief measure, not a permanent social grant. It is not subject to annual inflation adjustments. The amount remains R370 per month until government decides otherwise." },
-      { "question": "Will the Foster Care Grant increase affect my other grants?", "answer": "No. Each grant is independent. Increases to one grant do not affect the amount or eligibility of other grants you may receive." },
-      { "question": "What if my April payment is still at the old rate?", "answer": "If your April 2026 payment reflects the old amount, wait 1-2 business days as bank processing may cause delays. If the issue persists beyond 5 April, contact SASSA on 0800 60 10 11." }
-    ] },
-    { "id": "div1", "type": "divider" },
-    { "id": "link1", "type": "link-grid", "links": [
-      { "title": "SASSA Grant Amounts Guide", "href": "/guides/sassa-grant-amounts", "description": "Full list of all grant amounts" },
-      { "title": "Older Person Grant", "href": "/grants/older-person-grant", "description": "Eligibility and application details" },
-      { "title": "Disability Grant Guide", "href": "/grants/disability-grant", "description": "Medical assessment requirements" },
-      { "title": "Child Support Grant", "href": "/grants/child-support-grant", "description": "Means test and application process" }
-    ] }
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "title": "Social Grant Increases Announced for 2026",
+      "description": "The Minister of Finance announced the annual social grant increases during the 2026 budget speech. Increases take effect from April 2026 and are applied automatically to all eligible beneficiaries.",
+      "readingTime": "7 min read",
+      "lastUpdated": "2026-08-25"
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "2026 Budget: What Changed for Grant Beneficiaries"
+    },
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "text": "The Minister of Finance presented the 2026 national budget on 19 February 2026, confirming the annual adjustments to social grant amounts. The increases take effect from 1 April 2026 and are applied automatically — beneficiaries do not need to take any action."
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "text": "This year's increases are slightly above inflation, with most grants rising by between 5% and 6%. The SRD R370 grant, however, remains at R370 per month with no increase for the 2026/27 financial year.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "h2",
+      "type": "heading",
+      "level": 2,
+      "text": "New Monthly Grant Amounts from April 2026"
+    },
+    {
+      "id": "list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Older Person Grant (60-74 years): R2,400 per month (previously R2,290)",
+        "Older Person Grant (75+ years): R2,420 per month (previously R2,310)",
+        "Disability Grant: R2,400 per month (previously R2,290)",
+        "Foster Care Grant: R1,295 per month (previously R1,230)",
+        "Child Support Grant: R580 per month (previously R550)",
+        "Care Dependency Grant: R2,400 per month (previously R2,290)",
+        "War Veterans Grant: R2,420 per month (previously R2,310)",
+        "Grant-in-Aid: R580 per month (previously R550)",
+        "SRD R370 Grant: R370 per month (unchanged)"
+      ]
+    },
+    {
+      "id": "callout1",
+      "type": "callout",
+      "intent": "info",
+      "title": "Increases Are Automatic — No Action Needed",
+      "text": "You do not need to apply for the increase, visit a SASSA office, or submit any documents. The new amounts will reflect in your April 2026 payment automatically. If you receive your grant via bank transfer, the increased amount will be deposited on your usual payment date."
+    },
+    {
+      "id": "h3",
+      "type": "heading",
+      "level": 3,
+      "text": "Why Was the SRD R370 Not Increased?"
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "text": "The SRD R370 grant has remained at R370 since May 2023. Treasury cited fiscal constraints as the main reason for not increasing the SRD amount. The SRD grant is classified as a temporary relief measure rather than a permanent social grant, which means it is not subject to the same annual inflation adjustments as permanent grants."
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "text": "Civil society groups have criticised the decision, arguing that R370 is below the food poverty line of R796 per person per month. The government has indicated that the proposed Basic Income Grant, if implemented, would address this gap."
+    },
+    {
+      "id": "h4",
+      "type": "heading",
+      "level": 3,
+      "text": "Breakdown by Grant Type"
+    },
+    {
+      "id": "h5",
+      "type": "heading",
+      "level": 3,
+      "text": "Older Person Grant"
+    },
+    {
+      "id": "p5",
+      "type": "paragraph",
+      "text": "The Older Person Grant increases to R2,400 per month for beneficiaries aged 60 to 74, and R2,420 for those aged 75 and older. This is an increase of R110 for the 60-74 group and R110 for the 75+ group. The higher amount for the older cohort reflects the additional care needs of older beneficiaries."
+    },
+    {
+      "id": "h6",
+      "type": "heading",
+      "level": 3,
+      "text": "Disability Grant"
+    },
+    {
+      "id": "p6",
+      "type": "paragraph",
+      "text": "The Disability Grant rises to R2,400 per month, matching the Older Person Grant amount. This R110 increase applies to all Disability Grant beneficiaries, regardless of age. Beneficiaries on temporary disability grants will receive the increased amount for the duration of their grant validity."
+    },
+    {
+      "id": "h7",
+      "type": "heading",
+      "level": 3,
+      "text": "Child Support Grant"
+    },
+    {
+      "id": "p7",
+      "type": "paragraph",
+      "text": "The Child Support Grant increases from R550 to R580 per month — a R30 increase per child. For a caregiver with three children, the monthly total moves from R1,650 to R1,740. The Foster Care Grant rises by R65 to R1,295, and the Care Dependency Grant increases by R110 to R2,400.",
+      "links": [
+        {
+          "text": "Foster Care Grant",
+          "href": "/grants/foster-care-grant"
+        },
+        {
+          "text": "Care Dependency Grant",
+          "href": "/grants/care-dependency-grant"
+        }
+      ]
+    },
+    {
+      "id": "callout2",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Beware of Scammers",
+      "text": "SASSA will never call or SMS you asking for payment to receive your grant increase. The increases are automatic and free. If anyone asks you to pay money to unlock a higher grant amount, it is a scam. Report suspicious activity to SASSA on 0800 60 10 11."
+    },
+    {
+      "id": "faq1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "When do the new grant amounts start?",
+          "answer": "All increases take effect from 1 April 2026. Your first payment at the new rate will be deposited in April 2026 on your usual payment date."
+        },
+        {
+          "question": "Do I need to apply for the increase?",
+          "answer": "No. The increases are applied automatically to all eligible beneficiaries. You do not need to submit any forms or visit a SASSA office."
+        },
+        {
+          "question": "Why did the SRD R370 not increase?",
+          "answer": "The SRD is a temporary relief measure, not a permanent social grant. It is not subject to annual inflation adjustments. The amount remains R370 per month until government decides otherwise."
+        },
+        {
+          "question": "Will the Foster Care Grant increase affect my other grants?",
+          "answer": "No. Each grant is independent. Increases to one grant do not affect the amount or eligibility of other grants you may receive."
+        },
+        {
+          "question": "What if my April payment is still at the old rate?",
+          "answer": "If your April 2026 payment reflects the old amount, wait 1-2 business days as bank processing may cause delays. If the issue persists beyond 5 April, contact SASSA on 0800 60 10 11."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Grant Amounts Guide",
+          "href": "/guides/sassa-grant-amounts",
+          "description": "Full list of all grant amounts"
+        },
+        {
+          "title": "Older Person Grant",
+          "href": "/grants/older-person-grant",
+          "description": "Eligibility and application details"
+        },
+        {
+          "title": "Disability Grant Guide",
+          "href": "/grants/disability-grant",
+          "description": "Medical assessment requirements"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant",
+          "description": "Means test and application process"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "SASSA Grant Amounts", "slug": "/guides/sassa-grant-amounts" },
-    { "title": "Older Person Grant", "slug": "/grants/older-person-grant" },
-    { "title": "Disability Grant", "slug": "/grants/disability-grant" },
-    { "title": "Child Support Grant", "slug": "/grants/child-support-grant" }
+    {
+      "title": "SASSA Grant Amounts",
+      "slug": "/guides/sassa-grant-amounts"
+    },
+    {
+      "title": "Older Person Grant",
+      "slug": "/grants/older-person-grant"
+    },
+    {
+      "title": "Disability Grant",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    }
   ]
 }

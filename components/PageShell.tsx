@@ -1,7 +1,8 @@
 ﻿'use client';
 
-import { ShieldCheck, Calendar, UserCheck, ArrowRight, BookOpen } from "lucide-react";
+import { ShieldCheck, Calendar, ArrowRight, BookOpen } from "lucide-react";
 import Link from "next/link";
+import Byline from "./Byline";
 
 interface PageShellProps {
   page: {
@@ -18,7 +19,7 @@ interface PageShellProps {
 }
 
 export default function PageShell({ page, children }: PageShellProps) {
-  const { title, description, lastUpdated, version, author, relatedPages, classification } = page;
+  const { title, description, lastUpdated, version, relatedPages, classification } = page;
 
   return (
     <article className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 md:py-8 space-y-8 bg-canvas" id={"page-shell-" + page.id}>
@@ -36,21 +37,8 @@ export default function PageShell({ page, children }: PageShellProps) {
       </nav>
 
       {/* Author & Meta Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-border">
-        <div className="flex items-center gap-3 bg-surface border border-border rounded-lg p-3">
-          <div className={"w-9 h-9 rounded-full flex items-center justify-center font-black text-sm " + (author.verified ? "bg-gold text-accent-foreground" : "bg-surface-dim text-muted")}>
-            {author.name.charAt(0)}
-          </div>
-          <div>
-            <div className="flex items-center gap-1.5">
-              <span className="text-sm font-bold text-ink">{author.name}</span>
-              {author.verified && <UserCheck className="w-3.5 h-3.5 text-accent-dark" />}
-            </div>
-            <p className="text-xs text-muted font-mono">
-              {author.role}{author.credentials ? " \u2022 " + author.credentials : ""}
-            </p>
-          </div>
-        </div>
+      <div className="flex flex-wrap items-start justify-between gap-4 pb-6 border-b border-border">
+        <Byline />
         <div className="flex items-center gap-4 text-xs text-muted font-mono bg-surface-dim/30 px-3 py-2 rounded-lg border border-border">
           <span className="flex items-center gap-1.5">
             <Calendar className="w-3.5 h-3.5" />

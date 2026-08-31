@@ -27,8 +27,8 @@ export const grants: Grant[] = [
       "Must be 60 years or older.",
       "Must not live in a state-funded institution (e.g., state old age home).",
       "Must not receive another social grant for yourself.",
-      "Means Test (Single): Annual income must be below R96,240; assets must be below R1,372,800.",
-      "Means Test (Married): Combined annual income must be below R192,480; combined assets must be below R2,745,600."
+      "Means Test (Single): Annual income must be below R112,200; assets must be below R1,584,000.",
+      "Means Test (Married): Combined annual income must be below R224,400; combined assets must be below R3,168,000."
     ],
     documentsRequired: [
       "Original 13-digit barcoded Smart Card ID or green ID book.",
@@ -47,7 +47,7 @@ export const grants: Grant[] = [
     faqs: [
       {
         question: "Can I get the pension if I am still working?",
-        answer: "Yes, provided your total earnings from your employment fall below the means test threshold (under R96,240 per year for a single person)."
+        answer: "Yes, provided your total earnings from your employment fall below the means test threshold (under R112,200 per year for a single person)."
       },
       {
         question: "Does the pension increase automatically every year?",
@@ -60,7 +60,7 @@ export const grants: Grant[] = [
     slug: "child-support-grant",
     title: "Child Support Grant",
     amount: "R580",
-    frequency: "Monthly per child (plus R250 Top-Up for orphaned children)",
+    frequency: "Monthly per child (an additional top-up may apply for orphaned children — confirm the current amount with SASSA)",
     targetGroup: "Primary caregivers of children under the age of 18.",
     overview: "The SASSA Child Support Grant is aimed at lower-income caregivers to help cover the basic food, clothing, and schooling needs of children living in South Africa.",
     eligibilityCriteria: [
@@ -68,8 +68,8 @@ export const grants: Grant[] = [
       "Both the caregiver and the child must live in South Africa.",
       "The child must be under 18 years of age.",
       "Must not be a foster parent (foster parents should apply for the Foster Care Grant instead).",
-      "Means Test (Single): Caregiver's annual income must not exceed R63,600.",
-      "Means Test (Married): Combined annual income must not exceed R127,200."
+      "Means Test (Single): Caregiver's annual income must not exceed R69,600.",
+      "Means Test (Married): Combined annual income must not exceed R139,200."
     ],
     documentsRequired: [
       "Caregiver's original ID document.",
@@ -91,7 +91,7 @@ export const grants: Grant[] = [
       },
       {
         question: "What is the Child Support Grant Top-Up?",
-        answer: "It is an additional R250 added to the basic R580 (total R830) specifically for orphans or children living with relatives to avoid having to go through the lengthy court process of a Foster Care Grant."
+        answer: "It is an additional top-up added to the basic R580 for orphaned children or children living with relatives, to avoid having to go through the lengthy court process of a Foster Care Grant. The exact amount changes over time and is subject to public debate, so confirm the current figure with SASSA."
       }
     ]
   },
@@ -108,8 +108,8 @@ export const grants: Grant[] = [
       "Must be aged 18 to 59 years.",
       "Must submit a medical assessment report from a SASSA-approved doctor (medical must be less than 3 months old).",
       "The disability must prevent you from working.",
-      "Means Test (Single): Annual income under R96,240; assets under R1,372,800.",
-      "Means Test (Married): Combined income under R192,480; assets under R2,745,600."
+      "Means Test (Single): Annual income under R112,200; assets under R1,584,000.",
+      "Means Test (Married): Combined income under R224,400; assets under R3,168,000."
     ],
     documentsRequired: [
       "Applicant's original ID.",
@@ -212,7 +212,7 @@ export const grants: Grant[] = [
       "The child must be under 18 years.",
       "A medical report from a SASSA medical officer must confirm the child's severe, permanent disability and need for permanent care.",
       "Must not be cared for in a state-run institution.",
-      "Means Test: Caregiver's annual income must be below R249,600 (Single) or R499,200 (Married/Combined)."
+      "Means Test: Caregiver's annual income must be below R288,000 (Single) or R576,000 (Married/Combined)."
     ],
     documentsRequired: [
       "Caregiver's original ID.",
@@ -245,8 +245,8 @@ export const grants: Grant[] = [
       "Must be a South African citizen or permanent resident.",
       "Must have fought in WWI, WWII, or the Korean War.",
       "Must be 60 years or older, or disabled.",
-      "Means Test (Single): Annual income below R96,240; assets under R1,372,800.",
-      "Means Test (Married): Combined income below R192,480; assets under R2,745,600."
+      "Means Test (Single): Annual income below R112,200; assets under R1,584,000.",
+      "Means Test (Married): Combined income below R224,400; assets under R3,168,000."
     ],
     documentsRequired: [
       "Applicant's ID.",

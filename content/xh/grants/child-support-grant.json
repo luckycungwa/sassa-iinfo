@@ -1,0 +1,901 @@
+{
+  "id": "grant-child-support",
+  "slug": "/grants/child-support-grant",
+  "classification": "grant-detail",
+  "title": "Isibonelelo seChild Support Grant",
+  "description": "Isibonelelo se-Child Support Grant seSASSA sinikezela nge-R580 ngenyanga ngomntwana omnye kubaxhamli abahlangabezana neemfuno zovavanyo lwengeniso.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "readingTime": "12 umzuzu wokufunda",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Isibonelelo seChild Support Grant — R580/Ngenyanga & Indlela Yokufaka Isicelo (2026)",
+    "metaDescription": "Isibonelelo se-Child Support Grant sihlawula i-R580/ngenyanga ngo-2026. Jonga ukufaneleka novavanyo lwengeniso, uze ulandele isikhokelo sethu seSASSA sokufaka isicelo ngomntwana wakho.",
+    "keywords": [
+      "isibonelelo sechild support",
+      "isibonelelo somntwana seSASSA",
+      "isibonelelo somntwana eMzantsi Afrika",
+      "ingeniso yovavanyo lwengeniso",
+      "isicelo se-CSG"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Child Support Grant"
+    }
+  },
+  "sources": [
+    {
+      "label": "Iwebhusayithi Esemthethweni YeSASSA",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "ISebe Lezentlalo Nophuhliso",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "UPhononongo LweBhajethi KaNondyebo Yesizwe 2026",
+      "url": "https://www.treasury.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Isibonelelo seChild Support Grant",
+      "description": "Isikhokelo esipheleleyo kwi-Child Support Grant yeSASSA: i-R580 ngomntwana, imida yovavanyo lwengeniso, into ebalwa njengengeniso, amaxwebhu afunekayo, amanyathelo okufaka isicelo, kunye nezibheno.",
+      "readingTime": "12 umzuzu wokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Jonga Ukufaneleka",
+        "href": "/eligibility"
+      },
+      "secondaryCta": {
+        "label": "Indlela Yokufaka Isicelo",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R580 ngenyanga ngomntwana",
+      "frequency": "Ngenyanga (isongezo esongezelelweyo sisenokusebenza kubantwana abazintandane — qinisekisa isixa-mali sangoku neSASSA)",
+      "targetGroup": "Abakhathaleli abangabantloko babantwana abangaphantsi kweminyaka eyi-18 abahlangabezana neemfuno zovavanyo lwengeniso."
+    },
+    {
+      "id": "intro-paragraph",
+      "type": "paragraph",
+      "text": "Isibonelelo se-Child Support Grant seSASSA sesona sibonelelo sentlalo sifikeleleka kakhulu eMzantsi Afrika. Sinikezela ngentlawulo yanyanga yokunceda abakhathaleli ukuba babeke iindleko zokukhulisa umntwana. Ukuba ungumkhathaleli oyintloko womntwana ongaphantsi kweminyaka eyi-18 kwaye ingeniso yakho ingaphantsi komda wovavanyo lwengeniso, mhlawumbi uyafaneleka.",
+      "links": [
+        {
+          "text": "uvavanyo lwengeniso",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
+    },
+    {
+      "id": "child-topup-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Isongezo se-Child Support Grant koMntwana oyiNtandane"
+    },
+    {
+      "id": "child-topup-paragraph",
+      "type": "paragraph",
+      "text": "Ukuba umntwana uphulukene nabazali bobabini, okanye bobabini abazali basesentolongweni, kwiziko lezempilo zengqondo, okanye abanakulandelwa, usenokufaneleka kwi-Child Support Grant Top-Up. Oku kuhlawula isongezo esongezelelweyo phezu kwe-R580 eqhelekileyo. Isixa-mali esichanekileyo sitshintshile ngokuhamba kwexesha kwaye sixhomekeke kwiingxoxo zasesidlangalaleni, ngoko qinisekisa inani langoku neSASSA phambi kokuba lincike kulo."
+    },
+    {
+      "id": "eligibility-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Iindlela Zokufaneleka"
+    },
+    {
+      "id": "eligibility",
+      "type": "eligibility-checklist",
+      "checklist": [
+        "Kufuneka ube ngumkhathaleli oyintloko womntwana (umzali wobuntwana, utatomkhulu, isihlobo, okanye nabani na omkhathalelayo).",
+        "Umntwana kufuneka abe ngaphantsi kweminyaka eyi-18.",
+        "Kufuneka ube ngummi waseMzantsi Afrika, umhlali osisigxina, okanye imbaleki.",
+        "Kufuneka uhlangabezane novavanyo lwengeniso: abakhathaleli abangatshatanga abafumana i-R69,600 okanye ngaphantsi ngonyaka (malunga ne-R5,800 ngenyanga), okanye izibini ezitshatileyo ezifumana i-R139,200 okanye ngaphantsi kwedityanisiweyo (malunga ne-R11,600 ngenyanga).",
+        "Umntwana kufuneka ahlale nawe eMzantsi Afrika.",
+        "Kufuneka ungahlawulwa umvuzo wokumkhathalela (umzekelo, isibonelelo somzali wokondla sahlukile)."
+      ],
+      "restrictions": [
+        "Awunakulifumana isibonelelo sabantwana abangaphezu kwabathandathu ngaxesha nye.",
+        "Umntwana akanakukhathalelwa kwiziko elixhaswa ngurhulumente ngaphezu kweenyanga ezintandathu.",
+        "Awunakufumana esinye isibonelelo somntwana ofanayo.",
+        "Umntwana kufuneka angatshati okanye angahlali ngokuzimeleyo."
+      ],
+      "recommendedGrants": [
+        {
+          "name": "Isibonelelo somntwana oFoster",
+          "slug": "/grants/foster-care-grant",
+          "amount": "R1,295"
+        },
+        {
+          "name": "Isibonelelo soKhathalelo loMntwana oXhomekekileyo",
+          "slug": "/grants/care-dependency-grant",
+          "amount": "R2,400"
+        }
+      ]
+    },
+    {
+      "id": "means-test-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Yintoni Ebalwa Njengengeniso Kuvavanyo Lwengeniso?"
+    },
+    {
+      "id": "means-test-intro",
+      "type": "paragraph",
+      "text": "Enye yezona zinto zididayo kwisicelo se-Child Support Grant luvavanyo lwengeniso. Abakhathaleli abaninzi abaqinisekanga ukuba ingaba kufuneka ixelwe na ingeniso engacwangciswanga. Impendulo emfutshane: ewe, uninzi lwengeniso luyabalwa. ISASSA ifuna ukwazi ngalo mthombo wonke wemali engena ekhayeni lakho, nokuba ayiqhelekanga okanye ihlawulwa ngekheshi. Apha ngezantsi kukho uhlalutyo lokuba yintoni ebandakanyiweyo nengabandakanywanga."
+    },
+    {
+      "id": "means-test-table",
+      "type": "table",
+      "headers": [
+        "Uhlobo Lwengeniso",
+        "Iyabalwa?",
+        "Umzekelo Wokusetyenziswa"
+      ],
+      "rows": [
+        [
+          "Umvuzo okanye imivuzo esemthethweni",
+          "Ewe",
+          "Umsebenzi wexeshana okanye osisigxina ngepayslip eqhelekileyo."
+        ],
+        [
+          "Imisebenzi yamaqhekeza kunye nomsebenzi wecasual",
+          "Ewe",
+          "Ukwenza igadi, umsebenzi wasekhaya, imisebenzi yemihla, okanye nawuphi na umsebenzi we-ad-hoc ohlawulwa ngekheshi."
+        ],
+        [
+          "Iitiphu kunye nezibabalo",
+          "Ewe",
+          "Iitiphu zokunceda etafileni, ukuhlamba iimoto, ukujonga iimoto, okanye umsebenzi wokuthumela."
+        ],
+        [
+          "Isondlo esivela komnye umzali",
+          "Ewe",
+          "Isondlo somntwana esimiselwe yinkundla okanye isixa-mali esivunyiweyo sanyanga."
+        ],
+        [
+          "Uncedo oluqhelekileyo olusuka kusapho",
+          "Ewe",
+          "Izipho zekheshi zanyanya ezivela kumzali, usibali, okanye isihlobo ukunceda ngamabhili."
+        ],
+        [
+          "Ingeniso yomsebenzi omncinci okanye wespaza",
+          "Ewe",
+          "Inzuzo yokuthengisa iimpahla, ukuqhuba ishishini laselokishini, okanye ukuthengisa ezitalatweni."
+        ],
+        [
+          "Esinye isibonelelo seSASSA egameni lakho",
+          "Hayi",
+          "Isibonelelo sakho saBantu abaDala, sokuKhubazeka, okanye esinye isibonelelo seSASSA."
+        ],
+        [
+          "Izixa-mali eziphoswayo ezisemthethweni",
+          "Ayibalwa",
+          "Intlawulo ye-UIF ekhethekileyo, ibhonasi, okanye ilifa elifunyenwe kanye."
+        ]
+      ],
+      "caption": "Indlela iintlobo ezahlukeneyo zengeniso ezichaphazela ngayo uvavanyo lwengeniso"
+    },
+    {
+      "id": "means-test-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Xela yonke into",
+      "text": "ISASSA ingacela iinkcazo-mali zebhanki kwaye inokutyelela ikhaya lakho ukuqinisekisa imeko yakho yezemali. Ukuba ubanjwa ufihla ingeniso, isibonelelo sakho sinokuyekwa kwaye usenokucelwa ukuba ubuyisele imali oyifumeneyo. Kuhlale kulungile ukuxela yonke ingeniso, nokuba ayiqhelekanga okanye ihlawulwa ngekheshi."
+    },
+    {
+      "id": "docs-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Amaxwebhu Afunekayo"
+    },
+    {
+      "id": "docs",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "IKhadi le-Smart ID lakho okuqala linamacala ase-13 kwaye linemithende, okanye incwadi eluhlaza yesazisi",
+          "required": true,
+          "notes": "Izazisi zexeshana azamkelwa."
+        },
+        {
+          "label": "Isatifiketi sokuzalwa somntwana (oqobo)",
+          "required": true,
+          "notes": "Ukuba umntwana akanaso isatifiketi sokuzalwa, yiza nesibhengezo esifungelweyo kunye nobungqina bokufaka isicelo kwi-Home Affairs."
+        },
+        {
+          "label": "Ubungqina bengeniso (iipayslips, iinkcazo-mali zebhanki, okanye isibhengezo ukuba akukho msebenzi)",
+          "required": true,
+          "notes": "Iinkcazo zeenyanga ezintathu ezidlulileyo ukuba unayo iakhawunti yebhanki."
+        },
+        {
+          "label": "Ubungqina bokuhlala (ibhili yasekusini, isivumelwano serenta, okanye ileta evela kucala wadi)",
+          "required": true,
+          "notes": "Kufuneka ibonise idilesi yakho yangoku yesiqu."
+        },
+        {
+          "label": "Ubungqina besimo somtshato (isatifiketi somtshato, umyalelo woqhawulo-mtshato, okanye isatifiketi sokufa somlingane)",
+          "required": false,
+          "notes": "Ifuneka kuphela ukuba utshatile okanye wakhe watshata."
+        },
+        {
+          "label": "Ingxelo yesikolo okanye ikhadi lekliniki lomntwana",
+          "required": false,
+          "notes": "Iyanceda ukuqinisekisa ubudala bomntwana kunye nokuba uya esikolweni okanye utyelelo lwekliniki."
+        }
+      ]
+    },
+    {
+      "id": "steps-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokufaka Isicelo"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Qokelela amaxwebhu akho",
+          "description": "Qokelela onke amaxwebhu oqobo adweliswe ngasentla kwaye wenze iikopi. ISASSA ayizukwamkela izazisi eziphelelweyo okanye izibhengezo ezingatyikitywanga."
+        },
+        {
+          "title": "Ngenela iofisi yakho yeSASSA ekufutshane",
+          "description": "Yiya kwiofisi yeSASSA esebenza kwindawo yakho. Ungafumana eyona ofisi ikufutshane nawe kwiwebhusayithi yeSASSA okanye ngokubuza kweyona Thusong Service Centre ikufutshane."
+        },
+        {
+          "title": "Gqibezela ifom yesicelo",
+          "description": "Igosa leSASSA liya kukunceda ugcwalise ifom yesicelo. Kuya kufuneka unikezele ngeenkcukacha zengeniso yasekhaya, zomntwana, kunye nomnye umzali womntwana ukuba uyaziwa."
+        },
+        {
+          "title": "Yenza iminwe kwaye uthathe ifoto",
+          "description": "ISASSA iya kuthatha iminwe yakho kunye nefoto njengenxalenye yenkqubo yesicelo. Umntwana usenokufuneka abekhona."
+        },
+        {
+          "title": "Linda umphumo",
+          "description": "ISASSA ineventeni nama-3 enyanga ukuqhuba isicelo sakho. Iintlawulo zibuyiselwa emva kumhla ofaka isicelo, ngoko gcina irisithi yakho endaweni ekhuselekileyo."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-caregiver-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukufaneleka Okunzulu: Ngubani Obalwa Njengomkhathaleli?"
+    },
+    {
+      "id": "deepdive-caregiver-p1",
+      "type": "paragraph",
+      "text": "Isibonelelo se-Child Support Grant sihlawulwa kumkhathaleli oyintloko womntwana, hayi ngokuzenzekelayo kumzali. ISASSA igxile ekubeni ngubani okhathalela umntwana imihla ngemihla. Lo ngumahluko obalulekileyo kuba umzali wobuntwana ongahlaliyo nomntwana usenokungenguye onokufaneleka, ngoxa utatomkhulu, isihlobo, okanye nokuba ngumntu ongesosihlobo umkhathalelayo, enokufaneleka."
+    },
+    {
+      "id": "deepdive-caregiver-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Kufuneka ube ngumkhathaleli oyintloko: umntu onoxanduva olukhulu kwimihla ngemihla yokhathalelo lomntwana, ukutya, iimpahla, nendawo yokuhlala.",
+        "Ungangumzali wobuntwana, utatomkhulu, usibali omdala, umalume, udadobawo, okanye nasiphi na isihlobo okanye umntu ofanelekileyo omkhathalelayo.",
+        "Kufuneka ube ngummi waseMzantsi Afrika, umhlali osisigxina, okanye imbaleki ebonakalayo ehlala eMzantsi Afrika.",
+        "Umntwana kufuneka ahlale nawe eMzantsi Afrika njengenxalenye yeakhawunti yakho yasekhaya.",
+        "Kufuneka ungahlawulwa umvuzo wokumkhathalela (umzekelo, isibonelelo esingqalileyo sokondla ngowe-Foster sisisibonelelo esahlukileyo).",
+        "Isibonelelo sihamba nomntwana, hayi umkhathaleli. Ukuba umntwana ufudukela kuhlala nomnye umntu, isibonelelo sinokuthuthwa kumkhathaleli omtsha oyintloko."
+      ]
+    },
+    {
+      "id": "deepdive-follows-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Isibonelelo sihamba nomntwana",
+      "text": "Ukuba ukunakekelwa komntwana kutshintshela kwabanye, isibonelelo sithunyelwa kumkhathaleli omtsha oyintloko kunokuba simisiwe. ISASSA iya kuqinisekisa ilungiselelo elifanelekileyo lokuhlala phambi kokuba isuse intlawulo."
+    },
+    {
+      "id": "deepdive-arrangements-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ubudala Bomntwana Nokulungiselelwa Kokuhlala"
+    },
+    {
+      "id": "deepdive-arrangements-p1",
+      "type": "paragraph",
+      "text": "Umntwana kufuneka abe ngaphantsi kweminyaka eyi-18. Isibonelelo senzelwe ukuxhasa abantwana abasaxhomekeke kwaye bahlala kwimeko yosapho okanye yasekhaya. Umntwana otshatileyo, ohlala ngokuzimeleyo ngokupheleleyo, okanye okwi-iziko elixhaswa ngurhulumente ngokusisigxina, ngokuqhelekileyo akafaneleki."
+    },
+    {
+      "id": "deepdive-arrangements-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ngaphantsi kweminyaka eyi-18: Umntwana kufuneka abe ngaphantsi kweminyaka eyi-18 xa isibonelelo sihlawulwa.",
+        "Uhlala nawe: Umntwana kufuneka abelane ngekhaya lakho. Ukutyelela rhoqo komnye umzali akuphelisi isibonelelo.",
+        "Akukho kwiziko likarhulumente: Ukuba umntwana ukhathalelwa kwiziko elixhaswa ngurhulumente ngaphezu kweenyanga ezintandathu, isibonelelo ngokuqhelekileyo siyayeka.",
+        "Ukuya esikolweni nawasekliniki: ISASSA ilindele ukuba abantwana bakwiminyaka yesikolo baye esikolweni (okanye iityelelo zekliniki kubantwana abancinci) kwaye isenokucela ubungqina."
+      ]
+    },
+    {
+      "id": "deepdive-foster-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isibonelelo se-Child Support Vs Isibonelelo somntwana oFoster"
+    },
+    {
+      "id": "deepdive-foster-p1",
+      "type": "paragraph",
+      "text": "Abakhathaleli bahlala bedibanisa isibonelelo se-Child Support Grant kunye neFoster Child Grant. Zihlukile: isibonelelo seFoster sihlawulwa xa inkundla imise umntwana ukuba abe phantsi kokukhathalela kwakho, kwaye asixhomekeki kwingeniso yakho. Isibonelelo se-Child Support sixhomekeke kuvavanyo lwengeniso lomkhathaleli. Ukuba umntwana ufakwe ngokusesikweni kuxanduva lwakho lokondla, buza iofisi yakho yeSASSA ukuba sesiphi isibonelelo esisebenzayo, kuba awunokufumana zombini ngomntwana omnye."
+    },
+    {
+      "id": "deepdive-foster-table",
+      "type": "comparison-table",
+      "headers": [
+        "Isibonelelo",
+        "Isixa-mali (2026)",
+        "Senzelwe bani",
+        "Umahluko ongundoqo"
+      ],
+      "rows": [
+        [
+          "Isibonelelo se-Child Support",
+          "R580 ngomntwana ngenyanga",
+          "Umkhathaleli oyintloko womntwana ongaphantsi kweminyaka eyi-18",
+          "Usekwe kuvavanyo lwengeniso lomkhathaleli; sihamba nomntwana"
+        ],
+        [
+          "Isibonelelo soMntwana oFoster",
+          "Isixa-mali esiqinisekisiweyo esiphezulu",
+          "Umntwana obekwe kuwe ngumyalelo wenkundla",
+          "Asivavanywa ngengeniso yomkhathaleli; umyalelo wenkundla uyafuneka"
+        ],
+        [
+          "Isibonelelo soKhathalelo oluXhomekekileyo",
+          "R2,400 ngomntwana ngenyanga",
+          "Umntwana onokukhubazeka okunzima odinga ukhathalelo lwexesha lonke",
+          "Umntwana kufuneka avavanywe njengofuna ukhathalelo oluqhubekayo"
+        ]
+      ],
+      "caption": "Indlela isibonelelo se-Child Support esahluka ngayo kwezinye izibonelelo ezinxulumeneyo"
+    },
+    {
+      "id": "deepdive-meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Uvavanyo Lwengeniso Ngo-2026"
+    },
+    {
+      "id": "deepdive-meanstest-p1",
+      "type": "paragraph",
+      "text": "Kwisi-Child Support Grant, uvavanyo lwengeniso lujonga kuphela ingeniso, hayi iimpahla. Ingeniso yomkhathaleli kufuneka ibe ngaphantsi komda kwisibonelelo esipheleleyo. Ngaphaya komda, isibonelelo siyancitshiswa ngokwesikali esihlalayo kunokuba siyekwe kwaphela. Iimpawu ngezantsi ziyimida yowaka-2026; qinisekisa kwiitshannels ezisemthethweni zeSASSA kuba zingatshintsha ngonyaka ngamnye webhajethi."
+    },
+    {
+      "id": "deepdive-meanstest-table",
+      "type": "table",
+      "headers": [
+        "Imeko",
+        "Umda wengeniso kwisibonelelo esipheleleyo",
+        "Ngaphaya komda"
+      ],
+      "rows": [
+        [
+          "Umkhathaleli oyintloko ongatshatanga",
+          "~R5,800 ngenyanga",
+          "Isibonelelo siyancitshiswa ngokwesikali esihlalayo (malunga ne-R1 encitshiswayo kwiyi-R2 nganye yengeniso engaphezu komda)"
+        ],
+        [
+          "Isibini esitshatileyo (sidityanisiwe)",
+          "~R11,600 ngenyanga",
+          "Isibonelelo siyancitshiswa ngokwesikali esihlalayo ngendlela efanayo"
+        ]
+      ],
+      "caption": "Imida yovavanyo lwengeniso lwe-Child Support Grant ngo-2026"
+    },
+    {
+      "id": "deepdive-meanstest-examples",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Umzekelo 1 (ongatshatanga): Nomsa ufumana i-R5,500/ngenyanga. Oku kungaphantsi komda, ngoko ufumana i-R580/ngenyanga epheleleyo yomntwana akhathaleleyo.",
+        "Umzekelo 2 (ongatshatanga): Theo ufumana i-R6,300/ngenyanga, malunga ne-R500 ngaphezu komda. Isibonelelo sakhe sincitshiswa malunga ne-R250, ngoko ufumana malunga ne-R330/ngenyanga.",
+        "Umzekelo 3 (umtshatileyo): Isibini esinengeniso edityanisiweyo ye-R11,000/ngenyanga singaphantsi komda kwaye sifumana isibonelelo esipheleleyo.",
+        "Umzekelo 4 (umtshatileyo): Isibini esinengeniso edityanisiweyo ye-R12,600/ngenyanga singe-R1,000 ngaphezu komda, ngoko isibonelelo sincitshiswa malunga ne-R500 ukuya kwi-R80/ngenyanga."
+      ]
+    },
+    {
+      "id": "deepdive-meanstest-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Akukho vavanyo lweempahla olusesikweni",
+      "text": "Ngokungafaniyo nezibonelelo zaBantu abaDala, sokuKhubazeka, nesaMapolisa, isibonelelo se-Child Support asisebenzisi vavanyo lweempahla olusesikweni. ISASSA ijonga ingeniso yakho, hayi ixabiso lekhaya, imoto, okanye imali yakho."
+    },
+    {
+      "id": "deepdive-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela Yokufaka Isicelo: Eofisini Nangokwe-Intanethi"
+    },
+    {
+      "id": "deepdive-apply-office",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Qokelela amaxwebhu akho",
+          "description": "Qokelela isazisi sakho, isatifiketi sokuzalwa somntwana, ubungqina bengeniso, kunye nobungqina bokuhlala (jonga uluhlu olungentla)."
+        },
+        {
+          "title": "Ngenela iofisi yakho yeSASSA ekufutshane",
+          "description": "Yiya kwiofisi esebenza kwindawo yakho, okanye buza kweyona Thusong Service Centre ikufutshane nawe."
+        },
+        {
+          "title": "Gqibezela ifom kunye negosa",
+          "description": "Igosa leSASSA likunceda ugcwalise isicelo ngeenkcukacha zasekhaya, zengeniso, nezomntwana."
+        },
+        {
+          "title": "Yenza i-bhayometriki kwaye ugcine irisithi",
+          "description": "Iminwe yakho kunye nefoto ziyathathwa. Gcina irisithi enesitampu; iintlawulo zibuyiselwa emva kumhla wofaka isicelo ukuba izisaliwe."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-apply-p1",
+      "type": "paragraph",
+      "text": "Abakhathaleli abaninzi basafaka isicelo ngokwakhe, kodwa iSASSA iyayandasisa iinkonzo ze-intanethi. Apho i-tshannel ye-intanethi ifumaneka kwisibonelelo sakho, ungasiqalisa isicelo kwi-services.sassa.gov.za, ufake amaxwebhu akho, kwaye ulandele umphumo. Ukuba isicelo se-intanethi asikavulwa kwi-Child Support Grant kwindawo yakho, sebenzisa indlela yeofisi engentla."
+    },
+    {
+      "id": "deepdive-apply-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Uncedo lufumanekile",
+      "text": "Ukuba awukwazi ukuhamba, umsebenzi wentlalontle okanye igosa leSASSA lisenokukwazi kunceda ngotyelelo lwasekhaya okanye ngokulungiselela isicelo egameni lomntwana. Buza eofisini yakho yasekuhlaleni."
+    },{
+      "id": "deepdive-payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Intlawulo Iya Kumkhathaleli"
+    },
+    {
+      "id": "deepdive-payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Imali ihlawulwa kumkhathaleli oyintloko, hayi kumntwana kwaye hayi komnye umzali womntwana.",
+        "Intlawulo idla ngokwenziwa ngediphozithi yebhanki kwiakhawunti yomkhathaleli, okanye ngekhadi leSASSA kwiindawo zokuhlawula kwiivenkile.",
+        "Isibonelelo kufuneka sisetyenziselwe iimfuno zomntwana: ukutya, iimpahla, iindleko zesikolo, kunye nempilo."
+      ]
+    },
+    {
+      "id": "deepdive-orphan-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isongezo sabaNtandane"
+    },
+    {
+      "id": "deepdive-orphan-p1",
+      "type": "paragraph",
+      "text": "Apho umntwana ephulukene nabazali bobabini, okanye bobabini abazali basesentolongweni, bekwiziko lezempilo zengqondo, okanye abanakulandelwa, umkhathaleli usenokufaneleka kwisongezo esonyukileyo esihlawulwa phezu kwe-Child Support Grant eqhelekileyo. Ixabiso elichanekileyo lesongezo litshintshile ngokuhamba kwexesha kwaye ngamanye amaxesha libe ngundoqo weengxoxo zoluntu, ngoko asilithethi iqhekeza elinye elimiselweyo apha. Hlala uqinisekisa isixa-mali sangoku se-top-up kwiwebhusayithi esesemthethweni yeSASSA okanye eofisini yakho yeSASSA ekufutshane phambi kokuba ulincike."
+    },
+    {
+      "id": "deepdive-orphan-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Qinisekisa isongezo sangoku neSASSA",
+      "text": "Ngenxa yokuba isixa-mali sesongezo sentandane sinokulungiswa nguMphathiswa Wezentlalo Nophuhliso, thatha naliphi na inani elithile le-Rand olibonayo kwenye indawo njengefoto, hayi isiqinisekiso. Iitshannels ezisemthethweni zeSASSA zipapasha inani elisebenzayo kunyaka wangoku."
+    },
+    {
+      "id": "deepdive-turns18-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Kwenzeka Ntoni Xa Umntwana Ejika Kwiminyaka Eli-18"
+    },
+    {
+      "id": "deepdive-turns18-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isibonelelo se-Child Support siphela kwinyanga emva kokuba umntwana ejika kwiminyaka eli-18.",
+        "Ukuba umntu omtsha omdala usesesikolweni okanye kwimfundo ephezulu, buza iSASSA ukuba ingaba loluphi uncedo oluqhubekayo olusebenzayo; isibonelelo esiqhelekileyo asiandiswa ngokuzenzekelayo.",
+        "Xelela iSASSA phambi komhla wokuzalwa ukuze intlawulo iyeke ngokucocekileyo kwaye uphephe intlawulo engaphezulu enokufuneka ibuyiselwe.",
+        "Umntu omdala oxhomekeke kunye/okanye okhubazekileyo usenokufaneleka kwesinye isibonelelo egameni lakhe; buza iofisi yakho ngeenketho."
+      ]
+    },
+    {
+      "id": "deepdive-suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuyekiswa Nokurhoxiswa"
+    },
+    {
+      "id": "deepdive-suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Isibonelelo singayekiswa ukuba umntwana uyayeka ukuhlala nawe, uyayeka ukuya esikolweni ngaphandle kwesizathu esivumelekileyo, okanye ukuba ingeniso yakho inyuka ngaphezu komda.",
+        "Singarhoxiswa ukuba umntwana ujika kwiminyaka eli-18, utshata, ufudukela kwiziko likarhulumente, okanye ukuba ukunakekelwa kudluliselwa komnye umntu.",
+        "Ukuba ukholelwa ukuba ukuyekiswa kuphosakele, thatha ubungqina bakho (ileta yesikolo, ikhadi lekliniki, ingeniso ehlaziyiweyo) uye eofisini yeSASSA ukuze ucelle ukubuyiselwa.",
+        "ISASSA inokubuyisela iintlawulo ezingachanekanga ngeengxenye kwiintlawulo ezizayo."
+      ]
+    },
+    {
+      "id": "deepdive-appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Izibheno: Into Onokuyenza Ukuba Isicelo Saliwe"
+    },
+    {
+      "id": "deepdive-appeals-p1",
+      "type": "paragraph",
+      "text": "Ukuba isicelo sakho se-Child Support Grant siyaliwe, unokubhena. Izicelo ezaliweyo ziphononongwa yi-Independent Tribunal for Social Assistance Appeals (ITSAA). Kwizibonelelo ezingengoweSRD, ungakwazi kwakukubhena ngokuhamba ngeofisi yeSASSA okanye ngokubhalela uMphathiswa Wezentlalo Nophuhliso."
+    },
+    {
+      "id": "deepdive-appeals-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Funda ileta yakho yesigqibo",
+          "description": "Ileta icacisa ukuba kutheni uwaliwe kunye nomhla wokuphela wokubhena."
+        },
+        {
+          "title": "Bhena kwiintsuku ezingama-30",
+          "description": "Bhena kwiintsuku ezingama-30 ukususela kwisigqibo. Iportal yobheno lwe-intanethi yamkela izibheno ukuya kwiintsuku ezingama-90 ukususela kumhla wokwaliwa."
+        },
+        {
+          "title": "Ngenisa isibheno sakho kunye nobungqina",
+          "description": "Cacisa ukuba kutheni ungavumelani kwaye ufake ubungqina obutsha obunje ngeerekhodi zengeniso ezihlaziyiweyo, isatifiketi sokuzalwa somntwana, okanye ileta yokuya esikolweni."
+        },
+        {
+          "title": "Linda umphumo wetribunal",
+          "description": "ITribunal ezimeleyo iphonononga ityala lakho. Ukuba liyaselwa, isibonelelo siyavunywa kwaye sihlala siqala kumhla wofaka isicelo."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-appeals-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Fumana uncedo ngesibheno sakho",
+      "description": "Ungabhena kwi-intanethi ngeportal yeenkonzo zeSASSA, eofisini yeSASSA ekufutshane nawe, okanye ngokubhalela uMphathiswa Wezentlalo Nophuhliso. Umsebenzi wentlalontle unokunceda ukuhlanganisa isibheno sakho."
+    },
+    {
+      "id": "deepdive-scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Zikhusele Kubuqhetseba"
+    },
+    {
+      "id": "deepdive-scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "ISASSA ayikhe icele intlawulo ukuze yamkele isicelo",
+      "text": "Lumka kunabani na okufowunelayo, onothumela i-SMS okanye othi kufuneka uhlawule 'ifayili' okanye i-PIN yebhanki ukuze 'ikhulule' isibonelelo se-Child Support. ISASSA ayihlawuliseli kufakwe isicelo okanye ukuvuma isibonelelo kwaye ayinakuze icele i-PIN okanye i-OTP yakho. Xela imiyalezo ekrokrelwayo kwii-tshannels ezisemthethweni zeSASSA."
+    },
+    {
+      "id": "deepdive-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Uvavanyo lwengeniso lwe-Child Support Grant",
+          "href": "/grants/child-support-grant/means-test-detail",
+          "description": "Ukujongwa okunzulu kwindlela uvavanyo lwengeniso olubalwa ngayo."
+        },
+        {
+          "title": "Isibonelelo soMntwana oFoster",
+          "href": "/grants/foster-care-grant",
+          "description": "Ukuba umntwana ubekwe kuwe ngumyalelo wenkundla."
+        },
+        {
+          "title": "Isibonelelo soKhathalelo oluXhomekekileyo",
+          "href": "/grants/care-dependency-grant",
+          "description": "Kumntwana onokukhubazeka okunzima odinga ukhathalelo lwexesha lonke."
+        },
+        {
+          "title": "Indlela yokubhena isigqibo seSASSA",
+          "href": "/appeals",
+          "description": "Uncedo olwenziwa ngenyathelo ngenyathelo kwiinkqubo zokubhena zeTribunal ezimeleyo."
+        },
+        {
+          "title": "Isibonelelo seSRD R370",
+          "href": "/grants/srd-r370-grant",
+          "description": "Uncedo lwentlalo kubantu abadala abasebenzayo abangena ngengozi yengeniso."
+        },
+        {
+          "title": "Iportal yeenkonzo zeSASSA",
+          "href": "https://services.sassa.gov.za",
+          "description": "Faka isicelo kwi-intanethi kwaye ujonge imeko yesicelo sakho."
+        }
+      ]
+    },
+    {
+      "id": "your-other-grants-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isibonelelo Kunye Nezinye Izibonelelo Zakho ZeSASSA"
+    },
+    {
+      "id": "your-other-grants-p1",
+      "type": "paragraph",
+      "text": "Ukufumana isibonelelo se-Child Support akukuthinteli ukufumana isibonelelo egameni lakho. Umzekelo, umakhulu okhathalela umzukulwana unokufumana isibonelelo saBantu abaDala somntwana wakhe kwaye afumane isibonelelo se-Child Support somntwana. Ezi zibini zivavanywa ngokwahlukileyo, kwaye ngasinye sineemithetho yaso novavanyo lwengeniso."
+    },
+    {
+      "id": "your-other-grants-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ungafumana isibonelelo se-Child Support kwaye kwangaxeshanye ubambe isibonelelo saBantu abaDala, sokuKhubazeka, okanye samaGorha eMfazwe egameni lakho.",
+        "Awunakufumana zombini isibonelelo se-Child Support kunye neFoster Child Grant ngomntwana omnye.",
+        "Isibonelelo sakho asibalwa njengengeniso kuvavanyo lwengeniso lomntwana, kwaye isibonelelo somntwana asibalwa njengengeniso kwezakho.",
+        "Ukuba iimeko zakho ziyatshintsha, hlola zombini izibonelelo, kuba ngasinye sinovavanyo lwengeniso kunye nemithetho yokufaneleka."
+      ]
+    },
+    {
+      "id": "maintenance-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Isondlo Esivela Komnye Umzali"
+    },
+    {
+      "id": "maintenance-p1",
+      "type": "paragraph",
+      "text": "Omnye umzali womntwana usenokunyanzeleka ngokusemthethweni ukuba ahlawule isondlo. Olo sondlo luyabalwa njengengeniso kuvavanyo lwengeniso, kodwa ukulibanga akuliyekisi isibonelelo se-Child Support. Isibonelelo nokondlo ziyilelwe ukusebenza kunye ukuxhasa umntwana. Ukuba unengxaki yokufumana isondlo, inkundla yesondlo kwiofisi yakho yemagistrate inokunceda ukuqinisekisa umyalelo."
+    },
+    {
+      "id": "spend-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukusebenzisa Isibonelelo Kwiimfuno Zomntwana"
+    },
+    {
+      "id": "spend-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ukutya nendlela yokutyisa elungileyo yomntwana.",
+        "Iifayili zesikolo, iyunifomu, izinto zokubhala, nothutho oluya esikolweni.",
+        "Iimpahla nezihlangu ezifanele isizini.",
+        "Ukhathalelo lwempilo, iityelelo zekliniki, namayeza angagutyungelwa kwenye indawo.",
+        "Indawo yokuhlala ekhuselekileyo kunye neendleko zasekhaya ezabelwana nazo ngumntwana."
+      ]
+    },
+    {
+      "id": "report-changes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuxela Utshintsho KwiSASSA"
+    },
+    {
+      "id": "report-changes-p1",
+      "type": "paragraph",
+      "text": "Isibonelelo sakho sixhomekeke ekubeni umntwana ahlale nawe kunye nengeniso yakho ihlala ngaphakathi komda. Ukuba nokuthi kuye kwezi zinto kutshintsha, xelela iSASSA ngokukhawuleza ukuze uhlawulwe ngokuchanekileyo kwaye uphephe intlawulo engaphezulu ekufuneka uyibuyisele kamva."
+    },
+    {
+      "id": "report-changes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ingeniso yakho inyuka ngaphezu komda wovavanyo lwengeniso.",
+        "Umntwana ufudukela kuhlala nomnye umntu (isibonelelo kufuneka siye kumkhathaleli omtsha).",
+        "Umntwana uyayeka ukuya esikolweni ngaphandle kwesizathu esivumelekileyo.",
+        "Utshintsha ibhanki yakho okanye iinkcukacha zokuqhagamshelana.",
+        "Umntwana ujika kwiminyaka eli-18 okanye utshata."
+      ]
+    },
+    {
+      "id": "report-changes-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Xela utshintsho kwangokukhawuleza",
+      "text": "Ukuba awuxeleli iSASSA ngotshintsho oluchaphazela isibonelelo, usenokuhlalutya ngempazamo uze ucelwe ukuba ubuyisele imali kamva. Ukuxela ngokukhawuleza kukukhusela wena nomntwana."
+    },
+    {
+      "id": "transfer-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Xa Ukunakekelwa Komntwana Kudluliselwa Komnye Umntu"
+    },
+    {
+      "id": "transfer-p1",
+      "type": "paragraph",
+      "text": "Iiakhawunti zokuhlala zabantwana ziyatshintsha. Ukuba umntwana ufudukela kuhlala nesihlobo, umzali wokondla, okanye omnye umkhathaleli, isibonelelo se-Child Support kufuneka sihambisane nomntwana. ISASSA iya kuqinisekisa ilungiselelo elitsha kwaye isenokucela isicelo esitsha kumntu ongoku nomkhathalelo oyintloko."
+    },
+    {
+      "id": "transfer-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Xelela ISASSA ngokufuduka",
+          "description": "Xela utshintsho eofisini yakho yasekuhlaleni ukuze iintlawulo zihlolwe kwaye kuchongwe umkhathaleli ofanelekileyo."
+        },
+        {
+          "title": "Umkhathaleli omtsha ufaka isicelo okanye uthatha phezulu",
+          "description": "Umkhathaleli omtsha oyintloko unikezela ngesazisi sakhe, ubungqina bokuhlala, kunye nobungqina bokuba umntwana uhlala naye."
+        },
+        {
+          "title": "ISASSA iyaqinisekisa kwaye idlulisela",
+          "description": "Nje ukuba iqinisekisiwe, isibonelelo sihlawulwa kumkhathaleli omtsha ukususela kumhla wokudluliselwa, ngoko inkxaso yomntwana iyaqhubeka ngaphandle kwesikhewu eside."
+        }
+      ]
+    },
+    {
+      "id": "deepdive-faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Eminye Imibuzo? Ifaq Enzulu"
+    },
+    {
+      "id": "deepdive-faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Isixa-mali se-Child Support Grant ngo-2026 singakanani?",
+          "answer": "Ukususela kwi-1 April 2026 ukuya ku-31 March 2027 isibonelelo siyi-R580 ngenyanga kumntwana ngamnye ofanelekileyo ongaphantsi kweminyaka eyi-18. Isixa-mali esongezelelweyo sifumaneka kubantwana abazintandane abakukhathalelo lomkhathaleli; qinisekisa isixa-mali sangoku se-top-up neSASSA."
+        },
+        {
+          "question": "Ngubani onokuba ngumkhathaleli?",
+          "answer": "Nabani na umkhathaleli oyintloko unokufaka isicelo: umzali wobuntwana, utatomkhulu, usibali omdala, isihlobo, okanye umntu ongesosihlobo onoxanduva lokukhathalela umntwana imihla ngemihla. Isibonelelo sisekelwe kubani okhathalela umntwana, hayi nje ukuba ungubani na umzali."
+        },
+        {
+          "question": "Ngaba umntwana kufuneka ahlale nam?",
+          "answer": "Ewe. Umntwana kufuneka ahlale nawe njengenxalenye yekhaya lakho eMzantsi Afrika. Isibonelelo sihamba nomntwana, ngoko ukuba ukunakekelwa kuyatshintsha intlawulo inokusiwa kumkhathaleli omtsha."
+        },
+        {
+          "question": "Uvavanyo lwengeniso lomkhathaleli ongatshatanga luthini?",
+          "answer": "Ngo-2026, umkhathaleli oyintloko ongatshatanga onengeniso engaphantsi kwimalunga ne-R5,800 ngenyanga ufumana isibonelelo esipheleleyo. Ngaphezulu koko, isibonelelo siyancitshiswa ngokwesikali esihlalayo kunokuba siyekwe."
+        },
+        {
+          "question": "Uvavanyo lwengeniso lwesibini esitshatileyo luthini?",
+          "answer": "Ingeniso edityanisiweyo engaphantsi kwimalunga ne-R11,600 ngenyanga inika isibonelelo esipheleleyo. Ngaphezulu koko isibonelelo siyancipha ngokwesikali esihlalayo ngendlela efanayo njengomkhathaleli ongatshatanga."
+        },
+        {
+          "question": "Kukho uvavanyo lweempahla na?",
+          "answer": "Hayi. Uvavanyo lwengeniso lwe-Child Support lujonga ingeniso kuphela. Ikhaya lakho, imoto, kunye nemali yongeziweyo azibalwa, ngokungafaniyo nezibonelelo zaBantu abaDala okanye sokuKhubazeka."
+        },
+        {
+          "question": "Ndingafumana isibonelelo sabantwana abangaphezu komnye?",
+          "answer": "Ewe, ungafumana isibonelelo sabantwana abangaphezu komnye abakukhathalelo lakho, kude kube ngumda wabantwana abathandathu kumkhathaleli ngamnye. Ngaphezu koko, buza iofisi yakho ngezinye iinketho ezinje ngeFoster Care Grant."
+        },
+        {
+          "question": "Kutheni abazali bobabini benze isicelo somntwana omnye?",
+          "answer": "ISASSA ihlawula isibonelelo esinye kuphela ngomntwana. Ukuba abantu ababini babanga, iSASSA iphanda ukuba ngubani umkhathaleli oyintloko kwaye ihlawula umntu obonelela ngolona khathalelo lukhulu."
+        },
+        {
+          "question": "Kufuneka ndixele iinkcukacha zekheshi nengeniso engacwangciswanga?",
+          "answer": "Ewe. Yonke ingeniso iyabalwa, kuquka umsebenzi wokufumana ikheshi esandleni, iitiphu, isondlo esivela komnye umzali, noluncedo oluqhelekileyo oluvela kusapho. Kuphela esinye isibonelelo sakho seSASSA kunye nezixa-mali ezifanelekileyo ezifunyanwa kanye ezingabalwayo."
+        },
+        {
+          "question": "Ndingafaka isicelo kwi-intanethi?",
+          "answer": "ISASSA iyayandisa izicelo zokufaka iintente kwi-services.sassa.gov.za. Apho laa tshannel ifumaneka kwisibonelelo sakho, ungafaka isicelo kwaye ufake amaxwebhu kwi-intanethi; kungenjalo, faka isicelo ngokwakho eofisini yakho yeSASSA ekufutshane."
+        },
+        {
+          "question": "Kuthatha ixesha elingakanani ukugqiba isicelo?",
+          "answer": "Uninzi lwezicelo luqhutywa kwisithuba seminyaka emithathu. Ukuba sivunyiwe, iintlawulo zibuyiselwa kumhla ofaka isicelo, ngoko gcina irisithi yakho."
+        },
+        {
+          "question": "Yayingawaphi amaxwebhu endiwafunayo?",
+          "answer": "Ufuna isazisi sakho, isatifiketi sokuzalwa somntwana, ubungqina bengeniso (kunye neekopi zeenyanga ezintathu ezidlulileyo zecash ukuba unayo iakhawunti), kunye nobungqina bokuhlala. Ixwebhu lomtshato okanye loqhawulo-mtshato liyafuneka kuphela ukuba lisebenza kuwe."
+        },
+        {
+          "question": "Imali ihlawulwa njani?",
+          "answer": "Isibonelelo sihlawulwa kumkhathaleli oyintloko, rhoqo ngediphozithi yebhanki okanye ngekhadi leSASSA kwiindawo zokuhlawula kwiivenkile. Kufuneka sisetyenziselwe iimfuno zomntwana."
+        },
+        {
+          "question": "Yintoni i-top-up yaba ntandane?",
+          "answer": "Isixa-mali esinyukileyo esihlawulwa phezu kwesibonelelo esiqhelekileyo apho umntwana ephulukene nabazali bobabini okanye bobabini abazali abanakulandelwa okanye basesentolongweni okanye kwiziko lezempilo zengqondo. Inani elichanekileyo liyatshintsha, ngoko qinisekisa neSASSA."
+        },
+        {
+          "question": "Kwenzeka ntoni xa umntwana ejika kwiminyaka eli-18?",
+          "answer": "Isibonelelo siphela kwinyanga emva komhla wokuzalwa woku-18 womntwana. Xelela iSASSA phambi koko ukuze iintlawulo ziyeke ngokucocekileyo. Buza ngesinye uncedo ukuba umntu omtsha omdala usesemfundweni okanye unokukhubazeka."
+        },
+        {
+          "question": "Isibonelelo singayekiswa na?",
+          "answer": "Ewe, umzekelo ukuba umntwana uyayeka ukuhlala nawe, uyayeka ukuya esikolweni ngaphandle kwesizathu, okanye ingeniso yakho inyuka ngaphezu komda. Thatha ubungqina bakho uye eofisini yeSASSA ukuze ucelle ukubuyiselwa."
+        },
+        {
+          "question": "Ndibhena njani ukwaliwa?",
+          "answer": "Bhena kwi-Independent Tribunal for Social Assistance Appeals (ITSAA) kwiintsuku ezingama-30 (iportal ye-intanethi yamkela ukuya kwiintsuku ezingama-90). Ungabhena kwi-intanethi, eofisini yeSASSA, okanye ngokubhalela uMphathiswa Wezentlalo Nophuhliso."
+        },
+        {
+          "question": "Ndingafumana i-Child Support Grant kunye ne-Older Person Grant kanye ngaxeshanye?",
+          "answer": "Ewe. Umkhathaleli unokubamba isibonelelo egameni lakhe, njenge-Older Person Grant, kwaye kwangaxeshanye afumane isibonelelo se-Child Support somntwana abhekisa kuye. Ngasinye sivavanywa ngovavanyo lwengeniso lwaso."
+        },
+        {
+          "question": "Ngaba isondlo somntwana esivela komnye umzali sibalwa njengengeniso?",
+          "answer": "Ewe, isondlo esimiselwe yinkundla okanye esivunyiweyo sibalwa njengengeniso kuvavanyo lwengeniso. Kodwa ukufumana isondlo akukucimeleli isibonelelo; ezi nkxaso ezimbini ziyilelwe ukusebenza kunye kumntwana."
+        },
+        {
+          "question": "Ndingafumana na isibonelelo ukuba sele ndifumana iFoster Child Grant yomnye umntwana?",
+          "answer": "Ewe, ungafumana iFoster Child Grant yomnye umntwana kunye ne-Child Support Grant yomnye umntwana owahlukileyo. Awunakufumana zombini ngomntwana omnye."
+        },
+        {
+          "question": "Kuthiwani ukuba omnye umzali womntwana naye wenza isicelo sesibonelelo?",
+          "answer": "ISASSA ihlawula isibonelelo esinye kuphela ngomntwana. Ukuba abantu ababini babanga, iSASSA imisela ukuba ngubani umkhathaleli oyintloko kwaye ihlawula loo mntu. Nika ubungqina bokuya esikolweni, bukhwe kliniki, nokuhlala bokukhathalela kwakho."
+        },
+        {
+          "question": "Isibonelelo siyachaphazeleka na kukuba ndineakhawunti yebhanki?",
+          "answer": "Hayi. Ukuba neakhawunti yebhanki kulungile kwaye idiphozithi yebhanki yeyona ndlela yokuhlawula ekhuthazwayo. Ubanikezela nje ngeenkcukacha zakho zebhanki; iakhawunti ayibalwa njengepahla kul isibonelelo kuba akukho vavanyo lweempahla."
+        },
+        {
+          "question": "Ngaba umntu ongesisihlobo angaba ngumkhathaleli?",
+          "answer": "Ewe. Nabo nabani na onokuba ngumkhathaleli oyintloko, kuquka umntu ongesosihlobo. ISASSA iyakujonga ukuba umntwana uhlala nawe ngokunyanisekileyo kwaye unoxanduva olukhulu lokhathalelo lwakhe."
+        },
+        {
+          "question": "Kwenzeka ntoni ukuba andixeli utshintsho olufanelelekileyo lwengeniso yam?",
+          "answer": "Ukuba iSASSA ifumanisa kamva ukuba wawungaphezu komda, isibonelelo singayekiswa kwaye usenokucelwa ukuba ubuyisele imali ehlawulwe ngaphezulu ngeengxenye. Ukuxela utshintsho kwangokukhawuleza kuyakuphepha oku."
+        },
+        {
+          "question": "Isibonelelo sinokuhlawulwa komnye umzali womntwana kunokuba kum?",
+          "answer": "Isibonelelo sihlawulwa kumkhathaleli oyintloko, nokuba ngubani na. Ukuba umntwana ufudukela kuhlala nomnye umzali, isibonelelo sinokudluliselwa kuye emva kokuba iSASSA iqinisekisile ilungiselelo elitsha lokuhlala."
+        },
+        {
+          "question": "Ingaba ndifuna isatifiketi sokuzalwa somntwana?",
+          "answer": "Ewe, isatifiketi sokuzalwa sokuqala siyafuneka. Ukuba umntwana akanaso, yiza nesibhengezo esifungelweyo kunye nobungqina bokufaka isicelo kwi-Home Affairs; iSASSA ingakukhokela ngoxa isatifiketi siqhutywa."
+        }
+      ]
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Imibuzo Ebuzwa Rhoqo"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Umntu endandihlala naye kunye nam sobabini senza isicelo se-child support somntwana wethu. Kwenzeka ntoni?",
+          "answer": "ISASSA iya kuhlawula isibonelelo esinye kuphela ngomntwana. Ukuba abantu ababini benza isicelo somntwana omnye, iSASSA iya kuphanda ukumisela ukuba ngubani umkhathaleli oyintloko. Isibonelelo siya kumntu obonelela ngolona khathalelo lubanzi kumntwana."
+        },
+        {
+          "question": "Ndenza imisebenzi yamaqhekeza kwaye ndifumana ikheshi esandleni. Ngaba ndifuna ukuyixela?",
+          "answer": "Ewe. Yonke ingeniso iyabalwa kuvavanyo lwengeniso, kuquka iintlawulo zekheshi, iitiphu, nomsebenzi ongaqhelekanga. Inkcazo yeSASSA yengeniso ibanzi. Ukuba awuyixeli ingeniso yekheshi kwaye iSASSA iyifumanisa, isibonelelo sakho singarhoxiswa kwaye usenokuba kufuneka uyibuyisele imali."
+        },
+        {
+          "question": "Ndingafaka isicelo ukuba andingomzali wobuntwana?",
+          "answer": "Ewe. Isibonelelo isenzelwe umkhathaleli oyintloko, hayi kuphela umzali wobuntwana. Ootatomkhulu, oo-anti, oomalume, usibali omdala, kwaye nabo bangasisihlobo bangafaka isicelo ukuba banabo bakhathalela umntwana."
+        },
+        {
+          "question": "Kwenzeka ntoni ukuba umntwana wam uyayeka ukuya esikolweni?",
+          "answer": "ISASSA ifuna ukuba abantwana abafumana isibonelelo baye esikolweni rhoqo (okanye iityelelo zekliniki kubantwana abancinci). Ukuba umntwana wakho uyayeka ukuya esikolweni ngaphandle kwesizathu esivumelekileyo, iSASSA inokuyekisa isibonelelo. Gcina ileta yokuya esikolweni okanye ikhadi lekliniki lilungile."
+        },
+        {
+          "question": "Ndingafumana isibonelelo sabantwana abangaphezu kwabathandathu?",
+          "answer": "Hayi. Umda ngabantwana abathandathu kumkhathaleli ngamnye. Ukuba ukhathalela abantwana abangaphezu kwabathandathu (umzekelo, izalamane ezizintandane), buza eofisini yeSASSA ngeFoster Care Grant okanye ezinye iinketho."
+        },
+        {
+          "question": "Ndilahle ikhadi lam leSASSA. Ndizifumana njani iintlawulo zam?",
+          "answer": "Yiya eofisini yeSASSA ekufutshane nesazisi sakho kwaye ufake isicelo sokutshintsha ikhadi. Kukho umrhumo omncinci wokutshintsha. Ngoxa ulinda, ungacela enye indlela yokuhlawula eofisini. Ungahlawuli mntu ukuze ukhawulezise ukutshintsha — yinkonzo yamahhala yeSASSA."
+        }
+      ]
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Ifestile Yesibheno Yeentsuku Ezingama-90",
+      "text": "Ukuba isicelo sakho se-Child Support Grant siyaliwe, unazo iintsuku ezingama-90 ukususela kumhla owafumana ngayo ileta yokualiwa ukubhena. Bhala kuMphathiswa Wezentlalo Nophuhliso ucacisa ukuba kutheni ungavumelani nesigqibo. Faka nabuphi na ubungqina obutsha obunje ngeerekhodi zengeniso ezihlaziyiweyo okanye amaxwebhu angafunyanwanga. Ungafumana uncedo ngesibheno sakho eofisini yakho yeSASSA ekufutshane okanye kumsebenzi wentlalontle."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "ILayibrari Yezibonelelo",
+      "slug": "/grants"
+    },
+    {
+      "title": "Isibonelelo soMntwana oFoster",
+      "slug": "/grants/foster-care-grant"
+    },
+    {
+      "title": "Isibonelelo soKhathalelo oluXhomekekileyo",
+      "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Imibuzo Ebuzwa Rhoqo Ye-Child Support Grant",
+      "slug": "/faq"
+    }
+  ]
+}

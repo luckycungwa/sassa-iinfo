@@ -4,7 +4,7 @@
   "classification": "province-hub",
   "title": "SASSA Mpumalanga Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in Mpumalanga. Regional office in Mbombela, offices across Witbank and Ermelo, mobile pay points for Bushbuckridge, and province FAQs.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA Mpumalanga Province",
       "description": "Provincial hub for Mpumalanga beneficiaries: regional office contacts, full-service office towns, rural mobile services, and answers to common questions.",
       "readingTime": "5 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Find an Office",
         "href": "/offices"
@@ -65,7 +65,13 @@
     {
       "id": "services-p",
       "type": "paragraph",
-      "text": "Full-service SASSA offices operate in the major towns — Mbombela, eMalahleni (Witbank), Secunda, Middelburg and Ermelo — handling applications, reviews, card replacements and appeals support. Smaller towns are served by satellite points and scheduled mobile units, with Bushbuckridge residents relying on a combination of mobile visits and the nearest full-service offices in Mbombela or Hazyview."
+      "text": "Full-service SASSA offices operate in the major towns — Mbombela, eMalahleni (Witbank), Secunda, Middelburg and Ermelo — handling applications, reviews, card replacements and appeals support. Smaller towns are served by satellite points and scheduled mobile units, with Bushbuckridge residents relying on a combination of mobile visits and the nearest full-service offices in Mbombela or Hazyview.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
     },
     {
       "id": "offices-grid",
@@ -75,10 +81,6 @@
         {
           "label": "Browse the national offices directory",
           "href": "/offices"
-        },
-        {
-          "label": "Regional office enquiries: 013 754 3900",
-          "href": null
         }
       ]
     },
@@ -91,7 +93,13 @@
     {
       "id": "collection-p1",
       "type": "paragraph",
-      "text": "Collection is straightforward in urban centres: every national retailer chain processes SASSA card withdrawals free of charge on payment days. Bank transfers suit beneficiaries with accounts and reflect within days of each official date."
+      "text": "Collection is straightforward in urban centres: every national retailer chain processes SASSA card withdrawals free of charge on payment days. Bank transfers suit beneficiaries with accounts and reflect within days of each official date.",
+      "links": [
+        {
+          "text": "SASSA card",
+          "href": "/banking/sassa-card-explained"
+        }
+      ]
     },
     {
       "id": "collection-p2",

@@ -4,16 +4,29 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates — July 2026",
   "description": "Complete schedule of SASSA social grant payout dates for July 2026. Older Persons: 3 July, Disability: 4 July, Children: 7 July, SRD R370: 14 July.",
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
-  "author": { "name": "Lucky Cungwa", "role": "Senior Editor", "verified": true },
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Payment Dates July 2026: Full Payout Schedule Released",
     "metaDescription": "SASSA payment dates for July 2026 confirmed: Older Persons Grant 3 July, Disability Grant 4 July, Children's Grants 7 July, SRD R370 on 14 July. Includes Q2 review cycle information and collection tips.",
-    "keywords": ["SASSA payment dates July 2026", "July SASSA payout schedule", "SASSA grant payment dates July", "SASSA July collection dates", "social grant payments July 2026"],
-    "schemaMarkup": { "@type": "GovernmentService", "name": "SASSA Payment Dates July 2026" }
+    "keywords": [
+      "SASSA payment dates July 2026",
+      "July SASSA payout schedule",
+      "SASSA grant payment dates July",
+      "SASSA July collection dates",
+      "social grant payments July 2026"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SASSA Payment Dates July 2026"
+    }
   },
   "contentBlocks": [
     {
@@ -22,9 +35,15 @@
       "title": "SASSA Payment Dates — July 2026",
       "description": "Complete schedule of social grant payout dates for July 2026. Older Persons: 3 July, Disability: 4 July, Children: 7 July, SRD R370: 14 July. Know your date and avoid the queues.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-07-28",
-      "cta": { "label": "View All Payment Dates", "href": "/payment-dates" },
-      "secondaryCta": { "label": "Check January Dates", "href": "/payment-dates/2026-january" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "View All Payment Dates",
+        "href": "/payment-dates"
+      },
+      "secondaryCta": {
+        "label": "Check January Dates",
+        "href": "/payment-dates/2026-january"
+      }
     },
     {
       "id": "intro-paragraph",
@@ -40,12 +59,32 @@
     {
       "id": "dates-table",
       "type": "table",
-      "headers": ["Grant Type", "Payment Date", "Day of Week"],
+      "headers": [
+        "Grant Type",
+        "Payment Date",
+        "Day of Week"
+      ],
       "rows": [
-        ["Older Persons Grant (Pension)", "3 July 2026", "Friday"],
-        ["Disability Grant", "4 July 2026", "Saturday (paid Friday at some sites)"],
-        ["Children's Grants (CSG, Foster, CDG)", "7 July 2026", "Tuesday"],
-        ["Social Relief of Distress (SRD R370)", "14 July 2026", "Tuesday"]
+        [
+          "Older Persons Grant (Pension)",
+          "3 July 2026",
+          "Friday"
+        ],
+        [
+          "Disability Grant",
+          "4 July 2026",
+          "Saturday (paid Friday at some sites)"
+        ],
+        [
+          "Children's Grants (CSG, Foster, CDG)",
+          "7 July 2026",
+          "Tuesday"
+        ],
+        [
+          "Social Relief of Distress (SRD R370)",
+          "14 July 2026",
+          "Tuesday"
+        ]
       ],
       "caption": "Full SASSA payout schedule for July 2026"
     },
@@ -58,7 +97,13 @@
     {
       "id": "q2-cycle-paragraph",
       "type": "paragraph",
-      "text": "July marks the second quarter review cycle for the SRD R370 grant. All SRD applicants must ensure their banking details and contact information are up to date on the SASSA SRD website. If your application status shows 'pending' or 'review,' log in to check whether any additional documents are required."
+      "text": "July marks the second quarter review cycle for the SRD R370 grant. All SRD applicants must ensure their banking details and contact information are up to date on the SASSA SRD website. If your application status shows 'pending' or 'review,' log in to check whether any additional documents are required.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
     },
     {
       "id": "q2-callout",
@@ -133,16 +178,37 @@
       "type": "link-grid",
       "title": "Other Payment Months",
       "links": [
-        { "label": "June 2026", "href": "/payment-dates/2026-june" },
-        { "label": "August 2026", "href": "/payment-dates/2026-august" },
-        { "label": "September 2026", "href": "/payment-dates/2026-september" },
-        { "label": "October 2026", "href": "/payment-dates/2026-october" }
+        {
+          "label": "June 2026",
+          "href": "/payment-dates/2026-june"
+        },
+        {
+          "label": "August 2026",
+          "href": "/payment-dates/2026-august"
+        },
+        {
+          "label": "September 2026",
+          "href": "/payment-dates/2026-september"
+        },
+        {
+          "label": "October 2026",
+          "href": "/payment-dates/2026-october"
+        }
       ]
     }
   ],
   "relatedPages": [
-    { "title": "All Payment Dates", "slug": "/payment-dates" },
-    { "title": "SASSA Grant Overview", "slug": "/grants" },
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" }
+    {
+      "title": "All Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "SASSA Grant Overview",
+      "slug": "/grants"
+    },
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    }
   ]
 }

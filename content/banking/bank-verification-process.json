@@ -4,7 +4,7 @@
   "classification": "banking-guide",
   "title": "SASSA Bank Verification Process Explained — How SASSA Checks Your Account",
   "description": "How SASSA verifies your bank account: the automated verification process, what banks are supported, why verification fails, and how to resolve verification issues.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "SASSA Bank Verification Process Explained — How SASSA Checks Your Account",
       "description": "SASSA uses an automated system to verify your bank account before releasing grant payments. Understand how the verification works, why it might fail, and how to resolve issues to get your grant paid on time.",
       "readingTime": "4 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Fix Verification Issues",
         "href": "/banking/update-bank-details"
@@ -54,7 +54,14 @@
     {
       "id": "who",
       "type": "paragraph",
-      "text": "This guide is for SASSA applicants and beneficiaries whose bank account details are being checked by SASSA's automated verification system."
+      "text": "If your status has been sitting on 'Bank Verification Pending', you might be wondering what is actually happening behind the scenes. The short version: SASSA and your bank are checking that the account belongs to you. That check usually takes a matter of days, and this page explains exactly how it works and the fastest ways to pass it."
+    },
+    {
+      "id": "why-care",
+      "type": "callout",
+      "intent": "success",
+      "title": "Why this matters for your cash",
+      "text": "Your grant cannot be paid until the verification passes. The quicker your name, ID and account match up, the quicker your money arrives. The good news is that most failures are simple to fix — usually a name typo or an old account — not anything serious."
     },
     {
       "id": "how-it-works-h",
@@ -133,6 +140,28 @@
         {
           "title": "Switch to Cash Send temporarily",
           "description": "If you need your grant urgently, switch to Cash Send while resolving the bank issue."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-8jsg0e",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Banking & Payments",
+          "href": "/banking"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD Status Check",
+          "href": "/grants/srd-r370-grant/status-check"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
         }
       ]
     }

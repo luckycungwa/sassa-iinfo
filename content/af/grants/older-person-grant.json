@@ -1,0 +1,840 @@
+{
+  "id": "grant-older-person",
+  "slug": "/grants/older-person-grant",
+  "classification": "grant-detail",
+  "title": "Toelaag vir Bejaardes (Staatspensioen)",
+  "description": "Die SASSA Toelaag vir Bejaardes verskaf 'n maandelikse inkomste aan Suid-Afrikaners van 60 jaar en ouer wat aan die middeletoets-vereistes voldoen.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "readingTime": "22 min leestyd",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Toelaag vir Bejaardes — R2,400/maand & hoe om aansoek te doen (2026)",
+    "metaDescription": "Die Toelaag vir Bejaardes betaal R2,400/maand in 2026. Kyk of jy kwalifiseer, hersien die middeletoets, en volg ons stap-vir-stap SASSA-pensioenaansoekgids.",
+    "keywords": [
+      "toelaag vir bejaardes",
+      "staatspensioen Suid-Afrika",
+      "SASSA-pensioen",
+      "ouderdomstoelaag"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "Older Person Grant"
+    }
+  },
+  "sources": [
+    {
+      "label": "SASSA Amptelike Webwerf",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Departement van Maatskaplike Ontwikkeling",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "Nasionale Tesourie-begrotingshersiening 2026",
+      "url": "https://www.treasury.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Toelaag vir Bejaardes (Staatspensioen)",
+      "description": "Volledige gids tot die SASSA Toelaag vir Bejaardes: R2,400 per maand, kwalifikasievereistes, vereiste dokumente, aansoekstappe en appèlproses vir bejaardes van 60+.",
+      "readingTime": "22 min leestyd",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Kyk Kwalifikasie",
+        "href": "/eligibility/i-am-over-60"
+      },
+      "secondaryCta": {
+        "label": "Hoe om Aansoek te Doen",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
+    },
+    {
+      "id": "summary",
+      "type": "grant-summary",
+      "amount": "R2,400",
+      "frequency": "Maandeliks (plus R20 ekstra vir ouderdomme 75+)",
+      "targetGroup": "Suid-Afrikaanse burgers of permanente inwoners van 60 jaar en ouer."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Die SASSA Toelaag vir Bejaardes (dikwels na verwys as die staatspensioen) is ontwerp om finansiële sekerheid te verskaf aan Suid-Afrikaanse bejaardes wat nie meer werk nie en nie voldoende aftreebates het nie."
+    },
+    {
+      "id": "eligibility-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Kwalifikasievereistes"
+    },
+    {
+      "id": "eligibility-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Moet 'n Suid-Afrikaanse burger, permanente inwoner of vlugteling wees.",
+        "Moet 60 jaar of ouer wees.",
+        "Moet nie in 'n staatsbefondsde inrigting woon nie (bv. 'n staatsbejaardetehuis).",
+        "Moet nie 'n ander maatskaplike toelaag vir jouself ontvang nie.",
+        "Middeletoets (Enkellopend): Jaarlikse inkomste moet onder R112,200 wees; bates moet onder R1,584,000 wees.",
+        "Middeletoets (Getroud): Gesamentlike jaarlikse inkomste moet onder R224,400 wees; gesamentlike bates moet onder R3,168,000 wees."
+      ]
+    },
+    {
+      "id": "docs-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Vereiste dokumente"
+    },
+    {
+      "id": "docs-list",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "Oorspronklike 13-syfer strepieskode Smart-kaart-ID of groen ID-boek",
+          "required": true
+        },
+        {
+          "label": "Bewys van huwelikstatus (huweliksertifikaat, egskeidingsbevel of sterftesertifikaat)",
+          "required": true
+        },
+        {
+          "label": "Bewys van woning (nutsrekening of brief van plaaslike hoof)",
+          "required": true
+        },
+        {
+          "label": "Bewys van inkomste en bates (laaste 3 maande se bankstate, pensioenstrokies)",
+          "required": true
+        },
+        {
+          "label": "As werkloos, 'n beëdigde verklaring wat werkloosheid bevestig",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Hoe om aansoek te doen"
+    },
+    {
+      "id": "steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Besoek jou naaste SASSA-kantoor",
+          "description": "Neem alle oorspronklike dokumente en fotokopies na jou naaste plaaslike SASSA-kantoor."
+        },
+        {
+          "title": "Voltooi die aansoekvorm",
+          "description": "Vul die aansoekvorm in die teenwoordigheid van 'n SASSA-beampte in."
+        },
+        {
+          "title": "Woon die onderhoud by",
+          "description": "'n Onderhoud sal gevoer word, vingerafdrukke geneem word, en 'n kwitansie uitgereik word."
+        },
+        {
+          "title": "Wag vir verwerking",
+          "description": "Aansoeke neem tot 3 maande om te verwerk, met betalings wat teruggedateer word na die aansoekdatum."
+        }
+      ]
+    },
+    {
+      "id": "appeal-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Appèlinligting"
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "90-dae-appèlvenster",
+      "text": "As jou Toelaag vir Bejaardes afgekeur word, het jy 90 dae vanaf die ontvangs van die kennisgewing om by die Ministerie van Maatskaplike Ontwikkeling te appelleer."
+    },
+    {
+      "id": "deepdive-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Gedetailleerde kwalifikasie: wie kwalifiseer in 2026"
+    },
+    {
+      "id": "deepdive-eligibility-p1",
+      "type": "paragraph",
+      "text": "Buiten die basiese ouderdom- en middeletoets-reëls, pas SASSA verskeie kwalifiseringsvoorwaardes op die Toelaag vir Bejaardes toe. Om elkeen vooraf te verstaan, spaar jou 'n vermorste reis na die kantoor en help jou om te besluit of jy aansoek moet doen, of om 'n verouderende ouer, grootouer of familielid met hul aansoek by te staan."
+    },
+    {
+      "id": "deepdive-eligibility-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ouderdom: Jy moet op die datum van aansoek 60 jaar of ouer wees. Die hoër R2,420-bedrag geld vanaf jou 75ste verjaarsdag.",
+        "Burgerskap of status: Jy moet 'n Suid-Afrikaanse burger, 'n permanente inwoner of 'n erkende vlugteling wees wat in Suid-Afrika woon.",
+        "Woning: Jy moet ten tye van aansoek in Suid-Afrika woon en van plan wees om hier aan te bly. Die toelaag word nie aan Suid-Afrikaners betaal wat permanent geëmigreer het nie.",
+        "Nie in 'n staatsinrigting nie: Jy kan nie die toelaag ontvang as jy ten volle in 'n staatsbefondsde inrigting soos 'n staatsbejaardetehuis, gevangenis of staatspsigiatriese fasiliteit onderhou word nie.",
+        "Geen oorvleuelende persoonlike toelaag nie: Jy kan nie die Toelaag vir Bejaardes terselfdertyd as 'n ander maatskaplike toelaag wat vir jou eie ondersteuning betaal word, ontvang nie, byvoorbeeld die Gestremdheidstoelaag. 'n Toelaag wat vir iemand anders in jou sorg betaal word, soos 'n Kinderondersteuningstoelaag vir 'n kleinkind, is apart en toegelaat.",
+        "Slegs een toelaag: Jy mag slegs een Toelaag vir Bejaardes in jou eie naam hou."
+      ]
+    },
+    {
+      "id": "deepdive-residency-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Tydelik in die buiteland reis of woon",
+      "text": "As jy Suid-Afrika vir 'n lang tydperk verlaat, mag SASSA die toelaag opskort. Kort vakansies is gewoonlik reg, maar jy moet jou plaaslike kantoor inlig as jy beplan om vir 'n paar maande weg te wees sodat jou betalings nie onverwags gestaak word nie."
+    },
+    {
+      "id": "meanstest-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Die middeletoets verduidelik"
+    },
+    {
+      "id": "meanstest-p1",
+      "type": "paragraph",
+      "text": "Die middeletoets is hoe SASSA seker maak die toelaag bereik mense wat dit werklik nodig het. Dit kyk na beide jou inkomste en jou bates. As jou inkomste onder die drempel is, ontvang jy die volle toelaag. As dit bo is, word die toelaag op 'n glyskaal verminder eerder as om outomaties afgesny te word. Dit beteken baie bejaardes met 'n klein pensioen, huurinkomste of deeltydse verdienste kwalifiseer steeds vir 'n gedeeltelike bedrag.",
+      "links": [
+        {
+          "text": "middeletoets",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
+    },
+    {
+      "id": "meanstest-table",
+      "type": "table",
+      "headers": [
+        "Situasie",
+        "Inkomsteperk vir volle toelaag",
+        "Inkomste waarby toelaag nul bereik",
+        "Bateperk (primêre woning uitgesluit)"
+      ],
+      "rows": [
+        [
+          "Enkellopende aansoeker",
+          "~R112,200/jaar (ongeveer R9,350/maand)",
+          "~R117,000/jaar",
+          "~R1,584,000"
+        ],
+        [
+          "Getroude paartjie (gesamentlik)",
+          "~R224,400/jaar (ongeveer R18,700/maand)",
+          "~R229,200/jaar",
+          "~R3,168,000"
+        ]
+      ],
+      "caption": "Middeletoets-drempels vir die Toelaag vir Bejaardes vir 2026"
+    },
+    {
+      "id": "meanstest-p2",
+      "type": "paragraph",
+      "text": "Die toelaag word met rofweg R1 vir elke R2 van inkomste bo die volle-toelaag-perk verminder. Vir 'n getroude paartjie kombineer SASSA beide gades se inkomste en bates ongeag watter tipe huwelik jy het, insluitend gebruiklike en buite-gemeenskapsgoed-huwelike. Jou primêre woning word nie as 'n bate getel nie."
+    },
+    {
+      "id": "meanstest-examples",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Voorbeeld 1 (enkellopend): Thandi is 68 en verdien R9,450/maand (R113,400/jaar), ongeveer R1,200 bo die perk. Haar toelaag word met ongeveer R600 verminder, so sy ontvang rofweg R1,800/maand in plaas van die volle R2,400.",
+        "Voorbeeld 2 (enkellopend): Sipho is 72 met geen inkomste nie. Hy ontvang die volle R2,400/maand.",
+        "Voorbeeld 3 (getroud): 'n Paartjie met 'n gesamentlike inkomste van R19,700/maand (R236,400/jaar) is bo die nulpunt, so geeneen ontvang die toelaag nie.",
+        "Voorbeeld 4 (getroud): 'n Paartjie met 'n gesamentlike inkomste van R18,900/maand (R226,800/jaar) is R2,400 bo die volle perk, so elke vennoot se toelaag word met ongeveer R1,200 tot rofweg R1,200/maand verminder."
+      ]
+    },
+    {
+      "id": "meanstest-home-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Jou woning tel nie",
+      "text": "Die bateperk sluit die waarde van jou primêre woning uit. Meubels, 'n motor, spaargeld en beleggingseiendom kan tel, maar die huis waarin jy woon, word beskerm."
+    },
+    {
+      "id": "apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om aansoek te doen: aanlyn vs SASSA-kantoor"
+    },
+    {
+      "id": "apply-p1",
+      "type": "paragraph",
+      "text": "Jy kan op twee maniere vir die Toelaag vir Bejaardes aansoek doen: aanlyn deur die SASSA-diensportaal, of persoonlik by jou naaste SASSA-kantoor. Die aanlynroete is gerieflik as jy gemaklik is om 'n foon of rekenaar te gebruik en jou dokumente as lêers of foto's kan stoor."
+    },
+    {
+      "id": "apply-online-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Gaan na die SASSA-diensportaal",
+          "description": "Besoek services.sassa.gov.za en registreer of meld aan met jou ID-nommer en 'n wagwoord."
+        },
+        {
+          "title": "Begin 'n nuwe aansoek vir die Toelaag vir Bejaardes",
+          "description": "Kies die Toelaag vir Bejaardes en voltooi die aanlynvorm met jou persoonlike, inkomste- en bankbesonderhede."
+        },
+        {
+          "title": "Laai jou dokumente op",
+          "description": "Laai duidelike foto's of skanderings van jou ID, bewys van woning, bewys van inkomste of bates, en bankbesonderhede op."
+        },
+        {
+          "title": "Dien in en stoor jou verwysingsnommer",
+          "description": "Dien die vorm in en hou die bevestigingsverwysing. SASSA sal jou oor die uitslag kontak."
+        }
+      ]
+    },
+    {
+      "id": "apply-office-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Besoek jou naaste SASSA-kantoor",
+          "description": "Neem jou oorspronklike dokumente en fotokopies. 'n Beampte sal jou help om die vorm te voltooi."
+        },
+        {
+          "title": "Woon die onderhoud by en gee biometrika",
+          "description": "Jou vingerafdrukke en foto word vasgelê en 'n onderhoud word gevoer."
+        },
+        {
+          "title": "Hou jou kwitansie",
+          "description": "Jy ontvang 'n gestempelde kwitansie wat die datum bewys waarop jy aansoek gedoen het. Betalings word na hierdie datum teruggedateer as jy goedgekeur word."
+        },
+        {
+          "title": "Wag vir die besluit",
+          "description": "Die meeste aansoeke word binne ongeveer drie maande verwerk. Jy kan jou status aanlyn of by die kantoor nagaan."
+        }
+      ]
+    },
+    {
+      "id": "apply-authorisation-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Iemand kan namens jou aansoek doen",
+      "text": "As jy te swak of ongesteld is om te reis, kan 'n familielid of vertroude persoon met 'n magtigingsbrief of 'n volmag namens jou aansoek doen. SASSA kan in sommige gevalle ook 'n huisbesoek of assessering reël."
+    },
+    {
+      "id": "documents-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Kontrolelys van vereiste dokumente"
+    },
+    {
+      "id": "documents-checklist",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "13-syfer strepieskode Smart-ID-kaart, groen ID-boek, of geldige vlugteling-/permanente-inwoner-bewys",
+          "required": true,
+          "notes": "'n Tydelike ID word oor die algemeen nie vir die aansoek aanvaar nie."
+        },
+        {
+          "label": "Bewys van inkomste (jongste betaalstrokie, pensioenstrokie, of 'n beëdigde verklaring as jy geen inkomste het nie)",
+          "required": true,
+          "notes": "As SASSA jou finansies hersien, verskaf die laaste 3 maande se bankstate."
+        },
+        {
+          "label": "Bewys van bates (bankstate, eiendoms- of beleggingstate waar relevant)",
+          "required": true,
+          "notes": "Jou primêre woning word van die batetoets uitgesluit."
+        },
+        {
+          "label": "Bewys van woning (nutsrekening, munisipale brief, of 'n brief van 'n tradisionele leier of wyksraadslid)",
+          "required": true
+        },
+        {
+          "label": "Huweliksertifikaat (of egskeidingsbevel / sterftesertifikaat as voorheen getroud)",
+          "required": true,
+          "notes": "Nodig omdat beide gades se inkomste en bates gekombineer word."
+        },
+        {
+          "label": "Bankbesonderhede vir betaling (rekeninghouer, bank, tak, rekeningnommer)",
+          "required": true,
+          "notes": "Bankdeposito is die aanbevole betaalmetode."
+        }
+      ]
+    },
+    {
+      "id": "payment-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Betaalmetodes en die SASSA-swartkaart"
+    },
+    {
+      "id": "payment-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bankdeposito: Die toelaag word in jou persoonlike bankrekening betaal. Dit is die veiligste en mees aanbevole metode.",
+        "SASSA-kaart: Jy kan jou toelaag by kleinhandelbetalingspunte soos Shoprite, Pick n Pay, Boxer, Checkers en USave met jou SASSA-kaart intrek.",
+        "Poskantoor: Sommige kantore betaal steeds via die Poskantoor, maar hierdie kanaal word uitgefaseer.",
+        "OTM: Jy kan met jou SASSA-kaart by 'n OTM geld onttrek."
+      ]
+    },
+    {
+      "id": "payment-blackcard-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Ruil jou ou goue kaart teen 31 Augustus 2026 vir die nuwe swart kaart",
+      "text": "SASSA vervang die ou goue SASSA-kaart met die nuwe swart Postbank-kaart. SASSA se aangekondigde migrasiesperdatum is 31 Augustus 2026, en begunstigdes moet omruil om aanhou betaal te word. Datums kan verander, so bevestig die jongste sperdatum op die amptelike SASSA- en Postbank-kanale voordat jy die punt besoek."
+    },
+    {
+      "id": "review-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Jaarlikse lewensertifikaat-(hersienings-)proses"
+    },
+    {
+      "id": "review-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Ontvang jou hersieningskennisgewing",
+          "description": "Elke jaar vra SASSA pensioentrekkers om te bevestig hulle is steeds lewend en kwalifiseer steeds. Dit word die lewensertifikaat of biometriese hersiening genoem."
+        },
+        {
+          "title": "Voltooi die biometriese kontrole",
+          "description": "Jy bevestig jou identiteit met 'n vingerafdruk of ander biometrika by 'n SASSA-kantoor, geregistreerde betaalpunt of via die goedgekeurde kanaal."
+        },
+        {
+          "title": "Werk enige veranderinge by",
+          "description": "Vertel SASSA tydens die hersiening van veranderinge aan jou inkomste, bates, huwelikstatus of lewensituasie."
+        },
+        {
+          "title": "Hou jou betalings vloei",
+          "description": "Sodra die hersiening gedoen is, gaan jou betalings voort. As jy die hersiening mis, kan jou toelaag opgeskort word."
+        }
+      ]
+    },
+    {
+      "id": "review-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Moenie jou hersiening mis nie",
+      "text": "SASSA kruiskontroleer bankrekeninge met SARS en kredietburo's. As jy nie jou lewensertifikaat-hersiening voltooi nie, mag jou toelaag opgeskort word totdat jy dit doen. Om 'n opgeskorte toelaag te herstel kan tyd neem, so doen die hersiening sodra jy gevra word."
+    },
+    {
+      "id": "carehome-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Na 'n versorgingstehuis of hospitaal verhuis"
+    },
+    {
+      "id": "carehome-p1",
+      "type": "paragraph",
+      "text": "As jy na 'n staatsbefondsde inrigting verhuis waar jou lewenskoste ten volle gedek word, stop die Toelaag vir Bejaardes gewoonlik omdat die staat jou reeds onderhou. As jy na 'n private versorgingstehuis verhuis of by familie woon en steeds jou eie pad betaal, kan die toelaag voortgaan solank jy steeds aan die middeletoets voldoen."
+    },
+    {
+      "id": "carehome-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Vertel SASSA van die verandering",
+      "text": "Stel altyd jou plaaslike SASSA-kantoor in kennis as jy na enige inrigting verhuis of van adres verander. Om 'n verhuising na 'n staatsinrigting nie te rapporteer nie, kan tot 'n oorbetaling lei wat jy later dalk moet terugbetaal."
+    },
+    {
+      "id": "suspension-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Opskorting, kansellasie en herinstelling"
+    },
+    {
+      "id": "suspension-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Jou toelaag mag opgeskort word vir 'n gemiste lewensertifikaat-hersiening, 'n verandering in inkomste of bates bo die perk, of 'n druipende verifikasiekontrole.",
+        "Jou toelaag mag gekanselleer word as jy nie meer kwalifiseer nie, as jy sterf (die toelaag eindig en behoort gerapporteer te word), of as jy permanent na die buiteland verhuis.",
+        "As jou toelaag opgeskort is en jy steeds kwalifiseer, besoek jou SASSA-kantoor met bewys (bankstate, ID, hersieningsbevestiging) om herinstelling te versoek. Teruggedateerde betalings mag vanaf die opskortingsdatum herstel word.",
+        "As jy verkeerdelik betaal is, mag SASSA die oorbetaalde bedrag in paaiemente van toekomstige toelaes verhaal."
+      ]
+    },
+    {
+      "id": "appeals-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appèlle: wat om te doen as jou aansoek afgekeur word"
+    },
+    {
+      "id": "appeals-p1",
+      "type": "paragraph",
+      "text": "As jou aansoek vir die Toelaag vir Bejaardes afgekeur word, het jy die reg om te appelleer. Afgekeurde aansoeke word deur die Independent Tribunal for Social Assistance Appeals (ITSAA) hersien. Vir toelaes anders as die SRD-toelaag kan jy ook jou appèl deur 'n SASSA-kantoor of skriftelik by die Ministerie van Maatskaplike Ontwikkeling indien."
+    },
+    {
+      "id": "appeals-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Lees jou besluitbrief",
+          "description": "Die brief verduidelik waarom jy afgekeur is en die sperdatum om te appelleer."
+        },
+        {
+          "title": "Dien binne 30 dae in",
+          "description": "Jy behoort binne 30 dae van die besluit te appelleer. Die aanlyn-appèlportaal aanvaar appèlle tot 90 dae vanaf die afkeuringsdatum."
+        },
+        {
+          "title": "Dien jou appèl en bewyse in",
+          "description": "Verduidelik waarom jy verskil en heg enige nuwe bewys aan, soos bygewerkte bankstate of 'n gekorrigeerde beëdigde verklaring."
+        },
+        {
+          "title": "Wag vir die tribunaaluitslag",
+          "description": "Die Independent Tribunal hersien jou saak en laat jou die uitslag weet. As dit bekragtig word, word jou toelaag goedgekeur, dikwels teruggedateer na jou aansoek."
+        }
+      ]
+    },
+    {
+      "id": "appeals-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Waar om te appelleer",
+      "text": "Jy kan aanlyn deur die SASSA-diensportaal, by jou naaste SASSA-kantoor, of skriftelik by die Ministerie van Maatskaplike Ontwikkeling appelleer. As jou situasie dringend is, vra die kantoor oor 'n tydelike reëling terwyl jou appèl oorweeg word."
+    },
+    {
+      "id": "comparison-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Toelaag vir Bejaardes vs ander SASSA-toelaes"
+    },
+    {
+      "id": "comparison-table",
+      "type": "comparison-table",
+      "headers": [
+        "Toelaag",
+        "Maandelikse bedrag (2026)",
+        "Vir wie dit is",
+        "Middeletoets"
+      ],
+      "rows": [
+        [
+          "Toelaag vir Bejaardes (ouderdomme 60 tot 74)",
+          "R2,400",
+          "Suid-Afrikaners van 60 jaar en ouer",
+          "Inkomste en bates"
+        ],
+        [
+          "Toelaag vir Bejaardes (ouderdomme 75 en ouer)",
+          "R2,420",
+          "Suid-Afrikaners van 75 jaar en ouer",
+          "Inkomste en bates"
+        ],
+        [
+          "Oorlogsveteranetoelaag",
+          "R2,420",
+          "Kwalifiserende oorlogsveterane van 60 jaar en ouer",
+          "Inkomste en bates"
+        ],
+        [
+          "Gestremdheidstoelaag",
+          "R2,400",
+          "Volwassenes van 18 tot 59 met 'n gestremdheid",
+          "Inkomste en bates"
+        ],
+        [
+          "SRD R370-toelaag",
+          "R370",
+          "Burgers, permanente inwoners of vlugtelinge van 18 tot 59 met min of geen inkomste",
+          "Aparte inkomstetoets"
+        ]
+      ],
+      "caption": "Hoe die Toelaag vir Bejaardes met soortgelyke toelaes vergelyk"
+    },
+    {
+      "id": "links-grid",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Betaaldatums vir die Toelaag vir Bejaardes",
+          "href": "/payment-dates",
+          "description": "Sien die bevestigde 2026-betaalskedule vir toelaes vir bejaardes."
+        },
+        {
+          "title": "Gestremdheidstoelaag",
+          "href": "/grants/disability-grant",
+          "description": "As jy onder 60 is en weens 'n gestremdheid nie kan werk nie."
+        },
+        {
+          "title": "SRD R370-toelaag",
+          "href": "/grants/srd-r370-grant",
+          "description": "Die Social Relief of Distress-toelaag vir volwassenes in die werkende ouderdomsgroep."
+        },
+        {
+          "title": "Hoe om teen 'n SASSA-besluit te appelleer",
+          "href": "/appeals",
+          "description": "Stap-vir-stap-hulp met die Independent Tribunal-appèlproses."
+        },
+        {
+          "title": "SASSA-diensportaal",
+          "href": "https://services.sassa.gov.za",
+          "description": "Doen aanlyn aansoek en kontroleer jou aansoekstatus."
+        },
+        {
+          "title": "Departement van Maatskaplike Ontwikkeling",
+          "href": "https://www.dsd.gov.za",
+          "description": "Nasionale beleid en toesig oor maatskaplike toelaes."
+        }
+      ]
+    },
+    {
+      "id": "scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Beskerm jouself teen bedrog"
+    },
+    {
+      "id": "scams-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA vra nooit vir betaling om 'n toelaag goed te keur nie",
+      "text": "Bedrieërs mag jou bel, SMS of boodskap en vra vir 'n 'verwerkingsfooi' of jou bank-PIN om jou toelaag vry te stel. SASSA vra nie 'n fooi om aansoek te doen of 'n toelaag goed te keur nie, en sal nooit vir jou PIN of OTP vra nie. Rapporteer verdagte boodskappe by die amptelike SASSA-kanale en deel nooit jou bankaanmeldingbesonderhede nie."
+    },
+    {
+      "id": "other-support-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ander ondersteuning beskikbaar vir pensioentrekkers"
+    },
+    {
+      "id": "other-support-p1",
+      "type": "paragraph",
+      "text": "Die Toelaag vir Bejaardes is een deel van 'n breër stel hulp vir bejaardes. Afhangende van waar jy woon, mag jy ook vir munisipale en provinsiale ondersteuning kwalifiseer wat jou daaglikse koste verminder. Vra jou plaaslike SASSA-kantoor, die Departement van Maatskaplike Ontwikkeling, of jou munisipaliteit oor wat in jou area beskikbaar is, omdat programme per provinsie en dorp verskil."
+    },
+    {
+      "id": "other-support-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Munisipale tariewe- en belastingkortings: Baie munisipaliteite bied verlaagde of vrygestelde eiendomstariewe vir pensioentrekkers wat hul eie huis besit.",
+        "Gratis basiese elektrisiteit en water: Behoeftige en pensioentrekkershuishoudings mag 'n gratis basiese toewysing van elektrisiteit en water van die munisipaliteit ontvang.",
+        "Vervoerkonsessies: Sommige provinsies en munisipaliteite bied afgeslaagde of gratis openbare vervoer vir bejaardes.",
+        "Gemeenskapsgebaseerde sorg: As jy hulp by die huis nodig het, befonds die Departement van Maatskaplike Ontwikkeling tuisgebaseerde- en gemeenskapsorgwerkers in sommige areas.",
+        "Bejaardehuisvesting: Gesubsidieerde bejaardetehuise en behuisingsopsies mag deur provinsiale maatskaplike-ontwikkelingsdepartemente beskikbaar wees."
+      ]
+    },
+    {
+      "id": "tax-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Is die toelaag belasbaar?"
+    },
+    {
+      "id": "tax-p1",
+      "type": "paragraph",
+      "text": "Die Toelaag vir Bejaardes is 'n maatskaplike-hulpbetaling en is nie belasbare inkomste nie. Jy hoef dit nie op 'n belastingopgawe te verklaar nie, en dit word nie deur enige klein pensioen of rente wat jy ontvang, geraak nie, mits daardie bedrae binne die middeletoets-perke bly. As jy onseker is hoe jou ander inkomste behandel word, sal SASSA dit as deel van die middeletoets beoordeel wanneer jy aansoek doen of by elke hersiening."
+    },
+    {
+      "id": "report-changes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Veranderinge aan SASSA rapporteer"
+    },
+    {
+      "id": "report-changes-p1",
+      "type": "paragraph",
+      "text": "Jou toelaagbedrag hang van jou persoonlike situasie af. As iets verander, vertel SASSA dadelik sodat jy die korrekte bedrag betaal word en 'n oorbetaling wat jy later sou moes terugbetaal, vermy word. Jy kan veranderinge by jou plaaslike kantoor of deur die SASSA-diensportaal rapporteer waar die opsie beskikbaar is."
+    },
+    {
+      "id": "report-changes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Jou inkomste of bates styg bo die middeletoets-perk.",
+        "Jy trou, skei, of jou gade sterf.",
+        "Jy trek en verander van provinsie.",
+        "Jy verander jou bankrekening of bankbesonderhede.",
+        "Jy verhuis na 'n versorgingsinrigting of uit een uit.",
+        "Jou kontakbesonderhede, soos telefoonnommer of adres, verander."
+      ]
+    },
+    {
+      "id": "status-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Jou aansoek- of betaalstatus nagaan"
+    },
+    {
+      "id": "status-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Kyk aanlyn na",
+          "description": "Meld by services.sassa.gov.za aan en bekyk jou aansoek- en betaalstatus met jou ID-nommer."
+        },
+        {
+          "title": "Gebruik die USSD-lyn",
+          "description": "Skakel die SASSA-USSD-kode vanaf jou foon en volg die aanwysings om status sonder selfoondata na te gaan."
+        },
+        {
+          "title": "Bel die SASSA-oproepsentrum",
+          "description": "Bel die SASSA-hulplyn met jou ID en verwysingsnommer gereed."
+        },
+        {
+          "title": "Besoek jou plaaslike kantoor",
+          "description": "Neem jou ID en kwitansie om 'n beampte persoonlik te vra om jou aansoek of betaling na te gaan."
+        }
+      ]
+    },
+    {
+      "id": "status-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Hou jou kwitansie en verwysingsnommer",
+      "text": "Jou aansoekkwitansie en aanlynverwysingsnommer is die vinnigste manier vir SASSA om jou saak op te spoor. Bêre dit dadelik op 'n veilige plek nadat jy aansoek gedoen het, omdat dit vir statustoetse, appèlle en terugdatering nodig is."
+    },
+    {
+      "id": "deepdive-faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Meer vrae? Diepte-GV"
+    },
+    {
+      "id": "deepdive-faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Wat is die presiese bedrag van die Toelaag vir Bejaardes in 2026?",
+          "answer": "Vanaf 1 April 2026 is die toelaag R2,400 per maand vir mense van 60 tot 74, en R2,420 per maand vir dié van 75 jaar en ouer. Oorlogsveterane ontvang ook R2,420 per maand."
+        },
+        {
+          "question": "Kan ek die toelaag kry as ek steeds 'n salaris verdien?",
+          "answer": "Ja. As jou totale inkomste onder die middeletoets-perk is (ongeveer R112,200/jaar vir 'n enkellopende persoon, of R224,400/jaar gesamentlik vir 'n getroude paartjie), kan jy die volle of 'n gedeeltelike toelaag ontvang. Inkomste bo die perk verminder die toelaag op 'n glyskaal eerder as om jou outomaties te diskwalifiseer."
+        },
+        {
+          "question": "Hoe word die toelaag verminder as my inkomste te hoog is?",
+          "answer": "Die toelaag word met rofweg R1 vir elke R2 van inkomste bo die volle-toelaag-perk verminder. Byvoorbeeld, 'n enkellopende persoon wat R1,200 bo die perk verdien, sal ongeveer R600 minder per maand ontvang."
+        },
+        {
+          "question": "Tel beide gades se inkomste?",
+          "answer": "Ja. Vir 'n getroude paartjie kombineer SASSA beide vennote se inkomste en bates ongeag die tipe huwelik, insluitend gebruiklike en buite-gemeenskapsgoed-huwelike."
+        },
+        {
+          "question": "Word my huis as 'n bate getel?",
+          "answer": "Nee. Jou primêre woning word van die batetoets uitgesluit. Die bateperk (ongeveer R1,584,000 vir 'n enkellopende persoon) geld vir spaargeld, voertuie, beleggings en ander eiendom, nie jou hoofwoning nie."
+        },
+        {
+          "question": "Kan 'n familielid namens my aansoek doen?",
+          "answer": "Ja. As jy nie kan reis nie, kan 'n familielid of vertroude persoon met 'n magtigingsbrief of volmag namens jou aansoek doen. SASSA kan in sommige gevalle ook 'n huisbesoek reël."
+        },
+        {
+          "question": "Kan ek aanlyn aansoek doen?",
+          "answer": "Ja. Jy kan by services.sassa.gov.za aansoek doen deur te registreer, die vorm te voltooi en jou dokumente op te laai. Jy kan ook persoonlik by enige SASSA-kantoor aansoek doen."
+        },
+        {
+          "question": "Hoe lank neem die aansoek?",
+          "answer": "Die meeste aansoeke word binne ongeveer drie maande verwerk. As goedgekeur, word betalings teruggedateer na die datum waarop jy aansoek gedoen het, so hou jou kwitansie of verwysingsnommer veilig."
+        },
+        {
+          "question": "Watter dokumente het ek nodig?",
+          "answer": "Jy het jou ID nodig (of vlugteling-/permanente-inwoner-bewys), bewys van inkomste en bates (insluitend die laaste 3 maande se bankstate as dit hersien word), bewys van woning, jou huweliksertifikaat as jy getroud is, en jou bankbesonderhede vir betaling."
+        },
+        {
+          "question": "Watter betaalmetode is die beste?",
+          "answer": "'n Direkte bankdeposito is die veiligste en mees betroubare. Jy kan ook met jou SASSA-kaart by kleinhandelaars soos Shoprite, Pick n Pay, Boxer, Checkers en USave intrek, of by 'n OTM onttrek."
+        },
+        {
+          "question": "Wat is die swart SASSA-kaartverandering?",
+          "answer": "Die ou goue SASSA-kaart word deur 'n nuwe swart Postbank-kaart vervang. SASSA se aangekondigde sperdatum om om te ruil is 31 Augustus 2026, en begunstigdes moet omruil om aanhou betaal te word. Bevestig die jongste datum op amptelike SASSA- en Postbank-kanale."
+        },
+        {
+          "question": "Wat is die lewensertifikaat-hersiening?",
+          "answer": "Elke jaar moet pensioentrekkers deur 'n biometriese (vingerafdruk-)hersiening bevestig hulle is steeds lewend en kwalifiseer steeds. As jy dit mis, kan jou toelaag opgeskort word totdat jy dit voltooi."
+        },
+        {
+          "question": "Wat gebeur as ek na 'n versorgingstehuis verhuis?",
+          "answer": "As 'n staatsinrigting jou ten volle onderhou, stop die toelaag gewoonlik. As jy in 'n private woning of by familie woon en steeds jou eie pad betaal, kan die toelaag voortgaan terwyl jy aan die middeletoets voldoen. Vertel altyd SASSA van die verhuising."
+        },
+        {
+          "question": "Kan my toelaag opgeskort word?",
+          "answer": "Ja. Algemene redes is 'n gemiste lewensertifikaat-hersiening, inkomste of bates wat bo die perk styg, of 'n druipende verifikasie. Jy kan by jou SASSA-kantoor met bygewerkte bewys herinstelling versoek."
+        },
+        {
+          "question": "Hoe appelleer ek teen 'n afgekeurde aansoek?",
+          "answer": "Appelleer by die Independent Tribunal for Social Assistance Appeals (ITSAA). Dien binne 30 dae van die besluit in; die aanlynportaal aanvaar appèlle tot 90 dae. Jy kan aanlyn, by 'n SASSA-kantoor, of skriftelik by die Ministerie van Maatskaplike Ontwikkeling appelleer."
+        },
+        {
+          "question": "Stop die toelaag wanneer ek sterf?",
+          "answer": "Ja. Die toelaag eindig met die dood van die begunstigde. Die familie behoort die afsterwe aan SASSA te rapporteer sodat betalings ophou en enige finale reëlings korrek hanteer word."
+        },
+        {
+          "question": "Kan ek die Toelaag vir Bejaardes en 'n Kinderondersteuningstoelaag terselfdertyd kry?",
+          "answer": "Ja. Die Toelaag vir Bejaardes word vir jou eie ondersteuning betaal, terwyl 'n Kinderondersteuningstoelaag aan jou as versorger van 'n kleinkind of ander kind in jou sorg betaal kan word. Dit is aparte toelaes."
+        },
+        {
+          "question": "Is die Toelaag vir Bejaardes belasbaar?",
+          "answer": "Nee. Die toelaag is 'n maatskaplike-hulpbetaling en is nie belasbaar nie. Jy verklaar dit nie op 'n belastingopgawe nie, en dit word apart van enige klein pensioen of rente onder die middeletoets beoordeel."
+        },
+        {
+          "question": "Wat gebeur as ek trou nadat ek die toelaag begin ontvang het?",
+          "answer": "Vertel SASSA. Jou gade se inkomste en bates word met jou s'n vir die middeletoets gekombineer, ongeag watter tipe huwelik jy het. As die gesamentlike totaal bo die perk styg, mag jou toelaag vanaf die volgende hersiening verminder of gestaak word."
+        },
+        {
+          "question": "My gade is oorlede. Wat moet ek doen?",
+          "answer": "Rapporteer die dood aan SASSA en verskaf die sterftesertifikaat. Jou middeletoets word op 'n enkellopende basis herbereken, wat jou toelaag mag verhoog as jou oorlede gade se inkomste deel van die gesamentlike totaal was."
+        },
+        {
+          "question": "Kan ek die toelaag ontvang as ek 'n private pensioen het?",
+          "answer": "Ja, mits jou totale inkomste, insluitend die pensioen, binne die middeletoets bly. 'n Klein private pensioen hou jou dikwels onder die perk, en die toelaag word verminder eerder as gekanselleer as jy effens bo is."
+        },
+        {
+          "question": "Kan ek in die buiteland woon en die toelaag hou?",
+          "answer": "Oor die algemeen nee. Die toelaag is vir mense wat in Suid-Afrika woon. Lang afwesighede kan tot opskorting lei. As jy beplan om te reis, lig eers jou plaaslike kantoor in."
+        },
+        {
+          "question": "Wat as SASSA sê ek het die middeletoets gedruip maar ek verskil?",
+          "answer": "Jy kan appelleer. Versamel bewys soos bankstate, 'n pensioenstrokie of 'n beëdigde verklaring, en appelleer binne die sperdatum in jou brief by die Independent Tribunal for Social Assistance Appeals."
+        },
+        {
+          "question": "Hoe werk ek my bankbesonderhede by?",
+          "answer": "Werk jou bankbesonderhede by jou naaste SASSA-kantoor of deur die amptelike SASSA-kanale by. Deel nooit jou bankaanmelding met enigiemand nie, en ignoreer boodskappe wat vra dat jy besonderhede 'bevestig' deur 'n fooi te betaal."
+        },
+        {
+          "question": "Kan die toelaag aan iemand anders namens my betaal word?",
+          "answer": "Die toelaag word in jou rekening of op jou kaart betaal. As jy dit nie kan intrek nie, kan 'n vertroude persoon met jou toestemming jou kaart gebruik om te help, maar jy moet nooit jou PIN oorhandig nie. 'n Formele reëling kan indien nodig deur SASSA getref word."
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Gereelde Vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Kan ek die pensioen kry as ek steeds werk?",
+          "answer": "Ja, mits jou totale verdienste uit jou indiensneming onder die middeletoets-drempel val (onder R112,200 per jaar vir 'n enkellopende persoon)."
+        },
+        {
+          "question": "Styg die pensioen outomaties elke jaar?",
+          "answer": "Ja, die Minister van Finansies kondig tipies jaarlikse toelaagaanpassings tydens die begrotingsrede in Februarie aan, wat vanaf April en Oktober in werking tree."
+        },
+        {
+          "question": "Wat gebeur as ek na 'n ander provinsie verhuis?",
+          "answer": "Jou toelaag trek saam met jou. Besoek jou nuwe plaaslike SASSA-kantoor om jou adres en betaalinvorderingspunt by te werk."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Toelaagbiblioteek",
+      "slug": "/grants"
+    },
+    {
+      "title": "Gestremdheidstoelaag",
+      "slug": "/grants/disability-grant"
+    },
+    {
+      "title": "Grant-in-Aid",
+      "slug": "/grants/grant-in-aid"
+    }
+  ]
+}

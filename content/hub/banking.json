@@ -1,1 +1,63 @@
-{"id":"hub-banking","slug":"/banking","classification":"hub-index","title":"SASSA Payment Methods and Banking","description":"Learn about SASSA payment options: bank deposits, Cash Send, and collection at pay points.","lastUpdated":"2026-06-30","version":"1.0.0","status":"published","author":{"name":"Grant Guide Editorial Team","role":"Content Editor","verified":true},"seo":{"metaTitle":"SASSA Payment Methods — Bank, Cash Send, and Pay Points","metaDescription":"Compare SASSA payment methods: direct bank deposits, Cash Send at retail stores, and physical pay points. Find which option works best for you.","keywords":["SASSA payment methods","SASSA bank","Cash Send"]},"contentBlocks":[{"id":"h1","type":"heading","level":2,"text":"SASSA Payment Methods"},{"id":"intro","type":"paragraph","text":"SASSA offers several ways to receive your grant payment. Choose the method that works best for you based on convenience, safety, and accessibility."}]}
+{
+  "id": "hub-banking",
+  "slug": "/banking",
+  "classification": "hub-index",
+  "title": "SASSA Payment Methods and Banking",
+  "description": "Learn about SASSA payment options: bank deposits, Cash Send, and collection at pay points.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Payment Methods — Bank, Cash Send, and Pay Points",
+    "metaDescription": "Compare SASSA payment methods: direct bank deposits, Cash Send at retail stores, and physical pay points. Find which option works best for you.",
+    "keywords": [
+      "SASSA payment methods",
+      "SASSA bank",
+      "Cash Send"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Payment Methods"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "SASSA offers several ways to receive your grant payment. Choose the method that works best for you based on convenience, safety, and accessibility."
+    },
+    {
+      "id": "related-pages-21dugg",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "How-To Guides",
+          "href": "/guides"
+        },
+        {
+          "title": "Eligibility Guides",
+          "href": "/eligibility"
+        }
+      ]
+    }
+  ]
+}

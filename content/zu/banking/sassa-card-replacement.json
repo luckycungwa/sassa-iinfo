@@ -1,0 +1,149 @@
+{
+  "id": "banking-card-replacement",
+  "slug": "/banking/sassa-card-replacement",
+  "classification": "banking-guide",
+  "title": "Ukufakwa Kwekhadi Le-SASSA — Ukuphakela Ikhadi Elilahlekile, Elicutshunyelwe, Noma Elonakalile",
+  "description": "Umhlahlandlela ngezinyathelo zokufaka ikhadi le-SASSA elilahlekile, elicutshunyelwe, noma elonakalile: yini okufanele yenziwe ngokushesha, ukuphi lapho uzoya khona, imibhalo edingekayo, izindleko, nesikhathi sokucubungula.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Ukufakwa Kwekhadi Le-SASSA — Uhlobo Lwekhadi Elilahlekile, Elicutshunyelwe, Noma Elonakalile",
+    "metaDescription": "Ulahlekelwe noma woniwe ikhadi le-SASSA? Umhlahlandlela ngezinyathelo wokuthola esinye: ukuphi, imibhalo okufanele uyilethe, isikhathi esingakanani, nokuthi ungafinyelela kanjani i-grant yakho ngenkathi ulindile.",
+    "keywords": [
+      "ukufakwa kwekhadi le-SASSA",
+      "ikhadi le-SASSA elilahlekile",
+      "ikhadi le-SASSA elicutshunyelwe",
+      "ikhadi le-SASSA elonakalile",
+      "faka esikhundleni ikhadi le-SASSA",
+      "ukukhishwa kabusha kwekhadi le-SASSA"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ukufakwa Kwekhadi Le-SASSA — Ukuphakela Ikhadi Elilahlekile, Elicutshunyelwe, Noma Elonakalile",
+      "description": "Ulahlekelwe, wacutshunyelwa, noma woniwe ikhadi le-SASSA? Ukuthola elinye kulula. Funda izinyathelo okufanele uzithathe ngokushesha, ukuphi lapho uzoya khona, imibhalo okufanele uyidinge, nokuthi ungafinyelela kanjani i-grant yakho ngenkathi ulindile.",
+      "readingTime": "imizuzu engu-3 yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Ikhadi Le-SASSA Lichaziwe",
+        "href": "/banking/sassa-card-explained"
+      },
+      "secondaryCta": {
+        "label": "Shintsha ku-Cash Send",
+        "href": "/banking/cash-send-guide"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Uhlobo Lokufakwa Kwekhadi Le-SASSA"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Ukulahlekelwa ikhadi le-SASSA noma ukuthi licutshunyelwa kungaxaka, kodwa ukuthola esinye kulula. Lokhu ikona okufanele ukwenze, ukuphi lapho uzoya khona, nokuthi yimiphi imibhalo okufanele uyidinge."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Ukulahlekelwa ikhadi lakho lokukhokhelwa kungaba njengokulahlekelwa ekuphela kwendlela yakho yokufinyelela i-grant yakho, kodwa imali yakho ayipheli — ihlala iphephile kusistimu ye-SASSA kuze kube yini uyithola. Noma ikhadi lakho lacutshunyelwa, lahleleka ngenxa yokuhamba, noma i-chip yashiya yini, ukufakwa ukubonakalisa ukubona umsebenzi ojwayelekile. Futhi ngenkathi ulindile, kukhona inketho yemali esebenza ngaphandle kwekhadi ngokuphelele."
+    },
+    {
+      "id": "lost-stolen-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Uma Ikhadi Lakho Lilahlekile Noma Licutshunyelwe"
+    },
+    {
+      "id": "lost-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Bika kupholisa (uma licutshunyelwe)",
+          "description": "Uma ikhadi lakho licutshunyelwe, famba ifomu lepholisa esikhungweni se-SAPS esisedu kunakho konke. Uzodinga inombolo yecala ngenkathi ufaka isicelo sokufakwa."
+        },
+        {
+          "title": "Vakashela isikhungo se-SASSA esisedu kunakho konke",
+          "description": "Yiya esikhungweni se-SASSA sendawo esisedu kunakho konke nedokhumenti yakho ye-ID. Uma i-ID yakho nayo yacutshunyelwa, thola i-affidavit ku-SAPS."
+        },
+        {
+          "title": "Gcwalisa ifomu lokufakwa",
+          "description": "Umhloli we-SASSA uzokusiza ngefonu yesicelo sokufakwa kwekhadi. Mema ngokusemthethweni ukuthi ikhadi lakho lahleleka noma lacutshunyelwa."
+        },
+        {
+          "title": "Thola ikhadi lakho elisha",
+          "description": "Ikhadi lokufakwa ngokuvamile linikezwa kungakapheli amaviki angu-2 kuya kwangu-4. Uzokwaziswa uma selilungele ukuthathwa."
+        }
+      ]
+    },
+    {
+      "id": "damaged-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Uma Ikhadi Lakho Lonakalile"
+    },
+    {
+      "id": "damaged-text",
+      "type": "paragraph",
+      "text": "Uma ikhadi le-SASSA lonakalile (likhambiwe, ligugile, noma i-chip ingasasebenzi), vakashela isikhungo se-SASSA esisedu kunakho konke ne-ID yakho nekhadi lonakalile. Ukufakwa ngokuvamile kuyashesha kunamakhadi alahlekile, ngokuvamile kucubungulwa kungakapheli amaviki angu-1 kuya kwangu-2."
+    },
+    {
+      "id": "while-waiting-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Ungafinyelela Kanjani I-Grant Yakho Ngenkathi Ulindile"
+    },
+    {
+      "id": "while-waiting",
+      "type": "paragraph",
+      "text": "Ngenkathi ulindele ikhadi lakho lokufakwa, usengafinyelela i-grant yakho. Shintsha indlela yakho yokukhokhelwa ku-Cash Send nge-SRD portal. Uzothola i-voucher ye-SMS ongayisebenzisa ukuthatha i-grant yakho ngemalı kumniningo we-Pick n Pay, Shoprite, Boxer, Checkers, noma Usave.",
+      "links": [
+        {
+          "text": "i-SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ukufakwa kwekhadi le-SASSA kubiza malini?",
+          "answer": "Ukufakwa kokuqala kuyamahhala. Ukufaka okulandelayo kungase kubangele imali encane yokuphatha ngokwenqubomgomo ye-SASSA."
+        },
+        {
+          "question": "Ngiyakwazi ukuthola i-grant yami ngaphandle kwekhadi?",
+          "answer": "Yebo. Shintsha ku-Cash Send noma ithunyelwe ebhange ngenkathi ulindele ikhadi lokufakwa."
+        },
+        {
+          "question": "Kuthatha isikhathi esingakanani ikhadi lokufakwa?",
+          "answer": "Amakhadi alahlekile/akutshunyelwa: amaviki angu-2 kuya kwangu-4. Amakhadi onakalile: amaviki angu-1 kuya kwangu-2."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Ikhadi Le-SASSA Lichaziwe",
+      "slug": "/banking/sassa-card-explained"
+    },
+    {
+      "title": "Izindlela Zokukhokhelwa ze-SASSA",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Uhlobo Lwe-Cash Send",
+      "slug": "/banking/cash-send-guide"
+    }
+  ]
+}

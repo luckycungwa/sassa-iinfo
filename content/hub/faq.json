@@ -4,32 +4,98 @@
   "classification": "hub-index",
   "title": "SASSA Frequently Asked Questions",
   "description": "Find answers to the most common SASSA grant questions about applications, payments, status meanings, eligibility, appeals, and banking.",
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA FAQ — Answers to Common Grant Questions",
     "metaDescription": "Get answers to the most frequently asked SASSA questions: application status, payment dates, eligibility, appeals, banking, and more.",
-    "keywords": ["SASSA FAQ", "SASSA questions", "grant help", "SASSA common questions"]
+    "keywords": [
+      "SASSA FAQ",
+      "SASSA questions",
+      "grant help",
+      "SASSA common questions"
+    ]
   },
   "contentBlocks": [
-    { "id": "h1", "type": "heading", "level": 2, "text": "Frequently Asked Questions" },
-    { "id": "intro", "type": "paragraph", "text": "Find quick answers to the most common questions about SASSA grants, applications, payments, and appeals. Browse by category below or search for your specific question." },
-    { "id": "quick-nav", "type": "link-grid", "links": [
-      { "title": "General SASSA Questions", "href": "/faq#general", "description": "What is SASSA, contact info" },
-      { "title": "Grants & Eligibility", "href": "/faq#grants", "description": "Application process, income limits" },
-      { "title": "Payments & Collection", "href": "/faq#payments", "description": "Payment dates, collection methods" },
-      { "title": "Application Status", "href": "/faq#status", "description": "Status meanings and changes" },
-      { "title": "Appeals", "href": "/faq#appeals", "description": "Appeal process and timelines" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Find quick answers to the most common questions about SASSA grants, applications, payments, and appeals. Browse by category below or search for your specific question.",
+      "links": [
+        {
+          "text": "appeal",
+          "href": "/appeals"
+        }
+      ]
+    },
+    {
+      "id": "quick-nav",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "General SASSA Questions",
+          "href": "/faq#general",
+          "description": "What is SASSA, contact info"
+        },
+        {
+          "title": "Grants & Eligibility",
+          "href": "/faq#grants",
+          "description": "Application process, income limits"
+        },
+        {
+          "title": "Payments & Collection",
+          "href": "/faq#payments",
+          "description": "Payment dates, collection methods"
+        },
+        {
+          "title": "Application Status",
+          "href": "/faq#status",
+          "description": "Status meanings and changes"
+        },
+        {
+          "title": "Appeals",
+          "href": "/faq#appeals",
+          "description": "Appeal process and timelines"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "Grant Library", "slug": "/grants" },
-    { "title": "Status Meanings", "slug": "/status" },
-    { "title": "Appeals Centre", "slug": "/appeals" },
-    { "title": "Eligibility Centre", "slug": "/eligibility" },
-    { "title": "Payment Dates", "slug": "/payment-dates" },
-    { "title": "Banking Guide", "slug": "/banking" }
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    },
+    {
+      "title": "Status Meanings",
+      "slug": "/status"
+    },
+    {
+      "title": "Appeals Centre",
+      "slug": "/appeals"
+    },
+    {
+      "title": "Eligibility Centre",
+      "slug": "/eligibility"
+    },
+    {
+      "title": "Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Banking Guide",
+      "slug": "/banking"
+    }
   ]
 }

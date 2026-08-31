@@ -1,0 +1,332 @@
+{
+  "id": "status-approved",
+  "slug": "/status/approved",
+  "classification": "status-meaning",
+  "title": "Goedgekeur — Wat Dit Beteken & Wat Gebeur Ná SASSA-goedkeuring",
+  "description": "Jou SASSA-toelaag is goedgekeur! Hier is wat die status 'Goedgekeur' beteken, wanneer jy betaal sal word, en wat om te doen terwyl jy op jou betaling wag.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.1.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA-status Goedgekeur — Wanneer Sal Jy Betaal Word? (2026)",
+    "metaDescription": "SASSA-status 'Goedgekeur' in 2026? Vind uit wanneer jy betaal word, waarom daar dalk geen betaaldatum wys nie, en wat om te doen as die geld laat is.",
+    "keywords": [
+      "SASSA goedgekeur status",
+      "goedgekeur sonder betaaldatum",
+      "SASSA goedgekeur maar geen geld",
+      "SRD goedgekeur betekenis",
+      "geen betaaldag SASSA",
+      "wanneer sal SASSA my betaal"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Goedgekeur — Wanneer Sal Jy Betaal Word?",
+      "description": "Jou SASSA-toelaag is goedgekeur! Verstaan wat die status 'Goedgekeur' beteken, wanneer jou betaling sal aankom, hoe lank dit neem om in jou bankrekening te reflekteer, en wat om te doen as jou betaling vertraag is.",
+      "readingTime": "7 min leestyd",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Volg Jou Betaling",
+        "href": "/status/payment-processing"
+      },
+      "secondaryCta": {
+        "text": "Bekyk Betaaldatums",
+        "href": "/payment-dates"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Goedgekeur — Wat Dit Beteken vir Jou SASSA-toelaag"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Die status 'Goedgekeur' is presies waarvoor jy gewag het. Dit beteken SASSA het sy verifikasiekontroles voltooi, bevestig dat jy aan die geskiktheidskriteria vir die maand voldoen, en fondse vir jou betaling toegewys. Dit is die laaste goedkeuring voordat jou geld na jou bank of invorderingspunt gestuur word."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Hierdie status is vir SASSA-begunstigdes wie se toelaagaansoeke suksesvol hersien en vir betaling goedgekeur is."
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Jou Toelaag Is Goedgekeur",
+      "text": "Betalings word verwerk volgens die amptelike SASSA-betaalskedule. Fondse reflekteer gewoonlik 1-3 werkdae ná die betaaldatum."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Goedgekeur",
+      "explanation": "Jou aansoek het al die verifikasiekontroles geslaag: identiteit stem ooreen met Binnelandse Sake se rekords, bankbesonderhede is suksesvol geverifieer, die middeletoets het geen diskwalifiserende inkomste getoon nie, en geen bedrogsvlae is geopper nie. SASSA het jou nou in die betalingsgroep vir die huidige maand ingesluit.",
+      "whyItHappens": [
+        "Alle geskiktheidskriteria is bevredig",
+        "Bankverifikasie suksesvol voltooi",
+        "Identiteitsverifikasie teen Binnelandse Sake se databasis geslaag",
+        "Middeletoets het bevestig dat jou inkomste binne die drempel is",
+        "Geen UIF-, NSFAS- of ander finansieringsbronne is opgespoor nie"
+      ],
+      "howLongItLasts": "Die status 'Goedgekeur' duur totdat die betaling verwerk en na jou bank of invorderingsagent oorgedra is. Sodra jy betaal is, verander die status na 'Betalingverwerking' of 'Betaal'. Elke nuwe maand word apart geëvalueer — goedkeuring een maand waarborg nie goedkeuring die volgende nie.",
+      "whatYouShouldDo": [
+        "Kyk vir 'n betaaldatum langs jou goedgekeurde status",
+        "As jy bankoordrag ontvang: verwag fondse binne 1 tot 3 werkdae ná die betaaldatum",
+        "As jy Cash Send ontvang: wag vir die SMS-bewys voordat jy 'n kleinhandelaar besoek",
+        "Moenie jou bankrekening toemaak of verander voordat die betaling aankom nie",
+        "Gaan voort om jou status aan die begin van elke nuwe maand na te gaan vir her-evaluering"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Betalingverwerking",
+          "slug": "payment-processing"
+        },
+        {
+          "name": "Aansoek Voltooi",
+          "slug": "application-complete"
+        }
+      ]
+    },
+    {
+      "id": "payment-timing-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Wanneer Sal Jy Betaal Word?"
+    },
+    {
+      "id": "payment-timing",
+      "type": "paragraph",
+      "text": "Nadat jou status 'Goedgekeur' wys, word 'n betaaldatum gewoonlik binne 'n paar werkdae bygevoeg. Presiese datums verskil per toelaagtipe:"
+    },
+    {
+      "id": "payment-table",
+      "type": "table",
+      "headers": [
+        "Toelaagtipe",
+        "Betalingsvenster",
+        "Metode"
+      ],
+      "rows": [
+        [
+          "SRD R370-toelaag",
+          "Maandelikse venster wat omtrent die 25ste begin",
+          "Bank-EFT of Cash Send"
+        ],
+        [
+          "Ouerpersoontoelaag",
+          "Eerste week van elke maand",
+          "Bank-EFT of kleinhandelinvordering"
+        ],
+        [
+          "Ongeskiktheidstoelaag",
+          "Eerste week van elke maand",
+          "Bank-EFT of kleinhandelinvordering"
+        ],
+        [
+          "Kinderondersteuningstoelaag",
+          "Eerste week van elke maand, ná ouer- en ongeskiktheidstoelae",
+          "Bank-EFT of kleinhandelinvordering"
+        ],
+        [
+          "Pleegsorgtoelaag",
+          "Eerste week van elke maand, ná ouer- en ongeskiktheidstoelae",
+          "Bank-EFT of kleinhandelinvordering"
+        ]
+      ]
+    },
+    {
+      "id": "bank-credit-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Hoe Lank Neem Dit om in Jou Bankrekening te Reflekteer?"
+    },
+    {
+      "id": "bank-credit",
+      "type": "paragraph",
+      "text": "Sodra SASSA die betaling verwerk, hang die tyd wat dit neem vir fondse om in jou rekening te verskyn van jou bank af:"
+    },
+    {
+      "id": "bank-table",
+      "type": "table",
+      "headers": [
+        "Bank",
+        "Tipiese Krediettyd"
+      ],
+      "rows": [
+        [
+          "Capitec",
+          "Dieselfde dag (binne 2-4 uur ná SASSA se vrystelling)"
+        ],
+        [
+          "FNB",
+          "Dieselfde dag of die volgende werkdag"
+        ],
+        [
+          "Standard Bank",
+          "1 tot 2 werkdae"
+        ],
+        [
+          "Absa",
+          "1 tot 2 werkdae"
+        ],
+        [
+          "Nedbank",
+          "1 tot 2 werkdae"
+        ],
+        [
+          "TymeBank",
+          "Dieselfde dag"
+        ],
+        [
+          "Bank Zero",
+          "Dieselfde dag"
+        ],
+        [
+          "Postbank",
+          "Dieselfde dag of die volgende werkdag"
+        ]
+      ]
+    },
+    {
+      "id": "nopayday-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Goedgekeur Sonder 'n Betaaldatum — Wat Dit Beteken en Wat om te Doen"
+    },
+    {
+      "id": "nopayday-answer",
+      "type": "paragraph",
+      "text": "As jou status 'Goedgekeur' wys maar geen betaaldatum verskyn langs dit nie, is jou aansoek vir hierdie maand goedgekeur, maar 'n betaaldag is nog nie gewys nie. Dit gebeur gereeld en beteken nie jou goedkeuring is teruggetrek nie. In die meeste gevalle word die betaaldatum bygevoeg soos die volgende betalingsloop nader kom."
+    },
+    {
+      "id": "nopayday-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Goedgekeur maar geen betaaldatum wys nie?",
+      "text": "Jou aansoek is goedgekeur, maar 'n betaaldag is nog nie vertoon nie. Niks word van jou vereis terwyl jy wag nie — hou aan om jou status elke paar dae na te gaan eerder as om weer aansoek te doen."
+    },
+    {
+      "id": "nopayday-diff",
+      "type": "paragraph",
+      "text": "Dit verskil van 'Hangende', wat beteken SASSA is steeds besig om jou geskiktheid vir hierdie maand te beoordeel. Dit verskil ook van 'n betaling wat verlore geraak het: as 'n betaaldatum gewys is en daardie datum verbygegaan het sonder geld in jou rekening, volg eerder ons gids oor betalings wat nie reflekteer nie."
+    },
+    {
+      "id": "nopayday-not-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Wat om NIE te Doen Terwyl Jy Wag Nie"
+    },
+    {
+      "id": "nopayday-not",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Moenie 'n nuwe aansoek indien nie — dit sal nie 'n betaaldatum vinniger laat verskyn nie en kan jou bestaande rekord bemoeilik",
+        "Moenie enigiemand betaal wat beweer hulle kan jou betaling vrystel of 'n betaaldatum laat verskyn nie — dit is 'n algemene bedrogskema",
+        "Moenie jou bankbesonderhede herhaaldelik verander terwyl jy wag nie — elke verandering herbegin verifikasie en kan jou betaling na die volgende siklus stoot",
+        "Moenie net op SMS-kennisgewings staatmaak nie — kyk jou status direk op die amptelike portaal"
+      ]
+    },
+    {
+      "id": "nosms-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Nog Geen SMS Nie? Hoekom Dit Normaal Kan Wees"
+    },
+    {
+      "id": "nosms",
+      "type": "paragraph",
+      "text": "Goedkeuringskennisgewings word per SMS gestuur waar SASSA 'n werkende selfoonnommer op lêer het, maar boodskappe kan laat aankom of glad nie — veral as jou nommer verander het sedert jy aansoek gedoen het. Die statusportaal is die betroubare bron van waarheid: as dit 'Goedgekeur' wys, behandel jou toelaag as goedgekeur of 'n SMS nou aangekom het of nie. As jou nommer verander het of verlore geraak het, werk dit op met ons SRD-selfoonnommergids sodat toekomstige kennisgewings jou bereik.",
+      "links": [
+        {
+          "text": "SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Gereelde Vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "My status wys 'Goedgekeur' maar daar is geen betaaldatum nie. Wat beteken dit?",
+          "answer": "Jou aansoek is goedgekeur, maar 'n betaaldag is nog nie gewys nie. Dit gebeur gereeld en niks word van jou kant vereis nie. 'n Betaaldatum word gewoonlik binne 'n paar werkdae bygevoeg soos die volgende betalingsloop nader kom — hou aan om jou status na te gaan eerder as om weer aansoek te doen."
+        },
+        {
+          "question": "Kan 'n status 'Goedgekeur' terugverander na 'Hangende' of 'Afgekeur'?",
+          "answer": "Ja. Elke maand word as 'n aparte siklus geëvalueer. As jou finansiële situasie in die middel van die maand verander (bv. jy ontvang 'n bankdeposito), kan die volgende maand 'n ander status wys."
+        },
+        {
+          "question": "Ek is goedgekeur maar die geld is nie in my rekening nie. Wat moet ek doen?",
+          "answer": "Wag 1 tot 3 werkdae ná die betaaldatum. As dit steeds nie verskyn nie, kyk dat jou bankbesonderhede korrek is en dat die rekening aktief is. As die probleem voortduur, kontak SASSA."
+        },
+        {
+          "question": "Moet ek elke maand weer aansoek doen as ek goedgekeur is?",
+          "answer": "Nee. Sodra jy goedgekeur is, word jou toelaag elke maand outomaties geëvalueer. Jy hoef net weer aansoek te doen as jou toelaag gekanselleer is of jy na 'n ander toelaagtipe moet oorskakel."
+        },
+        {
+          "question": "Kan ek my betaalmetode ná goedkeuring verander?",
+          "answer": "Ja. Meld aan by die SRD-portaal en gaan na 'Betaalmetode' om tussen bankoordrag en Cash Send te wissel. Veranderinge tree vanaf die volgende maand in werking."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Betaling Reflekteer Nie?",
+          "href": "/banking/payment-not-reflecting",
+          "description": "Eskaleringsstappe wanneer jou betaaldag verbygegaan het sonder geld"
+        },
+        {
+          "title": "SASSA Betaalmetodes",
+          "href": "/banking/payment-methods",
+          "description": "Al die maniere om jou toelaagbetaling te ontvang"
+        },
+        {
+          "title": "Hoe om Bankbesonderhede Op te dateer",
+          "href": "/banking/update-bank-details",
+          "description": "Verander jou bankrekening vir toelaagbetalings"
+        },
+        {
+          "title": "Betaaldatums Augustus 2026",
+          "href": "/payment-dates/2026-august",
+          "description": "Presiese betaaldatums en SRD-venster hierdie maand"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Betalingverwerking",
+      "slug": "/status/payment-processing"
+    },
+    {
+      "title": "Gids vir Betalings wat Nie Reflekteer Nie",
+      "slug": "/banking/payment-not-reflecting"
+    },
+    {
+      "title": "Aansoek Voltooi",
+      "slug": "/status/application-complete"
+    },
+    {
+      "title": "SASSA Betaaldatums",
+      "slug": "/payment-dates"
+    }
+  ]
+}

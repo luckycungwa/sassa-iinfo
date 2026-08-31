@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 const GRANTS_2026 = {
   srd: { label: "SRD R370 Grant", amount: 370, desc: "Unemployed, 18-59, no income" },
   childSupport: { label: "Child Support Grant", amount: 580, desc: "Per child, under 18" },
-  childSupportTopUp: { label: "Child Support Top-Up (Orphan)", amount: 830, desc: "Per orphaned child" },
+  childSupportTopUp: { label: "Child Support Top-Up (Orphan) — estimate, confirm with SASSA", amount: 0, desc: "Confirm current amount with SASSA" },
   olderPerson: { label: "Older Person Grant (60-74)", amount: 2400, desc: "Age 60-74" },
   olderPerson75: { label: "Older Person Grant (75+)", amount: 2420, desc: "Age 75+" },
   disability: { label: "Disability Grant", amount: 2400, desc: "18-59, medical assessment" },
@@ -49,7 +49,7 @@ export default function GrantCalculator() {
     }
 
     for (let i = 0; i < orphanCount; i++) {
-      quals.push({ grant: GRANTS_2026.childSupportTopUp.label + " #" + (i + 1), amount: GRANTS_2026.childSupportTopUp.amount, note: "Both parents deceased" });
+      quals.push({ grant: GRANTS_2026.childSupportTopUp.label + " #" + (i + 1), amount: GRANTS_2026.childSupportTopUp.amount, note: "Confirm current amount with SASSA" });
     }
 
     for (let i = 0; i < fosterCount; i++) {

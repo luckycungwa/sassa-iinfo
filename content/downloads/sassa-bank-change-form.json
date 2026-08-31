@@ -4,7 +4,7 @@
   "classification": "downloadable-form",
   "title": "SASSA Consent Form for Bank Payment — Direct Deposit Authorisation",
   "description": "The consent form required to submit, update, or change your bank details so your social grant pays directly into your commercial bank account instead of cash points.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -29,7 +29,7 @@
       "title": "SASSA Consent Form for Bank Payment",
       "description": "Authorise SASSA to pay your monthly grant straight into your commercial bank account — no queues, no collection trips, money available from pay day.",
       "readingTime": "4 min read",
-      "lastUpdated": "August 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "View Filling Guide",
         "href": "#how-to-fill"
@@ -53,7 +53,13 @@
     {
       "id": "why-p",
       "type": "paragraph",
-      "text": "Bank deposits arrive without travelling to a pay point, eliminate queue time entirely, and work especially well for beneficiaries far from retailers — rural Limpopo and Northern Cape beneficiaries benefit most. Money reflects within days of each official payment date."
+      "text": "Bank deposits arrive without travelling to a pay point, eliminate queue time entirely, and work especially well for beneficiaries far from retailers — rural Limpopo and Northern Cape beneficiaries benefit most. Money reflects within days of each official payment date.",
+      "links": [
+        {
+          "text": "payment date",
+          "href": "/payment-dates"
+        }
+      ]
     },
     {
       "id": "steps-h",
@@ -149,6 +155,24 @@
         }
       ],
       "note": "Form requirements verified August 2026."
+    },
+    {
+      "id": "related-pages-o8wto7",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Documents Checklist",
+          "href": "/guides/sassa-documents-checklist"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        }
+      ]
     }
   ],
   "relatedPages": [

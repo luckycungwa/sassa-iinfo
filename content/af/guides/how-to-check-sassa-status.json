@@ -1,0 +1,219 @@
+{
+  "id": "guide-check-sassa-status",
+  "slug": "/guides/how-to-check-sassa-status",
+  "classification": "how-to-guide",
+  "title": "Hoe om jou SASSA-toelaestatus na te gaan",
+  "description": "Verskeie maniere om jou SASSA-toelae-aansoek- of betalingstatus aanlyn na te gaan, via WhatsApp, USSD-kode, of by 'n SASSA-kantoor.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Hoe om jou SASSA-toelaestatus na te gaan — Aanlyn, WhatsApp & USSD",
+    "metaDescription": "Verskeie maniere om jou SASSA-toelaestatus na te gaan: aanlyn by srd.sassa.gov.za, via WhatsApp (082 046 8553), USSD-kode *134*7737#, of by jou naaste SASSA-kantoor.",
+    "keywords": [
+      "SASSA-status nagaan",
+      "SASSA-statuskontrole",
+      "SASSA WhatsApp-lyn",
+      "SASSA USSD-kode",
+      "SASSA-aansoekstatus"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Hoe om jou SASSA-toelaestatus na te gaan",
+      "description": "Daar is verskeie maniere om jou SASSA-toelaestatus na te gaan — aanlyn via die SRD-portaal, deur die WhatsApp-lyn, met 'n USSD-kode, of persoonlik by 'n SASSA-kantoor. Vind die metode wat die beste vir jou werk.",
+      "readingTime": "4 min lees",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Registreer op SRD-portaal",
+        "href": "/banking/how-to-register-for-srd-portal"
+      },
+      "secondaryCta": {
+        "label": "Hoe om vir 'n toelae aansoek te doen",
+        "href": "/guides/how-to-apply-sassa-grant"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om jou SASSA-toelaestatus na te gaan"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Jy kan jou SASSA-toelae-aansoek- of betalingstatus nagaan met enige van hierdie metodes. Kies die een wat die beste by jou pas — hul almal wys dieselfde inligting, dus daar is nie 'n regte of verkeerde antwoord nie. Die SRD aanlynportaal is die vinnigste en gee jou die meeste detail, maar as jy probleme met data of toepassings het, werk die WhatsApp-lyn of USSD-kode net so goed."
+    },
+    {
+      "id": "why-check",
+      "type": "paragraph",
+      "text": "Dit is die moeite werd om jou status gereeld na te gaan, nie net een keer nie. 'n Toelae wat goedgekeur is, kan later vasval — 'n bankverifikasie wat skielik gemerk word, 'n gemiste herbevestiging, of 'n hersieningshou wat jou aandag vereis. 'n Probleem vroeg optoe is baie minder stresvol as om dit op betaaldag te ontdek, dus 'n vinnige maandelikse kontrole neem twee minute en bespaar jou baie worry.",
+      "links": [
+        {
+          "text": "waarom jou status dalk gehou word",
+          "href": "/grants/srd-r370-grant-monthly-review"
+        }
+      ]
+    },
+    {
+      "id": "online-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Metode 1: Aanlynportaal (Aanbeveel)"
+    },
+    {
+      "id": "online-text",
+      "type": "paragraph",
+      "text": "Besoek srd.sassa.gov.za. Voer jou ID-nommer en die foonnommer in wat jy tydens die aansoek gebruik het. Jy sal 'n OTP via SMS ontvang om toegang tot jou statusbladsy te kry.",
+      "links": [
+        {
+          "text": "srd",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "online-tip",
+      "type": "paragraph",
+      "text": "Maak seker die foon wat jy invoer, is die een wat aan jou aansoek gekoppel is voordat jy begin. As jy jou selnommer sedert die aansoek verander het, sal die OTP jou nie bereik nie — maak dit eers reg via die 'verander foonnommer'-proses, anders sal jy vasgevang word in 'n lus van versoeke wat nooit aankom nie.",
+      "links": [
+        {
+          "text": "hoe om jou SASSA-foonnommer te verander",
+          "href": "/guides/change-srd-phone-number"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Metode 2: SASSA WhatsApp-lyn"
+    },
+    {
+      "id": "whatsapp-text",
+      "type": "paragraph",
+      "text": "Stoor 082 046 8553 op jou foon. Stuur 'SASSA' om te begin. Volg die keuses om jou balans, betaaldatum of aansoekstatus na te gaan. Gratis op die meeste netwerke.",
+      "links": [
+        {
+          "text": "betaaldatum",
+          "href": "/payment-dates"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-tip",
+      "type": "paragraph",
+      "text": "Hierdie metode is handig as jy reeds op WhatsApp is. Die kieslys lei jou stap vir stap deur, en jy hoef geen kodes of webadresse te onthou nie. Antwoord bloot met die nommer van die opsie wat jy wil hê. Een ding om te onthou: SASSA sal jou nooit ongevraagd kontak en vra vir jou PIN of OTP nie — begin die gesprek altyd self deur 'SASSA' te stuur.",
+      "links": [
+        {
+          "text": "hoe om vals SASSA-boodskappe te herken",
+          "href": "/guides/sassa-scam-alert-guide"
+        }
+      ]
+    },
+    {
+      "id": "ussd-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Metode 3: USSD-kode"
+    },
+    {
+      "id": "ussd-text",
+      "type": "paragraph",
+      "text": "Skakel *134*7737# op jou selfoon. Volg die kieslys om jou toelaestatus na te gaan. Standaardnetwerktariewe geld."
+    },
+    {
+      "id": "ussd-tip",
+      "type": "paragraph",
+      "text": "USSD is die beste opsie as jy op die oomblik nie data of 'n toepassing op jou foon het nie. Dit werk op enige toestel, selfs die eenvoudigste. Standaardnetwerktariewe geld, dus is dit nie gratis soos die WhatsApp-lyn nie — maar dit is goedkoop en dit kry die werk gedoen.",
+      "links": [
+        {
+          "text": "alle SASSA USSD-kodes",
+          "href": "/banking/sassa-ussd-codes"
+        }
+      ]
+    },
+    {
+      "id": "office-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Metode 4: Besoek 'n SASSA-kantoor"
+    },
+    {
+      "id": "office-text",
+      "type": "paragraph",
+      "text": "Bring jou ID na enige SASSA-plaaslike kantoor. 'n Klerk kan jou status opsoek en 'n uitdrukking verskaf indien nodig."
+    },
+    {
+      "id": "office-tip",
+      "type": "paragraph",
+      "text": "As aanlynkontroles nie werk nie en jy naby 'n kantoor is, is dit 'n betroubare terugvalopsie. Gaan vroeg in die môre en bring jou ID-boekie of slimkaart. Sekere kantore het nou selfbedieningskioske waar jy jou status op 'n skerm kan nagaan sonder om vir 'n klerk te wag — vra die personeel by jou naaste kantoor of 'n kiosk daar beskikbaar is.",
+      "links": [
+        {
+          "text": "selfbedieningskioske by SASSA-kantore",
+          "href": "/guides/srd-call-centre-kiosk-help"
+        }
+      ]
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Elke metode wys dieselfde status",
+      "text": "Die portaal, WhatsApp, USSD en die SASSA-kantoor lees almal uit dieselfde stelsel. As een metode 'Hangende' wys en 'n ander iets anders, vertrou die nuwer resultaat en wag 'n dag of twee — die stelsels sinchroniseer vinnig."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Gereelde vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Waarom wys my status ná weke steeds 'Hangende'?",
+          "answer": "'Hangende' beteken jou aansoek word steeds nagegaan en daar is nog geen besluit geneem nie. Dit kan 'n ruk lank Hangende bly gedurende besige periodes, veral rondom herbevestiging. Bly nagaan, en as dit langer as 90 dae is, kontak SASSA op 0800 60 10 11 om 'n opdatering te vra."
+        },
+        {
+          "question": "Ek kry voortdurend 'n fout as ek probeer aanmeld by die SRD-portaal. Wat nou?",
+          "answer": "Probeer die ander metodes — die WhatsApp-lyn (082 046 8553) of USSD *134*7737#. As dié ook faal, kan jy 'n SASSA-kantoor besoek of 0800 60 10 11 skakel. Portaal-aanmeldfoute is dikwels tydelik, dus die skoonmaak van jou blaaierkieslys en ná 'n ruk weer probeer, help ook."
+        },
+        {
+          "question": "Het ek data nodig om my status op WhatsApp na te gaan?",
+          "answer": "Die SASSA WhatsApp-lyn is gratis op die meeste netwerke, insluitend op 'n zero-data-plan van die hoofverskaffers. As jy oor data besorg is, is die USSD-kode *134*7737# 'n ander opsie wat op enige foon werk, al mag standaardtariewe geld."
+        },
+        {
+          "question": "Kan iemand my status namens my nagaan?",
+          "answer": "Slegs jou ID-nommer en gekoppelde foonnommer word op die portaal benodig, dus kan 'n familielid met daardie besonderhede vir jou aanmeld. As jy 'n hulper toelaat om 'n kiosk te gebruik of 'n SASSA-klerk namens jou vra, deel nooit jou OTP nie — en wees baie versigtig aan wie jy jou ID en foonnommer toevertrou."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Hoe om vir 'n SASSA-toelae aansoek te doen",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    },
+    {
+      "title": "Hoe om op SRD-portaal te registreer",
+      "slug": "/banking/how-to-register-for-srd-portal"
+    },
+    {
+      "title": "Statusbetydiginggids",
+      "slug": "/status/pending"
+    },
+    {
+      "title": "SRD-hulp: Oproepsentrums en kioske",
+      "slug": "/guides/srd-call-centre-kiosk-help"
+    }
+  ]
+}

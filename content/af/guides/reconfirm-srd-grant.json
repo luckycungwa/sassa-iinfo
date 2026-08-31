@@ -1,0 +1,218 @@
+{
+  "id": "guide-reconfirm-srd-grant",
+  "slug": "/guides/reconfirm-srd-grant",
+  "classification": "how-to-guide",
+  "title": "Hoe om jou SRD R370-toelae te herbevestig",
+  "description": "Waarom SASSA SRD-ontvangers vra om hul aansoeke te herbevestig, die presiese herbevestigingsstappe op srd.sassa.gov.za en WhatsApp, sperdatums om 'n betalingsiklus nie te mis nie, en wat gebeur as jy dit oorslaan.",
+  "lastUpdated": "2026-08-25",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Hoe om jou SRD R370-toelae te herbevestig (2026 Stap-vir-stap)",
+    "metaDescription": "Herbevestig jou SRD R370-aansoek: wanneer SASSA dit vereis, portaal- en WhatsApp-stappe, maandelikse sperdatums, en gevolge van die oorslaan van herbevestiging.",
+    "keywords": [
+      "srd toelae herbevestig",
+      "srd r370 herbevestig",
+      "sassa aansoek bevestig",
+      "srd maandelikse bevestiging"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Hoe om jou SRD R370-toelae te herbevestig",
+      "description": "SASSA vra periodiek dat ontvangers bevestig dat hul besonderhede steeds korrek is voor die volgende betalingsiklus. Mis die versoek en jou betaling kan stop — hier is hoe om in minute te herbevestig.",
+      "readingTime": "6 min lees",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Kontroleer jou status",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "label": "SRD-portaal aanmeldstappe",
+        "href": "/banking/how-to-register-for-srd-portal"
+      }
+    },
+    {
+      "id": "why-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Wat herbevestiging is (en waarom jy gevra word)"
+    },
+    {
+      "id": "why-p1",
+      "type": "paragraph",
+      "text": "Herbevestiging is wanneer SASSA jou vra om te bevestig dat jou persoonlike besonderhede, kontaknommer en kwalifikasie-omstandighede sedert jou laaste goedkeuring nie verander het nie. Dit word geaktiveer deur periodieke databasis-suiwering — meestal na beleidopdaterings of wanneer jou lêer vir 'n vasgestelde tydperk onaktief was."
+    },
+    {
+      "id": "why-p2",
+      "type": "paragraph",
+      "text": "Die versoek kom per SMS vanaf SASSA se amptelike lyne. Omdat opsigters hierdie formaat kopieer, tree altyd op via die amptelike webwerf eerder as skakels binne boodskappe."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Hoe om stap vir stap te herbevestig"
+    },
+    {
+      "id": "portal-steps",
+      "type": "steps",
+      "title": "Herbevestig op die amptelike webwerf",
+      "steps": [
+        {
+          "title": "Maak oop srd.sassa.gov.za",
+          "description": "Gebruik jou eie toestel of 'n betroubare een. Die webwerf werk op enige foonblaaier."
+        },
+        {
+          "title": "Kies 'Bevestig jou aansoek' / herbevestigingsopsie",
+          "description": "Dit verskyn op die tuisblad dienlys wanneer 'n bevestigingsiklus aktief is."
+        },
+        {
+          "title": "Voer jou ID-nommer en selfoonnommer in",
+          "description": "Dit moet ooreenstem met wat SASSA op lêer het — sien ons gids om nommer te verander as joune verskil."
+        },
+        {
+          "title": "Gaan elke verklaring na",
+          "description": "Bevestig dat jy steeds aan die inkomstekriteria voldoen, nie UIF/NSFAS-inkomste ontvang nie, en dat jou besonderhede onveranderd is."
+        },
+        {
+          "title": "Dien in en stoor die verwysingsnommer",
+          "description": "Jy ontvang 'n bevestigings-SMS sodra dit verwerk is — gewoonlik binne dae."
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-p",
+      "type": "paragraph",
+      "text": "Verkies jy WhatsApp? Stuur 'n boodskap na 082 046 8553 en sê 'Herbevestig'. Die kieslys lei jou deur dieselfde verklarings met jou ID-nommer. Die oproepsentrum (0800 60 10 11) kan ook help as jy nie toegang tot data het nie."
+    },
+    {
+      "id": "timing-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Sperdatums: moenie 'n maand verloor nie"
+    },
+    {
+      "id": "timing-p",
+      "type": "paragraph",
+      "text": "Herbevestigingsvensters sluit voor die volgende maandelikse goedkeuringsloop. As jou SMS 'n sperdatum gee — tipies rondom die middel van die maand — voltooi herbevestiging ten minste 'n paar dae voor die tyd. Aansoeke wat die venster mis, word vir daardie siklus nie betaal nie; dit laat voltooi herstel toekomstige maande maar herleef selde die gemiste een."
+    },
+    {
+      "id": "skip-callout",
+      "type": "callout",
+      "variant": "warning",
+      "title": "Wat gebeur as jy herbevestiging oorslaan",
+      "text": "Jou status verskuif na 'verval' of 'onvolledig', betalings stop, en jy moontlik 'n nuwe aansoek moet indien eerder as om net te bevestig. 'n Paar minute van herbevestiging beskerm 'n maand se inkomste."
+    },
+    {
+      "id": "trouble-h",
+      "type": "heading",
+      "level": 2,
+      "text": "As herbevestiging faal of jou besonderhede nie aanvaar nie"
+    },
+    {
+      "id": "trouble-p1",
+      "type": "paragraph",
+      "text": "Die mees algemene oorsake is 'n veranderde selfoonnommer, 'n ID-tipo, of 'n lêer wat reeds vir hersiening gemerk is. Maak jou kontakbesonderhede eers reg, en probeer dan ná 24 uur weer. Aanhoudende foute beteken iets op jou lêer het menslike aandag nodig — besoek enige SASSA-kantoor met jou groen ID-boekie of slimkaart."
+    },
+    {
+      "id": "trouble-p2",
+      "type": "paragraph",
+      "text": "Betaal nooit 'n derde party om 'n vervalle lêer 'reg te maak' nie. Alle herwinningsroetes loop deur amptelike kanale wat gratis is, en agente by kantore hanteer vervalle lêers roetinematig."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Hoe herbevestig ek my SRD-toelae?",
+          "answer": "Gaan na srd.sassa.gov.za, kies die herbevestigingsopsie, voer jou ID en geregistreerde selfoon in, gaan die kwalifikasieverklarings na, en dien dit in. Jy kan ook WhatsApp 082 046 8553 gebruik of 0800 60 10 11 skakel."
+        },
+        {
+          "question": "Waarom vra SASSA my om gereeld te herbevestig?",
+          "answer": "Periodieke suiwering bevestig jou omstandighede het nie verander nie en jou kontakbesonderhede werk nog steeds. Dit is hoe die toelae akkuraat bly sonder jaarlikse kantoorbesoeke vir almal."
+        },
+        {
+          "question": "Ek het die herbevestigingsperdatum gemis. Kan ek daardie maand nog kry?",
+          "answer": "Gewoonlik nie — gemiste siklusse word selde agterstallig betaal nie. Voltooi herbevestiging dadelik sodat toekomstige maande hervat, en appelleer slegs as jou SMS-geskiedenis wys die herinnering jou nooit bereik het nie."
+        },
+        {
+          "question": "Is herbevestig dieselfde as om te appelleer teen 'n afgekeurde maand?",
+          "answer": "Nee. Herbevestiging hou 'n goedgekeurde aansoek aan die gang. Appèlle betwis spesifieke afgekeurde maande deur die onafhanklike tribunaal — 'n aparte proses met sy eie sperdatums."
+        },
+        {
+          "question": "My status sê 'verval'. Is herbevestiging genoeg om dit reg te maak?",
+          "answer": "As die verval onlangs was en veroorsaak was deur 'n oorgeslaan bevestiging, herstel herbevestiging gewoonlik die lêer. Lank-vervalle lêers vereis soms 'n nuwe aansoek — kontroleer jou statusbladsy om te sien wat van toepassing is."
+        },
+        {
+          "question": "Kos herbevestiging enigiets?",
+          "answer": "Nee. Enige persoon of webwerf wat vir herbevestiging hef, pleeg bedrog. Gebruik slegs srd.sassa.gov.za, die WhatsApp-lyn, die oproepsentrum, of fisiese kantore."
+        }
+      ],
+      "title": "Gereelde vrae"
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Bronne & verifikasie",
+      "sources": [
+        {
+          "label": "SRD R370 amptelike portaal — bevestigingsdiens",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA WhatsApp selfbediening 082 046 8553",
+          "url": "https://wa.me/27820468553"
+        }
+      ],
+      "note": "Geverifieer teen amptelike SASSA-kanale in August 2026. Herbevestigingsiklusse en sperdatums volg huidige SASSA-praktyk."
+    },
+    {
+      "id": "related-pages-4t1zxk",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Hoe-om-gids",
+          "href": "/guides"
+        },
+        {
+          "title": "Alle SASSA-toelaes",
+          "href": "/grants"
+        },
+        {
+          "title": "SASSA-appèlle",
+          "href": "/appeals"
+        },
+        {
+          "title": "SASSA-betaaldatums",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "SASSA-gereedskap",
+          "href": "/tools"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Verander jou SRD-foonnommer",
+      "slug": "/guides/change-srd-phone-number"
+    },
+    {
+      "title": "Kanselleer jou SRD-aansoek",
+      "slug": "/guides/cancel-srd-application"
+    },
+    {
+      "title": "SRD-appèl na afkeuring",
+      "slug": "/appeals/how-to-appeal"
+    }
+  ]
+}

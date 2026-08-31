@@ -4,7 +4,7 @@
   "classification": "grant-detail",
   "title": "Foster Care Grant — Court Order Process Guide",
   "description": "The Children's Court order is the single most important document for the Foster Care Grant. This guide walks through the legal process step by step.",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "readingTime": "5 min read",
   "status": "published",
@@ -35,7 +35,7 @@
       "title": "Foster Care Grant — Court Order Process Guide",
       "description": "The Children's Court order is the single most important document for the Foster Care Grant. This guide walks through the legal process step by step.",
       "readingTime": "5 min read",
-      "lastUpdated": "2026-07-27",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Back to Main Guide",
         "href": "/grants/foster-care-grant"
@@ -66,7 +66,13 @@
     {
       "id": "foster-vs-kinship-text",
       "type": "paragraph",
-      "text": "Many people use these terms interchangeably, but they are legally distinct. Foster care means a child is placed with you by the Children's Court because they cannot live with their biological parents — it does not require a blood relationship. Kinship care is when a relative (grandparent, aunt, uncle, or adult sibling) takes in a child, and the child may qualify for the Child Support Grant rather than the Foster Care Grant. The main difference is the court order: foster care always requires one, kinship care usually does not. If you are a relative caring for a child, speak to a social worker who can assess which grant category applies to your situation."
+      "text": "Many people use these terms interchangeably, but they are legally distinct. Foster care means a child is placed with you by the Children's Court because they cannot live with their biological parents — it does not require a blood relationship. Kinship care is when a relative (grandparent, aunt, uncle, or adult sibling) takes in a child, and the child may qualify for the Child Support Grant rather than the Foster Care Grant. The main difference is the court order: foster care always requires one, kinship care usually does not. If you are a relative caring for a child, speak to a social worker who can assess which grant category applies to your situation.",
+      "links": [
+        {
+          "text": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        }
+      ]
     },
     {
       "id": "social-worker-role-h",

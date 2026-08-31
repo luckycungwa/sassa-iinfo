@@ -4,7 +4,7 @@
   "classification": "grant-detail",
   "title": "Social Relief of Distress (SRD R370) Grant — Complete Guide",
   "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "2.0.0",
   "readingTime": "10 min read",
   "status": "published",
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SRD R370 Grant — SASSA Social Relief of Distress Complete Guide 2026",
-    "metaDescription": "Complete guide to the SASSA SRD R370 Grant: eligibility criteria, how to apply online or via WhatsApp, payment dates, status check, appeal process, and answers to every common question.",
+    "metaTitle": "SRD R370 Grant — Check Status, Apply & Get Paid (2026)",
+    "metaDescription": "Check your SRD R370 status, apply online or via WhatsApp, and see when you get paid in 2026 — the complete SASSA social relief grant guide.",
     "keywords": [
       "SRD R370 grant",
       "SASSA SRD grant",
@@ -27,14 +27,32 @@
       "SASSA grant for unemployed"
     ]
   },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SRD R370 Official Portal",
+      "url": "https://srd.sassa.gov.za"
+    },
+    {
+      "label": "Department of Social Development",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "Independent Tribunal (ITSAA)",
+      "url": "https://itsaa.gov.za"
+    }
+  ],
   "contentBlocks": [
     {
       "id": "hero",
       "type": "hero",
       "title": "Social Relief of Distress (SRD R370) Grant",
       "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.",
-      "readingTime": "10 min read",
-      "lastUpdated": "2026-07-01",
+      "readingTime": "68 min read",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Your Status",
         "href": "/grants/srd-r370-grant/status-check"
@@ -328,7 +346,7 @@
         [
           "Declined",
           "You did not qualify this month",
-          "Check the reason code and appeal within 90 days."
+          "Check the reason code and appeal within 30 days (or up to 90 days through the ITSAA portal)."
         ],
         [
           "Alternative Income Source",
@@ -371,7 +389,7 @@
     {
       "id": "appeal-text",
       "type": "paragraph",
-      "text": "If your SRD grant is declined for any month, you have the right to appeal. Appeals are handled by the Independent Tribunal for Social Assistance Appeals (ITSAA), not by SASSA itself. You have 90 days from the date of decline to submit your appeal. Because each month is evaluated separately, you must appeal each declined month individually."
+      "text": "If your SRD grant is declined for any month, you have the right to appeal. Appeals are handled by the Independent Tribunal for Social Assistance Appeals (ITSAA), not by SASSA itself. You have 30 days from the date of the decline to submit your appeal (the ITSAA portal accepts appeals up to 90 days). Because each month is evaluated separately, you must appeal each declined month individually."
     },
     {
       "id": "appeal-steps",
@@ -422,6 +440,1530 @@
       "text": "You do not need a bank account to receive the SRD grant. Select 'Cash Send' as your payment method and collect your grant at any Pick n Pay, Shoprite, Boxer, Checkers, or Usave store using the SMS voucher sent to your phone."
     },
     {
+      "id": "qualify-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Who Qualifies for the SRD R370 Grant — In Detail"
+    },
+    {
+      "id": "qualify-citizenship",
+      "type": "paragraph",
+      "text": "The SRD R370 grant is open to a broad group of people living in South Africa, but the rules about who counts as 'eligible' are stricter than many realise. SASSA must confirm both your identity and your residency status against official government records before any payment is approved. The grant is intended for people who are genuinely without income or other forms of state support, so the agency cross-checks every application against several national databases. Meeting one or two criteria is not enough — you must satisfy all of them at the same time, and you must continue to satisfy them every month."
+    },
+    {
+      "id": "qualify-citizenship-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Citizenship, refugee, and residency status"
+    },
+    {
+      "id": "qualify-citizenship-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "South African citizens with a valid 13-digit ID number.",
+        "Permanent residents holding a valid South African permanent residence permit.",
+        "Refugees who are formally registered on the Department of Home Affairs system.",
+        "Asylum seekers and special permit holders, who apply using their permit numbers rather than a South African ID number.",
+        "You must be physically present and ordinarily resident in South Africa. The grant is not available to people living outside the country."
+      ]
+    },
+    {
+      "id": "qualify-age-h",
+      "type": "heading",
+      "level": 3,
+      "text": "The age rule: 18 to 59 years"
+    },
+    {
+      "id": "qualify-age",
+      "type": "paragraph",
+      "text": "You must be at least 18 years old and not yet 60. The SRD grant was designed as a stop-gap for working-age adults who fall outside other grant categories. If you are 60 or older, you should apply for the Older Person's Grant instead, which is a permanent grant with its own (higher) amount and a different means test. If you are under 18, you cannot receive the SRD grant in your own name; support for children comes through the Child Support Grant paid to a caregiver. The age check is applied automatically using your date of birth on the Home Affairs population register, so you do not need to submit proof of age separately."
+    },
+    {
+      "id": "qualify-income-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Income and the R624 means test"
+    },
+    {
+      "id": "qualify-income",
+      "type": "paragraph",
+      "text": "The single most important rule is the income (means) test. To receive the SRD grant, your assessed monthly income must be at or below R624. This threshold is the figure SASSA uses when it checks your bank account and other records each month. If deposits into your account suggest you earn more than R624 in a given month, the system will mark you as having an 'alternative income source' and decline that month. It does not matter whether the money is a salary, a gift, a stokvel payout, or a once-off transfer — what matters is the total reaching your account against the threshold. The test looks at your individual financial position, not your household's, but any money deposited into your own account still counts toward your total."
+    },
+    {
+      "id": "qualify-income-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "What 'income' means here",
+      "text": "SASSA looks at money flowing into your bank account, not just formal employment. Informal earnings, regular support from family, and even large one-off deposits can affect your assessment. If a deposit is not actually income, you may need to explain it during an appeal with a sworn affidavit."
+    },
+    {
+      "id": "qualify-disqualify-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Income and support that disqualifies you"
+    },
+    {
+      "id": "qualify-disqualify-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A regular salary or wage processed through PAYE (you are formally employed).",
+        "Active UIF (Unemployment Insurance Fund) payments — for example, after a retrenchment.",
+        "NSFAS funding (the National Student Financial Aid Scheme) while you are a registered student.",
+        "Any other SASSA social grant paid to you personally, with one specific exception: the Child Support Grant paid for your own child does not disqualify you.",
+        "Residency in a state-funded institution such as a prison, a state-run care facility, or a similar government-funded home."
+      ]
+    },
+    {
+      "id": "qualify-special-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Special cases: students, gig workers, and domestic workers"
+    },
+    {
+      "id": "qualify-special-students",
+      "type": "paragraph",
+      "text": "Students are a common point of confusion. If you receive NSFAS funding, you are disqualified from the SRD grant for as long as that funding is active, because NSFAS is treated as government financial support. Students who are NOT funded by NSFAS and who have no other income may still qualify, provided their monthly income stays at or below R624. Bursaries from private companies or families are not the same as NSFAS, but any regular deposit still counts toward the income test, so a private bursary that pushes you above the threshold will affect your result."
+    },
+    {
+      "id": "qualify-special-gig",
+      "type": "paragraph",
+      "text": "Gig workers and casual labourers (such as ride-hailing drivers, delivery riders, freelancers, and day labourers) can qualify ONLY if their total monthly earnings are at or below R624. Because gig income is irregular, your status may swing between 'Approved' and 'Declined' from month to month as deposits change. Keep your banking activity as clean as possible and be ready to appeal months where a genuine low-income situation was wrongly flagged. A single good month above the threshold will not permanently cancel your grant — it only affects that specific month."
+    },
+    {
+      "id": "qualify-special-domestic",
+      "type": "paragraph",
+      "text": "Domestic workers and other part-time employees qualify only when their earnings are below the R624 threshold AND they are not registered for PAYE. If your employer pays you formally through a payslip and PAYE, you are generally considered employed and will not qualify for that month. If you do occasional, very low-paid work that keeps you under R624, you may qualify, but the monthly bank checks mean you must genuinely fall under the limit. Informal domestic work paid in cash that never reaches your bank account will not be seen by SASSA, but you must still truthfully declare your employment status."
+    },
+    {
+      "id": "means-test-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Means Test Explained, With Worked Examples"
+    },
+    {
+      "id": "means-test-intro",
+      "type": "paragraph",
+      "text": "The means test is simply SASSA's way of answering one question: 'Does this person have enough income to live without this grant?' The test is automatic. Each month, SASSA receives income data and compares it to the R624 threshold. Below are realistic examples of how the test plays out. These are illustrations to help you understand the logic — your own situation is assessed on your actual bank and database records, and edge cases (such as a large but non-income deposit) are handled during the appeal process rather than at the initial test."
+    },
+    {
+      "id": "means-test-examples",
+      "type": "table",
+      "headers": [
+        "Scenario",
+        "Monthly income / situation",
+        "Likely outcome"
+      ],
+      "rows": [
+        [
+          "No income at all",
+          "R0 in the account",
+          "Qualifies — approved if all other criteria are met."
+        ],
+        [
+          "Occasional low-paid work",
+          "R500 per month",
+          "Qualifies — below the R624 threshold."
+        ],
+        [
+          "Moderate casual earnings",
+          "R700 per month",
+          "Likely declined — above the R624 threshold."
+        ],
+        [
+          "Receiving UIF",
+          "UIF active",
+          "Disqualified — UIF is disqualifying income."
+        ],
+        [
+          "Receiving NSFAS",
+          "NSFAS active",
+          "Disqualified — NSFAS is disqualifying support."
+        ],
+        [
+          "On another SASSA grant",
+          "Any (except child grant for own child)",
+          "Disqualified — only one grant at a time."
+        ],
+        [
+          "Formally employed (PAYE)",
+          "Salary paid",
+          "Disqualified — formal employment income."
+        ]
+      ],
+      "caption": "Illustrative means-test outcomes. The R624 figure is the current official threshold."
+    },
+    {
+      "id": "means-test-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "The threshold can be updated",
+      "text": "The R624 figure reflects the current means-test level published by SASSA. Government may adjust this amount over time. Always treat the figure as 'the latest official threshold' and confirm it on srd.sassa.gov.za if you are unsure."
+    },
+    {
+      "id": "means-test-sars",
+      "type": "paragraph",
+      "text": "How SARS data is used: SASSA does not decide your income from nowhere. It receives verification feeds from the South African Revenue Service (SARS), the Department of Home Affairs, the UIF system, and NSFAS. If SARS shows you are registered for PAYE or have declared employment income above the threshold, the system will decline you. This is why ensuring your tax and employment records are accurate matters — an old or incorrect employer registration can wrongly block your grant until it is corrected with SARS. If you believe a previous employer is still listing you as an employee, you may need to resolve that with SARS and then appeal the affected months."
+    },
+    {
+      "id": "apply-online-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply for the SRD Grant Step by Step (Online)"
+    },
+    {
+      "id": "apply-online-detail-intro",
+      "type": "paragraph",
+      "text": "Applying online is the fastest and cheapest route, and it is completely free. You do not need to pay anyone, and you do not need to visit an office. Before you start, have your ID (or permit) number and a mobile phone in your name ready, plus your bank details if you want payment by EFT. The walkthrough below expands on the basic steps with practical detail many applicants miss. For a separate, structured view you can also read the main SRD application guidance page linked below.",
+      "links": [
+        {
+          "text": "SRD application guidance",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "apply-online-detail-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Open the official portal",
+          "description": "Visit srd.sassa.gov.za. This is the only official SRD application site. Bookmark it and avoid paying third-party 'agents' who promise to apply on your behalf."
+        },
+        {
+          "title": "Start a new application",
+          "description": "Scroll to the application section for South African ID holders (or the separate section for asylum seekers/special permit holders). Enter your 13-digit ID number."
+        },
+        {
+          "title": "Verify your cellphone number",
+          "description": "Enter the mobile number registered in your name. SASSA sends a one-time PIN (OTP) by SMS. Type it in to prove you control the number. Never share this OTP with anyone."
+        },
+        {
+          "title": "Capture your personal details",
+          "description": "Confirm your name, surname, and date of birth exactly as they appear on your ID. Mismatches with Home Affairs are a top reason for delays and verification failures."
+        },
+        {
+          "title": "Choose your payment method",
+          "description": "Pick bank account (enter account number, branch, and bank) or Cash Send / retail collection. The account must be in your own name."
+        },
+        {
+          "title": "Accept the declarations",
+          "description": "Tick the boxes confirming you meet the criteria: unemployed, no other grant, no UIF/NSFAS, income at or below R624, and not in a state institution."
+        },
+        {
+          "title": "Submit and save your reference",
+          "description": "Submit the form. You receive an SMS confirming receipt with your application reference. Keep it for follow-ups and status checks."
+        }
+      ]
+    },
+    {
+      "id": "apply-online-tips",
+      "type": "callout",
+      "intent": "info",
+      "title": "Free and self-service",
+      "text": "The online application is free. If you cannot use the website, you can apply via the SASSA WhatsApp line or visit a SASSA office or a help kiosk at no cost. Nobody legitimate will charge you to apply."
+    },
+    {
+      "id": "apply-whatsapp-h2",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Apply via the SASSA WhatsApp Line"
+    },
+    {
+      "id": "apply-whatsapp-intro",
+      "type": "paragraph",
+      "text": "If you do not have easy access to a browser, or you simply prefer your phone, you can complete the entire application on WhatsApp. The service is offered by SASSA on the number 082 046 8553 and is free on most South African mobile networks. The WhatsApp channel performs the same checks and reaches the same outcome as the website."
+    },
+    {
+      "id": "apply-whatsapp-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Save the number",
+          "description": "Add 082 046 8553 to your phone contacts as 'SASSA SRD'."
+        },
+        {
+          "title": "Start the chat",
+          "description": "Open WhatsApp, message 'SASSA' (or 'HI') to 082 046 8553, and send."
+        },
+        {
+          "title": "Pick the application option",
+          "description": "Follow the reply menu. Choose the option for a new SRD application (usually by replying with the matching number or keyword)."
+        },
+        {
+          "title": "Enter your ID and details",
+          "description": "When prompted, type your 13-digit ID number (or permit number) and your personal details exactly as on your ID."
+        },
+        {
+          "title": "Confirm your cellphone and OTP",
+          "description": "Confirm the number you are chatting from. SASSA sends an OTP; enter it when asked."
+        },
+        {
+          "title": "Choose payment method and submit",
+          "description": "Select bank EFT or Cash Send, accept the declarations, and submit. You get an SMS confirmation with your reference number."
+        }
+      ]
+    },
+    {
+      "id": "apply-whatsapp-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Same grant, same rules",
+      "text": "Applying on WhatsApp uses the exact same eligibility and means test as the website. It only changes the channel — not the outcome or the amount."
+    },
+    {
+      "id": "documents-before-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Documents and Details You Need Before Applying"
+    },
+    {
+      "id": "documents-before-list",
+      "type": "document-checklist",
+      "documents": [
+        {
+          "label": "South African ID number (13 digits) OR a valid asylum seeker / special permit number",
+          "required": true,
+          "notes": "Used to verify your identity against Home Affairs."
+        },
+        {
+          "label": "Mobile phone number registered in your name",
+          "required": true,
+          "notes": "You receive the OTP and all status SMS on this number."
+        },
+        {
+          "label": "Bank account in your own name (if choosing EFT)",
+          "required": false,
+          "notes": "Account holder must match your ID. You can instead choose Cash Send if you have no bank account."
+        },
+        {
+          "label": "Proof of no other income (only if asked during appeal)",
+          "required": false,
+          "notes": "A sworn affidavit or bank statement may be needed if a month is declined."
+        },
+        {
+          "label": "Your application reference number (after applying)",
+          "required": false,
+          "notes": "Save the SMS so you can check status and appeal later."
+        }
+      ]
+    },
+    {
+      "id": "documents-before-notes",
+      "type": "paragraph",
+      "text": "You do not need to upload scanned documents to apply. SASSA verifies most information electronically against government databases. The main things you must provide accurately are your ID/permit number, your phone number, and your payment details. If you were ever married and your surname differs from Home Affairs records, make sure you apply using the exact name on your ID to avoid an 'Identity Verification Failed' result. If you have no bank account, choose Cash Send at application and collect at a retailer — no document is needed for that choice beyond your ID."
+    },
+    {
+      "id": "after-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "After You Apply: What Happens During Verification"
+    },
+    {
+      "id": "after-apply-verify",
+      "type": "paragraph",
+      "text": "Submitting your application is only the first step. SASSA then runs an automated verification process that checks your details against several government systems. Understanding this helps you see why a result can take time — and why a status can flip from one month to the next even after you have been paid before. The same checks run every month, which is why a previously approved beneficiary can be declined later if their circumstances change."
+    },
+    {
+      "id": "verification-process",
+      "type": "process-diagram",
+      "steps": [
+        {
+          "label": "Identity check (Home Affairs)",
+          "description": "Your ID or permit is matched against the Department of Home Affairs population register to confirm you exist and are a recognised resident."
+        },
+        {
+          "label": "Income check (SARS / banks)",
+          "description": "SASSA checks whether you are registered for PAYE or show deposits above the R624 threshold in your bank account."
+        },
+        {
+          "label": "UIF check",
+          "description": "Your ID is checked against the UIF system to confirm you are not receiving unemployment insurance payments."
+        },
+        {
+          "label": "NSFAS check",
+          "description": "Your ID is checked against NSFAS records to confirm you are not currently funded as a student."
+        },
+        {
+          "label": "Other grant check",
+          "description": "SASSA confirms you are not already receiving another SASSA grant (except the Child Support Grant for your own child)."
+        },
+        {
+          "label": "State institution check",
+          "description": "Confirms you are not resident in a prison or state-funded care facility."
+        }
+      ]
+    },
+    {
+      "id": "after-apply-timing",
+      "type": "callout",
+      "intent": "info",
+      "title": "First decision timing",
+      "text": "Initial verification commonly takes a few days to a couple of weeks. After that, every month is re-evaluated automatically using the same checks, so you do not reapply — but you should keep checking your status, especially around payment dates."
+    },
+    {
+      "id": "declined-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Why SRD Applications Get Declined — and How to Fix Each One"
+    },
+    {
+      "id": "declined-reasons",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Income above the threshold: your bank showed deposits over R624 in the assessed month. Fix: if the money was not income (a gift, loan refund, or error), appeal with a sworn affidavit explaining each deposit.",
+        "ID mismatch with Home Affairs: your name or date of birth does not match records. Fix: complete the facial verification prompt in the SRD portal, or update your details at Home Affairs, then recheck.",
+        "Already on another grant: the system sees you receiving a different SASSA grant. Fix: you must choose one grant; if the other grant ended, update your records and appeal the declined month.",
+        "NSFAS detected: you are flagged as a funded student. Fix: if your NSFAS funding has ended, upload a cancellation or termination letter and appeal.",
+        "UIF detected: you are receiving UIF. Fix: once UIF stops, appeal the month with your UIF termination letter.",
+        "Fraudulent or incorrect information: false details were supplied. Fix: correct your application through the portal or a SASSA office; never submit false information, which can lead to a fraud referral."
+      ]
+    },
+    {
+      "id": "declined-fix",
+      "type": "callout",
+      "intent": "danger",
+      "title": "Appeal, don't just reapply",
+      "text": "Reapplying with the same details will not fix a decline and can create duplicates. The correct path is to appeal the specific declined month through the Independent Tribunal (ITSAA) within 30 days (or up to 90 days through the ITSAA portal)."
+    },
+    {
+      "id": "appeal-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Appeal a Declined SRD Month"
+    },
+    {
+      "id": "appeal-detail-intro",
+      "type": "paragraph",
+      "text": "If a specific month is declined and you believe the decision is wrong, you can appeal. Appeals are handled independently by the Independent Tribunal for Social Assistance Appeals (ITSAA), not by SASSA. Two rules are critical: you must appeal within 30 days (or up to 90 days through the ITSAA portal) of the declined month, and you must appeal each declined month separately, because every month is assessed on its own. For a fuller walkthrough, see our appeal guide page linked below.",
+      "links": [
+        {
+          "text": "appeal guide",
+          "href": "/appeals/appeal-after-decline"
+        }
+      ]
+    },
+    {
+      "id": "appeal-detail-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Go to the appeal portal",
+          "description": "Visit srd.sassa.gov.za/appeal or itsaa.gov.za. These are the official ITSAA appeal channels."
+        },
+        {
+          "title": "Enter your ID and phone",
+          "description": "Provide your ID number and the cellphone number used in your application, then verify with the OTP sent to you."
+        },
+        {
+          "title": "Select the declined month",
+          "description": "Choose the specific month shown as 'Declined'. Repeat for every month you want to challenge — they are not bundled into one appeal."
+        },
+        {
+          "title": "State your reason",
+          "description": "Pick the reason that fits (for example, unemployed, no income, or UIF/NSFAS ended)."
+        },
+        {
+          "title": "Upload evidence",
+          "description": "Attach supporting documents: a sworn affidavit, bank statements, UIF termination letter, or NSFAS cancellation letter, as relevant."
+        },
+        {
+          "title": "Submit and keep your reference",
+          "description": "Submit and save your Appeal Reference Number. ITSAA will notify you of the outcome, which can take several weeks."
+        }
+      ]
+    },
+    {
+      "id": "appeal-detail-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "30-day window is strict",
+      "text": "The 30-day limit runs from the date of the declined month. If you miss it, that month normally cannot be reconsidered, so check your status regularly and appeal promptly."
+    },
+    {
+      "id": "payment-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Payment: When and How You Get Paid"
+    },
+    {
+      "id": "payment-detail-intro",
+      "type": "paragraph",
+      "text": "When a month is approved, SASSA pays between roughly the 25th and the last day of that month. There is no single fixed pay date for everyone; payments roll out progressively, and your exact day depends on your bank or collection method. For the full schedule and method-switching steps, see the SRD payment methods guide and the monthly review explainer linked below. The summary below covers the main options.",
+      "links": [
+        {
+          "text": "SRD payment methods guide",
+          "href": "/grants/srd-r370-grant/payment-methods"
+        },
+        {
+          "text": "monthly review explainer",
+          "href": "/grants/srd-r370-grant/monthly-review"
+        }
+      ]
+    },
+    {
+      "id": "payment-detail-methods",
+      "type": "table",
+      "headers": [
+        "Method",
+        "How it works",
+        "Key notes"
+      ],
+      "rows": [
+        [
+          "Direct bank deposit (EFT)",
+          "Paid into your personal bank account",
+          "Usually fastest; account must be in your name."
+        ],
+        [
+          "Cash collection at retailers",
+          "Collect at Pick n Pay, Boxer, Shoprite, Checkers, or USave using an SMS voucher",
+          "No bank account needed; bring your ID and the voucher."
+        ],
+        [
+          "Post Office (SAPO)",
+          "Previously a common collection point",
+          "Being phased out — move to bank or retail collection."
+        ]
+      ],
+      "caption": "Approved months are paid within the monthly payment window; method choice is made in the SRD portal."
+    },
+    {
+      "id": "payment-blackcard",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Black card / Postbank migration",
+      "text": "SASSA is replacing the old gold SASSA card with the new black Postbank card. SASSA has stated a migration deadline of 31 August 2026 for beneficiaries to swap their card at a Postbank or SASSA point in order to keep receiving payments. Deadlines can change, so confirm the current date on the official SASSA and Postbank channels before visiting."
+    },
+    {
+      "id": "reaffirm-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Keeping Your Grant: Reaffirmation and Lapsing"
+    },
+    {
+      "id": "reaffirm-intro",
+      "type": "paragraph",
+      "text": "The SRD grant is not a permanent approval. SASSA requires beneficiaries to reaffirm (reconfirm) their details roughly every three months, and it reassesses eligibility every single month using the means test. If a month fails the test, that month is simply not paid — the grant 'lapses' for that month rather than being cancelled entirely. Staying paid depends on keeping your details current and genuinely meeting the test each month. Many beneficiaries are surprised when a previously reliable payment stops; in almost all cases it is because the monthly check found income or a data flag."
+    },
+    {
+      "id": "reaffirm-causes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Income above R624 detected in a month — the most common cause of a non-payment.",
+        "Your phone number or bank details change and are not updated in the portal, so SASSA cannot verify or pay you.",
+        "You start receiving UIF, NSFAS, or another SASSA grant.",
+        "You are flagged as resident in a state institution.",
+        "You miss the reaffirmation window and your record goes stale."
+      ]
+    },
+    {
+      "id": "reaffirm-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Update, don't wait",
+      "text": "Keep your phone number, banking, and personal details current in the SRD portal. If your circumstances change, updating promptly helps avoid a missed payment. Reaffirm when prompted, roughly every three months."
+    },
+    {
+      "id": "vs-other-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD vs Other SASSA Grants"
+    },
+    {
+      "id": "vs-other-intro",
+      "type": "paragraph",
+      "text": "The SRD R370 grant is one of several social grants in South Africa, but it is unusual: it is temporary, has a strict monthly means test, and targets working-age adults with no other support. The table below contrasts it with the main permanent grants. Amounts for grants other than SRD change each year and should be confirmed on the official SASSA website; the figures here focus on the structural differences that matter for eligibility."
+    },
+    {
+      "id": "vs-other-table",
+      "type": "comparison-table",
+      "headers": [
+        "Grant",
+        "Who it is for",
+        "Age",
+        "Means test?",
+        "Key point"
+      ],
+      "rows": [
+        [
+          "SRD R370",
+          "Unemployed with no other support",
+          "18 to 59",
+          "Yes — income at or below R624",
+          "Temporary; reassessed every month."
+        ],
+        [
+          "Older Person's Grant",
+          "Older persons in need",
+          "60 and over",
+          "Yes (income/assets)",
+          "Permanent; amount set annually."
+        ],
+        [
+          "Disability Grant",
+          "Adults with disability",
+          "18+ (no upper limit specified)",
+          "Yes (income/assets)",
+          "Permanent; needs medical assessment."
+        ],
+        [
+          "Child Support Grant",
+          "Caregiver of a child (0 to 17)",
+          "Child 0 to 17",
+          "Yes (income/assets)",
+          "Paid to caregiver; does NOT block your own SRD."
+        ],
+        [
+          "Foster Child Grant",
+          "Foster parent of a child",
+          "Child in foster care",
+          "No means test",
+          "Paid to the foster parent."
+        ]
+      ],
+      "caption": "Structural comparison only. Confirm current amounts on the official SASSA website."
+    },
+    {
+      "id": "vs-other-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "The Child Support Grant exception",
+      "text": "Normally you cannot get SRD while receiving another SASSA grant. The exception is the Child Support Grant paid for your own child — you may receive that AND the SRD grant, because the child grant is for the child, not you."
+    },
+    {
+      "id": "scams-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Protect Yourself From SRD Scams"
+    },
+    {
+      "id": "scams-danger",
+      "type": "callout",
+      "intent": "danger",
+      "title": "SASSA will never ask for these",
+      "text": "SASSA and the SRD system will NEVER ask for your PIN, password, or OTP. They will NEVER charge a fee to apply, check your status, or 'fast-track' a payment. Anyone who does is a scammer."
+    },
+    {
+      "id": "scams-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Fake 'status check' websites that mimic srd.sassa.gov.za and steal your ID and OTP.",
+        "Messages demanding airtime or 'activation fees' before you can be paid.",
+        "People offering to 'upgrade' or 'expedite' your grant for a commission.",
+        "Calls or WhatsApps asking for your banking PIN or to 'confirm' your password.",
+        "Phishing links sent by SMS or email pretending to be from SASSA."
+      ]
+    },
+    {
+      "id": "scams-closing",
+      "type": "paragraph",
+      "text": "Always use the official portal srd.sassa.gov.za, the official WhatsApp line 082 046 8553, or a physical SASSA office. If you are unsure whether a message is genuine, do not click links or share codes — open the official site directly in your browser. Report scams to the SASSA Fraud Hotline at 0800 60 10 11. Remember: applying, checking status, and appealing are all free, and no legitimate process requires you to buy airtime or pay an 'agent'."
+    },
+    {
+      "id": "lifecycle-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The SRD Lifecycle: A Month-by-Month Walkthrough"
+    },
+    {
+      "id": "lifecycle-p1",
+      "type": "paragraph",
+      "text": "The SRD grant is best understood as a repeating monthly cycle rather than a one-time approval. In month one you apply and SASSA runs its checks; if you pass, you are paid in that month's window. In month two the same checks run again automatically — you do not reapply, but you can still be declined if, for example, a deposit pushed you over R624. This repeats for as long as the programme is funded and you meet the test. Around every three months SASSA asks you to reaffirm, which is simply reconfirming that your situation has not fundamentally changed. Thinking of the grant as a monthly assessment, not a permanent entitlement, helps you avoid surprises."
+    },
+    {
+      "id": "lifecycle-p2",
+      "type": "paragraph",
+      "text": "Within each cycle, the important dates are the application (which you can submit at any time), the assessment (which is continuous), and the payment window (roughly the 25th to the last day of the month for approved months). There is no benefit to applying 'early in the month' for payment purposes, because payment follows approval and the fixed monthly window, not the application date. What matters most is that your details are correct so the automated checks pass and the payment reaches you. If a check fails, the month is simply not paid, and you usually only realise it when you check your status or see no money arrive."
+    },
+    {
+      "id": "lifecycle-p3",
+      "type": "paragraph",
+      "text": "Beneficiaries who treat the grant as 'set and forget' are the ones who get caught out. The most common story is someone who was paid for three months, then a relative deposited money for a family event, the system flags 'Alternative Income Source', and the next month is declined. Because the person was not checking status, they only notice weeks later. Building a habit of checking status around the 20th of each month, before the payment window, lets you spot and appeal problems early — inside the 30-day appeal window."
+    },
+    {
+      "id": "status-meaning-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What 'Pending', 'Approved', and 'Declined' Really Mean"
+    },
+    {
+      "id": "status-pending",
+      "type": "paragraph",
+      "text": "Pending is the neutral starting state. It means SASSA has your application but has not finished the cross-checks against Home Affairs, SARS, UIF, and NSFAS. It is not a rejection. Most first-time applications sit in Pending for a few days to a couple of weeks. If you remain Pending for an unusually long time, it can indicate a mismatch — for example, your surname on the application does not match Home Affairs — that is silently stalling verification. In that case, completing the facial verification prompt or visiting Home Affairs to align your records usually unblocks it."
+    },
+    {
+      "id": "status-approved",
+      "type": "paragraph",
+      "text": "Approved means you passed the checks for that specific month and a payment is due in the monthly window. It does not guarantee the money has arrived — only that it has been authorised. Approved months can later show 'Payment Processing' and then reflect in your account or as a collectable voucher. If you are Approved but see no payment after the window closes, check your bank details and, if they are correct, contact SASSA with your reference number. Approval is always month-specific and must be re-earned the next month."
+    },
+    {
+      "id": "status-declined",
+      "type": "paragraph",
+      "text": "Declined means the checks failed for that month. The reason is usually shown: 'Alternative Income Source' (deposits over R624), 'Already on another grant', 'UIF detected', 'NSFAS detected', or an identity mismatch. Declined is month-specific — it does not cancel your whole grant, and you can be Approved again the next month if your situation changes. The key action is to appeal the declined month within 30 days (or up to 90 days through the ITSAA portal) if you believe it is wrong. Ignoring a decline forfeits that month permanently once the window passes."
+    },
+    {
+      "id": "payment-delays-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Payment Delays and What to Do"
+    },
+    {
+      "id": "pd-p1",
+      "type": "paragraph",
+      "text": "Even after approval, a payment can be delayed. The most frequent cause is incorrect or closed banking details — the EFT is sent but bounces, and the money is returned to SASSA. The second is choosing Cash Send but not collecting the voucher, or losing the SMS. A third is simply being later in the progressive rollout; SASSA does not pay everyone on a single day, so a friend being paid on the 25th while you are paid on the 29th is normal, not a fault. Patience within the window is usually warranted."
+    },
+    {
+      "id": "pd-p2",
+      "type": "paragraph",
+      "text": "If your status is 'Payment Processing' or 'Approved' and the window has not yet ended, wait — the transfer can take one to three business days to reflect. If the window has ended and nothing arrived, first re-open the SRD portal and confirm the bank account or mobile number on file is correct and in your name. Correct it if needed (changes apply from the next month) and recheck. If details are correct and the payment is genuinely missing, contact the SASSA call centre or visit an office with your ID and reference number; keep a record of your status screenshots."
+    },
+    {
+      "id": "pd-p3",
+      "type": "paragraph",
+      "text": "Beware of 'payment unlock' scams during delays. Scammers message beneficiaries claiming their payment is 'frozen' and can be released for a fee or by sharing an OTP. SASSA never freezes payments for a fee, and sharing your OTP lets a scammer redirect the money. If a message pressures you to pay or share codes to 'release' a grant, it is fraud — report it to the SASSA Fraud Hotline at 0800 60 10 11. Always verify payment status only on the official portal."
+    },
+    {
+      "id": "special-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Special Life Situations"
+    },
+    {
+      "id": "special-60",
+      "type": "paragraph",
+      "text": "Turning 60: The SRD grant is for ages 18 to 59. The month you turn 60, you no longer qualify for SRD and should transition to the Older Person's Grant, which is permanent and pays a higher amount. Visit a SASSA office to apply; do not simply keep expecting SRD, as the system will stop it at 60 regardless. Planning this transition a little before your birthday avoids a gap in income, and any SRD appeal right at the boundary is generally moot once the age criterion fails."
+    },
+    {
+      "id": "special-job",
+      "type": "paragraph",
+      "text": "Starting a job: If you begin formal employment (PAYE) or start earning above R624 a month, your SRD months will be declined. This is correct behaviour, not an error — the grant is for those with no or very low income. If the job ends and you are again under the threshold, later months can be approved; appeal any month wrongly declined after employment stopped by supplying a termination letter. Informal, very low earnings under the threshold do not disqualify you, but they are assessed on what reaches your bank."
+    },
+    {
+      "id": "special-baby",
+      "type": "paragraph",
+      "text": "Having a child: The birth of a child does not change your own SRD eligibility, and it may also let you apply for the Child Support Grant for that child. Remember the important exception: receiving the Child Support Grant for your own child does NOT disqualify you from SRD. So a parent can receive both — the child grant for the child and the SRD for themselves — provided the parent meets all SRD criteria (age 18 to 59, income at or below R624, no UIF/NSFAS, and not in a state institution)."
+    },
+    {
+      "id": "comms-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How SASSA Communicates With You"
+    },
+    {
+      "id": "comms-p1",
+      "type": "paragraph",
+      "text": "SASSA contacts beneficiaries primarily by SMS to the phone number on file. These SMS messages carry your OTP during application and status checks, your application reference, and your Cash Send voucher when you collect at a retailer. Treat any message that asks for your PIN, password, or OTP as suspicious — SASSA sends codes but never asks you to read them back or to pay to use them. Genuine SASSA messages will not contain links demanding urgent payment."
+    },
+    {
+      "id": "comms-p2",
+      "type": "paragraph",
+      "text": "Because communication is SMS-based, keeping your number active and in your name is essential. If you change numbers, update the portal promptly. If your phone is lost, the OTP cannot reach you and you may be locked out of status checks and appeals until you visit an office to verify your identity. Setting up a simple reminder to check status monthly also helps, since SASSA will not individually chase every beneficiary whose payment is missing. Good contact hygiene prevents most avoidable problems."
+    },
+    {
+      "id": "evidence-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Evidence That Strengthens an Appeal"
+    },
+    {
+      "id": "evidence-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A sworn affidavit explaining any deposit that was not income (gift, loan refund, or error).",
+        "Bank statements showing your actual monthly inflow for the declined period.",
+        "A UIF termination letter, if UIF was the reason and has since ended.",
+        "An NSFAS cancellation or completion letter, if NSFAS was the reason.",
+        "Proof that another grant has ended, if 'already on another grant' was the reason.",
+        "Your ID and the application and Appeal Reference Numbers."
+      ]
+    },
+    {
+      "id": "evidence-p",
+      "type": "paragraph",
+      "text": "When you appeal, upload the documents that directly answer the decline reason. An appeal with no evidence is unlikely to succeed, because ITSAA is reviewing whether the SASSA decision was correct on the data available. Clear, specific evidence — especially a sworn affidavit that explains each unexplained deposit — is the single most effective way to overturn an 'Alternative Income Source' decline. Keep copies of everything you submit and note your Appeal Reference Number so you can follow up."
+    },
+    {
+      "id": "databases-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Government Databases Behind Your Application"
+    },
+    {
+      "id": "db-homeaffairs",
+      "type": "paragraph",
+      "text": "Department of Home Affairs: This is the source of truth for your identity. SASSA checks that your ID or permit exists and matches your submitted name and date of birth. A mismatch is the usual cause of 'Identity Verification Failed'. Aligning your details at Home Affairs, or completing the facial verification step in the portal, resolves most of these. Always apply using the exact name printed on your ID to avoid this entirely."
+    },
+    {
+      "id": "db-sars",
+      "type": "paragraph",
+      "text": "South African Revenue Service (SARS): SARS data tells SASSA whether you are registered for PAYE or have declared employment income. If you are listed as employed with income above the threshold, you will be declined. Former employees sometimes remain on an old employer's PAYE list after leaving; fixing that with SARS and then appealing is the route to correction. This is why an old job can wrongly block a grant until the records are updated."
+    },
+    {
+      "id": "db-uif",
+      "type": "paragraph",
+      "text": "UIF (Unemployment Insurance Fund): If you are receiving UIF, the system sees it and declines SRD, because UIF is disqualifying income. Once UIF stops, supply the termination letter and appeal the affected months. Note that having contributed to UIF in the past is not itself disqualifying — only active UIF payments are. The check is against the live UIF register at the time of assessment."
+    },
+    {
+      "id": "db-nsfas",
+      "type": "paragraph",
+      "text": "NSFAS: While you are an active NSFAS-funded student, you are disqualified. After your studies end or funding stops, upload the relevant letter and appeal. Note that being a student alone is not disqualifying — only active NSFAS funding is. Private bursaries and family support are not NSFAS, but any regular deposit from them still counts toward your R624 income total, so they can still affect the means test."
+    },
+    {
+      "id": "regional-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Regional and Collection Differences"
+    },
+    {
+      "id": "regional-p",
+      "type": "paragraph",
+      "text": "The SRD grant is national, but how you collect it can differ by location. In major towns and cities, retail collection at Pick n Pay, Boxer, Shoprite, Checkers, and USave is widely available, and bank EFT is the default for those with accounts. In more remote areas, retail points may be fewer, making a bank account or the remaining Post Office options more important — though SAPO cash collection is being phased out, so beneficiaries in those areas should prioritise opening a simple bank account or confirming the nearest retail partner. SASSA announces collection arrangements on its official channels, and local SASSA offices can advise on the closest payment point."
+    },
+    {
+      "id": "planb-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If Your SRD Stops: A Practical Plan B"
+    },
+    {
+      "id": "planb-p1",
+      "type": "paragraph",
+      "text": "The SRD grant is temporary by design and can stop for many legitimate reasons — you find work, you turn 60, or the programme ends. Because it is not guaranteed income, it is wise not to build fixed, long-term commitments around it. If your SRD stops, first check why: read the status reason, and if it is wrong, appeal within 30 days (or up to 90 days through the ITSAA portal). If it is correct (for example, you are now employed), shift focus to the income or other support you now have rather than treating the grant as permanent."
+    },
+    {
+      "id": "planb-p2",
+      "type": "paragraph",
+      "text": "If the grant ends and you have no other income, explore the other forms of help: the permanent SASSA grants if you now qualify (Older Person, Disability, Child Support), UIF if you recently lost employment, or municipal indigent and food-support programmes run by your local council. None of these are accessed through the SRD portal, so contact the relevant department or office. The key is to act early rather than waiting until savings run out, because applications and approvals take time."
+    },
+    {
+      "id": "scenarios-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Common Scenarios, Answered Briefly"
+    },
+    {
+      "id": "scenario-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "I was paid last month but not this month: check your status; a deposit may have pushed you over R624, or a check flagged you. Appeal if wrong.",
+        "My sibling sends me money sometimes: those deposits count toward your R624 total; explain them with an affidavit if you are declined.",
+        "I applied on WhatsApp and on the website: use your original reference; duplicates are consolidated, not doubled.",
+        "I got an SMS saying 'click here to verify': only verify inside the official srd.sassa.gov.za site; do not click unknown links.",
+        "My grant shows Approved but the amount seems short: SRD is a flat R370 per approved month; there are no partial amounts, so confirm you are reading the right notification."
+      ]
+    },
+    {
+      "id": "office-apply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Applying in Person at a SASSA Office"
+    },
+    {
+      "id": "office-apply-intro",
+      "type": "paragraph",
+      "text": "Although the grant is designed to be applied for online or via WhatsApp, you can still apply or get help in person at a SASSA office or a help kiosk. This is useful if you have no smartphone or struggle with the digital process. The outcome and criteria are identical; only the channel differs. Staff assist at no cost, and you should never pay an 'agent' at or near an office to submit on your behalf."
+    },
+    {
+      "id": "office-apply-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Find your nearest office",
+          "description": "Locate a SASSA office or approved kiosk. Arrive early, as queues can be long."
+        },
+        {
+          "title": "Bring your ID and phone",
+          "description": "Take your ID or permit and the mobile phone registered in your name for the OTP."
+        },
+        {
+          "title": "Request SRD application help",
+          "description": "A staff member or self-service kiosk guides you through the same questions as the portal."
+        },
+        {
+          "title": "Verify and submit",
+          "description": "Confirm your details, complete the OTP step, and receive your reference number by SMS."
+        }
+      ]
+    },
+    {
+      "id": "portal-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Using the SRD Portal After You Apply"
+    },
+    {
+      "id": "portal-p1",
+      "type": "paragraph",
+      "text": "Once you have applied, the srd.sassa.gov.za portal becomes your control centre. After logging in with your ID and OTP, you can check status, view each month's outcome, change your payment method, update your banking and phone details, and start an appeal for a declined month. Checking the portal monthly is the single best habit for avoiding missed payments, because it shows you the exact reason a month was declined — information you need to appeal correctly."
+    },
+    {
+      "id": "portal-p2",
+      "type": "paragraph",
+      "text": "The portal also surfaces the reaffirmation prompt roughly every three months. When it appears, complete it promptly; ignoring it can leave your record stale and may affect payments. The prompt is not a new application and does not reset your grant — it is a reconfirmation. Treat it like a regular check-in, and pair it with a quick review of your bank and phone details to make sure everything on file is still correct."
+    },
+    {
+      "id": "reaffirm-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding the Reaffirmation Prompt"
+    },
+    {
+      "id": "reaffirm-detail-p1",
+      "type": "paragraph",
+      "text": "Reaffirmation (sometimes called reconfirmation) is SASSA's way of making sure beneficiaries still meet the criteria without forcing a full new application every few months. When prompted, you confirm that your personal details are correct and that nothing fundamental has changed about your income or circumstances. The monthly automated checks still run regardless; reaffirmation is an additional periodic confirmation layered on top of those checks."
+    },
+    {
+      "id": "reaffirm-detail-p2",
+      "type": "paragraph",
+      "text": "Missing the reaffirmation prompt does not instantly cancel your grant, but it can leave your file in a 'stale' state that interferes with payments and verification. If you realise you missed it, log in and complete it as soon as possible, and check your recent months' status to confirm payments were not affected. The prompt typically recurs on a roughly three-month cycle, so setting a quarterly reminder helps you stay on top of it."
+    },
+    {
+      "id": "blackcard-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Black Postbank Card Migration in Detail"
+    },
+    {
+      "id": "blackcard-detail-p1",
+      "type": "paragraph",
+      "text": "SASSA is replacing the old gold SASSA card with a new black card issued by Postbank. The stated purpose is to modernise payment infrastructure and improve security. Beneficiaries who collect via a SASSA/Postbank card are expected to swap to the black card at a Postbank or SASSA point. SASSA has publicly referenced a migration deadline of 31 August 2026 for this swap so that payments continue without interruption. Because official dates can shift, always confirm the current deadline on the official SASSA and Postbank channels before making a trip."
+    },
+    {
+      "id": "blackcard-detail-p2",
+      "type": "paragraph",
+      "text": "If you already receive your SRD by EFT into your own bank account, the card migration may not affect you at all — your payment method stays the same. The migration mainly matters for those who rely on a physical SASSA/Postbank card to collect. If you are unsure which group you fall into, check your payment method in the SRD portal and, if needed, visit a SASSA office or Postbank branch with your ID to confirm what you need to do."
+    },
+    {
+      "id": "tax-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Tax and the SRD Grant"
+    },
+    {
+      "id": "tax-p",
+      "type": "paragraph",
+      "text": "The SRD R370 payment is a social assistance grant and is exempt from income tax. You do not need to declare it as taxable income on your annual return, and receiving it does not create a tax liability or a requirement to register for tax. This is the same treatment as other SASSA grants. If you also have formal employment elsewhere, that employment income remains taxable as normal — only the grant portion is exempt."
+    },
+    {
+      "id": "security-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Protecting Your Account and Personal Security"
+    },
+    {
+      "id": "security-p1",
+      "type": "paragraph",
+      "text": "Your SRD profile is valuable to criminals because it controls a monthly payment. Protect it by keeping your OTP, PIN, and password secret — no legitimate SASSA process will ever ask for them. Use a phone number you control, and beware of 'helpful' strangers offering to 'fix' your application; they may be trying to divert your payment to an account they control. If you suspect your profile was tampered with, contact the SASSA Fraud Hotline at 0800 60 10 11 immediately."
+    },
+    {
+      "id": "security-p2",
+      "type": "paragraph",
+      "text": "Be equally careful with the links you click. Phishing sites mimic srd.sassa.gov.za to harvest your ID and OTP, then change your banking details. Always type the official address directly into your browser or use the official WhatsApp line 082 046 8553. If a website asks for your OTP to 'verify' you outside the official login flow, close it. Regularly checking your own status through the official portal is the safest way to confirm nothing has been changed without your knowledge."
+    },
+    {
+      "id": "appeal-outcomes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appeal Outcomes and What They Mean"
+    },
+    {
+      "id": "appeal-outcomes-p1",
+      "type": "paragraph",
+      "text": "After ITSAA reviews your appeal, it can uphold, partially uphold, or deny it. 'Upheld' means the decline for that month was reversed and you should be paid for it, including any back payment owed. 'Denied' means the Tribunal agreed with SASSA's decision based on the evidence, and that month will not be paid. Each month you appealed is decided separately, so you may win one month and lose another depending on the underlying facts for each."
+    },
+    {
+      "id": "appeal-outcomes-p2",
+      "type": "paragraph",
+      "text": "If your appeal is denied and you believe a factual or procedural error occurred (for example, SASSA used outdated UIF data), you can seek further review through the channels ITSAA provides, but the standard 30-day appeal window for the original month still applies. The practical lesson is to appeal promptly and supply strong evidence the first time, because later remedies are slower and less certain. Keep your Appeal Reference Number and any outcome letters for your records."
+    },
+    {
+      "id": "backpay-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Back Payments After a Successful Appeal"
+    },
+    {
+      "id": "backpay-p",
+      "type": "paragraph",
+      "text": "When an appeal is upheld for a month you were wrongly declined, SASSA generally pays that month as a back payment, because you were entitled to it all along. The back payment follows the same method (EFT or Cash Send) you have selected. It is paid when the reversal is processed, which can take additional weeks after the outcome. If a upheld appeal is not paid after a reasonable time, follow up with ITSAA's reference number and, if needed, a SASSA office — but note that months you did not appeal within 30 days (or up to 90 days through the ITSAA portal) are typically lost even if you were genuinely eligible."
+    },
+    {
+      "id": "timeline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "From Application to First Payment: A Realistic Timeline"
+    },
+    {
+      "id": "timeline-table",
+      "type": "table",
+      "headers": [
+        "Stage",
+        "What happens",
+        "Typical time"
+      ],
+      "rows": [
+        [
+          "Submit application",
+          "You send your details via the portal or WhatsApp",
+          "Day 0"
+        ],
+        [
+          "OTP and initial capture",
+          "System verifies your phone and records the application",
+          "A few minutes"
+        ],
+        [
+          "Identity and database checks",
+          "Home Affairs, SARS, UIF, NSFAS cross-checks run",
+          "A few days to 2 weeks"
+        ],
+        [
+          "First decision",
+          "Status becomes Approved or Declined for the first month",
+          "Within ~2 weeks typically"
+        ],
+        [
+          "First payment (if approved)",
+          "EFT or Cash Send within the monthly window",
+          "25th to last day of month"
+        ],
+        [
+          "Monthly reassessment",
+          "Every month re-evaluated; reaffirm roughly every 3 months",
+          "Ongoing"
+        ]
+      ],
+      "caption": "Timings are typical and can vary with volume and data issues."
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Common Mistakes That Delay or Block Payment"
+    },
+    {
+      "id": "mistakes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Using a bank account that is not in your own name — payments bounce or are flagged.",
+        "Typing your name differently from your ID, causing an 'Identity Verification Failed'.",
+        "Letting your phone number lapse so you miss OTPs and status SMS.",
+        "Assuming approval is permanent and not checking status each month.",
+        "Depositing money (gifts, loans, stokvel payouts) that pushes you over R624.",
+        "Paying a third party who submits wrong or fraudulent details.",
+        "Not appealing within 30 days (or up to 90 days through the ITSAA portal) of a declined month."
+      ]
+    },
+    {
+      "id": "update-details-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Update Your Details (Phone, Bank, Address)"
+    },
+    {
+      "id": "update-intro",
+      "type": "paragraph",
+      "text": "Keeping your contact and banking details current is one of the simplest ways to avoid missed payments. All updates are free and done through the official SRD portal or a SASSA office — never pay anyone to do it for you. Changes to banking typically take effect from the following month, so update as soon as something changes rather than waiting until a payment fails."
+    },
+    {
+      "id": "update-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Log into the SRD portal",
+          "description": "Visit srd.sassa.gov.za and sign in with your ID and OTP."
+        },
+        {
+          "title": "Open 'Update Personal Details'",
+          "description": "Find the section for personal or banking information."
+        },
+        {
+          "title": "Change your phone number",
+          "description": "Enter your new number; verify with the OTP sent to it. If you lost access to the old number, visit a SASSA office."
+        },
+        {
+          "title": "Change your bank account",
+          "description": "Enter the new account in your name. Changes apply from the next month."
+        },
+        {
+          "title": "Save and confirm",
+          "description": "Submit and recheck your status after a day to confirm the update took effect."
+        }
+      ]
+    },
+    {
+      "id": "rights-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Your Rights and Responsibilities as a Beneficiary"
+    },
+    {
+      "id": "rights-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Right: to apply for free and to be assessed fairly against the published criteria.",
+        "Right: to appeal a declined month to the Independent Tribunal (ITSAA) within 30 days (or up to 90 days through the ITSAA portal).",
+        "Right: to receive the full R370 each approved month with no deductions or 'fees'.",
+        "Responsibility: to provide truthful information and not submit false details.",
+        "Responsibility: to keep your phone, bank, and personal details current.",
+        "Responsibility: to report changes (for example, starting work or receiving UIF/NSFAS) that affect eligibility."
+      ]
+    },
+    {
+      "id": "gov-services-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD and Other Government Services"
+    },
+    {
+      "id": "gov-services-p",
+      "type": "paragraph",
+      "text": "The SRD grant sits alongside other state support. It is separate from UIF (which is for contributors who lost work), from NSFAS (student funding), and from the permanent SASSA grants. Receiving SRD does not register you for RDP housing or COVID-related support programmes, and it does not affect most other non-cash services. Because different departments run different programmes, always confirm interactions with the relevant department rather than assuming. For example, municipal indigent support and school nutrition programmes have their own rules and are not linked to your SRD status."
+    },
+    {
+      "id": "glossary-h",
+      "type": "heading",
+      "level": 2,
+      "text": "A Glossary of SRD Terms"
+    },
+    {
+      "id": "glossary-table",
+      "type": "table",
+      "headers": [
+        "Term",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "SRD",
+          "Social Relief of Distress — the grant programme."
+        ],
+        [
+          "Means test",
+          "The check that your monthly income is at or below R624."
+        ],
+        [
+          "ITSAA",
+          "Independent Tribunal for Social Assistance Appeals — handles SRD appeals."
+        ],
+        [
+          "OTP",
+          "One-time PIN sent by SMS to verify your phone."
+        ],
+        [
+          "Cash Send",
+          "Retail collection of your grant using an SMS voucher."
+        ],
+        [
+          "Reaffirmation",
+          "Reconfirming your details roughly every three months."
+        ],
+        [
+          "Lapsing",
+          "A month not paid because the means test or a check failed."
+        ],
+        [
+          "Alternative Income Source",
+          "Status meaning deposits above the threshold were detected."
+        ]
+      ],
+      "caption": "Quick reference for terms used throughout this guide."
+    },
+    {
+      "id": "myths-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD Myths vs Facts"
+    },
+    {
+      "id": "myths-table",
+      "type": "table",
+      "headers": [
+        "Myth",
+        "Fact"
+      ],
+      "rows": [
+        [
+          "SASSA charges a fee to apply.",
+          "False. Applying, checking status, and appealing are free."
+        ],
+        [
+          "I can use anyone's bank account.",
+          "False. The account must be in your own name."
+        ],
+        [
+          "Once approved, it never stops.",
+          "False. It is reassessed every month."
+        ],
+        [
+          "A gift of money disqualifies me forever.",
+          "False. One month over the threshold only affects that month; explain it on appeal if it was not income."
+        ],
+        [
+          "I must reapply every month.",
+          "False. You reconfirm roughly every three months; monthly checks are automatic."
+        ],
+        [
+          "Someone can fast-track my payment for a fee.",
+          "False. No legitimate fast-track exists; ignore such offers."
+        ]
+      ],
+      "caption": "Common misinformation corrected with verified facts."
+    },
+    {
+      "id": "stat-bar",
+      "type": "stat-bar",
+      "stats": [
+        {
+          "label": "Monthly amount",
+          "value": "R370",
+          "description": "Paid per approved month (increased from R350)."
+        },
+        {
+          "label": "Income threshold",
+          "value": "R624",
+          "description": "Maximum monthly income to qualify."
+        },
+        {
+          "label": "Age range",
+          "value": "18 to 59",
+          "description": "Working-age adults only."
+        },
+        {
+          "label": "Appeal window",
+          "value": "30-90 days",
+          "description": "To challenge a declined month."
+        }
+      ]
+    },
+    {
+      "id": "repeated-declines-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What If You Are Declined Repeatedly"
+    },
+    {
+      "id": "repeated-declines-p1",
+      "type": "paragraph",
+      "text": "Some beneficiaries are declined month after month. Before assuming the system is broken, check the reason code each time — it is shown in your status. The usual causes are consistent: deposits above R624, an active UIF or NSFAS record, another grant on your ID, or an unresolved identity mismatch. If the reason is the same each month, fixing the underlying cause (not reapplying) is what changes the outcome. For income issues, an affidavit explains one-off or non-income deposits; for UIF/NSFAS, a termination or completion letter is what clears the flag."
+    },
+    {
+      "id": "repeated-declines-p2",
+      "type": "paragraph",
+      "text": "If you are certain the decline is wrong and appeals keep failing, consider whether an old employment or funding record is still live in SARS, UIF, or NSFAS systems. These records do not always update the moment a job or course ends, and SASSA can only act on what those systems report. Resolving the source record directly with the relevant institution, then appealing with proof, is often the only durable fix. A SASSA office can also advise whether a manual review is appropriate for your case."
+    },
+    {
+      "id": "budget-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Making the Most of a Variable Grant"
+    },
+    {
+      "id": "budget-p",
+      "type": "paragraph",
+      "text": "Because SRD can be approved one month and declined the next, it is safest to treat it as supplementary rather than core income. Where possible, avoid committing the R370 to fixed monthly obligations you cannot meet if a month is declined. Many beneficiaries use the grant for essentials like food and transport, and keep a small buffer for months when a payment does not arrive. Planning around the variability, rather than assuming it will always come, reduces the impact of a missed month."
+    },
+    {
+      "id": "contact-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Official Contact Channels Summary"
+    },
+    {
+      "id": "contact-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Website (apply, status, appeals, updates): srd.sassa.gov.za",
+        "WhatsApp (apply and enquiries): 082 046 8553",
+        "USSD status check: *134*7737#",
+        "SASSA Fraud Hotline: 0800 60 10 11",
+        "In person: any SASSA office or approved help kiosk (free assistance)."
+      ]
+    },
+    {
+      "id": "official-comms-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to Recognise Genuine SASSA Communication"
+    },
+    {
+      "id": "official-comms-p",
+      "type": "paragraph",
+      "text": "Genuine SASSA messages arrive as SMS from official systems and will contain your reference or a voucher, never a demand for payment or your PIN. SASSA will not call you to ask for your banking password, and will not send links that ask you to enter your OTP on a third-party site. If a message creates urgency — 'your grant will be cancelled unless you pay now' — it is almost certainly a scam. When in doubt, open srd.sassa.gov.za directly and check your own status rather than acting on the message."
+    },
+    {
+      "id": "status-confusion-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Statuses People Often Confuse"
+    },
+    {
+      "id": "status-confusion-table",
+      "type": "table",
+      "headers": [
+        "Status seen",
+        "What it is often mistaken for",
+        "Key difference"
+      ],
+      "rows": [
+        [
+          "Pending",
+          "Declined",
+          "Pending is still being processed; no decision yet."
+        ],
+        [
+          "Alternative Income Source",
+          "Permanent ban",
+          "It only affects the specific month; fix and appeal."
+        ],
+        [
+          "Approved",
+          "Payment received",
+          "Approved means authorised, not yet in your account."
+        ],
+        [
+          "Bank Verification Pending",
+          "Declined",
+          "Your bank details are still being checked, not rejected."
+        ],
+        [
+          "Referred",
+          "Ordinary decline",
+          "Referred means a fraud investigation; contact the hotline."
+        ]
+      ],
+      "caption": "Clarifying commonly mixed-up statuses."
+    },
+    {
+      "id": "student-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Students: A Closer Look"
+    },
+    {
+      "id": "student-detail-p",
+      "type": "paragraph",
+      "text": "The rule for students is precise: active NSFAS funding disqualifies you, but being a student does not. A learner or university student who is NOT on NSFAS and who has no other income may qualify, as long as deposits stay at or below R624. This matters because many young people assume they are automatically excluded, or conversely assume a private bursary is ignored. The bursary is not NSFAS, but any money it puts into your account still counts in the means test, so large regular bursary deposits can still push you over the threshold for a given month."
+    },
+    {
+      "id": "gig-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Gig and Informal Workers: A Closer Look"
+    },
+    {
+      "id": "gig-detail-p",
+      "type": "paragraph",
+      "text": "Gig and informal work sits in a grey area. The grant does not forbid work — it forbids income above R624 a month. A delivery rider earning R400 in a quiet month qualifies; the same rider earning R900 in a busy month will be declined for that month. Because platforms pay irregularly, your status can legitimately flip month to month, and that is not an error. The risk is that a single strong month removes the grant exactly when you may still need it, so tracking your own monthly inflow helps you anticipate and, if wrongly flagged, appeal with evidence."
+    },
+    {
+      "id": "child-grant-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The Child Support Grant Exception Explained"
+    },
+    {
+      "id": "child-grant-detail-p",
+      "type": "paragraph",
+      "text": "The 'one grant only' rule has exactly one carve-out: the Child Support Grant paid for your own child. This exception exists because the child grant is intended for the child's needs, not the caregiver's income, so it is not treated as disqualifying support for the caregiver's own SRD. All other SASSA grants paid to you personally — Older Person, Disability, Foster Child — do disqualify you. If you receive the child grant and your SRD is declined for 'already on another grant', that specific decline is worth challenging, because the child grant should not trigger it."
+    },
+    {
+      "id": "appeal-detail-extra-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Appeals: Practical Tips for Success"
+    },
+    {
+      "id": "appeal-detail-extra-p",
+      "type": "paragraph",
+      "text": "Three habits dramatically improve appeal outcomes. First, appeal within 30 days (or up to 90 days through the ITSAA portal) — appeals submitted after the 90-day window are not considered, no matter how strong your evidence. Second, match your evidence to the exact decline reason: an affidavit for income, a UIF letter for UIF, an NSFAS letter for NSFAS. Third, appeal each declined month individually rather than assuming one appeal covers all of them. Keeping a folder (physical or on your phone) with your ID, reference numbers, and supporting letters makes the process faster every time."
+    },
+    {
+      "id": "payment-dates-detail-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding SRD Payment Dates"
+    },
+    {
+      "id": "payment-dates-detail-p",
+      "type": "paragraph",
+      "text": "Unlike the permanent SASSA grants, which often have a published schedule of specific pay days per grant type, the SRD grant is paid within a monthly window rather than on a single fixed date. SASSA announces monthly payment arrangements on its official channels, and individual beneficiaries are paid progressively from roughly the 25th of the month to the last day. Your exact day depends on your bank or collection method and on where you sit in the rollout. Treat the 25th-to-month-end window as the reliable fact, and rely on the official SASSA communications for any more specific scheduling rather than on unofficial 'exact date' posts."
+    },
+    {
+      "id": "voucher-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How the Cash Send Voucher Works"
+    },
+    {
+      "id": "voucher-p",
+      "type": "paragraph",
+      "text": "If you choose Cash Send (retail collection), SASSA sends an SMS voucher to your registered phone once payment is processed. You take that voucher code, along with your ID, to a participating retailer — Pick n Pay, Boxer, Shoprite, Checkers, or USave — and collect the cash over the counter. The voucher is single-use and time-limited, so collect it promptly and never share the code with anyone. If the voucher does not arrive after an Approved month, check your status and your phone signal, and confirm the mobile number on file is still correct; a wrong number means the voucher goes to the wrong place."
+    },
+    {
+      "id": "cancel-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Cancelling or Voluntarily Stopping the Grant"
+    },
+    {
+      "id": "cancel-p",
+      "type": "paragraph",
+      "text": "If your circumstances change and you no longer need or qualify for the grant — for example, you start formal employment — you are expected to stop claiming, because continued claims you do not qualify for can amount to fraud. You can update your situation through the SRD portal or a SASSA office, and the monthly means test will in any case stop approving months where you fail it. Voluntarily keeping your details accurate is both a responsibility and the cleanest way to avoid a later fraud referral for months you should not have received."
+    },
+    {
+      "id": "credit-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD, Credit, and Loans"
+    },
+    {
+      "id": "credit-p",
+      "type": "paragraph",
+      "text": "The SRD grant is not income from employment and is not a loan, so it does not create a debt or affect your credit record. Lenders may, however, ask about your income when you apply for credit; the grant can be listed as income, but because it is temporary and variable, it is weak security for a long-term repayment commitment. Be cautious about taking on credit that assumes the grant will always arrive — a single declined month could leave you unable to pay. As always, the grant is best treated as temporary support, not a permanent salary."
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Quick Eligibility Checklist"
+    },
+    {
+      "id": "checklist-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "I am a South African citizen, permanent resident, or registered refugee/asylum seeker.",
+        "I am aged 18 to 59.",
+        "I have no income, or my monthly income is at or below R624.",
+        "I am not receiving UIF, NSFAS, or another SASSA grant (except the Child Support Grant for my own child).",
+        "I am not resident in a state-funded institution.",
+        "I can provide an ID/permit and a phone number in my name."
+      ]
+    },
+    {
+      "id": "final-note",
+      "type": "callout",
+      "intent": "info",
+      "title": "Stay informed through official sources",
+      "text": "SRD rules, thresholds, and dates can change. The most reliable information always comes from srd.sassa.gov.za, the SASSA WhatsApp line 082 046 8553, and the Independent Tribunal (ITSAA) at itsaa.gov.za. Use this guide as a thorough explainer, but confirm live details on the official channels before acting."
+    },
+    {
+      "id": "refugee-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Refugees and Asylum Seekers: A Closer Look"
+    },
+    {
+      "id": "refugee-p",
+      "type": "paragraph",
+      "text": "Recognised refugees and asylum seekers/special permit holders are eligible for the SRD grant, but the application uses their permit or asylum-seeker number instead of a South African ID. The same means test and the same checks against income and other support apply. The most common issue for this group is an expired or pending permit, because SASSA verifies the number against the Home Affairs system; if the permit is not active on that system, verification fails. Keeping your permit valid and updated with Home Affairs is therefore essential, and any gap in permit status can translate directly into a failed or lapsed month."
+    },
+    {
+      "id": "disability-h",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD and People With Disabilities"
+    },
+    {
+      "id": "disability-p",
+      "type": "paragraph",
+      "text": "If you have a disability and are aged 18 to 59 with no or very low income, the SRD grant may help in the short term, but it is not a substitute for the permanent Disability Grant, which pays a higher amount and is not reassessed monthly in the same way. If your disability prevents you from working, you should explore the Disability Grant through a SASSA office and a medical assessment. You cannot receive both the Disability Grant and SRD at the same time, so the better long-term fit is usually the permanent grant rather than the temporary SRD."
+    },
+    {
+      "id": "reflect-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How Long Payments Take to Reflect"
+    },
+    {
+      "id": "reflect-p",
+      "type": "paragraph",
+      "text": "Once a month shows 'Payment Processing' or 'Approved', the money typically reflects within one to three business days, depending on your bank's processing speed. Retail Cash Send vouchers are usually available as soon as the SMS arrives. If several business days pass with no funds and your details are correct, the payment may have bounced — recheck your account details and, if needed, update them for the next month. Persistent non-receipt with correct details should be raised with SASSA using your reference number, but most delays resolve within the normal window without intervention."
+    },
+    {
+      "id": "reasoncodes-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Decline Reason Codes at a Glance"
+    },
+    {
+      "id": "reasoncodes-table",
+      "type": "table",
+      "headers": [
+        "Reason shown",
+        "What it means",
+        "Typical fix"
+      ],
+      "rows": [
+        [
+          "Alternative Income Source",
+          "Deposits above R624 detected",
+          "Affidavit explaining non-income deposits; appeal."
+        ],
+        [
+          "Already on another grant",
+          "Another SASSA grant on your ID",
+          "Confirm exception (child grant) or end other grant; appeal."
+        ],
+        [
+          "UIF detected",
+          "Active UIF payments",
+          "UIF termination letter; appeal after UIF ends."
+        ],
+        [
+          "NSFAS detected",
+          "Active student funding",
+          "NSFAS cancellation letter; appeal after funding ends."
+        ],
+        [
+          "Identity Verification Failed",
+          "Mismatch with Home Affairs",
+          "Facial verification or fix details at Home Affairs."
+        ]
+      ],
+      "caption": "Match your appeal evidence to the exact reason shown."
+    },
+    {
+      "id": "closing-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Putting It All Together"
+    },
+    {
+      "id": "closing-p",
+      "type": "paragraph",
+      "text": "The SRD R370 grant is a powerful but strictly conditional form of support. Success comes from three habits: apply once with accurate details, check your status every month, and appeal within 30 days (or up to 90 days through the ITSAA portal) if a month is wrongly declined. Keep your phone and bank details current, treat the grant as variable rather than permanent, and protect yourself from the scams that target beneficiaries. With those habits, the system works as intended — putting R370 a month into the hands of people who genuinely have no other income. For live dates, statuses, and appeals, always return to the official srd.sassa.gov.za portal."
+    },
+    {
+      "id": "help-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Getting Help When the System Is Hard to Use"
+    },
+    {
+      "id": "help-p",
+      "type": "paragraph",
+      "text": "Not everyone has a smartphone, reliable data, or the confidence to navigate an online portal, and SASSA recognises this. Free assistance is available through SASSA offices and self-service kiosks, where staff help you apply, check status, and appeal at no charge. Community workers and some municipal offices also run support points. The important thing to remember is that help should always be free — if someone demands payment to assist you, they are not legitimate. Our dedicated SRD help guide covers call centres and kiosks in more detail for those who prefer human assistance."
+    },
+    {
+      "id": "help-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "You are not alone",
+      "text": "Millions of South Africans rely on the SRD grant. If something goes wrong — a declined month, a missed payment, a confusing status — it is usually fixable through the steps in this guide: check the reason, update your details, and appeal within 30 days (or up to 90 days through the ITSAA portal) using the right evidence."
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -470,6 +2012,118 @@
         {
           "question": "Is the SRD grant taxable?",
           "answer": "No. SASSA social grants are exempt from income tax. You do not need to declare them on your tax return."
+        }
+      ]
+    },
+    {
+      "id": "faq-more-1",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "My status has said 'Pending' for more than two weeks. What should I do?",
+          "answer": "A Pending status means your application is still moving through verification against Home Affairs, SARS, UIF, and NSFAS. Short delays are normal. Keep checking every few days. If it stays Pending for an unusually long time (several weeks) with no update, you can contact the SASSA call centre or visit an office with your ID and reference number."
+        },
+        {
+          "question": "My status is 'Approved' but I have not been paid. Why?",
+          "answer": "Approval means you qualified for that month; payment follows in the normal payment window (roughly the 25th to month-end). If the window has passed and you were approved, first confirm your payment method and bank details are correct and in your name. A wrong or closed account can bounce the payment. If details are correct and payment still has not arrived, check the status again and contact SASSA, keeping your reference number handy."
+        },
+        {
+          "question": "Does my partner's or spouse's income affect my SRD grant?",
+          "answer": "The means test looks at income flowing into YOUR bank account and your own government records, not automatically your partner's. However, if money from a partner is regularly deposited into your account and pushes your monthly total above R624, that can affect your assessment. The grant is based on your individual financial position as reflected in your account and databases."
+        },
+        {
+          "question": "I applied twice by mistake. Is that a problem?",
+          "answer": "Submitting more than one application with the same ID does not create multiple grants and is generally consolidated, but duplicating applications can cause confusion or delays. Use your original reference number to check status, and avoid paying anyone to 'fix' duplicates. If you are worried, contact SASSA with your ID to confirm your single active application."
+        },
+        {
+          "question": "How do I change my bank details on the SRD grant?",
+          "answer": "Log into the SRD portal at srd.sassa.gov.za, go to the section for updating personal or banking details, and enter your new account (it must be in your name). Changes typically take effect from the following month. You can also use the WhatsApp line or visit a SASSA office if you cannot access the portal. For a full guide see our payment methods page."
+        },
+        {
+          "question": "What happens after I submit an appeal?",
+          "answer": "Your appeal goes to the Independent Tribunal for Social Assistance Appeals (ITSAA), which reviews the evidence against the SASSA decision for that specific month. Outcomes are: upheld (you are granted for that month, with back payment if applicable), partially upheld, or denied. ITSAA notifies you, and the process can take several weeks. Keep your Appeal Reference Number for follow-up."
+        },
+        {
+          "question": "How long does an SRD appeal take?",
+          "answer": "Appeal turnaround times vary, but many are resolved within a few weeks to a couple of months depending on volume and the complexity of your evidence. There is no instant outcome. Check your appeal status using your reference number and the official ITSAA channels rather than trusting third parties."
+        },
+        {
+          "question": "I missed the 30-day appeal deadline. Can I still appeal?",
+          "answer": "The 30-day window is strict and runs from the date of the declined month. Missing it generally means that specific month cannot be reconsidered through the standard appeal. The practical fix is to ensure future months are correctly assessed; if you believe there was a system or procedural error, contact ITSAA or SASSA for guidance on your options."
+        },
+        {
+          "question": "Can I receive the SRD grant and UIF at the same time?",
+          "answer": "No. Receiving UIF payments is disqualifying income for the SRD grant. If you are on UIF, your SRD months will be declined. Once your UIF ends, those later months may qualify, and you can appeal any month wrongly declined after UIF stopped by supplying your UIF termination letter."
+        },
+        {
+          "question": "What does 'Identity Verification Failed' mean?",
+          "answer": "It means the details you submitted do not match the Department of Home Affairs records — often a surname, date of birth, or ID-number mismatch. Resolve it by completing the facial verification step in the SRD portal or by correcting your details at Home Affairs, then rechecking your status. Using the exact name on your ID at application prevents this."
+        },
+        {
+          "question": "Can I use a family member's bank account to receive payment?",
+          "answer": "No. The bank account used for SRD payment must be in your own name. Payments to accounts not matching your ID are rejected or flagged, which can delay or block your grant and may raise fraud concerns. Use your own account, or choose Cash Send retail collection if you have no account."
+        },
+        {
+          "question": "My phone number was lost or SIM swapped. How do I keep my grant?",
+          "answer": "Your registered number is used for OTPs and status SMS, so update it promptly. If you still have access, change it in the SRD portal. If you have lost access, visit a SASSA office with your ID to verify your identity and update the number. Acting quickly prevents missed verification and payment messages."
+        }
+      ]
+    },
+    {
+      "id": "faq-more-2",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Will receiving the SRD grant affect my credit score?",
+          "answer": "No. The SRD grant is a social assistance payment, not a loan or credit. Receiving it does not create a credit record or affect your credit score. It is also not counted as income you must repay."
+        },
+        {
+          "question": "Is the SRD grant taxable?",
+          "answer": "No. Like other SASSA social grants, the SRD R370 payment is exempt from income tax and does not need to be declared as taxable income on your return."
+        },
+        {
+          "question": "Can asylum seekers and refugees apply for SRD?",
+          "answer": "Yes. Recognised refugees registered on the Home Affairs system and asylum seekers or special permit holders can apply. They use their permit or asylum-seeker number instead of a South African ID number, and must meet the same means test and other criteria."
+        },
+        {
+          "question": "I am a student not funded by NSFAS. Can I get SRD?",
+          "answer": "You may qualify if you have no other income and your monthly deposits stay at or below R624. Not receiving NSFAS is not automatically enough — the income test still applies to whatever reaches your account. Private bursaries and family support still count as deposits toward the threshold."
+        },
+        {
+          "question": "Can domestic workers and gig workers get the SRD grant?",
+          "answer": "Only if total monthly earnings are at or below R624 and you are not formally employed via PAYE. Gig and casual earnings are assessed on what lands in your bank each month, so your status may change month to month. If you are paid formally with PAYE, you are generally considered employed and will not qualify."
+        },
+        {
+          "question": "How do I know if my grant has lapsed?",
+          "answer": "Check your status each month. If a month shows 'Declined' (for example, 'Alternative Income Source') or you simply receive no payment despite prior approvals, the grant has lapsed for that month due to the means test or a data flag. Fix the underlying cause and appeal wrongly declined months within 30 days (or up to 90 days through the ITSAA portal)."
+        },
+        {
+          "question": "What is the black Postbank card, and do I need it?",
+          "answer": "SASSA is replacing the old gold SASSA card with a new black Postbank card. SASSA has stated a migration deadline of 31 August 2026 for beneficiaries to swap their card at a Postbank or SASSA point to keep getting paid. If you receive payment by EFT to your own bank account, this may not affect you; if you collect via a SASSA/Postbank card, confirm your situation on official channels, as dates can change."
+        },
+        {
+          "question": "Can I reapply after my SRD was cancelled?",
+          "answer": "If your grant was cancelled (for example, after long-term ineligibility), you generally need to submit a new application rather than simply reactivate it. If it was only paused or lapsed for specific months, those months may be addressable through updates and appeals. Visit the SRD portal or a SASSA office for your specific case."
+        },
+        {
+          "question": "Why do I have to reaffirm every three months?",
+          "answer": "SASSA requires periodic reaffirmation (roughly every three months) to confirm your details and continuing need, alongside the monthly means-test reassessment. It is a control to ensure the grant goes to people still meeting the criteria. Reaffirm through the official portal when prompted; missing it can leave your record stale and affect payments."
+        },
+        {
+          "question": "Does the SRD grant count against RDP houses or other social benefits?",
+          "answer": "The SRD grant is a temporary relief payment and is generally not treated as permanent income for other social programmes, but rules for housing and other benefits are set by different government departments. For definitive answers about how the grant interacts with RDP housing or other assistance, consult the relevant department or a SASSA office, and rely on official guidance rather than informal advice."
+        },
+        {
+          "question": "Can I get SRD if I already get the Child Support Grant for my child?",
+          "answer": "Yes. The Child Support Grant paid for your own child is the one exception to the 'no other grant' rule. You may receive the child grant for your child and the SRD R370 for yourself at the same time, provided you meet all the SRD criteria (age 18 to 59, income at or below R624, no UIF/NSFAS, etc.)."
+        },
+        {
+          "question": "Where can I get human help if the online system is hard to use?",
+          "answer": "You can apply or get help at a SASSA office or through SASSA's free call centres and self-service kiosks, where staff assist at no cost. Beware of anyone charging a fee. Our SRD help guide explains how to reach human assistance, and the status check page explains checking by USSD and WhatsApp."
+        },
+        {
+          "question": "How do I report an SRD scam or fraud?",
+          "answer": "Report scams and fraud to the SASSA Fraud Hotline at 0800 60 10 11, and never share your PIN, password, or OTP. Use only official channels: srd.sassa.gov.za, the WhatsApp line 082 046 8553, or a physical SASSA office."
         }
       ]
     },

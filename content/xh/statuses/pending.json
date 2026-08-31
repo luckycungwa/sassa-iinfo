@@ -1,0 +1,197 @@
+{
+  "id": "status-pending",
+  "slug": "/status/pending",
+  "classification": "status-meaning",
+  "title": "Kulindiwe — Kuthetha Ntoni Isenzo 'Kulindiwe' Kukhangelo Lwesimo SeSASSA?",
+  "description": "Isimo sesibonelelo sakho seSASSA sibonisa 'Kulindiwe' — nantsi into ethethwa kuko, kuthatha ixesha elingakanani, nento omele uyenze ngokulandelayo.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.1.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Isimo SeSASSA Sikulindele? Kuthetha Ntoni Nokugqitha Kwexesha Elingakanani (2026)",
+    "metaDescription": "Isimo seSASSA 'siKulindele' ngo-2026? Funda ukuba kuthetha ntoni, kuthatha ixesha elingakanani, nento omele uyenze ngokulandelayo ngelixa isicelo sakho sesibonelelo sisajongwa.",
+    "keywords": [
+      "iSASSA ilindile",
+      "isimo sokulinda sesibonelelo",
+      "isicelo seSASSA silindile"
+    ]
+  },
+  "sources": [
+    {
+      "label": "Iwebhusayithi Esemthethweni YeSASSA",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Iportal Esemthethweni YeSRD R370",
+      "url": "https://srd.sassa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Kulindiwe — Ukuthetha Ntoni Kwezibonelelo Zakho",
+      "description": "Isimo sakho seSASSA sibonisa 'Kulindiwe' — isicelo sakho samkelwe kwaye sisajongwa. Funda ukuba inkqubo yokulinda ibandakanya ntoni, amaxesha aqhelekileyo, nento omele uyenze nokuba ungayenzi ngelixa ulindele isigqibo.",
+      "readingTime": "Iminithi e-4 yokufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Jonga Isimo Sakho",
+        "href": "/status/pending"
+      },
+      "secondaryCta": {
+        "text": "Jonga Isikhokelo Sokulinda",
+        "href": "/status/pending-30-days"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Kulindiwe — Kuthetha Ntoni?"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Xa isimo sesibonelelo sakho seSASSA sibonisa 'Kulindiwe', kuthetha ukuba isicelo sakho samkelwe kwaye sisajongwa ngamagosa eSASSA. Oku yinxalenye eqhelekileyo yenkqubo yesicelo."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Kulindiwe",
+      "explanation": "Isicelo sakho sikuluhlu lokujongwa. I-SASSA iqinisekisa iinkcukacha zakho zobuqu, ulwazi lovavanyo lweendlela zobomi, kunye namaxwebhu axhasayo ngokweerekhodi zabo.",
+      "whyItHappens": [
+        "I-SASSA ifumana amawaka ezicelo mihla le",
+        "Ukuqinisekiswa okongeziweyo kunokufuneka kumaxwebhu athile",
+        "Izibalo zovavanyo lweendlela zobomi zithatha ixesha ukucutshungulwa",
+        "Ukuphononongwa ngesandla kunokwenziwa kwiimeko ezinzima"
+      ],
+      "howLongItLasts": "Ngokuqhelekileyo iiveki ezi-4 ukuya kwezi-8 ukususela kumhla wokungeniswa kwesicelo. Izicelo zeSRD R370 zingasonjululwa ngokukhawuleza (iiveki ezi-1 ukuya kwezi-2).",
+      "whatYouShouldDo": [
+        "Qhubeka ujonge isimo sakho kwi-intanethi",
+        "Qinisekisa ukuba iinkcukacha zakho zonxibelelwano zihlaziyiwe",
+        "Phendula ngokukhawuleza kuzo naziphi na izicelo zeSASSA zolwazi olongeziweyo",
+        "Sukungenisa isicelo esiphindiweyo — oku kuza kuzisa ulibaziseko"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Intlawulo Iyaqhuba",
+          "slug": "payment-processing"
+        },
+        {
+          "name": "Siphambiwe",
+          "slug": "approved"
+        }
+      ]
+    },
+    {
+      "id": "mistakes-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Iimpazamo Eziqhelekileyo Okufanele Uziphephe"
+    },
+    {
+      "id": "mistakes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Ukungenisa isicelo esiphindiweyo ucinga ukuba siza kukhawulezisa inkqubo — oku eneneni kubuyisela umqondiso wakho kuluhlu emva",
+        "Ungajongi iportal yesimo echanileyo — sebenzisa i-srd.sassa.gov.za kwizibonelelo zeSRD",
+        "Ukuyityeshela izicelo zeSASSA zamaxwebhu ongezelelweyo — hlala uphendula kwixesha elinikiweyo",
+        "Ukutshintsha iinkcukacha zebhanki ngelixa isicelo sakho silindile — oku kunokubangela ulibaziseko olutsha lokuqinisekiswa"
+      ]
+    },
+    {
+      "id": "stuck-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Isimo Sam Asitshintshanga Kwiiveki Ezimbalwa — Ngaba Singxinekile?"
+    },
+    {
+      "id": "stuck",
+      "type": "paragraph",
+      "text": "Isimo esihlala sinye okwethutyana ngokuqhelekileyo sisaqhubela phambili kuluhlu lokujongwa, asikho ngxaki. KwiSRD R370, inyanga nganye ivavanywa njengomjikelo wayo, ngoko isimo sinokuhlala singatshintshi okwenxalenye yenyanga size sitshintshe xa kuqhuba ukuphononongwa okulandelayo. Jonga isimo sakho kwi-srd.sassa.gov.za kunokuba ujonge kwiiwebhusayithi zomntu wesithathu, kuba ezo zinokubonisa ulwazi oluphelelwe lixesha. Ukuba ubulinda ixesha elide kunexesha eliqhelekileyo lesibonelelo sakho, jonga isikhokelo sethu sokulinda ngaphezu kweentsuku ezingama-30, uze uqinisekise ukuba isimo sakho asitshintshelanga ngokuthula kwinto efana ne 'Ukuqinisekiswa Kwebhanki' — loo nto ibonakala ingasebenzi kodwa eneneni ithetha ukuba iSASSA ilinde iinkcukacha zentlawulo kwicala lakho.",
+      "links": [
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Imibuzo Ebuzwa Rhoqo"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Isimo 'sokuLinda' sihlela ixesha elingakanani?",
+          "answer": "Kwizibonelelo ezininzi, ukulinda kuthatha iiveki ezi-4 ukuya kwezi-8. Izicelo zeSRD R370 ngokuqhelekileyo zisonjululwa kwiiveki ezi-1 ukuya kwezi-2. Ukuba kudlule iiveki eziyi-8, qhagamshelana neSASSA."
+        },
+        {
+          "question": "Ngaba 'uLinda' lithetha ukuba isicelo sam siphumelele?",
+          "answer": "Hayi. UkuLinda kuthetha kuphela ukuba isicelo sakho samkelwe kwaye sisajongwa. Isimo siya kutshintsha sibe kuPhambiwe, siNqatshelwe, okanye esinye isimo xa ukuphononongwa kugqityiwe."
+        },
+        {
+          "question": "Ngaba ndingawukhawulezisa umsebenzi wokulinda?",
+          "answer": "Hayi, kodwa ungaziphepha iimpazamo zokulibaziseka ngokuqinisekisa ukuba onke amaxwebhu akho angeniswe ngokuchanekileyo nangokuphendula ngokukhawuleza kuzo naziphi na izicelo zeSASSA zolwazi olongeziweyo."
+        },
+        {
+          "question": "Isimo sam asitshintshanga kwiiveki ezimbalwa — ngaba kukho into engahambiyo kakuhle?",
+          "answer": "Ngokuqhelekileyo akukho. Izicelo zingahlala kuluhlu lokujongwa iiveki ezininzi ngaphandle kokuba kubonakale utshintsho. Qinisekisa ukuba ujonga kwiportal esemthethweni, jonga izimo ezifana ne 'Ukuqinisekiswa Kwebhanki' ezifuna isenzo kuwe, uze uqhagamshelane neSASSA kuphela xa sele udlule ixesha eliqhelekileyo lokuqhuba kohlobo lwesibonelelo sakho."
+        },
+        {
+          "question": "Ndandilindile kwaye ngoku ithi Siphambiwe kodwa akukho mhla wokuhlawula. Ngaba oku kuqhelekile?",
+          "answer": "Ewe — ukuphambiwa kuhlala kubonakala phambi kokuba kongezwe umhla wokuhlawula. Jonga isikhokelo sethu sokuba uphambiwe ngaphandle komhla wokuhlawula ukuze ubone into onokuyilindela ngokulandelayo."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Ulindile Ngaphezu Kweentsuku Ezingama-30",
+          "href": "/status/pending-30-days",
+          "description": "Into omawuyenze xa ukulinda kudlula kwexesha eliqhelekileyo"
+        },
+        {
+          "title": "Indlela Yokujonga Isimo Sakho",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "Zonke iindlela ezisemthethweni zokujonga, kwi-intanethi nangomnxeba"
+        },
+        {
+          "title": "Isimo Sokuqinisekiswa Kwebhanki",
+          "href": "/status/bank-verification",
+          "description": "Into eli simo ekhumbula kuwe nendlela yokusilungisa"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Intlawulo Iyaqhuba",
+      "slug": "/status/payment-processing"
+    },
+    {
+      "title": "Siphambiwe",
+      "slug": "/status/approved"
+    },
+    {
+      "title": "Ulindile Iintsuku Ezingama-30+",
+      "slug": "/status/pending-30-days"
+    },
+    {
+      "title": "Indlela Yokujonga Isimo Sesibonelelo Sakho SeSASSA",
+      "slug": "/guides/how-to-check-sassa-status"
+    }
+  ]
+}

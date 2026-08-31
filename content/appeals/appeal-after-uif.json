@@ -4,7 +4,7 @@
   "classification": "appeal-guide",
   "title": "Appealing a Decline Due to UIF Registration",
   "description": "What to do if SASSA declines your grant claiming you are receiving UIF when you are not. Step-by-step guide to getting a UI-19 form and submitting your appeal.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "Appealing a Decline Due to UIF Registration",
       "description": "SASSA often declines grants when your ID is linked to a UIF record, even if you are no longer receiving payments. This guide explains how to get a UI-19 termination letter from the Department of Labour and submit a successful appeal.",
       "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Appeal Your UIF Decline",
         "href": "https://srd.dsd.gov.za"
@@ -49,12 +49,18 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "A very common reason for grant rejection is 'UIF Registered'. This happens because SASSA's database checks find your ID registered on the Department of Labour's UIF database, even if you are no longer receiving payments."
+      "text": "A very common reason for grant rejection is 'UIF Registered'. This happens because SASSA's database checks find your ID registered on the Department of Labour's UIF database, even if you are no longer receiving payments.",
+      "links": [
+        {
+          "text": "UIF",
+          "href": "/appeals/appeal-reasons"
+        }
+      ]
     },
     {
-      "id": "who",
+      "id": "reassure",
       "type": "paragraph",
-      "text": "This guide is for SASSA applicants who received a decline status because their ID number is linked to a UIF record, even if they are no longer receiving UIF payments."
+      "text": "The frustrating part is that this is usually not your fault at all. It is not even necessarily UIF's fault — it is a record that was left in the system. The good news: the fix is simple and most appeals of this kind are successful once you provide the right proof. What you need is one document, and this guide tells you exactly how to get it."
     },
     {
       "id": "steps-h",
@@ -129,6 +135,36 @@
         {
           "question": "Why did SASSA say I have UIF when I was retrenched years ago?",
           "answer": "This is almost always because your former employer never submitted your UI-19 termination form to the Department of Labour, leaving your status active on their database."
+        },
+        {
+          "question": "My employer closed down. How do I get the UI-19 form?",
+          "answer": "You can still get it. Visit the Department of Labour with your ID and explain that your employer no longer exists. They can generate a UIF status letter showing no active payments even if the original employer is gone."
+        },
+        {
+          "question": "Do I need to submit the UI-19 form, or will SASSA check it themselves?",
+          "answer": "Submit it. SASSA's automated system only reads the database flag — it will not reconcile it for you. Upload the UI-19 or status letter with your appeal so a human reviewer can close the file and overturn the decline."
+        }
+      ]
+    },
+    {
+      "id": "related-pages-dizzwb",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Appeals",
+          "href": "/appeals"
+        },
+        {
+          "title": "All SASSA Grants",
+          "href": "/grants"
+        },
+        {
+          "title": "SRD R370 Grant",
+          "href": "/grants/srd-r370-grant"
+        },
+        {
+          "title": "SASSA Payment Dates",
+          "href": "/payment-dates"
         }
       ]
     }

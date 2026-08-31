@@ -4,7 +4,7 @@
   "classification": "status-meaning",
   "title": "Bank Verification Pending — What It Means & How to Resolve It",
   "description": "Your SASSA status shows 'Bank Verification Pending' — here is what it means, why it happens, and exactly what to do to get your grant paid.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "Bank Verification Pending — How to Resolve It",
       "description": "Your SASSA status shows 'Bank Verification Pending' — your grant payment cannot proceed until this is resolved. Learn why bank verification happens, common failure reasons, and exactly what steps to take to get your payment released.",
       "readingTime": "5 min read",
-      "lastUpdated": "June 2026",
+      "lastUpdated": "2026-08-25",
       "cta": {
         "text": "Fix Bank Details",
         "href": "/banking/update-bank-details"

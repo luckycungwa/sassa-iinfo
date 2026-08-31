@@ -4,36 +4,117 @@
   "classification": "hub-index",
   "title": "SASSA Grant Payment Dates 2026",
   "description": "Complete schedule of SASSA grant payment dates for all grant types including Older Person, Disability, Child Support, Foster Care, and SRD R370 grants.",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-25",
   "version": "2.1.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SASSA Payment Dates 2026 — Full Schedule",
     "metaDescription": "View SASSA payment dates for all grant types: Older Person, Disability, Child Support, SRD R370, and more. Monthly schedule by grant category for 2026.",
-    "keywords": ["SASSA payment dates", "grant payment dates", "SASSA pay dates 2026", "SASSA payout schedule", "when does SASSA pay"]
+    "keywords": [
+      "SASSA payment dates",
+      "grant payment dates",
+      "SASSA pay dates 2026",
+      "SASSA payout schedule",
+      "when does SASSA pay"
+    ]
   },
   "contentBlocks": [
-    { "id": "h1", "type": "heading", "level": 2, "text": "SASSA Payment Dates" },
-    { "id": "intro", "type": "paragraph", "text": "SASSA pays grants on specific days each month, staggered by grant type. Permanent grants (Older Person, Disability, Children's) are paid in the first week. The SRD R370 grant is paid in batches from the 25th to the 30th. Click any month for the full schedule." },
-    { "id": "quick-nav", "type": "link-grid", "links": [
-      { "title": "August 2026 (Current Month)", "href": "/payment-dates/2026-august", "description": "Current month's payment schedule" },
-      { "title": "September 2026 (Confirmed)", "href": "/payment-dates/2026-september", "description": "Next month's payment dates — Heritage Day impact explained" },
-      { "title": "October 2026 (Provisional)", "href": "/payment-dates/2026-october", "description": "Expected schedule" },
-      { "title": "December 2026", "href": "/payment-dates/2026-december", "description": "Holiday season payment schedule" }
-    ] },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "When are SASSA grants paid each month?", "answer": "Payment dates are staggered by grant type. Older Persons grants are paid first (2nd-5th), followed by Disability grants (3rd-6th), then Children's grants (4th-7th). SRD R370 is paid between the 25th and 30th." },
-      { "question": "Do I need to withdraw on the first day?", "answer": "No. Your grant remains available in your account. You can withdraw any time after the pay date. Avoiding peak queues by collecting a few days later is recommended." },
-      { "question": "How long does bank transfer take?", "answer": "Bank transfers typically reflect 1-3 business days after the official pay date. Plan accordingly." },
-      { "question": "What if I lose the cash send SMS?", "answer": "Contact SASSA at 0800 60 10 11 to request a resend. You can also visit a SASSA office with your ID for a replacement voucher." }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA Payment Dates"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "SASSA pays grants on specific days each month, staggered by grant type. Permanent grants (Older Person, Disability, Children's) are paid in the first week. The SRD R370 grant is paid in batches from the 25th to the 30th. Click any month for the full schedule.",
+      "links": [
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "quick-nav",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "September 2026 (Current Month)",
+          "href": "/payment-dates/2026-september",
+          "description": "Current month's payment schedule — Heritage Day impact explained"
+        },
+        {
+          "title": "October 2026 (Provisional)",
+          "href": "/payment-dates/2026-october",
+          "description": "Expected schedule"
+        },
+        {
+          "title": "November 2026",
+          "href": "/payment-dates/2026-november",
+          "description": "Expected schedule"
+        },
+        {
+          "title": "December 2026",
+          "href": "/payment-dates/2026-december",
+          "description": "Holiday season payment schedule"
+        },
+        {
+          "title": "August 2026",
+          "href": "/payment-dates/2026-august",
+          "description": "Previous month's schedule (historical)"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "When are SASSA grants paid each month?",
+          "answer": "Payment dates are staggered by grant type. Older Persons grants are paid first (2nd-5th), followed by Disability grants (3rd-6th), then Children's grants (4th-7th). SRD R370 is paid between the 25th and 30th."
+        },
+        {
+          "question": "Do I need to withdraw on the first day?",
+          "answer": "No. Your grant remains available in your account. You can withdraw any time after the pay date. Avoiding peak queues by collecting a few days later is recommended."
+        },
+        {
+          "question": "How long does bank transfer take?",
+          "answer": "Bank transfers typically reflect 1-3 business days after the official pay date. Plan accordingly."
+        },
+        {
+          "question": "What if I lose the cash send SMS?",
+          "answer": "Contact SASSA at 0800 60 10 11 to request a resend. You can also visit a SASSA office with your ID for a replacement voucher."
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "August 2026", "slug": "/payment-dates/2026-august" },
-    { "title": "September 2026", "slug": "/payment-dates/2026-september" },
-    { "title": "Banking & Payment Methods", "slug": "/banking" },
-    { "title": "Update Your Bank Details", "slug": "/banking/update-bank-details" },
-    { "title": "Grant Library", "slug": "/grants" }
+    {
+      "title": "August 2026",
+      "slug": "/payment-dates/2026-august"
+    },
+    {
+      "title": "September 2026",
+      "slug": "/payment-dates/2026-september"
+    },
+    {
+      "title": "Banking & Payment Methods",
+      "slug": "/banking"
+    },
+    {
+      "title": "Update Your Bank Details",
+      "slug": "/banking/update-bank-details"
+    },
+    {
+      "title": "Grant Library",
+      "slug": "/grants"
+    }
   ]
 }

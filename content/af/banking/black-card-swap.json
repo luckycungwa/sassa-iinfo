@@ -1,0 +1,288 @@
+{
+  "id": "banking-black-card-swap",
+  "slug": "/banking/black-card-swap",
+  "classification": "banking-guide",
+  "title": "SASSA Black Card-ruil — Gouekaart-sperdatum verby",
+  "description": "SASSA Gouekaarte het opgehou werk ná 31 August 2026. Jou geld is veilig — kry jou gratis Postbank Black Card by Shoprite, Checkers, Usave, Pick n Pay, Boxer of Spar met net jou ID. Skakel *120*355# om jou naaste afhaalpunt te vind.",
+  "lastUpdated": "2026-08-26",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Lucky Cungwa",
+    "role": "Senior Editor",
+    "credentials": "Verified against official Postbank and SASSA communications",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Black Card-ruil — Na die sperdatum (2026)",
+    "metaDescription": "Gouekaarte het opgehou werk ná 31 August 2026. Jou geld is veilig — kry jou gratis Postbank Black Card met net jou ID. Vind uit hoe hier.",
+    "keywords": [
+      "SASSA Black Card",
+      "Postbank Black Card",
+      "Gouekaart sperdatum",
+      "SASSA Gouekaart ruil",
+      "Black Card 31 August 2026",
+      "SASSA kaartvervanging 2026",
+      "Postbank kaart-afhaalpunt"
+    ]
+  },
+  "sources": [
+    { "label": "SASSA amptelike webwerf", "url": "https://www.sassa.gov.za" },
+    { "label": "SASSA mediaverklarings", "url": "https://www.sassa.gov.za/Pages/Media-Statements.aspx" },
+    { "label": "Departement van Maatskaplike Ontwikkeling", "url": "https://www.dsd.gov.za" }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ruil jou SASSA Gouekaart — Black Card-gids",
+      "description": "Postbank het elke SASSA Gouekaart vervang met die nuwe Black Card. Die finale ruilsperdatum was 31 August 2026, en Gouekaarte werk nie meer na daardie datum nie. As jy nog nie geruil het nie, jou toelaegeld is veilig — kry nou jou Black Card. Die ruil is gratis, duur minute, en benodig net jou Suid-Afrikaanse ID.",
+      "readingTime": "5 min lees",
+      "lastUpdated": "2026-08-26",
+      "cta": {
+        "label": "Hoe om te ruil — Stap vir stap",
+        "href": "#how-to-swap"
+      },
+      "secondaryCta": {
+        "label": "Kaartvervanginggids",
+        "href": "/banking/sassa-card-replacement"
+      }
+    },
+    {
+      "id": "warning-callout",
+      "type": "callout",
+      "intent": "danger",
+      "title": "Gouekaarte werk nie meer nie",
+      "text": "Die sperdatum van 31 August 2026 is verby en Postbank het bevestig dat dit nie uitgestel sal word nie. Gouekaarte is gedeaktiveer — as jy nog nie geruil het nie, kan jy nie toegang tot jou toelaegeld kry totdat jy 'n Black Card kry nie. Moenie paniekerig raak nie: jou geld bly veilig in jou Postbank-rekening en die ruil by enige afhaalpunt bly gratis."
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Waarom jy jou Gouekaart moet ruil"
+    },
+    {
+      "id": "why-swap",
+      "type": "paragraph",
+      "text": "Postbank skakel die ou SASSA Gouekaart stadig uit en vervang dit met die nuwe Postbank Black Card as deel van 'n nasionale modernisering van die sosiale toelaebetalingsisteem. Die Black Card werk by meer OTM's, ondersteun kontaklose betalings, en het verbeterde veiligheidskenmerke. Ná 31 August 2026 sal die ou Gouekaarte gedeaktiveer word."
+    },
+    {
+      "id": "how-to-swap",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Versamel jou ID",
+          "description": "Neem jou geldige Suid-Afrikaanse ID-boekie of slim-ID-kaart. 'n Tydelike ID word ook aanvaar. Jy het NIE jou ou Gouekaart nodig om die nuwe een te kry nie."
+        },
+        {
+          "title": "Vind jou naaste afhaalpunt",
+          "description": "Skakel *120*355# op jou selfoon om die naaste afhaalplek te vind, of bel Postbank op 0800 53 54 55. Jy kan enige provinsie afhaal, selfs as jou toelae elders goedgekeur is."
+        },
+        {
+          "title": "Besoek 'n Postbank-dienspunt of deelnemende winkelier",
+          "description": "Kaarte is beskikbaar by Postbank-dienspunte binne geselekteerde Shoprite-, Checkers-, Usave-, Pick n Pay-, Boxer- en Spar-winkels regoor die land."
+        },
+        {
+          "title": "Kry jou Black Card",
+          "description": "Die ruil is heeltemal gratis en duur 'n paar minute. Geen vorms is nodig nie en geen aktivering is nodig nie — die kaart werk onmiddellik wanneer uitgereik."
+        },
+        {
+          "title": "Kontroleer jou oordragte saldo",
+          "description": "Enige saldo op jou ou Gouekaart word outomaties na die nuwe Black Card oorgedra. Moenie die ou kaart weggooi voordat jy bevestig dat jou saldo oorgeplaas is nie."
+        }
+      ]
+    },
+    {
+      "id": "free-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Die ruil is gratis",
+      "text": "SASSA en Postbank hef nooit vir die Black Card-ruil nie. As iemand jou vra om 'n fooi te betaal, 'n vorm in te vul, of jou PIN of OTP te verskaf om die kaart te kry, het jy met 'n bedrieier te make. 'n Egte Black Card het 'Postbank' op die voorblad gedruk."
+    },
+    {
+      "id": "where-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Waar jy jou Black Card kan afhaal"
+    },
+    {
+      "id": "where-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Postbank-dienspunte binne geselekteerde Shoprite-winkels",
+        "Postbank-dienspunte binne geselekteerde Checkers- en Usave-winkels",
+        "Postbank-dienspunte binne geselekteerde Pick n Pay- en Boxer-winkels",
+        "Postbank-dienspunte binne geselekteerde Spar-winkels",
+        "Selfstandige Postbank-takke regoor die land"
+      ]
+    },
+    {
+      "id": "ussd-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Vind jou naaste afhaalpunt",
+      "text": "Skakel *120*355# vanaf enige selfoon om die naaste Postbank-kaartafhaalplek te vind. Die diens werk op alle groot Suid-Afrikaanse netwerke. Jy kan ook Postbank skakel op 0800 53 54 55."
+    },
+    {
+      "id": "scam-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Black Card-bedrogwaarskuwing"
+    },
+    {
+      "id": "scam-paragraph",
+      "type": "paragraph",
+      "text": "Bedrieiers teiken ontvangers gedurende die kaartmigrasie. Onthou: 'n Egte Black Card het altyd 'Postbank' op die voorblad gedruk. As 'n kaart nie Postbank sê nie, is dit 'n vervalsing. SASSA en Postbank sal nooit vra vir jou PIN, OTP of bankwagwoord nie, en niemand mag jou hef om jou kaart te ruil nie."
+    },
+    {
+      "id": "scam-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "As 'Postbank' nie op die voorblad geskryf staan nie, is dit bedrog",
+        "Geen vorms is nodig nie — as jy gevra word om iets te teken, is die kaart nie eg nie",
+        "Die ruil is gratis — enigiemand wat betaling vra, is 'n bedrieier",
+        "Moenie ooit jou PIN, OTP of bankwagwoord met iemand deel nie",
+        "Meld bedrog by die SASSA-bedroglyn 0800 60 10 11 of Postbank 0800 53 54 55"
+      ]
+    },
+    {
+      "id": "usage-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Jou Black Card daagliks gebruik"
+    },
+    {
+      "id": "usage-paragraph",
+      "type": "paragraph",
+      "text": "Die Black Card werk by enige OTM of kassapunt wat Mastercard aanvaar, en jy kan kontant gratis by deelnemende winkeliers (Shoprite, Checkers, Pick n Pay, Boxer, Usave) en Postbank-OTM's onttrek. Daar is geen maandelikse rekeninggelde nie, en die kaart ondersteun kontaklose betalings by winkeliers wat kaarte aanvaar."
+    },
+    {
+      "id": "lost-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Vermiste of gesteelde kaart?",
+      "text": "Meld dit dadelik by Postbank op 0800 53 54 55 sodat die kaart geblokkeer word. Besoek dan enige Postbank-dienspunt met jou ID vir 'n vervanging. Jou toelaebetalings gaan voort soos normaal — die geld bly in jou Postbank-rekening terwyl jy wag."
+    },
+    {
+      "id": "after-deadline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "My Gouekaart het opgehou werk — Wat nou?"
+    },
+    {
+      "id": "after-deadline-p",
+      "type": "paragraph",
+      "text": "As jou Gouekaart ná 31 August 2026 nie meer werk nie, is dit verwag en is daar niks verkeerd met jou toelae nie. Jou geld is nie verloor nie — dit bly in jou Postbank-rekening. Jy moet eenvoudig jou Black Card afhaal. Die ruil is steeds heeltemal gratis en duur steeds minute by enige afhaalpunt, selfs ná die sperdatum."
+    },
+    {
+      "id": "after-deadline-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Moenie paniek raak nie — jou geld is veilig",
+          "description": "Jou toelaebetalings en enige saldo op jou ou kaart bly op jou Postbank-rekening. Slegs die kaart self is gedeaktiveer."
+        },
+        {
+          "title": "Vind 'n afhaalpunt",
+          "description": "Skakel *120*355# op jou selfoon, of bel Postbank op 0800 53 54 55, om die naaste Postbank-dienspunt of deelnemende winkelier te vind."
+        },
+        {
+          "title": "Kry jou Black Card met jou ID",
+          "description": "Besoek die afhaalpunt met jou Suid-Afrikaanse ID (boekie of slim-ID). Geen ou kaart, geen vorms, geen fooie. Die Black Card werk onmiddellik wanneer uitgereik."
+        }
+      ]
+    },
+    {
+      "id": "after-deadline-callout",
+      "type": "callout",
+      "intent": "success",
+      "title": "Steeds gratis, steeds vinnig — ná die sperdatum",
+      "text": "Om die sperdatum te mis kos jou niks ekstra nie, en jy word nie beboet of gestraf nie. Postbank gaan voort met die uitreiking van Black Cards ná 31 August. Die enigste gevolg is dat jou ou Gouekaart gedeaktiveer bly totdat jy die nuwe kaart afhaal."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Gereelde vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ek het die sperdatum van 31 August 2026 gemis. Kan ek nog 'n Black Card kry?",
+          "answer": "Ja. Postbank gaan voort met die uitreiking van Black Cards ná die sperdatum. Jou geld is veilig in jou Postbank-rekening — haal jou Black Card met jou ID by enige afhaalpunt af en dit sal onmiddellik werk. Daar is geen fooi of straf vir laat ruil nie."
+        },
+        {
+          "question": "My Gouekaart het opgehou werk. Is my toelaegeld weg?",
+          "answer": "Nee. Jou geld is nie verloor nie en jou toelae word nie geraak nie. Die gedeaktiveerde kaart blokkeer eenvoudig toegang — jou saldo en toekomstige betalings bly veilig in jou Postbank-rekening totdat jy 'n Black Card afhaal."
+        },
+        {
+          "question": "Kos die Black Card-ruil enigiets?",
+          "answer": "Nee. Die vervanging is heeltemal gratis. Geen vorms, geen fooie, geen aktivering nodig nie. As iemand jou vra om vir die kaart te betaal, is dit bedrog."
+        },
+        {
+          "question": "Moet ek my ou Gouekaart bring om dit te ruil?",
+          "answer": "Nee. Jy het net jou geldige Suid-Afrikaanse ID of tydelike ID nodig. Enige saldo op jou ou Gouekaart word outomaties na die nuwe Black Card oorgedra."
+        },
+        {
+          "question": "Kan ek my Black Card in 'n ander provinsie afhaal as waar my toelae goedgekeur is?",
+          "answer": "Ja. Kaarte kan by enige Postbank-dienspunt of deelnemende winkelier in enige provinsie afgehaal word, ongeag waar jou toelae oorspronklik goedgekeur is."
+        },
+        {
+          "question": "Wat as my Gouekaart vermis of gesteel word voordat ek ruil?",
+          "answer": "Meld dit by Postbank op 0800 53 54 55 om die kaart te blokkeer, besoek dan enige Postbank-dienspunt met jou ID om 'n Black Card af te haal. Jou toelaebetalings gaan voort soos normaal terwyl jy die vervanging reël."
+        },
+        {
+          "question": "Hoe vind ek my naaste Black Card-afhaalpunt?",
+          "answer": "Skakel *120*355# op jou selfoon om die naaste afhaalplek te vind, of bel Postbank op 0800 53 54 55. Kaarte is beskikbaar by Postbank-dienspunte binne geselekteerde Shoprite-, Checkers-, Usave-, Pick n Pay-, Boxer- en Spar-winkels."
+        }
+      ]
+    },
+    {
+      "id": "div1",
+      "type": "divider"
+    },
+    {
+      "id": "link1",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA-betalingsmetodes",
+          "href": "/banking/payment-methods",
+          "description": "Al die maniere om jou toelae af te haal"
+        },
+        {
+          "title": "Kaartvervanginggids",
+          "href": "/banking/sassa-card-replacement",
+          "description": "Vermiste, gesteelde of beskadigde kaarte"
+        },
+        {
+          "title": "Jongste SASSA-nuus",
+          "href": "/news",
+          "description": "Betaaldatums en beleidopdaterings"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "SASSA-betalingsmetodes",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Kaartvervanginggids",
+      "slug": "/banking/sassa-card-replacement"
+    },
+    {
+      "title": "Gouekaart-migrasie-nuus",
+      "slug": "/news/sassa-gold-card-to-black-card-migration"
+    },
+    {
+      "title": "SASSA-kantore",
+      "slug": "/offices"
+    }
+  ]
+}

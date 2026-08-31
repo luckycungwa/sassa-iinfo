@@ -1,0 +1,281 @@
+{
+  "id": "status-declined",
+  "slug": "/status/declined",
+  "classification": "status-meaning",
+  "title": "Afgekeur — Wat Dit Beteken & Hoe om 'n SASSA-toelaagafkeuring te Appelleer",
+  "description": "Jou SASSA-toelaagstatus wys 'Afgekeur' — hier is wat dit beteken, die mees algemene redes vir afkeurings, en 'n volledige gids om jou afgekeurde toelaag te appelleer.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA-status Afgekeur? Hoe om Binne 90 Dae te Appelleer (2026)",
+    "metaDescription": "SASSA-status 'Afgekeur' in 2026? Vind uit waarom, en appelleer dan binne 90 dae met ons stap-vir-stap ITSAA-gids.",
+    "keywords": [
+      "SASSA afgekeur",
+      "SASSA toelaag afgekeur",
+      "SASSA afgekeur betekenis",
+      "SRD afgekeur",
+      "hoekom is my SASSA afgekeur",
+      "SASSA afgekeur appelleer"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Amptelike Webwerf",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Departement van Maatskaplike Ontwikkeling",
+      "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "Onafhanklike Tribunaal (ITSAA)",
+      "url": "https://itsaa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Afgekeur — Jou Gids om te Appelleer",
+      "description": "Jou SASSA-toelaag is afgekeur — jy het die reg om te appelleer. Ontdek die mees algemene redes vir afkeurings, jou 90-dae-appèlvenster, en 'n stap-vir-stap-gids om 'n suksesvolle appèl by die Onafhanklike Tribunaal in te dien.",
+      "readingTime": "4 min leestyd",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Appelleer 'n Afkeuring",
+        "href": "/appeals/how-to-appeal"
+      },
+      "secondaryCta": {
+        "text": "Kyk Jou Status",
+        "href": "/status/declined"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Afgekeur — Wat Dit Beteken vir Jou SASSA-toelaag"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Om 'Afgekeur' op jou SASSA-statuskontrole te sien, kan frustrerend wees, maar dit is nie die einde van die pad nie. Die status 'Afgekeur' beteken SASSA se geoutomatiseerde stelsels het bepaal dat jy nie aan die geskiktheidskriteria vir die maand wat geëvalueer word voldoen nie. Elke maand word apart beoordeel, en jy het die wetlike reg om elke afgekeurde maand te appelleer.",
+      "links": [
+        {
+          "text": "appelleer",
+          "href": "/appeals"
+        }
+      ]
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Hierdie status raak aansoekers wie se SASSA-toelaagaansoeke ná hersiening nie aan die goedkeuringskriteria voldoen het nie."
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Afgekeur",
+      "explanation": "Die status 'Afgekeur' beteken SASSA se verifikasiestelsels het jou aansoek teen hul geskiktheidskriteria nagegaan en 'n rede gevind om jou aansoek vir daardie spesifieke maand te verwerp. SASSA kontroleer verskeie databasisse, insluitend Binnelandse Sake, die Departement van Arbeid, SARS, NSFAS en jou bankrekening. 'n Afkeuring in een maand beteken nie dat jy nie in toekomstige maande kan kwalifiseer nie.",
+      "whyItHappens": [
+        "Alternatiewe inkomstebron opgespoor: bankdeposito's het die maandelikse drempel van R624 oorskry",
+        "UIF-registrasie gevind: jou ID is steeds gekoppel aan 'n aktiewe UIF-rekord",
+        "NSFAS-befondsing gevind: jou ID is as 'n aktiewe NSFAS-student geregistreer",
+        "Middeletoets misluk: jou inkomste of bates oorskry die wetlike perke",
+        "Bankverifikasie misluk: jou bankbesonderhede kon nie bevestig word nie",
+        "Identiteitsverifikasie misluk: jou ID-besonderhede stem nie ooreen met Binnelandse Sake se rekords nie",
+        "Selfuitsluiting: jy het verklaar dat jy ander ondersteuning het",
+        "Verwys vir bedrogondersoek: jou aansoek is vir onreëlmatighede gemerk",
+        "Duplikaat-aansoek opgespoor: meer as een aansoek is onder jou ID ingedien"
+      ],
+      "howLongItLasts": "Die status 'Afgekeur' geld vir 'n enkele maandelikse siklus. Die volgende maand word as 'n vars aansoek geëvalueer. As die onderliggende probleem (bv. UIF-registrasie of bankdeposito's) egter voortduur, kan jy weer afgekeur word.",
+      "whatYouShouldDo": [
+        "Kyk jou afkeuringskennisgewing na vir die spesifieke redekode",
+        "As jy glo die afkeuring is verkeerd, dien binne 90 dae 'n appèl in",
+        "Vir UIF-verwante afkeurings: kry 'n UI-19-beëindigingsbrief by die Departement van Arbeid",
+        "Vir NSFAS-verwante afkeurings: versoek 'n kansellasiebrief by myNSFAS",
+        "Vir inkomstebron-afkeurings: stel 'n beëdigde verklaring op wat bankdeposito's verduidelik",
+        "Vir identiteitsprobleme: besoek Binnelandse Sake om jou besonderhede reg te stel",
+        "Appelleer elke afgekeurde maand afsonderlik op srd.dsd.gov.za"
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Alternatiewe Inkomstebron",
+          "slug": "alternative-income-source"
+        },
+        {
+          "name": "Bankverifikasie",
+          "slug": "bank-verification"
+        },
+        {
+          "name": "Verwys",
+          "slug": "referred"
+        },
+        {
+          "name": "Selfuitsluiting",
+          "slug": "self-exclusion"
+        },
+        {
+          "name": "Middeletoets Misluk",
+          "slug": "means-test-failed"
+        }
+      ]
+    },
+    {
+      "id": "decline-reasons-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Elke Afkeuringsrede Verduidelik"
+    },
+    {
+      "id": "decline-reasons",
+      "type": "table",
+      "headers": [
+        "Afkeuringsrede",
+        "Oorsaak",
+        "Oplossing"
+      ],
+      "rows": [
+        [
+          "Alternatiewe Inkomstebron",
+          "Bankdeposito's of salaris wat R624/maand oorskry",
+          "Appelleer met 'n beëdigde verklaring wat deposito's verduidelik"
+        ],
+        [
+          "UIF Geregistreer",
+          "Jou ID is in die UIF-databasis",
+          "Kry UI-19-beëindigingsbrief en appelleer"
+        ],
+        [
+          "NSFAS Befonds",
+          "Jou ID is as 'n aktiewe student gemerk",
+          "Kry NSFAS-kansellasiebrief en appelleer"
+        ],
+        [
+          "Middeletoets Misluk",
+          "Inkomste of bates oorskry drempels",
+          "Dien bygewerkte finansiële rekords in"
+        ],
+        [
+          "Bankverifikasie Misluk",
+          "Bankbesonderhede stem nie ooreen nie of ongeldige rekening",
+          "Regstel bankbesonderhede of skakel oor na Cash Send"
+        ],
+        [
+          "Identiteitsverifikasie Misluk",
+          "ID stem nie ooreen met Binnelandse Sake se rekords nie",
+          "Besoek Binnelandse Sake om jou ID-besonderhede reg te stel"
+        ],
+        [
+          "Selfuitsluiting",
+          "Jy het verklaar dat jy ander ondersteuning het",
+          "Dien 'n appèl in wat jou werklike situasie verduidelik"
+        ],
+        [
+          "Verwys (Bedrogvlag)",
+          "Verdagte aktiwiteit opgespoor",
+          "Kontak SASSA se bedrog-blitslyn om dit op te los"
+        ],
+        [
+          "Duplikaat-aansoek",
+          "Veelvuldige aansoeke onder dieselfde ID",
+          "Kontak SASSA om aansoeke te konsolideer"
+        ]
+      ]
+    },
+    {
+      "id": "appeal-rights-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Jou Reg om te Appelleer"
+    },
+    {
+      "id": "appeal-rights-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Jy Het 90 Dae om te Appelleer",
+      "text": "Suid-Afrikaanse wetgewing gee jou 90 dae vanaf die datum waarop jy jou afkeuringskennisgewing ontvang het om 'n appèl in te dien. Appèlle word deur die Onafhanklike Tribunaal vir Maatskaplike Bystandsappelle (ITSAA) hanteer, wat heeltemal onafhanklik van SASSA is. Jy benodig nie 'n prokureur om te appelleer nie."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Gereelde Vrae"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Kan ek eerder weer aansoek doen as om te appelleer?",
+          "answer": "Ja, jy kan te eniger tyd 'n nuwe aansoek indien. As die rede vir die afkeuring egter steeds bestaan (bv. UIF-registrasie), sal jy waarskynlik weer afgekeur word. Appelleer of regstel eers die onderliggende probleem."
+        },
+        {
+          "question": "Moet ek elke maand appelleer?",
+          "answer": "Ja. Omdat SASSA geskiktheid maandeliks evalueer, moet jy vir elke individuele maand wat die status 'Afgekeur' wys, appelleer."
+        },
+        {
+          "question": "Wat as ek die 90-dae-appèlvenster gemis het?",
+          "answer": "Ongelukkig kan appèlle nie ná 90 dae aanvaar word nie. Jy moet 'n heeltemal nuwe toelaagaansoek indien."
+        },
+        {
+          "question": "Kan ek persoonlik by 'n SASSA-kantoor appelleer?",
+          "answer": "Ja. Vir nie-SRD-toelae kan jy 'n SASSA-kantoor met jou dokumente besoek en 'n handmatige appèlindiening versoek. Vir SRD word appèlle hoofsaaklik aanlyn op srd.dsd.gov.za hanteer."
+        },
+        {
+          "question": "Hoe lank neem die appèlproses?",
+          "answer": "Die tribunaal neem gewoonlik 60 tot 90 dae om 'n uitspraak te lewer. As goedgekeur word, moet SASSA teruggedateerde bedrae binne 14 werkdae betaal."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Hoe om 'n Afgekeurde SASSA-toelaag te Appelleer",
+          "href": "/appeals/how-to-appeal",
+          "description": "Volledige gids tot die ITSAA-appèlproses"
+        },
+        {
+          "title": "Algemene Redes vir Afkeuring & Hoe om te Appelleer",
+          "href": "/appeals/appeal-reasons",
+          "description": "Elke afkeuringsrede met doelgerigte appèlstrategieë"
+        },
+        {
+          "title": "SASSA Appèl-tydlyn",
+          "href": "/appeals/appeal-timeline",
+          "description": "Hoe lank elke stadium van die appèlproses neem"
+        },
+        {
+          "title": "Appelleer ná UIF-registrasie",
+          "href": "/appeals/appeal-after-uif",
+          "description": "Wat om te doen as SASSA sê jy is vir UIF geregistreer"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Hoe om te Appelleer",
+      "slug": "/appeals/how-to-appeal"
+    },
+    {
+      "title": "Alternatiewe Inkomstebron",
+      "slug": "/status/alternative-income-source"
+    },
+    {
+      "title": "Bankverifikasie",
+      "slug": "/status/bank-verification"
+    },
+    {
+      "title": "Middeletoets Misluk",
+      "slug": "/status/means-test-failed"
+    }
+  ]
+}

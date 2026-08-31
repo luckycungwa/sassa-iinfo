@@ -1,0 +1,149 @@
+{
+  "id": "banking-card-replacement",
+  "slug": "/banking/sassa-card-replacement",
+  "classification": "banking-guide",
+  "title": "SASSA-kaartvervanging — Hoe om 'n vermiste, gesteelde of beskadigde kaart te vervang",
+  "description": "Stap-vir-stap gids om 'n vermiste, gesteelde of beskadigde SASSA-kaart te vervang: wat om dadelik te doen, waar om vir 'n vervanging heen te gaan, vereiste dokumente, koste en verwerktyd.",
+  "lastUpdated": "2026-08-25",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA-kaartvervanging — Vermiste, gesteelde of beskadigde kaartgids",
+    "metaDescription": "Vermis of beskadig jou SASSA-kaart? Stap-vir-stap gids om 'n vervanging te kry: waar om heen te gaan, watter dokumente om te bring, hoe lank dit neem, en hoe om toegang tot jou toelae te kry terwyl jy wag.",
+    "keywords": [
+      "SASSA-kaartvervanging",
+      "vermiste SASSA-kaart",
+      "SASSA-kaart gesteel",
+      "SASSA-kaart beskadig",
+      "SASSA-kaart vervang",
+      "SASSA-kaart heruitreiking"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SASSA-kaartvervanging — Hoe om 'n vermiste, gesteelde of beskadigde kaart te vervang",
+      "description": "Vermis, gesteel of beskadig jou SASSA-kaart? 'n Vervanging kry is eenvoudig. Leer watter stappe om dadelik te neem, waar om heen te gaan, watter dokumente jy nodig het, en hoe om toegang tot jou toelae te kry terwyl jy wag.",
+      "readingTime": "3 min lees",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "SASSA-kaart verduidelik",
+        "href": "/banking/sassa-card-explained"
+      },
+      "secondaryCta": {
+        "label": "Wissel na Cash Send",
+        "href": "/banking/cash-send-guide"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SASSA-kaartvervanginggids"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "Om jou SASSA-kaart te verloor of te laat steel, kan stresvol wees, maar 'n vervanging kry is eenvoudig. Hier is presies wat om te doen, waar om heen te gaan, en watter dokumente jy nodig het."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "Om jou betalingskaart te verloor kan voel asof jy jou enigste toegang tot jou toelae verloor het, maar jou geld is nooit weg nie — dit bly veilig in die SASSA-stelsel totdat jy dit afhaal. Of jou kaart nou gesteel is, in 'n skuif verlore geraak het, of die mikrochip net opgegee het, 'n vervanging is 'n roetine kantoorbesoek. En terwyl jy wag, is daar 'n kontantopsie wat sonder enige kaart werk."
+    },
+    {
+      "id": "lost-stolen-h",
+      "type": "heading",
+      "level": 3,
+      "text": "As jou kaart vermis of gesteel is"
+    },
+    {
+      "id": "lost-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Meld dit by die polisie (indien gesteel)",
+          "description": "As jou kaart gesteel is, lê 'n polisierapport by jou naaste SAPS-stasie. Jy sal die saaknommer nodig hê vir jou vervangingsaansoek."
+        },
+        {
+          "title": "Besoek jou naaste SASSA-kantoor",
+          "description": "Gaan na jou naaste SASSA-plaaslike kantoor met jou ID-dokument. As jou ID ook gesteel is, kry 'n beëdigde verklaring van SAPS."
+        },
+        {
+          "title": "Voltooi die vervangingsvorm",
+          "description": "SASSA-amptenaar sal jou help met die kaartvervangingsaansoekvorm. Verklaar dat jou kaart vermis of gesteel is."
+        },
+        {
+          "title": "Ontvang jou nuwe kaart",
+          "description": "Die vervangingskaart word tipies binne 2 tot 4 weke uitgereik. Jy sal in kennis gestel word wanneer dit vir afhaling gereed is."
+        }
+      ]
+    },
+    {
+      "id": "damaged-h",
+      "type": "heading",
+      "level": 3,
+      "text": "As jou kaart beskadig is"
+    },
+    {
+      "id": "damaged-text",
+      "type": "paragraph",
+      "text": "As jou SASSA-kaart beskadig is (gebarste, verslete, of die mikrochip werk nie meer nie), besoek jou naaste SASSA-kantoor met jou ID en die beskadigde kaart. Vervanging is gewoonlik vinniger as vir vermise kaarte, dikwels binne 1 tot 2 weke verwerk."
+    },
+    {
+      "id": "while-waiting-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Hoe om toegang tot jou toelae te kry terwyl jy wag"
+    },
+    {
+      "id": "while-waiting",
+      "type": "paragraph",
+      "text": "Terwyl jy op jou vervangingskaart wag, kan jy steeds toegang tot jou toelae kry. Wissel jou betaalmetode na Cash Send deur die SRD-portaal. Jy sal 'n SMS-wissel kry wat jy kan gebruik om jou toelae kontant by enige Pick n Pay, Shoprite, Boxer, Checkers of Usave af te haal.",
+      "links": [
+        {
+          "text": "die SRD",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Hoeveel kos 'n SASSA-kaartvervanging?",
+          "answer": "Die eerste vervanging is gratis. Opvolgende vervangings kan 'n klein administratiewe fooi by SASSA se diskresie hê."
+        },
+        {
+          "question": "Kan ek steeds my toelae kry sonder 'n kaart?",
+          "answer": "Ja. Wissel na Cash Send of bankoordrag terwyl jy op jou vervangingskaart wag."
+        },
+        {
+          "question": "Hoe lank neem 'n vervangingskaart?",
+          "answer": "Vermiste/gestelde kaarte: 2 tot 4 weke. Beskadigde kaarte: 1 tot 2 weke."
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "SASSA-kaart verduidelik",
+      "slug": "/banking/sassa-card-explained"
+    },
+    {
+      "title": "SASSA-betalingsmetodes",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Cash Send-gids",
+      "slug": "/banking/cash-send-guide"
+    }
+  ]
+}

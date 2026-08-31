@@ -4,94 +4,381 @@
   "classification": "how-to-guide",
   "title": "Understanding the SASSA Means Test",
   "description": "How the SASSA means test works, income thresholds for single and married applicants, asset limits, and how your grant eligibility is calculated.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "Understanding the SASSA Means Test — Income Thresholds & Asset Limits",
-    "metaDescription": "SASSA means test guide: income thresholds (R96,240 single), asset limits (R1.37M), sliding scale partial grants, asset valuation rules, and bank verification.",
-    "keywords": ["SASSA means test", "SASSA income threshold", "SASSA asset limit", "SASSA means test explained", "SASSA financial eligibility", "SASSA sliding scale", "SASSA bank verification"]
+    "metaDescription": "SASSA means test guide: income thresholds (R112,200 single), asset limits (R1.37M), sliding scale partial grants, asset valuation rules, and bank verification.",
+    "keywords": [
+      "SASSA means test",
+      "SASSA income threshold",
+      "SASSA asset limit",
+      "SASSA means test explained",
+      "SASSA financial eligibility",
+      "SASSA sliding scale",
+      "SASSA bank verification"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "Understanding the SASSA Means Test",
       "description": "The means test determines your financial eligibility for SASSA grants by assessing your income and assets. Learn the 2026 income thresholds, asset limits, how the sliding scale works, and how bank verification affects your application.",
       "readingTime": "6 min read",
-      "lastUpdated": "June 2026",
-      "cta": { "label": "How to Apply for a Grant", "href": "/guides/how-to-apply-sassa-grant" },
-      "secondaryCta": { "label": "See Grant Amounts", "href": "/guides/sassa-grant-amounts" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "How to Apply for a Grant",
+        "href": "/guides/how-to-apply-sassa-grant"
+      },
+      "secondaryCta": {
+        "label": "See Grant Amounts",
+        "href": "/guides/sassa-grant-amounts"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "Understanding the SASSA Means Test" },
-    { "id": "intro", "type": "paragraph", "text": "The means test is a financial assessment SASSA uses to determine if your income and assets fall below the legal threshold for grant eligibility. It ensures grants go to those who need them most." },
-    { "id": "who", "type": "paragraph", "text": "This guide is for SASSA grant applicants who want to understand how the means test works, what income and assets are counted, whether they are likely to qualify, and what happens if they earn above the threshold." },
     {
-      "id": "key-stats", "type": "stat-bar", "stats": [
-        { "label": "Single Income Threshold", "value": "R96,240/yr", "description": "Most grants (standard means test)" },
-        { "label": "Married Income Threshold", "value": "R192,480/yr", "description": "Combined household income" },
-        { "label": "Single Asset Limit", "value": "R1.37M", "description": "Excluding primary residence" },
-        { "label": "Married Asset Limit", "value": "R2.75M", "description": "Combined assets" }
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding the SASSA Means Test"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The means test is a financial assessment SASSA uses to determine if your income and assets fall below the legal threshold for grant eligibility. It ensures grants go to those who need them most."
+    },
+    {
+      "id": "who",
+      "type": "paragraph",
+      "text": "The means test is where most grant applications either sail through or get stuck, and it is often misunderstood. Many people wrongly fear that any income at all will disqualify them. In reality, the test looks at your total yearly income and assets against a set threshold — and knowing exactly what counts, and what does not, is the difference between a smooth approval and a surprise decline."
+    },
+    {
+      "id": "key-stats",
+      "type": "stat-bar",
+      "stats": [
+        {
+          "label": "Single Income Threshold",
+          "value": "R112,200/yr",
+          "description": "Most grants (standard means test)"
+        },
+        {
+          "label": "Married Income Threshold",
+          "value": "R224,400/yr",
+          "description": "Combined household income"
+        },
+        {
+          "label": "Single Asset Limit",
+          "value": "R1.37M",
+          "description": "Excluding primary residence"
+        },
+        {
+          "label": "Married Asset Limit",
+          "value": "R2.75M",
+          "description": "Combined assets"
+        }
       ]
     },
-    { "id": "income-single-h", "type": "heading", "level": 3, "text": "Income Thresholds (Single)" },
-    { "id": "income-single", "type": "paragraph", "text": "For most grants: single applicants must have annual income below R96,240. For the Child Support Grant: single caregivers must earn below R63,600 per year. For the Care Dependency Grant: single applicants must earn below R249,600 per year. For the SRD R370 grant: bank inflows must be below R624 per month." },
-    { "id": "income-married-h", "type": "heading", "level": 3, "text": "Income Thresholds (Married)" },
-    { "id": "income-married", "type": "paragraph", "text": "For married applicants: combined annual income must be below R192,480 for most grants (R127,200 for Child Support Grant, R499,200 for Care Dependency Grant). SASSA considers the combined income of both spouses." },
-    { "id": "assets-h", "type": "heading", "level": 3, "text": "Asset Limits" },
-    { "id": "assets", "type": "paragraph", "text": "Single applicant assets must be below R1,372,800. Married couple combined assets must be below R2,745,600. Assets include property (excluding your primary residence), investments, savings, vehicles, and other valuable items. The Foster Child Grant and SRD R370 Grant do not have asset limits." },
-    { "id": "income-types-h", "type": "heading", "level": 3, "text": "What Counts as Income?" },
-    { "id": "income-types", "type": "list", "ordered": false, "items": ["Salary and wages from formal or informal work", "Pension payments from retirement funds", "Rental income from properties you own", "Farm income or agricultural earnings", "Regular gifts or remittances from family", "UIF payments from the Department of Labour", "NSFAS allowances for tertiary students", "Interest from investments and savings accounts", "Maintenance payments for children", "Income from a business or self-employment"] },
     {
-      "id": "thresholds-table", "type": "table",
-      "headers": ["Grant Type", "Single Income Limit", "Married Income Limit", "Asset Limit"],
+      "id": "income-single-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Income Thresholds (Single)"
+    },
+    {
+      "id": "income-single",
+      "type": "paragraph",
+      "text": "For most grants: single applicants must have annual income below R112,200. For the Child Support Grant: single caregivers must earn below R69,600 per year. For the Care Dependency Grant: single applicants must earn below R288,000 per year. For the SRD R370 grant: bank inflows must be below R624 per month.",
+      "links": [
+        {
+          "text": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "text": "Care Dependency Grant",
+          "href": "/grants/care-dependency-grant"
+        },
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "income-married-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Income Thresholds (Married)"
+    },
+    {
+      "id": "income-married",
+      "type": "paragraph",
+      "text": "For married applicants: combined annual income must be below R224,400 for most grants (R139,200 for Child Support Grant, R576,000 for Care Dependency Grant). SASSA considers the combined income of both spouses."
+    },
+    {
+      "id": "assets-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Asset Limits"
+    },
+    {
+      "id": "assets",
+      "type": "paragraph",
+      "text": "Single applicant assets must be below R1,584,000. Married couple combined assets must be below R3,168,000. Assets include property (excluding your primary residence), investments, savings, vehicles, and other valuable items. The Foster Child Grant and SRD R370 Grant do not have asset limits.",
+      "links": [
+        {
+          "text": "Foster Child Grant",
+          "href": "/grants/foster-care-grant"
+        }
+      ]
+    },
+    {
+      "id": "income-types-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Counts as Income?"
+    },
+    {
+      "id": "income-types",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Salary and wages from formal or informal work",
+        "Pension payments from retirement funds",
+        "Rental income from properties you own",
+        "Farm income or agricultural earnings",
+        "Regular gifts or remittances from family",
+        "UIF payments from the Department of Labour",
+        "NSFAS allowances for tertiary students",
+        "Interest from investments and savings accounts",
+        "Maintenance payments for children",
+        "Income from a business or self-employment"
+      ]
+    },
+    {
+      "id": "thresholds-table",
+      "type": "table",
+      "headers": [
+        "Grant Type",
+        "Single Income Limit",
+        "Married Income Limit",
+        "Asset Limit"
+      ],
       "rows": [
-        ["Older Person Grant", "R96,240/year", "R192,480/year", "R1,372,800 / R2,745,600"],
-        ["Disability Grant", "R96,240/year", "R192,480/year", "R1,372,800 / R2,745,600"],
-        ["War Veterans Grant", "R96,240/year", "R192,480/year", "R1,372,800 / R2,745,600"],
-        ["Child Support Grant", "R63,600/year", "R127,200/year", "No asset limit"],
-        ["Care Dependency Grant", "R249,600/year", "R499,200/year", "No asset limit"],
-        ["Foster Child Grant", "No means test", "No means test", "No asset limit"],
-        ["Grant-in-Aid", "No separate test", "No separate test", "No asset limit"],
-        ["SRD R370 Grant", "R624/month", "R624/month", "No asset limit"]
+        [
+          "Older Person Grant",
+          "R112,200/year",
+          "R224,400/year",
+          "R1,584,000 / R3,168,000"
+        ],
+        [
+          "Disability Grant",
+          "R112,200/year",
+          "R224,400/year",
+          "R1,584,000 / R3,168,000"
+        ],
+        [
+          "War Veterans Grant",
+          "R112,200/year",
+          "R224,400/year",
+          "R1,584,000 / R3,168,000"
+        ],
+        [
+          "Child Support Grant",
+          "R69,600/year",
+          "R139,200/year",
+          "No asset limit"
+        ],
+        [
+          "Care Dependency Grant",
+          "R288,000/year",
+          "R576,000/year",
+          "No asset limit"
+        ],
+        [
+          "Foster Child Grant",
+          "No means test",
+          "No means test",
+          "No asset limit"
+        ],
+        [
+          "Grant-in-Aid",
+          "No separate test",
+          "No separate test",
+          "No asset limit"
+        ],
+        [
+          "SRD R370 Grant",
+          "R624/month",
+          "R624/month",
+          "No asset limit"
+        ]
       ]
     },
-    { "id": "sliding-scale-h", "type": "heading", "level": 3, "text": "How the Sliding Scale Works (Partial Grants)" },
-    { "id": "sliding-scale-p", "type": "paragraph", "text": "Many people think the means test is a simple pass-or-fail — either you earn below the threshold and get the grant, or you earn above it and get nothing. In reality, SASSA uses a sliding scale (also called a taper rate) that gradually reduces your grant as your income rises above the threshold. For every R2 you earn above the threshold, your grant reduces by roughly R1. This means you can still receive a partial grant even if your income exceeds the full threshold — until your income reaches a point where the grant phases out completely." },
     {
-      "id": "sliding-scale-table", "type": "table",
-      "headers": ["Annual Income", "Grant as % of Full", "What This Means"],
+      "id": "sliding-scale-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How the Sliding Scale Works (Partial Grants)"
+    },
+    {
+      "id": "sliding-scale-p",
+      "type": "paragraph",
+      "text": "Many people think the means test is a simple pass-or-fail — either you earn below the threshold and get the grant, or you earn above it and get nothing. In reality, SASSA uses a sliding scale (also called a taper rate) that gradually reduces your grant as your income rises above the threshold. For every R2 you earn above the threshold, your grant reduces by roughly R1. This means you can still receive a partial grant even if your income exceeds the full threshold — until your income reaches a point where the grant phases out completely."
+    },
+    {
+      "id": "sliding-scale-table",
+      "type": "table",
+      "headers": [
+        "Annual Income",
+        "Grant as % of Full",
+        "What This Means"
+      ],
       "rows": [
-        ["Below R96,240", "100%", "You receive the full grant amount"],
-        ["R100,000", "~93%", "Reduced by roughly 7% — nearly the full grant"],
-        ["R110,000", "~74%", "Reduced by about a quarter"],
-        ["R120,000", "~55%", "You get just over half the full grant"],
-        ["R130,000", "~36%", "Reduced by nearly two-thirds"],
-        ["R140,000", "~17%", "A small partial grant still applies"],
-        ["Above R148,800", "0%", "Income too high — no grant payable"]
+        [
+          "Below R112,200",
+          "100%",
+          "You receive the full grant amount"
+        ],
+        [
+          "R120,000",
+          "~87%",
+          "Reduced by roughly 13% — nearly the full grant"
+        ],
+        [
+          "R130,000",
+          "~69%",
+          "Reduced by about a third"
+        ],
+        [
+          "R140,000",
+          "~52%",
+          "You get just over half the full grant"
+        ],
+        [
+          "R150,000",
+          "~34%",
+          "Reduced by roughly two-thirds"
+        ],
+        [
+          "R160,000",
+          "~17%",
+          "A small partial grant still applies"
+        ],
+        [
+          "Above R169,800",
+          "0%",
+          "Income too high — no grant payable"
+        ]
       ]
     },
-    { "id": "sliding-scale-example", "type": "paragraph", "text": "Example: Thabo is a single applicant for the Older Person Grant (R2,190/month full grant). He earns R10,000 per month from part-time work (R120,000/year). Using the sliding scale: his grant is reduced by R1 for every R2 above the threshold. R120,000 - R96,240 = R23,760 over threshold. Reduction: R23,760 ÷ 2 = R11,880 per year (R990/month). Thabo's grant = R2,190 - R990 = R1,200 per month. He still gets a meaningful grant even though he earns above the threshold." },
-    { "id": "asset-valuation-h", "type": "heading", "level": 3, "text": "Asset Valuation Rules" },
-    { "id": "asset-valuation-list", "type": "list", "ordered": false, "items": ["Primary residence exclusion: The home you live in is NOT counted as an asset. Only additional properties (vacation homes, rental properties, vacant land) are included.", "Vehicle valuation: Cars, bakkies, and motorcycles are valued at their current market value, not the purchase price. SASSA uses a standard depreciation schedule. A single vehicle used for daily transport is often excluded from the asset calculation.", "Cash savings: Money in bank accounts (cheque, savings, fixed deposits) counts toward your asset total. This includes everything in your account on the date of assessment.", "Investments: Stocks, shares, unit trusts, ETFs, and retirement annuities (if accessible before retirement age) count as assets.", "Household goods and personal effects: Furniture, appliances, clothing, and jewellery are generally not counted."] },
-    { "id": "bank-verification-h", "type": "heading", "level": 3, "text": "Bank Verification — How SASSA Checks Your Account" },
-    { "id": "bank-verification-p", "type": "paragraph", "text": "SASSA uses an automated bank verification system that scans all bank accounts linked to your ID number. Every month, the system checks the total value of deposits into your account. If the system detects deposits that look like income — regular, recurring amounts from an employer or other source — it flags these as 'Alternative Income Source.' For the SRD R370 grant specifically, the threshold is strict: any single deposit above R624, or multiple deposits totalling more than R624 in a calendar month, will trigger the flag. This applies even if the money is a gift from family, a loan repayment, or a transfer between your own accounts." },
-    { "id": "bank-callout", "type": "callout", "intent": "warning", "title": "Declare All Income Honestly", "text": "SASSA cross-checks your application against multiple government databases including SARS, UIF, and the National Population Register. If you fail to declare income and SASSA discovers it later, your grant may be cancelled and you could be required to repay all amounts received. Always declare every source of income — even informal earnings, gifts, and remittances." },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "Does SASSA check my bank account?", "answer": "Yes. SASSA has an automated system that reviews bank account deposits to verify income levels. They scan all accounts linked to your ID number and flag accounts that show deposits exceeding the threshold. This is how they detect 'Alternative Income Source'." },
-      { "question": "What happens if my income changes during the grant period?", "answer": "You must report any change in income to SASSA immediately. Your grant amount may be adjusted or cancelled if your income exceeds the threshold. For the SRD grant, your status is reassessed every month automatically." },
-      { "question": "What is the sliding scale and how does it work?", "answer": "The sliding scale means you can still receive a reduced grant even if your income is above the threshold. For every R2 you earn above the threshold, your grant reduces by roughly R1. Your grant phases out completely once your income is about R52,000 above the threshold (for the Older Person Grant)." },
-      { "question": "Is my primary residence counted as an asset?", "answer": "No. The home you live in (your primary residence) is excluded from the asset calculation. However, any additional properties you own — such as rental properties, holiday homes, or vacant land — are counted toward your asset total." },
-      { "question": "How does SASSA value my vehicle?", "answer": "SASSA values vehicles at their current market value, not the original purchase price. A standard depreciation schedule is applied based on the vehicle's age and condition. A single vehicle used for daily transport (like getting to work or taking children to school) is often excluded from the asset calculation." },
-      { "question": "What happens if my assets exceed the limit?", "answer": "If your assets exceed R1,372,800 (single) or R2,745,600 (married), your application will be declined. However, because your primary residence is excluded, most applicants do not exceed the asset limit unless they own significant additional property, investments, or large cash savings." },
-      { "question": "Can I still qualify if I earn above the income threshold?", "answer": "Yes, up to a point. The sliding scale means you can receive a partial grant if your income is moderately above the threshold. For the standard means test (R96,240 threshold), you may still receive some grant payment until your income reaches approximately R148,800 per year." },
-      { "question": "Do I need to declare gifts from family?", "answer": "Yes. Regular gifts or remittances from family members count as income for the means test. Even one-off gifts that deposit into your bank account may trigger the 'Alternative Income Source' flag, especially for the SRD R370 grant where the threshold is R624 per month." }
-    ] }
+    {
+      "id": "sliding-scale-example",
+      "type": "paragraph",
+      "text": "Example: Thabo is a single applicant for the Older Person Grant (R2,400/month full grant). He earns R10,000 per month from part-time work (R120,000/year). Using the sliding scale: his grant is reduced by R1 for every R2 above the threshold. R120,000 - R112,200 = R7,800 over threshold. Reduction: R7,800 ÷ 2 = R3,900 per year (R325/month). Thabo's grant = R2,400 - R325 = R2,075 per month. He still gets a meaningful grant even though he earns above the threshold.",
+      "links": [
+        {
+          "text": "Older Person Grant",
+          "href": "/grants/older-person-grant"
+        }
+      ]
+    },
+    {
+      "id": "asset-valuation-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Asset Valuation Rules"
+    },
+    {
+      "id": "asset-valuation-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Primary residence exclusion: The home you live in is NOT counted as an asset. Only additional properties (vacation homes, rental properties, vacant land) are included.",
+        "Vehicle valuation: Cars, bakkies, and motorcycles are valued at their current market value, not the purchase price. SASSA uses a standard depreciation schedule. A single vehicle used for daily transport is often excluded from the asset calculation.",
+        "Cash savings: Money in bank accounts (cheque, savings, fixed deposits) counts toward your asset total. This includes everything in your account on the date of assessment.",
+        "Investments: Stocks, shares, unit trusts, ETFs, and retirement annuities (if accessible before retirement age) count as assets.",
+        "Household goods and personal effects: Furniture, appliances, clothing, and jewellery are generally not counted."
+      ]
+    },
+    {
+      "id": "bank-verification-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Bank Verification — How SASSA Checks Your Account"
+    },
+    {
+      "id": "bank-verification-p",
+      "type": "paragraph",
+      "text": "SASSA uses an automated bank verification system that scans all bank accounts linked to your ID number. Every month, the system checks the total value of deposits into your account. If the system detects deposits that look like income — regular, recurring amounts from an employer or other source — it flags these as 'Alternative Income Source.' For the SRD R370 grant specifically, the threshold is strict: any single deposit above R624, or multiple deposits totalling more than R624 in a calendar month, will trigger the flag. This applies even if the money is a gift from family, a loan repayment, or a transfer between your own accounts."
+    },
+    {
+      "id": "bank-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Declare All Income Honestly",
+      "text": "SASSA cross-checks your application against multiple government databases including SARS, UIF, and the National Population Register. If you fail to declare income and SASSA discovers it later, your grant may be cancelled and you could be required to repay all amounts received. Always declare every source of income — even informal earnings, gifts, and remittances."
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Does SASSA check my bank account?",
+          "answer": "Yes. SASSA has an automated system that reviews bank account deposits to verify income levels. They scan all accounts linked to your ID number and flag accounts that show deposits exceeding the threshold. This is how they detect 'Alternative Income Source'."
+        },
+        {
+          "question": "What happens if my income changes during the grant period?",
+          "answer": "You must report any change in income to SASSA immediately. Your grant amount may be adjusted or cancelled if your income exceeds the threshold. For the SRD grant, your status is reassessed every month automatically."
+        },
+        {
+          "question": "What is the sliding scale and how does it work?",
+          "answer": "The sliding scale means you can still receive a reduced grant even if your income is above the threshold. For every R2 you earn above the threshold, your grant reduces by roughly R1. Your grant phases out completely once your income is about R57,600 above the threshold (for the Older Person Grant)."
+        },
+        {
+          "question": "Is my primary residence counted as an asset?",
+          "answer": "No. The home you live in (your primary residence) is excluded from the asset calculation. However, any additional properties you own — such as rental properties, holiday homes, or vacant land — are counted toward your asset total."
+        },
+        {
+          "question": "How does SASSA value my vehicle?",
+          "answer": "SASSA values vehicles at their current market value, not the original purchase price. A standard depreciation schedule is applied based on the vehicle's age and condition. A single vehicle used for daily transport (like getting to work or taking children to school) is often excluded from the asset calculation."
+        },
+        {
+          "question": "What happens if my assets exceed the limit?",
+          "answer": "If your assets exceed R1,584,000 (single) or R3,168,000 (married), your application will be declined. However, because your primary residence is excluded, most applicants do not exceed the asset limit unless they own significant additional property, investments, or large cash savings."
+        },
+        {
+          "question": "Can I still qualify if I earn above the income threshold?",
+          "answer": "Yes, up to a point. The sliding scale means you can receive a partial grant if your income is moderately above the threshold. For the standard means test (R112,200 threshold), you may still receive some grant payment until your income reaches approximately R169,800 per year."
+        },
+        {
+          "question": "Do I need to declare gifts from family?",
+          "answer": "Yes. Regular gifts or remittances from family members count as income for the means test. Even one-off gifts that deposit into your bank account may trigger the 'Alternative Income Source' flag, especially for the SRD R370 grant where the threshold is R624 per month."
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "How to Apply for a SASSA Grant", "slug": "/guides/how-to-apply-sassa-grant" },
-    { "title": "Common Decline Reasons", "slug": "/appeals/appeal-reasons" },
-    { "title": "Appeal After Income Source", "slug": "/appeals/appeal-after-income-source" },
-    { "title": "SASSA Grant Amounts", "slug": "/guides/sassa-grant-amounts" }
+    {
+      "title": "How to Apply for a SASSA Grant",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    },
+    {
+      "title": "Common Decline Reasons",
+      "slug": "/appeals/appeal-reasons"
+    },
+    {
+      "title": "Appeal After Income Source",
+      "slug": "/appeals/appeal-after-income-source"
+    },
+    {
+      "title": "SASSA Grant Amounts",
+      "slug": "/guides/sassa-grant-amounts"
+    }
   ]
 }

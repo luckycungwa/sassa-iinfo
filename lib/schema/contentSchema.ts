@@ -284,6 +284,7 @@ export interface BasePage {
   seo: SEOMetadata;
   contentBlocks: ContentBlock[];
   relatedPages?: { title: string; slug: string }[];
+  sources?: { label: string; url: string }[];
 }
 
 export interface SchemaValidationResult {

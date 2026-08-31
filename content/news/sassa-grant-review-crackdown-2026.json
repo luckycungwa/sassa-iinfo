@@ -4,7 +4,7 @@
   "classification": "news-article",
   "title": "350,000 SASSA Grants to Be Reviewed in 2026 Crackdown — Is Your Grant at Risk?",
   "description": "Social Development Minister Dina Pule announces 350,000+ grants will be reviewed in 2026/27 to save R1.5 billion. How to check if you're flagged and complete your review before suspension.",
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -30,7 +30,7 @@
       "title": "350,000 Grants to Be Reviewed in 2026 Crackdown",
       "description": "Social Development Minister Dina Pule announced on 21 July 2026 that more than 350,000 social grants will be reviewed in the 2026/27 financial year as part of a major crackdown to save R1.5 billion in misspent funds.",
       "readingTime": "4 min read",
-      "lastUpdated": "2026-07-28"
+      "lastUpdated": "2026-08-25"
     },
     {
       "id": "h1",
@@ -57,7 +57,13 @@
     {
       "id": "p3",
       "type": "paragraph",
-      "text": "The review follows a Special Investigating Unit (SIU) report that found systemic weaknesses in SASSA's grant verification processes, particularly around identity verification, means testing, and bank verification for SRD grants."
+      "text": "The review follows a Special Investigating Unit (SIU) report that found systemic weaknesses in SASSA's grant verification processes, particularly around identity verification, means testing, and bank verification for SRD grants.",
+      "links": [
+        {
+          "text": "means test",
+          "href": "/guides/understanding-means-test"
+        }
+      ]
     },
     {
       "id": "list1",

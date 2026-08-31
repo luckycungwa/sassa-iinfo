@@ -1,0 +1,218 @@
+{
+  "id": "guide-reconfirm-srd-grant",
+  "slug": "/guides/reconfirm-srd-grant",
+  "classification": "how-to-guide",
+  "title": "Indlela yokuQinisekisa kwakhona iNqanaba yeSRD R370",
+  "description": "Kutheni iSASSA icela abamkeli beSRD baqinisekise izicelo zabo, amanyathelo okuqinisekisa ngokucokisekileyo ku srd.sassa.gov.za kunye neWhatsApp, iifayili zokugcina ukungaphulwa kokukhokelwa, kunye kwenzeka ntoni ukuba uyishiya.",
+  "lastUpdated": "2026-08-25",
+  "version": "2.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "Indlela yokuQinisekisa kwakhona iNqanaba yeSRD R370 (2026 ngamnyathelo)",
+    "metaDescription": "Qinisekisa kwakhona isicelo sakho seSRD R370: xa iSASSA ifuna, amanyathelo eportal neWhatsApp, iifayili zokugcina zanyanga, kunye neziphumela zokushiya ukuqinisekisa.",
+    "keywords": [
+      "qinisekisa kwakhona inqanaba yeSRD",
+      "SRD R370 qinisekisa kwakhona",
+      "SASSA qinisekisa isicelo",
+      "SRD qinisekisa ngenyanga"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Indlela yokuQinisekisa kwakhona iNqanaba yeSRD R370",
+      "description": "I-SASSA icela ngamaxesha ethile abamkeli baqinisekise ulwazi lwabo olulungileyo ngaphambi kwejikilela yokukhokelwa. Uphulwa lo mcelo kwaye ukhokelwa kunokumisa — nantsi indlela yokwenza oku ngaphakathi kweemizuzu.",
+      "readingTime": "6 ngqesho ukufunda",
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "label": "Khangela iMeko yakho",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "label": "Amanyathelo okungena kwiSRD Portal",
+        "href": "/banking/how-to-register-for-srd-portal"
+      }
+    },
+    {
+      "id": "why-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Yintoni ukuqinisekisa (kwaye kutheni ucelwe)"
+    },
+    {
+      "id": "why-p1",
+      "type": "paragraph",
+      "text": "Ukuqinisekisa kukucela iSASSA uqinisekise ukuba ulwazi lwakho, inombolo yocingo kunye neemeko zokufaneleka ziyafana nangaphambili xa usavunyelwe. Kuqalwa yinkqubo yamabhanyathelo yesiseko esidla ngokucolisa — kuninzi emva kokuvuselelwa kwinqanaba okanye xa ifayile yakho imile ixesha elithile."
+    },
+    {
+      "id": "why-p2",
+      "type": "paragraph",
+      "text": "Umcemo uvela nge-SMS evela kwiindlela ezisemthethweni zeSASSA. Ngenxa yokuba abaduni bathabatha lo mzekelo, rhawula ngalo ndlela ewebhusayithini esemthethweni endaweni yeekhonkco ezikwiimiyalezo."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Indlela yokuqinisekisa ngamnyathelo ngamnyathelo"
+    },
+    {
+      "id": "portal-steps",
+      "type": "steps",
+      "title": "Qinisekisa kwiwebhusayithi esemthethweni",
+      "steps": [
+        {
+          "title": "Vula ku srd.sassa.gov.za",
+          "description": "Sebenzisa ircokhwe lakho okanye elinye onolitsemayo. Iwebhusayithi isebenza kuburawuza beliphi na icala."
+        },
+        {
+          "title": "Khetha 'Qinisekisa isicelo sakho' / inketho yokuqinisekisa",
+          "description": "Ibonakala kwiluhlu lweNkonzo kwiphepha eyintlo xa ijikilela yokuqinisekisa iqhubeka."
+        },
+        {
+          "title": "Faka inombolo yakho yesazisi kunye nenombolo yocingo",
+          "description": "Lezi kufuneka zihambisane naleyo iSASSA inayo kwiifestile — khangela inkqubo yethu yokuTshintsha inombolo ukuba ezakho ziyahlukana."
+        },
+        {
+          "title": "Qwalasela isaziso ngasinye",
+          "description": "Qinisekisa ukuba usahlangabezisa neemfuno zengeniso, awufumani i-UIF/NSFAS ingeniso, kunye nokuba ulwazi lwakho alutshintshanga."
+        },
+        {
+          "title": "Thumela uze ugcine inombolo yokulandelela",
+          "description": "Ufumana i-SMS yoqinisekiso xa iphunyezwe — ngamanye amaxesha ngaphakathi kweentsuku."
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-p",
+      "type": "paragraph",
+      "text": "Unqwenela iWhatsApp? Thumela ku 082 046 8553 uthi 'Qinisekisa kwakhona'. Imenyu ikubonisa ngezaziso ezifanayo usebenzisa inombolo yakho yesazisi. Ikhonti yocingo (0800 60 10 11) inokunceda ukuba ungafiki kwi-intanethi."
+    },
+    {
+      "id": "timing-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Iifayili zokugcina: ungaphulwa nyanga"
+    },
+    {
+      "id": "timing-p",
+      "type": "paragraph",
+      "text": "Iijikilela zokuqinisekisa zivala ngaphambi kokuhamba kwejikilela yokuvunyelwa. Ukuba i-SMS yakho inefayili yokugcina — ngamanye amaxesha ngomjikelezo weenyanga — qinisekisa ngaphakathi kweentsuku ezimbalwa ngaphambi kwayo. Izicelo eziphulwe ijikilela azikhokhelwa kuleyo jikilela; ukuzigqibela kamva kubuyisa iinyanga ezizayo kodwa ayifihli leyo ephulweyo."
+    },
+    {
+      "id": "skip-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Kwenzeke ntoni ukuba uyashiya ukuqinisekisa",
+      "text": "Imeko yakho isuka ku 'iphelele' okanye 'inomkhuba', ukukhokelwa kumiswa, kwaye unokufuna ukufaka isicelo entsha endaweni yokwenza nje ukuqinisekisa. Imizuzu embalwa yokugcina ikhusela inyanga yengeniso."
+    },
+    {
+      "id": "trouble-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Ukuba ukuqinisekisa kungaphuphlela okanye akwamkeli ulwazi lwakho"
+    },
+    {
+      "id": "trouble-p1",
+      "type": "paragraph",
+      "text": "Izizathu ezixhaphakileyo kukutshintshwa kwenombolo yocingo, impazamo yesazisi, okanye ifayile ebhalwe ngaphambili. Lungisa ulwazi lokunxibelelana kwakho kuqala, uze uphinde uzame emva kwamaxesha angama-24. Ukungaphuphlela qho kuthetha ukuba kukho into kufayile yakho efuna unakekelo — tyelela nayiphi na iofisi yeSASSA nebhukhwe yakho yesazisi eluhlaza okanye ikhadi eliphilileyo."
+    },
+    {
+      "id": "trouble-p2",
+      "type": "paragraph",
+      "text": "Musa ukukhokela umntu wesithathu ukulungisa ifayile ephulweyo. Yonke indlela yokubuyisela ihamba ngendlela zasimahala ezisemthethweni, kwaye abamkeli kwiindawo basebenza ngeefayile eziphulweyo qho ngokuqhelekileyo."
+    },
+    {
+      "id": "faq-block",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Ndiyenzaphi into yokuqinisekisa inqanaba yam yeSRD?",
+          "answer": "Yiya ku srd.sassa.gov.za, khetha inketho yokuqinisekisa, faka isazisi kunye necingo elibhalisiweyo, qwalasele izaziso zokufaneleka, uze uthumele. Unokusebenzisa neWhatsApp 082 046 8553 okanye ubize ku 0800 60 10 11."
+        },
+        {
+          "question": "Kutheni iSASSA icela ndiqinisekise qho xa kunjalo?",
+          "answer": "Ukuhlola ngamaxesha kuuqinisekisa ukuba izimo zakho azizitshintshanga kwaye ulwazi lokunxibelelana lwakho lusasebenza. Yindlela eqhubekayo kude kube kunye neofisi ngonyaka wonke."
+        },
+        {
+          "question": "Ndiyeke ijikilela yokuqinisekisa. Ndingafumana le nyanga?",
+          "answer": "Ngamanye amaxesha hayi — iijikilela eziphulweyo ziyaphinda zikhokhelwe. Qinisekisa ngokukhawuleza nangalonto na ukuze iinyanga ezizayo ziqaqambise, kwaye ukhangise kuphela ukuba imbali yakho ye-SMS ibonisa ukuba isaziso asifikanga kuwe."
+        },
+        {
+          "question": "Kufanayo na ukuqinisekisa nokukhangisa nyanga ephulweyo?",
+          "answer": "Hayi. Ukuqinisekisa kugcina isicelo esivunyelwe siphefile. Ukukhangisa kuqhwanyezana neenyanga ezithile ezivaliweyo ngaphandle kwephaneli — inkqubo eyodwa eneefayili zayo zokugcina."
+        },
+        {
+          "question": "Imeko yam ibhalwe 'iphelele'. Kuyanele na ukuqinisekisa ukulungisa?",
+          "answer": "Ukuba ukuphela kungamva nje kwaye kubangelwe yinkqubo ephulweyo, ukuqinisekisa ngokuqhelekileyo kubuyisa ifayile. Iifayile ezimeleyo ixesha elide ngamanye amaxesha zifuna isicelo esitsha — khangela iphepha lakho lemeko ukuba yeyiphi."
+        },
+        {
+          "question": "Kuxabisa na ukuqinisekisa?",
+          "answer": "Hayi. Naluphi na uhlobo lwabantu okanye iwebhusayithi ekhokelayo ukuqinisekisa yenza ubugqira. Sebenzisa kuphela ku srd.sassa.gov.za, urhwebo lweWhatsApp, ikhonti yocingo, okanye iindawo ezibonakalayo."
+        }
+      ],
+      "title": "Imibuzo ebuzwa qho"
+    },
+    {
+      "id": "sources-block",
+      "type": "sources",
+      "title": "Imithombo & ukuqinisekisa",
+      "sources": [
+        {
+          "label": "SRD R370 iportal esemthethweni — inkonzo yokuqinisekisa",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA WhatsApp ukuzenzekela 082 046 8553",
+          "url": "https://wa.me/27820468553"
+        }
+      ],
+      "note": "Kuqinisekisiwe ngokweendlela ezisemthethweni zeSASSA ngenyanga ka-August 2026. Iijikilela zokuqinisekisa kunye neefayili zokugcina zilandela inkqubo yeSASSA yangoku."
+    },
+    {
+      "id": "related-pages-4t1zxk",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Amanyathelo okuFunda",
+          "href": "/guides"
+        },
+        {
+          "title": "Yonke iNqanaba leSASSA",
+          "href": "/grants"
+        },
+        {
+          "title": "Ukukhangisa iSASSA",
+          "href": "/appeals"
+        },
+        {
+          "title": "IiNkqubo zokuKhokela iSASSA",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Izixhobo zeSASSA",
+          "href": "/tools"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Tshintsha iNombolo yeSRD",
+      "slug": "/guides/change-srd-phone-number"
+    },
+    {
+      "title": "Rhoxisa iSicelo sakho seSRD",
+      "slug": "/guides/cancel-srd-application"
+    },
+    {
+      "title": "Ukukhangisa iSRD emva kokValwa",
+      "slug": "/appeals/how-to-appeal"
+    }
+  ]
+}

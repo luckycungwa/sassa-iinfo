@@ -4,59 +4,199 @@
   "classification": "how-to-guide",
   "title": "How to Check Your SRD R370 Grant Status — Complete Guide",
   "description": "SRD R370 grant status meanings explained: what each SASSA status means for your SRD grant, monthly re-evaluation, and what to do when your status changes.",
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-08-25",
   "version": "1.0.0",
   "status": "published",
-  "author": { "name": "Grant Guide Editorial Team", "role": "Content Editor", "verified": true },
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
   "seo": {
     "metaTitle": "SRD R370 Grant Status Meanings — Approved, Pending, Declined & More",
     "metaDescription": "SRD R370 grant status meanings explained. What Approved, Pending, Declined, and other statuses mean for your monthly SRD grant, plus guidance on next steps.",
-    "keywords": ["SRD status meanings", "SRD grant status", "SASSA SRD approved", "SRD pending meaning", "SRD declined explained", "SRD R370 status"]
+    "keywords": [
+      "SRD status meanings",
+      "SRD grant status",
+      "SASSA SRD approved",
+      "SRD pending meaning",
+      "SRD declined explained",
+      "SRD R370 status"
+    ]
   },
   "contentBlocks": [
     {
-      "id": "hero", "type": "hero",
+      "id": "hero",
+      "type": "hero",
       "title": "SRD R370 Grant Status — What Each Status Means",
       "description": "Your SRD R370 grant status changes every month because SASSA re-evaluates eligibility monthly. Learn what each status means for your grant and what to do next.",
       "readingTime": "3 min read",
-      "lastUpdated": "July 2026",
-      "cta": { "text": "Check Your Status Now", "href": "https://srd.sassa.gov.za" },
-      "secondaryCta": { "text": "How to Check Any SASSA Status", "href": "/guides/how-to-check-sassa-status" }
+      "lastUpdated": "2026-08-25",
+      "cta": {
+        "text": "Check Your Status Now",
+        "href": "https://srd.sassa.gov.za"
+      },
+      "secondaryCta": {
+        "text": "How to Check Any SASSA Status",
+        "href": "/guides/how-to-check-sassa-status"
+      }
     },
-    { "id": "h1", "type": "heading", "level": 2, "text": "SRD R370 Grant Status Meanings" },
-    { "id": "intro", "type": "paragraph", "text": "The SRD R370 grant is re-evaluated every month, meaning your status can change from one month to the next. Understanding what each status means helps you know what to expect and what action to take." },
-    { "id": "callout", "type": "callout", "intent": "info", "title": "Looking for general status check instructions?", "text": "This guide is specifically for SRD R370 beneficiaries. For other grant types (Older Person, Disability, Child Support, etc.), see our general guide to checking your SASSA status." },
-    { "id": "status-meanings-h", "type": "heading", "level": 3, "text": "What Your Status Means" },
-    { "id": "status-table", "type": "table", "headers": ["Status", "Meaning", "Action Required"], "rows": [
-      ["Pending", "Application is being verified", "No action needed. Check again in 7-14 days."],
-      ["Approved", "You qualify for payment", "Wait for payment between 25th-30th."],
-      ["Payment Processing", "Funds are being transferred", "Check your bank account or wait for SMS."],
-      ["Declined", "You did not qualify", "Appeal within 90 days on srd.dsd.gov.za."],
-      ["Bank Verification", "Bank details being checked", "Ensure account is active and in your name."],
-      ["Identity Verification", "ID being checked against Home Affairs", "Complete facial verification if prompted."],
-      ["Referred", "Flagged for investigation", "Contact SASSA Fraud Hotline."],
-      ["Cancelled", "Grant permanently stopped", "Visit SASSA office to reinstate."],
-      ["Application Complete", "Profile fully set up", "No action needed. Check monthly."]
-    ] },
-    { "id": "faq-h", "type": "heading", "level": 3, "text": "Frequently Asked Questions" },
-    { "id": "faq", "type": "faq", "faqs": [
-      { "question": "How often should I check my SRD status?", "answer": "Check at the beginning of each month to see your status for that month's payment cycle." },
-      { "question": "Why does my status not show on the portal?", "answer": "The portal may be experiencing high traffic. Try again later or use the WhatsApp or USSD method instead." },
-      { "question": "Can someone else check my status for me?", "answer": "No. The system requires your ID number and the phone number registered to your application. OTP verification ensures only you can access your status." },
-      { "question": "My status says 'No Application Found'. What do I do?", "answer": "This means your ID is not registered in the SRD system. You may need to submit a new application, or there may be a system error. Try again later or contact SASSA." },
-      { "question": "Can I check my status without a phone?", "answer": "Yes. Visit your nearest SASSA office with your ID. A SASSA officer can look up your status and provide a printout." }
-    ] },
-    { "id": "related-links", "type": "link-grid", "links": [
-      { "title": "How to Check Any SASSA Grant Status", "href": "/guides/how-to-check-sassa-status", "description": "General guide covering all grant types — online, WhatsApp, USSD, and office methods" },
-      { "title": "SRD R370 Grant — Complete Guide", "href": "/grants/srd-r370-grant", "description": "Full guide to the SRD grant" },
-      { "title": "SRD Monthly Review Explained", "href": "/grants/srd-r370-grant/monthly-review", "description": "Understanding monthly eligibility checks" },
-      { "title": "Declined Status — What to Do", "href": "/status/declined", "description": "What to do if your grant is declined" },
-      { "title": "Get Help: Call Centres and Kiosks", "href": "/guides/srd-call-centre-kiosk-help", "description": "Free call centre and in-person help when the online system is difficult" }
-    ] }
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "SRD R370 Grant Status Meanings"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The SRD R370 grant is re-evaluated every month, meaning your status can change from one month to the next. Understanding what each status means helps you know what to expect and what action to take."
+    },
+    {
+      "id": "callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Looking for general status check instructions?",
+      "text": "This guide is specifically for SRD R370 beneficiaries. For other grant types (Older Person, Disability, Child Support, etc.), see our general guide to checking your SASSA status."
+    },
+    {
+      "id": "status-meanings-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What Your Status Means"
+    },
+    {
+      "id": "status-table",
+      "type": "table",
+      "headers": [
+        "Status",
+        "Meaning",
+        "Action Required"
+      ],
+      "rows": [
+        [
+          "Pending",
+          "Application is being verified",
+          "No action needed. Check again in 7-14 days."
+        ],
+        [
+          "Approved",
+          "You qualify for payment",
+          "Wait for payment between 25th-30th."
+        ],
+        [
+          "Payment Processing",
+          "Funds are being transferred",
+          "Check your bank account or wait for SMS."
+        ],
+        [
+          "Declined",
+          "You did not qualify",
+          "Appeal within 90 days on srd.dsd.gov.za."
+        ],
+        [
+          "Bank Verification",
+          "Bank details being checked",
+          "Ensure account is active and in your name."
+        ],
+        [
+          "Identity Verification",
+          "ID being checked against Home Affairs",
+          "Complete facial verification if prompted."
+        ],
+        [
+          "Referred",
+          "Flagged for investigation",
+          "Contact SASSA Fraud Hotline."
+        ],
+        [
+          "Cancelled",
+          "Grant permanently stopped",
+          "Visit SASSA office to reinstate."
+        ],
+        [
+          "Application Complete",
+          "Profile fully set up",
+          "No action needed. Check monthly."
+        ]
+      ]
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "How often should I check my SRD status?",
+          "answer": "Check at the beginning of each month to see your status for that month's payment cycle."
+        },
+        {
+          "question": "Why does my status not show on the portal?",
+          "answer": "The portal may be experiencing high traffic. Try again later or use the WhatsApp or USSD method instead."
+        },
+        {
+          "question": "Can someone else check my status for me?",
+          "answer": "No. The system requires your ID number and the phone number registered to your application. OTP verification ensures only you can access your status."
+        },
+        {
+          "question": "My status says 'No Application Found'. What do I do?",
+          "answer": "This means your ID is not registered in the SRD system. You may need to submit a new application, or there may be a system error. Try again later or contact SASSA."
+        },
+        {
+          "question": "Can I check my status without a phone?",
+          "answer": "Yes. Visit your nearest SASSA office with your ID. A SASSA officer can look up your status and provide a printout."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How to Check Any SASSA Grant Status",
+          "href": "/guides/how-to-check-sassa-status",
+          "description": "General guide covering all grant types — online, WhatsApp, USSD, and office methods"
+        },
+        {
+          "title": "SRD R370 Grant — Complete Guide",
+          "href": "/grants/srd-r370-grant",
+          "description": "Full guide to the SRD grant"
+        },
+        {
+          "title": "SRD Monthly Review Explained",
+          "href": "/grants/srd-r370-grant/monthly-review",
+          "description": "Understanding monthly eligibility checks"
+        },
+        {
+          "title": "Declined Status — What to Do",
+          "href": "/status/declined",
+          "description": "What to do if your grant is declined"
+        },
+        {
+          "title": "Get Help: Call Centres and Kiosks",
+          "href": "/guides/srd-call-centre-kiosk-help",
+          "description": "Free call centre and in-person help when the online system is difficult"
+        }
+      ]
+    }
   ],
   "relatedPages": [
-    { "title": "How to Check SASSA Grant Status", "slug": "/guides/how-to-check-sassa-status" },
-    { "title": "SRD R370 Grant", "slug": "/grants/srd-r370-grant" },
-    { "title": "SRD Monthly Review", "slug": "/grants/srd-r370-grant/monthly-review" }
+    {
+      "title": "How to Check SASSA Grant Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "SRD Monthly Review",
+      "slug": "/grants/srd-r370-grant/monthly-review"
+    }
   ]
 }
