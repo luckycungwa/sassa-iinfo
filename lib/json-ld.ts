@@ -1,6 +1,6 @@
 import { TEAM } from "./team";
 
-const siteUrl = process.env.APP_URL || "https://srdgrantguide.co.za";
+const siteUrl = process.env.APP_URL || "https://srdstatuscheck.co.za";
 
 const authorPerson = {
   "@type": "Person",
@@ -69,7 +69,7 @@ export function articleSchema(title: string, description: string, datePublished:
     publisher: {
       "@type": "Organization",
       "@id": `${siteUrl}/#organization`,
-      name: "SRD Grant Guide",
+      name: "SRD Status Check",
       url: siteUrl,
       logo: {
         "@type": "ImageObject",
@@ -99,7 +99,7 @@ export function organizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${siteUrl}/#organization`,
-    name: "SRD Grant Guide",
+    name: "SRD Status Check",
     description: "Independent guide to SASSA social grants in South Africa. Created by 44tagstudios.",
     url: siteUrl,
     logo: `${siteUrl}/favicon.svg`,
@@ -132,8 +132,8 @@ export function aboutPageSchema() {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "@id": `${siteUrl}/about`,
-    name: "About SRD Grant Guide",
-    description: "Learn about the independent SRD Grant Guide resource built by Lucky Cungwa.",
+    name: "About SRD Status Check",
+    description: "Learn about the independent SRD Status Check resource built by Lucky Cungwa.",
   };
 }
 

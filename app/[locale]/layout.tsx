@@ -25,14 +25,14 @@ const jetbrains = JetBrains_Mono({
   display: 'swap',
 });
 
-const siteUrl = process.env.APP_URL || "https://srdgrantguide.co.za";
+const siteUrl = process.env.APP_URL || "https://srdstatuscheck.co.za";
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
 const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID;
 
 export const metadata: Metadata = {
   title: {
-    default: 'SRD Grant Guide — Independent South African Social Grant Resource',
-    template: '%s | SRD Grant Guide',
+    default: 'SRD Status Check — Independent South African Social Grant Resource',
+    template: '%s | SRD Status Check',
   },
   description: 'Clear, practical guide to every SASSA social grant: eligibility, payment dates, application steps, and appeals. Written in plain language and verified against official sources.',
   metadataBase: new URL(siteUrl),
@@ -59,20 +59,20 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_ZA',
-    siteName: 'SRD Grant Guide',
-    title: 'SRD Grant Guide — Independent South African Social Grant Resource',
+    siteName: 'SRD Status Check',
+    title: 'SRD Status Check — Independent South African Social Grant Resource',
     description: 'Clear, practical guide to every SASSA social grant: eligibility, payment dates, application steps, and appeals.',
     url: siteUrl,
     images: [{
       url: '/og-image.png',
       width: 1200,
       height: 630,
-      alt: 'SRD Grant Guide — Independent South African Social Grant Resource',
+      alt: 'SRD Status Check — Independent South African Social Grant Resource',
     }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SRD Grant Guide — Independent South African Social Grant Resource',
+    title: 'SRD Status Check — Independent South African Social Grant Resource',
     description: 'Clear, practical guide to every SASSA social grant: eligibility, payment dates, application steps, and appeals.',
     images: ['/og-image.png'],
   },
@@ -114,7 +114,7 @@ export default async function LocaleLayout({
       {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
-        name: "SRD Grant Guide",
+        name: "SRD Status Check",
         url: siteUrl,
         description: "Independent guide to SASSA social grants. Not affiliated with SASSA or any government department.",
         inLanguage: htmlLang,
@@ -134,7 +134,7 @@ export default async function LocaleLayout({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "SRD Grant Guide",
+        name: "SRD Status Check",
         description: "Independent guide to SASSA social grants in South Africa. Created by 44tagstudios.",
         url: siteUrl,
         logo: `${siteUrl}/main-logo.svg`,
@@ -179,7 +179,7 @@ export default async function LocaleLayout({
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                     <div className="space-y-3">
                       <span className="flex items-center justify-center w-8 h-8 rounded-[7px] bg-black">
-                        <img src="/main-logo.svg" alt="SRD Grant Guide" className="w-5 h-5" />
+                        <img src="/main-logo.svg" alt="SRD Status Check" className="w-5 h-5" />
                       </span>
                       <p className="text-sm leading-relaxed text-carbon">
                         Independent SASSA grant guide. Not affiliated with SASSA or any government entity.
@@ -237,7 +237,7 @@ export default async function LocaleLayout({
                     </div>
                   </div>
                   <div className="border-t border-border mt-10 pt-6 text-center">
-                    <p className="text-xs text-muted-foreground">&copy; {new Date().getFullYear()} SRD Grant Guide. Built by Lucky Cungwa / 44tagstudios.</p>
+                    <p className="text-xs text-muted-foreground">&copy; {new Date().getFullYear()} SRD Status Check. Built by Lucky Cungwa / 44tagstudios.</p>
                   </div>
                 </div>
               </footer>
