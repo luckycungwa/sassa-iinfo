@@ -55,7 +55,7 @@ export default function TechnicalSchema() {
             <div className="p-4 bg-surface rounded-2xl space-y-2">
               <h4 className="text-xs font-extrabold text-ink flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-accent-dark" />Self-Referential Canonicals</h4>
               <p className="text-xs text-muted-foreground leading-relaxed">To prevent duplicate penalties on trailing slash variations:</p>
-              <code className="block p-2 bg-white rounded-lg border border-surface-dim text-xs font-mono text-accent-dark">&lt;link rel=&quot;canonical&quot; href=&quot;https://sassagrantguide.co.za/status/pending&quot; /&gt;</code>
+              <code className="block p-2 bg-white rounded-lg border border-surface-dim text-xs font-mono text-accent-dark">&lt;link rel=&quot;canonical&quot; href=&quot;https://srdgrantguide.co.za/status/pending&quot; /&gt;</code>
             </div>
             <div className="p-4 bg-surface rounded-2xl space-y-2">
               <h4 className="text-xs font-extrabold text-ink flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-accent-dark" />Pagination Strategy</h4>

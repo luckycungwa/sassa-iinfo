@@ -5,7 +5,7 @@ import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | SASSA Grant Guide",
+  title: "Privacy Policy | SRD Grant Guide",
   description:
     "How this website handles data: AI assistant processing, cookies used for advertising and anonymous traffic measurement, and your choices under South Africa's POPIA.",
   alternates: { canonical: canonicalUrl("/privacy") },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   const pageSchema = webpageSchema(
-    "Privacy Policy | SASSA Grant Guide",
+    "Privacy Policy | SRD Grant Guide",
     "How this website handles data: AI assistant processing, advertising cookies, anonymous traffic measurement, and your choices under POPIA.",
     "/privacy"
   );
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
         <div className="bg-surface border border-border rounded-xl p-6 space-y-4">
           <h2 className="text-sm font-extrabold text-ink">Our Privacy Commitment</h2>
           <p className="text-sm text-body leading-relaxed">
-            The SASSA Grant Guide is an independent informational website operated from South Africa. We deliberately
+            The SRD Grant Guide is an independent informational website operated from South Africa. We deliberately
             keep data collection to a minimum. This policy explains exactly what does and does not happen to your
             information when you use this site, in line with the Protection of Personal Information Act (POPIA).
           </p>

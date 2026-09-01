@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "SASSA Grant Guide",
+    name: "SRD Grant Guide",
     short_name: "SASSA Guide",
     description:
       "Independent guide to every SASSA social grant: eligibility, payment dates, application steps, and appeals.",

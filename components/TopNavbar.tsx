@@ -188,7 +188,7 @@ export default function TopNavbar() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link href="/" className="hover:opacity-80 transition-opacity flex-shrink-0 flex items-center gap-3">
             <span className="flex items-center justify-center w-9 h-9 rounded-[8px] bg-black">
-              <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-6 h-6" />
+              <img src="/main-logo.svg" alt="SRD Grant Guide" className="w-6 h-6" />
             </span>
           </Link>
 

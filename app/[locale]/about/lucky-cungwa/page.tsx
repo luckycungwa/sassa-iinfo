@@ -5,17 +5,17 @@ import { canonicalUrl } from "@/lib/canonical";
 import { personSchema, webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
-  title: "Lucky Cungwa â€” Editor, SASSA Grant Guide",
-  description: "Meet Lucky Cungwa, editor and founder of the SASSA Grant Guide. Read about the person behind this independent SASSA resource and how content is researched and verified.",
+  title: "Lucky Cungwa â€” Editor, SRD Grant Guide",
+  description: "Meet Lucky Cungwa, editor and founder of the SRD Grant Guide. Read about the person behind this independent SASSA resource and how content is researched and verified.",
   alternates: { canonical: canonicalUrl("/about/lucky-cungwa") },
   openGraph: {
-    title: "Lucky Cungwa â€” Editor, SASSA Grant Guide",
-    description: "The person behind the independent SASSA Grant Guide and how content is verified.",
+    title: "Lucky Cungwa â€” Editor, SRD Grant Guide",
+    description: "The person behind the independent SRD Grant Guide and how content is verified.",
   },
 };
 
 export default function AuthorPage() {
-  const pageSchema = webpageSchema("Lucky Cungwa â€” Editor, SASSA Grant Guide", "Meet the editor behind the SASSA Grant Guide.", "/about/lucky-cungwa");
+  const pageSchema = webpageSchema("Lucky Cungwa â€” Editor, SRD Grant Guide", "Meet the editor behind the SRD Grant Guide.", "/about/lucky-cungwa");
   const authorSchema = personSchema();
   const breadcrumb = breadcrumbSchema([
     { name: "Home", url: "/" },
@@ -35,7 +35,7 @@ export default function AuthorPage() {
             Lucky Cungwa
           </h1>
           <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
-            Editor and founder of the SASSA Grant Guide. Every page on this site is researched, written, and reviewed by me.
+            Editor and founder of the SRD Grant Guide. Every page on this site is researched, written, and reviewed by me.
           </p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function AuthorPage() {
               <h2 className="text-[29px] font-black text-carbon leading-[1.1] tracking-[-0.007em]">Who I am</h2>
               <div className="space-y-3 text-base text-body leading-relaxed mt-6">
                 <p>
-                  I&apos;m a South African developer and the founder of 44tagstudios. I built the SASSA Grant Guide
+                  I&apos;m a South African developer and the founder of 44tagstudios. I built the SRD Grant Guide
                   because so many beneficiaries were struggling to find clear, trustworthy answers about their grants.
                 </p>
                 <p>

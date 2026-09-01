@@ -1,7 +1,7 @@
 const DEFAULT_LOCALE = "en";
 
 export function canonicalUrl(path: string = "", locale?: string): string {
-  const baseUrl = process.env.APP_URL || "https://sassagrantguide.co.za";
+  const baseUrl = process.env.APP_URL || "https://srdgrantguide.co.za";
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   if (locale && locale !== DEFAULT_LOCALE) {
     const suffix = cleanPath === "/" ? "" : cleanPath;

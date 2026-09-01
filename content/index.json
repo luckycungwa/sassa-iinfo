@@ -2,7 +2,7 @@
   "id": "home",
   "slug": "/",
   "classification": "home-page",
-  "title": "SASSA Grant Guide — Independent Resource Hub",
+  "title": "SRD Grant Guide — Independent Resource Hub",
   "description": "Your independent guide to every SASSA social grant in South Africa. Check eligibility, find payment dates, apply, appeal SASSA decisions, and use interactive tools — all in one place.",
   "lastUpdated": "2026-08-25",
   "version": "2.0.0",
@@ -14,7 +14,7 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Grant Guide — Independent Guide to South African Social Grants 2026",
+    "metaTitle": "SRD Grant Guide — Independent Guide to South African Social Grants 2026",
     "metaDescription": "Independent guide to every SASSA social grant in South Africa. Check SRD R370 status, find payment dates, compare grant amounts, apply online, and appeal declined applications. Updated July 2026.",
     "keywords": [
       "SASSA",
@@ -29,8 +29,8 @@
     ],
     "schemaMarkup": {
       "@type": "WebSite",
-      "name": "SASSA Grant Guide",
-      "url": "https://sassagrantguide.co.za",
+      "name": "SRD Grant Guide",
+      "url": "https://srdgrantguide.co.za",
       "description": "Independent educational resource for South African social grant beneficiaries. Not affiliated with SASSA or any government department.",
       "author": {
         "@type": "Person",

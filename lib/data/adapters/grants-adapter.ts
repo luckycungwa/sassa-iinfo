@@ -42,7 +42,7 @@ export function grantToBasePage(grant: Grant): BasePage {
     status: "published",
     author: { name: "Grant Guide Editorial Team", role: "Content Editor", verified: true },
     seo: {
-      metaTitle: `${grant.title} — SASSA Grant Guide ${grant.amount}`,
+      metaTitle: `${grant.title} — SRD Grant Guide ${grant.amount}`,
       metaDescription: `${grant.title} — ${grant.amount} ${grant.frequency}. Eligibility criteria, required documents, how to apply, and FAQs. ${grant.targetGroup}`,
       keywords: [grant.title, "SASSA grant", "social grant South Africa"],
     },

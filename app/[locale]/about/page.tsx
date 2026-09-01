@@ -5,11 +5,11 @@ import { canonicalUrl } from "@/lib/canonical";
 import { aboutPageSchema, webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
-  title: "About \u2014 SASSA Grant Guide | Independent Resource by Lucky Cungwa",
+  title: "About \u2014 SRD Grant Guide | Independent Resource by Lucky Cungwa",
   description: "Founded by Lucky Cungwa (44tagstudios). An independent, educational resource hub for SASSA social grant information in South Africa. Not affiliated with SASSA.",
   alternates: { canonical: canonicalUrl("/about") },
   openGraph: {
-    title: "About \u2014 SASSA Grant Guide | Independent Resource by Lucky Cungwa",
+    title: "About \u2014 SRD Grant Guide | Independent Resource by Lucky Cungwa",
     description: "Independent SASSA social grant information resource built by Lucky Cungwa.",
   },
 };
@@ -24,7 +24,7 @@ const standards = [
 ];
 
 export default function AboutPage() {
-  const pageSchema = webpageSchema("About \u2014 SASSA Grant Guide | Independent Resource by Lucky Cungwa", "Independent SASSA grant information resource built by Lucky Cungwa.", "/about");
+  const pageSchema = webpageSchema("About \u2014 SRD Grant Guide | Independent Resource by Lucky Cungwa", "Independent SASSA grant information resource built by Lucky Cungwa.", "/about");
   const aboutSchema = aboutPageSchema();
   const breadcrumb = breadcrumbSchema([{ name: "Home", url: "/" }, { name: "About", url: "/about" }]);
 

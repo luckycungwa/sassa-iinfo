@@ -1,4 +1,5 @@
 import type { ContentBlock, BasePage, PageClassification } from "../lib/schema/contentSchema";
+import type { JSX } from "react";
 import PageShell from "./PageShell";
 import SourcesSection from "./SourcesSection";
 import TableOfContents from "./TableOfContents";

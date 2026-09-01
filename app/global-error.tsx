@@ -11,7 +11,7 @@ export default function GlobalError({
     <html>
       <body>
         <div className="min-h-screen flex flex-col items-center justify-center bg-[#fafafa] text-[#1a1a1a] p-8">
-          <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-16 h-16 mb-6" />
+          <img src="/main-logo.svg" alt="SRD Grant Guide" className="w-16 h-16 mb-6" />
           <h1 className="text-3xl font-black tracking-tight mb-2">Something went wrong</h1>
           <p className="text-sm text-[#8a867e] mb-8 text-center max-w-md">
             A critical error occurred. Please try again.

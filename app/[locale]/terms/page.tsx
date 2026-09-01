@@ -3,7 +3,7 @@ import { Scale } from "lucide-react";
 import { canonicalUrl } from "@/lib/canonical";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | SASSA Grant Guide",
+  title: "Terms of Service | SRD Grant Guide",
   description: "Terms of service for using the SASSA Resource Platform. By using this site, you agree to these terms and acknowledge this is an independent informational resource.",
   alternates: { canonical: canonicalUrl("/terms") },
 };

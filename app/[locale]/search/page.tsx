@@ -7,7 +7,7 @@ import { webpageSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Search the SASSA Grant Guide for grants, statuses, payment dates, offices, guides, and answers.",
+  description: "Search the SRD Grant Guide for grants, statuses, payment dates, offices, guides, and answers.",
   robots: { index: false, follow: true },
   alternates: { canonical: canonicalUrl("/search") },
 };
@@ -20,7 +20,7 @@ export default async function SearchPage({
   const { q } = await searchParams;
   const query = (q || "").trim().slice(0, 100);
   const results = query.length >= 2 ? search(query).slice(0, 20) : [];
-  const schema = webpageSchema("Search | SASSA Grant Guide", "Search grants, statuses, offices, and guides.", "/search");
+  const schema = webpageSchema("Search | SRD Grant Guide", "Search grants, statuses, offices, and guides.", "/search");
 
   return (
     <>

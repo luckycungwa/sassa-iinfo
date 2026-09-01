@@ -3,8 +3,8 @@ import { FileText, Shield, Clock, CheckCircle, AlertTriangle, Search, UserCheck 
 import { canonicalUrl } from "@/lib/canonical";
 
 export const metadata: Metadata = {
-  title: "Editorial Policy | SASSA Grant Guide",
-  description: "How SASSA Grant Guide researches, verifies, and updates content about South African social grants. Accuracy standards, sourcing policy, and correction process.",
+  title: "Editorial Policy | SRD Grant Guide",
+  description: "How SRD Grant Guide researches, verifies, and updates content about South African social grants. Accuracy standards, sourcing policy, and correction process.",
   alternates: { canonical: canonicalUrl("/editorial-policy") },
 };
 
@@ -56,7 +56,7 @@ export default function EditorialPolicyPage() {
 
       <div className="bg-surface border border-border rounded-xl p-6 space-y-3">
         <p className="text-sm text-muted-foreground leading-relaxed">
-          This page explains the standards behind every article, guide, and data point on SASSA Grant Guide.
+          This page explains the standards behind every article, guide, and data point on SRD Grant Guide.
           If you want to know whether a number on this site can be trusted, this is where the answer lives.
         </p>
         <p className="text-sm text-muted-foreground leading-relaxed">

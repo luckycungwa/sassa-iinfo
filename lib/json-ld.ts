@@ -1,6 +1,6 @@
 import { TEAM } from "./team";
 
-const siteUrl = process.env.APP_URL || "https://sassagrantguide.co.za";
+const siteUrl = process.env.APP_URL || "https://srdgrantguide.co.za";
 
 const authorPerson = {
   "@type": "Person",
@@ -69,7 +69,7 @@ export function articleSchema(title: string, description: string, datePublished:
     publisher: {
       "@type": "Organization",
       "@id": `${siteUrl}/#organization`,
-      name: "SASSA Grant Guide",
+      name: "SRD Grant Guide",
       url: siteUrl,
       logo: {
         "@type": "ImageObject",
@@ -99,7 +99,7 @@ export function organizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${siteUrl}/#organization`,
-    name: "SASSA Grant Guide",
+    name: "SRD Grant Guide",
     description: "Independent guide to SASSA social grants in South Africa. Created by 44tagstudios.",
     url: siteUrl,
     logo: `${siteUrl}/favicon.svg`,
@@ -132,8 +132,8 @@ export function aboutPageSchema() {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "@id": `${siteUrl}/about`,
-    name: "About SASSA Grant Guide",
-    description: "Learn about the independent SASSA Grant Guide resource built by Lucky Cungwa.",
+    name: "About SRD Grant Guide",
+    description: "Learn about the independent SRD Grant Guide resource built by Lucky Cungwa.",
   };
 }
 
@@ -143,7 +143,7 @@ export function contactPageSchema() {
     "@type": "ContactPage",
     "@id": `${siteUrl}/contact`,
     name: "Contact Us",
-    description: "Get in touch with the SASSA Grant Guide team.",
+    description: "Get in touch with the SRD Grant Guide team.",
   };
 }
 
@@ -153,8 +153,8 @@ export function personSchema() {
     "@type": "Person",
     "@id": `${siteUrl}/about/lucky-cungwa`,
     name: "Lucky Cungwa",
-    jobTitle: "Editor & Founder, SASSA Grant Guide",
-    description: "Founder and editor of the SASSA Grant Guide, an independent resource for South African social grant information.",
+    jobTitle: "Editor & Founder, SRD Grant Guide",
+    description: "Founder and editor of the SRD Grant Guide, an independent resource for South African social grant information.",
     url: `${siteUrl}/about/lucky-cungwa`,
     sameAs: ["https://44tagstudios.co.za"],
     worksFor: {

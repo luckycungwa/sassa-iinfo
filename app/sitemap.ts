@@ -11,7 +11,7 @@ import { newsArticles } from "../lib/data/news";
 import { paymentMonths } from "../lib/data/paymentDates";
 import { loadAllContent, getLocalizedSlugs } from "../lib/content-loader";
 
-const baseUrl = process.env.APP_URL || "https://sassagrantguide.co.za";
+const baseUrl = process.env.APP_URL || "https://srdgrantguide.co.za";
 
 const staticRoutes = [
   { path: "", priority: 1.0, changefreq: "weekly" as const },

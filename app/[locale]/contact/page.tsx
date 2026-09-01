@@ -5,17 +5,17 @@ import { canonicalUrl } from "@/lib/canonical";
 import { contactPageSchema, webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
-  title: "Contact Us | SASSA Grant Guide",
-  description: "Contact the SASSA Grant Guide team. For official SASSA services, visit srd.sassa.gov.za or your nearest SASSA office.",
+  title: "Contact Us | SRD Grant Guide",
+  description: "Contact the SRD Grant Guide team. For official SASSA services, visit srd.sassa.gov.za or your nearest SASSA office.",
   alternates: { canonical: canonicalUrl("/contact") },
   openGraph: {
-    title: "Contact Us | SASSA Grant Guide",
-    description: "Contact the SASSA Grant Guide team. For official SASSA services, visit srd.sassa.gov.za.",
+    title: "Contact Us | SRD Grant Guide",
+    description: "Contact the SRD Grant Guide team. For official SASSA services, visit srd.sassa.gov.za.",
   },
 };
 
 export default function ContactPage() {
-  const pageSchema = webpageSchema("Contact Us | SASSA Grant Guide", "Contact the SASSA Grant Guide team. Official SASSA services at srd.sassa.gov.za.", "/contact");
+  const pageSchema = webpageSchema("Contact Us | SRD Grant Guide", "Contact the SRD Grant Guide team. Official SASSA services at srd.sassa.gov.za.", "/contact");
   const contactSchema = contactPageSchema();
   const breadcrumb = breadcrumbSchema([{ name: "Home", url: "/" }, { name: "Contact", url: "/contact" }]);
 
@@ -42,7 +42,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-[29px] font-black text-carbon leading-[1.1] tracking-[-0.007em]">Website inquiries</h2>
               <p className="text-base text-body leading-relaxed mt-4">
-                This contact page is for inquiries about the SASSA Grant Guide website itself &mdash; content suggestions,
+                This contact page is for inquiries about the SRD Grant Guide website itself &mdash; content suggestions,
                 corrections, technical issues, or general questions about our resource.
               </p>
               <p className="text-base text-body leading-relaxed mt-3">
