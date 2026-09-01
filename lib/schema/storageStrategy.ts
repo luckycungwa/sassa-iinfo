@@ -1,5 +1,5 @@
 /**
- * Content Storage Architecture for Static-First 5,000-Page System
+ * Content Storage Architecture for Static-First Content System
  *
  * Each content file is a standalone JSON document conforming to BasePage.
  * No runtime database. No CMS calls. All content is read at build time via

@@ -64,12 +64,12 @@ export default function GrantsHubPage() {
                 </Link>
               </div>
             </div>
-            <div className="w-52 shrink-0">
+            <div className="w-64 md:w-72 shrink-0">
               <Image
                 src="/hero-srd.webp"
                 alt="SASSA SRD R370 grant - social relief of distress"
-                width={208}
-                height={140}
+                width={288}
+                height={192}
                 className="w-full h-auto rounded-[2.85px]"
                 priority
               />

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -31,7 +31,7 @@ const navGroups: NavGroup[] = [
     ],
   },
   {
-    label: "Status & Appeals",
+    label: "Status",
     items: [
       { href: "/status", label: "Status Meanings", desc: "Application Status Codes" },
       { href: "/appeals", label: "Appeals Centre", desc: "ITSAA Appeal Process" },
@@ -51,6 +51,8 @@ const navGroups: NavGroup[] = [
       { href: "/faq", label: "FAQ", desc: "Common Questions" },
       { href: "/downloads", label: "Download Centre", desc: "Official Forms" },
       { href: "/news", label: "News", desc: "Official Announcements" },
+      { href: "/banking", label: "Banking Details", desc: "Payment Methods" },
+      { href: "/tools", label: "Interactive Tools", desc: "Calculators & Checkers" },
     ],
   },
   {
@@ -185,12 +187,17 @@ export default function TopNavbar() {
       <header className="sticky top-0 z-30 print:hidden bg-paper/90 backdrop-blur-sm border-b border-border">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link href="/" className="hover:opacity-80 transition-opacity flex-shrink-0 flex items-center gap-3">
-            <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-9 h-9" />
+            <span className="flex items-center justify-center w-9 h-9 rounded-[8px] bg-black">
+              <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-6 h-6" />
+            </span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
             {navGroups.map((group) => {
               const isOpen = openDropdown === group.label;
+              const hasActive = group.items.some(
+                (item) => pathname === item.href || pathname.startsWith(item.href + "/")
+              );
               return (
                 <div
                   key={group.label}
@@ -208,7 +215,7 @@ export default function TopNavbar() {
                     aria-expanded={isOpen}
                     aria-haspopup="true"
                     className={`flex items-center gap-1 px-3 py-2 rounded-[6px] text-xs font-bold transition ${
-                      isOpen
+                      isOpen || hasActive
                         ? "text-violet"
                         : "text-ash hover:text-ink hover:bg-fog/50"
                     }`}
@@ -216,26 +223,30 @@ export default function TopNavbar() {
                     <span>{group.label}</span>
                     <ChevronDown className={`w-3 h-3 transition ${isOpen ? "rotate-180" : ""}`} />
                   </button>
-                  {isOpen && (
-                    <div
-                      className="absolute top-full left-0 mt-1 w-64 bg-paper border border-border rounded-[6px] shadow-lg p-2 space-y-1 z-50"
-                      onMouseEnter={handleDropdownItemEnter}
-                      onMouseLeave={handleMouseLeave}
-                    >
-                      {group.items.map((item) => {
-                        const isItemActive =
-                          pathname === item.href || pathname.startsWith(item.href + "/");
-                        return (
-                          <Link
-                            key={item.href}
-                            href={item.href}
-                            onClick={() => setOpenDropdown(null)}
-                            className={`flex items-center justify-between p-3 rounded-[6px] transition group ${
-                              isItemActive
-                                ? "bg-yellow/10 text-violet"
-                                : "text-ash hover:bg-fog/50 hover:text-ink"
-                            }`}
-                          >
+                   {isOpen && (
+                     <div
+                       className="absolute top-full left-0 mt-1 w-72 bg-paper border border-border rounded-[6px] shadow-lg p-2 space-y-1 z-50"
+                       onMouseEnter={handleDropdownItemEnter}
+                       onMouseLeave={handleMouseLeave}
+                     >
+                       {group.items.map((item, idx) => {
+                         const isItemActive =
+                           pathname === item.href || pathname.startsWith(item.href + "/");
+                         const isNewItem = idx >= 4;
+                         return (
+                           <React.Fragment key={item.href}>
+                             {isNewItem && idx === 4 && (
+                               <div className="border-t border-border my-1" />
+                             )}
+                             <Link
+                               href={item.href}
+                               onClick={() => setOpenDropdown(null)}
+                               className={`flex items-center justify-between p-3 rounded-[6px] transition group ${
+                                 isItemActive
+                                   ? "bg-yellow/10 text-violet"
+                                   : "text-ash hover:bg-fog/50 hover:text-ink"
+                               }`}
+                             >
                             <div>
                               <p className="text-xs font-bold">{item.label}</p>
                               <p className="text-xs text-ash">{item.desc}</p>
@@ -246,6 +257,7 @@ export default function TopNavbar() {
                               }`}
                             />
                           </Link>
+                        </React.Fragment>
                         );
                       })}
                     </div>
@@ -259,7 +271,7 @@ export default function TopNavbar() {
             <SearchDialog />
             <LanguageSwitcher />
             <ThemeToggle />
-            <Link
+            {/* <Link
               href="/grants"
               className="hidden lg:inline-flex items-center gap-1.5 px-5 py-2.5 bg-violet text-white rounded-[22px] text-xs font-bold hover:opacity-90 transition shadow-[0_2px_8px_rgba(119,0,255,0.25)]"
             >
@@ -274,7 +286,7 @@ export default function TopNavbar() {
               className="lg:hidden p-2 text-ash hover:text-ink hover:bg-fog/60 rounded-[6px] transition"
             >
               {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </button>
+            </button> */}
           </div>
         </div>
       </header>

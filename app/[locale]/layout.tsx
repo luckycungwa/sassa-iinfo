@@ -178,7 +178,9 @@ export default async function LocaleLayout({
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                     <div className="space-y-3">
-                      <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-8 h-8 mb-1" />
+                      <span className="flex items-center justify-center w-8 h-8 rounded-[7px] bg-black">
+                        <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-5 h-5" />
+                      </span>
                       <p className="text-sm leading-relaxed text-carbon">
                         Independent SASSA grant guide. Not affiliated with SASSA or any government entity.
                       </p>

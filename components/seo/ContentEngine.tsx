@@ -11,9 +11,9 @@ category: "status-meanings"
 lastUpdated: "2026-06-25"
 version: "1.2.0"
 author:
-  name: "Sibongile Ndlovu"
-  role: "Social Assistance Consultant"
-  credentials: "BA Social Work, SASSA Advisor (Ex)"
+  name: "Lucky Cungwa"
+  role: "Editor / Publisher"
+  credentials: "44Tag Studios"
   verified: true
 seo:
   metaTitle: "SASSA Pending Status for 30 Days - How to Fix"
@@ -51,9 +51,9 @@ category: "grant-library"
 lastUpdated: "2026-06-18"
 version: "2.0.1"
 author:
-  name: "Dr. Alistair Mbeki"
-  role: "Public Policy Expert"
-  credentials: "PhD Development Economics, Wits"
+  name: "Lucky Cungwa"
+  role: "Editor / Publisher"
+  credentials: "44Tag Studios"
   verified: true
 seo:
   metaTitle: "SASSA Child Support Grant Rules & Expiry Limits"

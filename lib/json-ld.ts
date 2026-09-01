@@ -10,18 +10,22 @@ const authorPerson = {
 };
 
 const reviewedByPersons = [
-  {
-    "@type": "Person",
-    name: TEAM.medicalReviewer.name,
-    jobTitle: TEAM.medicalReviewer.role,
-    description: TEAM.medicalReviewer.credentials,
-  },
-  {
-    "@type": "Person",
-    name: TEAM.legalReviewer.name,
-    jobTitle: TEAM.legalReviewer.role,
-    description: TEAM.legalReviewer.credentials,
-  },
+  ...(TEAM.medicalReviewer
+    ? [{
+        "@type": "Person" as const,
+        name: TEAM.medicalReviewer.name,
+        jobTitle: TEAM.medicalReviewer.role,
+        description: TEAM.medicalReviewer.credentials,
+      }]
+    : []),
+  ...(TEAM.legalReviewer
+    ? [{
+        "@type": "Person" as const,
+        name: TEAM.legalReviewer.name,
+        jobTitle: TEAM.legalReviewer.role,
+        description: TEAM.legalReviewer.credentials,
+      }]
+    : []),
 ];
 
 export function faqSchema(questions: { question: string; answer: string }[]) {

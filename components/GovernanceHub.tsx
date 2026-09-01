@@ -41,9 +41,9 @@ const COMPLIANT_PAGE_TEMPLATE: BasePage = {
   version: "1.2.0",
   status: "published",
   author: {
-    name: "Dr. Sibongile Ndlovu",
-    role: "Social Assistance Paralegal",
-    credentials: "BA Social Work, Ex-SASSA Advisor",
+    name: "Lucky Cungwa",
+    role: "Editor / Publisher",
+    credentials: "44Tag Studios",
     verified: true
   },
   seo: {
@@ -82,16 +82,16 @@ const COMPLIANT_PAGE_TEMPLATE: BasePage = {
       type: "callout",
       intent: "warning",
       title: "Bank Account Mismatches",
-      text: "SASSA will automatically reject payments if your submitted bank account is registered under a relative's ID. The account holder's ID must match your 13-digit Smart ID card exactly."
+      text: "SASSA verifies that the bank account receiving your grant is in your own name and matches the ID number on your application. If the account is registered in someone else's name, the payment may be declined. Make sure the bank account you submit is yours."
     },
     {
       id: "pending-causes-list",
       type: "list",
       ordered: false,
       items: [
-        "Unusually high volume of monthly applicant reviews.",
-        "Temporary service connection drops with the Department of Labour (UIF) database.",
-        "Incomplete biometric or facial verification profiles."
+        "High volumes of monthly applicant reviews can slow processing.",
+        "SASSA cross-checks your details against national databases (e.g. Home Affairs, UIF, SARS).",
+        "Incomplete or missing application details can delay a decision."
       ]
     }
   ]
@@ -188,7 +188,7 @@ export default function GovernanceHub() {
               Design System Enforcement & Content Schema Board
             </h2>
             <p className="text-xs text-muted-foreground leading-relaxed font-sans">
-              Welcome, Architect. This dashboard defines the strict Content Schema rules and Visual Governance contracts required to maintain zero-drift architectural integrity across the platform&apos;s 5,000 static pages.
+              Welcome, Architect. This dashboard defines the strict Content Schema rules and Visual Governance contracts required to maintain zero-drift architectural integrity across the platform&apos;s static content library.
             </p>
           </div>
           <div className="flex-shrink-0 bg-canvas border border-border p-4 rounded-2xl flex items-center gap-3">
@@ -998,7 +998,7 @@ export default function GovernanceHub() {
                   Static-First Content Folder Structure
                 </h3>
                 <p className="text-xs text-muted-foreground font-mono mt-0.5">
-                  Proposed repository layout for hosting the platform&apos;s 5,000+ files efficiently
+                  Proposed repository layout for hosting the platform&apos;s content files efficiently
                 </p>
               </div>
 
@@ -1053,7 +1053,7 @@ export default function GovernanceHub() {
                       <span className="text-xs font-black text-ink">Content Versioning & Migration Strategy</span>
                     </div>
                     <p className="text-[11px] leading-relaxed text-ink font-sans">
-                      To prevent structural breaks across 5,000 pages when content fields change:
+                      To prevent structural breaks when content fields change:
                     </p>
                     <ul className="list-decimal pl-4 text-xs text-muted-foreground font-sans space-y-1">
                       <li>
