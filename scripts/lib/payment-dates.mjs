@@ -33,6 +33,7 @@ const LABELS = {
 export const GRANT_PAGE_FILES = {
   olderPersons: "older-persons-grant-payment-dates.json",
   disability: "disability-grant-payment-dates.json",
+  children: "child-support-grant-payment-dates.json",
 };
 
 function hasPassed(parts) {

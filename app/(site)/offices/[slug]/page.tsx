@@ -30,9 +30,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const office = offices.find((o) => o.id === slug);
   if (!office) return {};
   return {
-    title: `${office.name} | SASSA Office in ${office.city}, ${office.province}`,
-    description: `${office.name} in ${office.city}, ${office.province}. Address: ${office.address}. Phone: ${office.phone}. Hours: ${office.operatingHours}. Services: ${office.servicesOffered.join(", ")}.`,
+    title: `${office.name} — Address, Phone & Hours`,
+    description: `${office.name} in ${office.city}. Address, phone number, operating hours and services offered.`,
     alternates: { canonical: canonicalUrl(`/offices/${slug}`), languages: localeAlternates(`/offices/${slug}`) },
+    robots: { index: false, follow: true },
   };
 }
 
@@ -73,6 +74,9 @@ export default async function OfficeDetailPage({ params }: { params: Promise<{ s
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">{office.name}</h1>
           <p className="text-sm text-muted-foreground mt-1 capitalize">{office.city}, {office.province}</p>
+          <p className="text-xs text-muted-foreground mt-2">
+            Branch details can change. Confirm with SASSA on 0800 60 10 11 before travelling.
+          </p>
         </div>
 
         <div className="bg-surface border border-border rounded-xl p-5 space-y-4">

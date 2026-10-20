@@ -1,0 +1,252 @@
+{
+  "id": "status-reapplication-required",
+  "slug": "/status/reapplication-required",
+  "classification": "status-meaning",
+  "title": "Reapplication Required — What the SASSA Status Means",
+  "description": "SASSA status 'Reapplication Required' means your current application cannot be carried forward. Here is why it appears, how it differs from a decline, and how to reapply correctly.",
+  "lastUpdated": "2026-10-20",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Status 'Reapplication Required' — Meaning & Fix (2026)",
+    "metaDescription": "What 'Reapplication Required' means on your SASSA status check, why it is not a decline, and the steps to submit a fresh application without losing time.",
+    "keywords": [
+      "SASSA reapplication required",
+      "reapplication required meaning",
+      "SASSA status reapplication required",
+      "SRD reapplication required",
+      "SASSA reapply"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SASSA SRD Portal",
+      "url": "https://srd.sassa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Reapplication Required",
+      "description": "This status does not say you are ineligible. It says SASSA cannot process the application it has on record for that period, so a fresh application is needed.",
+      "readingTime": "4 min read",
+      "lastUpdated": "2026-10-20",
+      "cta": {
+        "text": "How to Apply",
+        "href": "/guides/how-to-apply-sassa-grant"
+      },
+      "secondaryCta": {
+        "text": "Check Status Meanings",
+        "href": "/status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "What 'Reapplication Required' Actually Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "When your status check returns 'Reapplication Required', SASSA is telling you that the application on its system has closed and cannot be used for the month you are checking. It is different from 'Declined', which is a decision on eligibility. Nothing has been decided here — there is simply no live application to assess.",
+      "links": [
+        {
+          "text": "declined status",
+          "href": "/status/declined"
+        },
+        {
+          "text": "pending status",
+          "href": "/status/pending"
+        }
+      ]
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Reapplication Required",
+      "explanation": "SASSA links every SRD payment to an application for a specific month. When that application lapses, is withdrawn, was never completed, or the record needs new details, the system returns 'Reapplication Required' instead of evaluating eligibility. It is an administrative state, not a finding that you earn too much or that your ID failed verification.",
+      "whyItHappens": [
+        "The application was started but never submitted, so no complete record exists.",
+        "The application period closed and SASSA requires a new application for the next period.",
+        "Contact or banking details could not be confirmed and the application was closed instead of suspended.",
+        "A previous application was withdrawn or replaced, leaving no active record.",
+        "You are checking a month that falls outside the period covered by your last application."
+      ],
+      "howLongItLasts": "It stays until you submit a new application or SASSA corrects the record. There is no automatic reinstatement, which is why beneficiaries who wait lose weeks.",
+      "whatYouShouldDo": [
+        "Note which month the status refers to before doing anything else.",
+        "If you never received a reference number, the application did not submit — apply again.",
+        "Reapply on the SRD portal using the same ID number and the same phone number as before.",
+        "Confirm your bank details in the same session so the new application does not fail verification.",
+        "Keep the new reference number and check the status weekly until it moves to Pending or Approved.",
+        "If you believe an application was live, call 0800 60 10 11 before reapplying so you do not create a duplicate."
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Pending",
+          "slug": "pending"
+        },
+        {
+          "name": "No Records Found",
+          "slug": "no-records-found"
+        },
+        {
+          "name": "Declined",
+          "slug": "declined"
+        }
+      ]
+    },
+    {
+      "id": "not-decline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Reapplication Required vs Declined"
+    },
+    {
+      "id": "compare-table",
+      "type": "table",
+      "headers": [
+        "Status",
+        "What SASSA decided",
+        "What you do next"
+      ],
+      "rows": [
+        [
+          "Reapplication Required",
+          "No decision — there is no live application",
+          "Submit a new application"
+        ],
+        [
+          "Declined",
+          "You did not qualify for that month",
+          "Fix the reason or appeal within 90 days"
+        ],
+        [
+          "Pending",
+          "A live application is being verified",
+          "Wait and check weekly"
+        ],
+        [
+          "No Records Found",
+          "SASSA cannot match your details to any application",
+          "Check your ID and phone number, then reapply"
+        ]
+      ],
+      "caption": "How the administrative statuses differ"
+    },
+    {
+      "id": "reapply-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How to reapply without losing another month"
+    },
+    {
+      "id": "reapply-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Use the same identity details",
+          "description": "Enter your ID number exactly as it appears on your Smart ID or green ID book. A single wrong digit creates a second record and delays everything."
+        },
+        {
+          "title": "Use a phone number you control",
+          "description": "The one-time PIN goes to the number on the application. If you changed SIM cards, update the number first — see the phone number guide."
+        },
+        {
+          "title": "Confirm your bank details",
+          "description": "The account must be in your own name. A joint account, a closed account or someone else's account will fail verification."
+        },
+        {
+          "title": "Submit and save the reference",
+          "description": "Screenshot the confirmation screen and keep the SMS. Without a reference number you cannot prove the application exists."
+        }
+      ]
+    },
+    {
+      "id": "warning-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Do not pay anyone to 'fix' this status",
+      "text": "Reapplying is free. Anyone charging a fee to clear a status or 'speed up' an application is taking advantage of you. SASSA staff will never ask for your PIN or a payment to change a status."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Does Reapplication Required mean I am declined?",
+          "answer": "No. A decline is a decision that you did not qualify for that month. Reapplication Required means there was no complete, live application for SASSA to assess."
+        },
+        {
+          "question": "Will I be paid for the months I missed?",
+          "answer": "SRD is paid per approved month and does not backdate automatically across a gap. That is why reapplying promptly matters more than waiting for the old status to change."
+        },
+        {
+          "question": "Can I reapply immediately?",
+          "answer": "Yes. There is no waiting period after this status. Submit a new application and keep the reference number."
+        },
+        {
+          "question": "I already reapplied but still see the old status. Why?",
+          "answer": "Status checks can lag behind a new submission by a few days. Confirm you received a reference number; if you did not, the application did not go through."
+        },
+        {
+          "question": "What if I cannot remember the phone number I used?",
+          "answer": "You cannot recover the old application without it. Reapply with a number you control, and update your details at a SASSA office if the old number is still linked to your ID."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How to Apply for a SASSA Grant",
+          "href": "/guides/how-to-apply-sassa-grant"
+        },
+        {
+          "title": "Change Your SRD Phone Number",
+          "href": "/guides/change-srd-phone-number"
+        },
+        {
+          "title": "How to Check Your Status",
+          "href": "/guides/how-to-check-sassa-status"
+        },
+        {
+          "title": "No Records Found",
+          "href": "/status/no-records-found"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "How to Apply",
+      "slug": "/guides/how-to-apply-sassa-grant"
+    },
+    {
+      "title": "No Records Found",
+      "slug": "/status/no-records-found"
+    },
+    {
+      "title": "Declined",
+      "slug": "/status/declined"
+    }
+  ]
+}

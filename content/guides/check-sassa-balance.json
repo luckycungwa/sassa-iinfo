@@ -1,0 +1,333 @@
+{
+  "id": "guide-check-sassa-balance",
+  "slug": "/guides/check-sassa-balance",
+  "classification": "how-to-guide",
+  "title": "How to Check Your SASSA Balance (and Why There Is No SASSA Balance Code)",
+  "description": "SASSA does not run a grant balance service. Here is where your SASSA money actually sits, how to check it on a Postbank card or bank account, and what the USSD codes really show.",
+  "lastUpdated": "2026-10-20",
+  "lastReviewed": "2026-10-20",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "How to Check Your SASSA Balance (2026) — Postbank & Bank",
+    "metaDescription": "There is no SASSA balance USSD code. Learn how to check your grant balance on a Postbank card or bank account, and what *120*3210# actually shows.",
+    "keywords": [
+      "check SASSA balance",
+      "SASSA balance check",
+      "SASSA balance USSD code",
+      "Postbank balance check",
+      "SASSA grant balance"
+    ]
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "How to Check Your SASSA Balance",
+      "description": "Your grant money does not sit in a SASSA account, so SASSA cannot tell you a balance. Here is exactly where to check it, depending on how you are paid.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-10-20",
+      "cta": {
+        "text": "Check Your Grant Status",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "text": "Payment Dates",
+        "href": "/payment-dates"
+      }
+    },
+    {
+      "id": "truth-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "There is no SASSA balance code",
+      "text": "SASSA does not hold your grant in an account and does not offer a balance enquiry service. Websites promising a 'SASSA balance check' with your ID number are either repeating an old myth or collecting your personal details. The USSD codes show your application status and payment date — not a balance."
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "This trips up thousands of beneficiaries every month. You are approved, the payment date has passed, and you want to know whether the money is there. The answer depends entirely on how SASSA pays you: a bank account in your name, a Postbank card, or cash collected at a retailer.",
+      "links": [
+        {
+          "text": "how SASSA pays grants",
+          "href": "/banking/payment-methods"
+        },
+        {
+          "text": "payment not reflecting",
+          "href": "/banking/payment-not-reflecting"
+        }
+      ]
+    },
+    {
+      "id": "where-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Where to check, by payment method"
+    },
+    {
+      "id": "where-table",
+      "type": "table",
+      "headers": [
+        "How you are paid",
+        "Where the money sits",
+        "How to check"
+      ],
+      "rows": [
+        [
+          "Bank account in your name",
+          "Your bank",
+          "Banking app, bank USSD line, ATM, or statement"
+        ],
+        [
+          "Postbank card",
+          "Your Postbank account",
+          "ATM balance enquiry, retailer till, or Postbank on 0800 53 54 55"
+        ],
+        [
+          "Cash at a retailer",
+          "Collected in person",
+          "No balance to check — collect on your payment date with your ID"
+        ],
+        [
+          "SRD R370",
+          "Your bank account or collection point",
+          "SRD portal status shows Approved or Paid; the amount is fixed at R370"
+        ]
+      ],
+      "caption": "Where SASSA grant money can be checked"
+    },
+    {
+      "id": "bank-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If your grant is paid into a bank account"
+    },
+    {
+      "id": "bank-p",
+      "type": "paragraph",
+      "text": "The money is in your own bank account, so your bank is the only place that can show the balance. Use the bank's app, its USSD line, an ATM, or your monthly statement. SASSA has no access to that account and cannot see the balance, even at an office.",
+      "links": [
+        {
+          "text": "update your bank details",
+          "href": "/banking/update-bank-details"
+        },
+        {
+          "text": "bank verification pending",
+          "href": "/status/bank-verification"
+        }
+      ]
+    },
+    {
+      "id": "bank-p2",
+      "type": "paragraph",
+      "text": "On your statement, a SASSA grant usually appears as a deposit from SASSA or the Department of Social Development, often with a reference such as the grant type. If the payment date has passed and there is no deposit after three working days, treat it as a missing payment rather than a balance question."
+    },
+    {
+      "id": "postbank-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If you use a Postbank card"
+    },
+    {
+      "id": "postbank-list",
+      "type": "list",
+      "items": [
+        "Insert the card at any ATM and choose Balance Enquiry. Fees may apply after the first enquiry in a month.",
+        "Ask for the balance at the till when you draw cash at Shoprite, Checkers, Usave, Pick n Pay, Boxer or Spar.",
+        "Call Postbank on 0800 53 54 55 for account help and card queries.",
+        "Keep the card in your own name and never give the PIN to anyone, including someone offering to 'check' it for you."
+      ]
+    },
+    {
+      "id": "postbank-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Gold Cards stopped working on 31 August 2026",
+      "text": "If you still have a gold SASSA card, your money is safe in the Postbank account but you cannot withdraw it. Swap to the free Postbank Black Card at a participating retailer with your ID. No forms and no fee.",
+      "links": [
+        {
+          "label": "How to swap your card",
+          "href": "/banking/black-card-swap"
+        }
+      ]
+    },
+    {
+      "id": "ussd-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What the USSD codes actually show"
+    },
+    {
+      "id": "ussd-p",
+      "type": "paragraph",
+      "text": "Dialling *134*7737# opens the SASSA menu and *120*3210# is the SRD R370 line. Both return grant information: whether you are approved or declined for the month, and your payment date once it is scheduled. Neither returns a bank balance, because SASSA does not hold the money after release.",
+      "links": [
+        {
+          "text": "all SASSA USSD codes",
+          "href": "/banking/sassa-ussd-codes"
+        }
+      ]
+    },
+    {
+      "id": "ussd-p2",
+      "type": "paragraph",
+      "text": "If a USSD session ends with 'service not supported', the code is not available on your network at that moment. That message says nothing about your grant. Use the official portal or call 0800 60 10 11 instead of trying an unverified code from a WhatsApp group."
+    },
+    {
+      "id": "srd-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The SRD R370 grant has no balance"
+    },
+    {
+      "id": "srd-p",
+      "type": "paragraph",
+      "text": "The SRD grant is a fixed R370 for the month. There is no accumulating balance to check: either the month is approved and paid, or it is not. On the SRD portal, an approved month with a payment date means the money has been scheduled. A 'Paid' status means the batch has been released, and your bank or collection point is then the place to confirm it arrived.",
+      "links": [
+        {
+          "text": "SRD status meanings",
+          "href": "/status"
+        },
+        {
+          "text": "approved but no payment date",
+          "href": "/status/approved"
+        }
+      ]
+    },
+    {
+      "id": "missing-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If the balance is lower than you expected"
+    },
+    {
+      "id": "missing-list",
+      "type": "list",
+      "items": [
+        "Check for an unauthorised deduction or airtime purchase on the card — ask your bank or Postbank for a transaction history.",
+        "Confirm that a loan or funeral policy debit order is not attached to the account. You can dispute deductions you did not authorise.",
+        "Remember that ATM and balance enquiry fees reduce the balance, so the grant amount and the available balance are rarely identical.",
+        "If the full grant is missing, check your SASSA status first: a bank verification failure or suspension stops the deposit before it leaves SASSA."
+      ]
+    },
+    {
+      "id": "scam-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Never use an unofficial balance site"
+    },
+    {
+      "id": "scam-p",
+      "type": "paragraph",
+      "text": "A balance check needs your ID number and often your card details. That is exactly the information a phishing site wants. SASSA's only official addresses end in sassa.gov.za, and no SASSA or Postbank agent will ask for your PIN or one-time PIN to 'check' anything.",
+      "links": [
+        {
+          "text": "SASSA scam warning guide",
+          "href": "/guides/sassa-scam-alert-guide"
+        }
+      ]
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently asked questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Is there a SASSA balance check USSD code?",
+          "answer": "No. SASSA does not offer a balance enquiry service. *134*7737# and *120*3210# show grant status and payment dates. Your balance is held by your bank or Postbank."
+        },
+        {
+          "question": "How do I check my SASSA balance without airtime?",
+          "answer": "You cannot check a bank balance without airtime or data unless you use a free channel from your bank. Postbank cardholders can ask for the balance at a retailer till or use an ATM. SASSA's toll-free line 0800 60 10 11 can help with grant status, not a balance."
+        },
+        {
+          "question": "Why does my SASSA status say paid but there is no money?",
+          "answer": "A 'Paid' status means SASSA released the batch, not that your bank has credited you. Allow one to three working days. If nothing arrives after five working days, check your banking details and then call 0800 60 10 11."
+        },
+        {
+          "question": "Can a SASSA office tell me my balance?",
+          "answer": "No. Once the grant is released, the money is held by your bank or Postbank. A SASSA office can see your grant status and payment history, but not your account balance."
+        },
+        {
+          "question": "How much should the Child Support Grant balance be?",
+          "answer": "R580 per child per month from April 2026. If you have three children on the grant, the deposit should be R1,740 before any bank fees or deductions."
+        },
+        {
+          "question": "Someone offered to check my SASSA balance for a fee. Is that legitimate?",
+          "answer": "No. SASSA services are free, and no legitimate agent needs your PIN, OTP or card to check a balance. Report the number on 0800 60 10 11."
+        }
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "Payment channels and helpline numbers are the official SASSA and Postbank contact points published for beneficiaries.",
+      "sources": [
+        {
+          "label": "SASSA official website",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SASSA SRD portal",
+          "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "SASSA toll-free helpline",
+          "url": "tel:0800601011"
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "type": "link-grid",
+      "title": "Related Guides",
+      "links": [
+        {
+          "title": "SASSA USSD Codes",
+          "href": "/banking/sassa-ussd-codes"
+        },
+        {
+          "title": "Payment Not Reflecting",
+          "href": "/banking/payment-not-reflecting"
+        },
+        {
+          "title": "Postbank Black Card Swap",
+          "href": "/banking/black-card-swap"
+        },
+        {
+          "title": "How to Check Your Status",
+          "href": "/guides/how-to-check-sassa-status"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "SASSA USSD Codes",
+      "slug": "/banking/sassa-ussd-codes"
+    },
+    {
+      "title": "Payment Methods",
+      "slug": "/banking/payment-methods"
+    },
+    {
+      "title": "Payment Not Reflecting",
+      "slug": "/banking/payment-not-reflecting"
+    }
+  ]
+}

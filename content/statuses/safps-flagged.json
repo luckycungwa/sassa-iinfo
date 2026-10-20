@@ -1,0 +1,227 @@
+{
+  "id": "status-safps-flagged",
+  "slug": "/status/safps-flagged",
+  "classification": "status-meaning",
+  "title": "SAFPS Flagged — What It Means on Your SASSA Status",
+  "description": "SASSA status 'SAFPS Flagged' means an identity or fraud-protection check on your ID did not clear. Here is how to get your SAFPS letter and resolve it.",
+  "lastUpdated": "2026-10-20",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA 'SAFPS Flagged' Status — Meaning & How to Clear It",
+    "metaDescription": "What a SAFPS flag on your SASSA status means, how to get your free SAFPS letter or clearance, and what to take to SASSA to get the application moving.",
+    "keywords": [
+      "SAFPS flagged SASSA",
+      "SAFPS flag meaning",
+      "SASSA status SAFPS",
+      "SAFPS clearance letter",
+      "SASSA fraud flag"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Southern African Fraud Prevention Service",
+      "url": "https://www.safps.org.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "SAFPS Flagged",
+      "description": "A SAFPS flag is a fraud-protection listing on your ID, usually created to protect you. SASSA cannot finalise verification until the listing is explained.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-10-20",
+      "cta": {
+        "text": "Fix Identity Verification",
+        "href": "/status/identity-verification"
+      },
+      "secondaryCta": {
+        "text": "All Status Meanings",
+        "href": "/status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "What 'SAFPS Flagged' Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The Southern African Fraud Prevention Service keeps a database that banks and other members use to spot impersonation. A 'SAFPS Flagged' result usually means there is a listing against your ID number — most often a protective registration you or a family member created after a lost ID or a fraud attempt. It is not a criminal record, and in most cases it is not an accusation.",
+      "links": [
+        {
+          "text": "identity verification status",
+          "href": "/status/identity-verification"
+        }
+      ]
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "SAFPS Flagged",
+      "explanation": "SASSA screens applicant details against identity and fraud-prevention data before approving a month. When a SAFPS listing or a mismatch appears against your ID, the automated check cannot confirm that the applicant is the genuine ID holder, so the month is held or declined. The flag has to be explained with a document from SAFPS, not argued over the phone.",
+      "whyItHappens": [
+        "You registered a protective alert after losing an ID or suspecting identity theft.",
+        "Someone opened accounts or applications using your ID number.",
+        "Your ID was reported lost or stolen and the listing was never removed.",
+        "A family member registered a protective listing on your behalf.",
+        "Your details were captured differently by a bank or employer, creating a mismatch."
+      ],
+      "howLongItLasts": "A protective registration stays on the database until you ask SAFPS to remove or update it. SASSA will keep returning the flag on each new application until you supply the letter that explains the listing.",
+      "whatYouShouldDo": [
+        "Call SAFPS on 011 867 2234 and follow the voice prompts if you already have a listing — a copy of your letter can be emailed to the address on record.",
+        "If you have no listing, ask SAFPS to confirm in writing what, if anything, is recorded against your ID.",
+        "Email protection@safps.org.za if you need to apply for or update a protective registration. The service is free.",
+        "If you suspect impersonation, open a case at SAPS and keep the case number.",
+        "Take the SAFPS letter, your ID and any SAPS case number to a SASSA office so the record can be annotated.",
+        "Appeal the declined month within 90 days and attach the same documents."
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Identity Verification",
+          "slug": "identity-verification"
+        },
+        {
+          "name": "Referred",
+          "slug": "referred"
+        },
+        {
+          "name": "Declined",
+          "slug": "declined"
+        }
+      ]
+    },
+    {
+      "id": "warning-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "SAFPS never charges you",
+      "text": "SAFPS states plainly that it will never charge for its services, never ask you to pay to recover money, and never contact you on WhatsApp. Anyone offering to 'clear your SAFPS flag' for a fee is running a scam. SASSA also never charges to resolve a status."
+    },
+    {
+      "id": "steps-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Getting the letter SASSA needs"
+    },
+    {
+      "id": "letter-table",
+      "type": "table",
+      "headers": [
+        "Your situation",
+        "What to request",
+        "How"
+      ],
+      "rows": [
+        [
+          "You know you have a listing",
+          "Copy of your SAFPS letter",
+          "Call 011 867 2234 and use the IVR, or email safps@safps.org.za"
+        ],
+        [
+          "You are not sure",
+          "Written confirmation of your record",
+          "Call the SAFPS contact centre"
+        ],
+        [
+          "Your ID was used by someone else",
+          "SAFPS letter plus a SAPS case number",
+          "SAFPS, then your nearest police station"
+        ],
+        [
+          "You need protection going forward",
+          "Protective registration",
+          "protection@safps.org.za — free, with a certified ID copy"
+        ]
+      ],
+      "caption": "Documents that resolve a SAFPS flag"
+    },
+    {
+      "id": "timeline-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Do not wait for the status to clear itself",
+      "text": "The flag does not expire on its own and SASSA cannot remove a SAFPS listing. Request the letter first, then take it to SASSA. Beneficiaries who wait usually lose a second month for no reason."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Does a SAFPS flag mean I am accused of fraud?",
+          "answer": "No. Most listings are protective registrations created to stop someone else using your ID. A flag means the check could not be completed automatically, not that you have been found guilty of anything."
+        },
+        {
+          "question": "Is SAFPS part of SASSA or the police?",
+          "answer": "No. SAFPS is a non-profit fraud-prevention organisation funded by its members. It is not a government department and is not connected to SAPS."
+        },
+        {
+          "question": "How much does a SAFPS letter cost?",
+          "answer": "Nothing. SAFPS does not charge the public for protective registration or for a copy of your listing letter."
+        },
+        {
+          "question": "Will clearing the flag restore my grant automatically?",
+          "answer": "Not automatically. Once the record is corrected you may still need to reapply for the current month or appeal the month that was declined."
+        },
+        {
+          "question": "Can I resolve this at a SASSA office without the letter?",
+          "answer": "An office can note your explanation, but the verification team needs the SAFPS document. Without it the same flag is likely to return."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Identity Verification Failed",
+          "href": "/status/identity-verification"
+        },
+        {
+          "title": "Referred for Investigation",
+          "href": "/status/referred"
+        },
+        {
+          "title": "SASSA Scam Alert Guide",
+          "href": "/guides/sassa-scam-alert-guide"
+        },
+        {
+          "title": "How to Appeal",
+          "href": "/appeals/how-to-appeal"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Identity Verification",
+      "slug": "/status/identity-verification"
+    },
+    {
+      "title": "Referred",
+      "slug": "/status/referred"
+    },
+    {
+      "title": "SASSA Scam Alert Guide",
+      "slug": "/guides/sassa-scam-alert-guide"
+    }
+  ]
+}

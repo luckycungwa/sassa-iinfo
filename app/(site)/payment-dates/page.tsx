@@ -145,6 +145,15 @@ export default function PaymentDatesPage() {
                 <p className="text-xs text-ash">Payout schedule</p>
               </div>
             </Link>
+            <Link href="/payment-dates/child-support-grant-payment-dates" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
+              <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
+                <CalendarDays className="w-5 h-5 text-violet" />
+              </div>
+              <div>
+                <p className="text-sm font-black text-carbon group-hover:text-violet transition">Child Support Grant Dates</p>
+                <p className="text-xs text-ash">Children&apos;s payment day</p>
+              </div>
+            </Link>
             <Link href="/guides/how-to-check-sassa-status" className="flex items-center gap-3 p-4 card hover:bg-yellow/30 transition group">
               <div className="w-10 h-10 rounded-[2.85px] bg-violet/10 flex items-center justify-center shrink-0">
                 <CalendarDays className="w-5 h-5 text-violet" />

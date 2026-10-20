@@ -1,0 +1,227 @@
+{
+  "id": "status-no-records-found",
+  "slug": "/status/no-records-found",
+  "classification": "status-meaning",
+  "title": "No Records Found — Why SASSA Cannot Find Your Application",
+  "description": "SASSA status 'No Records Found' does not mean you were declined. It usually means the ID or phone number used did not match an application. Here is how to fix it.",
+  "lastUpdated": "2026-10-20",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA 'No Records Found' Status — Causes & Fix (2026)",
+    "metaDescription": "Why SASSA returns 'No Records Found', how to check with the right ID and phone number, and when you need to submit a fresh application instead.",
+    "keywords": [
+      "SASSA no records found",
+      "no records found SASSA status",
+      "SASSA application not found",
+      "SASSA status no record",
+      "SASSA cannot find my application"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SASSA SRD Portal",
+      "url": "https://srd.sassa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "No Records Found",
+      "description": "This is a matching problem, not a decision on your grant. SASSA could not link the details you entered to an application.",
+      "readingTime": "4 min read",
+      "lastUpdated": "2026-10-20",
+      "cta": {
+        "text": "How to Check Your Status",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "text": "All Status Meanings",
+        "href": "/status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "What 'No Records Found' Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "When the status check cannot find an application, it returns 'No Records Found'. Nine times out of ten the cause is a mismatch: an ID digit typed incorrectly, a phone number that has changed, or an application that was started but never submitted. It does not mean you were declined and it does not mean you are blacklisted.",
+      "links": [
+        {
+          "text": "change your phone number",
+          "href": "/guides/change-srd-phone-number"
+        }
+      ]
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "No Records Found",
+      "explanation": "The status lookup matches the ID number and the cellphone number you enter against the application record. If either differs by even one character, or if no complete application was ever saved, the system has nothing to display. Older applications that were closed or replaced also stop appearing.",
+      "whyItHappens": [
+        "The ID number was typed with a wrong digit or the wrong document type was selected.",
+        "The phone number entered is not the number used on the application.",
+        "The application was started but never submitted, so no record was created.",
+        "The application was submitted under a different phone number or by an agent.",
+        "An older application was closed and a new one has not been submitted.",
+        "The record is still loading after a recent submission."
+      ],
+      "howLongItLasts": "Until the correct details are used or a new application is submitted. It will not change on its own if no application exists.",
+      "whatYouShouldDo": [
+        "Retry with your ID number exactly as printed, with no spaces.",
+        "Use the cellphone number that received the application SMS, not a new number.",
+        "Check your SMS inbox for a reference number — if you have one, the application exists.",
+        "If you applied through an agent or internet cafe, ask which phone number was used.",
+        "If no reference number exists, submit a fresh application and keep the confirmation.",
+        "If you are certain an application exists, call 0800 60 10 11 or visit an office with your ID."
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Reapplication Required",
+          "slug": "reapplication-required"
+        },
+        {
+          "name": "Pending",
+          "slug": "pending"
+        },
+        {
+          "name": "Identity Verification",
+          "slug": "identity-verification"
+        }
+      ]
+    },
+    {
+      "id": "checklist-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Check these before you reapply"
+    },
+    {
+      "id": "checklist-table",
+      "type": "table",
+      "headers": [
+        "Check",
+        "Why it matters"
+      ],
+      "rows": [
+        [
+          "ID number typed exactly as on the document",
+          "One wrong digit returns no record"
+        ],
+        [
+          "Same cellphone number as the application",
+          "The lookup matches on the number on file"
+        ],
+        [
+          "SMS confirmation or reference number",
+          "Proves the application submitted"
+        ],
+        [
+          "Whether an agent submitted for you",
+          "Agents often use their own contact number"
+        ],
+        [
+          "Whether the month you are checking is covered",
+          "Status checks only show active application periods"
+        ]
+      ],
+      "caption": "Common causes of a no-record result"
+    },
+    {
+      "id": "not-decline-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "No record is not a decline",
+      "text": "A decline is a decision that you did not qualify. No Records Found means SASSA has nothing to decide on. If you have no reference number, the practical answer is usually to apply again rather than keep checking."
+    },
+    {
+      "id": "agent-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Be careful with agents",
+      "text": "Some internet cafes charge a fee and submit applications using their own phone number, which leaves you unable to check the status. Always ask for the reference number and make sure your own number is on the application."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Does No Records Found mean my grant was cancelled?",
+          "answer": "No. It means no application could be matched to the details you entered. A cancelled grant would normally show a cancellation or inactive status."
+        },
+        {
+          "question": "I just applied. Why does it already say no records?",
+          "answer": "New submissions can take a short while to appear, and sometimes a day or two over peak periods. Keep the reference number and check again."
+        },
+        {
+          "question": "Can I check with a different phone number?",
+          "answer": "The lookup must use the number on the application. If you no longer have that SIM, visit an office to update the number before checking again."
+        },
+        {
+          "question": "Should I reapply if I already have a reference number?",
+          "answer": "No. Reapplying with an existing reference can create a duplicate. Call 0800 60 10 11 or visit an office to trace the existing application."
+        },
+        {
+          "question": "Does this status affect my ID or credit record?",
+          "answer": "No. It is only a grant application lookup result and has no effect on your ID, credit record or eligibility."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "How to Check Your SASSA Status",
+          "href": "/guides/how-to-check-sassa-status"
+        },
+        {
+          "title": "Change Your SRD Phone Number",
+          "href": "/guides/change-srd-phone-number"
+        },
+        {
+          "title": "Reapplication Required",
+          "href": "/status/reapplication-required"
+        },
+        {
+          "title": "How to Apply",
+          "href": "/guides/how-to-apply-sassa-grant"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "How to Check Your Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    },
+    {
+      "title": "Change Your Phone Number",
+      "slug": "/guides/change-srd-phone-number"
+    },
+    {
+      "title": "Reapplication Required",
+      "slug": "/status/reapplication-required"
+    }
+  ]
+}

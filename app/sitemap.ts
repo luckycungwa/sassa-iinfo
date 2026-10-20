@@ -9,7 +9,6 @@ import { provinces } from "../lib/data/provinces";
 import { guides } from "../lib/data/guides";
 import { bankingGuides } from "../lib/data/banking";
 import { paymentMonths } from "../lib/data/paymentDates";
-import { offices } from "../lib/data/offices";
 import { loadAllContent } from "../lib/content-loader";
 
 const baseUrl = SITE_URL;
@@ -124,13 +123,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const officeRoutes = offices.map((o) => ({
-    url: `${baseUrl}/offices/${o.id}`,
-    lastModified: new Date(latestContentDate),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
   const allRoutes = [
     ...routes,
     ...jsonPages,
@@ -143,7 +135,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...guideRoutes,
     ...bankingRoutes,
     ...paymentDateRoutes,
-    ...officeRoutes,
   ];
 
   const seen = new Set<string>();

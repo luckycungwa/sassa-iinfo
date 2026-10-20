@@ -1,0 +1,339 @@
+{
+  "id": "payment-dates-child-support-grant",
+  "slug": "/payment-dates/child-support-grant-payment-dates",
+  "classification": "payment-date",
+  "title": "Child Support Grant Payment Dates 2026",
+  "description": "Every confirmed SASSA Child Support Grant payment date for 2026, including the children's payment day, how the third payment date in the cycle works, and what to do when a payment is late.",
+  "lastUpdated": "2026-10-20",
+  "lastReviewed": "2026-10-20",
+  "version": "1.0.0",
+  "readingTime": "6 min read",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA Child Support Grant Payment Dates 2026 — Full Schedule",
+    "metaDescription": "All SASSA Child Support Grant payment dates for 2026: the children's payment day month by month, why the date moves, and what to do if your R580 is late.",
+    "keywords": [
+      "SASSA child support grant payment dates",
+      "child support grant payment date 2026",
+      "when is child support paid",
+      "SASSA children's grant payment date",
+      "child support grant late payment"
+    ],
+    "schemaMarkup": {
+      "@type": "GovernmentService",
+      "name": "SASSA Child Support Grant Payment Dates 2026"
+    }
+  },
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Child Support Grant Payment Dates 2026",
+      "description": "The Child Support Grant is paid on the children's payment day — the third payment date in SASSA's monthly cycle. Here is every 2026 date, plus what to do if your money does not arrive.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-10-20",
+      "cta": {
+        "text": "Check Your Status",
+        "href": "/guides/how-to-check-sassa-status"
+      },
+      "secondaryCta": {
+        "text": "All Payment Dates",
+        "href": "/payment-dates"
+      }
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "SASSA pays grants in a fixed order every month: older persons first, disability second, then children's grants. The Child Support Grant sits in that third group, together with the Foster Child Grant and the Care Dependency Grant. That means the date you see below is the date the money is released, not necessarily the day it lands in your account.",
+      "links": [
+        {
+          "text": "full payment schedule",
+          "href": "/payment-dates"
+        },
+        {
+          "text": "SRD R370 grant",
+          "href": "/grants/srd-r370-grant"
+        }
+      ]
+    },
+    {
+      "id": "current-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The next Child Support Grant payment date"
+    },
+    {
+      "id": "current-p",
+      "type": "paragraph",
+      "text": "The next children's payment day is Tuesday 3 November 2026. SASSA confirmed this revised November schedule on 15 October 2026, moving the children's date forward because the local government elections on Wednesday 4 November are a public holiday. December 2026 is still provisional at Friday 4 December 2026."
+    },
+    {
+      "id": "dates-table",
+      "type": "table",
+      "headers": [
+        "Month",
+        "Payment Date",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "January 2026",
+          "6 January 2026",
+          "Paid"
+        ],
+        [
+          "February 2026",
+          "5 February 2026",
+          "Paid"
+        ],
+        [
+          "March 2026",
+          "5 March 2026",
+          "Paid"
+        ],
+        [
+          "April 2026",
+          "6 April 2026",
+          "Paid"
+        ],
+        [
+          "May 2026",
+          "6 May 2026",
+          "Paid"
+        ],
+        [
+          "June 2026",
+          "5 June 2026",
+          "Paid"
+        ],
+        [
+          "July 2026",
+          "5 July 2026",
+          "Paid"
+        ],
+        [
+          "August 2026",
+          "6 August 2026",
+          "Paid"
+        ],
+        [
+          "September 2026",
+          "4 September 2026",
+          "Paid"
+        ],
+        [
+          "October 2026",
+          "6 October 2026",
+          "Paid"
+        ],
+        [
+          "November 2026",
+          "3 November 2026",
+          "Confirmed"
+        ],
+        [
+          "December 2026",
+          "4 December 2026",
+          "Provisional"
+        ]
+      ],
+      "caption": "SASSA Child Support Grant payment dates for 2026"
+    },
+    {
+      "id": "cycle-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Why the date moves every month"
+    },
+    {
+      "id": "cycle-p",
+      "type": "paragraph",
+      "text": "SASSA does not pay on a fixed calendar number. It pays on the first available working days of the month, which is why the children's date lands anywhere between the 3rd and the 6th. A month that opens on a weekend or a public holiday pushes every payment day later, and a public holiday inside the first week — like the 4 November elections — can pull dates forward instead.",
+      "links": [
+        {
+          "text": "October 2026 dates",
+          "href": "/payment-dates/2026-october"
+        },
+        {
+          "text": "November 2026 dates",
+          "href": "/payment-dates/2026-november"
+        }
+      ]
+    },
+    {
+      "id": "cycle-p2",
+      "type": "paragraph",
+      "text": "The children's day is always the third group in the cycle. Older Persons beneficiaries are paid first, Disability Grant beneficiaries second, and then Child Support, Foster Child and Care Dependency grants. If you receive more than one of these grants for the children in your care, they are paid on the same day — you do not wait for a second date."
+    },
+    {
+      "id": "amounts-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How much is paid on the children's day"
+    },
+    {
+      "id": "amounts-p",
+      "type": "paragraph",
+      "text": "From April 2026 the Child Support Grant is R580 per child per month. The Foster Child Grant is R1,290 per child, and the Care Dependency Grant is R2,400 per month. A caregiver with three children on the Child Support Grant therefore receives R1,740 on the children's payment date, paid as one amount to the primary caregiver.",
+      "links": [
+        {
+          "text": "child support grant guide",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "text": "all grant amounts",
+          "href": "/guides/sassa-grant-amounts"
+        }
+      ]
+    },
+    {
+      "id": "collection-h",
+      "type": "heading",
+      "level": 2,
+      "text": "When the money actually reaches you"
+    },
+    {
+      "id": "collection-steps",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Bank account",
+          "description": "SASSA releases the payment on the date above. An EFT to your own bank account usually reflects within one to three working days, and sometimes the same day."
+        },
+        {
+          "title": "Postbank card",
+          "description": "The grant is available on the card on the payment date. You can draw it at an ATM or at a participating retailer till."
+        },
+        {
+          "title": "Cash at a retailer",
+          "description": "If you collect cash at Shoprite, Checkers, Usave, Pick n Pay, Boxer or Spar, bring your ID and the phone number linked to your grant."
+        }
+      ]
+    },
+    {
+      "id": "late-h",
+      "type": "heading",
+      "level": 2,
+      "text": "What to do if the payment is late"
+    },
+    {
+      "id": "late-list",
+      "type": "list",
+      "items": [
+        "Give it one full working day. Bank transfers are the most common reason a payment looks missing.",
+        "Check your grant status before you travel to an office — a suspension, review or bank verification issue shows there first.",
+        "Confirm your banking details are still correct, especially if you changed banks or closed an account.",
+        "If five working days pass with no payment, call SASSA on 0800 60 10 11 or visit an office with your ID and the child's birth certificate.",
+        "Never pay anyone who offers to release a late payment. SASSA does not charge for any grant service."
+      ]
+    },
+    {
+      "id": "late-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "A missing payment is usually a detail problem",
+      "text": "Most late Child Support Grant payments are caused by a bank account that no longer matches your name, a lapsed ID or a review that has not been completed — not by the grant being cancelled. Check your status first, then fix the specific issue on the page it points to."
+    },
+    {
+      "id": "faq-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently asked questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the next Child Support Grant payment date?",
+          "answer": "Tuesday 3 November 2026, the revised date SASSA confirmed on 15 October 2026 because of the 4 November public holiday. December is provisionally Friday 4 December 2026."
+        },
+        {
+          "question": "Is the Child Support Grant paid on the same day as the old age grant?",
+          "answer": "No. Older Persons grants are paid first, usually on the first or second working day. Disability follows, and children's grants are paid third, usually on the third working day of the month."
+        },
+        {
+          "question": "Do I get a separate payment date for each child?",
+          "answer": "No. All the children on your application are paid together, on the same children's payment day, as one amount to the primary caregiver."
+        },
+        {
+          "question": "Why is my child support money not showing on the payment date?",
+          "answer": "SASSA releases the payment on that date, but a bank EFT can take one to three working days. If nothing reflects after five working days, check your status and then call 0800 60 10 11."
+        },
+        {
+          "question": "Can the payment date change after SASSA announces it?",
+          "answer": "It can, when a public holiday falls inside the payment week. SASSA published a revised November 2026 schedule on 15 October because of the 4 November elections. Always confirm on the official SASSA channels before travelling."
+        },
+        {
+          "question": "How much is the Child Support Grant in 2026?",
+          "answer": "R580 per child per month from April 2026. Foster Child Grant is R1,290 per child and Care Dependency Grant is R2,400 per month."
+        }
+      ]
+    },
+    {
+      "id": "divider",
+      "type": "divider"
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "note": "Dates are generated from the same verified schedule used across this site. Months marked provisional use the standard cycle until SASSA confirms them.",
+      "sources": [
+        {
+          "label": "SASSA official website",
+          "url": "https://sassa.gov.za"
+        },
+        {
+          "label": "SASSA grant enquiries",
+          "url": "mailto:grantenquiries@sassa.gov.za"
+        },
+        {
+          "label": "SASSA toll-free helpline",
+          "url": "tel:0800601011"
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "type": "link-grid",
+      "title": "Related Guides",
+      "links": [
+        {
+          "title": "All Payment Dates",
+          "href": "/payment-dates"
+        },
+        {
+          "title": "Older Persons Grant Payment Dates",
+          "href": "/payment-dates/older-persons-grant-payment-dates"
+        },
+        {
+          "title": "Disability Grant Payment Dates",
+          "href": "/payment-dates/disability-grant-payment-dates"
+        },
+        {
+          "title": "Child Support Grant Guide",
+          "href": "/grants/child-support-grant"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "All Payment Dates",
+      "slug": "/payment-dates"
+    },
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "How to Check Your SASSA Status",
+      "slug": "/guides/how-to-check-sassa-status"
+    }
+  ]
+}

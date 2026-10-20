@@ -1,0 +1,215 @@
+{
+  "id": "status-deceased-record",
+  "slug": "/status/deceased-record",
+  "classification": "status-meaning",
+  "title": "Deceased Record on SASSA — What It Means and How to Fix It",
+  "description": "SASSA status 'Deceased Record' means Home Affairs shows the applicant as deceased. If you are alive, this is a data error you can correct — here are the steps.",
+  "lastUpdated": "2026-10-20",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA 'Deceased Record' Status — How to Fix a Wrong Record",
+    "metaDescription": "SASSA says your record shows deceased but you are alive? This is usually a Home Affairs data error. Here is how to correct it and restore your grant.",
+    "keywords": [
+      "SASSA deceased record",
+      "SASSA status deceased",
+      "Home Affairs deceased record",
+      "SASSA grant deceased error",
+      "SASSA record shows deceased"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Department of Home Affairs",
+      "url": "https://www.dha.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Deceased Record",
+      "description": "SASSA matches every applicant against Home Affairs records. When those records show a death linked to the ID number, the grant stops — and if you are alive, the record is wrong.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-10-20",
+      "cta": {
+        "text": "Identity Verification Help",
+        "href": "/status/identity-verification"
+      },
+      "secondaryCta": {
+        "text": "All Status Meanings",
+        "href": "/status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "What 'Deceased Record' Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "This status means the Department of Home Affairs record linked to your ID number has a death registered against it. SASSA is required to stop payments when that happens. For a living beneficiary it is a data error, and it can happen through a captured death on the wrong ID, a duplicated identity file, or a late registration mistake. It can also appear after a family member reports a death using the wrong ID number.",
+      "links": [
+        {
+          "text": "identity verification status",
+          "href": "/status/identity-verification"
+        }
+      ]
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Deceased Record",
+      "explanation": "SASSA does not make this decision itself. It receives a death indication from Home Affairs and blocks the grant on that basis. Only Home Affairs can correct the underlying record, which is why SASSA offices cannot simply override it. Once Home Affairs issues confirmation that the person is alive, SASSA can restore or reassess the grant.",
+      "whyItHappens": [
+        "A death was registered against the wrong ID number.",
+        "A duplicated identity file exists, with one file marked deceased.",
+        "A family member reported a death using incorrect details.",
+        "A late birth registration created conflicting records.",
+        "An identity document was reissued with details that no longer match the death record."
+      ],
+      "howLongItLasts": "Until Home Affairs corrects the record. Payments stay blocked in the meantime, so the correction should be started immediately rather than waiting for a review date.",
+      "whatYouShouldDo": [
+        "Visit a Home Affairs office in person with your ID and, if possible, your birth certificate.",
+        "Ask for the record to be checked and corrected, and request written confirmation that you are alive and the record has been fixed.",
+        "If Home Affairs cannot correct it the same day, ask for a reference number for the enquiry.",
+        "Take the confirmation to a SASSA office so the grant record can be updated.",
+        "Ask about restoring the grant and about payment for months lost while the record was wrong.",
+        "If the record was caused by identity fraud, open a SAPS case and keep the case number."
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Identity Verification",
+          "slug": "identity-verification"
+        },
+        {
+          "name": "SAFPS Flagged",
+          "slug": "safps-flagged"
+        },
+        {
+          "name": "No Records Found",
+          "slug": "no-records-found"
+        }
+      ]
+    },
+    {
+      "id": "living-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Bring proof that you are the person on the ID",
+      "text": "Home Affairs staff deal with these errors regularly. Take your ID, a birth certificate if you have one, and any document showing your address. If a grant was paid into a bank account in your name, a recent statement also helps show continuous activity."
+    },
+    {
+      "id": "deceased-h",
+      "type": "heading",
+      "level": 2,
+      "text": "If the beneficiary has actually passed away"
+    },
+    {
+      "id": "deceased-p",
+      "type": "paragraph",
+      "text": "The family should notify SASSA as soon as possible and stop using the card or account. Payments from the date of death are not for continued use, and spending money paid after a death can create a debt for the estate. Any amount already due is dealt with through the estate, not by withdrawing with the deceased person's card."
+    },
+    {
+      "id": "deceased-list",
+      "type": "list",
+      "items": [
+        "Report the death to SASSA with the death certificate and the deceased person's ID.",
+        "Do not use the SASSA card or account after the date of death.",
+        "Return any Postbank card to Postbank or a SASSA office.",
+        "Speak to the executor or a legal adviser about amounts still owed to the estate.",
+        "If a funeral policy or burial scheme was linked to the grant, claim it separately — it is not paid automatically."
+      ]
+    },
+    {
+      "id": "timeline-h",
+      "type": "heading",
+      "level": 2,
+      "text": "How long the correction takes"
+    },
+    {
+      "id": "timeline-p",
+      "type": "paragraph",
+      "text": "There is no fixed turnaround. A straightforward Home Affairs correction can be done within days; a duplicated identity file can take weeks. Keep every reference number and follow up at the same office. Do not submit a new grant application while the deceased record is still active — it will be blocked by the same check."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can SASSA fix a deceased record at their office?",
+          "answer": "No. SASSA can update its own record once Home Affairs confirms the correction, but only Home Affairs can change the death registration."
+        },
+        {
+          "question": "Will I get the money back for the months I missed?",
+          "answer": "Ask SASSA about restoration when you submit the Home Affairs confirmation. Back payment is not automatic and depends on the grant type and the reason for the block."
+        },
+        {
+          "question": "How could my ID be marked deceased?",
+          "answer": "The most common causes are a death captured under the wrong ID number, a duplicated identity file, or a family member reporting a death with incorrect details."
+        },
+        {
+          "question": "Can I apply for a new grant while this is being fixed?",
+          "answer": "A new application will hit the same Home Affairs check and be blocked. Correct the record first, then apply or ask for restoration."
+        },
+        {
+          "question": "What if the person has died and SASSA keeps paying?",
+          "answer": "Notify SASSA immediately and do not spend the money. Amounts paid after death can be recovered from the estate."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Identity Verification Failed",
+          "href": "/status/identity-verification"
+        },
+        {
+          "title": "No Records Found",
+          "href": "/status/no-records-found"
+        },
+        {
+          "title": "SAFPS Flagged",
+          "href": "/status/safps-flagged"
+        },
+        {
+          "title": "Contact SASSA",
+          "href": "/contact"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Identity Verification",
+      "slug": "/status/identity-verification"
+    },
+    {
+      "title": "No Records Found",
+      "slug": "/status/no-records-found"
+    },
+    {
+      "title": "Contact SASSA",
+      "slug": "/contact"
+    }
+  ]
+}

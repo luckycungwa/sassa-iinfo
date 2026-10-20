@@ -368,5 +368,204 @@ export const statuses: StatusMeaning[] = [
     relatedStatuses: [
       { name: "Approved", slug: "approved" }
     ]
+  },
+  {
+    id: "reapplication-required",
+    slug: "reapplication-required",
+    statusName: "Reapplication Required",
+    shortDescription: "Your application has closed and a fresh application is needed for this period — this is not a decline.",
+    explanation: "The application on record can no longer be assessed, usually because it was never completed, has lapsed, or needs updated details. Nothing has been decided about your eligibility.",
+    whyItHappens: [
+      "The application was started but never submitted.",
+      "The application period closed before a decision was made.",
+      "Contact or banking details could not be confirmed.",
+      "A previous application was withdrawn or replaced."
+    ],
+    howLongItLasts: "Until you submit a new application or SASSA corrects the record. There is no automatic reinstatement.",
+    whatYouShouldDo: [
+      "Note which month the status refers to.",
+      "Reapply with the same ID number and the same phone number you used before.",
+      "Confirm your bank details in the same session.",
+      "Keep the new reference number and check the status weekly."
+    ],
+    faqs: [
+      {
+        question: "Is Reapplication Required a decline?",
+        answer: "No. A decline is a decision that you did not qualify. This status means there was no complete application for SASSA to assess."
+      },
+      {
+        question: "Will the missed months be backdated?",
+        answer: "SRD is paid per approved month and does not backdate across a gap, so reapply as soon as possible."
+      }
+    ],
+    relatedStatuses: [
+      { name: "No Records Found", slug: "no-records-found" },
+      { name: "Declined", slug: "declined" }
+    ]
+  },
+  {
+    id: "uif-registered",
+    slug: "uif-registered",
+    statusName: "UIF Registered",
+    shortDescription: "Your ID is linked to an active UIF record, so SASSA treats you as covered by unemployment insurance.",
+    explanation: "SASSA checks your ID against Department of Labour records. An active UIF record — often left open because an employer never declared your termination — blocks the SRD month.",
+    whyItHappens: [
+      "A former employer registered you and never submitted a termination declaration.",
+      "A short contract record was opened and never closed.",
+      "Your ID was captured incorrectly by an employer.",
+      "You receive UIF benefits for the same period."
+    ],
+    howLongItLasts: "Until the Department of Labour closes or corrects the record. Reapplying without fixing it usually produces the same decline.",
+    whatYouShouldDo: [
+      "Request a UI-19 termination certificate or UIF status letter.",
+      "Visit a Labour Centre if the employer will not cooperate.",
+      "Appeal the declined month within 90 days with the letter attached.",
+      "Reapply once the record is corrected."
+    ],
+    faqs: [
+      {
+        question: "Can I receive SRD and UIF at the same time?",
+        answer: "No. Both cover unemployment for the same period; if you qualify for UIF you are expected to claim it instead of SRD."
+      }
+    ],
+    relatedStatuses: [
+      { name: "Declined", slug: "declined" },
+      { name: "Alternative Income Source", slug: "alternative-income-source" }
+    ]
+  },
+  {
+    id: "safps-flagged",
+    slug: "safps-flagged",
+    statusName: "SAFPS Flagged",
+    shortDescription: "An identity or fraud-protection listing on your ID stopped the automated verification check.",
+    explanation: "SAFPS is a fraud-prevention database used by banks and other members. A listing is usually a protective registration created after a lost ID, not a finding of wrongdoing, but SASSA cannot finalise verification until it is explained in writing.",
+    whyItHappens: [
+      "A protective registration exists against your ID.",
+      "Someone used your ID to open accounts or applications.",
+      "A lost or stolen ID was reported and never cleared.",
+      "Your details were captured differently by a member organisation."
+    ],
+    howLongItLasts: "Until you supply a SAFPS letter or the listing is removed. The flag does not expire on its own.",
+    whatYouShouldDo: [
+      "Call SAFPS on 011 867 2234 for a copy of your letter or confirmation of your record.",
+      "Open a SAPS case if impersonation is suspected.",
+      "Take the letter to a SASSA office so the record can be annotated.",
+      "Appeal the declined month with the same documents."
+    ],
+    faqs: [
+      {
+        question: "Does a SAFPS flag mean I committed fraud?",
+        answer: "No. Most listings are protective registrations intended to stop identity theft."
+      },
+      {
+        question: "Does SAFPS charge for a letter?",
+        answer: "No. SAFPS does not charge the public for protective registration or for a copy of a listing letter."
+      }
+    ],
+    relatedStatuses: [
+      { name: "Identity Verification", slug: "identity-verification" },
+      { name: "Referred", slug: "referred" }
+    ]
+  },
+  {
+    id: "deceased-record",
+    slug: "deceased-record",
+    statusName: "Deceased Record",
+    shortDescription: "Home Affairs shows a death registered against the applicant's ID, so the grant is blocked.",
+    explanation: "SASSA receives death indications from Home Affairs and must stop payments when one appears. For a living beneficiary this is a data error, often caused by a death captured under the wrong ID number.",
+    whyItHappens: [
+      "A death was registered against the wrong ID number.",
+      "A duplicated identity file exists, with one marked deceased.",
+      "A family member reported a death using incorrect details.",
+      "Conflicting late birth registration records."
+    ],
+    howLongItLasts: "Until Home Affairs corrects the record. Payments stay blocked in the meantime.",
+    whatYouShouldDo: [
+      "Visit Home Affairs with your ID and request a record correction.",
+      "Ask for written confirmation that you are alive and the record is fixed.",
+      "Take the confirmation to a SASSA office.",
+      "Ask about restoring the grant and payment for the blocked months."
+    ],
+    faqs: [
+      {
+        question: "Can SASSA fix this at their office?",
+        answer: "No. SASSA can update its record only after Home Affairs confirms the correction."
+      },
+      {
+        question: "What if the beneficiary has actually died?",
+        answer: "Notify SASSA immediately, stop using the card, and deal with any amount still due through the estate."
+      }
+    ],
+    relatedStatuses: [
+      { name: "Identity Verification", slug: "identity-verification" },
+      { name: "No Records Found", slug: "no-records-found" }
+    ]
+  },
+  {
+    id: "existing-grant",
+    slug: "existing-grant",
+    statusName: "Existing Grant",
+    shortDescription: "SASSA records already show an active grant on this ID or for this child, so the new application is blocked.",
+    explanation: "Some grants may run together and others may not. An adult may hold only one income-support grant, and a child cannot receive both a Child Support and a Foster Child Grant for the same period.",
+    whyItHappens: [
+      "You already receive the grant you applied for.",
+      "You hold a conflicting income-support grant.",
+      "The child is already on a grant under another caregiver.",
+      "An old cancelled grant still shows as active.",
+      "A duplicate identity record is linked to a grant."
+    ],
+    howLongItLasts: "Until the duplicate or conflicting record is resolved. Reapplying without changes gives the same result.",
+    whatYouShouldDo: [
+      "Check which grant and which child the existing record refers to.",
+      "Ask SASSA which grant must be cancelled if you are switching.",
+      "Arrange a child's grant transfer at an office with both caregivers and the birth certificate.",
+      "Request a record clean-up if an old grant still shows as active."
+    ],
+    faqs: [
+      {
+        question: "Can I receive two SASSA grants?",
+        answer: "Only in specific combinations. You cannot hold two income-support grants, but you can receive a Child Support Grant for a child while receiving your own Older Persons or Disability Grant."
+      }
+    ],
+    relatedStatuses: [
+      { name: "Reapplication Required", slug: "reapplication-required" },
+      { name: "UIF Registered", slug: "uif-registered" }
+    ]
+  },
+  {
+    id: "no-records-found",
+    slug: "no-records-found",
+    statusName: "No Records Found",
+    shortDescription: "SASSA could not match the ID and phone number you entered to any application — this is not a decline.",
+    explanation: "The status lookup matches the ID number and cellphone number against the application record. A typo, a changed number, or an application that was never submitted leaves nothing to display.",
+    whyItHappens: [
+      "The ID number was typed incorrectly.",
+      "The phone number is not the one used on the application.",
+      "The application was started but never submitted.",
+      "An agent submitted it under their own number.",
+      "An older application was closed."
+    ],
+    howLongItLasts: "Until the correct details are used or a new application is submitted. It will not change on its own if no application exists.",
+    whatYouShouldDo: [
+      "Retry with your ID number exactly as printed and the original phone number.",
+      "Look for an SMS confirmation or reference number.",
+      "Ask any agent which number they used.",
+      "If no reference exists, submit a fresh application and keep the confirmation.",
+      "Call 0800 60 10 11 if you are certain an application exists."
+    ],
+    faqs: [
+      {
+        question: "Does No Records Found mean my grant was cancelled?",
+        answer: "No. It means no application could be matched to the details you entered."
+      },
+      {
+        question: "Should I reapply if I have a reference number?",
+        answer: "No. Reapplying can create a duplicate; ask SASSA to trace the existing application instead."
+      }
+    ],
+    relatedStatuses: [
+      { name: "Reapplication Required", slug: "reapplication-required" },
+      { name: "Pending", slug: "pending" }
+    ]
   }
 ];

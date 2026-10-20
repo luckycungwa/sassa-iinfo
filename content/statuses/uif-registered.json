@@ -1,0 +1,224 @@
+{
+  "id": "status-uif-registered",
+  "slug": "/status/uif-registered",
+  "classification": "status-meaning",
+  "title": "UIF Registered — Why SASSA Declined You and How to Fix It",
+  "description": "SASSA status 'UIF Registered' means your ID is linked to an active unemployment insurance record. Here is how to clear it, what letter you need, and how to appeal.",
+  "lastUpdated": "2026-10-20",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA 'UIF Registered' Status — Meaning & How to Fix It",
+    "metaDescription": "Why SASSA shows 'UIF Registered', which letter clears it, how to fix a wrong Department of Labour record, and how to appeal the declined month.",
+    "keywords": [
+      "SASSA UIF registered",
+      "UIF registered status meaning",
+      "SASSA declined UIF",
+      "UI-19 letter SASSA",
+      "SASSA UIF appeal"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Department of Employment and Labour",
+      "url": "https://www.labour.gov.za"
+    },
+    {
+      "label": "Independent Tribunal (ITSAA)",
+      "url": "https://itsaa.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "UIF Registered",
+      "description": "SASSA cross-checks your ID against the Department of Labour's unemployment insurance records. If that check finds an active UIF record, the SRD application for that month is declined.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-10-20",
+      "cta": {
+        "text": "Appeal a Decline",
+        "href": "/appeals/how-to-appeal"
+      },
+      "secondaryCta": {
+        "text": "All Status Meanings",
+        "href": "/status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "What 'UIF Registered' Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "The Social Relief of Distress grant is meant for people with no income and no unemployment benefits. SASSA therefore checks whether your ID number appears in the Department of Labour's UIF system. If it does, SASSA treats you as covered by unemployment insurance and declines the month — even if you never claimed a cent.",
+      "links": [
+        {
+          "text": "other decline reasons",
+          "href": "/appeals/appeal-reasons"
+        }
+      ]
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "UIF Registered",
+      "explanation": "A UIF record is created when an employer registers you and declares you on a UI-19 form. The record can stay active long after you stop working, because many employers never submit the termination declaration. SASSA sees the active record, not the reality of your income, and declines the SRD month.",
+      "whyItHappens": [
+        "A former employer registered you for UIF and never declared your termination.",
+        "You worked a short contract and the record was opened but not closed.",
+        "Your ID number was captured incorrectly by an employer, creating a record that is not really yours.",
+        "You are receiving, or were recently receiving, UIF benefits for the same period.",
+        "A learnership or internship was registered under your ID."
+      ],
+      "howLongItLasts": "The record stays until the Department of Labour closes or corrects it, or until you prove with documents that you are no longer employed. Reapplying without fixing the record usually produces the same decline.",
+      "whatYouShouldDo": [
+        "Request a UIF status letter or your UI-19 termination record from the Department of Labour.",
+        "If you have the termination certificate from your former employer, use that instead — it is faster.",
+        "If the employer will not cooperate, visit a Labour Centre and ask them to trace and close the record.",
+        "If the record belongs to someone else, report the incorrect ID capture at the Labour Centre and get it corrected in writing.",
+        "Appeal the declined month within 90 days with the letter attached.",
+        "Reapply for the current month once the record is corrected."
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Declined",
+          "slug": "declined"
+        },
+        {
+          "name": "Alternative Income Source",
+          "slug": "alternative-income-source"
+        },
+        {
+          "name": "Existing Grant",
+          "slug": "existing-grant"
+        }
+      ]
+    },
+    {
+      "id": "documents-h",
+      "type": "heading",
+      "level": 2,
+      "text": "The document that clears this status"
+    },
+    {
+      "id": "documents-table",
+      "type": "table",
+      "headers": [
+        "Situation",
+        "Document to get",
+        "Where from"
+      ],
+      "rows": [
+        [
+          "You stopped working",
+          "UI-19 termination certificate or UIF status letter",
+          "Former employer, or nearest Labour Centre"
+        ],
+        [
+          "Employer never declared termination",
+          "Labour Centre record correction and letter",
+          "Department of Employment and Labour"
+        ],
+        [
+          "ID captured by someone else",
+          "Written confirmation of incorrect record",
+          "Labour Centre, plus a SAPS affidavit if fraud is suspected"
+        ],
+        [
+          "You receive UIF benefits",
+          "No clearance is possible for that month",
+          "UIF pays the benefit instead of SRD"
+        ]
+      ],
+      "caption": "What to attach to your appeal"
+    },
+    {
+      "id": "appeal-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "You have 90 days to appeal the declined month",
+      "text": "Attach the UIF letter to your SRD appeal on the portal. Appeals go to the Independent Tribunal for Social Assistance Appeals, which is separate from SASSA. If you miss the 90-day window, the only route is a fresh application once the record is fixed."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I get SRD and UIF at the same time?",
+          "answer": "No. Both are unemployment support for the same period. If you qualify for UIF, you are expected to claim it instead of SRD."
+        },
+        {
+          "question": "I never claimed UIF. Why am I registered?",
+          "answer": "Registration happens when an employer declares you, not when you claim. Many records stay open because the employer never submitted a termination declaration."
+        },
+        {
+          "question": "How long does it take to clear a UIF record?",
+          "answer": "A Labour Centre correction can take days to several weeks depending on the office and whether the employer responds. Get the letter first, then appeal with it."
+        },
+        {
+          "question": "Can I just reapply instead of appealing?",
+          "answer": "You can reapply for a new month, but if the UIF record is still active you will be declined again. Fixing the record is the only durable solution."
+        },
+        {
+          "question": "Does a UIF record affect other SASSA grants?",
+          "answer": "It is mainly an SRD issue. Older Persons, Disability and Child Support grants are assessed on different criteria, although income from UIF counts in a means test."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "Appeal After UIF Registration",
+          "href": "/appeals/appeal-after-uif"
+        },
+        {
+          "title": "How to Appeal a Decline",
+          "href": "/appeals/how-to-appeal"
+        },
+        {
+          "title": "Alternative Income Source",
+          "href": "/status/alternative-income-source"
+        },
+        {
+          "title": "Declined",
+          "href": "/status/declined"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Appeal After UIF Registration",
+      "slug": "/appeals/appeal-after-uif"
+    },
+    {
+      "title": "Declined",
+      "slug": "/status/declined"
+    },
+    {
+      "title": "Alternative Income Source",
+      "slug": "/status/alternative-income-source"
+    }
+  ]
+}

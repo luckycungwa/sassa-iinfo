@@ -1,0 +1,236 @@
+{
+  "id": "status-existing-grant",
+  "slug": "/status/existing-grant",
+  "classification": "status-meaning",
+  "title": "Existing Grant — Why SASSA Blocked This Application",
+  "description": "SASSA status 'Existing Grant' means its records already show a grant linked to your ID or the child you applied for. Here is which grants can run together and how to fix it.",
+  "lastUpdated": "2026-10-20",
+  "version": "1.0.0",
+  "status": "published",
+  "author": {
+    "name": "Grant Guide Editorial Team",
+    "role": "Content Editor",
+    "verified": true
+  },
+  "seo": {
+    "metaTitle": "SASSA 'Existing Grant' Status — Meaning & How to Resolve It",
+    "metaDescription": "What 'Existing Grant' means on a SASSA status check, which grants may be paid together, which conflict, and how to correct a duplicate record at an office.",
+    "keywords": [
+      "SASSA existing grant",
+      "existing grant status meaning",
+      "SASSA duplicate grant",
+      "can I get two SASSA grants",
+      "SASSA grant already exists"
+    ]
+  },
+  "sources": [
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Department of Social Development",
+      "url": "https://www.dsd.gov.za"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Existing Grant",
+      "description": "SASSA found an active grant already linked to this ID or child, so the new application cannot be approved as a duplicate.",
+      "readingTime": "4 min read",
+      "lastUpdated": "2026-10-20",
+      "cta": {
+        "text": "All Grant Types",
+        "href": "/grants"
+      },
+      "secondaryCta": {
+        "text": "All Status Meanings",
+        "href": "/status"
+      }
+    },
+    {
+      "id": "h1",
+      "type": "heading",
+      "level": 2,
+      "text": "What 'Existing Grant' Means"
+    },
+    {
+      "id": "intro",
+      "type": "paragraph",
+      "text": "This status means SASSA's system already has an active grant on the ID number you used, or on the child you applied for. It is a duplication check rather than an income test. Sometimes the existing grant is legitimate and the application is simply unnecessary; sometimes the record is old or wrong and needs to be corrected.",
+      "links": [
+        {
+          "text": "grant types explained",
+          "href": "/grants"
+        }
+      ]
+    },
+    {
+      "id": "ref-block",
+      "type": "status-reference",
+      "statusName": "Existing Grant",
+      "explanation": "SASSA allows some grants to run together and blocks others. An adult may hold only one of the income-support grants — Older Persons, Disability or War Veterans — at a time. A child cannot be paid a Child Support Grant and a Foster Child Grant for the same child. A caregiver can, however, receive a Child Support Grant for a child while also receiving their own Older Persons or Disability Grant.",
+      "whyItHappens": [
+        "You already receive the grant you are applying for.",
+        "You hold one income-support grant and applied for another that conflicts with it.",
+        "The child is already on a Child Support Grant under another caregiver.",
+        "A Foster Child Grant is already paid for the same child.",
+        "An old grant that was cancelled still shows as active on the system.",
+        "A duplicate identity record is linked to a grant you do not recognise."
+      ],
+      "howLongItLasts": "It stays until the duplicate or conflicting record is resolved. Reapplying without changing anything produces the same result.",
+      "whatYouShouldDo": [
+        "Check which grant and which child the existing record refers to before doing anything else.",
+        "If you already receive that grant, no new application is needed.",
+        "If you are moving from one income-support grant to another, ask SASSA which one must be cancelled first.",
+        "If the child is already on a grant under another caregiver, the transfer must be arranged at an office — a new application will be blocked.",
+        "If the record is old or belongs to someone else, request a record clean-up at a SASSA office with your ID.",
+        "Keep the reference number for the correction so you can follow up."
+      ],
+      "relatedStatuses": [
+        {
+          "name": "Reapplication Required",
+          "slug": "reapplication-required"
+        },
+        {
+          "name": "UIF Registered",
+          "slug": "uif-registered"
+        },
+        {
+          "name": "Declined",
+          "slug": "declined"
+        }
+      ]
+    },
+    {
+      "id": "combinations-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Which SASSA grants can be paid together"
+    },
+    {
+      "id": "combinations-table",
+      "type": "table",
+      "headers": [
+        "Combination",
+        "Allowed?",
+        "Note"
+      ],
+      "rows": [
+        [
+          "Older Persons + Disability",
+          "No",
+          "Only one income-support grant per adult"
+        ],
+        [
+          "Older Persons + War Veterans",
+          "No",
+          "Only one income-support grant per adult"
+        ],
+        [
+          "Disability + War Veterans",
+          "No",
+          "Only one income-support grant per adult"
+        ],
+        [
+          "Older Persons + Child Support for a child in your care",
+          "Yes",
+          "Different beneficiaries — you and the child"
+        ],
+        [
+          "Disability + Child Support for a child in your care",
+          "Yes",
+          "Different beneficiaries — you and the child"
+        ],
+        [
+          "Child Support + Foster Child Grant, same child",
+          "No",
+          "A child cannot be on both at once"
+        ],
+        [
+          "Grant-in-Aid + Older Persons or Disability",
+          "Yes",
+          "Grant-in-Aid is a supplement for full-time care"
+        ]
+      ],
+      "caption": "Grant combinations and conflicts"
+    },
+    {
+      "id": "transfer-callout",
+      "type": "callout",
+      "intent": "info",
+      "title": "Moving a child's grant to a new caregiver",
+      "text": "A Child Support Grant cannot simply be applied for again under a new caregiver. The existing grant must be transferred or cancelled first. Both caregivers usually need to be present at the SASSA office, with the child's birth certificate and both IDs."
+    },
+    {
+      "id": "faq-h",
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Does Existing Grant mean my application was declined?",
+          "answer": "Not exactly. It means the application was blocked because a grant already exists on the record. Once the duplication is resolved the application can be assessed."
+        },
+        {
+          "question": "Can I receive two SASSA grants at the same time?",
+          "answer": "Only in specific combinations. You cannot hold two income-support grants for yourself, and a child cannot receive both a Child Support and a Foster Child Grant."
+        },
+        {
+          "question": "I cancelled my grant years ago but it still shows. What now?",
+          "answer": "The cancellation may not have been processed, or an old record is still active. Visit a SASSA office with your ID and ask for the grant record to be checked and cleaned up."
+        },
+        {
+          "question": "Can a grandmother claim Child Support and her own pension?",
+          "answer": "Yes. The Older Persons Grant is hers and the Child Support Grant is for the child. Different beneficiaries can be paid on the same payment cycle."
+        },
+        {
+          "question": "Will I lose money already paid while this is resolved?",
+          "answer": "Existing payments that were correctly made are not usually recovered. The block applies to the new application, not to a grant you already qualify for."
+        }
+      ]
+    },
+    {
+      "id": "related-links",
+      "type": "link-grid",
+      "links": [
+        {
+          "title": "SASSA Grant Types",
+          "href": "/grants"
+        },
+        {
+          "title": "Child Support Grant",
+          "href": "/grants/child-support-grant"
+        },
+        {
+          "title": "Foster Child Grant",
+          "href": "/grants/foster-child-grant"
+        },
+        {
+          "title": "Reapplication Required",
+          "href": "/status/reapplication-required"
+        }
+      ]
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "SASSA Grant Types",
+      "slug": "/grants"
+    },
+    {
+      "title": "Child Support Grant",
+      "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "Foster Child Grant",
+      "slug": "/grants/foster-child-grant"
+    }
+  ]
+}

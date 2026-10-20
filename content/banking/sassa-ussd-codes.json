@@ -28,7 +28,7 @@
       "id": "hero",
       "type": "hero",
       "title": "SASSA USSD Codes & Mobile Services",
-      "description": "No smartphone data needed: check your grant balance, payment date and status with a single dial. All official SASSA mobile channels in one place.",
+      "description": "No smartphone data needed: check your payment date and status with a single dial. All official SASSA mobile channels in one place.",
       "readingTime": "4 min read",
       "lastUpdated": "2026-08-25",
       "cta": {
@@ -50,7 +50,7 @@
     {
       "id": "ussd-p",
       "type": "paragraph",
-      "text": "Dial *134*7737# on your mobile phone to open the SASSA menu. Follow the on-screen prompts to check your grant balance, confirm your next payment date, or review your application status. Standard network rates apply; the service works on Vodacom, MTN, Cell C and Telkom.",
+      "text": "Dial *134*7737# on your mobile phone to open the SASSA menu. Follow the on-screen prompts to confirm your next payment date or review your application status. For the SRD R370 grant, the dedicated code is *120*3210#. Standard network rates apply; the service works on Vodacom, MTN, Cell C and Telkom. USSD returns grant status and payment dates, not a bank balance — your balance sits with your bank or Postbank, not SASSA.",
       "links": [
         {
           "text": "payment date",
@@ -66,7 +66,12 @@
         [
           "USSD menu",
           "*134*7737#",
-          "Balance, payment date, status — no data needed"
+          "Payment date and application status — no data needed"
+        ],
+        [
+          "SRD USSD line",
+          "*120*3210#",
+          "SRD R370 status check — no data needed"
         ],
         [
           "WhatsApp",
@@ -99,7 +104,7 @@
     {
       "id": "whatsapp-p",
       "type": "paragraph",
-      "text": "Save 082 046 8553 to your contacts and send 'SASSA' as your first message. The automated assistant guides you through checking balances, payment dates, application status and banking details. It is free on most networks and handles many queries without ever calling."
+      "text": "Save 082 046 8553 to your contacts and send 'SASSA' as your first message. The automated assistant guides you through payment dates, application status and banking details. It is free on most networks and handles many queries without ever calling."
     },
     {
       "id": "helpline-h",

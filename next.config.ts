@@ -40,6 +40,7 @@ const nextConfig: NextConfig = {
       { source: '/guides/sassa-2026-payment-dates-calendar', destination: '/payment-dates', permanent: true },
       { source: '/news/how-to-find-sassa-reference-number', destination: '/guides/sassa-reference-number', permanent: true },
       { source: '/banking/sassa-black-card-guide', destination: '/banking/black-card-swap', permanent: true },
+      { source: '/grants/child-support-grant/payment-dates', destination: '/payment-dates/child-support-grant-payment-dates', permanent: true },
       { source: '/en', destination: '/', permanent: true },
       { source: '/en/:path*', destination: '/:path*', permanent: true },
       { source: '/zu', destination: '/', permanent: true },
