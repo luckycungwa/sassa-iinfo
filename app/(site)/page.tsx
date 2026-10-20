@@ -97,19 +97,19 @@ export default function HomePage() {
 
       <section className="bg-yellow py-20 md:py-28">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
+          <h2 className="text-[40px] md:text-[57px] font-black text-accent-foreground leading-[1.15] tracking-[-0.007em]">
             SASSA social grants
           </h2>
-          <p className="text-[21px] text-body mt-4 max-w-lg mx-auto">
+          <p className="text-[21px] text-accent-foreground/85 mt-4 max-w-lg mx-auto">
             Eight grants supporting millions of South Africans. Everything you need to know.
           </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm text-carbon/60 font-mono">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm text-accent-foreground/70 font-mono">
             <span>18M+ recipients</span>
-            <span className="w-1 h-1 rounded-full bg-carbon/20" />
+            <span className="w-1 h-1 rounded-full bg-accent-foreground/20" />
             <span>8 grant types</span>
-            <span className="w-1 h-1 rounded-full bg-carbon/20" />
+            <span className="w-1 h-1 rounded-full bg-accent-foreground/20" />
             <span>R370 to R2,420/month</span>
-            <span className="w-1 h-1 rounded-full bg-carbon/20" />
+            <span className="w-1 h-1 rounded-full bg-accent-foreground/20" />
             <span>80+ guides</span>
           </div>
         </div>
@@ -147,10 +147,10 @@ export default function HomePage() {
 
       <section className="bg-yellow py-16 md:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-[34px] md:text-[40px] font-black text-carbon leading-[1.15] tracking-[-0.007em] text-center">
+          <h2 className="text-[34px] md:text-[40px] font-black text-accent-foreground leading-[1.15] tracking-[-0.007em] text-center">
             What are you looking for?
           </h2>
-          <p className="text-center text-base text-body mt-3 max-w-xl mx-auto">
+          <p className="text-center text-base text-accent-foreground/85 mt-3 max-w-xl mx-auto">
             Jump straight to the task you need to get done.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">

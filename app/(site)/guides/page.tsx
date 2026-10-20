@@ -35,12 +35,12 @@ export default function GuidesHubPage() {
     <div>
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">how-to guides</p>
-          <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
+          <p className="text-xs font-bold text-accent-foreground/70 uppercase tracking-widest mb-3">how-to guides</p>
+          <h1 className="text-[40px] md:text-[57px] font-black text-accent-foreground leading-[1.15] tracking-[-0.007em]">
             Step-by-step SASSA guides
           </h1>
-          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
-            Practical walkthroughs for every SASSA process Ã¢â‚¬â€ from applying to checking your status and understanding the means test.
+          <p className="text-[21px] text-accent-foreground/85 mt-4 max-w-xl leading-relaxed">
+            Practical walkthroughs for every SASSA process — from applying to checking your status and understanding the means test.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
             <Link
@@ -51,7 +51,7 @@ export default function GuidesHubPage() {
             </Link>
             <Link
               href="#all-guides"
-              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-carbon/20 text-carbon rounded-[28.5px] text-sm font-bold hover:bg-carbon/5 transition"
+              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-accent-foreground/25 text-accent-foreground rounded-[28.5px] text-sm font-bold hover:bg-accent-foreground/5 transition"
             >
               Browse all
             </Link>
@@ -129,7 +129,7 @@ export default function GuidesHubPage() {
           <h2 className="text-[21px] font-black text-carbon tracking-[-0.007em] mb-6">Common questions</h2>
           <div className="space-y-2 max-w-2xl">
             {[
-              { q: "Which guide should I start with?", a: "If you're new to SASSA, start with 'How to Apply for a SASSA Grant' Ã¢â‚¬â€ it covers the entire process from eligibility to submission." },
+              { q: "Which guide should I start with?", a: "If you're new to SASSA, start with 'How to Apply for a SASSA Grant' — it covers the entire process from eligibility to submission." },
               { q: "Do I need all the documents listed in the checklist?", a: "The checklist covers every possible document. At minimum, you need your ID, proof of residence, and proof of income. Additional documents depend on the grant type." },
               { q: "How long does the application process take?", a: "Submitting the application takes about 30-60 minutes at a SASSA office. Processing takes up to 3 months. The SRD R370 grant is reviewed monthly." },
             ].map((faq) => (

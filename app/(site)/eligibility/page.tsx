@@ -47,11 +47,11 @@ export default function EligibilityHubPage() {
       {faq && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />}
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">eligibility centre</p>
-          <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
+          <p className="text-xs font-bold text-accent-foreground/70 uppercase tracking-widest mb-3">eligibility centre</p>
+          <h1 className="text-[40px] md:text-[57px] font-black text-accent-foreground leading-[1.15] tracking-[-0.007em]">
             Do you qualify for a SASSA grant?
           </h1>
-          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-accent-foreground/85 mt-4 max-w-xl leading-relaxed">
             Your circumstances determine which grants you can access. Select your situation below for a personalised eligibility breakdown.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
@@ -63,7 +63,7 @@ export default function EligibilityHubPage() {
             </Link>
             <Link
               href="/grants/srd-r370-grant"
-              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-carbon/20 text-carbon rounded-[28.5px] text-sm font-bold hover:bg-carbon/5 transition"
+              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-accent-foreground/25 text-accent-foreground rounded-[28.5px] text-sm font-bold hover:bg-accent-foreground/5 transition"
             >
               SRD R370 Guide
             </Link>

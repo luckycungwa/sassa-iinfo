@@ -33,7 +33,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${office.name} | SASSA Office in ${office.city}, ${office.province}`,
     description: `${office.name} in ${office.city}, ${office.province}. Address: ${office.address}. Phone: ${office.phone}. Hours: ${office.operatingHours}. Services: ${office.servicesOffered.join(", ")}.`,
     alternates: { canonical: canonicalUrl(`/offices/${slug}`), languages: localeAlternates(`/offices/${slug}`) },
-    robots: { index: false, follow: true },
   };
 }
 

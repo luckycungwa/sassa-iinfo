@@ -5,17 +5,17 @@ import { canonicalUrl } from "@/lib/canonical";
 import { personSchema, webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
-  title: "Lucky Cungwa â€” Editor, SASSA Grant Guide",
+  title: "Lucky Cungwa — Editor, SASSA Grant Guide",
   description: "Meet Lucky Cungwa, editor and founder of the SASSA Grant Guide. Read about the person behind this independent SASSA resource and how content is researched and verified.",
   alternates: { canonical: canonicalUrl("/about/lucky-cungwa") },
   openGraph: {
-    title: "Lucky Cungwa â€” Editor, SASSA Grant Guide",
+    title: "Lucky Cungwa — Editor, SASSA Grant Guide",
     description: "The person behind the independent SASSA Grant Guide and how content is verified.",
   },
 };
 
 export default function AuthorPage() {
-  const pageSchema = webpageSchema("Lucky Cungwa â€” Editor, SASSA Grant Guide", "Meet the editor behind the SASSA Grant Guide.", "/about/lucky-cungwa");
+  const pageSchema = webpageSchema("Lucky Cungwa — Editor, SASSA Grant Guide", "Meet the editor behind the SASSA Grant Guide.", "/about/lucky-cungwa");
   const authorSchema = personSchema();
   const breadcrumb = breadcrumbSchema([
     { name: "Home", url: "/" },
@@ -30,11 +30,11 @@ export default function AuthorPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">author</p>
-          <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
+          <p className="text-xs font-bold text-accent-foreground/70 uppercase tracking-widest mb-3">author</p>
+          <h1 className="text-[40px] md:text-[57px] font-black text-accent-foreground leading-[1.15] tracking-[-0.007em]">
             Lucky Cungwa
           </h1>
-          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-accent-foreground/85 mt-4 max-w-xl leading-relaxed">
             Editor and founder of the SASSA Grant Guide. Every page on this site is researched, written, and reviewed by me.
           </p>
         </div>
@@ -52,7 +52,7 @@ export default function AuthorPage() {
                 </p>
                 <p>
                   I&apos;m not affiliated with SASSA, the Department of Social Development, or any government body.
-                  That independence is deliberate â€” it lets me tell you honestly what is confirmed, what may change,
+                  That independence is deliberate — it lets me tell you honestly what is confirmed, what may change,
                   and when information was last checked.
                 </p>
                 <p className="text-sm card p-4">

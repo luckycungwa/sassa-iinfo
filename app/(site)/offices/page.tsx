@@ -15,7 +15,6 @@ export const metadata: Metadata = {
   title: "SASSA Office Finder | Local Branch Locations & Contact Details",
   description: "Find your nearest SASSA local office. Addresses, phone numbers, operating hours, services offered, and accessibility information for all 9 provincial branches.",
   alternates: { canonical: canonicalUrl("/offices") },
-  robots: { index: false, follow: true },
   openGraph: {
     title: "SASSA Office Finder | Local Branch Locations & Contact Details",
     description: "Find your nearest SASSA local office with addresses, phone numbers, and operating hours.",
@@ -35,11 +34,11 @@ export default function OfficesHubPage() {
       {faq && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />}
       <section className="bg-yellow py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">office finder</p>
-          <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
+          <p className="text-xs font-bold text-accent-foreground/70 uppercase tracking-widest mb-3">office finder</p>
+          <h1 className="text-[40px] md:text-[57px] font-black text-accent-foreground leading-[1.15] tracking-[-0.007em]">
             Find your nearest SASSA office
           </h1>
-          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-accent-foreground/85 mt-4 max-w-xl leading-relaxed">
             Locate SASSA local offices across all 9 provinces with addresses, phone numbers, and operating hours.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
@@ -51,7 +50,7 @@ export default function OfficesHubPage() {
             </Link>
             <Link
               href="/provinces"
-              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-carbon/20 text-carbon rounded-[28.5px] text-sm font-bold hover:bg-carbon/5 transition"
+              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-accent-foreground/25 text-accent-foreground rounded-[28.5px] text-sm font-bold hover:bg-accent-foreground/5 transition"
             >
               Province info
             </Link>

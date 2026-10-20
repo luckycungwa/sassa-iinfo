@@ -67,7 +67,7 @@ export default function StatusHubPage() {
               { href: "/status/payment-processing", title: "Payment date changed", desc: "Why dates shift and what your status is telling you" },
               { href: "/banking/update-bank-details", title: "Bank details problem", desc: "Fix banking details stuck in verification" },
               { href: "/guides/change-srd-phone-number", title: "Changed or lost number", desc: "Update your SRD cellphone number, even without the SIM" },
-              { href: "/appeals/how-to-appeal", title: "Declined â€” appeal", desc: "Lodge an ITSAA appeal within the 90-day window" },
+              { href: "/appeals/how-to-appeal", title: "Declined — appeal", desc: "Lodge an ITSAA appeal within the 90-day window" },
             ].map((p) => (
               <Link key={p.href} href={p.href} className="flex flex-col p-4 card hover:bg-yellow/30 transition group">
                 <p className="text-sm font-black text-carbon group-hover:text-violet transition">{p.title}</p>

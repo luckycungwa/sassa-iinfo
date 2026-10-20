@@ -42,11 +42,11 @@ export default function GrantsHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="flex-1">
-              <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">grant library</p>
-              <h1 className="text-[40px] md:text-[57px] font-black text-carbon leading-[1.15] tracking-[-0.007em]">
+              <p className="text-xs font-bold text-accent-foreground/70 uppercase tracking-widest mb-3">grant library</p>
+              <h1 className="text-[40px] md:text-[57px] font-black text-accent-foreground leading-[1.15] tracking-[-0.007em]">
                 All SASSA social grants
               </h1>
-              <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+              <p className="text-[21px] text-accent-foreground/85 mt-4 max-w-xl leading-relaxed">
                 South Africa&apos;s social grant system provides financial support to millions. Below are all eight grants with eligibility, amounts, and application guides.
               </p>
               <div className="flex flex-wrap gap-3 mt-8">
@@ -58,7 +58,7 @@ export default function GrantsHubPage() {
                 </Link>
                 <Link
                   href="/eligibility"
-                  className="inline-flex items-center gap-2 px-6 py-3 border-2 border-carbon/20 text-carbon rounded-[28.5px] text-sm font-bold hover:bg-carbon/5 transition"
+                  className="inline-flex items-center gap-2 px-6 py-3 border-2 border-accent-foreground/25 text-accent-foreground rounded-[28.5px] text-sm font-bold hover:bg-accent-foreground/5 transition"
                 >
                   Check eligibility
                 </Link>
@@ -151,7 +151,7 @@ export default function GrantsHubPage() {
 
       <section className="bg-yellow py-14">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-[29px] font-black text-carbon leading-[1.1] tracking-[-0.007em] mb-8">Common SASSA grant questions</h2>
+          <h2 className="text-[29px] font-black text-accent-foreground leading-[1.1] tracking-[-0.007em] mb-8">Common SASSA grant questions</h2>
           <div className="space-y-3 max-w-2xl">
             {faqs.map((faq) => (
               <details key={faq.question} className="group card overflow-hidden">

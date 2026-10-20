@@ -61,12 +61,6 @@ const navGroups: NavGroup[] = [
       { href: "/provinces", label: "Province Hubs", desc: "Regional Guides" },
     ],
   },
-  {
-    label: "Tools",
-    items: [
-      { href: "/tools", label: "Interactive Tools", desc: "Calculators & Checkers" },
-    ],
-  },
 ];
 
 function ThemeToggle() {

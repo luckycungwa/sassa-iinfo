@@ -53,7 +53,7 @@ export default function InteractiveTools() {
               onClick={() => setActiveTool(tool.id as ToolType)}
               className={`flex items-center gap-1.5 px-4 py-3 rounded-xl text-xs font-bold transition ${
                 activeTool === tool.id
-                  ? "bg-accent text-primary-foreground"
+                  ? "bg-accent text-accent-foreground"
                   : "bg-surface text-muted-foreground hover:bg-canvas border border-border"
               }`}
             >

@@ -40,7 +40,7 @@ export default function BankingHubPage() {
             How SASSA pays your grant
           </h1>
           <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
-            Four ways to receive your grant Ã¢â‚¬â€ bank transfer, Cash Send, Post Office, or mobile pay points.
+            Four ways to receive your grant — bank transfer, Cash Send, Post Office, or mobile pay points.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
             <Link
