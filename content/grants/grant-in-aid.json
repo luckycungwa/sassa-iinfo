@@ -50,12 +50,12 @@
       "type": "grant-summary",
       "amount": "R580",
       "frequency": "Monthly (Top-up on existing grant)",
-      "targetGroup": "Existing recipients of the Older Person, Disability, War Veterans, or Care Dependency Grant who need 24-hour physical care from another person."
+      "targetGroup": "Existing recipients of the Older Person, Disability or War Veterans Grant who need regular care and assistance from another person."
     },
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Grant-in-Aid is an additional monthly payment of R580 for people who already receive a SASSA social grant but cannot look after themselves due to severe physical or mental frailty. It is designed to help cover the cost of hiring a caregiver or supporting a family member who provides full-time care. You can receive Grant-in-Aid on top of your existing Older Person Grant, Disability Grant, War Veterans Grant, or Care Dependency Grant.",
+      "text": "Grant-in-Aid is an additional monthly payment of R580 for people who already receive a SASSA social grant but cannot look after themselves due to severe physical or mental frailty. It is designed to help cover the cost of hiring a caregiver or supporting a family member who provides full-time care. You can receive Grant-in-Aid on top of your existing Older Person Grant, Disability Grant or War Veterans Grant.",
       "links": [
         {
           "text": "War Veterans Grant",
@@ -84,9 +84,9 @@
       "id": "eligibility",
       "type": "eligibility-checklist",
       "checklist": [
-        "You must already receive the Older Person, Disability, War Veterans, or Care Dependency Grant",
+        "You must already receive the Older Person, Disability or War Veterans Grant",
         "You must be unable to look after yourself due to severe physical or mental frailty",
-        "A medical report must certify that you require 24-hour, full-time care from another person",
+        "A medical report must confirm that you need regular care and assistance from another person because of your condition",
         "You must not be living in a state-funded welfare institution"
       ],
       "restrictions": [
@@ -128,7 +128,7 @@
       "type": "callout",
       "intent": "warning",
       "title": "Most Common Rejection Reason",
-      "text": "Grant-in-Aid applications are often rejected because the doctor's report says the applicant needs 'some assistance' or 'regular care' but does not explicitly state '24-hour full-time care' is required. Make sure your doctor uses the exact language: 'The patient requires 24-hour full-time physical care from another person.'"
+      "text": "Grant-in-Aid applications are often rejected because the doctor's report is vague. SASSA's criterion is that you need regular attendance and assistance from another person. Ask the doctor to describe what help you need, how often you need it, and why you cannot manage alone. If you need care around the clock, say that in plain words on the form."
     },
     {
       "id": "medical-what-doc-checks",
@@ -159,7 +159,7 @@
         {
           "label": "Medical assessment report from a doctor",
           "required": true,
-          "notes": "Must state you need 24-hour full-time care. Use the official SASSA form."
+          "notes": "Must describe the care you need and how often. Use the official SASSA form."
         },
         {
           "label": "Your primary grant details (reference number or latest payment slip)",
@@ -187,7 +187,7 @@
       "steps": [
         {
           "title": "Visit your doctor",
-          "description": "Ask your doctor to complete the SASSA medical report form. Ensure they explicitly state you need 24-hour full-time care. The form is available at any SASSA office."
+          "description": "Ask your doctor to complete the SASSA medical report form. Make sure it describes the help you need and how often, including any night-time care. The form is available at any SASSA office."
         },
         {
           "title": "Gather your documents",
@@ -255,7 +255,7 @@
     {
       "id": "gia-primary-text",
       "type": "paragraph",
-      "text": "Grant-in-Aid can only be added to one of four primary grants. You must already receive the primary grant and it must be active. You cannot add Grant-in-Aid to the Child Support Grant, the Foster Child Grant, or the Social Relief of Distress grant."
+      "text": "Grant-in-Aid can only be added to one of three primary grants. You must already receive the primary grant and it must be active. You cannot add Grant-in-Aid to the Child Support Grant, the Foster Child Grant, or the Social Relief of Distress grant."
     },
     {
       "id": "gia-primary-list",
@@ -264,8 +264,7 @@
       "items": [
         "Older Person Grant",
         "Disability Grant",
-        "War Veterans Grant",
-        "Care Dependency Grant"
+        "War Veterans Grant"
       ]
     },
     {
@@ -381,14 +380,14 @@
     {
       "id": "gia-appeals-text",
       "type": "paragraph",
-      "text": "If your primary grant is active but Grant-in-Aid is declined, the usual problem is the medical report. Get a clearer report that states you need 24-hour full-time care. For non-SRD grants the appeal is lodged through a SASSA office or in writing to the Ministry of Social Development. The Independent Tribunal for Social Assistance Appeals (ITSAA) considers the appeal."
+      "text": "If your primary grant is active but Grant-in-Aid is declined, the usual problem is the medical report. Get a clearer report that describes the care you need in specific terms. For non-SRD grants the appeal is lodged through a SASSA office or in writing to the Ministry of Social Development. The Independent Tribunal for Social Assistance Appeals (ITSAA) considers the appeal."
     },
     {
       "id": "gia-appeals-procedure",
       "type": "appeal-procedure",
       "steps": [
         "Check the decline reason, usually the medical wording",
-        "Ask your doctor for a clearer report stating 24-hour full-time care",
+        "Ask your doctor for a clearer report describing the care you need",
         "Visit your SASSA office or write to the Ministry of Social Development within 30 days",
         "Submit your appeal with the new medical report and keep the receipt",
         "Wait for the Independent Tribunal for Social Assistance Appeals (ITSAA) outcome"
@@ -401,7 +400,7 @@
         "Details of your caregiver"
       ],
       "commonReasons": [
-        "Medical report did not state 24-hour full-time care",
+        "Medical report did not describe the care need clearly",
         "Primary grant not active at the time of application",
         "Missing or incorrect documents"
       ],
@@ -500,7 +499,7 @@
     {
       "id": "gia-cd-text",
       "type": "paragraph",
-      "text": "The Care Dependency Grant is one of the four primary grants that Grant-in-Aid can ride on. In practice, this matters where the Care Dependency Grant recipient is a child who also needs full-time care from another person and meets the medical test in their own right. Families should speak to a SASSA officer, because the Care Dependency Grant already recognises a severe care need, and the officer can explain whether a separate Grant-in-Aid top-up applies."
+      "text": "SASSA's 2026 grant booklet lists Grant-in-Aid for people who already receive an Older Person, Disability or War Veterans Grant. It does not list the Care Dependency Grant as a base grant. That is because the Care Dependency Grant is already paid for a child who needs permanent care because of a disability. If you care for a child on the Care Dependency Grant and the child also needs full-time care from another person, ask a SASSA officer whether any additional support applies to your case."
     },
     {
       "id": "gia-example-h",
@@ -540,12 +539,6 @@
           "R2,420",
           "R580",
           "R3,000"
-        ],
-        [
-          "Care Dependency Grant",
-          "R2,400",
-          "R580",
-          "R2,980"
         ]
       ],
       "caption": "The top-up is the same R580 regardless of which primary grant you receive."
@@ -620,7 +613,7 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "The medical report does not state 24-hour full-time care in clear words",
+        "The medical report does not describe your care needs clearly",
         "The primary grant was not active when the application was made",
         "Caregiver details were missing or incorrect",
         "The application form was not signed or fingerprinted",
@@ -720,7 +713,7 @@
         "Describe each task you cannot do alone: bathing, dressing, feeding, toileting, moving",
         "Say how many times at night you need help",
         "Mention confusion, falls, or memory problems if they happen",
-        "Ask the doctor to use the exact phrase '24-hour full-time care'",
+        "Ask the doctor to describe your care needs in plain words, including night-time help",
         "Keep a copy of the completed form for your care file"
       ]
     },
@@ -755,7 +748,7 @@
     {
       "id": "gia-srd-text",
       "type": "paragraph",
-      "text": "Grant-in-Aid cannot be added to the Social Relief of Distress (SRD) grant. The SRD grant is a short-term relief for people in temporary hardship and is not one of the four primary grants. If you receive an older-person, disability, war veterans, or care dependency grant and also briefly need SRD, speak to a SASSA officer about how the grants interact, because holding certain grants can affect SRD eligibility."
+      "text": "Grant-in-Aid cannot be added to the Social Relief of Distress (SRD) grant. The SRD grant is a short-term relief for people in temporary hardship and is not one of the three primary grants that Grant-in-Aid can be added to. If you receive an older-person, disability or war veterans grant and also briefly need SRD, speak to a SASSA officer about how the grants interact, because holding certain grants can affect SRD eligibility."
     },
     {
       "id": "gia-summary-h",
@@ -766,7 +759,7 @@
     {
       "id": "gia-summary-text",
       "type": "paragraph",
-      "text": "To recap: Grant-in-Aid is a R580-a-month top-up that you can add to an Older Person, Disability, War Veterans, or Care Dependency Grant when a doctor confirms you need 24-hour full-time care. It has no means test of its own because it rides on your primary grant, it is paid with your primary grant, and it is reviewed together with that grant. Apply at the SASSA office where your primary grant is registered, bring a clear medical report, and keep your care file up to date. If you are declined, appeal within 30 days with stronger medical evidence. Used well, this small top-up makes a real difference to families providing full-time care at home."
+      "text": "To recap: Grant-in-Aid is a R580-a-month top-up that you can add to an Older Person, Disability or War Veterans Grant when a doctor confirms you need regular care and assistance from another person. It has no means test of its own because it rides on your primary grant, it is paid with your primary grant, and it is reviewed together with that grant. Apply at the SASSA office where your primary grant is registered, bring a clear medical report, and keep your care file up to date. If you are declined, appeal within 30 days with stronger medical evidence. Used well, this small top-up makes a real difference to families providing full-time care at home."
     },
     {
       "id": "faq-h",
@@ -804,7 +797,7 @@
         },
         {
           "question": "Can I get Grant-in-Aid with the Care Dependency Grant?",
-          "answer": "Yes. The Care Dependency Grant is one of the four primary grants that Grant-in-Aid can ride on. In practice this applies where the Care Dependency Grant recipient also needs full-time care from another person."
+          "answer": "SASSA's 2026 grant booklet lists Grant-in-Aid only for people on an Older Person, Disability or War Veterans Grant, not the Care Dependency Grant. The Care Dependency Grant is already paid for a child who needs permanent care. Ask a SASSA officer about your specific case before applying."
         },
         {
           "question": "Is Grant-in-Aid taxable?",
@@ -828,7 +821,7 @@
         },
         {
           "question": "Can I apply for Grant-in-Aid at the same time as my primary grant?",
-          "answer": "Yes. When you apply for your Older Person, Disability, War Veterans, or Care Dependency Grant, tell the officer you also need full-time care and ask for the medical form so both can be processed together."
+          "answer": "Yes. When you apply for your Older Person, Disability or War Veterans Grant, tell the officer you also need care and assistance and ask for the medical form so both can be processed together."
         }
       ]
     },

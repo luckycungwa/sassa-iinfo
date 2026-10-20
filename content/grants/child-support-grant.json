@@ -106,7 +106,7 @@
         "You must not be paid a salary to care for the child (e.g., foster parent allowance is separate)."
       ],
       "restrictions": [
-        "You cannot receive the grant for more than six children at a time.",
+        "You cannot claim the grant for more than six children who are not your biological children. Your own children do not count towards that six-child limit.",
         "The child cannot be cared for in a state-funded institution for more than six months.",
         "You cannot be receiving another grant for the same child.",
         "The child must not be married or living independently."
@@ -757,7 +757,7 @@
         },
         {
           "question": "Can I get the grant for more than one child?",
-          "answer": "Yes, you can receive the grant for more than one child in your care, up to a limit of six children per caregiver. Beyond that, ask your office about other options such as the Foster Care Grant."
+          "answer": "Yes. You can claim the grant for more than one child, but you cannot claim it for more than six children who are not your biological children. Your own biological children do not count towards that limit. If you are caring for more than six children who are not yours, ask your SASSA office about other options such as the Foster Care Grant."
         },
         {
           "question": "What if both parents apply for the same child?",
@@ -865,7 +865,7 @@
         },
         {
           "question": "Can I receive the grant for more than six children?",
-          "answer": "No. The limit is six children per caregiver. If you are caring for more than six children (for example, orphaned relatives), ask at your SASSA office about the Foster Care Grant or other options."
+          "answer": "Yes, in some cases. The limit of six applies only to children who are not your biological children. If you are caring for more than six children who are not yours, such as orphaned relatives, SASSA will not accept further Child Support Grant applications for them; ask your office about the Foster Care Grant or other options."
         },
         {
           "question": "I lost my SASSA card. How do I access my payments?",

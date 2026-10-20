@@ -166,7 +166,7 @@
       "type": "callout",
       "intent": "warning",
       "title": "Disability Grants Are Reviewed More Often",
-      "text": "Disability Grant eligibility can change, so SASSA periodically asks for updated medical reports. This does not change your payment date — but if your grant is flagged for a review, your payment falls under the new 4th-day window (7th of the month) introduced in August 2026. If SASSA has not notified you of a review, collect on your usual Disability date."
+      "text": "Disability Grant eligibility can change, so SASSA periodically asks for updated medical reports. This does not change your payment date — but if your grant is flagged for a review, your payment falls under the fourth payment day introduced in August 2026 instead. If SASSA has not notified you of a review, collect on your usual Disability date."
     },
     {
       "id": "late-h",
@@ -224,7 +224,7 @@
         },
         {
           "question": "Does a medical review change my payment date?",
-          "answer": "Not permanently. If your grant is under review, your payment may fall in the 4th-day window (the 7th of the month) rather than your usual date. Once the review is finalised, you return to your normal Disability date."
+          "answer": "Not permanently. If your grant is under review, your payment may fall in the 4th-day window rather than your usual date. Once the review is finalised, you return to your normal Disability date."
         },
         {
           "question": "Will my grant amount change during the year?",

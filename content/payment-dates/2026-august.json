@@ -60,7 +60,7 @@
     {
       "id": "new-cycle-paragraph",
       "type": "paragraph",
-      "text": "Starting in August 2026, SASSA has introduced a fourth payment window on the 7th of each month, primarily to accommodate grant review outcomes and backlog payments. Previously, grant reviews were processed ad hoc throughout the month, causing confusion. This new dedicated day streamlines payments for beneficiaries whose reviews are finalised by the end of the previous month."
+      "text": "Starting in August 2026, SASSA introduced a fourth payment window on 7 August 2026, primarily to accommodate grant review outcomes and backlog payments. Previously, grant reviews were processed ad hoc throughout the month, causing confusion. This new dedicated day streamlines payments for beneficiaries whose reviews are finalised by the end of the previous month."
     },
     {
       "id": "new-cycle-callout",
@@ -142,7 +142,7 @@
         },
         {
           "title": "Payment on the new 4th-day cycle",
-          "description": "If your review is approved after the standard payment dates have passed, you will receive your backdated payment on the 4th day (7th of the month)."
+          "description": "If your review is approved after the standard payment dates have passed, you will receive your backdated payment on the fourth payment day (7 August 2026)."
         }
       ]
     },
@@ -158,7 +158,7 @@
       "faqs": [
         {
           "question": "What is the new 4th-day cycle and who qualifies for it?",
-          "answer": "The 4th-day cycle is a new payment window on the 7th of each month. It is for beneficiaries whose grants are under review, those receiving backdated payments, and exceptional cases where the regular payment window was missed. It does not replace the existing three payment dates."
+          "answer": "The 4th-day cycle is a payment window introduced on 7 August 2026. It is for beneficiaries whose grants are under review, those receiving backdated payments, and exceptional cases where the regular payment window was missed. It does not replace the existing three payment dates."
         },
         {
           "question": "I collect my Older Persons Grant on the 4th. Will this change in August?",
