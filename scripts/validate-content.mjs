@@ -10,6 +10,9 @@ import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join, extname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { paymentMonths } from "../lib/data/paymentDates.ts";
+import { GRANT_PAGE_FILES, grantPageRow, monthPageTable } from "./lib/payment-dates.mjs";
+
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const ROOT = resolve(__dirname, "..", "content");
 const VALID_CLASSIFICATIONS = [
@@ -19,16 +22,48 @@ const VALID_CLASSIFICATIONS = [
   "tool-page", "home-page", "hub-index",
 ];
 
+/**
+ * Expected payment tables, keyed by content file name. These are generated
+ * from lib/data/paymentDates.ts by scripts/sync-dates.mjs; any difference
+ * means a hand edit has drifted from the single source of truth.
+ */
+const expectedDateTables = new Map();
+for (const month of paymentMonths) {
+  expectedDateTables.set(`${month.slug}.json`, monthPageTable(month));
+}
+for (const [key, file] of Object.entries(GRANT_PAGE_FILES)) {
+  expectedDateTables.set(file, { rows: paymentMonths.map((month) => grantPageRow(month, key)) });
+}
+
+function dateDrift(file, page) {
+  const name = file.replace(/\\/g, "/").split("/").pop();
+  const expected = expectedDateTables.get(name);
+  if (!expected) return [];
+
+  const blocks = Array.isArray(page.contentBlocks) ? page.contentBlocks : [];
+  const table = blocks.find(
+    (block) => block.type === "table" && (block.id === "dates-table" || block.id === "date-table"),
+  );
+  if (!table) return ["Payment-date page is missing its dates-table block"];
+
+  const errors = [];
+  for (const field of ["caption", "headers", "rows"]) {
+    if (expected[field] === undefined) continue;
+    if (JSON.stringify(table[field]) !== JSON.stringify(expected[field])) {
+      errors.push(`Table ${field} does not match lib/data/paymentDates.ts — run "npm run dates:sync"`);
+    }
+  }
+  return errors;
+}
+
 let totalFiles = 0;
 let passed = 0;
 let failed = 0;
 const allErrors = [];
 
 /**
- * Locale trees that mirror English content. A slug may legitimately repeat
- * across trees (e.g. content/grants/srd-r370-grant.json and
- * content/zu/grants/srd-r370-grant.json), so duplicate checks are scoped to
- * the first path segment under /content.
+ * Duplicate slugs are checked per top-level folder under /content, because
+ * a hub page and a detail page may legitimately share a slug shape.
  */
 function scopeOf(file) {
   const rel = file.replace(ROOT, "").replace(/\\/g, "/").replace(/^\//, "");
@@ -99,6 +134,13 @@ function validate(contents, path) {
     contents.contentBlocks.forEach((block, idx) => {
       if (!block.id) errors.push(`Block [${idx}] missing "id"`);
       if (!block.type) errors.push(`Block [${idx}] missing "type"`);
+      if (block.type === "table" && Array.isArray(block.headers) && Array.isArray(block.rows)) {
+        block.rows.forEach((row, rowIdx) => {
+          if (!Array.isArray(row) || row.length !== block.headers.length) {
+            errors.push(`Table "${block.id ?? idx}" row ${rowIdx} has ${Array.isArray(row) ? row.length : 0} cells, expected ${block.headers.length}`);
+          }
+        });
+      }
       findRawHtml(block, `contentBlocks[${idx}]`, errors);
     });
   } else if (contents.contentBlocks !== undefined) {
@@ -137,6 +179,7 @@ for (const file of files) {
     const raw = readFileSync(file, "utf-8");
     const parsed = JSON.parse(raw);
     const result = validate(parsed, file);
+    result.errors.push(...dateDrift(file, parsed));
     if (typeof parsed.slug === "string") {
       const scope = scopeOf(file);
       let scoped = seenSlugs.get(scope);

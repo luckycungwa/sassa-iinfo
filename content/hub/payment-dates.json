@@ -4,7 +4,7 @@
   "classification": "hub-index",
   "title": "SASSA Grant Payment Dates 2026",
   "description": "Complete schedule of SASSA grant payment dates for all grant types including Older Person, Disability, Child Support, Foster Care, and SRD R370 grants.",
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-10-20",
   "version": "2.1.0",
   "status": "published",
   "author": {
@@ -33,7 +33,7 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "SASSA pays grants on specific days each month, staggered by grant type. Permanent grants (Older Person, Disability, Children's) are paid in the first week. The SRD R370 grant is paid in batches from the 25th to the 30th. Click any month for the full schedule.",
+      "text": "SASSA pays grants on specific days each month, staggered by grant type. Permanent grants (Older Person, Disability, Children's) are paid in the first week. The SRD R370 grant is paid in batches from the 24th to the end of the month. Click any month for the full schedule.",
       "links": [
         {
           "text": "SRD R370 grant",
@@ -46,28 +46,23 @@
       "type": "link-grid",
       "links": [
         {
-          "title": "September 2026 (Current Month)",
-          "href": "/payment-dates/2026-september",
-          "description": "Current month's payment schedule — Heritage Day impact explained"
-        },
-        {
-          "title": "October 2026 (Provisional)",
-          "href": "/payment-dates/2026-october",
-          "description": "Expected schedule"
-        },
-        {
-          "title": "November 2026",
+          "title": "November 2026 (Confirmed — revised)",
           "href": "/payment-dates/2026-november",
-          "description": "Expected schedule"
+          "description": "Older Persons 30 Oct, Disability 2 Nov, Children 3 Nov"
         },
         {
-          "title": "December 2026",
+          "title": "December 2026 (Provisional)",
           "href": "/payment-dates/2026-december",
-          "description": "Holiday season payment schedule"
+          "description": "Festive-season schedule and early SRD window"
         },
         {
-          "title": "August 2026",
-          "href": "/payment-dates/2026-august",
+          "title": "October 2026 (Paid)",
+          "href": "/payment-dates/2026-october",
+          "description": "Permanent grants paid; SRD window 24-31 October"
+        },
+        {
+          "title": "September 2026",
+          "href": "/payment-dates/2026-september",
           "description": "Previous month's schedule (historical)"
         }
       ]
@@ -78,7 +73,7 @@
       "faqs": [
         {
           "question": "When are SASSA grants paid each month?",
-          "answer": "Payment dates are staggered by grant type. Older Persons grants are paid first (2nd-5th), followed by Disability grants (3rd-6th), then Children's grants (4th-7th). SRD R370 is paid between the 25th and 30th."
+          "answer": "Payment dates are staggered by grant type. Older Persons grants are paid first, followed by Disability grants, then Children's grants. In November 2026 the revised dates are Older Persons 30 October, Disability 2 November, Children 3 November and review cases 5 November. SRD R370 is paid in batches between the 24th and the end of the month."
         },
         {
           "question": "Do I need to withdraw on the first day?",

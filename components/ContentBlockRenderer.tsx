@@ -330,9 +330,11 @@ function Block({ block, classification }: { block: ContentBlock; classification?
 interface EditorialRendererProps {
   page: BasePage;
   blocks: ContentBlock[];
+  /** Optional provenance line shown above the article body. */
+  notice?: React.ReactNode;
 }
 
-export function EditorialRenderer({ page, blocks }: EditorialRendererProps) {
+export function EditorialRenderer({ page, blocks, notice }: EditorialRendererProps) {
   const contentBlocks = blocks.filter((b) => b.type !== "hero");
   const heroBlock = blocks.find((b) => b.type === "hero") as (ContentBlock & { type: "hero" }) | undefined;
 
@@ -340,6 +342,7 @@ export function EditorialRenderer({ page, blocks }: EditorialRendererProps) {
     <>
       {heroBlock && <Block block={heroBlock} classification={page.classification} />}
       <PageShell page={page}>
+        {notice}
         <TableOfContents />
         {contentBlocks.map((block, i) => (
           <Block key={block.id || i} block={block} classification={page.classification} />

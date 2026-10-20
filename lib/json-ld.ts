@@ -1,6 +1,7 @@
 import { TEAM } from "./team";
+import { SITE_URL } from "./site";
 
-const siteUrl = process.env.APP_URL || "https://sassagrantguide.co.za";
+const siteUrl = SITE_URL;
 
 const authorPerson = {
   "@type": "Person",

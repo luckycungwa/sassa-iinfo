@@ -4,7 +4,8 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates — August 2026",
   "description": "Complete schedule of SASSA social grant payout dates for August 2026. Older Persons: 4 August, Disability: 5 August, Children: 6 August, review day: 7 August, SRD R370: 25-31 August. New 4th-day cycle introduced for grant reviews.",
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-10-20",
+  "lastReviewed": "2026-10-20",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
@@ -35,7 +36,7 @@
       "title": "SASSA Payment Dates — August 2026",
       "description": "Full payout schedule for August 2026 including the new 4th day cycle. Older Persons: 4 Aug, Disability: 5 Aug, Children: 6 Aug, review day: 7 Aug, SRD R370: 25-31 Aug. Plan your collection with our detailed guide.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-08-25",
+      "lastUpdated": "2026-10-20",
       "cta": {
         "label": "View All Payment Dates",
         "href": "/payment-dates"
@@ -78,38 +79,44 @@
       "id": "dates-table",
       "type": "table",
       "headers": [
-        "Grant Type",
-        "Payment Date",
-        "Day of Week"
+        "Grant type",
+        "Payment date",
+        "Day",
+        "Status"
       ],
       "rows": [
         [
           "Older Persons Grant (Pension)",
           "4 August 2026",
-          "Tuesday"
+          "Tuesday",
+          "Paid"
         ],
         [
           "Disability Grant",
           "5 August 2026",
-          "Wednesday"
+          "Wednesday",
+          "Paid"
         ],
         [
-          "Children's Grants (CSG, Foster, CDG)",
+          "Children's Grants (CSG, Foster Care, CDG)",
           "6 August 2026",
-          "Thursday"
+          "Thursday",
+          "Paid"
         ],
         [
-          "New 4th-Day Cycle (Reviews & Backlogs)",
+          "Review and verification cases",
           "7 August 2026",
-          "Friday"
+          "Friday",
+          "Paid — notified beneficiaries"
         ],
         [
           "Social Relief of Distress (SRD R370)",
           "25-31 August 2026",
-          "Month-end window"
+          "Month-end batches",
+          "Paid — batches complete"
         ]
       ],
-      "caption": "Full SASSA payout schedule for August 2026 featuring the new 4th-day cycle"
+      "caption": "SASSA payment dates for August 2026, confirmed on 29 July 2026"
     },
     {
       "id": "review-process-heading",

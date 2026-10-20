@@ -277,6 +277,8 @@ export interface BasePage {
   title: string;
   description: string;
   lastUpdated: string;
+  /** ISO date the page's facts were last checked against official sources. */
+  lastReviewed?: string;
   readingTime?: string;
   version: string;
   status: ContentStatus;

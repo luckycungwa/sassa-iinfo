@@ -4,7 +4,8 @@
   "classification": "payment-date",
   "title": "SASSA Older Persons Grant Payment Dates 2026",
   "description": "Every SASSA Older Persons Grant payment date for 2026: the confirmed monthly dates, how the pay cycle works, and what to do if your pension payment is late.",
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-10-20",
+  "lastReviewed": "2026-10-20",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
@@ -35,7 +36,7 @@
       "title": "SASSA Older Persons Grant Payment Dates 2026",
       "description": "The Older Persons Grant (pension) is usually paid on the first or second working day of each month — but the exact date moves. Here is every confirmed 2026 payout date, how the cycle works, and what to do if your money is late.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-08-25",
+      "lastUpdated": "2026-10-20",
       "cta": {
         "label": "View This Month's Dates",
         "href": "/payment-dates/2026-september"
@@ -73,62 +74,62 @@
         [
           "January 2026",
           "2 January 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "February 2026",
           "3 February 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "March 2026",
           "3 March 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "April 2026",
           "2 April 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "May 2026",
           "4 May 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "June 2026",
           "3 June 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "July 2026",
           "3 July 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "August 2026",
           "4 August 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "September 2026",
           "2 September 2026",
-          "Confirmed by SASSA 21 August 2026"
+          "Paid"
         ],
         [
           "October 2026",
-          "5 October 2026",
-          "Provisional — confirm with SASSA"
+          "2 October 2026",
+          "Paid"
         ],
         [
           "November 2026",
-          "3 November 2026",
-          "Provisional — confirm with SASSA"
+          "30 October 2026",
+          "Confirmed — paid early"
         ],
         [
           "December 2026",
           "2 December 2026",
-          "Provisional — confirm with SASSA"
+          "Provisional"
         ]
       ],
       "caption": "SASSA Older Persons Grant payment dates for 2026"
@@ -204,7 +205,7 @@
       "faqs": [
         {
           "question": "What is the next Older Persons Grant payment date?",
-          "answer": "As of 25 August 2026, the next payment is Wednesday 2 September 2026 — confirmed by SASSA on 21 August 2026. October is provisionally 5 October 2026, pending SASSA's confirmation."
+          "answer": "The next Older Persons payment is Friday 30 October 2026 — the revised November date, confirmed by SASSA on 15 October 2026. October was paid on Friday 2 October 2026."
         },
         {
           "question": "Why is my pension paid on a different day every month?",

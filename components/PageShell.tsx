@@ -10,6 +10,7 @@ interface PageShellProps {
     title: string;
     description: string;
     lastUpdated: string;
+    lastReviewed?: string;
     version: string;
     author: { name: string; role: string; credentials?: string; verified: boolean };
     relatedPages?: { title: string; slug?: string; href?: string }[];
@@ -19,7 +20,7 @@ interface PageShellProps {
 }
 
 export default function PageShell({ page, children }: PageShellProps) {
-  const { title, description, lastUpdated, version, relatedPages, classification } = page;
+  const { title, description, lastUpdated, lastReviewed, version, relatedPages, classification } = page;
 
   return (
     <article className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 md:py-8 space-y-8 bg-canvas" id={"page-shell-" + page.id}>
@@ -44,6 +45,15 @@ export default function PageShell({ page, children }: PageShellProps) {
             <Calendar className="w-3.5 h-3.5" />
             Last updated: <strong className="text-ink">{lastUpdated}</strong>
           </span>
+          {lastReviewed && lastReviewed !== lastUpdated && (
+            <>
+              <span className="text-border">|</span>
+              <span className="flex items-center gap-1.5">
+                <ShieldCheck className="w-3.5 h-3.5" />
+                Reviewed: <strong className="text-ink">{lastReviewed}</strong>
+              </span>
+            </>
+          )}
           <span className="text-border">|</span>
           <span>
             v{version}

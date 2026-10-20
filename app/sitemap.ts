@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "../lib/site";
 import { grants } from "../lib/data/grants";
 import { statuses } from "../lib/data/statuses";
 import { appeals } from "../lib/data/appeals";
@@ -7,11 +8,10 @@ import { downloadableForms } from "../lib/data/downloads";
 import { provinces } from "../lib/data/provinces";
 import { guides } from "../lib/data/guides";
 import { bankingGuides } from "../lib/data/banking";
-import { newsArticles } from "../lib/data/news";
 import { paymentMonths } from "../lib/data/paymentDates";
-import { loadAllContent, getLocalizedSlugs } from "../lib/content-loader";
+import { loadAllContent } from "../lib/content-loader";
 
-const baseUrl = process.env.APP_URL || "https://sassagrantguide.co.za";
+const baseUrl = SITE_URL;
 
 const staticRoutes = [
   { path: "", priority: 1.0, changefreq: "weekly" as const },
@@ -59,18 +59,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: (p.classification === "news-article" ? "weekly" : "monthly") as "weekly" | "monthly",
       priority: p.slug === "/banking/black-card-swap" ? 0.9 : p.classification === "grant-detail" || p.classification === "status-meaning" ? 0.8 : 0.6,
     }));
-
-  const localizedPages = (["zu", "xh", "af"] as const).flatMap((locale) =>
-    getLocalizedSlugs(locale).map((slug) => {
-      const en = allContent.find((p) => p.slug === slug);
-      return {
-        url: `${baseUrl}/${locale}${slug}`,
-        lastModified: new Date(en?.lastUpdated || latestContentDate),
-        changeFrequency: (en?.classification === "news-article" ? "weekly" : "monthly") as "weekly" | "monthly",
-        priority: slug === "/banking/black-card-swap" ? 0.9 : en?.classification === "grant-detail" || en?.classification === "status-meaning" ? 0.8 : 0.6,
-      };
-    })
-  );
 
   const grantRoutes = grants.map((g) => ({
     url: `${baseUrl}/grants/${g.slug}`,
@@ -128,13 +116,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const newsRoutes = newsArticles.map((n) => ({
-    url: `${baseUrl}/news/${n.slug}`,
-    lastModified: new Date(n.date),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
-
   const paymentDateRoutes = paymentMonths.map((m) => ({
     url: `${baseUrl}/payment-dates/${m.slug}`,
     lastModified: new Date(latestContentDate),
@@ -145,7 +126,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const allRoutes = [
     ...routes,
     ...jsonPages,
-    ...localizedPages,
     ...grantRoutes,
     ...statusRoutes,
     ...appealRoutes,
@@ -154,7 +134,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...provinceRoutes,
     ...guideRoutes,
     ...bankingRoutes,
-    ...newsRoutes,
     ...paymentDateRoutes,
   ];
 

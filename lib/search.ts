@@ -9,7 +9,7 @@ import { provinces } from "./data/provinces";
 import { guides } from "./data/guides";
 import { bankingGuides } from "./data/banking";
 import { faqCategories } from "./data/faq";
-import { newsArticles } from "./data/news";
+import { loadAllContent } from "./content-loader";
 
 export interface SearchResult {
   title: string;
@@ -64,9 +64,11 @@ function buildIndex(): SearchResult[] {
     c.questions.forEach((q) => results.push({ title: q.question, description: q.answer.slice(0, 120), url: "/faq", category: "FAQ" }));
   });
 
-  newsArticles.forEach((n) => {
-    results.push({ title: n.title, description: n.summary, url: `/news/${n.slug}`, category: "News" });
-  });
+  loadAllContent()
+    .filter((p) => p.classification === "news-article" && p.status === "published")
+    .forEach((a) => {
+      results.push({ title: a.title, description: a.description, url: a.slug, category: "News" });
+    });
 
   return results;
 }

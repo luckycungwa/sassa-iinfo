@@ -32,13 +32,20 @@ export default function SearchDialog() {
   useEffect(() => {
     if (query.length < 2) return;
     let cancelled = false;
+    const controller = new AbortController();
     const timer = setTimeout(() => {
-      import("../lib/search").then(({ search }) => {
-        if (!cancelled) setFetched({ q: query, hits: search(query) });
-      });
+      fetch(`/api/search?q=${encodeURIComponent(query)}`, { signal: controller.signal })
+        .then((res) => (res.ok ? res.json() : { results: [] }))
+        .then((data: { results: SearchResult[] }) => {
+          if (!cancelled) setFetched({ q: query, hits: data.results });
+        })
+        .catch(() => {
+          if (!cancelled) setFetched({ q: query, hits: [] });
+        });
     }, 150);
     return () => {
       cancelled = true;
+      controller.abort();
       clearTimeout(timer);
     };
   }, [query]);

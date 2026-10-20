@@ -4,7 +4,8 @@
   "classification": "payment-date",
   "title": "SASSA Payment Dates May 2026",
   "description": "Confirmed SASSA payment dates for May 2026: Older Persons 4 May, Disability 5 May, Children's grants 6 May, SRD R370 from 25 May. No holidays affect the schedule.",
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-10-20",
+  "lastReviewed": "2026-10-20",
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -28,7 +29,7 @@
       "title": "SASSA Payment Dates May 2026",
       "description": "May is a clean month: no public holidays touch the pay schedule, permanent grants run the standard first-week pattern, and SRD batches start from 25 May.",
       "readingTime": "5 min read",
-      "lastUpdated": "2026-08-25"
+      "lastUpdated": "2026-10-20"
     },
     {
       "id": "intro-h",
@@ -39,32 +40,44 @@
     {
       "id": "date-table",
       "type": "table",
-      "caption": "Confirmed SASSA payment dates for May 2026",
+      "caption": "SASSA payment dates for May 2026",
       "rows": [
         [
-          "Older Persons Grant (60-74)",
-          "Monday 4 May 2026"
-        ],
-        [
-          "Older Persons Grant (75+)",
-          "Monday 4 May 2026"
+          "Older Persons Grant (Pension)",
+          "4 May 2026",
+          "Monday",
+          "Paid"
         ],
         [
           "Disability Grant",
-          "Tuesday 5 May 2026"
+          "5 May 2026",
+          "Tuesday",
+          "Paid"
         ],
         [
-          "Children's Grants (Child Support, Foster Care, Care Dependency)",
-          "Wednesday 6 May 2026"
+          "Children's Grants (CSG, Foster Care, CDG)",
+          "6 May 2026",
+          "Wednesday",
+          "Paid"
         ],
         [
-          "SRD R370 Grant",
-          "From Monday 25 May 2026 (batches until 30 May)"
+          "Review and verification cases",
+          "7 May 2026",
+          "Thursday",
+          "Paid — notified beneficiaries"
+        ],
+        [
+          "Social Relief of Distress (SRD R370)",
+          "25-30 May 2026",
+          "Month-end batches",
+          "Paid — batches complete"
         ]
       ],
       "headers": [
         "Grant type",
-        "Payment date"
+        "Payment date",
+        "Day",
+        "Status"
       ]
     },
     {

@@ -2,11 +2,12 @@
   "id": "payment-date-2026-october",
   "slug": "/payment-dates/2026-october",
   "classification": "payment-date",
-  "title": "SASSA Payment Dates — October 2026",
-  "description": "Provisional SASSA payment dates for October 2026. Older Persons: 5 October, Disability: 6 October, Children: 7 October, review cycle day: 7 October, SRD R370: 26-31 October. Dates follow the standard pattern until SASSA confirms.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
-  "readingTime": "5 min read",
+  "title": "SASSA Payment Dates for October 2026: Full Schedule",
+  "description": "SASSA payment dates for October 2026: Older Persons Friday 2 October, Disability Monday 5 October, Children Tuesday 6 October, review cases Wednesday 7 October, and SRD R370 batches from 24 October.",
+  "lastUpdated": "2026-10-20",
+  "lastReviewed": "2026-10-20",
+  "version": "2.0.0",
+  "readingTime": "6 min read",
   "status": "published",
   "author": {
     "name": "Lucky Cungwa",
@@ -15,13 +16,14 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Payment Dates October 2026: Provisional Schedule",
-    "metaDescription": "SASSA payment dates for October 2026 (provisional): Older Persons 5 Oct, Disability 6 Oct, Children 7 Oct, SRD R370 26-31 Oct. Updated as soon as SASSA confirms the schedule.",
+    "metaTitle": "SASSA Payment Dates for October 2026: Full Schedule",
+    "metaDescription": "October 2026 SASSA dates: Older Persons paid Fri 2 Oct, Disability Mon 5 Oct, Children Tue 6 Oct, review cases Wed 7 Oct. SRD R370 batches run 24-31 Oct.",
     "keywords": [
-      "SASSA payment dates October 2026",
-      "October SASSA payout",
-      "SASSA grant dates October",
-      "SRD payment date October 2026"
+      "sassa payment dates for october 2026",
+      "sassa payment dates october 2026",
+      "sassa october 2026 payment dates",
+      "srd payment date october 2026",
+      "sassa older persons grant october 2026"
     ],
     "schemaMarkup": {
       "@type": "GovernmentService",
@@ -32,34 +34,38 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "SASSA Payment Dates — October 2026",
-      "description": "Expected payout schedule for October 2026. Older Persons: 5 Oct, Disability: 6 Oct, Children: 7 Oct, SRD R370: 26-31 Oct. Provisional dates based on the standard monthly pattern.",
-      "readingTime": "5 min read",
-      "lastUpdated": "2026-08-25",
+      "title": "SASSA Payment Dates for October 2026",
+      "description": "Permanent grants were paid on Friday 2 October, Monday 5 October and Tuesday 6 October. Review cases follow on Wednesday 7 October. The only payment still outstanding is SRD R370, expected from 24 October.",
+      "readingTime": "6 min read",
+      "lastUpdated": "2026-10-20",
       "cta": {
-        "label": "View All Payment Dates",
-        "href": "/payment-dates"
+        "label": "Read the November schedule",
+        "href": "/payment-dates/2026-november"
       },
       "secondaryCta": {
-        "label": "September 2026 Schedule",
-        "href": "/payment-dates/2026-september"
+        "label": "View All Payment Dates",
+        "href": "/payment-dates"
       }
     },
     {
-      "id": "provisional-callout",
+      "id": "status-callout",
       "type": "callout",
       "intent": "info",
-      "title": "These Dates Are Provisional",
-      "text": "SASSA usually confirms each month's schedule two to four weeks in advance. The dates below follow the standard payment pattern and will be updated on this page the moment SASSA publishes the confirmed October schedule."
+      "title": "Permanent grants have already been paid",
+      "text": "As of 20 October 2026, the Older Persons, Disability and Children's grants for October have all been released. If your money has not reflected, allow up to three business days and then check your status on the SRD portal or call SASSA on 0800 60 10 11."
     },
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "October 2026 has no public holidays in the first week, so permanent grants are expected to follow the standard staggered pattern starting from the first business day of the month. Because 1 October falls on a Thursday, Older Persons grants shift to Monday 5 October, followed by Disability grants on Tuesday 6 October and Children's grants on Wednesday 7 October. The Medium-Term Budget Policy Statement is typically released during October, which sometimes includes grant-related announcements.",
+      "text": "October 2026 opened with a Friday payment day, so pensioners were paid on 2 October — three days earlier than the provisional schedule first published on this site. Disability grants followed on Monday 5 October and Children's grants on Tuesday 6 October. There are no public holidays in the first week of October, so the schedule ran cleanly. The review and verification day is Wednesday 7 October, and SRD R370 is the only payment left this month.",
       "links": [
         {
           "text": "Disability grant",
           "href": "/grants/disability-grant"
+        },
+        {
+          "text": "SRD R370",
+          "href": "/grants/srd-r370-grant"
         }
       ]
     },
@@ -67,86 +73,125 @@
       "id": "dates-heading",
       "type": "heading",
       "level": 2,
-      "text": "October 2026 Expected Schedule"
+      "text": "October 2026 payment schedule"
     },
     {
       "id": "dates-table",
       "type": "table",
       "headers": [
-        "Grant Type",
-        "Expected Date",
-        "Day of Week"
+        "Grant type",
+        "Payment date",
+        "Day",
+        "Status"
       ],
       "rows": [
         [
           "Older Persons Grant (Pension)",
-          "5 October 2026",
-          "Monday"
+          "2 October 2026",
+          "Friday",
+          "Paid"
         ],
         [
           "Disability Grant",
+          "5 October 2026",
+          "Monday",
+          "Paid"
+        ],
+        [
+          "Children's Grants (CSG, Foster Care, CDG)",
           "6 October 2026",
-          "Tuesday"
+          "Tuesday",
+          "Paid"
         ],
         [
-          "Children's Grants (CSG, Foster, CDG)",
+          "Review and verification cases",
           "7 October 2026",
-          "Wednesday"
-        ],
-        [
-          "Review Cycle (Reviews & Backlogs)",
-          "7 October 2026",
-          "Wednesday"
+          "Wednesday",
+          "Paid — notified beneficiaries"
         ],
         [
           "Social Relief of Distress (SRD R370)",
-          "26-31 October 2026",
-          "Month-end window"
+          "24-31 October 2026",
+          "Month-end batches",
+          "Expected — check your SRD status"
         ]
       ],
-      "caption": "Expected SASSA payout schedule for October 2026 — subject to confirmation"
+      "caption": "SASSA payment dates for October 2026"
     },
     {
-      "id": "mtbps-heading",
+      "id": "srd-heading",
       "type": "heading",
       "level": 2,
-      "text": "What to Watch for in October"
+      "text": "SRD R370: what to expect at month-end"
     },
     {
-      "id": "mtbps-list",
+      "id": "srd-p1",
+      "type": "paragraph",
+      "text": "SRD is not paid on a single day. SASSA releases it in batches, normally between the 24th and the end of the month. Your exact date depends on when your application was approved and which batch you are placed in. Being approved does not guarantee a payment on the first day of the window."
+    },
+    {
+      "id": "srd-list",
       "type": "list",
       "ordered": false,
       "items": [
-        "Medium-Term Budget Policy Statement: the Finance Minister's update may confirm or adjust social grant plans for the remainder of the fiscal year.",
-        "Continued grant reviews: the 350,000-grant review drive announced for 2026/27 remains active. Respond promptly to any review notice.",
-        "SRD monthly approvals: each month's SRD approval is assessed independently — check your status after the 15th of the month."
+        "Check your SRD status after the 20th. A status of 'Approved' means payment is authorised; 'Pending' means your application is still being processed.",
+        "Payment dates are shown per beneficiary in the SRD portal, not in a single public table.",
+        "If your status changes to 'Declined', you can appeal within 90 days through the SRD portal.",
+        "Do not pay anyone who claims they can move you into an earlier batch. Batch allocation is automated."
       ]
+    },
+    {
+      "id": "watch-heading",
+      "type": "heading",
+      "level": 2,
+      "text": "What else happens in October"
+    },
+    {
+      "id": "watch-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The Medium-Term Budget Policy Statement is usually delivered in late October or early November. It can signal grant adjustments for the next fiscal year, but it does not change October payments.",
+        "Grant reviews and eLife certification checks continue. Respond to any SMS or letter from SASSA before the stated deadline.",
+        "November dates were revised on 15 October because of the 4 November election public holiday. Check the November page before you travel to a pay point."
+      ]
+    },
+    {
+      "id": "scam-callout",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Do not trust 'early SRD payout' messages",
+      "text": "SASSA does not sell early payment slots and never asks for a fee to release a grant. Messages promising an earlier SRD batch in exchange for payment or your PIN are scams."
     },
     {
       "id": "faq-heading",
       "type": "heading",
       "level": 2,
-      "text": "Frequently Asked Questions"
+      "text": "Frequently asked questions"
     },
     {
       "id": "faq",
       "type": "faq",
       "faqs": [
         {
-          "question": "Why does the Older Persons grant fall on 5 October instead of the 1st?",
-          "answer": "Payments are made from the second calendar day or the first business day of the month. In October 2026, the month starts on a Thursday, so the Older Persons grant is expected to be paid on Monday 5 October once SASSA confirms."
+          "question": "What were the SASSA payment dates for October 2026?",
+          "answer": "Older Persons: Friday 2 October 2026. Disability: Monday 5 October 2026. Children's grants: Tuesday 6 October 2026. Review and verification cases: Wednesday 7 October 2026. SRD R370: batches from 24 to 31 October 2026."
         },
         {
-          "question": "When will the October dates be confirmed?",
-          "answer": "Based on recent months, SASSA typically publishes the confirmed schedule two to four weeks before the payment dates. This page will be updated immediately after confirmation."
+          "question": "Why was the Older Persons grant paid on 2 October?",
+          "answer": "SASSA starts permanent-grant payments on the second calendar day of the month when it falls on a business day. 2 October 2026 was a Friday, so pensioners were paid then, with Disability following on Monday 5 October and Children's on Tuesday 6 October."
         },
         {
-          "question": "Can my payment date change after confirmation?",
-          "answer": "It is rare but possible if operational issues arise. If a date shifts, SASSA communicates the change via SMS, its website, and notices at pay points. Your money is never lost — a shifted date simply means collection moves."
+          "question": "My October money has not reflected. What should I do?",
+          "answer": "Allow up to three business days after the official date for bank transfers. If it is still missing, check your grant status on srd.sassa.gov.za, call SASSA on 0800 60 10 11, or visit your nearest office with your ID and proof of payment method."
         },
         {
-          "question": "Does the review cycle day change to the 7th every month?",
-          "answer": "The review window introduced in August falls on the 7th of each month. In October that would be Wednesday 7 October, which coincides with the Children's grants date. Only beneficiaries specifically notified by SASSA need to act on this date."
+          "question": "When will SRD R370 be paid in October 2026?",
+          "answer": "SRD batches are expected from 24 to 31 October 2026. SASSA does not publish one date for everyone — your payment date appears in the SRD portal against your application status. Check after the 20th."
+        },
+        {
+          "question": "Does the October review day apply to everyone?",
+          "answer": "No. The 7 October review and verification day only applies to beneficiaries who received an SMS or letter from SASSA. If you were not notified, collect on your normal grant date."
         }
       ]
     },
@@ -157,7 +202,7 @@
     {
       "id": "sources",
       "type": "sources",
-      "note": "Pattern-based provisional dates; verify against official publications when confirmed.",
+      "note": "Verified on 20 October 2026. Payment dates can shift because of operational issues; SASSA communicates changes by SMS and on its website.",
       "sources": [
         {
           "label": "SASSA official website",
@@ -166,25 +211,32 @@
         {
           "label": "SASSA SRD portal",
           "url": "https://srd.sassa.gov.za"
+        },
+        {
+          "label": "South African Government",
+          "url": "https://www.gov.za"
         }
       ]
     },
     {
       "id": "other-months",
       "type": "link-grid",
-      "title": "Other Payment Months",
+      "title": "Other payment months",
       "links": [
         {
-          "label": "September 2026",
-          "href": "/payment-dates/2026-september"
+          "title": "November 2026 payment dates",
+          "href": "/payment-dates/2026-november",
+          "description": "Confirmed and revised: 30 October, 2, 3 and 5 November"
         },
         {
-          "label": "November 2026",
-          "href": "/payment-dates/2026-november"
+          "title": "December 2026 payment dates",
+          "href": "/payment-dates/2026-december",
+          "description": "Festive-season schedule and early SRD expectations"
         },
         {
-          "label": "December 2026",
-          "href": "/payment-dates/2026-december"
+          "title": "All SASSA payment dates",
+          "href": "/payment-dates",
+          "description": "Current month, next month and the full 2026 archive"
         }
       ]
     }
@@ -195,12 +247,16 @@
       "slug": "/payment-dates"
     },
     {
+      "title": "November 2026 Payment Dates",
+      "slug": "/payment-dates/2026-november"
+    },
+    {
       "title": "September 2026 Payment Dates",
       "slug": "/payment-dates/2026-september"
     },
     {
-      "title": "Banking & Payment Methods",
-      "slug": "/banking"
+      "title": "SRD R370 Grant",
+      "slug": "/grants/srd-r370-grant"
     }
   ]
 }

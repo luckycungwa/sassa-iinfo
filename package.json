@@ -7,8 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "validate:content": "node scripts/validate-content.mjs",
-    "prebuild": "node scripts/validate-content.mjs"
+    "validate:content": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/validate-content.mjs",
+    "dates:sync": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/sync-dates.mjs",
+    "dates:check": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/sync-dates.mjs --check",
+    "article:new": "node scripts/new-article.mjs",
+    "prebuild": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/validate-content.mjs",
+    "freshness": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/freshness.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
@@ -20,7 +24,6 @@
     "lucide-react": "0.468.0",
     "motion": "11.18.2",
     "next": "15.5.19",
-    "next-intl": "^4.14.1",
     "nprogress": "^0.2.0",
     "page-agent": "^1.10.0",
     "postcss": "8.5.16",

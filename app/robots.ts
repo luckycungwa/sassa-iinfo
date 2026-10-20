@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
-
-const baseUrl = process.env.APP_URL || "https://sassagrantguide.co.za";
+import { SITE_URL } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -11,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/404", "/500"],
       },
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

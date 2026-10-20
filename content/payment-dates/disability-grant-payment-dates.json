@@ -4,7 +4,8 @@
   "classification": "payment-date",
   "title": "SASSA Disability Grant Payment Dates 2026",
   "description": "Every SASSA Disability Grant payment date for 2026: the confirmed monthly dates, how the pay cycle works, and what to do if your grant payment is late.",
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-10-20",
+  "lastReviewed": "2026-10-20",
   "version": "1.0.0",
   "readingTime": "6 min read",
   "status": "published",
@@ -35,7 +36,7 @@
       "title": "SASSA Disability Grant Payment Dates 2026",
       "description": "The Disability Grant is paid on the working day right after the Older Persons Grant in SASSA's monthly cycle. Here are every confirmed 2026 payout date, how the cycle works, and what to do if your money is late.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-08-25",
+      "lastUpdated": "2026-10-20",
       "cta": {
         "label": "View This Month's Dates",
         "href": "/payment-dates/2026-september"
@@ -73,62 +74,62 @@
         [
           "January 2026",
           "5 January 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "February 2026",
           "4 February 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "March 2026",
           "4 March 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "April 2026",
           "3 April 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "May 2026",
           "5 May 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "June 2026",
           "4 June 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "July 2026",
           "4 July 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "August 2026",
           "5 August 2026",
-          "Confirmed"
+          "Paid"
         ],
         [
           "September 2026",
           "3 September 2026",
-          "Confirmed by SASSA 21 August 2026"
+          "Paid"
         ],
         [
           "October 2026",
-          "6 October 2026",
-          "Provisional — confirm with SASSA"
+          "5 October 2026",
+          "Paid"
         ],
         [
           "November 2026",
-          "4 November 2026",
-          "Provisional — confirm with SASSA"
+          "2 November 2026",
+          "Confirmed"
         ],
         [
           "December 2026",
           "3 December 2026",
-          "Provisional — confirm with SASSA"
+          "Provisional"
         ]
       ],
       "caption": "SASSA Disability Grant payment dates for 2026"
@@ -211,7 +212,7 @@
       "faqs": [
         {
           "question": "What is the next Disability Grant payment date?",
-          "answer": "As of 25 August 2026, the next payment is Thursday 3 September 2026 — confirmed by SASSA on 21 August 2026. October is provisionally 6 October 2026, pending SASSA's confirmation."
+          "answer": "The next Disability Grant payment is Monday 2 November 2026 — the revised November date, confirmed by SASSA on 15 October 2026. October was paid on Monday 5 October 2026."
         },
         {
           "question": "Why is my Disability Grant paid on a different day every month?",

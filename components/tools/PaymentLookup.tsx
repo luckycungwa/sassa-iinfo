@@ -1,10 +1,32 @@
 'use client';
 
 import { useState } from "react";
+import {
+  paymentMonths,
+  getCurrentPaymentMonth,
+  PAYMENT_DATA_UPDATED,
+  type PaymentMonth,
+} from "@/lib/data/paymentDates";
+
+const grants = [
+  { key: "olderPersons", label: "Older Persons Pension" },
+  { key: "disability", label: "Disability Grant" },
+  { key: "children", label: "Children's Grants" },
+  { key: "srd", label: "SRD R370" },
+] as const;
+
+type GrantKey = (typeof grants)[number]["key"];
 
 export default function PaymentLookup() {
-  const [selectedGrant, setSelectedGrant] = useState("older-person");
-  const [selectedMonth, setSelectedMonth] = useState("july-2026");
+  const [selectedGrant, setSelectedGrant] = useState<GrantKey>("olderPersons");
+  const [selectedMonth, setSelectedMonth] = useState<string>(
+    () => getCurrentPaymentMonth()?.id ?? paymentMonths[0].id
+  );
+
+  const month: PaymentMonth =
+    paymentMonths.find((m) => m.id === selectedMonth) ?? paymentMonths[0];
+  const grantLabel = grants.find((g) => g.key === selectedGrant)?.label ?? "";
+  const date = month.dates[selectedGrant];
 
   return (
     <div className="space-y-6">
@@ -16,39 +38,39 @@ export default function PaymentLookup() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="space-y-2">
           <label htmlFor="lookup-grant" className="block text-xs font-bold text-muted-foreground">Select Grant Type</label>
-          <select id="lookup-grant" value={selectedGrant} onChange={(e) => setSelectedGrant(e.target.value)}
+          <select id="lookup-grant" value={selectedGrant} onChange={(e) => setSelectedGrant(e.target.value as GrantKey)}
             className="w-full border border-surface-container rounded-xl px-3 py-2.5 bg-canvas">
-            <option value="older-person">Older Persons Pension</option>
-            <option value="disability">Disability Grant</option>
-            <option value="child-support">Children Support Grants</option>
-            <option value="srd">SRD R370</option>
+            {grants.map((g) => (
+              <option key={g.key} value={g.key}>{g.label}</option>
+            ))}
           </select>
         </div>
 
         <div className="space-y-2">
           <label htmlFor="lookup-month" className="block text-xs font-bold text-muted-foreground">Select Month</label>
           <select id="lookup-month" value={selectedMonth} onChange={(e) => setSelectedMonth(e.target.value)}
+            suppressHydrationWarning
             className="w-full border border-surface-container rounded-xl px-3 py-2.5 bg-canvas">
-            <option value="july-2026">July 2026</option>
-            <option value="august-2026">August 2026</option>
+            {paymentMonths.map((m) => (
+              <option key={m.id} value={m.id}>{m.label}</option>
+            ))}
           </select>
         </div>
       </div>
 
       <div role="status" aria-live="polite" className="p-5 bg-midnight border border-border rounded-xl text-center">
-        <p className="text-xs text-gold font-mono uppercase tracking-wider">Scheduled Payment Date</p>
-        <h3 className="text-2xl font-extrabold text-gold mt-1">
-          {selectedGrant === "older-person" && selectedMonth === "july-2026" && "3 July 2026"}
-          {selectedGrant === "older-person" && selectedMonth === "august-2026" && "4 August 2026"}
-          {selectedGrant === "disability" && selectedMonth === "july-2026" && "4 July 2026"}
-          {selectedGrant === "disability" && selectedMonth === "august-2026" && "5 August 2026"}
-          {selectedGrant === "child-support" && selectedMonth === "july-2026" && "6 July 2026"}
-          {selectedGrant === "child-support" && selectedMonth === "august-2026" && "6 August 2026"}
-          {selectedGrant === "srd" && selectedMonth === "july-2026" && "25 - 30 July 2026"}
-          {selectedGrant === "srd" && selectedMonth === "august-2026" && "25 - 31 August 2026"}
-        </h3>
+        <p className="text-xs text-gold font-mono uppercase tracking-wider">
+          {grantLabel} · {month.label}
+        </p>
+        <h3 className="text-2xl font-extrabold text-gold mt-1">{date}</h3>
         <p className="text-muted-foreground text-xs mt-2">
-          Funds are released electronically on this date. Retailer cash collection is available immediately.
+          {month.status === "provisional"
+            ? "Provisional date — SASSA has not confirmed this month yet. Check again closer to the payment window."
+            : "Confirmed by SASSA."}
+          {month.review ? ` Grant reviews for this month are handled on ${month.review}.` : ""}
+        </p>
+        <p className="text-muted-foreground/70 text-[11px] mt-2">
+          Payment data updated {PAYMENT_DATA_UPDATED}.
         </p>
       </div>
     </div>

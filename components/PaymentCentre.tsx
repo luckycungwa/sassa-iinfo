@@ -1,40 +1,74 @@
 'use client';
 
 import { useState } from "react";
-import { motion } from "motion/react";
-import { Calendar as CalendarIcon, Info, Printer, Download, Clock, ChevronDown, CheckCircle } from "lucide-react";
+import { Calendar as CalendarIcon, Info, Printer, Download, Clock, CheckCircle, AlertCircle } from "lucide-react";
+import type { PaymentMonth } from "../lib/data/paymentDates";
 
-export default function PaymentCentre() {
+interface PaymentCentreProps {
+  current: PaymentMonth;
+  next?: PaymentMonth;
+  months: PaymentMonth[];
+}
+
+export default function PaymentCentre({ current, next, months }: PaymentCentreProps) {
   const [selectedYear, setSelectedYear] = useState<"2026" | "2025">("2026");
   const [downloading, setDownloading] = useState(false);
 
-  // Paydates structure for July & August 2026
-  const payDates = [
+  const currentRows = [
     {
       grant: "Older Persons Grant (Pension)",
-      dates: { july: "3 July 2026", august: "4 August 2026" },
+      date: current.dates.olderPersons,
       color: "bg-accent-light border-accent-light text-accent-dark",
       accent: "bg-accent"
     },
     {
       grant: "Disability Grant",
-      dates: { july: "4 July 2026", august: "5 August 2026" },
+      date: current.dates.disability,
       color: "bg-info/10 border-info/30 text-ink",
       accent: "bg-info"
     },
     {
       grant: "Children's Grants (Child Support, Foster Care, Care Dependency)",
-      dates: { july: "5 July 2026", august: "6 August 2026" },
+      date: current.dates.children,
       color: "bg-amber/10 border-amber/30 text-ink",
       accent: "bg-amber"
     },
     {
-      grant: "Social Relief of Distress (SRD R370) Grant",
-      dates: { july: "25 - 30 July 2026", august: "25 - 31 August 2026" },
+      grant: "Social Relief of Distress (SRD R370)",
+      date: current.dates.srd,
       color: "bg-accent-turquoise/10 border-accent-turquoise/30 text-ink",
       accent: "bg-accent-turquoise"
     }
   ];
+
+  const nextRows = next
+    ? [
+        {
+          grant: "Older Persons Grant (Pension)",
+          date: next.dates.olderPersons,
+          color: "bg-accent-light border-accent-light text-accent-dark",
+          accent: "bg-accent"
+        },
+        {
+          grant: "Disability Grant",
+          date: next.dates.disability,
+          color: "bg-info/10 border-info/30 text-ink",
+          accent: "bg-info"
+        },
+        {
+          grant: "Children's Grants (Child Support, Foster Care, Care Dependency)",
+          date: next.dates.children,
+          color: "bg-amber/10 border-amber/30 text-ink",
+          accent: "bg-amber"
+        },
+        {
+          grant: "Social Relief of Distress (SRD R370)",
+          date: next.dates.srd,
+          color: "bg-accent-turquoise/10 border-accent-turquoise/30 text-ink",
+          accent: "bg-accent-turquoise"
+        }
+      ]
+    : [];
 
   const archivedDates = {
     "2025": [
@@ -46,6 +80,12 @@ export default function PaymentCentre() {
     ]
   };
 
+  const archive2026 = months
+    .filter((m) => m.year === 2026 && m.month <= current.month)
+    .sort((a, b) => b.month - a.month);
+
+  const statusIsConfirmed = current.status === "confirmed";
+
   const handlePrint = () => {
     window.print();
   };
@@ -54,7 +94,6 @@ export default function PaymentCentre() {
     setDownloading(true);
     setTimeout(() => {
       setDownloading(false);
-      // Create element and trigger browser print/save layout
       window.print();
     }, 1500);
   };
@@ -66,13 +105,13 @@ export default function PaymentCentre() {
         <div className="absolute right-0 top-0 w-64 h-64 bg-accent-light/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
         <div className="relative z-10 space-y-4 max-w-2xl">
           <span className="bg-accent-light text-accent-dark font-semibold px-3 py-1 rounded-full text-xs font-mono tracking-wide uppercase">
-            Updated for July 2026
+            Updated for {current.label}
           </span>
           <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-surface">
-            SASSA Payment Centre & Schedules
+            SASSA Payment Centre &amp; Schedules
           </h1>
           <p className="text-white/70 text-sm md:text-base leading-relaxed">
-            South Africa’s most trusted source for verified SASSA payment dates. View upcoming payment schedules, download calendar guides, and access previous cycles.
+            South Africa&apos;s most trusted source for verified SASSA payment dates. View the confirmed schedule for {current.label}, check next month&apos;s dates, and download a printable calendar.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
             <button
@@ -101,20 +140,27 @@ export default function PaymentCentre() {
 
       {/* Main Dates Layout Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* July 2026 */}
+        {/* Current month */}
         <div className="bg-surface rounded-xl border border-border p-6 space-y-6">
-          <div className="flex items-center justify-between border-b border-border pb-4">
+          <div className="flex items-center justify-between border-b border-border pb-4 gap-2">
             <div className="flex items-center gap-2">
               <div className="p-2 bg-accent-light text-accent-dark rounded-xl">
                 <CalendarIcon className="w-5 h-5" />
               </div>
-              <h2 className="font-bold text-lg text-ink">Current Month: July 2026</h2>
+              <h2 className="font-bold text-lg text-ink">Current Month: {current.label}</h2>
             </div>
-            <span className="text-xs font-mono text-muted-foreground">Next Payout Cycle</span>
+            <span
+              className={`inline-flex items-center gap-1 text-xs font-mono ${
+                statusIsConfirmed ? "text-success-dark" : "text-muted-foreground"
+              }`}
+            >
+              {statusIsConfirmed ? <CheckCircle className="w-3.5 h-3.5" /> : <AlertCircle className="w-3.5 h-3.5" />}
+              {statusIsConfirmed ? "Confirmed" : "Provisional"}
+            </span>
           </div>
 
           <div className="space-y-4">
-            {payDates.map((p, idx) => (
+            {currentRows.map((p, idx) => (
               <div
                 key={idx}
                 className={`p-4 rounded-xl border ${p.color} transition flex items-start gap-3`}
@@ -122,39 +168,64 @@ export default function PaymentCentre() {
                 <div className={`w-2.5 h-10 rounded-full ${p.accent} mt-0.5`}></div>
                 <div className="flex-1">
                   <h3 className="font-bold text-sm text-ink leading-tight">{p.grant}</h3>
-                  <p className="text-lg font-extrabold mt-1 tracking-tight">{p.dates.july}</p>
+                  <p className="text-lg font-extrabold mt-1 tracking-tight">{p.date}</p>
                 </div>
               </div>
             ))}
           </div>
+
+          {current.notes && (
+            <p className="text-xs text-muted-foreground leading-relaxed border-t border-border pt-4">
+              {current.notes}
+            </p>
+          )}
         </div>
 
-        {/* August 2026 */}
+        {/* Next month */}
         <div className="bg-surface rounded-xl border border-border p-6 space-y-6">
-          <div className="flex items-center justify-between border-b border-border pb-4">
+          <div className="flex items-center justify-between border-b border-border pb-4 gap-2">
             <div className="flex items-center gap-2">
               <div className="p-2 bg-amber/15 text-amber-dark rounded-xl">
                 <CalendarIcon className="w-5 h-5" />
               </div>
-              <h2 className="font-bold text-lg text-ink">Next Month: August 2026</h2>
+              <h2 className="font-bold text-lg text-ink">
+                {next ? `Next Month: ${next.label}` : "Next Month"}
+              </h2>
             </div>
-            <span className="text-xs font-mono text-muted-foreground">Provisional Dates</span>
+            <span
+              className={`inline-flex items-center gap-1 text-xs font-mono ${
+                next?.status === "confirmed" ? "text-success-dark" : "text-muted-foreground"
+              }`}
+            >
+              {next?.status === "confirmed" ? <CheckCircle className="w-3.5 h-3.5" /> : <AlertCircle className="w-3.5 h-3.5" />}
+              {next?.status === "confirmed" ? "Confirmed" : "Provisional"}
+            </span>
           </div>
 
-          <div className="space-y-4">
-            {payDates.map((p, idx) => (
-              <div
-                key={idx}
-                className={`p-4 rounded-xl border ${p.color} transition flex items-start gap-3`}
-              >
-                <div className={`w-2.5 h-10 rounded-full ${p.accent} mt-0.5`}></div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-sm text-ink leading-tight">{p.grant}</h3>
-                  <p className="text-lg font-extrabold mt-1 tracking-tight">{p.dates.august}</p>
+          {next ? (
+            <div className="space-y-4">
+              {nextRows.map((p, idx) => (
+                <div
+                  key={idx}
+                  className={`p-4 rounded-xl border ${p.color} transition flex items-start gap-3`}
+                >
+                  <div className={`w-2.5 h-10 rounded-full ${p.accent} mt-0.5`}></div>
+                  <div className="flex-1">
+                    <h3 className="font-bold text-sm text-ink leading-tight">{p.grant}</h3>
+                    <p className="text-lg font-extrabold mt-1 tracking-tight">{p.date}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          ) : (
+            <p className="text-sm text-muted-foreground">The next schedule has not been published yet.</p>
+          )}
+
+          {next?.notes && (
+            <p className="text-xs text-muted-foreground leading-relaxed border-t border-border pt-4">
+              {next.notes}
+            </p>
+          )}
         </div>
       </div>
 
@@ -213,34 +284,15 @@ export default function PaymentCentre() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-surface-dim">
-                <tr>
-                  <td className="p-3 font-semibold">June 2026</td>
-                  <td className="p-3">3 Jun</td>
-                  <td className="p-3">4 Jun</td>
-                  <td className="p-3">5 Jun</td>
-                  <td className="p-3">25-29 Jun</td>
-                </tr>
-                <tr>
-                  <td className="p-3 font-semibold">May 2026</td>
-                  <td className="p-3">4 May</td>
-                  <td className="p-3">5 May</td>
-                  <td className="p-3">6 May</td>
-                  <td className="p-3">23-28 May</td>
-                </tr>
-                <tr>
-                  <td className="p-3 font-semibold">April 2026</td>
-                  <td className="p-3">2 Apr</td>
-                  <td className="p-3">3 Apr</td>
-                  <td className="p-3">4 Apr</td>
-                  <td className="p-3">24-30 Apr</td>
-                </tr>
-                <tr>
-                  <td className="p-3 font-semibold">March 2026</td>
-                  <td className="p-3">3 Mar</td>
-                  <td className="p-3">4 Mar</td>
-                  <td className="p-3">5 Mar</td>
-                  <td className="p-3">25-31 Mar</td>
-                </tr>
+                {archive2026.map((m) => (
+                  <tr key={m.id}>
+                    <td className="p-3 font-semibold">{m.monthLabel} 2026</td>
+                    <td className="p-3">{m.dates.olderPersons.replace(" 2026", "")}</td>
+                    <td className="p-3">{m.dates.disability.replace(" 2026", "")}</td>
+                    <td className="p-3">{m.dates.children.replace(" 2026", "")}</td>
+                    <td className="p-3">{m.dates.srd.replace(" 2026", "")}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>

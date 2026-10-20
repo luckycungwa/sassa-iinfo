@@ -1,7 +1,17 @@
 import type {NextConfig} from 'next';
-import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
+const configuredAppUrl = process.env.APP_URL?.trim();
+
+if (
+  process.env.NODE_ENV === 'production' &&
+  (!configuredAppUrl || /localhost|127\.0\.0\.1/.test(configuredAppUrl))
+) {
+  console.warn(
+    '\n[config] APP_URL is missing or points at localhost in a production build.\n' +
+      '         Canonicals, sitemap.xml, robots.txt and JSON-LD will use the fallback domain.\n' +
+      '         Set APP_URL to the live domain (e.g. https://example.co.za) before deploying.\n',
+  );
+}
 
 const securityHeaders = [
   { key: 'X-Frame-Options', value: 'DENY' },
@@ -30,6 +40,14 @@ const nextConfig: NextConfig = {
       { source: '/guides/sassa-2026-payment-dates-calendar', destination: '/payment-dates', permanent: true },
       { source: '/news/how-to-find-sassa-reference-number', destination: '/guides/sassa-reference-number', permanent: true },
       { source: '/banking/sassa-black-card-guide', destination: '/banking/black-card-swap', permanent: true },
+      { source: '/en', destination: '/', permanent: true },
+      { source: '/en/:path*', destination: '/:path*', permanent: true },
+      { source: '/zu', destination: '/', permanent: true },
+      { source: '/zu/:path*', destination: '/:path*', permanent: true },
+      { source: '/xh', destination: '/', permanent: true },
+      { source: '/xh/:path*', destination: '/:path*', permanent: true },
+      { source: '/af', destination: '/', permanent: true },
+      { source: '/af/:path*', destination: '/:path*', permanent: true },
     ];
   },
   async headers() {
@@ -42,7 +60,7 @@ const nextConfig: NextConfig = {
   },
   webpack: (config, {dev}) => {
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
-    // Do not modify—file watching is disabled to prevent flickering during agent edits.
+    // Do not modify — file watching is disabled to prevent flickering during agent edits.
     if (dev && process.env.DISABLE_HMR === 'true') {
       config.watchOptions = {
         ignored: /.*/,
@@ -52,4 +70,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withNextIntl(nextConfig);
+export default nextConfig;

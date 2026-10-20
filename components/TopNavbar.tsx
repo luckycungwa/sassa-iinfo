@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 import SearchDialog from "./SearchDialog";
 import { useTheme } from "./ThemeProvider";
-import LanguageSwitcher from "./LanguageSwitcher";
 
 interface NavItem {
   href: string;
@@ -269,7 +268,6 @@ export default function TopNavbar() {
 
           <div className="flex items-center gap-2">
             <SearchDialog />
-            <LanguageSwitcher />
             <ThemeToggle />
             {/* <Link
               href="/grants"
