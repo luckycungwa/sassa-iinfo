@@ -83,7 +83,7 @@ export default function PaymentDatesPage() {
           <h1 className="text-[40px] md:text-[57px] font-black text-white leading-[1.15] tracking-[-0.007em]">
             SASSA payment dates for {current.label}
           </h1>
-          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-white/80 mt-4 max-w-xl leading-relaxed">
             Confirmed payout schedule for Older Person, Disability, Child Support and SRD R370 grants — plus {nextMonth ? nextMonth.label : "next month"}&apos;s dates.
           </p>
           {current.notes && (

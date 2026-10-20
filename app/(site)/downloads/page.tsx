@@ -32,11 +32,11 @@ export default function DownloadsHubPage() {
       {faq && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />}
       <section className="bg-slate text-white py-20 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">download centre</p>
+          <p className="text-xs font-bold text-white/60 uppercase tracking-widest mb-3">download centre</p>
           <h1 className="text-[40px] md:text-[57px] font-black text-white leading-[1.15] tracking-[-0.007em]">
             SASSA forms & documents
           </h1>
-          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-white/80 mt-4 max-w-xl leading-relaxed">
             Download official SASSA forms with step-by-step filling guides and document checklists.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">

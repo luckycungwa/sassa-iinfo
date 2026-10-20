@@ -35,7 +35,7 @@ export default function StatusHubPage() {
           <h1 className="text-[40px] md:text-[57px] font-black text-white leading-[1.15] tracking-[-0.007em]">
             SASSA status meanings explained
           </h1>
-          <p className="text-[21px] text-body mt-4 max-w-xl leading-relaxed">
+          <p className="text-[21px] text-white/80 mt-4 max-w-xl leading-relaxed">
             Your SASSA application status tells you exactly where things stand. Whether it says Pending, Approved, Declined, or something else, we explain what it means and what to do next.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
