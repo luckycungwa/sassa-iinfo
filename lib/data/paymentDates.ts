@@ -167,8 +167,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "5 Jul 2026",
       srd: srdWindowLabel("2026-07"),
     },
-    notes: "Q2 SRD review cycle active. 350,000 grants under review as of 21 July.",
-    description: "The Q2 review cycle for SRD grants began in July, which resulted in more applications showing 'Under Review' status in the first two weeks. The 350,000-grant review announcement was made on 21 July by Social Development Minister Dina Pule.",
+    notes: "SRD review cycle continues; review notices are sent directly to selected beneficiaries.",
+    description: "The SRD review cycle continued through July, which meant more applications showed an 'Under Review' status. SASSA notifies beneficiaries who are selected for a review directly; there is no public list to check."
   },
   {
     id: "2026-08",

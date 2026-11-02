@@ -42,12 +42,12 @@
     {
       "id": "p1",
       "type": "paragraph",
-      "text": "The Minister of Finance presented the 2026 national budget on 19 February 2026, confirming the annual adjustments to social grant amounts. The increases take effect from 1 April 2026 and are applied automatically — beneficiaries do not need to take any action."
+      "text": "The 2026 national budget confirmed the annual adjustments to social grant amounts. Most increases took effect from 1 April 2026 and are applied automatically — beneficiaries do not need to take any action. The Foster Care Grant received a further R10 increase on 1 October 2026."
     },
     {
       "id": "p2",
       "type": "paragraph",
-      "text": "This year's increases are slightly above inflation, with most grants rising by between 5% and 6%. The SRD R370 grant, however, remains at R370 per month with no increase for the 2026/27 financial year.",
+      "text": "The SRD R370 grant remains at R370 per month with no increase for the 2026/27 financial year.",
       "links": [
         {
           "text": "SRD R370 grant",
@@ -66,14 +66,14 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "Older Person Grant (60-74 years): R2,400 per month (previously R2,290)",
-        "Older Person Grant (75+ years): R2,420 per month (previously R2,310)",
-        "Disability Grant: R2,400 per month (previously R2,290)",
-        "Foster Care Grant: R1,295 per month (previously R1,230)",
-        "Child Support Grant: R580 per month (previously R550)",
-        "Care Dependency Grant: R2,400 per month (previously R2,290)",
-        "War Veterans Grant: R2,420 per month (previously R2,310)",
-        "Grant-in-Aid: R580 per month (previously R550)",
+        "Older Person Grant (60-74 years): R2,400 per month",
+        "Older Person Grant (75+ years): R2,420 per month",
+        "Disability Grant: R2,400 per month",
+        "Foster Care Grant: R1,300 per month from 1 October 2026 (R1,290 from April 2026)",
+        "Child Support Grant: R580 per month",
+        "Care Dependency Grant: R2,400 per month",
+        "War Veterans Grant: R2,420 per month",
+        "Grant-in-Aid: R580 per month",
         "SRD R370 Grant: R370 per month (unchanged)"
       ]
     },
@@ -93,7 +93,7 @@
     {
       "id": "p3",
       "type": "paragraph",
-      "text": "The SRD R370 grant has remained at R370 since May 2023. Treasury cited fiscal constraints as the main reason for not increasing the SRD amount. The SRD grant is classified as a temporary relief measure rather than a permanent social grant, which means it is not subject to the same annual inflation adjustments as permanent grants."
+      "text": "The SRD R370 grant has remained at R370 since 2023. It is a temporary relief measure rather than a permanent social grant, and it is reviewed month by month rather than adjusted on the same annual cycle as permanent grants."
     },
     {
       "id": "p4",
@@ -162,7 +162,7 @@
       "faqs": [
         {
           "question": "When do the new grant amounts start?",
-          "answer": "All increases take effect from 1 April 2026. Your first payment at the new rate will be deposited in April 2026 on your usual payment date."
+          "answer": "The April 2026 increases applied automatically from that month. The Foster Care Grant rose again to R1,300 on 1 October 2026. You do not need to re-apply for either change."
         },
         {
           "question": "Do I need to apply for the increase?",

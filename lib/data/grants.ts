@@ -1,3 +1,7 @@
+import { getGrantAmount } from "./grantAmounts";
+
+const amountFor = (slug: string, fallback: string) => getGrantAmount(slug)?.amount ?? fallback;
+
 export interface Grant {
   id: string;
   slug: string;
@@ -18,7 +22,7 @@ export const grants: Grant[] = [
     id: "older-person",
     slug: "older-person-grant",
     title: "Older Person Grant (State Pension)",
-    amount: "R2,400",
+    amount: amountFor("older-person-grant", "R0"),
     frequency: "Monthly (plus R20 extra for ages 75+)",
     targetGroup: "South African citizens or permanent residents aged 60 and older.",
     overview: "The SASSA Older Person Grant (often referred to as the state pension) is designed to provide financial security to South African seniors who no longer work and do not have sufficient retirement assets.",
@@ -59,7 +63,7 @@ export const grants: Grant[] = [
     id: "child-support",
     slug: "child-support-grant",
     title: "Child Support Grant",
-    amount: "R580",
+    amount: amountFor("child-support-grant", "R0"),
     frequency: "Monthly per child (an additional top-up may apply for orphaned children — confirm the current amount with SASSA)",
     targetGroup: "Primary caregivers of children under the age of 18.",
     overview: "The SASSA Child Support Grant is aimed at lower-income caregivers to help cover the basic food, clothing, and schooling needs of children living in South Africa.",
@@ -99,7 +103,7 @@ export const grants: Grant[] = [
     id: "disability",
     slug: "disability-grant",
     title: "Disability Grant",
-    amount: "R2,400",
+    amount: amountFor("disability-grant", "R0"),
     frequency: "Monthly",
     targetGroup: "Persons aged 18 to 59 with temporary or permanent physical or mental disabilities.",
     overview: "The Disability Grant provides financial support to citizens who are unable to work due to a physical or mental disability that lasts longer than six months.",
@@ -135,8 +139,8 @@ export const grants: Grant[] = [
     id: "foster-care",
     slug: "foster-care-grant",
     title: "Foster Care Grant",
-    amount: "R1,295",
-    frequency: "Monthly per foster child",
+    amount: amountFor("foster-care-grant", "R0"),
+    frequency: "Monthly per foster child (R1,300 from 1 October 2026)",
     targetGroup: "Court-appointed foster parents of children under 18.",
     overview: "This grant is paid to foster parents who have been legally appointed by a South African Children's Court to care for an orphaned, abandoned, or neglected child.",
     eligibilityCriteria: [
@@ -167,7 +171,7 @@ export const grants: Grant[] = [
     id: "srd-grant",
     slug: "srd-r370-grant",
     title: "Social Relief of Distress (SRD R370) Grant",
-    amount: "R370",
+    amount: amountFor("srd-r370-grant", "R0"),
     frequency: "Monthly",
     targetGroup: "Unemployed South Africans aged 18 to 59 with no income.",
     overview: "The Social Relief of Distress (SRD) Grant (popularly called the R350 grant, recently increased to R370) is a temporary grant introduced to assist individuals with absolutely no source of income or financial aid.",
@@ -203,7 +207,7 @@ export const grants: Grant[] = [
     id: "care-dependency",
     slug: "care-dependency-grant",
     title: "Care Dependency Grant",
-    amount: "R2,400",
+    amount: amountFor("care-dependency-grant", "R0"),
     frequency: "Monthly",
     targetGroup: "Parents or primary caregivers of children with severe, permanent disabilities who require full-time home care.",
     overview: "This grant is for children aged 1 to 18 who have severe mental or physical disabilities and require 24-hour, full-time care at home.",
@@ -237,7 +241,7 @@ export const grants: Grant[] = [
     id: "war-veterans",
     slug: "war-veterans-grant",
     title: "War Veterans Grant",
-    amount: "R2,420",
+    amount: amountFor("war-veterans-grant", "R0"),
     frequency: "Monthly",
     targetGroup: "South African veterans of World War I, World War II, or the Korean War.",
     overview: "This specialized grant supports aging military veterans who fought in historical wars and cannot support themselves.",
@@ -269,7 +273,7 @@ export const grants: Grant[] = [
     id: "grant-in-aid",
     slug: "grant-in-aid",
     title: "Grant-in-Aid",
-    amount: "R580",
+    amount: amountFor("grant-in-aid", "R0"),
     frequency: "Monthly (Top-up)",
     targetGroup: "Social grant beneficiaries who require permanent, 24-hour physical assistance from another person.",
     overview: "Grant-in-Aid is an extra, complementary grant paid on top of your primary grant (Older Person, Disability, or War Veteran) to help cover the costs of paying a caregiver.",

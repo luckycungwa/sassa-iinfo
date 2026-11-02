@@ -9,7 +9,7 @@
   "version": "2.0.0",
   "status": "published",
   "author": {
-    "name": "Grant Guide Editorial Team",
+    "name": "SASSA Grant Hub Editorial Team",
     "role": "Content Editor",
     "credentials": "Verified against official SASSA publications",
     "verified": true
@@ -239,6 +239,11 @@
         {
           "title": "Child Support Grant",
           "href": "/grants/child-support-grant"
+        },
+        {
+          "title": "Check your own SRD status",
+          "href": "https://srd.sassa.gov.za",
+          "description": "Official SASSA portal — this site cannot look up your record"
         }
       ]
     }

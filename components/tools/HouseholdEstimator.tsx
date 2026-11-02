@@ -11,7 +11,7 @@ export default function HouseholdEstimator() {
     { id: "older-person", label: "Older Persons Pension (R2,400)", rate: 2400 },
     { id: "disability", label: "Disability Grant (R2,400)", rate: 2400 },
     { id: "child-support", label: "Child Support Grant (R580)", rate: 580 },
-    { id: "foster-care", label: "Foster Care Grant (R1,295)", rate: 1295 },
+    { id: "foster-care", label: "Foster Care Grant (R1,300)", rate: 1300 },
     { id: "srd-grant", label: "SRD R370 Grant (R370)", rate: 370 }
   ];
 

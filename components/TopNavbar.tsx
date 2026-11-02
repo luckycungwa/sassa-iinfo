@@ -1,258 +1,274 @@
 'use client';
 
-import React, { useState, useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import {
-  Menu, X, ChevronDown, ArrowRight, Sun, Moon
-} from "lucide-react";
+import { Menu, X, Sun, Moon, ChevronDown, ExternalLink } from "lucide-react";
 import SearchDialog from "./SearchDialog";
 import { useTheme } from "./ThemeProvider";
+import { SITE_NAME, OFFICIAL_LINKS } from "@/lib/site";
 
 interface NavItem {
   href: string;
   label: string;
-  desc: string;
+  description?: string;
 }
 
 interface NavGroup {
+  href: string;
   label: string;
   items: NavItem[];
+  align?: "left" | "right";
 }
 
-const navGroups: NavGroup[] = [
+const primaryNav: NavGroup[] = [
   {
-    label: "Grants",
+    href: "/status",
+    label: "Check Status",
     items: [
-      { href: "/grants", label: "Grant Library", desc: "Official Social Grants" },
-      { href: "/grants/srd-r370-grant", label: "SRD R370 Grant", desc: "R370 Grant Details" },
-      { href: "/eligibility", label: "Eligibility Centre", desc: "Browse by Situation" },
+      { href: "/status", label: "Status meanings", description: "What each SASSA status means" },
+      { href: "/guides/how-to-check-sassa-status", label: "How to check your status", description: "Online, WhatsApp, USSD or office" },
+      { href: "/status/pending", label: "Pending status" },
+      { href: "/status/approved", label: "Approved but unpaid" },
+      { href: "/status/declined", label: "Declined status" },
+      { href: "/banking/payment-not-reflecting", label: "Payment not reflecting" },
     ],
   },
   {
-    label: "Status",
+    href: "/payment-dates",
+    label: "Payment Dates",
     items: [
-      { href: "/status", label: "Status Meanings", desc: "Application Status Codes" },
-      { href: "/appeals", label: "Appeals Centre", desc: "ITSAA Appeal Process" },
+      { href: "/payment-dates", label: "2026 payment calendar", description: "Every month at a glance" },
+      { href: "/payment-dates/2026-november", label: "November 2026 dates", description: "Revised election schedule" },
+      { href: "/payment-dates/2026-december", label: "December 2026 dates", description: "Provisional festive schedule" },
+      { href: "/payment-dates/older-persons-grant-payment-dates", label: "Older Persons dates" },
+      { href: "/payment-dates/child-support-grant-payment-dates", label: "Children's grant dates" },
+      { href: "/banking", label: "Banking and collection" },
     ],
   },
   {
-    label: "Banking",
+    href: "/grants",
+    label: "Grants & Eligibility",
     items: [
-      { href: "/banking", label: "Banking Details", desc: "Payment Methods" },
-      { href: "/payment-dates", label: "Payment Dates", desc: "Payout Schedules" },
+      { href: "/grants", label: "All SASSA grants" },
+      { href: "/grants/srd-r370-grant", label: "SRD R370 grant" },
+      { href: "/grants/older-person-grant", label: "Older Persons grant" },
+      { href: "/grants/disability-grant", label: "Disability grant" },
+      { href: "/grants/child-support-grant", label: "Child Support grant" },
+      { href: "/eligibility", label: "Eligibility centre", description: "Check the main criteria" },
     ],
   },
   {
-    label: "Resources",
+    href: "/guides/how-to-apply-sassa-grant",
+    label: "Applications",
     items: [
-      { href: "/guides", label: "Guides", desc: "How-To Resources" },
-      { href: "/faq", label: "FAQ", desc: "Common Questions" },
-      { href: "/downloads", label: "Download Centre", desc: "Official Forms" },
-      { href: "/news", label: "News", desc: "Official Announcements" },
-      { href: "/banking", label: "Banking Details", desc: "Payment Methods" },
-      { href: "/tools", label: "Interactive Tools", desc: "Calculators & Checkers" },
+      { href: "/guides/how-to-apply-sassa-grant", label: "How to apply", description: "Documents and office steps" },
+      { href: "/banking/how-to-register-for-srd-portal", label: "Register for the SRD portal" },
+      { href: "/guides/change-srd-phone-number", label: "Change your phone number" },
+      { href: "/downloads", label: "Forms and downloads" },
     ],
   },
   {
-    label: "Locations",
+    href: "/appeals",
+    label: "Appeals & Reviews",
     items: [
-      { href: "/offices", label: "Office Finder", desc: "Provincial Branches" },
-      { href: "/provinces", label: "Province Hubs", desc: "Regional Guides" },
+      { href: "/appeals", label: "Appeals centre" },
+      { href: "/appeals/how-to-appeal", label: "How to appeal", description: "The 90-day ITSAA route" },
+      { href: "/appeals/appeal-status-check", label: "Check appeal status" },
+      { href: "/appeals/appeal-timeline", label: "Appeal timeline" },
+      { href: "/grants/srd-r370-grant-monthly-review", label: "Grant reviews" },
     ],
   },
+  {
+    href: "/guides",
+    label: "Guides",
+    align: "right",
+    items: [
+      { href: "/guides", label: "All guides" },
+      { href: "/banking", label: "Banking guides" },
+      { href: "/tools", label: "Tools and calculators" },
+      { href: "/faq", label: "Frequently asked questions" },
+      { href: "/offices", label: "Find a SASSA office" },
+    ],
+  },
+  {
+    href: "/news",
+    label: "Latest Updates",
+    align: "right",
+    items: [
+      { href: "/news", label: "All updates" },
+      { href: "/news/sassa-november-2026-payment-dates-revised", label: "November dates revised", description: "Why pensioners were paid early" },
+    ],
+  },
+];
+
+const secondaryNav: NavItem[] = [
+  { href: "/eligibility", label: "Eligibility centre" },
+  { href: "/banking", label: "Banking and payment methods" },
+  { href: "/tools", label: "Tools and calculators" },
+  { href: "/faq", label: "Frequently asked questions" },
+  { href: "/offices", label: "Find a SASSA office" },
+  { href: "/about", label: "About this resource" },
+  { href: "/contact", label: "Contact and corrections" },
 ];
 
 function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
   return (
     <button
+      type="button"
       onClick={toggleTheme}
       aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-      className="p-2 rounded-xl text-ash hover:text-ink hover:bg-fog/60 transition"
+      className="p-2 rounded-lg text-ash hover:text-ink hover:bg-fog/70 transition"
     >
       {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
     </button>
   );
 }
 
+function isActive(pathname: string, href: string) {
+  if (href === "/grants") return pathname === "/grants" || pathname.startsWith("/grants/") || pathname.startsWith("/eligibility");
+  if (href === "/guides") return pathname === "/guides" || (pathname.startsWith("/guides/") && pathname !== "/guides/how-to-apply-sassa-grant");
+  return pathname === href || pathname.startsWith(href + "/");
+}
+
+function isGroupActive(pathname: string, group: NavGroup) {
+  return isActive(pathname, group.href) || group.items.some((item) => isActive(pathname, item.href));
+}
+
 export default function TopNavbar() {
   const pathname = usePathname();
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [mobileExpanded, setMobileExpanded] = useState<string[]>([]);
-  const dropdownRefs = useRef<Map<string, HTMLDivElement>>(new Map());
-  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const hamburgerRef = useRef<HTMLButtonElement>(null);
-  const mobilePanelRef = useRef<HTMLDivElement>(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openGroup, setOpenGroup] = useState<string | null>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
-    if (!isMobileMenuOpen) return;
+    if (!isMenuOpen) return;
     const previouslyFocused = document.activeElement as HTMLElement | null;
-    const panel = mobilePanelRef.current;
-    if (panel) {
-      panel.querySelector<HTMLElement>("button, a[href]")?.focus();
-    }
+    const panel = panelRef.current;
+    panel?.querySelector<HTMLElement>("a[href], button:not([disabled])")?.focus();
     document.body.style.overflow = "hidden";
-    function handleKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape") {
-        setIsMobileMenuOpen(false);
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        setIsMenuOpen(false);
         return;
       }
-      if (e.key !== "Tab" || !panel) return;
-      const focusables = Array.from(
-        panel.querySelectorAll<HTMLElement>('button:not([disabled]), a[href]')
-      );
-      if (focusables.length === 0) return;
-      const first = focusables[0];
-      const last = focusables[focusables.length - 1];
-      if (e.shiftKey && document.activeElement === first) {
-        e.preventDefault();
+      if (event.key !== "Tab" || !panel) return;
+      const focusable = Array.from(panel.querySelectorAll<HTMLElement>('a[href], button:not([disabled])'));
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
         last.focus();
-      } else if (!e.shiftKey && document.activeElement === last) {
-        e.preventDefault();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
         first.focus();
       }
     }
-    document.addEventListener("keydown", handleKeyDown);
+
+    document.addEventListener("keydown", onKeyDown);
     return () => {
-      document.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener("keydown", onKeyDown);
       document.body.style.overflow = "";
       previouslyFocused?.focus();
     };
-  }, [isMobileMenuOpen]);
-
-  useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
-      if (openDropdown) {
-        const el = dropdownRefs.current.get(openDropdown);
-        if (el && !el.contains(e.target as Node)) {
-          setOpenDropdown(null);
-        }
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [openDropdown]);
+  }, [isMenuOpen]);
 
   useEffect(() => {
     const raf = requestAnimationFrame(() => {
-      setIsMobileMenuOpen(false);
-      setOpenDropdown(null);
+      setIsMenuOpen(false);
+      setOpenGroup(null);
     });
     return () => cancelAnimationFrame(raf);
   }, [pathname]);
 
-  const handleMouseEnter = (label: string) => {
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    setOpenDropdown(label);
-  };
+  useEffect(() => {
+    return () => {
+      if (closeTimer.current) clearTimeout(closeTimer.current);
+    };
+  }, []);
 
-  const handleMouseLeave = () => {
-    timeoutRef.current = setTimeout(() => {
-      setOpenDropdown(null);
-    }, 150);
-  };
+  function openMenu(href: string) {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    setOpenGroup(href);
+  }
 
-  const handleFocus = (label: string) => {
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    setOpenDropdown(label);
-  };
-
-  const handleBlur = () => {
-    timeoutRef.current = setTimeout(() => {
-      setOpenDropdown(null);
-    }, 150);
-  };
-
-  const handleDropdownItemEnter = () => {
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
-  };
-
-  const toggleMobileSection = (label: string) => {
-    setMobileExpanded((prev) =>
-      prev.includes(label) ? prev.filter((l) => l !== label) : [...prev, label]
-    );
-  };
+  function scheduleClose() {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    closeTimer.current = setTimeout(() => setOpenGroup(null), 140);
+  }
 
   return (
     <>
-      <header className="sticky top-0 z-30 print:hidden bg-paper/90 backdrop-blur-sm border-b border-border">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <Link href="/" className="hover:opacity-80 transition-opacity flex-shrink-0 flex items-center gap-3">
+      <header className="sticky top-0 z-30 print:hidden bg-paper/95 backdrop-blur border-b border-border">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-3">
+          <Link href="/" className="flex items-center gap-2.5 shrink-0 rounded-md" aria-label={`${SITE_NAME} — home`}>
             <span className="flex items-center justify-center w-9 h-9 rounded-[8px] bg-black">
-              <img src="/main-logo.svg" alt="SASSA Grant Guide" className="w-6 h-6" />
+              <Image src="/main-logo.svg" alt="" width={24} height={24} className="w-6 h-6" priority />
             </span>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-1">
-            {navGroups.map((group) => {
-              const isOpen = openDropdown === group.label;
-              const hasActive = group.items.some(
-                (item) => pathname === item.href || pathname.startsWith(item.href + "/")
-              );
+          <nav className="hidden xl:flex items-center gap-0.5" aria-label="Primary">
+            {primaryNav.map((group) => {
+              const active = isGroupActive(pathname, group);
+              const expanded = openGroup === group.href;
               return (
                 <div
-                  key={group.label}
-                  ref={(el) => {
-                    if (el) dropdownRefs.current.set(group.label, el);
-                  }}
+                  key={group.href}
                   className="relative"
-                  onMouseEnter={() => handleMouseEnter(group.label)}
-                  onMouseLeave={handleMouseLeave}
-                  onFocus={() => handleFocus(group.label)}
-                  onBlur={handleBlur}
+                  onMouseEnter={() => openMenu(group.href)}
+                  onMouseLeave={scheduleClose}
+                  onFocus={() => openMenu(group.href)}
+                  onBlur={(event) => {
+                    if (!event.currentTarget.contains(event.relatedTarget as Node | null)) {
+                      setOpenGroup(null);
+                    }
+                  }}
+                  onKeyDown={(event) => {
+                    if (event.key === "Escape") {
+                      setOpenGroup(null);
+                      (event.currentTarget.querySelector("a") as HTMLElement | null)?.focus();
+                    }
+                  }}
                 >
-                  <button
-                    onClick={() => setOpenDropdown(isOpen ? null : group.label)}
-                    aria-expanded={isOpen}
-                    aria-haspopup="true"
-                    className={`flex items-center gap-1 px-3 py-2 rounded-[6px] text-xs font-bold transition ${
-                      isOpen || hasActive
-                        ? "text-violet"
-                        : "text-ash hover:text-ink hover:bg-fog/50"
+                  <Link
+                    href={group.href}
+                    aria-current={active ? "page" : undefined}
+                    className={`inline-flex items-center gap-1 px-2.5 py-2 rounded-md text-[13px] font-bold transition ${
+                      active ? "text-violet bg-violet/10" : "text-ash hover:text-ink hover:bg-fog/70"
                     }`}
                   >
-                    <span>{group.label}</span>
-                    <ChevronDown className={`w-3 h-3 transition ${isOpen ? "rotate-180" : ""}`} />
-                  </button>
-                   {isOpen && (
-                     <div
-                       className="absolute top-full left-0 mt-1 w-72 bg-paper border border-border rounded-[6px] shadow-lg p-2 space-y-1 z-50"
-                       onMouseEnter={handleDropdownItemEnter}
-                       onMouseLeave={handleMouseLeave}
-                     >
-                       {group.items.map((item, idx) => {
-                         const isItemActive =
-                           pathname === item.href || pathname.startsWith(item.href + "/");
-                         const isNewItem = idx >= 4;
-                         return (
-                           <React.Fragment key={item.href}>
-                             {isNewItem && idx === 4 && (
-                               <div className="border-t border-border my-1" />
-                             )}
-                             <Link
-                               href={item.href}
-                               onClick={() => setOpenDropdown(null)}
-                               className={`flex items-center justify-between p-3 rounded-[6px] transition group ${
-                                 isItemActive
-                                   ? "bg-yellow/10 text-violet"
-                                   : "text-ash hover:bg-fog/50 hover:text-ink"
-                               }`}
-                             >
-                            <div>
-                              <p className="text-xs font-bold">{item.label}</p>
-                              <p className="text-xs text-ash">{item.desc}</p>
-                            </div>
-                            <ArrowRight
-                              className={`w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition ${
-                                isItemActive ? "opacity-100" : ""
+                    {group.label}
+                    <ChevronDown className={`w-3 h-3 transition-transform ${expanded ? "rotate-180" : ""}`} aria-hidden="true" />
+                  </Link>
+
+                  {expanded && (
+                    <div className={`absolute top-full pt-2 w-64 z-50 ${group.align === "right" ? "right-0" : "left-0"}`}>
+                      <div className="rounded-xl border border-border bg-paper shadow-xl p-2">
+                        {group.items.map((item) => {
+                          const itemActive = isActive(pathname, item.href);
+                          return (
+                            <Link
+                              key={item.href}
+                              href={item.href}
+                              aria-current={itemActive ? "page" : undefined}
+                              className={`block rounded-lg px-3 py-2 transition ${
+                                itemActive ? "bg-violet/10 text-violet" : "text-carbon hover:bg-fog"
                               }`}
-                            />
-                          </Link>
-                        </React.Fragment>
-                        );
-                      })}
+                            >
+                              <span className="block text-sm font-bold leading-snug">{item.label}</span>
+                              {item.description && (
+                                <span className="block text-xs text-ash mt-0.5 leading-snug">{item.description}</span>
+                              )}
+                            </Link>
+                          );
+                        })}
+                      </div>
                     </div>
                   )}
                 </div>
@@ -260,100 +276,103 @@ export default function TopNavbar() {
             })}
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <SearchDialog />
             <ThemeToggle />
-            {/* <Link
-              href="/grants"
-              className="hidden lg:inline-flex items-center gap-1.5 px-5 py-2.5 bg-violet text-white rounded-[22px] text-xs font-bold hover:opacity-90 transition shadow-[0_2px_8px_rgba(119,0,255,0.25)]"
-            >
-              Browse Grants <ArrowRight className="w-3 h-3" />
-            </Link>
             <button
-              ref={hamburgerRef}
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
-              aria-expanded={isMobileMenuOpen}
+              ref={triggerRef}
+              type="button"
+              onClick={() => setIsMenuOpen(true)}
+              aria-label="Open navigation menu"
+              aria-expanded={isMenuOpen}
               aria-controls="mobile-nav-menu"
-              className="lg:hidden p-2 text-ash hover:text-ink hover:bg-fog/60 rounded-[6px] transition"
+              className="xl:hidden p-2 text-ash hover:text-ink hover:bg-fog/70 rounded-lg transition"
             >
-              {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </button> */}
+              <Menu className="w-5 h-5" />
+            </button>
           </div>
         </div>
       </header>
 
-      {isMobileMenuOpen && (
-        <div className="fixed inset-0 bg-carbon/60 z-40 lg:hidden flex justify-end" role="dialog" aria-modal="true" aria-label="Site navigation">
+      {isMenuOpen && (
+        <div className="fixed inset-0 z-40 xl:hidden" role="dialog" aria-modal="true" aria-label="Site navigation">
+          <button
+            type="button"
+            aria-label="Close navigation menu"
+            onClick={() => setIsMenuOpen(false)}
+            className="absolute inset-0 w-full h-full bg-carbon/60"
+            tabIndex={-1}
+          />
           <div
-            ref={mobilePanelRef}
+            ref={panelRef}
             id="mobile-nav-menu"
-            className="w-full max-w-xs bg-paper h-full p-6 flex flex-col animate-slide-in"
+            className="relative ml-auto w-full max-w-sm bg-paper h-full p-5 flex flex-col shadow-xl"
           >
             <div className="flex items-center justify-between border-b border-border pb-4 mb-4">
-              <span className="font-bold text-sm text-carbon">Navigation</span>
+              <span className="font-black text-sm text-carbon">Menu</span>
               <button
-                onClick={() => setIsMobileMenuOpen(false)}
+                type="button"
+                onClick={() => setIsMenuOpen(false)}
                 aria-label="Close navigation menu"
-                className="p-1 text-ash hover:text-ink rounded-[6px] transition"
+                className="p-2 -mr-2 text-ash hover:text-ink rounded-lg transition"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
-            <nav className="flex-1 space-y-1 overflow-y-auto">
-              {navGroups.map((group) => {
-                const isExpanded = mobileExpanded.includes(group.label);
-                const hasActive = group.items.some(
-                  (item) => pathname === item.href || pathname.startsWith(item.href + "/")
-                );
+
+            <nav className="flex-1 overflow-y-auto space-y-2" aria-label="Mobile primary">
+              {primaryNav.map((group) => {
+                const active = isGroupActive(pathname, group);
                 return (
-                  <div key={group.label}>
-                    <button
-                      onClick={() => toggleMobileSection(group.label)}
-                      aria-expanded={isExpanded}
-                      className={`w-full flex items-center justify-between p-3 rounded-[6px] text-xs font-bold transition ${
-                        hasActive ? "text-violet" : "text-ash hover:text-ink hover:bg-fog/50"
+                  <details key={group.href} className="group/mobile border-b border-border/70 pb-2">
+                    <summary
+                      className={`flex items-center justify-between gap-3 p-3 rounded-lg text-sm font-bold cursor-pointer list-none transition ${
+                        active ? "bg-violet/10 text-violet" : "text-carbon hover:bg-fog"
                       }`}
                     >
-                      <span>{group.label}</span>
-                      <ChevronDown
-                        className={`w-3.5 h-3.5 transition ${isExpanded ? "rotate-180" : ""}`}
-                      />
-                    </button>
-                    {isExpanded && (
-                      <div className="ml-4 space-y-1 mt-1 mb-2">
-                        {group.items.map((item) => {
-                          const isItemActive =
-                            pathname === item.href || pathname.startsWith(item.href + "/");
-                          return (
-                            <Link
-                              key={item.href}
-                              href={item.href}
-                              onClick={() => setIsMobileMenuOpen(false)}
-                              className={`block p-3 rounded-[6px] transition text-xs ${
-                                isItemActive
-                                  ? "bg-yellow/10 text-violet font-bold"
-                                  : "text-ash hover:bg-fog/50 hover:text-ink"
-                              }`}
-                            >
-                              <p className="font-bold">{item.label}</p>
-                              <p className="text-xs text-ash">{item.desc}</p>
-                            </Link>
-                          );
-                        })}
-                      </div>
-                    )}
-                  </div>
+                      {group.label}
+                      <ChevronDown className="w-4 h-4 opacity-60 group-open/mobile:rotate-180 transition-transform" aria-hidden="true" />
+                    </summary>
+                    <div className="mt-1 ml-3 pl-3 border-l border-border space-y-0.5">
+                      <Link href={group.href} className="block rounded-md px-3 py-2 text-sm font-bold text-violet hover:bg-fog">
+                        Overview
+                      </Link>
+                      {group.items.map((item) => (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          aria-current={isActive(pathname, item.href) ? "page" : undefined}
+                          className="block rounded-md px-3 py-2 text-sm text-ash font-medium hover:bg-fog hover:text-ink transition"
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </details>
                 );
               })}
+
+              <p className="pt-4 pb-1 px-3 text-[11px] font-bold uppercase tracking-widest text-ash">More help</p>
+              {secondaryNav.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="block p-3 rounded-lg text-sm text-ash font-medium hover:bg-fog hover:text-ink transition"
+                >
+                  {item.label}
+                </Link>
+              ))}
             </nav>
-            <Link
-              href="/grants"
-              className="w-full bg-violet hover:opacity-90 text-white font-bold p-3 rounded-[22px] transition flex items-center justify-center gap-2 text-xs mt-4 shadow-[0_2px_8px_rgba(119,0,255,0.25)]"
-              onClick={() => setIsMobileMenuOpen(false)}
+
+            <a
+              href={OFFICIAL_LINKS.srd}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 flex items-center justify-center gap-2 bg-violet text-white font-bold p-3 rounded-lg text-sm transition hover:opacity-90"
             >
-              Browse Grants <ArrowRight className="w-3 h-3" />
-            </Link>
+              Official SRD status check <ExternalLink className="w-4 h-4" />
+            </a>
+            <p className="mt-2 text-center text-[11px] text-ash">Independent resource. Not affiliated with SASSA.</p>
           </div>
         </div>
       )}

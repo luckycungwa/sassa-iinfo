@@ -103,7 +103,7 @@ export const guides: Guide[] = [
       description: "Estimate your monthly SASSA grant total based on your age, dependants, disability status, and other factors.",
       steps: [
         { title: "Use the Interactive Tool", detail: "Enter your age, dependants, disability status, and other details into our interactive calculator for an instant monthly estimate." },
-        { title: "2026 Grant Amounts", detail: "All amounts used are from the official 2026 national budget: SRD R370, Older Person R2,400, Disability R2,400, Foster Care R1,295, and more." },
+        { title: "2026 Grant Amounts", detail: "All amounts used are from the official 2026 national budget: SRD R370, Older Person R2,400, Disability R2,400, Foster Care R1,300, and more." },
         { title: "Important Note", detail: "This calculator provides estimates only. Actual eligibility depends on the SASSA means test. Always apply through official channels." },
       ],
     },

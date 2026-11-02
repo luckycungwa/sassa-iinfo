@@ -78,7 +78,7 @@
     {
       "id": "p2",
       "type": "paragraph",
-      "text": "The introduction of a fourth payment day follows the announcement by Social Development Minister Dina Pule on 21 July 2026 that more than 350,000 grants will be reviewed in the 2026/27 financial year. The additional day is designed to prevent long queues at pay points and give beneficiaries flagged for reviews a dedicated window to sort out their documentation without delaying other grant recipients."
+      "text": "The fourth payment day gives beneficiaries flagged for grant reviews or eLife verification a dedicated window. Handling those cases separately prevents long queues and means documentation checks do not delay payments for everyone else."
     },
     {
       "id": "p3",
@@ -246,7 +246,7 @@
         {
           "title": "Grant Review Crackdown 2026",
           "href": "/news/sassa-grant-review-crackdown-2026",
-          "description": "350,000 grants under review"
+          "description": "What a review notice means"
         },
         {
           "title": "eLife Certification Guide",

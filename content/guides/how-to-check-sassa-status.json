@@ -8,7 +8,7 @@
   "version": "1.1.0",
   "status": "published",
   "author": {
-    "name": "Grant Guide Editorial Team",
+    "name": "SASSA Grant Hub Editorial Team",
     "role": "Content Editor",
     "verified": true
   },
@@ -94,8 +94,8 @@
       "text": "Visit srd.sassa.gov.za. Enter your ID number and the phone number you used during application. You will receive an OTP via SMS to access your status dashboard.",
       "links": [
         {
-          "text": "srd",
-          "href": "/grants/srd-r370-grant"
+          "text": "what the SRD status you see means",
+          "href": "/grants/srd-r370-grant/status-check"
         }
       ]
     },
@@ -265,6 +265,10 @@
     {
       "title": "SRD Help: Call Centres and Kiosks",
       "slug": "/guides/srd-call-centre-kiosk-help"
+    },
+    {
+      "title": "SRD R370 status meanings",
+      "slug": "/grants/srd-r370-grant/status-check"
     }
   ]
 }

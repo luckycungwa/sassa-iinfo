@@ -10,7 +10,7 @@ const GRANTS_2026 = {
   olderPerson: { label: "Older Person Grant (60-74)", amount: 2400, desc: "Age 60-74" },
   olderPerson75: { label: "Older Person Grant (75+)", amount: 2420, desc: "Age 75+" },
   disability: { label: "Disability Grant", amount: 2400, desc: "18-59, medical assessment" },
-  fosterCare: { label: "Foster Care Grant", amount: 1295, desc: "Per foster child, court order" },
+  fosterCare: { label: "Foster Care Grant", amount: 1300, desc: "Per foster child, court order" },
   careDependency: { label: "Care Dependency Grant", amount: 2400, desc: "Child with severe disability" },
   warVeterans: { label: "War Veterans Grant", amount: 2420, desc: "WWI/WWII/Korea veterans" },
   grantInAid: { label: "Grant-in-Aid (Top-Up)", amount: 580, desc: "Added to primary grant" },

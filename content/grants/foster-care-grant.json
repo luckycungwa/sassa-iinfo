@@ -3,7 +3,7 @@
   "slug": "/grants/foster-care-grant",
   "classification": "grant-detail",
   "title": "Foster Care Grant — Complete Guide 2026",
-  "description": "Complete guide to the SASSA Foster Care Grant: R1,295 per month per foster child, the Children's Court order you need, how to apply through a social worker, the annual review, and what happens when the court order lapses.",
+  "description": "Complete guide to the SASSA Foster Care Grant: R1,300 per month per foster child, the Children's Court order you need, how to apply through a social worker, the annual review, and what happens when the court order lapses.",
   "lastUpdated": "2026-08-25",
   "version": "1.1.0",
   "readingTime": "23 min read",
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "Foster Child Grant — R1,295/Month & How to Apply (2026)",
-    "metaDescription": "Foster Child Grant pays R1,295/month in 2026. Learn the court-order rules and follow our step-by-step SASSA foster care application and renewal guide.",
+    "metaTitle": "Foster Child Grant — R1,300/Month & How to Apply (2026)",
+    "metaDescription": "Foster Child Grant pays R1,300/month in 2026. Learn the court-order rules and follow our step-by-step SASSA foster care application and renewal guide.",
     "keywords": [
       "foster care grant",
       "SASSA foster child grant",
@@ -33,7 +33,7 @@
       "id": "hero",
       "type": "hero",
       "title": "Foster Care Grant",
-      "description": "Complete guide to the SASSA Foster Care Grant: R1,295 per month per foster child, the Children's Court order you need, how to apply through a social worker, the annual review, and what happens when the court order lapses.",
+      "description": "Complete guide to the SASSA Foster Care Grant: R1,300 per month per foster child, the Children's Court order you need, how to apply through a social worker, the annual review, and what happens when the court order lapses.",
       "readingTime": "23 min read",
       "lastUpdated": "2026-08-25",
       "cta": {
@@ -48,14 +48,14 @@
     {
       "id": "summary",
       "type": "grant-summary",
-      "amount": "R1,295 per month per foster child",
+      "amount": "R1,300 per month per foster child",
       "frequency": "Monthly (reviewed annually)",
       "targetGroup": "Court-appointed foster parents caring for children who cannot live with their biological parents, under 18."
     },
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "The SASSA Foster Care Grant provides financial support to foster parents who have been legally appointed by a South African Children's Court to care for a child who cannot live with their biological parents. The most important thing to understand is that there is no income means test for this grant. The amount you receive is based on the child's needs and the existence of a valid court order — not on what you earn. In 2026 the grant pays R1,295 per month for each foster child in your care."
+      "text": "The SASSA Foster Care Grant provides financial support to foster parents who have been legally appointed by a South African Children's Court to care for a child who cannot live with their biological parents. The most important thing to understand is that there is no income means test for this grant. The amount you receive is based on the child's needs and the existence of a valid court order — not on what you earn. In 2026 the grant pays R1,300 per month for each foster child in your care."
     },
     {
       "id": "what-is-h",
@@ -112,7 +112,7 @@
       "rows": [
         [
           "Monthly amount",
-          "R1,295 per child",
+          "R1,300 per child",
           "Standard child support amount per child"
         ],
         [
@@ -500,7 +500,7 @@
           "Foster Care Grant",
           "Yes — Children's Court order",
           "No",
-          "R1,295 per child",
+          "R1,300 per child",
           "Court-appointed foster parents"
         ],
         [
@@ -575,7 +575,7 @@
       "id": "key-figures-foster",
       "type": "stat-bar",
       "stats": [
-        { "label": "Monthly amount", "value": "R1,295", "description": "Per foster child, effective 1 April 2026" },
+        { "label": "Monthly amount", "value": "R1,300", "description": "Per foster child, effective 1 October 2026 (R1,290 from April 2026)" },
         { "label": "Means test", "value": "None", "description": "Based on a valid court order, not your income" },
         { "label": "Review", "value": "Annually", "description": "The Children's Court order is renewed each year" },
         { "label": "Appeal window", "value": "30 days", "description": "To the ITSAA; portal accepts up to 90 days" }
@@ -590,7 +590,7 @@
     {
       "id": "kinship-p1",
       "type": "paragraph",
-      "text": "Many children are raised by grandparents, aunts, uncles, or other relatives without ever going through a Children's Court. This is often called kinship care or relative care. If there is no formal court order, the relative is usually not a foster parent in the legal sense and cannot get the Foster Care Grant. Instead, the relative applies for the Child Support Grant (with its orphan top-up where the parents have died), which is means-tested. The court order is the line that separates foster care from kinship care — and only foster care carries the R1,295 amount with no means test."
+      "text": "Many children are raised by grandparents, aunts, uncles, or other relatives without ever going through a Children's Court. This is often called kinship care or relative care. If there is no formal court order, the relative is usually not a foster parent in the legal sense and cannot get the Foster Care Grant. Instead, the relative applies for the Child Support Grant (with its orphan top-up where the parents have died), which is means-tested. The court order is the line that separates foster care from kinship care — and only foster care carries the R1,300 amount with no means test."
     },
     {
       "id": "kinship-p2",
@@ -622,7 +622,7 @@
     {
       "id": "multiple-p1",
       "type": "paragraph",
-      "text": "You can receive the Foster Care Grant for more than one child, and each child is paid separately at R1,295 per month. The important rule is that each child needs their own Children's Court order. You cannot cover three children with one order. When you renew, renew each order, and take each renewed order to SASSA so every child's payment continues. If a new child is placed with you, start the court process and the SASSA application for that child as soon as the order is signed."
+      "text": "You can receive the Foster Care Grant for more than one child, and each child is paid separately at R1,300 per month. The important rule is that each child needs their own Children's Court order. You cannot cover three children with one order. When you renew, renew each order, and take each renewed order to SASSA so every child's payment continues. If a new child is placed with you, start the court process and the SASSA application for that child as soon as the order is signed."
     },
     {
       "id": "extension-p1",
@@ -710,7 +710,7 @@
         },
         {
           "question": "Can I get the grant for more than one foster child?",
-          "answer": "Yes. You receive R1,295 per month for each child in your foster care, provided you have a separate court order for each child."
+          "answer": "Yes. You receive R1,300 per month for each child in your foster care, provided you have a separate court order for each child."
         },
         {
           "question": "Do I need to report the grant as income for tax?",
@@ -726,7 +726,7 @@
         },
         {
           "question": "How much is the foster care grant in 2026?",
-          "answer": "The Foster Care Grant pays R1,295 per month for each foster child, effective from 1 April 2026. There is no means test, so the amount is the same regardless of your income."
+          "answer": "The Foster Care Grant pays R1,300 per month for each foster child from 1 October 2026; it was R1,290 from April 2026. There is no means test, so the amount is the same regardless of your income."
         },
         {
           "question": "Is there a means test for the foster care grant?",

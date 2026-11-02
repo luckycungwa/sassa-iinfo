@@ -3,18 +3,18 @@
   "slug": "/eligibility/i-am-a-foster-parent",
   "classification": "eligibility-guide",
   "title": "Can Foster Parents Get SASSA Grants? Foster Child Grant Guide",
-  "description": "Complete guide for foster parents applying for the SASSA Foster Child Grant. Learn about the R1,295 monthly grant, court orders, application process, and eligibility requirements.",
+  "description": "Complete guide for foster parents applying for the SASSA Foster Child Grant. Learn about the R1,300 monthly grant, court orders, application process, and eligibility requirements.",
   "lastUpdated": "2026-08-25",
   "version": "2.1.0",
   "status": "published",
   "author": {
-    "name": "Grant Guide Editorial Team",
+    "name": "SASSA Grant Hub Editorial Team",
     "role": "Content Editor",
     "verified": true
   },
   "seo": {
-    "metaTitle": "Foster Parent SASSA Guide — Foster Child Grant Eligibility & Application",
-    "metaDescription": "Complete guide for foster parents applying for the SASSA Foster Child Grant (R1,295/month). Learn about children's court orders, eligibility, application process, required documents, and how the grant can be extended past 18.",
+    "metaTitle": "Foster Parent Check SASSA Status — Foster Child Grant Eligibility & Application",
+    "metaDescription": "Complete guide for foster parents applying for the SASSA Foster Child Grant (R1,300/month). Learn about children's court orders, eligibility, application process, required documents, and how the grant can be extended past 18.",
     "keywords": [
       "SASSA foster child grant",
       "foster parent SASSA grant",
@@ -29,7 +29,7 @@
       "id": "hero",
       "type": "hero",
       "title": "Can Foster Parents Get SASSA Grants? Foster Child Grant Guide",
-      "description": "Foster parents can receive R1,295 per month per child through the Foster Child Grant. Learn about the court order requirements, application process, and other grants available to foster parents.",
+      "description": "Foster parents can receive R1,300 per month per child through the Foster Child Grant. Learn about the court order requirements, application process, and other grants available to foster parents.",
       "readingTime": "8 min read",
       "lastUpdated": "2026-08-25",
       "cta": {
@@ -50,7 +50,7 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "Foster parents in South Africa can apply for the Foster Child Grant, which is R1,295 per month per child. This grant is specifically for children placed in foster care through the children's court. Unlike other SASSA grants, the Foster Child Grant does not have an income means test for the foster parent.",
+      "text": "Foster parents in South Africa can apply for the Foster Child Grant, which is R1,300 per month per child. This grant is specifically for children placed in foster care through the children's court. Unlike other SASSA grants, the Foster Child Grant does not have an income means test for the foster parent.",
       "links": [
         {
           "text": "means test",
@@ -72,7 +72,7 @@
     {
       "id": "scenario",
       "type": "paragraph",
-      "text": "Jacob and Mary are a married couple from Bloemfontein who became foster parents to two siblings aged 5 and 9 through the children's court. They receive the Foster Child Grant of R1,295 per month per child (R2,590 total). They also have a biological child aged 12, for whom they receive the Child Support Grant of R580 per month. The Foster Child Grant has no income means test, so Jacob's salary as a teacher does not affect the grant. This guide explains what foster parents like Jacob and Mary need to know."
+      "text": "Jacob and Mary are a married couple from Bloemfontein who became foster parents to two siblings aged 5 and 9 through the children's court. They receive the Foster Child Grant of R1,300 per month per child (R2,600 total). They also have a biological child aged 12, for whom they receive the Child Support Grant of R580 per month. The Foster Child Grant has no income means test, so Jacob's salary as a teacher does not affect the grant. This guide explains what foster parents like Jacob and Mary need to know."
     },
     {
       "id": "grants-h",
@@ -92,7 +92,7 @@
       "rows": [
         [
           "Foster Child Grant",
-          "R1,295/month per foster child",
+          "R1,300/month per foster child",
           "None",
           "Valid children's court order placing the child in your care."
         ],
@@ -136,7 +136,7 @@
         {
           "name": "Foster Child Grant",
           "slug": "foster-care-grant",
-          "amount": "R1,295 / month per foster child"
+          "amount": "R1,300 / month per foster child"
         },
         {
           "name": "Child Support Grant (for biological children)",

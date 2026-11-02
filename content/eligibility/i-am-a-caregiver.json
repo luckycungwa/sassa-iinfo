@@ -8,7 +8,7 @@
   "version": "2.1.0",
   "status": "published",
   "author": {
-    "name": "Grant Guide Editorial Team",
+    "name": "SASSA Grant Hub Editorial Team",
     "role": "Content Editor",
     "verified": true
   },
@@ -98,7 +98,7 @@
         ],
         [
           "Foster Child Grant",
-          "R1,295/month per child",
+          "R1,300/month per child",
           "Foster parents",
           "Valid children's court order required."
         ],
@@ -145,7 +145,7 @@
         {
           "name": "Foster Child Grant",
           "slug": "foster-care-grant",
-          "amount": "R1,295 / month per child"
+          "amount": "R1,300 / month per child"
         }
       ]
     },

@@ -122,7 +122,7 @@ export default function EligibilityEngine() {
       out.push({
         id: "foster",
         label: `Foster Care Grant (${foster} child${foster > 1 ? "ren" : ""})`,
-        amount: 1295 * foster,
+        amount: 1300 * foster,
         period: "month",
         note: "No means test — paid on a valid court order.",
         href: "/grants/foster-care-grant",

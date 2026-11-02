@@ -8,7 +8,7 @@
   "version": "2.0.0",
   "status": "published",
   "author": {
-    "name": "Grant Guide Editorial Team",
+    "name": "SASSA Grant Hub Editorial Team",
     "role": "Content Editor",
     "credentials": "Verified against official SASSA publications",
     "verified": true
@@ -63,7 +63,7 @@
         {
           "title": "Foster Care Grant",
           "href": "/grants/foster-care-grant",
-          "description": "R1,295/month per foster child"
+          "description": "R1,300/month per foster child"
         },
         {
           "title": "Care Dependency Grant",

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from "react";
-import { Calendar as CalendarIcon, Info, Printer, Download, Clock, CheckCircle, AlertCircle } from "lucide-react";
+import { Calendar as CalendarIcon, Info, Printer, Download, CheckCircle, AlertCircle } from "lucide-react";
 import type { PaymentMonth } from "../lib/data/paymentDates";
 
 interface PaymentCentreProps {
@@ -12,7 +12,6 @@ interface PaymentCentreProps {
 
 export default function PaymentCentre({ current, next, months }: PaymentCentreProps) {
   const [selectedYear, setSelectedYear] = useState<"2026" | "2025">("2026");
-  const [downloading, setDownloading] = useState(false);
 
   const currentRows = [
     {
@@ -91,11 +90,7 @@ export default function PaymentCentre({ current, next, months }: PaymentCentrePr
   };
 
   const handleDownload = () => {
-    setDownloading(true);
-    setTimeout(() => {
-      setDownloading(false);
-      window.print();
-    }, 1500);
+    window.print();
   };
 
   return (
@@ -107,11 +102,11 @@ export default function PaymentCentre({ current, next, months }: PaymentCentrePr
           <span className="bg-accent-light text-accent-dark font-semibold px-3 py-1 rounded-full text-xs font-mono tracking-wide uppercase">
             Updated for {current.label}
           </span>
-          <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-surface">
+          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-surface">
             SASSA Payment Centre &amp; Schedules
-          </h1>
+          </h2>
           <p className="text-white/70 text-sm md:text-base leading-relaxed">
-            South Africa&apos;s most trusted source for verified SASSA payment dates. View the confirmed schedule for {current.label}, check next month&apos;s dates, and download a printable calendar.
+            View the confirmed schedule for {current.label}, check next month&apos;s dates, and print a calendar for your fridge or grant office.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
             <button
@@ -124,15 +119,7 @@ export default function PaymentCentre({ current, next, months }: PaymentCentrePr
               onClick={handleDownload}
               className="flex items-center gap-2 bg-accent hover:bg-accent-dark text-black font-bold px-4 py-2.5 rounded-xl transition text-xs md:text-sm border border-accent-dark"
             >
-              {downloading ? (
-                <>
-                  <Clock className="w-4 h-4 animate-spin" /> Generating PDF...
-                </>
-              ) : (
-                <>
-                  <Download className="w-4 h-4" /> Download Schedule PDF
-                </>
-              )}
+              <Download className="w-4 h-4" /> Print / Save as PDF
             </button>
           </div>
         </div>

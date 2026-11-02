@@ -37,7 +37,7 @@ export default function GrantComparison() {
             </tr>
             <tr>
               <td className="p-3 font-semibold">Foster Care</td>
-              <td className="p-3 font-mono font-bold text-accent-dark">R1,295</td>
+              <td className="p-3 font-mono font-bold text-accent-dark">R1,300</td>
               <td className="p-3">0-17 years</td>
               <td className="p-3">No limits (Court Vetted)</td>
             </tr>

@@ -17,7 +17,7 @@ const faqs = [
 
 export const metadata: Metadata = {
   title: "All SASSA Social Grants - Complete Grant Library 2026 | Amounts, Eligibility & How to Apply",
-  description: "Browse all 8 SASSA social grants: Older Person R2,400, Child Support R580, Disability R2,400, Foster Care R1,295, Care Dependency R2,400, War Veterans R2,420, Grant-in-Aid R580, and SRD R370. Compare amounts, eligibility criteria, and application steps.",
+  description: "Browse all 8 SASSA social grants: Older Person R2,400, Child Support R580, Disability R2,400, Foster Care R1,300, Care Dependency R2,400, War Veterans R2,420, Grant-in-Aid R580, and SRD R370. Compare amounts, eligibility criteria, and application steps.",
   alternates: { canonical: canonicalUrl("/grants") },
   openGraph: {
     title: "All SASSA Social Grants - Complete Grant Library 2026",

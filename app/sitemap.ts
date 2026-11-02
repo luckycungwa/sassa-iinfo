@@ -8,7 +8,7 @@ import { downloadableForms } from "../lib/data/downloads";
 import { provinces } from "../lib/data/provinces";
 import { guides } from "../lib/data/guides";
 import { bankingGuides } from "../lib/data/banking";
-import { paymentMonths } from "../lib/data/paymentDates";
+import { paymentMonths, PAYMENT_DATA_UPDATED } from "../lib/data/paymentDates";
 import { loadAllContent } from "../lib/content-loader";
 
 const baseUrl = SITE_URL;
@@ -35,6 +35,7 @@ const staticRoutes = [
   { path: "/terms", priority: 0.3, changefreq: "yearly" as const },
   { path: "/disclaimer", priority: 0.3, changefreq: "yearly" as const },
   { path: "/editorial-policy", priority: 0.4, changefreq: "monthly" as const },
+  { path: "/corrections-policy", priority: 0.4, changefreq: "monthly" as const },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -44,9 +45,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "2026-08-23"
   );
 
+  const paymentDataDate = new Date(PAYMENT_DATA_UPDATED);
+
   const routes = staticRoutes.map((r) => ({
     url: `${baseUrl}${r.path}`,
-    lastModified: new Date(latestContentDate),
+    lastModified: r.path === "/payment-dates" ? paymentDataDate : new Date(latestContentDate),
     changeFrequency: r.changefreq,
     priority: r.priority,
   }));
@@ -118,9 +121,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const paymentDateRoutes = paymentMonths.map((m) => ({
     url: `${baseUrl}/payment-dates/${m.slug}`,
-    lastModified: new Date(latestContentDate),
+    lastModified: new Date(m.revisedOn ?? m.confirmedOn ?? latestContentDate),
     changeFrequency: "monthly" as const,
-    priority: 0.7,
+    priority: m.month === 11 || m.month === 12 ? 0.9 : 0.7,
   }));
 
   const allRoutes = [

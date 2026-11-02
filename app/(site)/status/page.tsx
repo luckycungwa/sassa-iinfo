@@ -51,7 +51,20 @@ export default function StatusHubPage() {
             >
               Why is my status pending?
             </Link>
+            <Link
+              href="/guides/how-to-check-sassa-status"
+              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-white/30 text-white rounded-[28.5px] text-sm font-bold hover:bg-white/10 transition"
+            >
+              How to check your status
+            </Link>
           </div>
+          <p className="text-xs text-white/60 mt-6 max-w-xl leading-relaxed">
+            This page explains what statuses mean. It cannot look up your personal record. For your own status, use the{" "}
+            <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="font-bold text-white underline underline-offset-2">
+              official SRD portal
+            </a>
+            .
+          </p>
         </div>
       </section>
 

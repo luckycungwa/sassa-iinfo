@@ -2,23 +2,24 @@
   "id": "grant-review-crackdown-2026",
   "slug": "/news/sassa-grant-review-crackdown-2026",
   "classification": "news-article",
-  "title": "350,000 SASSA Grants to Be Reviewed in 2026 Crackdown — Is Your Grant at Risk?",
-  "description": "Social Development Minister Dina Pule announces 350,000+ grants will be reviewed in 2026/27 to save R1.5 billion. How to check if you're flagged and complete your review before suspension.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "title": "SASSA Grant Reviews in 2026: What a Review Notice Means",
+  "description": "A SASSA review checks whether you still qualify for a grant. Learn what a review notice asks for, which documents to take, what happens if you miss an appointment, and how to avoid review scams.",
+  "lastUpdated": "2026-10-31",
+  "version": "2.0.0",
   "status": "published",
   "author": {
     "name": "Lucky Cungwa",
     "role": "Senior Editor",
-    "credentials": "Verified against official SASSA publications",
+    "credentials": "Reviewed against official SASSA guidance",
     "verified": true
   },
   "seo": {
-    "metaTitle": "350,000 SASSA Grants Under Review 2026 — Is Your Grant at Risk?",
-    "metaDescription": "SASSA is reviewing 350,000+ grants in 2026 to save R1.5 billion. Minister Dina Pule announced the crackdown on 21 July. Check if you're flagged and how to complete your review before suspension.",
+    "metaTitle": "SASSA Grant Reviews 2026 — What a Review Notice Means",
+    "metaDescription": "SASSA reviews confirm that beneficiaries still qualify. See what a review notice asks for, which documents to bring, what to do if you miss the date, and how to spot a fake review message.",
     "keywords": [
       "SASSA grant review",
-      "grant crackdown",
+      "SASSA review notice",
+      "grant review documents",
       "SASSA review 2026",
       "grant suspension"
     ]
@@ -27,38 +28,31 @@
     {
       "id": "hero-1",
       "type": "hero",
-      "title": "350,000 Grants to Be Reviewed in 2026 Crackdown",
-      "description": "Social Development Minister Dina Pule announced on 21 July 2026 that more than 350,000 social grants will be reviewed in the 2026/27 financial year as part of a major crackdown to save R1.5 billion in misspent funds.",
-      "readingTime": "4 min read",
-      "lastUpdated": "2026-08-25"
+      "title": "SASSA Grant Reviews in 2026: What a Review Notice Means",
+      "description": "A review is a check that you still meet the rules for your grant. It is not an accusation, and most beneficiaries who respond with the right documents keep their grant.",
+      "readingTime": "5 min read",
+      "lastUpdated": "2026-10-31"
     },
     {
       "id": "h1",
       "type": "heading",
       "level": 2,
-      "text": "What Is Happening?"
+      "text": "What is a SASSA grant review?"
     },
     {
       "id": "p1",
       "type": "paragraph",
-      "text": "On 21 July 2026, Social Development Minister Dina Pule announced that more than 350,000 social grants will be reviewed in the 2026/27 financial year. The review is aimed at identifying grants that were incorrectly awarded, removing ineligible beneficiaries, and recovering approximately R1.5 billion in savings for the fiscus."
+      "text": "SASSA periodically reviews grants to confirm that a beneficiary's age, income, assets, medical condition or household circumstances still meet the rules. Reviews are routine. They also happen when records conflict, such as a bank account that does not match the beneficiary's identity or income information that differs from other government databases."
     },
     {
       "id": "p2",
       "type": "paragraph",
-      "text": "This is the largest grant review exercise since the SRD grant launched in 2020. According to SASSA, about 160,000 beneficiaries failed to complete their reviews last year, leading to automatic suspensions."
-    },
-    {
-      "id": "h2",
-      "type": "heading",
-      "level": 3,
-      "text": "Why Now?"
-    },
-    {
-      "id": "p3",
-      "type": "paragraph",
-      "text": "The review follows a Special Investigating Unit (SIU) report that found systemic weaknesses in SASSA's grant verification processes, particularly around identity verification, means testing, and bank verification for SRD grants.",
+      "text": "A review is different from a monthly SRD reconsideration. The SRD R370 grant is assessed month by month; a permanent grant review is a specific administrative process that usually begins with an SMS, a letter or a notice at a SASSA office.",
       "links": [
+        {
+          "text": "SRD monthly review",
+          "href": "/grants/srd-r370-grant-monthly-review"
+        },
         {
           "text": "means test",
           "href": "/guides/understanding-means-test"
@@ -66,114 +60,115 @@
       ]
     },
     {
+      "id": "h2",
+      "type": "heading",
+      "level": 3,
+      "text": "What the notice should tell you"
+    },
+    {
       "id": "list1",
       "type": "list",
       "ordered": false,
       "items": [
-        "R1.5 billion identified as potential savings from incorrect or fraudulent grants",
-        "350,000+ grants flagged across all grant types, not just SRD",
-        "160,000 beneficiaries already suspended for failing previous reviews",
-        "Biometric verification (eLife certification) now mandatory for all SRD applicants"
-      ]
-    },
-    {
-      "id": "h3",
-      "type": "heading",
-      "level": 3,
-      "text": "Which Grants Are Affected?"
-    },
-    {
-      "id": "p4",
-      "type": "paragraph",
-      "text": "All grant types are affected, but the review is concentrated on:"
-    },
-    {
-      "id": "list2",
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "SRD R370 Grant — highest volume of flagged applications",
-        "Disability Grant — medical re-assessments overdue",
-        "Child Support Grant — income threshold compliance",
-        "Older Person Grant — identity verification for age-75+ cohort"
+        "Which grant is being reviewed",
+        "The date, time and place of any appointment",
+        "The documents SASSA wants you to bring",
+        "A reference or case number to quote",
+        "The office or channel to contact if the date does not suit you"
       ]
     },
     {
       "id": "callout1",
       "type": "callout",
       "intent": "warning",
-      "title": "Is your grant at risk?",
-      "text": "If you receive a letter from SASSA requesting a review, you must respond within 30 days. Failure to do so will result in automatic suspension without further notice."
+      "title": "Use the date in your own notice",
+      "text": "There is no single deadline that applies to every review. The date that matters is the one printed in your notice. If you cannot attend, contact SASSA before that date using the number or office on the notice instead of simply not arriving."
+    },
+    {
+      "id": "h3",
+      "type": "heading",
+      "level": 3,
+      "text": "Documents usually requested"
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "text": "Requirements differ by grant type and by the reason for the review. The list below covers the most common requests; your notice overrides it."
+    },
+    {
+      "id": "list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Your original South African ID or a certified copy, as requested",
+        "Proof of income, such as payslips or the latest three months of bank statements",
+        "An affidavit if you have no income, sworn at a police station or commissioner of oaths",
+        "Proof of residence",
+        "A UIF or NSFAS status letter if either was flagged",
+        "A medical report or assessment report for a Disability or Care Dependency review",
+        "The Children's Court order for a Foster Care Grant review"
+      ]
     },
     {
       "id": "h4",
       "type": "heading",
       "level": 3,
-      "text": "How to Check If You Are Flagged"
-    },
-    {
-      "id": "steps1",
-      "type": "steps",
-      "steps": [
-        {
-          "title": "Check your SMS and post",
-          "description": "SASSA sends a formal notification via SMS and post if you are flagged for review. Look for messages from 0800 60 10 11."
-        },
-        {
-          "title": "Log into the SRD portal",
-          "description": "Visit srd.sassa.gov.za and enter your ID and phone number. A review flag will appear on your dashboard."
-        },
-        {
-          "title": "Visit your nearest SASSA office",
-          "description": "If you cannot access the portal, visit your nearest SASSA office with your ID. Ask the officer to check your review status."
-        },
-        {
-          "title": "Complete the review form",
-          "description": "Fill in the review form with your current financial and personal information. Supporting documents are required."
-        }
-      ]
-    },
-    {
-      "id": "h5",
-      "type": "heading",
-      "level": 3,
-      "text": "What Documents Do You Need?"
+      "text": "What happens after the review?"
     },
     {
       "id": "list3",
       "type": "list",
       "ordered": false,
       "items": [
-        "Certified copy of your South African ID",
-        "Latest 3 months bank statements showing all inflows",
-        "Unemployment affidavit (sworn at SAPS station)",
-        "UIF deregistration letter (UI-19) if you were previously employed",
-        "NSFAS cancellation letter if you were previously a student",
-        "Medical report (Disability Grant reviews only)"
+        "The grant continues if SASSA confirms you still qualify.",
+        "The grant may be adjusted if your income or household circumstances changed.",
+        "The grant may be suspended if you do not respond or if SASSA finds you no longer qualify.",
+        "You should receive written reasons for a suspension or cancellation, and the letter explains the appeal route."
       ]
     },
     {
       "id": "callout2",
       "type": "callout",
       "intent": "info",
-      "title": "Important: Deadline",
-      "text": "You have 30 days from receiving the review notification to submit all documents. Extensions are not granted. If you miss the deadline, your grant will be suspended and you will need to reapply."
+      "title": "Missing an appointment",
+      "text": "If you miss a review appointment without contacting SASSA, the grant can be suspended. That does not automatically mean the grant is cancelled. Contact SASSA or your nearest office as soon as possible and ask what is needed to restore the review."
     },
     {
-      "id": "h6",
+      "id": "h5",
       "type": "heading",
       "level": 3,
-      "text": "What Happens After a Review?"
+      "text": "How to check whether a message is genuine"
     },
     {
       "id": "list4",
       "type": "list",
       "ordered": false,
       "items": [
-        "Your grant continues — if SASSA confirms you are still eligible",
-        "Your grant is adjusted — if your income or circumstances have changed",
-        "Your grant is suspended — if you fail to respond or are found ineligible",
-        "Your case is referred for investigation — if fraud is suspected"
+        "SASSA will not ask for your card PIN, online banking password or a one-time PIN (OTP).",
+        "SASSA will not ask you to pay a fee to keep a grant or to book a review.",
+        "Do not use a link in an SMS to enter identity or banking details. Open the official SRD portal yourself at srd.sassa.gov.za.",
+        "You can confirm a review notice at a SASSA office or through the official contact channels on SASSA's website."
+      ]
+    },
+    {
+      "id": "h6",
+      "type": "heading",
+      "level": 3,
+      "text": "If your grant is suspended after a review"
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "text": "Read the written reasons first. If you believe the decision is wrong, you can lodge an appeal with the Independent Tribunal for Social Assistance Appeals (ITSAA). Appeals are subject to a time limit, so act as soon as you receive the decision. Our appeal guides explain the process and the evidence that helps.",
+      "links": [
+        {
+          "text": "how to appeal a SASSA decision",
+          "href": "/appeals/how-to-appeal"
+        },
+        {
+          "text": "appeal timeline",
+          "href": "/appeals/appeal-timeline"
+        }
       ]
     },
     {
@@ -181,20 +176,24 @@
       "type": "faq",
       "faqs": [
         {
-          "question": "I didn't receive a notification. Can I still be flagged?",
-          "answer": "SASSA sends notifications via SMS and registered post. If your contact details changed, update them immediately on the SRD portal or at your local SASSA office."
+          "question": "Does a review mean SASSA thinks I committed fraud?",
+          "answer": "No. Most reviews are routine eligibility checks or the result of conflicting records. Answer the notice honestly and provide the documents requested."
         },
         {
-          "question": "What if my grant is suspended during the review?",
-          "answer": "If your grant is suspended, you will receive written reasons. You can appeal the suspension within 90 days through the ITSAA appeal process. However, completing the review as requested is faster."
+          "question": "I did not receive a notice. Can my grant still be reviewed?",
+          "answer": "SASSA contacts beneficiaries using the details on its system. If your phone number or address changed, update it through an official SASSA channel so you do not miss a notice."
         },
         {
-          "question": "Will the SRD R370 be reviewed differently?",
-          "answer": "SRD grants are reviewed monthly as part of normal processing. The 2026 crackdown is about identifying systemic fraud, not the monthly eligibility check. If you passed the monthly check, you are not necessarily flagged for review."
+          "question": "Will my grant stop immediately while the review is underway?",
+          "answer": "Not necessarily. It depends on the type of review and whether SASSA has already suspended the grant. Check your payment status and read any written notice you receive."
         },
         {
-          "question": "Can I lose my grant permanently?",
-          "answer": "If SASSA determines you were never eligible, your grant will be cancelled and you may be asked to repay amounts received. If your circumstances changed, you may qualify for a lower grant amount."
+          "question": "Can I do a review at a bank or retailer?",
+          "answer": "No. A grant review is handled by SASSA, not by a bank, retailer or anyone who offers to 'fix' your grant for a fee. Use the office or channel named in your notice."
+        },
+        {
+          "question": "What if I miss the appointment?",
+          "answer": "Contact SASSA immediately. Explain why you could not attend and ask for the next available review date. Do not wait for the grant to stop before acting."
         }
       ]
     },
@@ -206,31 +205,31 @@
       "id": "h7",
       "type": "heading",
       "level": 3,
-      "text": "Related Resources"
+      "text": "Related resources"
     },
     {
       "id": "link1",
       "type": "link-grid",
       "links": [
         {
-          "title": "Check Your SRD Status",
+          "title": "Check your SRD status",
           "href": "https://srd.sassa.gov.za",
           "description": "Official SASSA SRD portal"
         },
         {
-          "title": "How to Appeal a Suspension",
+          "title": "How to appeal a decision",
           "href": "/appeals/how-to-appeal",
-          "description": "Step-by-step appeal guide"
+          "description": "Step-by-step ITSAA appeal guide"
         },
         {
-          "title": "Biometric Verification Guide",
-          "href": "/news/elife-certification-guide-srd",
-          "description": "Complete eLife certification walkthrough"
+          "title": "Bank verification status",
+          "href": "/status/bank-verification",
+          "description": "Why a bank check can hold up a payment"
         },
         {
-          "title": "SRD R370 Grant Guide",
+          "title": "SRD R370 grant guide",
           "href": "/grants/srd-r370-grant",
-          "description": "Full grant eligibility information"
+          "description": "Eligibility and monthly review rules"
         }
       ]
     }

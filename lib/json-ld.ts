@@ -70,7 +70,7 @@ export function articleSchema(title: string, description: string, datePublished:
     publisher: {
       "@type": "Organization",
       "@id": `${siteUrl}/#organization`,
-      name: "SASSA Grant Guide",
+      name: "SASSA Grant Hub",
       url: siteUrl,
       logo: {
         "@type": "ImageObject",
@@ -100,10 +100,12 @@ export function organizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": `${siteUrl}/#organization`,
-    name: "SASSA Grant Guide",
-    description: "Independent guide to SASSA social grants in South Africa. Created by 44tagstudios.",
+    name: "SASSA Grant Hub",
+    description: "Independent South African resource for SASSA grant statuses, payment dates, applications and appeals. Operated by 44tagstudios.",
     url: siteUrl,
-    logo: `${siteUrl}/favicon.svg`,
+    logo: `${siteUrl}/main-logo.svg`,
+    image: `${siteUrl}/og-image.png`,
+    sameAs: ["https://44tagstudios.co.za"],
     founder: {
       "@type": "Person",
       name: "Lucky Cungwa",
@@ -133,8 +135,8 @@ export function aboutPageSchema() {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "@id": `${siteUrl}/about`,
-    name: "About SASSA Grant Guide",
-    description: "Learn about the independent SASSA Grant Guide resource built by Lucky Cungwa.",
+    name: "About SASSA Grant Hub",
+    description: "Learn about SASSA Grant Hub, an independent South African grant information resource built by Lucky Cungwa.",
   };
 }
 
@@ -143,8 +145,8 @@ export function contactPageSchema() {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "@id": `${siteUrl}/contact`,
-    name: "Contact Us",
-    description: "Get in touch with the SASSA Grant Guide team.",
+    name: "Contact SASSA Grant Hub",
+    description: "Contact the SASSA Grant Hub editorial team about corrections or content questions.",
   };
 }
 
@@ -154,8 +156,8 @@ export function personSchema() {
     "@type": "Person",
     "@id": `${siteUrl}/about/lucky-cungwa`,
     name: "Lucky Cungwa",
-    jobTitle: "Editor & Founder, SASSA Grant Guide",
-    description: "Founder and editor of the SASSA Grant Guide, an independent resource for South African social grant information.",
+    jobTitle: "Editor & Founder, SASSA Grant Hub",
+    description: "Founder and editor of SASSA Grant Hub, an independent resource for South African social grant information.",
     url: `${siteUrl}/about/lucky-cungwa`,
     sameAs: ["https://44tagstudios.co.za"],
     worksFor: {

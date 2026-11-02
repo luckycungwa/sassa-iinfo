@@ -435,7 +435,7 @@ export default function DesignSystem() {
                   <table className="w-full text-left text-xs border-collapse bg-ink rounded-2xl overflow-hidden border border-ink">
                     <thead><tr className="bg-ink border-b border-ink text-outline uppercase tracking-widest font-mono text-xs"><th className="p-2 px-3">Criteria</th><th className="p-2">Child Support</th><th className="p-2">Foster Care</th></tr></thead>
                     <tbody className="divide-y divide-slate-850 text-outline-variant">
-                      <tr><td className="p-2 px-3 font-bold text-surface-container bg-ink/20">Monthly Pay</td><td className="p-2">R580</td><td className="p-2">R1,295</td></tr>
+                      <tr><td className="p-2 px-3 font-bold text-surface-container bg-ink/20">Monthly Pay</td><td className="p-2">R580</td><td className="p-2">R1,300</td></tr>
                       <tr><td className="p-2 px-3 font-bold text-surface-container bg-ink/20">Means Tested?</td><td className="p-2 text-gold">Yes</td><td className="p-2 text-amber">No (Court Order)</td></tr>
                     </tbody>
                   </table>

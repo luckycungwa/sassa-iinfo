@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const grant = grants.find((g) => g.slug === grantSlug);
   if (!grant) return {};
   return {
-    title: grant.title + " | SASSA Grant Guide " + grant.amount,
+    title: grant.title + " | SASSA Grant Hub " + grant.amount,
     description: grant.title + " -- " + grant.amount + " " + grant.frequency + ". Eligibility criteria, required documents, how to apply, and FAQs. " + grant.targetGroup,
 alternates: { canonical: canonicalUrl(`/grants/${grantSlug}`), languages: localeAlternates(`/grants/${grantSlug}`) },
   };

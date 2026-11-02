@@ -37,6 +37,32 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   async redirects() {
     return [
+      // Domain migration: legacy hosts permanently redirect to the canonical origin.
+      // These rules take effect once the legacy domains are attached to this project.
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'sassagranttguide.vercel.app' }],
+        destination: 'https://sassagranthub.co.za/:path*',
+        statusCode: 301,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'sassagrantguide.co.za' }],
+        destination: 'https://sassagranthub.co.za/:path*',
+        statusCode: 301,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.sassagrantguide.co.za' }],
+        destination: 'https://sassagranthub.co.za/:path*',
+        statusCode: 301,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.sassagranthub.co.za' }],
+        destination: 'https://sassagranthub.co.za/:path*',
+        statusCode: 301,
+      },
       { source: '/guides/sassa-2026-payment-dates-calendar', destination: '/payment-dates', permanent: true },
       { source: '/news/how-to-find-sassa-reference-number', destination: '/guides/sassa-reference-number', permanent: true },
       { source: '/banking/sassa-black-card-guide', destination: '/banking/black-card-swap', permanent: true },

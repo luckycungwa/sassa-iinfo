@@ -133,7 +133,13 @@
     {
       "id": "why-p2",
       "type": "paragraph",
-      "text": "SASSA confirmed the revision on 15 October 2026. The announcement followed the proclamation of the election date, which made 4 November a nationwide public holiday. Beneficiaries do not need to apply or register for the change — payments are released automatically on the revised dates."
+      "text": "SASSA confirmed the revision on 15 October 2026. The announcement followed the proclamation of the election date, which made 4 November a nationwide public holiday. Beneficiaries do not need to apply or register for the change — payments are released automatically on the revised dates.",
+      "links": [
+        {
+          "text": "full November revision explainer",
+          "href": "/news/sassa-november-2026-payment-dates-revised"
+        }
+      ]
     },
     {
       "id": "impact-heading",
@@ -271,6 +277,16 @@
           "title": "All SASSA payment dates",
           "href": "/payment-dates",
           "description": "Current month, next month and the full 2026 archive"
+        },
+        {
+          "title": "Why the November dates changed",
+          "href": "/news/sassa-november-2026-payment-dates-revised",
+          "description": "The election holiday and the five-week gap"
+        },
+        {
+          "title": "Check your own SRD status",
+          "href": "https://srd.sassa.gov.za",
+          "description": "Official SASSA portal — this site cannot look up your record"
         }
       ]
     }
@@ -295,6 +311,10 @@
     {
       "title": "SRD R370 Grant",
       "slug": "/grants/srd-r370-grant"
+    },
+    {
+      "title": "November 2026 dates revised: why pensioners were paid early",
+      "slug": "/news/sassa-november-2026-payment-dates-revised"
     }
   ]
 }

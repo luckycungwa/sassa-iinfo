@@ -53,7 +53,7 @@
       "type": "callout",
       "intent": "danger",
       "title": "Gold Cards No Longer Work",
-      "text": "The 31 August 2026 deadline has passed and Postbank confirmed it would not be extended. Gold Cards have been deactivated — if you have not swapped yet, you cannot access your grant money until you collect a Black Card. Do not panic: your money stays safe in your Postbank account and the swap at any collection point remains free."
+      "text": "The 31 August 2026 deadline has passed and Postbank has not announced an extension. Gold Cards have been deactivated — if you have not swapped yet, you cannot access your grant money until you collect a Black Card. Do not panic: your money stays safe in your Postbank account and the swap at any collection point remains free."
     },
     {
       "id": "h1",
@@ -64,7 +64,7 @@
     {
       "id": "why-swap",
       "type": "paragraph",
-      "text": "Postbank is phasing out the old SASSA Gold Card and replacing it with the new Postbank Black Card as part of a national modernisation of the social grant payment system. The Black Card works at more ATMs, supports contactless payments, and has improved security features. After 31 August 2026 the old Gold Cards will be deactivated."
+      "text": "Postbank is phasing out the old SASSA Gold Card and replacing it with the new Postbank Black Card as part of a national modernisation of the social grant payment system. The Black Card works at more ATMs, supports contactless payments, and has improved security features. The old Gold Cards were deactivated after 31 August 2026."
     },
     {
       "id": "how-to-swap",

@@ -9,7 +9,7 @@
   "readingTime": "5 min read",
   "status": "published",
   "author": {
-    "name": "Grant Guide Editorial Team",
+    "name": "SASSA Grant Hub Editorial Team",
     "role": "Content Editor",
     "verified": true
   },
@@ -48,7 +48,7 @@
     {
       "id": "summary",
       "type": "grant-summary",
-      "amount": "R1,295",
+      "amount": "R1,300",
       "frequency": "Monthly per foster child",
       "targetGroup": "Foster parents who have a valid Children's Court order placing a child in their care. No income means test applies."
     },

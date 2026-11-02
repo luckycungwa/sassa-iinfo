@@ -1,6 +1,6 @@
 {
-  "name": "SASSA Resource Platform",
-  "description": "South Africa's most trusted public social assistance knowledge base and interactive resource directory.",
+  "name": "SASSA Grant Hub",
+  "description": "Independent South African resource for SASSA grant statuses, payment dates, applications, eligibility and appeals.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

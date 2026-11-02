@@ -3,7 +3,7 @@ import { AlertTriangle } from "lucide-react";
 import { canonicalUrl } from "@/lib/canonical";
 
 export const metadata: Metadata = {
-  title: "Disclaimer | SASSA Grant Guide",
+  title: "Disclaimer | SASSA Grant Hub",
   description: "Important disclaimer: This is an independent informational website not affiliated with SASSA or any government entity. All official actions should be performed on government websites.",
   alternates: { canonical: canonicalUrl("/disclaimer") },
 };
