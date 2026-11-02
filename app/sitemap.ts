@@ -140,10 +140,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...paymentDateRoutes,
   ];
 
+  // Normalise trailing slashes so "/" and "" cannot both be listed, and
+  // keep only canonical, indexable URLs.
   const seen = new Set<string>();
-  return allRoutes.filter((r) => {
-    if (seen.has(r.url)) return false;
-    seen.add(r.url);
-    return true;
-  });
+  return allRoutes
+    .map((r) => ({ ...r, url: r.url.replace(/\/+$/, "") }))
+    .filter((r) => {
+      if (seen.has(r.url)) return false;
+      seen.add(r.url);
+      return true;
+    });
 }

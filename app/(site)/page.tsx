@@ -67,7 +67,7 @@ const commonProblems = [
     icon: Wallet,
   },
   {
-    href: "/grants/srd-r370-grant-monthly-review",
+    href: "/grants/srd-r370-grant/monthly-review",
     label: "Under review",
     title: "My grant is under review",
     description: "What a review notice means, what to send, and what happens if you miss the appointment.",

@@ -5,6 +5,8 @@
   "title": "SASSA Grant Reviews in 2026: What a Review Notice Means",
   "description": "A SASSA review checks whether you still qualify for a grant. Learn what a review notice asks for, which documents to take, what happens if you miss an appointment, and how to avoid review scams.",
   "lastUpdated": "2026-10-31",
+  "publishedAt": "2026-08-22",
+  "topics": ["Status & reviews"],
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -51,7 +53,7 @@
       "links": [
         {
           "text": "SRD monthly review",
-          "href": "/grants/srd-r370-grant-monthly-review"
+          "href": "/grants/srd-r370-grant/monthly-review"
         },
         {
           "text": "means test",

@@ -209,8 +209,8 @@
           "href": "/grants/child-support-grant"
         },
         {
-          "title": "Foster Child Grant",
-          "href": "/grants/foster-child-grant"
+          "title": "Foster Care Grant",
+          "href": "/grants/foster-care-grant"
         },
         {
           "title": "Reapplication Required",
@@ -229,8 +229,8 @@
       "slug": "/grants/child-support-grant"
     },
     {
-      "title": "Foster Child Grant",
-      "slug": "/grants/foster-child-grant"
+      "title": "Foster Care Grant",
+      "slug": "/grants/foster-care-grant"
     }
   ]
 }

@@ -15,16 +15,19 @@ function formatDate(dateStr: string): string {
   catch { return dateStr; }
 }
 
-function getTags(classification: string, seo: { keywords: string[] }): string[] {
-  if (classification === "news-article" && seo.keywords) return seo.keywords.slice(0, 2);
-  return [];
-}
-
 export default function NewsHubPage() {
   const allArticles = loadAllContent()
     .filter((p) => p.classification === "news-article" && p.status === "published")
-    .map((a) => ({ id: a.id, slug: a.slug, title: a.title, summary: a.description, date: a.lastUpdated, tags: getTags(a.classification, a.seo) }))
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    .map((a) => ({
+      id: a.id,
+      slug: a.slug,
+      title: a.title,
+      summary: a.description,
+      published: a.publishedAt ?? a.lastUpdated,
+      updated: a.lastUpdated,
+      topics: a.topics ?? [],
+    }))
+    .sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
 
   return (
     <div>
@@ -44,7 +47,7 @@ export default function NewsHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-3 grid sm:grid-cols-2 gap-2">
             {allArticles.length === 0 && (
-              <p className="text-sm text-ash">No news articles yet.</p>
+              <p className="text-sm text-ash">No updates published yet.</p>
             )}
             {allArticles.map((article) => (
               <Link
@@ -55,10 +58,19 @@ export default function NewsHubPage() {
                 <div className="min-w-0">
                   <p className="text-[19px] font-black text-carbon group-hover:text-violet transition">{article.title}</p>
                   <p className="text-sm text-ash mt-1 line-clamp-2">{article.summary}</p>
-                  <div className="flex items-center gap-3 mt-2">
-                    <span className="text-xs font-mono text-ash">{formatDate(article.date)}</span>
-                    {article.tags.slice(0, 2).map((tag) => (
-                      <span key={tag} className="text-xs text-ash/80">#{tag}</span>
+                  <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+                    <span className="text-xs font-mono text-ash">
+                      Published {formatDate(article.published)}
+                    </span>
+                    {article.updated !== article.published && (
+                      <span className="text-xs font-mono text-ash/80">
+                        Updated {formatDate(article.updated)}
+                      </span>
+                    )}
+                    {article.topics.map((topic) => (
+                      <span key={topic} className="rounded border border-carbon/15 px-1.5 py-0.5 text-xs font-mono text-ash/80">
+                        {topic}
+                      </span>
                     ))}
                   </div>
                 </div>

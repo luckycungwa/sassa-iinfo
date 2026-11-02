@@ -120,6 +120,11 @@ export default function AppealsHubPage() {
               </div>
             </Link>
           </div>
+          <div className="mt-4 text-center">
+            <Link href="/appeals/appeal-faqs" className="inline-flex items-center gap-1 text-xs font-bold text-violet hover:underline">
+              Read the appeal FAQs <ArrowRight className="w-3 h-3" />
+            </Link>
+          </div>
         </div>
       </section>
 

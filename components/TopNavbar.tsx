@@ -49,7 +49,7 @@ const primaryNav: NavGroup[] = [
   },
   {
     href: "/grants",
-    label: "Grants & Eligibility",
+    label: "Grants",
     items: [
       { href: "/grants", label: "All SASSA grants" },
       { href: "/grants/srd-r370-grant", label: "SRD R370 grant" },
@@ -71,13 +71,13 @@ const primaryNav: NavGroup[] = [
   },
   {
     href: "/appeals",
-    label: "Appeals & Reviews",
+    label: "Appeals",
     items: [
       { href: "/appeals", label: "Appeals centre" },
       { href: "/appeals/how-to-appeal", label: "How to appeal", description: "The 90-day ITSAA route" },
       { href: "/appeals/appeal-status-check", label: "Check appeal status" },
       { href: "/appeals/appeal-timeline", label: "Appeal timeline" },
-      { href: "/grants/srd-r370-grant-monthly-review", label: "Grant reviews" },
+      { href: "/grants/srd-r370-grant/monthly-review", label: "Grant reviews" },
     ],
   },
   {
@@ -94,7 +94,7 @@ const primaryNav: NavGroup[] = [
   },
   {
     href: "/news",
-    label: "Latest Updates",
+    label: "Updates",
     align: "right",
     items: [
       { href: "/news", label: "All updates" },

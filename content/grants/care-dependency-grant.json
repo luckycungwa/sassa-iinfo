@@ -880,6 +880,11 @@
           "description": "Extra grant for those who need full-time care"
         },
         {
+          "title": "Care Dependency Medical Assessment",
+          "href": "/grants/care-dependency-grant/medical-assessment",
+          "description": "What the SASSA doctor looks for and how to prepare"
+        },
+        {
           "title": "Child Support Grant",
           "href": "/grants/child-support-grant",
           "description": "Alternative for children without disabilities"
@@ -908,6 +913,10 @@
     {
       "title": "Child Support Grant",
       "slug": "/grants/child-support-grant"
+    },
+    {
+      "title": "Care Dependency Medical Assessment",
+      "slug": "/grants/care-dependency-grant/medical-assessment"
     }
   ]
 }

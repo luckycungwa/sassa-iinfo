@@ -51,7 +51,7 @@
       "type": "hero",
       "title": "Social Relief of Distress (SRD R370) Grant",
       "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.",
-      "readingTime": "68 min read",
+      "readingTime": "10 min read",
       "lastUpdated": "2026-08-25",
       "cta": {
         "label": "Check Your Status",
@@ -59,7 +59,7 @@
       },
       "secondaryCta": {
         "label": "How to Apply",
-        "href": "/grants/srd-r370-grant"
+        "href": "#how-to-apply-for-the-srd-r370-grant"
       }
     },
     {
@@ -91,7 +91,7 @@
         },
         {
           "title": "Apply for SRD Grant",
-          "href": "/grants/srd-r370-grant",
+          "href": "#how-to-apply-for-the-srd-r370-grant",
           "description": "Step-by-step application guide"
         },
         {

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { ArrowRight, Search, Users, CheckCircle2, AlertTriangle } from "lucide-react";
 import { eligibilityGuides } from "../../../lib/data/eligibility";
+import { loadAllContent } from "../../../lib/content-loader";
 import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "@/lib/json-ld";
 
@@ -25,6 +26,29 @@ export const metadata: Metadata = {
 const commonSituations = eligibilityGuides.filter((g) =>
   ["i-am-unemployed", "i-am-over-60", "i-am-disabled", "i-receive-uif"].includes(g.slug)
 );
+
+/**
+ * The hub lists every published eligibility guide, not just the ones that have
+ * a TypeScript data entry. Guides that live only in content/ would otherwise be
+ * reachable from the sitemap but linked from nowhere.
+ */
+const allSituations = [
+  ...eligibilityGuides.map((g) => ({
+    id: g.id,
+    slug: g.slug,
+    title: g.title,
+    shortDescription: g.shortDescription,
+  })),
+  ...loadAllContent()
+    .filter((p) => p.classification === "eligibility-guide" && p.status === "published")
+    .filter((p) => !eligibilityGuides.some((g) => `/eligibility/${g.slug}` === p.slug))
+    .map((p) => ({
+      id: p.id,
+      slug: p.slug.replace("/eligibility/", ""),
+      title: p.title,
+      shortDescription: p.description,
+    })),
+];
 
 const commonMistakes = [
   { title: "Hidden bank deposits", desc: "Any deposit over R624 can flag you as having income. Check your statements.", icon: AlertTriangle },
@@ -76,7 +100,7 @@ export default function EligibilityHubPage() {
           <h2 className="sr-only">SASSA eligibility quick facts</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
-              { icon: Search, label: "Situation Guides", value: `${eligibilityGuides.length}` },
+              { icon: Search, label: "Situation Guides", value: `${allSituations.length}` },
               { icon: Users, label: "Most Common", value: "Unemployed" },
               { icon: CheckCircle2, label: "Income Threshold", value: "R624/mo" },
               { icon: CheckCircle2, label: "Grant Types", value: "8 Available" },
@@ -118,7 +142,7 @@ export default function EligibilityHubPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-6">Find your situation</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-            {eligibilityGuides.map((e) => (
+            {allSituations.map((e) => (
               <Link
                 key={e.id}
                 href={`/eligibility/${e.slug}`}

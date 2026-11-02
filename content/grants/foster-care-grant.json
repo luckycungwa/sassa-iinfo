@@ -794,6 +794,11 @@
           "description": "Locate your nearest office"
         },
         {
+          "title": "Children's Court Order Guide",
+          "href": "/grants/foster-care-grant/court-order-guide",
+          "description": "How the foster placement order works and how to renew it"
+        },
+        {
           "title": "Appeal a Decline",
           "href": "/appeals",
           "description": "Challenge a grant decline"
@@ -813,6 +818,10 @@
     {
       "title": "Care Dependency Grant",
       "slug": "/grants/care-dependency-grant"
+    },
+    {
+      "title": "Children's Court Order Guide",
+      "slug": "/grants/foster-care-grant/court-order-guide"
     },
     {
       "title": "Appeals",

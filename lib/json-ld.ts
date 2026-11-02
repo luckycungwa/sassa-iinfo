@@ -78,7 +78,56 @@ export function articleSchema(title: string, description: string, datePublished:
       },
     },
     author: authorPerson,
-    reviewedBy: reviewedByPersons,
+    ...(reviewedByPersons.length ? { reviewedBy: reviewedByPersons } : {}),
+  };
+}
+
+/**
+ * NewsArticle schema for the Updates blog. Unlike the evergreen Article schema,
+ * this carries the real publication date, modification date, article section
+ * and the named author recorded in the content file.
+ */
+export function newsArticleSchema(page: {
+  title: string;
+  description: string;
+  slug: string;
+  publishedAt?: string;
+  lastUpdated: string;
+  topics?: string[];
+  author: { name: string; role?: string; credentials?: string };
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: page.title,
+    description: page.description,
+    datePublished: page.publishedAt ?? page.lastUpdated,
+    dateModified: page.lastUpdated,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteUrl}${page.slug}`,
+    },
+    inLanguage: "en-ZA",
+    isAccessibleForFree: true,
+    ...(page.topics?.length
+      ? { articleSection: page.topics[0], keywords: page.topics.join(", ") }
+      : {}),
+    author: {
+      "@type": "Person",
+      name: page.author.name,
+      ...(page.author.role ? { jobTitle: page.author.role } : {}),
+      ...(page.author.credentials ? { description: page.author.credentials } : {}),
+    },
+    publisher: {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      name: "SASSA Grant Hub",
+      url: siteUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}/icon-512.png`,
+      },
+    },
   };
 }
 
@@ -125,7 +174,7 @@ export function webpageSchema(title: string, description: string, slug: string, 
     inLanguage: "en-ZA",
     isAccessibleForFree: true,
     author: authorPerson,
-    reviewedBy: reviewedByPersons,
+    ...(reviewedByPersons.length ? { reviewedBy: reviewedByPersons } : {}),
     ...(dateModified ? { dateModified } : {}),
   };
 }

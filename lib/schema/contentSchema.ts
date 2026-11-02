@@ -277,6 +277,10 @@ export interface BasePage {
   title: string;
   description: string;
   lastUpdated: string;
+  /** ISO date an editorial article was first published. Omit for evergreen pages. */
+  publishedAt?: string;
+  /** Editorial topics used for the Updates archive and NewsArticle section. */
+  topics?: string[];
   /** ISO date the page's facts were last checked against official sources. */
   lastReviewed?: string;
   readingTime?: string;
@@ -327,6 +331,17 @@ export function validateBasePage(page: unknown): SchemaValidationResult {
     if (!p.slug.startsWith("/")) errors.push(`Slug "${p.slug}" must start with "/"`);
     if (/[A-Z]/.test(p.slug as string)) errors.push(`Slug "${p.slug}" contains uppercase letters`);
     if (/\s/.test(p.slug as string)) errors.push(`Slug "${p.slug}" contains spaces`);
+  }
+
+  for (const field of ["lastUpdated", "publishedAt", "lastReviewed"]) {
+    const value = p[field];
+    if (typeof value === "string" && !/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+      errors.push(`"${field}" must be an ISO date (YYYY-MM-DD)`);
+    }
+  }
+
+  if (p.classification === "news-article" && !p.publishedAt) {
+    warnings.push("news-article has no \"publishedAt\" date; lastUpdated will be used as the published date");
   }
 
   if (typeof p.version === "string" && !/^\d+\.\d+\.\d+$/.test(p.version)) {
