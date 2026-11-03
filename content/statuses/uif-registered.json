@@ -105,6 +105,11 @@
           "name": "Existing Grant",
           "slug": "existing-grant"
         }
+      ],
+      "whatToCheck": [
+        "Check Department of Labour uFiling to see if your last employment was formally terminated.",
+        "Confirm whether you have an active UI-19 form from your former employer.",
+        "Verify that you are not receiving active payouts from the Unemployment Insurance Fund."
       ]
     },
     {

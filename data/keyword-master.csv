@@ -1,0 +1,21 @@
+Keyword,Cluster,Intent,CanonicalUrl,Priority,DemandCategory
+sassa status check,Status checking,Lookup,/guides/how-to-check-sassa-status,Critical,Evergreen High-Demand
+srd status check,Status checking,SRD Lookup,/grants/srd-r370-grant/status-check,Critical,Evergreen High-Demand
+sassa payment dates 2026,Payment dates,Schedule lookup,/payment-dates,Critical,Monthly Recurring
+sassa status pending,Beneficiary problem,Troubleshooting,/status/pending,High,Beneficiary Problem
+sassa approved but no pay date,Beneficiary problem,Problem-solving,/status/approved,Critical,Beneficiary Problem
+sassa alternative income source detected,Appeals & Declines,Decline remediation,/status/alternative-income-source,Critical,Beneficiary Problem
+how to appeal sassa grant,Appeals,Process walkthrough,/appeals/how-to-appeal,High,Evergreen Problem
+change sassa banking details,Banking,Instructional,/banking/update-bank-details,High,Evergreen Operational
+change sassa phone number without old sim,Banking & Security,Recovery,/guides/change-srd-phone-number,High,Beneficiary Problem
+sassa card replacement,Banking,Replacement,/banking/sassa-card-replacement,Medium,Operational & News
+sassa child grant dates,Payment dates,Schedule lookup,/payment-dates/child-support-grant-payment-dates,High,Monthly Recurring
+sassa old age pension date,Payment dates,Schedule lookup,/payment-dates/older-persons-grant-payment-dates,High,Monthly Recurring
+sassa disability grant date,Payment dates,Schedule lookup,/payment-dates/disability-grant-payment-dates,High,Monthly Recurring
+sassa uif registered decline,Appeals & Declines,Decline remediation,/appeals/appeal-after-uif,High,Beneficiary Problem
+sassa nsfas registered decline,Appeals & Declines,Decline remediation,/appeals/appeal-after-nsfas,High,Beneficiary Problem
+sassa payment not reflecting,Banking,Escalation,/banking/payment-not-reflecting,High,Beneficiary Problem
+sassa referred status,Status checking,Fraud flag remediation,/status/referred,High,Beneficiary Problem
+sassa means test failed,Appeals & Declines,Threshold analysis,/status/means-test-failed,Medium,Beneficiary Problem
+sassa ussd code,Banking & Guides,Balance check,/banking/sassa-ussd-codes,Medium,Evergreen Operational
+sassa cash send collection,Banking,Retail collection,/banking/cash-send-guide,Medium,Evergreen Operational

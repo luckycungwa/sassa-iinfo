@@ -93,6 +93,11 @@
           "name": "Application Complete",
           "slug": "application-complete"
         }
+      ],
+      "whatToCheck": [
+        "Check whether a specific payment date is shown under the approved month badge.",
+        "Confirm your payment method: bank deposit vs cash send collection.",
+        "Verify that the registered bank account belongs to you and matches your ID document spelling."
       ]
     },
     {

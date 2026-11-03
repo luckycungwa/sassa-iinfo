@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SassaGrantHub Factual Claims Register",
+  "description": "Comprehensive registry of factual claims, statutory amounts, thresholds, and administrative rules published on SassaGrantHub.",
+  "lastAudited": "2026-11-04",
+  "claims": [
+    {
+      "claimId": "claim-srd-amount",
+      "statement": "The Social Relief of Distress (SRD) grant amount is R370 per month.",
+      "status": "CONFIRMED",
+      "sourceId": "src-gov-gazette",
+      "sourceUrl": "https://www.gov.za/documents/social-assistance-act-regulations-social-relief-distress-grant-increase-12-mar-2024",
+      "publishingAuthority": "Minister of Finance & Minister of Social Development",
+      "verifiedDate": "2026-11-03",
+      "affectedPages": [
+        "/",
+        "/grants/srd-r370-grant",
+        "/guides/sassa-grant-amounts",
+        "/news/srd-r370-grant-extended-to-march-2027",
+        "/status/approved"
+      ]
+    },
+    {
+      "claimId": "claim-srd-income-threshold",
+      "statement": "The monthly means-test income threshold for the SRD R370 grant is R624 per month.",
+      "status": "CONFIRMED",
+      "sourceId": "src-gov-gazette",
+      "sourceUrl": "https://www.gov.za/documents/social-assistance-act-regulations-social-relief-distress-grant-increase-12-mar-2024",
+      "publishingAuthority": "Department of Social Development Government Gazette Notice",
+      "verifiedDate": "2026-11-03",
+      "affectedPages": [
+        "/status/alternative-income-source",
+        "/status/means-test-failed",
+        "/appeals/appeal-after-income-source",
+        "/guides/understanding-means-test",
+        "/grants/srd-r370-grant/monthly-review"
+      ]
+    },
+    {
+      "claimId": "claim-older-persons-amount",
+      "statement": "The Older Persons (Old Age Pension) grant is R2,400 per month (or R2,420 for beneficiaries older than 75 years).",
+      "status": "CONFIRMED",
+      "sourceId": "src-sassa-official",
+      "sourceUrl": "https://www.sassa.gov.za",
+      "publishingAuthority": "South African Social Security Agency Official Directive",
+      "verifiedDate": "2026-11-02",
+      "affectedPages": [
+        "/grants",
+        "/grants/older-person-grant",
+        "/guides/sassa-grant-amounts",
+        "/news/social-grant-increases-2026"
+      ]
+    },
+    {
+      "claimId": "claim-disability-amount",
+      "statement": "The Disability Grant is R2,400 per month.",
+      "status": "CONFIRMED",
+      "sourceId": "src-sassa-official",
+      "sourceUrl": "https://www.sassa.gov.za",
+      "publishingAuthority": "SASSA Official Schedule",
+      "verifiedDate": "2026-11-02",
+      "affectedPages": [
+        "/grants",
+        "/grants/disability-grant",
+        "/guides/sassa-grant-amounts",
+        "/news/social-grant-increases-2026"
+      ]
+    },
+    {
+      "claimId": "claim-child-support-amount",
+      "statement": "The Child Support Grant is R580 per child per month.",
+      "status": "CONFIRMED",
+      "sourceId": "src-sassa-official",
+      "sourceUrl": "https://www.sassa.gov.za",
+      "publishingAuthority": "SASSA Official Schedule",
+      "verifiedDate": "2026-11-02",
+      "affectedPages": [
+        "/grants",
+        "/grants/child-support-grant",
+        "/guides/sassa-grant-amounts"
+      ]
+    },
+    {
+      "claimId": "claim-foster-child-amount",
+      "statement": "The Foster Child Grant is R1,300 per child per month.",
+      "status": "CONFIRMED",
+      "sourceId": "src-sassa-official",
+      "sourceUrl": "https://www.sassa.gov.za",
+      "publishingAuthority": "SASSA Official Schedule",
+      "verifiedDate": "2026-11-02",
+      "affectedPages": [
+        "/grants",
+        "/grants/foster-care-grant",
+        "/guides/sassa-grant-amounts"
+      ]
+    },
+    {
+      "claimId": "claim-care-dependency-amount",
+      "statement": "The Care Dependency Grant is R2,400 per month.",
+      "status": "CONFIRMED",
+      "sourceId": "src-sassa-official",
+      "sourceUrl": "https://www.sassa.gov.za",
+      "publishingAuthority": "SASSA Official Schedule",
+      "verifiedDate": "2026-11-02",
+      "affectedPages": [
+        "/grants",
+        "/grants/care-dependency-grant",
+        "/guides/sassa-grant-amounts"
+      ]
+    },
+    {
+      "claimId": "claim-grant-in-aid-amount",
+      "statement": "Grant-in-Aid is R580 per month, paid as a supplementary grant to beneficiaries of Old Age, Disability, or War Veteran grants who require full-time home care.",
+      "status": "CONFIRMED",
+      "sourceId": "src-sassa-official",
+      "sourceUrl": "https://www.sassa.gov.za",
+      "publishingAuthority": "SASSA Official Schedule",
+      "verifiedDate": "2026-11-02",
+      "affectedPages": [
+        "/grants",
+        "/grants/grant-in-aid",
+        "/guides/sassa-grant-amounts"
+      ]
+    },
+    {
+      "claimId": "claim-appeal-statutory-window",
+      "statement": "Beneficiaries have a statutory window of exactly 90 days from the date of decline notification to lodge an appeal with the Independent Tribunal (ITSAA).",
+      "status": "CONFIRMED",
+      "sourceId": "src-dsd-itsaa",
+      "sourceUrl": "https://srd.dsd.gov.za",
+      "publishingAuthority": "DSD ITSAA Rules & Social Assistance Act Regulations",
+      "verifiedDate": "2026-11-03",
+      "affectedPages": [
+        "/appeals",
+        "/appeals/how-to-appeal",
+        "/appeals/appeal-timeline",
+        "/status/declined",
+        "/tools"
+      ]
+    },
+    {
+      "claimId": "claim-november-2026-dates",
+      "statement": "November 2026 social grant payment dates are: Older Persons Grant on 3 November 2026, Disability Grant on 4 November 2026, and Children's Grants on 5 November 2026. SRD R370 processed between 23 and 28 November 2026.",
+      "status": "CONFIRMED",
+      "sourceId": "src-sassa-official",
+      "sourceUrl": "https://www.sassa.gov.za",
+      "publishingAuthority": "SASSA National Payment Schedule 2026/2027",
+      "verifiedDate": "2026-11-02",
+      "affectedPages": [
+        "/payment-dates",
+        "/payment-dates/2026-november",
+        "/news/sassa-november-2026-payment-dates-revised"
+      ]
+    },
+    {
+      "claimId": "claim-postbank-gold-validity",
+      "statement": "SASSA Gold Cards issued by Postbank remain valid for retail transactions and ATM withdrawals while the nationwide card replacement rollout to Black cards is underway.",
+      "status": "CONFIRMED",
+      "sourceId": "src-postbank",
+      "sourceUrl": "https://www.postbank.co.za",
+      "publishingAuthority": "Postbank Official Statement",
+      "verifiedDate": "2026-11-02",
+      "affectedPages": [
+        "/banking/black-card-swap",
+        "/banking/sassa-card-explained",
+        "/news/sassa-gold-card-to-black-card-migration"
+      ]
+    },
+    {
+      "claimId": "claim-official-helpline",
+      "statement": "The official SASSA national toll-free helpline number is 0800 60 10 11.",
+      "status": "CONFIRMED",
+      "sourceId": "src-sassa-official",
+      "sourceUrl": "https://www.sassa.gov.za",
+      "publishingAuthority": "SASSA Official Communication",
+      "verifiedDate": "2026-11-03",
+      "affectedPages": [
+        "/contact",
+        "/about",
+        "/status",
+        "/tools",
+        "/guides/srd-call-centre-kiosk-help"
+      ]
+    }
+  ]
+}

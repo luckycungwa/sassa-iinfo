@@ -95,6 +95,11 @@
           "name": "Bank Verification",
           "slug": "bank-verification"
         }
+      ],
+      "whatToCheck": [
+        "Log into the SRD portal to check if there is an unread alert or document request banner.",
+        "Verify with your bank that your account has not been closed, dormant, or restricted under FICA.",
+        "Check the Department of Labour uFiling portal to ensure an old employer did not register an active contract."
       ]
     },
     {

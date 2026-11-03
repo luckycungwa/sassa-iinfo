@@ -85,6 +85,11 @@
           "name": "Declined",
           "slug": "declined"
         }
+      ],
+      "whatToCheck": [
+        "Check your SMS messages for an official verification link from SASSA starting with srd.sassa.gov.za.",
+        "Verify that your smartphone camera is operational and you have an internet connection.",
+        "Check that you have your physical green ID book or smart ID card ready for verification."
       ]
     },
     {

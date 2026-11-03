@@ -101,6 +101,10 @@
           "name": "Declined",
           "slug": "declined"
         }
+      ],
+      "whatToCheck": [
+        "Contact the South African Fraud Prevention Service (SAFPS) helpline to check fraud alerts.",
+        "Check if anyone fraudulently applied for credit or accounts using your ID number."
       ]
     },
     {

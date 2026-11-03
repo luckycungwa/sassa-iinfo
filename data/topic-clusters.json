@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SassaGrantHub Topic Clusters",
+  "description": "Six core beneficiary topic clusters structured around user intent, protecting SEO equity and preventing cannibalization.",
+  "clusters": [
+    {
+      "clusterId": "cluster-a",
+      "clusterName": "Cluster A: SRD R370 Grant",
+      "hubUrl": "/grants/srd-r370-grant",
+      "searchDemandType": "Evergreen and High-Volume Monthly Recurring",
+      "canonicalDestinations": [
+        { "topic": "SRD Main Overview & Eligibility", "url": "/grants/srd-r370-grant" },
+        { "topic": "SRD Status Checking Process", "url": "/grants/srd-r370-grant/status-check" },
+        { "topic": "SRD Monthly Review & Vetting", "url": "/grants/srd-r370-grant/monthly-review" },
+        { "topic": "SRD Payment Methods & Banking vs Cash", "url": "/grants/srd-r370-grant/payment-methods" },
+        { "topic": "SRD Application Cancellation", "url": "/guides/cancel-srd-application" },
+        { "topic": "SRD Profile Reconfirmation", "url": "/guides/reconfirm-srd-grant" }
+      ]
+    },
+    {
+      "clusterId": "cluster-b",
+      "clusterName": "Cluster B: Permanent Social Grants",
+      "hubUrl": "/grants",
+      "searchDemandType": "Evergreen High-Intent Informational",
+      "canonicalDestinations": [
+        { "topic": "Older Persons Grant (Old Age Pension)", "url": "/grants/older-person-grant" },
+        { "topic": "Disability Grant (Medical Assessment & Apply)", "url": "/grants/disability-grant" },
+        { "topic": "Disability Medical Assessment Guide", "url": "/grants/disability-grant/medical-assessment" },
+        { "topic": "Child Support Grant (Requirements & CSG Top-Up)", "url": "/grants/child-support-grant" },
+        { "topic": "Child Support Means Test Detail", "url": "/grants/child-support-grant/means-test-detail" },
+        { "topic": "Foster Child Grant & Court Orders", "url": "/grants/foster-care-grant" },
+        { "topic": "Care Dependency Grant (Severe Disability Child)", "url": "/grants/care-dependency-grant" },
+        { "topic": "Grant-in-Aid (Full-Time Home Care Supplement)", "url": "/grants/grant-in-aid" },
+        { "topic": "War Veterans Grant", "url": "/grants/war-veterans-grant" }
+      ]
+    },
+    {
+      "clusterId": "cluster-c",
+      "clusterName": "Cluster C: Payment & Banking Problems",
+      "hubUrl": "/banking",
+      "searchDemandType": "High-Urgency Beneficiary Problem",
+      "canonicalDestinations": [
+        { "topic": "Payment Methods Overview (EFT, Cash Send, Retail)", "url": "/banking/payment-methods" },
+        { "topic": "Payment Not Reflecting Escalation Guide", "url": "/banking/payment-not-reflecting" },
+        { "topic": "Bank Verification Process Explained", "url": "/banking/bank-verification-process" },
+        { "topic": "Update SASSA Banking Details Step-by-Step", "url": "/banking/update-bank-details" },
+        { "topic": "Third-Party Bank Account Rules & Prohibitions", "url": "/banking/can-i-use-someone-elses-account" },
+        { "topic": "Cash Send Collection Guide (Pick n Pay, Boxer, Shoprite)", "url": "/banking/cash-send-guide" },
+        { "topic": "SASSA Card & Black Card Migration", "url": "/banking/black-card-swap" },
+        { "topic": "Lost or Damaged Card Replacement", "url": "/banking/sassa-card-replacement" },
+        { "topic": "USSD *134*7737# Codes & Mobile Banking", "url": "/banking/sassa-ussd-codes" }
+      ]
+    },
+    {
+      "clusterId": "cluster-d",
+      "clusterName": "Cluster D: Status Codes, Declines & Appeals",
+      "hubUrl": "/status",
+      "searchDemandType": "Core Differentiator & Problem-Solving",
+      "canonicalDestinations": [
+        { "topic": "Status Centre Hub & Problem Solver", "url": "/status" },
+        { "topic": "Status Pending & 30-Day Delay Explanation", "url": "/status/pending" },
+        { "topic": "Approved Status (With & Without Pay Date)", "url": "/status/approved" },
+        { "topic": "Declined Status General Overview", "url": "/status/declined" },
+        { "topic": "Alternative Income Source Detected", "url": "/status/alternative-income-source" },
+        { "topic": "Means Test Failed Threshold Analysis", "url": "/status/means-test-failed" },
+        { "topic": "Referred & SAFPS Flagged Risk Statuses", "url": "/status/referred" },
+        { "topic": "Appeals Centre Hub", "url": "/appeals" },
+        { "topic": "Step-by-Step 90-Day ITSAA Appeal Guide", "url": "/appeals/how-to-appeal" },
+        { "topic": "Appeal After Alternative Income Source Decline", "url": "/appeals/appeal-after-income-source" },
+        { "topic": "Appeal After UIF Registration Decline", "url": "/appeals/appeal-after-uif" },
+        { "topic": "Appeal After NSFAS Student Funding Decline", "url": "/appeals/appeal-after-nsfas" }
+      ]
+    },
+    {
+      "clusterId": "cluster-e",
+      "clusterName": "Cluster E: Official Resources, Forms & Directory",
+      "hubUrl": "/downloads",
+      "searchDemandType": "Practical Utility & Document Preparation",
+      "canonicalDestinations": [
+        { "topic": "Downloadable Forms & Templates Hub", "url": "/downloads" },
+        { "topic": "Application Checklist & Required Documents", "url": "/downloads/sassa-grant-application-checklist" },
+        { "topic": "Official Form 001 Grant Application Guide", "url": "/downloads/sassa-application-form" },
+        { "topic": "Bank Payment Consent Form", "url": "/downloads/sassa-bank-change-form" },
+        { "topic": "Unemployment Sworn Affidavit Template", "url": "/downloads/unemployment-affidavit-template" },
+        { "topic": "Offices Directory by Province", "url": "/provinces" },
+        { "topic": "Local SASSA Branch Finder", "url": "/offices" },
+        { "topic": "Scam Alert & Fraud Reporting Guide", "url": "/guides/sassa-scam-alert-guide" }
+      ]
+    },
+    {
+      "clusterId": "cluster-f",
+      "clusterName": "Cluster F: Verified Developments & Dated News",
+      "hubUrl": "/news",
+      "searchDemandType": "Breaking Announcements & Monthly Updates",
+      "canonicalDestinations": [
+        { "topic": "Updates & News Blog Archive", "url": "/news" },
+        { "topic": "November 2026 Payment Schedule Revision", "url": "/news/sassa-november-2026-payment-dates-revised" },
+        { "topic": "SRD R370 Extension to March 2027", "url": "/news/srd-r370-grant-extended-to-march-2027" },
+        { "topic": "Postbank Gold to Black Card Migration", "url": "/news/sassa-gold-card-to-black-card-migration" },
+        { "topic": "Social Grant Review Crackdown 2026", "url": "/news/sassa-grant-review-crackdown-2026" },
+        { "topic": "Social Grant Increases 2026", "url": "/news/social-grant-increases-2026" },
+        { "topic": "eLife Facial Verification Guide", "url": "/news/elife-certification-guide-srd" }
+      ]
+    }
+  ]
+}

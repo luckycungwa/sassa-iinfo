@@ -86,6 +86,11 @@
           "name": "Approved",
           "slug": "approved"
         }
+      ],
+      "whatToCheck": [
+        "Check whether your 13-digit ID number and registered phone number are typed correctly on the portal.",
+        "Check if your bank account is active and able to receive electronic fund transfers.",
+        "Check your SMS messages to see if SASSA requested additional identity or biometric verification."
       ]
     },
     {

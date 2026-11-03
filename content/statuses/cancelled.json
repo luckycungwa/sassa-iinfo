@@ -92,6 +92,11 @@
           "name": "Alternative Income Source",
           "slug": "alternative-income-source"
         }
+      ],
+      "whatToCheck": [
+        "Check if you or someone with access to your phone submitted a cancellation request on the portal.",
+        "Confirm whether you recently started employment or registered for PAYE tax with SARS.",
+        "Check if your registered phone number was accessed by a third party."
       ]
     },
     {

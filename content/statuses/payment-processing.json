@@ -84,6 +84,11 @@
           "name": "Application Complete",
           "slug": "application-complete"
         }
+      ],
+      "whatToCheck": [
+        "Check your bank transaction history for incoming electronic fund transfers from SASSA/Postbank.",
+        "Allow 2 to 3 business days for commercial interbank settlement (BankservAfrica).",
+        "Check if your bank account has active debit orders that may have absorbed the incoming payment."
       ]
     },
     {

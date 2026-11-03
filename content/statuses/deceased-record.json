@@ -101,6 +101,10 @@
           "name": "No Records Found",
           "slug": "no-records-found"
         }
+      ],
+      "whatToCheck": [
+        "Check with the Department of Home Affairs National Population Register regarding your ID status.",
+        "Obtain a Home Affairs confirmation of life letter if an administrative error occurred."
       ]
     },
     {

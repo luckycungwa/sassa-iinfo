@@ -92,6 +92,11 @@
           "name": "Declined",
           "slug": "declined"
         }
+      ],
+      "whatToCheck": [
+        "Calculate your total monthly income against the current grant threshold (R624 for SRD; R9,920 for pension).",
+        "Check if any spouse income or joint investments were included in the calculation.",
+        "Review recent bank statements to verify whether once-off refunds were counted as regular income."
       ]
     },
     {

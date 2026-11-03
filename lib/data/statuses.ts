@@ -5,6 +5,7 @@ export interface StatusMeaning {
   shortDescription: string;
   explanation: string;
   whyItHappens: string[];
+  whatToCheck?: string[];
   howLongItLasts: string;
   whatYouShouldDo: string[];
   faqs: { question: string; answer: string }[];
@@ -24,6 +25,11 @@ export const statuses: StatusMeaning[] = [
       "Automated batch systems are currently scanning your record for changes in income."
     ],
     howLongItLasts: "Usually 7 to 14 business days, but can take up to 30 days during peak processing periods or at the start of financial quarters.",
+    whatToCheck: [
+          "Check whether your 13-digit ID number and registered phone number are typed correctly on the portal.",
+          "Check if your bank account is active and able to receive electronic fund transfers.",
+          "Check your SMS messages to see if SASSA requested additional identity or biometric verification."
+    ],
     whatYouShouldDo: [
       "Check back weekly; no direct action is needed while the status is 'Pending'.",
       "Ensure your contact details and banking records are completely correct in the system in case they need to contact you."
@@ -55,6 +61,11 @@ export const statuses: StatusMeaning[] = [
       "Mismatched contact or bank detail flags that require manual secondary vetting by a SASSA officer."
     ],
     howLongItLasts: "Variable. It remains in this state until a SASSA clerk or the automated database sync overrides it with 'Approved' or 'Declined'.",
+    whatToCheck: [
+          "Log into the SRD portal to check if there is an unread alert or document request banner.",
+          "Verify with your bank that your account has not been closed, dormant, or restricted under FICA.",
+          "Check the Department of Labour uFiling portal to ensure an old employer did not register an active contract."
+    ],
     whatYouShouldDo: [
       "Log into the portal to check if there is an outstanding action or document request.",
       "Verify that your bank account is active and verified by visiting the 'Update Bank Details' section.",
@@ -83,6 +94,11 @@ export const statuses: StatusMeaning[] = [
       "Your ID and bank details have been successfully verified."
     ],
     howLongItLasts: "This state persists until the payment is processed and handed over to your bank, or until the next monthly review cycle.",
+    whatToCheck: [
+          "Check whether a specific payment date is shown under the approved month badge.",
+          "Confirm your payment method: bank deposit vs cash send collection.",
+          "Verify that the registered bank account belongs to you and matches your ID document spelling."
+    ],
     whatYouShouldDo: [
       "Look for a 'Pay Date' (e.g., 2026/07/04) shown alongside the status.",
       "If you receive payment via bank transfer, expect the funds in your account 1 to 3 days after the pay date.",
@@ -115,6 +131,11 @@ export const statuses: StatusMeaning[] = [
       "You did not submit required documents within the specified timeframe."
     ],
     howLongItLasts: "The decline applies to the current application cycle. You can re-apply or file an appeal within 90 days to reverse the decision.",
+    whatToCheck: [
+          "Check the specific decline code listed below the status (e.g. alternative income, UIF, NSFAS, means test).",
+          "Check the exact calendar month of the decline; appeals must be lodged per month within 90 days.",
+          "Download your 3-month bank statement for that specific month to verify every incoming deposit."
+    ],
     whatYouShouldDo: [
       "Log into the SASSA DSD Appeals portal and file your appeal within 90 days.",
       "Check the specific reason for the decline listed in your application status.",
@@ -148,6 +169,11 @@ export const statuses: StatusMeaning[] = [
       "SASSA detected you are receiving an alternative income source like NSFAS or a pension."
     ],
     howLongItLasts: "Permanent, unless you file a formal reinstatement or appeal.",
+    whatToCheck: [
+          "Check if you or someone with access to your phone submitted a cancellation request on the portal.",
+          "Confirm whether you recently started employment or registered for PAYE tax with SARS.",
+          "Check if your registered phone number was accessed by a third party."
+    ],
     whatYouShouldDo: [
       "If this was a mistake, visit a SASSA office with proof of unemployment to request a grant reinstatement.",
       "If you voluntarily cancelled, no further action is required."
@@ -175,6 +201,11 @@ export const statuses: StatusMeaning[] = [
       "Your bank account has been flagged for a potential mismatch in name spelling or ID digits."
     ],
     howLongItLasts: "Typically takes 5 to 10 business days for the bank to complete the verification loop.",
+    whatToCheck: [
+          "Check your bank statement header to ensure your legal names match your ID book or smart card exactly.",
+          "Confirm you did not enter a joint account, a business account, or someone else's account.",
+          "Check that the branch code, account number, and account type (cheque vs savings) are accurate."
+    ],
     whatYouShouldDo: [
       "Ensure the bank account is registered in YOUR own name. SASSA will NOT pay a grant into a third-party's bank account.",
       "Make sure the account is active, not frozen, and has no limits that block incoming EFT transfers."
@@ -201,6 +232,11 @@ export const statuses: StatusMeaning[] = [
       "Your biometric/facial verification process (required for SRD) failed to match your Home Affairs photo."
     ],
     howLongItLasts: "This block remains until you supply verified documentation or complete facial biometric verification.",
+    whatToCheck: [
+          "Check your SMS messages for an official verification link from SASSA starting with srd.sassa.gov.za.",
+          "Verify that your smartphone camera is operational and you have an internet connection.",
+          "Check that you have your physical green ID book or smart ID card ready for verification."
+    ],
     whatYouShouldDo: [
       "Log into the SASSA portal and double-check your application details against your physical ID.",
       "If prompted for facial verification, click the secure biometric link sent to your phone and complete the selfie scan in high lighting.",
@@ -229,6 +265,12 @@ export const statuses: StatusMeaning[] = [
       "Your bank statement showed a deposit/inflow higher than the legislated threshold (e.g., R624 for SRD)."
     ],
     howLongItLasts: "Applies to the month of detection. It will repeat each month as long as the cash flow or registration is found in the system.",
+    whatToCheck: [
+          "Add up all credits and deposits into your bank account for that calendar month. Did they reach R624 or more?",
+          "Check if a family member sent funds for emergencies, groceries, or school fees.",
+          "Check whether you transferred money between your own accounts, which automated scanners treat as income.",
+          "Check SARS eFiling to see if a former employer submitted an active tax declaration."
+    ],
     whatYouShouldDo: [
       "If you are indeed unemployed and this is a mistake, you must submit an appeal on the DSD Appeals portal.",
       "Obtain an official UIF de-registration letter or NSFAS cancellation slip if you used to receive those funds but no longer do.",
@@ -255,6 +297,11 @@ export const statuses: StatusMeaning[] = [
       "The value of your property, shares, or bank assets exceeds the maximum threshold."
     ],
     howLongItLasts: "Remains active until you submit updated financial records showing you fall below the thresholds.",
+    whatToCheck: [
+          "Calculate your total monthly income against the current grant threshold (R624 for SRD; R9,920 for pension).",
+          "Check if any spouse income or joint investments were included in the calculation.",
+          "Review recent bank statements to verify whether once-off refunds were counted as regular income."
+    ],
     whatYouShouldDo: [
       "Check the threshold limits for your specific grant on our Grant Library page.",
       "If your financial situation has changed (e.g., you sold assets or lost income), submit a new financial declaration with your latest 3 months bank statements."
@@ -281,6 +328,11 @@ export const statuses: StatusMeaning[] = [
       "An automated audit flagged your profile for manual human inspection."
     ],
     howLongItLasts: "This is a serious block and can remain active for weeks or months until a full fraud investigation is conducted.",
+    whatToCheck: [
+          "Check whether your ID document was reported as stolen or involved in identity theft.",
+          "Confirm whether your cellphone number or bank account was linked to any other grant applicant.",
+          "Check your credit profile or SAFPS listings for protective fraud registrations."
+    ],
     whatYouShouldDo: [
       "Contact the SASSA Fraud Hotline on 0800 60 10 11.",
       "You will likely be required to visit a local SASSA office with certified copies of your ID, proof of address, and bank statements to clear your name."
@@ -306,6 +358,10 @@ export const statuses: StatusMeaning[] = [
       "You marked that you are staying in a state-funded institution."
     ],
     howLongItLasts: "Active until you file an appeal or correct your application declaration.",
+    whatToCheck: [
+          "Check whether you indicated alternative financial support when answering questionnaire prompts.",
+          "Confirm whether you selected zero-need during the reconfirmation or re-application screen."
+    ],
     whatYouShouldDo: [
       "If you made a mistake on your declaration, log into the portal and update your responses.",
       "If you do not have other support, file an appeal explaining your current living situation."
@@ -331,6 +387,10 @@ export const statuses: StatusMeaning[] = [
       "Your bank account verification was successful."
     ],
     howLongItLasts: "Usually changes to 'Approved' or 'Declined' within the first week of the new calendar month.",
+    whatToCheck: [
+          "Check the portal to ensure both banking details and personal details show verified checkmarks.",
+          "Monitor your status weekly as it moves from Complete to Approved during the monthly run."
+    ],
     whatYouShouldDo: [
       "Monitor the portal at the start of each month to see your approved pay dates."
     ],
@@ -355,6 +415,11 @@ export const statuses: StatusMeaning[] = [
       "The national payment file was successfully submitted to the reserve bank."
     ],
     howLongItLasts: "Typically takes 24 to 48 hours to reflect in your bank account.",
+    whatToCheck: [
+          "Check your bank transaction history for incoming electronic fund transfers from SASSA/Postbank.",
+          "Allow 2 to 3 business days for commercial interbank settlement (BankservAfrica).",
+          "Check if your bank account has active debit orders that may have absorbed the incoming payment."
+    ],
     whatYouShouldDo: [
       "Check your bank account balance or wait for the SMS notification.",
       "If the status shows 'Payment Processing' for more than 5 days without reflection, request a bank statement to verify pending deposits."
@@ -382,6 +447,10 @@ export const statuses: StatusMeaning[] = [
       "A previous application was withdrawn or replaced."
     ],
     howLongItLasts: "Until you submit a new application or SASSA corrects the record. There is no automatic reinstatement.",
+    whatToCheck: [
+          "Check whether you re-confirmed your application for the current financial year.",
+          "Verify your contact details and declarations on the SRD portal."
+    ],
     whatYouShouldDo: [
       "Note which month the status refers to.",
       "Reapply with the same ID number and the same phone number you used before.",
@@ -416,6 +485,11 @@ export const statuses: StatusMeaning[] = [
       "You receive UIF benefits for the same period."
     ],
     howLongItLasts: "Until the Department of Labour closes or corrects the record. Reapplying without fixing it usually produces the same decline.",
+    whatToCheck: [
+          "Check Department of Labour uFiling to see if your last employment was formally terminated.",
+          "Confirm whether you have an active UI-19 form from your former employer.",
+          "Verify that you are not receiving active payouts from the Unemployment Insurance Fund."
+    ],
     whatYouShouldDo: [
       "Request a UI-19 termination certificate or UIF status letter.",
       "Visit a Labour Centre if the employer will not cooperate.",
@@ -446,6 +520,10 @@ export const statuses: StatusMeaning[] = [
       "Your details were captured differently by a member organisation."
     ],
     howLongItLasts: "Until you supply a SAFPS letter or the listing is removed. The flag does not expire on its own.",
+    whatToCheck: [
+          "Contact the South African Fraud Prevention Service (SAFPS) helpline to check fraud alerts.",
+          "Check if anyone fraudulently applied for credit or accounts using your ID number."
+    ],
     whatYouShouldDo: [
       "Call SAFPS on 011 867 2234 for a copy of your letter or confirmation of your record.",
       "Open a SAPS case if impersonation is suspected.",
@@ -480,6 +558,10 @@ export const statuses: StatusMeaning[] = [
       "Conflicting late birth registration records."
     ],
     howLongItLasts: "Until Home Affairs corrects the record. Payments stay blocked in the meantime.",
+    whatToCheck: [
+          "Check with the Department of Home Affairs National Population Register regarding your ID status.",
+          "Obtain a Home Affairs confirmation of life letter if an administrative error occurred."
+    ],
     whatYouShouldDo: [
       "Visit Home Affairs with your ID and request a record correction.",
       "Ask for written confirmation that you are alive and the record is fixed.",
@@ -515,6 +597,10 @@ export const statuses: StatusMeaning[] = [
       "A duplicate identity record is linked to a grant."
     ],
     howLongItLasts: "Until the duplicate or conflicting record is resolved. Reapplying without changes gives the same result.",
+    whatToCheck: [
+          "Check if you are already receiving an Older Persons, Disability, or Child Support grant.",
+          "Remember that regulations prohibit receiving the SRD R370 grant if you already receive a social grant."
+    ],
     whatYouShouldDo: [
       "Check which grant and which child the existing record refers to.",
       "Ask SASSA which grant must be cancelled if you are switching.",
@@ -546,6 +632,10 @@ export const statuses: StatusMeaning[] = [
       "An older application was closed."
     ],
     howLongItLasts: "Until the correct details are used or a new application is submitted. It will not change on its own if no application exists.",
+    whatToCheck: [
+          "Check that your 13-digit South African ID number was typed correctly without spaces.",
+          "Verify that you are using the exact cellphone number used when submitting your application."
+    ],
     whatYouShouldDo: [
       "Retry with your ID number exactly as printed and the original phone number.",
       "Look for an SMS confirmation or reference number.",

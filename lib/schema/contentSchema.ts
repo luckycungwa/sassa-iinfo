@@ -185,6 +185,7 @@ export interface StatusReferenceBlock extends BaseBlock {
   statusName: string;
   explanation: string;
   whyItHappens: string[];
+  whatToCheck?: string[];
   howLongItLasts: string;
   whatYouShouldDo: string[];
   relatedStatuses: { name: string; slug: string }[];

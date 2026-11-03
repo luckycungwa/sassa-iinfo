@@ -91,6 +91,11 @@
           "name": "Declined",
           "slug": "declined"
         }
+      ],
+      "whatToCheck": [
+        "Check whether your ID document was reported as stolen or involved in identity theft.",
+        "Confirm whether your cellphone number or bank account was linked to any other grant applicant.",
+        "Check your credit profile or SAFPS listings for protective fraud registrations."
       ]
     },
     {

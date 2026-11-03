@@ -116,6 +116,22 @@ export default async function StatusDetailPage({ params }: { params: Promise<{ s
         type: "paragraph" as const,
         text: status.howLongItLasts,
       },
+      ...(status.whatToCheck && status.whatToCheck.length > 0
+        ? [
+            {
+              id: "check-h",
+              type: "heading" as const,
+              level: 2 as const,
+              text: "What to Check",
+            },
+            {
+              id: "check-list",
+              type: "list" as const,
+              ordered: false,
+              items: status.whatToCheck,
+            },
+          ]
+        : []),
       {
         id: "action-h",
         type: "heading" as const,

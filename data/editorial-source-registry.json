@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SassaGrantHub Editorial Source Registry",
+  "description": "Registry of primary and authoritative sources used for factual verification across SassaGrantHub publications.",
+  "lastAuditDate": "2026-11-04",
+  "primarySources": [
+    {
+      "id": "src-sassa-official",
+      "name": "South African Social Security Agency (SASSA) Official Website",
+      "url": "https://www.sassa.gov.za",
+      "publishingEntity": "South African Social Security Agency (National Government Entity)",
+      "authorityLevel": "Primary Government Agency",
+      "topicsCovered": [
+        "Permanent grant policies",
+        "Official payment schedules",
+        "Grant application procedures",
+        "National helpline contacts",
+        "Regional office directories"
+      ],
+      "verificationMethod": "Direct inspection of official public notices, media releases and gazetted directives.",
+      "lastVerified": "2026-11-03",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "src-srd-portal",
+      "name": "SASSA SRD R370 Online Portal",
+      "url": "https://srd.sassa.gov.za",
+      "publishingEntity": "SASSA Social Relief of Distress Directorate",
+      "authorityLevel": "Primary Application & Verification Engine",
+      "topicsCovered": [
+        "SRD R370 application portal",
+        "Monthly grant status checking",
+        "Banking details change portal",
+        "Cellphone number update protocols",
+        "Biometric and facial verification"
+      ],
+      "verificationMethod": "Live inspection of public instructions, technical portal flows, and official user manuals.",
+      "lastVerified": "2026-11-03",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "src-dsd-itsaa",
+      "name": "Department of Social Development (DSD) — Independent Tribunal for Social Assistance Appeals (ITSAA)",
+      "url": "https://srd.dsd.gov.za",
+      "publishingEntity": "National Department of Social Development",
+      "authorityLevel": "Statutory Independent Appeals Tribunal",
+      "topicsCovered": [
+        "SRD appeal submissions",
+        "Appeals status tracking",
+        "90-day appeal statutory timelines",
+        "Tribunal review standards",
+        "Outcome notifications"
+      ],
+      "verificationMethod": "Direct statutory reference to Social Assistance Act Regulations and live DSD appeal portal guidance.",
+      "lastVerified": "2026-11-03",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "src-gov-gazette",
+      "name": "South African Government Gazette / Government Printing Works",
+      "url": "https://www.gpwonline.co.za",
+      "publishingEntity": "Republic of South Africa Government Printing Works",
+      "authorityLevel": "Official Legislative Record",
+      "topicsCovered": [
+        "Social Assistance Act 13 of 2004 amendments",
+        "Annual and bi-annual grant increase notices",
+        "SRD means test threshold regulations (R624)",
+        "Ministerial determinations of grant amounts"
+      ],
+      "verificationMethod": "Gazetted notices issued by the Minister of Social Development and Minister of Finance.",
+      "lastVerified": "2026-11-02",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "src-postbank",
+      "name": "Postbank Official Communications & Social Grant Division",
+      "url": "https://www.postbank.co.za",
+      "publishingEntity": "South African Postbank SOC Limited",
+      "authorityLevel": "Disbursing Financial Institution",
+      "topicsCovered": [
+        "SASSA Gold Card validity updates",
+        "Postbank Black Card replacement rollout",
+        "ATM withdrawal and retail POS functionality",
+        "Card replacement hotlines and branch sites"
+      ],
+      "verificationMethod": "Official Postbank media releases and parliamentary committee briefings.",
+      "lastVerified": "2026-11-02",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "src-dept-labour",
+      "name": "Department of Employment and Labour (UIF Registry)",
+      "url": "https://ufiling.labour.gov.za",
+      "publishingEntity": "Department of Employment and Labour",
+      "authorityLevel": "Statutory Unemployment Fund Registry",
+      "topicsCovered": [
+        "UIF registration verification",
+        "UI-19 proof of employment termination",
+        "Non-employment status certificates for appeals"
+      ],
+      "verificationMethod": "Official uFiling procedures and Labour Centre verification guidelines.",
+      "lastVerified": "2026-11-02",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "src-nsfas",
+      "name": "National Student Financial Aid Scheme (myNSFAS)",
+      "url": "https://www.nsfas.org.za",
+      "publishingEntity": "National Student Financial Aid Scheme",
+      "authorityLevel": "Statutory Student Bursary Entity",
+      "topicsCovered": [
+        "NSFAS funding status verification",
+        "Completion and deregistration letters",
+        "Student allowance cross-check exclusions"
+      ],
+      "verificationMethod": "myNSFAS student portal guidance and bursary rules.",
+      "lastVerified": "2026-11-02",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "src-safps",
+      "name": "Southern African Fraud Prevention Service (SAFPS)",
+      "url": "https://www.safps.org.za",
+      "publishingEntity": "Southern African Fraud Prevention Service",
+      "authorityLevel": "National Fraud Registry",
+      "topicsCovered": [
+        "Protective registration procedures",
+        "Identity theft remediation protocols",
+        "Remediation of 'Referred' and 'SAFPS Flagged' status"
+      ],
+      "verificationMethod": "SAFPS public consumer protection guidelines.",
+      "lastVerified": "2026-11-02",
+      "status": "CONFIRMED"
+    }
+  ]
+}

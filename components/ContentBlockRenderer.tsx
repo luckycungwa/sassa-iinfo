@@ -283,6 +283,12 @@ function Block({ block, classification }: { block: ContentBlock; classification?
             <p className="text-sm font-bold text-ink mb-1">Why it happens:</p>
             <ul className="space-y-1">{block.whyItHappens.map((w, i) => <li key={i} className="text-sm text-muted-foreground flex gap-1"><span className="text-accent-dark">{'\u2022'}</span>{w}</li>)}</ul>
           </div>
+          {block.whatToCheck && block.whatToCheck.length > 0 && (
+            <div>
+              <p className="text-sm font-bold text-ink mb-1">What to check:</p>
+              <ul className="space-y-1">{block.whatToCheck.map((c, i) => <li key={i} className="text-sm text-muted-foreground flex gap-1"><span className="text-accent-dark font-bold">✓</span>{c}</li>)}</ul>
+            </div>
+          )}
           <div>
             <p className="text-sm font-bold text-ink mb-1">How long it lasts:</p>
             <p className="text-sm text-muted-foreground">{block.howLongItLasts}</p>

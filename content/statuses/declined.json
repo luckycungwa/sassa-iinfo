@@ -124,6 +124,11 @@
           "name": "Means Test Failed",
           "slug": "means-test-failed"
         }
+      ],
+      "whatToCheck": [
+        "Check the specific decline code listed below the status (e.g. alternative income, UIF, NSFAS, means test).",
+        "Check the exact calendar month of the decline; appeals must be lodged per month within 90 days.",
+        "Download your 3-month bank statement for that specific month to verify every incoming deposit."
       ]
     },
     {

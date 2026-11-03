@@ -89,6 +89,10 @@
           "name": "Pending",
           "slug": "pending"
         }
+      ],
+      "whatToCheck": [
+        "Check the portal to ensure both banking details and personal details show verified checkmarks.",
+        "Monitor your status weekly as it moves from Complete to Approved during the monthly run."
       ]
     },
     {

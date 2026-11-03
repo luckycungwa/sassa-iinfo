@@ -95,6 +95,12 @@
           "name": "Declined",
           "slug": "declined"
         }
+      ],
+      "whatToCheck": [
+        "Add up all credits and deposits into your bank account for that calendar month. Did they reach R624 or more?",
+        "Check if a family member sent funds for emergencies, groceries, or school fees.",
+        "Check whether you transferred money between your own accounts, which automated scanners treat as income.",
+        "Check SARS eFiling to see if a former employer submitted an active tax declaration."
       ]
     },
     {

@@ -102,6 +102,10 @@
           "name": "Declined",
           "slug": "declined"
         }
+      ],
+      "whatToCheck": [
+        "Check if you are already receiving an Older Persons, Disability, or Child Support grant.",
+        "Remember that regulations prohibit receiving the SRD R370 grant if you already receive a social grant."
       ]
     },
     {

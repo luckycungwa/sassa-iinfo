@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from "react";
-import { Sliders, Calendar, Calculator, Clock, BarChart, FileText, Table, DollarSign, Scale, Sparkles } from "lucide-react";
+import { Wrench, Sliders, Calendar, Calculator, Clock, BarChart, FileText, Table, DollarSign, Scale, Sparkles } from "lucide-react";
+import BeneficiaryProblemSolver from "./tools/BeneficiaryProblemSolver";
 import EligibilityChecker from "./tools/EligibilityChecker";
 import PaymentLookup from "./tools/PaymentLookup";
 import AgeCalculator from "./tools/AgeCalculator";
@@ -15,6 +16,7 @@ import MeansTestCalculator from "./tools/MeansTestCalculator";
 import EligibilityEngine from "./tools/EligibilityEngine";
 
 type ToolType =
+  | "problem-solver"
   | "eligibility-checker"
   | "payment-lookup"
   | "age-calculator"
@@ -28,12 +30,13 @@ type ToolType =
   | "eligibility-engine";
 
 export default function InteractiveTools() {
-  const [activeTool, setActiveTool] = useState<ToolType>("eligibility-checker");
+  const [activeTool, setActiveTool] = useState<ToolType>("problem-solver");
 
   return (
     <div className="space-y-6">
       <div className="flex gap-2 pb-2 border-b border-border overflow-x-auto scrollbar-none whitespace-nowrap">
         {[
+          { id: "problem-solver", label: "Problem Solver", icon: Wrench },
           { id: "eligibility-checker", label: "Eligibility Checker", icon: Sliders },
           { id: "payment-lookup", label: "Pay Day Lookup", icon: Calendar },
           { id: "age-calculator", label: "Age Vetting", icon: Calculator },
@@ -65,6 +68,7 @@ export default function InteractiveTools() {
       </div>
 
       <div className="bg-surface border border-border rounded-xl p-6 md:p-8">
+        {activeTool === "problem-solver" && <BeneficiaryProblemSolver />}
         {activeTool === "eligibility-checker" && <EligibilityChecker />}
         {activeTool === "payment-lookup" && <PaymentLookup />}
         {activeTool === "age-calculator" && <AgeCalculator />}

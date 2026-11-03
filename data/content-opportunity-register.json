@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SassaGrantHub Content Opportunity Register",
+  "description": "Register of high-value beneficiary problem opportunities where SassaGrantHub delivers a materially better answer than competitors.",
+  "opportunities": [
+    {
+      "opportunityId": "opp-01",
+      "targetIntent": "Beneficiary Problem: Approved with no payment date",
+      "competitorDeficiency": "Competitors (grantza.org.za, sassagrants.co.za) merely state that 'approval means you will be paid soon' without explaining the 7-10 day bank verification clearance or payment batching windows.",
+      "ourDifferentiator": "Our Beneficiary Problem Solver and verified guide explain the exact 4-pillar resolution: root causes (PASANet banking verification delays, Cash Send token queues), checklist of what to check (name spelling, account activity), and safe next steps without restarting application cycles.",
+      "targetUrl": "/status/approved",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "opportunityId": "opp-02",
+      "targetIntent": "Decline Remediation: Alternative income source detected",
+      "competitorDeficiency": "Competitors provide generic advice to 're-apply or appeal' without explaining the specific R624 monthly deposit threshold or the necessity of submitting a sworn police affidavit for non-income family assistance.",
+      "ourDifferentiator": "Precise mathematical threshold breakdown (R624), interactive diagnostic questions to isolate gifts vs. employment, and direct links to the sworn affidavit template and DSD appeal tribunal.",
+      "targetUrl": "/status/alternative-income-source",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "opportunityId": "opp-03",
+      "targetIntent": "Account Access: Lost registered cellphone number without SIM",
+      "competitorDeficiency": "Most sites instruct users to 'visit a SASSA office' resulting in hours of travel and long queues, ignoring the official automated biometric facial recognition change process.",
+      "ourDifferentiator": "Step-by-step walkthrough of the online facial recognition verification path on the SRD portal first, followed by phone helpline escalation, reserving in-person office visits as a final resort.",
+      "targetUrl": "/guides/change-srd-phone-number",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "opportunityId": "opp-04",
+      "targetIntent": "Beneficiary Tools: Interactive problem diagnosis and preparation",
+      "competitorDeficiency": "Competitors rely on fake, scraping-based 'status check' input forms that harvest beneficiary ID numbers and cell numbers under false pretenses, violating privacy and creating AdSense risk.",
+      "ourDifferentiator": "Interactive Beneficiary Problem Solver that runs 100% in the browser with zero ID harvesting. Allows users to select their situation, check off diagnostic items, and copy a tailored action plan to their phone or WhatsApp.",
+      "targetUrl": "/status#problem-solver",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "opportunityId": "opp-05",
+      "targetIntent": "Payment Security: Bank account vs. Postbank card transition",
+      "competitorDeficiency": "Competitors publish outdated panic articles claiming Gold Cards have already expired or will stop working on past dates.",
+      "ourDifferentiator": "Verified current status from Postbank confirming ongoing Gold Card validity at retail tills and ATMs, alongside practical guides on migrating to personal commercial bank accounts.",
+      "targetUrl": "/banking/black-card-swap",
+      "status": "IMPLEMENTED"
+    }
+  ]
+}

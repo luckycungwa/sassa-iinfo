@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SassaGrantHub Search Intent Map",
+  "description": "Mapping of beneficiary search intents to single canonical destinations, ensuring zero internal keyword cannibalization and protecting SEO equity.",
+  "mappings": [
+    {
+      "intent": "How to check my SASSA status online / USSD / WhatsApp",
+      "canonicalUrl": "/guides/how-to-check-sassa-status",
+      "pageType": "Comprehensive Instructional Guide",
+      "differentiatingFocus": "Operational step-by-step instructions across all 4 official channels with direct official links and zero data-harvesting forms."
+    },
+    {
+      "intent": "What does my specific SASSA status mean?",
+      "canonicalUrl": "/status",
+      "pageType": "Status Meaning Hub & Interactive Problem Solver",
+      "differentiatingFocus": "Interactive diagnosis explaining what it means, what could cause it, what to check right now, and what to do next."
+    },
+    {
+      "intent": "SRD R370 grant details, application and payment dates",
+      "canonicalUrl": "/grants/srd-r370-grant",
+      "pageType": "Parent Grant Authority Page",
+      "differentiatingFocus": "All-in-one authoritative grant overview covering criteria, monthly vetting cycle, application jump-links, and historical R350 context."
+    },
+    {
+      "intent": "When will SASSA pay this month / upcoming months?",
+      "canonicalUrl": "/payment-dates",
+      "pageType": "Payment Schedule Hub",
+      "differentiatingFocus": "Complete verified payment calendar for Older Persons, Disability, Child Support and SRD windows with monthly deep-dive subpages."
+    },
+    {
+      "intent": "How to appeal a declined SASSA grant within 90 days",
+      "canonicalUrl": "/appeals/how-to-appeal",
+      "pageType": "Appeals Walkthrough Guide",
+      "differentiatingFocus": "Statutory 90-day ITSAA tribunal submission guide with required evidence, affidavits, and document preparation."
+    },
+    {
+      "intent": "How to update SASSA banking details or switch to bank EFT",
+      "canonicalUrl": "/banking/update-bank-details",
+      "pageType": "Banking Instructional Guide",
+      "differentiatingFocus": "Walkthrough of OTP security validation, 7-10 day PASANet clearance, and third-party account prohibitions."
+    },
+    {
+      "intent": "Where is my local SASSA branch or service office?",
+      "canonicalUrl": "/provinces",
+      "pageType": "Geographical Directory Hub",
+      "differentiatingFocus": "Provincial breakdown of verified physical addresses, contact lines, operating hours, and queue-beating recommendations."
+    },
+    {
+      "intent": "Download official SASSA forms, templates and checklists",
+      "canonicalUrl": "/downloads",
+      "pageType": "Document Reference Hub",
+      "differentiatingFocus": "Direct downloads and completion walkthroughs for Form 001, Bank Consent, Sworn Affidavits, and document checklists."
+    }
+  ]
+}

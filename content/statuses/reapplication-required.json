@@ -105,6 +105,10 @@
           "name": "Declined",
           "slug": "declined"
         }
+      ],
+      "whatToCheck": [
+        "Check whether you re-confirmed your application for the current financial year.",
+        "Verify your contact details and declarations on the SRD portal."
       ]
     },
     {

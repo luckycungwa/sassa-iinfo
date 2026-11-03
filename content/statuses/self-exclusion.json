@@ -89,6 +89,10 @@
           "name": "Declined",
           "slug": "declined"
         }
+      ],
+      "whatToCheck": [
+        "Check whether you indicated alternative financial support when answering questionnaire prompts.",
+        "Confirm whether you selected zero-need during the reconfirmation or re-application screen."
       ]
     },
     {

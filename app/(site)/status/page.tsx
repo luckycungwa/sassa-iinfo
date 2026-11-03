@@ -1,9 +1,10 @@
-﻿import { pageMetadata } from "@/lib/metadata";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
-import { Search, Clock, AlertTriangle, ShieldCheck, ArrowRight, CheckCircle, XCircle } from "lucide-react";
+import { Search, Clock, AlertTriangle, ShieldCheck, ArrowRight, CheckCircle, XCircle, Wrench } from "lucide-react";
 import { statuses } from "../../../lib/data/statuses";
 import { webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
+import BeneficiaryProblemSolver from "@/components/tools/BeneficiaryProblemSolver";
 
 const featuredStatuses = statuses.filter((s) => ["pending", "approved", "declined", "alternative-income-source"].includes(s.slug));
 
@@ -36,16 +37,16 @@ export default function StatusHubPage() {
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
             <Link
+              href="#problem-solver"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-yellow text-slate rounded-[28.5px] text-sm font-black hover:opacity-90 transition shadow-sm"
+            >
+              <Wrench className="w-4 h-4 text-slate" /> Diagnose My Problem
+            </Link>
+            <Link
               href="#common-statuses"
               className="inline-flex items-center gap-2 px-6 py-3 bg-violet text-white rounded-[28.5px] text-sm font-bold hover:opacity-90 transition btn-violet"
             >
               View common statuses <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
-            <Link
-              href="/status/pending"
-              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-white/30 text-white rounded-[28.5px] text-sm font-bold hover:bg-white/10 transition"
-            >
-              Why is my status pending?
             </Link>
             <Link
               href="/guides/how-to-check-sassa-status"
@@ -55,12 +56,18 @@ export default function StatusHubPage() {
             </Link>
           </div>
           <p className="text-xs text-white/60 mt-6 max-w-xl leading-relaxed">
-            This page explains what statuses mean. It cannot look up your personal record. For your own status, use the{" "}
+            This page explains what statuses mean and provides problem-solving guidance. It cannot look up your personal record. For your own status, use the{" "}
             <a href="https://srd.sassa.gov.za" target="_blank" rel="noopener noreferrer" className="font-bold text-white underline underline-offset-2">
               official SRD portal
             </a>
             .
           </p>
+        </div>
+      </section>
+
+      <section className="bg-fog py-10 border-b border-border">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <BeneficiaryProblemSolver />
         </div>
       </section>
 

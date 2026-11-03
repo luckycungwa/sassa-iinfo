@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SassaGrantHub Keyword Master Register",
+  "description": "Unified keyword and search intent database derived from Google Trends South Africa datasets and beneficiary query analysis.",
+  "keywords": [
+    {
+      "keyword": "sassa status check",
+      "cluster": "Status checking",
+      "intent": "Informational / Actionable lookup",
+      "canonicalUrl": "/guides/how-to-check-sassa-status",
+      "supportingUrls": ["/status", "/grants/srd-r370-grant/status-check"],
+      "demandCategory": "Evergreen High-Demand",
+      "priority": "Critical",
+      "action": "Maintain answer-first instructions and link to official portal without hosting fake check tool."
+    },
+    {
+      "keyword": "srd status check",
+      "cluster": "Status checking",
+      "intent": "SRD-specific status query",
+      "canonicalUrl": "/grants/srd-r370-grant/status-check",
+      "supportingUrls": ["/status/pending", "/status/approved", "/status/declined"],
+      "demandCategory": "Evergreen High-Demand",
+      "priority": "Critical",
+      "action": "Explain SRD web portal, WhatsApp and USSD lookup methods."
+    },
+    {
+      "keyword": "sassa payment dates 2026",
+      "cluster": "Payment dates",
+      "intent": "Schedule lookup",
+      "canonicalUrl": "/payment-dates",
+      "supportingUrls": ["/payment-dates/2026-november", "/payment-dates/2026-december"],
+      "demandCategory": "Monthly Recurring",
+      "priority": "Critical",
+      "action": "Keep monthly table updated and verified against official SASSA press releases."
+    },
+    {
+      "keyword": "sassa status pending",
+      "cluster": "Beneficiary problem",
+      "intent": "Problem troubleshooting",
+      "canonicalUrl": "/status/pending",
+      "supportingUrls": ["/status/pending-30-days", "/status#problem-solver"],
+      "demandCategory": "Beneficiary Problem",
+      "priority": "High",
+      "action": "Explain evaluation cycle, database matching delays and escalation thresholds."
+    },
+    {
+      "keyword": "sassa approved but no pay date",
+      "cluster": "Beneficiary problem",
+      "intent": "High urgency problem-solving",
+      "canonicalUrl": "/status/approved",
+      "supportingUrls": ["/status#problem-solver", "/banking/payment-not-reflecting"],
+      "demandCategory": "Beneficiary Problem",
+      "priority": "Critical",
+      "action": "Differentiate between approval batching, bank verification cycles, and payout schedules."
+    },
+    {
+      "keyword": "sassa alternative income source detected",
+      "cluster": "Appeals & Declines",
+      "intent": "Decline remediation",
+      "canonicalUrl": "/status/alternative-income-source",
+      "supportingUrls": ["/appeals/appeal-after-income-source", "/guides/understanding-means-test"],
+      "demandCategory": "Beneficiary Problem",
+      "priority": "Critical",
+      "action": "Provide clear breakdown of R624 bank audit threshold and police affidavit requirements."
+    },
+    {
+      "keyword": "how to appeal sassa grant",
+      "cluster": "Appeals",
+      "intent": "Process walkthrough",
+      "canonicalUrl": "/appeals/how-to-appeal",
+      "supportingUrls": ["/appeals", "/appeals/appeal-timeline"],
+      "demandCategory": "Evergreen Problem",
+      "priority": "High",
+      "action": "Walk through 90-day ITSAA online portal submission step-by-step."
+    },
+    {
+      "keyword": "change sassa banking details",
+      "cluster": "Banking",
+      "intent": "Actionable instructional",
+      "canonicalUrl": "/banking/update-bank-details",
+      "supportingUrls": ["/banking/bank-verification-process", "/banking/payment-methods"],
+      "demandCategory": "Evergreen Operational",
+      "priority": "High",
+      "action": "Explain OTP security link, PASANet 7-10 day verification timeline, and third-party restrictions."
+    },
+    {
+      "keyword": "change sassa phone number without old sim",
+      "cluster": "Banking & Security",
+      "intent": "High urgency recovery",
+      "canonicalUrl": "/guides/change-srd-phone-number",
+      "supportingUrls": ["/status/identity-verification", "/guides/srd-call-centre-kiosk-help"],
+      "demandCategory": "Beneficiary Problem",
+      "priority": "High",
+      "action": "Detail biometric facial verification option and helpline/office escalation routes."
+    },
+    {
+      "keyword": "sassa card replacement",
+      "cluster": "Banking",
+      "intent": "Card replacement / Black card",
+      "canonicalUrl": "/banking/sassa-card-replacement",
+      "supportingUrls": ["/banking/black-card-swap", "/news/sassa-gold-card-to-black-card-migration"],
+      "demandCategory": "Operational & News",
+      "priority": "Medium",
+      "action": "Explain Postbank swap sites, retailer alternatives, and switching to commercial banks."
+    },
+    {
+      "keyword": "sassa child grant dates",
+      "cluster": "Payment dates",
+      "intent": "Grant-specific schedule",
+      "canonicalUrl": "/payment-dates/child-support-grant-payment-dates",
+      "supportingUrls": ["/grants/child-support-grant", "/payment-dates"],
+      "demandCategory": "Monthly Recurring",
+      "priority": "High",
+      "action": "Highlight that children's grants are paid after Older Persons and Disability grants."
+    },
+    {
+      "keyword": "sassa old age pension date",
+      "cluster": "Payment dates",
+      "intent": "Grant-specific schedule",
+      "canonicalUrl": "/payment-dates/older-persons-grant-payment-dates",
+      "supportingUrls": ["/grants/older-person-grant", "/payment-dates"],
+      "demandCategory": "Monthly Recurring",
+      "priority": "High",
+      "action": "Clarify that Old Age Pension is the first grant disbursed each payment cycle."
+    }
+  ]
+}

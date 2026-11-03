@@ -102,6 +102,10 @@
           "name": "Identity Verification",
           "slug": "identity-verification"
         }
+      ],
+      "whatToCheck": [
+        "Check that your 13-digit South African ID number was typed correctly without spaces.",
+        "Verify that you are using the exact cellphone number used when submitting your application."
       ]
     },
     {

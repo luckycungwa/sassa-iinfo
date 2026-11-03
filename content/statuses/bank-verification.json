@@ -85,6 +85,11 @@
           "name": "Approved",
           "slug": "approved"
         }
+      ],
+      "whatToCheck": [
+        "Check your bank statement header to ensure your legal names match your ID book or smart card exactly.",
+        "Confirm you did not enter a joint account, a business account, or someone else's account.",
+        "Check that the branch code, account number, and account type (cheque vs savings) are accurate."
       ]
     },
     {
