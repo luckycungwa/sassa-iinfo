@@ -169,7 +169,7 @@ export default function SiteLayout({
                         <span className="text-sm font-black text-carbon">SASSA Grant Hub</span>
                       </Link>
                       <p className="text-sm leading-relaxed text-carbon">
-                        {SITE_TAGLINE} Independent guidance on grant statuses, payment dates, applications and appeals.
+                        {SITE_TAGLINE} Check your SASSA status, view the 2026 payment schedule, and fix declined applications.
                       </p>
                       <p className="text-xs leading-relaxed text-muted-foreground">
                         Not affiliated with SASSA or the South African government. We do not process applications or check individual records.
