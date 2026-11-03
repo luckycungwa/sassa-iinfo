@@ -1,4 +1,5 @@
-const publisherId = (process.env.NEXT_PUBLIC_ADSENSE_ID || "").trim();
+const DEFAULT_PUB_ID = "pub-8180440849942257";
+const configuredId = (process.env.NEXT_PUBLIC_ADSENSE_ID || "").trim();
 
 function normalizePublisherId(id: string): string {
   const base = id.replace(/^ca-/, "");
@@ -6,10 +7,8 @@ function normalizePublisherId(id: string): string {
 }
 
 export function GET() {
-  const pub = normalizePublisherId(publisherId);
-  const body = pub
-    ? `google.com, ${pub}, DIRECT, f08c47fec0942fa0\n`
-    : "# Google AdSense publisher ID not configured yet.\n";
+  const pub = normalizePublisherId(configuredId) || DEFAULT_PUB_ID;
+  const body = `google.com, ${pub}, DIRECT, f08c47fec0942fa0\n`;
 
   return new Response(body, {
     headers: {
