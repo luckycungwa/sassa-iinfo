@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { appeals } from "../../../../lib/data/appeals";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { faqSchema, breadcrumbSchema, articleSchema } from "../../../../lib/json-ld";
@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/appeals/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/appeals/${slug}`), languages: localeAlternates(`/appeals/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/appeals/${slug}`, absoluteTitle: true });
   }
 
   const appeal = appeals.find((a) => a.slug === slug);
   if (!appeal) return {};
-  return { title: `${appeal.title} | SASSA Appeals Guide`, description: appeal.shortDescription, alternates: { canonical: canonicalUrl(`/appeals/${slug}`), languages: localeAlternates(`/appeals/${slug}`) } };
+  return pageMetadata({ title: `${appeal.title} | SASSA Appeals Guide`, description: appeal.shortDescription, path: `/appeals/${slug}`, absoluteTitle: true });
 }
 
 export default async function AppealDetailPage({ params }: { params: Promise<{ slug: string }> }) {

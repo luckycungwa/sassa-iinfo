@@ -1,18 +1,15 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
 import { aboutPageSchema, webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "About SASSA Grant Hub | Independent Resource by Lucky Cungwa",
-  description: "Founded by Lucky Cungwa (44tagstudios). An independent, educational resource hub for SASSA social grant information in South Africa. Not affiliated with SASSA.",
-  alternates: { canonical: canonicalUrl("/about") },
-  openGraph: {
-    title: "About SASSA Grant Hub | Independent Resource by Lucky Cungwa",
-    description: "Independent SASSA social grant information resource built by Lucky Cungwa.",
-  },
-};
+  description:
+    "Independent SASSA grant resource founded by Lucky Cungwa of 44tagstudios. Learn how we research, verify and correct grant information.",
+  path: "/about",
+  absoluteTitle: true,
+});
 
 const standards = [
   { title: "Accuracy", desc: "All information is verified against official sources and clearly dated." },

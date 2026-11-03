@@ -1,20 +1,16 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight, Scale, Clock, FileText, CheckCircle2, AlertTriangle } from "lucide-react";
 import { appeals } from "../../../lib/data/appeals";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
 
-export const metadata: Metadata = {
-  title: "SASSA Appeals Centre | How to Appeal a Declined Grant in 90 Days",
-  description: "Complete guide to appealing a declined SASSA grant through ITSAA. Step-by-step instructions, 90-day appeal window, required documents, UIF and NSFAS decline appeals, and appeal outcome guide.",
-  alternates: { canonical: canonicalUrl("/appeals") },
-  openGraph: {
-    title: "SASSA Appeals Centre | How to Appeal a Declined Grant in 90 Days",
-    description: "Complete guide to appealing a declined SASSA grant through ITSAA within 90 days.",
-  },
-};
+export const metadata = pageMetadata({
+  title: "SASSA Appeals: How to Appeal a Declined Grant",
+  description:
+    "How to appeal a declined SASSA grant through ITSAA: the 90-day window, required documents, UIF and NSFAS declines, and what appeal outcomes mean.",
+  path: "/appeals",
+});
 
 export default function AppealsHubPage() {
   const pageSchema = webpageSchema("SASSA Appeals Centre | How to Appeal a Declined Grant in 90 Days", "Complete guide to appealing a declined SASSA grant through ITSAA within 90 days.", "/appeals");

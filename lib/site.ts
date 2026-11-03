@@ -51,10 +51,13 @@ export const OFFICIAL_LINKS = {
   helpline: "0800 60 10 11",
 } as const;
 
-/** Hosts that must permanently redirect to the canonical origin after migration. */
+/**
+ * Hosts that must permanently redirect to the canonical origin after migration.
+ * www.sassagranthub.co.za is intentionally absent: the apex/www redirect is
+ * handled at the Vercel edge, and duplicating it in the app causes a loop.
+ */
 export const LEGACY_HOSTS = [
   "sassagranttguide.vercel.app",
   "sassagrantguide.co.za",
   "www.sassagrantguide.co.za",
-  "www.sassagranthub.co.za",
 ] as const;

@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import InteractiveTools from "../../../components/InteractiveTools";
-import { canonicalUrl } from "@/lib/canonical";
 
-export const metadata: Metadata = {
-  title: "SASSA Interactive Tools | Grant Checker, Payment Lookup & Calculators",
-  description: "Free SASSA interactive tools: Grant Eligibility Checker, Payment Date Lookup, Age Calculator, Appeal Deadline Timer, Document Checklist Generator, and more. All run in your browser.",
-  alternates: { canonical: canonicalUrl("/tools") },
-};
+export const metadata = pageMetadata({
+  title: "SASSA Tools: Grant Checker & Payment Lookup",
+  description:
+    "Free SASSA tools that run in your browser: grant eligibility checker, payment date lookup, age calculator, appeal deadline timer and document checklist.",
+  path: "/tools",
+});
 
 export default function ToolsPage() {
   return (

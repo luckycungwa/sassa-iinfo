@@ -1,9 +1,8 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, HelpCircle, ShieldCheck, Scale, CalendarDays, Search } from "lucide-react";
 import { grants } from "../../../lib/data/grants";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
 
@@ -15,15 +14,12 @@ const faqs = [
   { question: "How are SASSA grant amounts determined?", answer: "Grant amounts are set by the South African government through the annual national budget process. Increases are typically announced in February during the budget speech and take effect from April each year." },
 ];
 
-export const metadata: Metadata = {
-  title: "All SASSA Social Grants - Complete Grant Library 2026 | Amounts, Eligibility & How to Apply",
-  description: "Browse all 8 SASSA social grants: Older Person R2,400, Child Support R580, Disability R2,400, Foster Care R1,300, Care Dependency R2,400, War Veterans R2,420, Grant-in-Aid R580, and SRD R370. Compare amounts, eligibility criteria, and application steps.",
-  alternates: { canonical: canonicalUrl("/grants") },
-  openGraph: {
-    title: "All SASSA Social Grants - Complete Grant Library 2026",
-    description: "Browse all 8 SASSA social grants with current amounts, eligibility criteria, and step-by-step application guides.",
-  },
-};
+export const metadata = pageMetadata({
+  title: "All SASSA Grants 2026: Amounts & Eligibility",
+  description:
+    "Compare all SASSA grants in 2026: Older Person, Child Support, Disability, Foster Care, Care Dependency, War Veterans, Grant-in-Aid and SRD R370.",
+  path: "/grants",
+});
 
 export default function GrantsHubPage() {
   const pageSchema = webpageSchema("All SASSA Social Grants - Complete Grant Library 2026", "Browse all 8 SASSA social grants with amounts, eligibility, and how to apply.", "/grants");

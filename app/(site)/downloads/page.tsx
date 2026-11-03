@@ -1,8 +1,7 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight, FileText, FileCheck, Download } from "lucide-react";
 import { downloadableForms } from "../../../lib/data/downloads";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "../../../lib/json-ld";
 
 const downloadFaqs = [
@@ -11,15 +10,12 @@ const downloadFaqs = [
   { question: "Which SASSA form do I need for my situation?", answer: "Start with the Official Grant Application Form for most grants. Use the Bank Change Form if you need to update payment details, or the SRD Appeal Template if you're appealing a decline." },
 ];
 
-export const metadata: Metadata = {
-  title: "SASSA Forms 2026 — Download Grant Applications & Templates",
-  description: "Download official SASSA forms in 2026 — grant applications, bank consent, SRD appeal templates — each with a fill guide and document checklist.",
-  alternates: { canonical: canonicalUrl("/downloads") },
-  openGraph: {
-    title: "SASSA Forms 2026 — Download Grant Applications & Templates",
-    description: "Download official SASSA forms in 2026 — grant applications, bank consent, SRD appeal templates — each with a fill guide and document checklist.",
-  },
-};
+export const metadata = pageMetadata({
+  title: "SASSA Forms 2026: Download Applications & Templates",
+  description:
+    "Download SASSA grant application, bank consent and SRD appeal forms for 2026, each with a fill guide, document checklist and official source.",
+  path: "/downloads",
+});
 
 export default function DownloadsHubPage() {
   const pageSchema = webpageSchema("SASSA Forms 2026 — Download Grant Applications & Templates", "Download official SASSA forms in 2026 — grant applications, bank consent, SRD appeal templates — each with a fill guide and document checklist.", "/downloads");

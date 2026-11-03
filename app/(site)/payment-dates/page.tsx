@@ -11,7 +11,7 @@ import {
   type PaymentMonth,
 } from "../../../lib/data/paymentDates";
 import { ArrowRight, CalendarDays } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
 
@@ -41,18 +41,13 @@ function paymentFaqs(current: PaymentMonth, next?: PaymentMonth) {
 export const revalidate = 3600;
 
 export function generateMetadata(): Metadata {
-  const title = "SASSA Payment Dates 2026 — Full Monthly Schedule";
-  const description = "The full 2026 SASSA payment schedule for Older Persons, Disability, Children's and SRD R370 grants. Includes the revised November schedule, provisional December dates, revision notes and official links.";
-
-  return {
-    title: { absolute: title },
-    description,
-    alternates: { canonical: canonicalUrl("/payment-dates") },
-    openGraph: {
-      title,
-      description,
-    },
-  };
+  return pageMetadata({
+    title: "SASSA Payment Dates 2026: Full Monthly Schedule",
+    description:
+      "The full 2026 SASSA payment schedule for Older Persons, Disability, Children's and SRD R370 grants, including revised and provisional dates.",
+    path: "/payment-dates",
+    absoluteTitle: true,
+  });
 }
 
 export default function PaymentDatesPage() {

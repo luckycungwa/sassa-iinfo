@@ -1,18 +1,15 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { Mail, ExternalLink, MapPin } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
 import { contactPageSchema, webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Contact Us | SASSA Grant Hub",
-  description: "Contact the SASSA Grant Hub team. For official SASSA services, visit srd.sassa.gov.za or your nearest SASSA office.",
-  alternates: { canonical: canonicalUrl("/contact") },
-  openGraph: {
-    title: "Contact Us | SASSA Grant Hub",
-    description: "Contact the SASSA Grant Hub team. For official SASSA services, visit srd.sassa.gov.za.",
-  },
-};
+  description:
+    "Contact the SASSA Grant Hub team about corrections or content questions. For official SASSA services, use srd.sassa.gov.za or your nearest office.",
+  path: "/contact",
+  absoluteTitle: true,
+});
 
 export default function ContactPage() {
   const pageSchema = webpageSchema("Contact Us | SASSA Grant Hub", "Contact the SASSA Grant Hub team. Official SASSA services at srd.sassa.gov.za.", "/contact");

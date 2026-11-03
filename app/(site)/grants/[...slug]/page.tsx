@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
 import { grants } from "../../../../lib/data/grants";
 import { grantToBasePage } from "../../../../lib/data/adapters/grants-adapter";
@@ -26,16 +26,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const slugPath = "/grants/" + slug.join("/");
   const content = getPageBySlug(slugPath);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(slugPath), languages: localeAlternates(slugPath) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: slugPath, absoluteTitle: true });
   }
   const grantSlug = slug[0];
   const grant = grants.find((g) => g.slug === grantSlug);
   if (!grant) return {};
-  return {
-    title: grant.title + " | SASSA Grant Hub " + grant.amount,
-    description: grant.title + " -- " + grant.amount + " " + grant.frequency + ". Eligibility criteria, required documents, how to apply, and FAQs. " + grant.targetGroup,
-alternates: { canonical: canonicalUrl(`/grants/${grantSlug}`), languages: localeAlternates(`/grants/${grantSlug}`) },
-  };
+  return pageMetadata({
+    title: `${grant.title}: Amount, Eligibility & How to Apply`,
+    description: `${grant.title} pays ${grant.amount} ${grant.frequency}. ${grant.targetGroup} Check eligibility, required documents, application steps and payment dates.`,
+    path: `/grants/${grantSlug}`,
+    absoluteTitle: true,
+  });
 }
 
 export default async function GrantDetailPage({ params }: { params: Promise<{ slug: string[] }> }) {

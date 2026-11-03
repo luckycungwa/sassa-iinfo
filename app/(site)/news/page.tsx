@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { loadAllContent } from "../../../lib/content-loader";
-import { canonicalUrl } from "@/lib/canonical";
 
-export const metadata: Metadata = {
-  title: "SASSA News & Updates | Latest Grant Information 2026",
-  description: "Stay informed with the latest SASSA news: grant reviews, payment schedule changes, policy announcements, eLife certification, and important deadlines.",
-  alternates: { canonical: canonicalUrl("/news") },
-};
+export const metadata = pageMetadata({
+  title: "SASSA News & Updates: Latest Grant Information",
+  description:
+    "Dated SASSA updates on grant reviews, payment schedule changes, policy announcements, eLife certification and deadlines, with official sources.",
+  path: "/news",
+});
 
 function formatDate(dateStr: string): string {
   try { return new Date(dateStr).toLocaleDateString("en-ZA", { year: "numeric", month: "long", day: "numeric" }); }

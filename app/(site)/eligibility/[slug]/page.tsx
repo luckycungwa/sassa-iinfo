@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { eligibilityGuides } from "../../../../lib/data/eligibility";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { faqSchema, breadcrumbSchema, articleSchema } from "../../../../lib/json-ld";
@@ -25,12 +25,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/eligibility/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/eligibility/${slug}`), languages: localeAlternates(`/eligibility/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/eligibility/${slug}`, absoluteTitle: true });
   }
 
   const guide = eligibilityGuides.find((e) => e.slug === slug);
   if (!guide) return {};
-  return { title: `${guide.title} | SASSA Eligibility Guide`, description: guide.shortDescription, alternates: { canonical: canonicalUrl(`/eligibility/${slug}`), languages: localeAlternates(`/eligibility/${slug}`) } };
+  return pageMetadata({ title: `${guide.title} | SASSA Eligibility Guide`, description: guide.shortDescription, path: `/eligibility/${slug}`, absoluteTitle: true });
 }
 
 export default async function EligibilityDetailPage({ params }: { params: Promise<{ slug: string }> }) {

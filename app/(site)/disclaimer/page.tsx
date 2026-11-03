@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { AlertTriangle } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Disclaimer | SASSA Grant Hub",
-  description: "Important disclaimer: This is an independent informational website not affiliated with SASSA or any government entity. All official actions should be performed on government websites.",
-  alternates: { canonical: canonicalUrl("/disclaimer") },
-};
+  description:
+    "Independent information only. We are not SASSA or a government department, and we cannot check individual grant records or process applications.",
+  path: "/disclaimer",
+  absoluteTitle: true,
+});
 
 export default function DisclaimerPage() {
   return (

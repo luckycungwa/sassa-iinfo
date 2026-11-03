@@ -1,8 +1,7 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { MapPin, Phone, Clock, Building, ArrowRight } from "lucide-react";
 import { offices } from "../../../lib/data/offices";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "../../../lib/json-ld";
 
 const officeFaqs = [
@@ -11,15 +10,12 @@ const officeFaqs = [
   { question: "Can someone else visit a SASSA office on my behalf?", answer: "Only if they have a signed power of attorney or an official SASSA consent letter. You must be present for biometric verification (fingerprints) during new applications." },
 ];
 
-export const metadata: Metadata = {
-  title: "SASSA Office Finder | Local Branch Locations & Contact Details",
-  description: "Find your nearest SASSA local office. Addresses, phone numbers, operating hours, services offered, and accessibility information for all 9 provincial branches.",
-  alternates: { canonical: canonicalUrl("/offices") },
-  openGraph: {
-    title: "SASSA Office Finder | Local Branch Locations & Contact Details",
-    description: "Find your nearest SASSA local office with addresses, phone numbers, and operating hours.",
-  },
-};
+export const metadata = pageMetadata({
+  title: "SASSA Office Finder: Branches & Contact Details",
+  description:
+    "Find your nearest SASSA office with addresses, phone numbers, operating hours and the services each branch offers across all nine provinces.",
+  path: "/offices",
+});
 
 const provinces = [...new Set(offices.map((o) => o.province))];
 

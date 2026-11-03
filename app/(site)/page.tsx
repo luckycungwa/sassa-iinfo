@@ -1,6 +1,5 @@
 import Link from "next/link";
-import type { Metadata } from "next";
-import { canonicalUrl } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { webpageSchema } from "@/lib/json-ld";
 import { loadAllContent } from "@/lib/content-loader";
 import {
@@ -32,17 +31,15 @@ import {
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
-  title: { absolute: "SASSA Grant Hub 2026 | Grant Status, Payment Dates & Appeals" },
+export const metadata = pageMetadata({
+  title: "SASSA Grant Hub 2026 | Grant Status, Payment Dates & Appeals",
   description:
-    "Understand your SASSA status, current payment dates, grant amounts, applications, appeals and banking updates. Independent guidance with direct links to official SASSA services.",
-  alternates: { canonical: canonicalUrl("/") },
-  openGraph: {
-    title: "SASSA Grant Hub 2026 | Grant Status, Payment Dates & Appeals",
-    description:
-      "Clear guidance on SASSA statuses, payment dates, grant amounts, applications and appeals. Independent, sourced and updated for November 2026.",
-  },
-};
+    "Understand your SASSA status, payment dates, grant amounts, applications and appeals. Independent guidance with direct links to official SASSA services.",
+  path: "/",
+  absoluteTitle: true,
+  socialDescription:
+    "Clear guidance on SASSA statuses, payment dates, grant amounts, applications and appeals. Independent, sourced and updated for November 2026.",
+});
 
 const commonProblems = [
   {

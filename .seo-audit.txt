@@ -1,0 +1,566 @@
+SEO audit of 150 sitemap URLs at http://localhost:4400
+Status: 150/150 return 200
+Missing canonical: 0; duplicate titles: no
+Internal links checked: 191; orphans: 0
+Blocking failures: 25; warnings: 211
+
+FAILURES
+  - / missing Open Graph title/description/image
+  - /grants missing Open Graph title/description/image
+  - /status missing Open Graph title/description/image
+  - /payment-dates missing Open Graph title/description/image
+  - /appeals missing Open Graph title/description/image
+  - /eligibility missing Open Graph title/description/image
+  - /offices missing Open Graph title/description/image
+  - /downloads missing Open Graph title/description/image
+  - /provinces missing Open Graph title/description/image
+  - /about missing Open Graph title/description/image
+  - /about/lucky-cungwa missing Open Graph title/description/image
+  - /contact missing Open Graph title/description/image
+  - /corrections-policy missing Open Graph title/description/image
+  - /news/august-2026-payment-dates missing Open Graph title/description/image
+  - /news/elife-certification-guide-srd missing Open Graph title/description/image
+  - /news/sassa-appeal-tips-for-success missing Open Graph title/description/image
+  - /news/sassa-court-case-srd-help-options missing Open Graph title/description/image
+  - /news/sassa-gold-card-to-black-card-migration missing Open Graph title/description/image
+  - /news/sassa-grant-review-crackdown-2026 missing Open Graph title/description/image
+  - /news/sassa-november-2026-payment-dates-revised missing Open Graph title/description/image
+  - /news/sassa-scam-warning-july-2026 missing Open Graph title/description/image
+  - /news/september-2026-payment-dates missing Open Graph title/description/image
+  - /news/social-grant-increases-2026 missing Open Graph title/description/image
+  - /news/srd-july-2026-payment-dates missing Open Graph title/description/image
+  - /news/srd-r370-grant-extended-to-march-2027 missing Open Graph title/description/image
+
+WARNINGS
+  - / description 177 chars
+  - /grants title 109 chars: All SASSA Social Grants - Complete Grant Library 2026 | Amounts, Eligibility & How to Apply | SASSA Grant Hub
+  - /grants description 253 chars
+  - /status title 93 chars: SASSA Status Meanings Explained | SRD & Grant Application Status Codes 2026 | SASSA Grant Hub
+  - /status description 221 chars
+  - /payment-dates description 202 chars
+  - /appeals title 82 chars: SASSA Appeals Centre | How to Appeal a Declined Grant in 90 Days | SASSA Grant Hub
+  - /appeals description 191 chars
+  - /eligibility title 70 chars: SASSA Grant Eligibility Guide 2026 | Do You Qualify? | SASSA Grant Hub
+  - /eligibility description 220 chars
+  - /tools title 87 chars: SASSA Interactive Tools | Grant Checker, Payment Lookup & Calculators | SASSA Grant Hub
+  - /tools description 181 chars
+  - /offices title 80 chars: SASSA Office Finder | Local Branch Locations & Contact Details | SASSA Grant Hub
+  - /downloads title 76 chars: SASSA Forms 2026 — Download Grant Applications & Templates | SASSA Grant Hub
+  - /provinces title 74 chars: SASSA Offices by Province 2026 — Find & Collect Near You | SASSA Grant Hub
+  - /guides title 66 chars: SASSA How-To Guides 2026 — Apply, Check & Appeal | SASSA Grant Hub
+  - /banking title 70 chars: SASSA Banking | Payment Methods & Bank Details Guide | SASSA Grant Hub
+  - /news title 70 chars: SASSA News & Updates | Latest Grant Information 2026 | SASSA Grant Hub
+  - /about title 78 chars: About SASSA Grant Hub | Independent Resource by Lucky Cungwa | SASSA Grant Hub
+  - /disclaimer description 183 chars
+  - /appeals/appeal-after-decline title 80 chars: How to Appeal a SASSA Grant After Initial Decline — Full Guide | SASSA Grant Hub
+  - /appeals/appeal-after-decline description 187 chars
+  - /appeals/appeal-after-income-source title 84 chars: Appealing SASSA Decline Due to Alternative Income Source Detection | SASSA Grant Hub
+  - /appeals/appeal-after-income-source description 177 chars
+  - /appeals/appeal-after-nsfas title 79 chars: Appealing SASSA Decline Due to NSFAS Funding — Complete Guide | SASSA Grant Hub
+  - /appeals/appeal-after-uif title 82 chars: Appealing SASSA Decline Due to UIF Registration — Complete Guide | SASSA Grant Hub
+  - /appeals/appeal-after-uif description 180 chars
+  - /appeals/appeal-documents title 80 chars: Required Documents for SASSA Grant Appeal — Complete Checklist | SASSA Grant Hub
+  - /appeals/appeal-documents description 172 chars
+  - /appeals/appeal-faqs title 82 chars: SASSA Grant Appeal FAQs — Deadlines, Documents, Timelines & More | SASSA Grant Hub
+  - /appeals/appeal-faqs description 184 chars
+  - /appeals/appeal-for-srd title 85 chars: How to Appeal an SRD R370 Grant Decline — SRD-Specific Appeal Guide | SASSA Grant Hub
+  - /appeals/appeal-for-srd description 182 chars
+  - /appeals/appeal-outcomes title 81 chars: SASSA Appeal Outcomes — Upheld, Dismissed, or Partially Upheld? | SASSA Grant Hub
+  - /appeals/appeal-outcomes description 182 chars
+  - /appeals/appeal-reasons title 77 chars: Common SASSA Grant Decline Reasons & How to Appeal Each One | SASSA Grant Hub
+  - /appeals/appeal-reasons description 185 chars
+  - /appeals/appeal-status-check title 83 chars: How to Check Your SASSA Appeal Status — Track ITSAA Appeal Online | SASSA Grant Hub
+  - /appeals/appeal-timeline title 73 chars: SASSA Appeal Timeline — Track Your 90-Day Window (2026) | SASSA Grant Hub
+  - /appeals/how-to-appeal title 67 chars: How to Appeal a SASSA Grant — Step-by-Step (2026) | SASSA Grant Hub
+  - /banking/bank-verification-process title 96 chars: SASSA Bank Verification Process Explained — How SASSA Checks Your Bank Account | SASSA Grant Hub
+  - /banking/bank-verification-process description 187 chars
+  - /banking/black-card-swap title 67 chars: SASSA Black Card Swap — After the Deadline (2026) | SASSA Grant Hub
+  - /banking/can-i-use-someone-elses-account title 87 chars: Can I Use Someone Else's Bank Account for SASSA? Rules & Alternatives | SASSA Grant Hub
+  - /banking/can-i-use-someone-elses-account description 185 chars
+  - /banking/cash-send-guide title 107 chars: SASSA Cash Send Guide — Collect Grant Without Bank Account at Pick n Pay, Shoprite, Boxer | SASSA Grant Hub
+  - /banking/cash-send-guide description 203 chars
+  - /banking/how-to-register-for-srd-portal title 80 chars: How to Register on the SRD Portal — SASSA Online Account Guide | SASSA Grant Hub
+  - /banking/how-to-register-for-srd-portal description 197 chars
+  - /banking/payment-methods title 94 chars: SASSA Payment Methods — Bank EFT, Cash Send, Post Office & Mobile Pay Points | SASSA Grant Hub
+  - /banking/payment-methods description 195 chars
+  - /banking/payment-not-reflecting title 92 chars: SASSA Payment Not Reflecting — Escalation Guide for Missing Grant Payments | SASSA Grant Hub
+  - /banking/sassa-card-explained title 73 chars: SASSA Card Explained — How the SASSA Payment Card Works | SASSA Grant Hub
+  - /banking/sassa-card-explained description 180 chars
+  - /banking/sassa-card-replacement title 78 chars: SASSA Card Replacement — Lost, Stolen, or Damaged Card Guide | SASSA Grant Hub
+  - /banking/sassa-card-replacement description 178 chars
+  - /banking/sassa-ussd-codes title 84 chars: SASSA USSD Code *134*7737#: Check Balance & Status by Phone (2026) | SASSA Grant Hub
+  - /banking/sassa-ussd-codes description 169 chars
+  - /banking/update-bank-details title 68 chars: Update SASSA Banking Details — Step-by-Step (2026) | SASSA Grant Hub
+  - /downloads/sassa-application-form title 77 chars: SASSA Grant Application Form 001: Download & Complete Guide | SASSA Grant Hub
+  - /downloads/sassa-application-form description 183 chars
+  - /downloads/sassa-bank-change-form title 78 chars: SASSA Consent Form for Bank Payment: Complete & Submit Guide | SASSA Grant Hub
+  - /downloads/sassa-bank-change-form description 169 chars
+  - /downloads/sassa-consent-form title 79 chars: SASSA Consent and Declaration Form: What You're Signing & Why | SASSA Grant Hub
+  - /downloads/sassa-consent-form description 180 chars
+  - /downloads/sassa-government-notice-template title 88 chars: SASSA Government Gazette Notices: Reference Guide & Where to Find Them | SASSA Grant Hub
+  - /downloads/sassa-grant-application-checklist title 83 chars: SASSA Grant Application Checklist: All Documents You Need in 2026 | SASSA Grant Hub
+  - /downloads/sassa-grant-application-checklist description 180 chars
+  - /downloads/srd-appeal-form title 85 chars: SRD Appeal Form 2026: Download DSD Appeal Form for SASSA R370 Grant | SASSA Grant Hub
+  - /downloads/srd-appeal-form description 170 chars
+  - /downloads/unemployment-affidavit-template title 83 chars: SASSA Unemployment Affidavit Template: How to Complete & Swear It | SASSA Grant Hub
+  - /downloads/unemployment-affidavit-template description 172 chars
+  - /eligibility/i-am-a-caregiver title 82 chars: SASSA Grants for Caregivers — Grant-in-Aid, Child Support & More | SASSA Grant Hub
+  - /eligibility/i-am-a-caregiver description 243 chars
+  - /eligibility/i-am-a-foster-parent title 97 chars: Foster Parent Check SASSA Status — Foster Child Grant Eligibility & Application | SASSA Grant Hub
+  - /eligibility/i-am-a-foster-parent description 225 chars
+  - /eligibility/i-am-a-student title 74 chars: Can Students Get SASSA Grants? Student Eligibility Guide | SASSA Grant Hub
+  - /eligibility/i-am-a-student description 229 chars
+  - /eligibility/i-am-disabled title 78 chars: SASSA Grant for Disabled — Eligibility & Medical Test (2026) | SASSA Grant Hub
+  - /eligibility/i-am-over-60 title 66 chars: SASSA Grant for Over 60s — Pension & Care (2026) | SASSA Grant Hub
+  - /eligibility/i-am-self-employed title 87 chars: SASSA Grants for Self-Employed & Informal Workers — Eligibility Guide | SASSA Grant Hub
+  - /eligibility/i-am-self-employed description 223 chars
+  - /eligibility/i-am-unemployed title 69 chars: SASSA Grant for Unemployed — Do You Qualify? (2026) | SASSA Grant Hub
+  - /eligibility/i-have-no-bank-account title 77 chars: SASSA Grants Without a Bank Account — Cash Collection Guide | SASSA Grant Hub
+  - /eligibility/i-have-no-bank-account description 188 chars
+  - /eligibility/i-receive-nsfas title 84 chars: SASSA Grant Eligibility for NSFAS-Funded Students — Complete Guide | SASSA Grant Hub
+  - /eligibility/i-receive-nsfas description 171 chars
+  - /eligibility/i-receive-pension title 73 chars: Can I Get a SASSA Grant if I Already Receive a Pension? | SASSA Grant Hub
+  - /eligibility/i-receive-pension description 190 chars
+  - /eligibility/i-receive-uif title 77 chars: Can I Get a SASSA Grant if I Receive UIF? Eligibility Rules | SASSA Grant Hub
+  - /eligibility/i-receive-uif description 200 chars
+  - /grants/care-dependency-grant/medical-assessment title 72 chars: Medical Assessment Guide — Care Dependency Grant SASSA | SASSA Grant Hub
+  - /grants/care-dependency-grant/medical-assessment description 175 chars
+  - /grants/care-dependency-grant title 67 chars: Care Dependency Grant — R2,400/Month (2026 Guide) | SASSA Grant Hub
+  - /grants/child-support-grant/means-test-detail title 76 chars: Child Support Grant Means Test — Guide for Caregivers 2026 | SASSA Grant Hub
+  - /grants/child-support-grant/means-test-detail description 194 chars
+  - /grants/child-support-grant title 72 chars: Child Support Grant — R580/Month & How to Apply (2026) | SASSA Grant Hub
+  - /grants/disability-grant/medical-assessment title 79 chars: Disability Grant Medical Exam — SASSA Doctor Assessment Guide | SASSA Grant Hub
+  - /grants/disability-grant/medical-assessment description 178 chars
+  - /grants/disability-grant title 71 chars: Disability Grant — R2,400/Month & How to Apply (2026) | SASSA Grant Hub
+  - /grants/disability-grant description 176 chars
+  - /grants/foster-care-grant/court-order-guide title 66 chars: Foster Care Grant Court Order Guide — SASSA 2026 | SASSA Grant Hub
+  - /grants/foster-care-grant/court-order-guide description 192 chars
+  - /grants/foster-care-grant title 73 chars: Foster Child Grant — R1,300/Month & How to Apply (2026) | SASSA Grant Hub
+  - /grants/grant-in-aid title 69 chars: Grant-in-Aid — R580/Month for Full-Time Care (2026) | SASSA Grant Hub
+  - /grants/older-person-grant title 73 chars: Older Person Grant — R2,400/Month & How to Apply (2026) | SASSA Grant Hub
+  - /grants/srd-r370-grant/monthly-review title 88 chars: SRD R370 Monthly Review — How SASSA Checks Your Eligibility Each Month | SASSA Grant Hub
+  - /grants/srd-r370-grant/monthly-review description 171 chars
+  - /grants/srd-r370-grant/payment-methods title 82 chars: SRD R370 Payment Methods — Bank Transfer vs Cash Send Collection | SASSA Grant Hub
+  - /grants/srd-r370-grant/payment-methods description 190 chars
+  - /grants/srd-r370-grant/status-check title 85 chars: SRD R370 Grant Status Meanings — Approved, Pending, Declined & More | SASSA Grant Hub
+  - /grants/srd-r370-grant title 72 chars: SRD R370 Grant — Check Status, Apply & Get Paid (2026) | SASSA Grant Hub
+  - /grants/war-veterans-grant title 72 chars: War Veterans Grant — R2,420/Month & Eligibility (2026) | SASSA Grant Hub
+  - /guides/cancel-srd-application title 70 chars: How to Cancel Your SRD R370 Application (2026 Guide) | SASSA Grant Hub
+  - /guides/cancel-srd-application description 169 chars
+  - /guides/change-srd-phone-number title 78 chars: How to Change Your SRD R370 Phone Number (2026 Step-by-Step) | SASSA Grant Hub
+  - /guides/check-sassa-balance title 74 chars: How to Check Your SASSA Balance (2026) — Postbank & Bank | SASSA Grant Hub
+  - /guides/how-to-apply-sassa-grant title 74 chars: How to Apply for a SASSA Grant — Step-by-Step Guide 2026 | SASSA Grant Hub
+  - /guides/how-to-apply-sassa-grant description 184 chars
+  - /guides/how-to-change-payment-method title 83 chars: How to Change Your SASSA Payment Method — Bank, Cash Send or Card | SASSA Grant Hub
+  - /guides/how-to-check-sassa-status title 101 chars: How to Check Your SASSA Grant Status — With Your ID Number, Online, WhatsApp & USSD | SASSA Grant Hub
+  - /guides/how-to-check-sassa-status description 189 chars
+  - /guides/reconfirm-srd-grant title 74 chars: How to Reconfirm Your SRD R370 Grant (2026 Step-by-Step) | SASSA Grant Hub
+  - /guides/sassa-documents-checklist title 77 chars: SASSA Required Documents Checklist — What You Need to Apply | SASSA Grant Hub
+  - /guides/sassa-documents-checklist description 176 chars
+  - /guides/sassa-grant-amounts-calculator title 75 chars: SASSA Grant Calculator 2026 — Estimate Your Monthly Total | SASSA Grant Hub
+  - /guides/sassa-grant-amounts-calculator description 187 chars
+  - /guides/sassa-grant-amounts title 78 chars: SASSA Grant Amounts 2026 — Complete List of All Grant Values | SASSA Grant Hub
+  - /guides/sassa-grant-amounts description 182 chars
+  - /guides/sassa-reference-number title 81 chars: SASSA Reference Number: Where to Find It & How to Use It (2026) | SASSA Grant Hub
+  - /guides/sassa-reference-number description 178 chars
+  - /guides/sassa-suspense-restoration-guide description 166 chars
+  - /guides/srd-call-centre-kiosk-help title 80 chars: SRD Help Without the Internet — Call Centre & Kiosk Guide 2026 | SASSA Grant Hub
+  - /guides/srd-call-centre-kiosk-help description 174 chars
+  - /guides/understanding-means-test title 87 chars: Understanding the SASSA Means Test — Income Thresholds & Asset Limits | SASSA Grant Hub
+  - /news/august-2026-payment-dates title 86 chars: August 2026 SASSA Payment Dates — Fourth Day Added for Grant Reviews | SASSA Grant Hub
+  - /news/august-2026-payment-dates description 185 chars
+  - /news/elife-certification-guide-srd title 72 chars: eLife Certification for SRD Grant: Complete Guide 2026 | SASSA Grant Hub
+  - /news/sassa-appeal-tips-for-success title 84 chars: 5 Tips for a Successful SASSA Grant Appeal in 2026 (ITSAA Process) | SASSA Grant Hub
+  - /news/sassa-appeal-tips-for-success description 176 chars
+  - /news/sassa-court-case-srd-help-options title 80 chars: SASSA SRD Court Case — Free Call Centre & Kiosk Help Explained | SASSA Grant Hub
+  - /news/sassa-court-case-srd-help-options description 179 chars
+  - /news/sassa-gold-card-to-black-card-migration title 77 chars: SASSA Gold Card to Black Card Migration — Switch Guide 2026 | SASSA Grant Hub
+  - /news/sassa-grant-review-crackdown-2026 title 71 chars: SASSA Grant Reviews 2026 — What a Review Notice Means | SASSA Grant Hub
+  - /news/sassa-grant-review-crackdown-2026 description 188 chars
+  - /news/sassa-november-2026-payment-dates-revised title 88 chars: November 2026 SASSA Payment Dates Revised — Pensioners Paid 30 October | SASSA Grant Hub
+  - /news/sassa-november-2026-payment-dates-revised description 190 chars
+  - /news/sassa-scam-warning-july-2026 title 85 chars: SASSA Scam Warning July 2026 — Fake SMS Targeting SRD Beneficiaries | SASSA Grant Hub
+  - /news/sassa-scam-warning-july-2026 description 172 chars
+  - /news/september-2026-payment-dates title 78 chars: September 2026 SASSA Payment Dates Confirmed — Full Schedule | SASSA Grant Hub
+  - /news/september-2026-payment-dates description 174 chars
+  - /news/social-grant-increases-2026 title 72 chars: 2026 Social Grant Increases — Full List of New Amounts | SASSA Grant Hub
+  - /news/srd-july-2026-payment-dates title 77 chars: SRD R370 July 2026 Payment Dates — Batch Schedule Confirmed | SASSA Grant Hub
+  - /news/srd-r370-grant-extended-to-march-2027 title 79 chars: SRD R370 Grant Extended to March 2027 — What You Need to Know | SASSA Grant Hub
+  - /offices/gp-pretoria-central title 83 chars: SASSA Pretoria Central Office: Hall Street, Services & Directions | SASSA Grant Hub
+  - /offices/gp-pretoria-central description 194 chars
+  - /offices/wc-cape-town title 76 chars: SASSA Cape Town Office: Dorp Street, Services & Directions | SASSA Grant Hub
+  - /offices/wc-cape-town description 206 chars
+  - /payment-dates/2026-april description 178 chars
+  - /payment-dates/2026-august title 73 chars: SASSA Payment Dates August 2026: New 4th Day Cycle & Full Payout Schedule
+  - /payment-dates/2026-august description 203 chars
+  - /payment-dates/2026-december description 166 chars
+  - /payment-dates/2026-february title 68 chars: SASSA Payment Dates February 2026 (Old Age, Disability, Child & SRD)
+  - /payment-dates/2026-january title 67 chars: SASSA Payment Dates January 2026 (Old Age, Disability, Child & SRD)
+  - /payment-dates/2026-july description 202 chars
+  - /payment-dates/2026-may description 173 chars
+  - /payment-dates/2026-november description 177 chars
+  - /payment-dates/2026-september description 173 chars
+  - /provinces/eastern-cape title 77 chars: SASSA Eastern Cape: Offices, Grants & Collection Guide 2026 | SASSA Grant Hub
+  - /provinces/eastern-cape description 186 chars
+  - /provinces/free-state title 75 chars: SASSA Free State: Offices, Grants & Collection Guide 2026 | SASSA Grant Hub
+  - /provinces/free-state description 185 chars
+  - /provinces/gauteng title 89 chars: SASSA Gauteng Province: Offices, Grants & Payment Collection Guide 2026 | SASSA Grant Hub
+  - /provinces/gauteng description 211 chars
+  - /provinces/kwazulu-natal title 78 chars: SASSA KwaZulu-Natal: Offices, Grants & Collection Guide 2026 | SASSA Grant Hub
+  - /provinces/kwazulu-natal description 183 chars
+  - /provinces/limpopo title 72 chars: SASSA Limpopo: Offices, Grants & Collection Guide 2026 | SASSA Grant Hub
+  - /provinces/limpopo description 187 chars
+  - /provinces/mpumalanga title 75 chars: SASSA Mpumalanga: Offices, Grants & Collection Guide 2026 | SASSA Grant Hub
+  - /provinces/mpumalanga description 172 chars
+  - /provinces/north-west title 75 chars: SASSA North West: Offices, Grants & Collection Guide 2026 | SASSA Grant Hub
+  - /provinces/north-west description 171 chars
+  - /provinces/northern-cape title 78 chars: SASSA Northern Cape: Offices, Grants & Collection Guide 2026 | SASSA Grant Hub
+  - /provinces/northern-cape description 182 chars
+  - /provinces/western-cape title 83 chars: SASSA Western Cape Province: Offices, Grants & Payment Guide 2026 | SASSA Grant Hub
+  - /provinces/western-cape description 197 chars
+  - /status/alternative-income-source title 81 chars: Alternative Income Source Detected — SASSA Status Meaning & Fix | SASSA Grant Hub
+  - /status/alternative-income-source description 177 chars
+  - /status/application-complete title 74 chars: Application Complete — SASSA Status Meaning & Next Steps | SASSA Grant Hub
+  - /status/application-complete description 173 chars
+  - /status/approved title 72 chars: SASSA Status Approved — When Will You Get Paid? (2026) | SASSA Grant Hub
+  - /status/bank-verification title 85 chars: Bank Verification Pending — SASSA Status Meaning & Resolution Guide | SASSA Grant Hub
+  - /status/bank-verification description 181 chars
+  - /status/cancelled title 78 chars: Cancelled — SASSA Grant Status Meaning & Reinstatement Guide | SASSA Grant Hub
+  - /status/deceased-record title 76 chars: SASSA 'Deceased Record' Status — How to Fix a Wrong Record | SASSA Grant Hub
+  - /status/declined title 72 chars: SASSA Status Declined? How to Appeal in 90 Days (2026) | SASSA Grant Hub
+  - /status/existing-grant title 77 chars: SASSA 'Existing Grant' Status — Meaning & How to Resolve It | SASSA Grant Hub
+  - /status/identity-verification title 75 chars: Identity Verification Failed — SASSA Status Meaning & Fix | SASSA Grant Hub
+  - /status/identity-verification description 192 chars
+  - /status/means-test-failed title 69 chars: SASSA Status Failed? Reasons & How to Fix It (2026) | SASSA Grant Hub
+  - /status/no-records-found title 71 chars: SASSA 'No Records Found' Status — Causes & Fix (2026) | SASSA Grant Hub
+  - /status/payment-processing title 84 chars: Payment Processing — SASSA Status Meaning & Money Arrival Timeline | SASSA Grant Hub
+  - /status/payment-processing description 193 chars
+  - /status/pending-30-days title 80 chars: Pending for 30+ Days — SASSA Status Meaning & Resolution Steps | SASSA Grant Hub
+  - /status/pending title 71 chars: SASSA Status Pending? What It Means & How Long (2026) | SASSA Grant Hub
+  - /status/reapplication-required title 78 chars: SASSA Status 'Reapplication Required' — Meaning & Fix (2026) | SASSA Grant Hub
+  - /status/referred title 79 chars: Referred — SASSA Status Meaning & Fraud Flag Resolution Guide | SASSA Grant Hub
+  - /status/referred description 182 chars
+  - /status/safps-flagged title 74 chars: SASSA 'SAFPS Flagged' Status — Meaning & How to Clear It | SASSA Grant Hub
+  - /status/self-exclusion title 86 chars: Self Exclusion — SASSA Status Meaning & Declaration Correction Guide | SASSA Grant Hub
+  - /status/uif-registered title 73 chars: SASSA 'UIF Registered' Status — Meaning & How to Fix It | SASSA Grant Hub
+
+NOTES
+  - / decorative empty alt (check intentional): /main-logo.svg
+  - / decorative empty alt (check intentional): /main-logo.svg
+  - /grants decorative empty alt (check intentional): /main-logo.svg
+  - /grants decorative empty alt (check intentional): /main-logo.svg
+  - /status decorative empty alt (check intentional): /main-logo.svg
+  - /status decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /appeals decorative empty alt (check intentional): /main-logo.svg
+  - /appeals decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility decorative empty alt (check intentional): /main-logo.svg
+  - /tools decorative empty alt (check intentional): /main-logo.svg
+  - /tools decorative empty alt (check intentional): /main-logo.svg
+  - /offices decorative empty alt (check intentional): /main-logo.svg
+  - /offices decorative empty alt (check intentional): /main-logo.svg
+  - /downloads decorative empty alt (check intentional): /main-logo.svg
+  - /downloads decorative empty alt (check intentional): /main-logo.svg
+  - /provinces decorative empty alt (check intentional): /main-logo.svg
+  - /provinces decorative empty alt (check intentional): /main-logo.svg
+  - /guides decorative empty alt (check intentional): /main-logo.svg
+  - /guides decorative empty alt (check intentional): /main-logo.svg
+  - /banking decorative empty alt (check intentional): /main-logo.svg
+  - /banking decorative empty alt (check intentional): /main-logo.svg
+  - /faq decorative empty alt (check intentional): /main-logo.svg
+  - /faq decorative empty alt (check intentional): /main-logo.svg
+  - /news decorative empty alt (check intentional): /main-logo.svg
+  - /news decorative empty alt (check intentional): /main-logo.svg
+  - /about decorative empty alt (check intentional): /main-logo.svg
+  - /about decorative empty alt (check intentional): /main-logo.svg
+  - /about/lucky-cungwa decorative empty alt (check intentional): /main-logo.svg
+  - /about/lucky-cungwa decorative empty alt (check intentional): /main-logo.svg
+  - /contact decorative empty alt (check intentional): /main-logo.svg
+  - /contact decorative empty alt (check intentional): /main-logo.svg
+  - /privacy decorative empty alt (check intentional): /main-logo.svg
+  - /privacy decorative empty alt (check intentional): /main-logo.svg
+  - /terms decorative empty alt (check intentional): /main-logo.svg
+  - /terms decorative empty alt (check intentional): /main-logo.svg
+  - /disclaimer decorative empty alt (check intentional): /main-logo.svg
+  - /disclaimer decorative empty alt (check intentional): /main-logo.svg
+  - /editorial-policy decorative empty alt (check intentional): /main-logo.svg
+  - /editorial-policy decorative empty alt (check intentional): /main-logo.svg
+  - /corrections-policy decorative empty alt (check intentional): /main-logo.svg
+  - /corrections-policy decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-after-decline decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-after-decline decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-after-income-source decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-after-income-source decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-after-nsfas decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-after-nsfas decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-after-uif decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-after-uif decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-documents decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-documents decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-faqs decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-faqs decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-for-srd decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-for-srd decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-outcomes decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-outcomes decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-reasons decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-reasons decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-status-check decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-status-check decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-timeline decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/appeal-timeline decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/how-to-appeal decorative empty alt (check intentional): /main-logo.svg
+  - /appeals/how-to-appeal decorative empty alt (check intentional): /main-logo.svg
+  - /banking/bank-verification-process decorative empty alt (check intentional): /main-logo.svg
+  - /banking/bank-verification-process decorative empty alt (check intentional): /main-logo.svg
+  - /banking/black-card-swap decorative empty alt (check intentional): /main-logo.svg
+  - /banking/black-card-swap decorative empty alt (check intentional): /main-logo.svg
+  - /banking/can-i-use-someone-elses-account decorative empty alt (check intentional): /main-logo.svg
+  - /banking/can-i-use-someone-elses-account decorative empty alt (check intentional): /main-logo.svg
+  - /banking/cash-send-guide decorative empty alt (check intentional): /main-logo.svg
+  - /banking/cash-send-guide decorative empty alt (check intentional): /main-logo.svg
+  - /banking/how-to-register-for-srd-portal decorative empty alt (check intentional): /main-logo.svg
+  - /banking/how-to-register-for-srd-portal decorative empty alt (check intentional): /main-logo.svg
+  - /banking/payment-methods decorative empty alt (check intentional): /main-logo.svg
+  - /banking/payment-methods decorative empty alt (check intentional): /main-logo.svg
+  - /banking/payment-not-reflecting decorative empty alt (check intentional): /main-logo.svg
+  - /banking/payment-not-reflecting decorative empty alt (check intentional): /main-logo.svg
+  - /banking/sassa-card-explained decorative empty alt (check intentional): /main-logo.svg
+  - /banking/sassa-card-explained decorative empty alt (check intentional): /main-logo.svg
+  - /banking/sassa-card-replacement decorative empty alt (check intentional): /main-logo.svg
+  - /banking/sassa-card-replacement decorative empty alt (check intentional): /main-logo.svg
+  - /banking/sassa-ussd-codes decorative empty alt (check intentional): /main-logo.svg
+  - /banking/sassa-ussd-codes decorative empty alt (check intentional): /main-logo.svg
+  - /banking/update-bank-details decorative empty alt (check intentional): /main-logo.svg
+  - /banking/update-bank-details decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-application-form decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-application-form decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-bank-change-form decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-bank-change-form decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-consent-form decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-consent-form decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-government-notice-template decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-government-notice-template decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-grant-application-checklist decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/sassa-grant-application-checklist decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/srd-appeal-form decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/srd-appeal-form decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/unemployment-affidavit-template decorative empty alt (check intentional): /main-logo.svg
+  - /downloads/unemployment-affidavit-template decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-a-caregiver decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-a-caregiver decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-a-foster-parent decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-a-foster-parent decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-a-student decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-a-student decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-disabled decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-disabled decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-over-60 decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-over-60 decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-self-employed decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-self-employed decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-unemployed decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-am-unemployed decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-have-no-bank-account decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-have-no-bank-account decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-receive-nsfas decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-receive-nsfas decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-receive-pension decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-receive-pension decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-receive-uif decorative empty alt (check intentional): /main-logo.svg
+  - /eligibility/i-receive-uif decorative empty alt (check intentional): /main-logo.svg
+  - /grants/care-dependency-grant/medical-assessment decorative empty alt (check intentional): /main-logo.svg
+  - /grants/care-dependency-grant/medical-assessment decorative empty alt (check intentional): /main-logo.svg
+  - /grants/care-dependency-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/care-dependency-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/child-support-grant/means-test-detail decorative empty alt (check intentional): /main-logo.svg
+  - /grants/child-support-grant/means-test-detail decorative empty alt (check intentional): /main-logo.svg
+  - /grants/child-support-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/child-support-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/disability-grant/medical-assessment decorative empty alt (check intentional): /main-logo.svg
+  - /grants/disability-grant/medical-assessment decorative empty alt (check intentional): /main-logo.svg
+  - /grants/disability-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/disability-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/foster-care-grant/court-order-guide decorative empty alt (check intentional): /main-logo.svg
+  - /grants/foster-care-grant/court-order-guide decorative empty alt (check intentional): /main-logo.svg
+  - /grants/foster-care-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/foster-care-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/grant-in-aid decorative empty alt (check intentional): /main-logo.svg
+  - /grants/grant-in-aid decorative empty alt (check intentional): /main-logo.svg
+  - /grants/older-person-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/older-person-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/srd-r370-grant/monthly-review decorative empty alt (check intentional): /main-logo.svg
+  - /grants/srd-r370-grant/monthly-review decorative empty alt (check intentional): /main-logo.svg
+  - /grants/srd-r370-grant/payment-methods decorative empty alt (check intentional): /main-logo.svg
+  - /grants/srd-r370-grant/payment-methods decorative empty alt (check intentional): /main-logo.svg
+  - /grants/srd-r370-grant/status-check decorative empty alt (check intentional): /main-logo.svg
+  - /grants/srd-r370-grant/status-check decorative empty alt (check intentional): /main-logo.svg
+  - /grants/srd-r370-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/srd-r370-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/war-veterans-grant decorative empty alt (check intentional): /main-logo.svg
+  - /grants/war-veterans-grant decorative empty alt (check intentional): /main-logo.svg
+  - /guides/cancel-srd-application decorative empty alt (check intentional): /main-logo.svg
+  - /guides/cancel-srd-application decorative empty alt (check intentional): /main-logo.svg
+  - /guides/change-srd-phone-number decorative empty alt (check intentional): /main-logo.svg
+  - /guides/change-srd-phone-number decorative empty alt (check intentional): /main-logo.svg
+  - /guides/check-sassa-balance decorative empty alt (check intentional): /main-logo.svg
+  - /guides/check-sassa-balance decorative empty alt (check intentional): /main-logo.svg
+  - /guides/how-to-apply-sassa-grant decorative empty alt (check intentional): /main-logo.svg
+  - /guides/how-to-apply-sassa-grant decorative empty alt (check intentional): /main-logo.svg
+  - /guides/how-to-change-payment-method decorative empty alt (check intentional): /main-logo.svg
+  - /guides/how-to-change-payment-method decorative empty alt (check intentional): /main-logo.svg
+  - /guides/how-to-check-sassa-status decorative empty alt (check intentional): /main-logo.svg
+  - /guides/how-to-check-sassa-status decorative empty alt (check intentional): /main-logo.svg
+  - /guides/reconfirm-srd-grant decorative empty alt (check intentional): /main-logo.svg
+  - /guides/reconfirm-srd-grant decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-documents-checklist decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-documents-checklist decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-grant-amounts-calculator decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-grant-amounts-calculator decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-grant-amounts decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-grant-amounts decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-reference-number decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-reference-number decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-scam-alert-guide decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-scam-alert-guide decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-suspense-restoration-guide decorative empty alt (check intentional): /main-logo.svg
+  - /guides/sassa-suspense-restoration-guide decorative empty alt (check intentional): /main-logo.svg
+  - /guides/srd-call-centre-kiosk-help decorative empty alt (check intentional): /main-logo.svg
+  - /guides/srd-call-centre-kiosk-help decorative empty alt (check intentional): /main-logo.svg
+  - /guides/understanding-means-test decorative empty alt (check intentional): /main-logo.svg
+  - /guides/understanding-means-test decorative empty alt (check intentional): /main-logo.svg
+  - /news/august-2026-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /news/august-2026-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /news/elife-certification-guide-srd decorative empty alt (check intentional): /main-logo.svg
+  - /news/elife-certification-guide-srd decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-appeal-tips-for-success decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-appeal-tips-for-success decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-court-case-srd-help-options decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-court-case-srd-help-options decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-gold-card-to-black-card-migration decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-gold-card-to-black-card-migration decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-grant-review-crackdown-2026 decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-grant-review-crackdown-2026 decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-november-2026-payment-dates-revised decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-november-2026-payment-dates-revised decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-scam-warning-july-2026 decorative empty alt (check intentional): /main-logo.svg
+  - /news/sassa-scam-warning-july-2026 decorative empty alt (check intentional): /main-logo.svg
+  - /news/september-2026-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /news/september-2026-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /news/social-grant-increases-2026 decorative empty alt (check intentional): /main-logo.svg
+  - /news/social-grant-increases-2026 decorative empty alt (check intentional): /main-logo.svg
+  - /news/srd-july-2026-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /news/srd-july-2026-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /news/srd-r370-grant-extended-to-march-2027 decorative empty alt (check intentional): /main-logo.svg
+  - /news/srd-r370-grant-extended-to-march-2027 decorative empty alt (check intentional): /main-logo.svg
+  - /offices/gp-pretoria-central decorative empty alt (check intentional): /main-logo.svg
+  - /offices/gp-pretoria-central decorative empty alt (check intentional): /main-logo.svg
+  - /offices/wc-cape-town decorative empty alt (check intentional): /main-logo.svg
+  - /offices/wc-cape-town decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-april decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-april decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-august decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-august decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-december decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-december decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-february decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-february decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-january decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-january decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-july decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-july decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-june decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-june decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-march decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-march decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-may decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-may decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-november decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-november decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-october decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-october decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-september decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/2026-september decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/child-support-grant-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/child-support-grant-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/disability-grant-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/disability-grant-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/older-persons-grant-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /payment-dates/older-persons-grant-payment-dates decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/eastern-cape decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/eastern-cape decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/free-state decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/free-state decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/gauteng decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/gauteng decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/kwazulu-natal decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/kwazulu-natal decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/limpopo decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/limpopo decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/mpumalanga decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/mpumalanga decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/north-west decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/north-west decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/northern-cape decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/northern-cape decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/western-cape decorative empty alt (check intentional): /main-logo.svg
+  - /provinces/western-cape decorative empty alt (check intentional): /main-logo.svg
+  - /status/alternative-income-source decorative empty alt (check intentional): /main-logo.svg
+  - /status/alternative-income-source decorative empty alt (check intentional): /main-logo.svg
+  - /status/application-complete decorative empty alt (check intentional): /main-logo.svg
+  - /status/application-complete decorative empty alt (check intentional): /main-logo.svg
+  - /status/approved decorative empty alt (check intentional): /main-logo.svg
+  - /status/approved decorative empty alt (check intentional): /main-logo.svg
+  - /status/bank-verification decorative empty alt (check intentional): /main-logo.svg
+  - /status/bank-verification decorative empty alt (check intentional): /main-logo.svg
+  - /status/cancelled decorative empty alt (check intentional): /main-logo.svg
+  - /status/cancelled decorative empty alt (check intentional): /main-logo.svg
+  - /status/deceased-record decorative empty alt (check intentional): /main-logo.svg
+  - /status/deceased-record decorative empty alt (check intentional): /main-logo.svg
+  - /status/declined decorative empty alt (check intentional): /main-logo.svg
+  - /status/declined decorative empty alt (check intentional): /main-logo.svg
+  - /status/existing-grant decorative empty alt (check intentional): /main-logo.svg
+  - /status/existing-grant decorative empty alt (check intentional): /main-logo.svg
+  - /status/identity-verification decorative empty alt (check intentional): /main-logo.svg
+  - /status/identity-verification decorative empty alt (check intentional): /main-logo.svg
+  - /status/means-test-failed decorative empty alt (check intentional): /main-logo.svg
+  - /status/means-test-failed decorative empty alt (check intentional): /main-logo.svg
+  - /status/no-records-found decorative empty alt (check intentional): /main-logo.svg
+  - /status/no-records-found decorative empty alt (check intentional): /main-logo.svg
+  - /status/payment-processing decorative empty alt (check intentional): /main-logo.svg
+  - /status/payment-processing decorative empty alt (check intentional): /main-logo.svg
+  - /status/pending-30-days decorative empty alt (check intentional): /main-logo.svg
+  - /status/pending-30-days decorative empty alt (check intentional): /main-logo.svg
+  - /status/pending decorative empty alt (check intentional): /main-logo.svg
+  - /status/pending decorative empty alt (check intentional): /main-logo.svg
+  - /status/reapplication-required decorative empty alt (check intentional): /main-logo.svg
+  - /status/reapplication-required decorative empty alt (check intentional): /main-logo.svg
+  - /status/referred decorative empty alt (check intentional): /main-logo.svg
+  - /status/referred decorative empty alt (check intentional): /main-logo.svg
+  - /status/safps-flagged decorative empty alt (check intentional): /main-logo.svg
+  - /status/safps-flagged decorative empty alt (check intentional): /main-logo.svg
+  - /status/self-exclusion decorative empty alt (check intentional): /main-logo.svg
+  - /status/self-exclusion decorative empty alt (check intentional): /main-logo.svg
+  - /status/uif-registered decorative empty alt (check intentional): /main-logo.svg
+  - /status/uif-registered decorative empty alt (check intentional): /main-logo.svg
+
+Schema types: {
+  WebSite: 150,
+  SearchAction: 150,
+  EntryPoint: 150,
+  Organization: 150,
+  ImageObject: 150,
+  Person: 150,
+  WebPage: 142,
+  BreadcrumbList: 142,
+  ListItem: 142,
+  FAQPage: 131,
+  Question: 131,
+  Answer: 131,
+  AboutPage: 1,
+  ContactPage: 1,
+  Article: 116,
+  NewsArticle: 12
+}

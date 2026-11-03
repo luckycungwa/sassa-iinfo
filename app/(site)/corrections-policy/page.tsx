@@ -1,19 +1,14 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
 import { breadcrumbSchema, webpageSchema } from "@/lib/json-ld";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Corrections Policy",
   description:
     "How SASSA Grant Hub handles factual errors, outdated payment dates and reader reports, including what we change and how corrections are logged.",
-  alternates: { canonical: canonicalUrl("/corrections-policy") },
-  openGraph: {
-    title: "Corrections Policy | SASSA Grant Hub",
-    description: "How we investigate, correct and log errors in SASSA information.",
-  },
-};
+  path: "/corrections-policy",
+});
 
 const corrections = [
   {

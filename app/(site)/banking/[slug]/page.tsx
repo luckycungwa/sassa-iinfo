@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { bankingGuides } from "../../../../lib/data/banking";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema, faqSchema, articleSchema } from "../../../../lib/json-ld";
@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/banking/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/banking/${slug}`), languages: localeAlternates(`/banking/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/banking/${slug}`, absoluteTitle: true });
   }
 
   const guide = bankingGuides.find((g) => g.slug === slug);
   if (!guide) return {};
-  return { title: `${guide.title} | SASSA Banking Guide`, description: guide.description, alternates: { canonical: canonicalUrl(`/banking/${slug}`), languages: localeAlternates(`/banking/${slug}`) } };
+  return pageMetadata({ title: `${guide.title} | SASSA Banking Guide`, description: guide.description, path: `/banking/${slug}`, absoluteTitle: true });
 }
 
 export default async function BankingDetailPage({ params }: { params: Promise<{ slug: string }> }) {

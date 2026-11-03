@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { Scale } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Terms of Service | SASSA Grant Hub",
-  description: "Terms of service for using the SASSA Resource Platform. By using this site, you agree to these terms and acknowledge this is an independent informational resource.",
-  alternates: { canonical: canonicalUrl("/terms") },
-};
+  description:
+    "Terms for using SASSA Grant Hub, including acceptable use and acknowledgement that this is an independent informational resource.",
+  path: "/terms",
+  absoluteTitle: true,
+});
 
 export default function TermsPage() {
   return (

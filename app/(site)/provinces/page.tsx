@@ -1,8 +1,7 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight, Building, MapPin, Phone, Users } from "lucide-react";
 import { provinces } from "../../../lib/data/provinces";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "@/lib/json-ld";
 
 const provinceFaqs = [
@@ -11,15 +10,12 @@ const provinceFaqs = [
   { question: "Which province has the most SASSA beneficiaries?", answer: "Gauteng has the highest number of beneficiaries due to its large population, followed by KwaZulu-Natal and the Eastern Cape." },
 ];
 
-export const metadata: Metadata = {
-  title: "SASSA Offices by Province 2026 — Find & Collect Near You",
-  description: "Find SASSA provincial offices, regional addresses, phone numbers and collection points for all 9 provinces in 2026.",
-  alternates: { canonical: canonicalUrl("/provinces") },
-  openGraph: {
-    title: "SASSA Offices by Province 2026 — Find & Collect Near You",
-    description: "Find SASSA provincial offices, regional addresses, phone numbers and collection points for all 9 provinces in 2026.",
-  },
-};
+export const metadata = pageMetadata({
+  title: "SASSA Offices by Province 2026",
+  description:
+    "Find SASSA provincial offices, regional addresses, phone numbers and collection points for all nine provinces in 2026.",
+  path: "/provinces",
+});
 
 export default function ProvincesHubPage() {
   const pageSchema = webpageSchema("SASSA Offices by Province 2026 — Find & Collect Near You", "Find SASSA provincial offices, regional addresses, phone numbers and collection points for all 9 provinces in 2026.", "/provinces");

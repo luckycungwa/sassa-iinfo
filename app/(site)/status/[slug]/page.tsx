@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { getPageBySlug, getPagesByClassification } from "../../../../lib/content-loader";
 import { statuses } from "../../../../lib/data/statuses";
 import { EditorialRenderer } from "../../../../components/ContentBlockRenderer";
@@ -21,15 +21,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const content = getPageBySlug("/status/" + slug);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/status/${slug}`), languages: localeAlternates(`/status/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/status/${slug}`, absoluteTitle: true });
   }
   const status = statuses.find((s) => s.slug === slug);
   if (!status) return {};
-  return {
-    title: "SASSA \"" + status.statusName + "\" Status Meaning | What It Means & What To Do",
+  return pageMetadata({
+    title: `SASSA "${status.statusName}" Status Meaning`,
     description: status.shortDescription,
-    alternates: { canonical: canonicalUrl(`/status/${slug}`), languages: localeAlternates(`/status/${slug}`) },
-  };
+    path: `/status/${slug}`,
+    absoluteTitle: true,
+  });
 }
 
 export default async function StatusDetailPage({ params }: { params: Promise<{ slug: string }> }) {

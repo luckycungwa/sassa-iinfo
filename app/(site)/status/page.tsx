@@ -1,22 +1,18 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { Search, Clock, AlertTriangle, ShieldCheck, ArrowRight, CheckCircle, XCircle } from "lucide-react";
 import { statuses } from "../../../lib/data/statuses";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
 
 const featuredStatuses = statuses.filter((s) => ["pending", "approved", "declined", "alternative-income-source"].includes(s.slug));
 
-export const metadata: Metadata = {
-  title: "SASSA Status Meanings Explained | SRD & Grant Application Status Codes 2026",
-  description: "Complete guide to all SASSA grant status codes including Pending, Approved, Declined, Cancelled, Bank Verification, Alternative Income Source, Means Test Failed, and more. Learn what each status means and what to do next.",
-  alternates: { canonical: canonicalUrl("/status") },
-  openGraph: {
-    title: "SASSA Status Meanings Explained | SRD & Grant Application Status Codes 2026",
-    description: "Complete guide to all SASSA grant status codes. Learn what Pending, Approved, Declined, and other statuses mean.",
-  },
-};
+export const metadata = pageMetadata({
+  title: "SASSA Status Codes Explained 2026",
+  description:
+    "What each SASSA status code means, including Pending, Approved, Declined, Cancelled and Bank Verification, and what to do next.",
+  path: "/status",
+});
 
 export default function StatusHubPage() {
   const pageSchema = webpageSchema("SASSA Status Meanings Explained | SRD & Grant Application Status Codes 2026", "Complete guide to all SASSA grant status codes with explanations and next steps.", "/status");

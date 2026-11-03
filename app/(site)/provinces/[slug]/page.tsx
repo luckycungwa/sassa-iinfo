@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { provinces } from "../../../../lib/data/provinces";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema, faqSchema, articleSchema } from "../../../../lib/json-ld";
@@ -24,16 +24,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/provinces/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/provinces/${slug}`), languages: localeAlternates(`/provinces/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/provinces/${slug}`, absoluteTitle: true });
   }
 
   const province = provinces.find((p) => p.slug === slug);
   if (!province) return {};
-  return {
-    title: `SASSA ${province.name} | Regional Office & Grant Information`,
-    description: `Complete SASSA guide for ${province.name}. Regional office at ${province.regionalOfficeAddress}. Phone: ${province.regionalOfficePhone}. Collection info and FAQs.`,
-    alternates: { canonical: canonicalUrl(`/provinces/${slug}`), languages: localeAlternates(`/provinces/${slug}`) },
-  };
+  return pageMetadata({
+    title: `SASSA ${province.name} | Regional Office & Grants`,
+    description: `SASSA guide for ${province.name}: regional office, address, phone number, collection information and grant FAQs.`,
+    path: `/provinces/${slug}`,
+    absoluteTitle: true,
+  });
 }
 
 export default async function ProvinceDetailPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -39,6 +39,9 @@ const nextConfig: NextConfig = {
     return [
       // Domain migration: legacy hosts permanently redirect to the canonical origin.
       // These rules take effect once the legacy domains are attached to this project.
+      // Do NOT add www.sassagranthub.co.za here: Vercel already redirects between
+      // the apex and www domains at the edge. An app-level www rule fights that
+      // edge redirect and produces an infinite loop (apex 308 -> www 301 -> apex).
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'sassagranttguide.vercel.app' }],
@@ -54,12 +57,6 @@ const nextConfig: NextConfig = {
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'www.sassagrantguide.co.za' }],
-        destination: 'https://sassagranthub.co.za/:path*',
-        statusCode: 301,
-      },
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'www.sassagranthub.co.za' }],
         destination: 'https://sassagranthub.co.za/:path*',
         statusCode: 301,
       },

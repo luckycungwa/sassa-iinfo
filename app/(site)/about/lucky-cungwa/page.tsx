@@ -1,18 +1,15 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
 import { personSchema, webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Lucky Cungwa — Editor, SASSA Grant Hub",
-  description: "Meet Lucky Cungwa, editor and founder of SASSA Grant Hub. Read about the person behind this independent SASSA resource and how content is researched and verified.",
-  alternates: { canonical: canonicalUrl("/about/lucky-cungwa") },
-  openGraph: {
-    title: "Lucky Cungwa — Editor, SASSA Grant Hub",
-    description: "The person behind the independent SASSA Grant Hub and how content is verified.",
-  },
-};
+  description:
+    "Meet Lucky Cungwa, editor and founder of SASSA Grant Hub, and read how this independent SASSA resource researches and verifies content.",
+  path: "/about/lucky-cungwa",
+  absoluteTitle: true,
+});
 
 export default function AuthorPage() {
   const pageSchema = webpageSchema("Lucky Cungwa — Editor, SASSA Grant Hub", "Meet the editor behind SASSA Grant Hub.", "/about/lucky-cungwa");

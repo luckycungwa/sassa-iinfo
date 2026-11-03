@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { paymentMonths, isoToLong, PAYMENT_DATA_UPDATED } from "../../../../lib/data/paymentDates";
 import { OFFICIAL_LINKS } from "@/lib/site";
 
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/payment-dates/${slug}`);
   if (content) {
-    return { title: { absolute: content.seo.metaTitle }, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/payment-dates/${slug}`), languages: localeAlternates(`/payment-dates/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/payment-dates/${slug}`, absoluteTitle: true });
   }
 
   const month = paymentMonths.find((m) => m.slug === slug);
@@ -36,12 +36,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const statusLabel = month.status === "provisional" ? "Provisional" : "Confirmed";
   const title = `SASSA Payment Dates ${month.label} — ${statusLabel} Schedule`;
   const description = `SASSA payment dates for ${month.label}: Older Persons ${month.dates.olderPersons}, Disability ${month.dates.disability}, Children ${month.dates.children}, SRD R370 ${month.dates.srd}. ${statusLabel} schedule with official links.`;
-  return {
+  return pageMetadata({
     title,
     description,
-    alternates: { canonical: canonicalUrl(`/payment-dates/${slug}`), languages: localeAlternates(`/payment-dates/${slug}`) },
-    openGraph: { title, description },
-  };
+    path: `/payment-dates/${slug}`,
+    absoluteTitle: true,
+  });
 }
 
 export default async function PaymentMonthPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { faqCategories } from "../../../lib/data/faq";
 import { faqSchema, breadcrumbSchema } from "../../../lib/json-ld";
-import { canonicalUrl } from "@/lib/canonical";
 
-export const metadata: Metadata = {
-  title: "SASSA FAQ — Answers to Common Grant Questions",
-  description: "Get answers to the most frequently asked SASSA questions: application status, payment dates, eligibility, appeals, banking, and more.",
-  alternates: { canonical: canonicalUrl("/faq") },
-};
+export const metadata = pageMetadata({
+  title: "SASSA FAQ — Common Grant Questions Answered",
+  description:
+    "Answers to common SASSA questions about application status, payment dates, eligibility, appeals, banking details and official contact channels.",
+  path: "/faq",
+});
 
 export default function FAQPage() {
   const allFaqs = faqCategories.flatMap((c) => c.questions);

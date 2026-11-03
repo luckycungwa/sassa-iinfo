@@ -1,16 +1,15 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { Search, ChevronRight } from "lucide-react";
 import { search } from "@/lib/search";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema } from "@/lib/json-ld";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Search",
   description: "Search SASSA Grant Hub for grants, statuses, payment dates, offices, guides, and answers.",
-  robots: { index: false, follow: true },
-  alternates: { canonical: canonicalUrl("/search") },
-};
+  path: "/search",
+  noindex: true,
+});
 
 export default async function SearchPage({
   searchParams,

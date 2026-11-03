@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { FileText } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Privacy Policy | SASSA Grant Hub",
   description:
-    "How this website handles data: AI assistant processing, cookies used for advertising and anonymous traffic measurement, and your choices under South Africa's POPIA.",
-  alternates: { canonical: canonicalUrl("/privacy") },
-};
+    "How this website handles data: assistant processing, advertising and analytics cookies, and your choices under South Africa's POPIA.",
+  path: "/privacy",
+  absoluteTitle: true,
+});
 
 export default function PrivacyPage() {
   const pageSchema = webpageSchema(

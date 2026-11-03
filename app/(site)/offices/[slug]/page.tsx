@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { offices } from "../../../../lib/data/offices";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema, articleSchema } from "../../../../lib/json-ld";
@@ -24,17 +24,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/offices/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/offices/${slug}`), languages: localeAlternates(`/offices/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/offices/${slug}`, absoluteTitle: true });
   }
 
   const office = offices.find((o) => o.id === slug);
   if (!office) return {};
-  return {
+  return pageMetadata({
     title: `${office.name} — Address, Phone & Hours`,
     description: `${office.name} in ${office.city}. Address, phone number, operating hours and services offered.`,
-    alternates: { canonical: canonicalUrl(`/offices/${slug}`), languages: localeAlternates(`/offices/${slug}`) },
-    robots: { index: false, follow: true },
-  };
+    path: `/offices/${slug}`,
+    absoluteTitle: true,
+    noindex: true,
+  });
 }
 
 export default async function OfficeDetailPage({ params }: { params: Promise<{ slug: string }> }) {

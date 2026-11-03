@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { FileText, Shield, Clock, CheckCircle, AlertTriangle, Search, UserCheck } from "lucide-react";
-import { canonicalUrl } from "@/lib/canonical";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Editorial Policy | SASSA Grant Hub",
-  description: "How SASSA Grant Hub researches, verifies, and updates content about South African social grants. Accuracy standards, sourcing policy, and correction process.",
-  alternates: { canonical: canonicalUrl("/editorial-policy") },
-};
+  description:
+    "How SASSA Grant Hub researches, sources, verifies and updates social grant information, and how corrections and reader reports are handled.",
+  path: "/editorial-policy",
+  absoluteTitle: true,
+});
 
 const principles = [
   {

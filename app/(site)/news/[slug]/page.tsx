@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import ArticleProvenance from "../../../../components/ArticleProvenance";
 import { newsArticleSchema, breadcrumbSchema, faqSchema } from "../../../../lib/json-ld";
@@ -18,20 +18,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const content = getPageBySlug(`/news/${slug}`);
   if (!content || content.status !== "published") return {};
   const publishedAt = content.publishedAt ?? content.lastUpdated;
-  return {
+  return pageMetadata({
     title: content.seo.metaTitle,
     description: content.seo.metaDescription,
-    alternates: { canonical: canonicalUrl(`/news/${slug}`), languages: localeAlternates(`/news/${slug}`) },
-    openGraph: {
-      type: "article",
-      title: content.seo.metaTitle,
-      description: content.seo.metaDescription,
-      url: canonicalUrl(`/news/${slug}`),
-      publishedTime: publishedAt,
-      modifiedTime: content.lastUpdated,
-      authors: [content.author.name],
-    },
-  };
+    path: `/news/${slug}`,
+    absoluteTitle: true,
+    type: "article",
+    publishedTime: publishedAt,
+    modifiedTime: content.lastUpdated,
+  });
 }
 
 export default async function NewsDetailPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { guides } from "../../../../lib/data/guides";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema, howToSchema, faqSchema, articleSchema } from "../../../../lib/json-ld";
@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/guides/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/guides/${slug}`), languages: localeAlternates(`/guides/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/guides/${slug}`, absoluteTitle: true });
   }
 
   const guide = guides.find((g) => g.slug === slug);
   if (!guide) return {};
-  return { title: `${guide.title} | SASSA Step-by-Step Guide`, description: guide.description, alternates: { canonical: canonicalUrl(`/guides/${slug}`), languages: localeAlternates(`/guides/${slug}`) } };
+  return pageMetadata({ title: `${guide.title} | SASSA Step-by-Step Guide`, description: guide.description, path: `/guides/${slug}`, absoluteTitle: true });
 }
 
 export default async function GuideDetailPage({ params }: { params: Promise<{ slug: string }> }) {

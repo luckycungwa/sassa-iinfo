@@ -1,9 +1,8 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight, Search, Users, CheckCircle2, AlertTriangle } from "lucide-react";
 import { eligibilityGuides } from "../../../lib/data/eligibility";
 import { loadAllContent } from "../../../lib/content-loader";
-import { canonicalUrl } from "@/lib/canonical";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "@/lib/json-ld";
 
 const faqs = [
@@ -13,15 +12,12 @@ const faqs = [
   { question: "What if my situation changes after I'm approved for a grant?", answer: "You must report changes in income, employment, or household composition to SASSA. Failure to do so can result in overpayment recovery or cancellation of your grant." },
 ];
 
-export const metadata: Metadata = {
-  title: "SASSA Grant Eligibility Guide 2026 | Do You Qualify?",
-  description: "Not sure which SASSA grant you qualify for? Select your situation: unemployed, student, over 60, disabled, UIF recipient, or no bank account. Find matching grants with full eligibility criteria and means test thresholds.",
-  alternates: { canonical: canonicalUrl("/eligibility") },
-  openGraph: {
-    title: "SASSA Grant Eligibility Guide 2026 | Do You Qualify?",
-    description: "Not sure which SASSA grant you qualify for? Find matching grants based on your situation.",
-  },
-};
+export const metadata = pageMetadata({
+  title: "SASSA Grant Eligibility Guide 2026",
+  description:
+    "Find the SASSA grants that match your situation: unemployed, student, over 60, disabled, receiving UIF or NSFAS, or without a bank account.",
+  path: "/eligibility",
+});
 
 const commonSituations = eligibilityGuides.filter((g) =>
   ["i-am-unemployed", "i-am-over-60", "i-am-disabled", "i-receive-uif"].includes(g.slug)

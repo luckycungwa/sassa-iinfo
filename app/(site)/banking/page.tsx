@@ -1,15 +1,15 @@
-﻿import type { Metadata } from "next";
+﻿import { pageMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { ArrowRight, Banknote, CreditCard, Building2, Smartphone, ShieldCheck } from "lucide-react";
 import { bankingGuides } from "../../../lib/data/banking";
 import { loadAllContent } from "../../../lib/content-loader";
-import { canonicalUrl } from "@/lib/canonical";
 
-export const metadata: Metadata = {
-  title: "SASSA Banking | Payment Methods & Bank Details Guide",
-  description: "Complete guide to SASSA payment methods, bank verification, and how to update your bank details for grant payments.",
-  alternates: { canonical: canonicalUrl("/banking") },
-};
+export const metadata = pageMetadata({
+  title: "SASSA Banking: Payment Methods & Bank Details",
+  description:
+    "How SASSA pays grants, how bank verification works, and how to update your bank details safely without losing a payment.",
+  path: "/banking",
+});
 
 const guideIcons: Record<string, React.ReactNode> = {
   "payment-methods": <CreditCard className="w-5 h-5" />,

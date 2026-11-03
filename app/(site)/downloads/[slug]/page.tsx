@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPageBySlug, loadAllContent } from "../../../../lib/content-loader";
-import { canonicalUrl, localeAlternates } from "@/lib/canonical";
+import { pageMetadata } from "@/lib/metadata";
 import { downloadableForms } from "../../../../lib/data/downloads";
 import { ContentBlockRenderer } from "../../../../components/ContentBlockRenderer";
 import { breadcrumbSchema, faqSchema, articleSchema } from "../../../../lib/json-ld";
@@ -25,12 +25,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/downloads/${slug}`);
   if (content) {
-    return { title: content.seo.metaTitle, description: content.seo.metaDescription, alternates: { canonical: canonicalUrl(`/downloads/${slug}`), languages: localeAlternates(`/downloads/${slug}`) } };
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/downloads/${slug}`, absoluteTitle: true });
   }
 
   const form = downloadableForms.find((d) => d.slug === slug);
   if (!form) return {};
-  return { title: `${form.title} | SASSA Form Download & Guide`, description: form.shortDescription, alternates: { canonical: canonicalUrl(`/downloads/${slug}`), languages: localeAlternates(`/downloads/${slug}`) } };
+  return pageMetadata({ title: `${form.title} | SASSA Form Download & Guide`, description: form.shortDescription, path: `/downloads/${slug}`, absoluteTitle: true });
 }
 
 export default async function DownloadDetailPage({ params }: { params: Promise<{ slug: string }> }) {
