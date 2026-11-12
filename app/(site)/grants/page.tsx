@@ -5,6 +5,7 @@ import { ArrowRight, HelpCircle, ShieldCheck, Scale, CalendarDays, Search } from
 import { grants } from "../../../lib/data/grants";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
+import { AD_SLOTS } from "@/lib/ads";
 
 const faqs = [
   { question: "How do I know which SASSA grant I qualify for?", answer: "Use our Eligibility Checker tool to find grants matching your situation. You can also browse each grant's eligibility criteria on its detail page. Key factors include your age, income level, employment status, and household situation." },
@@ -74,7 +75,7 @@ export default function GrantsHubPage() {
         </div>
       </section>
 
-      <AdUnit slot="GRANTS_HUB" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
+      <AdUnit slotId={AD_SLOTS.GRANTS_HUB} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
 
       <section className="bg-paper py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

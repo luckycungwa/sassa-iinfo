@@ -90,29 +90,29 @@
           "Older Persons Grant (Pension)",
           "30 October 2026",
           "Friday",
-          "Confirmed — paid early"
+          "Paid"
         ],
         [
           "Disability Grant",
           "2 November 2026",
           "Monday",
-          "Confirmed"
+          "Paid"
         ],
         [
           "Children's Grants (CSG, Foster Care, CDG)",
           "3 November 2026",
           "Tuesday",
-          "Confirmed"
+          "Paid"
         ],
         [
           "Review and verification cases",
           "5 November 2026",
           "Thursday",
-          "Confirmed — notified beneficiaries"
+          "Paid — notified beneficiaries"
         ],
         [
           "Social Relief of Distress (SRD R370)",
-          "24-30 November 2026",
+          "23 & 25 Nov 2026",
           "Month-end batches",
           "Expected — check your SRD status"
         ]
@@ -157,7 +157,7 @@
         "Children's grants are paid on Tuesday 3 November 2026. Collect early on that day if you want to avoid the pre-holiday queues.",
         "Do not travel to a SASSA office or pay point on Wednesday 4 November expecting a payment. It is a public holiday.",
         "Review and verification cases are handled separately on Thursday 5 November 2026. Only beneficiaries who received an SMS or letter need to act.",
-        "SRD R370 has not been paid yet. Batches are expected from 24 November and are confirmed individually in the SRD portal."
+        "SRD R370 is paid on Monday 23 November and Wednesday 25 November 2026. Your own pay date appears against your approved November month in the SRD portal."
       ]
     },
     {
@@ -207,7 +207,7 @@
       "faqs": [
         {
           "question": "What are the SASSA payment dates for November 2026?",
-          "answer": "Older Persons grants: Friday 30 October 2026. Disability grants: Monday 2 November 2026. Children's grants: Tuesday 3 November 2026. Review and verification cases: Thursday 5 November 2026. SRD R370 batches are expected from 24 to 30 November 2026."
+          "answer": "Older Persons grants: Friday 30 October 2026. Disability grants: Monday 2 November 2026. Children's grants: Tuesday 3 November 2026. Review and verification cases: Thursday 5 November 2026. SRD R370 is paid on 23 and 25 November 2026."
         },
         {
           "question": "Why is the Older Persons grant paid on 30 October?",
@@ -219,7 +219,7 @@
         },
         {
           "question": "When is SRD paid in November 2026?",
-          "answer": "SRD R370 batches are expected from 24 to 30 November 2026, but SASSA confirms each batch individually. Check your status in the SRD portal after the 20th of the month to see your exact payment date."
+          "answer": "SRD R370 payments are made on Monday 23 November and Wednesday 25 November 2026, confirmed by SASSA on 11 November 2026. Your own pay date appears against your approved November month in the SRD portal."
         },
         {
           "question": "Will December 2026 payments also be paid early?",

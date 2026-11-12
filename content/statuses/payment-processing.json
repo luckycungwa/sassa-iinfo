@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Payment Processing — What It Means & When You Will Receive Your Money",
   "description": "Your SASSA status shows 'Payment Processing' — your grant money is on its way. Here is what this status means, how long it takes, and what to do if your payment is delayed.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.1.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.4.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -159,6 +159,50 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: processing on the pay date, but no money"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Ayanda's status moved to Payment Processing on her pay date. Two days later her balance was unchanged. The grant was being paid by bank transfer into an account she had not used for four months. The account was still open, but it had gone dormant, and a dormant account cannot accept an incoming credit until it is reactivated at the branch with her ID."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "The distinction that matters here is between a payment that is still clearing and a payment that never landed. Interbank clearing explains a day or two; it does not explain a week. If the money is genuinely missing, the bank statement — not the banking app summary — is the document to request, because it shows whether a credit was presented and returned."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "callout",
+      "intent": "info",
+      "title": "When 'processing' stops being normal",
+      "text": "Give it up to 48 hours, plus a weekend or public holiday. If the status still reads Payment Processing after five days and no credit appears on a bank statement, treat it as a failed payment and start the escalation rather than waiting for it to fix itself."
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Who actually moves the money"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "SASSA approves the payment and instructs the disbursing institution; Postbank and the beneficiary's own bank then clear it through the national payment system. That is why a query about a missing payment usually needs both sides: SASSA can confirm the payment was issued, and the bank can confirm whether it was received, held or returned. Payment methods and account requirements are set out at sassa.gov.za and postbank.co.za.",
+      "links": [
+        {
+          "text": "SASSA payment information",
+          "href": "https://www.sassa.gov.za"
+        },
+        {
+          "text": "Postbank",
+          "href": "https://www.postbank.co.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -233,5 +277,16 @@
       "title": "Payment Dates",
       "slug": "/payment-dates"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Postbank — social grants",
+      "url": "https://www.postbank.co.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

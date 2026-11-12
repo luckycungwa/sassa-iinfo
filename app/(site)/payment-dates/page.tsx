@@ -14,6 +14,7 @@ import { ArrowRight, CalendarDays } from "lucide-react";
 import { pageMetadata } from "@/lib/metadata";
 import { webpageSchema, breadcrumbSchema, faqSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
+import { AD_SLOTS } from "@/lib/ads";
 
 function paymentFaqs(current: PaymentMonth, next?: PaymentMonth) {
   const currentQualifier = current.status === "provisional" ? "expected" : "confirmed";
@@ -99,7 +100,7 @@ export default function PaymentDatesPage() {
         </div>
       </section>
 
-      <AdUnit slot="PAYMENTDATES_HUB" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
+      <AdUnit slotId={AD_SLOTS.PAYMENTDATES_HUB} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
 
       <section className="bg-paper py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

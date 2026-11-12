@@ -39,29 +39,30 @@ const nextConfig: NextConfig = {
     return [
       // Domain migration: legacy hosts permanently redirect to the canonical origin.
       // These rules take effect once the legacy domains are attached to this project.
-      // Do NOT add www.sassagranthub.co.za here: Vercel already redirects between
-      // the apex and www domains at the edge. An app-level www rule fights that
-      // edge redirect and produces an infinite loop (apex 308 -> www 301 -> apex).
+      // www.sassagranthub.co.za is the canonical host and the apex 308-redirects
+      // to it at the edge, so neither host belongs in this list. An app-level
+      // apex or www rule fights the edge redirect and produces an infinite loop.
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'sassagranttguide.vercel.app' }],
-        destination: 'https://sassagranthub.co.za/:path*',
+        destination: 'https://www.sassagranthub.co.za/:path*',
         statusCode: 301,
       },
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'sassagrantguide.co.za' }],
-        destination: 'https://sassagranthub.co.za/:path*',
+        destination: 'https://www.sassagranthub.co.za/:path*',
         statusCode: 301,
       },
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'www.sassagrantguide.co.za' }],
-        destination: 'https://sassagranthub.co.za/:path*',
+        destination: 'https://www.sassagranthub.co.za/:path*',
         statusCode: 301,
       },
       { source: '/guides/sassa-2026-payment-dates-calendar', destination: '/payment-dates', permanent: true },
       { source: '/news/how-to-find-sassa-reference-number', destination: '/guides/sassa-reference-number', permanent: true },
+      { source: '/news/srd-r370-grant-extended-to-march-2027', destination: '/news/srd-r370-grant-extended-to-2028', permanent: true },
       { source: '/banking/sassa-black-card-guide', destination: '/banking/black-card-swap', permanent: true },
       { source: '/grants/child-support-grant/payment-dates', destination: '/payment-dates/child-support-grant-payment-dates', permanent: true },
       { source: '/en', destination: '/', permanent: true },

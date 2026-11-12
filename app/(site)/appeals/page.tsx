@@ -4,6 +4,7 @@ import { ArrowRight, Scale, Clock, FileText, CheckCircle2, AlertTriangle } from 
 import { appeals } from "../../../lib/data/appeals";
 import { webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
+import { AD_SLOTS } from "@/lib/ads";
 
 export const metadata = pageMetadata({
   title: "SASSA Appeals: How to Appeal a Declined Grant",
@@ -49,7 +50,7 @@ export default function AppealsHubPage() {
         </div>
       </section>
 
-      <AdUnit slot="APPEALS_HUB" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
+      <AdUnit slotId={AD_SLOTS.APPEALS_HUB} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
 
       <section className="bg-paper py-14">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

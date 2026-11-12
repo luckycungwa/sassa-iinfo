@@ -4,6 +4,7 @@ import { Search, Clock, AlertTriangle, ShieldCheck, ArrowRight, CheckCircle, XCi
 import { statuses } from "../../../lib/data/statuses";
 import { webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 import AdUnit from "@/components/ads/AdUnit";
+import { AD_SLOTS } from "@/lib/ads";
 import BeneficiaryProblemSolver from "@/components/tools/BeneficiaryProblemSolver";
 
 const featuredStatuses = statuses.filter((s) => ["pending", "approved", "declined", "alternative-income-source"].includes(s.slug));
@@ -71,7 +72,7 @@ export default function StatusHubPage() {
         </div>
       </section>
 
-      <AdUnit slot="STATUS_HUB" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
+      <AdUnit slotId={AD_SLOTS.STATUS_HUB} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
 
       <section className="bg-paper border-t border-border py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

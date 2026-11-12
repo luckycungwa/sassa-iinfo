@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Alternative Income Source Detected — What It Means & How to Fix It",
   "description": "SASSA says you have an 'Alternative Income Source' — here is exactly what triggered this status, how to fix it, and how to appeal.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -185,6 +185,53 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: a stokvel payout that looked like a salary"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Themba received R1,200 in October when his stokvel paid out before December. To the monthly bank sweep it looked exactly like income: a credit into his account, in a month he had declared no earnings. His application for that month was declined for an alternative income source, even though a stokvel payout is a return of his own contributions, not a wage."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "Reapplying would have produced the same decline, because the same credit sat in the same month. He appealed the specific month with three months of statements, an affidavit explaining the stokvel arrangement and naming its treasurer as a contact, and a letter from the stokvel confirming the payout. The appeal is assessed on evidence about that month, not on his general circumstances."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "list",
+      "items": [
+        "Look at credits, not balance — a single deposit can trigger the decline even if the balance stays low.",
+        "Transfers between your own accounts can also read as an inflow.",
+        "A once-off family transfer, refund or stokvel payout needs an affidavit, not just an explanation over the phone.",
+        "Check eFiling for an active PAYE record if a former employer may have kept you on the payroll."
+      ]
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "How the income test is described officially"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "The SRD grant applies a monthly income threshold, and the test is applied to each month separately, which is why the same person can be approved in one month and declined in the next. The threshold and the conditions of the grant are set by ministerial determination and published in the Government Gazette; SASSA summarises the current rules at sassa.gov.za. This page explains how the test behaves in practice — the amount that applies to you is the one in the current gazette, not a figure copied from another site.",
+      "links": [
+        {
+          "text": "the Government Gazette",
+          "href": "https://www.gpwonline.co.za"
+        },
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -260,5 +307,16 @@
       "title": "Declined Status Meaning",
       "slug": "/status/declined"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Government Gazette (GPW)",
+      "url": "https://www.gpwonline.co.za"
+    },
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

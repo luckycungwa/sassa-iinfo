@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Bank Verification Pending — What It Means & How to Resolve It",
   "description": "Your SASSA status shows 'Bank Verification Pending' — here is what it means, why it happens, and exactly what to do to get your grant paid.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -170,6 +170,70 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: a name mismatch that stopped a payment"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Zanele switched her SRD payment method from cash send to her own Capitec account. Her smart ID reads Zanele P. Mahlangu; the bank had captured her as Zanele Mahlangu when the account was opened years earlier. The account number and branch code were correct, but the account holder record did not match her identity document closely enough for the automated check, so the status sat at Bank Verification Pending."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "She did not submit the details again. Re-entering the same mismatched account simply restarts the same failed check. She asked the bank to update the account holder record to match her ID, then waited out the 5 to 10 business days the verification loop takes — and the status cleared without another submission."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "table",
+      "headers": [
+        "Account setup",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Own account, names matching the ID",
+          "Verification passes"
+        ],
+        [
+          "Own account, initials or spelling differ from the ID",
+          "Usually fails until the bank corrects the record"
+        ],
+        [
+          "Joint, business or someone else's account",
+          "Fails — a grant is paid only to the beneficiary"
+        ],
+        [
+          "Dormant or FICA-restricted account",
+          "Fails or the payment is returned"
+        ]
+      ],
+      "caption": "Why bank verification fails, in order of how often it happens"
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "The rule behind the check"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "A social grant may only be paid into an account held by the beneficiary, which is why SASSA verifies the account holder against the identity number on the application rather than simply accepting the numbers typed into the portal. The payment methods and the conditions attached to them derive from the regulations under the Social Assistance Act 13 of 2004, published in the Government Gazette, and are summarised at sassa.gov.za. The account holder record itself belongs to your bank — only the bank can correct a name, initials or identity number on the account.",
+      "links": [
+        {
+          "text": "SASSA payment methods",
+          "href": "https://www.sassa.gov.za"
+        },
+        {
+          "text": "the Government Gazette",
+          "href": "https://www.gpwonline.co.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -236,5 +300,16 @@
       "title": "Identity Verification",
       "slug": "/status/identity-verification"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Government Gazette (GPW)",
+      "url": "https://www.gpwonline.co.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

@@ -6,7 +6,15 @@
  * between files. APP_URL has no trailing slash in production; one is stripped
  * here so joins stay predictable.
  */
-const FALLBACK_URL = "https://sassagranthub.co.za";
+const FALLBACK_URL = "https://www.sassagranthub.co.za";
+
+/**
+ * The apex 308-redirects to www at the edge, so www is the host a visitor
+ * actually lands on. APP_URL may still hold the apex in the hosting
+ * environment; normalise it here so canonicals, sitemap.xml, robots.txt,
+ * Open Graph and JSON-LD never point at a URL that redirects.
+ */
+const CANONICAL_ORIGIN = /^https?:\/\/(www\.)?sassagranthub\.co\.za\/?$/i;
 
 const configuredUrl = process.env.APP_URL?.trim();
 const isLocalUrl = configuredUrl ? /localhost|127\.0\.0\.1/i.test(configuredUrl) : false;
@@ -18,7 +26,7 @@ const isLocalUrl = configuredUrl ? /localhost|127\.0\.0\.1/i.test(configuredUrl)
  */
 const usableUrl =
   configuredUrl && !(process.env.NODE_ENV === "production" && isLocalUrl)
-    ? configuredUrl
+    ? configuredUrl.replace(CANONICAL_ORIGIN, FALLBACK_URL)
     : undefined;
 
 export const SITE_URL = (usableUrl || FALLBACK_URL).replace(/\/+$/, "");
@@ -53,8 +61,8 @@ export const OFFICIAL_LINKS = {
 
 /**
  * Hosts that must permanently redirect to the canonical origin after migration.
- * www.sassagranthub.co.za is intentionally absent: the apex/www redirect is
- * handled at the Vercel edge, and duplicating it in the app causes a loop.
+ * Neither the apex nor www sassagranthub.co.za is listed: the edge redirects
+ * the apex to www, and duplicating that in the app causes a loop.
  */
 export const LEGACY_HOSTS = [
   "sassagranttguide.vercel.app",

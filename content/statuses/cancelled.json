@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Cancelled — What It Means & How to Reinstate Your SASSA Grant",
   "description": "Your SASSA grant shows 'Cancelled' — here is what this status means, common reasons for cancellation, and how to apply for reinstatement.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -100,6 +100,53 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: a grant that stopped without a letter"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "A Child Support Grant for a teenager stops when the child turns 18; there is no decision to appeal, because eligibility has ended by operation of the age rule. A different case is a grant that stops because the beneficiary did not collect it for three consecutive months, or because an income record appeared against the ID. The first is final, the second can usually be reversed."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "The practical test is whether the cancellation was voluntary or administrative. If you cancelled because you found work, nothing needs to be done and the record should stay closed. If you never cancelled anything, the reinstatement route is a district office visit with proof of your current circumstances — and, where an income record caused the stop, the document that shows the record is wrong."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "list",
+      "items": [
+        "Voluntary cancellation at your own request — no action needed, the file is closed correctly.",
+        "Age-based ending of a child grant — no appeal, because the qualifying condition has ended.",
+        "Three months without collection — reinstatement is possible, and the office needs to see you in person.",
+        "An income or UIF record you dispute — bring the letter or statement that disproves it."
+      ]
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What the official record will show"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "SASSA can tell you the reason recorded for a cancellation, and that reason determines whether the route is a reinstatement, a new application or nothing at all. Grant rules — including the age at which a child grant ends and the conditions under which a grant lapses — are set out in the Social Assistance Act and its regulations and summarised at sassa.gov.za. Ask for the recorded reason before assuming the grant was cancelled in error.",
+      "links": [
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        },
+        {
+          "text": "the Government Gazette",
+          "href": "https://www.gpwonline.co.za"
+        }
+      ]
+    },
+    {
       "id": "faq",
       "type": "faq",
       "faqs": [
@@ -153,5 +200,16 @@
       "title": "How to Apply for a SASSA Grant",
       "slug": "/guides/how-to-apply-sassa-grant"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Government Gazette (GPW)",
+      "url": "https://www.gpwonline.co.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

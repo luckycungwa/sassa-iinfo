@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "SAFPS Flagged — What It Means on Your SASSA Status",
   "description": "SASSA status 'SAFPS Flagged' means an identity or fraud-protection check on your ID did not clear. Here is how to get your SAFPS letter and resolve it.",
-  "lastUpdated": "2026-10-20",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -31,6 +31,10 @@
     {
       "label": "Southern African Fraud Prevention Service",
       "url": "https://www.safps.org.za"
+    },
+    {
+      "label": "South African Police Service",
+      "url": "https://www.saps.gov.za"
     }
   ],
   "contentBlocks": [
@@ -160,6 +164,65 @@
       "text": "The flag does not expire on its own and SASSA cannot remove a SAFPS listing. Request the letter first, then take it to SASSA. Beneficiaries who wait usually lose a second month for no reason."
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: a protective listing after a stolen ID"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "After her handbag was stolen, Refilwe reported the ID to SAPS and asked her bank to place a protective registration on her profile. Eight months later her SRD verification stopped with a SAFPS flag. The registration she had asked for to protect herself was doing exactly what it was designed to do: forcing a human check before credit or a payment is issued against that identity."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "A flag is a signal, not a finding. She requested her SAFPS record, took the letter together with the SAPS case number to a SASSA office so the file could be annotated, and appealed the affected month with the same documents attached. The flag is not something that expires on its own while the registration remains in place."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Get your own record",
+          "description": "SAFPS will confirm what is listed against your ID; it does not charge the public for this."
+        },
+        {
+          "title": "Explain the listing in writing",
+          "description": "A protective registration from a stolen ID is very different from suspected fraud, and the letter shows which it is."
+        },
+        {
+          "title": "Attach a police case number",
+          "description": "A SAPS case for the theft ties the listing to a documented event."
+        },
+        {
+          "title": "Take it to SASSA, then appeal",
+          "description": "The office annotates the record; the appeal covers the months already declined."
+        }
+      ]
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What SAFPS is and is not"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "The Southern African Fraud Prevention Service is a shared fraud-prevention database used by banks and other member organisations. A listing is most often a protective registration requested after identity theft, not a conviction or an accusation. SAFPS publishes its consumer protection process at safps.org.za, and identity theft can be reported to SAPS; SASSA can act on the outcome once it has the documentation.",
+      "links": [
+        {
+          "text": "SAFPS",
+          "href": "https://www.safps.org.za"
+        },
+        {
+          "text": "SAPS",
+          "href": "https://www.saps.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 2,
@@ -227,5 +290,6 @@
       "title": "SASSA Scam Alert Guide",
       "slug": "/guides/sassa-scam-alert-guide"
     }
-  ]
+  ],
+  "lastReviewed": "2026-11-12"
 }

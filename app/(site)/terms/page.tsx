@@ -18,7 +18,7 @@ export default function TermsPage() {
         </div>
         <div>
           <h1 className="text-2xl font-black text-ink tracking-tight">Terms of Service</h1>
-          <p className="text-sm text-body mt-1">Last updated: 1 July 2026</p>
+          <p className="text-sm text-body mt-1">Last updated: 12 November 2026</p>
         </div>
       </div>
 
@@ -60,7 +60,7 @@ export default function TermsPage() {
       <div className="bg-surface border border-border rounded-xl p-6 space-y-4">
         <h2 className="text-sm font-extrabold text-ink">Limitation of Liability</h2>
         <p className="text-sm text-body leading-relaxed">
-          The SASSA Resource Platform and its creators shall not be held liable for any losses, damages, or consequences arising from the use of information provided on this website. Users are encouraged to seek official assistance for critical matters.
+          SASSA Grant Hub and its creators shall not be held liable for any losses, damages, or consequences arising from the use of information provided on this website. Users are encouraged to seek official assistance for critical matters.
         </p>
       </div>
     </div>

@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Application Complete — What It Means & What Happens Next",
   "description": "Your SASSA status shows 'Application Complete' — here is what this positive status means and what to expect in the monthly approval cycle.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -96,6 +96,70 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: complete on the 27th, approved on the 2nd"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "On 27 October, Palesa's status moved from Pending to Application Complete. Nothing was left for her to submit: identity had matched, the bank account had verified, and the documents were accepted. The status sat still for six days, then changed to Approved in the first days of November when the monthly assessment ran."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "The mistake to avoid in this window is treating 'complete' as 'paid'. It is a readiness state. It means there is nothing outstanding on your side and the next monthly decision can be made — not that the decision has been made, and not that money is scheduled."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "table",
+      "headers": [
+        "Status",
+        "Who still has to act",
+        "What it is waiting for"
+      ],
+      "rows": [
+        [
+          "Pending",
+          "Usually nobody — verification is running",
+          "Database checks to finish"
+        ],
+        [
+          "Application Complete",
+          "Nobody — the file is ready",
+          "The monthly assessment to run"
+        ],
+        [
+          "Approved",
+          "The payment system",
+          "A pay date and the payment run"
+        ]
+      ],
+      "caption": "Where Application Complete sits between Pending and Approved"
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What SASSA confirms before a file is complete"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "A file becomes complete when the identity check against the Home Affairs record, the bank account verification and the submitted documents have all been accepted. General documentation requirements are published at sassa.gov.za, and the identity and banking requirements are described on the SRD portal. Because each month is assessed separately, a complete file still has to clear the income check for the month in question.",
+      "links": [
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        },
+        {
+          "text": "the SRD portal",
+          "href": "https://srd.sassa.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq",
       "type": "faq",
       "faqs": [
@@ -141,5 +205,16 @@
       "title": "Pending Status",
       "slug": "/status/pending"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SASSA SRD R370 status portal",
+      "url": "https://srd.sassa.gov.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

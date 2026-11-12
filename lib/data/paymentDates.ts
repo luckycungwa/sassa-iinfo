@@ -27,7 +27,7 @@ export interface PaymentMonth {
   description?: string;
 }
 
-export const PAYMENT_DATA_UPDATED = "20 October 2026";
+export const PAYMENT_DATA_UPDATED = "12 November 2026";
 
 export const paymentMonths: PaymentMonth[] = [
   {
@@ -250,8 +250,8 @@ export const paymentMonths: PaymentMonth[] = [
       children: "3 Nov 2026",
       srd: srdWindowLabel("2026-11"),
     },
-    notes: "Confirmed and revised by SASSA on 15 October 2026. Older Persons move to Friday 30 October because 4 November is a public holiday for the Local Government Elections. Disability: 2 Nov, Children: 3 Nov, review-process: 5 Nov.",
-    description: "SASSA revised the November 2026 schedule on 15 October 2026 after Wednesday 4 November was declared a public holiday for the Local Government Elections. Older Persons grants are paid early, on Friday 30 October. Disability grants follow on Monday 2 November, Children's grants on Tuesday 3 November, and review-process beneficiaries on Thursday 5 November. SRD R370 batches are expected from 24 to 30 November.",
+    notes: "Confirmed and revised by SASSA on 15 October 2026. Older Persons move to Friday 30 October because 4 November is a public holiday for the Local Government Elections. Disability: 2 Nov, Children: 3 Nov, review-process: 5 Nov. SRD R370 is paid on Monday 23 and Wednesday 25 November 2026.",
+    description: "SASSA revised the November 2026 schedule on 15 October 2026 after Wednesday 4 November was declared a public holiday for the Local Government Elections. Older Persons grants are paid early, on Friday 30 October. Disability grants follow on Monday 2 November, Children's grants on Tuesday 3 November, and review-process beneficiaries on Thursday 5 November. SRD R370 is paid on Monday 23 November and Wednesday 25 November 2026, confirmed by SASSA on 11 November 2026.",
   },
   {
     id: "2026-12",

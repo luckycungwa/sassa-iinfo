@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Approved — What It Means & What Happens After SASSA Approval",
   "description": "Your SASSA grant is approved! Here is what 'Approved' status means, when you will get paid, and what to do while waiting for your payment.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.1.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.4.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -258,6 +258,70 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: approved, then paid two days later"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Nomsa's Older Persons Grant changed to Approved, and the portal showed the pay date for her grant category next to the month badge. Because her grant is paid by bank transfer into her own account, the money appeared the working day after that date rather than on it. Had she chosen a cash-send collection, the sequence would have been different: she would have waited for a voucher SMS before going to a retailer."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "Two weeks later her status still read Approved but with no pay date for the new month. That is the normal in-between state — approval for a month is recorded before the national payment file for that month is finalised. It becomes a problem worth acting on only when the published pay date for her category has passed and nothing has arrived."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "table",
+      "headers": [
+        "What you see",
+        "What it means",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "Approved with a pay date",
+          "Approved for that month and scheduled",
+          "Wait for the pay date, then allow for bank clearing"
+        ],
+        [
+          "Approved with no pay date yet",
+          "Decision recorded, payment batch not finalised",
+          "Check again in a few days; nothing to submit"
+        ],
+        [
+          "Approved, pay date passed, no money",
+          "Payment may have failed at the bank",
+          "Check the account is active, then follow the escalation route"
+        ]
+      ],
+      "caption": "Three forms of the Approved status and the correct response to each"
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Where pay dates and amounts are published"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "Grant amounts and the annual payment schedule are published by SASSA at sassa.gov.za, and payments for permanent grants are disbursed through Postbank and the commercial banks. The pay date shown against your own approved month on the SRD portal is the authoritative date for your record; the calendar on this site reproduces the published national schedule and is dated so you can see when it was last checked.",
+      "links": [
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        },
+        {
+          "text": "Postbank",
+          "href": "https://www.postbank.co.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -333,5 +397,16 @@
       "title": "SASSA Payment Dates",
       "slug": "/payment-dates"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Postbank — social grants",
+      "url": "https://www.postbank.co.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

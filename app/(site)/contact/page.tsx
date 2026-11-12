@@ -28,7 +28,8 @@ export default function ContactPage() {
             Get in touch
           </h1>
           <p className="text-[21px] text-accent-foreground/85 mt-4 max-w-xl leading-relaxed">
-            Questions about the site, corrections, or content suggestions &mdash; reach out below.
+            Corrections, content questions and site feedback are welcome &mdash; use the email address or community page
+            below.
           </p>
         </div>
       </section>
@@ -45,6 +46,18 @@ export default function ContactPage() {
               <p className="text-base text-body leading-relaxed mt-3">
                 For official SASSA services &mdash; checking your grant status, applying for grants, updating personal
                 details, or lodging appeals &mdash; please use the official SASSA channels listed on this page.
+              </p>
+              <div className="space-y-2 mt-6">
+                <a href="mailto:44tagstudios@gmail.com" className="flex items-center gap-4 card p-4 hover:bg-yellow/30 transition group">
+                  <Mail className="w-5 h-5 text-violet shrink-0" />
+                  <div>
+                    <p className="text-sm font-bold text-carbon">Email the editor</p>
+                    <p className="text-xs text-ash">44tagstudios@gmail.com</p>
+                  </div>
+                </a>
+              </div>
+              <p className="text-xs text-ash mt-3">
+                We aim to acknowledge a specific factual correction within two working days.
               </p>
               <div className="card p-5 mt-6">
                 <p className="text-sm text-body italic">

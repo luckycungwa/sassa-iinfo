@@ -199,7 +199,7 @@ export const grants: Grant[] = [
       },
       {
         question: "How long does the SRD grant last?",
-        answer: "The SRD grant is extended annually by the government. It is currently funded and legislated to continue running until at least March 2027."
+        answer: "The SRD grant is extended annually by the government. It is currently funded to continue running until 31 March 2028, subject to the completion of formal implementation."
       }
     ]
   },

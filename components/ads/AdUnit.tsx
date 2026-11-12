@@ -3,7 +3,8 @@
 import { useEffect, useRef } from "react";
 
 interface AdUnitProps {
-  slot: string;
+  /** Numeric ad slot ID issued by AdSense. Empty or non-numeric renders nothing. */
+  slotId: string;
   format?: "auto" | "rectangle" | "horizontal" | "vertical";
   style?: React.CSSProperties;
   className?: string;
@@ -17,7 +18,7 @@ declare global {
 }
 
 export default function AdUnit({
-  slot,
+  slotId,
   format = "auto",
   style,
   className = "",
@@ -25,18 +26,19 @@ export default function AdUnit({
 }: AdUnitProps) {
   const ref = useRef<HTMLModElement>(null);
   const clientId = process.env.NEXT_PUBLIC_ADSENSE_ID;
+  const validSlot = /^\d+$/.test(slotId.trim()) ? slotId.trim() : null;
 
   useEffect(() => {
-    if (!clientId || !ref.current) return;
+    if (!clientId || !validSlot || !ref.current) return;
     try {
       window.adsbygoogle = window.adsbygoogle || [];
       window.adsbygoogle.push({});
     } catch {
       /* no-op */
     }
-  }, [clientId, slot]);
+  }, [clientId, validSlot]);
 
-  if (!clientId) return null;
+  if (!clientId || !validSlot) return null;
 
   return (
     <div className={`ad-container my-6 text-center ${className}`} aria-label={label}>
@@ -46,7 +48,7 @@ export default function AdUnit({
         className="adsbygoogle"
         style={{ display: "block", ...style }}
         data-ad-client={clientId}
-        data-ad-slot={slot}
+        data-ad-slot={validSlot}
         data-ad-format={format === "auto" ? "auto" : format}
         data-full-width-responsive="true"
       />

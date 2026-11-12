@@ -87,7 +87,7 @@ These are news intents. They belong on dated articles and must not become evergr
 | November schedule revision / election holiday | `/news/sassa-november-2026-payment-dates-revised` |
 | Postbank gold-to-black card migration | `/news/sassa-gold-card-to-black-card-migration` |
 | Grant increases 2026 | `/news/social-grant-increases-2026` |
-| SRD extension to March 2027 | `/news/srd-r370-grant-extended-to-march-2027` |
+| SRD extension to March 2027 | `/news/srd-r370-grant-extended-to-2028` |
 | eLife certification | `/news/elife-certification-guide-srd` |
 | Scam warnings | `/news/sassa-scam-warning-july-2026` |
 

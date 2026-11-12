@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Identity Verification Failed/Pending — What It Means & How to Fix It",
   "description": "Your SASSA status shows 'Identity Verification Failed' — here is why it happens, how to complete facial verification, and what to do if Home Affairs records do not match.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -143,6 +143,50 @@
       "text": "If your ID is flagged as lost, stolen, or deceased, this can affect more than just your SASSA grant — it can prevent you from accessing banking, employment, and other government services. Visit Home Affairs as soon as possible."
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: a failed selfie, twice"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Facial verification failed twice for Bongani. The first attempt was taken indoors at night with a single ceiling light behind him; the second was taken wearing the glasses he had worn for years but not in his Home Affairs photograph. Neither failure said anything about his eligibility — the check compares a live image with the photograph on the population register, and poor lighting or a changed appearance makes that comparison fail."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "On the third attempt he stood facing a window in daylight, removed his glasses, and held the phone steady at eye level. It passed. Only after repeated failures with a good image does the identity record itself become the suspect — and at that point the correction has to start at Home Affairs, because SASSA can only mirror what the population register says."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "callout",
+      "intent": "danger",
+      "title": "Verify the link before you open it",
+      "text": "A genuine verification SMS points at srd.sassa.gov.za. Anyone asking you to enter an ID number, card PIN or one-time PIN on another domain is not SASSA, and no legitimate verification step ever asks for a banking password."
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Two records, two owners"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "Home Affairs owns the identity record: the names, date of birth and photograph attached to your ID number. SASSA checks its application against that record. That division explains the order of operations — correct the Home Affairs record first at dha.gov.za or a Home Affairs office, then let SASSA re-verify. The verification requirement for the SRD grant is described on srd.sassa.gov.za.",
+      "links": [
+        {
+          "text": "the Department of Home Affairs",
+          "href": "https://www.dha.gov.za"
+        },
+        {
+          "text": "the SRD portal",
+          "href": "https://srd.sassa.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -200,5 +244,16 @@
       "title": "How to Check Status",
       "slug": "/guides/how-to-check-sassa-status"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Department of Home Affairs",
+      "url": "https://www.dha.gov.za"
+    },
+    {
+      "label": "SASSA SRD R370 status portal",
+      "url": "https://srd.sassa.gov.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

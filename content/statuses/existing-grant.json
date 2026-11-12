@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Existing Grant — Why SASSA Blocked This Application",
   "description": "SASSA status 'Existing Grant' means its records already show a grant linked to your ID or the child you applied for. Here is which grants can run together and how to fix it.",
-  "lastUpdated": "2026-10-20",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -31,6 +31,10 @@
     {
       "label": "Department of Social Development",
       "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "Government Gazette (GPW)",
+      "url": "https://www.gpwonline.co.za"
     }
   ],
   "contentBlocks": [
@@ -169,6 +173,53 @@
       "text": "A Child Support Grant cannot simply be applied for again under a new caregiver. The existing grant must be transferred or cancelled first. Both caregivers usually need to be present at the SASSA office, with the child's birth certificate and both IDs."
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: the same child, two caregivers"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "A mother applied for a Child Support Grant for her daughter and was told an existing grant was already active. The child had been living with her grandmother for two years, and the grandmother had applied successfully. The system was right: one child cannot be paid two Child Support Grants for the same period."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "The resolution was a transfer of the grant, not a second application. Both caregivers attended a SASSA office with the child's birth certificate and their own IDs, and the grant was moved to the mother once the living arrangement was confirmed. Reapplying in the mother's name alone would have produced the same 'existing grant' result indefinitely."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "list",
+      "items": [
+        "One child, one Child Support Grant — a second application is always blocked.",
+        "A Child Support Grant can run alongside a caregiver's own Older Persons or Disability Grant.",
+        "An adult cannot hold two income-support grants at the same time.",
+        "The SRD grant cannot be paid to someone already receiving a social grant."
+      ]
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Why the rule exists"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "The Social Assistance Act and its regulations set out which grants may run together and which may not, including the rule that a child may not receive both a Child Support and a Foster Child Grant for the same period. Those combinations are summarised at sassa.gov.za, and a grant transfer between caregivers is handled at a district office because it depends on the child's living arrangements.",
+      "links": [
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        },
+        {
+          "text": "the Government Gazette",
+          "href": "https://www.gpwonline.co.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 2,
@@ -236,5 +287,6 @@
       "title": "Foster Care Grant",
       "slug": "/grants/foster-care-grant"
     }
-  ]
+  ],
+  "lastReviewed": "2026-11-12"
 }

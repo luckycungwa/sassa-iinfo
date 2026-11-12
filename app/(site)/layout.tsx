@@ -9,7 +9,6 @@ import { cn } from "@/lib/utils";
 import ThemeProvider from "@/components/ThemeProvider";
 import ToastProvider from "@/components/ToastProvider";
 import TopNavbar from "@/components/TopNavbar";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import NavigationProgress from "@/components/NavigationProgress";
 import { PAYMENT_DATA_UPDATED } from "@/lib/data/paymentDates";
 
@@ -157,7 +156,6 @@ export default function SiteLayout({
                   {children}
                 </main>
               </div>
-              <WhatsAppButton />
               <footer className="border-t border-border mt-16 print:hidden bg-paper">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">

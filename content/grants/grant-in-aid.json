@@ -4,8 +4,8 @@
   "classification": "grant-detail",
   "title": "Grant-in-Aid — Complete Guide 2026",
   "description": "Complete guide to the SASSA Grant-in-Aid: R580 monthly top-up for grant recipients who need full-time care from another person. Eligibility, medical assessment, and how to apply.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.1.0",
   "readingTime": "17 min read",
   "status": "published",
   "author": {
@@ -631,7 +631,7 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "You do not yet receive one of the four qualifying primary grants",
+        "You do not yet receive one of the three qualifying primary grants",
         "Your primary grant is suspended or cancelled",
         "You live in a state-funded institution that provides your full-time care",
         "A doctor reports that you need only part-time or occasional help",
@@ -812,16 +812,67 @@
           "answer": "Because your primary grant is already active, Grant-in-Aid is usually processed faster than a new grant — often about four to six weeks when the medical report is clear."
         },
         {
-          "question": "Do I need to prove I pay my caregiver?",
-          "answer": "No. You only need to give your caregiver's name, ID number, and relationship to you. Grant-in-Aid is a contribution to your care costs, not a salary for the caregiver."
-        },
-        {
           "question": "What happens if my primary grant is suspended?",
           "answer": "Grant-in-Aid stops with it, because it rides on the primary grant. Fix the primary grant issue first; once the primary grant is reinstated, ask SASSA to restore the top-up."
         },
         {
           "question": "Can I apply for Grant-in-Aid at the same time as my primary grant?",
           "answer": "Yes. When you apply for your Older Person, Disability or War Veterans Grant, tell the officer you also need care and assistance and ask for the medical form so both can be processed together."
+        },
+        {
+          "question": "Does my caregiver have to be unemployed?",
+          "answer": "SASSA's published requirements for Grant-in-Aid place no income or employment test on the caregiver. The test is on you: you must already receive an Older Person, Disability or War Veterans Grant and need regular attendance from another person for daily living. The R580 is paid to you with your grant, not to the caregiver."
+        },
+        {
+          "question": "Can I apply for Grant-in-Aid online?",
+          "answer": "No. The Department of Social Development's published process says the application form is completed in the presence of a SASSA officer, and your care need must be assessed, so the application is made at a SASSA office. If you are too old or too ill to travel, a family member or friend may apply on your behalf."
+        },
+        {
+          "question": "Does SASSA pay my caregiver directly?",
+          "answer": "No. SASSA pays Grant-in-Aid to you, added to your existing grant. Whether you pay a caregiver or support a relative who cares for you is a private arrangement between you; SASSA does not ask for proof of payment."
+        },
+        {
+          "question": "How old may my medical report be?",
+          "answer": "The medical or assessment report must be less than three months old when you apply. An expired report is a common reason for an application to be sent back, so ask your doctor for a fresh assessment if yours is older than that."
+        },
+        {
+          "question": "Can I get Grant-in-Aid on an Older Person Grant only?",
+          "answer": "Yes. The Older Person Grant is one of the three grants Grant-in-Aid can be added to, along with the Disability Grant and the War Veterans Grant. You do not need a Disability Grant to qualify if a doctor confirms you need regular care from another person."
+        },
+        {
+          "question": "Can I give up Grant-in-Aid if my situation changes?",
+          "answer": "Yes. Tell SASSA at your local office if you no longer need full-time care, if you move into a facility that is subsidised by the state, or if the care arrangement is no longer working. Ending the top-up does not end your primary grant."
+        },
+        {
+          "question": "Will SASSA check my home or speak to my caregiver?",
+          "answer": "SASSA can verify the care need, but the decision rests mainly on the medical report and assessment. Keep a short diary of the daily tasks you cannot do alone so that you can describe your needs clearly if a grants officer asks."
+        }
+      ]
+    },
+    {
+      "id": "official-sources",
+      "type": "sources",
+      "note": "The eligibility rules, amount and application process on this page were checked against these official sources on 12 November 2026.",
+      "sources": [
+        {
+          "label": "SASSA — Grant-in-Aid (requirements and conditions)",
+          "url": "https://sassa.gov.za/social-grants/grant-in-aid",
+          "accessed": "2026-11-12"
+        },
+        {
+          "label": "SASSA Services Portal — Grants information (Grant-in-Aid rules)",
+          "url": "https://services.sassa.gov.za/portal/r/sassa/sassa/grants-information",
+          "accessed": "2026-11-12"
+        },
+        {
+          "label": "South African Government — Grant in aid: R580 a month, documents and how to apply",
+          "url": "https://www.gov.za/services/social-benefits/grant-aid",
+          "accessed": "2026-11-12"
+        },
+        {
+          "label": "SASSA — Means test leaflet (grant values from 1 April 2026)",
+          "url": "https://sassa.gov.za/documents/uploads/sassa_means_test_leaflet.pdf",
+          "accessed": "2026-11-12"
         }
       ]
     },
@@ -864,6 +915,17 @@
     {
       "title": "Disability Grant",
       "slug": "/grants/disability-grant"
+    }
+  ],
+  "lastReviewed": "2026-11-12",
+  "sources": [
+    {
+      "label": "SASSA — Grant-in-Aid",
+      "url": "https://sassa.gov.za/social-grants/grant-in-aid"
+    },
+    {
+      "label": "South African Government — Grant in aid",
+      "url": "https://www.gov.za/services/social-benefits/grant-aid"
     }
   ]
 }

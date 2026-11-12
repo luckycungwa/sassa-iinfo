@@ -30,7 +30,7 @@
     "schemaMarkup": {
       "@type": "WebSite",
       "name": "SASSA Grant Hub",
-      "url": "https://sassagranthub.co.za",
+      "url": "https://www.sassagranthub.co.za",
       "description": "Independent educational resource for South African social grant beneficiaries. Not affiliated with SASSA or any government department.",
       "author": {
         "@type": "Person",

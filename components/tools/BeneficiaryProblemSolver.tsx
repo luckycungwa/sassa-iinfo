@@ -743,7 +743,7 @@ ${activeProblem.whatToDoNext.steps.map((s, i) => `${i + 1}. ${s}`).join('\n')}
 
 Official Link: ${activeProblem.whatToDoNext.officialAction.url}
 Helpline: ${activeProblem.whatToDoNext.contactPhone || '0800 60 10 11'}
-Full Guide: https://sassagranthub.co.za${activeProblem.whatToDoNext.guideUrl}
+Full Guide: https://www.sassagranthub.co.za${activeProblem.whatToDoNext.guideUrl}
 
 Generated privately on SassaGrantHub.co.za`;
 

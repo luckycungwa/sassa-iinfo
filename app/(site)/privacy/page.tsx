@@ -6,7 +6,7 @@ import { webpageSchema, breadcrumbSchema } from "@/lib/json-ld";
 export const metadata = pageMetadata({
   title: "Privacy Policy | SASSA Grant Hub",
   description:
-    "How this website handles data: assistant processing, advertising and analytics cookies, and your choices under South Africa's POPIA.",
+    "How this website handles data: server logs, advertising and analytics cookies, and your choices under South Africa's POPIA.",
   path: "/privacy",
   absoluteTitle: true,
 });
@@ -14,7 +14,7 @@ export const metadata = pageMetadata({
 export default function PrivacyPage() {
   const pageSchema = webpageSchema(
     "Privacy Policy | SASSA Grant Hub",
-    "How this website handles data: AI assistant processing, advertising cookies, anonymous traffic measurement, and your choices under POPIA.",
+    "How this website handles data: server logs, advertising cookies, anonymous traffic measurement, and your choices under POPIA.",
     "/privacy"
   );
   const breadcrumb = breadcrumbSchema([{ name: "Home", url: "/" }, { name: "Privacy Policy", url: "/privacy" }]);
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
           </div>
           <div>
             <h1 className="text-2xl font-black text-ink tracking-tight">Privacy Policy</h1>
-            <p className="text-sm text-body mt-1">Last updated: 20 October 2026</p>
+            <p className="text-sm text-body mt-1">Last updated: 12 November 2026</p>
           </div>
         </div>
 
@@ -49,19 +49,6 @@ export default function PrivacyPage() {
               This website has no user accounts and no forms that submit personal information to our servers. We never
               ask for your SASSA reference number, ID number, banking details, or PIN anywhere on this site. If any page
               or tool claiming to be us asks for those, it is not us.
-            </p>
-          </Section>
-
-          <Section title="AI Assistant (Optional Feature)">
-            <p>
-              This site offers an optional AI question-and-answer assistant. When you choose to use it, the text of your
-              question and the relevant page content are sent to our server and forwarded to a third-party large language
-              model service (hosted by Alibaba Cloud) so it can generate an answer.
-            </p>
-            <p className="mt-2">
-              We do not store your questions or the assistant&rsquo;s answers on our servers. However, the third-party AI
-              provider processes the request under its own terms, so do not include sensitive personal information in
-              your questions &mdash; the assistant never needs your ID number, grant number, or banking details to help.
             </p>
           </Section>
 
@@ -130,8 +117,8 @@ export default function PrivacyPage() {
           <Section title="Server Logs">
             <p>
               Like virtually all websites, our hosting provider automatically records basic technical logs (for example,
-              IP address, browser type, and pages requested) for security and abuse prevention, such as rate-limiting the
-              AI assistant. These logs are retained only for a limited period and are not used to build profiles of
+              IP address, browser type, and pages requested) for security and abuse prevention, such as rate-limiting
+              automated requests. These logs are retained only for a limited period and are not used to build profiles of
               visitors.
             </p>
           </Section>

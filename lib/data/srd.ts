@@ -16,6 +16,8 @@ export interface SrdWindow {
   end: string;
   /** Day-column label for the SRD row when it is not the usual batches. */
   dayLabel?: string;
+  /** Exact display label when SASSA confirms named days instead of a range. */
+  display?: string;
 }
 
 export const SRD_AMOUNT = "R370";
@@ -34,7 +36,8 @@ export const srdWindows: SrdWindow[] = [
   { monthId: "2026-08", start: "2026-08-25", end: "2026-08-31" },
   { monthId: "2026-09", start: "2026-09-24", end: "2026-09-30" },
   { monthId: "2026-10", start: "2026-10-24", end: "2026-10-31" },
-  { monthId: "2026-11", start: "2026-11-24", end: "2026-11-30" },
+  // SASSA confirmed two named payment days for November 2026 (11 Nov 2026 statement).
+  { monthId: "2026-11", start: "2026-11-23", end: "2026-11-25", display: "23 & 25 Nov 2026" },
   { monthId: "2026-12", start: "2026-12-23", end: "2026-12-31", dayLabel: "Festive batches" },
 ];
 
@@ -61,6 +64,7 @@ function parts(iso: string): { year: number; month: number; day: number } {
 export function srdWindowLabel(monthId: string): string {
   const window = getSrdWindow(monthId);
   if (!window) return "";
+  if (window.display) return window.display;
   const start = parts(window.start);
   const end = parts(window.end);
   if (start.year === end.year && start.month === end.month) {

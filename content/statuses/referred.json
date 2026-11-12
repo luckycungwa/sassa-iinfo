@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Referred — What It Means & How to Resolve a SASSA Fraud Flag",
   "description": "Your SASSA status shows 'Referred' — here is what it means, why your application was flagged, and how to clear your name with SASSA.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -99,6 +99,65 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: an ID number used by someone else"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "A 'Referred' status appeared on Nokuthula's application three days after she submitted it. Her ID number had been used on a second application from another province, submitted with a different cellphone number. The referral was not an accusation against her — it was the system refusing to pay twice against one identity until a person had looked at it."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "She reported it to the SASSA fraud line, opened a case at SAPS for identity fraud so there would be an official record, and took certified copies of her ID, proof of address and bank statements to her district office. The block cleared once a human had matched her face, her ID and her bank account to the application she had actually submitted."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Report it before you argue about it",
+          "description": "Call the SASSA fraud line and note the reference you are given."
+        },
+        {
+          "title": "Create an independent record",
+          "description": "A SAPS case number for identity fraud is evidence that the second application was not yours."
+        },
+        {
+          "title": "Attend in person with documents",
+          "description": "Certified ID, proof of address and bank statements let an official close the referral on the spot."
+        },
+        {
+          "title": "Do not reapply while referred",
+          "description": "A fresh application against a flagged ID produces another referral, not a payment."
+        }
+      ]
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What a referral is, officially"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "SASSA's fraud and compliance processes exist to stop payments being made against an identity that appears more than once. A referral is an administrative hold pending verification, and clearing it requires identity verification in person rather than a phone call. Fraud can be reported to SASSA on 0800 60 10 11, and identity fraud can be reported to SAPS at any police station.",
+      "links": [
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        },
+        {
+          "text": "SAPS",
+          "href": "https://www.saps.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq",
       "type": "faq",
       "faqs": [
@@ -152,5 +211,16 @@
       "title": "Self Exclusion Status",
       "slug": "/status/self-exclusion"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "South African Police Service",
+      "url": "https://www.saps.gov.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

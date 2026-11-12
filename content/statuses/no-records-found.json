@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "No Records Found — Why SASSA Cannot Find Your Application",
   "description": "SASSA status 'No Records Found' does not mean you were declined. It usually means the ID or phone number used did not match an application. Here is how to fix it.",
-  "lastUpdated": "2026-10-20",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -160,6 +160,65 @@
       "text": "Some internet cafes charge a fee and submit applications using their own phone number, which leaves you unable to check the status. Always ask for the reference number and make sure your own number is on the application."
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: the number that changed"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Jabulani had applied three months earlier and had a reference number, but the status page kept saying No Records Found. He had lost his phone in the interim and replaced the SIM with a new number. The lookup matches the ID number together with the cellphone number used on the application, so a changed number produces exactly this result — nothing found, no decision, no problem with eligibility."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "Because he had a reference number, reapplying would have been the wrong move: it risks a duplicate record against his ID. He updated the cellphone number on the existing application through the portal's change-number process, and the status appeared again. Someone who applied through an agent should first ask which number the agent used."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Check the details, not the grant",
+          "description": "Retype the 13-digit ID without spaces, then confirm the cellphone number used at application."
+        },
+        {
+          "title": "Search for a reference",
+          "description": "SMS confirmations are the proof that an application exists."
+        },
+        {
+          "title": "Update a changed number",
+          "description": "Use the official change-number route rather than submitting a second application."
+        },
+        {
+          "title": "Escalate with the reference",
+          "description": "With a reference number, SASSA can trace the file; without one, treat it as a missing application."
+        }
+      ]
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "What the lookup is actually matching"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "The SRD status lookup on srd.sassa.gov.za matches the identity number and the cellphone number recorded on the application. That is a fraud control, not a quirk: it stops anyone with an ID number from reading another person's grant record. It also means the recorded number, not the current one, is what the lookup expects — which is why the change-number process exists.",
+      "links": [
+        {
+          "text": "the SRD portal",
+          "href": "https://srd.sassa.gov.za"
+        },
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 2,
@@ -227,5 +286,6 @@
       "title": "Reapplication Required",
       "slug": "/status/reapplication-required"
     }
-  ]
+  ],
+  "lastReviewed": "2026-11-12"
 }

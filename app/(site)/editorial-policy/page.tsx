@@ -33,7 +33,7 @@ const principles = [
   {
     icon: UserCheck,
     title: "Authorship",
-    desc: "All content is written or reviewed by Lucky Cungwa, founder of 44tagstudios. We do not use automated content generation for articles or guides. You can join our Facebook community for questions and discussions. Each page carries the author name and last review date so you know who wrote it and when it was checked.",
+    desc: "All content is written or reviewed by Lucky Cungwa, founder of 44tagstudios. We do not use automated content generation for articles or guides. Questions and corrections can be sent to the email address on our contact page. Each page carries the author name and last review date so you know who wrote it and when it was checked.",
   },
   {
     icon: AlertTriangle,

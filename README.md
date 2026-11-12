@@ -25,7 +25,7 @@ Open `http://localhost:3000`.
 
 | Variable | Required | Purpose |
 | --- | --- | --- |
-| `APP_URL` | Production | Canonical origin, for example `https://sassagranthub.co.za`. No trailing slash. |
+| `APP_URL` | Production | Canonical origin, `https://www.sassagranthub.co.za`. No trailing slash. |
 | `GOOGLE_SITE_VERIFICATION` | Optional | Search Console HTML-tag verification token. |
 | `NEXT_PUBLIC_GA_ID` | Optional | Google Analytics 4 measurement ID (`G-...`). |
 | `NEXT_PUBLIC_ADSENSE_ID` | Optional | AdSense publisher ID (`ca-pub-...`). Leave blank until approval. |
@@ -54,10 +54,10 @@ npm start                  # serve the production build
 
 1. Push the repository to GitHub and import it into Vercel (or another Next.js host).
 2. Add `sassagranthub.co.za` and `www.sassagranthub.co.za` to the project.
-3. Point DNS at the host. Keep the apex as the canonical host; `www` permanently redirects to it.
-4. Set `APP_URL=https://sassagranthub.co.za` in the production environment.
+3. Point DNS at the host. Make `www` the primary domain; the apex redirects to it.
+4. Set `APP_URL=https://www.sassagranthub.co.za` in the production environment.
 5. Deploy and confirm that `/robots.txt` and `/sitemap.xml` use the production domain.
-6. In Search Console, verify the domain, submit `https://sassagranthub.co.za/sitemap.xml`, and inspect the homepage, `/status`, `/payment-dates` and `/payment-dates/2026-november`.
+6. In Search Console, verify the domain, submit `https://www.sassagranthub.co.za/sitemap.xml`, and inspect the homepage, `/status`, `/payment-dates` and `/payment-dates/2026-november`.
 7. Add AdSense only after the account is approved. Do not create a placeholder `ads.txt` or publish a publisher ID that does not exist.
 
 See `MIGRATION.md` for the domain cutover and redirect checklist.

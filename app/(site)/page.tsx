@@ -15,6 +15,7 @@ import {
 } from "@/lib/data/grantAmounts";
 import { SITE_NAME, OFFICIAL_LINKS } from "@/lib/site";
 import AdUnit from "@/components/ads/AdUnit";
+import { AD_SLOTS } from "@/lib/ads";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -217,7 +218,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <AdUnit slot="HOME_LEADERBOARD" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
+      <AdUnit slotId={AD_SLOTS.HOME_LEADERBOARD} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" />
 
       {/* B. Common problems */}
       <section className="bg-background py-14 md:py-20">

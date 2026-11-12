@@ -1,13 +1,13 @@
 {
-  "id": "srd-extended-2027",
-  "slug": "/news/srd-r370-grant-extended-to-march-2027",
+  "id": "srd-extended-2028",
+  "slug": "/news/srd-r370-grant-extended-to-2028",
   "classification": "news-article",
-  "title": "SRD R370 Grant Extended to March 2027",
-  "description": "Government confirms the Social Relief of Distress grant at R370 per month will continue until at least March 2027.",
-  "lastUpdated": "2026-08-25",
+  "title": "SRD R370 Grant Extended to 31 March 2028",
+  "description": "National Treasury has extended the Social Relief of Distress grant at R370 per month to 31 March 2028, subject to formal implementation.",
+  "lastUpdated": "2026-11-12",
   "publishedAt": "2026-08-22",
   "topics": ["Policy & amounts"],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "published",
   "author": {
     "name": "Lucky Cungwa",
@@ -16,11 +16,11 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SRD R370 Grant Extended to March 2027 — What You Need to Know",
-    "metaDescription": "Government confirms the SRD R370 grant extension until March 2027. No reapplication needed, monthly evaluations continue. Full details for beneficiaries.",
+    "metaTitle": "SRD R370 Grant Extended to 31 March 2028",
+    "metaDescription": "National Treasury has extended the SRD R370 grant to 31 March 2028, subject to formal implementation. What the extension means for your monthly payments.",
     "keywords": [
       "SRD R370 extension",
-      "SRD extended 2027",
+      "SRD extended 2028",
       "social relief of distress",
       "SASSA grant extension",
       "R370 grant"
@@ -30,10 +30,10 @@
     {
       "id": "hero-1",
       "type": "hero",
-      "title": "SRD R370 Grant Extended to March 2027",
-      "description": "The South African government has confirmed that the Social Relief of Distress (SRD) grant of R370 per month will continue until at least March 2027. Here is everything you need to know as a beneficiary.",
+      "title": "SRD R370 Grant Extended to 31 March 2028",
+      "description": "National Treasury has extended the Social Relief of Distress (SRD) grant of R370 per month to 31 March 2028, subject to the completion of formal implementation. Here is what the extension means for your monthly payments.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-08-25"
+      "lastUpdated": "2026-11-12"
     },
     {
       "id": "h1",
@@ -44,7 +44,7 @@
     {
       "id": "p1",
       "type": "paragraph",
-      "text": "The South African government has officially confirmed that the SRD R370 grant will be extended through to March 2027. This extension ensures continued support for millions of unemployed South Africans who depend on the grant as their primary source of income."
+      "text": "The SRD R370 grant now runs to 31 March 2028. The 2026 Medium-Term Budget Policy Statement extended it by a further year, and SASSA's November 2026 payment notice confirms the end date, subject to the completion of all formal implementation. The extension keeps support in place for millions of unemployed South Africans who depend on the grant as their primary income."
     },
     {
       "id": "p2",
@@ -67,7 +67,7 @@
         "Existing beneficiaries do NOT need to reapply — your application continues automatically",
         "Monthly bank verification and means-test evaluation will continue as normal",
         "The appeals process remains active for any months where your application is declined",
-        "The extension runs from now until 31 March 2027, with further extensions possible"
+        "The extension runs until 31 March 2028, subject to the completion of formal implementation"
       ]
     },
     {
@@ -139,7 +139,7 @@
     {
       "id": "p6",
       "type": "paragraph",
-      "text": "There has been ongoing discussion about replacing the SRD grant with a permanent Basic Income Grant (BIG). The Social Development Department has submitted a feasibility study to Cabinet, but no decision has been made. The current extension to March 2027 gives government time to finalise the BIG proposal. However, beneficiaries should not expect any changes before the 2027 budget is tabled."
+      "text": "There has been ongoing discussion about replacing the SRD grant with a permanent Basic Income Grant (BIG). The Social Development Department has submitted a feasibility study to Cabinet, but no decision has been made. The extension to March 2028 gives government time to finalise the BIG proposal. However, beneficiaries should not expect any changes before the 2027 budget is tabled."
     },
     {
       "id": "faq1",
@@ -150,12 +150,12 @@
           "answer": "No. If you are already an approved beneficiary, your application continues automatically. You do not need to submit any new forms or visit a SASSA office."
         },
         {
-          "question": "Will the grant amount increase before March 2027?",
+          "question": "Will the grant amount increase before March 2028?",
           "answer": "There are no announced increases. The R370 amount is set for the duration of this extension. Any changes would be announced in the annual budget."
         },
         {
-          "question": "What happens after March 2027?",
-          "answer": "The government has not confirmed what happens after March 2027. The extension could be renewed, replaced by a Basic Income Grant, or ended. Beneficiaries will be informed well in advance of any changes."
+          "question": "What happens after March 2028?",
+          "answer": "The government has not confirmed what happens after 31 March 2028. The extension could be renewed, replaced by a Basic Income Grant, or ended. Beneficiaries will be informed well in advance of any changes."
         },
         {
           "question": "Can new applicants still apply for the SRD R370?",

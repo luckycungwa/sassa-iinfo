@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Pending — What Does Pending Mean on SASSA Status Check?",
   "description": "Your SASSA grant status shows 'Pending' — here's what it means, how long it lasts, and what you should do next.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.1.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.4.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -128,6 +128,50 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: a first SRD application in its second week"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Thandi submitted her first SRD R370 application on 3 November on srd.sassa.gov.za, using her smart ID and the cellphone number registered in her own name. Nine days later the portal still reads Pending. Nothing has gone wrong: Pending is the queue, not a decision, and a brand-new application is expected to sit there while identity and income checks run."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "The useful thing she can do is a single, calm audit rather than repeated checking. She confirms the 13-digit ID number has no spaces or transposed digits, confirms the cellphone number on the application is the SIM currently in her phone, and reads her SMS inbox for any message from SASSA asking for a selfie or document. If all three are correct, the only remaining action is to wait for the month to resolve."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "callout",
+      "intent": "warning",
+      "title": "Do not submit a second application",
+      "text": "A duplicate does not move you forward in the queue and it can leave two records against one ID number. If something genuinely needs correcting, change it on the existing record rather than starting again."
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Where the Pending status actually comes from"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "SASSA does not publish an individual's position in the queue, so the only authoritative view of your own record is the status screen at srd.sassa.gov.za, opened with the ID number and cellphone number used on the application. General requirements for grant applications, including the documents SASSA asks for, are published at sassa.gov.za. The waiting periods quoted on this page are typical ranges drawn from that published guidance, not a promise about your specific file.",
+      "links": [
+        {
+          "text": "the SRD status portal",
+          "href": "https://srd.sassa.gov.za"
+        },
+        {
+          "text": "SASSA's application guidance",
+          "href": "https://www.sassa.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -198,5 +242,6 @@
       "title": "How to Check Your SASSA Grant Status",
       "slug": "/guides/how-to-check-sassa-status"
     }
-  ]
+  ],
+  "lastReviewed": "2026-11-12"
 }

@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Reapplication Required — What the SASSA Status Means",
   "description": "SASSA status 'Reapplication Required' means your current application cannot be carried forward. Here is why it appears, how it differs from a decline, and how to reapply correctly.",
-  "lastUpdated": "2026-10-20",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -185,6 +185,65 @@
       "text": "Reapplying is free. Anyone charging a fee to clear a status or 'speed up' an application is taking advantage of you. SASSA staff will never ask for your PIN or a payment to change a status."
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: an application that was never submitted"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Sibusiso filled in the SRD form on his phone in a shop with weak signal. The screen never confirmed, and he assumed it had gone through. Three weeks later the portal said Reapplication Required. There was no decline to appeal, because there was no completed application for SASSA to assess — the record had never been submitted."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "His response was to reapply once, carefully, and to keep the confirmation. He used the same ID number and the same cellphone number, confirmed his bank details in the same session, and screenshotted the reference number. Reapplying is the correct action here — unlike a decline, where the appeal is the correct action."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Confirm nothing was submitted",
+          "description": "Search your SMS for a reference number. No reference means no completed application."
+        },
+        {
+          "title": "Reapply once",
+          "description": "Use the same ID and phone number so the new record links to your identity cleanly."
+        },
+        {
+          "title": "Confirm banking in the same session",
+          "description": "A partial application with no bank details cannot be paid even if approved."
+        },
+        {
+          "title": "Keep the reference",
+          "description": "The reference number is what lets SASSA trace the application if the status looks wrong later."
+        }
+      ]
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "No decision, so no appeal"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "The appeal route exists to challenge a decision. Reapplication Required means no decision was made, so the remedy is a complete application, submitted once, on srd.sassa.gov.za. Keeping the reference number the portal issues is the only reliable way to prove an application exists; SASSA's general application guidance is at sassa.gov.za.",
+      "links": [
+        {
+          "text": "the SRD portal",
+          "href": "https://srd.sassa.gov.za"
+        },
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 2,
@@ -252,5 +311,6 @@
       "title": "Declined",
       "slug": "/status/declined"
     }
-  ]
+  ],
+  "lastReviewed": "2026-11-12"
 }

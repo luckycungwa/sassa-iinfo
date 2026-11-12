@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Self Exclusion — What It Means & How to Fix Your Application Declaration",
   "description": "Your SASSA status shows 'Self Exclusion' — here is what this means, why your application declaration triggered it, and how to correct it.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -96,6 +96,50 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: one wrong answer on a declaration"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "During a monthly reconfirmation, Mpho was asked whether she had any other income or support. She read 'support' as 'any help at all' and answered yes, thinking of the groceries her brother sometimes bought. That answer is a declaration, and the declaration is what excluded her from that month — not any money in her account."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "The fix is to correct the declaration, not to appeal the principle. Where the portal allows an update, she corrects the answer for the relevant period; where it does not, the appeal explains the misreading and states plainly that she has no income. The distinction matters because self-exclusion is a statement you made, while alternative income is a finding from your bank records."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "callout",
+      "intent": "info",
+      "title": "Read declarations slowly",
+      "text": "Questions about income, support and state institutions decide eligibility directly. If you are unsure whether something counts, answer accurately and explain it in an appeal rather than guessing at the prompt."
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Why a declaration carries so much weight"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "The SRD application and each reconfirmation require the applicant to declare their circumstances, and SASSA assesses the month against that declaration together with its database checks. The declarations are described on srd.sassa.gov.za when you complete them, and the eligibility conditions themselves are set out in the gazetted rules and summarised at sassa.gov.za.",
+      "links": [
+        {
+          "text": "the SRD portal",
+          "href": "https://srd.sassa.gov.za"
+        },
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq",
       "type": "faq",
       "faqs": [
@@ -145,5 +189,16 @@
       "title": "Referred Status",
       "slug": "/status/referred"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SASSA SRD R370 status portal",
+      "url": "https://srd.sassa.gov.za"
+    },
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

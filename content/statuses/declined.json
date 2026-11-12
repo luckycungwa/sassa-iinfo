@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Declined — What It Means & How to Appeal a SASSA Grant Decline",
   "description": "Your SASSA grant status shows 'Declined' — here is what it means, the most common reasons for declines, and a complete guide to appealing your declined grant.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -36,6 +36,10 @@
     {
       "label": "Independent Tribunal (ITSAA)",
       "url": "https://itsaa.gov.za"
+    },
+    {
+      "label": "Government Gazette (GPW)",
+      "url": "https://www.gpwonline.co.za"
     }
   ],
   "contentBlocks": [
@@ -207,6 +211,65 @@
       "text": "South African law gives you 90 days from the date of receiving your decline notification to file an appeal. Appeals are handled by the Independent Tribunal for Social Assistance Appeals (ITSAA), which is completely independent from SASSA. You do not need a lawyer to appeal."
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: a decline with a 90-day clock"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "Lerato's SRD application was declined in September with alternative income given as the reason. In August her sister had transferred R900 to cover school fees, and the monthly bank sweep read that single deposit as income for the month. She had 90 days from the decline to challenge it, and she used the time to assemble the appeal rather than to reapply."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "Her appeal bundle was deliberately small and specific: three months of bank statements for the affected account, an affidavit explaining that the R900 was a once-off family transfer for school fees, and proof that she had no employer or UIF record for that period. A fresh application would have been assessed against the same bank data and produced the same outcome, which is why the appeal route — not a reapplication — is the correct response to a decline you believe is wrong."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "steps",
+      "steps": [
+        {
+          "title": "Read the reason, not just the word",
+          "description": "The decline reason determines the evidence: income, identity, banking or documents."
+        },
+        {
+          "title": "Note the month and the deadline",
+          "description": "Each month is assessed separately, and the 90-day window runs from that decline."
+        },
+        {
+          "title": "Assemble evidence for that month",
+          "description": "Bank statements for the specific month, plus an affidavit for anything that looks like income but is not."
+        },
+        {
+          "title": "Lodge the appeal, then track it",
+          "description": "Submit through the official appeals channel and keep the reference; do not pay anyone to appeal for you."
+        }
+      ]
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "The statutory basis for appealing"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "A decline is an administrative decision under the Social Assistance Act 13 of 2004 and its regulations, and it can be taken on appeal to the Independent Tribunal for Social Assistance Appeals within 90 days. The Act and the regulations are published in the Government Gazette, and the appeal is free — SASSA and the Tribunal do not charge for it. This page explains how the process works; it cannot lodge an appeal or predict an outcome.",
+      "links": [
+        {
+          "text": "the Government Gazette",
+          "href": "https://www.gpwonline.co.za"
+        },
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -282,5 +345,6 @@
       "title": "Means Test Failed",
       "slug": "/status/means-test-failed"
     }
-  ]
+  ],
+  "lastReviewed": "2026-11-12"
 }

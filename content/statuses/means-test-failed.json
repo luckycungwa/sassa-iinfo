@@ -4,8 +4,8 @@
   "classification": "status-meaning",
   "title": "Means Test Failed — What It Means & How to Fix Your Financial Assessment",
   "description": "Your SASSA status shows 'Means Test Failed'. Learn what this status means, why SASSA declined your application, and how to appeal if the assessment was incorrect.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "version": "1.3.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -161,6 +161,48 @@
       ]
     },
     {
+      "id": "depth-example-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Illustrative example: a backyard room changed the calculation"
+    },
+    {
+      "id": "depth-example-1",
+      "type": "paragraph",
+      "text": "An Older Persons Grant application failed the means test because the applicant rented out a backyard room for a modest monthly amount and had not declared it. The income was real, but it was also irregular: the tenant had moved out two months before the application was assessed. The file was decided on a snapshot that no longer described the household."
+    },
+    {
+      "id": "depth-example-2",
+      "type": "paragraph",
+      "text": "The remedy was not a new application with the same silence about the rental. It was a written declaration of the change in circumstances, supported by three months of bank statements showing the rental stopped, plus the lease ending. Means tests are decided on evidence of income and assets, so a change of circumstances has to be documented before it can change the outcome."
+    },
+    {
+      "id": "depth-example-3",
+      "type": "paragraph",
+      "text": "The other common version of this decline is arithmetic rather than error: a spouse's earnings or a joint investment push combined household income over the limit. In that case the decline is correct, and the useful step is to understand which threshold applies before reapplying."
+    },
+    {
+      "id": "depth-official-h",
+      "type": "heading",
+      "level": 3,
+      "text": "Where the thresholds are set"
+    },
+    {
+      "id": "depth-official-p",
+      "type": "paragraph",
+      "text": "Means-test thresholds and the assets that count are set in the regulations under the Social Assistance Act 13 of 2004 and adjusted by ministerial determination published in the Government Gazette. Different grants test different things: the SRD grant tests monthly income, while Older Persons, Disability and Child Support grants have their own income and asset rules. The current figures are published at sassa.gov.za and in the gazette, and this site reproduces them with the date they were last checked.",
+      "links": [
+        {
+          "text": "SASSA",
+          "href": "https://www.sassa.gov.za"
+        },
+        {
+          "text": "the Government Gazette",
+          "href": "https://www.gpwonline.co.za"
+        }
+      ]
+    },
+    {
       "id": "faq-h",
       "type": "heading",
       "level": 3,
@@ -223,5 +265,16 @@
       "title": "Alternative Income Source",
       "slug": "/status/alternative-income-source"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "SASSA — official grant information",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "Government Gazette (GPW)",
+      "url": "https://www.gpwonline.co.za"
+    }
+  ],
+  "lastReviewed": "2026-11-12"
 }

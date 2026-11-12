@@ -2,5 +2,5 @@
   "name": "SASSA Grant Hub",
   "description": "Independent South African resource for SASSA grant statuses, payment dates, applications, eligibility and appeals.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

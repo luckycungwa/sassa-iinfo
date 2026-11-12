@@ -145,7 +145,7 @@ const seenDesc = new Map();
 const linked = new Set();
 
 for (const p of pages) {
-  const expected = `https://sassagranthub.co.za${p.path === "/" ? "/" : p.path}`;
+  const expected = `https://www.sassagranthub.co.za${p.path === "/" ? "/" : p.path}`;
   const canonicalPath = p.canonical ? new URL(p.canonical).pathname.replace(/\/+$/, "") || "/" : null;
 
   if (p.status !== 200) failures.push(`${p.path} returned ${p.status}`);
