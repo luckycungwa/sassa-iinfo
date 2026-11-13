@@ -6,7 +6,10 @@
   "description": "Mandatory annual eLife certification and biometric face-scan verification is now required for all SRD R370 grant applicants. Step-by-step guide to completing it from home.",
   "lastUpdated": "2026-08-25",
   "publishedAt": "2026-08-22",
-  "topics": ["Status & reviews", "SRD R370"],
+  "topics": [
+    "Status & reviews",
+    "SRD R370"
+  ],
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -16,8 +19,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "eLife Certification for SRD Grant: Complete Guide 2026",
-    "metaDescription": "Step-by-step guide to completing mandatory eLife certification and iiDentifii biometric face-scan for SASSA SRD R370 grant. Fix common errors and avoid suspension.",
+    "metaTitle": "eLife Certification for the SRD Grant",
+    "metaDescription": "Learn how to complete SRD eLife certification and biometric checks, fix common errors and avoid delays linked to verification.",
     "keywords": [
       "eLife certification",
       "SRD biometric verification",
