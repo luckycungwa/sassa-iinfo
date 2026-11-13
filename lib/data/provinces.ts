@@ -15,8 +15,8 @@ export const provinces: ProvinceHub[] = [
     slug: "gauteng",
     name: "Gauteng",
     capital: "Johannesburg",
-    regionalOfficeAddress: "28 Harrison Street, Marshalltown, Johannesburg, 2000",
-    regionalOfficePhone: "011 240 5300",
+    regionalOfficeAddress: "28 Harrison Street, Johannesburg, 2000",
+    regionalOfficePhone: "011 241 8320",
     collectionInfo: "Gauteng beneficiaries can collect their cash payments at any major retailer, including Boxer, Pick n Pay, Shoprite, Checkers, and Usave, as well as selected post office hubs or direct bank transfers. With the highest population density, Gauteng SASSA offices see the longest queues — arrive early (before 7:00 AM) to avoid peak-hour waits.",
     faqs: [
       {
@@ -43,7 +43,7 @@ export const provinces: ProvinceHub[] = [
     name: "Western Cape",
     capital: "Cape Town",
     regionalOfficeAddress: "Golden Acre Building, Adderley Street, Cape Town, 8000",
-    regionalOfficePhone: "021 469 0200",
+    regionalOfficePhone: "021 469 0235",
     collectionInfo: "Western Cape payments are cleared on scheduled dates at retail merchants or direct bank EFTs. Cape Town CBD offices are busiest in the first week of each month (pay week). Beneficiaries in rural areas like Beaufort West and Knysna should use bank transfers to avoid long travel distances.",
     faqs: [
       {
@@ -70,7 +70,7 @@ export const provinces: ProvinceHub[] = [
     name: "KwaZulu-Natal",
     capital: "Pietermaritzburg",
     regionalOfficeAddress: "1 Bank Street, Pietermaritzburg, 3201",
-    regionalOfficePhone: "033 846 3300",
+    regionalOfficePhone: "033 846 3400",
     collectionInfo: "In KZN, mobile pay points are set up in remote rural areas to ensure access where retailers are not nearby. The province has a large rural population and SASSA operates an extensive mobile network serving deep rural communities in areas like Msinga, KwaNongoma, and the South Coast.",
     faqs: [
       {
@@ -96,8 +96,8 @@ export const provinces: ProvinceHub[] = [
     slug: "limpopo",
     name: "Limpopo",
     capital: "Polokwane",
-    regionalOfficeAddress: "48 Landros Mare Street, Polokwane, 0699",
-    regionalOfficePhone: "015 291 7400",
+    regionalOfficeAddress: "43 Landros Mare Street, Polokwane, 0699",
+    regionalOfficePhone: "015 291 7509",
     collectionInfo: "Limpopo has a large rural network; beneficiaries are advised to use personal bank accounts to avoid long queues at retail stores. The province spans a vast area with many remote villages, and SASSA mobile units serve communities across Vhembe, Capricorn, Mopani, and Sekhukhune districts.",
     faqs: [
       {
@@ -123,8 +123,8 @@ export const provinces: ProvinceHub[] = [
     slug: "eastern-cape",
     name: "Eastern Cape",
     capital: "Bhisho",
-    regionalOfficeAddress: "3 Oxford Street, East London, 5201",
-    regionalOfficePhone: "043 707 6400",
+    regionalOfficeAddress: "1st Floor, Waverley Office Park, 3–33 Phillip Frame Road, Chiselhurst, East London, 5200",
+    regionalOfficePhone: "043 707 6335",
     collectionInfo: "Eastern Cape beneficiaries can collect payments at major retailers (Shoprite, Boxer, Pick n Pay) or via direct bank transfer. Mobile pay points serve deep rural areas around Mthatha, Lusikisiki, and Mount Frere. The province has some of the longest travel distances to SASSA offices in the country.",
     faqs: [
       {
@@ -150,8 +150,8 @@ export const provinces: ProvinceHub[] = [
     slug: "mpumalanga",
     name: "Mpumalanga",
     capital: "Mbombela (Nelspruit)",
-    regionalOfficeAddress: "17 Government Boulevard, Riverside Park, Mbombela, 1200",
-    regionalOfficePhone: "013 754 3900",
+    regionalOfficeAddress: "18 Ferreira Street, Nelspruit, 1200",
+    regionalOfficePhone: "013 754 9446",
     collectionInfo: "Mpumalanga beneficiaries receive payments at retail cash points, bank EFTs, and post office hubs. Mobile pay points service deep rural communities in Bushbuckridge and Emalahleni. The province has a mix of urban centres (Nelspruit, Witbank) and deep rural areas.",
     faqs: [
       {
@@ -177,8 +177,8 @@ export const provinces: ProvinceHub[] = [
     slug: "free-state",
     name: "Free State",
     capital: "Bloemfontein",
-    regionalOfficeAddress: "95 St Andrew Street, Bloemfontein, 9301",
-    regionalOfficePhone: "051 412 0300",
+    regionalOfficeAddress: "African Life Building, 75 St Andrew Street, Bloemfontein, 9300",
+    regionalOfficePhone: "051 410 8339",
     collectionInfo: "Free State payments are primarily via direct bank transfer or retail collection at Shoprite, Boxer, and Pick n Pay. Rural pay points serve the eastern Free State farming districts. The province's smaller population means shorter queues at SASSA offices compared to Gauteng or KZN.",
     faqs: [
       {
@@ -204,8 +204,8 @@ export const provinces: ProvinceHub[] = [
     slug: "north-west",
     name: "North West",
     capital: "Mahikeng",
-    regionalOfficeAddress: "2nd Floor, Mega City Complex, Carrington Street, Mahikeng, 2745",
-    regionalOfficePhone: "018 397 2600",
+    regionalOfficeAddress: "SASSA House, University Drive, Mmabatho, 2735",
+    regionalOfficePhone: "018 388 4006",
     collectionInfo: "North West beneficiaries can collect at Shoprite, Boxer, and Pick n Pay stores across the province. Mobile pay points serve remote platinum mining communities around Rustenburg and Brits. The province's mining towns have higher population density and longer queues on pay weeks.",
     faqs: [
       {
@@ -231,8 +231,8 @@ export const provinces: ProvinceHub[] = [
     slug: "northern-cape",
     name: "Northern Cape",
     capital: "Kimberley",
-    regionalOfficeAddress: "Old SAR Building, Market Square, Kimberley, 8300",
-    regionalOfficePhone: "053 802 7300",
+    regionalOfficeAddress: "95–97 Du Toitspan Road, Kimberley, 8300",
+    regionalOfficePhone: "053 802 4919",
     collectionInfo: "Northern Cape has the smallest population but the largest geographic area. Beneficiaries in remote towns like Upington and Springbok rely on mobile pay points and retailer cash collection. Because distances between towns are vast, direct bank transfer is strongly recommended for all Northern Cape beneficiaries.",
     faqs: [
       {
