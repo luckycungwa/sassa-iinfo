@@ -10,11 +10,12 @@ This section supersedes older readiness statements below where they conflict.
 
 - Work is on PR #2, branch `fix/adsense-readiness-cleanup-2026-11-13`. The PR is open and remains unmerged; no production deployment has been made.
 - Metadata was rewritten across 107 content records, seven downloadable-form pages, the main content hubs and the three province pages identified by the generated-HTML audit.
-- The first full CI pass completed content validation and the Next.js production build successfully. It generated 200 pages, including 148 indexable prerendered pages.
-- The first generated-HTML audit found 23 remaining title/description overages. Those specific hub, download and province metadata fields have since been edited. A fresh CI build and audit is required before this cleanup can be marked complete.
-- The initial CI run therefore was **not fully green**: content validation passed, production build passed, metadata audit failed on those 23 items. Do not use that run as final approval to apply.
+- The first full CI run generated 200 pages, including 148 indexable prerendered pages. It passed content validation and the Next.js production build, then exposed 23 title/description overages.
+- Those 23 specific hub, download and province metadata fields have been corrected.
+- The latest CI run on commit `6b1ec9a252b19c24a281d3675347656484a1eee1` is **green**: dependency installation, content validation, production build and generated-HTML metadata audit all passed. The audit checked all 148 indexable prerendered pages with zero remaining title/description length failures.
 - The publisher ID supplied by the site owner is `pub-8180440849942257`. The `/ads.txt` route now emits the seller record only when `NEXT_PUBLIC_ADSENSE_ID` is configured. CI supplies `ca-pub-8180440849942257`; the production Vercel environment and live `/ads.txt` response have not been verified.
 - A web-based check of the live `ads.txt`, `robots.txt` and sitemap could not retrieve those endpoints in this session. Their live state is therefore unconfirmed.
+- The Vercel team connected to this session has no Git-linked project for `luckycungwa/sassa-iinfo`, and its visible project/domain inventory does not include `sassagranthub.co.za`. The production project may be under another Vercel team/account or another host; this connection cannot verify or change its environment variables.
 
 ## 0. Honest framing
 
@@ -118,7 +119,7 @@ Corrections made to `/grants/grant-in-aid` (version 1.1.0, `lastUpdated` 2026-11
 1. **Confirm `44tagstudios@gmail.com` receives mail.** It is now the published contact
    route on `/contact`. A Gmail address is accepted by AdSense; the address only has to
    exist and be monitored.
-2. **Deploy** so canonicals, sitemap and `robots.txt` on the live host match the code.
+2. **Confirm the production hosting project.** The Vercel workspace connected to this session does not show a project linked to `sassa-iinfo` or the `sassagranthub.co.za` domain. Identify the actual project/team or host, set `APP_URL` and `NEXT_PUBLIC_ADSENSE_ID` there, then deploy so live canonicals, sitemap, `robots.txt` and `/ads.txt` match the code.
 3. **Enable Auto ads** (or create the five manual units) in the AdSense dashboard.
 4. **Search Console:** resubmit `https://www.sassagranthub.co.za/sitemap.xml` after the
    deploy and re-inspect the five hub pages.
@@ -134,9 +135,8 @@ claimed.
 ## 7. Known remaining work
 
 - **Metadata length pass.** The older report counted 103 URLs with over-length titles or
-  descriptions. A new audit of actual built HTML checked 148 indexable pages and found 23
-  remaining issues, mostly on hub, download and province pages. All 23 specific fields have
-  been edited; the rerun is pending. Only mark this item complete after the new CI audit passes.
+  descriptions. The current generated-HTML audit checked 148 indexable pages and now passes
+  with zero missing or over-length titles/descriptions.
 - **Indexing.** The last recorded Search Console snapshot showed 61 indexed and 142
   "Discovered – currently not indexed". Recheck after deployment and sitemap resubmission;
   do not assume the canonical change alone will resolve the remaining discovered URLs.
@@ -151,7 +151,7 @@ claimed.
 - [x] Privacy, Terms, Disclaimer, Editorial and Corrections pages present and accurate
 - [x] No government-affiliation claim, no invented dates or amounts
 - [x] Official sources cited on grant pages and status pages
-- [ ] Set Vercel `APP_URL=https://www.sassagranthub.co.za` and `NEXT_PUBLIC_ADSENSE_ID=ca-pub-8180440849942257`, deploy, then verify live canonicals, sitemap and `robots.txt` on `www`
+- [ ] In the actual production hosting project, set `APP_URL=https://www.sassagranthub.co.za` and `NEXT_PUBLIC_ADSENSE_ID=ca-pub-8180440849942257`, deploy, then verify live canonicals, sitemap, `robots.txt` and `/ads.txt` on `www`
 - [ ] Confirm `44tagstudios@gmail.com` receives mail and is monitored
 - [x] No outbound Facebook link, no claim of a social community we do not run
 - [ ] Search Console: sitemap accepted, hub pages indexed — **after deploy**
@@ -163,7 +163,7 @@ claimed.
 ### 13 November 2026 follow-up
 - Reworked metadata across 107 content records, seven download pages, eight hub pages and the affected province metadata.
 - Added a GitHub Actions quality gate for dependency installation, content validation, production build and generated-HTML metadata audit.
-- First CI run: content validation passed; production build passed; metadata audit identified 23 overages. The 23 specific fields have since been corrected; final rerun is pending.
+- First CI run identified 23 remaining metadata overages after content validation and production build passed. All 23 were corrected. Latest CI run passed content validation, production build and the generated-HTML metadata audit across 148 indexable pages.
 - Made `/ads.txt` publisher output environment-driven and updated `.env.example` with the application-stage configuration guidance.
 
 ```
