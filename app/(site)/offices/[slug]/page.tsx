@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const content = getPageBySlug(`/offices/${slug}`);
   if (content) {
-    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/offices/${slug}`, absoluteTitle: true });
+    return pageMetadata({ title: content.seo.metaTitle, description: content.seo.metaDescription, path: `/offices/${slug}`, absoluteTitle: true, noindex: content.classification === "office-location" });
   }
 
   const office = offices.find((o) => o.id === slug);
