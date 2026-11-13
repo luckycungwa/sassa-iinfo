@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "Foster Child Grant — R1,300/Month & How to Apply (2026)",
-    "metaDescription": "Foster Child Grant pays R1,300/month in 2026. Learn the court-order rules and follow our step-by-step SASSA foster care application and renewal guide.",
+    "metaTitle": "SASSA Foster Child Grant: How to Apply",
+    "metaDescription": "Check Foster Child Grant eligibility, court-order requirements and the steps to apply or renew the grant.",
     "keywords": [
       "foster care grant",
       "SASSA foster child grant",
@@ -532,7 +532,7 @@
       "intent": "danger",
       "title": "SASSA Never Charges a Fee",
       "text": "No one at SASSA will ask you to pay to process a foster care grant or to renew a court order. Anyone demanding money, your PIN, or your card is running a scam."
-      },
+    },
     {
       "id": "scams-list",
       "type": "list",
@@ -575,10 +575,26 @@
       "id": "key-figures-foster",
       "type": "stat-bar",
       "stats": [
-        { "label": "Monthly amount", "value": "R1,300", "description": "Per foster child, effective 1 October 2026 (R1,290 from April 2026)" },
-        { "label": "Means test", "value": "None", "description": "Based on a valid court order, not your income" },
-        { "label": "Review", "value": "Annually", "description": "The Children's Court order is renewed each year" },
-        { "label": "Appeal window", "value": "30 days", "description": "To the ITSAA; portal accepts up to 90 days" }
+        {
+          "label": "Monthly amount",
+          "value": "R1,300",
+          "description": "Per foster child, effective 1 October 2026 (R1,290 from April 2026)"
+        },
+        {
+          "label": "Means test",
+          "value": "None",
+          "description": "Based on a valid court order, not your income"
+        },
+        {
+          "label": "Review",
+          "value": "Annually",
+          "description": "The Children's Court order is renewed each year"
+        },
+        {
+          "label": "Appeal window",
+          "value": "30 days",
+          "description": "To the ITSAA; portal accepts up to 90 days"
+        }
       ]
     },
     {
@@ -652,11 +668,26 @@
       "id": "application-flow-foster",
       "type": "process-diagram",
       "steps": [
-        { "label": "Social worker", "description": "DSD social worker assesses the child and your home" },
-        { "label": "Court order", "description": "Children's Court places the child in your foster care" },
-        { "label": "Apply at SASSA", "description": "Take the order, IDs, proof of residence, and bank details" },
-        { "label": "Decision", "description": "Approved (backdated pay) or declined (appeal to ITSAA)" },
-        { "label": "Annual renewal", "description": "Renew the court order each year and update SASSA" }
+        {
+          "label": "Social worker",
+          "description": "DSD social worker assesses the child and your home"
+        },
+        {
+          "label": "Court order",
+          "description": "Children's Court places the child in your foster care"
+        },
+        {
+          "label": "Apply at SASSA",
+          "description": "Take the order, IDs, proof of residence, and bank details"
+        },
+        {
+          "label": "Decision",
+          "description": "Approved (backdated pay) or declined (appeal to ITSAA)"
+        },
+        {
+          "label": "Annual renewal",
+          "description": "Renew the court order each year and update SASSA"
+        }
       ]
     },
     {
