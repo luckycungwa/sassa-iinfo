@@ -6,7 +6,9 @@
   "description": "SASSA is migrating beneficiaries from the Gold Card to the Black Card (Postbank card). Find out if you need to switch, how to do it, and what happens if you delay.",
   "lastUpdated": "2026-08-25",
   "publishedAt": "2026-08-25",
-  "topics": ["Banking & cards"],
+  "topics": [
+    "Banking & cards"
+  ],
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Gold Card to Black Card Migration — Switch Guide 2026",
-    "metaDescription": "Gold Cards are being phased out for the Postbank Black Card. Who must switch, the free swap steps, deadlines, and how payments continue during migration.",
+    "metaTitle": "SASSA Gold Card to Black Card: Switch Guide",
+    "metaDescription": "Learn who needs to move from a SASSA Gold Card to a Postbank Black Card, how to arrange the swap and what happens to grant payments.",
     "keywords": [
       "sassa gold card black card",
       "postbank black card migration",
