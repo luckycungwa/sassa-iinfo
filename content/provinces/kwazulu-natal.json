@@ -4,8 +4,8 @@
   "classification": "province-hub",
   "title": "SASSA KwaZulu-Natal Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in KwaZulu-Natal. Regional office in Pietermaritzburg, grant collection across Durban and rural KZN, mobile pay points, and province-specific FAQs.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-13",
+  "version": "1.1.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -14,7 +14,7 @@
   },
   "seo": {
     "metaTitle": "SASSA KwaZulu-Natal: Offices, Grants & Collection Guide 2026",
-    "metaDescription": "SASSA guide for KwaZulu-Natal. Regional office at 1 Bank Street, Pietermaritzburg (033 846 3300). Durban office queues, rural mobile pay points, isiZulu services, and collection tips.",
+    "metaDescription": "SASSA KwaZulu-Natal regional office contact: 1 Bank Street, Pietermaritzburg, phone 033 846 3400. Grant collection guidance and provincial information.",
     "keywords": [
       "SASSA KZN",
       "KwaZulu-Natal SASSA offices",
@@ -45,8 +45,8 @@
       "type": "province-overview",
       "capital": "Pietermaritzburg",
       "regionalOfficeAddress": "1 Bank Street, Pietermaritzburg, 3201",
-      "regionalOfficePhone": "033 846 3300",
-      "collectionInfo": "KwaZulu-Natal beneficiaries collect grants at major retailers in towns and cities, via direct bank transfer, or at mobile pay points in remote rural areas. Because much of the province is rural, the mobile pay point network here is one of the most extensive in the country.",
+      "regionalOfficePhone": "033 846 3400",
+      "collectionInfo": "KwaZulu-Natal beneficiaries collect grants at major retailers in towns and cities, via direct bank transfer, or at mobile pay points in remote rural areas. Because much of the province is rural, the mobile pay point network here is one of the most extensive in the country. The address and number above are SASSA's published provincial regional-office contact, not a confirmation of every local branch. Confirm local office details with SASSA on 0800 60 10 11 before travelling.",
       "grantTypes": [
         "Child Support Grant",
         "Older Persons Grant",
