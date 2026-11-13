@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - fix/adsense-readiness-cleanup-2026-11-13
-  pull_request:
-    branches:
-      - main
+
+concurrency:
+  group: adsense-readiness-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
