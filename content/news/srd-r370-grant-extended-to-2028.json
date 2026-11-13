@@ -2,22 +2,24 @@
   "id": "srd-extended-2028",
   "slug": "/news/srd-r370-grant-extended-to-2028",
   "classification": "news-article",
-  "title": "SRD R370 Grant Extended to 31 March 2028",
-  "description": "National Treasury has extended the Social Relief of Distress grant at R370 per month to 31 March 2028, subject to formal implementation.",
-  "lastUpdated": "2026-11-12",
+  "title": "SRD R370 Extension: March 2028 Reports Explained",
+  "description": "Reports after the October 2026 MTBPS point to a further SRD extension to March 2028. See what is confirmed, what is reported and what still awaits formal implementation.",
+  "lastUpdated": "2026-11-13",
   "publishedAt": "2026-08-22",
-  "topics": ["Policy & amounts"],
-  "version": "1.1.0",
+  "topics": [
+    "Policy & amounts"
+  ],
+  "version": "1.2.0",
   "status": "published",
   "author": {
     "name": "Lucky Cungwa",
     "role": "Senior Editor",
-    "credentials": "Verified against official SASSA publications",
-    "verified": true
+    "credentials": "Editorial review of government notices and independent reporting; the 2028 date remains subject to formal implementation.",
+    "verified": false
   },
   "seo": {
-    "metaTitle": "SRD R370 Grant Extended to 31 March 2028",
-    "metaDescription": "National Treasury has extended the SRD R370 grant to 31 March 2028, subject to formal implementation. What the extension means for your monthly payments.",
+    "metaTitle": "SRD R370 Extension: March 2028 Reports",
+    "metaDescription": "Reports after the October 2026 MTBPS point to a further SRD extension to March 2028. See what is confirmed and what still awaits formal implementation.",
     "keywords": [
       "SRD R370 extension",
       "SRD extended 2028",
@@ -30,21 +32,21 @@
     {
       "id": "hero-1",
       "type": "hero",
-      "title": "SRD R370 Grant Extended to 31 March 2028",
-      "description": "National Treasury has extended the Social Relief of Distress (SRD) grant of R370 per month to 31 March 2028, subject to the completion of formal implementation. Here is what the extension means for your monthly payments.",
+      "title": "SRD R370 Extension: March 2028 Reports Explained",
+      "description": "Reports after the October 2026 MTBPS point to a further SRD extension to March 2028. See what is confirmed, what is reported and what still awaits formal implementation.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-11-12"
+      "lastUpdated": "2026-11-13"
     },
     {
       "id": "h1",
       "type": "heading",
       "level": 2,
-      "text": "Extension Confirmed for Millions of Beneficiaries"
+      "text": "What Is Confirmed and What Is Reported?"
     },
     {
       "id": "p1",
       "type": "paragraph",
-      "text": "The SRD R370 grant now runs to 31 March 2028. The 2026 Medium-Term Budget Policy Statement extended it by a further year, and SASSA's November 2026 payment notice confirms the end date, subject to the completion of all formal implementation. The extension keeps support in place for millions of unemployed South Africans who depend on the grant as their primary income."
+      "text": "The SRD R370 grant was officially extended from 1 April 2026 to 31 March 2027 in the February 2026 Department of Social Development announcement. After the 21 October 2026 Medium-Term Budget Policy Statement, several media and civil-society reports described a further one-year extension to March 2028. We have not located a published DSD notice or Government Gazette setting out the detailed implementation of that further year. Treat the March 2028 date as reported and subject to formal implementation until an official notice confirms the details."
     },
     {
       "id": "p2",
@@ -62,20 +64,19 @@
       "type": "list",
       "ordered": false,
       "items": [
-        "The grant remains at R370 per month — there is no increase for the 2026/27 period",
-        "Eligibility criteria remain unchanged from the previous cycle",
-        "Existing beneficiaries do NOT need to reapply — your application continues automatically",
-        "Monthly bank verification and means-test evaluation will continue as normal",
-        "The appeals process remains active for any months where your application is declined",
-        "The extension runs until 31 March 2028, subject to the completion of formal implementation"
+        "The grant remains R370 per month; the extension did not announce an increase.",
+        "The February 2026 DSD announcement formally confirmed continuation from 1 April 2026 to 31 March 2027.",
+        "Reports following the October 2026 MTBPS describe a further year to March 2028, subject to formal implementation.",
+        "Existing applications continue to be assessed monthly; check the official portal for any reconfirmation or verification request.",
+        "Appeals remain available for declined months; follow the deadline shown by the official appeal service."
       ]
     },
     {
       "id": "callout1",
       "type": "callout",
       "intent": "info",
-      "title": "No Reapplication Needed",
-      "text": "If you are already an approved SRD beneficiary, you do not need to submit a new application. Your existing application will continue to be evaluated each month. Simply check your status on the SRD portal after the 15th of each month."
+      "title": "Check the official portal before taking action",
+      "text": "The extension announcement does not by itself require a new application. Existing applications are still assessed monthly. Check the official SRD portal for any reconfirmation or verification prompt, and follow the instruction shown there. Do not submit duplicate applications unless SASSA instructs you to."
     },
     {
       "id": "h3",
@@ -86,12 +87,12 @@
     {
       "id": "p3",
       "type": "paragraph",
-      "text": "Very little has changed from the previous extension period. The grant amount stays at R370 per month, which has been the standard amount since May 2023. The eligibility criteria remain the same: you must be a South African citizen or permanent resident, unemployed or earning below the means-test threshold, and not receiving any other social grant or UIF payments."
+      "text": "The SRD remains R370 per month. The amount increased from R350 to R370 in April 2024, not May 2023. Monthly eligibility and income checks still apply; an extension does not guarantee approval in every payment cycle."
     },
     {
       "id": "p4",
       "type": "paragraph",
-      "text": "One notable continuity is the mandatory eLife certification (biometric face-scan verification) introduced in 2025. All beneficiaries must complete this annual verification to avoid suspension. If you have not yet done your eLife certification, you should complete it as soon as possible."
+      "text": "SASSA may request biometric verification when identity or fraud checks require it. Complete biometric or eLife verification only when you receive an official request, and use SASSA's official channels. Do not assume that every beneficiary must complete an annual biometric check."
     },
     {
       "id": "h4",
@@ -134,12 +135,30 @@
       "id": "h5",
       "type": "heading",
       "level": 3,
-      "text": "What About the Proposed Basic Income Grant?"
+      "text": "What About the Proposed Basic Income Grant?",
+      "steps": [
+        {
+          "title": "Monthly eligibility review",
+          "description": "SASSA assesses whether you meet the current SRD rules for that month, including the income threshold and other support records."
+        },
+        {
+          "title": "Identity and record checks",
+          "description": "SASSA may verify identity and compare relevant records with government databases. If a check flags a problem, follow the instructions shown on the official portal."
+        },
+        {
+          "title": "Status update",
+          "description": "Check your current result on the official SRD portal. Your status can change from one month to the next."
+        },
+        {
+          "title": "Payment processing",
+          "description": "If approved, your payment is processed through your selected method. Dates vary by payment cycle and method; use the current official notice rather than relying on a fixed monthly window."
+        }
+      ]
     },
     {
       "id": "p6",
       "type": "paragraph",
-      "text": "There has been ongoing discussion about replacing the SRD grant with a permanent Basic Income Grant (BIG). The Social Development Department has submitted a feasibility study to Cabinet, but no decision has been made. The extension to March 2028 gives government time to finalise the BIG proposal. However, beneficiaries should not expect any changes before the 2027 budget is tabled."
+      "text": "Government is developing a longer-term Basic Income Support policy, but its final design and implementation date have not been confirmed. The reported SRD extension does not mean a replacement grant has already been approved or launched."
     },
     {
       "id": "faq1",
@@ -147,15 +166,15 @@
       "faqs": [
         {
           "question": "Do I need to reapply for the extension?",
-          "answer": "No. If you are already an approved beneficiary, your application continues automatically. You do not need to submit any new forms or visit a SASSA office."
+          "answer": "The extension announcement does not by itself require a new application. Existing applications are assessed monthly. Check the official portal for any reconfirmation or verification prompt and follow the instructions shown there."
         },
         {
           "question": "Will the grant amount increase before March 2028?",
-          "answer": "There are no announced increases. The R370 amount is set for the duration of this extension. Any changes would be announced in the annual budget."
+          "answer": "No increase was announced with the reported extension. The SRD amount remains R370 per month unless government publishes a separate change."
         },
         {
           "question": "What happens after March 2028?",
-          "answer": "The government has not confirmed what happens after 31 March 2028. The extension could be renewed, replaced by a Basic Income Grant, or ended. Beneficiaries will be informed well in advance of any changes."
+          "answer": "The reported extension points to March 2028, but the detailed formal implementation has not been confirmed in a published notice we could locate. Government is also developing a longer-term Basic Income Support policy."
         },
         {
           "question": "Can new applicants still apply for the SRD R370?",
@@ -163,7 +182,7 @@
         },
         {
           "question": "Will my monthly evaluations change?",
-          "answer": "No. Monthly evaluations will continue exactly as before. Your income, bank account, and eligibility will be checked every month. Ensure your bank details are up to date."
+          "answer": "Monthly eligibility checks continue. Approval in one month does not guarantee approval in the next month. Check your status and follow any official verification or reconfirmation request."
         }
       ]
     },
@@ -183,7 +202,7 @@
         {
           "title": "eLife Certification Guide",
           "href": "/news/elife-certification-guide-srd",
-          "description": "Complete mandatory biometric verification"
+          "description": "What to do if SASSA requests identity verification"
         },
         {
           "title": "Check Your SRD Status",
@@ -214,6 +233,24 @@
     {
       "title": "Grant Review Crackdown",
       "slug": "/news/sassa-grant-review-crackdown-2026"
+    }
+  ],
+  "sources": [
+    {
+      "label": "SAnews / Department of Social Development — February 2026 extension to March 2027",
+      "url": "https://www.sanews.gov.za/south-africa/public-comment-sought-special-covid-19-srd-amendments"
+    },
+    {
+      "label": "Black Sash — October 2026 MTBPS analysis reporting extension to March 2028",
+      "url": "https://www.blacksash.org.za/mtbps-2026-short-term-relief-for-a-long-term-crisis/"
+    },
+    {
+      "label": "Newsday — November 2026 report on SRD and Basic Income Support",
+      "url": "https://newsday.co.za/south-africa/33782/south-africa-getting-a-new-social-grant/"
+    },
+    {
+      "label": "GroundUp — October 2026 report on social grant funding",
+      "url": "https://groundup.org.za/article/sassa-to-spend-r290-billion-on-social-grants-year/"
     }
   ]
 }
