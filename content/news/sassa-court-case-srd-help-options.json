@@ -6,7 +6,9 @@
   "description": "SASSA told the Supreme Court of Appeal on 25 August 2026 that they have measures to improve SRD access — free call centres with human help and self-service kiosks at offices. Here is what it means for you.",
   "lastUpdated": "2026-08-26",
   "publishedAt": "2026-08-31",
-  "topics": ["SRD R370"],
+  "topics": [
+    "SRD R370"
+  ],
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA SRD Court Case — Free Call Centre & Kiosk Help Explained",
-    "metaDescription": "SASSA told the Supreme Court of Appeal it will improve SRD access: free call centres with human help and self-service kiosks. Plain-language guide to what it means for applicants.",
+    "metaTitle": "SASSA SRD Court Case: Help Options",
+    "metaDescription": "Understand the SRD court case and the support options discussed, including call-centre assistance and self-service kiosks.",
     "keywords": [
       "SASSA court case SRD",
       "SASSA Supreme Court of Appeal",
