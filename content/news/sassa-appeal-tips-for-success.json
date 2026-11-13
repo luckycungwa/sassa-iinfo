@@ -6,7 +6,9 @@
   "description": "Increase your chances of a successful SASSA appeal with these expert tips: proper documentation, correct reason codes, and understanding the ITSAA process.",
   "lastUpdated": "2026-08-25",
   "publishedAt": "2026-08-25",
-  "topics": ["Appeals"],
+  "topics": [
+    "Appeals"
+  ],
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "5 Tips for a Successful SASSA Grant Appeal in 2026 (ITSAA Process)",
-    "metaDescription": "Appeal a declined SRD or social grant successfully: understand decline reasons, gather complete documents, appeal each month separately, use correct codes, file within 90 days.",
+    "metaTitle": "Tips for a Successful SASSA Appeal",
+    "metaDescription": "Prepare a stronger SASSA appeal by checking the decline reason, gathering evidence and meeting the ITSAA 90-day deadline.",
     "keywords": [
       "sassa appeal tips",
       "srd appeal success",
