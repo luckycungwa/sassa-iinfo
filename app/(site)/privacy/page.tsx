@@ -87,9 +87,11 @@ export default function PrivacyPage() {
 
           <Section title="Anonymous Traffic Measurement">
             <p>
-              We use privacy-conscious analytics to understand which pages are useful, such as aggregate page views and
-              approximate country or region. This data is not used to identify individual visitors and is not sold or
-              shared with advertisers. Where possible we configure analytics without cross-site tracking cookies.
+              If Google Analytics is enabled for a deployment, it may process page views, browser and device details, and
+              approximate location to help us understand which pages are useful. The site configures IP anonymisation
+              in its Google Analytics tag. Google may use cookies or similar identifiers under its own privacy terms.
+              Analytics only loads when a Google Analytics ID is configured. We do not use analytics to identify
+              individual visitors or sell personal information.
             </p>
           </Section>
 
