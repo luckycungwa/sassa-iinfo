@@ -4,8 +4,8 @@
   "classification": "how-to-guide",
   "title": "SASSA Grant Amounts 2026 — Complete List of All Grant Values",
   "description": "Complete list of all SASSA social grant amounts for 2026. SRD R370, Older Person Grant, Disability Grant, Child Support Grant, Foster Child Grant, and more.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-13",
+  "version": "1.1.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -54,7 +54,7 @@
     {
       "id": "how-read",
       "type": "paragraph",
-      "text": "Two things to notice straight away. The Older Person Grant pays more once you reach 75 (R2,400 to R2,420) — that extra bump covers the higher costs that come with age. And several grants share the same figure (R2,400) because they are all set at the level pensioners need to live on. The SRD R370 is a different beast entirely: it is a temporary relief grant, not a full social grant, which is why the number is so much smaller.",
+      "text": "Two details matter: people aged 75 and older receive R20 more than those aged 60 to 74, and the Foster Care Grant requires a valid Children's Court order but has no income means test. Other grants have their own eligibility and means-test rules.",
       "links": [
         {
           "text": "how the SRD differs from other grants",
@@ -66,12 +66,12 @@
       "id": "extra-payment-h",
       "type": "heading",
       "level": 3,
-      "text": "Watch out for the extra 'top-up' payments"
+      "text": "One-off top-ups are not guaranteed"
     },
     {
       "id": "extra-payment-text",
       "type": "paragraph",
-      "text": "In some months — usually around December or during the festive season — SASSA pays an extra amount on top of the regular grant. This is not part of your monthly figure and it changes from year to year. The table below is your monthly baseline; check our payment dates page for any announced top-ups before getting excited about your balance.",
+      "text": "There is no guaranteed extra payment every December. SASSA or government may announce one-off top-ups or additional payments, but these are not part of the regular monthly grant. Check the latest official announcement and payment schedule before budgeting for an extra amount.",
       "links": [
         {
           "text": "payment dates 2026",
@@ -83,8 +83,8 @@
       "id": "means-test-note",
       "type": "callout",
       "intent": "info",
-      "title": "Your amount can be reduced by income",
-      "text": "Most of these amounts assume you pass the means test in full. If you have some income, the grant you actually receive can be reduced by part of that income. The table shows the maximum you can get, not a guarantee you will get it all. If you are not sure how much YOU qualify for, our grant calculator gives you the maths without having to guess."
+      "title": "Means tests apply to some grants, not all",
+      "text": "Income or assets can affect eligibility or payment for grants with a means test, including the Older Person, Disability and Child Support Grants. The Foster Care Grant does not have an income means test. Check the rules for the specific grant you receive."
     },
     {
       "id": "amounts-table",
@@ -150,7 +150,7 @@
     {
       "id": "note",
       "type": "paragraph",
-      "text": "Grant amounts are subject to change based on the national budget announcement. The amounts listed above are current as of July 2026."
+      "text": "Grant amounts can change following a national budget or official government notice. The amounts listed above are current as of 13 November 2026."
     },
     {
       "id": "faq-h",
