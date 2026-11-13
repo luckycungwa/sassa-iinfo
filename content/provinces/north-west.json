@@ -4,8 +4,8 @@
   "classification": "province-hub",
   "title": "SASSA North West Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in North West. Regional office in Mahikeng, Rustenburg mining-belt collection, mobile pay points for remote towns, and province FAQs.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-13",
+  "version": "1.1.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -14,7 +14,7 @@
   },
   "seo": {
     "metaTitle": "SASSA North West: Offices, Grants & Collection Guide 2026",
-    "metaDescription": "SASSA guide for North West Province. Regional office in Mahikeng (018 397 2600). Rustenburg and Brits offices, platinum-belt collection points, Setswana services and FAQs.",
+    "metaDescription": "SASSA North West regional office contact: SASSA House, University Drive, Mmabatho, phone 018 388 4006. Grant collection guidance and provincial information.",
     "keywords": [
       "SASSA North West",
       "North West SASSA offices",
@@ -44,9 +44,9 @@
       "id": "province-overview",
       "type": "province-overview",
       "capital": "Mahikeng",
-      "regionalOfficeAddress": "2nd Floor, Mega City Complex, Carrington Street, Mahikeng, 2745",
-      "regionalOfficePhone": "018 397 2600",
-      "collectionInfo": "North West beneficiaries collect at Shoprite, Boxer and Pick n Pay stores across the province. Mobile pay points serve remote towns and communities around the platinum mining belt, where pay-week queues run longest due to population density around Rustenburg and Brits.",
+      "regionalOfficeAddress": "SASSA House, University Drive, Mmabatho, 2735",
+      "regionalOfficePhone": "018 388 4006",
+      "collectionInfo": "North West beneficiaries collect at Shoprite, Boxer and Pick n Pay stores across the province. Mobile pay points serve remote towns and communities around the platinum mining belt, where pay-week queues run longest due to population density around Rustenburg and Brits. The address and number above are SASSA's published provincial regional-office contact, not a confirmation of every local branch. Confirm local office details with SASSA on 0800 60 10 11 before travelling.",
       "grantTypes": [
         "Child Support Grant",
         "Older Persons Grant",
