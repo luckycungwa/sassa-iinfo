@@ -4,8 +4,8 @@
   "classification": "province-hub",
   "title": "SASSA Western Cape Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in the Western Cape Province. Regional office in Cape Town, list of SASSA offices from Khayelitsha to George, grant collection information, and FAQs.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-13",
+  "version": "1.1.0",
   "readingTime": "6 min read",
   "status": "published",
   "author": {
@@ -15,7 +15,7 @@
   },
   "seo": {
     "metaTitle": "SASSA Western Cape Province: Offices, Grants & Payment Guide 2026",
-    "metaDescription": "Complete SASSA guide for Western Cape Province. Regional office in Cape Town. Offices in Khayelitsha, Mitchells Plain, George, Paarl, and more. Grant collection info, province statistics, and FAQs.",
+    "metaDescription": "SASSA Western Cape regional office contact: Golden Acre, Adderley Street, Cape Town, phone 021 469 0235. Grant collection guidance and provincial information.",
     "keywords": [
       "SASSA Western Cape",
       "Western Cape SASSA offices",
@@ -50,9 +50,9 @@
       "id": "province-overview",
       "type": "province-overview",
       "capital": "Cape Town (Legislative Capital)",
-      "regionalOfficeAddress": "9 Dorp Street, Cape Town CBD, 8001",
-      "regionalOfficePhone": "021 456 7890",
-      "collectionInfo": "Western Cape beneficiaries can collect grants at SASSA offices, SAPO branches, and participating retailers across the province. Retailers including Shoprite, Checkers, Pick n Pay, Boxer, and USave accept SASSA gold card withdrawals. Rural beneficiaries in areas like the Karoo and Overberg may rely on SAPO and mobile pay points.",
+      "regionalOfficeAddress": "Golden Acre, Adderley Street, Cape Town, 8000",
+      "regionalOfficePhone": "021 469 0235",
+      "collectionInfo": "Western Cape beneficiaries can collect grants at SASSA offices, SAPO branches, and participating retailers across the province. Retailers including Shoprite, Checkers, Pick n Pay, Boxer, and USave accept SASSA gold card withdrawals. Rural beneficiaries in areas like the Karoo and Overberg may rely on SAPO and mobile pay points. The address and number above are SASSA's published provincial regional-office contact, not a confirmation of every local branch. Confirm local office details with SASSA on 0800 60 10 11 before travelling.",
       "beneficiaryCount": "Approximately 1.4 million grant beneficiaries",
       "grantTypes": [
         "Child Support Grant",
@@ -103,8 +103,8 @@
       "title": "Key Offices in the Western Cape",
       "links": [
         {
-          "label": "Cape Town CBD — 9 Dorp Street",
-          "href": "/offices/wc-cape-town"
+          "label": "Cape Town-area office information — confirm details with SASSA",
+          "href": "/offices"
         },
         {
           "label": "Khayelitsha — Thusong Centre",
