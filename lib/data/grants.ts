@@ -174,7 +174,7 @@ export const grants: Grant[] = [
     amount: amountFor("srd-r370-grant", "R0"),
     frequency: "Monthly",
     targetGroup: "Unemployed South Africans aged 18 to 59 with no income.",
-    overview: "The Social Relief of Distress (SRD) Grant (popularly called the R350 grant, recently increased to R370) is a temporary grant introduced to assist individuals with absolutely no source of income or financial aid.",
+    overview: "The Social Relief of Distress (SRD) Grant (popularly called the R350 grant, increased to R370 in April 2024) is a temporary grant introduced to assist individuals with little or no other income or financial support.",
     eligibilityCriteria: [
       "Must be a South African citizen, permanent resident, refugee, asylum seeker, or special permit holder.",
       "Must be aged 18 to 59.",
@@ -199,7 +199,7 @@ export const grants: Grant[] = [
       },
       {
         question: "How long does the SRD grant last?",
-        answer: "The SRD grant is extended annually by the government. It is currently funded to continue running until 31 March 2028, subject to the completion of formal implementation."
+        answer: "The February 2026 Department of Social Development announcement formally extended the SRD grant to 31 March 2027. Reports following the October 2026 MTBPS describe a further year to March 2028, subject to formal implementation."
       }
     ]
   },
