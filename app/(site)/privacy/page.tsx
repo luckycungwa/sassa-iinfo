@@ -56,8 +56,8 @@ export default function PrivacyPage() {
             <p>
               We do not set tracking cookies of our own. This site displays advertising, which may include Google AdSense.
               AdSense and its partners may set cookies or use similar technologies to serve ads, measure their
-              performance, and &mdash; where you have consented &mdash; personalise them based on your visits to this and
-              other websites.
+              performance, and — where you have consented — personalise them based on your visits to this and
+              other websites. Where required by law, we request consent before serving personalised advertising.
             </p>
             <p className="mt-2">
               Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website
@@ -82,27 +82,6 @@ export default function PrivacyPage() {
                 aboutads.info
               </a>
               .
-            </p>
-            <p className="mt-2">
-              You can opt out of personalised advertising through{" "}
-              <a
-                href="https://www.google.com/settings/ads"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent-dark hover:underline font-bold"
-              >
-                Google Ads Settings
-              </a>{" "}
-              or via{" "}
-              <a
-                href="https://www.aboutads.info/choices/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent-dark hover:underline font-bold"
-              >
-                aboutads.info
-              </a>
-              . Where required by law, we request consent before serving personalised advertising.
             </p>
           </Section>
 
@@ -151,8 +130,8 @@ export default function PrivacyPage() {
 
           <Section title="Changes to This Policy">
             <p>
-              If this policy changes, the &ldquo;Last updated&rdquo; date at the top will change with it. If we ever make
-              a substantive change &mdash; for example, adding a new data-processing feature &mdash; we will describe it
+              If this policy changes, the “Last updated” date at the top will change with it. If we ever make
+              a substantive change — for example, adding a new data-processing feature — we will describe it
               clearly here before it takes effect.
             </p>
           </Section>
