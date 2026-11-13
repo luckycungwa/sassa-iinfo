@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { loadAllContent } from "../../../lib/content-loader";
 
 export const metadata = pageMetadata({
-  title: "SASSA News & Updates: Latest Grant Information",
+  title: "SASSA News & Grant Updates",
   description:
     "Dated SASSA updates on grant reviews, payment schedule changes, policy announcements, eLife certification and deadlines, with official sources.",
   path: "/news",
