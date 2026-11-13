@@ -6,7 +6,9 @@
   "description": "SASSA warns of a new SMS scam telling beneficiaries their grant has been stopped and directing them to a fake website. How to spot it and what to do.",
   "lastUpdated": "2026-08-25",
   "publishedAt": "2026-08-22",
-  "topics": ["Fraud & safety"],
+  "topics": [
+    "Fraud & safety"
+  ],
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Scam Warning July 2026 — Fake SMS Targeting SRD Beneficiaries",
-    "metaDescription": "Urgent SASSA fraud alert: new SMS scam tells SRD R370 beneficiaries their grant is stopped. Fake srd.sassa.gov.za clone asks for ID, bank details and OTP. How to stay safe.",
+    "metaTitle": "SASSA Scam Warning: Fake SRD Messages",
+    "metaDescription": "Learn how to spot fake SRD messages and cloned websites, protect your ID and banking details and report suspected grant scams.",
     "keywords": [
       "SASSA scam warning",
       "SRD SMS scam",
