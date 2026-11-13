@@ -4,8 +4,8 @@
   "classification": "grant-detail",
   "title": "Social Relief of Distress (SRD R370) Grant — Complete Guide",
   "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.",
-  "lastUpdated": "2026-08-25",
-  "version": "2.0.0",
+  "lastUpdated": "2026-11-13",
+  "version": "2.1.0",
   "readingTime": "10 min read",
   "status": "published",
   "author": {
@@ -43,6 +43,18 @@
     {
       "label": "Independent Tribunal (ITSAA)",
       "url": "https://itsaa.gov.za"
+    },
+    {
+      "label": "SAnews / Department of Social Development — February 2026 extension to March 2027",
+      "url": "https://www.sanews.gov.za/south-africa/public-comment-sought-special-covid-19-srd-amendments"
+    },
+    {
+      "label": "Black Sash — October 2026 MTBPS analysis reporting extension to March 2028",
+      "url": "https://www.blacksash.org.za/mtbps-2026-short-term-relief-for-a-long-term-crisis/"
+    },
+    {
+      "label": "Newsday — November 2026 report on SRD and Basic Income Support",
+      "url": "https://newsday.co.za/south-africa/33782/south-africa-getting-a-new-social-grant/"
     }
   ],
   "contentBlocks": [
@@ -52,7 +64,7 @@
       "title": "Social Relief of Distress (SRD R370) Grant",
       "description": "Complete guide to the SASSA SRD R370 Grant (formerly R350): eligibility, how to apply online or via WhatsApp, payment dates, status checks, appeals, and everything beneficiaries need to know.",
       "readingTime": "10 min read",
-      "lastUpdated": "2026-08-25",
+      "lastUpdated": "2026-11-13",
       "cta": {
         "label": "Check Your Status",
         "href": "/grants/srd-r370-grant/status-check"
@@ -72,7 +84,7 @@
     {
       "id": "intro",
       "type": "paragraph",
-      "text": "The Social Relief of Distress (SRD) Grant, popularly known as the R370 grant (increased from R350 in 2025), is South Africa's largest social assistance programme by beneficiary numbers. It provides a monthly payment to unemployed adults who have no other source of income or government support. The grant has been extended to 31 March 2028."
+      "text": "The Social Relief of Distress (SRD) Grant, popularly known as the R370 grant (increased from R350 in April 2024), provides monthly support to eligible unemployed adults with little or no other income. The February 2026 Department of Social Development announcement formally extended the grant to 31 March 2027. Reports following the October 2026 MTBPS describe a further year to March 2028, subject to formal implementation."
     },
     {
       "id": "quick-links-h",
@@ -175,7 +187,7 @@
         ],
         [
           "Extension",
-          "Funded until 31 March 2028"
+          "Official DSD extension to 31 March 2027; further extension to March 2028 reported after the October 2026 MTBPS, subject to formal implementation"
         ]
       ]
     },
@@ -826,7 +838,7 @@
       "type": "callout",
       "intent": "danger",
       "title": "Appeal, don't just reapply",
-      "text": "Reapplying with the same details will not fix a decline and can create duplicates. The correct path is to appeal the specific declined month through the Independent Tribunal (ITSAA) within 30 days (or up to 90 days through the ITSAA portal)."
+      "text": "If your SRD status is declined, appeal the specific declined month through the Independent Tribunal (ITSAA) within 90 days of the decision. Do not submit duplicate applications as a substitute for an appeal."
     },
     {
       "id": "appeal-detail-h",
@@ -1073,7 +1085,7 @@
     {
       "id": "lifecycle-p1",
       "type": "paragraph",
-      "text": "The SRD grant is best understood as a repeating monthly cycle rather than a one-time approval. In month one you apply and SASSA runs its checks; if you pass, you are paid in that month's window. In month two the same checks run again automatically — you do not reapply, but you can still be declined if, for example, a deposit pushed you over R624. This repeats for as long as the programme is funded and you meet the test. Around every three months SASSA asks you to reaffirm, which is simply reconfirming that your situation has not fundamentally changed. Thinking of the grant as a monthly assessment, not a permanent entitlement, helps you avoid surprises."
+      "text": "The SRD grant is a repeating monthly assessment rather than a one-time approval. After you apply, SASSA checks your eligibility for each month. You do not submit a new application for every monthly assessment, but you can still be declined if your circumstances or records change. SASSA may ask you to reconfirm information from time to time; follow any prompt on the official portal rather than assuming a fixed three-month schedule."
     },
     {
       "id": "lifecycle-p2",
@@ -1975,7 +1987,7 @@
       "faqs": [
         {
           "question": "How long does the SRD grant last?",
-          "answer": "The SRD grant has been extended to 31 March 2028, subject to the completion of formal implementation. It is reviewed annually and may be extended further."
+          "answer": "The February 2026 Department of Social Development announcement formally extended the SRD grant to 31 March 2027. Reports following the October 2026 MTBPS describe a further extension to March 2028, subject to formal implementation."
         },
         {
           "question": "Why does my SRD status say 'Alternative Income Source'?",
@@ -1987,7 +1999,7 @@
         },
         {
           "question": "Do I need to reapply every month?",
-          "answer": "No. Once your application is approved, SASSA automatically evaluates you each month. You do not need to reapply unless your grant was cancelled."
+          "answer": "No, you do not submit a new application for each monthly assessment. SASSA reassesses eligibility monthly. If the official portal asks you to reconfirm information or submit a new application, follow that instruction."
         },
         {
           "question": "Can I get both SRD and another SASSA grant?",
