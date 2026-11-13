@@ -58,6 +58,13 @@
       "text": "The SASSA Foster Care Grant provides financial support to foster parents who have been legally appointed by a South African Children's Court to care for a child who cannot live with their biological parents. The most important thing to understand is that there is no income means test for this grant. The amount you receive is based on the child's needs and the existence of a valid court order — not on what you earn. In 2026 the grant pays R1,300 per month for each foster child in your care."
     },
     {
+      "id": "foster-amount-source-note",
+      "type": "callout",
+      "intent": "info",
+      "title": "2026 amount update",
+      "text": "The Government of South Africa's Foster Child Grant service page may still display R1,290. The 2026 Budget Speech confirms R1,290 from April and R1,300 from 1 October 2026; this guide reflects the later October amount."
+    },
+    {
       "id": "what-is-h",
       "type": "heading",
       "level": 2,
@@ -857,6 +864,17 @@
     {
       "title": "Appeals",
       "slug": "/appeals"
+    }
+  ],
+  "lastReviewed": "2026-11-13",
+  "sources": [
+    {
+      "label": "Foster Child Grant — Government of South Africa",
+      "url": "https://www.gov.za/services/child-care-social-benefits/foster-child-grant"
+    },
+    {
+      "label": "2026 Budget Speech — social grant increases",
+      "url": "https://www.gov.za/2026BudgetSpeech"
     }
   ]
 }
