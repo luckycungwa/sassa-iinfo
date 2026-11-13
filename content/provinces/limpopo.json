@@ -4,8 +4,8 @@
   "classification": "province-hub",
   "title": "SASSA Limpopo Province — Offices, Grants & Information",
   "description": "Complete guide to SASSA services in Limpopo. Regional office in Polokwane, rural mobile pay points across Vhembe and Mopani, bank transfer advice for remote villages, and FAQs.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.0.0",
+  "lastUpdated": "2026-11-13",
+  "version": "1.1.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -14,7 +14,7 @@
   },
   "seo": {
     "metaTitle": "SASSA Limpopo: Offices, Grants & Collection Guide 2026",
-    "metaDescription": "SASSA guide for Limpopo Province. Regional office at 48 Landros Mare Street, Polokwane (015 291 7400). Mobile pay points in Vhembe, Capricorn, Mopani and Sekhukhune, plus collection tips.",
+    "metaDescription": "SASSA Limpopo regional office contact: 43 Landros Mare Street, Polokwane, phone 015 291 7509. Grant collection guidance and provincial information.",
     "keywords": [
       "SASSA Limpopo",
       "Limpopo SASSA offices",
@@ -44,9 +44,9 @@
       "id": "province-overview",
       "type": "province-overview",
       "capital": "Polokwane",
-      "regionalOfficeAddress": "48 Landros Mare Street, Polokwane, 0699",
-      "regionalOfficePhone": "015 291 7400",
-      "collectionInfo": "Limpopo's large rural network means many beneficiaries rely on mobile pay points and community hall collection days. Retail collection works well in towns; for remote villages, SASSA mobile units serve communities across Vhembe, Capricorn, Mopani and Sekhukhune districts.",
+      "regionalOfficeAddress": "43 Landros Mare Street, Polokwane, 0699",
+      "regionalOfficePhone": "015 291 7509",
+      "collectionInfo": "Limpopo's large rural network means many beneficiaries rely on mobile pay points and community hall collection days. Retail collection works well in towns; for remote villages, SASSA mobile units serve communities across Vhembe, Capricorn, Mopani and Sekhukhune districts. The address and number above are SASSA's published provincial regional-office contact, not a confirmation of every local branch. Confirm local office details with SASSA on 0800 60 10 11 before travelling.",
       "grantTypes": [
         "Child Support Grant",
         "Older Persons Grant",
