@@ -46,7 +46,7 @@ export default function TermsPage() {
       <div className="bg-surface border border-border rounded-xl p-6 space-y-4">
         <h2 className="text-sm font-extrabold text-ink">No User Accounts or Data Collection</h2>
         <p className="text-sm text-body leading-relaxed">
-          This website does not require registration, does not maintain user accounts, and does not collect personal data. Do not submit personal information through any form on this site — no such forms exist.
+          This website does not require registration, maintain user accounts, or provide forms for submitting SASSA applications or sensitive grant information. We do not ask visitors to enter ID numbers, grant reference numbers, PINs or banking details. Our hosting provider may process limited technical logs, such as IP address, browser type and requested pages, for security and abuse prevention as explained in the Privacy Policy.
         </p>
       </div>
 
