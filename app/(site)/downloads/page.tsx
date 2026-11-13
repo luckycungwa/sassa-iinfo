@@ -11,7 +11,7 @@ const downloadFaqs = [
 ];
 
 export const metadata = pageMetadata({
-  title: "SASSA Forms 2026: Download Applications & Templates",
+  title: "SASSA Forms: Applications & Templates",
   description:
     "Download SASSA grant application, bank consent and SRD appeal forms for 2026, each with a fill guide, document checklist and official source.",
   path: "/downloads",
