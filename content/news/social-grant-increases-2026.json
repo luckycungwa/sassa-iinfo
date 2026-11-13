@@ -6,7 +6,9 @@
   "description": "Annual social grant increases announced in the 2026 national budget. Older Person Grant rises to R2,400 per month.",
   "lastUpdated": "2026-08-25",
   "publishedAt": "2026-08-22",
-  "topics": ["Policy & amounts"],
+  "topics": [
+    "Policy & amounts"
+  ],
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "2026 Social Grant Increases — Full List of New Amounts",
-    "metaDescription": "All SASSA social grant increases announced in the 2026 budget. Older Person R2,400, Disability R2,400, Child Support R580, SRD R370 unchanged. Effective April 2026.",
+    "metaTitle": "SASSA Grant Increases for 2026",
+    "metaDescription": "See the 2026 SASSA grant amounts and increases, including Older Persons, Disability, Child Support and SRD grants.",
     "keywords": [
       "SASSA grant increases 2026",
       "social grant amounts",
