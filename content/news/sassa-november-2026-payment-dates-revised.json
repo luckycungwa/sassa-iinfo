@@ -6,7 +6,9 @@
   "description": "SASSA moved the November 2026 schedule because 4 November is a public holiday for the Local Government Elections. Older Persons grants now pay Friday 30 October, Disability Monday 2 November, Children Tuesday 3 November and review cases Thursday 5 November.",
   "lastUpdated": "2026-10-20",
   "publishedAt": "2026-10-20",
-  "topics": ["Payment dates"],
+  "topics": [
+    "Payment dates"
+  ],
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "November 2026 SASSA Payment Dates Revised — Pensioners Paid 30 October",
-    "metaDescription": "SASSA revised the November 2026 payment dates because 4 November is an election public holiday. Older Persons 30 October, Disability 2 November, Children 3 November, review cases 5 November.",
+    "metaTitle": "November 2026 SASSA Payment Dates",
+    "metaDescription": "See the revised November 2026 SASSA payment schedule and how the public holiday affects Older Persons, Disability and Children's grant dates.",
     "keywords": [
       "November 2026 payment dates",
       "SASSA payment dates November",
