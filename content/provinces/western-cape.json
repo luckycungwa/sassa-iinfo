@@ -36,7 +36,7 @@
       "title": "SASSA Western Cape Province",
       "description": "Complete information hub for SASSA services in the Western Cape. Regional office details, local SASSA offices across the province, grant collection information, and province-specific FAQs.",
       "readingTime": "6 min read",
-      "lastUpdated": "2026-08-25",
+      "lastUpdated": "2026-11-13",
       "cta": {
         "label": "Find an Office",
         "href": "/offices"
@@ -63,6 +63,11 @@
         "SRD R370 Grant",
         "War Veterans Grant"
       ]
+    },
+    {
+      "id": "official-contact-source",
+      "type": "paragraph",
+      "text": "Regional contact details on this page were checked against SASSA's official Contact Us directory on 13 November 2026. These are provincial regional-office contacts, not a guarantee of the nearest local branch. Confirm the correct local office, services and opening hours on 0800 60 10 11 before travelling. Official directory: https://services.sassa.gov.za/portal/r/sassa/sassa/contact-us-pu."
     },
     {
       "id": "stat-bar",
