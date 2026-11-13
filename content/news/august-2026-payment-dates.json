@@ -6,7 +6,9 @@
   "description": "SASSA confirms August 2026 payment dates: Older Persons 4 Aug, Disability 5 Aug, Children's 6 Aug, with a new fourth day on 7 August for beneficiaries flagged for grant reviews and eLife certification.",
   "lastUpdated": "2026-08-25",
   "publishedAt": "2026-08-22",
-  "topics": ["Payment dates"],
+  "topics": [
+    "Payment dates"
+  ],
   "version": "1.0.0",
   "status": "published",
   "author": {
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "August 2026 SASSA Payment Dates — Fourth Day Added for Grant Reviews",
-    "metaDescription": "SASSA confirms August 2026 payment dates. Fourth day on 7 August added for grant reviews and eLife certification. Older Persons 4 Aug, Disability 5 Aug, Children's 6 Aug, SRD 25-31 Aug.",
+    "metaTitle": "SASSA Payment Dates for August 2026",
+    "metaDescription": "See the confirmed SASSA payment dates for August 2026, including the added review day and dates for Older Persons, Disability and Children's grants.",
     "keywords": [
       "August 2026 payment dates",
       "SASSA payment schedule August",
