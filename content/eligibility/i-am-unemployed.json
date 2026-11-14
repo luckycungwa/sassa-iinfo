@@ -4,8 +4,8 @@
   "classification": "eligibility-guide",
   "title": "SASSA Options for Unemployed South Africans",
   "description": "If you are unemployed and have no income, find out which SASSA grants you can apply for. SRD R370 grant eligibility, how to apply, and restrictions for unemployed individuals.",
-  "lastUpdated": "2026-08-25",
-  "version": "2.1.0",
+  "lastUpdated": "2026-11-13",
+  "version": "1.1.0",
   "status": "published",
   "author": {
     "name": "SASSA Grant Hub Editorial Team",
@@ -13,8 +13,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Grant for Unemployed — Do You Qualify? (2026)",
-    "metaDescription": "SASSA grants for unemployed South Africans in 2026: check if you qualify for the SRD R370 and other support, and how to apply.",
+    "metaTitle": "SASSA Grants for Unemployed People",
+    "metaDescription": "See which SASSA grants may be available if you are unemployed, how to check eligibility and where to apply.",
     "keywords": [
       "SASSA unemployed",
       "SASSA grant no job",
@@ -36,6 +36,14 @@
     {
       "label": "Department of Social Development",
       "url": "https://www.dsd.gov.za"
+    },
+    {
+      "label": "SAnews / Department of Social Development — February 2026 extension to March 2027",
+      "url": "https://www.sanews.gov.za/south-africa/public-comment-sought-special-covid-19-srd-amendments"
+    },
+    {
+      "label": "Black Sash — October 2026 MTBPS analysis reporting extension to March 2028",
+      "url": "https://www.blacksash.org.za/mtbps-2026-short-term-relief-for-a-long-term-crisis/"
     }
   ],
   "contentBlocks": [
@@ -279,7 +287,7 @@
         },
         {
           "question": "How long can I receive the SRD R370 grant?",
-          "answer": "The SRD grant is currently extended until 31 March 2028. It is evaluated month-to-month, so you must re-qualify each month based on your current financial situation."
+          "answer": "The February 2026 Department of Social Development announcement formally extended SRD to 31 March 2027. Reports after the October 2026 MTBPS describe a further year to March 2028, subject to formal implementation. Check the official SRD portal and government notices for updates."
         },
         {
           "question": "What if I get a job while receiving the grant?",

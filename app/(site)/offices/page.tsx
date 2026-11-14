@@ -11,16 +11,16 @@ const officeFaqs = [
 ];
 
 export const metadata = pageMetadata({
-  title: "SASSA Office Finder: Branches & Contact Details",
+  title: "SASSA Office Finder: Locations by Province",
   description:
-    "Find your nearest SASSA office with addresses, phone numbers, operating hours and the services each branch offers across all nine provinces.",
+    "Browse SASSA office locations across all nine provinces. Confirm local branch addresses and services with SASSA before travelling.",
   path: "/offices",
 });
 
 const provinces = [...new Set(offices.map((o) => o.province))];
 
 export default function OfficesHubPage() {
-  const pageSchema = webpageSchema("SASSA Office Finder | Local Branch Locations & Contact Details", "Find your nearest SASSA local office across all 9 provinces.", "/offices");
+  const pageSchema = webpageSchema("SASSA Office Finder | Locations by Province", "Browse SASSA office locations across all 9 provinces. Confirm local branch details with SASSA before travelling.", "/offices");
   const breadcrumb = breadcrumbSchema([{ name: "Home", url: "/" }, { name: "Office Finder", url: "/offices" }]);
   const faq = faqSchema(officeFaqs);
   return (
@@ -79,32 +79,24 @@ export default function OfficesHubPage() {
 
       <section id="all-offices" className="bg-fog py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-6">All SASSA offices</h2>
+          <h2 className="text-[24px] font-black text-carbon tracking-[-0.007em] mb-3">Office locations by province</h2>
+          <p className="text-sm text-body leading-relaxed max-w-3xl mb-6">
+            This directory groups office names by the towns and areas they are associated with. Individual branch
+            addresses, phone numbers, opening hours and available services have not all been independently confirmed.
+            Before travelling, call SASSA on <strong>0800 60 10 11</strong> to confirm the correct local office and service.
+            For verified provincial contacts, use the <Link href="/provinces" className="font-bold text-violet underline">province guides</Link>.
+          </p>
           <div className="space-y-2">
             {offices.map((o) => (
-              <Link
-                key={o.id}
-                href={`/offices/${o.id}`}
-                className="flex items-center justify-between p-4 card hover:bg-yellow/30 transition group"
-              >
+              <div key={o.id} className="flex items-center p-4 card">
                 <div className="min-w-0 flex-1">
-                  <p className="text-sm font-bold text-carbon group-hover:text-violet transition">{o.name}</p>
-                  <div className="flex items-center gap-3 mt-1 text-xs text-ash flex-wrap">
-                    <span className="flex items-center gap-1"><MapPin className="w-3 h-3" />{o.city}, {o.province}</span>
-                    <span className="flex items-center gap-1"><Phone className="w-3 h-3" />{o.phone}</span>
-                    <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{o.operatingHours}</span>
-                  </div>
-                  <div className="flex items-center gap-1.5 mt-1.5 flex-wrap">
-                    {o.servicesOffered.slice(0, 3).map((s) => (
-                      <span key={s} className="text-xs text-ash/70">{s}</span>
-                    ))}
-                    {o.servicesOffered.length > 3 && (
-                      <span className="text-xs text-ash/70">+{o.servicesOffered.length - 3} more</span>
-                    )}
+                  <p className="text-sm font-bold text-carbon">{o.name}</p>
+                  <div className="flex items-center gap-2 mt-1 text-xs text-ash">
+                    <MapPin className="w-3 h-3" />
+                    <span>{o.city}, {o.province}</span>
                   </div>
                 </div>
-                <ArrowRight className="w-4 h-4 text-ash group-hover:text-violet transition shrink-0 ml-3" />
-              </Link>
+              </div>
             ))}
           </div>
         </div>

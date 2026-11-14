@@ -18,7 +18,7 @@ const principles = [
   {
     icon: Clock,
     title: "Update Cadence",
-    desc: "Grant amounts are reviewed within 48 hours of each national budget announcement. Payment dates are updated when SASSA publishes the annual schedule. Policy changes are tracked via the Government Gazette and official media statements. Every content page displays its last verification date.",
+    desc: "We aim to review grant amounts promptly after official budget announcements. Payment dates are updated when SASSA publishes or revises its schedule. Policy changes are checked against Government Gazettes and official statements. Review dates are shown on content pages where available.",
   },
   {
     icon: CheckCircle,
@@ -33,12 +33,12 @@ const principles = [
   {
     icon: UserCheck,
     title: "Authorship",
-    desc: "All content is written or reviewed by Lucky Cungwa, founder of 44tagstudios. We do not use automated content generation for articles or guides. Questions and corrections can be sent to the email address on our contact page. Each page carries the author name and last review date so you know who wrote it and when it was checked.",
+    desc: "Lucky Cungwa, founder of 44tagstudios, is the editor and publisher. Digital tools, including AI-assisted drafting or editing, may support research and production. Automated output is not published without human review: the editor is responsible for checking sources, dates, calculations and instructions before publication. Author and review details are shown where available.",
   },
   {
     icon: AlertTriangle,
     title: "What We Do Not Do",
-    desc: "We do not provide legal advice, financial advice, or official representations of SASSA policy. We do not process applications, check statuses, or handle personal data. When you need to take official action, we link you directly to the government portal.",
+    desc: "We do not provide legal or financial advice or speak on behalf of SASSA. We do not process applications or check individual grant records. We do not ask visitors to submit ID numbers, grant reference numbers, PINs or banking details. Limited technical logs and optional analytics are described in the Privacy Policy. Official actions must be completed through government channels.",
   },
 ];
 

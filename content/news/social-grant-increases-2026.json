@@ -4,10 +4,12 @@
   "classification": "news-article",
   "title": "Social Grant Increases Announced for 2026",
   "description": "Annual social grant increases announced in the 2026 national budget. Older Person Grant rises to R2,400 per month.",
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-11-13",
   "publishedAt": "2026-08-22",
-  "topics": ["Policy & amounts"],
-  "version": "1.0.0",
+  "topics": [
+    "Policy & amounts"
+  ],
+  "version": "1.1.0",
   "status": "published",
   "author": {
     "name": "Lucky Cungwa",
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "2026 Social Grant Increases — Full List of New Amounts",
-    "metaDescription": "All SASSA social grant increases announced in the 2026 budget. Older Person R2,400, Disability R2,400, Child Support R580, SRD R370 unchanged. Effective April 2026.",
+    "metaTitle": "SASSA Grant Increases for 2026",
+    "metaDescription": "See the 2026 SASSA grant amounts and increases, including Older Persons, Disability, Child Support and SRD grants.",
     "keywords": [
       "SASSA grant increases 2026",
       "social grant amounts",
@@ -95,7 +97,7 @@
     {
       "id": "p3",
       "type": "paragraph",
-      "text": "The SRD R370 grant has remained at R370 since 2023. It is a temporary relief measure rather than a permanent social grant, and it is reviewed month by month rather than adjusted on the same annual cycle as permanent grants."
+      "text": "The SRD R370 grant has remained at R370 since April 2024. It is a temporary relief measure rather than a permanent social grant, and it is reviewed month by month rather than adjusted on the same annual cycle as permanent grants."
     },
     {
       "id": "p4",
@@ -117,7 +119,7 @@
     {
       "id": "p5",
       "type": "paragraph",
-      "text": "The Older Person Grant increases to R2,400 per month for beneficiaries aged 60 to 74, and R2,420 for those aged 75 and older. This is an increase of R110 for the 60-74 group and R110 for the 75+ group. The higher amount for the older cohort reflects the additional care needs of older beneficiaries."
+      "text": "The Older Person Grant is R2,400 per month for beneficiaries aged 60 to 74 and R2,420 for beneficiaries aged 75 and older. The 2026 increase is R80 for both age groups. The additional R20 for people aged 75 and older remains part of the monthly amount."
     },
     {
       "id": "h6",
@@ -128,7 +130,7 @@
     {
       "id": "p6",
       "type": "paragraph",
-      "text": "The Disability Grant rises to R2,400 per month, matching the Older Person Grant amount. This R110 increase applies to all Disability Grant beneficiaries, regardless of age. Beneficiaries on temporary disability grants will receive the increased amount for the duration of their grant validity."
+      "text": "The Disability Grant rises to R2,400 per month, an increase of R80 for each beneficiary. Temporary disability grants receive the current rate for the approved grant period."
     },
     {
       "id": "h7",
@@ -139,7 +141,7 @@
     {
       "id": "p7",
       "type": "paragraph",
-      "text": "The Child Support Grant increases from R550 to R580 per month — a R30 increase per child. For a caregiver with three children, the monthly total moves from R1,650 to R1,740. The Foster Care Grant rises by R65 to R1,295, and the Care Dependency Grant increases by R110 to R2,400.",
+      "text": "The Child Support Grant increases from R560 to R580 per month — a R20 increase per child. For a caregiver with three children, the monthly total moves from R1,680 to R1,740. The Foster Care Grant rises from R1,250 to R1,290 from April 2026, then to R1,300 from 1 October. The Care Dependency Grant increases by R80 to R2,400.",
       "links": [
         {
           "text": "Foster Care Grant",
@@ -231,6 +233,13 @@
     {
       "title": "Child Support Grant",
       "slug": "/grants/child-support-grant"
+    }
+  ],
+  "lastReviewed": "2026-11-13",
+  "sources": [
+    {
+      "label": "2026 Budget Speech — social grant increases",
+      "url": "https://www.gov.za/2026BudgetSpeech"
     }
   ]
 }

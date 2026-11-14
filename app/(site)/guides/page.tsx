@@ -5,7 +5,7 @@ import { guides } from "../../../lib/data/guides";
 import { loadAllContent } from "../../../lib/content-loader";
 
 export const metadata = pageMetadata({
-  title: "SASSA How-To Guides 2026: Apply, Check & Appeal",
+  title: "SASSA How-To Guides: Apply, Check & Appeal",
   description:
     "Step-by-step SASSA guides for 2026: apply for a grant, check your status, gather documents, understand the means test, and appeal a decline.",
   path: "/guides",

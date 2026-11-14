@@ -55,7 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const jsonPages = allContent
-    .filter((p) => p.status === "published")
+    .filter((p) => p.status === "published" && p.classification !== "office-location")
     .map((p) => ({
       url: `${baseUrl}${p.slug}`,
       lastModified: new Date(p.lastUpdated),

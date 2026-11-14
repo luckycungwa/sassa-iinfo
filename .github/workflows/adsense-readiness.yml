@@ -1,0 +1,41 @@
+name: AdSense readiness checks
+
+on:
+  push:
+    branches:
+      - fix/adsense-readiness-cleanup-2026-11-13
+
+concurrency:
+  group: adsense-readiness-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  production-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps --no-audit --no-fund
+
+      - name: Validate content
+        run: npm run validate:content
+
+      - name: Build production app
+        env:
+          APP_URL: https://www.sassagranthub.co.za
+          NEXT_PUBLIC_ADSENSE_ID: ca-pub-8180440849942257
+        run: npm run build
+
+      - name: Audit generated page metadata
+        run: node scripts/audit-built-metadata.mjs

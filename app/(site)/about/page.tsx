@@ -85,7 +85,7 @@ export default function AboutPage() {
             <div>
               <p className="text-[21px] font-black text-carbon">Meet the author</p>
               <p className="text-sm text-ash mt-1 max-w-xl">
-                Every page is researched, written, and reviewed by Lucky Cungwa, founder of 44tagstudios.
+                Lucky Cungwa is the editor and publisher. He oversees the site&#39;s research standards, source checks and content revisions.
               </p>
             </div>
             <Link href="/about/lucky-cungwa" className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-violet text-white rounded-[22px] text-xs font-bold hover:opacity-90 transition btn-violet">

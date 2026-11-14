@@ -7,7 +7,7 @@ import AdUnit from "@/components/ads/AdUnit";
 import { AD_SLOTS } from "@/lib/ads";
 
 export const metadata = pageMetadata({
-  title: "SASSA Appeals: How to Appeal a Declined Grant",
+  title: "Appeal a Declined SASSA Grant",
   description:
     "How to appeal a declined SASSA grant through ITSAA: the 90-day window, required documents, UIF and NSFAS declines, and what appeal outcomes mean.",
   path: "/appeals",

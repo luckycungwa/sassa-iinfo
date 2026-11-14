@@ -3,7 +3,7 @@ import Link from "next/link";
 import InteractiveTools from "../../../components/InteractiveTools";
 
 export const metadata = pageMetadata({
-  title: "SASSA Tools: Grant Checker & Payment Lookup",
+  title: "SASSA Grant Checker & Tools",
   description:
     "Free SASSA tools that run in your browser: grant eligibility checker, payment date lookup, age calculator, appeal deadline timer and document checklist.",
   path: "/tools",

@@ -16,7 +16,7 @@ const faqs = [
 ];
 
 export const metadata = pageMetadata({
-  title: "All SASSA Grants 2026: Amounts & Eligibility",
+  title: "SASSA Grants: Amounts & Eligibility",
   description:
     "Compare all SASSA grants in 2026: Older Person, Child Support, Disability, Foster Care, Care Dependency, War Veterans, Grant-in-Aid and SRD R370.",
   path: "/grants",

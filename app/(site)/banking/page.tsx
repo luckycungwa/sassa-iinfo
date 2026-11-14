@@ -5,7 +5,7 @@ import { bankingGuides } from "../../../lib/data/banking";
 import { loadAllContent } from "../../../lib/content-loader";
 
 export const metadata = pageMetadata({
-  title: "SASSA Banking: Payment Methods & Bank Details",
+  title: "SASSA Banking & Payment Methods",
   description:
     "How SASSA pays grants, how bank verification works, and how to update your bank details safely without losing a payment.",
   path: "/banking",

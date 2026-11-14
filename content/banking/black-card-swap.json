@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Black Card Swap — After the Deadline (2026)",
-    "metaDescription": "Gold Cards stopped working after 31 August 2026. Your money is safe — collect your free Postbank Black Card with just your ID. Find out how here.",
+    "metaTitle": "SASSA Black Card: How to Swap in 2026",
+    "metaDescription": "Find out how to replace your SASSA Gold Card with a Postbank Black Card, what ID to bring and how to access your grant.",
     "keywords": [
       "SASSA black card",
       "Postbank black card",
@@ -27,9 +27,18 @@
     ]
   },
   "sources": [
-    { "label": "SASSA Official Website", "url": "https://www.sassa.gov.za" },
-    { "label": "SASSA Media Statements", "url": "https://www.sassa.gov.za/Pages/Media-Statements.aspx" },
-    { "label": "Department of Social Development", "url": "https://www.dsd.gov.za" }
+    {
+      "label": "SASSA Official Website",
+      "url": "https://www.sassa.gov.za"
+    },
+    {
+      "label": "SASSA Media Statements",
+      "url": "https://www.sassa.gov.za/Pages/Media-Statements.aspx"
+    },
+    {
+      "label": "Department of Social Development",
+      "url": "https://www.dsd.gov.za"
+    }
   ],
   "contentBlocks": [
     {

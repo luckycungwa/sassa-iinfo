@@ -6,7 +6,9 @@
   "description": "A SASSA review checks whether you still qualify for a grant. Learn what a review notice asks for, which documents to take, what happens if you miss an appointment, and how to avoid review scams.",
   "lastUpdated": "2026-10-31",
   "publishedAt": "2026-08-22",
-  "topics": ["Status & reviews"],
+  "topics": [
+    "Status & reviews"
+  ],
   "version": "2.0.0",
   "status": "published",
   "author": {
@@ -16,8 +18,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "SASSA Grant Reviews 2026 — What a Review Notice Means",
-    "metaDescription": "SASSA reviews confirm that beneficiaries still qualify. See what a review notice asks for, which documents to bring, what to do if you miss the date, and how to spot a fake review message.",
+    "metaTitle": "SASSA Grant Reviews: What to Do",
+    "metaDescription": "Learn why SASSA reviews grants, what a review notice may require, which documents to prepare and how to avoid review-related scams.",
     "keywords": [
       "SASSA grant review",
       "SASSA review notice",

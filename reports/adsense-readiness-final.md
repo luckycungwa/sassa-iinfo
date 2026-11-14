@@ -1,8 +1,21 @@
 # AdSense readiness: final audit and implementation report
 
-Date: 12 November 2026
+Date: 13 November 2026
 Site: https://sassagranthub.co.za (served on https://www.sassagranthub.co.za)
 Scope: source repository, production build, live HTTP responses, official SASSA sources
+
+## 0.1 Current implementation status — 13 November 2026
+
+This section supersedes older readiness statements below where they conflict.
+
+- Work is on PR #2, branch `fix/adsense-readiness-cleanup-2026-11-13`. The PR is open and remains unmerged; no production deployment has been made.
+- Metadata was rewritten across 107 content records, seven downloadable-form pages, the main content hubs and the three province pages identified by the generated-HTML audit.
+- The first full CI run generated 200 pages, including 148 indexable prerendered pages. It passed content validation and the Next.js production build, then exposed 23 title/description overages.
+- Those 23 specific hub, download and province metadata fields have been corrected.
+- The latest CI run on commit `6b1ec9a252b19c24a281d3675347656484a1eee1` is **green**: dependency installation, content validation, production build and generated-HTML metadata audit all passed. The audit checked all 148 indexable prerendered pages with zero remaining title/description length failures.
+- The publisher ID supplied by the site owner is `pub-8180440849942257`. The `/ads.txt` route now emits the seller record only when `NEXT_PUBLIC_ADSENSE_ID` is configured. CI supplies `ca-pub-8180440849942257`; the production Vercel environment and live `/ads.txt` response have not been verified.
+- A web-based check of the live `ads.txt`, `robots.txt` and sitemap could not retrieve those endpoints in this session. Their live state is therefore unconfirmed.
+- The Vercel team connected to this session has no Git-linked project for `luckycungwa/sassa-iinfo`, and its visible project/domain inventory does not include `sassagranthub.co.za`. The production project may be under another Vercel team/account or another host; this connection cannot verify or change its environment variables.
 
 ## 0. Honest framing
 
@@ -55,16 +68,15 @@ Verified in the production build:
 | --- | --- |
 | AdSense script on pages | Present on 191 of 192 built pages, with `client=ca-pub-8180440849942257` |
 | `<ins class="adsbygoogle">` units | **0 pages** — all five slot variables are unset |
-| `/ads.txt` | `google.com, pub-8180440849942257, DIRECT, f08c47fec0942fa0` |
+| `/ads.txt` | Route emits `google.com, pub-8180440849942257, DIRECT, f08c47fec0942fa0` only when `NEXT_PUBLIC_ADSENSE_ID` is configured; production response not yet verified |
 | Invalid/word-based slot IDs | None |
 
-The zero ad units are correct for a site that has not been approved yet: an `<ins>` element
-without a real numeric slot produces a blank box and console errors, which is worse than no
-unit. Because the publisher script is on every page, **Auto ads is already technically
-installed** — the account only needs Auto ads switched on for the site in the dashboard.
-The five manual placements (`HOME_LEADERBOARD`, `GRANTS_HUB`, `STATUS_HUB`,
-`PAYMENT_DATES_HUB`, `APPEALS_HUB`) activate the moment the matching
-`NEXT_PUBLIC_ADSENSE_SLOT_*` variables exist.
+The zero ad units are intentional before approval: an `<ins>` element without a real numeric
+slot can create blank space and console errors. The publisher ID is now environment-driven;
+the CI build receives `ca-pub-8180440849942257`, while the production Vercel variable has not
+been inspected. Do not assume Auto ads is live until the publisher script is confirmed on the
+deployed site and Auto ads is enabled in the AdSense dashboard. Keep the five manual slot
+variables blank until the account is approved and real numeric slot IDs exist.
 
 ## 4. Facts verified against official SASSA sources
 
@@ -107,52 +119,52 @@ Corrections made to `/grants/grant-in-aid` (version 1.1.0, `lastUpdated` 2026-11
 1. **Confirm `44tagstudios@gmail.com` receives mail.** It is now the published contact
    route on `/contact`. A Gmail address is accepted by AdSense; the address only has to
    exist and be monitored.
-2. **Deploy** so canonicals, sitemap and `robots.txt` on the live host match the code.
+2. **Confirm the production hosting project.** The Vercel workspace connected to this session does not show a project linked to `sassa-iinfo` or the `sassagranthub.co.za` domain. Identify the actual project/team or host, set `APP_URL` and `NEXT_PUBLIC_ADSENSE_ID` there, then deploy so live canonicals, sitemap, `robots.txt` and `/ads.txt` match the code.
 3. **Enable Auto ads** (or create the five manual units) in the AdSense dashboard.
 4. **Search Console:** resubmit `https://www.sassagranthub.co.za/sitemap.xml` after the
    deploy and re-inspect the five hub pages.
 
-## 6. Scores
+## 6. Readiness decision
 
-| Category | Score | Reasoning |
-| --- | --- | --- |
-| Content quality | 25 / 25 | 141 validated content files, ~150 canonical URLs, long-form sourced guides, dated updates, public correction log, every status page with its own example and official basis, grant-in-aid now cited. |
-| Trust and transparency | 18 / 20 | Independence, ownership, named editor, editorial and corrections policies are unusually clear, and the contact address is published and reachable. Lost points: no physical business address; no independent external profile for the author. |
-| Google policy compliance | 18 / 20 | No affiliation claims, no guarantees, no personal-data collection, accurate advertising and cookie disclosure, valid `ads.txt`, no invalid ad markup. Lost points: monetisation not yet live. |
-| Technical SEO | 14 / 15 | Clean build, unique canonicals, correct robots/sitemap, valid JSON-LD, no broken internal links. Lost points: 103 URLs have over-length titles or descriptions; live canonical mismatch until deploy. |
-| User experience | 9 / 10 | Mobile-first, skip link, keyboard-tested dialogs, readable typography, light imagery, no interstitials. |
-| Website completeness | 9 / 10 | About, contact, privacy, terms, disclaimer, editorial policy, corrections policy, author page, FAQ, tools, search and office finder all present and linked. |
-| **Total** | **93 / 100** | |
-
-The remaining eight points are almost entirely outside this repository.
+The earlier internal **93/100** estimate is withdrawn as an application decision signal. It was
+not a Google score and predates the generated-HTML metadata audit. The application decision
+must be based on a clean final build and metadata audit, live canonical/sitemap/robots checks,
+a live `/ads.txt` check, and the owner-only checks in section 5. No approval probability is
+claimed.
 
 ## 7. Known remaining work
 
-- **Title/description length pass.** 103 of 192 URLs exceed 60 characters in the title or 158
-  in the description, mostly because the layout appends `| SASSA Grant Hub`. Longest:
-  `/banking/cash-send-guide` at 89 characters. This affects click-through, not eligibility.
-- **Indexing.** Search Console reports 61 indexed and 142 "Discovered – currently not
-  indexed"; `Chart.csv` shows indexing only began on 6 November. This is new-domain lag, and
-  the canonical fix should resolve most of it after deploy. The 7 "Page with redirect" entries
-  are the apex URLs.
+- **Metadata length pass.** The older report counted 103 URLs with over-length titles or
+  descriptions. The current generated-HTML audit checked 148 indexable pages and now passes
+  with zero missing or over-length titles/descriptions.
+- **Indexing.** The last recorded Search Console snapshot showed 61 indexed and 142
+  "Discovered – currently not indexed". Recheck after deployment and sitemap resubmission;
+  do not assume the canonical change alone will resolve the remaining discovered URLs.
+  The seven "Page with redirect" entries in that snapshot were apex URLs.
 - **Two noindex pages** (expected: `/search` and one utility route).
 
 ## 8. Application checklist
 
-- [x] AdSense script with the correct publisher ID on the site
+- [x] CI production build includes the confirmed publisher ID when configured; live deployment still needs verification
 - [x] No invalid or empty ad containers on any page
-- [x] `/ads.txt` valid for `pub-8180440849942257`
+- [ ] Live `/ads.txt` returns the confirmed seller record after `NEXT_PUBLIC_ADSENSE_ID` is set in Vercel
 - [x] Privacy, Terms, Disclaimer, Editorial and Corrections pages present and accurate
 - [x] No government-affiliation claim, no invented dates or amounts
 - [x] Official sources cited on grant pages and status pages
-- [ ] Canonicals, sitemap and `robots.txt` live on `www` — **needs deploy**
-- [x] Contact address published and monitored (`44tagstudios@gmail.com`)
+- [ ] In the actual production hosting project, set `APP_URL=https://www.sassagranthub.co.za` and `NEXT_PUBLIC_ADSENSE_ID=ca-pub-8180440849942257`, deploy, then verify live canonicals, sitemap, `robots.txt` and `/ads.txt` on `www`
+- [ ] Confirm `44tagstudios@gmail.com` receives mail and is monitored
 - [x] No outbound Facebook link, no claim of a social community we do not run
 - [ ] Search Console: sitemap accepted, hub pages indexed — **after deploy**
 - [ ] Mobile spot-check on a real phone — **owner**
 - [ ] Application submitted; ads enabled only after approval
 
 ## 9. Change log (this and the preceding pass)
+
+### 13 November 2026 follow-up
+- Reworked metadata across 107 content records, seven download pages, eight hub pages and the affected province metadata.
+- Added a GitHub Actions quality gate for dependency installation, content validation, production build and generated-HTML metadata audit.
+- First CI run identified 23 remaining metadata overages after content validation and production build passed. All 23 were corrected. Latest CI run passed content validation, production build and the generated-HTML metadata audit across 148 indexable pages.
+- Made `/ads.txt` publisher output environment-driven and updated `.env.example` with the application-stage configuration guidance.
 
 ```
  M lib/site.ts                                   canonical origin → www, APP_URL normalisation

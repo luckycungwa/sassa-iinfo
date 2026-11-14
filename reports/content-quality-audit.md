@@ -1,6 +1,9 @@
 # Content Quality Audit & Humanizer Review Report
 
-**Date:** 4 November 2026  
+> **Status update — 13 November 2026:** This is a historical editorial snapshot, not proof that every current page has been reverified. It originally covered 150 pages. The latest production build generates 200 pages, of which 148 indexable prerendered pages passed the current metadata audit. The previous office-directory claim is superseded: nine province pages now use official regional contacts, while two individual office records are draft/noindex and excluded from the sitemap. CI validates content structure, production build and metadata; it does not fact-check every claim against primary sources. Do not present this report as a current source-by-source accuracy audit.
+
+
+**Original snapshot:** 4 November 2026  
 **Standards:** South African Beneficiary Usability & The Humanizer Editorial Framework  
 **Scope:** Review of all 150 site pages, status definitions, procedural guides, and problem-solving content.
 
@@ -44,7 +47,7 @@ All 150 published pages were reviewed and categorized according to editorial dep
 | :--- | :--- | :--- | :--- |
 | **Category 1: Core Differentiators (Excellent)** | 45 | Status guides, Problem Solver, primary grant overviews, payment hub. | Upgraded with full 4-pillar structure (Means, Causes, Checks, Actions). |
 | **Category 2: Procedural Walkthroughs (Good)** | 48 | Step-by-step guides (status check, phone update, banking changes). | Audited for humanizer rules; verified official links and contacts. |
-| **Category 3: Provincial & Office Directory (Accurate)** | 23 | Office locations, operating hours, queue guidance. | Verified physical branch details and provincial service desks. |
+| **Category 3: Provincial & Office Guidance (Revised)** | 23 (historical) | Province-level SASSA contact guidance and office-finding support. | Nine province pages now use verified regional contacts; two individual branch-detail records are draft/noindex, with unverified local details removed. This is not a current count of published office pages. |
 | **Category 4: Dated Updates & News (Verified)** | 13 | Dated policy announcements and monthly payment revisions. | Verified with author provenance, ISO dates, and NewsArticle schema. |
 | **Category 5: Trust & Policy Pages (Compliant)** | 11 | About, Contact, Editorial Policy, Corrections, Disclaimer, Tools. | Explicit independence declarations and contact channels verified. |
 | **Category 6: Downloadable Forms & Checklists (Utility)** | 10 | Application checklists, sworn affidavits, bank forms. | Download links and step-by-step completion guides checked. |
@@ -55,7 +58,7 @@ All 150 published pages were reviewed and categorized according to editorial dep
 
 The primary differentiator requested for SassaGrantHub is that every status explanation must move beyond mere description to provide actionable triage. 
 
-Across all 20 status guides and the interactive Beneficiary Problem Solver, each status now answers four mandatory questions:
+The editorial target for status explanations is to answer four questions. This framework should be checked page by page; content validation does not prove that every published guide fully meets it:
 
 ```
 [1. WHAT IT MEANS]
@@ -83,4 +86,4 @@ Numbered resolution steps, direct official portal links, phone numbers, document
 
 ## 5. Audit Conclusion
 
-The content ecosystem on SassaGrantHub is now significantly more operational, compassionate, and practically valuable than competitor content. Beneficiaries leave the site with actionable clarity rather than confusion.
+The standards above describe the editorial target for SASSA Grant Hub. A current source-by-source review of all 148 indexable pages is still needed before making broad claims about factual accuracy, completeness or superiority to competitor content.

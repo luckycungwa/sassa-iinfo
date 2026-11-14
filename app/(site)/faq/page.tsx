@@ -4,7 +4,7 @@ import { faqCategories } from "../../../lib/data/faq";
 import { faqSchema, breadcrumbSchema } from "../../../lib/json-ld";
 
 export const metadata = pageMetadata({
-  title: "SASSA FAQ — Common Grant Questions Answered",
+  title: "SASSA Grant FAQs: Common Questions",
   description:
     "Answers to common SASSA questions about application status, payment dates, eligibility, appeals, banking details and official contact channels.",
   path: "/faq",

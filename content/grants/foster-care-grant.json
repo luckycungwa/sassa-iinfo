@@ -3,9 +3,9 @@
   "slug": "/grants/foster-care-grant",
   "classification": "grant-detail",
   "title": "Foster Care Grant — Complete Guide 2026",
-  "description": "Complete guide to the SASSA Foster Care Grant: R1,300 per month per foster child, the Children's Court order you need, how to apply through a social worker, the annual review, and what happens when the court order lapses.",
-  "lastUpdated": "2026-08-25",
-  "version": "1.1.0",
+  "description": "Complete guide to the SASSA Foster Care Grant: R1,300 per month per foster child, the Children's Court order you need, how to apply through a social worker, the court-order review, and what happens when the court order lapses.",
+  "lastUpdated": "2026-11-13",
+  "version": "1.2.0",
   "readingTime": "23 min read",
   "status": "published",
   "author": {
@@ -14,8 +14,8 @@
     "verified": true
   },
   "seo": {
-    "metaTitle": "Foster Child Grant — R1,300/Month & How to Apply (2026)",
-    "metaDescription": "Foster Child Grant pays R1,300/month in 2026. Learn the court-order rules and follow our step-by-step SASSA foster care application and renewal guide.",
+    "metaTitle": "SASSA Foster Child Grant: How to Apply",
+    "metaDescription": "Check Foster Child Grant eligibility, court-order requirements and the steps to apply or renew the grant.",
     "keywords": [
       "foster care grant",
       "SASSA foster child grant",
@@ -33,7 +33,7 @@
       "id": "hero",
       "type": "hero",
       "title": "Foster Care Grant",
-      "description": "Complete guide to the SASSA Foster Care Grant: R1,300 per month per foster child, the Children's Court order you need, how to apply through a social worker, the annual review, and what happens when the court order lapses.",
+      "description": "Complete guide to the SASSA Foster Care Grant: R1,300 per month per foster child, the Children's Court order you need, how to apply through a social worker, the court-order review, and what happens when the court order lapses.",
       "readingTime": "23 min read",
       "lastUpdated": "2026-08-25",
       "cta": {
@@ -49,13 +49,20 @@
       "id": "summary",
       "type": "grant-summary",
       "amount": "R1,300 per month per foster child",
-      "frequency": "Monthly (reviewed annually)",
+      "frequency": "Monthly (court order reviewed every two years)",
       "targetGroup": "Court-appointed foster parents caring for children who cannot live with their biological parents, under 18."
     },
     {
       "id": "intro",
       "type": "paragraph",
       "text": "The SASSA Foster Care Grant provides financial support to foster parents who have been legally appointed by a South African Children's Court to care for a child who cannot live with their biological parents. The most important thing to understand is that there is no income means test for this grant. The amount you receive is based on the child's needs and the existence of a valid court order — not on what you earn. In 2026 the grant pays R1,300 per month for each foster child in your care."
+    },
+    {
+      "id": "foster-amount-source-note",
+      "type": "callout",
+      "intent": "info",
+      "title": "2026 amount update",
+      "text": "The Government of South Africa's Foster Child Grant service page may still display R1,290. The 2026 Budget Speech confirms R1,290 from April and R1,300 from 1 October 2026; this guide reflects the later October amount."
     },
     {
       "id": "what-is-h",
@@ -132,7 +139,7 @@
         ],
         [
           "Renewal",
-          "Reviewed annually with the court order",
+          "Reviewed when the court order expires (currently every two years)",
           "No renewal required until child turns 18"
         ],
         [
@@ -219,7 +226,7 @@
       "type": "callout",
       "intent": "warning",
       "title": "Court Order Review",
-      "text": "Children's Court foster care orders are reviewed annually. You must renew the order with your social worker before it expires, otherwise the grant stops automatically. Do not wait — start the renewal process at least 3 months before expiry."
+      "text": "Children's Court foster care orders are currently reviewed every two years. Check the expiry date on your own order and work with your social worker to renew it before it expires. If the order lapses and is not renewed, the grant can stop. Start the renewal process well before expiry and confirm timing with your social worker."
     },
     {
       "id": "docs-h",
@@ -339,12 +346,12 @@
       "id": "annual-review-h",
       "type": "heading",
       "level": 2,
-      "text": "Annual Review and the Court Order"
+      "text": "Court-order Review and Renewal"
     },
     {
       "id": "annual-review",
       "type": "paragraph",
-      "text": "The Foster Care Grant is reviewed every year because it is tied to the Children's Court order. SASSA will not keep paying once the court order expires, so the renewal of the court order is the renewal of the grant. Work with your social worker each year so the order is extended in time. This is the single most common reason foster parents lose the grant — they miss the annual renewal."
+      "text": "The Foster Care Grant is tied to the validity of the Children's Court order. The court order is currently reviewed every two years; check the expiry date printed on your own order and work with your social worker to renew it before expiry. If the order expires and is not renewed, SASSA can stop payments. Start the process well ahead of the expiry date."
     },
     {
       "id": "renewal-h",
@@ -355,7 +362,7 @@
     {
       "id": "renewal-intro",
       "type": "paragraph",
-      "text": "The Foster Care Grant is not permanent. It is linked to the validity of your Children's Court order, which is reviewed annually. You must renew the court order (through a social worker) each year, and SASSA continues the grant on the strength of the renewed order. Start early so there is no gap in payments."
+      "text": "The Foster Care Grant is linked to the validity of your Children's Court order. The order is currently reviewed every two years. Check the expiry date on your own order and work with your social worker to renew it before it expires. SASSA can stop payments if the order lapses without renewal."
     },
     {
       "id": "renewal-steps",
@@ -363,7 +370,7 @@
       "steps": [
         {
           "title": "Start 3 months before expiry",
-          "description": "Contact your social worker or DSD office at least 3 months before the court order expires."
+          "description": "Contact your social worker or DSD office well before the court order expires to ask about the renewal process and timing."
         },
         {
           "title": "Social worker re-assessment",
@@ -371,7 +378,7 @@
         },
         {
           "title": "Court order renewal",
-          "description": "The social worker files the renewal with the Children's Court. The court reviews and extends the order, usually for another year."
+          "description": "The social worker files the renewal with the Children's Court. The court reviews the placement and may extend the order; confirm the new expiry date with your social worker."
         },
         {
           "title": "Submit renewed order to SASSA",
@@ -395,7 +402,7 @@
       "type": "callout",
       "intent": "warning",
       "title": "Renew Before the Date, Not After",
-      "text": "A lapsed court order means a stopped grant. Mark the expiry date and begin the social worker renewal at least three months before. SASSA cannot pay the foster care grant without a valid order on file."
+      "text": "A lapsed court order can stop the grant. Keep the expiry date visible and begin the renewal process well before it expires. SASSA cannot continue the Foster Care Grant without a valid order on file."
     },
     {
       "id": "turning-18-h",
@@ -532,7 +539,7 @@
       "intent": "danger",
       "title": "SASSA Never Charges a Fee",
       "text": "No one at SASSA will ask you to pay to process a foster care grant or to renew a court order. Anyone demanding money, your PIN, or your card is running a scam."
-      },
+    },
     {
       "id": "scams-list",
       "type": "list",
@@ -575,10 +582,26 @@
       "id": "key-figures-foster",
       "type": "stat-bar",
       "stats": [
-        { "label": "Monthly amount", "value": "R1,300", "description": "Per foster child, effective 1 October 2026 (R1,290 from April 2026)" },
-        { "label": "Means test", "value": "None", "description": "Based on a valid court order, not your income" },
-        { "label": "Review", "value": "Annually", "description": "The Children's Court order is renewed each year" },
-        { "label": "Appeal window", "value": "30 days", "description": "To the ITSAA; portal accepts up to 90 days" }
+        {
+          "label": "Monthly amount",
+          "value": "R1,300",
+          "description": "Per foster child, effective 1 October 2026 (R1,290 from April 2026)"
+        },
+        {
+          "label": "Means test",
+          "value": "None",
+          "description": "Based on a valid court order, not your income"
+        },
+        {
+          "label": "Review",
+          "value": "Every 2 years",
+          "description": "The Children's Court order is currently reviewed every two years"
+        },
+        {
+          "label": "Appeal window",
+          "value": "30 days",
+          "description": "To the ITSAA; portal accepts up to 90 days"
+        }
       ]
     },
     {
@@ -611,7 +634,7 @@
     {
       "id": "adoption-p2",
       "type": "paragraph",
-      "text": "Because adoption ends the grant, think carefully before starting adoption if the foster care grant is what supports the child's care. Speak to your social worker about the long-term plan for the child. Sometimes a child remains in foster care for years precisely because the court has not ended the parents' rights and an adoption is not on the cards. Keep the annual court-order renewal going for as long as the placement is a foster placement."
+      "text": "Because adoption ends the grant, think carefully before starting adoption if the foster care grant is what supports the child's care. Speak to your social worker about the long-term plan for the child. Sometimes a child remains in foster care for years precisely because the court has not ended the parents' rights and an adoption is not on the cards. Keep the court-order renewal current for as long as the placement is a foster placement."
     },
     {
       "id": "multiple-h",
@@ -646,17 +669,32 @@
       "type": "info-card",
       "icon": "calendar",
       "title": "Mark the expiry date",
-      "text": "Write the court order's expiry date where you will see it. Begin the social worker renewal at least three months before, because the grant stops the moment the order lapses if it is not renewed."
+      "text": "Write the court order's expiry date where you will see it. Contact your social worker well before that date to start the renewal process, because the grant can stop if the order lapses."
     },
     {
       "id": "application-flow-foster",
       "type": "process-diagram",
       "steps": [
-        { "label": "Social worker", "description": "DSD social worker assesses the child and your home" },
-        { "label": "Court order", "description": "Children's Court places the child in your foster care" },
-        { "label": "Apply at SASSA", "description": "Take the order, IDs, proof of residence, and bank details" },
-        { "label": "Decision", "description": "Approved (backdated pay) or declined (appeal to ITSAA)" },
-        { "label": "Annual renewal", "description": "Renew the court order each year and update SASSA" }
+        {
+          "label": "Social worker",
+          "description": "DSD social worker assesses the child and your home"
+        },
+        {
+          "label": "Court order",
+          "description": "Children's Court places the child in your foster care"
+        },
+        {
+          "label": "Apply at SASSA",
+          "description": "Take the order, IDs, proof of residence, and bank details"
+        },
+        {
+          "label": "Decision",
+          "description": "Approved (backdated pay) or declined (appeal to ITSAA)"
+        },
+        {
+          "label": "Court-order renewal",
+          "description": "Renew the court order before it expires and update SASSA with the new order."
+        }
       ]
     },
     {
@@ -673,7 +711,7 @@
     {
       "id": "use-of-money-p1",
       "type": "paragraph",
-      "text": "The Foster Care Grant is paid for the child's care, and you are expected to use it for the child's needs — food, clothing, school costs, and so on. Because there is no means test, a foster parent with higher income still receives the full amount; this reflects that the payment follows the court's placement decision rather than your wallet. Keep simple records of how the child is supported so you can show the social worker during the annual review that the placement is working."
+      "text": "The Foster Care Grant is paid for the child's care, and you are expected to use it for the child's needs — food, clothing, school costs, and so on. Because there is no means test, a foster parent with higher income still receives the full amount; this reflects that the payment follows the court's placement decision rather than your wallet. Keep simple records of how the child is supported so you can show the social worker during the court-order review that the placement is working."
     },
     {
       "id": "payment-delay-foster-p1",
@@ -734,7 +772,7 @@
         },
         {
           "question": "How often must the court order be renewed?",
-          "answer": "The Children's Court order behind a foster care grant is reviewed annually. You must renew it with your social worker each year and give the renewed order to SASSA so payments continue."
+          "answer": "The Children's Court order is currently reviewed every two years. Check the expiry date on your own order and work with your social worker to renew it before it expires. Give the renewed order to SASSA so payments can continue."
         },
         {
           "question": "What happens if I forget to renew the court order?",
@@ -826,6 +864,17 @@
     {
       "title": "Appeals",
       "slug": "/appeals"
+    }
+  ],
+  "lastReviewed": "2026-11-13",
+  "sources": [
+    {
+      "label": "Foster Child Grant — Government of South Africa",
+      "url": "https://www.gov.za/services/child-care-social-benefits/foster-child-grant"
+    },
+    {
+      "label": "2026 Budget Speech — social grant increases",
+      "url": "https://www.gov.za/2026BudgetSpeech"
     }
   ]
 }
