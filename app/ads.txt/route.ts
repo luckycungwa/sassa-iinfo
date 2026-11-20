@@ -1,20 +1,13 @@
-const configuredId = (process.env.NEXT_PUBLIC_ADSENSE_ID || "").trim();
-
-function normalizePublisherId(id: string): string {
-  const base = id.replace(/^ca-/, "");
-  return base.startsWith("pub-") ? base : base ? `pub-${base}` : "";
-}
+const publisherId = "pub-8180440849942257";
 
 export function GET() {
-  const publisherId = normalizePublisherId(configuredId);
-  const body = publisherId
-    ? `google.com, ${publisherId}, DIRECT, f08c47fec0942fa0\n`
-    : "";
-
-  return new Response(body, {
-    headers: {
-      "Content-Type": "text/plain; charset=utf-8",
-      "Cache-Control": "public, max-age=3600",
-    },
-  });
+  return new Response(
+    `google.com, ${publisherId}, DIRECT, f08c47fec0942fa0\n`,
+    {
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "public, max-age=3600",
+      },
+    }
+  );
 }
